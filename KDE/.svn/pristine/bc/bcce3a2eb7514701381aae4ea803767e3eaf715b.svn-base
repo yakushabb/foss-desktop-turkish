@@ -1,0 +1,256 @@
+# Emir SARI <emir_sari@icloud.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"PO-Revision-Date: 2022-07-23 12:15+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 22.04.2\n"
+
+#: src/bin/cli/main.cpp:130
+#, qt-format
+msgctxt "QObject|"
+msgid "Error: %1\n"
+msgstr "Hata: %1\n"
+
+#: src/bin/cli/main.cpp:135
+#, qt-format
+msgctxt "QObject|"
+msgid "Warning: %1\n"
+msgstr "Uyarı: %1\n"
+
+#: src/bin/cli/main.cpp:148
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"# %1\n"
+"Details:[%3 (%2)]\n"
+msgstr ""
+"# %1\n"
+"Ayrıntılar: [%3 (%2)]\n"
+
+#: src/bin/cli/main.cpp:280
+#, qt-format
+msgctxt "QObject|"
+msgid "Result: e[0;%4;1m%1e[0m - details:[%3 (%2)]"
+msgstr "Sonuç: e[0;%4;1m%1e[0m - ayrıntılar: [%3 (%2)]"
+
+#: src/bin/cli/main.cpp:283
+#, qt-format
+msgctxt "QObject|"
+msgid "Result: %1 - details:[%3 (%2)]"
+msgstr "Sonuç: %1 - ayrıntılar: [%3 (%2)]"
+
+#: src/libparser/diceparser.cpp:79
+msgctxt "QObject|"
+msgid ""
+"Nothing was understood. To roll dice: !1d6 - full documentation: <a href="
+"\"https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md\">https://"
+"github.com/Rolisteam/DiceParser/blob/master/HelpMe.md</a>"
+msgstr ""
+"Bir şey anlaşılmadı. Zar atmak için: !1d6 - tam belgelendirme: <a href="
+"\"https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md\">https://"
+"github.com/Rolisteam/DiceParser/blob/master/HelpMe.md</a>"
+
+#: src/libparser/diceparser.cpp:90
+#, qt-format
+msgctxt "QObject|"
+msgid "Unexpected character at %1 - end of command was ignored \"%2\""
+msgstr "%1 konumunda beklenmedik karakter - komut bitişi yok sayıldı \"%2\""
+
+#: src/libparser/diceroller.cpp:61
+#, qt-format
+msgctxt "DiceRoller|"
+msgid ""
+"Error:\n"
+"%1\n"
+"Warnings:\n"
+"%2"
+msgstr ""
+"Hata:\n"
+"%1\n"
+"Uyarılar:\n"
+"%2"
+
+#: src/libparser/node/dicerollernode.cpp:25
+msgctxt "QObject|"
+msgid "No dice to roll"
+msgstr "Atılacak zar yok"
+
+#: src/libparser/node/dicerollernode.cpp:34
+msgctxt "QObject|"
+msgid "More unique values asked than possible values (D operator)"
+msgstr "Olası değerlerden daha çok benzersiz değer istendi (D işleç)"
+
+#: src/libparser/node/explodedicenode.cpp:49
+#: src/libparser/node/rerolldicenode.cpp:49
+#, qt-format
+msgctxt "QObject|"
+msgid "Condition (%1) cause an endless loop with this dice: %2"
+msgstr "Koşul (%1), bu zarlarla sonsuz bir döngüye neden oldu: %2"
+
+#: src/libparser/node/helpnode.cpp:34
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"Rolisteam Dice Parser:\n"
+"\n"
+"Example (with ! as prefix):\n"
+"!2d6\n"
+"!1d20\n"
+"!6d10e10k3 (L5R)\n"
+"\n"
+"Full documentation at: %1"
+msgstr ""
+"Rolisteam Zar Ayrıştırıcısı:\n"
+"\n"
+"Örnek (! önek olarak):\n"
+"!2d6\n"
+"!1d20\n"
+"!6d10e10k3 (L5R)\n"
+"\n"
+"Tam belgelendirme için: %1"
+
+#: src/libparser/node/helpnode.cpp:61
+msgctxt "HelpNode|"
+msgid ""
+"Rolisteam Dice Parser:\n"
+"Full documentation at"
+msgstr ""
+"Rolisteam Zar Ayrıştırıcısı:\n"
+"Tam belgelendirme için"
+
+#: src/libparser/node/jumpbackwardnode.cpp:123
+msgctxt "QObject|"
+msgid ""
+" The @ operator expects dice result. Please check the documentation to fix "
+"your command."
+msgstr ""
+" @ işleci, zar sonucu bekliyor. Komutunuzu düzeltmek için belgelendimeye bir "
+"bakın."
+
+#: src/libparser/node/keepdiceexecnode.cpp:75
+#, qt-format
+msgctxt "QObject|"
+msgid " You ask to keep %1 dice but the result only has %2"
+msgstr " %1 zarı tutmak istiyorsunuz; ancak sonuçta yalnızca %2 var"
+
+#: src/libparser/node/listaliasnode.cpp:48
+msgctxt "QObject|"
+msgid "List of Alias:\n"
+msgstr "Arma Listesi:\n"
+
+#: src/libparser/node/listsetrollnode.cpp:71
+msgctxt "ListSetRollNode|"
+msgid "More unique values asked than possible values (L operator)"
+msgstr "Olası değerlerden daha çok benzersiz değer istendi (L işleci)"
+
+#: src/libparser/node/mergenode.cpp:34
+msgctxt "QObject|"
+msgid "No previous node before Merge operator"
+msgstr "Birleştirme işlecinden önce düğüm yok"
+
+#: src/libparser/node/occurencecountnode.cpp:149
+msgctxt "QObject|"
+msgid "No matching result"
+msgstr "Eşleşen sonuç yok"
+
+#: src/libparser/node/paintnode.cpp:63
+msgctxt "QObject|"
+msgid "No previous node before Paint operator"
+msgstr "Boyama işlecinden önce düğüm yok"
+
+#: src/libparser/node/rerolldicenode.cpp:98
+msgctxt "QObject|"
+msgid ""
+" The a operator expects dice result. Please check the documentation and fix "
+"your command."
+msgstr ""
+" a işleci, zar sonucu bekliyor. Komutunuzu düzeltmek için belgelendimeye bir "
+"bakın."
+
+#: src/libparser/node/scalaroperatornode.cpp:72
+#, qt-format
+msgctxt "QObject|"
+msgid "No Valid result in arithmetic operation: %1"
+msgstr "Aritmetik işlemde geçerli sonuç yok: %1"
+
+#: src/libparser/node/scalaroperatornode.cpp:139
+msgctxt "QObject|"
+msgid "Division by zero"
+msgstr "Sıfırla bölme"
+
+#: src/libparser/node/variablenode.cpp:39
+#, qt-format
+msgctxt "QObject|"
+msgid "No variable at index:%1"
+msgstr "İndekste değişken yok: %1"
+
+#: src/libparser/parsingtoolbox.cpp:1446
+msgctxt "QObject|"
+msgid "Expected closing parenthesis - can't validate the inside."
+msgstr "Kapatma ayracı bekleniyordu - içindeki doğrulanamıyor."
+
+#: src/libparser/parsingtoolbox.cpp:1683
+msgctxt "QObject|"
+msgid "Validator is missing after the c operator. Please, change it"
+msgstr "c işlecinden sonra doğrulayıcı eksik. Lütfen değiştirin"
+
+#: src/libparser/parsingtoolbox.cpp:1703
+#, qt-format
+msgctxt "QObject|"
+msgid "Validator is always true for the %1 operator. Please, change it"
+msgstr "%1 işleci için doğrulayıcı her zaman doğru. Lütfen değiştirin"
+
+#: src/libparser/parsingtoolbox.cpp:1712
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"Condition can't be reached, causing endless loop. Please, change the %1 "
+"option condition"
+msgstr ""
+"Koşul erişilemediğinden sonsuz döngüye neden oluyor. Lütfen %1 seçeneği "
+"koşulunu değiştirin"
+
+#: src/libparser/parsingtoolbox.cpp:1738
+#, qt-format
+msgctxt "QObject|"
+msgid "Validator is missing after the %1 operator. Please, change it"
+msgstr "%1 işlecinden sonra doğrulayıcı eksik. Lütfen değiştirin"
+
+#: src/libparser/parsingtoolbox.cpp:1753
+#, qt-format
+msgctxt "QObject|"
+msgid "This condition %1 introduces an endless loop. Please, change it"
+msgstr "%1 koşulu, sonsuz bir döngüye neden oluyor. Lütfen değiştirin"
+
+#: src/libparser/parsingtoolbox.cpp:1769
+msgctxt "QObject|"
+msgid "Validator is missing after the e operator. Please, change it"
+msgstr "e işlecinden sonra doğrulayıcı eksik. Lütfen değiştirin"
+
+#: src/libparser/parsingtoolbox.cpp:1847
+msgctxt "QObject|"
+msgid "Missing parameter for Painter node (p)"
+msgstr "Boyama düğümü için eksik parametre (p)"
+
+#: src/libparser/parsingtoolbox.cpp:2065
+#, qt-format
+msgctxt "QObject|"
+msgid "Dice with %1 face(s) does not exist. Please, put a value higher than 0"
+msgstr "%1 yüzlü bir zar yok. Lütfen 0'dan büyük bir değer girin"
+
+#: src/libparser/parsingtoolbox.cpp:2124
+msgctxt "QObject|"
+msgid ""
+"List is missing after the L operator. Please, add it (e.g : 1L[sword,spear,"
+"gun,arrow])"
+msgstr ""
+"L işlecinden sonra liste eksik. Lütfen ekleyin (örneğin: 1L[kılıç,mızrak,"
+"tabanca,ok])"

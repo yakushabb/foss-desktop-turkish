@@ -1,0 +1,534 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN"
+"dtd/kdedbx45.dtd" [
+<!ENTITY % Turkish "INCLUDE">
+]>
+
+<refentry lang="&language;">
+
+<refentryinfo>
+  <title
+>&kde-frameworks;: KDesignerPlugin</title>
+  <author
+><firstname
+>Richard</firstname
+> <surname
+>Johnson</surname
+> <contrib
+>Özgün belgelendirmeyi yazdı.</contrib>
+    <affiliation>
+      <address
+><email
+>rjohnson@kde.org</email
+></address>
+    </affiliation>
+  </author>
+  <author
+><firstname
+>Alex</firstname
+> <surname
+>Merry</surname
+> <contrib
+>Belgelendirmeyi &kf5-full; için güncelledi.</contrib>
+    <affiliation>
+      <address
+><email
+>alexmerry@kde.org</email
+></address>
+    </affiliation>
+  </author>
+  <date
+>2014-05-28</date>
+  <releaseinfo
+>Frameworks 5.0</releaseinfo>
+  <productname
+>KDE Frameworks</productname>
+</refentryinfo>
+
+<refmeta>
+  <refentrytitle
+><command
+>kgendesignerplugin</command
+></refentrytitle>
+  <manvolnum
+>1</manvolnum>
+</refmeta>
+
+
+
+<refnamediv>
+  <refname
+><command
+>kgendesignerplugin</command
+></refname>
+  <refpurpose
+>&Qt; Designer için araç takımı eklentileri üretir. </refpurpose>
+</refnamediv>
+
+
+
+<refsynopsisdiv>
+  <cmdsynopsis
+><command
+>kgendesignerplugin</command
+> <group choice="opt" rep="repeat"
+><replaceable class="option"
+>SEÇENEKLER</replaceable
+></group
+> <arg choice="plain"
+><replaceable
+>dosya</replaceable
+></arg
+> </cmdsynopsis>
+</refsynopsisdiv>
+
+
+
+<refsect1>
+  <title
+>Açıklama</title>
+  <para
+>&Qt; Designer için olan özel araç takımı eklentileri genelde standart bir örüntüyü izler ve eklenti tarafından sağlanan sınıflar genelde durgun bilgi sağlarlar. Bunun yanında normalde yalnızca temel bir yapıcı çağrısı olan bir örnek oluşturmak için işlevler de gelir. <command
+>kgendesignerplugin</command
+> komutu, yeni araç takımları sağlayan kitaplıkların geliştiricilerine hiçbir basmakalıp kod yazmadan yalnızca bir ini biçemli temel bir tanım dosyası sağlayarak böyle bir eklenti oluşturabilmelerine izin verir. </para>
+
+  <para
+><command
+>kgendesignerplugin</command
+> çoğu ayar için anlamlı öntanımlılar seçer; böylece en az yapıladırmayla çalışmaya başlayabilirsiniz. </para>
+</refsect1>
+
+
+
+<refsect1>
+  <title
+>Seçenekler</title>
+  <variablelist>
+    <varlistentry>
+      <term
+><option
+>-o <replaceable
+>dosya</replaceable
+></option
+></term>
+      <listitem>
+        <para
+>Üretilen C++ dosyasının adı. Verilmezse <varname
+>stdout</varname
+> kullanılır. </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term
+><option
+>-n <replaceable
+>eklenti adı</replaceable
+></option
+></term>
+      <listitem>
+        <para
+>Uyumluluk için sağlanır. Girdi dosyasındaki PluginName seçeneğinin öntanımlı değeri. </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term
+><option
+>-g <replaceable
+>grup</replaceable
+></option
+></term>
+      <listitem>
+        <para
+>Uyumluluk için sağlanır. Girdi dosyasındaki DefaultGroup seçeneğinin öntanımlı değeri. </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term
+><option
+>--author</option
+></term>
+      <listitem>
+        <para
+>Yazar bilgisini gösterin.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term
+><option
+>--license</option
+></term>
+      <listitem>
+        <para
+>Lisans bilgisini gösterin.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term
+><option
+>-h, --help</option
+></term>
+      <listitem>
+        <para
+>Temel bir yardım metni gösterin.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term
+><option
+>-v , --version</option
+></term>
+      <listitem>
+        <para
+>Sürüm bilgisini gösterin.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</refsect1>
+
+
+
+<refsect1>
+  <title
+>Dosya Biçimi</title>
+  <para
+>Girdi dosyası, bir araç takımı kümesini tanımlayan bir ini biçemli yapılandırma dosyasıdır (daha doğrusu, KConfig çatısında desteklenen biçimdir). Bir <literal
+>[Global]</literal
+> bölümünde eklenti hakkında genel bilgi sağlar ve eklentide içerilmesi gereken her bir araç takımı için ayrı bir bölüm içerir. </para>
+
+  <para
+><literal
+>[Global]</literal
+> bölümünde aşağıdaki girdiler olabilir: <variablelist>
+      <varlistentry>
+        <term
+><varname
+>DefaultGroup</varname
+></term>
+        <listitem>
+          <para
+>Sınıf bölümlerindeki <varname
+>Group</varname
+> girdisi için öntanımlı değer (<option
+>-g</option
+> seçeneği verilmediği sürece öntanımlı değer "<literal
+>Custom</literal
+>"dır). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>Includes</varname
+></term>
+        <listitem>
+          <para
+>Gereken Include'ların virgülle ayrılmış bir listesi (öntanımlı: boş). Dosyada daha sonra belirtilen araç takımlarının üstbilgi dosyaları burada listelenmemelidir; bunun yerine bu, eklentinin kendi kullanımı için olan özel üstbilgiler içindir; örneğin, önizlemeleri sağlayan sınıflar gibi. </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>PluginName</varname
+></term>
+        <listitem>
+          <para
+>Eklentideki ana C++ sınıfının adı (<option
+>-n</option
+> seçeneği verilmediği sürece öntanımlı değer "<literal
+>WidgetsPlugin</literal
+>"dir). </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </para>
+
+  <para
+>Her bir sınıfın aşağıdaki girdileri içerebilen kendi <literal
+>[<replaceable
+>ClassName</replaceable
+>]</literal
+> bölümü olmalıdır: <variablelist>
+      <varlistentry>
+        <term
+><varname
+>CodeTemplate</varname
+></term>
+        <listitem>
+          <para
+>Eklentinin <code
+>codeTemplate()</code
+> işlevi tarafından döndürülen değer; &Qt; Designer tarafından "future use" olarak imlenmiştir (öntanımlı: boş). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>ConstructorArgs</varname
+></term>
+        <listitem>
+          <para
+><literal
+>ImplClass</literal
+> tarafından verilen yapıcı sınıfına geçirilecek argümanlar; bunlar, ayraçlarla kapatılmalıdır (öntanımlı: "<literal
+>(parent)</literal
+>"). Kullanılabilir olacağının garantisi verilen tek değişken <varname
+>parent</varname
+> değişkenidir; bu, &Qt; Designer tarafından geçirilen üst <code
+>QWidget</code
+>'tır. </para>
+          <para
+><literal
+>CreateWidget</literal
+> ayarlıysa bu girdi yok sayılır. </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>CreateWidget</varname
+></term>
+        <listitem>
+          <para
+>Bu kod, araç takımının bir örneğinin oluşturulması için gereklidir (öntanımlı: <literal
+>ImplClass</literal
+> girdisi tarafından verilen sınıfın bir örneğini oluşturmak için <code
+>new</code
+>; burada <literal
+>ConstructorArgs</literal
+> tarafından verilen argümanlar geçirilir). <literal
+>ImplClass</literal
+> ve <literal
+>ConstructorArgs</literal
+> üzerine olan notlara bakın. </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>DomXML</varname
+></term>
+        <listitem>
+          <para
+>Araç takımının bir &XML; arayüzü açıklaması (öntanımlı: &Qt; Designer eklenti üstbilgileri tarafından sağlanan öntanımlıdır). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>Group</varname
+></term>
+        <listitem>
+          <para
+>&Qt; Designer altında araç takımının görüntüleneceği grup (öntanımlı: <literal
+>[Global]</literal
+> bölümünün <varname
+>DefaultGroup</varname
+> girdisindeki grup). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>IconName</varname
+></term>
+        <listitem>
+          <para
+>&Qt; Designer araç takımı listesinde bu araç takımı için kullanılacak görsel dosyası veya standart simge adı (öntanımlı: bölüm adı ile adlandırılmış, fazlalık iki noktalar kaldırılmış, özkaynak dosyasındaki "pics" dizininde derlenmiş bir PNG dosyası; örneğin, <literal
+>[Foo]</literal
+> bölümündeki <filename
+>:/pics/Foo.png</filename
+> veya <literal
+>[Foo::Bar]</literal
+> bölümündeki <filename
+>:/pics/FooBar.png</filename
+>). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>ImplClass</varname
+></term>
+        <listitem>
+          <para
+>&Qt; Designer kullanımı için bir araç takımının örneğini oluşturmak için kullanılacak sınıf (öntanımlı: bölüm adı). Bunun <literal
+>DomXML</literal
+> tarafından belirlenen bir nihai uygulama tarafından oluşturulması gereken sınıf olması gereği olmadığını not alın. </para>
+          <para
+><literal
+>CreateWidget</literal
+> ayarlıysa bu girdi yok sayılır. </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>IncludeFile</varname
+></term>
+        <listitem>
+          <para
+>Bu araç takımını kullanmak için içerilmesi gereken üstbilgi (öntanımlı: bölüm adının küçük harfli sürümü; tüm iki noktalar kaldırılmış ve sonuna .h eklenmiş olarak; örneğin, <literal
+>[Foo]</literal
+> bölümünde <literal
+>foo.h</literal
+>, <literal
+>[Foo::Bar]</literal
+> bölümünde <literal
+>foobar.h</literal
+>). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>IsContainer</varname
+></term>
+        <listitem>
+          <para
+>Bu araç takımının başka araç takımlarını içerip içeremeyeceği (öntanımlı: <literal
+>false</literal
+>). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>ToolTip</varname
+></term>
+        <listitem>
+          <para
+>&Qt; Designer araç takımı listesinde araç takımının üzerine fareyle gelindiğinde görüntülenecek araç ipucu (öntanımlı: sonuna "Widget" eklenmiş bölüm adı; örneğin, <literal
+>[Foo]</literal
+> bölümünde <literal
+>Foo Widget</literal
+>). </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term
+><varname
+>WhatsThis</varname
+></term>
+        <listitem>
+          <para
+>&Qt; Designer'da araç takımı ile ilişkilendirilen Bu Nedir? metni (öntanımlı: sonuna "Widget" eklenmiş bölüm adı; örneğin, <literal
+>[Foo]</literal
+> bölümünde <literal
+>Foo Widget</literal
+>). </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </para>
+</refsect1>
+
+
+
+<refsect1>
+  <title
+>Örnekler</title>
+  <para
+>En yalın açıklama dosyası şöyle görünebilir: <screen language="ini">
+<![CDATA[
+[Foo]
+ToolTip=Foo'ları görüntüler
+[Bar]
+ToolTip=Çubuk düzenleyici
+]]>
+    </screen
+> Her sınıfın en azından bir anahtar kümesinin olması gerektiğini not edin (bu örnekte <literal
+>ToolTip</literal
+>), aksi takdirde yok sayılır. </para>
+  <para
+>Genellikle, en azından kullanıcıya görünür olan metni değiştirmek istersiniz; bu da <literal
+>ToolTip</literal
+>, <literal
+>WhatsThis</literal
+> ve <literal
+>Group</literal
+> girdilerine denk gelir. Ek olarak, olası sembol çakışmalarını ve hata ayıklayıcıların kafasını karıştırmamak için eklenti adını ayarlamak iyi bir fikir olabilir (hem hata ayıklayıcı uygulaması hem de hata ayıklamayı yapan kişi için): <screen language="ini"
+><![CDATA[
+[Global]
+PluginName=FooWidgets
+DefaultGroup=Display
+
+[Foo]
+ToolTip=Ayıları görüntüler
+WhatsThis=Dans eden ayılar görüntüleyen bir görsel araç takımı
+
+[Bar]
+ToolTip=Bar düzenleyici
+WhatsThis=Ayıların çubuklarını düzenleme arayüzü
+Group=Editing
+]]>
+    </screen>
+  </para>
+  <para
+>Ad alanına alınmış sınıflarınız veya yapıcılara sağlanması gereken ek seçenekler varsa daha karmaşık dosyalara gereksinim olabilir; örneğin: <screen language="ini"
+><![CDATA[
+[Global]
+PluginName=FooWidgets
+DefaultGroup=Foo
+
+[Foo::Bar]
+ToolTip=Çubukları görüntüler
+WhatsThis=Ayıları belirli bir biçimde görüntüleyen bir araç takımı
+IncludeFile=foo/bar.h
+IconName=:/previews/bar.png
+
+[Foo::Baz]
+IncludeFile=foo/baz.h
+ConstructorArgs=(Foo::Baz::SomeOption, parent)
+Group=Foo (Special)
+IsContainer=true
+IconName=:/previews/baz.png
+]]>
+    </screen>
+  </para>
+  <para
+>Bazen, özellikle karmaşık araç takımlarının &Qt; Designer ile kullanım için özel bir "önizleme sınıfı"na gereksinimi olabilir; bu, gerçek araç takımının ek bir şeyler daha yapan bir alt sınıfı veya tümüyle farklı bir gerçeklemesi de olabilir. <screen language="ini"
+><![CDATA[
+[Global]
+Includes=foopreviews.h
+
+[FancyWidget]
+ImplClass=FancyWidgetPreview
+]]>
+    </screen>
+  </para>
+</refsect1>
+
+
+
+<refsect1>
+  <title
+>Ayrıca Bakınız</title>
+  <variablelist>
+    <varlistentry>
+      <term>
+        <uri
+>https://doc.qt.io/qt-5/designer-creating-custom-widgets.html</uri>
+      </term>
+      <listitem>
+        <para
+>Özel araç takımları için eklenti oluşturma üzerine &Qt; Designer belgelendirmesi.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</refsect1>
+
+
+
+<refsect1>
+  <title
+>Hatalar</title>
+  <para
+>Hataları bildirmek için lütfen <ulink url="https://bugs.kde.org"
+>&kde;'nin hata izleyicisini</ulink
+> kullanın, yazarlara doğrudan e-posta göndermeyin. </para>
+</refsect1>
+
+</refentry>
+<!--
+vim:sts=2:sw=2:et
+-->

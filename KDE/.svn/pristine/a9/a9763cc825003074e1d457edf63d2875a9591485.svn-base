@@ -1,0 +1,131 @@
+#
+# Emir SARI <emir_sari@icloud.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
+"PO-Revision-Date: 2023-12-02 14:35+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 23.11.70\n"
+
+#. Tag: title
+#: copyhowto.docbook:2
+#, no-c-format
+msgid "How-To: Copying a Partition"
+msgstr "Nasıl Yapılır: Bölüntü Kopyalama"
+
+#. Tag: para
+#: copyhowto.docbook:4
+#, no-c-format
+msgid ""
+"This how-to describes copying a partition. We will assume the intention is "
+"to copy a partition from one device to another and overwriting an existing "
+"target partition, but the general procedure would not be much different when "
+"copying to the same device or to some unallocated area."
+msgstr ""
+"Bu nasıl yapılır, bir bölüntüyü kopyalamayı açıklar. Amacın bir bölüntüyü "
+"bir aygıttan diğerine kopyalamak ve var olan bir hedef bölüntünün üzerine "
+"yazmak olduğunu varsayacağız; ancak aynı aygıta veya ayrılmamış bir alana "
+"kopyalarken genel prosedür çok farklı olmayacaktır."
+
+#. Tag: para
+#: copyhowto.docbook:8
+#, no-c-format
+msgid "The following screenshot shows how the source device looks like:"
+msgstr "Aşağıdaki ekran görüntüsü, kaynak aygıtın nasıl göründüğünü gösterir:"
+
+#. Tag: phrase
+#: copyhowto.docbook:16
+#, no-c-format
+msgid "Main window with source device"
+msgstr "Kaynak aygıt ile ana pencere"
+
+#. Tag: para
+#: copyhowto.docbook:21
+#, no-c-format
+msgid ""
+"The source partition in our example will be <quote>sdb1</quote> which is "
+"currently mounted, indicated by the lock-icon next to the mount point name "
+"in the screen shot. A mounted partition can not be copied, thus you first "
+"need to unmount it: Click on it then select <xref linkend=\"menu-partition-"
+"mount\"/>."
+msgstr ""
+"Örneğimizdeki kaynak bölüntü, ekran görüntüsünde bağlama noktası adının "
+"yanındaki kilit simgesiyle gösterilen, şu anda takılı olan <quote>sdb1</"
+"quote> olacaktır. Bağlanan bir bölüntü kopyalanamaz, bu nedenle önce onun "
+"bağlantısını kesmeniz gerekir: Üzerine tıklayın ve ardından <xref linkend="
+"\"menu-partition-mount\"/> ögesini seçin."
+
+#. Tag: para
+#: copyhowto.docbook:25
+#, no-c-format
+msgid ""
+"After unmounting the partition the lock icon has gone and it is now possible "
+"to select <xref linkend=\"menu-partition-copy\"/>. This puts <quote>sdb1</"
+"quote> in &partman;'s clipboard; in other words: <quote>sdb1</quote> is now "
+"the partition that will be inserted when you select <xref linkend=\"menu-"
+"partition-paste\"/>."
+msgstr ""
+"Bölüntü bağlantısını kestikten sonra kilit simgesi kayboldu ve artık <xref "
+"linkend=\"menu-partition-copy\"/> ögesini seçmek olanaklı. Bu, <quote>sdb1</"
+"quote> ögesini &partman; uygulamasının panosuna yerleştirir; başka bir "
+"deyişle: <quote>sdb1</quote> artık <xref linkend=\"menu-partition-paste\"/> "
+"seçtiğinizde eklenecek olan bölüntüdür."
+
+#. Tag: para
+#: copyhowto.docbook:29
+#, no-c-format
+msgid ""
+"The destination device for copying in this how-to is <quote>/dev/sdc</"
+"quote>. Click on it in the Devices panel. This is how the device looks like "
+"before copying:"
+msgstr ""
+"Bu nasıl yapılır belgesinde kopyalama için hedef aygıt <quote>/dev/sdc</"
+"quote> şeklindedir. Aygıtlar panelinde üzerine tıklayın. Kopyalamadan önce "
+"aygıt şu şekilde görünür:"
+
+#. Tag: phrase
+#: copyhowto.docbook:37
+#, no-c-format
+msgid "Main window with destination device before copying"
+msgstr "Kopyalamadan önce hedef aygıtı içeren ana pencere"
+
+#. Tag: para
+#: copyhowto.docbook:42
+#, no-c-format
+msgid ""
+"The partition to overwrite is <quote>sdc5</quote>. To paste the copied "
+"partition into it, click on it and select <xref linkend=\"menu-partition-"
+"paste\"/>. You will see the operation to copy the partition has been added "
+"to the list of pending operations. Note that there is no dialog box required "
+"to insert the partition as would be the case if you pasted into an "
+"unallocated area: Beginning and end of the pasted partition are determined "
+"by the overwritten partition."
+msgstr ""
+"Üzerine yazılacak bölüntü <quote>sdc5</quote> biçimindedir. Kopyalanan "
+"bölüntüyü içine yapıştırmak için üzerine tıklayın ve <xref linkend=\"menu-"
+"partition-paste\"/> ögesini seçin. Bölüntüyü kopyalama işleminin bekleyen "
+"işlemler listesine eklendiğini göreceksiniz. Ayrılmamış bir alana "
+"yapıştırdığınızda olduğu gibi, bölüntüyü eklemek için gerekli bir iletişim "
+"kutusu olmadığını unutmayın: Yapıştırılan bölüntünün başlangıcı ve sonu, "
+"üzerine yazılan bölüntü tarafından belirlenir."
+
+#. Tag: para
+#: copyhowto.docbook:46
+#, no-c-format
+msgid ""
+"Now select <xref linkend=\"menu-edit-apply\"/> and the partition will be "
+"copied. See the <link linkend=\"howto-resizepartition\">how-to on resizing "
+"partitions</link> for details about applying operations."
+msgstr ""
+"Şimdi <xref linkend=\"menu-edit-apply\"/> ögesini seçin, bölüntü "
+"kopyalanacaktır. İşlemleri uygulamayla ilgili ayrıntılar için <link linkend="
+"\"howto-resizepartition\">bölüntüleri yeniden boyutlandırma hakkında nasıl "
+"yapılır</link> konusuna bakın."
