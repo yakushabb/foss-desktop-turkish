@@ -1,0 +1,470 @@
+# Turkish translation of Console.
+# Copyright (C) 2019-2023 Console COPYRIGHT HOLDER
+# This file is distributed under the same license as the Console package.
+#
+# Sabri Ünal <libreajans@gmail.com>, 2019, 2020, 2023.
+# Muhammet Kara <muhammetk@gmail.com>, 2021.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2019-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Console master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/console/issues\n"
+"POT-Creation-Date: 2024-01-22 13:36+0000\n"
+"PO-Revision-Date: 2023-11-09 20:50+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.1\n"
+
+#: data/org.gnome.Console.desktop.in.in:3
+#: data/org.gnome.Console.metainfo.xml.in.in:8 src/kgx-application.h:27
+msgid "Console"
+msgstr "Konsol"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Console.desktop.in.in:8
+msgid "command;prompt;cmd;commandline;run;shell;terminal;kgx;kings cross;"
+msgstr ""
+"komut;istem;cmd;komut satırı;çalıştır;kabuk;uçbirim;terminal;kgx;kings cross;"
+
+#: data/org.gnome.Console.desktop.in.in:21
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: data/org.gnome.Console.desktop.in.in:27 src/kgx-window.ui:164
+msgid "New Tab"
+msgstr "Yeni Sekme"
+
+#: data/org.gnome.Console.metainfo.xml.in.in:9 src/kgx-application.c:377
+msgid "Terminal Emulator"
+msgstr "Uçbirim Öykünücü"
+
+#: data/org.gnome.Console.metainfo.xml.in.in:11
+msgid "A simple user-friendly terminal emulator for the GNOME desktop."
+msgstr "GNOME masaüstü için basit, kullanıcı dostu uçbirim öykünücü."
+
+#: data/org.gnome.Console.metainfo.xml.in.in:30
+msgid "Terminal window"
+msgstr "Uçbirim penceresi"
+
+#: data/org.gnome.Console.metainfo.xml.in.in:330 src/kgx-window.c:471
+msgid "The GNOME Project"
+msgstr "GNOME Projesi"
+
+#: src/help-overlay.ui:12
+msgctxt "shortcut window"
+msgid "Application"
+msgstr "Uygulama"
+
+#: src/help-overlay.ui:16
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: src/help-overlay.ui:23
+msgctxt "shortcut window"
+msgid "Terminal"
+msgstr "Uçbirim"
+
+#: src/help-overlay.ui:27
+msgctxt "shortcut window"
+msgid "Find"
+msgstr "Bul"
+
+#: src/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Copy"
+msgstr "Kopyala"
+
+#: src/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: src/help-overlay.ui:46
+msgctxt "shortcut window"
+msgid "Tabs"
+msgstr "Sekmeler"
+
+#: src/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "New Tab"
+msgstr "Yeni Sekme"
+
+#: src/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Close Tab"
+msgstr "Sekmeyi Kapat"
+
+#: src/help-overlay.ui:62
+msgctxt "shortcut window"
+msgid "Show All Tabs"
+msgstr "Tüm Sekmeleri Göster"
+
+#: src/help-overlay.ui:68
+msgctxt "shortcut window"
+msgid "Next Tab"
+msgstr "Sonraki Sekme"
+
+#: src/help-overlay.ui:74
+msgctxt "shortcut window"
+msgid "Previous Tab"
+msgstr "Önceki Sekme"
+
+#: src/help-overlay.ui:80
+msgctxt "shortcut window"
+msgid "Move Tab Right"
+msgstr "Sekmeyi Sağa Taşı"
+
+#: src/help-overlay.ui:86
+msgctxt "shortcut window"
+msgid "Move Tab Left"
+msgstr "Sekmeyi Sola Taşı"
+
+#: src/help-overlay.ui:92
+msgctxt "shortcut window"
+msgid "Switch to Tab 1–9"
+msgstr "1-9. Sekmeye Geç"
+
+#: src/help-overlay.ui:98
+msgctxt "shortcut window"
+msgid "Switch to Tab 10"
+msgstr "10. Sekmeye Geç"
+
+#: src/kgx-application.c:252
+msgid "Cannot use both --command and positional parameters"
+msgstr "--command ve konumsal parametreler birlikte kullanılamaz"
+
+#. Translators: The leading # is intentional, the initial %s is the
+#. version of KGX itself, the latter format is the VTE version
+#: src/kgx-application.c:349
+#, c-format
+msgid "# KGX %s using VTE %u.%u.%u %s\n"
+msgstr "# KGX %s VTE %u.%u.%u %s kullanıyor\n"
+
+#. Translators: %s is the year range
+#: src/kgx-application.c:361 src/kgx-window.c:466
+#, c-format
+msgid "© %s Zander Brown"
+msgstr "© %s Zander Brown"
+
+#: src/kgx-application.c:379
+msgid "GPL 3.0 or later"
+msgstr "GPL 3.0 veya daha yenisi"
+
+#: src/kgx-application.c:444
+msgid "Execute the argument to this option inside the terminal"
+msgstr "Argümanı uçbirimin içinde bu seçeneğe çalıştır"
+
+#: src/kgx-application.c:445
+msgid "COMMAND"
+msgstr "KOMUT"
+
+#: src/kgx-application.c:453
+msgid "Set the working directory"
+msgstr "Çalışma dizinini belirle"
+
+#. Translators: Placeholder of for a given directory
+#: src/kgx-application.c:455
+msgid "DIRNAME"
+msgstr "DİZİNADI"
+
+#: src/kgx-application.c:463
+msgid "Wait until the child exits (TODO)"
+msgstr "Alt süreç çıkana dek bekle (TODO)"
+
+#: src/kgx-application.c:472
+msgid "Set the initial window title"
+msgstr "İlk pencere başlığını belirle"
+
+#: src/kgx-application.c:473
+msgid "TITLE"
+msgstr "BAŞLIK"
+
+#: src/kgx-application.c:481
+msgid "ADVANCED: Set the shell to launch"
+msgstr "GELİŞMİŞ: Başlatılacak kabuğu belirle"
+
+#: src/kgx-application.c:482
+msgid "SHELL"
+msgstr "KABUK"
+
+#: src/kgx-application.c:490
+msgid "ADVANCED: Set the scrollback length"
+msgstr "GELİŞMİŞ: Geri kaydırma uzunluğunu belirle"
+
+#: src/kgx-application.c:491
+msgid "LINES"
+msgstr "SATIRLAR"
+
+#: src/kgx-application.c:500
+msgid "[-e|-- COMMAND [ARGUMENT...]]"
+msgstr "[-e|-- KOMUT [ARGÜMAN...]]"
+
+#: src/kgx-close-dialog.c:94
+msgid "Close Window?"
+msgstr "Pencere Kapatılsın Mı?"
+
+#: src/kgx-close-dialog.c:96
+msgid ""
+"A command is still running, closing this window will kill it and may lead to "
+"unexpected outcomes"
+msgid_plural ""
+"Some commands are still running, closing this window will kill them and may "
+"lead to unexpected outcomes"
+msgstr[0] ""
+"Bazı komutlar hala çalışıyor, bu pencereyi kapatmak onları öldürebilir ve "
+"beklenmedik sonuçlara neden olabilir"
+
+#: src/kgx-close-dialog.c:103
+msgid "Close Tab?"
+msgstr "Sekme Kapatılsın Mı?"
+
+#: src/kgx-close-dialog.c:105
+msgid ""
+"A command is still running, closing this tab will kill it and may lead to "
+"unexpected outcomes"
+msgid_plural ""
+"Some commands are still running, closing this tab will kill them and may "
+"lead to unexpected outcomes"
+msgstr[0] ""
+"Bazı komutlar hala çalışıyor, bu sekmeyi kapatmak onları öldürebilir ve "
+"beklenmedik sonuçlara neden olabilir"
+
+#. Translators: Screen reader label for the list of running commands
+#: src/kgx-close-dialog.c:232
+msgid "Process list"
+msgstr "Süreç listesi"
+
+#. Translators: This action dismisses the dialogue, leaving the tab/window open
+#: src/kgx-close-dialog.c:246 src/kgx-font-picker.ui:30 src/kgx-terminal.c:890
+msgid "_Cancel"
+msgstr "_İptal"
+
+#. Translators: This action accepts the ‘unexpected outcomes’ and closes the tab/window
+#: src/kgx-close-dialog.c:248
+msgid "C_lose"
+msgstr "_Kapat"
+
+#: src/kgx-font-picker.ui:12
+msgid "Terminal Font"
+msgstr "Uçbirim Yazı Tipi"
+
+#: src/kgx-font-picker.ui:37
+msgid "_Select"
+msgstr "_Seç"
+
+#: src/kgx-font-picker.ui:53 src/kgx-font-picker.ui:56
+msgid "Font Name"
+msgstr "Yazı Tipi Adı"
+
+#: src/kgx-font-picker.ui:142
+msgid "Font Family"
+msgstr "Yazı Tipi Ailesi"
+
+#: src/kgx-font-picker.ui:167
+msgid "Font Preview"
+msgstr "Yazı Tipi Ön İzle"
+
+#: src/kgx-font-picker.ui:188
+msgid "Font Size"
+msgstr "Yazı Tipi Boyutu"
+
+#. Translators: %i is, from the users perspective, a random number.
+#. * this string will only be seen when the running program has
+#. * failed to set a title, and exists purely to avoid blank tabs
+#.
+#: src/kgx-pages.c:473
+#, c-format
+msgid "Tab %i"
+msgstr "Sekme %i"
+
+#: src/kgx-pages.ui:90
+msgid "_Detach Tab"
+msgstr "Sekmeyi _Ayır"
+
+#: src/kgx-pages.ui:96
+msgid "_Close"
+msgstr "_Kapat"
+
+#: src/kgx-preferences-window.c:122
+msgid "No Font Set"
+msgstr "Yazı Tipi Ayarlanmadı"
+
+#: src/kgx-preferences-window.ui:7
+msgid "General"
+msgstr "Genel"
+
+#: src/kgx-preferences-window.ui:10
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: src/kgx-preferences-window.ui:13
+msgid "Use _System Default"
+msgstr "_Sistem Öntanımlısını Kullan"
+
+#: src/kgx-preferences-window.ui:19
+msgid "Custom _Font"
+msgstr "Özel _Yazı Tipi"
+
+#: src/kgx-preferences-window.ui:59
+msgid "Terminal Bell"
+msgstr "Uçbirim Zili"
+
+#: src/kgx-preferences-window.ui:62
+msgid "Play _Sound"
+msgstr "Ses _Çal"
+
+#: src/kgx-preferences-window.ui:68
+msgid "_Visual Effects"
+msgstr "Görsel _Etkiler"
+
+#: src/kgx-process.c:198
+#, c-format
+msgid "Process %d"
+msgstr "Süreç %d"
+
+#. translators: <b> </b> marks the text as bold, ensure they are
+#. matched please!
+#: src/kgx-simple-tab.c:180
+#, c-format
+msgid "<b>Read Only</b> — Command exited with code %i"
+msgstr "<b>Salt Okunur</b> — Komut, %i koduyla çıktı"
+
+#. translators: <b> </b> marks the text as bold, ensure they are
+#. matched please!
+#: src/kgx-simple-tab.c:189
+msgid "<b>Read Only</b> — Command exited"
+msgstr "<b>Salt Okunur</b> — Komut çıktı"
+
+#. translators: <b> </b> marks the text as bold, ensure they are
+#. matched please!
+#: src/kgx-simple-tab.c:222
+#, c-format
+msgid "<b>Failed to start</b> — %s"
+msgstr "<b>Başlatılamadı</b> — %s"
+
+#: src/kgx-tab.c:1112
+msgid "Command completed"
+msgstr "Komut tamamlandı"
+
+#: src/kgx-tab.ui:25
+msgid "Find text"
+msgstr "Metin bul"
+
+#: src/kgx-tab.ui:36
+msgid "Previous Match"
+msgstr "Önceki Eşleşme"
+
+#: src/kgx-tab.ui:44
+msgid "Next Match"
+msgstr "Sonraki Eşleşme"
+
+#: src/kgx-terminal.c:557
+#, c-format
+msgid ""
+"Ctrl-click to open:\n"
+"%s"
+msgstr "“%s” bağlantısını Ctrl+tık ile aç"
+
+#: src/kgx-terminal.c:883
+msgid "You are pasting a command that runs as an administrator"
+msgstr "Yönetici olarak çalışan komut yapıştırıyorsunuz"
+
+#. TRANSLATORS: %s is the command being pasted
+#: src/kgx-terminal.c:887
+#, c-format
+msgid ""
+"Make sure you know what the command does:\n"
+"%s"
+msgstr ""
+"Komutun ne yaptığından emin olun:\n"
+"%s"
+
+#: src/kgx-terminal.c:891 src/kgx-terminal.ui:24
+msgid "_Paste"
+msgstr "_Yapıştır"
+
+#: src/kgx-terminal.ui:7
+msgid "_Open Link"
+msgstr "Bağlantıyı _Aç"
+
+#: src/kgx-terminal.ui:12
+msgid "Copy _Link"
+msgstr "_Bağlantıyı Kopyala"
+
+#: src/kgx-terminal.ui:19
+msgid "_Copy"
+msgstr "_Kopyala"
+
+#: src/kgx-terminal.ui:29
+msgid "_Select All"
+msgstr "Tümünü _Seç"
+
+#: src/kgx-terminal.ui:36
+msgid "Show in _Files"
+msgstr "_Dosyalarʼda Göster"
+
+#: src/kgx-theme-switcher.ui:16
+msgid "Follow System Style"
+msgstr "Sistem Biçemini İzle"
+
+#: src/kgx-theme-switcher.ui:44
+msgid "Light Style"
+msgstr "Açık Biçem"
+
+#: src/kgx-theme-switcher.ui:71
+msgid "Dark Style"
+msgstr "Koyu Biçem"
+
+#. Translators: Credit yourself here
+#: src/kgx-window.c:478
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <libreajans@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#: src/kgx-window.ui:17
+msgid "_New Window"
+msgstr "_Yeni Pencere"
+
+#: src/kgx-window.ui:23
+msgid "_Show All Tabs"
+msgstr "Tüm _Sekmeleri Göster"
+
+#: src/kgx-window.ui:30
+msgid "_Preferences"
+msgstr "Ter_cihler"
+
+#: src/kgx-window.ui:34
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: src/kgx-window.ui:38
+msgid "_About Console"
+msgstr "Konsol _Hakkında"
+
+#: src/kgx-window.ui:79
+msgid "Find in Terminal"
+msgstr "Uçbirimde Bul"
+
+#: src/kgx-window.ui:86
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: src/kgx-window.ui:104
+msgid "Shrink Text"
+msgstr "Metni Daralt"
+
+#: src/kgx-window.ui:115
+msgid "Reset Size"
+msgstr "Boyutu Sıfırla"
+
+#: src/kgx-window.ui:139
+msgid "Enlarge Text"
+msgstr "Metni Genişlet"

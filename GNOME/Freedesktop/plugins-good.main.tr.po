@@ -1,0 +1,990 @@
+# translation of gst-plugins-good-1.12.0.po to Turkish
+# This file is put in the public domain.
+# This file is distributed under the same license as the gst-plugins-good package.
+# Server Acim <serveracim@gmail.com>, 2010, 2011, 2013, 2015.
+# Mehmet Kececi <mkececi@mehmetkececi.com>, 2017, 2019, 2021.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: gst-plugins-good 1.21.90\n"
+"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/gstreamer/gstreamer/"
+"issues\n"
+"POT-Creation-Date: 2024-02-14 15:26+0000\n"
+"PO-Revision-Date: 2023-05-11 21:46+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Project-Style: gnome\n"
+
+#: ext/jack/gstjackaudiosink.c:360 ext/jack/gstjackaudiosrc.c:365
+msgid "Jack server not found"
+msgstr "Jack sunucusu bulunamadı"
+
+#: ext/jpeg/gstjpegdec.c:983 ext/jpeg/gstjpegdec.c:1255
+#: ext/jpeg/gstjpegdec.c:1264 ext/jpeg/gstjpegdec.c:1274
+#: ext/jpeg/gstjpegdec.c:1283 ext/jpeg/gstjpegdec.c:1567
+#: ext/jpeg/gstjpegdec.c:1595
+msgid "Failed to decode JPEG image"
+msgstr "JPEG görüntüsünü çözümlenemedi"
+
+#: ext/jpeg/gstjpegdec.c:1555
+msgid "Failed to read memory"
+msgstr "Bellek okunamadı"
+
+#: ext/lame/gstlamemp3enc.c:407
+msgid ""
+"Failed to configure LAME mp3 audio encoder. Check your encoding parameters."
+msgstr ""
+"LAME mp3 ses kodlayıcı yapılandırılması başarısız oldu. Kodlama "
+"parametrelerinizi kontrol edin."
+
+#. <php-emulation-mode>three underscores for ___rate is really really really
+#. * private as opposed to one underscore<php-emulation-mode>
+#. call this MACRO outside of the NULL state so that we have a higher chance
+#. * of actually having a pipeline and bus to get the message through
+#: ext/lame/gstlamemp3enc.c:439 ext/twolame/gsttwolamemp2enc.c:494
+#, c-format
+msgid ""
+"The requested bitrate %d kbit/s for property '%s' is not allowed. The "
+"bitrate was changed to %d kbit/s."
+msgstr ""
+"'%2$s' özelliği için istenen %1$d kbit/s bit oranına izin verilmiyor. Bit "
+"oranı %3$d kbit/s olarak değiştirildi."
+
+#. TRANSLATORS: 'song title' by 'artist name'
+#: ext/pulse/pulsesink.c:3132
+#, c-format
+msgid "'%s' by '%s'"
+msgstr "'%2$s' - '%1$s'"
+
+#: ext/shout2/gstshout2.c:715 ext/shout2/gstshout2.c:725
+msgid "Could not connect to server"
+msgstr "Sunucuya bağlanamıyor"
+
+#: ext/soup/gstsouphttpsrc.c:1145
+msgid "No URL set."
+msgstr "Hiç bir URL ayarlanmamış."
+
+#: ext/soup/gstsouphttpsrc.c:1664
+msgid "Could not resolve server name."
+msgstr "Sunucu adı çözümlenemiyor."
+
+#: ext/soup/gstsouphttpsrc.c:1669
+msgid "Could not establish connection to server."
+msgstr "Sunucuyla bağlantı kurulumayor."
+
+#: ext/soup/gstsouphttpsrc.c:1673
+msgid "Secure connection setup failed."
+msgstr "Güvenli bağlantı ayarı yapılamadı."
+
+#: ext/soup/gstsouphttpsrc.c:1679
+msgid ""
+"A network error occurred, or the server closed the connection unexpectedly."
+msgstr "Ağ hatası oluştu ya da sunucu beklenmedik biçimde bağlantıyı kapattı."
+
+#: ext/soup/gstsouphttpsrc.c:1684
+msgid "Server sent bad data."
+msgstr "Sunucu yetersiz veri gönderdi."
+
+#: ext/soup/gstsouphttpsrc.c:1984
+msgid "Server does not support seeking."
+msgstr "Sunucu aramayı desteklemiyor."
+
+#: ext/twolame/gsttwolamemp2enc.c:417
+msgid "Failed to configure TwoLAME encoder. Check your encoding parameters."
+msgstr ""
+"TwoLAME kodlayıcı yapılandırılamadı. Kodlama parametrelerini gözden geçirin."
+
+#: gst/avi/gstavimux.c:1946
+msgid "No or invalid input audio, AVI stream will be corrupt."
+msgstr "Geçerli bir ses girişi bulunamadı. AVI akışı kesilecek."
+
+#: gst/isomp4/qtdemux.c:508 gst/isomp4/qtdemux.c:513
+msgid "This file contains no playable streams."
+msgstr "Dosya çalınabilir akışlar içermiyor."
+
+#: gst/isomp4/qtdemux.c:559 gst/isomp4/qtdemux.c:7978 gst/isomp4/qtdemux.c:8047
+#: gst/isomp4/qtdemux.c:8353 gst/isomp4/qtdemux.c:9743
+msgid "This file is invalid and cannot be played."
+msgstr "Bu dosya geçersiz ve oynatılamaz."
+
+#: gst/isomp4/qtdemux.c:3071
+msgid "Cannot play stream because it is encrypted with PlayReady DRM."
+msgstr "Akış çalınamadı çünkü PlayReady DRM ile şifrelenmiş."
+
+#: gst/isomp4/qtdemux.c:4721 gst/isomp4/qtdemux.c:9130
+#: gst/isomp4/qtdemux.c:9137 gst/isomp4/qtdemux.c:10445
+#: gst/isomp4/qtdemux.c:10887 gst/isomp4/qtdemux.c:10894
+#: gst/isomp4/qtdemux.c:14169
+msgid "This file is corrupt and cannot be played."
+msgstr "Bu dosya bozuk ve oynatılamaz."
+
+#: gst/isomp4/qtdemux.c:4963
+msgid "Invalid atom size."
+msgstr "Geçersiz atom boyutu."
+
+#: gst/isomp4/qtdemux.c:5016 gst/isomp4/qtdemux.c:5023
+msgid "Cannot query file size"
+msgstr ""
+
+#: gst/isomp4/qtdemux.c:5032
+msgid "Cannot demux file"
+msgstr ""
+
+#: gst/isomp4/qtdemux.c:5072
+msgid "This file is incomplete and cannot be played."
+msgstr "Dosya eksik ve oynatılamaz."
+
+#: gst/isomp4/qtdemux.c:12028
+msgid "The video in this file might not play correctly."
+msgstr "Bu dosyadaki video doğru oynatılamıyabilir."
+
+#: gst/rtsp/gstrtspsrc.c:7977
+msgid ""
+"No supported stream was found. You might need to install a GStreamer RTSP "
+"extension plugin for Real media streams."
+msgstr ""
+"Desteklenen akış bulunamadı. Real Media akışları için GStreamer RTSP uzantı "
+"eklentisi kurmalısınız."
+
+#: gst/rtsp/gstrtspsrc.c:7982
+msgid ""
+"No supported stream was found. You might need to allow more transport "
+"protocols or may otherwise be missing the right GStreamer RTSP extension "
+"plugin."
+msgstr ""
+"Desteklenen akış bulunamadı. Daha çok aktarım iletişim kuralına izin "
+"vermeniz ya da doğru GStreamer RTSP uzantı eklentisine onay vermeniz "
+"gerekebilir."
+
+#: sys/oss4/oss4-sink.c:495 sys/oss4/oss4-source.c:360 sys/oss/gstosssink.c:387
+msgid ""
+"Could not open audio device for playback. Device is being used by another "
+"application."
+msgstr ""
+"Çalmak için ses aygıtı açılamıyor. Aygıt başka uygulamaca kullanılıyor."
+
+#: sys/oss4/oss4-sink.c:505 sys/oss4/oss4-source.c:370 sys/oss/gstosssink.c:394
+msgid ""
+"Could not open audio device for playback. You don't have permission to open "
+"the device."
+msgstr "Çalmak için ses aygıtı açılamıyor. Aygıtı açma izniniz bulunmuyor."
+
+#: sys/oss4/oss4-sink.c:516 sys/oss4/oss4-source.c:381 sys/oss/gstosssink.c:402
+msgid "Could not open audio device for playback."
+msgstr "Çalmak için ses aygıtı açılamıyor."
+
+#: sys/oss4/oss4-sink.c:525 sys/oss4/oss4-source.c:391
+msgid ""
+"Could not open audio device for playback. This version of the Open Sound "
+"System is not supported by this element."
+msgstr ""
+"Çalma için ses aygıtı açılamıyor. Açık Ses Sistemi'nin bu sürümü, bu ögeyi "
+"desteklemiyor."
+
+#: sys/oss4/oss4-sink.c:648
+msgid "Playback is not supported by this audio device."
+msgstr "Bu ses aygıtı çalmayı desteklemiyor."
+
+#: sys/oss4/oss4-sink.c:655
+msgid "Audio playback error."
+msgstr "Ses çalma hatası."
+
+#: sys/oss4/oss4-source.c:505
+msgid "Recording is not supported by this audio device."
+msgstr "Bu ses aygıtı kaydetmeyi desteklemiyor."
+
+#: sys/oss4/oss4-source.c:512
+msgid "Error recording from audio device."
+msgstr "Ses aygıtından kaydetmekte hata."
+
+#: sys/oss/gstosssrc.c:379
+msgid ""
+"Could not open audio device for recording. You don't have permission to open "
+"the device."
+msgstr "Kayıt için aygıtı açamıyor. Aygıtı açmak için yetkiniz yok."
+
+#: sys/oss/gstosssrc.c:387
+msgid "Could not open audio device for recording."
+msgstr "Aygıtı kayıt için açamıyor."
+
+#: sys/osxaudio/gstosxaudioringbuffer.c:149
+msgid "CoreAudio device not found"
+msgstr "CoreAudio aygıtı bulunamadı"
+
+#: sys/osxaudio/gstosxaudioringbuffer.c:155
+msgid "CoreAudio device could not be opened"
+msgstr "CoreAudio aygıt açılamadı"
+
+#: sys/rpicamsrc/gstrpicamsrcdeviceprovider.c:148
+msgid "Raspberry Pi Camera Module"
+msgstr "Raspberry Pi Kamera Modülü"
+
+#: sys/v4l2/gstv4l2bufferpool.c:1863
+#, c-format
+msgid "Error reading %d bytes from device '%s'."
+msgstr "%d bayt bilgili '%s' aygıtından okumada hata."
+
+#: sys/v4l2/gstv4l2object.c:1303
+#, c-format
+msgid "Failed to enumerate possible video formats device '%s' can work with"
+msgstr "Aygıtın '%s' birlikte çalışabileceği video kiplerini sıralamada hata"
+
+#: sys/v4l2/gstv4l2object.c:3393
+#, c-format
+msgid "Could not map buffers from device '%s'"
+msgstr "Aygıttan '%s' bellekler eşlenemiyor"
+
+#: sys/v4l2/gstv4l2object.c:3401
+#, c-format
+msgid "The driver of device '%s' does not support the IO method %d"
+msgstr "Bu aygıtın sürücüsü '%s' IO yöntemini desteklemiyor %d"
+
+#: sys/v4l2/gstv4l2object.c:3408
+#, c-format
+msgid "The driver of device '%s' does not support any known IO method."
+msgstr ""
+"Bu aygıtın sürücüsü '%s' bilinen IO yöntemlerinden herhangi birisini "
+"desteklemiyor."
+
+#: sys/v4l2/gstv4l2object.c:4389
+msgid "Invalid caps"
+msgstr "Geçersiz büyük harfler"
+
+#: sys/v4l2/gstv4l2object.c:4396 sys/v4l2/gstv4l2object.c:4420
+#, c-format
+msgid "Device '%s' has no supported format"
+msgstr "Aygıt '%s' üzerindeki kodlayıcı girdi biçimini deskteklemiyor"
+
+#: sys/v4l2/gstv4l2object.c:4402 sys/v4l2/gstv4l2object.c:4426
+#, c-format
+msgid "Device '%s' failed during initialization"
+msgstr "'%s' aygıtı başlatma sırasında başarısız oldu"
+
+#: sys/v4l2/gstv4l2object.c:4414
+#, c-format
+msgid "Device '%s' is busy"
+msgstr "Aygıt '%s' meşgul"
+
+#: sys/v4l2/gstv4l2object.c:4437
+#, c-format
+msgid "Device '%s' cannot capture at %dx%d"
+msgstr "Aygıt '%s' görüntü yakalayamadı %dx%d"
+
+#: sys/v4l2/gstv4l2object.c:4446
+#, c-format
+msgid "Device '%s' cannot capture in the specified format"
+msgstr "Aygıt '%s' belirtilen kipte görüntü yakalayamadı"
+
+#: sys/v4l2/gstv4l2object.c:4457
+#, c-format
+msgid "Device '%s' does support non-contiguous planes"
+msgstr "Aygıt '%s' bitişik olmayan düzlemleri desteklemiyor"
+
+#: sys/v4l2/gstv4l2object.c:4472
+#, c-format
+msgid "Device '%s' does not support %s interlacing"
+msgstr "Aygıt '%s' görüntü atlama %s desteklenmiyor"
+
+#: sys/v4l2/gstv4l2object.c:4486
+#, c-format
+msgid "Device '%s' does not support %s colorimetry"
+msgstr "Aygıt '%s' kolorimetre %s desteklenmiyor"
+
+#: sys/v4l2/gstv4l2object.c:4498
+#, c-format
+msgid "Could not get parameters on device '%s'"
+msgstr "Değiştirgeler aygıttan '%s' alınamıyor"
+
+#: sys/v4l2/gstv4l2object.c:4506
+msgid "Video device did not accept new frame rate setting."
+msgstr "Video aygıtı yeni çerçeve oranı ayarlarını kabul etmedi."
+
+#: sys/v4l2/gstv4l2object.c:4648
+msgid "Video device did not provide output format."
+msgstr "Video aygıtı çıktı biçimini sağlamadı."
+
+#: sys/v4l2/gstv4l2object.c:4654
+msgid "Video device returned invalid dimensions."
+msgstr "Video aygıtı geçersiz boyutlar döndü."
+
+#: sys/v4l2/gstv4l2object.c:4662
+msgid "Video device uses an unsupported interlacing method."
+msgstr "Video aygıtları desteklenmeyen bir birbirine geçme yöntemi kullanıyor."
+
+#: sys/v4l2/gstv4l2object.c:4669
+msgid "Video device uses an unsupported pixel format."
+msgstr "Video aygıtı desteklenmeyen bir piksel biçimini kullanıyor."
+
+#: sys/v4l2/gstv4l2object.c:5583
+msgid "Failed to configure internal buffer pool."
+msgstr "İç tampon bellek havuzu yapılandırılamıyor."
+
+#: sys/v4l2/gstv4l2object.c:5589
+msgid "Video device did not suggest any buffer size."
+msgstr "Video aygıtı herhangi bir tampon bellek boyutu önermedi."
+
+#: sys/v4l2/gstv4l2object.c:5595
+msgid "No downstream pool to import from."
+msgstr "İçeri aktarılacak akıntı havuzu yok."
+
+#: sys/v4l2/gstv4l2radio.c:144
+#, c-format
+msgid "Failed to get settings of tuner %d on device '%s'."
+msgstr "İstasyon ayarlarını bulma işlemi %d şu aygıtta '%s' başarılamadı."
+
+#: sys/v4l2/gstv4l2radio.c:151
+#, c-format
+msgid "Error getting capabilities for device '%s'."
+msgstr "Bu aygıt için kapasite bilgisi alınamadı '%s'."
+
+#: sys/v4l2/gstv4l2radio.c:158
+#, c-format
+msgid "Device '%s' is not a tuner."
+msgstr "Aygıt '%s' bir radyo değil."
+
+#: sys/v4l2/gstv4l2radio.c:185
+#, c-format
+msgid "Failed to get radio input on device '%s'. "
+msgstr "'%s' cihazına radyo girişi alınamadı. "
+
+#: sys/v4l2/gstv4l2radio.c:208
+#, c-format
+msgid "Failed to set input %d on device %s."
+msgstr "Giriş değeri olarak bu %d şu aygıtta %s ayarlanamadı."
+
+#: sys/v4l2/gstv4l2radio.c:242
+#, c-format
+msgid "Failed to change mute state for device '%s'."
+msgstr "Aygıt '%s' susturulmaya ayarlanamadı."
+
+#: sys/v4l2/gstv4l2sink.c:636
+msgid "Failed to allocated required memory."
+msgstr "Gerekli bellek ayrılamadı."
+
+#: sys/v4l2/gstv4l2src.c:951 sys/v4l2/gstv4l2videodec.c:524
+#: sys/v4l2/gstv4l2videodec.c:1047 sys/v4l2/gstv4l2videoenc.c:891
+msgid "Failed to allocate required memory."
+msgstr "Gerekli bellek ayrılamıyor."
+
+#: sys/v4l2/gstv4l2transform.c:144
+#, c-format
+msgid "Converter on device %s has no supported input format"
+msgstr "Aygıt %s üzerindeki dönüştürücü girdi biçimini desteklemiyor"
+
+#: sys/v4l2/gstv4l2transform.c:151
+#, c-format
+msgid "Converter on device %s has no supported output format"
+msgstr "Aygıt %s üzerindeki dönüştürücü çıktı biçimini desteklemiyor"
+
+#: sys/v4l2/gstv4l2videodec.c:149
+#, c-format
+msgid "Decoder on device %s has no supported input format"
+msgstr "%s aygıtındaki kod çözücü, desteklenen bir giriş biçimine sahip değil"
+
+#: sys/v4l2/gstv4l2videodec.c:1061
+msgid "Failed to start decoding thread."
+msgstr "Çözme işi başlaması başarısız."
+
+#: sys/v4l2/gstv4l2videodec.c:1068 sys/v4l2/gstv4l2videoenc.c:912
+msgid "Failed to process frame."
+msgstr "İşlem çerçevesi başarısız."
+
+#: sys/v4l2/gstv4l2videoenc.c:142
+#, c-format
+msgid "Encoder on device %s has no supported output format"
+msgstr "Aygıt %s üzerindeki kodlayıcı çıktı biçimini deskteklemiyor"
+
+#: sys/v4l2/gstv4l2videoenc.c:149
+#, c-format
+msgid "Encoder on device %s has no supported input format"
+msgstr "Aygıt %s üzerindeki kodlayıcı girdi biçimini deskteklemiyor"
+
+#: sys/v4l2/gstv4l2videoenc.c:856
+#, fuzzy
+#| msgid "Failed to process frame."
+msgid "Failed to force keyframe."
+msgstr "İşlem çerçevesi başarısız."
+
+#: sys/v4l2/gstv4l2videoenc.c:904
+msgid "Failed to start encoding thread."
+msgstr "Kod çözme iş parçacığı başlatılamadı."
+
+#: sys/v4l2/v4l2_calls.c:92
+#, c-format
+msgid ""
+"Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if "
+"it is a v4l1 driver."
+msgstr ""
+"Şu aygıtın '%s' özelliklerini almada hata: O bir v4l2 sürücüsü değil. Onun "
+"bir v4l1 sürücüsü olup olmadığını denetleyin."
+
+#: sys/v4l2/v4l2_calls.c:156
+#, c-format
+msgid "Failed to query attributes of input %d in device %s"
+msgstr "Giriş davranışları sorgusu %d şu aygıtta %s başarılamadı"
+
+#: sys/v4l2/v4l2_calls.c:187
+#, c-format
+msgid "Failed to get setting of tuner %d on device '%s'."
+msgstr "Radyo istasyonu ayarlarını bulma %d şu aygıtta '%s' başarılamadı."
+
+#: sys/v4l2/v4l2_calls.c:235
+#, c-format
+msgid "Failed to query norm on device '%s'."
+msgstr "Şu aygıtta '%s' sorgu normuna erişilemedi."
+
+#: sys/v4l2/v4l2_calls.c:421
+#, c-format
+msgid "Failed getting controls attributes on device '%s'."
+msgstr "Denetim davranışları şu aygıtta '%s' bulunamadı."
+
+#: sys/v4l2/v4l2_calls.c:613
+#, c-format
+msgid "Cannot identify device '%s'."
+msgstr "Aygıt tanımlanamıyor '%s'."
+
+#: sys/v4l2/v4l2_calls.c:620
+#, c-format
+msgid "This isn't a device '%s'."
+msgstr "Bu bir aygıt değil'%s'."
+
+#: sys/v4l2/v4l2_calls.c:627
+#, c-format
+msgid "Could not open device '%s' for reading and writing."
+msgstr "Şu aygıtı '%s' okuma ve yazma için açamıyor."
+
+#: sys/v4l2/v4l2_calls.c:634
+#, c-format
+msgid "Device '%s' is not a capture device."
+msgstr "Aygıt '%s' bir yakalama aygıtı değil."
+
+#: sys/v4l2/v4l2_calls.c:641
+#, c-format
+msgid "Device '%s' is not a output device."
+msgstr "Aygıt '%s' bir çıkış aygıtı değil."
+
+#: sys/v4l2/v4l2_calls.c:648
+#, c-format
+msgid "Device '%s' is not a M2M device."
+msgstr "Aygıt '%s' bir M2M aygıtı değil."
+
+#: sys/v4l2/v4l2_calls.c:700
+#, c-format
+msgid "Could not dup device '%s' for reading and writing."
+msgstr "Okuma ve yazma için '%s' aygıtı kopyalanamadı."
+
+#: sys/v4l2/v4l2_calls.c:784
+#, c-format
+msgid "Failed to set norm for device '%s'."
+msgstr "Aygıt için '%s' norm değerleri ayarlanamadı."
+
+#: sys/v4l2/v4l2_calls.c:822
+#, c-format
+msgid "Failed to get current tuner frequency for device '%s'."
+msgstr "Aygıt için '%s' radyo frekansları ayarlanamadı."
+
+#: sys/v4l2/v4l2_calls.c:864
+#, c-format
+msgid "Failed to set current tuner frequency for device '%s' to %lu Hz."
+msgstr "Aygıt için '%s' radyo frekansı %lu Hz için yapılamadı."
+
+#: sys/v4l2/v4l2_calls.c:898
+#, c-format
+msgid "Failed to get signal strength for device '%s'."
+msgstr "Aygıt için '%s' güçlü sinyal alımı gerçekleşemedi."
+
+#: sys/v4l2/v4l2_calls.c:934
+#, c-format
+msgid "Failed to get value for control %d on device '%s'."
+msgstr "Denetim değeri şuna %d bu aygıtta '%s' ayarlanamadı."
+
+#: sys/v4l2/v4l2_calls.c:969
+#, c-format
+msgid "Failed to set value %d for control %d on device '%s'."
+msgstr "Değer %d denetim için %d şu aygıtta '%s' ayarlanamadı."
+
+#: sys/v4l2/v4l2_calls.c:1029
+#, c-format
+msgid "Failed to set value %s for control %d on device '%s'."
+msgstr "'%s' aygıtındaki denetim %d için değer %s ayarlanamadı."
+
+#: sys/v4l2/v4l2_calls.c:1118
+#, c-format
+msgid "Failed to get current input on device '%s'. May be it is a radio device"
+msgstr "'%s' aygıtında geçerli giriş alınamadı. Bir radyo cihazı olabilir"
+
+#: sys/v4l2/v4l2_calls.c:1143
+#, c-format
+msgid "Failed to set input %u on device %s."
+msgstr "Failed to set input %u on device %s."
+
+#: sys/v4l2/v4l2_calls.c:1190
+#, c-format
+msgid ""
+"Failed to get current output on device '%s'. May be it is a radio device"
+msgstr "'%s' cihazında mevcut çıktı alınamadı. Bir radyo cihazı olabilir"
+
+#: sys/v4l2/v4l2_calls.c:1215
+#, c-format
+msgid "Failed to set output %u on device %s."
+msgstr "Failed to set output %u on device %s."
+
+#: sys/ximage/gstximagesrc.c:873
+msgid "Cannot operate without a clock"
+msgstr "Saat olmadan çalışamaz"
+
+#, c-format
+#~ msgid "Decoder on device %s has no supported output format"
+#~ msgstr ""
+#~ "%s aygıtındaki kod çözücü, desteklenen bir çıkış biçimine sahip değil"
+
+#~ msgid "Changing resolution at runtime is not yet supported."
+#~ msgstr "Çalışırken çözünürlüğü değiştirmek henüz desteklenmiyor."
+
+#~ msgid "This file contains too many streams. Only playing first %d"
+#~ msgstr "Bu dosya çok fazla akış içeriyor. Sadece ilki oynatılıyor %d"
+
+#~ msgid "Record Source"
+#~ msgstr "Kayıt Kaynağı"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofon"
+
+#~ msgid "Line In"
+#~ msgstr "Hat Girişi"
+
+#~ msgid "Internal CD"
+#~ msgstr "Dahili CD"
+
+#~ msgid "SPDIF In"
+#~ msgstr "SPDIF Girişi"
+
+#~ msgid "AUX 1 In"
+#~ msgstr "AUX 1 Giriş"
+
+#~ msgid "AUX 2 In"
+#~ msgstr "AUX 2 Giriş"
+
+#~ msgid "Codec Loopback"
+#~ msgstr "Kodek Geridönüşü"
+
+#~ msgid "SunVTS Loopback"
+#~ msgstr "SunVTS Geridönüşü"
+
+#~ msgid "Volume"
+#~ msgstr "Ses Girişi"
+
+#~ msgid "Gain"
+#~ msgstr "Kazanç"
+
+#~ msgid "Monitor"
+#~ msgstr "Hoparlör"
+
+#~ msgid "Built-in Speaker"
+#~ msgstr "Varsayılan Hoparlör"
+
+#~ msgid "Headphone"
+#~ msgstr "Kulaklık"
+
+#~ msgid "Line Out"
+#~ msgstr "Hat Çıkışı"
+
+#~ msgid "SPDIF Out"
+#~ msgstr "SPDIF Çıkış"
+
+#~ msgid "AUX 1 Out"
+#~ msgstr "AUX 1 Çıkış"
+
+#~ msgid "AUX 2 Out"
+#~ msgstr "AUX 2 Çıkış"
+
+#~ msgid "Internal data stream error."
+#~ msgstr "İç veri akım hatası."
+
+#~ msgid "Internal data flow error."
+#~ msgstr "İç veri akış hatası."
+
+#~ msgid "Could not establish connection to sound server"
+#~ msgstr "Ses sunucusuyla bağlantı kurulumayor"
+
+#~ msgid "Failed to query sound server capabilities"
+#~ msgstr "Ses sunucusu olanakları sorgulanamadı"
+
+#~ msgid "Bass"
+#~ msgstr "Bas"
+
+#~ msgid "Treble"
+#~ msgstr "Tiz"
+
+#~ msgid "Synth"
+#~ msgstr "Synthisizer"
+
+#~ msgid "PCM"
+#~ msgstr "PCM"
+
+#~ msgid "Speaker"
+#~ msgstr "Hoparlör"
+
+#~ msgid "Line-in"
+#~ msgstr "Hat girişi"
+
+#~ msgid "CD"
+#~ msgstr "CD"
+
+#~ msgid "Mixer"
+#~ msgstr "Karıştırıcı"
+
+#~ msgid "PCM-2"
+#~ msgstr "PCM-2"
+
+#~ msgid "Record"
+#~ msgstr "Kayıt"
+
+#~ msgid "In-gain"
+#~ msgstr "Kazanç-girişi"
+
+#~ msgid "Out-gain"
+#~ msgstr "Kazanç-çıkışı"
+
+#~ msgid "Line-1"
+#~ msgstr "Hat-1"
+
+#~ msgid "Line-2"
+#~ msgstr "Hat-2"
+
+#~ msgid "Line-3"
+#~ msgstr "Hat-3"
+
+#~ msgid "Digital-1"
+#~ msgstr "Sayısal-1"
+
+#~ msgid "Digital-2"
+#~ msgstr "Sayısal-2"
+
+#~ msgid "Digital-3"
+#~ msgstr "Sayısal-3"
+
+#~ msgid "Phone-in"
+#~ msgstr "Fono-giriş"
+
+#~ msgid "Phone-out"
+#~ msgstr "Fono-çıkış"
+
+#~ msgid "Video"
+#~ msgstr "Vidyo"
+
+#~ msgid "Radio"
+#~ msgstr "Radyo"
+
+#~ msgid "Could not open audio device for mixer control handling."
+#~ msgstr "Mikser denetimi için ses aygıtı açılamıyor."
+
+#~ msgid ""
+#~ "Could not open audio device for mixer control handling. This version of "
+#~ "the Open Sound System is not supported by this element."
+#~ msgstr ""
+#~ "Mikser denetimi için ses aygıtı açılamıyor. Açık Ses Sisteminin bu "
+#~ "sürümü, bu öğeyi desteklemiyor."
+
+#~ msgid "Master"
+#~ msgstr "Master"
+
+#~ msgid "Front"
+#~ msgstr "Ön"
+
+#~ msgid "Rear"
+#~ msgstr "Arka"
+
+#~ msgid "Headphones"
+#~ msgstr "Kulaklıklar"
+
+#~ msgid "Center"
+#~ msgstr "Merkez"
+
+#~ msgid "LFE"
+#~ msgstr "LFE"
+
+#~ msgid "Surround"
+#~ msgstr "Surround"
+
+#~ msgid "Side"
+#~ msgstr "Yan"
+
+#~ msgid "AUX Out"
+#~ msgstr "AUX Çıkış"
+
+#~ msgid "3D Depth"
+#~ msgstr "3D Derinlik"
+
+#~ msgid "3D Center"
+#~ msgstr "3D Merkez"
+
+#~ msgid "3D Enhance"
+#~ msgstr "3D Genişlik"
+
+#~ msgid "Telephone"
+#~ msgstr "Telefon"
+
+#~ msgid "Video In"
+#~ msgstr "Vidyo Girişi"
+
+#~ msgid "AUX In"
+#~ msgstr "AUX Giriş"
+
+#~ msgid "Record Gain"
+#~ msgstr "Kayıt Kazancı"
+
+#~ msgid "Output Gain"
+#~ msgstr "Çıkış Kazancı"
+
+#~ msgid "Microphone Boost"
+#~ msgstr "Mikrofon Seviye Yükseltme"
+
+#~ msgid "Diagnostic"
+#~ msgstr "Ayarlar"
+
+#~ msgid "Bass Boost"
+#~ msgstr "Bass Arttırım"
+
+#~ msgid "Playback Ports"
+#~ msgstr "Çalma Portları"
+
+#~ msgid "Input"
+#~ msgstr "Giriş"
+
+#~ msgid "Monitor Source"
+#~ msgstr "Hoparlör Kaynağı"
+
+#~ msgid "Keyboard Beep"
+#~ msgstr "Klavye Biplemesi"
+
+#~ msgid "Simulate Stereo"
+#~ msgstr "Stereo Simülasyonu"
+
+#~ msgid "Stereo"
+#~ msgstr "Stereo"
+
+#~ msgid "Surround Sound"
+#~ msgstr "Surround Sesi"
+
+#~ msgid "Microphone Gain"
+#~ msgstr "Mikrofon Kazancı"
+
+#~ msgid "Speaker Source"
+#~ msgstr "Hoparlör Kaynağı"
+
+#~ msgid "Microphone Source"
+#~ msgstr "Mikrofon Kaynağı"
+
+#~ msgid "Jack"
+#~ msgstr "Jack"
+
+#~ msgid "Center / LFE"
+#~ msgstr "Merkez / LFE"
+
+#~ msgid "Stereo Mix"
+#~ msgstr "Stereo Mix"
+
+#~ msgid "Mono Mix"
+#~ msgstr "Mono Mix"
+
+#~ msgid "Input Mix"
+#~ msgstr "Giriş Mix"
+
+#~ msgid "Microphone 1"
+#~ msgstr "Mikrofon 1"
+
+#~ msgid "Microphone 2"
+#~ msgstr "Mikrofon 2"
+
+#~ msgid "Digital Out"
+#~ msgstr "Sayısal Çıkış"
+
+#~ msgid "Digital In"
+#~ msgstr "Sayısal Giriş"
+
+#~ msgid "HDMI"
+#~ msgstr "HDMI"
+
+#~ msgid "Modem"
+#~ msgstr "Modem"
+
+#~ msgid "Handset"
+#~ msgstr "Ahize"
+
+#~ msgid "Other"
+#~ msgstr "Diğer"
+
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "On"
+#~ msgstr "Açık"
+
+#~ msgid "Off"
+#~ msgstr "Kapalı"
+
+#~ msgid "Mute"
+#~ msgstr "Sustulurmuş"
+
+#~ msgid "Fast"
+#~ msgstr "Hızlı"
+
+#~ msgid "Very Low"
+#~ msgstr "Çok Kalın"
+
+#~ msgid "Low"
+#~ msgstr "D"
+
+#~ msgid "Medium"
+#~ msgstr "Orta"
+
+#~ msgid "High"
+#~ msgstr "Tiz"
+
+#~ msgid "Very High"
+#~ msgstr "Çok Tiz"
+
+#~ msgid "Production"
+#~ msgstr "Yapım"
+
+#~ msgid "Front Panel Microphone"
+#~ msgstr "Ön Panel Mikrofonu"
+
+#~ msgid "Front Panel Line In"
+#~ msgstr "Ön Panel Hat Girişi"
+
+#~ msgid "Front Panel Headphones"
+#~ msgstr "Ön Panel Kulaklıklar"
+
+#~ msgid "Front Panel Line Out"
+#~ msgstr "Ön Panel Hat Çıkışı"
+
+#~ msgid "Green Connector"
+#~ msgstr "Yeşil Konnektör"
+
+#~ msgid "Pink Connector"
+#~ msgstr "Pembe Konnektör"
+
+#~ msgid "Blue Connector"
+#~ msgstr "Mavi Konnektör"
+
+#~ msgid "White Connector"
+#~ msgstr "Beyaz Konnektör"
+
+#~ msgid "Black Connector"
+#~ msgstr "Siyah Konnektör"
+
+#~ msgid "Gray Connector"
+#~ msgstr "Gri Konnektör"
+
+#~ msgid "Orange Connector"
+#~ msgstr "Portakal Konnektör"
+
+#~ msgid "Red Connector"
+#~ msgstr "Kırmızı Konnektör"
+
+#~ msgid "Yellow Connector"
+#~ msgstr "Sarı Konnektör"
+
+#~ msgid "Green Front Panel Connector"
+#~ msgstr "Yeşil Ön Panel Konnektör"
+
+#~ msgid "Pink Front Panel Connector"
+#~ msgstr "Pembe Ön Panel Konnektör"
+
+#~ msgid "Blue Front Panel Connector"
+#~ msgstr "Mavi Ön Panel Konnektör"
+
+#~ msgid "White Front Panel Connector"
+#~ msgstr "Beyaz Ön Panel Konnektör"
+
+#~ msgid "Black Front Panel Connector"
+#~ msgstr "Siyah Ön Panel Konnektör"
+
+#~ msgid "Gray Front Panel Connector"
+#~ msgstr "Gri Ön Panel Konnektör"
+
+#~ msgid "Orange Front Panel Connector"
+#~ msgstr "Portakal Ön Panel Konnektör"
+
+#~ msgid "Red Front Panel Connector"
+#~ msgstr "Kırmızı Ön Panel Konnektör"
+
+#~ msgid "Yellow Front Panel Connector"
+#~ msgstr "Sarı Ön Panel Konnektör"
+
+#~ msgid "Spread Output"
+#~ msgstr "Çıkışı Dağıt"
+
+#~ msgid "Downmix"
+#~ msgstr "Miks Edilmiş"
+
+#~ msgid "Virtual Mixer Input"
+#~ msgstr "Sanal Mikser Girişi"
+
+#~ msgid "Virtual Mixer Output"
+#~ msgstr "Sanal Mikser Çıkışı"
+
+#~ msgid "Virtual Mixer Channels"
+#~ msgstr "Sanal Mikser Kanalları"
+
+#~ msgid "%s %d Function"
+#~ msgstr "%s %d İşlev"
+
+#~ msgid "%s Function"
+#~ msgstr "%s İşlev"
+
+#~ msgid "Got unexpected frame size of %u instead of %u."
+#~ msgstr "Beklenmeyen bir çerçevece boyutu %u bunun yerine %u görüntülendi."
+
+#~ msgid "Error reading %d bytes on device '%s'."
+#~ msgstr "%d baytı şu aygıtta '%s' okumada hata."
+
+#~ msgid "Could not enqueue buffers in device '%s'."
+#~ msgstr "Aygıtta '%s' arabellek kuyruğa sokulamıyor."
+
+#~ msgid "Failed trying to get video frames from device '%s'."
+#~ msgstr "Aygıttan device '%s' vidyo çerçeveleri alınamadı."
+
+#~ msgid "Failed after %d tries. device %s. system error: %s"
+#~ msgstr "Şu denemeden sonra %d başarılamadı. aygıt %s. sistem hatası: %s"
+
+#~ msgid ""
+#~ "The buffer type is not supported, or the index is out of bounds, or no "
+#~ "buffers have been allocated yet, or the userptr or length are invalid. "
+#~ "device %s"
+#~ msgstr ""
+#~ "Arabellek türü desteklenmiyor, veya içerik bir yere ait değil, veya "
+#~ "arabellekler henüz ayrılmamış, veya userptr veya uzunluk geçersiz. aygıt. "
+#~ "%s"
+
+#~ msgid ""
+#~ "Failed trying to get video frames from device '%s'. Not enough memory."
+#~ msgstr "Vidyo çervevesi aygıttan '%s' alınamadı. Yetersiz bellek."
+
+#~ msgid "insufficient memory to enqueue a user pointer buffer. device %s."
+#~ msgstr ""
+#~ "kullanıcı arabelleğini kuyruğa sokmak için yetersiz bellek. aygıt %s."
+
+#~ msgid "No free buffers found in the pool at index %d."
+#~ msgstr "Dizindeki %d havuzda boş bellek bulunamadı."
+
+#~ msgid "Could not get buffers from device '%s'."
+#~ msgstr "Arabellek aygıttan '%s' alınamıyor."
+
+#~ msgid "Could not get enough buffers from device '%s'."
+#~ msgstr "Yeterli bellek aygıttan '%s' alınamıyor."
+
+#~ msgid "Error starting streaming capture from device '%s'."
+#~ msgstr "Aygıttan '%s' akan görüntü başlatılamadı."
+
+#~ msgid "Error stopping streaming capture from device '%s'."
+#~ msgstr "Aygıttan '%s' akan görüntü durdurulamadı."

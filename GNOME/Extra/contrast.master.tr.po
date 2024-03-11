@@ -1,0 +1,161 @@
+# Turkish translation for contrast.
+# Copyright (C) 2019-2022 contrast's COPYRIGHT HOLDER
+# This file is distributed under the same license as the contrast package.
+#
+# Emin Tufan Çetin <etcetin@gmail.com>, 2019, 2023.
+# Sabri Ünal <libreajans@gmail.com>, 2019, 2022, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: contrast master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/design/contrast/issues\n"
+"POT-Creation-Date: 2023-08-18 18:05+0000\n"
+"PO-Revision-Date: 2023-08-06 18:35+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: data/org.gnome.design.Contrast.desktop.in.in:3
+#: data/org.gnome.design.Contrast.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:21 src/application.rs:101 src/main.rs:27
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: data/org.gnome.design.Contrast.desktop.in.in:4
+#: data/org.gnome.design.Contrast.metainfo.xml.in.in:8 src/application.rs:104
+msgid "Check contrast between two colors"
+msgstr "İki renk arasındaki karşıtlığı gözden geçir"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.design.Contrast.desktop.in.in:10
+msgid "Color;Contrast;GNOME;GTK;"
+msgstr "Renk;Karşıtlık;GNOME;GTK;Kontrast;"
+
+#: data/org.gnome.design.Contrast.metainfo.xml.in.in:10
+msgid ""
+"Contrast checks whether the contrast between two colors meet the WCAG "
+"requirements."
+msgstr ""
+"Contrast, iki renk arasındaki karşıtlığın WCAG gereksinimlerini karşılayıp "
+"karşılamadığını gözden geçirir."
+
+#: data/org.gnome.design.Contrast.metainfo.xml.in.in:15
+msgid "Main Window"
+msgstr "Ana Pencere"
+
+#: data/org.gnome.design.Contrast.metainfo.xml.in.in:80
+msgid "Bilal Elmoussaoui"
+msgstr "Bilal Elmoussaoui"
+
+#: data/resources/ui/colour_entry.ui:9
+msgid "Pick a Color"
+msgstr "Renk Seç"
+
+#: data/resources/ui/shortcuts.ui:13
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: data/resources/ui/shortcuts.ui:17
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: data/resources/ui/shortcuts.ui:24
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr "Pencereyi Kapat"
+
+#: data/resources/ui/shortcuts.ui:31
+msgctxt "shortcut window"
+msgid "Reverse Colors"
+msgstr "Renkleri Ters Çevir"
+
+#: data/resources/ui/shortcuts.ui:38
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Kısayolları Göster"
+
+#: data/resources/ui/shortcuts.ui:45
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: data/resources/ui/window.ui:5
+msgid "_New Window"
+msgstr "Ye_ni Pencere"
+
+#: data/resources/ui/window.ui:9
+msgid "_Keyboard Shortcuts"
+msgstr "Klavye _Kısayolları"
+
+#: data/resources/ui/window.ui:13
+msgid "_About Contrast"
+msgstr "Kontrast _Hakkında"
+
+#: data/resources/ui/window.ui:34 data/resources/ui/window.ui:35
+msgid "Background Colour"
+msgstr "Arka Plan Rengi"
+
+#: data/resources/ui/window.ui:47
+msgid "Reverse Colours"
+msgstr "Renkleri Ters Çevir"
+
+#: data/resources/ui/window.ui:53 data/resources/ui/window.ui:54
+msgid "Foreground Colour"
+msgstr "Ön Plan Rengi"
+
+#: data/resources/ui/window.ui:70
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: src/application.rs:112
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <libreajans@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#: src/contrast_level.rs:69
+msgid "Contrast Ratio∶ "
+msgstr "Karşıtlık Oranı: "
+
+#: src/contrast_preview.rs:48
+msgid "Nope"
+msgstr "Olumsuz"
+
+#: src/contrast_preview.rs:50
+msgid "This color combination doesn’t have enough contrast to be legible."
+msgstr "Bu renk birleşiminin okunaklı olması için yeterli karşıtlığı yok."
+
+#: src/contrast_preview.rs:53
+msgid "Not bad"
+msgstr "Kötü değil"
+
+#: src/contrast_preview.rs:55
+msgid "This color combination can work, but only at large text sizes."
+msgstr "Bu renk birleşimi yalnızca büyük metin boyutlarında çalışabilir."
+
+#: src/contrast_preview.rs:58
+msgid "Pretty good"
+msgstr "Oldukça güzel"
+
+#: src/contrast_preview.rs:60
+msgid "This color combination should work OK in most cases."
+msgstr "Bu renk birleşimi çoğu durumda iyi sonuç verecektir."
+
+#: src/contrast_preview.rs:63
+msgid "Awesome"
+msgstr "Şahane"
+
+#: src/contrast_preview.rs:65
+msgid "This color combination has great contrast."
+msgstr "Bu renk birleşiminin mükemmel karşıtlığı var."
+
+#: src/level_bar.rs:88
+msgid "Contrast Ratio"
+msgstr "Karşıtlık Oranı"

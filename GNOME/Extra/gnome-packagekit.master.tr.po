@@ -1,0 +1,2935 @@
+# translation of packagekit-gnome.po to
+# Copyright (C) 2008-2023 packagekit-gnome's COPYRIGHT HOLDER
+# This file is distributed under the same license as the packagekit-gnome package.
+#
+# Necmettin Begiter <necmettin.begiter@gmail.com>, 2008.
+# Baris Cicek <baris@teamforce.name.tr>, 2010.
+# Ozan Çağlayan <ozancag@gmail.com>, 2013.
+# Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2014.
+# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
+# Fatih Altun <fatih.altun@pardus.org.tr>, 2021.
+# Sabri Ünal <libreajans@gmail.com>, 2023.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: packagekit-gnome\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-packagekit/"
+"issues\n"
+"POT-Creation-Date: 2023-10-21 09:13+0000\n"
+"PO-Revision-Date: 2023-10-17 17:58+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4\n"
+
+#. TRANSLATORS: user-friendly name for gpk-update-viewer
+#: data/metainfo/org.gnome.Packages.metainfo.xml.in:7 src/gpk-log.c:428
+msgid "GNOME Packages"
+msgstr "GNOME Paketler"
+
+#: data/metainfo/org.gnome.Packages.metainfo.xml.in:8
+#: data/org.gnome.Packages.desktop.in:4
+msgid "Add or remove software installed on the system"
+msgstr "Sisteminizde kurulu yazılımları ekleyin veya kaldırın"
+
+#: data/metainfo/org.gnome.Packages.metainfo.xml.in:10
+msgid ""
+"Packages allows you to install and remove packages on your system. You can "
+"view and search packages by name, details or even file name and also see "
+"dependencies of one package on other packages. Searching by groups is "
+"possible and is an easy way to find software in your favorite desktop "
+"environment."
+msgstr ""
+"Paketler, sisteminiz üzerinde paket kurmanıza ve kaldırmanıza olanak tanır. "
+"Paketleri ada, ayrıntılara hatta dosya adına göre görüntüleyebilir veya "
+"arayabilir ve ayrıca bir paketin diğer paketlere olan bağımlılıklarını da "
+"görebilirsiniz. Kümelere göre arama yapmak mümkündür ve en sevdiğiniz "
+"masaüstü ortamındaki yazılımları bulmanın kolay bir yoludur."
+
+#: data/metainfo/org.gnome.Packages.metainfo.xml.in:17
+msgid ""
+"Packages uses PackageKit and can work on any distribution using the native "
+"package management framework."
+msgstr ""
+"Paketler, PackageKit kullanmaktadır ve yerel paket yönetim sistemi kullanan "
+"tüm dağıtımlarda çalışabilir."
+
+#. TRANSLATORS: user-friendly name for gpk-update-viewer
+#: data/metainfo/org.gnome.PackageUpdater.metainfo.xml.in:7 src/gpk-log.c:431
+msgid "GNOME Package Updater"
+msgstr "GNOME Paket Güncelleyicisi"
+
+#: data/metainfo/org.gnome.PackageUpdater.metainfo.xml.in:8
+#: data/org.gnome.PackageUpdater.desktop.in:4
+msgid "Update software installed on the system"
+msgstr "Sisteminizde kurulu yazılımı güncelleyin"
+
+#: data/metainfo/org.gnome.PackageUpdater.metainfo.xml.in:10
+msgid ""
+"Package Updater allows you to update packages on your system without "
+"rebooting. You can view details about each update and choose which updates "
+"to apply."
+msgstr ""
+"Paket Güncelleyicisi, sisteminizdeki paketleri bilgisayarı yeniden "
+"başlatmaksızın güncellemenize olanak tanır. Her bir paket hakkındaki "
+"ayrıntıları görüntüleyebilir ve hangi paketlerin uygulanacağına karar "
+"verebilirsiniz."
+
+#: data/metainfo/org.gnome.PackageUpdater.metainfo.xml.in:15
+msgid ""
+"Package Updater uses PackageKit and can work on any distribution using the "
+"native package management framework."
+msgstr ""
+"Paket Güncelleyicisi, PackageKit kullanmaktadır ve yerel paket yönetim "
+"sistemini kullanan tüm dağıtımlarda çalışır."
+
+#: data/org.gnome.Packages.desktop.in:3 src/gpk-application.ui:359
+#: src/gpk-application.c:2178
+msgid "Packages"
+msgstr "Paketler"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Packages.desktop.in:12
+msgid "Sources;Repositories;Preferences;Install;Store;"
+msgstr "Kaynaklar;Depolar;Tercihler;Kur;Yükle;Sakla;Mağaza;"
+
+#: src/gpk-application.ui:198
+msgid "License"
+msgstr "Lisans"
+
+#: src/gpk-application.ui:213
+msgid "Source"
+msgstr "Kaynak"
+
+#: src/gpk-application.ui:245 src/gpk-task.c:339
+msgid "Install"
+msgstr "Kur"
+
+#: src/gpk-application.ui:258 src/gpk-task.c:344
+msgid "Remove"
+msgstr "Kaldır"
+
+#: src/gpk-application.ui:271
+msgid "Homepage"
+msgstr "Ev sayfası"
+
+#: src/gpk-application.ui:275
+msgid "Visit home page for selected package"
+msgstr "Seçilen paketin ana sayfasını ziyaret et"
+
+#: src/gpk-application.ui:285
+msgid "Files"
+msgstr "Dosyalar"
+
+#: src/gpk-application.ui:298
+msgid "Required"
+msgstr "Gerekli"
+
+#: src/gpk-application.ui:311
+msgid "Dependent"
+msgstr "Bağımlı"
+
+#: src/gpk-application.ui:367 src/gpk-application.ui:368
+msgid "Clear current selection"
+msgstr "Geçerli seçimi temizle"
+
+#: src/gpk-application.ui:385 src/gpk-application.ui:386
+msgid "Cancel search"
+msgstr "Aramayı iptal et"
+
+#: src/gpk-application.ui:395
+msgid "Apply Changes"
+msgstr "Değişiklikleri Uygula"
+
+#: src/gpk-application.ui:399
+msgid "Changes are not applied instantly, this button applies all changes"
+msgstr "Değişiklikler anında uygulanmaz, bu düğme tüm değişiklikleri uygular"
+
+#: src/gpk-application.ui:436
+msgid "Check for Updates"
+msgstr "Güncellemeleri Denetle"
+
+#. TRANSLATORS: program name, an application to add and remove software repositories
+#: src/gpk-application.ui:440 data/gpk-prefs.desktop.in:3 src/gpk-prefs.ui:120
+#: src/gpk-prefs.c:524
+msgid "Package Sources"
+msgstr "Paket Kaynakları"
+
+#: src/gpk-application.ui:444
+msgid "Refresh Package Lists"
+msgstr "Paket Listelerini Yenile"
+
+#: src/gpk-application.ui:448 data/gpk-log.desktop.in:3 src/gpk-log.ui:79
+msgid "Package Log"
+msgstr "Paket Günlüğü"
+
+#: src/gpk-application.ui:454
+msgid "Only Newest Versions"
+msgstr "Yalnızca En Yeni Sürümler"
+
+#: src/gpk-application.ui:458
+msgid "Only Native Packages"
+msgstr "Yalnızca Yerli Paketler"
+
+#: src/gpk-application.ui:464
+msgid "About"
+msgstr "Hakkında"
+
+#: src/gpk-application.ui:468
+msgid "_Quit"
+msgstr "_Çık"
+
+#: src/gpk-client.ui:8
+msgid "Install Package"
+msgstr "Paketi Kur"
+
+#: src/gpk-error.ui:92
+msgid "More details"
+msgstr "Daha çok bilgi"
+
+#: src/gpk-error.ui:120
+msgid "_Force install"
+msgstr "_Zorla kur"
+
+#. button tooltip
+#: src/gpk-error.ui:123
+msgid "Force installing package"
+msgstr "Paket kurmayı zorla"
+
+#: src/gpk-eula.ui:80
+msgid "License Agreement Required"
+msgstr "Lisans Anlaşması Gerekli"
+
+#: src/gpk-eula.ui:93
+msgid "_Accept Agreement"
+msgstr "Anlaşmayı _Kabul Et"
+
+#: data/gpk-log.desktop.in:4
+msgid "View past package management tasks"
+msgstr "Geçmiş paket yönetim görevlerini göster"
+
+#: src/gpk-log.ui:32
+msgid "Filter"
+msgstr "Süz"
+
+#: data/gpk-prefs.desktop.in:4
+msgid "Enable or disable package repositories"
+msgstr "Paket depolarını etkinleştir ya da devre dışı bırak"
+
+#: src/gpk-prefs.ui:23
+msgid ""
+"A package source contains packages that can be installed on this computer."
+msgstr "Paket kaynağı, bu bilgisayara kurulabilecek paketler içerir."
+
+#. shows extra -source, -debuginfo, and -devel sources
+#: src/gpk-prefs.ui:58
+msgid "_Show debug and development package sources"
+msgstr "_Hata ayıklama ve geliştirme paket kaynaklarını göster"
+
+#: src/gpk-signature.ui:18
+msgid "Do you trust the source of the packages?"
+msgstr "Paketlerin kaynağına güveniyor musunuz?"
+
+#: src/gpk-signature.ui:42
+msgid "Repository name"
+msgstr "Depo adı"
+
+#: src/gpk-signature.ui:57
+msgid "Signature URL"
+msgstr "İmza adresi (URL)"
+
+#: src/gpk-signature.ui:72
+msgid "Signature user identifier"
+msgstr "İmza kullanıcısı tanıtıcısı"
+
+#: src/gpk-signature.ui:87
+msgid "Signature identifier"
+msgstr "İmza tanıtıcısı"
+
+#: src/gpk-signature.ui:102
+msgid "Package"
+msgstr "Paket"
+
+#: src/gpk-signature.ui:188
+msgid "Do you recognize the user and trust this key?"
+msgstr "Kullanıcıyı tanıyor ve bu anahtara güveniyor musunuz?"
+
+#. TRANSLATORS: title to pass to the user if there are not enough privs
+#: data/org.gnome.PackageUpdater.desktop.in:3 src/gpk-update-viewer.ui:317
+#: src/gpk-update-viewer.c:2944
+msgid "Package Updater"
+msgstr "Paket Güncelleyici"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.PackageUpdater.desktop.in:12
+msgid "Updates;Upgrade;"
+msgstr "Güncellemeler;Yükseltme;"
+
+#: src/gpk-update-viewer.ui:71
+msgid ""
+"Package updates correct errors, eliminate security vulnerabilities, and "
+"provide new features."
+msgstr ""
+"Paket güncellemeleri hataları düzeltir, güvenlik açıklarını ortadan kaldırır "
+"ve yeni özellikler sunar."
+
+#: src/gpk-update-viewer.ui:121
+msgid "_Upgrade"
+msgstr "_Yükselt"
+
+#. TRANSLATORS: column for what packages were upgraded
+#: src/gpk-update-viewer.ui:196 src/gpk-log.c:270
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: src/gpk-update-viewer.ui:321
+msgid "_Install Updates"
+msgstr "Güncellemeleri _Kur"
+
+#: data/org.gnome.packagekit.gschema.xml:10
+msgid "Automatically remove unused dependencies"
+msgstr "Kullanılmayan bağımlılıkları kendiliğinden kaldır"
+
+#: data/org.gnome.packagekit.gschema.xml:11
+msgid ""
+"When removing a package, also remove those dependencies that are not "
+"required by other packages."
+msgstr ""
+"Bir paketi kaldırırken, diğer paketler tarafından gereksinim duyulmayan "
+"bağımlılıkları da kaldır."
+
+#: data/org.gnome.packagekit.gschema.xml:15
+msgid "Ask the user if additional packages should be installed"
+msgstr "Ek paketlerin kurulup kurulmayacağını kullanıcıya sor"
+
+#: data/org.gnome.packagekit.gschema.xml:16
+msgid "Ask the user if additional packages should be installed."
+msgstr "Ek paketlerin kurulup kurulmayacağını kullanıcıya sor."
+
+#: data/org.gnome.packagekit.gschema.xml:20
+msgid "Filter using basename in gpk-application"
+msgstr "gpk-application içindeki temel adı kullanarak süz"
+
+#: data/org.gnome.packagekit.gschema.xml:21
+msgid "Filter package lists using basename in gpk-application."
+msgstr "Paket listelerini gpk-application içindeki temel adı kullanarak süz."
+
+#: data/org.gnome.packagekit.gschema.xml:25
+msgid "Only show the newest packages in the file lists"
+msgstr "Dosya listelerinde yalnızca en yeni paketleri göster"
+
+#: data/org.gnome.packagekit.gschema.xml:26
+msgid "Only show the newest packages in the file lists."
+msgstr "Dosya listelerinde yalnızca en yeni paketleri göster."
+
+#: data/org.gnome.packagekit.gschema.xml:30
+msgid "Only show supported packages in the file lists"
+msgstr "Dosya listelerinde yalnızca desteklenen paketleri göster"
+
+#: data/org.gnome.packagekit.gschema.xml:31
+msgid "Only show supported packages in the file lists."
+msgstr "Dosya listelerinde yalnızca desteklenen paketleri göster."
+
+#: data/org.gnome.packagekit.gschema.xml:35
+msgid "Only show native packages in the file lists"
+msgstr "Dosya listelerinde yalnızca  yerli paketleri göster"
+
+#: data/org.gnome.packagekit.gschema.xml:36
+msgid ""
+"Only show native packages matching the machine architecture in the file "
+"lists."
+msgstr ""
+"Dosya listelerinde yalnızca makine mimarisiyle eşleşen yerli paketleri "
+"göster."
+
+#: data/org.gnome.packagekit.gschema.xml:40
+msgid "Show the category group menu"
+msgstr "Kategori küme menüsünü göster"
+
+#: data/org.gnome.packagekit.gschema.xml:41
+msgid ""
+"Show the category group menu. This is more complete and custom to the "
+"distribution, but takes longer to populate."
+msgstr ""
+"Kategori küme menüsünü göster. Bu daha kapsamlıdır ve dağıtıma özeldir, ama "
+"oluşturulması daha uzun sürer."
+
+#: data/org.gnome.packagekit.gschema.xml:45
+msgid "Show the “All Packages” group menu"
+msgstr "“Tüm Paketler” küme menüsünü göster"
+
+#: data/org.gnome.packagekit.gschema.xml:46
+msgid ""
+"Show the all packages menu item. This takes a long time to populate on most "
+"backends and is not generally required by end users."
+msgstr ""
+"Tüm paketler menü ögesini göster. Bunu doldurmak bir çok arkauç için daha "
+"uzun sürer ve genellikle son kullanıcılar tarafından gereksinim duyulmaz."
+
+#: data/org.gnome.packagekit.gschema.xml:50
+msgid "The search mode used by default"
+msgstr "Öntanımlı olarak kullanılacak arama kipi"
+
+#: data/org.gnome.packagekit.gschema.xml:51
+msgid ""
+"The search mode used by default. Options are “name”, “details”, or “file”."
+msgstr ""
+"Öntanımlı olarak kullanılan arama kipi. Seçenekler: “name” (ad), "
+"“details” (ayrıntılar) ya da “file” (dosya)."
+
+#: data/org.gnome.packagekit.gschema.xml:55
+msgid "Show all repositories in the package source viewer"
+msgstr "Paket kaynak görüntüleyicide tüm depoları göster"
+
+#: data/org.gnome.packagekit.gschema.xml:56
+msgid "Show all repositories in the package source viewer."
+msgstr "Paket kaynak görüntüleyicide tüm depoları göster."
+
+#: data/org.gnome.packagekit.gschema.xml:60
+msgid "Only show the newest updates in the list"
+msgstr "Listede yalnızca en yeni güncellemeleri göster"
+
+#: data/org.gnome.packagekit.gschema.xml:61
+msgid ""
+"Only show the newest packages in the update list, and filter out older "
+"updates that are still available."
+msgstr ""
+"Güncelleme listesinde yalnızca en yeni paketleri göster ve hala var olan "
+"eski güncellemeleri dışarıda bırak."
+
+#: data/org.gnome.packagekit.gschema.xml:65
+msgid "Scroll to packages as they are downloaded"
+msgstr "Paketler indirildikçe paketlere kaydır"
+
+#: data/org.gnome.packagekit.gschema.xml:66
+msgid ""
+"Scroll to packages in the update list as they are downloaded or installed."
+msgstr ""
+"Güncelleme listesindeki paketlere, paketler indirildikçe ya da kuruldukça "
+"kaydır."
+
+#: data/org.gnome.packagekit.gschema.xml:70
+msgid "Allow applications to invoke the font installer"
+msgstr "Uygulamaların yazı tipi kurucusunu çalıştırmasına izin ver"
+
+#: data/org.gnome.packagekit.gschema.xml:71
+msgid "Allow applications to invoke the font installer."
+msgstr "Uygulamaların yazı tipi kurucusunu çalıştırmasına izin ver."
+
+#: data/org.gnome.packagekit.gschema.xml:75
+msgid "Programs that should be ignored when they issue session D-Bus requests"
+msgstr ""
+"D-Bus oturum istekleri istediği zaman göz ardı edilmesi gereken programlar"
+
+#: data/org.gnome.packagekit.gschema.xml:76
+msgid ""
+"Programs that should be ignored when they issue session D-Bus requests, "
+"separated by commas."
+msgstr ""
+"D-Bus oturum istekleri istediği zaman göz ardı edilmesi gereken programlar, "
+"virgülle ayrılmış."
+
+#: data/org.gnome.packagekit.gschema.xml:80
+msgid "Allow applications to invoke the codec installer"
+msgstr "Uygulamaların kodek kurucusunu çalıştırmasına izin ver"
+
+#: data/org.gnome.packagekit.gschema.xml:81
+msgid "Allow applications to invoke the codec installer."
+msgstr "Uygulamaların kodek kurucusunu çalıştırmasına izin ver."
+
+#: data/org.gnome.packagekit.gschema.xml:85
+msgid "Allow applications to invoke the mime type installer"
+msgstr "Uygulamaların mime türü kurucusunu çalıştırmasına izin ver"
+
+#: data/org.gnome.packagekit.gschema.xml:86
+msgid "Allow applications to invoke the mime type installer."
+msgstr "Uygulamaların mime türü kurucusunu çalıştırmasına izin ver."
+
+#: data/org.gnome.packagekit.gschema.xml:90
+msgid ""
+"When displaying UI from a session D-Bus request, automatically use these "
+"options by default."
+msgstr ""
+"Bir oturum DBus isteğinden UI görüntüleniyorken, kendiliğinden öntanımlı "
+"olarak bu seçenekleri kullan."
+
+#: data/org.gnome.packagekit.gschema.xml:94
+msgid ""
+"When displaying UI from a session D-Bus request, force these options to be "
+"turned on."
+msgstr ""
+"Bir oturum DBus isteğinden UI görüntüleniyorken, bu seçeneklerin açık "
+"olmasını zorla."
+
+#. TRANSLATORS: this is a menu group of packages in the queue
+#: src/gpk-application.c:315
+msgid "Pending"
+msgstr "Beklemede"
+
+#. TRANSLATORS: title: how many files are installed by the application
+#: src/gpk-application.c:533
+#, c-format
+msgid "%u file installed by %s"
+msgid_plural "%u files installed by %s"
+msgstr[0] "%u dosya %s tarafından kuruldu"
+
+#. TRANSLATORS: no packages returned
+#: src/gpk-application.c:791 src/gpk-application.c:898
+msgid "No packages"
+msgstr "Paket yok"
+
+#. TRANSLATORS: this package is not required by any others
+#: src/gpk-application.c:793
+msgid "No other packages require this package"
+msgstr "Başka hiçbir paket bu pakete gereksinmiyor"
+
+#. TRANSLATORS: title: how many packages require this package
+#: src/gpk-application.c:800
+#, c-format
+msgid "%u package requires %s"
+msgid_plural "%u packages require %s"
+msgstr[0] "%u paket %s gerektirir"
+
+#. TRANSLATORS: show a array of packages for the package
+#: src/gpk-application.c:805
+#, c-format
+msgid "Packages listed below require %s to function correctly."
+msgid_plural "Packages listed below require %s to function correctly."
+msgstr[0] "Aşağıda listelenmiş paketlerin doğru çalışması için %s gereklidir."
+
+#. TRANSLATORS: this package does not depend on any others
+#: src/gpk-application.c:900
+msgid "This package does not depend on any others"
+msgstr "Bu paket başka hiçbir pakete bağımlı değildir"
+
+#. TRANSLATORS: title: show the number of other packages we depend on
+#: src/gpk-application.c:907
+#, c-format
+msgid "%u additional package is required for %s"
+msgid_plural "%u additional packages are required for %s"
+msgstr[0] "%2$s için %1$u adet ek paket gerekli"
+
+#. TRANSLATORS: message: show the array of dependent packages for this package
+#: src/gpk-application.c:912
+#, c-format
+msgid "Packages listed below are required for %s to function correctly."
+msgid_plural "Packages listed below are required for %s to function correctly."
+msgstr[0] "%s, doğru çalışmak için aşağıdaki paketlere gereksiniyor."
+
+#. TRANSLATORS: the repo name is invalid or not found, fall back to this
+#: src/gpk-application.c:962
+msgid "Invalid"
+msgstr "Geçersiz"
+
+#. TRANSLATORS: no results were found for this search
+#: src/gpk-application.c:1082
+msgid "No results were found."
+msgstr "Sonuç bulunamadı."
+
+#. TRANSLATORS: be helpful, but this shouldn't happen
+#: src/gpk-application.c:1090
+msgid "Try entering a package name in the search bar."
+msgstr "Arama çubuğuna bir paket adı girmeyi deneyin."
+
+#. TRANSLATORS: nothing in the package queue
+#: src/gpk-application.c:1093
+msgid "There are no packages queued to be installed or removed."
+msgstr "Kurulmak veya kaldırılmak için kuyrukta bekleyen paket yok."
+
+#. TRANSLATORS: tell the user to switch to details search mode
+#: src/gpk-application.c:1098
+msgid ""
+"Try searching package descriptions by clicking the icon next to the search "
+"text."
+msgstr ""
+"Arama metninin yanındaki simgeye tıklayarak paket açıklamalarında aramayı "
+"deneyin."
+
+#. TRANSLATORS: tell the user to try harder
+#: src/gpk-application.c:1101
+msgid "Try again with a different search term."
+msgstr "Farklı bir arama terimi ile deneyin."
+
+#. TRANSLATORS: title: invalid text in the search bar
+#: src/gpk-application.c:1281
+msgid "Invalid search text"
+msgstr "Geçersiz arama metni"
+
+#. TRANSLATORS: message: tell the user that's not allowed
+#: src/gpk-application.c:1283
+msgid "The search text contains invalid characters"
+msgstr "Arama metninde geçersiz karakterler var"
+
+#. TRANSLATORS: title: we failed to execute the method
+#: src/gpk-application.c:1324
+msgid "The search could not be completed"
+msgstr "Arama tamamlanamadı"
+
+#. TRANSLATORS: low level failure, details to follow
+#: src/gpk-application.c:1326
+msgid "Running the transaction failed"
+msgstr "İşlem çalıştırılamadı"
+
+#. TRANSLATORS: title: warn the user they are quitting with unapplied changes
+#: src/gpk-application.c:1430
+msgid "Changes not applied"
+msgstr "Değişiklikler uygulanmadı"
+
+#: src/gpk-application.c:1431
+msgid "Close _Anyway"
+msgstr "Yine De _Kapat"
+
+#. TRANSLATORS: tell the user the problem
+#: src/gpk-application.c:1435
+msgid "You have made changes that have not yet been applied."
+msgstr "Henüz uygulanmayan değişiklikler yaptınız."
+
+#: src/gpk-application.c:1436
+msgid "These changes will be lost if you close this window."
+msgstr "Bu pencereyi kapattığınızda bu değişiklikler kaybolacaktır."
+
+#. TRANSLATORS: column for installed status
+#. TRANSLATORS: The state of a package
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-application.c:1694 src/gpk-enum.c:962 src/gpk-enum.c:1051
+msgid "Installed"
+msgstr "Kurulu"
+
+#. TRANSLATORS: column for package name
+#. TRANSLATORS: column for group name
+#: src/gpk-application.c:1710 src/gpk-application.c:1732 src/gpk-dialog.c:127
+msgid "Name"
+msgstr "Ad"
+
+#. TRANSLATORS: the size of the meta package
+#: src/gpk-application.c:1889
+msgid "Size"
+msgstr "Boyut"
+
+#. TRANSLATORS: the installed size in bytes of the package
+#: src/gpk-application.c:1892
+msgid "Installed size"
+msgstr "Kurulu boyut"
+
+#. TRANSLATORS: the download size of the package
+#: src/gpk-application.c:1895
+msgid "Download size"
+msgstr "İndirme boyutu"
+
+#. TRANSLATORS: entry tooltip: basic search
+#: src/gpk-application.c:2041
+msgid "Searching by name"
+msgstr "Ada göre aranıyor"
+
+#. TRANSLATORS: entry tooltip: detailed search
+#: src/gpk-application.c:2064
+msgid "Searching by description"
+msgstr "Açıklamasına göre aranıyor"
+
+#. TRANSLATORS: entry tooltip: file search
+#: src/gpk-application.c:2087
+msgid "Searching by file"
+msgstr "Dosyaya göre aranıyor"
+
+#. TRANSLATORS: context menu item for the search type icon
+#: src/gpk-application.c:2107
+msgid "Search by name"
+msgstr "Ada göre ara"
+
+#. TRANSLATORS: context menu item for the search type icon
+#: src/gpk-application.c:2115
+msgid "Search by description"
+msgstr "Açıklamasına göre ara"
+
+#. TRANSLATORS: context menu item for the search type icon
+#: src/gpk-application.c:2123
+msgid "Search by file name"
+msgstr "Dosya adına göre ara"
+
+#: src/gpk-application.c:2147
+msgid "Licensed under the GNU General Public License Version 2"
+msgstr "GNU Genel Kamu Lisansı Sürüm 2 ile lisanslanmıştır"
+
+#: src/gpk-application.c:2148
+msgid ""
+"PackageKit is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"PackageKit özgür yazılımdır; Free Software Foundation tarafından yayımlanan "
+"GNU Genel Kamu Lisansı altında  dağıtabilir ve / veya değiştirebilirsiniz; "
+"sizin seçiminize göre ya da (her iki sürümü 2) herhangi bir sürüme göre."
+
+#: src/gpk-application.c:2152
+msgid ""
+"PackageKit is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"PackageKit yararlı olacağı umut edilerek dağıtılmaktadır, fakat HİÇBİR "
+"GARANTİSİ YOKTUR; dolaylı bile olsa bir amaca UYGUNLUĞU garantisi yoktur. "
+"Daha çok ayrıntı için GNU Genel Kamu Lisansıʼna bakın."
+
+#: src/gpk-application.c:2156
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
+"Bu program ile GNU Genel Kamu Lisansıʼnın bir kopyasını birlikte almış "
+"olmalısınız; almadıysanız, Free Software Foundation, Inc, 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301, ABD adresine yazın."
+
+#. TRANSLATORS: put your own name here -- you deserve credit!
+#: src/gpk-application.c:2162
+msgid "translator-credits"
+msgstr ""
+"Barış Çiçek <baris@teamforce.name.tr>\n"
+"Muhammet Kara <muhammetk@gmail.com>"
+
+#: src/gpk-application.c:2183
+msgid "PackageKit Website"
+msgstr "PackageKit Sitesi"
+
+#. TRANSLATORS: description of NULL, gpk-application that is
+#: src/gpk-application.c:2186
+msgid "Package Manager for GNOME"
+msgstr "GNOME için Paket Yöneticisi"
+
+#. TRANSLATORS: welcome text if we can click the group array
+#: src/gpk-application.c:2341
+msgid "Enter a search word or click a category to get started."
+msgstr "Başlamak için bir arama kelimesi girin veya kategori seçin."
+
+#. TRANSLATORS: welcome text if we have to search by name
+#: src/gpk-application.c:2344
+msgid "Enter a search word to get started."
+msgstr "Başlamak için bir arama terimi girin."
+
+#. TRANSLATORS: daemon is broken
+#: src/gpk-application.c:2537
+msgid "Exiting as properties could not be retrieved"
+msgstr "Özellikler alınamadığı için çıkılıyor"
+
+#. TRANSLATORS: title: all of the packages on the system and available in sources
+#: src/gpk-application.c:2579
+msgid "All packages"
+msgstr "Tüm paketler"
+
+#. TRANSLATORS: tooltip: all packages
+#: src/gpk-application.c:2581
+msgid "Show all packages"
+msgstr "Tüm paketleri göster"
+
+#. TRANSLATORS: show the program version
+#: src/gpk-application.c:2955 src/gpk-update-viewer.c:2912
+msgid "Show the program version and exit"
+msgstr "Program sürümünü göster ve çık"
+
+#: src/gpk-application.c:2968
+msgid "Install Software"
+msgstr "Yazılım Kur"
+
+#. are we running privileged
+#: src/gpk-application.c:2984
+msgid "Package installer"
+msgstr "Paket kurucu"
+
+#. TRANSLATORS: a 32 bit package
+#: src/gpk-common.c:151
+msgid "32-bit"
+msgstr "32-bit"
+
+#. TRANSLATORS: a 64 bit package
+#: src/gpk-common.c:158
+msgid "64-bit"
+msgstr "64-bit"
+
+#. TRANSLATORS: these tools cannot run as root (unknown name)
+#: src/gpk-common.c:257
+msgid "This application is running as a privileged user"
+msgstr "Bu uygulama ayrıcalıklı bir kullanıcı olarak çalışıyor"
+
+#. TRANSLATORS: cannot run as root user, and we display the application name
+#: src/gpk-common.c:260
+#, c-format
+msgid "%s is running as a privileged user"
+msgstr "%s ayrıcalıklı bir kullanıcı olarak çalışıyor"
+
+#. TRANSLATORS: tell the user off
+#: src/gpk-common.c:263
+msgid "Package management applications are security sensitive."
+msgstr "Paket yönetimi uygulamaları güvenlik duyarlıdır."
+
+#. TRANSLATORS: and explain why
+#: src/gpk-common.c:265
+msgid ""
+"Running graphical applications as a privileged user should be avoided for "
+"security reasons."
+msgstr ""
+"Ayrıcalıklı bir kullanıcı olarak grafik uygulamaları çalıştırmak güvenlik "
+"nedeniyle kaçınılmalıdır."
+
+#. TRANSLATORS: button: allow the user to run this, even when insecure
+#: src/gpk-common.c:271
+msgid "Continue _Anyway"
+msgstr "Yine De _Devam Et"
+
+#. Translators: a list of two things
+#: src/gpk-common.c:307
+#, c-format
+msgid "%s and %s"
+msgstr "%s ve %s"
+
+#. Translators: a list of three things
+#: src/gpk-common.c:311
+#, c-format
+msgid "%s, %s and %s"
+msgstr "%s, %s ve %s"
+
+#. Translators: a list of four things
+#: src/gpk-common.c:315
+#, c-format
+msgid "%s, %s, %s and %s"
+msgstr "%s, %s, %s ve %s"
+
+#. Translators: a list of five things
+#: src/gpk-common.c:320
+#, c-format
+msgid "%s, %s, %s, %s and %s"
+msgstr "%s, %s, %s, %s ve %s"
+
+#. TRANSLATORS: turn on all debugging
+#: src/gpk-debug.c:104
+msgid "Show debugging information for all files"
+msgstr "Tüm dosyalar için hata ayıklama bilgisi göster"
+
+#: src/gpk-debug.c:156
+msgid "Debugging Options"
+msgstr "Hata Ayıklama Seçenekleri"
+
+#: src/gpk-debug.c:156
+msgid "Show debugging options"
+msgstr "Hata ayıklama seçeneklerini göster"
+
+#. TRANSLATORS: This is when we have over 5 items, and we're not interested in detail
+#: src/gpk-dialog.c:64
+msgid "many packages"
+msgstr "birçok paket"
+
+#: src/gpk-dialog.c:207
+msgid "No files"
+msgstr "Dosya yok"
+
+#. add a checkbutton for deps screen
+#: src/gpk-dialog.c:262
+msgid "Do not show this again"
+msgstr "Bu bir daha gösterme"
+
+#. TRANSLATORS: this is compact disk (CD) media
+#: src/gpk-enum.c:208
+msgid "CD"
+msgstr "CD"
+
+#. TRANSLATORS: this is digital versatile disk (DVD) media
+#: src/gpk-enum.c:212
+msgid "DVD"
+msgstr "DVD"
+
+#. TRANSLATORS: this is either CD or DVD media
+#: src/gpk-enum.c:216
+msgid "disc"
+msgstr "disk"
+
+#. TRANSLATORS: this is generic media of unknown type that we will install from
+#: src/gpk-enum.c:220
+msgid "media"
+msgstr "ortam"
+
+#: src/gpk-enum.c:234
+msgid "Failed with unknown error code"
+msgstr "Bilinmeyen hata koduyla başarısız oldu"
+
+#: src/gpk-enum.c:237
+msgid "No network connection available"
+msgstr "İnternet bağlantısı yok"
+
+#: src/gpk-enum.c:240
+msgid "No package cache is available."
+msgstr "Paket önbelleği yok."
+
+#: src/gpk-enum.c:243
+msgid "Out of memory"
+msgstr "Yetersiz bellek"
+
+#: src/gpk-enum.c:246
+msgid "Failed to create a thread"
+msgstr "İş parçacığı oluşturulamadı"
+
+#: src/gpk-enum.c:249
+msgid "Not supported by this backend"
+msgstr "Bu arkauç tarafından desteklenmiyor"
+
+#: src/gpk-enum.c:252
+msgid "An internal system error has occurred"
+msgstr "Bir iç sistem hatası oluştu"
+
+#: src/gpk-enum.c:255
+msgid "A security signature is not present"
+msgstr "Bir güvenlik imzası sunulmamış"
+
+#: src/gpk-enum.c:258
+msgid "The package is not installed"
+msgstr "Paket kurulu değil"
+
+#: src/gpk-enum.c:261
+msgid "The package was not found"
+msgstr "Paket bulunamadı"
+
+#: src/gpk-enum.c:264
+msgid "The package is already installed"
+msgstr "Paket zaten kurulu"
+
+#: src/gpk-enum.c:267
+msgid "The package download failed"
+msgstr "Paket indirilemedi"
+
+#: src/gpk-enum.c:270
+msgid "The group was not found"
+msgstr "Küme bulunamadı"
+
+#: src/gpk-enum.c:273
+msgid "The group list was invalid"
+msgstr "Küme listesi geçersiz"
+
+#: src/gpk-enum.c:276
+msgid "Dependency resolution failed"
+msgstr "Bağımlılıklar çözülemedi"
+
+#: src/gpk-enum.c:279
+msgid "Search filter was invalid"
+msgstr "Arama süzgeci geçersiz"
+
+#: src/gpk-enum.c:282
+msgid "The package identifier was not well formed"
+msgstr "Paket tanımlayıcısı doğru düzenlenmemiş "
+
+#: src/gpk-enum.c:285
+msgid "Transaction error"
+msgstr "Aktarım hatası"
+
+#: src/gpk-enum.c:288
+msgid "Repository name was not found"
+msgstr "Depo adı bulunamadı"
+
+#: src/gpk-enum.c:291
+msgid "Could not remove a protected system package"
+msgstr "Koruma altındaki bir sistem paketi kaldırılamadı"
+
+#: src/gpk-enum.c:294
+msgid "The action was canceled"
+msgstr "Eylem iptal edildi"
+
+#: src/gpk-enum.c:297
+msgid "The action was forcibly canceled"
+msgstr "Eylem zorla iptal edildi"
+
+#: src/gpk-enum.c:300
+msgid "Reading the configuration file failed"
+msgstr "Yapılandırma dosyası okunamadı"
+
+#: src/gpk-enum.c:303
+msgid "The action cannot be canceled"
+msgstr "Eylem iptal edilemez"
+
+#: src/gpk-enum.c:306
+msgid "Source packages cannot be installed"
+msgstr "Kaynak paketleri kurulamıyor"
+
+#: src/gpk-enum.c:309
+msgid "The license agreement failed"
+msgstr "Lisans anlaşması başarısız"
+
+#: src/gpk-enum.c:312
+msgid "Local file conflict between packages"
+msgstr "Yerel dosya ve paketler arasında çatışma"
+
+#: src/gpk-enum.c:315
+msgid "Packages are not compatible"
+msgstr "Paketler uyumlu değil"
+
+#: src/gpk-enum.c:318
+msgid "Problem connecting to a package source"
+msgstr "Bir paket kaynağına bağlanırken sorun oluştu"
+
+#: src/gpk-enum.c:321
+msgid "Failed to initialize"
+msgstr "Başlatılamadı"
+
+#: src/gpk-enum.c:324
+msgid "Failed to finalize"
+msgstr "Sonlandırılamadı"
+
+#: src/gpk-enum.c:327
+msgid "Cannot get lock"
+msgstr "Kilit alınamadı"
+
+#: src/gpk-enum.c:330
+msgid "No packages to update"
+msgstr "Güncellenecek paket yok"
+
+#: src/gpk-enum.c:333
+msgid "Cannot write repository configuration"
+msgstr "Depo yapılandırmasına yazılamıyor"
+
+#: src/gpk-enum.c:336
+msgid "Local install failed"
+msgstr "Yerel kurulum başarısız"
+
+#: src/gpk-enum.c:339
+msgid "Bad security signature"
+msgstr "Geçersiz güvenlik imzası"
+
+#: src/gpk-enum.c:342
+msgid "Missing security signature"
+msgstr "Eksik güvenlik imzası"
+
+#: src/gpk-enum.c:345
+msgid "Repository configuration invalid"
+msgstr "Depo yapılandırması geçersiz"
+
+#: src/gpk-enum.c:348
+msgid "Invalid package file"
+msgstr "Geçersiz paket dosyası"
+
+#: src/gpk-enum.c:351
+msgid "Package install blocked"
+msgstr "Paket kurulumu engellendi"
+
+#: src/gpk-enum.c:354
+msgid "Package is corrupt"
+msgstr "Paket bozuk"
+
+#: src/gpk-enum.c:357
+msgid "All packages are already installed"
+msgstr "Tüm paketler zaten kurulu"
+
+#: src/gpk-enum.c:360
+msgid "The specified file could not be found"
+msgstr "Belirtilen dosya bulunamadı"
+
+#: src/gpk-enum.c:363
+msgid "No more mirrors are available"
+msgstr "Başka yansı yok"
+
+#: src/gpk-enum.c:366
+msgid "No distribution upgrade data is available"
+msgstr "Hiçbir dağıtım yükseltme verisi yok"
+
+#: src/gpk-enum.c:369
+msgid "Package is incompatible with this system"
+msgstr "Paket bu sistem ile uyumsuz"
+
+#: src/gpk-enum.c:372
+msgid "No space is left on the disk"
+msgstr "Diskte hiçbir boşluk kalmadı"
+
+#. TRANSLATORS: this is the window title when a new CD or DVD is required
+#: src/gpk-enum.c:375 src/gpk-task.c:297
+msgid "A media change is required"
+msgstr "Bir ortam değiştirme gerekli"
+
+#: src/gpk-enum.c:378
+msgid "Authorization failed"
+msgstr "Yetkilendirme başarısız oldu"
+
+#: src/gpk-enum.c:381
+msgid "Update not found"
+msgstr "Güncelleme bulunamadı"
+
+#: src/gpk-enum.c:384
+msgid "Cannot install from untrusted source"
+msgstr "Güvenilmeyen bir kaynaktan kurulamıyor"
+
+#: src/gpk-enum.c:387
+msgid "Cannot update from untrusted source"
+msgstr "Güvenilmeyen kaynaktan güncellenemiyor"
+
+#: src/gpk-enum.c:390
+msgid "Cannot get the file list"
+msgstr "Dosya listesi alınamıyor"
+
+#: src/gpk-enum.c:393
+msgid "Cannot get package requires"
+msgstr "Paketi gereksinimleri alınamıyor"
+
+#: src/gpk-enum.c:396
+msgid "Cannot disable source"
+msgstr "Kaynak devre dışı bırakılamıyor"
+
+#: src/gpk-enum.c:399
+msgid "The download failed"
+msgstr "İndirilemedi"
+
+#: src/gpk-enum.c:402
+msgid "Package failed to configure"
+msgstr "Paket yapılandırılamadı"
+
+#: src/gpk-enum.c:405
+msgid "Package failed to build"
+msgstr "Paket inşa edilemedi"
+
+#: src/gpk-enum.c:408
+msgid "Package failed to install"
+msgstr "Paket kurulamadı"
+
+#: src/gpk-enum.c:411
+msgid "Package failed to be removed"
+msgstr "Paket kaldırılamadı"
+
+#: src/gpk-enum.c:414
+msgid "Update failed due to running process"
+msgstr "Çalışan süreçten dolayı güncelleme başarısız"
+
+#: src/gpk-enum.c:417
+msgid "The package database was changed"
+msgstr "Paket veri tabanı değiştirildi"
+
+#: src/gpk-enum.c:420
+msgid "Virtual provide type is not supported"
+msgstr "Sanal sağlama türü desteklenmiyor"
+
+#: src/gpk-enum.c:423
+msgid "Install root is invalid"
+msgstr "Kurulum kökü geçersiz"
+
+#: src/gpk-enum.c:426
+msgid "Cannot fetch install sources"
+msgstr "Kurulum kaynakları alınamıyor"
+
+#: src/gpk-enum.c:429
+msgid "Rescheduled due to priority"
+msgstr "Önceliğe bağlı olarak yeniden zamanlandı"
+
+#: src/gpk-enum.c:432
+msgid "Unfinished transaction"
+msgstr "Bitirilmemiş işlem"
+
+#: src/gpk-enum.c:435
+msgid "Lock required"
+msgstr "Kilit gerekiyor"
+
+#: src/gpk-enum.c:439
+msgid "Source already set"
+msgstr "Kaynak zaten ayarlı"
+
+#: src/gpk-enum.c:454
+msgid "Failed with unknown error code."
+msgstr "Bilinmeyen hata koduyla başarısız oldu."
+
+#: src/gpk-enum.c:457
+msgid ""
+"There is no network connection available.\n"
+"Please check your connection settings and try again."
+msgstr ""
+"Hiçbir ağ bağlantısı yok.\n"
+"Lütfen bağlantı ayarlarınızı denetleyip yeniden deneyin."
+
+#: src/gpk-enum.c:461
+msgid ""
+"The package list needs to be rebuilt.\n"
+"This should have been done by the backend automatically."
+msgstr ""
+"Paket listesinin yeniden inşa edilmesi gerekmektedir.\n"
+"Bu arka uç tarafından kendiliğinden yapılmış olmalıdır."
+
+#: src/gpk-enum.c:465
+msgid ""
+"The service that is responsible for handling user requests is out of "
+"memory.\n"
+"Please restart your computer."
+msgstr ""
+"Kullanıcı taleplerini almaktan sorumlu olan hizmet için bellek yetersiz. \n"
+"Lütfen bilgisayarınızı yeniden başlatın."
+
+#: src/gpk-enum.c:469
+msgid "A thread could not be created to service the user request."
+msgstr "Kullanıcı isteklerine hizmet için bir iş parçacığı oluşturulamadı."
+
+#: src/gpk-enum.c:472
+msgid ""
+"The action is not supported by this backend.\n"
+"Please report a bug in your distribution bug tracker as this should not have "
+"happened."
+msgstr ""
+"Eylem bu arka uç tarafından desteklenmiyor. \n"
+"Lütfen dağıtım hata sistemine bir hata rapor edin çünkü böyle olmaması "
+"gerekirdi."
+
+#: src/gpk-enum.c:476
+msgid ""
+"A problem that we were not expecting has occurred.\n"
+"Please report this bug in your distribution bug tracker with the error "
+"description."
+msgstr ""
+"Beklemediğimiz bir sorun oluştu.\n"
+"Lütfen bu hatayı hata açıklamasıyla birlikte dağıtımınızın hata takipçisine "
+"bildirin."
+
+#: src/gpk-enum.c:480
+msgid ""
+"A security trust relationship could not be made with package source.\n"
+"Please check your security settings."
+msgstr ""
+"Paket kaynağı ile bir güven ilişkisi kurulamadı.\n"
+"Lütfen güvenlik ayarlarınızı denetleyiniz."
+
+#: src/gpk-enum.c:484
+msgid ""
+"The package that is trying to be removed or updated is not already installed."
+msgstr "Kaldırılmaya veya güncellenmeye çalışılan paket zaten kurulu değil."
+
+#: src/gpk-enum.c:487
+msgid ""
+"The package that is being modified was not found on your system or in any "
+"package source."
+msgstr ""
+"Değiştirilmekte olan paket sistemde ya da hiçbir paket kaynağında bulunamadı."
+
+#: src/gpk-enum.c:490
+msgid "The package that is trying to be installed is already installed."
+msgstr "Kurulmaya çalışılan paket zaten kurulu."
+
+#: src/gpk-enum.c:493
+msgid ""
+"The package download failed.\n"
+"Please check your network connectivity."
+msgstr ""
+"Paket indirilemedi.\n"
+"Lütfen ağ bağlantısını denetleyin."
+
+#: src/gpk-enum.c:497
+msgid ""
+"The group type was not found.\n"
+"Please check your group list and try again."
+msgstr ""
+"Küme türü bulunamadı.\n"
+"Lütfen küme listesini denetleyip yeniden deneyin."
+
+#: src/gpk-enum.c:501
+msgid ""
+"The group list could not be loaded.\n"
+"Refreshing your cache may help, although this is normally a software source "
+"error."
+msgstr ""
+"Küme listesi kurulamadı. \n"
+"Bu normalde bir yazılım kaynağı hatası olmasına rağmen, önbelleği tazelemek "
+"yardımcı olabilir."
+
+#: src/gpk-enum.c:506
+msgid ""
+"A package could not be found that allows the action to complete.\n"
+"More information is available in the detailed report."
+msgstr ""
+"İşlemin tamamlanmasına olanak sağlayan paket bulunamadı. \n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:510
+msgid "The search filter was not correctly formed."
+msgstr "Arama süzgeci doğru düzenlenmemiş."
+
+#: src/gpk-enum.c:513
+msgid ""
+"The package identifier was not well formed when sent to the server.\n"
+"This normally indicates an internal error and should be reported."
+msgstr ""
+"Paket tanımlayıcısı sunucuya gönderildiği zaman doğru düzenlenmemiş.\n"
+"Bu normalde bir iç hatayı gösterir ve rapor edilmelidir."
+
+#: src/gpk-enum.c:517
+msgid ""
+"An unspecified transaction error has occurred.\n"
+"More information is available in the detailed report."
+msgstr ""
+"Belirsiz bir işlem hatası oluştu.\n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:521
+msgid ""
+"The remote package source name was not found.\n"
+"You may need to enable an item in Package Sources."
+msgstr ""
+"Uzak paket kaynağı adı bulunamadı.\n"
+"Yazılım Kaynaklarıʼndaki bir ögeyi etkinleştirmeniz gerekebilir."
+
+#: src/gpk-enum.c:525
+msgid "Removing a protected system package is not allowed."
+msgstr "Korunan bir sistem paketi kaldırılmasına izin verilmiyor."
+
+#: src/gpk-enum.c:528
+msgid "The action was canceled successfully and no packages were changed."
+msgstr "Eylem başarıyla iptal edildi ve hiçbir paket değiştirilmedi."
+
+#: src/gpk-enum.c:531
+msgid ""
+"The action was canceled successfully and no packages were changed.\n"
+"The backend did not exit cleanly."
+msgstr ""
+"Eylem başarıyla iptal edildi ve hiçbir paket değiştirilmedi.\n"
+"Arka uç temizce çıkamadı."
+
+#: src/gpk-enum.c:535
+msgid ""
+"The native package configuration file could not be opened.\n"
+"Please make sure configuration is valid."
+msgstr ""
+"Yerli paket yapılandırma dosyası açılamadı.\n"
+"Lütfen yapılandırmanın geçerli olduğundan emin olun."
+
+#: src/gpk-enum.c:539
+msgid "The action cannot be canceled at this time."
+msgstr "Eylem şu anda iptal edilemiyor."
+
+#: src/gpk-enum.c:542
+msgid ""
+"Source packages are not normally installed this way.\n"
+"Check the extension of the file you are trying to install."
+msgstr ""
+"Kaynak paketleri olağan durumda böyle kurulamaz. \n"
+"Kurmaya çalıştığınız dosyanın uzantısını denetleyin."
+
+#: src/gpk-enum.c:546
+msgid ""
+"The license agreement was not agreed to.\n"
+"To use this software you have to accept the license."
+msgstr ""
+"Lisans sözleşmesi kabul edilmedi.\n"
+"Bu yazılımı kullanmak için lisansı kabul etmek zorundasınız."
+
+#: src/gpk-enum.c:550
+msgid ""
+"Two packages provide the same file.\n"
+"This is usually due to mixing packages from different sources."
+msgstr ""
+"İki paket de aynı dosyayı sağlıyor. \n"
+"Bu genellikle farklı yazılım kaynaklarından paketleri bir arada kullanmaktan "
+"kaynaklanır."
+
+#: src/gpk-enum.c:554
+msgid ""
+"Multiple packages exist that are not compatible with each other.\n"
+"This is usually due to mixing packages from different sources."
+msgstr ""
+"Birbiri ile uyumlu olmayan birden çok paket var.\n"
+"Bu genellikle farklı yazılım kaynaklarından paketleri bir arada kullanmaktan "
+"kaynaklanır."
+
+#: src/gpk-enum.c:558
+msgid ""
+"There was a (possibly temporary) problem connecting to a package source.\n"
+"Please check the detailed error for further details."
+msgstr ""
+"Bir paket kaynağına bağlanırken (büyük olasılıkla geçici) bir sorunla "
+"karşılaşıldı.\n"
+"Lütfen daha çok ayrıntı için ayrıntılı hatayı denetleyin."
+
+#: src/gpk-enum.c:562
+msgid ""
+"Failed to initialize packaging backend.\n"
+"This may occur if other packaging tools are being used simultaneously."
+msgstr ""
+"Paketleme arka ucu başlatılamadı.\n"
+"Bu diğer paketleme araçları aynı anda kullanılmaktaysa oluşabilir."
+
+#: src/gpk-enum.c:566
+msgid ""
+"Failed to close down the backend instance.\n"
+"This error can normally be ignored."
+msgstr ""
+"Arka uç örneği kapatılamadı.\n"
+"Bu hata normalde göz ardı edilebilir."
+
+#: src/gpk-enum.c:570
+msgid ""
+"Cannot get the exclusive lock on the packaging backend.\n"
+"Please close any other legacy packaging tools that may be open."
+msgstr ""
+"Paketleme arka ucu üzerinde özel kilit alınamıyor.\n"
+"Lütfen açık olabilecek diğer eski paketleme araçlarını kapatın."
+
+#: src/gpk-enum.c:574
+msgid "None of the selected packages could be updated."
+msgstr "Seçilen paketlerin hiçbiri güncellenemedi."
+
+#: src/gpk-enum.c:577
+msgid "The repository configuration could not be modified."
+msgstr "Depo yapılandırması değiştirilemedi."
+
+#: src/gpk-enum.c:580
+msgid ""
+"Installing the local file failed.\n"
+"More information is available in the detailed report."
+msgstr ""
+"Yerel dosya kurulamadı.\n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:584
+msgid "The package security signature could not be verified."
+msgstr "Paket güvenlik imzası doğrulanamadı."
+
+#: src/gpk-enum.c:587
+msgid ""
+"The package security signature is missing and this package is untrusted.\n"
+"This package was not signed when created."
+msgstr ""
+"Paket güvenlik imzası eksik ve bu pakete güvenilmiyor.\n"
+"Bu paket hazırlandığı zaman imzalanmadı."
+
+#: src/gpk-enum.c:591
+msgid "Repository configuration was invalid and could not be read."
+msgstr "Depo yapılandırması geçersiz ve okunamadı."
+
+#: src/gpk-enum.c:594
+msgid ""
+"The package you are attempting to install is not valid.\n"
+"The package file could be corrupt, or not a proper package."
+msgstr ""
+"Kurmaya çalıştığınız paket geçerli değil. \n"
+"Paket dosyası bozuk olabilir, ya da uygun bir paket değil."
+
+#: src/gpk-enum.c:598
+msgid ""
+"Installation of this package prevented by your packaging system’s "
+"configuration."
+msgstr ""
+"Bu paketin kurulması paketleme sistemi yapılandırmanız tarafından "
+"engellenmiş."
+
+#: src/gpk-enum.c:601
+msgid ""
+"The package that was downloaded is corrupt and needs to be downloaded again."
+msgstr "İndirilen paket bozuk ve yeniden indirilebilmesi gerekmektedir."
+
+#: src/gpk-enum.c:604
+msgid ""
+"All of the packages selected for install are already installed on the system."
+msgstr "Kurulum için seçilen tüm paketler zaten sistem üzerinde kurulu."
+
+#: src/gpk-enum.c:607
+msgid ""
+"The specified file could not be found on the system.\n"
+"Check the file still exists and has not been deleted."
+msgstr ""
+"Belirtilen dosya sistemde bulunamadı.\n"
+"Dosyanın hala var olduğunu ve silinmemiş olduğunu denetleyin."
+
+#: src/gpk-enum.c:611
+msgid ""
+"Required data could not be found on any of the configured package sources.\n"
+"There were no more download mirrors that could be tried."
+msgstr ""
+"Gerekli veriler herhangi bir yapılandırılmış paket kaynağı üzerinde "
+"bulunamadı.\n"
+"Denenebilecek başka indirme yansısı yok."
+
+#: src/gpk-enum.c:615
+msgid ""
+"Required upgrade data could not be found in any of the configured package "
+"sources.\n"
+"The list of distribution upgrades will be unavailable."
+msgstr ""
+"Gerekli yükseltme verileri herhangi bir yapılandırılmış paket kaynağında "
+"bulunamadı.\n"
+"Dağıtım yükseltmeleri listesi kullanılamaz olacak."
+
+#: src/gpk-enum.c:619
+msgid ""
+"The package that is trying to be installed is incompatible with this system."
+msgstr "Kurulmaya çalışılan paket bu sistem ile uyumsuz."
+
+#: src/gpk-enum.c:622
+msgid ""
+"There is insufficient space on the device.\n"
+"Free some space on the system disk to perform this operation."
+msgstr ""
+"Aygıtta yetersiz boş alan.\n"
+"Bu işlemi gerçekleştirmek için sistem diski üzerinde biraz boşluk açın."
+
+#: src/gpk-enum.c:626
+msgid "Additional media is required to complete the transaction."
+msgstr "Ek ortam işlemi tamamlamak için gereklidir."
+
+#: src/gpk-enum.c:629
+msgid ""
+"You have failed to provide correct authentication.\n"
+"Please check any passwords or account settings."
+msgstr ""
+"Doğru kimlik doğrulaması sağlayamadınız.\n"
+"Lütfen parolanızı veya hesap ayarlarınızı denetleyin."
+
+#: src/gpk-enum.c:633
+msgid ""
+"The specified update could not be found.\n"
+"It could have already been installed or no longer available on the remote "
+"server."
+msgstr ""
+"Belirtilen güncelleme bulunamadı.\n"
+"Bu zaten kurulu olabilir ya da artık uzak sunucuda olmayabilir."
+
+#: src/gpk-enum.c:637
+msgid "The package could not be installed from untrusted source."
+msgstr "Paket güvenilmeyen bir kaynaktan kurulamadı."
+
+#: src/gpk-enum.c:640
+msgid "The package could not be updated from untrusted source."
+msgstr "Paket güvenilmeyen bir kaynaktan güncellenemedi."
+
+#: src/gpk-enum.c:643
+msgid "The file list is not available for this package."
+msgstr "Dosya listesi bu paket için geçerli değil."
+
+#: src/gpk-enum.c:646
+msgid "The information about what requires this package could not be obtained."
+msgstr "Bu paketin ne gerektirdiği hakkında bilgi elde edilemedi."
+
+#: src/gpk-enum.c:649
+msgid "The specified package source could not be disabled."
+msgstr "Belirtilen paket kaynağı devre dışı bırakılamadı."
+
+#: src/gpk-enum.c:652
+msgid ""
+"The download could not be done automatically and should be done manually.\n"
+"More information is available in the detailed report."
+msgstr ""
+"İndirme kendiliğinden yapılamadı ve elle yapılmalıdır.\n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:656
+msgid ""
+"One of the selected packages failed to configure correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+"Seçilen paketlerden birisi doğru biçimde yapılandırılamadı.\n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:660
+msgid ""
+"One of the selected packages failed to build correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+"Seçilen paketlerden birisi doğru biçimde inşa edilemedi.\n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:664
+msgid ""
+"One of the selected packages failed to install correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+"Seçilen paketlerden birisi doğru biçimde kurulamadı.\n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:668
+msgid ""
+"One of the selected packages failed to be removed correctly.\n"
+"More information is available in the detailed report."
+msgstr ""
+"Seçilen paketlerden birisi doğru biçimde kaldırılamadı.\n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:672
+msgid ""
+"A program is running that has to be closed before the update can proceed.\n"
+"More information is available in the detailed report."
+msgstr ""
+"Güncelleme işlemlerinin devam etmesi için kapatılmış olması gereken bir "
+"program çalışıyor. \n"
+"Daha çok bilgi ayrıntılı raporda bulunmaktadır."
+
+#: src/gpk-enum.c:676
+msgid "The package database was changed while the request was running."
+msgstr "Talebiniz işletilirken paket veri tabanı değiştirilmiş."
+
+#: src/gpk-enum.c:679
+msgid "The virtual provide type is not supported by this system."
+msgstr "Bu sistemde sanal sağlama türü desteklenmiyor."
+
+#: src/gpk-enum.c:682
+msgid "The install root is invalid. Please contact your administrator."
+msgstr "Kurulum kökü geçersiz. Lütfen yönetici ile bağlantıya geçin."
+
+#: src/gpk-enum.c:685
+msgid "The list of package sources could not be downloaded."
+msgstr "Paket kaynakları listesi indirilemedi."
+
+#: src/gpk-enum.c:688
+msgid "A previous package management transaction was interrupted."
+msgstr "Daha önceki bir paket yönetimi işlemi kesintiye uğramış."
+
+#: src/gpk-enum.c:691
+msgid ""
+"The transaction has been canceled and will be retried when the system is "
+"idle."
+msgstr "İşlem iptal edildi ve sistem boştayken yeniden denenecek."
+
+#: src/gpk-enum.c:694
+msgid "A package manager lock is required."
+msgstr "Paket yöneticisi kilidi gerekiyor."
+
+#: src/gpk-enum.c:698
+msgid "The software source is already in this state."
+msgstr "Yazılım kaynağı zaten bu durumda."
+
+#: src/gpk-enum.c:713
+msgid "No restart is necessary."
+msgstr "Yeniden başlatma gerekmiyor."
+
+#: src/gpk-enum.c:716
+msgid "You will be required to restart this application."
+msgstr "Bu uygulamayı yeniden başlatmanız gerekecek."
+
+#: src/gpk-enum.c:719
+msgid "You will be required to log out and back in."
+msgstr "Yeniden oturum açmanız gerekecek."
+
+#: src/gpk-enum.c:722
+msgid "A restart will be required."
+msgstr "Yeniden başlatma gerekecek."
+
+#: src/gpk-enum.c:725
+msgid "You will be required to log out and back in due to a security update."
+msgstr ""
+"Güvenlik güncellemesi nedeniyle çıkış yapıp giriş yapmanız gerekmektedir."
+
+#: src/gpk-enum.c:728
+msgid "A restart will be required due to a security update."
+msgstr "Güvenlik güncellemesinden dolayı yeniden başlatma gerekecek."
+
+#: src/gpk-enum.c:742
+msgid "No restart is required."
+msgstr "Yeniden başlatma gerekli değil."
+
+#: src/gpk-enum.c:745
+msgid "A restart is required."
+msgstr "Yeniden başlatma gerekli."
+
+#: src/gpk-enum.c:748
+msgid "You need to log out and log back in."
+msgstr "Çıkış yapıp yeniden giriş yapmanız gerekiyor."
+
+#: src/gpk-enum.c:751
+msgid "You need to restart the application."
+msgstr "Uygulamayı yeniden başlatmanız gerekiyor."
+
+#: src/gpk-enum.c:754
+msgid "You need to log out and log back in to remain secure."
+msgstr "Güvenli kalmak için çıkış yapıp yeniden giriş yapmanız gerekiyor."
+
+#: src/gpk-enum.c:757
+msgid "A restart is required to remain secure."
+msgstr "Güvenli kalmak için yeniden başlatma gerekiyor."
+
+#. TRANSLATORS: This is when the transaction status is not known
+#: src/gpk-enum.c:772
+msgid "Unknown state"
+msgstr "Bilinmeyen durum"
+
+#. TRANSLATORS: transaction state, the daemon is in the process of starting
+#: src/gpk-enum.c:776
+msgid "Starting"
+msgstr "Başlatılıyor"
+
+#. TRANSLATORS: transaction state, the transaction is waiting for another to complete
+#: src/gpk-enum.c:780
+msgid "Waiting in queue"
+msgstr "Kuyrukta bekliyor"
+
+#. TRANSLATORS: transaction state, just started
+#: src/gpk-enum.c:784
+msgid "Running"
+msgstr "Çalışıyor"
+
+#. TRANSLATORS: transaction state, is querying data
+#: src/gpk-enum.c:788
+msgid "Querying"
+msgstr "Sorguluyor"
+
+#. TRANSLATORS: transaction state, getting data from a server
+#: src/gpk-enum.c:792
+msgid "Getting information"
+msgstr "Bilgi alınıyor"
+
+#. TRANSLATORS: transaction state, removing packages
+#: src/gpk-enum.c:796
+msgid "Removing packages"
+msgstr "Paketler kaldırılıyor"
+
+#. TRANSLATORS: transaction state, downloading package files
+#: src/gpk-enum.c:800
+msgid "Downloading packages"
+msgstr "Paketler indiriliyor"
+
+#. TRANSLATORS: transaction state, installing packages
+#: src/gpk-enum.c:804
+msgid "Installing packages"
+msgstr "Paketler kuruluyor"
+
+#. TRANSLATORS: transaction state, refreshing internal lists
+#: src/gpk-enum.c:808
+msgid "Refreshing software list"
+msgstr "Yazılım listesi güncelleniyor"
+
+#. TRANSLATORS: transaction state, installing updates
+#: src/gpk-enum.c:812
+msgid "Installing updates"
+msgstr "Güncellemeler kuruluyor"
+
+#. TRANSLATORS: transaction state, removing old packages, and cleaning config files
+#: src/gpk-enum.c:816
+msgid "Cleaning up packages"
+msgstr "Paketler temizleniyor"
+
+#. TRANSLATORS: transaction state, obsoleting old packages
+#: src/gpk-enum.c:820
+msgid "Obsoleting packages"
+msgstr "Paketler atıl bırakılıyor"
+
+#. TRANSLATORS: transaction state, checking the transaction before we do it
+#: src/gpk-enum.c:824
+msgid "Resolving dependencies"
+msgstr "Bağımlılıklar çözülüyor"
+
+#. TRANSLATORS: transaction state, checking if we have all the security keys for the operation
+#: src/gpk-enum.c:828
+msgid "Checking signatures"
+msgstr "İmzalar denetleniyor"
+
+#. TRANSLATORS: transaction state, when we're doing a test transaction
+#: src/gpk-enum.c:832
+msgid "Testing changes"
+msgstr "Değişiklikler sınanıyor"
+
+#. TRANSLATORS: transaction state, when we're writing to the system package database
+#: src/gpk-enum.c:836
+msgid "Committing changes"
+msgstr "Değişiklikler işleniyor"
+
+#. TRANSLATORS: transaction state, requesting data from a server
+#: src/gpk-enum.c:840
+msgid "Requesting data"
+msgstr "Veri isteniyor"
+
+#. TRANSLATORS: transaction state, all done!
+#: src/gpk-enum.c:844
+msgid "Finished"
+msgstr "Bitti"
+
+#. TRANSLATORS: transaction state, in the process of canceling
+#: src/gpk-enum.c:848
+msgid "Canceling"
+msgstr "İptal ediliyor"
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: src/gpk-enum.c:852
+msgid "Downloading repository information"
+msgstr "Depo bilgileri indiriliyor"
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: src/gpk-enum.c:856
+msgid "Downloading list of packages"
+msgstr "Paketlerin listesi indiriliyor"
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: src/gpk-enum.c:860
+msgid "Downloading file lists"
+msgstr "Dosya listeleri indiriliyor"
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: src/gpk-enum.c:864
+msgid "Downloading lists of changes"
+msgstr "Değişikliklerin listeleri indiriliyor"
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: src/gpk-enum.c:868
+msgid "Downloading groups"
+msgstr "Kümeler indiriliyor"
+
+#. TRANSLATORS: transaction state, downloading metadata
+#: src/gpk-enum.c:872
+msgid "Downloading update information"
+msgstr "Güncelleme bilgileri indiriliyor"
+
+#. TRANSLATORS: transaction state, repackaging delta files
+#: src/gpk-enum.c:876
+msgid "Repackaging files"
+msgstr "Dosyalar yeniden paketleniyor"
+
+#. TRANSLATORS: transaction state, loading databases
+#: src/gpk-enum.c:880
+msgid "Loading cache"
+msgstr "Önbellek yükleniyor"
+
+#. TRANSLATORS: transaction state, scanning for running processes
+#: src/gpk-enum.c:884
+msgid "Scanning installed applications"
+msgstr "Kurulu uygulamalar taranıyor"
+
+#. TRANSLATORS: transaction state, generating a list of packages installed on the system
+#: src/gpk-enum.c:888
+msgid "Generating package lists"
+msgstr "Paket listeleri oluşturuluyor"
+
+#. TRANSLATORS: transaction state, when we're waiting for the native tools to exit
+#: src/gpk-enum.c:892
+msgid "Waiting for package manager lock"
+msgstr "Paket yöneticisi kilidi bekleniyor"
+
+#. TRANSLATORS: waiting for user to type in a password
+#: src/gpk-enum.c:896
+msgid "Waiting for authentication"
+msgstr "Kimlik doğrulama bekleniyor"
+
+#. TRANSLATORS: we are updating the list of processes
+#: src/gpk-enum.c:900
+msgid "Updating the list of running applications"
+msgstr "Çalışan uygulamaların listesi güncelleniyor"
+
+#. TRANSLATORS: we are checking executable files in use
+#: src/gpk-enum.c:904
+msgid "Checking for applications currently in use"
+msgstr "Şu an kullanılan uygulamalar denetleniyor"
+
+#. TRANSLATORS: we are checking for libraries in use
+#: src/gpk-enum.c:908
+msgid "Checking for libraries currently in use"
+msgstr "Şu an kullanılan kütüphaneler denetleniyor"
+
+#. TRANSLATORS: we are copying package files to prepare to install
+#: src/gpk-enum.c:912
+msgid "Copying files"
+msgstr "Dosyalar kopyalanıyor"
+
+#. TRANSLATORS: we are running hooks pre or post transaction
+#: src/gpk-enum.c:917
+msgid "Running hooks"
+msgstr "Kancalar çalıştırılıyor"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-enum.c:933
+msgid "Trivial update"
+msgstr "Basit güncelleme"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-enum.c:937
+msgid "Normal update"
+msgstr "Normal güncelleme"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-enum.c:941
+msgid "Important update"
+msgstr "Önemli güncelleme"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-enum.c:945
+msgid "Security update"
+msgstr "Güvenlik güncellemesi"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-enum.c:949
+msgid "Bug fix update"
+msgstr "Hata düzeltme güncellemesi"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-enum.c:953
+msgid "Enhancement update"
+msgstr "Yenilik güncellemesi"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-enum.c:957
+msgid "Blocked update"
+msgstr "Engellenen güncelleme"
+
+#. TRANSLATORS: The state of a package, i.e. not installed
+#: src/gpk-enum.c:967
+msgid "Available"
+msgstr "Kullanılabilir"
+
+#. TRANSLATORS: The type of package
+#: src/gpk-enum.c:971
+msgid "Trusted"
+msgstr "Güvenilir"
+
+#. TRANSLATORS: The type of package
+#: src/gpk-enum.c:975
+msgid "Untrusted"
+msgstr "Güvenilmez"
+
+#. TRANSLATORS: The state of a package
+#: src/gpk-enum.c:980
+msgid "Unavailable"
+msgstr "Kullanılabilir değil"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:996
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1000
+msgid "Updating"
+msgstr "Güncelleniyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1004
+msgid "Installing"
+msgstr "Kuruluyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1008
+msgid "Removing"
+msgstr "Kaldırılıyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1012
+msgid "Cleaning up"
+msgstr "Temizleniyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1016
+msgid "Obsoleting"
+msgstr "Geçersiz kılınıyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1020
+msgid "Reinstalling"
+msgstr "Yeniden kuruluyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1024
+msgid "Preparing"
+msgstr "Hazırlanıyor"
+
+#. TRANSLATORS: The action of the package, in present tense
+#: src/gpk-enum.c:1028
+msgid "Decompressing"
+msgstr "Sıkıştırma açılıyor"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1043
+msgid "Downloaded"
+msgstr "İndirildi"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1047
+msgid "Updated"
+msgstr "Güncellendi"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1055
+msgid "Removed"
+msgstr "Kaldırıldı"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1059
+msgid "Cleaned up"
+msgstr "Temizlendi"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1063 src/gpk-task.c:349
+msgid "Obsoleted"
+msgstr "Atıl"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1067
+msgid "Reinstalled"
+msgstr "Yeniden kuruldu"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1071
+msgid "Prepared"
+msgstr "Hazırlandı"
+
+#. TRANSLATORS: The action of the package, in past tense
+#: src/gpk-enum.c:1075
+msgid "Decompressed"
+msgstr "Sıkıştırma açıldı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1090
+msgid "Unknown role type"
+msgstr "Bilinmeyen rol türü"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1094
+msgid "Got dependencies"
+msgstr "Bağımlılıklar alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1098
+msgid "Got update detail"
+msgstr "Güncelleme ayrıntıları alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1103
+msgid "Got details"
+msgstr "Ayrıntılar alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1107
+msgid "Got requires"
+msgstr "Gereksinimler alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1111
+msgid "Got updates"
+msgstr "Güncellemeler alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1115
+msgid "Searched for package details"
+msgstr "Paket ayrıntıları için arandı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1119
+msgid "Searched for file"
+msgstr "Dosya arandı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1123
+msgid "Searched groups"
+msgstr "Kümeler arandı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1127
+msgid "Searched for package name"
+msgstr "Paket adı arandı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1131
+msgid "Removed packages"
+msgstr "Paketler kaldırıldı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1135
+msgid "Installed packages"
+msgstr "Paketler kuruldu"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1139
+msgid "Installed local files"
+msgstr "Yerel dosyalar kuruldu"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1143
+msgid "Refreshed package cache"
+msgstr "Paket önbelleği tazelendi"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1147
+msgid "Updated packages"
+msgstr "Paketler güncellendi"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1151
+msgid "Canceled"
+msgstr "İptal edildi"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1155
+msgid "Got list of repositories"
+msgstr "Depo listesi alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1159
+msgid "Enabled repository"
+msgstr "Depo etkinleştirildi"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1163
+msgid "Removed repository"
+msgstr "Depo kaldırıldı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1167
+msgid "Set repository data"
+msgstr "Depo verisini ayarla"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1171
+msgid "Resolved"
+msgstr "Çözüldü"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1176
+msgid "Got file list"
+msgstr "Dosya listesi alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1180
+msgid "Got what provides"
+msgstr "Ne sağladığı alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1184
+msgid "Installed signature"
+msgstr "İmza kuruldu"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1188
+msgid "Got package lists"
+msgstr "Paket listeleri alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1192
+msgid "Accepted EULA"
+msgstr "EULA kabul edildi"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1196
+msgid "Downloaded packages"
+msgstr "Paketler indirildi"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1200
+msgid "Got distribution upgrades"
+msgstr "Dağıtım yükseltmeleri alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1204
+msgid "Got categories"
+msgstr "Kategoriler alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1208
+msgid "Got old transactions"
+msgstr "Eski işlemler alındı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1212
+msgid "Repaired the system"
+msgstr "Sistem onarıldı"
+
+#. TRANSLATORS: The role of the transaction, in past tense
+#: src/gpk-enum.c:1217
+msgid "Upgrading the system"
+msgstr "Sistem yükseltiliyor"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1233
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1237
+msgid "Accessories"
+msgstr "Donatılar"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1241
+msgid "Education"
+msgstr "Eğitim"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1245
+msgid "Games"
+msgstr "Oyunlar"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1249
+msgid "Graphics"
+msgstr "Grafik programları"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1253
+msgid "Internet"
+msgstr "İnternet"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1257
+msgid "Office"
+msgstr "Ofis"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1261 src/gpk-task.c:369
+msgid "Other"
+msgstr "Diğer"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1265
+msgid "Programming"
+msgstr "Programlama"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1269
+msgid "Multimedia"
+msgstr "Çokluortam"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1273
+msgid "System"
+msgstr "Sistem"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1277
+msgid "GNOME desktop"
+msgstr "GNOME masaüstü"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1281
+msgid "KDE desktop"
+msgstr "KDE masaüstü"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1285
+msgid "Xfce desktop"
+msgstr "Xfce masaüstü"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1290
+msgid "Deepin desktop"
+msgstr "Deepin masaüstü"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1295
+msgid "Other desktops"
+msgstr "Diğer masaüstleri"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1299
+msgid "Publishing"
+msgstr "Yayıncılık"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1303
+msgid "Servers"
+msgstr "Sunucular"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1307
+msgid "Fonts"
+msgstr "Yazı tipleri"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1311
+msgid "Admin tools"
+msgstr "Yönetim araçları"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1315
+msgid "Legacy"
+msgstr "Eski"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1319
+msgid "Localization"
+msgstr "Yerelleştirme"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1323
+msgid "Virtualization"
+msgstr "Sanallaştırma"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1327
+msgid "Security"
+msgstr "Güvenlik"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1331
+msgid "Power management"
+msgstr "Güç yönetimi"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1335
+msgid "Communication"
+msgstr "İletişim"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1339
+msgid "Network"
+msgstr "Ağ"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1343
+msgid "Maps"
+msgstr "Haritalar"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1347
+msgid "Package sources"
+msgstr "Paket kaynakları"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1351
+msgid "Science"
+msgstr "Bilim"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1355
+msgid "Documentation"
+msgstr "Belgelendirme"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1359
+msgid "Electronics"
+msgstr "Elektronik"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1363
+msgid "Package collections"
+msgstr "Paket derlemleri"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1367
+msgid "Vendor"
+msgstr "Üretici"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1371
+msgid "Newest packages"
+msgstr "En yeni paketler"
+
+#. TRANSLATORS: The group type
+#: src/gpk-enum.c:1375
+msgid "Unknown group"
+msgstr "Bilinmeyen küme"
+
+#. TRANSLATORS: strftime formatted please
+#: src/gpk-log.c:137
+msgid "%d %B %Y"
+msgstr "%d %B %Y"
+
+#. TRANSLATORS: column for the date
+#: src/gpk-log.c:234
+msgid "Date"
+msgstr "Tarih"
+
+#. TRANSLATORS: column for what was done, e.g. update-system
+#: src/gpk-log.c:243
+msgid "Action"
+msgstr "Eylem"
+
+#. TRANSLATORS: column for the user name, e.g. Richard Hughes
+#: src/gpk-log.c:276
+msgid "User name"
+msgstr "Kullanıcı adı"
+
+#. TRANSLATORS: column for the application used for the install, e.g. Add/Remove Programs
+#: src/gpk-log.c:283
+msgid "Application"
+msgstr "Uygulama"
+
+#. TRANSLATORS: user-friendly name for pkcon
+#: src/gpk-log.c:425
+msgid "Command line client"
+msgstr "Komut satırı istemcisi"
+
+#. TRANSLATORS: user-friendly name for gpk-update-icon, which used to exist
+#: src/gpk-log.c:434
+msgid "Update Icon"
+msgstr "Güncelleme Simgesi"
+
+#. TRANSLATORS: user-friendly name for the command not found plugin
+#: src/gpk-log.c:437
+msgid "Bash – Command Not Found"
+msgstr "Bash – Komut Bulunamadı"
+
+#. TRANSLATORS: user-friendly name for gnome-settings-daemon, which used to handle updates
+#: src/gpk-log.c:440
+msgid "GNOME Session"
+msgstr "GNOME Oturumu"
+
+#. TRANSLATORS: user-friendly name for gnome-software
+#: src/gpk-log.c:443
+msgid "GNOME Software"
+msgstr "GNOME Yazılımlar"
+
+#. TRANSLATORS: preset the GtktextBox with this filter text
+#: src/gpk-log.c:673
+msgid "Set the filter to this value"
+msgstr "Süzgeci bu değere ata"
+
+#. TRANSLATORS: we can make this modal (stay on top of) another window
+#: src/gpk-log.c:676 src/gpk-prefs.c:515
+msgid "Set the parent window to make this modal"
+msgstr "Bunu kalıcı yapmak için ana pencere ata"
+
+#: src/gpk-log.c:689
+msgid "Software Log Viewer"
+msgstr "Yazılım Günlük Görüntüleyici"
+
+#. are we running privileged
+#: src/gpk-log.c:697
+msgid "Log viewer"
+msgstr "Günlük görüntüleyici"
+
+#. TRANSLATORS: for one reason or another, we could not enable or disable a package source
+#: src/gpk-prefs.c:202
+msgid "Failed to change status"
+msgstr "Durum değiştirilemedi"
+
+#. TRANSLATORS: column if the source is enabled
+#: src/gpk-prefs.c:261
+msgid "Enabled"
+msgstr "Etkin"
+
+#. TRANSLATORS: column for the source description
+#: src/gpk-prefs.c:270
+msgid "Package Source"
+msgstr "Paket Kaynağı"
+
+#. TRANSLATORS: for one reason or another, we could not get the list of sources
+#: src/gpk-prefs.c:323
+msgid "Failed to get the list of sources"
+msgstr "Kaynakların listesi alınamadı"
+
+#. TRANSLATORS: backend is broken, and won't tell us what it supports
+#: src/gpk-prefs.c:410 src/gpk-update-viewer.c:2698
+msgid "Exiting as backend details could not be retrieved"
+msgstr "Arkauç ayrıntıları alınamadığından çıkılıyor"
+
+#: src/gpk-prefs.c:430
+msgid "Getting package source list not supported by backend"
+msgstr "Paket kaynak listesinin alınması, arkauç tarafından desteklenmiyor"
+
+#. TRANSLATORS: is not GPG signed
+#: src/gpk-task.c:108 src/gpk-task.c:118 src/gpk-task.c:137
+msgid "The software is not signed by a trusted provider."
+msgstr "Yazılım güvenilir bir sağlayıcı tarafından imzalanmamış."
+
+#. TRANSLATORS: user has to trust provider -- I know, this sucks
+#: src/gpk-task.c:110
+msgid "Do not update this package unless you are sure it is safe to do so."
+msgstr ""
+"Eğer bunu yapmanın güvenli olduğundan emin değilseniz bu paketi "
+"güncellemeyin."
+
+#. TRANSLATORS: warn the user that all bets are off
+#: src/gpk-task.c:112 src/gpk-task.c:122
+msgid "Malicious software can damage your computer or cause other harm."
+msgstr ""
+"Zararlı yazılımlar bilgisayarınıza hasar verebilir veya diğer zararlara yol "
+"açabilir."
+
+#. TRANSLATORS: ask if they are absolutely sure they want to do this
+#: src/gpk-task.c:114
+msgid "Are you <b>sure</b> you want to update this package?"
+msgstr "Bu paketi güncellemek istediğinize <b>emin</b> misiniz?"
+
+#. TRANSLATORS: user has to trust provider -- I know, this sucks
+#: src/gpk-task.c:120
+msgid "Do not install this package unless you are sure it is safe to do so."
+msgstr ""
+"Eğer bunu yapmanın güvenli olduğundan emin değilseniz, bu paketi kurmayın."
+
+#. TRANSLATORS: ask if they are absolutely sure they want to do this
+#: src/gpk-task.c:124
+msgid "Are you <b>sure</b> you want to install this package?"
+msgstr "Bu paketi kurmak istediğinize <b>emin</b> misiniz?"
+
+#. TRANSLATORS: dialog body, explains to the user that they need to insert a disk to continue. The first replacement is DVD, CD etc
+#: src/gpk-task.c:292
+#, c-format
+msgid ""
+"Additional media is required. Please insert the %s labeled “%s” to continue."
+msgstr ""
+"Ek ortam gereklidir. Devam etmek için lütfen “%2$s” etiketli %1$s ortamını "
+"takın."
+
+#. TRANSLATORS: this is button text
+#: src/gpk-task.c:301 src/gpk-task.c:490
+msgid "Continue"
+msgstr "Devam Et"
+
+#. TRANSLATORS: additional message text for the deps dialog
+#: src/gpk-task.c:338
+msgid "The following software also needs to be installed"
+msgstr "Aşağıdaki yazılımın da kurulu olması gerekiyor"
+
+#. TRANSLATORS: additional message text for the deps dialog
+#: src/gpk-task.c:343 src/gpk-task.c:348
+msgid "The following software also needs to be removed"
+msgstr "Aşağıdaki yazılımın da kaldırılması gerekiyor"
+
+#. TRANSLATORS: additional message text for the deps dialog
+#: src/gpk-task.c:353
+msgid "The following software also needs to be updated"
+msgstr "Aşağıdaki yazılımın da güncellenmesi gerekiyor"
+
+#: src/gpk-task.c:354
+msgid "Update"
+msgstr "Güncelle"
+
+#. TRANSLATORS: additional message text for the deps dialog
+#: src/gpk-task.c:358
+msgid "The following software also needs to be re-installed"
+msgstr "Aşağıdaki yazılımın da yeniden kurulması gerekiyor"
+
+#: src/gpk-task.c:359
+msgid "Reinstall"
+msgstr "Yeniden Kur"
+
+#. TRANSLATORS: additional message text for the deps dialog
+#: src/gpk-task.c:363
+msgid "The following software also needs to be downgraded"
+msgstr "Aşağıdaki yazılımın da ayrıca indirgenmesi gerekiyor"
+
+#: src/gpk-task.c:364
+msgid "Downgrade"
+msgstr "İndirge"
+
+#. TRANSLATORS: additional message text for the deps dialog (we don't know how it's going to be processed -- eeek)
+#: src/gpk-task.c:368
+msgid "The following software also needs to be processed"
+msgstr "Aşağıdaki yazılımın da işlenmesi gerekiyor"
+
+#. TRANSLATORS: title of a dependency dialog
+#: src/gpk-task.c:423
+msgid "Additional confirmation required"
+msgstr "Ek onay gerekli"
+
+#. TRANSLATORS: message text of a dependency dialog
+#: src/gpk-task.c:429
+msgid "To install this package, additional software also has to be modified."
+msgid_plural ""
+"To install these packages, additional software also has to be modified."
+msgstr[0] "Paket kurmak için ek yazılımın değiştirilmesi gerekiyor."
+
+#. TRANSLATORS: message text of a dependency dialog
+#: src/gpk-task.c:434
+msgid "To remove this package, additional software also has to be modified."
+msgid_plural ""
+"To remove these packages, additional software also has to be modified."
+msgstr[0] "Paket silmek için ek yazılımın değiştirilmesi gerekiyor."
+
+#. TRANSLATORS: message text of a dependency dialog
+#: src/gpk-task.c:439
+msgid "To update this package, additional software also has to be modified."
+msgid_plural ""
+"To update these packages, additional software also has to be modified."
+msgstr[0] "Paket güncellemek için ek yazılımın değiştirilmesi gerekiyor."
+
+#. TRANSLATORS: message text of a dependency dialog
+#: src/gpk-task.c:444
+msgid "To install this file, additional software also has to be modified."
+msgid_plural ""
+"To install these files, additional software also has to be modified."
+msgstr[0] ""
+"Bu dosyaları kurmak için başka yazılımların da değiştirilmesi gerekiyor."
+
+#. TRANSLATORS: message text of a dependency dialog
+#: src/gpk-task.c:449
+msgid ""
+"To process this transaction, additional software also has to be modified."
+msgstr "Bu işlemin ilerlemesi için ek yazılımların değiştirilmesi gerekiyor."
+
+#. TRANSLATORS: we don't have a lot to go on here
+#: src/gpk-update-viewer.c:166
+msgid "Failed to process request."
+msgstr "İstek işlenemedi."
+
+#. TRANSLATORS: the message text for the restart
+#: src/gpk-update-viewer.c:191
+msgid ""
+"Some of the updates that were installed require the computer to be restarted "
+"before the changes will be applied."
+msgstr ""
+"Değişiklikler uygulanmadan önce kurulan bazı güncellemeler bilgisayarın "
+"yeniden başlatılmasını gerektiriyor."
+
+#. TRANSLATORS: the button text for the restart
+#: src/gpk-update-viewer.c:193 src/gpk-update-viewer.c:199
+msgid "Restart Computer"
+msgstr "Bilgisayarı Yeniden Başlat"
+
+#. TRANSLATORS: the message text for the restart
+#: src/gpk-update-viewer.c:197
+msgid ""
+"Some of the updates that were installed require the computer to be restarted "
+"to remain secure."
+msgstr ""
+"Kurulan bazı güncellemeler güvenli kalmanız için bilgisayarın yeniden "
+"başlatılmasını gerektiriyor."
+
+#. TRANSLATORS: the message text for the log out
+#: src/gpk-update-viewer.c:203
+msgid ""
+"Some of the updates that were installed require you to log out and back in "
+"before the changes will be applied."
+msgstr ""
+"Kurulan bazı güncellemeler değişiklikler uygulanmadan önce oturumu kapatıp "
+"geri giriş yapmanızı gerektiriyor."
+
+#. TRANSLATORS: the button text for the log out
+#: src/gpk-update-viewer.c:205 src/gpk-update-viewer.c:211
+msgid "Log Out"
+msgstr "Oturumu Kapat"
+
+#. TRANSLATORS: the message text for the log out
+#: src/gpk-update-viewer.c:209
+msgid ""
+"Some of the updates that were installed require you to log out and back in "
+"to remain secure."
+msgstr ""
+"Kurulan bazı güncellemeler güvenli kalmanız için oturumu kapatıp yeniden "
+"giriş yapmanızı gerektiriyor."
+
+#. TRANSLATORS: the PackageKit request did not complete, and it did not send an error
+#: src/gpk-update-viewer.c:255
+msgid "Could not restart"
+msgstr "Yeniden başlatılamadı"
+
+#. TRANSLATORS: we failed to install all the updates we requested
+#: src/gpk-update-viewer.c:321
+msgid "Some updates were not installed"
+msgstr "Bazı güncellemeler kurulamadı"
+
+#. TRANSLATORS: the PackageKit request did not complete, and it did not send an error
+#: src/gpk-update-viewer.c:381 src/gpk-update-viewer.c:392
+msgid "Could not update packages"
+msgstr "Paketler güncellenemedi"
+
+#. TRANSLATORS: completed all updates
+#. TRANSLATORS: title: all updates installed okay
+#: src/gpk-update-viewer.c:450 src/gpk-update-viewer.c:470
+msgid "Updates installed"
+msgstr "Güncellemeler kuruldu"
+
+#. TRANSLATORS: title: all updates for the machine installed okay
+#: src/gpk-update-viewer.c:459
+msgid "All updates were installed successfully."
+msgstr "Tüm güncellemeler başarıyla kuruldu."
+
+#. TRANSLATORS: title: all the selected updates installed okay
+#: src/gpk-update-viewer.c:462
+msgid "The selected updates were installed successfully."
+msgstr "Seçilen güncellemeler başarıyla kuruldu."
+
+#. TRANSLATORS: The type of update
+#: src/gpk-update-viewer.c:644
+msgid "Trivial updates"
+msgstr "Önemsiz güncellemeler"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-update-viewer.c:648
+msgid "Important updates"
+msgstr "Önemli güncellemeler"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-update-viewer.c:652
+msgid "Security updates"
+msgstr "Güvenlik güncellemeleri"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-update-viewer.c:656
+msgid "Bug fix updates"
+msgstr "Hata düzeltme güncellemeleri"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-update-viewer.c:660
+msgid "Enhancement updates"
+msgstr "Geliştirme güncellemeleri"
+
+#. TRANSLATORS: The type of update
+#: src/gpk-update-viewer.c:664
+msgid "Blocked updates"
+msgstr "Engellenen güncellemeler"
+
+#. TRANSLATORS: The type of update, i.e. unspecified
+#: src/gpk-update-viewer.c:668
+msgid "Other updates"
+msgstr "Diğer güncellemeler"
+
+#. TRANSLATORS: querying update array
+#: src/gpk-update-viewer.c:919
+msgid "Getting the list of updates"
+msgstr "Güncelleme listesi alınıyor"
+
+#. TRANSLATORS: the PackageKit request did not complete, and it did not send an error
+#: src/gpk-update-viewer.c:1124
+msgid "Could not run upgrade script"
+msgstr "Yükseltme betiği çalıştırılamadı"
+
+#. TRANSLATORS, are we going to cost the user lots of money?
+#: src/gpk-update-viewer.c:1151
+msgid ""
+"Connectivity is being provided by wireless broadband, and it may be "
+"expensive to update this package."
+msgid_plural ""
+"Connectivity is being provided by wireless broadband, and it may be "
+"expensive to update these packages."
+msgstr[0] ""
+"Bağlantı kablosuz genişbant tarafından sağlanmaktadır ve paket güncellemek "
+"pahalı olabilir."
+
+#. TRANSLATORS: there are no updates
+#: src/gpk-update-viewer.c:1225
+msgid "There are no updates available"
+msgstr "Güncelleme yok"
+
+#. TRANSLATORS: title: nothing to do
+#: src/gpk-update-viewer.c:1280
+msgid "No updates are available"
+msgstr "Güncelleme yok"
+
+#. TRANSLATORS: no network connection, according to PackageKit
+#: src/gpk-update-viewer.c:1282
+msgid "No network connection was detected."
+msgstr "Ağ bağlantısı saptanamadı."
+
+#. TRANSLATORS: this is the button text when we have updates
+#: src/gpk-update-viewer.c:1299
+msgid "_Install Update"
+msgid_plural "_Install Updates"
+msgstr[0] "_Güncellemeleri Kur"
+
+#. TRANSLATORS: title: nothing to do
+#: src/gpk-update-viewer.c:1308
+msgid "All packages are up to date"
+msgstr "Tüm paketler güncel"
+
+#. TRANSLATORS: tell the user the problem
+#: src/gpk-update-viewer.c:1310
+msgid "There are no package updates available for your computer at this time."
+msgstr "Şu anda bilgisayarınız için kullanılabilir paket güncellemesi yok."
+
+#: src/gpk-update-viewer.c:1337
+#, c-format
+msgid "There is %u update available"
+msgid_plural "There are %u updates available"
+msgstr[0] "%u güncelleme var"
+
+#. TRANSLATORS: how many updates are selected in the UI
+#: src/gpk-update-viewer.c:1352
+#, c-format
+msgid "%u update selected"
+msgid_plural "%u updates selected"
+msgstr[0] "%u güncelleme seçildi"
+
+#. TRANSLATORS: how many updates are selected in the UI, and the size of packages to download
+#: src/gpk-update-viewer.c:1361
+#, c-format
+msgid "%u update selected (%s)"
+msgid_plural "%u updates selected (%s)"
+msgstr[0] "%u güncelleme seçildi (%s)"
+
+#. TRANSLATORS: a column that has state of each package
+#: src/gpk-update-viewer.c:1540
+msgid "Status"
+msgstr "Durum"
+
+#. TRANSLATORS: this is the update type, e.g. security
+#: src/gpk-update-viewer.c:1703
+msgid "This update will add new features and expand functionality."
+msgstr "Bu güncelleme, yeni özellikler ekleyecek ve işlevselliği artıracak."
+
+#. TRANSLATORS: this is the update type, e.g. security
+#: src/gpk-update-viewer.c:1707
+msgid "This update will fix bugs and other non-critical problems."
+msgstr "Bu güncelleme hata ve diğer kritik olmayan sorunları çözecek."
+
+#. TRANSLATORS: this is the update type, e.g. security
+#: src/gpk-update-viewer.c:1711
+msgid "This update is important as it may solve critical problems."
+msgstr "Bu güncelleme kritik problemleri çözebileceği için önemlidir."
+
+#. TRANSLATORS: this is the update type, e.g. security
+#: src/gpk-update-viewer.c:1715
+msgid ""
+"This update is needed to fix a security vulnerability with this package."
+msgstr ""
+"Bu güncelleme bu paket ile ilgili bir güvenlik açığını düzeltmek için "
+"gereklidir."
+
+#. TRANSLATORS: this is the update type, e.g. security
+#: src/gpk-update-viewer.c:1719
+msgid "This update is blocked."
+msgstr "Bu güncelleme engellenmiş."
+
+#. TRANSLATORS: this is when the notification was issued and then updated
+#: src/gpk-update-viewer.c:1731
+#, c-format
+msgid "This notification was issued on %s and last updated on %s."
+msgstr "Bu uyarı %s tarihinde yapıldı ve en son %s tarihinde güncellendi."
+
+#. TRANSLATORS: this is when the update was issued
+#: src/gpk-update-viewer.c:1737
+#, c-format
+msgid "This notification was issued on %s."
+msgstr "Bu uyarı %s tarihinde yapıldı."
+
+#. TRANSLATORS: this is a array of vendor URLs
+#: src/gpk-update-viewer.c:1754
+msgid "For more information about this update please visit this website:"
+msgid_plural ""
+"For more information about this update please visit these websites:"
+msgstr[0] ""
+"Bu güncelleme için daha çok bilgi için bu web sitelerini ziyaret edin:"
+
+#. TRANSLATORS: this is a array of bugzilla URLs
+#: src/gpk-update-viewer.c:1761
+msgid ""
+"For more information about bugs fixed by this update please visit this "
+"website:"
+msgid_plural ""
+"For more information about bugs fixed by this update please visit these "
+"websites:"
+msgstr[0] ""
+"Bu güncelleme tarafından düzeltilen hatalar hakkında daha çok bilgi için bu "
+"web sitelerini ziyaret edin:"
+
+#. TRANSLATORS: this is a array of CVE (security) URLs
+#: src/gpk-update-viewer.c:1768
+msgid ""
+"For more information about this security update please visit this website:"
+msgid_plural ""
+"For more information about this security update please visit these websites:"
+msgstr[0] ""
+"Bu güvenlik güncellemesi hakkında daha çok bilgi için bu web sitelerini "
+"ziyaret edin:"
+
+#. TRANSLATORS: reboot required
+#: src/gpk-update-viewer.c:1777
+msgid ""
+"The computer will have to be restarted after the update for the changes to "
+"take effect."
+msgstr ""
+"Güncellemeden sonra değişikliklerin etkin olabilmesi için bu bilgisayar "
+"yeniden başlatılacak."
+
+#. TRANSLATORS: log out required
+#: src/gpk-update-viewer.c:1781
+msgid ""
+"You will need to log out and back in after the update for the changes to "
+"take effect."
+msgstr ""
+"Güncellemeden sonra değişikliklerin etkin olabilmesi için çıkış yapıp "
+"yeniden giriş yapmanız gerekecek."
+
+#. TRANSLATORS: this is the stability status of the update
+#: src/gpk-update-viewer.c:1788
+msgid ""
+"The classification of this update is unstable which means it is not designed "
+"for production use."
+msgstr ""
+"Bu güncellemenin sınıflandırması kararsız, bu üretim amaçlı kullanım için "
+"tasarlanmadığı anlamına geliyor."
+
+#. TRANSLATORS: this is the stability status of the update
+#: src/gpk-update-viewer.c:1792
+msgid ""
+"This is a test update, and is not designed for normal use. Please report any "
+"problems or regressions you encounter."
+msgstr ""
+"Bu sınama güncellemesi, ve normal kullanım için tasarlanmamış. Lütfen bir "
+"problem ya da geriye dönüşle karşılaşırsanız hata bildiriminde bulunun."
+
+#: src/gpk-update-viewer.c:1803
+msgid ""
+"The developer logs will be shown as no description is available for this "
+"update:"
+msgstr ""
+"Bu güncelleme için hiçbir açıklama var olmadığı için geliştirici günlükleri "
+"gösterilecek:"
+
+#: src/gpk-update-viewer.c:1837
+msgid "Loading…"
+msgstr "Yükleniyor…"
+
+#: src/gpk-update-viewer.c:1840
+msgid "No update details available."
+msgstr "Güncelleme ayrıntıları yok."
+
+#. TRANSLATORS: the PackageKit request did not complete, and it did not send an error
+#. TRANSLATORS: PackageKit did not send any results for the query...
+#: src/gpk-update-viewer.c:1866 src/gpk-update-viewer.c:1952
+#: src/gpk-update-viewer.c:1971
+msgid "Could not get update details"
+msgstr "Güncelleme ayrıntıları alınamadı"
+
+#. TRANSLATORS: PackageKit did not send any results for the query...
+#: src/gpk-update-viewer.c:1885
+msgid "Could not get package details"
+msgstr "Paket ayrıntıları alınamadı"
+
+#: src/gpk-update-viewer.c:1885 src/gpk-update-viewer.c:1971
+msgid "No results were returned."
+msgstr "Hiçbir sonuç dönmedi."
+
+#. TRANSLATORS: right click menu, select all the updates
+#: src/gpk-update-viewer.c:2181
+msgid "Select all"
+msgstr "Tümünü seç"
+
+#. TRANSLATORS: right click menu, unselect all the updates
+#: src/gpk-update-viewer.c:2189
+msgid "Unselect all"
+msgstr "Hiçbirini seçme"
+
+#. TRANSLATORS: right click menu, select only security updates
+#: src/gpk-update-viewer.c:2196
+msgid "Select security updates"
+msgstr "Güvenlik güncellemelerini seç"
+
+#. TRANSLATORS: right click option, ignore this update name, not currently used
+#: src/gpk-update-viewer.c:2202
+msgid "Ignore this update"
+msgstr "Bu güncellemeyi yok say"
+
+#. TRANSLATORS: the PackageKit request did not complete, and it did not send an error
+#: src/gpk-update-viewer.c:2293
+msgid "Could not get updates"
+msgstr "Güncellemeler alınamadı"
+
+#. TRANSLATORS: this is the header
+#: src/gpk-update-viewer.c:2413
+msgid "Checking for updates…"
+msgstr "Güncellemeler denetleniyor…"
+
+#. TRANSLATORS: the PackageKit request did not complete, and it did not send an error
+#: src/gpk-update-viewer.c:2645
+msgid "Could not get list of distribution upgrades"
+msgstr "Dağıtım yükseltmeleri listesi alınamadı"
+
+#. TRANSLATORS: new distro available, e.g. F9 to F10
+#: src/gpk-update-viewer.c:2674
+#, c-format
+msgid "New distribution upgrade release “%s” is available"
+msgstr "“%s” yeni dağıtım yükseltme sürümü var"
+
+#. TRANSLATORS: this is when some updates are not being shown as other packages need updating first
+#: src/gpk-update-viewer.c:2886
+msgid ""
+"Other updates are held back as some important system packages need to be "
+"installed first."
+msgstr ""
+"Diğer güncellemer başka önemli sistem paketlerinin daha önce kurulması "
+"gerektiği için bekletildi."
+
+#: src/gpk-update-viewer.c:2925
+msgid "Update Packages"
+msgstr "Paketleri Güncelle"
+
+#~ msgid "system-software-install"
+#~ msgstr "system-software-install"
+
+#~ msgid "Package Install"
+#~ msgstr "Paket Kurulumu"
+
+#~ msgid "Install selected packages on the system"
+#~ msgstr "Seçili paketleri sisteme kur"
+
+#~ msgid "gpk-log"
+#~ msgstr "gpk-log"
+
+#~ msgid "gpk-prefs"
+#~ msgstr "gpk-prefs"
+
+#~ msgid "system-software-update"
+#~ msgstr "system-software-update"
