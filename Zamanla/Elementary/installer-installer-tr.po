@@ -1,0 +1,517 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-11 17:56+0000\n"
+"PO-Revision-Date: 2022-12-03 07:25+0000\n"
+"Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
+"installer/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.14.2\n"
+"X-Launchpad-Export-Date: 2016-09-27 06:41+0000\n"
+
+#: src/Application.vala:42
+#, c-format
+msgid "Install %s"
+msgstr "%s'i yükleyin"
+
+#: src/MainWindow.vala:267
+msgid "Connect to a Power Source"
+msgstr "Güç Kaynağına Bağla"
+
+#: src/MainWindow.vala:268
+msgid ""
+"Your device is running on battery power. It's recommended to be plugged in "
+"while installing."
+msgstr ""
+"Cihazınız pil gücü ile çalışıyor. Kurulum esnasında şarja takmanız önerilir."
+
+#: src/Utils.vala:34
+msgid "Test mode shutdown"
+msgstr "Test modunu kapat"
+
+#: src/Utils.vala:48
+msgid "Test mode reboot"
+msgstr "Test modu yeniden başlat"
+
+#: src/Utils.vala:74
+msgid "Test mode switch user"
+msgstr "Test modu kullanıcı değiştir"
+
+#: src/Helpers/LocaleHelper.vala:121 src/Views/KeyboardLayoutView.vala:223
+#, c-format
+msgid "%s…"
+msgstr "%s…"
+
+#: src/Views/AbstractInstallerView.vala:47
+msgid "Cancel Installation"
+msgstr "Kurulumu İptal Et"
+
+#: src/Views/AbstractInstallerView.vala:56
+msgid "Test Mode"
+msgstr "Test Modu"
+
+#: src/Views/CheckView.vala:50
+#, fuzzy
+#| msgid "Try Installing Again"
+msgid "Before Installing"
+msgstr "Tekrar Yüklemeyi Deneyin"
+
+#: src/Views/CheckView.vala:56
+msgid "Pre-Release Version"
+msgstr "Yayın Öncesi Sürüm"
+
+#: src/Views/CheckView.vala:57
+msgid ""
+"Only install on devices dedicated for development. <b>You will not be able "
+"to upgrade to a stable release</b>."
+msgstr ""
+"Yalnızca geliştirme için tahsis edilmiş cihazlara kurun. <b>Kararlı bir "
+"sürüme yükseltemezsiniz</b>."
+
+#: src/Views/CheckView.vala:62
+msgid "Virtual Machine"
+msgstr "Sanal Makine"
+
+#: src/Views/CheckView.vala:63
+#, c-format
+msgid "Some parts of %s may run slowly, freeze, or not function properly."
+msgstr ""
+"%s yüklendikten sonra bazı bölümleri yavaş çalışabilir, donabilir veya "
+"düzgün çalışmayabilir."
+
+#: src/Views/CheckView.vala:68
+msgid "Your Device May Be Too Slow"
+msgstr "Cihazınız Çok Yavaş Olabilir"
+
+#: src/Views/CheckView.vala:69
+msgid "This may cause it to run slowly or freeze."
+msgstr "Bu, yavaş çalışmasına veya donmasına neden olabilir."
+
+#: src/Views/CheckView.vala:85
+#, fuzzy
+#| msgid "Install %s"
+msgid "Install Anyway"
+msgstr "%s'i yükleyin"
+
+#: src/Views/CheckView.vala:211
+msgid "Recommended:"
+msgstr "Önerilen:"
+
+#: src/Views/CheckView.vala:217
+msgid "Your Device:"
+msgstr "Cihazınız:"
+
+#: src/Views/CheckView.vala:223 src/Views/CheckView.vala:227
+msgid "Processor:"
+msgstr "İşlemci:"
+
+#: src/Views/CheckView.vala:239 src/Views/CheckView.vala:243
+msgid "Memory:"
+msgstr "Bellek:"
+
+#: src/Views/DiskView.vala:48
+msgid "Select a Drive"
+msgstr "Bir Sürücü Seçin"
+
+#: src/Views/DiskView.vala:54
+msgid ""
+"This will erase all data on the selected drive. If you have not backed your "
+"data up, you can cancel the installation and use Demo Mode."
+msgstr ""
+"Bu seçenek seçili sürücüden tüm veriyi silecektir. Eğer verilerinizi "
+"yedeklemediyseniz bu yüklemeyi iptal edip Demo Modu'nu kullanabilirsiniz."
+
+#: src/Views/DiskView.vala:78 src/Views/PartitioningView.vala:95
+msgid "Getting the current configuration…"
+msgstr "Geçerli yapılandırma alınıyor…"
+
+#: src/Views/DiskView.vala:114 src/Views/PartitioningView.vala:123
+msgid "Erase and Install"
+msgstr "Sil ve Kur"
+
+#: src/Views/EncryptView.vala:28
+msgid "Don’t Encrypt"
+msgstr "Şifreleme"
+
+#: src/Views/EncryptView.vala:50
+msgid "Enable Drive Encryption"
+msgstr "Sürücü Şifrelemesini Etkinleştir"
+
+#: src/Views/EncryptView.vala:55
+msgid ""
+"Encrypt this device's drive if required for added protection, but be sure "
+"you understand:"
+msgstr ""
+"Ek koruma sağlamak için gerekirse bu cihazın sürücüsünü şifreleyin, ancak "
+"şunu anladığınızdan emin olun:"
+
+#: src/Views/EncryptView.vala:65
+msgid ""
+"Data will only be protected from others with physical access to this device "
+"when it is shut down."
+msgstr ""
+"Veriler, bu cihaza fiziksel erişimi olan diğer kişilerden ancak cihaz "
+"kapalıysa korunacaktır."
+
+#: src/Views/EncryptView.vala:74
+msgid ""
+"The encryption password will be required each time this device is turned on. "
+"Store it somewhere safe."
+msgstr ""
+"Bu cihaz her açıldığında şifreleme parolası gerekecektir. Güvenli bir yerde "
+"saklayın."
+
+#: src/Views/EncryptView.vala:83
+msgid ""
+"A built-in or USB keyboard will be required to type the encryption password "
+"each time this device is turned on."
+msgstr ""
+"Bu cihaz her açıldığında şifreleme parolasını yazmak için yerleşik bir "
+"klavye veya USB klavye gerekecektir."
+
+#: src/Views/EncryptView.vala:103
+msgid ""
+"If you forget the encryption password, <b>you will not be able to recover "
+"data.</b> This is a unique password for this device, not the password for "
+"your user account."
+msgstr ""
+"Şifreleme parolasını unutursanız, <b>verileri kurtaramazsınız.</b> Bu "
+"kullanıcı hesabınızın parolası değil, bu cihaz için emsalsiz bir paroladır."
+
+#: src/Views/EncryptView.vala:113
+msgid "Choose Encryption Password"
+msgstr "Şifreleme Parolasını Seçin"
+
+#: src/Views/EncryptView.vala:127
+msgid "Confirm Password"
+msgstr "Parolayı Onayla"
+
+#: src/Views/EncryptView.vala:166 src/Views/KeyboardLayoutView.vala:60
+#: src/Views/PartitioningView.vala:121 src/Views/TryInstallView.vala:86
+msgid "Back"
+msgstr "Geri"
+
+#: src/Views/EncryptView.vala:168
+msgid "Choose Password"
+msgstr "Şifre Seçin"
+
+#: src/Views/EncryptView.vala:191
+msgid "Set Encryption Password"
+msgstr "Şifreleme Parolasını Belirle"
+
+#: src/Views/EncryptView.vala:260
+msgid "Passwords do not match"
+msgstr "Parolalar eşleşmiyor"
+
+#: src/Views/ErrorView.vala:31
+msgid "Could Not Install"
+msgstr "Yüklenemedi"
+
+#: src/Views/ErrorView.vala:36
+#, c-format
+msgid ""
+"Installing %s failed, possibly due to a hardware error. The device may not "
+"restart properly. You can try the following:"
+msgstr ""
+"%s kurulumu muhtemelen bir donanım hatası nedeniyle başarısız oldu. Cihaz "
+"düzgün şekilde başlatılamayabilir. Aşağıdakileri deneyebilirsiniz:"
+
+#: src/Views/ErrorView.vala:47
+msgid "Try the installation again"
+msgstr "Kurulumu tekrarlayın"
+
+#: src/Views/ErrorView.vala:58
+msgid "Use Demo Mode and try to manually recover"
+msgstr "Demo Modu'nu kullanın ve el ile kurtarmayı deneyin"
+
+#: src/Views/ErrorView.vala:68
+msgid "Restart the device and boot from another drive"
+msgstr "Başka bir sürücüden başlatmak için cihazı yeniden başlatın"
+
+#: src/Views/ErrorView.vala:78
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: src/Views/ErrorView.vala:113 src/Views/SuccessView.vala:66
+msgid "Restart Device"
+msgstr "Cihazı Yeniden Başlatın"
+
+#: src/Views/ErrorView.vala:115 src/Views/TryInstallView.vala:39
+msgid "Try Demo Mode"
+msgstr "Demo Modu'nu Deneyin"
+
+#: src/Views/ErrorView.vala:117
+msgid "Try Installing Again"
+msgstr "Tekrar Yüklemeyi Deneyin"
+
+#: src/Views/KeyboardLayoutView.vala:32
+msgid "Select Keyboard Layout"
+msgstr "Klavye Düzeni Seçin"
+
+#: src/Views/KeyboardLayoutView.vala:40
+msgid "Type to test your layout"
+msgstr "Düzeni test etmek için yazın"
+
+#: src/Views/KeyboardLayoutView.vala:43
+msgid "Show keyboard layout"
+msgstr "Klavye düzenini göster"
+
+#: src/Views/KeyboardLayoutView.vala:62 src/Views/LanguageView.vala:111
+msgid "Select"
+msgstr "Seç"
+
+#: src/Views/KeyboardLayoutView.vala:126
+msgid "Default"
+msgstr "Varsayılan"
+
+#: src/Views/KeyboardLayoutView.vala:133
+msgid "Input Language"
+msgstr "Giriş Dili"
+
+#: src/Views/LanguageView.vala:259
+msgid "Languages"
+msgstr "Diller"
+
+#: src/Views/LanguageView.vala:276
+msgid "Select a Language"
+msgstr "Bir Dil Seçin"
+
+#: src/Views/LanguageView.vala:304 src/Views/LanguageView.vala:349
+msgid "Currently active language"
+msgstr "Şu anda etkin olan dil"
+
+#: src/Views/PartitioningView.vala:52
+msgid ""
+"Select which partitions to use across all drives. <b>Selecting \"Format\" "
+"will erase ALL data on the selected partition.</b>"
+msgstr ""
+"Bütün sürücüler arasında hangi bölümleri kullanacağınızı seçin. <b>"
+"\"Biçimlendir\" seçeneği seçili bölümdeki BÜTÜN verileri silecektir.</b>"
+
+#. Device is in BIOS mode, so we just require a root partition
+#: src/Views/PartitioningView.vala:58
+msgid "You must at least select a <b>Root (/)</b> partition."
+msgstr "En azından bir <b>Kök (/)</b> bölümü seçmelisiniz."
+
+#. Device is in EFI mode, so we also require a boot partition
+#: src/Views/PartitioningView.vala:62
+msgid ""
+"You must at least select a <b>Root (/)</b> partition and a <b>Boot (/boot/"
+"efi)</b> partition."
+msgstr ""
+"En azından bir <b>Kök (/)</b> ve <b>Boot (/boot/efi)</b> bölümü seçmelisiniz."
+
+#: src/Views/PartitioningView.vala:66
+msgid "It is also recommended to select a <b>Swap</b> partition."
+msgstr "Bir <b>Takas</b> bölümü de seçmeniz tavsiye edilir."
+
+#: src/Views/PartitioningView.vala:118
+msgid "Modify Partitions…"
+msgstr "Bölümleri Değiştir…"
+
+#: src/Views/PartitioningView.vala:271
+msgid "EFI partition has the wrong file system"
+msgstr "EFI bölümü yanlış dosya sistemine sahip"
+
+#: src/Views/PartitioningView.vala:273
+msgid "EFI partition is too small"
+msgstr "EFI bölümü çok küçük"
+
+#: src/Views/PartitioningView.vala:276
+msgid "Invalid file system for root"
+msgstr "Kök için geçersiz bir dosya sistemi"
+
+#: src/Views/PartitioningView.vala:278
+msgid "Invalid file system for home"
+msgstr "Home için geçersiz bir dosya sistemi"
+
+#: src/Views/ProgressView.vala:73 src/Views/ProgressView.vala:100
+msgid "Show log"
+msgstr "Günlüğü göster"
+
+#: src/Views/ProgressView.vala:96
+msgid "Hide log"
+msgstr "Günlüğü gizle"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:221
+msgid "Partitioning Drive"
+msgstr "Sürücü Bölümleniyor"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:226
+msgid "Extracting Files"
+msgstr "Dosyalar Ayıklanıyor"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:231
+msgid "Configuring the System"
+msgstr "Sistem Yapılandırılıyor"
+
+#. /TRANSLATORS: The current step of the installer back-end
+#: src/Views/ProgressView.vala:236
+msgid "Finishing the Installation"
+msgstr "Kurulum Sonlandırılıyor"
+
+#: src/Views/TryInstallView.vala:28
+msgid "Try or Install"
+msgstr "Deneyin veya Kurun"
+
+#: src/Views/TryInstallView.vala:41
+msgid ""
+"Changes will not be saved, and data from your previous OS will be unchanged. "
+"Performance and features may not reflect the installed experience."
+msgstr ""
+"Değişiklikler kaydedilmeyecek ve önceki işletim sisteminizdeki veriler "
+"değiştirilmeyecek. Performans ve özellikler kurulmuş sistem tecrübesini "
+"yansıtmayabilir."
+
+#: src/Views/TryInstallView.vala:47
+msgid "Erase Disk and Install"
+msgstr "Diski Sil ve Kur"
+
+#: src/Views/TryInstallView.vala:49
+#, c-format
+msgid "Erase everything and install a fresh copy of %s."
+msgstr "Her şeyi sil ve %s yeni kopyasını kur."
+
+#: src/Views/TryInstallView.vala:55
+msgid "Custom Install (Advanced)"
+msgstr "Özel Kurulum (Gelişmiş)"
+
+#: src/Views/TryInstallView.vala:57
+msgid ""
+"Create, resize, or otherwise manage partitions manually. This method may "
+"lead to data loss."
+msgstr ""
+"Oluştur, yeniden boyutlandır, veya bölümleri el ile yönet. Bu yöntem veri "
+"kaybına yol açabilir."
+
+#: src/Views/TryInstallView.vala:88
+msgid "Next"
+msgstr "Sonraki"
+
+#: src/Views/TryInstallView.vala:114
+msgid "Custom Install"
+msgstr "Özel Kurulum"
+
+#: src/Views/SuccessView.vala:29
+msgid "Continue Setting Up"
+msgstr "Kurmaya Devam Et"
+
+#: src/Views/SuccessView.vala:34
+#, c-format
+msgid "%s has been installed"
+msgstr "%s yüklendi"
+
+#: src/Views/SuccessView.vala:63
+msgid "Shut Down"
+msgstr "Kapat"
+
+#: src/Views/SuccessView.vala:97
+#, c-format
+msgid "Your device will automatically restart in %i second."
+msgid_plural "Your device will automatically restart in %i seconds."
+msgstr[0] "Cihazınız %i saniye içinde otomatik olarak yeniden başlayacaktır."
+msgstr[1] "Cihazınız %i saniye içinde otomatik olarak yeniden başlayacaktır."
+
+#: src/Views/SuccessView.vala:101
+msgid ""
+"After restarting you can set up a new user, or you can shut down now and set "
+"up a new user later."
+msgstr ""
+"Yeniden başlattıktan sonra yeni bir kullanıcı oluşturabilir veya şimdi "
+"kapatabilir ve daha sonra yeni bir kullanıcı ayarlayabilirsiniz."
+
+#: src/Widgets/DecryptMenu.vala:58
+msgid "Decrypt This Partition"
+msgstr "Bu Bölümü Çöz"
+
+#: src/Widgets/DecryptMenu.vala:62
+msgid ""
+"Enter the partition's encryption password and set a device name for the "
+"decrypted partition."
+msgstr ""
+"Bölümün şifreleme parolasını girin ve şifreli bölüm için bir cihaz adı "
+"ayarlayın."
+
+#: src/Widgets/DecryptMenu.vala:75
+msgid "Password:"
+msgstr "Parola:"
+
+#: src/Widgets/DecryptMenu.vala:88
+msgid "Device name:"
+msgstr "Cihaz adı:"
+
+#: src/Widgets/DecryptMenu.vala:101
+msgid "Decrypt"
+msgstr "Çöz"
+
+#: src/Widgets/DecryptMenu.vala:175
+msgid "LUKS volume was decrypted"
+msgstr "LUKS bölümü çözülmüştü"
+
+#: src/Widgets/DiskBar.vala:135
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/Widgets/DiskBar.vala:136
+#, c-format
+msgid "%s (%s: <b>%s</b>)"
+msgstr "%s (%s: <b>%s</b>)"
+
+#: src/Widgets/PartitionMenu.vala:56
+msgid "Use Partition"
+msgstr "Bölümü Kullan"
+
+#: src/Widgets/PartitionMenu.vala:60
+msgid "Format"
+msgstr "Biçimlendir"
+
+#: src/Widgets/PartitionMenu.vala:61
+msgid "Delete all data and set up a new file system"
+msgstr "Tüm verileri silin ve yeni bir dosya sistemi kurun"
+
+#: src/Widgets/PartitionMenu.vala:64
+msgid "Use as:"
+msgstr "Olarak kullan:"
+
+#: src/Widgets/PartitionMenu.vala:71
+msgid "Root (/)"
+msgstr "Kök (/)"
+
+#: src/Widgets/PartitionMenu.vala:72
+msgid "Home (/home)"
+msgstr "Home (/home)"
+
+#: src/Widgets/PartitionMenu.vala:73
+#, c-format
+msgid "Boot (%s)"
+msgstr "Boot (%s)"
+
+#: src/Widgets/PartitionMenu.vala:74
+msgid "Swap"
+msgstr "Takas"
+
+#: src/Widgets/PartitionMenu.vala:75
+msgid "Custom"
+msgstr "Özel"
+
+#: src/Widgets/PartitionMenu.vala:79
+msgid "Custom:"
+msgstr "Özel:"
+
+#: src/Widgets/PartitionMenu.vala:86
+msgid "Filesystem:"
+msgstr "Dosya sistemi:"
+
+#: src/Widgets/PartitionMenu.vala:98
+msgid "Default (ext4)"
+msgstr "Varsayılan (ext4)"
