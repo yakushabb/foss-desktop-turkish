@@ -16,16 +16,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-panel\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-panel/issues/\n"
-"POT-Creation-Date: 2024-03-08 13:47+0000\n"
-"PO-Revision-Date: 2023-10-16 00:24+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"POT-Creation-Date: 2024-03-20 21:30+0000\n"
+"PO-Revision-Date: 2024-03-20 00:04+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.4.2\n"
 "X-POOTLE-MTIME: 1429372407.000000\n"
 
 #: data/org.gnome.gnome-panel.applet.clock.gschema.xml:5
@@ -297,15 +297,27 @@ msgstr "Panellerdeki en yüksek simge boyutu"
 msgid "The maximum size of icons in panels."
 msgstr "Panellerdeki en yüksek simge boyutu."
 
-#: data/org.gnome.gnome-panel.gschema.xml:65
+#: data/org.gnome.gnome-panel.gschema.xml:66
+msgid "Icon spacing in panels"
+msgstr "Panellerdeki simge boşluğu"
+
+#: data/org.gnome.gnome-panel.gschema.xml:67
+msgid ""
+"On horizontal panel minimum space between top and bottom border and the "
+"icon. For vertical panel minimum space from left and right borders."
+msgstr ""
+"Yatay panelde üst ve alt kenarlık ile simge arasındaki asgari boşluk. Dikey "
+"panel için sol ve sağ kenarlıklardan asgari boşluk."
+
+#: data/org.gnome.gnome-panel.gschema.xml:72
 msgid "Which theme variant to use"
 msgstr "Hangi tema değişkeni kullanılacak"
 
-#: data/org.gnome.gnome-panel.gschema.xml:72
+#: data/org.gnome.gnome-panel.gschema.xml:79
 msgid "Panel ID list"
 msgstr "Panel numara listesi"
 
-#: data/org.gnome.gnome-panel.gschema.xml:73
+#: data/org.gnome.gnome-panel.gschema.xml:80
 msgid ""
 "A list of panel IDs. Each ID identifies an individual toplevel panel. The "
 "settings for each of these panels are stored in /apps/panel/toplevels/$(id)."
@@ -314,11 +326,11 @@ msgstr ""
 "tanımlar. Bu panellerin her biri için ayarlar /apps/panel/toplevels/$(id) "
 "içerisinde saklanır."
 
-#: data/org.gnome.gnome-panel.gschema.xml:77
+#: data/org.gnome.gnome-panel.gschema.xml:84
 msgid "Panel object ID list"
 msgstr "Panel nesnesi numara listesi"
 
-#: data/org.gnome.gnome-panel.gschema.xml:78
+#: data/org.gnome.gnome-panel.gschema.xml:85
 msgid ""
 "A list of panel object IDs. Each ID identifies an individual panel object (e."
 "g. an applet, launcher, action button or menu button/bar). The settings for "
@@ -328,11 +340,11 @@ msgstr ""
 "tanımlar (örn. çalıştırıcı, çekmece ya da menü düğmesi). Bu nesnelerin her "
 "biri için ayarlar /apps/panel/objects/$(id) içerisinde saklanır."
 
-#: data/org.gnome.gnome-panel.gschema.xml:85
+#: data/org.gnome.gnome-panel.gschema.xml:92
 msgid "Complete panel lockdown"
 msgstr "Panelin tümünü kilitle"
 
-#: data/org.gnome.gnome-panel.gschema.xml:86
+#: data/org.gnome.gnome-panel.gschema.xml:93
 msgid ""
 "If true, the panel will not allow any changes to the configuration of the "
 "panel. Individual applets may need to be locked down separately however. The "
@@ -342,11 +354,11 @@ msgstr ""
 "vermeyecektir. Ancak uygulamacıklar ayrıca kilitlenme ihtiyacı duyabilirler. "
 "Bunun etkili olabilmesi için panelin yeniden başlatılması gerekmektedir."
 
-#: data/org.gnome.gnome-panel.gschema.xml:90
+#: data/org.gnome.gnome-panel.gschema.xml:97
 msgid "Applet IIDs to disable from loading"
 msgstr "Yüklenmesi engellenecek uygulamacık IIDleri"
 
-#: data/org.gnome.gnome-panel.gschema.xml:91
+#: data/org.gnome.gnome-panel.gschema.xml:98
 msgid ""
 "A list of applet IIDs that the panel will ignore. This way you can disable "
 "certain applets from loading or showing up in the menu. For example to "
@@ -359,11 +371,11 @@ msgstr ""
 "bırakmak için 'OAFIID:GNOME_MiniCommanderApplet'i bu listeye ekleyin. Bunun "
 "etkili olması için paneli yeniden başlatmanız gerekir."
 
-#: data/org.gnome.gnome-panel.gschema.xml:95
+#: data/org.gnome.gnome-panel.gschema.xml:102
 msgid "Disable Force Quit"
 msgstr "Zorla Çık'ı Etkisizleştir"
 
-#: data/org.gnome.gnome-panel.gschema.xml:96
+#: data/org.gnome.gnome-panel.gschema.xml:103
 msgid ""
 "If true, the panel will not allow a user to force an application to quit by "
 "removing access to the force quit button."
@@ -371,21 +383,21 @@ msgstr ""
 "Eğer seçiliyse, panel, bir uygulama kapatılırken zorla çıkış yapılmasını "
 "Sonlandır düğmesine erişimi keserek engeller."
 
-#: data/org.gnome.gnome-panel.gschema.xml:103
+#: data/org.gnome.gnome-panel.gschema.xml:110
 msgid "History of \"Run Application\" dialog"
 msgstr "\"Uygulama Çalıştır\" iletişim penceresinin geçmişi"
 
-#: data/org.gnome.gnome-panel.gschema.xml:104
+#: data/org.gnome.gnome-panel.gschema.xml:111
 msgid ""
 "The list of commands used in the past in the \"Run Application\" dialog."
 msgstr ""
 "\"Uygulama Çalıştır\" penceresinde kendiliğinden tamamlamayı etkinleştir."
 
-#: data/org.gnome.gnome-panel.gschema.xml:108
+#: data/org.gnome.gnome-panel.gschema.xml:115
 msgid "Enable program list in \"Run Application\" dialog"
 msgstr "\"Uygulama Çalıştır\" penceresinde program listesini etkinleştir"
 
-#: data/org.gnome.gnome-panel.gschema.xml:109
+#: data/org.gnome.gnome-panel.gschema.xml:116
 msgid ""
 "If true, the \"Known Applications\" listing in the \"Run Application\" "
 "dialog is made available. Whether or not the listing is expanded when the "
@@ -395,11 +407,11 @@ msgstr ""
 "listesi kullanılabilir olur. Listenin genişletilmiş olup olmaması "
 "show_program_list anahtarı ile denetlenir."
 
-#: data/org.gnome.gnome-panel.gschema.xml:113
+#: data/org.gnome.gnome-panel.gschema.xml:120
 msgid "Expand program list in \"Run Application\" dialog"
 msgstr "\"Uygulama Çalıştır\" penceresindeki program listesini genişlet"
 
-#: data/org.gnome.gnome-panel.gschema.xml:114
+#: data/org.gnome.gnome-panel.gschema.xml:121
 msgid ""
 "If true, the \"Known Applications\" listing in the \"Run Application\" "
 "dialog is expanded when the dialog is opened. This key is only relevant if "
@@ -409,12 +421,12 @@ msgstr ""
 "listesi, pencere açıldığında genişlemiş olarak başlar. Bu anahtar yalnızca "
 "enable_program_list anahtarı seçili ise anlamlıdır."
 
-#: data/org.gnome.gnome-panel.gschema.xml:118
+#: data/org.gnome.gnome-panel.gschema.xml:125
 msgid "Enable autocompletion in \"Run Application\" dialog"
 msgstr ""
 "\"Uygulama Çalıştır\" penceresinde kendiliğinden tamamlamayı etkinleştir"
 
-#: data/org.gnome.gnome-panel.gschema.xml:119
+#: data/org.gnome.gnome-panel.gschema.xml:126
 msgid ""
 "If true, autocompletion in the \"Run Application\" dialog is made available."
 msgstr ""
@@ -1126,14 +1138,14 @@ msgstr "Sağda İlk Panel"
 msgid "Right End Panel"
 msgstr "Sağda Son Panel"
 
-#: gnome-panel/panel-util.c:280 modules/menu/gp-menu-utils.c:212
+#: gnome-panel/panel-util.c:282 modules/menu/gp-menu-utils.c:212
 msgid "Home"
 msgstr "Başlangıç"
 
 #. Translators: this is the same string as the one found in
 #. * nautilus
 #. Translators: this is the same string as the one found in nautilus
-#: gnome-panel/panel-util.c:289 modules/menu/gp-menu-utils.c:229
+#: gnome-panel/panel-util.c:291 modules/menu/gp-menu-utils.c:229
 msgid "File System"
 msgstr "Dosya Sistemi"
 
@@ -1146,7 +1158,7 @@ msgstr "Dosya Sistemi"
 #. * second string is a path. For example, "Trash: some-directory". It
 #. * means that the directory called "some-directory" is in the trash.
 #.
-#: gnome-panel/panel-util.c:503 modules/menu/gp-menu-utils.c:127
+#: gnome-panel/panel-util.c:505 modules/menu/gp-menu-utils.c:127
 #, c-format
 msgid "%1$s: %2$s"
 msgstr "%1$s: %2$s"
