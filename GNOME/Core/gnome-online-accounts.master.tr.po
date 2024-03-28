@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gnome-online-accounts master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
 "issues\n"
-"POT-Creation-Date: 2024-02-25 08:04+0000\n"
+"POT-Creation-Date: 2024-03-26 16:26+0000\n"
 "PO-Revision-Date: 2024-02-25 00:25+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -52,6 +52,10 @@ msgstr "Hesap için IsLocked özelliği ayarlanmış"
 #: src/daemon/goadaemon.c:1446
 msgid "ProviderType property is not set for account"
 msgstr "Hesap için ProviderType belirtilmemiş"
+
+#: src/goabackend/goadavclient.c:670
+msgid "Cannot find WebDAV endpoint"
+msgstr ""
 
 #. TODO: more specific
 #: src/goabackend/goaewsclient.c:284
@@ -226,7 +230,7 @@ msgid "SSL on a dedicated port"
 msgstr "Adanmış bir bağlantı noktası üzerinden SSL"
 
 #: src/goabackend/goaimapsmtpprovider.c:542
-#: src/goabackend/goaimapsmtpprovider.c:1225
+#: src/goabackend/goaimapsmtpprovider.c:1206
 msgid "Email"
 msgstr "E-posta"
 
@@ -277,15 +281,15 @@ msgstr "SMTP _Sunucu"
 msgid "Example server: smtp.example.com"
 msgstr "Örnek sunucu: smtp.ornek.com"
 
-#: src/goabackend/goaimapsmtpprovider.c:1216
+#: src/goabackend/goaimapsmtpprovider.c:1197
 msgid "Name"
 msgstr "Ad"
 
-#: src/goabackend/goaimapsmtpprovider.c:1242
+#: src/goabackend/goaimapsmtpprovider.c:1223
 msgid "IMAP"
 msgstr "IMAP"
 
-#: src/goabackend/goaimapsmtpprovider.c:1260
+#: src/goabackend/goaimapsmtpprovider.c:1241
 msgid "SMTP"
 msgstr "SMTP"
 
@@ -319,7 +323,7 @@ msgid "Example principal: user@EXAMPLE.COM"
 msgstr "Örnek tanıtıcı kimlik: kullanici@ORNEK.COM"
 
 #: src/goabackend/goakerberosprovider.c:599
-#: src/goabackend/goamsgraphprovider.c:396
+#: src/goabackend/goamsgraphprovider.c:404
 msgid "_Sign in…"
 msgstr "Giriş _Yap…"
 
@@ -350,40 +354,40 @@ msgstr "Microsoft 365"
 #. * code in add_account_action_cb is also adjusted.
 #.
 #. Translators: Microsoft account issuer type
-#: src/goabackend/goamsgraphprovider.c:377
+#: src/goabackend/goamsgraphprovider.c:385
 msgid "Common"
 msgstr "Genel"
 
 #. Translators: Microsoft account issuer type
-#: src/goabackend/goamsgraphprovider.c:379
+#: src/goabackend/goamsgraphprovider.c:387
 msgid "Custom"
 msgstr "Özel"
 
 #. provider name
-#: src/goabackend/goamsgraphprovider.c:385
+#: src/goabackend/goamsgraphprovider.c:393
 msgid ""
 "Connect to a Microsoft 365 provider to access calendars, contacts and files"
 msgstr ""
 "Takvimlere, kişilere ve dosyalara erişmek için Microsoft 365 sağlayıcısına "
 "bağlan"
 
-#: src/goabackend/goamsgraphprovider.c:388
+#: src/goabackend/goamsgraphprovider.c:396
 msgid "_Client ID"
 msgstr "İ_stemci Kimliği"
 
-#: src/goabackend/goamsgraphprovider.c:390
+#: src/goabackend/goamsgraphprovider.c:398
 msgid "Advanced"
 msgstr "Gelişmiş"
 
-#: src/goabackend/goamsgraphprovider.c:391
+#: src/goabackend/goamsgraphprovider.c:399
 msgid "_Issuer"
 msgstr "İ_mzacı"
 
-#: src/goabackend/goamsgraphprovider.c:392
+#: src/goabackend/goamsgraphprovider.c:400
 msgid "C_ustom Issuer"
 msgstr "Özel İ_mzacı"
 
-#: src/goabackend/goamsgraphprovider.c:393
+#: src/goabackend/goamsgraphprovider.c:401
 msgid "Example provider: example.com"
 msgstr "Örnek sağlayıcı: ornek.com"
 
@@ -425,6 +429,12 @@ msgstr "Tarayıcınızla %s hesabınıza giriş yapın"
 #: src/goabackend/goaproviderdialog.c:689
 msgid "_Sign In…"
 msgstr "Giriş _Yap…"
+
+#: src/goabackend/goaoauth2provider.c:995
+#, fuzzy
+#| msgid "Failed to store credentials in the keyring"
+msgid "Failed to connect to session keyring"
+msgstr "Kimlik bilgileri anahtarlığa kaydedilemedi"
 
 #: src/goabackend/goaoauth2provider.c:1215
 #, c-format
@@ -697,10 +707,11 @@ msgstr "Kişiler (CardDAV)"
 msgid "Invalid URI: %s"
 msgstr "Geçersiz URI: %s"
 
-# Çevirisiz halini veya kendi tercih ettikleri hali kullanalım.
 #: src/goabackend/goawindowsliveprovider.c:56
-msgid "Microsoft Personal"
-msgstr "Microsoft Bireysel"
+#, fuzzy
+#| msgid "Microsoft 365"
+msgid "Microsoft"
+msgstr "Microsoft 365"
 
 #: src/goaidentity/goaidentityservice.c:564
 msgid "Initial secret key is invalid"
@@ -775,3 +786,7 @@ msgstr "Kimlik bulunamadı"
 #: src/goaidentity/goakerberosidentitymanager.c:937
 msgid "Could not create credential cache for identity"
 msgstr "Kimlik için kimlik bilgileri önbelleği oluşturulamadı"
+
+# Çevirisiz halini veya kendi tercih ettikleri hali kullanalım.
+#~ msgid "Microsoft Personal"
+#~ msgstr "Microsoft Bireysel"
