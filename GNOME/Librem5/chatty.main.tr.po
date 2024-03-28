@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: purism-chatty\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Chatty/issues\n"
-"POT-Creation-Date: 2024-03-03 20:21+0000\n"
-"PO-Revision-Date: 2024-03-02 01:52+0300\n"
+"POT-Creation-Date: 2024-03-21 06:55+0000\n"
+"PO-Revision-Date: 2024-03-19 00:21+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -180,7 +180,7 @@ msgstr ""
 "Konuşmalar, birebir ve küçük grupların iletişimi için SMS, MMS, XMPP ve "
 "Matrix’i destekleyen kullanımı basit mesajlaşma uygulamasıdır."
 
-#: data/sm.puri.Chatty.metainfo.xml.in.in:16
+#: data/sm.puri.Chatty.metainfo.xml.in.in:23
 msgid "Chats message window"
 msgstr "Konuşmalar ileti penceresi"
 
@@ -369,6 +369,39 @@ msgstr "Dün %p %I∶%M"
 #: src/chatty-clock.c:152
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
+
+#: src/chatty-file-item.c:141
+msgid "Contact"
+msgstr "Kişi"
+
+#: src/chatty-file-item.c:165 src/chatty-file-item.c:197
+#, c-format
+msgid "Contact: %s"
+msgstr "Kişi: %s"
+
+#: src/chatty-file-item.c:184
+#, c-format
+msgid "Contact: %s %s %s %s"
+msgstr "Kişi: %s %s %s %s"
+
+#: src/chatty-file-item.c:186 src/chatty-file-item.c:190
+#, c-format
+msgid "Contact: %s %s %s"
+msgstr "Kişi: %s %s %s"
+
+#: src/chatty-file-item.c:192 src/chatty-file-item.c:195
+#, c-format
+msgid "Contact: %s %s"
+msgstr "Kişi: %s %s"
+
+#: src/chatty-file-item.c:219 src/ui/chatty-info-dialog.ui:57
+msgid "Invite"
+msgstr "Davet Et"
+
+#: src/chatty-file-item.c:249
+#, c-format
+msgid "Invite: %s"
+msgstr "Davet Et: %s"
 
 #. TRANSLATORS: %s is the Device ID
 #: src/chatty-fp-row.c:130
@@ -1096,54 +1129,54 @@ msgstr[0] "Ek(ler) çok büyük"
 #. TRANSLATORS: Timestamp for minute accuracy, e.g. “2020-08-11 15:27”.
 #. See https://developer.gnome.org/glib/stable/glib-GDateTime.html#g-date-time-format
 #.
-#: src/mm/chatty-mmsd.c:951
+#: src/mm/chatty-mmsd.c:984
 msgid "%Y-%m-%d %H∶%M"
 msgstr "%Y-%m-%d %H∶%M"
 
-#: src/mm/chatty-mmsd.c:1265
+#: src/mm/chatty-mmsd.c:1298
 #, c-format
 msgid "You received an MMS, but it expired on: %s"
 msgstr "MMS aldınız ancak şunda süresi doldu: %s"
 
-#: src/mm/chatty-mmsd.c:1268
+#: src/mm/chatty-mmsd.c:1301
 msgid "You received an empty MMS."
 msgstr "Boş MMS aldınız."
 
-#: src/mm/chatty-mmsd.c:1749 src/mm/chatty-mmsd.c:1797
+#: src/mm/chatty-mmsd.c:1782 src/mm/chatty-mmsd.c:1830
 #, c-format
 msgid "Automatically Retrying for  %i MMS"
 msgid_plural "Automatically Retrying for  %i MMSes..."
 msgstr[0] "%i MMS İçin Kendiliğinden Yeniden Deneniyor"
 
-#: src/mm/chatty-mmsd.c:1754
+#: src/mm/chatty-mmsd.c:1787
 msgid "Temporary Error Sending MMS"
 msgstr "MMS Gönderilirken Geçici Hata"
 
-#: src/mm/chatty-mmsd.c:1802
+#: src/mm/chatty-mmsd.c:1835
 msgid "Temporary Error Receiving MMS"
 msgstr "MMS Alınırken Geçici Hata"
 
-#: src/mm/chatty-mmsd.c:2020
+#: src/mm/chatty-mmsd.c:2053
 msgid "MMSC is not configured"
 msgstr "MMSC yapılandırılmamış"
 
-#: src/mm/chatty-mmsd.c:2023
+#: src/mm/chatty-mmsd.c:2056
 msgid "APN is not configured correctly"
 msgstr "APN doğru yapılandırılmamış"
 
-#: src/mm/chatty-mmsd.c:2026
+#: src/mm/chatty-mmsd.c:2059
 msgid "Mobile Data is not configured"
 msgstr "Mobil Veri yapılandırılmamış"
 
-#: src/mm/chatty-mmsd.c:2029
+#: src/mm/chatty-mmsd.c:2062
 msgid "Mobile Data is off"
 msgstr "Mobil Veri kapalı"
 
-#: src/mm/chatty-mmsd.c:2032
+#: src/mm/chatty-mmsd.c:2065
 msgid "Unknown Error"
 msgstr "Bilinmeyen Hata"
 
-#: src/mm/chatty-mmsd.c:2037
+#: src/mm/chatty-mmsd.c:2070
 #, c-format
 msgid "Chatty cannot process %i MMS"
 msgid_plural "Chatty cannot process %i MMSes..."
@@ -1159,7 +1192,7 @@ msgstr "Şuna SMS Gönderilirken Hata: %s"
 msgid "Error Sending MMS to %s"
 msgstr "Şuna MMS Gönderilirken Hata: %s"
 
-#: src/ui/chatty-attachment.ui:20
+#: src/ui/chatty-attachment.ui:48
 msgid "Remove Attachment"
 msgstr "Eki Kaldır"
 
@@ -1244,10 +1277,6 @@ msgstr "Konuşma Ayrıntıları"
 #: src/ui/chatty-info-dialog.ui:44
 msgid "Apply"
 msgstr "Uygula"
-
-#: src/ui/chatty-info-dialog.ui:57
-msgid "Invite"
-msgstr "Davet Et"
 
 #: src/ui/chatty-info-dialog.ui:136
 msgid "Invite message"

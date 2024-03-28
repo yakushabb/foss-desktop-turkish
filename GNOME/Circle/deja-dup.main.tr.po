@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deja-dup\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/deja-dup/-/issues\n"
-"POT-Creation-Date: 2024-02-26 12:04+0000\n"
-"PO-Revision-Date: 2024-02-19 18:56+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"POT-Creation-Date: 2024-03-15 13:16+0000\n"
+"PO-Revision-Date: 2024-03-13 18:57+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: app/Assistant.vala:281
+#: app/Assistant.vala:281 app/MountOperationAssistant.vala:162
 msgid "Co_ntinue"
 msgstr "S_ürdür"
 
@@ -33,23 +33,23 @@ msgctxt "verb"
 msgid "_Test"
 msgstr "_Sına"
 
-#: app/Assistant.vala:322
-msgid "_Resume Later"
-msgstr "_Daha Sonra Sürdür"
+#: app/Assistant.vala:323
+msgid "_Pause"
+msgstr "_Duraklat"
 
-#: app/Assistant.vala:328
+#: app/Assistant.vala:326
 msgid "_Back"
 msgstr "_Geri"
 
-#: app/Assistant.vala:330
+#: app/Assistant.vala:328
 msgid "_Close"
 msgstr "_Kapat"
 
-#: app/Assistant.vala:336 data/ui/PassphraseDialog.ui:29
+#: app/Assistant.vala:334 data/ui/PassphraseDialog.ui:29
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: app/Assistant.vala:346
+#: app/Assistant.vala:344
 msgid "_Forward"
 msgstr "_İleri"
 
@@ -107,7 +107,7 @@ msgstr "Yedekleniyor…"
 #. In the unlikely event the user turned on automatic backups but never
 #. made a backup, we should tell them if we start up and need to be
 #. configured for first time.
-#: app/AssistantBackup.vala:128 app/AssistantOperation.vala:858
+#: app/AssistantBackup.vala:128 app/AssistantOperation.vala:859
 msgid "Backups needs your input to continue"
 msgstr "Yedekler, sürmek için girdinize gereksiniyor"
 
@@ -179,44 +179,44 @@ msgstr "Her iki _ayda bir sına"
 msgid "_Grant Access"
 msgstr "_Erişime İzin Ver"
 
-#: app/AssistantOperation.vala:500
+#: app/AssistantOperation.vala:501
 msgid "Install Packages"
 msgstr "Paketleri Kur"
 
-#: app/AssistantOperation.vala:515
+#: app/AssistantOperation.vala:516
 msgid "Summary"
 msgstr "Özet"
 
-#: app/AssistantOperation.vala:537
+#: app/AssistantOperation.vala:538
 msgid "Restore Test"
 msgstr "Geri Yükleme Sınaması"
 
-#: app/AssistantOperation.vala:545
+#: app/AssistantOperation.vala:546
 msgid "Grant Access"
 msgstr "Erişime İzin Ver"
 
-#: app/AssistantOperation.vala:775
+#: app/AssistantOperation.vala:776
 msgid "Set Encryption Password"
 msgstr "Şifreleme Parolası Belirle"
 
-#: app/AssistantOperation.vala:777
+#: app/AssistantOperation.vala:778
 msgid "Require Password?"
 msgstr "Parola istesin mi?"
 
-#: app/AssistantOperation.vala:779
+#: app/AssistantOperation.vala:780
 msgid "Encryption Password Needed"
 msgstr "Şifreleme Parolası Gerekli"
 
-#: app/AssistantOperation.vala:826
+#: app/AssistantOperation.vala:827
 msgid "Backups needs your encryption password to continue"
 msgstr "Yedekler, sürmek için şifreleme parolanıza gereksiniyor"
 
-#: app/AssistantOperation.vala:900 data/ui/Browser.ui:240
+#: app/AssistantOperation.vala:901 data/ui/Browser.ui:240
 msgctxt "verb"
 msgid "_Install"
 msgstr "_Kur"
 
-#: app/AssistantOperation.vala:905 app/Browser.vala:279
+#: app/AssistantOperation.vala:906 app/Browser.vala:279
 msgid "Backups needs to install packages to continue"
 msgstr "Yedekler, sürmek için paket kurulumuna gereksiniyor"
 
@@ -457,38 +457,9 @@ msgstr "Klasör"
 msgid "Choose Folder"
 msgstr "Klasör Seç"
 
-#: app/MountOperationAssistant.vala:23
-msgid "_Username"
-msgstr "_Kullanıcı Adı"
-
-#: app/MountOperationAssistant.vala:24
-msgid "_Password"
-msgstr "_Parola"
-
-#: app/MountOperationAssistant.vala:25 app/SavePasswordRow.vala:14
-msgid "_Remember password"
-msgstr "_Parolayı anımsa"
-
-#: app/MountOperationAssistant.vala:62
+#: app/MountOperationAssistant.vala:69
 msgid "Location not available"
 msgstr "Konum uygun değil"
-
-#: app/MountOperationAssistant.vala:77
-msgid "Backups needs your password to continue"
-msgstr "Yedekler, sürmek için parolanıza gereksiniyor"
-
-#: app/MountOperationAssistant.vala:143
-msgid "Connect _anonymously"
-msgstr "_Kimliğini belirtmeden bağlan"
-
-#: app/MountOperationAssistant.vala:148
-msgid "Connect as u_ser"
-msgstr "_Kullanıcı olarak bağlan"
-
-#. Translators: this is a Windows networking domain
-#: app/MountOperationAssistant.vala:192
-msgid "_Domain"
-msgstr "_Alan Adı"
 
 #: app/Notifications.vala:13
 msgid "Starting scheduled backup"
@@ -595,6 +566,10 @@ msgstr "Geri"
 #: data/ui/RestoreToolbarView.ui:22
 msgid "Search"
 msgstr "Ara"
+
+#: app/SavePasswordRow.vala:14
+msgid "_Remember password"
+msgstr "_Parolayı anımsa"
 
 #: app/SavePasswordRow.vala:33
 msgid "Cannot remember password"
@@ -999,21 +974,21 @@ msgstr ""
 "odaklanmıştır. Eğer tam sistem yedekleme veya arşivleme programına "
 "gereksiniyorsanız başka yeek uygulamalarını yeğleyebilirsiniz."
 
-#: data/app.metainfo.xml.in:92
+#: data/app.metainfo.xml.in:96
 msgid "Back up your files automatically — set it and forget it"
 msgstr "Dosyalarınızı kendiliğinden yedekleyin — ayarlayın ve unutun"
 
-#: data/app.metainfo.xml.in:96
+#: data/app.metainfo.xml.in:100
 msgid "Restoring is a breeze — browse your files and select which to restore"
 msgstr ""
 "Geri yüklemek çocuk oyuncağı — dosyalarınıza göz atın ve hangisinin geri "
 "yükleneceğini seçin"
 
-#: data/app.metainfo.xml.in:100
+#: data/app.metainfo.xml.in:104
 msgid "Back up to the cloud, a network server, or a local drive"
 msgstr "Buluta, ağ sunucusuna veya yerel sürücüye yedekleyin"
 
-#: data/app.metainfo.xml.in:104
+#: data/app.metainfo.xml.in:108
 msgid ""
 "Take control of your backup by choosing exactly which folders to include"
 msgstr ""
@@ -1714,6 +1689,27 @@ msgstr "Güç tutumu kipi etkin olmadığında yedekleme başlayacaktır."
 msgid ""
 "Backup will begin when an unmetered network connection becomes available."
 msgstr "Ölçülmemiş ağ bağlantısı olduğunda yedekleme başlayacaktır."
+
+#~ msgid "_Resume Later"
+#~ msgstr "_Daha Sonra Sürdür"
+
+#~ msgid "_Username"
+#~ msgstr "_Kullanıcı Adı"
+
+#~ msgid "_Password"
+#~ msgstr "_Parola"
+
+#~ msgid "Backups needs your password to continue"
+#~ msgstr "Yedekler, sürmek için parolanıza gereksiniyor"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "_Kimliğini belirtmeden bağlan"
+
+#~ msgid "Connect as u_ser"
+#~ msgstr "_Kullanıcı olarak bağlan"
+
+#~ msgid "_Domain"
+#~ msgstr "_Alan Adı"
 
 #~ msgid "Actions"
 #~ msgstr "Eylemler"

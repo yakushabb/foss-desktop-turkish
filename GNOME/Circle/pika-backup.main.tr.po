@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pika-backup main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/pika-backup/issues\n"
-"POT-Creation-Date: 2024-03-10 02:22+0000\n"
-"PO-Revision-Date: 2024-02-27 23:04+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"POT-Creation-Date: 2024-03-28 14:34+0000\n"
+"PO-Revision-Date: 2024-03-25 16:54+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -29,9 +29,9 @@ msgstr "Pika Yedek Gözlemcisi"
 #.
 #. <https://en.wikipedia.org/wiki/Pika>
 #.
-#: data/app.desktop.in:6 data/app.metainfo.xml.in:4 src/ui/app_window.ui:82
-#: src/ui/app_window.ui:96 src/ui/dialog_about.rs:19 src/ui/utils.rs:367
-#: src/ui/utils.rs:429
+#: data/app.desktop.in:6 data/app.metainfo.xml.in:4 src/ui/dialog_about.rs:19
+#: src/ui/utils.rs:367 src/ui/utils.rs:429 src/ui/widget/app_window.ui:10
+#: src/ui/widget/overview_page.ui:22
 msgid "Pika Backup"
 msgstr "Pika Yedek"
 
@@ -122,7 +122,7 @@ msgstr "Yeni yedek ayarla"
 msgid "Show keyboard shortcuts"
 msgstr "Klavye kısayollarını göster"
 
-#: data/resources/gtk/help-overlay.ui:25 src/ui.rs:215
+#: data/resources/gtk/help-overlay.ui:25 src/ui/app.rs:276
 msgid "Quit"
 msgstr "Çık"
 
@@ -742,43 +742,15 @@ msgstr "Zamanlanmış yedeklemenin başlaması için “{}” bağlanmalıdır."
 msgid "Failed to start scheduled backup"
 msgstr "Zamanlanmış yedekleme başlatılamadı"
 
-#: src/ui.rs:187
-msgid "Abort running backup creation?"
-msgstr "Çalışan yedekleme oluşturma işleminden vazgeçilsin mi?"
-
-#: src/ui.rs:188
-msgid "The backup will remain incomplete if aborted now."
-msgstr "Vazgeçilirse yedekleme eksik kalacaktır."
-
-#: src/ui.rs:189 src/ui/dialog_setup.ui:481 src/ui/utils.rs:385
-#: src/ui/widget/backup_page/events.rs:24
-#: src/ui/widget/backup_page/events.rs:33
-#: src/ui/widget/backup_page/events.rs:42
-msgid "Continue"
-msgstr "Sürdür"
-
-#: src/ui.rs:190 src/ui/utils.rs:384 src/ui/widget/backup_page/events.rs:34
-#: src/ui/widget/backup_page/events.rs:43
-msgid "Abort"
-msgstr "Vazgeç"
-
-#: src/ui.rs:200
-msgid "A Backup Operation is Running"
-msgstr "Yedekleme İşlemi Çalışıyor"
-
-#: src/ui.rs:202
-msgid "Pika Backup cannot be quit during a backup operation."
-msgstr "Pika Yedek, yedekleme sırasında çıkış yapamaz."
-
-#: src/ui.rs:230
+#: src/ui.rs:96
 msgid "Failed to run “borg”. Is BorgBackup installed correctly?"
 msgstr "“borg” çalıştırılamadı. BorgBackup doğru kuruldu mu?"
 
-#: src/ui.rs:256
+#: src/ui.rs:122
 msgid "BorgBackup version too old"
 msgstr "BorgBackup sürümü çok eski"
 
-#: src/ui.rs:258
+#: src/ui.rs:124
 msgid ""
 "The installed version {} of BorgBackup is too old. Some features requiring "
 "borg-backup version {}.{}.{} will not work."
@@ -786,11 +758,11 @@ msgstr ""
 "Kurulu BorgBackup {} sürümü çok eski. Kimi borg-backup {}.{}.{} gerektiren "
 "özellikler çalışmayacaktır."
 
-#: src/ui.rs:269
+#: src/ui.rs:135
 msgid "BorgBackup version too new"
 msgstr "BorgBackup sürümü çok yeni"
 
-#: src/ui.rs:271
+#: src/ui.rs:137
 msgid ""
 "The installed version {} of BorgBackup is too new. Version {}.{} is "
 "recommended. Some features might not work as expected."
@@ -798,225 +770,41 @@ msgstr ""
 "Kurulu BorgBackup {} sürümü çok yeni. {}.{} sürümü önerilir. Kimi özellikler "
 "beklendiği gibi çalışmayabilir."
 
-#: src/ui.rs:281
+#: src/ui.rs:147
 msgid "Failed to Check BorgBackup Version"
 msgstr "BorgBackup Sürümü Denetlenemedi"
 
-#: src/ui.rs:283
+#: src/ui.rs:149
 msgid "The installed version {} might not work."
 msgstr "Kurulu {} sürümü çalışmayabilir."
 
-#: src/ui/app_window.ui:8
-msgid "_Keyboard Shortcuts"
-msgstr "_Klavye Kısayolları"
+#: src/ui/app.rs:247
+msgid "Abort running backup creation?"
+msgstr "Çalışan yedekleme oluşturma işleminden vazgeçilsin mi?"
 
-#: src/ui/app_window.ui:12
-msgid "_Help"
-msgstr "_Yardım"
+#: src/ui/app.rs:248
+msgid "The backup will remain incomplete if aborted now."
+msgstr "Vazgeçilirse yedekleme eksik kalacaktır."
 
-#: src/ui/app_window.ui:16
-msgid "_About Pika Backup"
-msgstr "Pika Yedek _Hakkında"
+#: src/ui/app.rs:249 src/ui/dialog_setup.ui:481 src/ui/utils.rs:385
+#: src/ui/widget/backup_page/events.rs:24
+#: src/ui/widget/backup_page/events.rs:33
+#: src/ui/widget/backup_page/events.rs:42
+msgid "Continue"
+msgstr "Sürdür"
 
-#: src/ui/app_window.ui:24
-msgid "Backup Preferences"
-msgstr "Yedekleme Tercihleri"
+#: src/ui/app.rs:250 src/ui/utils.rs:384 src/ui/widget/backup_page/events.rs:34
+#: src/ui/widget/backup_page/events.rs:43
+msgid "Abort"
+msgstr "Vazgeç"
 
-#: src/ui/app_window.ui:28
-msgid "Remove Backup Setup"
-msgstr "Yedekleme Kurulumunu Kaldır"
+#: src/ui/app.rs:261
+msgid "A Backup Operation is Running"
+msgstr "Yedekleme İşlemi Çalışıyor"
 
-#: src/ui/app_window.ui:57
-msgid ":"
-msgstr ":"
-
-#: src/ui/app_window.ui:103
-msgid "Setup Backup"
-msgstr "Yedek Ayarla"
-
-#: src/ui/app_window.ui:110
-msgid "Main Menu"
-msgstr "Ana Menü"
-
-#: src/ui/app_window.ui:130
-msgid "No Backup Configured"
-msgstr "Yedek Yapılandırılmadı"
-
-#: src/ui/app_window.ui:131
-msgid "Add a new configuration to start creating backups"
-msgstr "Yedek oluşturmaya başlamak için yeni yapılandırma ekle"
-
-#: src/ui/app_window.ui:134
-msgid "_Setup Backup"
-msgstr "Yedek _Ayarla"
-
-#: src/ui/app_window.ui:178
-msgid "Backup"
-msgstr "Yedek"
-
-#: src/ui/app_window.ui:200
-msgid "Archives are being mounted. This might take a while."
-msgstr "Arşivler bağlanıyor. Bu biraz sürebilir."
-
-#: src/ui/app_window.ui:213
-msgid "Actions"
-msgstr "Eylemler"
-
-#: src/ui/app_window.ui:239
-msgid "_Backup"
-msgstr "_Yedekle"
-
-#: src/ui/app_window.ui:249
-msgid "_Archives"
-msgstr "_Arşivler"
-
-#: src/ui/app_window.ui:344
-msgid "Archive _Prefix"
-msgstr "Arşiv _Ön Eki"
-
-#: src/ui/app_window.ui:346
-msgid "Added in front of all archive names"
-msgstr "Tüm arşiv adlarının önüne eklenir"
-
-#: src/ui/app_window.ui:375
-msgid "_Cleanup Archives"
-msgstr "Arşivleri _Temizle"
-
-#: src/ui/app_window.ui:376
-msgid "Delete some older archives"
-msgstr "Kimi eski arşivleri sil"
-
-#: src/ui/app_window.ui:392
-msgid "Data Integrity Check"
-msgstr "Veri Bütünlüğü Denetimi"
-
-#: src/ui/app_window.ui:398
-msgid "_Check Now…"
-msgstr "Şimdi _Denetle…"
-
-#: src/ui/app_window.ui:406
-msgid "_Abort…"
-msgstr "_Vazgeç…"
-
-#: src/ui/app_window.ui:417
-msgid "Archives"
-msgstr "Arşivler"
-
-#: src/ui/app_window.ui:426
-msgid "Refresh"
-msgstr "Yenile"
-
-#: src/ui/app_window.ui:447
-msgid "Stop browsing archive files"
-msgstr "Arşiv dosyalarını göz atmayı durdur"
-
-#: src/ui/app_window.ui:473
-msgid "No archives available"
-msgstr "Kullanılabilir arşiv yok"
-
-#: src/ui/app_window.ui:492
-msgid "_Schedule"
-msgstr "_Zamanla"
-
-#: src/ui/app_window.ui:513 src/ui/dialog_preferences.ui:151
-msgid "Scheduled Backups"
-msgstr "Zamanlanmış Yedeklemeler"
-
-#: src/ui/app_window.ui:517
-msgid "Regularly Create Backups"
-msgstr "Düzenli Olarak Yedek Oluştur"
-
-#: src/ui/app_window.ui:522
-msgid "Frequency"
-msgstr "Sıklık"
-
-#: src/ui/app_window.ui:530
-msgid "Preferred Time"
-msgstr "Yeğlenen Zaman"
-
-#: src/ui/app_window.ui:550
-msgid "Preferred Weekday"
-msgstr "Yeğlenen Haftanın Günü"
-
-#: src/ui/app_window.ui:555
-msgid "Preferred Day of Month"
-msgstr "Yeğlenen Ayın Günü"
-
-#: src/ui/app_window.ui:573 src/ui/dialog_prune.rs:95
-msgid "Delete old Archives"
-msgstr "Eski Arşivleri Sil"
-
-#: src/ui/app_window.ui:579
-msgid "Save Configuration"
-msgstr "Yapılandırmayı Kaydet"
-
-#: src/ui/app_window.ui:591
-msgid "Regularly Cleanup Archives"
-msgstr "Düzenli Olarak Arşivleri Temizle"
-
-#: src/ui/app_window.ui:592
-msgid "Remove old archives after creating new backups"
-msgstr "Yeni yedek oluşturunca eski arşivleri kaldır"
-
-#: src/ui/app_window.ui:602
-msgid "Preserved Archives"
-msgstr "Korunan Arşivler"
-
-#: src/ui/app_window.ui:603
-msgid "Amount and time span of retained archives"
-msgstr "Tutulacak arşivlerin miktarı ve zaman aralığı"
-
-#: src/ui/app_window.ui:612
-msgid "Details"
-msgstr "Ayrıntılar"
-
-#: src/ui/app_window.ui:616
-msgid "Keep Hourly"
-msgstr "Saatlik Tut"
-
-#: src/ui/app_window.ui:632
-msgid "Keep Daily"
-msgstr "Günlük Tut"
-
-#: src/ui/app_window.ui:648
-msgid "Keep Weekly"
-msgstr "Haftalık Tut"
-
-#: src/ui/app_window.ui:663
-msgid "Keep Monthly"
-msgstr "Aylık Tut"
-
-#: src/ui/app_window.ui:677
-msgid "Keep Annual"
-msgstr "Yıllık Tut"
-
-#: src/ui/app_window.ui:720
-msgid "Backup Info"
-msgstr "Yedekleme Bilgisi"
-
-#: src/ui/app_window.ui:783
-msgid "Amount saved"
-msgstr "Kayıtlı miktar"
-
-#: src/ui/app_window.ui:784
-msgid "Size of all files"
-msgstr "Tüm dosyaların boyutu"
-
-#: src/ui/app_window.ui:800
-msgid "Number of files saved"
-msgstr "Kayıtlı dosya sayısı"
-
-#: src/ui/app_window.ui:816
-msgid "Backup space used"
-msgstr "Kullanılan yedekleme alanı"
-
-#: src/ui/app_window.ui:817
-msgid "Newly used space in this backup"
-msgstr "Bu yedekte yeni kullanılan alan"
-
-#: src/ui/app_window.ui:833
-msgid "Current file"
-msgstr "Geçerli dosya"
+#: src/ui/app.rs:263
+msgid "Pika Backup cannot be quit during a backup operation."
+msgstr "Pika Yedek, yedekleme sırasında çıkış yapamaz."
 
 #: src/ui/backup_status.rs:77
 msgid "Backup Never Ran"
@@ -1193,8 +981,8 @@ msgstr "Arşiv Ön Eki"
 #: src/ui/dialog_archive_prefix.ui:28 src/ui/dialog_delete_archive.ui:28
 #: src/ui/dialog_exclude_pattern.ui:29 src/ui/dialog_prune.ui:30
 #: src/ui/dialog_prune.ui:60 src/ui/dialog_prune_review.ui:30
-#: src/ui/dialog_prune_review.ui:60 src/ui/page_overview.rs:52
-#: src/ui/utils/borg.rs:257 src/ui/widget/backup_page/events.rs:187
+#: src/ui/dialog_prune_review.ui:60 src/ui/utils/borg.rs:257
+#: src/ui/widget/backup_page/events.rs:187 src/ui/widget/overview_page.rs:190
 msgid "Cancel"
 msgstr "İptal"
 
@@ -1236,11 +1024,11 @@ msgstr "Onarım Gerçekleştir"
 msgid "Perform Check"
 msgstr "Denetim Yap"
 
-#: src/ui/dialog_check.rs:121 src/ui/dialog_check.rs:156
+#: src/ui/dialog_check.rs:124 src/ui/dialog_check.rs:159
 msgid "Verify Archives Integrity"
 msgstr "Arşivlerin Bütünlüğünü Doğrula"
 
-#: src/ui/dialog_check.rs:172
+#: src/ui/dialog_check.rs:175
 msgid "Verify archives integrity completed successfully"
 msgstr "Arşivlerin bütünlüğü başarıyla doğrulandı"
 
@@ -1280,10 +1068,6 @@ msgstr "Onar"
 #: src/ui/dialog_check.ui:51
 msgid "Repair errors. This can lead to data loss."
 msgstr "Hataları onar. Bu veri yetimine neden olabilir."
-
-#: src/ui/dialog_check_result.ui:9
-msgid "Integrity Check Result"
-msgstr "Bütünlük Denetimi Sonucu"
 
 #: src/ui/dialog_delete_archive.rs:67
 msgid "Delete Archive Failed"
@@ -1367,7 +1151,7 @@ msgid "Exclude File"
 msgstr "Dosyayı Dışla"
 
 #: src/ui/dialog_exclude.ui:6 src/ui/dialog_setup_transfer_option.ui:112
-#: src/ui/widget/backup_page.ui:120
+#: src/ui/widget/backup_page.ui:121
 msgid "Exclude from Backup"
 msgstr "Yedekleme Dışı Tut"
 
@@ -1409,11 +1193,11 @@ msgstr "Ekle"
 
 #: src/ui/dialog_exclude_pattern.ui:49
 msgid "Pattern Type"
-msgstr "Desen Türü"
+msgstr "Örüntü Türü"
 
 #: src/ui/dialog_exclude_pattern.ui:63
 msgid "Pattern"
-msgstr "Desen"
+msgstr "Örüntü"
 
 #: src/ui/dialog_exclude_pattern.ui:81
 msgid "BorgBackup Patterns"
@@ -1428,7 +1212,7 @@ msgid ""
 "stable/usage/help.html\">BorgBackup documentation</a>."
 msgstr ""
 "Yukarıdaki örüntüler özel biçimde yazılmalıdır. <tt>/</tt> olmadan yola göre "
-"eşleştirilirler. Ek olarak; kabuk biçemi desenler, arkalarında <tt>*</tt> "
+"eşleştirilirler. Ek olarak; kabuk biçemi örüntüler, arkalarında <tt>*</tt> "
 "ekliyseler eşleşir. Daha çok bilgi için lütfen <a href=\"https://borgbackup."
 "readthedocs.io/en/stable/usage/help.html\">BorgBackup belgelerine</a> "
 "bakınız."
@@ -1449,7 +1233,7 @@ msgstr "Kabuk komutu geçersiz"
 msgid "Please check for missing closing quotes."
 msgstr "Lütfen eksik tırnak kapamalarını denetleyin."
 
-#: src/ui/dialog_preferences.rs:345 src/ui/widget/backup_page/execution.rs:214
+#: src/ui/dialog_preferences.rs:345 src/ui/widget/backup_page/execution.rs:217
 msgid "Error Running Shell Command"
 msgstr "Kabuk Komutu Çalıştırılamadı"
 
@@ -1484,6 +1268,10 @@ msgstr "Şifreleme parolası"
 #: src/ui/dialog_preferences.ui:134
 msgid "The encryption password of the backup repository."
 msgstr "Yedekleme deposunun şifreleme parolası."
+
+#: src/ui/dialog_preferences.ui:151 src/ui/widget/schedule_page.ui:67
+msgid "Scheduled Backups"
+msgstr "Zamanlanmış Yedeklemeler"
 
 #: src/ui/dialog_preferences.ui:154
 msgid "Run on Battery"
@@ -1536,6 +1324,10 @@ msgstr "Kaç arşivin silineceği belirlenemedi"
 #: src/ui/dialog_prune.rs:56 src/ui/utils.rs:425
 msgid "Close"
 msgstr "Kapat"
+
+#: src/ui/dialog_prune.rs:95 src/ui/widget/schedule_page.ui:127
+msgid "Delete old Archives"
+msgstr "Eski Arşivleri Sil"
 
 #: src/ui/dialog_prune.rs:105
 msgid "Reclaim Free Space"
@@ -1772,11 +1564,11 @@ msgid "_Save"
 msgstr "_Kaydet"
 
 #: src/ui/dialog_setup.ui:644 src/ui/dialog_setup.ui:659
-#: src/ui/dialog_setup/insert.rs:145
+#: src/ui/dialog_setup/insert.rs:147
 msgid "Creating Backup Repository"
 msgstr "Yedekleme Deposu Oluşturuluyor"
 
-#: src/ui/dialog_setup/display.rs:78 src/ui/page_archives/display.rs:93
+#: src/ui/dialog_setup/display.rs:78 src/ui/widget/archives_page/display.rs:88
 msgid "None"
 msgstr "Hiçbiri"
 
@@ -1784,11 +1576,11 @@ msgstr "Hiçbiri"
 msgid "Free space: {}"
 msgstr "Boş alan: {}"
 
-#: src/ui/dialog_setup/folder_button.rs:132 src/ui/dialog_storage.ui:6
+#: src/ui/dialog_setup/folder_button.rs:130 src/ui/dialog_storage.ui:6
 msgid "Backup Location"
 msgstr "Yedekleme Konumu"
 
-#: src/ui/dialog_setup/folder_button.rs:148
+#: src/ui/dialog_setup/folder_button.rs:146
 msgid "_Select Folder…"
 msgstr "Klasör _Seç…"
 
@@ -1812,27 +1604,27 @@ msgstr "Geçersiz Uzak Konum"
 msgid "A repository location has to be given."
 msgstr "Depo konumu sağlanmalıdır."
 
-#: src/ui/dialog_setup/insert.rs:154
+#: src/ui/dialog_setup/insert.rs:156
 msgid "Getting Repository Information"
 msgstr "Depo Bilgileri Alınıyor"
 
-#: src/ui/dialog_setup/insert.rs:197
+#: src/ui/dialog_setup/insert.rs:202
 msgid "Loading Backup Repository"
 msgstr "Yedekleme Deposu Yükleniyor"
 
-#: src/ui/dialog_setup/insert.rs:217
+#: src/ui/dialog_setup/insert.rs:222
 msgid "Failed to Configure Repository"
 msgstr "Depo Yapılandırılamadı"
 
-#: src/ui/dialog_setup/insert.rs:236
+#: src/ui/dialog_setup/insert.rs:244
 msgid "Failed"
 msgstr "Başarısız"
 
-#: src/ui/dialog_setup/insert.rs:295
+#: src/ui/dialog_setup/insert.rs:304
 msgid "Repository location not found."
 msgstr "Depo konumu bulunamadı."
 
-#: src/ui/dialog_setup/insert.rs:296
+#: src/ui/dialog_setup/insert.rs:305
 msgid "A mount operation succeeded but the location is still unavailable."
 msgstr "Bağlama işlemi başarılı oldu ancak konum hala kullanılamıyor."
 
@@ -1848,7 +1640,7 @@ msgstr "Uzak konumun belirli yolu olmalıdır."
 msgid "Invalid remote location: “{}”"
 msgstr "Geçersiz uzak konum: “{}”"
 
-#: src/ui/dialog_setup_transfer_option.ui:88 src/ui/widget/backup_page.ui:91
+#: src/ui/dialog_setup_transfer_option.ui:88 src/ui/widget/backup_page.ui:92
 msgid "Files to Back Up"
 msgstr "Yedeklenecek Dosyalar"
 
@@ -1888,7 +1680,7 @@ msgstr "Toplam"
 msgid "Free"
 msgstr "Boş"
 
-#: src/ui/error.rs:101
+#: src/ui/error.rs:102
 msgid ""
 "The keyring is not available. Pika Backup requires a keyring daemon (“secret "
 "service”) to store passwords. For installation instructions see the "
@@ -1898,209 +1690,13 @@ msgstr ""
 "hizmeti (“giz hizmeti”) gerektirir. Kurulum yönergeleri için işletim sistemi "
 "belgelerine bakın."
 
-#: src/ui/error.rs:125
+#: src/ui/error.rs:126
 msgid "Backup with id “{}” already exists."
 msgstr "“{}” kimlikli yedek zaten var."
 
-#: src/ui/error.rs:130
+#: src/ui/error.rs:131
 msgid "Could not find backup configuration with id “{}”."
 msgstr "“{}” kimlikli yedekleme yapılandırması bulunamadı."
-
-#: src/ui/page_archives/cache.rs:35
-msgid "Failed to refresh archives cache."
-msgstr "Arşiv önbelleği yenilenemedi."
-
-#: src/ui/page_archives/display.rs:107
-msgid "Failed to open archive."
-msgstr "Arşiv açılamadı."
-
-#: src/ui/page_archives/display.rs:173
-msgid "Incomplete Archive"
-msgstr "Tamamlanmamış Arşiv"
-
-#: src/ui/page_archives/display.rs:194
-msgid "Name"
-msgstr "Ad"
-
-#: src/ui/page_archives/display.rs:196
-msgid "Duration"
-msgstr "Süre"
-
-#: src/ui/page_archives/display.rs:200
-msgid "Comment"
-msgstr "Yorum"
-
-#: src/ui/page_archives/display.rs:204
-msgid "Browse saved files"
-msgstr "Kayıtlı dosyalara göz at"
-
-#: src/ui/page_archives/display.rs:218
-msgid "Delete archive"
-msgstr "Arşivi sil"
-
-#: src/ui/page_archives/display.rs:252
-msgid "{} Available"
-msgstr "{} Kullanılabilir"
-
-#: src/ui/page_archives/display.rs:255
-msgid "{} Total"
-msgstr "{} Toplam"
-
-#: src/ui/page_archives/events.rs:82
-msgid "Failed to make archives available for browsing."
-msgstr "Arşivler göz atılabilir yapılamadı."
-
-#: src/ui/page_overview.rs:50
-msgid "Remove Backup Setup?"
-msgstr "Yedekleme Kurulumu Kaldırılsın Mı?"
-
-#: src/ui/page_overview.rs:51
-msgid "Removing the setup will not delete any archives."
-msgstr "Kurulumu kaldırmak herhangi bir arşivi silmez."
-
-#: src/ui/page_overview.rs:53
-msgid "Remove Setup"
-msgstr "Kurulumu Kaldır"
-
-#: src/ui/page_schedule/event.rs:136
-msgid "Invalid time format."
-msgstr "Geçersiz zaman biçimi."
-
-#: src/ui/page_schedule/event.rs:144
-msgid "Invalid weekday."
-msgstr "Geçersiz hafta günü."
-
-#: src/ui/page_schedule/event.rs:151
-msgid "No frequency selected."
-msgstr "Sıklık seçilmedi."
-
-#: src/ui/page_schedule/event.rs:255
-msgid "Disable backup schedule?"
-msgstr "Yedekleme zamanlaması devre dışı bırakılsın mı?"
-
-#: src/ui/page_schedule/event.rs:256
-msgid "No longer remind of backups based on a schedule."
-msgstr "Artık zamanlamaya dayalı yedeklemeleri anımsatma."
-
-#: src/ui/page_schedule/event.rs:257
-msgid "Keep Schedule"
-msgstr "Zamanlamayı Tut"
-
-#: src/ui/page_schedule/event.rs:258
-msgid "Disable Schedule"
-msgstr "Zamanlamayı Devre Dışı Bırak"
-
-#: src/ui/page_schedule/event.rs:323
-msgid "No preset selected."
-msgstr "Ön ayar seçilmedi."
-
-#: src/ui/page_schedule/prune_preset.rs:20
-msgid "Keep Many"
-msgstr "Birçoğunu Tut"
-
-#: src/ui/page_schedule/prune_preset.rs:21
-msgid "Keep Some"
-msgstr "Bazısını Tut"
-
-#: src/ui/page_schedule/prune_preset.rs:22
-msgid "Custom"
-msgstr "Özel"
-
-#: src/ui/page_schedule/status.rs:16
-msgid "Next backup in one minute"
-msgid_plural "Next backup in {} minutes"
-msgstr[0] "Sonraki yedekleme {} dakika sonra"
-
-#: src/ui/page_schedule/status.rs:22
-msgid "Next backup in one hour"
-msgid_plural "Next backup in {} hours"
-msgstr[0] "Sonraki yedekleme {} saat sonra"
-
-#: src/ui/page_schedule/status.rs:28
-msgid "Next backup in one day"
-msgid_plural "Next backup in {} days"
-msgstr[0] "Sonraki yedekleme {} gün sonra"
-
-#: src/ui/page_schedule/status.rs:34
-msgid "Next backup in one week"
-msgid_plural "Next backup in {} weeks"
-msgstr[0] "Sonraki yedekleme {} hafta sonra"
-
-#: src/ui/page_schedule/status.rs:51
-msgid "Scheduled Backups Disabled"
-msgstr "Zamanlanmış Yedeklemeler Devre Dışı Bırakıldı"
-
-#: src/ui/page_schedule/status.rs:69
-msgid "Hourly Backups Enabled"
-msgstr "Saatlik Yedekleme Etkinleştirildi"
-
-#: src/ui/page_schedule/status.rs:70
-msgid "Daily Backups Enabled"
-msgstr "Günlük Yedekleme Etkinleştirildi"
-
-#: src/ui/page_schedule/status.rs:71
-msgid "Weekly Backups Enabled"
-msgstr "Haftalık Yedekleme Etkinleştirildi"
-
-#: src/ui/page_schedule/status.rs:72
-msgid "Monthly Backups Enabled"
-msgstr "Aylık Yedekleme Etkinleştirildi"
-
-#: src/ui/page_schedule/status.rs:83
-msgid "Will not start until requirements are met."
-msgstr "Gereksinimler karşılanana dek başlatılmayacak."
-
-#: src/ui/page_schedule/status.rs:88
-msgid "Inconsistent backup information"
-msgstr "Tutarsız yedekleme bilgisi"
-
-#: src/ui/page_schedule/status.rs:94
-msgid "Backup Past Due"
-msgstr "Yedekleme Süreci Geçti"
-
-#: src/ui/page_schedule/status.rs:95
-msgid "Waiting until requirements are met"
-msgstr "Gereksinimler karşılanana dek bekleniyor"
-
-#: src/ui/page_schedule/status.rs:98
-msgid "Scheduled Backups Unavailable"
-msgstr "Zamanlanmış Yedeklemeler Erişilemez"
-
-#: src/ui/page_schedule/status.rs:101
-msgid "Waiting for Backup to Start"
-msgstr "Yedeklemenin Başlaması Bekleniyor"
-
-#: src/ui/page_schedule/status.rs:110
-msgid "Network connection must not be metered"
-msgstr "Ağ bağlantısı ölçülü olmamalıdır"
-
-#: src/ui/page_schedule/status.rs:116
-msgid "Other backups on repository have to be completed"
-msgstr "Depodaki diğer yedeklemeler tamamlanmalıdır"
-
-#: src/ui/page_schedule/status.rs:123
-msgid "Device must be connected to power"
-msgstr "Aygıt güce bağlanmalıdır"
-
-#: src/ui/page_schedule/status.rs:134
-msgid "Backup device has to be connected"
-msgstr "Yedekleme aygıtı bağlanmalıdır"
-
-#: src/ui/page_schedule/status.rs:136
-msgid "Reminder will be sent when device is required"
-msgstr "Aygıt gerektiğinde anımsatıcı gönderilecektir"
-
-#: src/ui/page_schedule/status.rs:144
-msgid "Network connection has to be available"
-msgstr "Ağ bağlantısı olmalıdır"
-
-#: src/ui/page_schedule/status.rs:154
-msgid "Background process inactive"
-msgstr "Arka plan işlemi etkin değil"
-
-#: src/ui/page_schedule/status.rs:155
-msgid "This is required for scheduled backups"
-msgstr "Zamanlanmış yedeklemeler için gereklidir"
 
 #: src/ui/prelude.rs:60
 msgid "Could not write configuration file."
@@ -2356,43 +1952,131 @@ msgstr "“{}” Pika Yedeği"
 msgid "Failed to Save Cache"
 msgstr "Önbellek Kaydedilemedi"
 
-#: src/ui/widget/backup_page.ui:20
+#: src/ui/widget/archives_page.ui:98
+msgid "Archive _Prefix"
+msgstr "Arşiv _Ön Eki"
+
+#: src/ui/widget/archives_page.ui:100
+msgid "Added in front of all archive names"
+msgstr "Tüm arşiv adlarının önüne eklenir"
+
+#: src/ui/widget/archives_page.ui:129
+msgid "_Cleanup Archives"
+msgstr "Arşivleri _Temizle"
+
+#: src/ui/widget/archives_page.ui:130
+msgid "Delete some older archives"
+msgstr "Kimi eski arşivleri sil"
+
+#: src/ui/widget/archives_page.ui:146
+msgid "Data Integrity Check"
+msgstr "Veri Bütünlüğü Denetimi"
+
+#: src/ui/widget/archives_page.ui:152
+msgid "_Check Now…"
+msgstr "Şimdi _Denetle…"
+
+#: src/ui/widget/archives_page.ui:160
+msgid "_Abort…"
+msgstr "_Vazgeç…"
+
+#: src/ui/widget/archives_page.ui:171
+msgid "Archives"
+msgstr "Arşivler"
+
+#: src/ui/widget/archives_page.ui:180
+msgid "Refresh"
+msgstr "Yenile"
+
+#: src/ui/widget/archives_page.ui:201
+msgid "Stop browsing archive files"
+msgstr "Arşiv dosyalarını göz atmayı durdur"
+
+#: src/ui/widget/archives_page.ui:227
+msgid "No archives available"
+msgstr "Kullanılabilir arşiv yok"
+
+#: src/ui/widget/archives_page/cache.rs:37
+msgid "Failed to refresh archives cache."
+msgstr "Arşiv önbelleği yenilenemedi."
+
+#: src/ui/widget/archives_page/display.rs:103
+msgid "Failed to open archive."
+msgstr "Arşiv açılamadı."
+
+#: src/ui/widget/archives_page/display.rs:169
+msgid "Incomplete Archive"
+msgstr "Tamamlanmamış Arşiv"
+
+#: src/ui/widget/archives_page/display.rs:190
+msgid "Name"
+msgstr "Ad"
+
+#: src/ui/widget/archives_page/display.rs:192
+msgid "Duration"
+msgstr "Süre"
+
+#: src/ui/widget/archives_page/display.rs:196
+msgid "Comment"
+msgstr "Yorum"
+
+#: src/ui/widget/archives_page/display.rs:200
+msgid "Browse saved files"
+msgstr "Kayıtlı dosyalara göz at"
+
+#: src/ui/widget/archives_page/display.rs:218
+msgid "Delete archive"
+msgstr "Arşivi sil"
+
+#: src/ui/widget/archives_page/display.rs:249
+msgid "{} Available"
+msgstr "{} Kullanılabilir"
+
+#: src/ui/widget/archives_page/display.rs:251
+msgid "{} Total"
+msgstr "{} Toplam"
+
+#: src/ui/widget/archives_page/events.rs:83
+msgid "Failed to make archives available for browsing."
+msgstr "Arşivler göz atılabilir yapılamadı."
+
+#: src/ui/widget/backup_page.ui:21
 msgid "Eject Backup Disk"
 msgstr "Yedekleme Diskini Çıkart"
 
-#: src/ui/widget/backup_page.ui:36
+#: src/ui/widget/backup_page.ui:37
 msgid "Disconnected"
 msgstr "Bağlantı Kesildi"
 
-#: src/ui/widget/backup_page.ui:54
+#: src/ui/widget/backup_page.ui:55
 msgid "_Abort"
 msgstr "_Vazgeç"
 
-#: src/ui/widget/backup_page.ui:76
+#: src/ui/widget/backup_page.ui:77
 msgid "Back Up _Now"
 msgstr "Şimdi _Yedekle"
 
-#: src/ui/widget/backup_page.ui:92
+#: src/ui/widget/backup_page.ui:93
 msgid "Only files in the following folders are saved in the backup repository."
 msgstr "Yedek deposuna yalnızca aşağıdaki klasörlerdeki dosyalar kaydedilecek."
 
-#: src/ui/widget/backup_page.ui:95
+#: src/ui/widget/backup_page.ui:96
 msgid "Select Directory to Include"
 msgstr "Eklencek Dizini Seç"
 
-#: src/ui/widget/backup_page.ui:108
+#: src/ui/widget/backup_page.ui:109
 msgid "No files included in backup"
 msgstr "Yedeklemede dosya yok"
 
-#: src/ui/widget/backup_page.ui:121
+#: src/ui/widget/backup_page.ui:122
 msgid "The following folders are excluded from the backup repository."
 msgstr "Aşağıdaki klasörler yedekleme deposundan dışlanır."
 
-#: src/ui/widget/backup_page.ui:124
+#: src/ui/widget/backup_page.ui:125
 msgid "Select Directory to Exclude"
 msgstr "Dışlanacak Dizini Seç"
 
-#: src/ui/widget/backup_page.ui:137
+#: src/ui/widget/backup_page.ui:138
 msgid "Nothing excluded from backup"
 msgstr "Yedekten dışlanan yok"
 
@@ -2504,19 +2188,83 @@ msgstr "Boş Alan Yeniden Elde Edilemedi"
 msgid "Backup Failed"
 msgstr "Yedekleme Başarısız"
 
-#: src/ui/widget/backup_page/execution.rs:165
+#: src/ui/widget/backup_page/execution.rs:168
 msgid "Backup Completed with Warnings"
 msgstr "Yedekleme Uyarıyla Tamamlandı"
 
-#: src/ui/widget/encryption_preferences_group.rs:86
+#: src/ui/widget/check_result_dialog.ui:9
+msgid "Integrity Check Result"
+msgstr "Bütünlük Denetimi Sonucu"
+
+#: src/ui/widget/detail_dialog.ui:9
+msgid "Backup Info"
+msgstr "Yedekleme Bilgisi"
+
+#: src/ui/widget/detail_dialog.ui:72
+msgid "Amount saved"
+msgstr "Kayıtlı miktar"
+
+#: src/ui/widget/detail_dialog.ui:73
+msgid "Size of all files"
+msgstr "Tüm dosyaların boyutu"
+
+#: src/ui/widget/detail_dialog.ui:89
+msgid "Number of files saved"
+msgstr "Kayıtlı dosya sayısı"
+
+#: src/ui/widget/detail_dialog.ui:105
+msgid "Backup space used"
+msgstr "Kullanılan yedekleme alanı"
+
+#: src/ui/widget/detail_dialog.ui:106
+msgid "Newly used space in this backup"
+msgstr "Bu yedekte yeni kullanılan alan"
+
+#: src/ui/widget/detail_dialog.ui:122
+msgid "Current file"
+msgstr "Geçerli dosya"
+
+#: src/ui/widget/detail_page.ui:8
+msgid "Backup Preferences"
+msgstr "Yedekleme Tercihleri"
+
+#: src/ui/widget/detail_page.ui:12
+msgid "Remove Backup Setup"
+msgstr "Yedekleme Kurulumunu Kaldır"
+
+#: src/ui/widget/detail_page.ui:18
+msgid "Backup"
+msgstr "Yedek"
+
+#: src/ui/widget/detail_page.ui:51
+msgid "Archives are being mounted. This might take a while."
+msgstr "Arşivler bağlanıyor. Bu biraz sürebilir."
+
+#: src/ui/widget/detail_page.ui:64
+msgid "Actions"
+msgstr "Eylemler"
+
+#: src/ui/widget/detail_page.ui:91
+msgid "_Backup"
+msgstr "_Yedekle"
+
+#: src/ui/widget/detail_page.ui:101
+msgid "_Archives"
+msgstr "_Arşivler"
+
+#: src/ui/widget/detail_page.ui:111
+msgid "_Schedule"
+msgstr "_Zamanla"
+
+#: src/ui/widget/encryption_preferences_group.rs:84
 msgid "No Password Provided"
 msgstr "Parola Sağlanmadı"
 
-#: src/ui/widget/encryption_preferences_group.rs:87
+#: src/ui/widget/encryption_preferences_group.rs:85
 msgid "To use encryption a password must be provided."
 msgstr "Şifreleme kullanımı için parola sağlanmalıdır."
 
-#: src/ui/widget/encryption_preferences_group.rs:93
+#: src/ui/widget/encryption_preferences_group.rs:91
 msgid "Entered passwords do not match."
 msgstr "Girilen parolalar eşleşmiyor."
 
@@ -2551,6 +2299,258 @@ msgstr "Yeni Şifreleme Parolası"
 #: src/ui/widget/encryption_preferences_group.ui:43
 msgid "Repeat Password"
 msgstr "Parolayı Yinele"
+
+#: src/ui/widget/overview_page.rs:188
+msgid "Remove Backup Setup?"
+msgstr "Yedekleme Kurulumu Kaldırılsın Mı?"
+
+#: src/ui/widget/overview_page.rs:189
+msgid "Removing the setup will not delete any archives."
+msgstr "Kurulumu kaldırmak herhangi bir arşivi silmez."
+
+#: src/ui/widget/overview_page.rs:191
+msgid "Remove Setup"
+msgstr "Kurulumu Kaldır"
+
+#: src/ui/widget/overview_page.ui:8
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: src/ui/widget/overview_page.ui:12
+msgid "_Help"
+msgstr "_Yardım"
+
+#: src/ui/widget/overview_page.ui:16
+msgid "_About Pika Backup"
+msgstr "Pika Yedek _Hakkında"
+
+#: src/ui/widget/overview_page.ui:29
+msgid "Setup Backup"
+msgstr "Yedek Ayarla"
+
+#: src/ui/widget/overview_page.ui:36
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: src/ui/widget/overview_page.ui:56
+msgid "No Backup Configured"
+msgstr "Yedek Yapılandırılmadı"
+
+#: src/ui/widget/overview_page.ui:57
+msgid "Add a new configuration to start creating backups"
+msgstr "Yedek oluşturmaya başlamak için yeni yapılandırma ekle"
+
+#: src/ui/widget/overview_page.ui:60
+msgid "_Setup Backup"
+msgstr "Yedek _Ayarla"
+
+#: src/ui/widget/schedule_page.ui:29
+msgid ":"
+msgstr ":"
+
+#: src/ui/widget/schedule_page.ui:71
+msgid "Regularly Create Backups"
+msgstr "Düzenli Olarak Yedek Oluştur"
+
+#: src/ui/widget/schedule_page.ui:76
+msgid "Frequency"
+msgstr "Sıklık"
+
+#: src/ui/widget/schedule_page.ui:84
+msgid "Preferred Time"
+msgstr "Yeğlenen Zaman"
+
+#: src/ui/widget/schedule_page.ui:104
+msgid "Preferred Weekday"
+msgstr "Yeğlenen Haftanın Günü"
+
+#: src/ui/widget/schedule_page.ui:109
+msgid "Preferred Day of Month"
+msgstr "Yeğlenen Ayın Günü"
+
+#: src/ui/widget/schedule_page.ui:133
+msgid "Save Configuration"
+msgstr "Yapılandırmayı Kaydet"
+
+#: src/ui/widget/schedule_page.ui:145
+msgid "Regularly Cleanup Archives"
+msgstr "Düzenli Olarak Arşivleri Temizle"
+
+#: src/ui/widget/schedule_page.ui:146
+msgid "Remove old archives after creating new backups"
+msgstr "Yeni yedek oluşturunca eski arşivleri kaldır"
+
+#: src/ui/widget/schedule_page.ui:156
+msgid "Preserved Archives"
+msgstr "Korunan Arşivler"
+
+#: src/ui/widget/schedule_page.ui:157
+msgid "Amount and time span of retained archives"
+msgstr "Tutulacak arşivlerin miktarı ve zaman aralığı"
+
+#: src/ui/widget/schedule_page.ui:166
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: src/ui/widget/schedule_page.ui:170
+msgid "Keep Hourly"
+msgstr "Saatlik Tut"
+
+#: src/ui/widget/schedule_page.ui:186
+msgid "Keep Daily"
+msgstr "Günlük Tut"
+
+#: src/ui/widget/schedule_page.ui:202
+msgid "Keep Weekly"
+msgstr "Haftalık Tut"
+
+#: src/ui/widget/schedule_page.ui:217
+msgid "Keep Monthly"
+msgstr "Aylık Tut"
+
+#: src/ui/widget/schedule_page.ui:231
+msgid "Keep Annual"
+msgstr "Yıllık Tut"
+
+#: src/ui/widget/schedule_page/event.rs:114
+msgid "Invalid time format."
+msgstr "Geçersiz zaman biçimi."
+
+#: src/ui/widget/schedule_page/event.rs:122
+msgid "Invalid weekday."
+msgstr "Geçersiz hafta günü."
+
+#: src/ui/widget/schedule_page/event.rs:129
+msgid "No frequency selected."
+msgstr "Sıklık seçilmedi."
+
+#: src/ui/widget/schedule_page/event.rs:228
+msgid "Disable backup schedule?"
+msgstr "Yedekleme zamanlaması devre dışı bırakılsın mı?"
+
+#: src/ui/widget/schedule_page/event.rs:229
+msgid "No longer remind of backups based on a schedule."
+msgstr "Artık zamanlamaya dayalı yedeklemeleri anımsatma."
+
+#: src/ui/widget/schedule_page/event.rs:230
+msgid "Keep Schedule"
+msgstr "Zamanlamayı Tut"
+
+#: src/ui/widget/schedule_page/event.rs:231
+msgid "Disable Schedule"
+msgstr "Zamanlamayı Devre Dışı Bırak"
+
+#: src/ui/widget/schedule_page/event.rs:294
+msgid "No preset selected."
+msgstr "Ön ayar seçilmedi."
+
+#: src/ui/widget/schedule_page/prune_preset.rs:20
+msgid "Keep Many"
+msgstr "Birçoğunu Tut"
+
+#: src/ui/widget/schedule_page/prune_preset.rs:21
+msgid "Keep Some"
+msgstr "Bazısını Tut"
+
+#: src/ui/widget/schedule_page/prune_preset.rs:22
+msgid "Custom"
+msgstr "Özel"
+
+#: src/ui/widget/schedule_page/status.rs:16
+msgid "Next backup in one minute"
+msgid_plural "Next backup in {} minutes"
+msgstr[0] "Sonraki yedekleme {} dakika sonra"
+
+#: src/ui/widget/schedule_page/status.rs:22
+msgid "Next backup in one hour"
+msgid_plural "Next backup in {} hours"
+msgstr[0] "Sonraki yedekleme {} saat sonra"
+
+#: src/ui/widget/schedule_page/status.rs:28
+msgid "Next backup in one day"
+msgid_plural "Next backup in {} days"
+msgstr[0] "Sonraki yedekleme {} gün sonra"
+
+#: src/ui/widget/schedule_page/status.rs:34
+msgid "Next backup in one week"
+msgid_plural "Next backup in {} weeks"
+msgstr[0] "Sonraki yedekleme {} hafta sonra"
+
+#: src/ui/widget/schedule_page/status.rs:51
+msgid "Scheduled Backups Disabled"
+msgstr "Zamanlanmış Yedeklemeler Devre Dışı Bırakıldı"
+
+#: src/ui/widget/schedule_page/status.rs:69
+msgid "Hourly Backups Enabled"
+msgstr "Saatlik Yedekleme Etkinleştirildi"
+
+#: src/ui/widget/schedule_page/status.rs:70
+msgid "Daily Backups Enabled"
+msgstr "Günlük Yedekleme Etkinleştirildi"
+
+#: src/ui/widget/schedule_page/status.rs:71
+msgid "Weekly Backups Enabled"
+msgstr "Haftalık Yedekleme Etkinleştirildi"
+
+#: src/ui/widget/schedule_page/status.rs:72
+msgid "Monthly Backups Enabled"
+msgstr "Aylık Yedekleme Etkinleştirildi"
+
+#: src/ui/widget/schedule_page/status.rs:83
+msgid "Will not start until requirements are met."
+msgstr "Gereksinimler karşılanana dek başlatılmayacak."
+
+#: src/ui/widget/schedule_page/status.rs:88
+msgid "Inconsistent backup information"
+msgstr "Tutarsız yedekleme bilgisi"
+
+#: src/ui/widget/schedule_page/status.rs:94
+msgid "Backup Past Due"
+msgstr "Yedekleme Süreci Geçti"
+
+#: src/ui/widget/schedule_page/status.rs:95
+msgid "Waiting until requirements are met"
+msgstr "Gereksinimler karşılanana dek bekleniyor"
+
+#: src/ui/widget/schedule_page/status.rs:98
+msgid "Scheduled Backups Unavailable"
+msgstr "Zamanlanmış Yedeklemeler Erişilemez"
+
+#: src/ui/widget/schedule_page/status.rs:101
+msgid "Waiting for Backup to Start"
+msgstr "Yedeklemenin Başlaması Bekleniyor"
+
+#: src/ui/widget/schedule_page/status.rs:110
+msgid "Network connection must not be metered"
+msgstr "Ağ bağlantısı ölçülü olmamalıdır"
+
+#: src/ui/widget/schedule_page/status.rs:116
+msgid "Other backups on repository have to be completed"
+msgstr "Depodaki diğer yedeklemeler tamamlanmalıdır"
+
+#: src/ui/widget/schedule_page/status.rs:123
+msgid "Device must be connected to power"
+msgstr "Aygıt güce bağlanmalıdır"
+
+#: src/ui/widget/schedule_page/status.rs:134
+msgid "Backup device has to be connected"
+msgstr "Yedekleme aygıtı bağlanmalıdır"
+
+#: src/ui/widget/schedule_page/status.rs:136
+msgid "Reminder will be sent when device is required"
+msgstr "Aygıt gerektiğinde anımsatıcı gönderilecektir"
+
+#: src/ui/widget/schedule_page/status.rs:144
+msgid "Network connection has to be available"
+msgstr "Ağ bağlantısı olmalıdır"
+
+#: src/ui/widget/schedule_page/status.rs:154
+msgid "Background process inactive"
+msgstr "Arka plan işlemi etkin değil"
+
+#: src/ui/widget/schedule_page/status.rs:155
+msgid "This is required for scheduled backups"
+msgstr "Zamanlanmış yedeklemeler için gereklidir"
 
 #: src/utils.rs:79
 msgid "No such file or directory"

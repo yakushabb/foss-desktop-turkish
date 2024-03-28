@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tracker-miners master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/tracker/issues/\n"
-"POT-Creation-Date: 2024-02-21 20:01+0000\n"
+"POT-Creation-Date: 2024-03-26 11:40+0000\n"
 "PO-Revision-Date: 2024-02-13 15:27+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -315,19 +315,19 @@ msgid " %2.2d second"
 msgid_plural " %2.2d seconds"
 msgstr[0] " %2.2d saniye"
 
-#: src/miners/fs/tracker-main.c:82
+#: src/miners/fs/tracker-main.c:85
 msgid "Initial sleep time in seconds, 0->1000 (default=15)"
 msgstr "Saniye türünden başlangıç uyuma süresi, 0->1000 (öntanımlı=15)"
 
-#: src/miners/fs/tracker-main.c:87
+#: src/miners/fs/tracker-main.c:90
 msgid "Runs until all configured locations are indexed and then exits"
 msgstr "Tüm yapılandırılmış konumlar dizinlenene dek çalışır ve sonra çıkar"
 
-#: src/miners/fs/tracker-main.c:91 src/tracker/tracker-info.c:91
+#: src/miners/fs/tracker-main.c:94 src/tracker/tracker-info.c:91
 msgid "Checks if FILE is eligible for being mined based on configuration"
 msgstr "FILE değişkeninin yapılandırmaya uygun yaranmışlığını denetler"
 
-#: src/miners/fs/tracker-main.c:92 src/tracker-extract/tracker-main.c:82
+#: src/miners/fs/tracker-main.c:95 src/tracker-extract/tracker-main.c:82
 #: src/tracker/tracker-extract.c:45 src/tracker/tracker-extract.c:46
 #: src/tracker/tracker-index.c:59 src/tracker/tracker-index.c:60
 #: src/tracker/tracker-info.c:94 src/tracker/tracker-info.c:95
@@ -335,76 +335,76 @@ msgstr "FILE değişkeninin yapılandırmaya uygun yaranmışlığını denetler
 msgid "FILE"
 msgstr "DOSYA"
 
-#: src/miners/fs/tracker-main.c:95 src/miners/rss/tracker-main.c:63
+#: src/miners/fs/tracker-main.c:98 src/miners/rss/tracker-main.c:63
 #: src/tracker-extract/tracker-main.c:96
 msgid "Runs for a specific domain ontology"
 msgstr "Belirli bir etki alanı ontolojisi için çalışır"
 
-#: src/miners/fs/tracker-main.c:99
+#: src/miners/fs/tracker-main.c:102
 msgid "Avoids changes in the filesystem"
 msgstr "Dosya sistemindeki değişiklikleri dışlar"
 
-#: src/miners/fs/tracker-main.c:103 src/tracker-control/tracker-main.c:61
+#: src/miners/fs/tracker-main.c:106 src/tracker-control/tracker-main.c:61
 #: src/tracker-extract/tracker-main.c:104
 #: src/tracker-writeback/tracker-main.c:50
 msgid "Displays version information"
 msgstr "Sürüm bilgisini görüntüler"
 
-#: src/miners/fs/tracker-main.c:483
+#: src/miners/fs/tracker-main.c:506
 #, c-format
 msgid "Data object “%s” currently exists"
 msgstr "“%s” veri nesnesi, şu anda var"
 
-#: src/miners/fs/tracker-main.c:484
+#: src/miners/fs/tracker-main.c:507
 #, c-format
 msgid "Data object “%s” currently does not exist"
 msgstr "“%s” veri nesnesi, şu anda yok"
 
-#: src/miners/fs/tracker-main.c:494
+#: src/miners/fs/tracker-main.c:517
 msgid "Directory is NOT eligible to be indexed (based on filters)"
 msgstr "Dizin, dizinlenmeye uygun DEĞİL (süzgeçlere göre)"
 
-#: src/miners/fs/tracker-main.c:498
+#: src/miners/fs/tracker-main.c:521
 msgid "File is NOT eligible to be indexed (based on filters)"
 msgstr "Dosya, dizinlenmeye uygun DEĞİL (süzgeçlere göre)"
 
-#: src/miners/fs/tracker-main.c:501
+#: src/miners/fs/tracker-main.c:524
 msgid "File is NOT eligible to be indexed (hidden file)"
 msgstr "Dosya, dizinlenmeye uygun DEĞİL (gizli dosya)"
 
-#: src/miners/fs/tracker-main.c:503
+#: src/miners/fs/tracker-main.c:526
 msgid "File is NOT eligible to be indexed (not an indexed folder)"
 msgstr "Dosya, dizinlenmeye uygun DEĞİL (dizinlenmiş klasör değil)"
 
-#: src/miners/fs/tracker-main.c:527
+#: src/miners/fs/tracker-main.c:550
 #, c-format
 msgid "Parent directory “%s” is NOT eligible to be indexed (based on filters)"
 msgstr "“%s” üst dizini, dizinlenmeye uygun DEĞİL (süzgeçlere göre)"
 
-#: src/miners/fs/tracker-main.c:533
+#: src/miners/fs/tracker-main.c:556
 #, c-format
 msgid "Parent directory “%s” is NOT eligible to be indexed (hidden file)"
 msgstr "“%s” üst dizini, dizinlenmeye uygun DEĞİL (gizli dosya)"
 
-#: src/miners/fs/tracker-main.c:539
+#: src/miners/fs/tracker-main.c:562
 #, c-format
 msgid ""
 "Parent directory “%s” is NOT eligible to be indexed (based on content "
 "filters)"
 msgstr "“%s” üst dizini, dizinlenmeye uygun DEĞİL (içerik süzgeçlerine göre)"
 
-#: src/miners/fs/tracker-main.c:558
+#: src/miners/fs/tracker-main.c:581
 msgid "Directory is eligible to be indexed"
 msgstr "Dizin, dizinlenmeye uygun"
 
-#: src/miners/fs/tracker-main.c:559
+#: src/miners/fs/tracker-main.c:582
 msgid "File is eligible to be indexed"
 msgstr "Dosya dizinlenmeye uygun"
 
 #. Translators: this messagge will apper immediately after the
 #. * usage string - Usage: COMMAND <THIS_MESSAGE>
 #.
-#: src/miners/fs/tracker-main.c:786
+#: src/miners/fs/tracker-main.c:838
 msgid "— start the tracker indexer"
 msgstr "— tracker dizinleyicisini çalıştır"
 
