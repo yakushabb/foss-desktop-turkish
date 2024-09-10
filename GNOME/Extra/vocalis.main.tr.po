@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-sound-recorder master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/vocalis/-/issues\n"
-"POT-Creation-Date: 2024-03-15 07:11+0000\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/vocalis/issues/\n"
+"POT-Creation-Date: 2024-08-05 17:27+0000\n"
 "PO-Revision-Date: 2023-10-17 18:00+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -26,6 +26,7 @@ msgstr ""
 
 #: data/app.drey.Vocalis.desktop.in.in:4
 #: data/app.drey.Vocalis.metainfo.xml.in.in:5 data/ui/window.ui:10
+#: src/application.ts:50 src/application.ts:167
 msgid "Vocalis"
 msgstr ""
 
@@ -75,10 +76,12 @@ msgid "Supported audio formats:"
 msgstr "Desteklenen ses biçimleri:"
 
 #: data/app.drey.Vocalis.metainfo.xml.in.in:20
-msgid "Ogg Vorbis, Opus, FLAC, MP3 and MOV"
+#, fuzzy
+#| msgid "Ogg Vorbis, Opus, FLAC, MP3 and MOV"
+msgid "Opus, FLAC, MP3 and MOV"
 msgstr "Ogg Vorbis, Opus, FLAC, MP3 ve MOV"
 
-#: data/app.drey.Vocalis.metainfo.xml.in.in:40
+#: data/app.drey.Vocalis.metainfo.xml.in.in:41
 msgid "Christopher Davis"
 msgstr ""
 
@@ -193,19 +196,19 @@ msgctxt "shortcut window"
 msgid "Export"
 msgstr "Dışa aktar"
 
-#: data/ui/recorder.ui:43
+#: data/ui/recorder.ui:50
 msgid "Resume Recording"
 msgstr "Kaydı Sürdür"
 
-#: data/ui/recorder.ui:61
+#: data/ui/recorder.ui:68
 msgid "Pause Recording"
 msgstr "Kaydı Duraklat"
 
-#: data/ui/recorder.ui:78
+#: data/ui/recorder.ui:85
 msgid "Stop Recording"
 msgstr "Kaydı Durdur"
 
-#: data/ui/recorder.ui:98
+#: data/ui/recorder.ui:105
 msgid "Delete Recording"
 msgstr "Kaydı Sil"
 
@@ -297,6 +300,108 @@ msgstr "_Klavye Kısayolları"
 msgid "About Vocalis"
 msgstr ""
 
+#. Translators: Replace "translator-credits" with your names, one name per line
+#: src/application.ts:184
+msgid "translator-credits"
+msgstr ""
+"Muhammet Kara <muhammetk@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#: src/recorder.ts:161
+#, c-format
+msgid "Recording %d"
+msgstr "Kayıt %d"
+
+#: src/recorderWidget.ts:141
+#, fuzzy
+#| msgid "Delete Recording"
+msgid "Delete Recording?"
+msgstr "Kaydı Sil"
+
+#: src/recorderWidget.ts:142
+msgid "This recording will not be saved."
+msgstr "Bu kayıt kaydedilmeyecek."
+
+#: src/recorderWidget.ts:145
+#, fuzzy
+#| msgid "Resume"
+msgid "_Resume"
+msgstr "Sürdür"
+
+#: src/recorderWidget.ts:146
+#, fuzzy
+#| msgid "Delete"
+msgid "_Delete"
+msgstr "Sil"
+
+#: src/row.ts:139
+msgid "Export Recording"
+msgstr "Kaydı Dışa Aktar"
+
+#: src/row.ts:142
+msgid "_Export"
+msgstr "_Dışa Aktar"
+
+#: src/row.ts:143
+msgid "_Cancel"
+msgstr "_İptal Et"
+
+#. The fallback here should never be seen, but we want it here
+#. for type safety purposes
+#: src/utils.ts:50
+msgid "Less than a day ago"
+msgstr ""
+
+#: src/utils.ts:52
+msgid "Yesterday"
+msgstr "Dün"
+
+#: src/utils.ts:55
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d gün önce"
+
+#: src/utils.ts:57
+msgid "Last week"
+msgstr "Geçen hafta"
+
+#: src/utils.ts:59
+#, c-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] "%d hafta önce"
+
+#: src/utils.ts:63
+msgid "Last month"
+msgstr "Geçen ay"
+
+#: src/utils.ts:65
+#, c-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d ay önce"
+
+#: src/utils.ts:69
+msgid "Last year"
+msgstr "Geçen yıl"
+
+#: src/utils.ts:72
+#, c-format
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d yıl önce"
+
+#: src/window.ts:116
+#, fuzzy
+#| msgid "Recording %d"
+msgid "Recording deleted"
+msgstr "Kayıt %d"
+
+#: src/window.ts:224
+msgid "Undo"
+msgstr "Geri Al"
+
 #~ msgid "Sound Recorder"
 #~ msgstr "Ses Kaydedici"
 
@@ -313,35 +418,17 @@ msgstr ""
 #~ msgid "About Sound Recorder"
 #~ msgstr "Ses Kaydedici Hakkında"
 
-#~ msgid "Undo"
-#~ msgstr "Geri Al"
-
 #~ msgid "Close"
 #~ msgstr "Kapat"
 
 #~ msgid "M4A"
 #~ msgstr "M4A"
 
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Muhammet Kara <muhammetk@gmail.com>\n"
-#~ "Emin Tufan Çetin <etcetin@gmail.com>"
-
 #~ msgid "A Sound Recording Application for GNOME"
 #~ msgstr "GNOME için Ses Kayıt Uygulaması"
 
-#, javascript-format
-#~ msgid "Recording %d"
-#~ msgstr "Kayıt %d"
-
 #~ msgid "Delete recording?"
 #~ msgstr "Kayıt silinsin mi?"
-
-#~ msgid "This recording will not be saved."
-#~ msgstr "Bu kayıt kaydedilmeyecek."
-
-#~ msgid "Resume"
-#~ msgstr "Sürdür"
 
 #~ msgid "Recordings"
 #~ msgstr "Kayıtlar"
@@ -349,47 +436,6 @@ msgstr ""
 #, javascript-format
 #~ msgid "%s (Old)"
 #~ msgstr "%s (Eski)"
-
-#~ msgid "Export Recording"
-#~ msgstr "Kaydı Dışa Aktar"
-
-#~ msgid "_Export"
-#~ msgstr "_Dışa Aktar"
-
-#~ msgid "_Cancel"
-#~ msgstr "_İptal Et"
-
-#~ msgid "Yesterday"
-#~ msgstr "Dün"
-
-#, javascript-format
-#~ msgid "%d day ago"
-#~ msgid_plural "%d days ago"
-#~ msgstr[0] "%d gün önce"
-
-#~ msgid "Last week"
-#~ msgstr "Geçen hafta"
-
-#, javascript-format
-#~ msgid "%d week ago"
-#~ msgid_plural "%d weeks ago"
-#~ msgstr[0] "%d hafta önce"
-
-#~ msgid "Last month"
-#~ msgstr "Geçen ay"
-
-#, javascript-format
-#~ msgid "%d month ago"
-#~ msgid_plural "%d months ago"
-#~ msgstr[0] "%d ay önce"
-
-#~ msgid "Last year"
-#~ msgstr "Geçen yıl"
-
-#, javascript-format
-#~ msgid "%d year ago"
-#~ msgid_plural "%d years ago"
-#~ msgstr[0] "%d yıl önce"
 
 #, javascript-format
 #~ msgid "\"%s\" deleted"

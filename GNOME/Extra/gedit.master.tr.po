@@ -10,23 +10,23 @@
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2014, 2015.
 # Necdet Yücel <necdetyucel@gmail.com>, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
-# Sabri Ünal <libreajans@gmail.com>, 2014, 2019, 2022, 2023.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2019, 2020, 2022, 2023.
+# Sabri Ünal <yakushabb@gmail.com>, 2014, 2019, 2022, 2023, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2019, 2020, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit/issues/\n"
-"POT-Creation-Date: 2024-03-28 14:37+0000\n"
-"PO-Revision-Date: 2024-03-25 17:22+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2024-09-02 00:53+0000\n"
+"PO-Revision-Date: 2024-09-02 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 "X-POOTLE-MTIME: 1433962102.000000\n"
 
 #: data/org.gnome.gedit.desktop.in:3 data/org.gnome.gedit.metainfo.xml.in:7
@@ -51,11 +51,11 @@ msgstr "Yeni Pencere"
 msgid "New Document"
 msgstr "Yeni Belge"
 
-#: data/org.gnome.gedit.gschema.xml.in:41
+#: data/org.gnome.gedit.gschema.xml.in:42
 msgid "Use Default Font"
 msgstr "Öntanımlı Yazı Tipini Kullan"
 
-#: data/org.gnome.gedit.gschema.xml.in:42
+#: data/org.gnome.gedit.gschema.xml.in:43
 msgid ""
 "Whether to use the system’s default fixed width font for editing text "
 "instead of a font specific to gedit. If this option is turned off, then the "
@@ -67,15 +67,15 @@ msgstr ""
 "“Düzenleyici Yazı Tipi” seçeneğinde belirlenmiş olan yazı tipi kullanılır."
 
 #. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:46
+#: data/org.gnome.gedit.gschema.xml.in:47
 msgid "'Monospace 12'"
 msgstr "'Monospace 12'"
 
-#: data/org.gnome.gedit.gschema.xml.in:47
+#: data/org.gnome.gedit.gschema.xml.in:48
 msgid "Editor Font"
 msgstr "Düzenleyici Yazı Tipi"
 
-#: data/org.gnome.gedit.gschema.xml.in:48
+#: data/org.gnome.gedit.gschema.xml.in:49
 msgid ""
 "A custom font that will be used for the editing area. This will only take "
 "effect if the “Use Default Font” option is turned off."
@@ -83,28 +83,43 @@ msgstr ""
 "Düzenleme bölgesi için kullanılacak özel yazı tipi. Bu, yalnızca “Öntanımlı "
 "Yazı Tipini Kullan” seçeneği kapalı ise etki gösterir."
 
-#: data/org.gnome.gedit.gschema.xml.in:52
-msgid "Style Scheme"
-msgstr "Biçem Şeması"
-
 #: data/org.gnome.gedit.gschema.xml.in:53
-msgid "The ID of a GtkSourceView Style Scheme used to color the text."
-msgstr ""
-"Metni renklendirmek için kullanılacak GtkSourceView Biçem şemasının ID’si."
+msgid "Style Scheme for Light Theme Variant"
+msgstr "Açık Tema Türevi İçin Biçem Şeması"
 
-#: data/org.gnome.gedit.gschema.xml.in:57
+#: data/org.gnome.gedit.gschema.xml.in:54
+msgid ""
+"The ID of a libgedit-gtksourceview style scheme used to color the main text "
+"area when the application has a light theme applied."
+msgstr ""
+"Uygulama açık temayı kullandığında ana metin alanını renklendirmek için "
+"kullanılan libgedit-gtksourceview biçem şemasının kimliği."
+
+#: data/org.gnome.gedit.gschema.xml.in:58
+msgid "Style Scheme for Dark Theme Variant"
+msgstr "Koyu Tema Türevi İçin Biçem Şeması"
+
+#: data/org.gnome.gedit.gschema.xml.in:59
+msgid ""
+"The ID of a libgedit-gtksourceview style scheme used to color the main text "
+"area when the application has a dark theme applied."
+msgstr ""
+"Uygulama koyu temayı kullandığında ana metin alanını renklendirmek için "
+"kullanılan libgedit-gtksourceview biçem şemasının kimliği."
+
+#: data/org.gnome.gedit.gschema.xml.in:63
 msgid "Create Backup Copies"
 msgstr "Yedekleme Kopyaları Oluştur"
 
-#: data/org.gnome.gedit.gschema.xml.in:58
+#: data/org.gnome.gedit.gschema.xml.in:64
 msgid "Whether gedit should create backup copies for the files it saves."
 msgstr "gedit’in kaydettiği dosyalar için yedek oluşturup oluşturmayacağı."
 
-#: data/org.gnome.gedit.gschema.xml.in:62
+#: data/org.gnome.gedit.gschema.xml.in:68
 msgid "Autosave"
 msgstr "Kendiliğinden Kaydet"
 
-#: data/org.gnome.gedit.gschema.xml.in:63
+#: data/org.gnome.gedit.gschema.xml.in:69
 msgid ""
 "Whether gedit should automatically save modified files after a time "
 "interval. You can set the time interval with the “Autosave Interval” option."
@@ -113,11 +128,11 @@ msgstr ""
 "kaydedip kaydetmeyeceği. Zaman aralığını “Kendiliğinden Kaydetme Sıklığı” "
 "seçeneğiyle ayarlayabilirsiniz."
 
-#: data/org.gnome.gedit.gschema.xml.in:68
+#: data/org.gnome.gedit.gschema.xml.in:74
 msgid "Autosave Interval"
 msgstr "Kendiliğinden Kaydetme Sıklığı"
 
-#: data/org.gnome.gedit.gschema.xml.in:69
+#: data/org.gnome.gedit.gschema.xml.in:75
 msgid ""
 "Number of minutes after which gedit will automatically save modified files. "
 "This will only take effect if the “Autosave” option is turned on."
@@ -125,11 +140,11 @@ msgstr ""
 "gedit’in değiştirilmiş dosyaları kaç dakika sonra kendiliğinden kaydedeceği. "
 "Bu, yalnızca “Kendiliğinden Kaydet” seçeneği açık ise etki gösterir."
 
-#: data/org.gnome.gedit.gschema.xml.in:73
+#: data/org.gnome.gedit.gschema.xml.in:79
 msgid "Maximum Number of Undo Actions"
 msgstr "Geri Alma Eylemlerinin Azami Sayısı"
 
-#: data/org.gnome.gedit.gschema.xml.in:74
+#: data/org.gnome.gedit.gschema.xml.in:80
 msgid ""
 "Maximum number of actions that gedit will be able to undo or redo. Use “-1” "
 "for unlimited number of actions."
@@ -137,11 +152,11 @@ msgstr ""
 "gedit’in geri alabileceği ya da yineleyebileceği eylemlerin azami miktarı. "
 "Sınırsız sayıda eylem için “-1” kullanın."
 
-#: data/org.gnome.gedit.gschema.xml.in:83
+#: data/org.gnome.gedit.gschema.xml.in:89
 msgid "Line Wrapping Mode"
 msgstr "Satır Kaydırma Kipi"
 
-#: data/org.gnome.gedit.gschema.xml.in:84
+#: data/org.gnome.gedit.gschema.xml.in:90
 msgid ""
 "Specifies how to wrap long lines in the editing area. Use “none” for no "
 "wrapping, “word” for wrapping at word boundaries, and “char” for wrapping at "
@@ -153,11 +168,11 @@ msgstr ""
 "karakter sınırlarında bölme için “char” kullanınız. Değerler büyük/küçük "
 "harf duyarlıdır, tam olarak burada yer aldığı gibi kullanınız."
 
-#: data/org.gnome.gedit.gschema.xml.in:92
+#: data/org.gnome.gedit.gschema.xml.in:98
 msgid "Last split mode choice for line wrapping mode"
 msgstr "Satır kaydırma kipi için son bölme kipi seçimi"
 
-#: data/org.gnome.gedit.gschema.xml.in:93
+#: data/org.gnome.gedit.gschema.xml.in:99
 msgid ""
 "Specifies the last split mode used with line wrapping mode, so that when "
 "wrapping mode is off we still remember the split mode choice. Use “word” for "
@@ -169,86 +184,86 @@ msgstr ""
 "Sözcük düzeyinde kaydırma için “word”, karakter düzeyinde kaydırma için "
 "“char” kullanın."
 
-#: data/org.gnome.gedit.gschema.xml.in:98
+#: data/org.gnome.gedit.gschema.xml.in:104
 msgid "Tab Size"
 msgstr "Sekme Boyutu"
 
-#: data/org.gnome.gedit.gschema.xml.in:99
+#: data/org.gnome.gedit.gschema.xml.in:105
 msgid ""
 "Specifies the number of spaces that should be displayed instead of Tab "
 "characters."
 msgstr "Sekme karakteri yerine görüntülenecek boşluk sayısını belirtir."
 
-#: data/org.gnome.gedit.gschema.xml.in:103
+#: data/org.gnome.gedit.gschema.xml.in:109
 msgid "Insert spaces"
 msgstr "Boşlukları araya ekle"
 
-#: data/org.gnome.gedit.gschema.xml.in:104
+#: data/org.gnome.gedit.gschema.xml.in:110
 msgid "Whether gedit should insert spaces instead of tabs."
 msgstr "gedit’in sekmelerin yerine boşluk eklemesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:108
+#: data/org.gnome.gedit.gschema.xml.in:114
 msgid "Automatic indent"
 msgstr "Kendiliğinden girintile"
 
-#: data/org.gnome.gedit.gschema.xml.in:109
+#: data/org.gnome.gedit.gschema.xml.in:115
 msgid "Whether gedit should enable automatic indentation."
 msgstr ""
 "gedit’in kendiliğinden girintilemeyi etkinleştirip etkinleştirmeyeceği."
 
-#: data/org.gnome.gedit.gschema.xml.in:113
+#: data/org.gnome.gedit.gschema.xml.in:119
 msgid "Display Line Numbers"
 msgstr "Satır Sayılarını Göster"
 
-#: data/org.gnome.gedit.gschema.xml.in:114
+#: data/org.gnome.gedit.gschema.xml.in:120
 msgid "Whether gedit should display line numbers in the editing area."
 msgstr "gedit’in düzenleme alanında satır sayılarını göstermesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:118
+#: data/org.gnome.gedit.gschema.xml.in:124
 msgid "Highlight Current Line"
 msgstr "Geçerli Satırı Vurgula"
 
-#: data/org.gnome.gedit.gschema.xml.in:119
+#: data/org.gnome.gedit.gschema.xml.in:125
 msgid "Whether gedit should highlight the current line."
 msgstr "gedit’in geçerli satırı vurgulamasının etkinleştirilmesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:123
+#: data/org.gnome.gedit.gschema.xml.in:129
 msgid "Highlight Matching Brackets"
 msgstr "Eşleşen Parantezleri Vurgula"
 
-#: data/org.gnome.gedit.gschema.xml.in:124
+#: data/org.gnome.gedit.gschema.xml.in:130
 msgid "Whether gedit should highlight matching brackets."
 msgstr "gedit’in eşleşen parantezleri vurgulayıp vurgulamayacağı."
 
-#: data/org.gnome.gedit.gschema.xml.in:128
+#: data/org.gnome.gedit.gschema.xml.in:134
 msgid "Display Right Margin"
 msgstr "Sağ Kenar Boşluğunu Göster"
 
-#: data/org.gnome.gedit.gschema.xml.in:129
+#: data/org.gnome.gedit.gschema.xml.in:135
 msgid "Whether gedit should display the right margin in the editing area."
 msgstr "gedit’in düzenleme alanında sağ kenar boşluğunu göstermesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:133
+#: data/org.gnome.gedit.gschema.xml.in:139
 msgid "Right Margin Position"
 msgstr "Sağ Kenar Boşluğu Pozisyonu"
 
-#: data/org.gnome.gedit.gschema.xml.in:134
+#: data/org.gnome.gedit.gschema.xml.in:140
 msgid "Specifies the position of the right margin."
 msgstr "Sağ kenar boşluğunun konumunu belirtir."
 
-#: data/org.gnome.gedit.gschema.xml.in:138
+#: data/org.gnome.gedit.gschema.xml.in:144
 msgid "Document background pattern type"
 msgstr "Belge arka planı örüntü türü"
 
-#: data/org.gnome.gedit.gschema.xml.in:139
+#: data/org.gnome.gedit.gschema.xml.in:145
 msgid "Whether the document will get a background pattern painted."
 msgstr "Belgenin arka plan örüntüsüyle boyanma durumu."
 
-#: data/org.gnome.gedit.gschema.xml.in:149
+#: data/org.gnome.gedit.gschema.xml.in:155
 msgid "Smart Home End"
 msgstr "Akıllı Home End"
 
-#: data/org.gnome.gedit.gschema.xml.in:150
+#: data/org.gnome.gedit.gschema.xml.in:156
 msgid ""
 "Specifies how the cursor moves when the HOME and END keys are pressed. Use "
 "“disabled” to always move at the start/end of the line, “after” to move to "
@@ -266,50 +281,50 @@ msgstr ""
 "başına ve sonuna taşınmasını, “always” ise satırların başına ve sonuna "
 "taşınmaktansa metinlerin başına ve sonuna taşınmasını sağlar."
 
-#: data/org.gnome.gedit.gschema.xml.in:154
+#: data/org.gnome.gedit.gschema.xml.in:160
 msgid "Restore Previous Cursor Position"
 msgstr "Önceki İmleç Konumunu Geri Getir"
 
-#: data/org.gnome.gedit.gschema.xml.in:155
+#: data/org.gnome.gedit.gschema.xml.in:161
 msgid ""
 "Whether gedit should restore the previous cursor position when a file is "
 "loaded."
 msgstr ""
 "gedit’in dosya yüklendiği zaman imlecin önceki yerinin geri getirilmesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:159
+#: data/org.gnome.gedit.gschema.xml.in:165
 msgid "Enable Syntax Highlighting"
 msgstr "Söz Dizimi Vurgulamayı Etkinleştir"
 
-#: data/org.gnome.gedit.gschema.xml.in:160
+#: data/org.gnome.gedit.gschema.xml.in:166
 msgid "Whether gedit should enable syntax highlighting."
 msgstr "gedit’in söz dizimi renklendirmeyi etkinleştirmesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:164
+#: data/org.gnome.gedit.gschema.xml.in:170
 msgid "Enable Search Highlighting"
 msgstr "Arama Vurgulamayı Etkinleştir"
 
-#: data/org.gnome.gedit.gschema.xml.in:165
+#: data/org.gnome.gedit.gschema.xml.in:171
 msgid ""
 "Whether gedit should highlight all the occurrences of the searched text."
 msgstr "gedit’in arama metninin geçtiği yerleri vurgulaması."
 
-#: data/org.gnome.gedit.gschema.xml.in:169
+#: data/org.gnome.gedit.gschema.xml.in:175
 msgid "Ensure Trailing Newline"
 msgstr "Sona Yeni Satır Ekle"
 
-#: data/org.gnome.gedit.gschema.xml.in:170
+#: data/org.gnome.gedit.gschema.xml.in:176
 msgid ""
 "Whether gedit will ensure that documents always end with a trailing newline."
 msgstr ""
 "gedit’in; belgelerin sonunun her zaman yeni satırla biteceğinden emin "
 "olmasıdır."
 
-#: data/org.gnome.gedit.gschema.xml.in:176
+#: data/org.gnome.gedit.gschema.xml.in:182
 msgid "Notebook Show Tabs Mode"
 msgstr "Not Defteri Sekmeleri Göster Kipi"
 
-#: data/org.gnome.gedit.gschema.xml.in:177
+#: data/org.gnome.gedit.gschema.xml.in:183
 msgid ""
 "Specifies when to show the notebook tabs. Use “never” to never show the "
 "tabs, “always” to always show the tabs, and “auto” to show the tabs only "
@@ -322,53 +337,53 @@ msgstr ""
 "kullanın. Değerlerin büyük/küçük harf duyarlı olduğunu unutmayın, tam olarak "
 "burada yer aldığı gibi kullanın."
 
-#: data/org.gnome.gedit.gschema.xml.in:181
+#: data/org.gnome.gedit.gschema.xml.in:187
 msgid "Status Bar is Visible"
 msgstr "Durum Çubuğu Görünür"
 
-#: data/org.gnome.gedit.gschema.xml.in:182
+#: data/org.gnome.gedit.gschema.xml.in:188
 msgid ""
 "Whether the status bar at the bottom of editing windows should be visible."
 msgstr ""
 "Düzenleme penceresinin altında bulunan durum çubuğunun görünür hale gelmesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:186
+#: data/org.gnome.gedit.gschema.xml.in:192
 msgid "Side panel is Visible"
 msgstr "Yan Panel Görünür"
 
-#: data/org.gnome.gedit.gschema.xml.in:187
+#: data/org.gnome.gedit.gschema.xml.in:193
 msgid ""
 "Whether the side panel at the left of editing windows should be visible."
 msgstr ""
 "Düzenleme penceresinin solundaki kenar panelinin görünür olup olmayacağı."
 
-#: data/org.gnome.gedit.gschema.xml.in:194
+#: data/org.gnome.gedit.gschema.xml.in:200
 msgid "Which theme variant to use"
 msgstr "Hangi tema türevi kullanılacak"
 
-#: data/org.gnome.gedit.gschema.xml.in:200
+#: data/org.gnome.gedit.gschema.xml.in:206
 msgid "Print Syntax Highlighting"
 msgstr "Söz Dizimi Vurgulamasını Yazdır"
 
-#: data/org.gnome.gedit.gschema.xml.in:201
+#: data/org.gnome.gedit.gschema.xml.in:207
 msgid "Whether gedit should print syntax highlighting when printing documents."
 msgstr ""
 "gedit’in belgeleri yazdırırken söz dizimi vurgulamasını yazdırıp "
 "yazdırmayacağı."
 
-#: data/org.gnome.gedit.gschema.xml.in:205
+#: data/org.gnome.gedit.gschema.xml.in:211
 msgid "Print Header"
 msgstr "Sayfa Başlıklarını Yazdır"
 
-#: data/org.gnome.gedit.gschema.xml.in:206
+#: data/org.gnome.gedit.gschema.xml.in:212
 msgid "Whether gedit should include a document header when printing documents."
 msgstr "gedit’in belgeleri yazdırırken belge başlığı eklemesi."
 
-#: data/org.gnome.gedit.gschema.xml.in:215
+#: data/org.gnome.gedit.gschema.xml.in:221
 msgid "Printing Line Wrapping Mode"
 msgstr "Yazdırma Satır Kaydırma Kipi"
 
-#: data/org.gnome.gedit.gschema.xml.in:216
+#: data/org.gnome.gedit.gschema.xml.in:222
 msgid ""
 "Specifies how to wrap long lines for printing. Use “none” for no wrapping, "
 "“word” for wrapping at word boundaries, and “char” for wrapping at "
@@ -380,11 +395,11 @@ msgstr ""
 "karakter sınırlarında kaydırma için “char” kullanınız. Değerler büyük/küçük "
 "harf duyarlıdır, tam olarak burada yer aldığı gibi kullanınız."
 
-#: data/org.gnome.gedit.gschema.xml.in:220
+#: data/org.gnome.gedit.gschema.xml.in:226
 msgid "Print Line Numbers"
 msgstr "Satır Sayılarını Yazdır"
 
-#: data/org.gnome.gedit.gschema.xml.in:221
+#: data/org.gnome.gedit.gschema.xml.in:227
 msgid ""
 "If this value is 0, then no line numbers will be inserted when printing a "
 "document. Otherwise, gedit will print line numbers every such number of "
@@ -394,15 +409,15 @@ msgstr ""
 "gedit her satır için satır sayılarını yazdırır."
 
 #. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:225
+#: data/org.gnome.gedit.gschema.xml.in:231
 msgid "'Monospace 9'"
 msgstr "'Monospace 9'"
 
-#: data/org.gnome.gedit.gschema.xml.in:226
+#: data/org.gnome.gedit.gschema.xml.in:232
 msgid "Body Font for Printing"
 msgstr "Yazdırma için Gövde Yazı Tipi"
 
-#: data/org.gnome.gedit.gschema.xml.in:227
+#: data/org.gnome.gedit.gschema.xml.in:233
 msgid ""
 "Specifies the font to use for a document’s body when printing documents."
 msgstr ""
@@ -410,15 +425,15 @@ msgstr ""
 "belirtir."
 
 #. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:231
+#: data/org.gnome.gedit.gschema.xml.in:237
 msgid "'Sans 11'"
 msgstr "'Sans 11'"
 
-#: data/org.gnome.gedit.gschema.xml.in:232
+#: data/org.gnome.gedit.gschema.xml.in:238
 msgid "Header Font for Printing"
 msgstr "Yazdırma İçin Sayfa Başlığı Yazı Tipi"
 
-#: data/org.gnome.gedit.gschema.xml.in:233
+#: data/org.gnome.gedit.gschema.xml.in:239
 msgid ""
 "Specifies the font to use for page headers when printing a document. This "
 "will only take effect if the “Print Header” option is turned on."
@@ -427,15 +442,15 @@ msgstr ""
 "Bu, yalnızca “Sayfa Başlıklarını Yazdır” açık ise etki gösterir."
 
 #. Translators: This is a GSettings default value. Do NOT change or localize the quotation marks!
-#: data/org.gnome.gedit.gschema.xml.in:237
+#: data/org.gnome.gedit.gschema.xml.in:243
 msgid "'Sans 8'"
 msgstr "'Sans 8'"
 
-#: data/org.gnome.gedit.gschema.xml.in:238
+#: data/org.gnome.gedit.gschema.xml.in:244
 msgid "Line Number Font for Printing"
 msgstr "Yazdırma için Satır Sayısı Yazı Tipi"
 
-#: data/org.gnome.gedit.gschema.xml.in:239
+#: data/org.gnome.gedit.gschema.xml.in:245
 msgid ""
 "Specifies the font to use for line numbers when printing. This will only "
 "take effect if the “Print Line Numbers” option is non-zero."
@@ -444,43 +459,43 @@ msgstr ""
 "Bu, yalnızca “Satır Sayılarını Yazdır” seçeneği sıfırdan başka bir şey ise "
 "etki gösterir."
 
-#: data/org.gnome.gedit.gschema.xml.in:243
+#: data/org.gnome.gedit.gschema.xml.in:249
 msgid "Margin Left"
 msgstr "Sol Kenar Boşluğu"
 
-#: data/org.gnome.gedit.gschema.xml.in:244
+#: data/org.gnome.gedit.gschema.xml.in:250
 msgid "The left margin, in millimeters."
 msgstr "Milimetre cinsinden sol kenar boşluğu."
 
-#: data/org.gnome.gedit.gschema.xml.in:248
+#: data/org.gnome.gedit.gschema.xml.in:254
 msgid "Margin Top"
 msgstr "Üst Kenar Boşluğu"
 
-#: data/org.gnome.gedit.gschema.xml.in:249
+#: data/org.gnome.gedit.gschema.xml.in:255
 msgid "The top margin, in millimeters."
 msgstr "Milimetre cinsinden üst kenar boşluğu."
 
-#: data/org.gnome.gedit.gschema.xml.in:253
+#: data/org.gnome.gedit.gschema.xml.in:259
 msgid "Margin Right"
 msgstr "Sağ Kenar Boşluğu"
 
-#: data/org.gnome.gedit.gschema.xml.in:254
+#: data/org.gnome.gedit.gschema.xml.in:260
 msgid "The right margin, in millimeters."
 msgstr "Milimetre cinsinden sağ kenar boşluğu."
 
-#: data/org.gnome.gedit.gschema.xml.in:258
+#: data/org.gnome.gedit.gschema.xml.in:264
 msgid "Margin Bottom"
 msgstr "Alt Kenar Boşluğu"
 
-#: data/org.gnome.gedit.gschema.xml.in:259
+#: data/org.gnome.gedit.gschema.xml.in:265
 msgid "The bottom margin, in millimeters."
 msgstr "Milimetre cinsinden alt kenar boşluğu."
 
-#: data/org.gnome.gedit.gschema.xml.in:265
+#: data/org.gnome.gedit.gschema.xml.in:271
 msgid "Candidate Encodings"
 msgstr "Aday Kodlamalar"
 
-#: data/org.gnome.gedit.gschema.xml.in:266
+#: data/org.gnome.gedit.gschema.xml.in:272
 msgid ""
 "List of candidate encodings shown in the Character Encoding menu in the open/"
 "save file chooser. “CURRENT” represents the current locale encoding. Only "
@@ -492,11 +507,11 @@ msgstr ""
 "eder. Yalnızca tanınmış kodlamalar kullanılır. Öntanımlı değer gedit "
 "ülkenize ve dilinize göre uygun varsayılanları seçmediği sürece boş listedir."
 
-#: data/org.gnome.gedit.gschema.xml.in:315
+#: data/org.gnome.gedit.gschema.xml.in:321
 msgid "Active plugins"
 msgstr "Etkin eklentiler"
 
-#: data/org.gnome.gedit.gschema.xml.in:316
+#: data/org.gnome.gedit.gschema.xml.in:322
 msgid "List of active plugins."
 msgstr "Etkin eklentilerin listesi."
 
@@ -522,54 +537,59 @@ msgstr ""
 "Basit notlar ve belgeler yazmak için kullanabilir ya da yazılım geliştirme "
 "için yararlı olan daha gelişmiş özellikleri etkinleştirebilirsiniz."
 
-#: gedit/gedit-app.c:92
+#: gedit/gedit-app.c:93
 msgid "Show the application’s version"
 msgstr "Uygulamanın sürümünü göster"
 
-#: gedit/gedit-app.c:98
+#: gedit/gedit-app.c:99
 msgid "Display list of possible values for the encoding option"
 msgstr "Kodlama seçeneği için geçerli değerlerin listesini göster"
 
-#: gedit/gedit-app.c:105
+#: gedit/gedit-app.c:106
 msgid ""
 "Set the character encoding to be used to open the files listed on the "
 "command line"
 msgstr "Komut satırında dosya açmada kodlanmış karakter kümesi kullan"
 
-#: gedit/gedit-app.c:106
+#: gedit/gedit-app.c:107
 msgid "ENCODING"
 msgstr "KODLAMA"
 
-#: gedit/gedit-app.c:112
+#: gedit/gedit-app.c:113
 msgid "Create a new top-level window in an existing instance of gedit"
 msgstr "gedit’in geçerli örneğinde yeni en üst düzey pencere oluştur"
 
-#: gedit/gedit-app.c:119
+#: gedit/gedit-app.c:120
 msgid "Create a new document in an existing instance of gedit"
 msgstr "gedit’in var olan örneğinde yeni belge oluştur"
 
-#: gedit/gedit-app.c:126
+#: gedit/gedit-app.c:127
 msgid "Open files and block process until files are closed"
 msgstr "Dosyaları aç ve işlemi dosyalar kapanana kadar durdur"
 
-#: gedit/gedit-app.c:133
+#: gedit/gedit-app.c:134
 msgid "Run gedit in standalone mode"
 msgstr "gedit’i bağımsız kipte çalıştır"
 
-#: gedit/gedit-app.c:140
+#: gedit/gedit-app.c:141
 msgid "[FILE…] [+LINE[:COLUMN]]"
 msgstr "[DOSYA…] [+SATIR[:SÜTUN]]"
 
-#: gedit/gedit-app.c:223
+#: gedit/gedit-app.c:224
 msgid "There was an error displaying the help."
 msgstr "Yardım görüntülenirken hata oluştu."
 
-#: gedit/gedit-app.c:857
+#: gedit/gedit-app.c:685
+#, c-format
+msgid "Untitled Document %d"
+msgstr "Adsız Belge %d"
+
+#: gedit/gedit-app.c:879
 #, c-format
 msgid "%s: invalid encoding."
 msgstr "%s: geçersiz kodlama."
 
-#: gedit/gedit-bottom-panel.c:79
+#: gedit/gedit-bottom-panel.c:74
 msgid "Hide panel"
 msgstr "Paneli gizle"
 
@@ -577,13 +597,12 @@ msgstr "Paneli gizle"
 msgid "Close _without Saving"
 msgstr "Kaydetmeden _Kapat"
 
-#: gedit/gedit-close-confirmation-dialog.c:277 gedit/gedit-commands-file.c:489
-#: gedit/gedit-commands-file.c:565 gedit/gedit-commands-file.c:789
-#: gedit/gedit-commands-file.c:1514 gedit/gedit-encodings-dialog.c:192
+#: gedit/gedit-close-confirmation-dialog.c:277 gedit/gedit-commands-file.c:485
+#: gedit/gedit-commands-file.c:561 gedit/gedit-commands-file.c:785
+#: gedit/gedit-commands-file.c:1510 gedit/gedit-encodings-dialog.c:192
 #: gedit/gedit-file-chooser-open-dialog.c:78 gedit/gedit-io-error-info-bar.c:95
 #: gedit/gedit-io-error-info-bar.c:294
 #: plugins/filebrowser/gedit-file-browser-utils.c:211
-#: plugins/quickopen/quickopen/popup.py:45
 #: plugins/snippets/snippets/manager.py:789
 #: plugins/snippets/snippets/manager.py:874
 #: plugins/snippets/snippets/manager.py:912
@@ -597,7 +616,7 @@ msgstr "İ_ptal"
 msgid "_Save As…"
 msgstr "Farklı _Kaydet…"
 
-#: gedit/gedit-close-confirmation-dialog.c:295 gedit/gedit-commands-file.c:788
+#: gedit/gedit-close-confirmation-dialog.c:295 gedit/gedit-commands-file.c:784
 #: gedit/gedit-header-bar.c:187 gedit/resources/gtk/menus-common.ui:101
 #: plugins/snippets/snippets/manager.py:875
 #: plugins/snippets/snippets/manager.py:913
@@ -693,40 +712,40 @@ msgstr "Kaydetmek istediğiniz _belgeleri seçin:"
 msgid "If you don’t save, all your changes will be permanently lost."
 msgstr "Kaydetmezseniz yaptığınız tüm değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:255
+#: gedit/gedit-commands-file.c:251
 #, c-format
 msgid "Loading file “%s”…"
 msgstr "“%s” dosyası yükleniyor…"
 
-#: gedit/gedit-commands-file.c:263
+#: gedit/gedit-commands-file.c:259
 #, c-format
 msgid "Loading %d file…"
 msgid_plural "Loading %d files…"
 msgstr[0] "%d dosya yükleniyor…"
 
-#: gedit/gedit-commands-file.c:480
+#: gedit/gedit-commands-file.c:476
 #, c-format
 msgid "The file “%s” is read-only."
 msgstr "“%s” dosyası salt-okunur."
 
-#: gedit/gedit-commands-file.c:485
+#: gedit/gedit-commands-file.c:481
 msgid "Do you want to try to replace it with the one you are saving?"
 msgstr "Onu kaydettiğiniz ile değiştirmeyi denemek ister misiniz?"
 
-#: gedit/gedit-commands-file.c:490
+#: gedit/gedit-commands-file.c:486
 #: gedit/resources/ui/gedit-replace-dialog.ui:55
 msgid "_Replace"
 msgstr "_Değiştir"
 
-#: gedit/gedit-commands-file.c:530
+#: gedit/gedit-commands-file.c:526
 msgid "Save the file using compression?"
 msgstr "Dosya sıkıştırılarak kaydedilsin mi ?"
 
-#: gedit/gedit-commands-file.c:534
+#: gedit/gedit-commands-file.c:530
 msgid "Save the file as plain text?"
 msgstr "Düz yazı olarak kaydedilsin mi?"
 
-#: gedit/gedit-commands-file.c:547
+#: gedit/gedit-commands-file.c:543
 #, c-format
 msgid ""
 "The file “%s” was previously saved as plain text and will now be saved using "
@@ -735,11 +754,11 @@ msgstr ""
 "“%s” dosyası daha önce düz metin olarak kaydedildi ve şimdi sıkıştırılarak "
 "kaydedilecek."
 
-#: gedit/gedit-commands-file.c:551
+#: gedit/gedit-commands-file.c:547
 msgid "_Save Using Compression"
 msgstr "_Sıkıştırarak Kaydet"
 
-#: gedit/gedit-commands-file.c:556
+#: gedit/gedit-commands-file.c:552
 #, c-format
 msgid ""
 "The file “%s” was previously saved using compression and will now be saved "
@@ -748,33 +767,33 @@ msgstr ""
 "“%s” dosyası daha önce sıkıştırılarak kaydedilmiş ve şimdi düz metin olarak "
 "kaydedilecek."
 
-#: gedit/gedit-commands-file.c:559
+#: gedit/gedit-commands-file.c:555
 msgid "_Save As Plain Text"
 msgstr "Düz Metin Olarak _Kaydet"
 
-#: gedit/gedit-commands-file.c:675 gedit/gedit-commands-file.c:964
+#: gedit/gedit-commands-file.c:671 gedit/gedit-commands-file.c:960
 #, c-format
 msgid "Saving file “%s”…"
 msgstr "“%s” dosyası kaydediliyor…"
 
 #. Translators: "Save As" is the title of the file chooser window.
-#: gedit/gedit-commands-file.c:786
+#: gedit/gedit-commands-file.c:782
 msgctxt "window title"
 msgid "Save As"
 msgstr "Farklı Kaydet"
 
-#: gedit/gedit-commands-file.c:1375
+#: gedit/gedit-commands-file.c:1371
 #, c-format
 msgid "Reverting the document “%s”…"
 msgstr "“%s” belgesi eski durumuna getiriliyor…"
 
-#: gedit/gedit-commands-file.c:1422
+#: gedit/gedit-commands-file.c:1418
 #, c-format
 msgid "Revert unsaved changes to document “%s”?"
 msgstr ""
 "“%s” belgesi içerisinde yapılan değişiklikler eski durumuna döndürülsün mü?"
 
-#: gedit/gedit-commands-file.c:1431
+#: gedit/gedit-commands-file.c:1427
 #, c-format
 msgid ""
 "Changes made to the document in the last %ld second will be permanently lost."
@@ -784,12 +803,12 @@ msgid_plural ""
 msgstr[0] ""
 "Belge içerisinde son %ld saat içerisinde yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1440
+#: gedit/gedit-commands-file.c:1436
 msgid ""
 "Changes made to the document in the last minute will be permanently lost."
 msgstr "Belge içerisinde son bir dakikada yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1446
+#: gedit/gedit-commands-file.c:1442
 #, c-format
 msgid ""
 "Changes made to the document in the last minute and %ld second will be "
@@ -801,7 +820,7 @@ msgstr[0] ""
 "Belge içerisinde son bir dakikada ve %ld saniyede yapılan değişiklikler "
 "kaybolacak."
 
-#: gedit/gedit-commands-file.c:1456
+#: gedit/gedit-commands-file.c:1452
 #, c-format
 msgid ""
 "Changes made to the document in the last %ld minute will be permanently lost."
@@ -810,12 +829,12 @@ msgid_plural ""
 "lost."
 msgstr[0] "Belge içerisinde son %ld dakikada yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1471
+#: gedit/gedit-commands-file.c:1467
 msgid "Changes made to the document in the last hour will be permanently lost."
 msgstr ""
 "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1477
+#: gedit/gedit-commands-file.c:1473
 #, c-format
 msgid ""
 "Changes made to the document in the last hour and %d minute will be "
@@ -827,7 +846,7 @@ msgstr[0] ""
 "Belge içerisinde son bir saatte ve son %d dakikada yapılan değişiklikler "
 "kaybolacak."
 
-#: gedit/gedit-commands-file.c:1492
+#: gedit/gedit-commands-file.c:1488
 #, c-format
 msgid ""
 "Changes made to the document in the last %d hour will be permanently lost."
@@ -836,7 +855,7 @@ msgid_plural ""
 msgstr[0] ""
 "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1515
+#: gedit/gedit-commands-file.c:1511
 msgid "_Revert"
 msgstr "_Eski Durumuna Döndür"
 
@@ -937,11 +956,6 @@ msgstr "Daha yüksek önceliğe taşı"
 msgid "Move to a lower priority"
 msgstr "Daha düşük önceliğe taşı"
 
-#: gedit/gedit-factory.c:29
-#, c-format
-msgid "Untitled Document %d"
-msgstr "Adsız Belge %d"
-
 #: gedit/gedit-file-chooser.c:41
 msgid "All Files"
 msgstr "Tüm Dosyalar"
@@ -970,7 +984,6 @@ msgstr "Dosyaları Aç"
 #: gedit/resources/gtk/menus-common.ui:74
 #: gedit/resources/gtk/menus-common.ui:80
 #: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:7
-#: plugins/quickopen/quickopen/popup.py:46
 #: plugins/snippets/snippets/manager.py:790
 msgid "_Open"
 msgstr "_Aç"
@@ -1366,7 +1379,7 @@ msgstr "Düz Metin"
 msgid "There are unsaved documents"
 msgstr "Kaydedilmemiş belgeler var"
 
-#: gedit/gedit-window.c:2025
+#: gedit/gedit-window.c:2023
 msgid "Documents"
 msgstr "Belgeler"
 
@@ -1810,8 +1823,8 @@ msgid "_Paste"
 msgstr "_Yapıştır"
 
 #: gedit/resources/gtk/menus-common.ui:181
-#: plugins/filebrowser/gedit-file-browser-plugin.c:893
-#: plugins/filebrowser/gedit-file-browser-plugin.c:928
+#: plugins/filebrowser/gedit-file-browser-plugin.c:894
+#: plugins/filebrowser/gedit-file-browser-plugin.c:929
 #: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:37
 msgid "_Delete"
 msgstr "_Sil"
@@ -2028,15 +2041,11 @@ msgstr "Kendiliğinden _girintilemeyi etkinleştir"
 msgid "Editor"
 msgstr "Düzenleyici"
 
-#: gedit/resources/ui/gedit-preferences-dialog.ui:268
-msgid "Color Scheme"
-msgstr "Renk Şeması"
-
-#: gedit/resources/ui/gedit-preferences-dialog.ui:303
+#: gedit/resources/ui/gedit-preferences-dialog.ui:255
 msgid "Font & Colors"
 msgstr "Yazı Tipleri ve Renkler"
 
-#: gedit/resources/ui/gedit-preferences-dialog.ui:328
+#: gedit/resources/ui/gedit-preferences-dialog.ui:280
 msgid "Plugins"
 msgstr "Eklentiler"
 
@@ -2193,6 +2202,14 @@ msgstr "_Geriye doğru ara"
 msgid "Wra_p around"
 msgstr "Başa _sar"
 
+#: gedit/resources/ui/gedit-view-frame.ui:63
+msgid "Previous Result"
+msgstr "Önceki Sonuç"
+
+#: gedit/resources/ui/gedit-view-frame.ui:78
+msgid "Next Result"
+msgstr "Sonraki Sonuç"
+
 #: plugins/docinfo/docinfo.plugin.desktop.in:5
 #: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:7
 #: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:13
@@ -2325,15 +2342,15 @@ msgstr "Komut çalıştırılamadı: %s"
 msgid "You must be inside a word to run this command"
 msgstr "Bu komutu çalıştırmak için sözcüğün içinde olmanız gerekiyor"
 
-#: plugins/externaltools/tools/functions.py:309
+#: plugins/externaltools/tools/functions.py:307
 msgid "Running tool:"
 msgstr "Çalıştırılacak araç:"
 
-#: plugins/externaltools/tools/functions.py:340
+#: plugins/externaltools/tools/functions.py:338
 msgid "Done."
 msgstr "Bitti."
 
-#: plugins/externaltools/tools/functions.py:342
+#: plugins/externaltools/tools/functions.py:340
 msgid "Exited"
 msgstr "Çıkıldı"
 
@@ -2512,43 +2529,43 @@ msgstr "Ev"
 msgid "File System"
 msgstr "Dosya Sistemi"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:504
+#: plugins/filebrowser/gedit-file-browser-plugin.c:501
 msgid "File Browser"
 msgstr "Dosya Yöneticisi"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:633
+#: plugins/filebrowser/gedit-file-browser-plugin.c:634
 msgid "An error occurred while creating a new directory"
 msgstr "Yeni dizin oluşturulurken hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:636
+#: plugins/filebrowser/gedit-file-browser-plugin.c:637
 msgid "An error occurred while creating a new file"
 msgstr "Yeni dosya oluşturulurken hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:639
+#: plugins/filebrowser/gedit-file-browser-plugin.c:640
 msgid "An error occurred while renaming a file or directory"
 msgstr "Dosyanın ya da dizinin adı değiştirilirken hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:642
+#: plugins/filebrowser/gedit-file-browser-plugin.c:643
 msgid "An error occurred while deleting a file or directory"
 msgstr "Dosya ya da dizin silinirken hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:645
+#: plugins/filebrowser/gedit-file-browser-plugin.c:646
 msgid "An error occurred while opening a directory in the file manager"
 msgstr "Dizin dosya yöneticisinde açılırken hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:648
+#: plugins/filebrowser/gedit-file-browser-plugin.c:649
 msgid "An error occurred while setting a root directory"
 msgstr "Başlangıç dizini atanırken hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:651
+#: plugins/filebrowser/gedit-file-browser-plugin.c:652
 msgid "An error occurred while loading a directory"
 msgstr "Dizin yüklenirken hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:654
+#: plugins/filebrowser/gedit-file-browser-plugin.c:655
 msgid "An error occurred"
 msgstr "Hata oluştu"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:876
+#: plugins/filebrowser/gedit-file-browser-plugin.c:877
 msgid ""
 "Cannot move file to trash, do you\n"
 "want to delete permanently?"
@@ -2556,25 +2573,25 @@ msgstr ""
 "Dosya çöpe taşınamıyor, \n"
 " kalıcı olarak silmek ister misiniz?"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:881
+#: plugins/filebrowser/gedit-file-browser-plugin.c:882
 #, c-format
 msgid "The file “%s” cannot be moved to the trash."
 msgstr "“%s” dosyası çöpe taşınamıyor."
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:886
+#: plugins/filebrowser/gedit-file-browser-plugin.c:887
 msgid "The selected files cannot be moved to the trash."
 msgstr "Seçilen dosyalar çöpe taşınamıyor."
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:914
+#: plugins/filebrowser/gedit-file-browser-plugin.c:915
 #, c-format
 msgid "Are you sure you want to permanently delete “%s”?"
 msgstr "“%s” dosyasını kalıcı olarak silmek istediğinizden emin misiniz?"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:919
+#: plugins/filebrowser/gedit-file-browser-plugin.c:920
 msgid "Are you sure you want to permanently delete the selected files?"
 msgstr "Seçili dosyaları kalıcı olarak silmek istediğinizden emin misiniz?"
 
-#: plugins/filebrowser/gedit-file-browser-plugin.c:922
+#: plugins/filebrowser/gedit-file-browser-plugin.c:923
 msgid "If you delete an item, it is permanently lost."
 msgstr "Eğer ögeyi silerseniz kalıcı biçimde kaybolur."
 
@@ -2582,7 +2599,7 @@ msgstr "Eğer ögeyi silerseniz kalıcı biçimde kaybolur."
 msgid "(Empty)"
 msgstr "(Boş)"
 
-#: plugins/filebrowser/gedit-file-browser-store.c:3325
+#: plugins/filebrowser/gedit-file-browser-store.c:3333
 msgid ""
 "The renamed file is currently filtered out. You need to adjust your filter "
 "settings to make the file visible"
@@ -2591,11 +2608,11 @@ msgstr ""
 "süzgecinizi ayarlamanız gerekiyor"
 
 #. Translators: This is the default name of new files created by the file browser pane.
-#: plugins/filebrowser/gedit-file-browser-store.c:3576
+#: plugins/filebrowser/gedit-file-browser-store.c:3584
 msgid "Untitled File"
 msgstr "Adsız Dosya"
 
-#: plugins/filebrowser/gedit-file-browser-store.c:3604
+#: plugins/filebrowser/gedit-file-browser-store.c:3612
 msgid ""
 "The new file is currently filtered out. You need to adjust your filter "
 "settings to make the file visible"
@@ -2604,11 +2621,11 @@ msgstr ""
 "ayarlamanız gerekiyor"
 
 #. Translators: This is the default name of new directories created by the file browser pane.
-#: plugins/filebrowser/gedit-file-browser-store.c:3633
+#: plugins/filebrowser/gedit-file-browser-store.c:3641
 msgid "Untitled Folder"
 msgstr "Adsız Klasör"
 
-#: plugins/filebrowser/gedit-file-browser-store.c:3656
+#: plugins/filebrowser/gedit-file-browser-store.c:3664
 msgid ""
 "The new directory is currently filtered out. You need to adjust your filter "
 "settings to make the directory visible"
@@ -2833,7 +2850,7 @@ msgstr "_Komut rengi:"
 msgid "_Error color:"
 msgstr "_Hata rengi:"
 
-#: plugins/pythonconsole/pythonconsole/__init__.py:60
+#: plugins/pythonconsole/pythonconsole/__init__.py:61
 #: plugins/pythonconsole/pythonconsole.plugin.desktop.in:6
 msgid "Python Console"
 msgstr "Python Konsolu"
@@ -2849,23 +2866,6 @@ msgstr "Hızlı Vurgulama"
 #: plugins/quickhighlight/quickhighlight.plugin.desktop.in:6
 msgid "Highlights every occurrences of selected text."
 msgstr "Her seçili metni vurgular."
-
-#: plugins/quickopen/quickopen/__init__.py:47
-msgid "Quick Open…"
-msgstr "Hızlı Aç…"
-
-#: plugins/quickopen/quickopen.plugin.desktop.in:6
-#: plugins/quickopen/quickopen/popup.py:40
-msgid "Quick Open"
-msgstr "Hızlı Aç"
-
-#: plugins/quickopen/quickopen.plugin.desktop.in:7
-msgid "Quickly open files."
-msgstr "Dosyaları hızlıca açar."
-
-#: plugins/quickopen/quickopen/popup.py:90
-msgid "Type to search…"
-msgstr "Aramak için yazın…"
 
 #: plugins/snippets/snippets/appactivatable.py:88
 msgid "Manage _Snippets…"
@@ -3181,6 +3181,26 @@ msgstr "Yazım Denetleyicisi"
 msgid "Checks the spelling of the current document."
 msgstr "Geçerli belgede yazım denetimi yapar."
 
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "_Normal boyut"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "_Küçük Metin"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "_Büyük Metin"
+
+#: plugins/textsize/textsize.plugin.desktop.in:6
+msgid "Text Size"
+msgstr "Metin Boyutu"
+
+#: plugins/textsize/textsize.plugin.desktop.in:7
+msgid "Easily increase and decrease the text size."
+msgstr "Metin boyutunu kolayca büyüt ya da küçült."
+
 #: plugins/time/gedit-time-plugin.c:279
 msgid "In_sert Date and Time…"
 msgstr "Tarih ve Zaman _Ekle…"
@@ -3265,3 +3285,21 @@ msgstr "Tarih/Zaman Ekle"
 #: plugins/time/time.plugin.desktop.in:6
 msgid "Inserts current date and time at the cursor position."
 msgstr "İmlecin bulunduğu yere şimdiki tarihi ve zamanı ekler."
+
+#~ msgid "Quick Open…"
+#~ msgstr "Hızlı Aç…"
+
+#~ msgid "Quick Open"
+#~ msgstr "Hızlı Aç"
+
+#~ msgid "Quickly open files."
+#~ msgstr "Dosyaları hızlıca açar."
+
+#~ msgid "Type to search…"
+#~ msgstr "Aramak için yazın…"
+
+#~ msgid "Style Scheme"
+#~ msgstr "Biçem Şeması"
+
+#~ msgid "Color Scheme"
+#~ msgstr "Renk Şeması"

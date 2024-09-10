@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bustle main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/bustle/issues\n"
-"POT-Creation-Date: 2024-03-23 08:17+0000\n"
-"PO-Revision-Date: 2024-03-28 20:22+0300\n"
+"POT-Creation-Date: 2024-07-29 20:40+0000\n"
+"PO-Revision-Date: 2024-05-10 22:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 
 #: data/org.freedesktop.Bustle.desktop.in.in:3
 #: data/org.freedesktop.Bustle.metainfo.xml.in.in:9
@@ -33,7 +33,9 @@ msgstr "D-Bus etkinliğini görselleştir"
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.freedesktop.Bustle.desktop.in.in:10
 msgid "debug;profile;d-bus;dbus;sequence;monitor;"
-msgstr "hata ayıkla;debug;profil;d-bus,dbus;sekans;dizi;monitör;izle;"
+msgstr ""
+"debug;profile;d-bus;dbus;sequence;monitor;hata ayıkla;sekans;dizi;monitör;"
+"izle;"
 
 #: data/org.freedesktop.Bustle.desktop.in.in:19
 msgid "New Window"
@@ -81,7 +83,7 @@ msgid "Relax with this soothing greyscale welcome page"
 msgstr "Rahatlatıcı gri tonlamalı hoş geldiniz sayfasıyla rahatlayın"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.freedesktop.Bustle.metainfo.xml.in.in:134 src/window.rs:408
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:134 src/window.rs:411
 msgid "The Bustle developers"
 msgstr "Bustle geliştiricileri"
 
@@ -104,7 +106,7 @@ msgstr "İ_ptal"
 
 #. This is a verb
 #: data/resources/ui/address_dialog.ui:11 data/resources/ui/window.ui:91
-#: data/resources/ui/window.ui:203
+#: data/resources/ui/window.ui:199
 msgid "_Record"
 msgstr "_Kaydet"
 
@@ -336,7 +338,7 @@ msgid "PCAP"
 msgstr "PCAP"
 
 #. Translators: Dot is a type of file, do not translate.
-#: data/resources/ui/window.ui:29 src/window.rs:558
+#: data/resources/ui/window.ui:29 src/window.rs:562
 msgid "DOT Graph"
 msgstr "DOT Grafiği"
 
@@ -368,12 +370,12 @@ msgstr "Sistem Veri Yolunu Kaydet"
 msgid "Record Address…"
 msgstr "Kayıt Adresi…"
 
-#: data/resources/ui/window.ui:104 data/resources/ui/window.ui:235
+#: data/resources/ui/window.ui:104 data/resources/ui/window.ui:231
 msgid "Open Log File"
 msgstr "Günlük Dosyasını Aç"
 
 #: data/resources/ui/window.ui:112 data/resources/ui/window.ui:167
-#: data/resources/ui/window.ui:251
+#: data/resources/ui/window.ui:247
 msgid "Main Menu"
 msgstr "Ana Menü"
 
@@ -396,35 +398,35 @@ msgid "Loading"
 msgstr "Yükleniyor"
 
 #. This is a verb
-#: data/resources/ui/window.ui:219
+#: data/resources/ui/window.ui:215
 msgid "_Stop"
 msgstr "_Durdur"
 
-#: data/resources/ui/window.ui:241
+#: data/resources/ui/window.ui:237
 msgid "Filter Services"
 msgstr "Hizmetleri Süz"
 
-#: data/resources/ui/window.ui:257
+#: data/resources/ui/window.ui:253
 msgid "Details View"
 msgstr "Ayrıntılar Görünümü"
 
-#: data/resources/ui/window.ui:267
+#: data/resources/ui/window.ui:264
 msgid "Please Hold"
 msgstr "Lütfen Bekleyin"
 
-#: data/resources/ui/window.ui:268
+#: data/resources/ui/window.ui:265
 msgid "Waiting for D-Bus Traffic…"
 msgstr "D-Bus trafiğini bekleniyor…"
 
-#: src/message.rs:193
+#: src/message.rs:204
 msgid "No Reply Expected"
 msgstr "Yanıt Beklenmiyor"
 
-#: src/message.rs:194
+#: src/message.rs:205
 msgid "No Auto Start"
 msgstr "Kendiliğinden Başlatma Yok"
 
-#: src/message.rs:196
+#: src/message.rs:207
 msgid "Allow Interactive Authentication"
 msgstr "Etkileşimli Kimlik Doğrulamaya İzin Ver"
 
@@ -520,82 +522,82 @@ msgstr "Hata"
 msgid "Signal"
 msgstr "Sinyal"
 
-#: src/window.rs:131
+#: src/window.rs:134
 msgid "Recording session bus…"
 msgstr "Oturum veri yolu kaydediliyor…"
 
-#: src/window.rs:135
+#: src/window.rs:138
 msgid "Failed to record session bus"
 msgstr "Oturum veri yolu kaydedilemedi"
 
-#: src/window.rs:141
+#: src/window.rs:144
 msgid "Recording system bus…"
 msgstr "Sistem veri yolu kaydediliyor…"
 
-#: src/window.rs:146
+#: src/window.rs:149
 msgid "Failed to record system bus"
 msgstr "Sistem veri yolu kaydedilemedi"
 
 #. Translators: Do NOT translate the contents between '{' and '}', this
 #. is a variable name.
-#: src/window.rs:160
+#: src/window.rs:163
 msgid "Recording {address}…"
 msgstr "{address} kaydediliyor…"
 
-#: src/window.rs:169
+#: src/window.rs:172
 msgid "Failed to record address"
 msgstr "Adres kaydedilemedi"
 
-#: src/window.rs:186
+#: src/window.rs:189
 msgid "Failed to open file"
 msgstr "Dosya açılamadı"
 
-#: src/window.rs:198
+#: src/window.rs:201
 msgid "Failed to save as PCAP"
 msgstr "PCAP olarak kaydedilemedi"
 
-#: src/window.rs:201
+#: src/window.rs:204
 msgid "Recording saved as PCAP"
 msgstr "Kayıt, PCAP olarak kaydedildi"
 
-#: src/window.rs:212
+#: src/window.rs:215
 msgid "Failed to save as DOT graph"
 msgstr "DOT grafiği olarak kaydedilemedi"
 
-#: src/window.rs:215
+#: src/window.rs:218
 msgid "Recording saved as DOT graph"
 msgstr "Kayıt, DOT grafiği olarak kaydedildi"
 
-#: src/window.rs:407
+#: src/window.rs:410
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <libreajans@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
 #. Translators: PCAP is a type of file, do not translate.
-#: src/window.rs:497 src/window.rs:521
+#: src/window.rs:504 src/window.rs:528
 msgid "PCAP Files"
 msgstr "PCAP Dosyaları"
 
-#: src/window.rs:504
+#: src/window.rs:511
 msgid "Open Log"
 msgstr "Günlüğü Aç"
 
-#: src/window.rs:528
+#: src/window.rs:535
 msgid "Save Log"
 msgstr "Günlüğü Kaydet"
 
-#: src/window.rs:565
+#: src/window.rs:569
 msgid "Save Log as DOT Graph File"
 msgstr "Günlüğü DOT Grafik Dosyası Olarak Kaydet"
 
 #. Translators: Do NOT translate the contents between '{' and '}', this is a
 #. variable name.
-#: src/window.rs:634
+#: src/window.rs:637
 msgid "Logged {n_messages} message"
 msgid_plural "Logged {n_messages} messages"
 msgstr[0] "{n_messages} ileti günlüklendi"
 
-#: src/window.rs:651
+#: src/window.rs:654
 msgid "Copied to clipboard"
 msgstr "Panoya kopyalandı"

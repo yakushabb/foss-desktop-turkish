@@ -1,5 +1,5 @@
 # Turkish translation for geary
-# Copyright 2016-2022 Software Freedom Conservancy Inc.
+# Copyright 2016-2024 Software Freedom Conservancy Inc.
 # This file is distributed under the GNU LGPL, version 2.1.
 #
 # alperenelhan <alperen@elhan.org>, 2012
@@ -8,23 +8,23 @@
 # Necdet Yücel <necdetyucel@gmail.com>, 2015.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2014-2021.
-# Sabri Ünal <libreajans@gmail.com>, 2023.
+# Sabri Ünal <yakushabb@gmail.com>, 2023-2024.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2016-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: geary.mainline\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/geary/issues/\n"
-"POT-Creation-Date: 2024-02-25 08:05+0000\n"
-"PO-Revision-Date: 2024-02-25 03:36+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"POT-Creation-Date: 2024-09-01 20:19+0000\n"
+"PO-Revision-Date: 2024-06-25 13:34+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 
 #: desktop/geary-attach.contract.desktop.in:3
 msgid "Send by email"
@@ -260,8 +260,8 @@ msgstr "Tam metin arama için tavsiye niteliğinde izlem"
 msgid ""
 "Acceptable values are “exact”, “conservative”, “aggressive”, and “horizon”."
 msgstr ""
-"Kabul edilebilir değerler şunlardır: “exact” (birebir), "
-"“conservative” (ılımlı), “aggressive” (sert) ve “horizon”."
+"Kabul edilebilir değerler şunlardır: “exact” (birebir), “conservative” "
+"(ılımlı), “aggressive” (sert) ve “horizon”."
 
 #: desktop/org.gnome.Geary.gschema.xml:96
 msgid "Zoom of conversation viewer"
@@ -2306,68 +2306,90 @@ msgid "This message was sent, but has not been saved to your account."
 msgstr "Bu ileti gönderildi, ama hesabınıza kaydedilemedi."
 
 #. / Datetime format for 12-hour time, i.e. 8:31 am
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
-#: src/client/util/util-date.vala:69
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
+#: src/client/util/util-date.vala:70
+#, no-c-format
 msgid "%l:%M %P"
 msgstr "%l:%M %P"
 
 #. / Datetime format for 24-hour time, i.e. 16:35
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
-#: src/client/util/util-date.vala:72
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
+#: src/client/util/util-date.vala:74
+#, no-c-format
 msgid "%H:%M"
 msgstr "%H:%M"
 
+# https://docs.gtk.org/glib/method.DateTime.format.html
+# Örnek:
+# 1 Haz
+# 30 Haz
 #. / Datetime format for the locale default, i.e. 8:31 am or 16:35,
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
 #. / Date format for dates within the current year, i.e. Nov 8
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
-#: src/client/util/util-date.vala:79
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
+#: src/client/util/util-date.vala:82
+#, no-c-format
 msgid "%b %-e"
 msgstr "%-e %b"
 
+# https://docs.gtk.org/glib/method.DateTime.format.html
+# Örnek: 
+# 1 Haziran 2024, 8:30 öö
+# 30 Haziran 2024, 8:30 ös
 #. / Verbose datetime format for 12-hour time, i.e. November 8, 2010 8:42 am
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
-#: src/client/util/util-date.vala:84
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
+#: src/client/util/util-date.vala:88
+#, no-c-format
 msgid "%B %-e, %Y %-l:%M %P"
 msgstr "%-e %B %Y, %-l:%M %P"
 
+# https://docs.gtk.org/glib/method.DateTime.format.html
+# Örnek:
+# 1 Haziran 2024, 20:30
+# 30 Haziran 2024, 20:30
 #. / Verbose datetime format for 24-hour time, i.e. November 8, 2010 16:35
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
-#: src/client/util/util-date.vala:87
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
+#: src/client/util/util-date.vala:92
+#, no-c-format
 msgid "%B %-e, %Y %-H:%M"
 msgstr "%-e %B %Y, %-H:%M"
 
+# https://docs.gtk.org/glib/method.DateTime.format.html
+# Örnek:
+# 1 Haziran 2024, 8:30 öö
+# 30 Haziran 2024, 8:30 ös
 #. / Verbose datetime format for the locale default (full month, day and time)
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
-#: src/client/util/util-date.vala:90
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
+#: src/client/util/util-date.vala:96
+#, no-c-format
 msgctxt "Default full date"
 msgid "%B %-e, %Y %-l:%M %P"
 msgstr "%-e %B %Y, %-l:%M %P"
 
-#: src/client/util/util-date.vala:159
+#: src/client/util/util-date.vala:165
 msgid "Now"
 msgstr "Şimdi"
 
-#: src/client/util/util-date.vala:162
+#: src/client/util/util-date.vala:168
 #, c-format
 msgid "%dm ago"
 msgid_plural "%dm ago"
 msgstr[0] "%d dk. önce"
 
-#: src/client/util/util-date.vala:166
+#: src/client/util/util-date.vala:172
 #, c-format
 msgid "%dh ago"
 msgid_plural "%dh ago"
 msgstr[0] "%d sa. önce"
 
-#: src/client/util/util-date.vala:173
+#: src/client/util/util-date.vala:179
 msgid "Yesterday"
 msgstr "Dün"
 
 #. / Date format that shows the weekday (Monday, Tuesday, ...)
-#. / See http://developer.gnome.org/glib/2.32/glib-GDateTime.html#g-date-time-format
-#: src/client/util/util-date.vala:178
-#, c-format
+#. / See https://docs.gtk.org/glib/method.DateTime.format.html
+#: src/client/util/util-date.vala:185
+#, no-c-format
 msgid "%A"
 msgstr "%A"
 
@@ -3678,22 +3700,3 @@ msgstr "Parolayı _anımsa"
 #: ui/password-dialog.glade:195
 msgid "_Authenticate"
 msgstr "_Kimlik Doğrula"
-
-#~ msgid "Email to %s saved"
-#~ msgstr "Şun(lar)a gidecek e-posta kaydedildi: %s"
-
-#~ msgid "Sending…"
-#~ msgstr "Gönderiliyor…"
-
-#~ msgid "Error sending email"
-#~ msgstr "E-posta gönderme hatası"
-
-#~ msgid "Error saving sent mail"
-#~ msgstr "Gönderilmiş posta kaydedilirken hata"
-
-#~ msgid "Move conversation"
-#~ msgid_plural "Move conversations"
-#~ msgstr[0] "Konuşmayı taşı"
-
-#~ msgid "_Archive"
-#~ msgstr "_Arşivle"

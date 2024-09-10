@@ -4,28 +4,28 @@
 # This file is distributed under the same license as the gnome-firmware package.
 #
 # Sabri Ünal <libreajans@gmail.com>, 2019, 2022, 2023.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2022, 2023.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-firmware master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gnome-firmware/-/"
 "issues\n"
-"POT-Creation-Date: 2024-03-28 10:58+0000\n"
-"PO-Revision-Date: 2023-11-30 18:04+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"POT-Creation-Date: 2024-08-18 10:28+0000\n"
+"PO-Revision-Date: 2024-06-27 08:08+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.3\n"
 
 #. TRANSLATORS: the application name
 #. window title
 #: data/appdata/org.gnome.Firmware.metainfo.xml.in:9
-#: data/org.gnome.Firmware.desktop.in:3 src/gfu-main.ui:84
+#: data/org.gnome.Firmware.desktop.in:3 src/gfu-main.ui:108
 msgid "Firmware"
 msgstr "Donanım Yazılımı"
 
@@ -59,6 +59,16 @@ msgstr "Richard Hughes"
 msgid "Firmware;"
 msgstr ""
 "Firmware;Donanım Yazılımı;Üretici Yazılımı;Aygıt Yazılımı;Ürün Yazılımı;"
+
+#. TRANSLATORS: schema summary
+#: data/org.gnome.Firmware.gschema.xml:6
+msgid "Timestamp of the last device list request"
+msgstr "Son aygıt listesi isteğinin zaman damgası"
+
+#. TRANSLATORS: schema description
+#: data/org.gnome.Firmware.gschema.xml:8
+msgid "The timestamp of the last time we uploaded the device list."
+msgstr "Aygıt listesinin en son yüklendiği zaman damgası."
 
 #. TRANSLATORS: We verified the payload against the server
 #: src/gfu-common.c:144
@@ -356,169 +366,212 @@ msgid "Waiting for user…"
 msgstr "Kullanıcı bekleniyor…"
 
 #. TRANSLATORS: the attestation failed
-#: src/gfu-main.c:262
+#: src/gfu-main.c:277
 msgid "Not OK"
 msgstr "Tamam Değil"
 
 #. TRANSLATORS: the checksum verified
-#: src/gfu-main.c:267 src/gfu-main.c:1145
+#: src/gfu-main.c:282 src/gfu-main.c:1418
 msgid "OK"
 msgstr "Tamam"
 
 #. TRANSLATORS: as in laptop battery power
-#: src/gfu-main.c:278
+#: src/gfu-main.c:293
 msgid "System power is too low to perform the update"
 msgstr "Güncellemek için sistem gücü çok düşük"
 
 #. TRANSLATORS: as in laptop battery power
-#: src/gfu-main.c:282
+#: src/gfu-main.c:297
 #, c-format
 msgid "System power is too low to perform the update (%u%%, requires %u%%)"
 msgstr "Güncellemek için sistem gücü çok düşük (%%%u, %%%u gerekli)"
 
 #. TRANSLATORS: for example, a Bluetooth mouse that is in powersave mode
-#: src/gfu-main.c:288
+#: src/gfu-main.c:303
 msgid "Device is unreachable, or out of wireless range"
 msgstr "Aygıta erişilemiyor, kablosuz kapsamı dışında"
 
 #. TRANSLATORS: for example the batteries *inside* the Bluetooth mouse
-#: src/gfu-main.c:295
+#: src/gfu-main.c:310
 msgid "Device battery power is too low"
 msgstr "Aygıt pil gücü çok düşük"
 
 #. TRANSLATORS: for example the batteries *inside* the Bluetooth mouse
-#: src/gfu-main.c:298
+#: src/gfu-main.c:313
 #, c-format
 msgid "Device battery power is too low (%u%%, requires %u%%)"
 msgstr "Aygıt pil gücü çok düşük (%%%u, %%%u gerekli)"
 
 #. TRANSLATORS: usually this is when we're waiting for a reboot
-#: src/gfu-main.c:304
+#: src/gfu-main.c:319
 msgid "Device is waiting for the update to be applied"
 msgstr "Aygıt güncellemenin uygulanmasını bekliyor"
 
 #. TRANSLATORS: as in, wired mains power for a laptop
-#: src/gfu-main.c:308
+#: src/gfu-main.c:323
 msgid "Device requires AC power to be connected"
 msgstr "Aygıt fişe takılmalıdır"
 
 #. TRANSLATORS: lid means "laptop top cover"
-#: src/gfu-main.c:312
+#: src/gfu-main.c:327
 msgid "Device cannot be used while the lid is closed"
 msgstr "Dizüstü bilgisayar kapağı kapalıyken aygıt kullanılamaz"
 
 #. TRANSLATORS: device cannot be interrupted, for instance taking a phone call
-#: src/gfu-main.c:317
+#: src/gfu-main.c:331
 msgid "Device is in use"
 msgstr "Aygıt kullanımda"
 
 #. TRANSLATORS: device cannot be interrupted, for instance taking a phone call
-#: src/gfu-main.c:323
+#: src/gfu-main.c:335
 msgid "Device cannot be used while there are no displays plugged in"
 msgstr "Ekran takılı değilken aygıt kullanılamaz"
 
 #. TRANSLATORS: the hw IDs the device defines,
 #. * e.g. USB:0x1234
-#: src/gfu-main.c:422 src/gfu-main.ui:230
+#: src/gfu-main.c:434 src/gfu-main.ui:203
 msgid "Vendor ID"
 msgid_plural "Vendor IDs"
 msgstr[0] "Satıcı Kimliği"
 
 #. TRANSLATORS: the checksum state was unknown
-#: src/gfu-main.c:452
+#: src/gfu-main.c:462
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
 #. TRANSLATORS: error in shutting down the system
-#: src/gfu-main.c:529
+#: src/gfu-main.c:539
 msgid "Failed to shutdown device"
 msgstr "Aygıt kapatılamadı"
 
-#: src/gfu-main.c:530
+#: src/gfu-main.c:540
 msgid "A manual shutdown is required."
 msgstr "Elle kapatma gereklidir."
 
 #. TRANSLATORS: error in rebooting down the system
-#: src/gfu-main.c:544
+#: src/gfu-main.c:554
 msgid "Failed to reboot device"
 msgstr "Aygıt yeniden başlatılamadı"
 
-#: src/gfu-main.c:545
+#: src/gfu-main.c:555
 msgid "A manual reboot is required."
 msgstr "Elle yeniden başlatma gereklidir."
 
 #. TRANSLATORS: fwupd refused us data
-#: src/gfu-main.c:563
+#: src/gfu-main.c:612
 msgid "Failed to load list of remotes"
 msgstr "Uzak listesi yüklenemedi"
 
+#. TRANSLATORS: the LVFS remote could not be enabled
+#: src/gfu-main.c:729
+msgid "Failed to send report to the LVFS"
+msgstr "LVFSʼye rapor gönderilemedi"
+
+#. TRANSLATORS: dialog title
+#: src/gfu-main.c:781
+msgid "Upload Device List?"
+msgstr "Aygıt Listesi Yüklensin Mi?"
+
+#. TRANSLATORS: dialog body, %1 is typically "Linux Vendor Firmware Service"
+#. *  and %2 is a URL to the privacy policy
+#: src/gfu-main.c:786
+#, c-format
+msgid ""
+"Help to improve the %s by sending the list of current devices? The list is "
+"anonymous and does not include personally identifiable information  — see "
+"the <a href=\"%s\">privacy policy</a> for more information."
+msgstr ""
+"Aygıtlarınızın listesini göndererek %s geliştirilmesine yardımcı olmak ister "
+"misiniz? Aygıt listesi anonimdir ve kişisel bilgi içermez. Daha çok bilgi "
+"için <a href=\"%s\">gizlilik ilkesine</a> bakınız."
+
+#. TRANSLATORS: button text
+#: src/gfu-main.c:794 src/gfu-main.c:1524
+msgid "_Cancel"
+msgstr "İ_ptal"
+
+#. TRANSLATORS: button text
+#: src/gfu-main.c:797
+msgid "_Upload"
+msgstr "_Yükle"
+
+#. TRANSLATORS: header before the JSON listing
+#: src/gfu-main.c:807
+msgid "Device List"
+msgstr "Aygıt Listesi"
+
 #. TRANSLATORS: fwupd refused us data
-#: src/gfu-main.c:672
+#: src/gfu-main.c:919
 msgid "Failed to load device list"
 msgstr "Aygıt listesi yüklenemedi"
 
 #. TRANSLATORS: no devices supporting firmware updates were found
-#: src/gfu-main.c:697
+#: src/gfu-main.c:944
 msgid "No supported devices were found…"
 msgstr "Desteklenen aygıt bulunamadı…"
 
 #. TRANSLATORS: the list of available firmware failed to be updated
-#: src/gfu-main.c:799
+#: src/gfu-main.c:1079
 msgid "Failed to refresh metadata"
 msgstr "Üst veri yenilenemedi"
 
-#. TRANSLATORS: the LVFS remote was not found on the system
-#: src/gfu-main.c:814
-msgid "Failed to find LVFS"
-msgstr "LVFS bulunamadı"
-
 #. TRANSLATORS: the LVFS remote could not be enabled
-#: src/gfu-main.c:841
+#: src/gfu-main.c:1111
 msgid "Failed to enable LVFS"
 msgstr "LVFS etkinleştirilemedi"
 
 #. TRANSLATORS: fwupd refused us data
-#: src/gfu-main.c:882
+#: src/gfu-main.c:1127
 msgid "Failed to get remotes list"
 msgstr "Uzak listesi alınamadı"
 
+#. TRANSLATORS: dialog title
+#: src/gfu-main.c:1166
+msgid "No report to upload"
+msgstr "Yüklenecek rapor yok"
+
+#. TRANSLATORS: dialog title
+#: src/gfu-main.c:1168
+msgid "There are no unsupported devices detected."
+msgstr "Desteklenmeyen aygıtlar algılandı."
+
 #. TRANSLATORS: the user needs to do something, e.g. remove the device
-#: src/gfu-main.c:933
+#: src/gfu-main.c:1203
 msgid "To complete the update further action is required"
 msgstr "Güncellemeyi tamamlamak için işlem gereklidir"
 
 #. TRANSLATORS: the user needs to do something, e.g. remove the device
-#: src/gfu-main.c:936
+#: src/gfu-main.c:1206
 msgid "Action is required"
 msgstr "Eylem gerekli"
 
 #. TRANSLATORS: the firmware install failed for an unspecified reason
-#: src/gfu-main.c:1036
+#: src/gfu-main.c:1309
 msgid "Failed to install firmware"
 msgstr "Donanım yazılımı kurulamadı"
 
 #. TRANSLATORS: prompting a shutdown to the user
-#: src/gfu-main.c:1060
+#: src/gfu-main.c:1333
 msgid "The update requires the system to shutdown to complete."
 msgstr "Güncellemenin tamamlanabilmesi için sistemin kapatılması gereklidir."
 
-#: src/gfu-main.c:1063 src/gfu-main.c:1751
+#: src/gfu-main.c:1336 src/gfu-main.c:2028
 msgid "Shutdown now?"
 msgstr "Şimdi kapatılsın mı?"
 
 #. TRANSLATORS: prompting a reboot to the user
-#: src/gfu-main.c:1076
+#: src/gfu-main.c:1349
 msgid "The update requires a reboot to complete."
 msgstr "Güncellemenin tamamlanabilmesi için yeniden başlatma gereklidir."
 
 #. TRANSLATORS: button text
-#: src/gfu-main.c:1079 src/gfu-main.c:1769
+#: src/gfu-main.c:1352 src/gfu-main.c:2046
 msgid "Restart now?"
 msgstr "Şimdi yeniden başlatılsın mı?"
 
 #. TRANSLATORS: inform the user that the
 #. installation was successful onto the device
-#: src/gfu-main.c:1093
+#: src/gfu-main.c:1366
 msgid "Installation successful"
 msgstr "Kurulum başarılı"
 
@@ -526,53 +579,53 @@ msgstr "Kurulum başarılı"
 # s2: device name
 #. TRANSLATORS: dialog text, %1 is a
 #. * version number, %2 is a device name
-#: src/gfu-main.c:1097
+#: src/gfu-main.c:1370
 #, c-format
 msgid "Installed firmware version %s on %s."
 msgstr "%2$s aygıtına %1$s donanım yazılımı sürümü kuruldu."
 
 #. TRANSLATORS: e.g. bitlocker
-#: src/gfu-main.c:1144
+#: src/gfu-main.c:1417
 msgid "Full disk encryption detected"
 msgstr "Tam disk şifrelemesi algılandı"
 
 #. TRANSLATORS: buttons
-#: src/gfu-main.c:1146 src/gfu-main.c:1190
+#: src/gfu-main.c:1419 src/gfu-main.c:1463
 msgid "Cancel"
 msgstr "İptal"
 
 #. TRANSLATORS: the platform secret is stored in the PCRx registers on the TPM
-#: src/gfu-main.c:1152
+#: src/gfu-main.c:1425
 msgid ""
 "Some of the platform secrets may be invalidated when updating this firmware."
 msgstr ""
 "Bu donanım yazılımı güncellenirken bazı platform gizleri geçersizleşebilir."
 
 #. TRANSLATORS: 'recovery key' here refers to a code, rather than a metal thing
-#: src/gfu-main.c:1154
+#: src/gfu-main.c:1427
 msgid "Please ensure you have the volume recovery key before continuing."
 msgstr ""
 "Sürdürmeden önce lütfen birim kurtarma anahtarınız olduğunuza emin olun."
 
 #. TRANSLATORS: title, %1 is the firmware vendor, %2 is the
 #. device vendor name
-#: src/gfu-main.c:1173
+#: src/gfu-main.c:1446
 #, c-format
 msgid "The firmware from %s is not supplied by %s"
 msgstr "%s donanım yazılımı, %s tarafından sağlanmadı"
 
 #. TRANSLATORS: branch switch title
-#: src/gfu-main.c:1178
+#: src/gfu-main.c:1451
 msgid "The firmware is not supplied by the vendor"
 msgstr "Donanım yazılımı satıcıca sağlanmadı"
 
 #. TRANSLATORS: button text to switch to another stream of firmware
-#: src/gfu-main.c:1192
+#: src/gfu-main.c:1465
 msgid "Switch Branch"
 msgstr "Dal Değiştir"
 
 #. TRANSLATORS: %1 is the device vendor name
-#: src/gfu-main.c:1197
+#: src/gfu-main.c:1470
 #, c-format
 msgid ""
 "Your hardware may be damaged using this firmware, and installing this "
@@ -582,7 +635,7 @@ msgstr ""
 "sürümün kurulması %s garantisini bozabilir."
 
 #. TRANSLATORS: the vendor is unknown
-#: src/gfu-main.c:1204
+#: src/gfu-main.c:1477
 msgid ""
 "Your hardware may be damaged using this firmware, and installing this "
 "release may void any warranty with the vendor."
@@ -591,382 +644,393 @@ msgstr ""
 "yüklenmesi satıcıca sağlanan garantiyi bozabilir."
 
 #. TRANSLATORS: should the branch be changed
-#: src/gfu-main.c:1211
+#: src/gfu-main.c:1484
 msgid "You must understand the consequences of changing the firmware branch."
 msgstr "Donanım yazılımı dalını değiştirmenin sonuçlarını iyi anlamalısınız."
 
 #. TRANSLATORS: %1 is device name, %2 is the version
-#: src/gfu-main.c:1231
+#: src/gfu-main.c:1504
 #, c-format
 msgid "Reinstall %s firmware version %s?"
 msgstr "%s donanım yazılımı %s sürümü yeniden kurulsun mu?"
 
 #. TRANSLATORS: %1 is device name, %2 is the version
-#: src/gfu-main.c:1234
+#: src/gfu-main.c:1507
 #, c-format
 msgid "Upgrade %s firmware version %s?"
 msgstr "%s donanım yazılımı %s sürümüne yükseltilsin mi?"
 
 #. TRANSLATORS: %1 is device name, %2 is the version
-#: src/gfu-main.c:1237
+#: src/gfu-main.c:1510
 #, c-format
 msgid "Downgrade %s firmware version %s?"
 msgstr "%s donanım yazılımı %s sürümüne düşürülsün mü?"
 
 #. TRANSLATORS: %1 is device name, %2 is the version
-#: src/gfu-main.c:1240
+#: src/gfu-main.c:1513
 #, c-format
 msgid "Install %s firmware version %s?"
 msgstr "%s donanım yazılımı %s sürümü kurulsun mu?"
 
-#. TRANSLATORS: button text
-#: src/gfu-main.c:1251
-msgid "_Cancel"
-msgstr "İ_ptal"
-
 #. TRANSLATORS: button text: install the same version again
-#: src/gfu-main.c:1256
+#: src/gfu-main.c:1529
 msgid "_Reinstall"
 msgstr "_Yeniden Kur"
 
 #. TRANSLATORS: button text, move from old -> new
-#: src/gfu-main.c:1262
+#: src/gfu-main.c:1535
 msgid "_Upgrade"
 msgstr "_Yükselt"
 
 #. TRANSLATORS: button text, move from new -> old
-#: src/gfu-main.c:1266
+#: src/gfu-main.c:1539
 msgid "_Downgrade"
 msgstr "Sürüm _Düşür"
 
 #. TRANSLATORS: the device can be used normallly
-#: src/gfu-main.c:1274
+#: src/gfu-main.c:1547
 msgid "The device will remain usable for the duration of the update"
 msgstr "Aygıt, güncelleme süresince kullanılabilecektir"
 
 #. TRANSLATORS: the device will be non-fuctional for a while
-#: src/gfu-main.c:1280
+#: src/gfu-main.c:1553
 msgid "The device will be unusable while the update is installing"
 msgstr "Güncelleme kurulurken aygıt kullanılamayacaktır"
 
 #. TRANSLATORS: verify means checking the actual checksum of the firmware
-#: src/gfu-main.c:1352
+#: src/gfu-main.c:1625
 msgid "Failed to verify firmware"
 msgstr "Donanım yazılımı doğrulanamadı"
 
 #. TRANSLATORS: inform the user that the
 #. firmware verification was successful
-#: src/gfu-main.c:1363
+#: src/gfu-main.c:1636
 msgid "Verification succeeded"
 msgstr "Doğrulama başarılı"
 
 #. TRANSLATORS: firmware is cryptographically identical
-#: src/gfu-main.c:1367
+#: src/gfu-main.c:1640
 #, c-format
 msgid "%s firmware checksums matched"
 msgstr "%s donanım yazılımı sağlama toplamı eşleşti"
 
 #. TRANSLATORS: dialog title
-#: src/gfu-main.c:1397
+#: src/gfu-main.c:1670
 msgid "Verify firmware checksums?"
 msgstr "Donanım yazılımı sağlama toplamları doğrulansın mı?"
 
 #. TRANSLATORS: device will "go away" and then "come back"
-#: src/gfu-main.c:1402
+#: src/gfu-main.c:1675
 msgid "The device may be unusable during this action"
 msgstr "Bu eylem süresince aygıt kullanılamayabilir"
 
 #. TRANSLATORS: verify means checking the actual checksum of the firmware
-#: src/gfu-main.c:1415
+#: src/gfu-main.c:1688
 msgid "Failed to update checksums"
 msgstr "Sağlama toplamları güncellenemedi"
 
 #. TRANSLATORS: dialog title
-#: src/gfu-main.c:1445
+#: src/gfu-main.c:1718
 msgid "Update cryptographic hash"
 msgstr "Kriptografik özeti güncelle"
 
 #. TRANSLATORS: save what we have now as "valid"
-#: src/gfu-main.c:1450
+#: src/gfu-main.c:1723
 msgid "Record current device cryptographic hashes as verified?"
 msgstr ""
 "Geçerli aygıtın kriptografik özetleri doğrulanmış olarak kaydedilsin mi?"
 
 # GNOME Firmware uygulama adıdır. Çevirmeyin.
 #. TRANSLATORS: command description
-#: src/gfu-main.c:1478 src/gfu-main.c:1976
+#: src/gfu-main.c:1751 src/gfu-main.c:2316
 msgid "GNOME Firmware"
 msgstr "GNOME Firmware"
 
 #. TRANSLATORS: you can put your name here :)
-#: src/gfu-main.c:1489
+#: src/gfu-main.c:1762
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <libreajans@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/gfu-main.c:1543
+#: src/gfu-main.c:1822
 msgid "Category"
 msgid_plural "Categories"
 msgstr[0] "Kategori"
 
 #. title: hashes of the file payload
-#: src/gfu-main.c:1562 src/gfu-main.ui:680
+#: src/gfu-main.c:1841 src/gfu-main.ui:627
 msgid "Checksum"
 msgid_plural "Checksums"
 msgstr[0] "Sağlama Toplamı"
 
 #. TRANSLATORS: list of security issues, e.g. CVEs
-#: src/gfu-main.c:1580
+#: src/gfu-main.c:1859
 msgid "Fixed Issue"
 msgid_plural "Fixed Issues"
 msgstr[0] "Düzeltilen Sorunlar"
 
 #. TRANSLATORS: as in non-free
-#: src/gfu-main.c:1618
+#: src/gfu-main.c:1897
 msgid "Proprietary"
 msgstr "Sahipli"
 
 #. TRANSLATORS: maybe try Linux?
-#: src/gfu-main.c:1710 src/gfu-main.c:1813
+#: src/gfu-main.c:1983 src/gfu-main.c:2120
 msgid "The fwupd service is not available for your OS."
 msgstr "İşletim sisteminizde fwupd hizmeti yok."
 
 #. TRANSLATORS: unlock means to make the device functional in another mode
-#: src/gfu-main.c:1734
+#: src/gfu-main.c:2011
 msgid "Failed to unlock device"
 msgstr "Aygıt kilidi açılamadı"
 
 #. TRANSLATORS: prompting a shutdown to the user
-#: src/gfu-main.c:1748
+#: src/gfu-main.c:2025
 msgid "Unlocking a device requires the system to shutdown to complete."
 msgstr "Aygıt kilidinin kaldırılabilmesi için sistemin kapatılması gereklidir."
 
 #. TRANSLATORS: prompting a reboot to the user
-#: src/gfu-main.c:1765
+#: src/gfu-main.c:2042
 msgid "Unlocking a device requires a reboot to complete."
 msgstr "Aygıt kilidinin kaldırılabilmesi için yeniden başlatma gereklidir."
 
 #. TRANSLATORS: command line option
-#: src/gfu-main.c:1965
+#: src/gfu-main.c:2305
 msgid "Show extra debugging information"
 msgstr "Ek hata ayıklama bilgisi göster"
 
 #. TRANSLATORS: the user has sausages for fingers
-#: src/gfu-main.c:1980
+#: src/gfu-main.c:2320
 msgid "Failed to parse command line options"
 msgstr "Komut satırı seçenekleri ayrıştırılamadı"
 
 #. window title
-#: src/gfu-main.ui:50
+#: src/gfu-main.ui:56
 msgid "Devices"
 msgstr "Aygıtlar"
 
-#: src/gfu-main.ui:57
+#: src/gfu-main.ui:63
 msgid "Main Menu"
 msgstr "Ana Menü"
 
-#. LVFS is an online firmware provider
-#: src/gfu-main.ui:112
-msgid "LVFS is not enabled"
-msgstr "LVFS etkinleştirilmemiş"
-
-#. we need metadata so we know where to get the firmware from
-#: src/gfu-main.ui:122
-msgid ""
-"Firmware metadata can be obtained from the Linux Vendor Firmware Service at "
-"no cost."
-msgstr ""
-"Üretici yazılımı üst verileri, Linux Vendor Firmware Service’ten ücretsiz "
-"alınabilir."
+#. banner title
+#: src/gfu-main.ui:73
+msgid "Unsupported Devices Detected"
+msgstr "Desteklenmeyen Aygıtlar Algılandı"
 
 #. button text
-#: src/gfu-main.ui:133
-msgid "Enable"
-msgstr "Etkinleştir"
+#: src/gfu-main.ui:74
+msgid "Show Details…"
+msgstr "Ayrıntıları Göster…"
+
+#. banner title
+#: src/gfu-main.ui:79
+msgid "Firmware Service Disabled"
+msgstr "Donanım Yazılımı Hizmeti Devre Dışı"
+
+#. button text
+#: src/gfu-main.ui:80
+msgid "Enable…"
+msgstr "Etkinleştir…"
+
+#. banner title
+#: src/gfu-main.ui:85
+msgid "Firmware Metadata Outdated"
+msgstr "Donanım Yazılımı Üst Verileri Güncel Değil"
+
+#. button text
+#: src/gfu-main.ui:86
+msgid "Refresh…"
+msgstr "_Yenile…"
 
 #. group title
-#: src/gfu-main.ui:164
+#: src/gfu-main.ui:137
 msgid "Device Properties"
 msgstr "Aygıt Özellikleri"
 
 #. title: device version
-#: src/gfu-main.ui:169
+#: src/gfu-main.ui:142
 msgid "Current Version"
 msgstr "Var Olan Sürüm"
 
 #. title: if the device is locked
-#: src/gfu-main.ui:179
+#: src/gfu-main.ui:152
 msgid "Lock Status"
 msgstr "Kilit Durumu"
 
 #. title: the lowest version we can update to
-#: src/gfu-main.ui:190
+#: src/gfu-main.ui:163
 msgid "Minimum Version"
 msgstr "Asgari Sürüm"
 
 #. title: the version of the [read only] bootloader
-#: src/gfu-main.ui:200
+#: src/gfu-main.ui:173
 msgid "Bootloader Version"
 msgstr "Önyükleyici Sürümü"
 
 #. title: device manufacturer
 #. title: manufacturer that supplied the file
-#: src/gfu-main.ui:210 src/gfu-main.ui:538
+#: src/gfu-main.ui:183 src/gfu-main.ui:485
 msgid "Vendor"
 msgstr "Satıcı"
 
 #. title: firmware stream, e.g. coreboot
-#: src/gfu-main.ui:220
+#: src/gfu-main.ui:193
 msgid "Branch"
 msgstr "Dal"
 
 #. title: ime in seconds to update
 #. title: time to deploy this specific update
-#: src/gfu-main.ui:240 src/gfu-main.ui:640
+#: src/gfu-main.ui:213 src/gfu-main.ui:587
 msgid "Install Duration"
 msgstr "Kurulum Süresi"
 
 #. title: how many times the device can be updated
-#: src/gfu-main.ui:250
+#: src/gfu-main.ui:223
 msgid "Flashes Left"
 msgstr "Kalan Çakış"
 
 #. title: the error text from las time
-#: src/gfu-main.ui:260
+#: src/gfu-main.ui:233
 msgid "Update Error"
 msgstr "Güncelleme Hatası"
 
 #. title: problems why we can't use the device
-#: src/gfu-main.ui:276
+#: src/gfu-main.ui:249
 msgid "Problems"
 msgstr "Sorunlar"
 
 #. title: device unique ID
-#: src/gfu-main.ui:292
+#: src/gfu-main.ui:265
 msgid "Serial Number"
 msgstr "Seri Numarası"
 
 #. title: if we can verify the firmware
-#: src/gfu-main.ui:302
+#: src/gfu-main.ui:275
 msgid "Attestation"
 msgstr "Onay"
 
 #. button: save as trusted
-#: src/gfu-main.ui:319
+#: src/gfu-main.ui:292
 msgid "_Store…"
 msgstr "_Depola…"
 
 #. button: verify the checksum
-#: src/gfu-main.ui:333
+#: src/gfu-main.ui:306
 msgid "_Verify"
 msgstr "_Doğrula"
 
-#: src/gfu-main.ui:345
+#: src/gfu-main.ui:318
 msgid "Hardware Identification"
 msgstr "Donanım Kimlikleme"
 
 #. title: Information about the release, e.g. is-signed
-#: src/gfu-main.ui:358 src/gfu-main.ui:630
+#: src/gfu-main.ui:323 src/gfu-main.ui:577
 msgid "Flags"
 msgstr "İmler"
 
 #. title: there is firmware we can install
-#: src/gfu-main.ui:375
+#: src/gfu-main.ui:330
 msgid "Available Releases"
 msgstr "Kullanılabilir Sürümler"
 
 #. title: there are no releases to install
-#: src/gfu-main.ui:391
+#: src/gfu-main.ui:338
 msgid "No Releases Available"
 msgstr "Kullanılabilir Sürüm Yok"
 
 #. title: when starting
-#: src/gfu-main.ui:404
+#: src/gfu-main.ui:351
 msgid "Loading"
 msgstr "Yükleniyor"
 
 #. more information about when we're loading
-#: src/gfu-main.ui:420
+#: src/gfu-main.ui:367
 msgid "Loading devices…"
 msgstr "Aygıtlar yükleniyor…"
 
 #. title: no devices could be found we can update
-#: src/gfu-main.ui:436
+#: src/gfu-main.ui:383
 msgid "No Devices"
 msgstr "Aygıt Yok"
 
 #. title: one line
-#: src/gfu-main.ui:505
+#: src/gfu-main.ui:452
 msgid "Summary"
 msgstr "Özet"
 
 #. title: multiple lines of prose
-#: src/gfu-main.ui:520
+#: src/gfu-main.ui:467
 msgid "Description"
 msgstr "Açıklama"
 
 #. title: what we are downloading
-#: src/gfu-main.ui:548
+#: src/gfu-main.ui:495
 msgid "Filename"
 msgstr "Dosya Adı"
 
 #. title: size in bytes
-#: src/gfu-main.ui:566
+#: src/gfu-main.ui:513
 msgid "Size"
 msgstr "Boyut"
 
 #. title: method of doing the update, e.g. DFU
-#: src/gfu-main.ui:576
+#: src/gfu-main.ui:523
 msgid "Protocol"
 msgstr "İletişim Kuralı"
 
 #. title: the nice name of the firmware remote
-#: src/gfu-main.ui:589
+#: src/gfu-main.ui:536
 msgid "Remote ID"
 msgstr "Uzak Kimlik"
 
 #. title: the ID to identify the stream
-#: src/gfu-main.ui:602
+#: src/gfu-main.ui:549
 msgid "AppStream ID"
 msgstr "AppStream Kimliği"
 
 #. title, e.g. Nonfree, GPLv2+ etc
-#: src/gfu-main.ui:620
+#: src/gfu-main.ui:567
 msgid "License"
 msgstr "Lisans"
 
 #. title: any message we show the user after the update is done
-#: src/gfu-main.ui:650
+#: src/gfu-main.ui:597
 msgid "Update Message"
 msgstr "Güncelleme İletisi"
 
 #. title: the type of firmware, e.g. X-ManagementEngine
-#: src/gfu-main.ui:660
+#: src/gfu-main.ui:607
 msgid "Categories"
 msgstr "Kategoriler"
 
 #. title: list of security issues, e.g. CVE numbers
-#: src/gfu-main.ui:670
+#: src/gfu-main.ui:617
 msgid "Issues"
 msgstr "Sorunlar"
 
 #. menu-text: download a new copy of the firmware metadata
-#: src/gfu-main.ui:711
+#: src/gfu-main.ui:658
 msgid "_Refresh Metadata"
 msgstr "Üst Veriyi _Yenile"
 
+#. menu-text: upload a device list to the LVFS
+#: src/gfu-main.ui:662
+msgid "_Upload Device List"
+msgstr "Aygıt Listesi _Yükle"
+
 #. menu-text: select and install a local file
-#: src/gfu-main.ui:715
+#: src/gfu-main.ui:666
 msgid "_Install Firmware Archive"
 msgstr "Donanım Yazılımı Arşivini _Kur"
 
-#: src/gfu-main.ui:719
+#: src/gfu-main.ui:670
 msgid "_Keyboard Shortcuts"
 msgstr "Klavye _Kısayolları"
 
 #. menu-text: shows information about this ap
-#: src/gfu-main.ui:723
+#: src/gfu-main.ui:674
 msgid "_About"
 msgstr "_Hakkında"
 
@@ -999,35 +1063,48 @@ msgid "Quit"
 msgstr "Çık"
 
 #. TRANSLATORS: update severity
-#: src/gfu-release-row.c:42
+#: src/gfu-release-row.c:39
 msgid "Critical"
 msgstr "Kritik"
 
 #. TRANSLATORS: update severity
-#: src/gfu-release-row.c:49
+#: src/gfu-release-row.c:46
 msgid "High Priority"
 msgstr "Yüksek Öncelik"
 
 #. TRANSLATORS: upgrading the firmware
-#: src/gfu-release-row.c:65
+#: src/gfu-release-row.c:60
 msgid "_Upgrade…"
 msgstr "_Yükselt…"
 
 #. TRANSLATORS: downgrading the firmware
-#: src/gfu-release-row.c:68
+#: src/gfu-release-row.c:63
 msgid "_Downgrade…"
 msgstr "Sürüm _Düşür…"
 
 #. TRANSLATORS: installing the same firmware that is
 #. * currently installed
-#: src/gfu-release-row.c:72
+#: src/gfu-release-row.c:67
 msgid "_Reinstall…"
 msgstr "_Yeniden Kur…"
 
 #. TRANSLATORS: problems are things the user has to fix, e.g. low battery
-#: src/gfu-release-row.c:83
+#: src/gfu-release-row.c:78
 msgid "Cannot perform action as the device has a problem"
 msgstr "Aygıtta sorun olduğundan eylem gerçekleştirilemiyor"
+
+#~ msgid "Failed to find LVFS"
+#~ msgstr "LVFS bulunamadı"
+
+#~ msgid "LVFS is not enabled"
+#~ msgstr "LVFS etkinleştirilmemiş"
+
+#~ msgid ""
+#~ "Firmware metadata can be obtained from the Linux Vendor Firmware Service "
+#~ "at no cost."
+#~ msgstr ""
+#~ "Üretici yazılımı üst verileri, Linux Vendor Firmware Service’ten ücretsiz "
+#~ "alınabilir."
 
 # GNOME Firmware uygulama adıdır. Çevirmeyin.
 #~ msgid "About GNOME Firmware"
