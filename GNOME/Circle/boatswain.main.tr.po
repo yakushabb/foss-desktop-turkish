@@ -1,0 +1,635 @@
+# Turkish translation for boatswain.
+# Copyright (C) 2023-2024 boatswain's COPYRIGHT HOLDER
+# This file is distributed under the same license as the boatswain package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2023, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: boatswain main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/boatswain/issues\n"
+"POT-Creation-Date: 2024-09-01 16:08+0000\n"
+"PO-Revision-Date: 2024-05-01 02:10+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: data/com.feaneron.Boatswain.desktop.in.in:3
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:6
+msgid "Boatswain"
+msgstr "Boatswain"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/com.feaneron.Boatswain.desktop.in.in:11
+msgid "stream deck;streaming;deck;elgato;"
+msgstr "stream deck;streaming;deck;elgato;akış;yayın;"
+
+#: data/com.feaneron.Boatswain.gschema.xml:7
+#: data/com.feaneron.Boatswain.gschema.xml:8
+msgid "Restore token for the desktop controller"
+msgstr "Masaüstü denetleyicisi için geri yükleme jetonu"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:12
+msgid "Control your Elgato Stream Decks"
+msgstr "Elgato Stream Deck’lerini denetle"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:14
+msgid "Boatswain allows you to control Elgato Stream Deck devices."
+msgstr "Boatswain, Elgato Stream Deck aygıtlarını denetlemenizi sağlar."
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:15
+msgid "With Boatswain you will be able to:"
+msgstr "Boatswain ile yapabilecekleriniz:"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:17
+msgid "Organize your actions in pages and profiles"
+msgstr "Eylemlerini sayfalarda ve profillerde düzenle"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:18
+msgid "Set custom icons to actions"
+msgstr "İşlemlere özel simgeler ekle"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:19
+msgid "Control your music player"
+msgstr "Müzik çaları denetle"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:20
+msgid "Play sound effects during your streams"
+msgstr "Akışların sırasında ses efektleri oynat"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:21
+msgid ""
+"Control OBS Studio using Stream Deck (requires the obs-websocket extension)"
+msgstr ""
+"Stream Deck kullanarak OBS Studio’yu denetle (obs-websocket uzantısını "
+"gerektirir)"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:22
+msgid "Send network requests"
+msgstr "Ağ istekleri gönder"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:23
+msgid "Keep track of your gaming score"
+msgstr "Oyun skorunu izle"
+
+#: data/com.feaneron.Boatswain.metainfo.xml.in.in:24
+msgid "Open files and launch applications"
+msgstr "Dosyaları aç ve uygulamaları başlat"
+
+#: src/bs-application.c:54
+msgid "Enable debug messages"
+msgstr "Hata ayıklama iletilerini etkinleştir"
+
+#: src/bs-application.c:117
+#, c-format
+msgid "Connected to %d device"
+msgid_plural "Connected to %d devices"
+msgstr[0] "%d aygıt bağlı"
+
+#: src/bs-application.c:169
+msgid ""
+"Boatswain needs to run in background to detect and execute Stream Deck "
+"actions."
+msgstr ""
+"Boatswain’in Stream Deck işlemlerini algılaması ve yürütmesi için arka "
+"planda çalışması gerekir."
+
+#: src/bs-button-editor.c:388
+msgid "All supported formats"
+msgstr "Desteklenen tüm biçimler"
+
+#: src/bs-button-editor.c:397
+msgid "Select icon"
+msgstr "Simge seç"
+
+#: src/bs-button-editor.c:398
+#: src/plugins/network/network-http-action-prefs.c:147
+msgid "Open"
+msgstr "Aç"
+
+#: src/bs-button-editor.ui:14
+msgid "Button Properties"
+msgstr "Düğme Özellikleri"
+
+#: src/bs-button-editor.ui:190
+msgid "Name"
+msgstr "Ad"
+
+#: src/bs-button-editor.ui:197
+msgid "Background Color"
+msgstr "Arka Plan Rengi"
+
+#: src/bs-button-editor.ui:233
+msgid "Select Action"
+msgstr "İşlem Seç"
+
+#: src/bs-button-editor.ui:250
+msgid "Remove Action"
+msgstr "İşlemi Kaldır"
+
+#: src/bs-button-editor.ui:272
+#: src/plugins/default/default-multi-action-editor.ui:67
+msgid "Actions"
+msgstr "İşlemler"
+
+#: src/bs-profile.c:184
+msgid "Unnamed profile"
+msgstr "Adsız profil"
+
+#: src/bs-profile-row.ui:8 src/bs-profile-row.ui:87
+msgid "Rename"
+msgstr "Yeniden adlandır"
+
+#: src/bs-profile-row.ui:14
+msgid "Move up"
+msgstr "Yukarı taşı"
+
+#: src/bs-profile-row.ui:18
+msgid "Move down"
+msgstr "Aşağı taşı"
+
+#: src/bs-profile-row.ui:24
+msgid "Delete"
+msgstr "Sil"
+
+#: src/bs-stream-deck.c:316
+msgid "Default"
+msgstr "Öntanımlı"
+
+#. Translators: this is a product name. In most cases, it is not translated.
+#. * Please verify if Elgato translates their product names on your locale.
+#.
+#: src/bs-stream-deck.c:995 src/bs-stream-deck.c:1020
+msgid "Stream Deck Mini"
+msgstr "Stream Deck Mini"
+
+#. Translators: this is a product name. In most cases, it is not translated.
+#. * Please verify if Elgato translates their product names on your locale.
+#.
+#: src/bs-stream-deck.c:1045 src/bs-stream-deck.c:1070
+#: src/plugins/default/default-switch-profile-action.c:283
+#: src/plugins/default/default.plugin.desktop.in:3
+msgid "Stream Deck"
+msgstr "Stream Deck"
+
+#. Translators: this is a product name. In most cases, it is not translated.
+#. * Please verify if Elgato translates their product names on your locale.
+#.
+#: src/bs-stream-deck.c:1095 src/bs-stream-deck.c:1120
+msgid "Stream Deck XL"
+msgstr "Stream Deck XL"
+
+#. Translators: this is a product name. In most cases, it is not translated.
+#. * Please verify if Elgato translates their product names on your locale.
+#.
+#: src/bs-stream-deck.c:1145
+msgid "Stream Deck MK.2"
+msgstr "Stream Deck MK.2"
+
+#. Translators: this is a product name. In most cases, it is not translated.
+#. * Please verify if Elgato translates their product names on your locale.
+#.
+#: src/bs-stream-deck.c:1170
+msgid "Stream Deck Pedal"
+msgstr "Stream Deck Pedal"
+
+#. Translators: this is a product name. In most cases, it is not translated.
+#. * Please verify if Elgato translates their product names on your locale.
+#.
+#: src/bs-stream-deck.c:1195
+msgid "Stream Deck +"
+msgstr "Stream Deck +"
+
+#: src/bs-stream-deck.c:1279
+msgid "Feaneron Hangar Original"
+msgstr "Feaneron Hangar Özgün"
+
+#: src/bs-stream-deck.c:1301
+msgid "Feaneron Hangar XL"
+msgstr "Feaneron Hangar XL"
+
+#: src/bs-stream-deck-editor.ui:61
+msgid "Select a button"
+msgstr "Düğme seç"
+
+#: src/bs-window.ui:113
+msgid "New profile…"
+msgstr "Yeni profil…"
+
+#: src/bs-window.ui:138 src/plugins/default/default-action-factory.c:54
+msgid "Brightness"
+msgstr "Parlaklık"
+
+#: src/bs-window.ui:174
+msgid "Firmware"
+msgstr "Donanım Yazılımı"
+
+#: src/bs-window.ui:232
+msgid "No Stream Deck Found"
+msgstr "Stream Deck Bulunamadı"
+
+#: src/bs-window.ui:233
+msgid "Plug in a Stream Deck device to use it."
+msgstr "Kullanılacak Stream Deck aygıtını takın."
+
+#: src/bs-window.ui:256
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: src/bs-window.ui:260
+msgid "_About Boatswain"
+msgstr "Bootswain _Hakkında…"
+
+#: src/bs-window.ui:264
+msgid "_Quit"
+msgstr "_Çık"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Kısayolları Göster"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: src/plugins/default/default-action-factory.c:42
+msgid "Folder"
+msgstr "Klasör"
+
+#: src/plugins/default/default-action-factory.c:48
+msgid "Switch Profile"
+msgstr "Profil Değiştir"
+
+#: src/plugins/default/default-action-factory.c:60
+msgid "Multiple Actions"
+msgstr "İşlemleri Çoğalt"
+
+#. Translators: "Constant" as in "Constant value of brightness"
+#: src/plugins/default/default-brightness-action.c:141
+msgid "Constant"
+msgstr "Sabit"
+
+#: src/plugins/default/default-brightness-action.c:142
+msgid "Increase"
+msgstr "Artır"
+
+#: src/plugins/default/default-brightness-action.c:143
+msgid "Decrease"
+msgstr "Azalt"
+
+#: src/plugins/default/default-brightness-action.c:146
+msgid "Mode"
+msgstr "Kip"
+
+#: src/plugins/default/default-brightness-action.c:153
+msgid "Value"
+msgstr "Değer"
+
+#: src/plugins/default/default-multi-action-editor.c:310
+#: src/plugins/default/default-multi-action-row.c:143
+msgid "Delay"
+msgstr "Gecikme"
+
+#: src/plugins/default/default-multi-action-editor.ui:31
+msgid "Add action"
+msgstr "İşlem ekle"
+
+#: src/plugins/default/default-multi-action-editor.ui:49
+msgid "Add Action"
+msgstr "İşlem ekle"
+
+#: src/plugins/default/default-multi-action-editor.ui:73
+msgid "Others"
+msgstr "Diğerleri"
+
+#: src/plugins/default/default-multi-action-editor.ui:83
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: src/plugins/default/default-switch-profile-action.c:306
+msgid "Profile"
+msgstr "Profil"
+
+#: src/plugins/desktop/desktop-action-factory.c:41
+#: src/plugins/desktop/desktop-keyboard-shortcut-action.c:257
+msgid "Keyboard Shortcut"
+msgstr "Klavye Kısayolu"
+
+#: src/plugins/desktop/desktop-action-factory.c:42
+msgid "Trigger a keyboard shortcut"
+msgstr "Klavye kısayolunu tetikle"
+
+#: src/plugins/desktop/desktop-shortcut-dialog.ui:7
+msgid "Set Shortcut"
+msgstr "Kısayol Ayarla"
+
+#: src/plugins/desktop/desktop-shortcut-dialog.ui:66
+msgid "Press Esc to cancel"
+msgstr "İptal etmek için Esc’ye basınız"
+
+#: src/plugins/desktop/desktop-shortcut-dialog.ui:100
+msgid "_Cancel"
+msgstr "İ_ptal"
+
+#: src/plugins/desktop/desktop-shortcut-dialog.ui:109
+msgid "_Set"
+msgstr "_Ayarla"
+
+#: src/plugins/desktop/desktop.plugin.desktop.in:3
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#: src/plugins/gaming/gaming.js:37
+msgid "Score"
+msgstr "Puan"
+
+#: src/plugins/gaming/gaming.js:38
+msgid "Keep track of your score. Reset with a long press."
+msgstr "Puanınızı izleyin. Uzun basarak sıfırlayın."
+
+#: src/plugins/gaming/gaming.plugin.desktop.in:3
+msgid "Gaming"
+msgstr "Oyun"
+
+#: src/plugins/gaming/score.js:39
+msgid "score.txt"
+msgstr "puan.txt"
+
+#. Restore score
+#: src/plugins/gaming/score.js:322
+msgid "Restore Score"
+msgstr "Puanı Geri Yükle"
+
+#: src/plugins/gaming/score.js:341
+msgid "Text Color"
+msgstr "Metin Rengi"
+
+#: src/plugins/gaming/score.js:354
+msgid "Save to File"
+msgstr "Dosyaya Kaydet"
+
+#: src/plugins/gaming/score.js:355
+msgid ""
+"Save score to a text file. Other apps such as OBS Studio may read from it."
+msgstr ""
+"Puanı metin dosyasına kaydet. OBS Studio gibi diğer uygulamalar bundan "
+"okuyabilir."
+
+#: src/plugins/gaming/score.js:364
+#: src/plugins/launcher/launcher-open-file-action.c:209
+#: src/plugins/network/network-http-action-prefs.ui:61
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:8
+msgid "File"
+msgstr "Dosya"
+
+#: src/plugins/gaming/score.js:383
+msgid "Text File (.txt)"
+msgstr "Metin Dosyası (.txt)"
+
+#: src/plugins/launcher/launcher-action-factory.c:41
+msgid "Launch Application"
+msgstr "Uygulamayı Başlat"
+
+#: src/plugins/launcher/launcher-action-factory.c:47
+msgid "Open File"
+msgstr "Dosya Aç"
+
+#: src/plugins/launcher/launcher-action-factory.c:53
+msgid "Open URL"
+msgstr "URLʼyi aç"
+
+#: src/plugins/launcher/launcher-launch-preferences.ui:8
+msgid "Choose Application"
+msgstr "Uygulama Seç"
+
+#: src/plugins/launcher/launcher-open-file-action.c:68
+msgid "No file selected"
+msgstr "Dosya seçilmedi"
+
+#: src/plugins/launcher/launcher-open-file-action.c:156
+msgid "Select File"
+msgstr "Dosya Seç"
+
+#: src/plugins/launcher/launcher-open-url-action.c:104
+msgid "URL"
+msgstr "URL"
+
+#: src/plugins/launcher/launcher.plugin.desktop.in:3
+msgid "Launcher"
+msgstr "Başlatıcı"
+
+#: src/plugins/network/network-action-factory.c:41
+msgid "HTTP Request"
+msgstr "HTTP İsteği"
+
+#: src/plugins/network/network-action-factory.c:42
+msgid "Send GET and POST requests to a webserver"
+msgstr "Web sunucusuna GET ve POST istekleri gönder"
+
+#: src/plugins/network/network-http-action-prefs.c:146
+msgid "Select payload file"
+msgstr "Yük dosyası seç"
+
+#: src/plugins/network/network-http-action-prefs.ui:14
+msgid "URI"
+msgstr "URI"
+
+#: src/plugins/network/network-http-action-prefs.ui:22
+msgid "Method"
+msgstr "Yöntem"
+
+#: src/plugins/network/network-http-action-prefs.ui:45
+msgid "Payload source"
+msgstr "Yük kaynağı"
+
+#: src/plugins/network/network-http-action-prefs.ui:82
+msgid "Edit payload"
+msgstr "Yükü düzenle"
+
+#: src/plugins/network/network-http-action-prefs.ui:99
+msgid "HTTP Request Payload"
+msgstr "HTTP İstek Yükü"
+
+#: src/plugins/network/network.plugin.desktop.in:3
+msgid "Network"
+msgstr "Ağ"
+
+#: src/plugins/obs-studio/obs-action-factory.c:46
+msgid "Switch Scene"
+msgstr "Sahne Değiştir"
+
+#. Translators: "Record" is a verb here
+#: src/plugins/obs-studio/obs-action-factory.c:53
+msgid "Record"
+msgstr "Kaydet"
+
+#. Translators: "Stream" is a verb here
+#: src/plugins/obs-studio/obs-action-factory.c:60
+msgid "Stream"
+msgstr "Akış"
+
+#: src/plugins/obs-studio/obs-action-factory.c:66
+msgid "Virtual Camera"
+msgstr "Sanal Kamera"
+
+#: src/plugins/obs-studio/obs-action-factory.c:72
+msgid "Toggle Mute"
+msgstr "Sesi Kıs/Aç"
+
+#: src/plugins/obs-studio/obs-action-factory.c:78
+msgid "Show / Hide Source"
+msgstr "Kaynağı Göster/Gizle"
+
+#: src/plugins/obs-studio/obs-connection.c:800
+msgid "Invalid password"
+msgstr "Geçersiz parola"
+
+#: src/plugins/obs-studio/obs-connection-settings.ui:8
+msgid "Connection Settings"
+msgstr "Bağlantı Ayarları"
+
+#: src/plugins/obs-studio/obs-connection-settings.ui:12
+msgid "Host"
+msgstr "Ana Makine"
+
+#: src/plugins/obs-studio/obs-connection-settings.ui:20
+msgid "Port"
+msgstr "Bağlantı Noktası"
+
+#: src/plugins/obs-studio/obs-connection-settings.ui:45
+msgid "Password"
+msgstr "Parola"
+
+#: src/plugins/obs-studio/obs-switch-scene-action.c:283
+msgid "Scene"
+msgstr "Sahne"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:124
+msgid "Toggle mute"
+msgstr "Sesi kıs/aç"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:125
+msgid "Mute"
+msgstr "Sessiz"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:126
+msgid "Unmute"
+msgstr "Sesi aç"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:130
+msgid "Toggle visibility"
+msgstr "Görünürlüğü aç/kapat"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:131
+msgid "Hide"
+msgstr "Gizle"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:132
+msgid "Show"
+msgstr "Göster"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:479
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:22
+msgid "Behavior"
+msgstr "Davranış"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:490
+msgid "Audio Source"
+msgstr "Ses Kaynağı"
+
+#: src/plugins/obs-studio/obs-toggle-source-action.c:492
+msgid "Source"
+msgstr "Kaynak"
+
+#: src/plugins/obs-studio/obs-studio.plugin.desktop.in:3
+msgid "OBS Studio"
+msgstr "OBS Studio"
+
+#: src/plugins/soundboard/soundboard-action-factory.c:42
+msgid "Music Player"
+msgstr "Müzik Çalar"
+
+#: src/plugins/soundboard/soundboard-action-factory.c:43
+msgid "Control the active music player"
+msgstr "Etkin müzik çaları denetle"
+
+#: src/plugins/soundboard/soundboard-action-factory.c:48
+msgid "Play Audio"
+msgstr "Sesi Oynat"
+
+#: src/plugins/soundboard/soundboard-mpris-action.c:197
+msgid "Next"
+msgstr "Sonraki"
+
+#: src/plugins/soundboard/soundboard-mpris-action.c:198
+msgid "Pause"
+msgstr "Durdur"
+
+#: src/plugins/soundboard/soundboard-mpris-action.c:199
+msgid "Play"
+msgstr "Oynat"
+
+#: src/plugins/soundboard/soundboard-mpris-action.c:200
+msgid "Previous"
+msgstr "Önceki"
+
+#: src/plugins/soundboard/soundboard-mpris-action.c:201
+msgid "Stop"
+msgstr "Dur"
+
+#: src/plugins/soundboard/soundboard-mpris-action.c:202
+msgid "Play / Pause"
+msgstr "Oynat / Beklet"
+
+#: src/plugins/soundboard/soundboard-mpris-action.c:205
+msgid "Playback Action"
+msgstr "Oynatma Eylemi"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.c:96
+msgid "Audio Files"
+msgstr "Ses Dosyaları"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.c:103
+msgid "Select audio file"
+msgstr "Ses dosyası seç"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:27
+msgid "Play / Stop"
+msgstr "Oynat / Dur"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:28
+msgid "Play / Overlap"
+msgstr "Oynat / Örtüş"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:29
+msgid "Play / Restart"
+msgstr "Oynat / Yeniden Başlat"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:30
+msgid "Loop / Stop"
+msgstr "Döngü / Dur"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:31
+msgid "Press & Hold"
+msgstr "Bas ve Tut"
+
+#: src/plugins/soundboard/soundboard-play-action-prefs.ui:40
+msgid "Volume"
+msgstr "Ses"
+
+#: src/plugins/soundboard/soundboard.plugin.desktop.in:3
+msgid "Soundboard"
+msgstr "Ses tahtası"

@@ -1,0 +1,128 @@
+# Turkish translation for AudioSharing.
+# Copyright (C) 2022-2024 AudioSharing's COPYRIGHT HOLDER
+# This file is distributed under the same license as the AudioSharing package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2022, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2022, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AudioSharing\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/AudioSharing/issues\n"
+"POT-Creation-Date: 2024-09-01 16:09+0000\n"
+"PO-Revision-Date: 2024-05-09 10:28+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.3\n"
+
+# Olduğu gibi kalmalı. Çevirmeye gerek yok.
+#: data/de.haeckerfelix.AudioSharing.desktop.in.in:3
+#: data/de.haeckerfelix.AudioSharing.metainfo.xml.in.in:5
+msgid "@NAME@"
+msgstr "@NAME@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/de.haeckerfelix.AudioSharing.desktop.in.in:12
+msgid "Gnome;GTK;audio;sharing;sound;"
+msgstr "Gnome;GTK;audio;sharing;sound;ses;paylaşım;"
+
+#. General
+#: data/de.haeckerfelix.AudioSharing.metainfo.xml.in.in:10
+msgid "Share your computer audio"
+msgstr "Bilgisayarınızın sesini paylaşın"
+
+#: data/de.haeckerfelix.AudioSharing.metainfo.xml.in.in:12
+msgid ""
+"With Audio Sharing you can share your current computer audio playback in the "
+"form of an RTSP stream. This stream can then be played back by other "
+"devices, for example using VLC."
+msgstr ""
+"Ses Paylaşımı ile bilgisayarınızın kayıttan yürüttüğü sesi RTSP akışı "
+"biçiminde paylaşabilirsiniz. Bu akış, sonrasında diğer aygıtlarca, örneğin "
+"VLC kullanılarak oynatılabilir."
+
+# Biraz karışık oldu gibi.
+#: data/de.haeckerfelix.AudioSharing.metainfo.xml.in.in:15
+msgid ""
+"By sharing the audio as a network stream, you can also use common devices "
+"that are not intended to be used as audio sinks (eg. smartphones) to receive "
+"it. For example, there are audio accessories that are not compatible with "
+"desktop computers (e.g. because the computer does not have a Bluetooth "
+"module installed). With the help of this app, the computer audio can be "
+"played back on a smartphone, which is then connected to the Bluetooth "
+"accessory."
+msgstr ""
+"Sesi ağ akışı olarak paylaşarak, ses alıcı amacıyla kullanılmayan yaygın "
+"aygıtları da (ör. akıllı telefonlar) alıcı olarak kullanabilirsiniz. "
+"Örneğin, bilgisayarda Bluetooth modülü olmadığından masaüstü bilgisayarlarla "
+"uyumsuz ses aksesuarları vardır. Bu uygulama yardımıyla, bilgisayar sesi "
+"sonrasında Bluetooth aksesuarına bağlanan akıllı telefonda çalınabilir."
+
+#. Branding
+#: data/de.haeckerfelix.AudioSharing.metainfo.xml.in.in:23
+msgid "Felix Häcker"
+msgstr "Felix Häcker"
+
+#: data/de.haeckerfelix.AudioSharing.metainfo.xml.in.in:59
+msgid ""
+"Connect to the audio stream by scanning the QR code or copying the address"
+msgstr "QR kodunu tarayarak ya da adresi kopyalayarak ses akışına bağlan"
+
+#: data/gtk/window.ui:20
+msgid "Menu"
+msgstr "Menü"
+
+#: data/gtk/window.ui:81
+msgid "_Copy to Clipboard"
+msgstr "Panoya _Kopyala"
+
+#: data/gtk/window.ui:96
+msgid ""
+"You are currently sharing your audio. You can access it from other devices "
+"in the same network by scanning the QR code or entering the displayed "
+"address in a playback app that supports RTSP streams. This device can be "
+"muted, the audio will still be shared.\n"
+"\n"
+"To stop sharing, simply close this window."
+msgstr ""
+"Şu anda sesinizi paylaşıyorsunuz. Aynı ağdaki diğer aygıtlardan, QR kodunu "
+"tarayarak ya da gösterilen adresi RTSP akışlarını destekleyen oynatıcıya "
+"girerek erişebilirsiniz. Bu aygıtın sesi kapatılsa bile paylaşım "
+"sürecektir.\n"
+"\n"
+"Paylaşımı durdurmak için bu pencereyi kapatmalısınız."
+
+#: data/gtk/window.ui:118
+msgid "Unable to Share Audio"
+msgstr "Ses Paylaşılamadı"
+
+#: data/gtk/window.ui:143
+msgid "Open _Help <sup>↗</sup>"
+msgstr "_Yardımı Aç <sup>↗</sup>"
+
+#: data/gtk/window.ui:150
+msgid "_About Audio Sharing"
+msgstr "Ses Paylaşımı _Hakkında"
+
+#: src/app.rs:131
+msgid "A client has established a connection"
+msgstr "İstemci bağlantı kurdu"
+
+#: src/app.rs:133
+msgid "Audio playback from this device gets shared."
+msgstr "Bu aygıttan ses çalma paylaşıldı."
+
+#: src/ui/about_dialog.rs:43
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#: src/ui/window.rs:78
+msgid "Copied address to clipboard"
+msgstr "Adres panoya kopyalandı"

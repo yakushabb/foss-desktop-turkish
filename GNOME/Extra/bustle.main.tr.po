@@ -1,0 +1,601 @@
+# Turkish translation for bustle.
+# Copyright (C) 2024 bustle's COPYRIGHT HOLDER
+# This file is distributed under the same license as the bustle package.
+#
+# Sabri Ünal <libreajans@gmail.com>, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bustle main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/bustle/issues\n"
+"POT-Creation-Date: 2024-03-23 08:17+0000\n"
+"PO-Revision-Date: 2024-03-28 20:22+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: data/org.freedesktop.Bustle.desktop.in.in:3
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:9
+msgid "Bustle"
+msgstr "Bustle"
+
+#: data/org.freedesktop.Bustle.desktop.in.in:4
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:10
+msgid "Visualize D-Bus activity"
+msgstr "D-Bus etkinliğini görselleştir"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.freedesktop.Bustle.desktop.in.in:10
+msgid "debug;profile;d-bus;dbus;sequence;monitor;"
+msgstr "hata ayıkla;debug;profil;d-bus,dbus;sekans;dizi;monitör;izle;"
+
+#: data/org.freedesktop.Bustle.desktop.in.in:19
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: data/org.freedesktop.Bustle.gschema.xml.in:6
+msgid "Window width"
+msgstr "Pencere genişliği"
+
+#: data/org.freedesktop.Bustle.gschema.xml.in:10
+msgid "Window height"
+msgstr "Pencere yüksekliği"
+
+#: data/org.freedesktop.Bustle.gschema.xml.in:14
+msgid "Window maximized state"
+msgstr "Pencerenin ekranı kaplama durumu"
+
+#. Translators: These are the application description paragraphs in the AppData file.
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:13
+msgid ""
+"Bustle draws sequence diagrams of D-Bus activity. It shows signal emissions, "
+"method calls and their corresponding returns, with time stamps for each "
+"individual event and the duration of each method call. This can help you "
+"check for unwanted D-Bus traffic, and pinpoint why your D-Bus-based "
+"application is not performing as well as you like. It also provides "
+"statistics like signal frequencies and average method call times."
+msgstr ""
+"Bustle, D-Bus etkinliğinin sıra diyagramlarını çizer. Sinyal yayımlarını, "
+"yöntem çağrılarını, karşı dönüşlerini her tekil etkinlik için zaman "
+"damgalarıyla ve her yöntem çağrısının süresiyle gösterir. Bu istenmedik D-"
+"Bus trafiğini denetlemenize yardım eder ve D-Bus tabanlı uygulamanızın neden "
+"istediğiniz gibi işlemediğini vurgular. Ayrıca sinyal frekansları ve "
+"ortalama yöntem çağrı zamanları gibi istatistikleri sağlar."
+
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:26
+msgid "Explore sequence diagrams of D-Bus activity"
+msgstr "D-Bus etkinliklerinin sıra diyagramlarını keşfet"
+
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:30
+msgid "See statistics summarizing the log"
+msgstr "Günlüğü özetleyen istatistikleri gör"
+
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:34
+msgid "Relax with this soothing greyscale welcome page"
+msgstr "Rahatlatıcı gri tonlamalı hoş geldiniz sayfasıyla rahatlayın"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.freedesktop.Bustle.metainfo.xml.in.in:134 src/window.rs:408
+msgid "The Bustle developers"
+msgstr "Bustle geliştiricileri"
+
+#: data/resources/ui/address_dialog.ui:4
+msgid "Record Address"
+msgstr "Kayıt Adresi"
+
+#: data/resources/ui/address_dialog.ui:5
+msgid ""
+"For more information about addresses, see the <a href=\"https://dbus."
+"freedesktop.org/doc/dbus-specification.html#addresses\">D-Bus specification</"
+"a>."
+msgstr ""
+"Adreslerle ilgili daha çok bilgi için <a href=\"https://dbus.freedesktop.org/"
+"doc/dbus-specification.html#addresses\">D-Bus belirtimine</a> göz atın."
+
+#: data/resources/ui/address_dialog.ui:10
+msgid "_Cancel"
+msgstr "İ_ptal"
+
+#. This is a verb
+#: data/resources/ui/address_dialog.ui:11 data/resources/ui/window.ui:91
+#: data/resources/ui/window.ui:203
+msgid "_Record"
+msgstr "_Kaydet"
+
+#: data/resources/ui/address_dialog.ui:20
+msgid "Server Address"
+msgstr "Sunucu Adresi"
+
+#: data/resources/ui/details_view.ui:22
+msgid "Associated Message"
+msgstr "İlişkili İleti"
+
+#: data/resources/ui/details_view.ui:38
+msgid "Message"
+msgstr "İleti"
+
+#: data/resources/ui/details_view.ui:41
+msgid "Type"
+msgstr "Tür"
+
+#: data/resources/ui/details_view.ui:50
+msgid "Path"
+msgstr "Yol"
+
+#: data/resources/ui/details_view.ui:59
+msgid "Interface"
+msgstr "Arayüz"
+
+#: data/resources/ui/details_view.ui:68
+#: data/resources/ui/frequencies_page.ui:44 data/resources/ui/sizes_page.ui:43
+msgid "Member"
+msgstr "Üye"
+
+#: data/resources/ui/details_view.ui:77
+msgid "Error Type"
+msgstr "Hata Türü"
+
+#: data/resources/ui/details_view.ui:89
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: data/resources/ui/details_view.ui:92
+msgid "Sender"
+msgstr "Gönderici"
+
+#: data/resources/ui/details_view.ui:101
+msgid "Destination"
+msgstr "Hedef"
+
+#: data/resources/ui/details_view.ui:110
+msgid "Component"
+msgstr "Bileşen"
+
+#: data/resources/ui/details_view.ui:125
+msgid "Body Size"
+msgstr "Gövde Ölçüsü"
+
+#: data/resources/ui/details_view.ui:135
+msgid "Response Time"
+msgstr "Yanıt Süresi"
+
+#: data/resources/ui/details_view.ui:145
+msgid "Signature"
+msgstr "İmza"
+
+#: data/resources/ui/details_view.ui:154
+msgid "Flags"
+msgstr "Bayraklar"
+
+#: data/resources/ui/details_view.ui:165
+msgid "Body"
+msgstr "Gövde"
+
+#: data/resources/ui/diagram_header.ui:20
+msgid "Expand"
+msgstr "Genişlet"
+
+#: data/resources/ui/durations_page.ui:11 data/resources/ui/statistics.ui:43
+msgid "Durations"
+msgstr "Süre"
+
+#: data/resources/ui/durations_page.ui:12
+msgid "The total and mean time every method call took"
+msgstr "Her yöntem çağrısının toplam ve ortalama süreleri"
+
+#: data/resources/ui/durations_page.ui:16
+msgid "Method"
+msgstr "Yöntem"
+
+#: data/resources/ui/durations_page.ui:45
+msgid "Total"
+msgstr "Toplam"
+
+#: data/resources/ui/durations_page.ui:76
+msgid "Calls"
+msgstr "Çağrılar"
+
+#: data/resources/ui/durations_page.ui:110 data/resources/ui/sizes_page.ui:102
+msgid "Mean"
+msgstr "Ortalama"
+
+#: data/resources/ui/filter_pane.ui:51
+msgid "Reset All"
+msgstr "Tümünü Sıfırla"
+
+#: data/resources/ui/frequencies_page.ui:11 data/resources/ui/statistics.ui:33
+msgid "Frequencies"
+msgstr "Frekanslar"
+
+#: data/resources/ui/frequencies_page.ui:12
+msgid "The frequencies of method calls and signals"
+msgstr "Yöntem çağrılarının ve sinyallerin frekansları"
+
+#: data/resources/ui/frequencies_page.ui:16 data/resources/ui/sizes_page.ui:16
+msgid "Message Type"
+msgstr "İleti Türü"
+
+#: data/resources/ui/frequencies_page.ui:72
+msgid "Frequency"
+msgstr "Sıklık"
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Kısayolları göster"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: data/resources/ui/shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: data/resources/ui/shortcuts.ui:34
+msgctxt "shortcut window"
+msgid "Recording"
+msgstr "Kayıt"
+
+#: data/resources/ui/shortcuts.ui:37
+msgctxt "shortcut window"
+msgid "Record Session Bus"
+msgstr "Oturum Veri Yolunu Kaydet"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "Record System Bus"
+msgstr "Sistem Veri Yolunu Kaydet"
+
+#: data/resources/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Record Address"
+msgstr "Kayıt Adresi"
+
+#: data/resources/ui/shortcuts.ui:55
+msgctxt "shortcut window"
+msgid "Open Log File"
+msgstr "Günlük Dosyasını Aç"
+
+#: data/resources/ui/shortcuts.ui:63
+msgctxt "shortcut window"
+msgid "Diagram"
+msgstr "Diyagram"
+
+#: data/resources/ui/shortcuts.ui:66
+msgctxt "shortcut window"
+msgid "Save as PCAP File"
+msgstr "PCAP Dosyası Olarak Kaydet"
+
+#: data/resources/ui/shortcuts.ui:72
+msgctxt "shortcut window"
+msgid "Save as DOT Graph File"
+msgstr "DOT Grafik Dosyası Olarak Kaydet"
+
+#: data/resources/ui/shortcuts.ui:78
+msgctxt "shortcut window"
+msgid "Filter Services"
+msgstr "Hizmetleri Süz"
+
+#: data/resources/ui/shortcuts.ui:84
+msgctxt "shortcut window"
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: data/resources/ui/sizes_page.ui:11 data/resources/ui/statistics.ui:53
+msgid "Sizes"
+msgstr "Boyutlar"
+
+#: data/resources/ui/sizes_page.ui:12
+msgid "The smallest, mean and largest size of every message"
+msgstr "Her iletinin en küçük, ortalama ve en büyük boyutu"
+
+#: data/resources/ui/sizes_page.ui:72
+msgid "Smallest"
+msgstr "En Küçük"
+
+#: data/resources/ui/sizes_page.ui:132
+msgid "Largest"
+msgstr "En Büyük"
+
+#: data/resources/ui/statistics.ui:4
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: data/resources/ui/window.ui:6
+msgid "New _Window"
+msgstr "Yeni _Pencere"
+
+#: data/resources/ui/window.ui:10
+msgid "_Open"
+msgstr "_Aç"
+
+#: data/resources/ui/window.ui:15
+msgid "Open Pair of Logs"
+msgstr "Günlük Çiftini Aç"
+
+#: data/resources/ui/window.ui:22
+msgid "Save As…"
+msgstr "Farklı Kaydet…"
+
+#: data/resources/ui/window.ui:25
+msgid "PCAP"
+msgstr "PCAP"
+
+#. Translators: Dot is a type of file, do not translate.
+#: data/resources/ui/window.ui:29 src/window.rs:558
+msgid "DOT Graph"
+msgstr "DOT Grafiği"
+
+#: data/resources/ui/window.ui:35
+msgid "_Statistics"
+msgstr "İ_statistikler"
+
+#: data/resources/ui/window.ui:42
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: data/resources/ui/window.ui:46
+msgctxt "Translators: Do not translate Bustle, its the app's name"
+msgid "_About Bustle"
+msgstr "Bustle _Hakkında"
+
+#. Bus as in D-Bus
+#: data/resources/ui/window.ui:54
+msgid "Record Session Bus"
+msgstr "Oturum Veri Yolunu Kaydet"
+
+#. Bus as in D-Bus
+#: data/resources/ui/window.ui:58
+msgid "Record System Bus"
+msgstr "Sistem Veri Yolunu Kaydet"
+
+#. Bus as in D-Bus
+#: data/resources/ui/window.ui:62
+msgid "Record Address…"
+msgstr "Kayıt Adresi…"
+
+#: data/resources/ui/window.ui:104 data/resources/ui/window.ui:235
+msgid "Open Log File"
+msgstr "Günlük Dosyasını Aç"
+
+#: data/resources/ui/window.ui:112 data/resources/ui/window.ui:167
+#: data/resources/ui/window.ui:251
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: data/resources/ui/window.ui:119
+msgctxt "Translators: Do not translate Bustle, its the app's name"
+msgid "Welcome to Bustle"
+msgstr "Bustleʼa Hoş Geldiniz"
+
+#. Translators: Do not localize D-Bus. It is a proper name
+#: data/resources/ui/window.ui:120
+msgid "Start recording D-Bus activity, you can also run the command"
+msgstr "D-Bus etkinliğini kaydetmeye başla, şu komutu da çalıştırabilirsiniz"
+
+#: data/resources/ui/window.ui:140
+msgid "Copy"
+msgstr "Kopyala"
+
+#: data/resources/ui/window.ui:174
+msgid "Loading"
+msgstr "Yükleniyor"
+
+#. This is a verb
+#: data/resources/ui/window.ui:219
+msgid "_Stop"
+msgstr "_Durdur"
+
+#: data/resources/ui/window.ui:241
+msgid "Filter Services"
+msgstr "Hizmetleri Süz"
+
+#: data/resources/ui/window.ui:257
+msgid "Details View"
+msgstr "Ayrıntılar Görünümü"
+
+#: data/resources/ui/window.ui:267
+msgid "Please Hold"
+msgstr "Lütfen Bekleyin"
+
+#: data/resources/ui/window.ui:268
+msgid "Waiting for D-Bus Traffic…"
+msgstr "D-Bus trafiğini bekleniyor…"
+
+#: src/message.rs:193
+msgid "No Reply Expected"
+msgstr "Yanıt Beklenmiyor"
+
+#: src/message.rs:194
+msgid "No Auto Start"
+msgstr "Kendiliğinden Başlatma Yok"
+
+#: src/message.rs:196
+msgid "Allow Interactive Authentication"
+msgstr "Etkileşimli Kimlik Doğrulamaya İzin Ver"
+
+#: src/message_tag.rs:110
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#: src/message_tag.rs:111
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#: src/message_tag.rs:112
+msgid "Flatpak"
+msgstr "Flatpak"
+
+#: src/message_tag.rs:113
+msgid "Geolocalization"
+msgstr "Coğrafi Konumlandırma"
+
+#: src/message_tag.rs:114
+msgid "GTK"
+msgstr "GTK"
+
+#: src/message_tag.rs:115
+msgid "GVFS"
+msgstr "GVFS"
+
+#: src/message_tag.rs:116
+msgid "Input"
+msgstr "Girdi"
+
+#. TRANSLATORS Noun, as in user login
+#: src/message_tag.rs:118
+msgid "Login"
+msgstr "Giriş"
+
+#: src/message_tag.rs:119
+msgid "Network"
+msgstr "Ağ"
+
+#: src/message_tag.rs:120
+msgid "Policy Control"
+msgstr "İlke Denetimi"
+
+#: src/message_tag.rs:121
+msgid "Portals"
+msgstr "Portallar"
+
+#: src/message_tag.rs:122
+msgid "Search Provider"
+msgstr "Arama Sağlayıcı"
+
+#: src/message_tag.rs:123
+msgid "Session"
+msgstr "Oturum"
+
+#. TRANSLATORS As in the GNOME Shell
+#: src/message_tag.rs:125
+msgid "Shell"
+msgstr "Kabuk"
+
+#: src/message_tag.rs:126
+msgid "systemd"
+msgstr "systemd"
+
+# Dikkat: Uygulama adı!
+#. TRANSLATORS As in the Tracker software. https://tracker.gnome.org/
+#: src/message_tag.rs:128
+msgid "Tracker"
+msgstr "Tracker"
+
+#: src/message_tag.rs:129
+msgid "Power"
+msgstr "Güç"
+
+#: src/message_tag.rs:130
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#: src/message_type.rs:34
+msgid "Method Call"
+msgstr "Yöntem Çağrısı"
+
+#: src/message_type.rs:35
+msgid "Method Return"
+msgstr "Yöntem Dönüşü"
+
+#: src/message_type.rs:36
+msgid "Error"
+msgstr "Hata"
+
+#: src/message_type.rs:37
+msgid "Signal"
+msgstr "Sinyal"
+
+#: src/window.rs:131
+msgid "Recording session bus…"
+msgstr "Oturum veri yolu kaydediliyor…"
+
+#: src/window.rs:135
+msgid "Failed to record session bus"
+msgstr "Oturum veri yolu kaydedilemedi"
+
+#: src/window.rs:141
+msgid "Recording system bus…"
+msgstr "Sistem veri yolu kaydediliyor…"
+
+#: src/window.rs:146
+msgid "Failed to record system bus"
+msgstr "Sistem veri yolu kaydedilemedi"
+
+#. Translators: Do NOT translate the contents between '{' and '}', this
+#. is a variable name.
+#: src/window.rs:160
+msgid "Recording {address}…"
+msgstr "{address} kaydediliyor…"
+
+#: src/window.rs:169
+msgid "Failed to record address"
+msgstr "Adres kaydedilemedi"
+
+#: src/window.rs:186
+msgid "Failed to open file"
+msgstr "Dosya açılamadı"
+
+#: src/window.rs:198
+msgid "Failed to save as PCAP"
+msgstr "PCAP olarak kaydedilemedi"
+
+#: src/window.rs:201
+msgid "Recording saved as PCAP"
+msgstr "Kayıt, PCAP olarak kaydedildi"
+
+#: src/window.rs:212
+msgid "Failed to save as DOT graph"
+msgstr "DOT grafiği olarak kaydedilemedi"
+
+#: src/window.rs:215
+msgid "Recording saved as DOT graph"
+msgstr "Kayıt, DOT grafiği olarak kaydedildi"
+
+#: src/window.rs:407
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <libreajans@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#. Translators: PCAP is a type of file, do not translate.
+#: src/window.rs:497 src/window.rs:521
+msgid "PCAP Files"
+msgstr "PCAP Dosyaları"
+
+#: src/window.rs:504
+msgid "Open Log"
+msgstr "Günlüğü Aç"
+
+#: src/window.rs:528
+msgid "Save Log"
+msgstr "Günlüğü Kaydet"
+
+#: src/window.rs:565
+msgid "Save Log as DOT Graph File"
+msgstr "Günlüğü DOT Grafik Dosyası Olarak Kaydet"
+
+#. Translators: Do NOT translate the contents between '{' and '}', this is a
+#. variable name.
+#: src/window.rs:634
+msgid "Logged {n_messages} message"
+msgid_plural "Logged {n_messages} messages"
+msgstr[0] "{n_messages} ileti günlüklendi"
+
+#: src/window.rs:651
+msgid "Copied to clipboard"
+msgstr "Panoya kopyalandı"

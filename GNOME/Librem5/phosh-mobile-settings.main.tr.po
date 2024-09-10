@@ -1,0 +1,643 @@
+# Turkish translation for phosh-mobile-settings.
+# Copyright (C) 2024 phosh-mobile-settings's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-mobile-settings package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-mobile-settings main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-mobile-"
+"settings/-/issues\n"
+"POT-Creation-Date: 2024-09-01 11:21+0000\n"
+"PO-Revision-Date: 2024-08-25 00:25+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#: data/mobi.phosh.MobileSettings.desktop.in:3
+#: src/ui/mobile-settings-window.ui:6
+msgid "Mobile Settings"
+msgstr "Mobil Ayarlar"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.MobileSettings.desktop.in:13
+msgid "Mobile;Preferences;MobileSettings;"
+msgstr ""
+"Mobil;Yeğler;Tercihler;Ayarlar;MobilAyarlar;Mobile;Preferences;"
+"MobileSettings;"
+
+#: data/mobi.phosh.MobileSettings.metainfo.xml.in:4
+msgid "Phosh Mobile Settings"
+msgstr "Phosh Mobil Ayarları"
+
+#: data/mobi.phosh.MobileSettings.metainfo.xml.in:8
+msgid ""
+"This app allows you to configure some aspects of Phosh that would otherwise "
+"require command line usage."
+msgstr ""
+"Bu uygulama, Phosh’un komut satırı kullanımı gerektiren kimi yönlerini "
+"yapılandırmanızı sağlar."
+
+#: data/mobi.phosh.MobileSettings.metainfo.xml.in:13
+msgid "Advanced settings for Mobile devices using Phosh"
+msgstr "Phosh kullanan Mobil aygıtlar için gelişmiş ayarlar"
+
+#: data/mobi.phosh.MobileSettings.metainfo.xml.in:40
+msgid "Available panels"
+msgstr "Kullanılabilir paneller"
+
+#: data/mobi.phosh.MobileSettings.metainfo.xml.in:44
+msgid "Compositor panel"
+msgstr "Dizgeleyici paneli"
+
+#: data/mobi.phosh.MobileSettings.metainfo.xml.in:48
+msgid "Feedback panel"
+msgstr "Geri bildirim paneli"
+
+#: plugins/librem5/ms-plugin-librem5-panel.c:214
+#, c-format
+msgid "Critical temperature is %.2f°C"
+msgstr "Kritik sıcaklık %.2f°C"
+
+#. translators: U-boot is the brand of a bootloader
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:19
+msgid "U-Boot"
+msgstr "U-Boot"
+
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:31
+msgid "Suspend device"
+msgstr "Aygıtı askıya al"
+
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:33
+msgid "Suspend is experimental"
+msgstr "Askıya alma deneyseldir"
+
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:51
+msgid "Temperatures"
+msgstr "Sıcaklık"
+
+#. translators: The central processing unit of a smart phone
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:55
+msgid "CPU"
+msgstr "Merkezi İşlemci"
+
+#. translators: The graphics processing unit of a smart phone
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:74
+msgid "GPU"
+msgstr "Grafik İşlemci"
+
+#. translators: The video processing unit of a smart phone
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:93
+msgid "VPU"
+msgstr "Video İşlemci"
+
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:111
+msgid "Fuel Gauge"
+msgstr "Yakıt Göstergesi"
+
+#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:129
+msgid "Battery"
+msgstr "Pil"
+
+#: src/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: src/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Kısayolları Göster"
+
+#: src/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: src/mobile-settings-application.c:34
+msgid "- Manage your mobile settings"
+msgstr "- Mobil ayarlarınızı yönetin"
+
+#. Translators: Replace "translator-credits" with your names, one name per line
+#: src/mobile-settings-application.c:426
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
+
+#: src/mobile-settings-window.c:85
+msgid "Device"
+msgstr "Aygıt"
+
+#: src/ms-feedback-panel.c:140
+msgid "Sound file does not exist"
+msgstr "Ses dosyası yok"
+
+#: src/ms-feedback-panel.c:142
+msgid "Sound file is corrupt"
+msgstr "Ses dosyası bozuk"
+
+#: src/ms-feedback-panel.c:144
+msgid "Failed to play sound"
+msgstr "Ses oynatılamadı"
+
+#: src/ms-feedback-panel.c:183
+#, c-format
+msgid "Playing %s"
+msgstr "%s oynatılıyor"
+
+#: src/ms-feedback-panel.c:344 src/ms-feedback-panel.c:352
+msgid "none"
+msgstr "yok"
+
+#: src/ms-feedback-panel.c:346
+msgid "low"
+msgstr "düşük"
+
+#. 1.0
+#: src/ms-feedback-panel.c:348 src/ui/ms-osk-panel.ui:36
+msgid "normal"
+msgstr "normal"
+
+#: src/ms-feedback-panel.c:350
+msgid "critical"
+msgstr "kritik"
+
+#: src/ms-sensor-panel.c:92
+msgid "Normal"
+msgstr "Normal"
+
+#: src/ms-sensor-panel.c:94
+msgid "Bottom up"
+msgstr "Alttan yukarı"
+
+#: src/ms-sensor-panel.c:96
+msgid "Left up"
+msgstr "Soldan yukarı"
+
+#: src/ms-sensor-panel.c:98
+msgid "Right up"
+msgstr "Sağdan yukarı"
+
+#: src/ms-sensor-panel.c:100
+msgid "Undefined"
+msgstr "Tanımlanmamış"
+
+#: src/ms-sensor-panel.c:135
+msgid "Near"
+msgstr "Yakın"
+
+#: src/ms-sensor-panel.c:135
+msgid "Far"
+msgstr "Uzak"
+
+#: src/ms-sensor-panel.c:253
+msgid "Updating…"
+msgstr "Güncelleniyor…"
+
+#: src/ms-sensor-panel.c:269 src/ms-sensor-panel.c:270
+#: src/ms-sensor-panel.c:271
+msgid "Not available"
+msgstr "Kullanılamaz"
+
+#: src/ms-sound-row.c:127
+msgid "Custom"
+msgstr "Özel"
+
+#: src/ms-sound-row.c:308
+msgid "Choose sound file"
+msgstr "Ses dosyası seç"
+
+#: src/ms-util.c:150
+msgid "Full"
+msgstr "Tam"
+
+#: src/ms-util.c:152
+msgid "Quiet"
+msgstr "Neredeyse Sessiz"
+
+#: src/ms-util.c:154
+msgid "Silent"
+msgstr "Sessiz"
+
+#: src/ui/mobile-settings-window.ui:75
+msgid "Welcome"
+msgstr "Hoş Geldiniz"
+
+#: src/ui/mobile-settings-window.ui:81
+msgid "Welcome to Mobile Settings"
+msgstr "Mobil Ayarlara Hoş Geldiniz"
+
+#: src/ui/mobile-settings-window.ui:82
+msgid "Tweak advanced mobile settings"
+msgstr "Gelişmiş mobil ayarları değiştirin"
+
+#: src/ui/mobile-settings-window.ui:90
+msgid "Top Bar"
+msgstr "Üst Çubuk"
+
+#: src/ui/mobile-settings-window.ui:101
+msgid "Applications"
+msgstr "Uygulamalar"
+
+#: src/ui/mobile-settings-window.ui:112
+msgid "Feedback"
+msgstr "Geri Bildirim"
+
+#: src/ui/mobile-settings-window.ui:123
+msgid "Compositor"
+msgstr "Dizgileyici"
+
+#: src/ui/mobile-settings-window.ui:134
+msgid "Lockscreen"
+msgstr "Kilit Ekranı"
+
+#: src/ui/mobile-settings-window.ui:145
+msgid "Convergence"
+msgstr "Yakınsama"
+
+#: src/ui/mobile-settings-window.ui:156
+msgid "On Screen Keyboard"
+msgstr "Ekran Klavyesi"
+
+#: src/ui/mobile-settings-window.ui:167 src/ui/ms-sensor-panel.ui:28
+msgid "Sensors"
+msgstr "Algılayıcılar"
+
+#: src/ui/mobile-settings-window.ui:178
+msgid "Experimental features"
+msgstr "Deneysel Özellikler"
+
+#: src/ui/mobile-settings-window.ui:202
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: src/ui/mobile-settings-window.ui:206
+msgid "_About Mobile Settings"
+msgstr "Mobil Ayarlar _Hakkında"
+
+#: src/ui/ms-applications-panel.ui:11
+msgid "Favorites"
+msgstr "Gözdeler"
+
+#: src/ui/ms-applications-panel.ui:20
+msgid "Organize Favorites"
+msgstr "Gözdeleri Düzenle"
+
+#: src/ui/ms-applications-panel.ui:21
+msgid "Drag and drop the apps below to rearrange your favorite apps"
+msgstr ""
+"Gözde uygulamalarınızı düzenlemek için aşağıdaki uygulamaları sürükleyip "
+"bırakın"
+
+#: src/ui/ms-applications-panel.ui:46
+msgid "Reset Favorites"
+msgstr "Gözdeleri Sıfırla"
+
+#: src/ui/ms-applications-panel.ui:47
+msgid "Set list of favorite apps back to the default"
+msgstr "Gözde uygulamalar listesini öntanımlılara geri yükle"
+
+#: src/ui/ms-applications-panel.ui:51
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: src/ui/ms-applications-panel.ui:62
+msgid "Mobile App Filtering"
+msgstr "Mobil Uygulama Süzme"
+
+#: src/ui/ms-applications-panel.ui:65
+msgid "Set Application Filter Mode"
+msgstr "Uygulama Süzme Kipini Ayarla"
+
+#: src/ui/ms-applications-panel.ui:66
+msgid "Show only mobile apps in the overview"
+msgstr "Genel görünümde yalnızca mobil uygulamaları göster"
+
+#: src/ui/ms-compositor-panel.ui:11
+msgid "Scaling down of running applications"
+msgstr "Çalışan uygulamaların ölçeklendirilmesi"
+
+#: src/ui/ms-compositor-panel.ui:12
+msgid "Only enable this for broken apps that don't fit the screen"
+msgstr "Bunu yalnızca ekrana sığmayan bozuk uygulamalar için etkinleştirin"
+
+#: src/ui/ms-compositor-panel.ui:25
+msgid "Scale down all applications"
+msgstr "Tüm uygulamaları küçült"
+
+#: src/ui/ms-compositor-panel.ui:26
+msgid "Forcibly scale down all applications. Only use this as a last resort."
+msgstr "Tüm uygulamaları zorla küçült. Bunu yalnızca son çare olarak kullanın."
+
+#: src/ui/ms-compositor-panel.ui:29
+msgid "Scale down all apps"
+msgstr "Tüm uygulamaları küçült"
+
+#: src/ui/ms-compositor-panel.ui:35 src/ui/ms-convergence-panel.ui:35
+#: src/ui/ms-features-panel.ui:23 src/ui/ms-features-panel.ui:38
+#: src/ui/ms-lockscreen-panel.ui:37 src/ui/ms-osk-panel.ui:20
+#: src/ui/ms-osk-panel.ui:67 src/ui/ms-osk-panel.ui:83
+#: src/ui/ms-scale-to-fit-row.ui:11
+msgid "Enabled"
+msgstr "Etkin"
+
+#: src/ui/ms-convergence-panel.ui:15
+msgid "No known docks detected"
+msgstr "Bilinen bir rıhtım algılanmadı"
+
+#: src/ui/ms-convergence-panel.ui:29
+msgid "Map built-in touch screen"
+msgstr "Yerleşik dokunmatik ekranı eşle"
+
+#: src/ui/ms-features-panel.ui:11
+msgid "Experimental Features"
+msgstr "Deneysel Özellikler"
+
+#: src/ui/ms-features-panel.ui:12
+msgid "Features not yet deemed fully stable"
+msgstr "Henüz kararlı sayılmayan özellikler"
+
+#: src/ui/ms-features-panel.ui:16
+msgid "Emergency Calls"
+msgstr "Acil Çağrılar"
+
+#: src/ui/ms-features-panel.ui:17
+msgid ""
+"Enable emergency calls. Please only enable this if you safely can ensure "
+"that it's working with your provider."
+msgstr ""
+"Acil durum çağrılarını etkinleştir. Lütfen bunu yalnızca sağlayıcınızla "
+"çalıştığından eminseniz etkinleştirin."
+
+#: src/ui/ms-features-panel.ui:31
+msgid "Enable suspend via the system menu"
+msgstr "Sistem menüsünden askıya almayı etkinleştir"
+
+#: src/ui/ms-features-panel.ui:33
+msgid ""
+"Please only enable this if you're aware of the limitations like data "
+"connection loss or missed alarms"
+msgstr ""
+"Lütfen bunu yalnızca veri bağlantısı yitimi ya da kaçırılan alarmlar gibi "
+"sınırlamaların ayırdındaysanız etkinleştirin"
+
+#: src/ui/ms-feedback-panel.ui:16
+msgid "Feedback profile"
+msgstr "Geri bildirim profili"
+
+#: src/ui/ms-feedback-panel.ui:17
+msgid "The global maximum feedback profile"
+msgstr "Genel azami geri bildirim profili"
+
+#: src/ui/ms-feedback-panel.ui:32
+msgid "Prefer flash"
+msgstr "Flaşı yeğle"
+
+#: src/ui/ms-feedback-panel.ui:33
+msgid "Prefer camera flash over status LED when available"
+msgstr "Oluyorsa durum LEDʼi yerine kamera flaşını yeğle"
+
+#. Translators: Vol- means the 'Lower Volume' key
+#: src/ui/ms-feedback-panel.ui:39
+msgid "Silence on Vol-"
+msgstr "Sesi azalt ile sessiz"
+
+#: src/ui/ms-feedback-panel.ui:40
+msgid ""
+"When locked put the phone in silent mode when pressing Vol- on incoming calls"
+msgstr ""
+"Kilitlendiğinde, gelen aramalarda sesi azalt tuşuna basıldığında telefonu "
+"sessiz kipe al"
+
+#: src/ui/ms-feedback-panel.ui:48
+msgid "Per Application settings"
+msgstr "Uygulama Başına ayarlar"
+
+#: src/ui/ms-feedback-panel.ui:61
+msgid "Sounds"
+msgstr "Sesler"
+
+#: src/ui/ms-feedback-panel.ui:62
+msgid "The sound to use for certain events"
+msgstr "Belirli olaylar için kullanılacak ses"
+
+#: src/ui/ms-feedback-panel.ui:70
+msgid "Phone Calls"
+msgstr "Telefon Çağrıları"
+
+#: src/ui/ms-feedback-panel.ui:76
+msgid "SMS"
+msgstr "Kısa İleti"
+
+#: src/ui/ms-feedback-panel.ui:82
+msgid "Instant messages"
+msgstr "Anlık iletiler"
+
+#: src/ui/ms-feedback-panel.ui:93
+msgid "Screen Wakeup"
+msgstr "Ekran Uyandırma"
+
+#: src/ui/ms-feedback-panel.ui:96
+msgid "Notification urgency that lights up the screen"
+msgstr "Ekranı aydınlatan bildirim aciliyeti"
+
+#: src/ui/ms-lockscreen-panel.ui:12
+msgid "Locking and unlocking"
+msgstr "Kilitleme ve kilit açma"
+
+#: src/ui/ms-lockscreen-panel.ui:15
+msgid "Automatic screen lock delay"
+msgstr "Kendiliğinden ekran kilidi gecikmesi"
+
+#: src/ui/ms-lockscreen-panel.ui:16
+msgid "Seconds from screen blank to screen lock"
+msgstr "Boş ekrandan ekran kilidine dek geçen saniye"
+
+#: src/ui/ms-lockscreen-panel.ui:30
+msgid "Shuffle keypad"
+msgstr "Tuş takımını karıştır"
+
+#: src/ui/ms-lockscreen-panel.ui:31
+msgid "Whether to shuffle the numbers on the keypad"
+msgstr "Tuş takımındaki sayıların karıştırılma durumu"
+
+#: src/ui/ms-lockscreen-panel.ui:48
+msgid "Widgets"
+msgstr "Parçacıklar"
+
+#: src/ui/ms-lockscreen-panel.ui:49
+msgid "Additional widgets for the lock screen"
+msgstr "Kilit ekranı için ek parçacıklar"
+
+#: src/ui/ms-osk-panel.ui:13
+msgid "Enable _On Screen Keyboard"
+msgstr "_Ekran Klavyesini Etkinleştir"
+
+#: src/ui/ms-osk-panel.ui:14
+msgid "Whether to show the on screen keyboard when needed"
+msgstr "Gerektiğinde ekran klavyesinin gösterilme durumu"
+
+#: src/ui/ms-osk-panel.ui:28
+msgid "Unfold long-press"
+msgstr "Uzun basma ile aç"
+
+#: src/ui/ms-osk-panel.ui:29
+msgid ""
+"How long to press the center of the home bar to unfold the on screen keyboard"
+msgstr ""
+"Ekran klavyesini açmak için ana ekran çubuğunun ortasına ne kadar basılması "
+"gerektiği"
+
+#. 0.5
+#: src/ui/ms-osk-panel.ui:34
+msgid "short"
+msgstr "kısa"
+
+#. 2.0
+#: src/ui/ms-osk-panel.ui:38
+msgid "long"
+msgstr "uzun"
+
+#: src/ui/ms-osk-panel.ui:46
+msgid "Ignore hardware keyboard"
+msgstr "Donanım klavyesini görmezden gel"
+
+#: src/ui/ms-osk-panel.ui:47
+msgid ""
+"Whether to show the on screen keyboard when a physical keyboard is present"
+msgstr "Fiziksel klavye varsa ekran klavyesinin gösterilme durumu"
+
+#: src/ui/ms-osk-panel.ui:56
+msgid "Text Completion"
+msgstr "Metin Tamamlama"
+
+#: src/ui/ms-osk-panel.ui:59
+msgid "Opportunistic word completion"
+msgstr "Fırsatçı sözcük tamamlama"
+
+#: src/ui/ms-osk-panel.ui:60
+msgid "Enable word completion when the app indicates it is useful"
+msgstr ""
+"Uygulama, yararlı olduğunu belirttiğinde sözcük tamamlamayı etkinleştir"
+
+# OSK: On Screen Keyboard
+#: src/ui/ms-osk-panel.ui:75
+msgid "Toggle via OSK menu"
+msgstr "Ekran Klavyesi menüsü ile değiştir"
+
+#: src/ui/ms-osk-panel.ui:76
+msgid "Allow to toggle word completion via the keyboard's menu button"
+msgstr "Klavyenin menü düğmesiyle sözcük tamamlamayı açıp kapatmaya izin ver"
+
+#: src/ui/ms-osk-panel.ui:94
+msgid "Terminal Layout"
+msgstr "Uçbirim Yerleşimi"
+
+#: src/ui/ms-osk-panel.ui:98
+msgid "Shortcuts"
+msgstr "Kısayollar"
+
+#: src/ui/ms-osk-panel.ui:99
+msgid "The shortcuts available in the shortcuts bar"
+msgstr "Kısayollar çubuğundaki kısayollar"
+
+#: src/ui/ms-plugin-row.ui:41
+msgid "More options…"
+msgstr "Daha çok seçenek…"
+
+#: src/ui/ms-plugin-row.ui:54
+msgid "Move Up"
+msgstr "Yukarı Taşı"
+
+#: src/ui/ms-plugin-row.ui:58
+msgid "Move Down"
+msgstr "Aşağı Taşı"
+
+#: src/ui/ms-sensor-panel.ui:16
+msgid "No Sensors found"
+msgstr "Algılayıcı bulunamadı"
+
+#: src/ui/ms-sensor-panel.ui:17
+msgid ""
+"Either there are no sensors installed on your device or they are disabled by "
+"a killswitch."
+msgstr ""
+"Aygıtınızda kurulu algılayıcı yok ya da kapatma anahtarınca devre dışı "
+"bırakılmış."
+
+#: src/ui/ms-sensor-panel.ui:32
+msgid "Sensor Readings"
+msgstr "Algılayıcı Okumaları"
+
+#: src/ui/ms-sensor-panel.ui:40
+msgid "Proximity"
+msgstr "Yakınlık"
+
+#: src/ui/ms-sensor-panel.ui:49
+msgid "Light"
+msgstr "Işık"
+
+#: src/ui/ms-sensor-panel.ui:58
+msgid "Orientation"
+msgstr "Yönelim"
+
+#: src/ui/ms-sensor-panel.ui:69
+msgid "High Contrast"
+msgstr "Yüksek Karşıtlık"
+
+#: src/ui/ms-sensor-panel.ui:72
+msgid "Automatic High Contrast"
+msgstr "Kendiliğinden Yüksek Karşıtlık"
+
+#: src/ui/ms-sensor-panel.ui:73
+msgid "Controlled by the Ambient Light Sensor"
+msgstr "Ortam Işığı Algılayıcısı tarafından denetlenir"
+
+#: src/ui/ms-sensor-panel.ui:84
+msgid "Light intensity threshold"
+msgstr "Işık yoğunluğu eşiği"
+
+#: src/ui/ms-sensor-panel.ui:85
+msgid "Theme will switch to high contrast above the threshold"
+msgstr "Tema, eşiğin üzerinde yüksek karşıtlığa geçer"
+
+#: src/ui/ms-sound-row.ui:54
+msgid "Sound files (ogg)"
+msgstr "Ses dosyaları (ogg)"
+
+#: src/ui/ms-topbar-panel.ui:12
+msgid "UI Elements"
+msgstr "Kullanıcı Arayüzü Ögeleri"
+
+#: src/ui/ms-topbar-panel.ui:16
+msgid "Show battery percentage"
+msgstr "Pil yüzdesini göster"
+
+#: src/ui/ms-topbar-panel.ui:17
+msgid "Show exact charge level in the top bar"
+msgstr "Üst çubukta tam şarj düzeyini göster"
+
+#: src/ui/ms-topbar-panel.ui:23
+msgid "Avoid notches"
+msgstr "Çentiklerden kaçın"
+
+#: src/ui/ms-topbar-panel.ui:24
+msgid "Don't place UI elements beneath notches and display cutouts"
+msgstr ""
+"Kullanıcı arayüz ögelerini çentikler ve ekran kesiklerinin altına yerleştirme"
+
+#: src/ui/ms-topbar-panel.ui:34
+msgid "Quick Settings"
+msgstr "Hızlı Ayarlar"
+
+#: src/ui/ms-topbar-panel.ui:35
+msgid "Organize your additional Quick Settings"
+msgstr "Ek Hızlı Ayarlar’ınızı düzenleyin"

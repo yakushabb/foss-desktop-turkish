@@ -1,0 +1,258 @@
+# Turkish translation for d-spy
+# Copyright (C) 2023-2024 d-spy'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the d-spy package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2023, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: d-spy main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/d-spy/issues\n"
+"POT-Creation-Date: 2024-09-05 19:18+0000\n"
+"PO-Revision-Date: 2024-05-19 20:20+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.dspy.appdata.xml.in.in:7
+msgid "Christian Hergert"
+msgstr "Christian Hergert"
+
+#: data/org.gnome.dspy.appdata.xml.in.in:14 data/org.gnome.dspy.desktop.in.in:6
+#: lib/dspy-view.ui:24 src/main.c:87
+msgid "D-Spy"
+msgstr "D-Spy"
+
+#: data/org.gnome.dspy.appdata.xml.in.in:16
+msgid "Analyze D-Bus connections"
+msgstr "D-Bus Bağlantılarını İncele"
+
+#: data/org.gnome.dspy.appdata.xml.in.in:18
+msgid "D-Spy is a simple tool to explore D-Bus connections."
+msgstr "D-Spy, D-Bus bağlantılarını keşfetmek için basit araçtır."
+
+#: data/org.gnome.dspy.appdata.xml.in.in:29
+msgid "D-Spy Interface"
+msgstr "D-Spy Arayüzü"
+
+#: data/org.gnome.dspy.desktop.in.in:7
+msgid "Discover and explore D-Bus services"
+msgstr "D-Bus hizmetlerini keşfet ve gez"
+
+# https://gitlab.gnome.org/GNOME/glib/-/issues/443 hatası sebebiyle uygulama adı dahil ingilizce hallerini de koruyalım.
+#: data/org.gnome.dspy.desktop.in.in:8
+msgid "dspy;dbus;"
+msgstr "dspy;dbus;veriyolu;veri yolu;veri;yolu;"
+
+#. translators: %s is replaced with the address of the D-Bus bus
+#: lib/dspy-connection-button.c:76
+#, c-format
+msgid "Connected to “%s”"
+msgstr "“%s”e bağlandı"
+
+#: lib/dspy-connection-button.c:221
+msgid "S_ystem"
+msgstr "_Sistem"
+
+#: lib/dspy-connection-button.c:223
+msgid "_Session"
+msgstr "_Oturum"
+
+#: lib/dspy-connection-button.c:225
+msgid "_Other"
+msgstr "_Diğer"
+
+#: lib/dspy-method-view.c:191
+msgid "Execute"
+msgstr "Çalıştır"
+
+#: lib/dspy-method-view.c:273
+msgid "Cancel"
+msgstr "İptal"
+
+#: lib/dspy-method-view.ui:11 lib/dspy-tree-view.c:343
+msgid "Object Path"
+msgstr "Nesne Yolu"
+
+#: lib/dspy-method-view.ui:36
+msgid "Interface"
+msgstr "Arayüz"
+
+#: lib/dspy-method-view.ui:61
+msgid "Method"
+msgstr "Yöntem"
+
+#: lib/dspy-method-view.ui:86
+msgid "Parameters"
+msgstr "Parametreler"
+
+#: lib/dspy-method-view.ui:126
+msgid "_Execute"
+msgstr "_Çalıştır"
+
+#: lib/dspy-method-view.ui:141
+msgid "Result"
+msgstr "Sonuç"
+
+#: lib/dspy-method-view.ui:182
+msgid "_Copy"
+msgstr "K_opyala"
+
+#: lib/dspy-method-view.ui:194
+msgid "Elapsed Time"
+msgstr "Geçen Süre"
+
+#: lib/dspy-name-marquee.ui:12
+msgid "Bus Address"
+msgstr "Veri Yolu Adresi"
+
+#: lib/dspy-name-marquee.ui:36
+msgid "Name"
+msgstr "Ad"
+
+#: lib/dspy-name-marquee.ui:60
+msgid "Owner"
+msgstr "Sahip"
+
+#: lib/dspy-name-marquee.ui:84
+msgid "Process ID"
+msgstr "Süreç Kimliği"
+
+#: lib/dspy-name-row.c:78 lib/dspy-name-row.c:80
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: lib/dspy-name-row.c:78 lib/dspy-name-row.c:80
+msgid "Activatable"
+msgstr "Etkinleştirilebilir"
+
+#: lib/dspy-name-row.c:78
+msgid "Yes"
+msgstr "Evet"
+
+#: lib/dspy-name-row.c:80
+msgid "No"
+msgstr "Hayır"
+
+#: lib/dspy-name-row.c:85
+#, c-format
+msgid "%s: %u"
+msgstr "%s: %u"
+
+#: lib/dspy-name-row.c:85
+msgid "PID"
+msgstr "PID"
+
+#: lib/dspy-node.c:468
+msgid "read/write"
+msgstr "oku/yaz"
+
+#: lib/dspy-node.c:470
+msgid "write-only"
+msgstr "salt yazılır"
+
+#: lib/dspy-node.c:472
+msgid "read-only"
+msgstr "salt okunur"
+
+#: lib/dspy-node.c:587
+msgid "Interfaces"
+msgstr "Arayüzler"
+
+#: lib/dspy-node.c:590
+msgid "Methods"
+msgstr "Yöntemler"
+
+#: lib/dspy-node.c:596
+msgid "Properties"
+msgstr "Özellikler"
+
+#: lib/dspy-node.c:612
+msgid "Signals"
+msgstr "Sinyaller"
+
+#. translators: %s is replaced with the simple D-Bus type string
+#: lib/dspy-signature.c:77
+#, c-format
+msgid "Array of [%s]"
+msgstr "[%s] dizisi"
+
+#: lib/dspy-view.c:126
+msgid "Bus"
+msgstr "Veri Yolu"
+
+#: lib/dspy-view.c:165
+msgid "Access Denied by Peer"
+msgstr "Erişim Eşçe Reddedildi"
+
+#: lib/dspy-view.c:167
+msgid "Authentication Failed"
+msgstr "Kimlik Doğrulanamadı"
+
+#: lib/dspy-view.c:169
+msgid "Operation Timed Out"
+msgstr "İşlem Zaman Aşımına Uğradı"
+
+#: lib/dspy-view.c:171
+msgid "Lost Connection to Bus"
+msgstr "Veri Yolu Bağlantısı Kesildi"
+
+#: lib/dspy-view.c:173
+msgid "D-Bus Connection Failed"
+msgstr "D-Bus Bağlantısı Başarısız"
+
+#: lib/dspy-view.c:475
+msgid "Connect"
+msgstr "Bağlan"
+
+#: lib/dspy-view.c:476
+msgid "Provide the address of the message bus"
+msgstr "İleti veri yolunun adresini gir"
+
+#: lib/dspy-view.c:478
+msgid "Connect to Other Bus"
+msgstr "Diğer Veri Yoluna Bağlan"
+
+#: lib/dspy-view.ui:31
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: lib/dspy-view.ui:66
+msgid "Search Bus Names"
+msgstr "Veri Yolu Adlarını Ara"
+
+#: lib/dspy-view.ui:80
+msgid "Bus Names"
+msgstr "Veri Yolu Adları"
+
+#: lib/dspy-view.ui:143
+msgid "Select a D-Bus Name"
+msgstr "D-Bus Adı Seç"
+
+#: lib/dspy-view.ui:144
+msgid "Select a bus name to introspect the peer"
+msgstr "Eşi incelemek için veri yolu adı seç"
+
+#: lib/dspy-view.ui:160
+msgid "Refresh"
+msgstr "Yenile"
+
+#: lib/dspy-view.ui:230
+msgid "_New Window"
+msgstr "_Yeni Pencere"
+
+#: lib/dspy-view.ui:236
+msgid "_About D-Spy"
+msgstr "D-Spy _Hakkında"
+
+#: lib/gtk/menus.ui:5
+msgid "Connect to Other Bus…"
+msgstr "Diğer Veri Yoluna Bağlan…"

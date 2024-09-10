@@ -1,0 +1,428 @@
+# Turkish translation for gnome-usage.
+# Copyright (C) 2017-2022 gnome-usage's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-usage package.
+#
+# Sabri Ünal <libreajans@gmail.com>, 2019, 2022, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2019, 2022-2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-usage master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-usage/issues\n"
+"POT-Creation-Date: 2024-03-19 23:24+0000\n"
+"PO-Revision-Date: 2024-02-16 23:54+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: data/org.gnome.Usage.appdata.xml.in.in:5
+#: data/org.gnome.Usage.desktop.in.in:3 data/ui/window.ui:18
+#: data/ui/window.ui:34
+msgid "Usage"
+msgstr "Kullanım"
+
+#: data/org.gnome.Usage.appdata.xml.in.in:6
+msgid "Usage developers"
+msgstr "Kullanım geliştiricileri"
+
+#: data/org.gnome.Usage.appdata.xml.in.in:10
+msgid "A nice way to view information about use of system resources"
+msgstr ""
+"Sistem kaynaklarının kullanımıyla ilgili bilgiyi görmek için güzel bir yol"
+
+#: data/org.gnome.Usage.appdata.xml.in.in:12
+msgid ""
+"A simple application to monitor and analyze system resources such as CPU and "
+"memory usage of running apps, and storage usage."
+msgstr ""
+"İşlemci, çalışan uygulamaların bellek kullanımı ve depolama gibi sistem "
+"kaynaklarını çözümlemek ve gözlemlemek için basit bir uygulama. "
+
+#: data/org.gnome.Usage.desktop.in.in:4
+msgid ""
+"A nice way to view information about use of system resources, like memory "
+"and disk space"
+msgstr ""
+"Bellek ve disk alanı gibi sistem kaynaklarının kullanımıyla ilgili bilgiyi "
+"görmek için güzel bir yol"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Usage.desktop.in.in:13
+msgid ""
+"Monitor;System;Process;CPU;Memory;Network;History;Usage;Performance;Task;"
+"Manager;"
+msgstr ""
+"Gözlemci;İzleyici;Sistem;İşlem;Süreç;CPU;MİB;İşlemci;Bellek;Ağ;Geçmiş;"
+"Kullanım;Başarım;Performans;Görev;Yönetici;"
+
+#: data/org.gnome.Usage.gschema.xml.in:5
+msgid "A list of processes which we don’t want killed"
+msgstr "Sonlandırılmasını istemediğimiz süreçlerin listesi"
+
+#: data/org.gnome.Usage.gschema.xml.in:6
+msgid "This list is used for filtering which processes the user can’t stop."
+msgstr ""
+"Bu liste kullanıcının durdurmaması gereken süreçleri süzmek için kullanılır."
+
+#: data/org.gnome.Usage.gschema.xml.in:10
+msgid "time span (ms) of the graphs in the performance tab"
+msgstr "başarım sekmesindeki grafiklerin zaman aralığı (ms)"
+
+#: data/org.gnome.Usage.gschema.xml.in:11
+msgid ""
+"The time span for up to which the CPU and memory graphs in the performance "
+"tab and its sidebar go back in time in milliseconds."
+msgstr ""
+"Başarım sekmesindeki ve kenar çubuğundaki MİB ve bellek grafiklerinin "
+"milisaniye türünden geriye doğru gittiği zaman aralığı."
+
+#: data/org.gnome.Usage.gschema.xml.in:18
+msgid "interval (ms) for the performance data refresh"
+msgstr "başarım veri yenilemesi için aralık (ms)"
+
+#: data/org.gnome.Usage.gschema.xml.in:19
+msgid ""
+"The interval at which the data for the performance tab are updated and "
+"displayed periodically in milliseconds."
+msgstr ""
+"Başarım sekmesi için verilerin güncellendiği ve milisaniye türünden "
+"periyodik olarak görüntülendiği aralık."
+
+#: data/org.gnome.Usage.gschema.xml.in:26
+msgid ""
+"minimum relative load (%) of an app to be displayed in the performance tab"
+msgstr "başarım sekmesinde görüntülenecek uygulamanın asgari göreli yükü (%)"
+
+#: data/org.gnome.Usage.gschema.xml.in:27
+msgid ""
+"The load an app has to have in total as the sum over all its processes, "
+"normalized to 100, to be listed in the performance tab. With 0, all apps are "
+"listed. With 100 an app is only listed if its processes fully utilise all "
+"CPU threads."
+msgstr ""
+"Uygulamanın başarım sekmesinde listelenmesi için tüm süreçlerinin toplamı "
+"100’e normalleştirilmiş yükte olmalıdır. 0 ile tüm uygulamalar listelenir. "
+"100 ile uygulama yalnızca süreçleri tüm MİB iş parçacıklarını tümüyle "
+"kullanıyorsa listelenir."
+
+#: data/org.gnome.Usage.gschema.xml.in:36
+msgid ""
+"minimum memory footprint of an app to be displayed in the performance tab"
+msgstr "başarım sekmesinde görüntülenecek uygulamanın asgari bellek ayak izi"
+
+#: data/org.gnome.Usage.gschema.xml.in:37
+msgid ""
+"The minimum amount of memory an app has to use in total as the sum over all "
+"its processes in bytes to be listed in the performance tab."
+msgstr ""
+"Uygulamanın başarım sekmesinde listelenmesi için bayt türünden tüm "
+"işlemlerinin kullanması gereken toplam asgari bellek miktarı."
+
+#: data/org.gnome.Usage.gschema.xml.in:45
+msgid "Force graphs to not continuously scrolling"
+msgstr "Grafikleri sürekli kaydırmamaya zorla"
+
+#: data/org.gnome.Usage.gschema.xml.in:46
+msgid ""
+"If enabled, the performance graphs will be forced to not scroll "
+"continuously, but instead will only jump when a new data point is added. If "
+"disabled, the graphs will decide, based on power-saving mode and GTK's "
+"global animations settings, how to behave."
+msgstr ""
+"Etkinleştirilirse, başarım grafikleri sürekli olarak kaydırılmamaya "
+"zorlanacak, bunun yerine yalnızca yeni veri noktası eklendiğinde "
+"atlayacaktır. Devre dışı bırakılırsa, grafikler güç tutum kipine ve GTK’nın "
+"küresel canlandırma ayarlarına göre nasıl davranacaklarına karar verirler."
+
+#: data/ui/app-dialog.ui:78
+msgid "Application is running with no visible window"
+msgstr "Uygulama görünür pencere olmadan çalışıyor"
+
+#: data/ui/app-dialog.ui:138
+msgid "Quit App"
+msgstr "Uygulamadan Çık"
+
+#: data/ui/app-dialog.ui:149
+msgid "Force Quit"
+msgstr "Çıkmaya Zorla"
+
+#: data/ui/memory-speedometer.ui:33
+msgid "RAM"
+msgstr "RAM"
+
+#: data/ui/memory-speedometer.ui:47 data/ui/storage-view.ui:62
+#: data/ui/swap-speedometer.ui:45
+msgid "Used"
+msgstr "Kullanılan"
+
+#: data/ui/memory-speedometer.ui:69 data/ui/storage-view.ui:68
+#: data/ui/swap-speedometer.ui:67
+msgid "Available"
+msgstr "Uygun"
+
+#: data/ui/no-results-found-view.ui:28
+msgid "No results found"
+msgstr "Sonuç bulunamadı"
+
+#: data/ui/no-results-found-view.ui:40
+msgid "Try a different search"
+msgstr "Başka arama deneyin"
+
+#: data/ui/process-row.ui:49
+msgid "Application is running in background"
+msgstr "Uygulama arka planda çalışıyor"
+
+#: data/ui/process-row.ui:71
+msgid "Application uses optimised game mode"
+msgstr "Uygulama eniyilenmiş oyun kipini kullanır"
+
+#. Translators: This sentence is later suffixed with an application name. Example: “Quit Tuba?”
+#: data/ui/quit-process-dialog.ui:6
+msgid "Quit %s?"
+msgstr "%s Uygulamasından Çıkılsın Mı?"
+
+#: data/ui/quit-process-dialog.ui:7
+msgid ""
+"Stopping applications might come with side effects, such as data loss of "
+"unsaved work."
+msgstr ""
+"Uygulamaların durdurulması, kaydedilmemiş çalışmalarda veri yitimi gibi yan "
+"etkilere neden olabilir."
+
+#: data/ui/quit-process-dialog.ui:12 src/storage/storage-actionbar.vala:52
+msgid "Cancel"
+msgstr "İptal"
+
+#: data/ui/quit-process-dialog.ui:13
+msgid "Quit"
+msgstr "Çık"
+
+#: data/ui/storage-actionbar.ui:15
+msgid "Delete…"
+msgstr "Sil…"
+
+#: data/ui/storage-view.ui:44
+msgid "Home Partition"
+msgstr "Ev Bölümü"
+
+#: data/ui/swap-speedometer.ui:31
+msgid "Swap"
+msgstr "Takas"
+
+#: data/ui/window.ui:42 data/ui/window.ui:88
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: data/ui/window.ui:100
+msgid "Search"
+msgstr "Ara"
+
+#: data/ui/window.ui:119
+msgid "Search Applications…"
+msgstr "Uygulamaları Ara…"
+
+#: data/ui/window.ui:153
+msgid "_About Usage"
+msgstr "Kullanım _Hakkında"
+
+#: data/ui/window.ui:159
+msgid "Group system processes"
+msgstr "Sistem süreçlerini kümele"
+
+#: data/ui/window.ui:165
+msgid "Show all processes"
+msgstr "Tüm süreçleri göster"
+
+#: src/app-dialog.vala:93
+msgid "CPU"
+msgstr "İşlemci"
+
+#: src/app-dialog.vala:101 src/memory-view.vala:33
+msgid "Memory"
+msgstr "Bellek"
+
+#: src/app-item.vala:214
+msgid "System"
+msgstr "Sistem"
+
+#: src/application.vala:73
+msgid ""
+"A nice way to view information about use of system resources, like memory "
+"and disk space."
+msgstr ""
+"Bellek ve disk alanı gibi sistem kaynaklarının kullanımıyla ilgili bilgiyi "
+"görmek için güzel bir yol."
+
+#: src/application.vala:76
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <libreajans@gmail.com>"
+
+#: src/cpu-view.vala:33
+msgid "Processor"
+msgstr "İşlemci"
+
+#: src/storage/storage-actionbar.vala:42
+#, c-format
+msgid "%s selected"
+msgid_plural "%s selected"
+msgstr[0] "%s seçili"
+
+#: src/storage/storage-actionbar.vala:47
+msgid "Are you sure you want to permanently delete selected items?"
+msgstr "Seçili ögeyi kalıcı olarak silmek istediğinizden emin misiniz?"
+
+#: src/storage/storage-actionbar.vala:48
+msgid "If you delete these items, they will be permanently lost."
+msgstr "Bu ögeleri silerseniz kalıcı olarak yitecekler."
+
+#: src/storage/storage-actionbar.vala:53
+msgid "Delete"
+msgstr "Sil"
+
+#: src/storage/storage-row-popover.vala:42
+msgid ""
+"Operating system files are an essential part of your system and cannot be "
+"removed."
+msgstr ""
+"İşletim sistemi dosyaları sisteminizin önemli bir parçasıdır ve kaldırılamaz."
+
+#: src/storage/storage-view.vala:80
+msgid "Storage"
+msgstr "Depolama"
+
+#: src/storage/storage-view.vala:240
+msgid "Operating System"
+msgstr "İşletim Sistemi"
+
+#: src/storage/storage-view.vala:268
+#, c-format
+msgid "%s available"
+msgid_plural "%s available"
+msgstr[0] "%s kullanılabilir"
+
+#: src/utils.vala:58
+#, c-format
+msgid "%llu B"
+msgstr "%llu B"
+
+#: src/utils.vala:63
+#, c-format
+msgid "%s/s"
+msgstr "%s/s"
+
+#: src/utils.vala:65
+#, c-format
+msgid "%llu B/s"
+msgstr "%llu B/s"
+
+#~ msgid "Unsaved work might be lost."
+#~ msgstr "Kaydedilmemiş iş kaybedilebilir."
+
+#~ msgid "Performance"
+#~ msgstr "Başarım"
+
+#~ msgid "GNOME Usage"
+#~ msgstr "GNOME Kullanım"
+
+#~ msgid "Websites"
+#~ msgstr "Web siteleri"
+
+#~ msgid "Scanning directories"
+#~ msgstr "Dizinler taranıyor"
+
+#~ msgid "org.gnome.Usage"
+#~ msgstr "org.gnome.Usage"
+
+#~ msgid "Move to"
+#~ msgstr "Şuraya taşı"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Çöpe taşı"
+
+#~ msgid "Empty folder"
+#~ msgstr "Klasörü boşalt"
+
+#~ msgid "Restore"
+#~ msgstr "Geri yükle"
+
+#~ msgid "Delete from Trash"
+#~ msgstr "Çöpten sil"
+
+#~ msgid "No content here"
+#~ msgstr "Burada içerik yok"
+
+#~ msgid "Click on items to select them"
+#~ msgstr "Ögeleri seçmek için tıklayın"
+
+#~ msgid "Select all"
+#~ msgstr "Tümünü seç"
+
+#~ msgid "Select None"
+#~ msgstr "Hiçbirini seçme"
+
+#~ msgid "Select destination folder"
+#~ msgstr "Hedef klasörü seç"
+
+#~ msgid "Select"
+#~ msgstr "Seç"
+
+#~ msgid "Are you sure you want to permanently delete “%s”?"
+#~ msgstr "“%s” dosyasını kalıcı olarak silmek istediğinizden emin misiniz?"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Tüm ögeleri çöpten temizle?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Çöpteki tüm ögeler kalıcı olarak silinecek."
+
+#~ msgid "Empty all items from %s?"
+#~ msgstr "Tüm ögeleri %s’den temizle?"
+
+#~ msgid "All items in the %s will be moved to the Trash."
+#~ msgstr "%s içindeki tüm ögeler çöpe taşınacak."
+
+#~ msgid "Storage 1"
+#~ msgstr "Depolama 1"
+
+#~ msgid "Storage 2"
+#~ msgstr "Depolama 2"
+
+#~ msgid "Capacity"
+#~ msgstr "Kapasite"
+
+#~ msgid "Home"
+#~ msgstr "Ev"
+
+#~ msgid "Trash"
+#~ msgstr "Çöp"
+
+#~ msgid "Empty"
+#~ msgstr "Boşalt"
+
+#~ msgid "Empty Trash"
+#~ msgstr "Çöpü boşalt"
+
+#~ msgid "Rename"
+#~ msgstr "Yeniden adlandır"
+
+#~ msgid "Are you sure you want to permanently delete %s?"
+#~ msgstr "%sʼi kalıcı olarak silmek istediğinizden emin misiniz?"
+
+#~ msgid "If you delete an item, it will be permanently lost."
+#~ msgstr "Ögeyi silerseniz kalıcı olarak kaybedilecektir."
+
+#~ msgid "About"
+#~ msgstr "Hakkında"
+
+#~ msgid "Others"
+#~ msgstr "Diğerleri"
+
+#~ msgid "Move to trash"
+#~ msgstr "Çöpe taşı"

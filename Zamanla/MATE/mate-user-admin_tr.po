@@ -1,0 +1,579 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-user-admin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# mauron, 2019
+# Emre FIRAT <emrefirat93@gmail.com>, 2019
+# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Butterfly <gokhanlnx@gmail.com>, 2020
+# Sabri Ünal <libreajans@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-user-admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-02 15:19+0800\n"
+"PO-Revision-Date: 2019-05-07 07:46+0000\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2022\n"
+"Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: data/org.mate.user.admin.policy.in:11
+msgid "Manage user accounts"
+msgstr "Kullanıcı hesaplarını yönet"
+
+#: data/org.mate.user.admin.policy.in:12
+msgid "Authentication is required to change user data"
+msgstr "Kullanıcı verilerini değiştirmek için kimlik doğrulaması gerekiyor"
+
+#: data/mate-user-admin.appdata.xml.in:6
+msgid "MATE Manager"
+msgstr "MATE Yönetici"
+
+#: data/mate-user-admin.appdata.xml.in:7
+msgid "Managing Linux Local Users and Groups"
+msgstr "Linux Yerel Kullanıcıları ve Grupları Yönetimi"
+
+#: data/mate-user-admin.appdata.xml.in:9
+msgid ""
+"Mate Manager is a graphical application that manages local users and groups."
+" It can add and delete local users, change user name, user type, user "
+"language, user password, automatic login. You can view the user's login "
+"record. By working with group-service, groups of users can be managed, such "
+"as adding/removing existing groups and creating/deleting new groups."
+msgstr ""
+"Mate Yöneticisi yerel kullanıcıları ve grupları yöneten grafik arayüzlü bir "
+"uygulamadır. Yerel kullanıcıları ekleyebilir ve silebilir, kullanıcı adını, "
+"kullanıcı türünü, kullanıcı dilini, kullanıcı parolasını, otomatik giriş "
+"bilgilerini değiştirebilir. Kullanıcının oturum kaydını "
+"görüntüleyebilirsiniz. Grup hizmeti ile çalışarak, mevcut grupları "
+"ekleme/kaldırma ve yeni grupları oluşturma/silme gibi işlevlerle kullanıcı "
+"gruplarını yönetilebilir."
+
+#: src/main.c:38 src/main.c:81
+msgid "open file"
+msgstr "dosya aç"
+
+#: src/main.c:38
+msgid "Create pid file failed"
+msgstr "Pid dosyası oluşturma başarısız"
+
+#: src/main.c:48
+msgid "write file"
+msgstr "dosya yaz"
+
+#: src/main.c:48
+msgid "write pid file failed"
+msgstr "pid dosyası yazımı başarısız"
+
+#: src/main.c:81
+msgid "open pid file failed"
+msgstr "pid dosyası açılması başarısız"
+
+#: src/main.c:86
+msgid "read file"
+msgstr "dosya oku"
+
+#: src/main.c:86
+msgid "read pid file failed"
+msgstr "pid dosyası okuma başarısız"
+
+#: src/user-admin.c:154 src/user-admin.c:184 src/user-admin.c:192
+#: src/user-window.c:280
+msgid "Remove User"
+msgstr "Kullanıcı Kaldır"
+
+#: src/user-admin.c:185
+msgid "You cannot delete your own account."
+msgstr "Kendi hesabınızı silemezsiniz."
+
+#: src/user-admin.c:193
+msgid "user is still logged in"
+msgstr "kullanıcı oturum açmış durumda"
+
+#: src/user-admin.c:197
+#, c-format
+msgid "Remove '%s' user"
+msgstr " '%s' kullanıcısını kaldır"
+
+#: src/user-admin.c:199
+msgid "Whether to remove the user's home directory"
+msgstr "Kullanıcı ev dizininin de kaldırılma durumu"
+
+#: src/user-admin.c:292
+msgid "Repeat of user name.Please try another"
+msgstr "Kullanıcı adı tekrarı.Lütfen başka bir tane deneyin"
+
+#: src/user-admin.c:296
+msgid "Repeat of user home name.Please try another"
+msgstr "Kullanıcı ev dizini tekrarı.Lütfen başka bir tane deneyin"
+
+#: src/user-admin.c:300
+msgid "The username cannot start with a - ."
+msgstr "Kullanıcı adı - ile başlayamaz."
+
+#: src/user-admin.c:304
+msgid ""
+"The username should only consist of upper and lower case \n"
+"letters from a-z,digits and the following characters: . - _"
+msgstr ""
+"Kullanıcı adı büyük ve küçük harf içerebilir\n"
+"a-z arası harfler, sayılar ve şu karakterleri içerebilir: . - _"
+
+#: src/user-admin.c:328 src/user-admin.c:563
+msgid "This will be used to name your home folder and can't be changed"
+msgstr "Bu ev klasörünüzü adlandırmak için kullanılacak ve değiştirilemez"
+
+#: src/user-admin.c:485
+msgid "Creating User"
+msgstr "Kullanıcı Oluşturma"
+
+#: src/user-admin.c:570
+msgid "User Name"
+msgstr "Kullanıcı İsmi"
+
+#: src/user-admin.c:583
+msgid "Full Name"
+msgstr "Tam İsim"
+
+#: src/user-admin.c:591 src/user-base.c:239
+msgid "Account Type"
+msgstr "Hesap Türü"
+
+#. drop-down select boxes
+#: src/user-admin.c:594 src/user-base.c:243
+msgid "Standard"
+msgstr "Standart"
+
+#: src/user-admin.c:594 src/user-base.c:243
+msgid "Administrators"
+msgstr "Yönetici"
+
+#: src/user-admin.c:606
+msgid "The passwords entered twice are different"
+msgstr "İki kez girilen parolalar birbirinden farklı"
+
+#: src/user-admin.c:644
+msgid "Mixed passwords improve security"
+msgstr "Karma şifreler güvenliği artırır"
+
+#: src/user-admin.c:752 src/user-admin.c:772 src/user-base.c:264
+#: src/user-password.c:271
+msgid "Password"
+msgstr "Parola"
+
+#. 新建两个单选按钮
+#: src/user-admin.c:756 src/user-info.c:51 src/user-password.c:199
+#: src/user-password.c:274
+msgid "Set up next time"
+msgstr "Daha sonra ayarla"
+
+#: src/user-admin.c:764
+msgid "Now set the password"
+msgstr "Şimdi parolayı ayarla"
+
+#: src/user-admin.c:785 src/user-password.c:302
+msgid "generation password"
+msgstr "parola oluşturma"
+
+#: src/user-admin.c:797 src/user-admin.c:924 src/user-group-window.c:665
+#: src/user-password.c:257 src/user-password.c:316
+msgid "Confirm"
+msgstr "Doğrula"
+
+#: src/user-admin.c:919 src/user-group-window.c:588
+#: src/user-group-window.c:654 src/user-group-window.c:712
+#: src/user-password.c:252 src/user-window.c:283
+msgid "Close"
+msgstr "Kapat"
+
+#: src/user-admin.c:931
+msgid "Create New User"
+msgstr "Yeni Kullanıcı Oluştur"
+
+#: src/user-avatar.c:120 src/user-avatar.c:131
+msgid "Create Crop File"
+msgstr "Kırpma Dosyası Oluştur"
+
+#: src/user-avatar.c:121
+msgid "failed to create temporary file for image data"
+msgstr "görüntü verileri için geçici dosya oluşturulamadı"
+
+#: src/user-avatar.c:177 src/user-avatar.c:252
+msgid "_Cancel"
+msgstr "_Vazgeç"
+
+#: src/user-avatar.c:179 src/user-group-window.c:578
+#: src/user-group-window.c:643
+msgid "Select"
+msgstr "Seç"
+
+#: src/user-avatar.c:226
+msgid "Load Local Picture"
+msgstr "Yerel Resim Yükle"
+
+#: src/user-avatar.c:249
+msgid "Browse for more pictures"
+msgstr "Daha fazla resim için gözatın"
+
+#: src/user-avatar.c:253
+msgid "_Open"
+msgstr "_Aç"
+
+#: src/user-avatar.c:323
+msgid "Local Picture"
+msgstr "Yerel Resim"
+
+#: src/user-avatar.c:489
+msgid "Avatar list"
+msgstr "Avatar listesi"
+
+#: src/user-avatar.c:490
+msgid "There is no address to store photos"
+msgstr "Fotoğrafların saklanacağı adres yok"
+
+#: src/user-base.c:212
+msgid "No Settings"
+msgstr "Ayar Yok"
+
+#: src/user-base.c:252
+msgid "Language"
+msgstr "Lisan"
+
+#: src/user-base.c:276
+msgid "Automatic logon"
+msgstr "Otomatik oturum"
+
+#: src/user-base.c:288
+msgid "Login time"
+msgstr "Oturum zamanı"
+
+#: src/user-base.c:300
+msgid "Group Manage"
+msgstr "Grup Yönetimi"
+
+#: src/user-base.c:303
+msgid "Setting Groups"
+msgstr "Grupları Ayarla"
+
+#: src/user-face.c:120
+msgid "Change Name"
+msgstr "Adı Değiştir"
+
+#: src/user-face.c:120
+msgid "Please enter a valid character"
+msgstr "Lütfen geçerli bir karakter girin"
+
+#: src/user-face.c:181
+msgid "Use Enter Key to Save Modifications"
+msgstr "Değişiklikleri Kaydetmek için Giriş Tuşunu Kullanının"
+
+#: src/user-group-window.c:120
+msgid "Repeat of group name.Please try another"
+msgstr "Grup adı tekrarı.Lütfen başka bir tane deneyin"
+
+#: src/user-group-window.c:124
+msgid "The groupname cannot start with a - ."
+msgstr "Grup adı - ile başlayamaz."
+
+#: src/user-group-window.c:128
+msgid "The first character of the group name needs use letter"
+msgstr "Grup adının ilk karakterinde harf kullanmalıdır"
+
+#: src/user-group-window.c:132
+msgid ""
+"The groupname should only consist of upper and lower case \n"
+"letters from a-z,digits and the following characters: . - _"
+msgstr ""
+"Grup adı büyük ve küçük harf içerebilir\n"
+"a-z arası harfler, sayılar ve şu karakterleri içerebilir: . - _"
+
+#: src/user-group-window.c:185
+msgid "Create New Group"
+msgstr "Yeni Grup Oluştur"
+
+#: src/user-group-window.c:192
+msgid "Create New Group Faild"
+msgstr "Yeni Grup Oluşturma Başarısız"
+
+#: src/user-group-window.c:229 src/user-group-window.c:241
+msgid "Remove Group"
+msgstr "Grup Kaldır"
+
+#: src/user-group-window.c:230
+msgid "Whether to remove the selected group"
+msgstr "Seçilen grubun kaldırılma durumu"
+
+#: src/user-group-window.c:458
+msgid "Initialization group management"
+msgstr "Grup yönetimini başlatma"
+
+#: src/user-group-window.c:459
+msgid ""
+"Initialization failed, please see Group \n"
+" Management Service Interface function"
+msgstr ""
+"Başlatma başarısız, lütfen Grup Yönetim\n"
+" Hizmet Arabirimi işlevine bakın"
+
+#: src/user-group-window.c:465
+msgid "Failed to contact the group service"
+msgstr "Grup hizmetine bağlanamadı"
+
+#: src/user-group-window.c:466
+msgid ""
+"Please make sure that the group-service is installed and enabled.\n"
+" url: https://github.com/zhuyaliang/group-service"
+msgstr ""
+"Grup hizmetinin kurulu ve etkin olduğundan emin olun.\n"
+" url: https://github.com/zhuyaliang/group-service"
+
+#: src/user-group-window.c:479
+msgid "Click the unlock button on the \"swith-group\" page"
+msgstr "\"swith-group\" sayfasındaki kilidi kaldır düğmesine tıklayın"
+
+#: src/user-group-window.c:583 src/user-group-window.c:707
+msgid "Group Name"
+msgstr "Grup Adı"
+
+#: src/user-group-window.c:584
+msgid "Group ID"
+msgstr "Grup ID"
+
+#: src/user-group-window.c:620
+msgid "New Group Name"
+msgstr "Yeni Grup Adı"
+
+#: src/user-group-window.c:631
+msgid "Please select the user to add to the new group"
+msgstr "Lütfen yeni gruba eklenecek kullanıcıyı seçin"
+
+#: src/user-group-window.c:648
+msgid "Username"
+msgstr "Kullanızı adı"
+
+#: src/user-group-window.c:649
+msgid "User ID"
+msgstr "Kullanıcı ID"
+
+#: src/user-group-window.c:706 src/user-group-window.c:719
+msgid "Remove"
+msgstr "Kaldır"
+
+#: src/user-group-window.c:708
+msgid "Group id"
+msgstr "Grup ID"
+
+#: src/user-group-window.c:793
+msgid "Create User Group"
+msgstr "Kullanıcı Grubu Oluştur"
+
+#: src/user-group-window.c:794
+msgid ""
+"Create User Group Successfully,Please view the end of the switch-groups "
+"list."
+msgstr ""
+"Kullanıcı Grubu Başarıyla Oluşturuldu. Lütfen switch-groups listesinin "
+"sonuna bakın."
+
+#: src/user-group-window.c:886
+msgid "Switch Groups"
+msgstr "Grupları Değiştir"
+
+#: src/user-group-window.c:890
+msgid "Create Groups"
+msgstr "Grupları Oluştur"
+
+#: src/user-group-window.c:894
+msgid "Remove Groups"
+msgstr "Grupları Kaldır"
+
+#: src/user-group-window.c:905 src/user-language.c:739
+#, c-format
+msgid "Current User - %s"
+msgstr "Mevcut Kullanıcı - %s"
+
+#: src/user-history.c:40
+msgid "This Week"
+msgstr "Bu Hafta"
+
+#: src/user-history.c:44
+msgid "Last Week"
+msgstr "Geçen Hafta"
+
+#: src/user-history.c:146
+msgid "Today"
+msgstr "Bugün"
+
+#: src/user-history.c:150
+msgid "Yesterday"
+msgstr "Dün"
+
+#: src/user-history.c:156
+msgid "%b %e"
+msgstr "%b %e"
+
+#: src/user-history.c:160
+msgid "%b %e, %Y"
+msgstr "%b %e, %Y"
+
+#: src/user-history.c:243
+msgid "Session Ended"
+msgstr "Oturum Sonlandı"
+
+#: src/user-history.c:250
+msgid "Session Started"
+msgstr "Oturum Başladı"
+
+#: src/user-history.c:288
+#, c-format
+msgid "%s — Account Activity"
+msgstr "%s — Hesap Hareketliliği"
+
+#: src/user-history.c:397
+msgid "previous"
+msgstr "önceki"
+
+#: src/user-history.c:402
+msgid "next"
+msgstr "sonraki"
+
+#: src/user-info.c:39
+msgid "Account is disable"
+msgstr "Hesap pasif"
+
+#: src/user-info.c:207
+msgid "Get User Info"
+msgstr "Kullanıcı Bilgilerini Al"
+
+#: src/user-info.c:207
+msgid "user count is 0"
+msgstr "kullanıcı sayısı 0"
+
+#: src/user-language.c:195
+msgid "More…"
+msgstr "Daha fazla..."
+
+#: src/user-language.c:225
+msgid "No languages found"
+msgstr "Dil bulunamadı"
+
+#: src/user-language.c:667
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/user-language.c:672
+msgid "Done"
+msgstr "Tamamlandı"
+
+#: src/user-password.c:131
+msgid "The passwords do not match."
+msgstr "Parolalar eşleşmedi."
+
+#: src/user-password.c:282
+msgid "Now set up"
+msgstr "Şimdi ayarla"
+
+#: src/user-password.c:292
+msgid "User Password"
+msgstr "Kullanıcı Parolası"
+
+#: src/user-share.c:170
+msgid "_Return"
+msgstr "_Geri"
+
+#: src/user-share.c:190
+msgid "Message"
+msgstr "Mesaj"
+
+#: src/user-share.c:299
+msgid "The new password needs to be different from the old one"
+msgstr "Yeni parolanın eskisinden farklı olması gerekiyor"
+
+#: src/user-share.c:301
+msgid "Try changing some letters and numbers"
+msgstr "Bazı harfleri ve sayıları değiştirmeyi deneyin"
+
+#: src/user-share.c:303 src/user-share.c:311
+msgid "Try changing the password a bit more"
+msgstr "Parolayı biraz daha değiştirmeyi deneyin"
+
+#: src/user-share.c:305
+msgid "A password without your user name would be stronger"
+msgstr "Kullanıcı adınızı içermeyen bir parola daha güçlü olabilir"
+
+#: src/user-share.c:307
+msgid "Try to avoid using your name in the password"
+msgstr "Parolanızda adınızı kullanmaktan kaçınmaya çalışın"
+
+#: src/user-share.c:309
+msgid "Try to avoid some of the words included in the password"
+msgstr "Parolanızın bazı kelimeleri içermesinden kaçınmaya çalışın"
+
+#: src/user-share.c:313
+msgid "Try to avoid common words"
+msgstr "Sık kullanılan kelimelerden kaçınmaya çalışın"
+
+#: src/user-share.c:315
+msgid "Try to avoid reordering existing words"
+msgstr "Mevcut kelimeleri yeniden sıralamaktan kaçının"
+
+#: src/user-share.c:317
+msgid "Try to use more numbers"
+msgstr "Daha fazla rakam kullanmaya çalışın"
+
+#: src/user-share.c:319
+msgid "Try to use more uppercase letters"
+msgstr "Daha fazla büyük harf kullanmaya çalışın"
+
+#: src/user-share.c:321
+msgid "Try to use more lowercase letters"
+msgstr "Daha fazla küçük harf kullanmaya çalışın"
+
+#: src/user-share.c:323
+msgid "Try to use more special characters, like punctuation"
+msgstr "Daha özel karakter kullanmaya çalışın, noktalama gibi"
+
+#: src/user-share.c:325
+msgid "Try to use a mixture of letters, numbers and punctuation"
+msgstr ""
+"Harf, sayı ve noktalama işaretlerinin bir karışımını kullanmaya çalışın"
+
+#: src/user-share.c:327
+msgid "Try to avoid repeating the same character"
+msgstr "Aynı karakteri tekrarlamaktan kaçınmaya çalışın"
+
+#: src/user-share.c:329
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Aynı tür karakterleri tekrar etmekten kaçının: harfleri, sayıları ve "
+"noktalama işaretlerini karıştırmanız gerekir."
+
+#: src/user-share.c:331
+msgid "Try to avoid sequences like 1234 or abcd"
+msgstr "1234 veya abcd gibi dizilerden kaçınmaya çalışın"
+
+#: src/user-share.c:333
+msgid "Password length needs more than 8 characters"
+msgstr "Parola uzunluğunun 8 karakterden fazla olması gerekiyor"
+
+#: src/user-window.c:94
+msgid "Some settings must be unlocked before they can be changed"
+msgstr "Değiştirilmeden önce bazı ayarların kilidinin açılmalıdır"
+
+#: src/user-window.c:277
+msgid "Add User"
+msgstr "Kullanıcı Ekle"
+
+#: src/user-window.c:427
+msgid "Mate User Manager"
+msgstr "Mate Kullanıcı Yöneticisi"

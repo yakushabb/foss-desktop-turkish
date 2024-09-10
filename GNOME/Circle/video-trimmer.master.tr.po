@@ -1,0 +1,308 @@
+# Turkish translation for Video Trimmer.
+# Copyright (C) 2023-2024 Video Trimmer's COPYRIGHT HOLDER
+# This file is distributed under the same license as the Video Trimmer package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2023, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Video Trimmer\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/YaLTeR/video-trimmer/-/"
+"issues\n"
+"POT-Creation-Date: 2024-09-01 16:03+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#. Can't extract filenames from a VariantDict yet.
+#. Translators: --output commandline option description.
+#: src/application.rs:37
+msgid "Output file path"
+msgstr "Çıktı dosyası yolu"
+
+#. Translators: --output commandline option arg description.
+#: src/application.rs:39
+msgid "PATH"
+msgstr "YOL"
+
+#: src/main.rs:40 src/window.blp:27
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop.in.in:3
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:5
+msgid "Video Trimmer"
+msgstr "Video Kırpıcı"
+
+#: src/shortcuts.blp:9
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: src/shortcuts.blp:12
+msgctxt "shortcut window"
+msgid "New window"
+msgstr "Yeni pencere"
+
+#: src/shortcuts.blp:17
+msgctxt "shortcut window"
+msgid "Play / Pause"
+msgstr "Oynat / Duraklat"
+
+#: src/shortcuts.blp:22
+msgctxt "shortcut window"
+msgid "Trim"
+msgstr "Kırp"
+
+#: src/shortcuts.blp:27
+msgctxt "shortcut window"
+msgid "Set Start at current postion"
+msgstr "Başlangıcı geçerli konuma ayarla"
+
+#: src/shortcuts.blp:32
+msgctxt "shortcut window"
+msgid "Set End at current position"
+msgstr "Sonu geçerli konuma ayarla"
+
+#: src/shortcuts.blp:37
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "Klavye kısayolları"
+
+#: src/shortcuts.blp:42
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Pencereyi kapat"
+
+#: src/shortcuts.blp:47
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#. Translators: Title that is shown if we couldn't load the video track for the opened file (but possibly loaded audio).
+#: src/video_preview.blp:17
+msgid "Could Not Load Video Track"
+msgstr "Videonun Sesi Yüklenemedi"
+
+#. Translators: Description that is shown if we couldn't load the video track for the opened file (but possibly loaded audio).
+#: src/video_preview.blp:20
+msgid ""
+"Maybe the file only has an audio track, or maybe the necessary video codec "
+"is missing."
+msgstr ""
+"Dosyada yalnızca tek bir ses parçası olabilir ya da gerekli video kodlayıcı "
+"bileşeni eksik olabilir."
+
+#. Translators: this is appended to the output video file name.
+#. So for example "my video.mp4" will become "my video (trimmed).mp4".
+#: src/window.rs:298
+msgid " (trimmed)"
+msgstr " (kırpıldı)"
+
+#. Translators: checkbox in output file selection dialog that strips audio from the
+#. video file.
+#: src/window.rs:323
+msgid "Remove audio"
+msgstr "Sesi sil"
+
+#. Translators: checkbox in output file selection dialog.
+#: src/window.rs:328
+msgid "Accurate trimming, but slower and may lose quality"
+msgstr "Doğru kırpma, daha yavaştır ve kalite kaybı olabilir"
+
+#. Translators: error dialog title.
+#: src/window.rs:347 src/window.rs:592 src/window.rs:992
+msgid "Error"
+msgstr "Hata"
+
+#. Translators: error dialog text.
+#: src/window.rs:350 src/window.rs:595 src/window.rs:995
+msgid ""
+"Video Trimmer can only operate on local files. Please choose another file."
+msgstr ""
+"Video Kırpıcı sadece yerel dosyalarla çalışabilir. Lütfen başka dosya seçin."
+
+#. Translators: message dialog text.
+#: src/window.rs:452
+msgid "Trimming…"
+msgstr "Kırpılıyor…"
+
+#. Translators: text on the toast after trimming was done.
+#. The placeholder is the video filename.
+#: src/window.rs:476
+msgid "{} has been saved"
+msgstr "{} kaydedildi"
+
+#. Translators: text on the button of the toast after
+#. trimming was done to show the output file in the file
+#. manager.
+#: src/window.rs:483
+msgid "Show in Files"
+msgstr "Dosyalar'da göster"
+
+#. Translators: error dialog text.
+#: src/window.rs:504
+msgid "Error trimming video"
+msgstr "Video kırpmada hata"
+
+#: src/window.rs:513
+msgid "Could not communicate with the ffmpeg subprocess"
+msgstr "ffmpeg altişlemiyle iletişim kurulamıyor"
+
+#. Translators: error dialog text.
+#: src/window.rs:554
+msgid "Could not create the ffmpeg subprocess"
+msgstr "ffmpeg altişlemi oluşturulamıyor"
+
+#. Translators: shown in the About dialog, put your name here.
+#: src/window.rs:768
+msgid "translator-credits"
+msgstr ""
+"PoEditor üstünden çeviri veren herkese teşekkürler\n"
+"Sabri Ünal <yakushabb@gmail.com>"
+
+#. Translators: link title in the About dialog.
+#: src/window.rs:771
+msgid "Contribute Translations"
+msgstr "Çevirilere Katkıda Bulun"
+
+#: src/window.rs:779
+msgid "This release contains a minor visual refresh for GNOME 45."
+msgstr "Bu sürüm GNOME 45 için küçük görsel yenileme içerir."
+
+#: src/window.rs:780
+msgid "Tweaked the visual style for the GNOME 45 release."
+msgstr "GNOME 45 sürümü için görsel biçemde ayarlamalar yapıldı."
+
+#: src/window.rs:781
+msgid "Fixed app crashing when ffprobe is missing."
+msgstr "ffprobe eksikliğinde yaşanan çökme düzeltildi."
+
+#: src/window.rs:782
+msgid "Updated to the GNOME 45 platform."
+msgstr "GNOME 45 platformuna güncellendi."
+
+#: src/window.rs:783
+msgid "Updated translations."
+msgstr "Çeviriler güncellendi."
+
+#. Translators: file chooser file filter name.
+#: src/window.rs:961
+msgid "Video files"
+msgstr "Video dosyaları"
+
+#. Translators: file chooser dialog title.
+#: src/window.rs:970
+msgid "Open video"
+msgstr "Video aç"
+
+#. Translators: Primary menu entry that opens a new window.
+#: src/window.blp:8
+msgid "_New Window"
+msgstr "_Yeni Pencere"
+
+#. Translators: Primary menu entry that opens the Keyboard Shortcuts dialog.
+#: src/window.blp:14
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#. Translators: Primary menu entry that opens the About dialog.
+#: src/window.blp:20
+msgid "_About Video Trimmer"
+msgstr "Video Kırpıcı _Hakkında"
+
+#. Translators: Main menu button tooltip.
+#: src/window.blp:50 src/window.blp:106
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#. Translators: Title text on the window when no files are open.
+#: src/window.blp:59
+msgid "Trim Videos"
+msgstr "Videoları Kırp"
+
+#. Translators: Description text on the window when no files are open.
+#: src/window.blp:62
+msgid "Drag and drop a video here"
+msgstr "Videoyu sürükleyip buraya bırakın"
+
+#. Translators: Open button label when no files are open.
+#: src/window.blp:66
+msgid "Open Video…"
+msgstr "Video Aç…"
+
+#. Translators: Open button tooltip.
+#: src/window.blp:68
+msgid "Select a Video"
+msgstr "Video Seç"
+
+#. Translators: Trim button.
+#: src/window.blp:92
+msgid "Trim"
+msgstr "Kırp"
+
+#. Translators: Trim button tooltip.
+#: src/window.blp:95
+msgid "Trim Video"
+msgstr "Video Kırp"
+
+#. Translators: Title that is shown upon video preview loading error.
+#: src/window.blp:134
+msgid "Video Preview Failed to Load"
+msgstr "Video Ön İzlemesi Yüklenemedi"
+
+#. Translators: Description that is shown upon video preview loading error.
+#: src/window.blp:137
+msgid ""
+"Please enter the start and end timestamps manually.\n"
+"\n"
+"If you're running Video Trimmer under Flatpak, note that opening files by "
+"drag-and-drop may not work."
+msgstr ""
+"Lütfen başlangıç ve bitiş zaman damgalarını elle girin.\n"
+"\n"
+"Video Kırpıcı'yı Flatpak altında çalıştırıyorsanız, dosyaları sürükleyip "
+"bırakarak açmak çalışmayabilir."
+
+#. Translators: Label for the entry for the start timestamp.
+#: src/window.blp:157
+msgid "Start"
+msgstr "Başlangıç"
+
+#. Translators: Label for the entry for the end timestamp.
+#: src/window.blp:174
+msgid "End"
+msgstr "Bitiş"
+
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop.in.in:4
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:6
+msgid "Trim videos quickly"
+msgstr "Videoları hızlıca kırpın"
+
+#. Translators: search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.desktop.in.in:6
+msgid "Cut;Movie;Film;Clip;"
+msgstr "Cut;Movie;Film;Clip;Kes;Film;Video;Klip;Video Trimmer;Video Kırpıcı;"
+
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:13
+msgid "Ivan Molodetskikh"
+msgstr "Ivan Molodetskikh"
+
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:23
+msgid ""
+"Video Trimmer cuts out a fragment of a video given the start and end "
+"timestamps. The video is never re-encoded, so the process is very fast and "
+"does not reduce the video quality."
+msgstr ""
+"Video Kırpıcı, video içinde başı ve sonu belirtilmiş bir kısmı kesip dışarı "
+"aktarır. Videolar asla tekrar işlenmez, bu yüzden kırpa işlemi hızlı "
+"gerçekleşir ve videonun kalitesi azalmaz."
+
+#: data/org.gnome.gitlab.YaLTeR.VideoTrimmer.metainfo.xml.in.in:30
+msgid "Main Window"
+msgstr "Ana Pencere"

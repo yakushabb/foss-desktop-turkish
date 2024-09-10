@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Turkish (LXQt Configuration)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-31 01:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <https://translate.lxqt-project.org/projects/"
+"lxqt-configuration/lxqt-sudo/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.2.1\n"
+
+#: ../passworddialog.ui:6
+msgctxt "PasswordDialog"
+msgid "LXQt sudo"
+msgstr "LXQT Yetkili Kullanıcı"
+
+#: ../passworddialog.ui:42
+msgctxt "PasswordDialog"
+msgid "Copy command to clipboard"
+msgstr "Komutu panoya kopyala"
+
+#: ../passworddialog.ui:45
+msgctxt "PasswordDialog"
+msgid "&Copy"
+msgstr "&Kopyala"
+
+#: ../passworddialog.ui:83
+msgctxt "PasswordDialog"
+msgid ""
+"The requested action needs administrative privileges.<br>Please enter your "
+"password."
+msgstr "Eylem yönetici yetkisi gerektiriyor. <br>Lütfen parola giriniz."
+
+#: ../passworddialog.ui:106
+msgctxt "PasswordDialog"
+msgid "LXQt sudo backend"
+msgstr "LXQT Sudo arkaucu"
+
+#: ../passworddialog.ui:109
+msgctxt "PasswordDialog"
+msgid "A program LXQt sudo calls in background to elevate privileges."
+msgstr ""
+"Bir program LXQt sudo ayrıcalıkları yükseltmek için arka planda çağırır."
+
+#: ../passworddialog.ui:119
+msgctxt "PasswordDialog"
+msgid "Command:"
+msgstr "Komut:"
+
+#: ../passworddialog.ui:126
+msgctxt "PasswordDialog"
+msgid "Password:"
+msgstr "Parola:"
+
+#: ../passworddialog.ui:133
+msgctxt "PasswordDialog"
+msgid "Enter password"
+msgstr "Parolayı girin"
+
+#: ../passworddialog.cpp:60
+msgctxt "PasswordDialog"
+msgid "Attempt #%1"
+msgstr "Deneme #%1"
+
+#: ../sudo.cpp:75
+msgctxt "QObject"
+msgid ""
+"Usage: %1 option [command [arguments...]]\n"
+"\n"
+"GUI frontend for %2/%3\n"
+"\n"
+"Arguments:\n"
+"  option:\n"
+"    -h|--help      Print this help.\n"
+"    -v|--version   Print version information.\n"
+"    -s|--su        Use %3(1) as backend.\n"
+"    -d|--sudo      Use %2(8) as backend.\n"
+"  command          Command to run.\n"
+"  arguments        Optional arguments for command.\n"
+"\n"
+msgstr ""
+"Kullanım: %1 seçenek [komut [parametre...]]\n"
+"\n"
+" %2/%3 için Grafik Arayüz\n"
+"\n"
+"Parametreler:\n"
+"  seçenek:\n"
+"    -h|--help      Bu yardımı gösterir.\n"
+"    -v|--version   Sürüm bilgisini gösterir.\n"
+"    -s|--su         %3(1) arkauç olarak kullanır.\n"
+"    -d|--sudo       %2(8) arkauç olarak kullanır.\n"
+"  komut          Çalıştırılacak komut.\n"
+"  parametre        Komut için isteğe bağlı parametreler.\n"
+"\n"
+
+#: ../sudo.cpp:92
+msgctxt "QObject"
+msgid "%1 version %2\n"
+msgstr "%1 sürüm %2\n"
+
+#: ../sudo.cpp:195
+msgctxt "Sudo"
+msgid "%1: no command to run provided!"
+msgstr "%1: çalıştırılacak bir komut yok!"
+
+#: ../sudo.cpp:202
+msgctxt "Sudo"
+msgid "%1: no backend chosen!"
+msgstr "%1: arkauç seçilmedi!"
+
+#: ../sudo.cpp:219
+msgctxt "Sudo"
+msgid "Syscall error, failed to fork: %1"
+msgstr "Sistem çağrı hatası, çatallama başarısız: %1"
+
+#. shouldn't be actually used but keep as short as possible in translations just in case.
+#: ../sudo.cpp:246
+msgctxt "Sudo"
+msgid "unset"
+msgstr "ayarlanmadı"
+
+#: ../sudo.cpp:295
+msgctxt "Sudo"
+msgid ""
+"%1: Detected attempt to inject privileged command via LC_ALL env(%2). "
+"Exiting!\n"
+msgstr ""
+"% 1: LC_ALL env (% 2) ayrıcalıklı komutu aracılığıyla erişim girişiminde "
+"bulunuldu. Çıkılıyor!\n"
+
+#: ../sudo.cpp:337
+msgctxt "Sudo"
+msgid "Syscall error, failed to bring pty to non-block mode: %1"
+msgstr "Sistem çağrısı hatası, pty'yi blok olmayan moda getiremedi:% 1"
+
+#: ../sudo.cpp:345
+msgctxt "Sudo"
+msgid "Syscall error, failed to fdopen pty: %1"
+msgstr "Sistem çağrı hatası, fdopen pty başarısız: %1"
+
+#: ../sudo.cpp:314
+msgctxt "Sudo"
+msgid "%1: Failed to exec '%2': %3\n"
+msgstr "%1: '%2' çalıştırılamadı: %3\n"
+
+#: ../sudo.cpp:376
+msgctxt "Sudo"
+msgid ""
+"Child '%1' process failed!\n"
+"%2"
+msgstr ""
+"Child '%1' işlem başarısız!\n"
+"%2"

@@ -1,0 +1,209 @@
+# translation of libgnomekbd to Turkish
+# Copyright (C) 2008-2022 libgnomekbd's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgnomekbd package.
+#
+# Baris Cicek <baris@teamforce.name.tr>, 2008, 2009, 2011.
+# Volkan Yalçın <vlyalcin@gmail.com>, 2011.
+# Sabri Ünal <libreajans@gmail.com>, 2022.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnomekbd\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/libgnomekbd/issues\n"
+"POT-Creation-Date: 2022-09-12 11:48+0000\n"
+"PO-Revision-Date: 2022-09-03 09:04+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#: libgnomekbd/gkbd-indicator.c:421 libgnomekbd/gkbd-status.c:560
+msgid "XKB initialization error"
+msgstr "XKB başlatma hatası"
+
+#. Translators: The count is related to the number of options. The %s
+#. * format specifier should not be modified, left "as is".
+#: libgnomekbd/gkbd-keyboard-config.c:712
+#, c-format
+msgid "layout “%s”"
+msgid_plural "layouts “%s”"
+msgstr[0] "düzen “%s”"
+
+#. Translators: The count is related to the number of options. The %s
+#. * format specifier should not be modified, left "as is".
+#: libgnomekbd/gkbd-keyboard-config.c:730
+#, c-format
+msgid "option “%s”"
+msgid_plural "options “%s”"
+msgstr[0] "seçenek “%s”"
+
+#: libgnomekbd/gkbd-keyboard-config.c:738
+#, c-format
+msgid "model “%s”, %s and %s"
+msgstr "model “%s”, %s ve %s"
+
+#: libgnomekbd/gkbd-keyboard-config.c:739
+msgid "no layout"
+msgstr "düzen yok"
+
+#: libgnomekbd/gkbd-keyboard-config.c:740
+msgid "no options"
+msgstr "seçenek yok"
+
+#: libgnomekbd/gkbd-keyboard-display.desktop.in:3 libgnomekbd/show-layout.ui:7
+msgid "Keyboard Layout"
+msgstr "Klavye Düzeni"
+
+#: libgnomekbd/gkbd-keyboard-display.desktop.in:4
+msgid "Preview keyboard layouts"
+msgstr "Klavye düzeni ön izleme"
+
+#: libgnomekbd/gkbd-keyboard-drawing.c:2443
+#, c-format
+msgid ""
+"Keyboard layout “%s”\n"
+"Copyright &#169; X.Org Foundation and XKeyboardConfig contributors\n"
+"For licensing see package metadata"
+msgstr ""
+"Klavye düzeni “%s”\n"
+"Telif Hakkı &#169; X.Org Vakfı ve XKeyboardConfig katkıda bulunanları\n"
+"Lisans bilgileri için paket üst verisine göz atın"
+
+#: libgnomekbd/gkbd-keyboard-drawing.c:2593
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: libgnomekbd/gkbd-status.c:299
+#, c-format
+msgid "There was an error loading an image: %s"
+msgstr "Resim yüklenirken hata oluştu: %s"
+
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:7
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:8
+msgid "Default group, assigned on window creation"
+msgstr "Öntanımlı küme, pencere oluşturulurken atanır"
+
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:12
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:13
+msgid "Keep and manage separate group per window"
+msgstr "Her pencere için ayrı küme tut ve yönet"
+
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:17
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:18
+msgid "Save/restore indicators together with layout groups"
+msgstr "Düzen kümeleriyle birlikte belirteçleri de kaydet/yükle"
+
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:22
+msgid "Show layout names instead of group names"
+msgstr "Küme adları yerine düzen adlarını göster"
+
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:23
+msgid ""
+"Show layout names instead of group names (only for versions of XFree "
+"supporting multiple layouts)"
+msgstr ""
+"Küme adları yerine düzen adlarını göster (yalnızca çoklu düzen destekleyen "
+"XFree sürümleri için)"
+
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:27
+msgid "Load extra configuration items"
+msgstr "Ek yapılandırma ögelerini yükle"
+
+#: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:28
+msgid "Load exotic, rarely used layouts and options"
+msgstr "Egzotik, çok nadir kullanılan düzenleri ve seçenekleri yükle"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:11
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:12
+msgid "The Keyboard Preview, X offset"
+msgstr "Klavye Ön İzlemesi, X ofseti"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:17
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:18
+msgid "The Keyboard Preview, Y offset"
+msgstr "Klavye Ön İzlemesi, Y ofseti"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:23
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:24
+msgid "The Keyboard Preview, width"
+msgstr "Klavye Ön İzlemesi, genişlik"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:29
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:30
+msgid "The Keyboard Preview, height"
+msgstr "Klavye Ön İzlemesi, yükseklik"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:37
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:38
+msgid "Secondary groups"
+msgstr "İkincil kümeler"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:42
+msgid "Show flags in the applet"
+msgstr "Uygulamacıkta bayrakları göster"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:43
+msgid "Show flags in the applet to indicate the current layout"
+msgstr "Geçerli düzeni belirtmek için uygulamacıkta bayrakları göster"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:47
+msgid "The font family"
+msgstr "Yazı tipi ailesi"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:48
+msgid "The font family for the layout indicator"
+msgstr "Düzen göstergesi için yazı tipi ailesi"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:53
+msgid "The font size"
+msgstr "Yazı tipi boyutu"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:54
+msgid "The font size for the layout indicator"
+msgstr "Düzen göstergesi için yazı tipi boyutu"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:58
+msgid "The foreground color"
+msgstr "Ön alan rengi"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:59
+msgid "The foreground color for the layout indicator"
+msgstr "Düzen göstergesi için ön alan rengi"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:63
+msgid "The background color"
+msgstr "Arka plan rengi"
+
+#: libgnomekbd/org.gnome.libgnomekbd.gschema.xml.in:64
+msgid "The background color for the layout indicator"
+msgstr "Düzen göstergesi için arka plan rengi"
+
+#: libgnomekbd/org.gnome.libgnomekbd.keyboard.gschema.xml.in:6
+msgid "Keyboard model"
+msgstr "Klavye modeli"
+
+#: libgnomekbd/org.gnome.libgnomekbd.keyboard.gschema.xml.in:7
+msgid "keyboard model"
+msgstr "klavye modeli"
+
+#: libgnomekbd/org.gnome.libgnomekbd.keyboard.gschema.xml.in:11
+msgid "Keyboard layout"
+msgstr "Klavye düzeni"
+
+#: libgnomekbd/org.gnome.libgnomekbd.keyboard.gschema.xml.in:12
+msgid "keyboard layout"
+msgstr "klavye düzeni"
+
+#: libgnomekbd/org.gnome.libgnomekbd.keyboard.gschema.xml.in:16
+#: libgnomekbd/org.gnome.libgnomekbd.keyboard.gschema.xml.in:17
+msgid "Keyboard options"
+msgstr "Klavye seçenekleri"
+
+#: test/gkbd-indicator-test.c:66
+msgid "Indicator:"
+msgstr "Belirteç:"

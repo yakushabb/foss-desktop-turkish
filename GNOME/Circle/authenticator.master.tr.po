@@ -1,0 +1,800 @@
+# Turkish translation for Authenticator
+# Copyright (C) 2019-2024 Authenticator'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Authenticator package.
+#
+# Serdar Sağlam <teknomobil@yandex.com>, 2019.
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2022, 2023, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2020, 2022, 2023, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Authenticator master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Authenticator/issues\n"
+"POT-Creation-Date: 2024-09-01 16:08+0000\n"
+"PO-Revision-Date: 2024-05-09 10:29+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.3\n"
+
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:3
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:7
+#: data/resources/ui/window.ui:36 src/application.rs:104 src/main.rs:40
+msgid "Authenticator"
+msgstr "Kimlik Doğrulayıcı"
+
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:4
+msgid "Two-Factor Authentication"
+msgstr "İki Aşamalı Kimlik Doğrulama"
+
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:5
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:8
+#: src/application.rs:106
+msgid "Generate two-factor codes"
+msgstr "İki aşamalı kodlar oluştur"
+
+#: data/com.belmoussaoui.Authenticator.desktop.in.in:10
+msgid "Gnome;GTK;Verification;2FA;Authentication;OTP;TOTP;"
+msgstr ""
+"Gnome;GTK;Verification;2FA;Authentication;OTP;TOTP;Authenticator;"
+"Doğrulama;2FA;Kimlik Doğrulama;İki Aşamalı;İki Aşamalı Kimlik Doğrulama;"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:6
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:7
+msgid "Default window width"
+msgstr "Öntanımlı pencere genişliği"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:11
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:12
+msgid "Default window height"
+msgstr "Öntanımlı pencere yüksekliği"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:16
+msgid "Default window maximized behaviour"
+msgstr "Öntanımlı pencerenin büyütülme davranışı"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:21
+msgid "Auto lock"
+msgstr "Kendiliğinden kilitle"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:22
+msgid "Whether to auto lock the application or not"
+msgstr "Uygulamanın kendiliğinden kilitlenme durumu"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:26
+msgid "Auto lock timeout"
+msgstr "Kendiliğinden kilitleme zaman aşımı"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:27
+msgid "Lock the application on idle after X minutes"
+msgstr "Boşta kalan uygulamayı X dakika sonra kilitle"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:34
+msgid "Download Favicons"
+msgstr "Favicon İndir"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:35
+msgid ""
+"Whether the application should attempt to find an icon for the providers."
+msgstr "Uygulamanın sağlayıcılar için simge bulmaya çalışması durumu."
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:39
+msgid "Download Favicons over metered connections"
+msgstr "Ölçülen bağlantılarda favicon indir"
+
+#: data/com.belmoussaoui.Authenticator.gschema.xml.in:40
+msgid ""
+"Whether the application should download favicons over a metered connection."
+msgstr "Uygulamanın ölçülen bağlantıda favicon indirme durumu."
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:10
+msgid "Simple application for generating Two-Factor Authentication Codes."
+msgstr ""
+"İki Aşamalı Kimlik Doğrulama Kodları oluşturmak için basit bir uygulama."
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:11
+msgid "Features:"
+msgstr "Özellikler:"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:13
+msgid "Time-based/Counter-based/Steam methods support"
+msgstr "Zaman temelli/Sayaç Temelli/Akış yöntemleri desteği"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:14
+msgid "SHA-1/SHA-256/SHA-512 algorithms support"
+msgstr "SHA-1/SHA-256/SHA-512 algoritmalarını destekler"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:15
+msgid "QR code scanner using a camera or from a screenshot"
+msgstr "Kamera kullanarak veya ekran görüntüsünden QR kod tarayıcı"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:16
+msgid "Lock the application with a password"
+msgstr "Uygulamayı parolayla kilitle"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:17
+msgid "Beautiful UI"
+msgstr "Mükemmel kullanıcı arayüzü"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:18
+msgid "GNOME Shell search provider"
+msgstr "GNOME Kabuk arama sağlayıcısı"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:19
+msgid ""
+"Backup/Restore from/into known applications like FreeOTP+, Aegis "
+"(encrypted / plain-text), andOTP, Google Authenticator"
+msgstr ""
+"FreeOTP+, Aegis (şifreli / düz metin) ve andOTP, Google Authenticator gibi "
+"bilinen uygulamalardan Yedekle/Geri Yükle"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:25
+msgid "Main Window"
+msgstr "Ana Pencere"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:29
+#: data/resources/ui/account_add.ui:30 data/resources/ui/account_add.ui:47
+msgid "Add a New Account"
+msgstr "Yeni Hesap Ekle"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:33
+msgid "Add a New Provider"
+msgstr "Yeni Sağlayıcı Ekle"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:37
+msgid "Account Details"
+msgstr "Hesap Ayrıntıları"
+
+#: data/com.belmoussaoui.Authenticator.metainfo.xml.in.in:41
+msgid "Backup/Restore formats support"
+msgstr "Yedekleme/Geri Yükleme biçimleri desteği"
+
+#: data/resources/ui/account_add.ui:6 src/widgets/preferences/window.rs:308
+msgid "_Camera"
+msgstr "_Kamera"
+
+#: data/resources/ui/account_add.ui:10 src/widgets/preferences/window.rs:312
+msgid "_Screenshot"
+msgstr "_Ekran Görüntüsü"
+
+#: data/resources/ui/account_add.ui:14 src/widgets/preferences/window.rs:317
+msgid "_QR Code Image"
+msgstr "_QR Kod Görüntüsü"
+
+#: data/resources/ui/account_add.ui:56
+msgid "Cancel"
+msgstr "İptal"
+
+#: data/resources/ui/account_add.ui:62
+msgid "_Add"
+msgstr "_Ekle"
+
+#: data/resources/ui/account_add.ui:74 src/widgets/preferences/window.rs:303
+msgid "Scan QR Code"
+msgstr "QR Kodunu Tara"
+
+#: data/resources/ui/account_add.ui:112
+#: data/resources/ui/account_details_page.ui:96
+#: data/resources/ui/provider_page.ui:22
+#: data/resources/ui/providers_dialog.ui:108
+msgid "Provider"
+msgstr "Sağlayıcı"
+
+#: data/resources/ui/account_add.ui:113
+msgid "Token issuer"
+msgstr "Jeton imzacısı"
+
+#: data/resources/ui/account_add.ui:127
+#: data/resources/ui/account_details_page.ui:91
+msgid "Account"
+msgstr "Hesap"
+
+#: data/resources/ui/account_add.ui:133
+msgid "Token"
+msgstr "Jeton"
+
+#: data/resources/ui/account_add.ui:139
+#: data/resources/ui/account_details_page.ui:139
+#: data/resources/ui/provider_page.ui:158
+msgid "Counter"
+msgstr "Sayaç"
+
+#: data/resources/ui/account_add.ui:157
+#: data/resources/ui/account_details_page.ui:119
+#: data/resources/ui/provider_page.ui:133
+msgid "Algorithm"
+msgstr "Algoritma"
+
+#: data/resources/ui/account_add.ui:169
+#: data/resources/ui/account_details_page.ui:129
+#: data/resources/ui/provider_page.ui:118
+msgid "Computing Method"
+msgstr "Hesaplama Yöntemi"
+
+#: data/resources/ui/account_add.ui:181
+#: data/resources/ui/account_details_page.ui:148
+#: data/resources/ui/provider_page.ui:149
+msgid "Period"
+msgstr "Sıklık"
+
+#: data/resources/ui/account_add.ui:182
+#: data/resources/ui/account_details_page.ui:149
+#: data/resources/ui/provider_page.ui:150
+msgid "Duration in seconds until the next password update"
+msgstr "Sonraki parola güncellemesine dek saniye türünden süre"
+
+#: data/resources/ui/account_add.ui:194
+#: data/resources/ui/account_details_page.ui:159
+#: data/resources/ui/provider_page.ui:167
+msgid "Digits"
+msgstr "Sayılar"
+
+#: data/resources/ui/account_add.ui:195
+#: data/resources/ui/account_details_page.ui:160
+#: data/resources/ui/provider_page.ui:168
+msgid "Length of the generated code"
+msgstr "Oluşturulan kodun uzunluğu"
+
+#: data/resources/ui/account_add.ui:207
+#: data/resources/ui/account_details_page.ui:170
+#: data/resources/ui/provider_page.ui:112
+msgid "Website"
+msgstr "Web Sitesi"
+
+#: data/resources/ui/account_add.ui:212
+msgid "How to Set Up"
+msgstr "Nasıl Kurulur"
+
+#: data/resources/ui/account_add.ui:232
+#: data/resources/ui/preferences_camera_page.ui:4
+msgid "Camera"
+msgstr "Kamera"
+
+#: data/resources/ui/account_add.ui:244
+msgid "Create Provider"
+msgstr "Sağlayıcı Oluştur"
+
+#: data/resources/ui/account_details_page.ui:56
+#: data/resources/ui/preferences_password_page.ui:17
+#: data/resources/ui/provider_page.ui:29
+msgid "_Save"
+msgstr "Kay_det"
+
+#: data/resources/ui/account_details_page.ui:67
+#: data/resources/ui/provider_page.ui:185
+msgid "_Delete"
+msgstr "_Sil"
+
+#: data/resources/ui/account_details_page.ui:175
+msgid "Help"
+msgstr "Yardım"
+
+#: data/resources/ui/account_row.ui:23
+msgid "Increment the counter"
+msgstr "Sayacı artır"
+
+#: data/resources/ui/account_row.ui:34
+msgid "Copy PIN to clipboard"
+msgstr "PIN’i panoya kopyala"
+
+#: data/resources/ui/account_row.ui:43
+msgid "Account details"
+msgstr "Hesap ayrıntıları"
+
+#: data/resources/ui/camera.ui:35
+msgid "No Camera Found"
+msgstr "Kamera Bulunamadı"
+
+#: data/resources/ui/camera.ui:38
+msgid "_From a Screenshot"
+msgstr "_Ekran Görüntüsünden"
+
+#: data/resources/ui/keyring_error_dialog.ui:8
+msgid "Secret Service Error"
+msgstr "Giz Hizmeti Hatası"
+
+#: data/resources/ui/keyring_error_dialog.ui:35
+msgid ""
+"Authenticator relies on a Secret Service Provider to manage your sensitive "
+"session information and an error occurred while we were trying to store or "
+"get your session."
+msgstr ""
+"Authenticator, duyarlı oturum bilginizi yönetmek için Giz Hizmet "
+"Sağlayıcısına dayanıyor ve oturumunuzu depolarken veya alırken bir hata "
+"oluştu."
+
+#: data/resources/ui/keyring_error_dialog.ui:47
+msgid ""
+"Here are a few things that might help you fix issues with the Secret Service:"
+msgstr ""
+"Giz Hizmetiyle sorunları çözmenize yardımcı olabilecek kimi şeyler şunlardır:"
+
+#: data/resources/ui/keyring_error_dialog.ui:64
+msgid ""
+"Make sure you have a Secret Service Provider installed, like gnome-keyring."
+msgstr "gnome-keyring gibi bir Giz Hizmet Sağlayıcısı kurduğunuzdan emin olun."
+
+#: data/resources/ui/keyring_error_dialog.ui:83
+msgid "Check that you have a default keyring and that it is unlocked."
+msgstr ""
+"Öntanımlı anahtarlığınız olduğunu ve kilidinin açıldığını gözden geçirin."
+
+#: data/resources/ui/keyring_error_dialog.ui:95
+msgid ""
+"Check the application logs and your distribution’s documentation for more "
+"details."
+msgstr ""
+"Daha çok ayrıntı için dağıtımınızın belgelendirmesini ve uygulama "
+"günlüklerini gözden geçirin."
+
+#: data/resources/ui/preferences.ui:16
+msgid "General"
+msgstr "Genel"
+
+#: data/resources/ui/preferences.ui:19
+msgid "Privacy"
+msgstr "Gizlilik"
+
+#: data/resources/ui/preferences.ui:22
+msgid "_Passphrase"
+msgstr "_Parola Metni"
+
+#: data/resources/ui/preferences.ui:24
+msgid "Set up a passphrase to lock the application with"
+msgstr "Uygulamayı kilitleneceği parola metni ayarla"
+
+#: data/resources/ui/preferences.ui:37
+msgid "_Auto Lock the Application"
+msgstr "_Uygulamayı Kendiliğinden Kilitle"
+
+#: data/resources/ui/preferences.ui:39
+msgid "Whether to automatically lock the application"
+msgstr "Uygulamanın kendiliğinden kilitlenme durumu"
+
+#: data/resources/ui/preferences.ui:45
+msgid "Auto Lock _Timeout"
+msgstr "Kendiliğinden Kilitleme _Zaman Aşımı"
+
+#: data/resources/ui/preferences.ui:46
+msgid "The time in minutes"
+msgstr "Dakika türünden zaman"
+
+#: data/resources/ui/preferences.ui:59
+msgid "Network"
+msgstr "Ağ"
+
+#: data/resources/ui/preferences.ui:62
+msgid "_Download Favicons"
+msgstr "Favicon İ_ndir"
+
+#: data/resources/ui/preferences.ui:64
+msgid "Automatically attempt fetching a website icon"
+msgstr "Kendiliğinden web sitesi simgesi getirmeyi dene"
+
+#: data/resources/ui/preferences.ui:69
+msgid "_Metered Connection"
+msgstr "_Ölçülen Bağlantı"
+
+#: data/resources/ui/preferences.ui:71
+msgid "Fetch a website icon on a metered connection"
+msgstr "Ölçülen bağlantıda web sitesi simgesi getir"
+
+#: data/resources/ui/preferences.ui:81
+msgid "Backup/Restore"
+msgstr "Yedekle/Geri Yükle"
+
+#: data/resources/ui/preferences.ui:84 src/widgets/preferences/window.rs:540
+msgid "Backup"
+msgstr "Yedekle"
+
+#: data/resources/ui/preferences.ui:89 src/widgets/preferences/window.rs:548
+msgid "Restore"
+msgstr "Geri Yükle"
+
+#: data/resources/ui/preferences_password_page.ui:4
+msgid "Create Password"
+msgstr "Parola Oluştur"
+
+#: data/resources/ui/preferences_password_page.ui:28
+msgid "Set up a Passphrase"
+msgstr "Parola Metni Ayarla"
+
+#: data/resources/ui/preferences_password_page.ui:29
+msgid "Authenticator will start locked after a passphrase is set."
+msgstr ""
+"Kimlik doğrulayıcı, parola metni ayarlandıktan sonra kilitlenmeye başlayacak."
+
+#: data/resources/ui/preferences_password_page.ui:53
+msgid "Current Passphrase"
+msgstr "Geçerli Parola Metni"
+
+#: data/resources/ui/preferences_password_page.ui:59
+msgid "New Passphrase"
+msgstr "Yeni Parola Metni"
+
+#: data/resources/ui/preferences_password_page.ui:65
+msgid "Repeat Passphrase"
+msgstr "Parola Metnini Yinele"
+
+#: data/resources/ui/preferences_password_page.ui:79
+#: data/resources/ui/provider_page.ui:73
+msgid "_Reset"
+msgstr "_Sıfırla"
+
+#: data/resources/ui/provider_page.ui:83
+msgid "Select a _File"
+msgstr "_Dosya Seç"
+
+#: data/resources/ui/provider_page.ui:106
+msgid "Name"
+msgstr "Ad"
+
+#: data/resources/ui/provider_page.ui:159
+msgid "The by default value for counter-based computing method"
+msgstr "Sayaç tabanlı hesaplama yöntemi için öntanımlı değer"
+
+#: data/resources/ui/provider_page.ui:177
+msgid "Help URL"
+msgstr "Yardım URLʼsi"
+
+#: data/resources/ui/providers_dialog.ui:8
+#: data/resources/ui/providers_dialog.ui:19
+msgid "Providers"
+msgstr "Sağlayıcılar"
+
+#: data/resources/ui/providers_dialog.ui:29 src/widgets/providers/page.rs:209
+msgid "New Provider"
+msgstr "Yeni Sağlayıcı"
+
+#: data/resources/ui/providers_dialog.ui:36
+#: data/resources/ui/providers_dialog.ui:52 data/resources/ui/window.ui:207
+#: data/resources/ui/window.ui:228
+msgid "Search"
+msgstr "Ara"
+
+#: data/resources/ui/providers_dialog.ui:47 data/resources/ui/window.ui:202
+msgid "Search…"
+msgstr "Ara…"
+
+#: data/resources/ui/providers_dialog.ui:93
+#: data/resources/ui/providers_list.ui:38
+msgid "No Results"
+msgstr "Sonuç Yok"
+
+#: data/resources/ui/providers_dialog.ui:94
+msgid "No providers matching the query were found."
+msgstr "Sorguyla eşleşen sağlayıcı bulunamadı."
+
+#: data/resources/ui/providers_dialog.ui:139
+msgid "No Provider Selected"
+msgstr "Sağlayıcı Seçilmedi"
+
+#: data/resources/ui/providers_dialog.ui:140
+msgid "Select a provider or create a new one"
+msgstr "Yenisini oluşturmak için sağlayıcı seç"
+
+#: data/resources/ui/providers_list.ui:39
+msgid "No accounts or providers matching the query were found."
+msgstr "Sorguyla eşleşen hesap ya da sağlayıcı bulunamadı."
+
+#: data/resources/ui/shortcuts.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: data/resources/ui/shortcuts.ui:14
+msgctxt "shortcut window"
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+
+#: data/resources/ui/shortcuts.ui:20
+msgctxt "shortcut window"
+msgid "Lock"
+msgstr "Kilitle"
+
+#: data/resources/ui/shortcuts.ui:26
+msgctxt "shortcut window"
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: data/resources/ui/shortcuts.ui:32
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: data/resources/ui/shortcuts.ui:40
+msgctxt "shortcut window"
+msgid "Accounts"
+msgstr "Hesaplar"
+
+#: data/resources/ui/shortcuts.ui:43
+msgctxt "shortcut window"
+msgid "New Account"
+msgstr "Yeni Hesap"
+
+#: data/resources/ui/shortcuts.ui:49
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Ara"
+
+#: data/resources/ui/shortcuts.ui:55
+msgctxt "shortcut window"
+msgid "Show Providers List"
+msgstr "Sağlayıcı Listesini Göster"
+
+#: data/resources/ui/window.ui:6
+msgid "_Lock the Application"
+msgstr "Uygulamayı _Kilitle"
+
+#: data/resources/ui/window.ui:12
+msgid "P_roviders"
+msgstr "_Sağlayıcılar"
+
+#: data/resources/ui/window.ui:16
+msgid "_Preferences"
+msgstr "_Tercihler"
+
+#: data/resources/ui/window.ui:22
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: data/resources/ui/window.ui:26
+msgid "_About Authenticator"
+msgstr "Kimlik Doğrulayıcı _Hakkında"
+
+#: data/resources/ui/window.ui:66
+msgid "Authenticator is Locked"
+msgstr "Kimlik Doğrulayıcı Kilitlendi"
+
+#: data/resources/ui/window.ui:92
+msgid "_Unlock"
+msgstr "K_ilidi Aç"
+
+#: data/resources/ui/window.ui:122
+msgid "Accounts"
+msgstr "Hesaplar"
+
+#: data/resources/ui/window.ui:137 data/resources/ui/window.ui:176
+msgid "New Account"
+msgstr "Yeni Hesap"
+
+#: data/resources/ui/window.ui:145 data/resources/ui/window.ui:222
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: data/resources/ui/window.ui:153
+msgid "No Accounts"
+msgstr "Hesap Yok"
+
+#: data/resources/ui/window.ui:154
+msgid "Add an account or scan a QR code first."
+msgstr "Önce hesap ekleyin veya QR kodu tarayın."
+
+#: src/application.rs:84
+msgid "Accounts restored successfully"
+msgstr "Hesaplar başarıyla geri yüklendi"
+
+#: src/application.rs:115
+msgid "translator-credits"
+msgstr ""
+"Serdar Sağlam <teknomobil@yandex.com\n"
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
+
+#: src/application.rs:424 src/widgets/accounts/row.rs:45
+msgid "One-Time password copied"
+msgstr "Tek kullanımlık parola kopyalandı"
+
+#: src/application.rs:425
+msgid "Password was copied successfully"
+msgstr "Parola başarıyla kopyalandı"
+
+# Uygulama adı: Çevirmeyin
+#. Translators: This is for making a backup for the aegis Android app.
+#. Translators: This is for restoring a backup from the aegis Android app.
+#: src/backup/aegis.rs:399 src/backup/aegis.rs:439
+msgid "Aegis"
+msgstr "Aegis"
+
+#: src/backup/aegis.rs:403
+msgid "Into a JSON file containing plain-text or encrypted fields"
+msgstr "Düz metin ya da şifreli alanlar içeren JSON dosyasına"
+
+#: src/backup/aegis.rs:443
+msgid "From a JSON file containing plain-text or encrypted fields"
+msgstr "Düz metin ya da şifreli alanlar içeren JSON dosyasından"
+
+# Çevirmeyin: Format adı
+#. Translators: This is for making a backup for the andOTP Android app.
+#: src/backup/andotp.rs:79
+msgid "a_ndOTP"
+msgstr "a_ndOTP"
+
+#: src/backup/andotp.rs:83
+msgid "Into a plain-text JSON file"
+msgstr "Düz metin JSON dosyasına"
+
+# Çevirmeyin: Format adı
+#. Translators: This is for restoring a backup from the andOTP Android app.
+#: src/backup/andotp.rs:127
+msgid "an_dOTP"
+msgstr "an_dOTP"
+
+#: src/backup/andotp.rs:131 src/backup/bitwarden.rs:124 src/backup/legacy.rs:45
+msgid "From a plain-text JSON file"
+msgstr "Düz metin JSON dosyasından"
+
+#: src/backup/bitwarden.rs:47
+msgid "Unknown account"
+msgstr "Bilinmeyen hesap"
+
+#: src/backup/bitwarden.rs:55
+msgid "Unknown issuer"
+msgstr "Bilinmeyen imzacı"
+
+# Uygulama adı, çevirmeyin.
+#. Translators: This is for restoring a backup from Bitwarden.
+#: src/backup/bitwarden.rs:120
+msgid "_Bitwarden"
+msgstr "_Bitwarden"
+
+#: src/backup/freeotp.rs:18
+msgid "_Authenticator"
+msgstr "_Kimlik Doğrulayıcı"
+
+#: src/backup/freeotp.rs:22
+msgid "Into a plain-text file, compatible with FreeOTP+"
+msgstr "FreeOTP+ ile uyumlu düz metin dosyasına"
+
+#: src/backup/freeotp.rs:51
+msgid "A_uthenticator"
+msgstr "_Kimlik Doğrulayıcı"
+
+#: src/backup/freeotp.rs:55
+msgid "From a plain-text file, compatible with FreeOTP+"
+msgstr "FreeOTP+ ile uyumlu düz metin dosyasından"
+
+#: src/backup/freeotp_json.rs:87
+msgid "FreeOTP+"
+msgstr "FreeOTP+"
+
+#: src/backup/freeotp_json.rs:91
+msgid "From a plain-text JSON file, compatible with FreeOTP+"
+msgstr "FreeOTP+ ile uyumlu düz metin JSON dosyasından"
+
+#: src/backup/google.rs:19
+msgid "Google Authenticator"
+msgstr "Google Authenticator"
+
+#: src/backup/google.rs:23
+msgid "From a QR code generated by Google Authenticator"
+msgstr "Google Authenticator tarafından oluşturulan QR kodundan"
+
+#. Translators: this is for restoring a backup from the old Authenticator
+#. release
+#: src/backup/legacy.rs:41
+msgid "Au_thenticator (Legacy)"
+msgstr "_Kimlik Doğrulayıcı (Eski)"
+
+#: src/backup/raivootp.rs:102
+msgid "Raivo OTP"
+msgstr "Raivo OTP"
+
+#: src/backup/raivootp.rs:106
+msgid "From a ZIP export generated by Raivo OTP"
+msgstr "Ravio OTP’nin oluşturduğu ZIP’ten"
+
+#: src/models/algorithm.rs:60
+msgid "Counter-based"
+msgstr "Sayaç temelli"
+
+#: src/models/algorithm.rs:61
+msgid "Time-based"
+msgstr "Zaman tabanlı"
+
+#. Translators: Steam refers to the gaming application by Valve.
+#: src/models/algorithm.rs:63
+msgid "Steam"
+msgstr "Akış"
+
+#: src/models/algorithm.rs:125
+msgid "SHA-1"
+msgstr "SHA-1"
+
+#: src/models/algorithm.rs:126
+msgid "SHA-256"
+msgstr "SHA-256"
+
+#: src/models/algorithm.rs:127
+msgid "SHA-512"
+msgstr "SHA-512"
+
+#: src/widgets/accounts/add.rs:270 src/widgets/preferences/window.rs:477
+#: src/widgets/providers/page.rs:292
+msgid "Image"
+msgstr "Resim"
+
+#: src/widgets/accounts/add.rs:278 src/widgets/preferences/window.rs:485
+msgid "Select QR Code"
+msgstr "QR Kodu Seç"
+
+#: src/widgets/accounts/add.rs:296
+msgid "Invalid Token"
+msgstr "Geçersiz Jeton"
+
+#: src/widgets/accounts/details.rs:123
+msgid "Are you sure you want to delete the account?"
+msgstr "Bu hesabı silmek istediğinize emin misiniz?"
+
+#: src/widgets/accounts/details.rs:124
+msgid "This action is irreversible"
+msgstr "Bu işlem geri alınamaz"
+
+#: src/widgets/accounts/details.rs:126
+msgid "No"
+msgstr "Hayır"
+
+#: src/widgets/accounts/details.rs:126
+msgid "Yes"
+msgstr "Evet"
+
+#: src/widgets/preferences/password_page.rs:195
+#: src/widgets/preferences/password_page.rs:237
+msgid "Wrong Passphrase"
+msgstr "Yanlış Parola Metni"
+
+#: src/widgets/preferences/window.rs:197 src/widgets/preferences/window.rs:279
+msgid "Key / Passphrase"
+msgstr "Anahtar / Parola Metni"
+
+#: src/widgets/preferences/window.rs:208 src/widgets/preferences/window.rs:291
+msgid "Select File"
+msgstr "Dosya Seç"
+
+#: src/widgets/preferences/window.rs:239
+msgid "Failed to create a backup"
+msgstr "Yedek oluşturulamadı"
+
+#: src/widgets/preferences/window.rs:361
+msgid "Failed to restore from camera"
+msgstr "Kameradan geri yüklenemedi"
+
+#: src/widgets/preferences/window.rs:386
+msgid "Failed to restore from a screenshot"
+msgstr "Ekran görüntüsünden geri yüklenemedi"
+
+#: src/widgets/preferences/window.rs:406
+msgid "Failed to restore from an image"
+msgstr "Görüntüden geri yüklenemedi"
+
+#: src/widgets/preferences/window.rs:430
+msgid "Failed to restore from a file"
+msgstr "Dosyadan geri yüklenemedi"
+
+#: src/widgets/providers/dialog.rs:262
+msgid "Provider created successfully"
+msgstr "Sağlayıcı başarıyla oluşturuldu"
+
+#: src/widgets/providers/dialog.rs:272
+msgid "Provider updated successfully"
+msgstr "Sağlayıcı başarıyla güncellendi"
+
+#: src/widgets/providers/dialog.rs:288
+msgid "Provider removed successfully"
+msgstr "Sağlayıcı başarıyla kaldırıldı"
+
+#: src/widgets/providers/page.rs:186
+msgid "Editing Provider: {}"
+msgstr "Sağlayıcı Düzenleniyor: {}"
+
+#: src/widgets/providers/page.rs:325
+msgid "The provider has accounts assigned to it, please remove them first"
+msgstr "Sağlayıcıya atanmış hesaplar var, lütfen önce bunları kaldırın"
+
+#: src/widgets/window.rs:115
+msgid "Wrong Password"
+msgstr "Hatalı Parola"
