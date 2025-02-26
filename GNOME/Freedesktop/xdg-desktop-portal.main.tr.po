@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xdg-desktop-portal master\n"
 "Report-Msgid-Bugs-To: https://github.com/flatpak/xdg-desktop-portal/issues\n"
-"POT-Creation-Date: 2024-02-14 15:35+0000\n"
+"POT-Creation-Date: 2024-10-10 03:33+0000\n"
 "PO-Revision-Date: 2024-02-14 03:04+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -22,22 +22,22 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: src/background.c:747
+#: src/background.c:822
 #, c-format
 msgid "Allow %s to run in the background?"
 msgstr "%s uygulamasına arka planda çalışma izin verilsin mi?"
 
-#: src/background.c:751
+#: src/background.c:826
 #, c-format
 msgid "%s requests to be started automatically and run in the background."
 msgstr "%s kendiliğinden başlatılmayı ve arka planda çalışmayı istiyor."
 
-#: src/background.c:753
+#: src/background.c:828
 #, c-format
 msgid "%s requests to run in the background."
 msgstr "%s arka planda çalışmak istiyor."
 
-#: src/background.c:754
+#: src/background.c:829
 msgid ""
 "The ‘run in background’ permission can be changed at any time from the "
 "application settings."
@@ -45,228 +45,171 @@ msgstr ""
 "‘Arka planda çalış’ izni, uygulama ayarlarından istediğiniz zaman "
 "değiştirilebilir."
 
-#: src/background.c:759
+#: src/background.c:834
 msgid "Don't allow"
 msgstr "İzin Verme"
 
-#: src/background.c:760 src/screenshot.c:238 src/wallpaper.c:183
+#: src/background.c:835 src/screenshot.c:240 src/wallpaper.c:185
 msgid "Allow"
 msgstr "İzin Ver"
 
-#: src/device.c:117
+#: src/camera.c:106
 #, fuzzy, c-format
-#| msgid "Allow %s to Set Backgrounds?"
-msgid "Allow %s to Use the Microphone?"
-msgstr "%s Uygulamasının Arka Planı Belirlemesine İzin Verilsin Mi?"
-
-#: src/device.c:118
-#, fuzzy, c-format
-#| msgid "%s wants to use your camera."
-msgid "%s wants to access recording devices."
-msgstr "%s kameranızı kullanmak istiyor."
-
-#: src/device.c:122
-#, fuzzy
-#| msgid "Allow %s to run in the background?"
-msgid "Allow app to Use the Microphone?"
-msgstr "%s uygulamasına arka planda çalışma izin verilsin mi?"
-
-#: src/device.c:123
-msgid "An app wants to access recording devices."
-msgstr ""
-
-#: src/device.c:132
-#, fuzzy, c-format
-#| msgid "Allow %s to Set Backgrounds?"
-msgid "Allow %s to Use the Speakers?"
-msgstr "%s Uygulamasının Arka Planı Belirlemesine İzin Verilsin Mi?"
-
-#: src/device.c:133
-#, fuzzy, c-format
-#| msgid "%s wants to use your camera."
-msgid "%s wants to access audio devices."
-msgstr "%s kameranızı kullanmak istiyor."
-
-#: src/device.c:137
-#, fuzzy
-#| msgid "Allow %s to Set Backgrounds?"
-msgid "Allow app to Use the Speakers?"
-msgstr "%s Uygulamasının Arka Planı Belirlemesine İzin Verilsin Mi?"
-
-#: src/device.c:138
-msgid "An app wants to access audio devices."
-msgstr ""
-
-#: src/device.c:147
-#, fuzzy, c-format
-#| msgid "Allow %s to run in the background?"
 msgid "Allow %s to Use the Camera?"
 msgstr "%s uygulamasına arka planda çalışma izin verilsin mi?"
 
-#: src/device.c:148
+#: src/camera.c:107
 #, fuzzy, c-format
-#| msgid "%s wants to use your camera."
 msgid "%s wants to access camera devices."
 msgstr "%s kameranızı kullanmak istiyor."
 
-#: src/device.c:152
+#: src/camera.c:111
 msgid "Allow app to Use the Camera?"
 msgstr ""
 
-#: src/device.c:153
+#: src/camera.c:112
 #, fuzzy
-#| msgid "An application wants to use your camera."
 msgid "An app wants to access camera devices."
 msgstr "Bir uygulama kameranızı kullanmak istiyor."
 
-#: src/dynamic-launcher.c:119
+#: src/dynamic-launcher.c:122
 #, c-format
 msgid "Desktop file id missing .desktop suffix: %s"
 msgstr ""
 
-#: src/dynamic-launcher.c:131
+#: src/dynamic-launcher.c:133
 #, c-format
-msgid "Desktop file id missing app id prefix '%s.': %s"
+msgid "Desktop file id is not valid"
 msgstr ""
 
-#: src/dynamic-launcher.c:211
+#: src/dynamic-launcher.c:305
 #, c-format
 msgid "Desktop entry given to Install() not a valid key file"
 msgstr ""
 
-#: src/dynamic-launcher.c:223
+#: src/dynamic-launcher.c:318
 #, c-format
 msgid "Desktop entry given to Install() must have only one group"
 msgstr ""
 
-#: src/dynamic-launcher.c:265
-#, c-format
-msgid "Desktop entry given to Install() must not use --file-forwarding"
-msgstr ""
-
-#: src/dynamic-launcher.c:276
-#, c-format
-msgid "DynamicLauncher install not supported for: %s"
-msgstr ""
-
-#: src/dynamic-launcher.c:300
+#: src/dynamic-launcher.c:331
 #, c-format
 msgid "Desktop entry given to Install() not valid"
 msgstr ""
 
-#: src/dynamic-launcher.c:341
+#: src/dynamic-launcher.c:363
 #, c-format
 msgid "Token given is invalid: %s"
 msgstr ""
 
-#: src/dynamic-launcher.c:369 src/dynamic-launcher.c:811
-#: src/dynamic-launcher.c:861
+#: src/dynamic-launcher.c:407 src/dynamic-launcher.c:831
+#: src/dynamic-launcher.c:880
 #, c-format
 msgid "Desktop file exceeds max size (%d): %s"
 msgstr ""
 
-#: src/dynamic-launcher.c:538
+#: src/dynamic-launcher.c:564
 #, c-format
 msgid "URL given is invalid: %s"
 msgstr ""
 
-#: src/dynamic-launcher.c:561
+#: src/dynamic-launcher.c:587
 #, c-format
 msgid "Invalid launcher type: %x"
 msgstr ""
 
-#: src/dynamic-launcher.c:568
+#: src/dynamic-launcher.c:594
 #, c-format
 msgid "Unsupported launcher type: %x"
 msgstr ""
 
-#: src/dynamic-launcher.c:632 src/dynamic-launcher.c:703
+#: src/dynamic-launcher.c:656 src/dynamic-launcher.c:725
 msgid "Dynamic launcher icon failed validation"
 msgstr ""
 
-#: src/dynamic-launcher.c:719
+#: src/dynamic-launcher.c:741
 #, c-format
 msgid "RequestInstallToken() not allowed for app id %s"
 msgstr ""
 
-#: src/dynamic-launcher.c:901
+#: src/dynamic-launcher.c:920
 #, c-format
 msgid "Desktop file '%s' icon at unrecognized path"
 msgstr ""
 
-#: src/dynamic-launcher.c:924
+#: src/dynamic-launcher.c:943
 #, c-format
 msgid "Desktop file '%s' icon failed to serialize"
 msgstr ""
 
-#: src/dynamic-launcher.c:963
+#: src/dynamic-launcher.c:982
 #, c-format
 msgid "No dynamic launcher exists with id '%s'"
 msgstr ""
 
-#: src/dynamic-launcher.c:981
+#: src/dynamic-launcher.c:1001
 #, c-format
 msgid "Failed to create GDesktopAppInfo for launcher with id '%s'"
 msgstr ""
 
-#: src/location.c:527
+#: src/location.c:544
 msgid "Deny Access"
 msgstr "Erişimi Reddet"
 
-#: src/location.c:529
+#: src/location.c:546
 msgid "Grant Access"
 msgstr "Erişim İzni Ver"
 
-#: src/location.c:551
+#: src/location.c:566
 #, c-format
 msgid "Give %s Access to Your Location?"
 msgstr "%s, Konumunuza Erişsin Mi?"
 
-#: src/location.c:556
+#: src/location.c:571
 #, c-format
 msgid "%s wants to use your location."
 msgstr "%s konumunuzu kullanmak istiyor."
 
-#: src/location.c:565
+#: src/location.c:580
 msgid "Grant Access to Your Location?"
 msgstr "Konumunuza Erişim İzni Verilsin Mi?"
 
-#: src/location.c:566
+#: src/location.c:581
 msgid "An application wants to use your location."
 msgstr "Bir uygulama konumunuzu kullanmak istiyor."
 
-#: src/location.c:569
+#: src/location.c:584
 msgid "Location access can be changed at any time from the privacy settings."
 msgstr ""
 "Konum erişimini, gizlilik ayarlarından istediğiniz zaman değiştirilebilir."
 
-#: src/screenshot.c:236 src/wallpaper.c:181
+#: src/screenshot.c:238 src/wallpaper.c:183
 msgid "Deny"
 msgstr "Reddet"
 
-#: src/screenshot.c:256
+#: src/screenshot.c:258
 #, c-format
 msgid "Allow %s to Take Screenshots?"
 msgstr "%s Uygulamasının Ekran Görüntüsü Almasına İzin Verilsin Mi?"
 
-#: src/screenshot.c:257
+#: src/screenshot.c:259
 #, c-format
 msgid "%s wants to be able to take screenshots at any time."
 msgstr "%s istediği zaman ekran görüntüsü alabilmek istiyor."
 
-#: src/screenshot.c:265
+#: src/screenshot.c:267
 msgid "Allow Applications to Take Screenshots?"
 msgstr "Uygulamaların Ekran Görüntüsü Almasına İzin Verilsin Mi?"
 
-#: src/screenshot.c:266
+#: src/screenshot.c:268
 msgid "An application wants to be able to take screenshots at any time."
 msgstr "Bir uygulama istediği zaman ekran görüntüsü alabilmek istiyor."
 
-#: src/screenshot.c:269 src/wallpaper.c:218
+#: src/screenshot.c:271 src/wallpaper.c:218
 msgid "This permission can be changed at any time from the privacy settings."
 msgstr "Bu izin, gizlilik ayarlarından istediğiniz zaman değiştirilebilir."
 
-#: src/settings.c:127 src/settings.c:163
+#: src/settings.c:131 src/settings.c:167
 msgid "Requested setting not found"
 msgstr "İstenen ayar bulunamadı"
 

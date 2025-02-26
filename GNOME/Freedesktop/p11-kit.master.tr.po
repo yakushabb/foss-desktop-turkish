@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: p11-kit\n"
 "Report-Msgid-Bugs-To: https://bugs.freedesktop.org/buglist.cgi?component=p11-"
 "kit&product=p11-glue&resolution=---\n"
-"POT-Creation-Date: 2024-01-10 15:27+0000\n"
+"POT-Creation-Date: 2025-02-13 03:33+0000\n"
 "PO-Revision-Date: 2012-02-29 09:23+0000\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2022\n"
 "Language-Team: Turkish (http://www.transifex.com/freedesktop/p11-kit/"
@@ -68,7 +68,7 @@ msgstr ""
 
 #: p11-kit/add-profile.c:85 p11-kit/delete-object.c:69
 #: p11-kit/delete-profile.c:85 p11-kit/export-object.c:442
-#: p11-kit/generate-keypair.c:311 p11-kit/import-object.c:490
+#: p11-kit/generate-keypair.c:310 p11-kit/import-object.c:490
 #: p11-kit/list-objects.c:361 p11-kit/list-profiles.c:83
 #, fuzzy
 #| msgid "Unable to initialize the random number generator"
@@ -76,13 +76,13 @@ msgid "failed to initialize iterator"
 msgstr "Rastgele sayı oluşturucuyu başlatılamadı"
 
 #: p11-kit/add-profile.c:92 p11-kit/delete-profile.c:92
-#: p11-kit/generate-keypair.c:318 p11-kit/import-object.c:497
+#: p11-kit/generate-keypair.c:317 p11-kit/import-object.c:497
 #: p11-kit/list-profiles.c:90 p11-kit/list-mechanisms.c:152
 msgid "no matching token"
 msgstr ""
 
 #: p11-kit/add-profile.c:94 p11-kit/delete-profile.c:94
-#: p11-kit/generate-keypair.c:320 p11-kit/import-object.c:499
+#: p11-kit/generate-keypair.c:319 p11-kit/import-object.c:499
 #: p11-kit/list-profiles.c:92 p11-kit/list-mechanisms.c:154
 #, c-format
 msgid "failed to find token: %s"
@@ -120,12 +120,12 @@ msgstr ""
 #: p11-kit/delete-object.c:174 p11-kit/delete-profile.c:182
 #: p11-kit/delete-profile.c:241 p11-kit/delete-profile.c:251
 #: p11-kit/export-object.c:557 p11-kit/export-object.c:567
-#: p11-kit/generate-keypair.c:186 p11-kit/generate-keypair.c:191
-#: p11-kit/generate-keypair.c:200 p11-kit/generate-keypair.c:206
-#: p11-kit/generate-keypair.c:229 p11-kit/generate-keypair.c:236
-#: p11-kit/generate-keypair.c:250 p11-kit/generate-keypair.c:256
-#: p11-kit/generate-keypair.c:265 p11-kit/generate-keypair.c:469
-#: p11-kit/generate-keypair.c:479 p11-kit/import-object.c:124
+#: p11-kit/generate-keypair.c:185 p11-kit/generate-keypair.c:190
+#: p11-kit/generate-keypair.c:199 p11-kit/generate-keypair.c:205
+#: p11-kit/generate-keypair.c:228 p11-kit/generate-keypair.c:235
+#: p11-kit/generate-keypair.c:249 p11-kit/generate-keypair.c:255
+#: p11-kit/generate-keypair.c:264 p11-kit/generate-keypair.c:468
+#: p11-kit/generate-keypair.c:478 p11-kit/import-object.c:124
 #: p11-kit/import-object.c:133 p11-kit/import-object.c:156
 #: p11-kit/import-object.c:196 p11-kit/import-object.c:205
 #: p11-kit/import-object.c:230 p11-kit/import-object.c:303
@@ -157,7 +157,7 @@ msgstr ""
 
 #: p11-kit/add-profile.c:246 p11-kit/delete-object.c:169
 #: p11-kit/delete-profile.c:246 p11-kit/export-object.c:562
-#: p11-kit/generate-keypair.c:474 p11-kit/import-object.c:639
+#: p11-kit/generate-keypair.c:473 p11-kit/import-object.c:639
 #: p11-kit/list-objects.c:446 p11-kit/list-profiles.c:220
 #: p11-kit/list-mechanisms.c:278 p11-kit/list-tokens.c:185
 msgid "failed to parse URI"
@@ -183,7 +183,7 @@ msgstr ""
 msgid "invalid config filename, will be ignored in the future: %s"
 msgstr ""
 
-#: p11-kit/conf.c:427 trust/save.c:573 trust/token.c:270
+#: p11-kit/conf.c:427 trust/save.c:586 trust/token.c:282
 #, c-format
 msgid "couldn't list directory: %s"
 msgstr ""
@@ -269,55 +269,55 @@ msgstr ""
 msgid "filter cannot be initialized"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:135
+#: p11-kit/generate-keypair.c:134
 msgid "no bits specified"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:142
+#: p11-kit/generate-keypair.c:141
 msgid "no curve specified"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:147
+#: p11-kit/generate-keypair.c:146
 msgid "no type specified"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:150 p11-kit/generate-keypair.c:271
+#: p11-kit/generate-keypair.c:149 p11-kit/generate-keypair.c:270
 #, c-format
 msgid "unkwnown mechanism type in %s"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:155
+#: p11-kit/generate-keypair.c:154
 #, c-format
 msgid "both %s and %s cannot be specified at once"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:219 p11-kit/import-object.c:146
+#: p11-kit/generate-keypair.c:218 p11-kit/import-object.c:146
 #: p11-kit/import-object.c:219
 #, c-format
 msgid "failed to decode hex value: %s"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:305
+#: p11-kit/generate-keypair.c:304
 msgid "failed to create key templates"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:335
+#: p11-kit/generate-keypair.c:334
 #, fuzzy, c-format
 #| msgid "The operation failed"
 msgid "key-pair generation failed: %s"
 msgstr "İşlem başarısız oldu"
 
-#: p11-kit/generate-keypair.c:415
+#: p11-kit/generate-keypair.c:414
 #, c-format
 msgid "unknown mechanism type: %s"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:422
+#: p11-kit/generate-keypair.c:421
 #, c-format
 msgid "failed to parse bits value: %s"
 msgstr ""
 
-#: p11-kit/generate-keypair.c:429
+#: p11-kit/generate-keypair.c:428
 #, c-format
 msgid "unknown curve name: %s"
 msgstr ""
@@ -773,55 +773,55 @@ msgstr "İstek kullanıcı tarafından reddedildi"
 msgid "Unknown error"
 msgstr "Bilinmeyen hata"
 
-#: p11-kit/modules.c:376
+#: p11-kit/modules.c:377
 #, c-format
 msgid "couldn't load module: %s: %s"
 msgstr ""
 
-#: p11-kit/modules.c:396
+#: p11-kit/modules.c:405
 #, c-format
 msgid "call to C_GetInterface failed in module: %s: %s"
 msgstr ""
 
-#: p11-kit/modules.c:409
+#: p11-kit/modules.c:417
 #, c-format
 msgid "couldn't find C_GetFunctionList entry point in module: %s: %s"
 msgstr ""
 
-#: p11-kit/modules.c:416
+#: p11-kit/modules.c:424
 #, c-format
 msgid "call to C_GetFunctiontList failed in module: %s: %s"
 msgstr ""
 
-#: p11-kit/modules.c:423
+#: p11-kit/modules.c:431
 msgid "refusing to load the p11-kit-proxy.so module as a registered module"
 msgstr ""
 
-#: p11-kit/modules.c:572
+#: p11-kit/modules.c:580
 #, c-format
 msgid "module '%s' has both enable-in and disable-in options"
 msgstr ""
 
-#: p11-kit/modules.c:754
+#: p11-kit/modules.c:762
 #, c-format
 msgid "aborting initialization because module '%s' was marked as critical"
 msgstr ""
 
-#: p11-kit/modules.c:779
+#: p11-kit/modules.c:787
 msgid "p11-kit initialization called recursively"
 msgstr ""
 
-#: p11-kit/modules.c:965
+#: p11-kit/modules.c:973
 #, c-format
 msgid "initialization of critical module '%s' failed: %s"
 msgstr ""
 
-#: p11-kit/modules.c:968
+#: p11-kit/modules.c:976
 #, c-format
 msgid "skipping module '%s' whose initialization failed: %s"
 msgstr ""
 
-#: p11-kit/modules.c:1743
+#: p11-kit/modules.c:1751
 #, c-format
 msgid "couldn't close session: %s"
 msgstr ""
@@ -829,32 +829,32 @@ msgstr ""
 #.
 #. * This is because the module is running in unmanaged mode, so turn off the
 #.
-#: p11-kit/modules.c:1920
+#: p11-kit/modules.c:1928
 #, c-format
 msgid "the '%s' option for module '%s' is only supported for managed modules"
 msgstr ""
 
-#: p11-kit/modules.c:2229 p11-kit/modules.c:2709
+#: p11-kit/modules.c:2237 p11-kit/modules.c:2717
 #, c-format
 msgid "%s: module failed to initialize: %s"
 msgstr ""
 
-#: p11-kit/modules.c:2232
+#: p11-kit/modules.c:2240
 #, c-format
 msgid "%s: module failed to initialize, skipping: %s"
 msgstr ""
 
-#: p11-kit/modules.c:2242
+#: p11-kit/modules.c:2250
 #, c-format
 msgid "%s: module was already initialized"
 msgstr ""
 
-#: p11-kit/modules.c:2338 p11-kit/modules.c:2750
+#: p11-kit/modules.c:2346 p11-kit/modules.c:2758
 #, c-format
 msgid "%s: module failed to finalize: %s"
 msgstr ""
 
-#: p11-kit/modules.c:2477
+#: p11-kit/modules.c:2485
 #, c-format
 msgid "module initialization failed: %s"
 msgstr ""
@@ -958,95 +958,95 @@ msgstr ""
 msgid "received an attribute array with wrong number of attributes"
 msgstr ""
 
-#: p11-kit/rpc-client.c:258
+#: p11-kit/rpc-client.c:253
 msgid "returned attributes in invalid order"
 msgstr ""
 
-#: p11-kit/rpc-client.c:747 trust/module.c:384
+#: p11-kit/rpc-client.c:812 trust/module.c:384
 msgid "invalid set of mutex calls supplied"
 msgstr ""
 
-#: p11-kit/rpc-client.c:756 trust/module.c:393
+#: p11-kit/rpc-client.c:821 trust/module.c:393
 msgid "can't do without os locking"
 msgstr ""
 
-#: p11-kit/rpc-client.c:769
+#: p11-kit/rpc-client.c:834
 msgid "C_Initialize called twice for same process"
 msgstr ""
 
-#: p11-kit/rpc-client.c:876
+#: p11-kit/rpc-client.c:942
 #, c-format
 msgid "finalizing rpc module returned an error: %lu"
 msgstr ""
 
-#: p11-kit/rpc-message.c:190
+#: p11-kit/rpc-message.c:191
 msgid "invalid message: couldn't read call identifier"
 msgstr ""
 
-#: p11-kit/rpc-message.c:199
+#: p11-kit/rpc-message.c:200
 #, c-format
 msgid "invalid message: bad call id: %d"
 msgstr ""
 
-#: p11-kit/rpc-message.c:217
+#: p11-kit/rpc-message.c:218
 msgid "invalid message: couldn't read signature"
 msgstr ""
 
-#: p11-kit/rpc-message.c:222
+#: p11-kit/rpc-message.c:223
 msgid "invalid message: signature doesn't match"
 msgstr ""
 
-#: p11-kit/rpc-message.c:483
+#: p11-kit/rpc-message.c:497
 #, c-format
 msgid "invalid length space padded string received: %d != %d"
 msgstr ""
 
-#: p11-kit/rpc-server.c:620
+#: p11-kit/rpc-server.c:634
 msgid "invalid request from module, probably too short"
 msgstr ""
 
-#: p11-kit/rpc-server.c:630
+#: p11-kit/rpc-server.c:644
 msgid "couldn't initialize rpc response"
 msgstr ""
 
-#: p11-kit/rpc-server.c:767
+#: p11-kit/rpc-server.c:799
 msgid "invalid handshake received from connecting module"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2324
+#: p11-kit/rpc-server.c:2382
 msgid "couldn't parse pkcs11 rpc message"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2436
+#: p11-kit/rpc-server.c:2495
 msgid "out of memory error putting together message"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2460
+#: p11-kit/rpc-server.c:2521
 msgid "out of memory responding with error"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2506
+#: p11-kit/rpc-server.c:2567
 #, c-format
 msgid "unsupported version received: %d"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2512
+#: p11-kit/rpc-server.c:2573
 msgid "couldn't read credential byte"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2524
+#: p11-kit/rpc-server.c:2585
 msgid "couldn't write credential byte"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2547
+#: p11-kit/rpc-server.c:2608
 msgid "failed to read rpc message"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2552
+#: p11-kit/rpc-server.c:2613
 msgid "unexpected error handling rpc message"
 msgstr ""
 
-#: p11-kit/rpc-server.c:2570
+#: p11-kit/rpc-server.c:2631
 msgid "failed to write rpc message"
 msgstr ""
 
@@ -1173,7 +1173,7 @@ msgstr ""
 msgid "failed to create socket for remote"
 msgstr ""
 
-#: p11-kit/rpc-transport.c:1293 p11-kit/server.c:166
+#: p11-kit/rpc-transport.c:1293 p11-kit/server.c:167
 #, c-format
 msgid "failed to parse vsock address: '%s'"
 msgstr ""
@@ -1183,155 +1183,155 @@ msgstr ""
 msgid "remote not supported: %s"
 msgstr ""
 
-#: p11-kit/server.c:244
+#: p11-kit/server.c:245
 #, c-format
 msgid "child %u died with sigsegv"
 msgstr ""
 
-#: p11-kit/server.c:246
+#: p11-kit/server.c:247
 #, c-format
 msgid "child %u died with signal %d"
 msgstr ""
 
-#: p11-kit/server.c:320
+#: p11-kit/server.c:321
 #, c-format
 msgid "could not create socket %s"
 msgstr ""
 
-#: p11-kit/server.c:331
+#: p11-kit/server.c:332
 #, c-format
 msgid "could not bind socket %s"
 msgstr ""
 
-#: p11-kit/server.c:338
+#: p11-kit/server.c:339
 #, c-format
 msgid "could not listen to socket %s"
 msgstr ""
 
-#: p11-kit/server.c:346
+#: p11-kit/server.c:347
 #, c-format
 msgid "could not chown socket %s"
 msgstr ""
 
-#: p11-kit/server.c:369
+#: p11-kit/server.c:370
 #, c-format
 msgid "could not create socket %u:%u"
 msgstr ""
 
-#: p11-kit/server.c:376
+#: p11-kit/server.c:377
 #, c-format
 msgid "could not bind socket %u:%u"
 msgstr ""
 
-#: p11-kit/server.c:383
+#: p11-kit/server.c:384
 #, c-format
 msgid "could not listen to socket %u:%u"
 msgstr ""
 
-#: p11-kit/server.c:402
+#: p11-kit/server.c:403
 msgid "could not check uid from socket"
 msgstr ""
 
-#: p11-kit/server.c:408
+#: p11-kit/server.c:409
 #, c-format
 msgid "connecting uid (%u) doesn't match expected (%u)"
 msgstr ""
 
-#: p11-kit/server.c:415
+#: p11-kit/server.c:416
 #, c-format
 msgid "connecting gid (%u) doesn't match expected (%u)"
 msgstr ""
 
-#: p11-kit/server.c:496
+#: p11-kit/server.c:497
 msgid "could not fork() to daemonize"
 msgstr ""
 
-#: p11-kit/server.c:509
+#: p11-kit/server.c:510
 msgid "could not create a new session"
 msgstr ""
 
-#: p11-kit/server.c:517
+#: p11-kit/server.c:518
 msgid "too many file descriptors received"
 msgstr ""
 
-#: p11-kit/server.c:561
+#: p11-kit/server.c:562
 #, c-format
-msgid "no connections to %s for %lu secs, exiting"
+msgid "no connections to %s for %<PRIu64> secs, exiting"
 msgstr ""
 
-#: p11-kit/server.c:570
+#: p11-kit/server.c:571
 #, c-format
 msgid "could not accept from socket %s"
 msgstr ""
 
-#: p11-kit/server.c:581
+#: p11-kit/server.c:582
 msgid "failed to fork for accept"
 msgstr ""
 
-#: p11-kit/server.c:726 p11-kit/server.c:742
+#: p11-kit/server.c:727 p11-kit/server.c:743
 #, c-format
 msgid "unknown group: %s"
 msgstr ""
 
-#: p11-kit/server.c:734 p11-kit/server.c:750
+#: p11-kit/server.c:735 p11-kit/server.c:751
 #, c-format
 msgid "unknown user: %s"
 msgstr ""
 
-#: p11-kit/server.c:833
+#: p11-kit/server.c:834
 #, c-format
 msgid "cannot set gid to %u"
 msgstr ""
 
-#: p11-kit/server.c:839
+#: p11-kit/server.c:840
 #, c-format
 msgid "cannot setgroups to %u"
 msgstr ""
 
-#: p11-kit/server.c:847
+#: p11-kit/server.c:848
 #, c-format
 msgid "cannot set uid to %u"
 msgstr ""
 
-#: p11-kit/server.c:863
+#: p11-kit/server.c:864
 msgid "cannot determine runtime directory"
 msgstr ""
 
-#: p11-kit/server.c:875
+#: p11-kit/server.c:876
 #, c-format
 msgid "cannot create %s"
 msgstr ""
 
-#: p11-kit/server.c:1146
+#: p11-kit/server.c:1147
 msgid "couldn't initialize Windows security functions"
 msgstr ""
 
-#: p11-kit/server.c:1307 p11-kit/server.c:1319 p11-kit/server.c:1331
+#: p11-kit/server.c:1308 p11-kit/server.c:1320 p11-kit/server.c:1332
 #, c-format
 msgid "unable to construct SID for %s: %lu"
 msgstr ""
 
-#: p11-kit/server.c:1374
+#: p11-kit/server.c:1375
 #, c-format
 msgid "unable to construct ACL: %d"
 msgstr ""
 
-#: p11-kit/server.c:1380
+#: p11-kit/server.c:1381
 #, c-format
 msgid "unable to allocate security descriptor: %lu"
 msgstr ""
 
-#: p11-kit/server.c:1386
+#: p11-kit/server.c:1387
 #, c-format
 msgid "unable to initialise security descriptor: %lu"
 msgstr ""
 
-#: p11-kit/server.c:1392
+#: p11-kit/server.c:1393
 #, c-format
 msgid "unable to set owner in security descriptor: %lu"
 msgstr ""
 
-#: p11-kit/server.c:1398
+#: p11-kit/server.c:1399
 #, c-format
 msgid "unable to set DACL in security descriptor: %lu"
 msgstr ""
@@ -1709,78 +1709,78 @@ msgstr ""
 msgid "Couldn't parse PEM block of type %s"
 msgstr ""
 
-#: trust/save.c:124
+#: trust/save.c:126
 #, c-format
 msgid "couldn't create file: %s%s"
 msgstr ""
 
-#: trust/save.c:172
+#: trust/save.c:174
 #, c-format
 msgid "couldn't write to file: %s"
 msgstr ""
 
 #. Continue trying other names
-#: trust/save.c:209 trust/save.c:227 trust/save.c:290
+#: trust/save.c:211 trust/save.c:229 trust/save.c:292
 #, c-format
 msgid "couldn't complete writing of file: %s"
 msgstr ""
 
-#: trust/save.c:260
+#: trust/save.c:262
 #, c-format
 msgid "couldn't write file: %s"
 msgstr ""
 
-#: trust/save.c:266
+#: trust/save.c:268
 #, c-format
 msgid "couldn't set file permissions: %s"
 msgstr ""
 
-#: trust/save.c:272 trust/save.c:315
+#: trust/save.c:274 trust/save.c:317
 #, c-format
 msgid "couldn't complete writing file: %s"
 msgstr ""
 
-#: trust/save.c:309
+#: trust/save.c:311
 #, c-format
 msgid "couldn't remove original file: %s"
 msgstr ""
 
-#: trust/save.c:355 trust/token.c:663
+#: trust/save.c:357 trust/token.c:687
 #, c-format
 msgid "couldn't create directory: %s"
 msgstr ""
 
-#: trust/save.c:359
+#: trust/save.c:361
 #, c-format
 msgid "directory already exists: %s"
 msgstr ""
 
-#: trust/save.c:370
+#: trust/save.c:372
 #, c-format
 msgid "couldn't open directory: %s"
 msgstr ""
 
-#: trust/save.c:374
+#: trust/save.c:376
 #, c-format
 msgid "couldn't check directory permissions: %s"
 msgstr ""
 
-#: trust/save.c:380
+#: trust/save.c:382
 #, c-format
 msgid "couldn't make directory writable: %s"
 msgstr ""
 
-#: trust/save.c:541
+#: trust/save.c:554
 #, c-format
 msgid "couldn't create symlink: %s"
 msgstr ""
 
-#: trust/save.c:603 trust/token.c:531
+#: trust/save.c:616 trust/token.c:555
 #, c-format
 msgid "couldn't remove file: %s"
 msgstr ""
 
-#: trust/save.c:631
+#: trust/save.c:644
 #, c-format
 msgid "couldn't set directory permissions: %s"
 msgstr ""
@@ -1795,17 +1795,17 @@ msgstr ""
 msgid "couldn't stat path: %d: %s"
 msgstr ""
 
-#: trust/token.c:318
+#: trust/token.c:342
 #, c-format
 msgid "cannot access trust certificate path: %s"
 msgstr ""
 
-#: trust/token.c:454
+#: trust/token.c:478
 #, c-format
 msgid "cannot access trust file: %s"
 msgstr ""
 
-#: trust/token.c:503
+#: trust/token.c:527
 #, c-format
 msgid "couldn't access: %s"
 msgstr ""

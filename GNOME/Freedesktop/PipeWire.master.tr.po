@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PipeWire master\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pipewire/pipewire/-/"
 "issues\n"
-"POT-Creation-Date: 2024-02-26 03:27+0000\n"
+"POT-Creation-Date: 2025-01-09 15:25+0000\n"
 "PO-Revision-Date: 2024-02-25 03:49+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -24,13 +24,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.2\n"
 
-#: src/daemon/pipewire.c:26
-#, c-format
+#: src/daemon/pipewire.c:29
+#, fuzzy, c-format
+#| msgid ""
+#| "%s [options]\n"
+#| "  -h, --help                            Show this help\n"
+#| "      --version                         Show version\n"
+#| "  -c, --config                          Load config (Default %s)\n"
 msgid ""
 "%s [options]\n"
 "  -h, --help                            Show this help\n"
+"  -v, --verbose                         Increase verbosity by one level\n"
 "      --version                         Show version\n"
 "  -c, --config                          Load config (Default %s)\n"
+"  -P  --properties                      Set context properties\n"
 msgstr ""
 "%s [seçenekler]\n"
 "  -h, --help                            Bu yardımı göster\n"
@@ -55,26 +62,26 @@ msgstr "%s%s%s tüneli"
 msgid "Dummy Output"
 msgstr "Temsili Çıkış"
 
-#: src/modules/module-pulse-tunnel.c:774
+#: src/modules/module-pulse-tunnel.c:760
 #, c-format
 msgid "Tunnel for %s@%s"
 msgstr "%s@%s için tünel"
 
-#: src/modules/module-zeroconf-discover.c:315
+#: src/modules/module-zeroconf-discover.c:320
 msgid "Unknown device"
 msgstr "Bilinmeyen aygıt"
 
-#: src/modules/module-zeroconf-discover.c:327
+#: src/modules/module-zeroconf-discover.c:332
 #, c-format
 msgid "%s on %s@%s"
 msgstr "%s, %s@%s"
 
-#: src/modules/module-zeroconf-discover.c:331
+#: src/modules/module-zeroconf-discover.c:336
 #, c-format
 msgid "%s on %s"
 msgstr "%s, %s"
 
-#: src/tools/pw-cat.c:991
+#: src/tools/pw-cat.c:973
 #, c-format
 msgid ""
 "%s [options] [<file>|-]\n"
@@ -89,7 +96,7 @@ msgstr ""
 "  -v, --verbose                         Ayrıntılı işlemleri etkinleştir\n"
 "\n"
 
-#: src/tools/pw-cat.c:998
+#: src/tools/pw-cat.c:980
 #, c-format
 msgid ""
 "  -R, --remote                          Remote daemon name\n"
@@ -123,8 +130,25 @@ msgstr ""
 "  -P  --properties                      Düğüm özelliklerini ayarla\n"
 "\n"
 
-#: src/tools/pw-cat.c:1016
-#, c-format
+#: src/tools/pw-cat.c:998
+#, fuzzy, c-format
+#| msgid ""
+#| "      --rate                            Sample rate (req. for rec) "
+#| "(default %u)\n"
+#| "      --channels                        Number of channels (req. for rec) "
+#| "(default %u)\n"
+#| "      --channel-map                     Channel map\n"
+#| "                                            one of: \"stereo\", "
+#| "\"surround-51\",... or\n"
+#| "                                            comma separated list of "
+#| "channel names: eg. \"FL,FR\"\n"
+#| "      --format                          Sample format %s (req. for rec) "
+#| "(default %s)\n"
+#| "      --volume                          Stream volume 0-1.0 (default "
+#| "%.3f)\n"
+#| "  -q  --quality                         Resampler quality (0 - 15) "
+#| "(default %d)\n"
+#| "\n"
 msgid ""
 "      --rate                            Sample rate (req. for rec) (default "
 "%u)\n"
@@ -140,6 +164,7 @@ msgid ""
 "      --volume                          Stream volume 0-1.0 (default %.3f)\n"
 "  -q  --quality                         Resampler quality (0 - 15) (default "
 "%d)\n"
+"  -a, --raw                             RAW mode\n"
 "\n"
 msgstr ""
 "      --rate                            Örnekleme oranı (kayıt için gerekli) "
@@ -159,7 +184,7 @@ msgstr ""
 "15) (öntanımlı %d)\n"
 "\n"
 
-#: src/tools/pw-cat.c:1033
+#: src/tools/pw-cat.c:1016
 msgid ""
 "  -p, --playback                        Playback mode\n"
 "  -r, --record                          Recording mode\n"
@@ -175,7 +200,7 @@ msgstr ""
 "  -o, --encoded                         Kodlanmış kip\n"
 "\n"
 
-#: src/tools/pw-cli.c:2252
+#: src/tools/pw-cli.c:2306
 #, c-format
 msgid ""
 "%s [options] [command]\n"
@@ -194,12 +219,12 @@ msgstr ""
 "  -r, --remote                          Uzak arka plan programı adı\n"
 "  -m, --monitor                         Etkinliği izle\n"
 
-#: spa/plugins/alsa/acp/acp.c:327
+#: spa/plugins/alsa/acp/acp.c:347
 msgid "Pro Audio"
 msgstr "Profesyonel Ses"
 
-#: spa/plugins/alsa/acp/acp.c:488 spa/plugins/alsa/acp/alsa-mixer.c:4633
-#: spa/plugins/bluez5/bluez5-device.c:1701
+#: spa/plugins/alsa/acp/acp.c:507 spa/plugins/alsa/acp/alsa-mixer.c:4635
+#: spa/plugins/bluez5/bluez5-device.c:1795
 msgid "Off"
 msgstr "Kapalı"
 
@@ -226,7 +251,7 @@ msgstr "Hat Girişi"
 
 #: spa/plugins/alsa/acp/alsa-mixer.c:2657
 #: spa/plugins/alsa/acp/alsa-mixer.c:2741
-#: spa/plugins/bluez5/bluez5-device.c:1989
+#: spa/plugins/bluez5/bluez5-device.c:2139
 msgid "Microphone"
 msgstr "Mikrofon"
 
@@ -292,7 +317,7 @@ msgid "No Bass Boost"
 msgstr "Bas Artırma Yok"
 
 #: spa/plugins/alsa/acp/alsa-mixer.c:2672
-#: spa/plugins/bluez5/bluez5-device.c:1995
+#: spa/plugins/bluez5/bluez5-device.c:2145
 msgid "Speaker"
 msgstr "Hoparlör"
 
@@ -374,15 +399,15 @@ msgstr "Sohbet Girişi"
 msgid "Virtual Surround 7.1"
 msgstr "Sanal Çevresel Ses 7.1"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4456
+#: spa/plugins/alsa/acp/alsa-mixer.c:4458
 msgid "Analog Mono"
 msgstr "Analog Tek Kanallı"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4457
+#: spa/plugins/alsa/acp/alsa-mixer.c:4459
 msgid "Analog Mono (Left)"
 msgstr "Analog Tek Kanallı (Sol)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4458
+#: spa/plugins/alsa/acp/alsa-mixer.c:4460
 msgid "Analog Mono (Right)"
 msgstr "Analog Tek Kanallı (Sağ)"
 
@@ -391,147 +416,147 @@ msgstr "Analog Tek Kanallı (Sağ)"
 #. * here would lead to the source name to become "Analog Stereo Input
 #. * Input". The same logic applies to analog-stereo-output,
 #. * multichannel-input and multichannel-output.
-#: spa/plugins/alsa/acp/alsa-mixer.c:4459
-#: spa/plugins/alsa/acp/alsa-mixer.c:4467
-#: spa/plugins/alsa/acp/alsa-mixer.c:4468
+#: spa/plugins/alsa/acp/alsa-mixer.c:4461
+#: spa/plugins/alsa/acp/alsa-mixer.c:4469
+#: spa/plugins/alsa/acp/alsa-mixer.c:4470
 msgid "Analog Stereo"
 msgstr "Analog Stereo"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4460
+#: spa/plugins/alsa/acp/alsa-mixer.c:4462
 msgid "Mono"
 msgstr "Tek Kanallı"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4461
+#: spa/plugins/alsa/acp/alsa-mixer.c:4463
 msgid "Stereo"
 msgstr "Stereo"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4469
-#: spa/plugins/alsa/acp/alsa-mixer.c:4627
-#: spa/plugins/bluez5/bluez5-device.c:1977
+#: spa/plugins/alsa/acp/alsa-mixer.c:4471
+#: spa/plugins/alsa/acp/alsa-mixer.c:4629
+#: spa/plugins/bluez5/bluez5-device.c:2127
 msgid "Headset"
 msgstr "Kulaklık"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4470
-#: spa/plugins/alsa/acp/alsa-mixer.c:4628
+#: spa/plugins/alsa/acp/alsa-mixer.c:4472
+#: spa/plugins/alsa/acp/alsa-mixer.c:4630
 msgid "Speakerphone"
 msgstr "Hoparlör"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4471
-#: spa/plugins/alsa/acp/alsa-mixer.c:4472
+#: spa/plugins/alsa/acp/alsa-mixer.c:4473
+#: spa/plugins/alsa/acp/alsa-mixer.c:4474
 msgid "Multichannel"
 msgstr "Çok kanallı"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4473
+#: spa/plugins/alsa/acp/alsa-mixer.c:4475
 msgid "Analog Surround 2.1"
 msgstr "Analog Çevresel Ses 2.1"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4474
+#: spa/plugins/alsa/acp/alsa-mixer.c:4476
 msgid "Analog Surround 3.0"
 msgstr "Analog Çevresel Ses 3.0"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4475
+#: spa/plugins/alsa/acp/alsa-mixer.c:4477
 msgid "Analog Surround 3.1"
 msgstr "Analog Çevresel Ses 3.1"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4476
+#: spa/plugins/alsa/acp/alsa-mixer.c:4478
 msgid "Analog Surround 4.0"
 msgstr "Analog Çevresel Ses 4.0"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4477
+#: spa/plugins/alsa/acp/alsa-mixer.c:4479
 msgid "Analog Surround 4.1"
 msgstr "Analog Çevresel Ses 4.1"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4478
+#: spa/plugins/alsa/acp/alsa-mixer.c:4480
 msgid "Analog Surround 5.0"
 msgstr "Analog Çevresel Ses 5.0"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4479
+#: spa/plugins/alsa/acp/alsa-mixer.c:4481
 msgid "Analog Surround 5.1"
 msgstr "Analog Çevresel Ses 5.1"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4480
+#: spa/plugins/alsa/acp/alsa-mixer.c:4482
 msgid "Analog Surround 6.0"
 msgstr "Analog Çevresel Ses 6.0"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4481
+#: spa/plugins/alsa/acp/alsa-mixer.c:4483
 msgid "Analog Surround 6.1"
 msgstr "Analog Çevresel Ses 6.1"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4482
+#: spa/plugins/alsa/acp/alsa-mixer.c:4484
 msgid "Analog Surround 7.0"
 msgstr "Analog Çevresel Ses 7.0"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4483
+#: spa/plugins/alsa/acp/alsa-mixer.c:4485
 msgid "Analog Surround 7.1"
 msgstr "Analog Çevresel Ses 7.1"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4484
+#: spa/plugins/alsa/acp/alsa-mixer.c:4486
 msgid "Digital Stereo (IEC958)"
 msgstr "Sayısal Stereo (IEC958)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4485
+#: spa/plugins/alsa/acp/alsa-mixer.c:4487
 msgid "Digital Surround 4.0 (IEC958/AC3)"
 msgstr "Sayısal Çevresel Ses 4.0 (IEC958/AC3)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4486
+#: spa/plugins/alsa/acp/alsa-mixer.c:4488
 msgid "Digital Surround 5.1 (IEC958/AC3)"
 msgstr "Sayısal Çevresel Ses 5.1 (IEC958/AC3)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4487
+#: spa/plugins/alsa/acp/alsa-mixer.c:4489
 msgid "Digital Surround 5.1 (IEC958/DTS)"
 msgstr "Sayısal Çevresel Ses 5.1 (IEC958/DTS)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4488
+#: spa/plugins/alsa/acp/alsa-mixer.c:4490
 msgid "Digital Stereo (HDMI)"
 msgstr "Sayısal Stereo (HDMI)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4489
+#: spa/plugins/alsa/acp/alsa-mixer.c:4491
 msgid "Digital Surround 5.1 (HDMI)"
 msgstr "Sayısal Çevresel Ses 5.1 (HDMI)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4490
+#: spa/plugins/alsa/acp/alsa-mixer.c:4492
 msgid "Chat"
 msgstr "Sohbet"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4491
+#: spa/plugins/alsa/acp/alsa-mixer.c:4493
 msgid "Game"
 msgstr "Oyun"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4625
+#: spa/plugins/alsa/acp/alsa-mixer.c:4627
 msgid "Analog Mono Duplex"
 msgstr "Analog Tek Kanallı İkili"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4626
+#: spa/plugins/alsa/acp/alsa-mixer.c:4628
 msgid "Analog Stereo Duplex"
 msgstr "Analog İkili Stereo"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4629
+#: spa/plugins/alsa/acp/alsa-mixer.c:4631
 msgid "Digital Stereo Duplex (IEC958)"
 msgstr "Sayısal İkili Stereo (IEC958)"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4630
+#: spa/plugins/alsa/acp/alsa-mixer.c:4632
 msgid "Multichannel Duplex"
 msgstr "Çok Kanallı İkili"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4631
+#: spa/plugins/alsa/acp/alsa-mixer.c:4633
 msgid "Stereo Duplex"
 msgstr "İkili Stereo"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4632
+#: spa/plugins/alsa/acp/alsa-mixer.c:4634
 msgid "Mono Chat + 7.1 Surround"
 msgstr "Tek Kanallı Sohbet + 7.1 Çevresel Ses"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4733
+#: spa/plugins/alsa/acp/alsa-mixer.c:4735
 #, c-format
 msgid "%s Output"
 msgstr "%s Çıkışı"
 
-#: spa/plugins/alsa/acp/alsa-mixer.c:4741
+#: spa/plugins/alsa/acp/alsa-mixer.c:4743
 #, c-format
 msgid "%s Input"
 msgstr "%s Girişi"
 
-#: spa/plugins/alsa/acp/alsa-util.c:1220 spa/plugins/alsa/acp/alsa-util.c:1314
+#: spa/plugins/alsa/acp/alsa-util.c:1233 spa/plugins/alsa/acp/alsa-util.c:1327
 #, c-format
 msgid ""
 "snd_pcm_avail() returned a value that is exceptionally large: %lu byte (%lu "
@@ -548,7 +573,7 @@ msgstr[0] ""
 "Büyük ihtimalle bu bir ALSA sürücüsü '%s' hatasıdır. Lütfen bu sorunu ALSA "
 "geliştiricilerine bildirin."
 
-#: spa/plugins/alsa/acp/alsa-util.c:1286
+#: spa/plugins/alsa/acp/alsa-util.c:1299
 #, c-format
 msgid ""
 "snd_pcm_delay() returned a value that is exceptionally large: %li byte "
@@ -565,7 +590,7 @@ msgstr[0] ""
 "Büyük ihtimalle bu bir ALSA sürücüsü '%s' hatasıdır. Lütfen bu sorunu ALSA "
 "geliştiricilerine bildirin."
 
-#: spa/plugins/alsa/acp/alsa-util.c:1333
+#: spa/plugins/alsa/acp/alsa-util.c:1346
 #, c-format
 msgid ""
 "snd_pcm_avail_delay() returned strange values: delay %lu is less than avail "
@@ -578,7 +603,7 @@ msgstr ""
 "Büyük ihtimalle bu bir ALSA sürücüsü '%s' hatasıdır. Lütfen bu sorunu ALSA "
 "geliştiricilerine bildirin."
 
-#: spa/plugins/alsa/acp/alsa-util.c:1376
+#: spa/plugins/alsa/acp/alsa-util.c:1389
 #, c-format
 msgid ""
 "snd_pcm_mmap_begin() returned a value that is exceptionally large: %lu byte "
@@ -608,100 +633,104 @@ msgstr "Dahili Ses"
 msgid "Modem"
 msgstr "Modem"
 
-#: spa/plugins/bluez5/bluez5-device.c:1712
+#: spa/plugins/bluez5/bluez5-device.c:1806
 msgid "Audio Gateway (A2DP Source & HSP/HFP AG)"
 msgstr "Ses Geçidi (A2DP Kaynak & HSP/HFP AG)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1760
+#: spa/plugins/bluez5/bluez5-device.c:1834
+msgid "Audio Streaming for Hearing Aids (ASHA Sink)"
+msgstr ""
+
+#: spa/plugins/bluez5/bluez5-device.c:1874
 #, c-format
 msgid "High Fidelity Playback (A2DP Sink, codec %s)"
 msgstr "Yüksek Kaliteli Çalma (A2DP Alıcı, çözücü %s)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1763
+#: spa/plugins/bluez5/bluez5-device.c:1877
 #, c-format
 msgid "High Fidelity Duplex (A2DP Source/Sink, codec %s)"
 msgstr "Yüksek Kaliteli İkili (A2DP Kaynak/Alıcı, çözücü %s)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1771
+#: spa/plugins/bluez5/bluez5-device.c:1885
 msgid "High Fidelity Playback (A2DP Sink)"
 msgstr "Yüksek Kaliteli Çalma (A2DP Alıcı)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1773
+#: spa/plugins/bluez5/bluez5-device.c:1887
 msgid "High Fidelity Duplex (A2DP Source/Sink)"
 msgstr "Yüksek Kaliteli İkili (A2DP Kaynak/Alıcı)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1823
+#: spa/plugins/bluez5/bluez5-device.c:1937
 #, c-format
 msgid "High Fidelity Playback (BAP Sink, codec %s)"
 msgstr "Yüksek Kaliteli Çalma (BAP Alıcı, çözücü %s)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1828
+#: spa/plugins/bluez5/bluez5-device.c:1942
 #, c-format
 msgid "High Fidelity Input (BAP Source, codec %s)"
 msgstr "Yüksek Kaliteli Giriş (BAP Kaynak, çözücü %s)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1832
+#: spa/plugins/bluez5/bluez5-device.c:1946
 #, c-format
 msgid "High Fidelity Duplex (BAP Source/Sink, codec %s)"
 msgstr "Yüksek Kaliteli İkili (BAP Kaynak/Alıcı, çözücü %s)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1841
+#: spa/plugins/bluez5/bluez5-device.c:1955
 msgid "High Fidelity Playback (BAP Sink)"
 msgstr "Yüksek Kaliteli Çalma (BAP Alıcı)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1845
+#: spa/plugins/bluez5/bluez5-device.c:1959
 msgid "High Fidelity Input (BAP Source)"
 msgstr "Yüksek Kaliteli Giriş (BAP Kaynak)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1848
+#: spa/plugins/bluez5/bluez5-device.c:1962
 msgid "High Fidelity Duplex (BAP Source/Sink)"
 msgstr "Yüksek Kaliteli İkili (BAP Kaynak/Alıcı)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1897
+#: spa/plugins/bluez5/bluez5-device.c:2008
 #, c-format
 msgid "Headset Head Unit (HSP/HFP, codec %s)"
 msgstr "Kulaklık Ana Birimi (HSP/HFP, çözücü %s)"
 
-#: spa/plugins/bluez5/bluez5-device.c:1978
-#: spa/plugins/bluez5/bluez5-device.c:1983
-#: spa/plugins/bluez5/bluez5-device.c:1990
-#: spa/plugins/bluez5/bluez5-device.c:1996
-#: spa/plugins/bluez5/bluez5-device.c:2002
-#: spa/plugins/bluez5/bluez5-device.c:2008
-#: spa/plugins/bluez5/bluez5-device.c:2014
-#: spa/plugins/bluez5/bluez5-device.c:2020
-#: spa/plugins/bluez5/bluez5-device.c:2026
+#: spa/plugins/bluez5/bluez5-device.c:2128
+#: spa/plugins/bluez5/bluez5-device.c:2133
+#: spa/plugins/bluez5/bluez5-device.c:2140
+#: spa/plugins/bluez5/bluez5-device.c:2146
+#: spa/plugins/bluez5/bluez5-device.c:2152
+#: spa/plugins/bluez5/bluez5-device.c:2158
+#: spa/plugins/bluez5/bluez5-device.c:2164
+#: spa/plugins/bluez5/bluez5-device.c:2170
+#: spa/plugins/bluez5/bluez5-device.c:2176
 msgid "Handsfree"
 msgstr "Ahizesiz"
 
-#: spa/plugins/bluez5/bluez5-device.c:1984
+#: spa/plugins/bluez5/bluez5-device.c:2134
 msgid "Handsfree (HFP)"
 msgstr "Ahizesiz (HFP)"
 
-#: spa/plugins/bluez5/bluez5-device.c:2001
+#: spa/plugins/bluez5/bluez5-device.c:2151
 msgid "Headphone"
 msgstr "Kulaklık"
 
-#: spa/plugins/bluez5/bluez5-device.c:2007
+#: spa/plugins/bluez5/bluez5-device.c:2157
 msgid "Portable"
 msgstr "Taşınabilir"
 
-#: spa/plugins/bluez5/bluez5-device.c:2013
+#: spa/plugins/bluez5/bluez5-device.c:2163
 msgid "Car"
 msgstr "Araba"
 
-#: spa/plugins/bluez5/bluez5-device.c:2019
+#: spa/plugins/bluez5/bluez5-device.c:2169
 msgid "HiFi"
 msgstr "Yüksek Kalite"
 
-#: spa/plugins/bluez5/bluez5-device.c:2025
+#: spa/plugins/bluez5/bluez5-device.c:2175
 msgid "Phone"
 msgstr "Telefon"
 
-#: spa/plugins/bluez5/bluez5-device.c:2032
+#: spa/plugins/bluez5/bluez5-device.c:2182
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
-#: spa/plugins/bluez5/bluez5-device.c:2033
+#: spa/plugins/bluez5/bluez5-device.c:2183
 msgid "Bluetooth (HFP)"
 msgstr "Bluetooth (HFP)"

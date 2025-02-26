@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PackageKit\n"
 "Report-Msgid-Bugs-To: https://github.com/hughsie/PackageKit/issues\n"
-"POT-Creation-Date: 2023-11-09 18:33+0000\n"
+"POT-Creation-Date: 2024-04-16 15:27+0000\n"
 "Language-Team: Turkish (http://app.transifex.com/freedesktop/packagekit/"
 "language/tr/)\n"
 "Language: tr\n"
@@ -221,7 +221,7 @@ msgstr "Çıkış"
 #. TRANSLATORS: details about the update, date the update
 #. * was updated
 #. TRANSLATORS: The action of the package, in past tense
-#: client/pk-console.c:375 lib/packagekit-glib2/pk-enum.c:1087
+#: client/pk-console.c:375 lib/packagekit-glib2/pk-enum.c:1107
 msgid "Updated"
 msgstr "Güncellenme"
 
@@ -473,7 +473,7 @@ msgid "The proxy could not be set"
 msgstr "Vekil sunucu ayarlanamadı"
 
 #. TRANSLATORS: command line argument, just show the version string
-#: client/pk-console.c:1649 client/pk-monitor.c:324
+#: client/pk-console.c:1649 client/pk-monitor.c:330
 msgid "Show the program version and exit"
 msgstr "Uygulama sürümünü göster ve çık"
 
@@ -689,48 +689,54 @@ msgstr "'%s' seçeneği desteklenmiyor"
 msgid "Command failed"
 msgstr "Komut başarısız"
 
-#: client/pk-monitor.c:261
+#: client/pk-monitor.c:267
 msgid "Failed to get daemon state"
 msgstr "Art alan hizmeti durumu alınamadı"
 
-#: client/pk-monitor.c:304
+#: client/pk-monitor.c:310
 msgid "Failed to get properties"
 msgstr "Özellikler alınamadı"
 
 #. TRANSLATORS: this is a program that monitors PackageKit
-#: client/pk-monitor.c:335
+#: client/pk-monitor.c:341
 msgid "PackageKit Monitor"
 msgstr "PackageKit İzleyicisi"
 
+#. TRANSLATORS: this is a percentage value we use in messages, e.g. "90%"
+#: client/pk-offline-update.c:155
+#, c-format
+msgid "%i%%"
+msgstr ""
+
 #. TRANSLATORS: this is the message we send plymouth to
 #. * advise of the new percentage completion when installing system upgrades
-#: client/pk-offline-update.c:157
+#: client/pk-offline-update.c:161
 msgid "Installing System Upgrade"
 msgstr "Sistem Yükseltmesi Kuruluyor"
 
 #. TRANSLATORS: this is the message we send plymouth to
 #. * advise of the new percentage completion when installing updates
-#: client/pk-offline-update.c:161
+#: client/pk-offline-update.c:165
 msgid "Installing Updates"
 msgstr "Güncellemeler Kuruluyor"
 
 #. TRANSLATORS: we've finished doing offline updates
-#: client/pk-offline-update.c:197
+#: client/pk-offline-update.c:201
 msgid "Rebooting after installing updates…"
 msgstr "Güncellemeler kuruldu, bilgisayar yeniden başlatılıyor..."
 
 #. TRANSLATORS: we've finished doing offline updates
-#: client/pk-offline-update.c:239
+#: client/pk-offline-update.c:243
 msgid "Shutting down after installing updates…"
 msgstr "Güncellemeler kurulduktan sonra kapatılıyor…"
 
 #. TRANSLATORS: we've started doing offline updates
-#: client/pk-offline-update.c:380
+#: client/pk-offline-update.c:384
 msgid "Installing updates; this could take a while..."
 msgstr "Güncellemeler kuruluyor, bu biraz vakit alabilir..."
 
 #. TRANSLATORS: we've started doing offline system upgrade
-#: client/pk-offline-update.c:417
+#: client/pk-offline-update.c:421
 msgid "Installing system upgrade; this could take a while..."
 msgstr "Sistem yükseltmesi kuruluyor, bu işlem biraz vakit alabilir..."
 
@@ -876,7 +882,7 @@ msgstr "Paketler kaldırılıyor"
 #. TRANSLATORS: transaction state, downloading package files
 #. TRANSLATORS: The role of the transaction, in present tense
 #: lib/packagekit-glib2/pk-console-shared.c:230
-#: lib/packagekit-glib2/pk-enum.c:1238
+#: lib/packagekit-glib2/pk-enum.c:1258
 msgid "Downloading packages"
 msgstr "Paketler indiriliyor"
 
@@ -1039,257 +1045,292 @@ msgid "Show debugging options"
 msgstr "Hata ayıklama seçeneklerini göster"
 
 #. TRANSLATORS: The type of update
-#: lib/packagekit-glib2/pk-enum.c:971
+#: lib/packagekit-glib2/pk-enum.c:975
 msgid "Trivial"
 msgstr "Önemsiz"
 
 #. TRANSLATORS: The type of update
-#: lib/packagekit-glib2/pk-enum.c:975
+#: lib/packagekit-glib2/pk-enum.c:979
 msgid "Normal"
 msgstr "Normal"
 
 #. TRANSLATORS: The type of update
-#: lib/packagekit-glib2/pk-enum.c:979
+#: lib/packagekit-glib2/pk-enum.c:983
 msgid "Important"
 msgstr "Önemli"
 
 #. TRANSLATORS: The type of update
-#: lib/packagekit-glib2/pk-enum.c:983
+#: lib/packagekit-glib2/pk-enum.c:987
 msgid "Security"
 msgstr "Güvenlik"
 
 #. TRANSLATORS: The type of update
-#: lib/packagekit-glib2/pk-enum.c:987
+#: lib/packagekit-glib2/pk-enum.c:991
 msgid "Bug fix"
 msgstr "Hata düzeltmesi"
 
 #. TRANSLATORS: The type of update
-#: lib/packagekit-glib2/pk-enum.c:991
+#: lib/packagekit-glib2/pk-enum.c:995
 msgid "Enhancement"
 msgstr "İyileştirme"
 
 #. TRANSLATORS: The type of update
-#: lib/packagekit-glib2/pk-enum.c:995
+#: lib/packagekit-glib2/pk-enum.c:999
 msgid "Blocked"
 msgstr "Engelli"
 
 #. TRANSLATORS: The state of a package
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/packagekit-glib2/pk-enum.c:1000 lib/packagekit-glib2/pk-enum.c:1091
+#: lib/packagekit-glib2/pk-enum.c:1004 lib/packagekit-glib2/pk-enum.c:1111
 msgid "Installed"
 msgstr "Kurulu"
 
 #. TRANSLATORS: The state of a package, i.e. not installed
-#: lib/packagekit-glib2/pk-enum.c:1005
+#: lib/packagekit-glib2/pk-enum.c:1009
 msgid "Available"
 msgstr "Kullanılabilir"
 
 #. TRANSLATORS: The state of a package, i.e. not installed
-#: lib/packagekit-glib2/pk-enum.c:1009
+#: lib/packagekit-glib2/pk-enum.c:1013
 msgid "Unavailable"
 msgstr "Kullanılamaz"
 
+#. TRANSLATORS: The state of a package: to be installed with the next action
+#: lib/packagekit-glib2/pk-enum.c:1017
+#, fuzzy
+#| msgid "Installed"
+msgid "Install"
+msgstr "Kurulu"
+
+#. TRANSLATORS: The state of a package: to be removed with the next action
+#: lib/packagekit-glib2/pk-enum.c:1021
+#, fuzzy
+#| msgid "Removed"
+msgid "Remove"
+msgstr "Kaldırıldı"
+
+#. TRANSLATORS: The state of a package: package is obsolete
+#: lib/packagekit-glib2/pk-enum.c:1025
+#, fuzzy
+#| msgid "Obsoleted"
+msgid "Obsolete"
+msgstr "Gereksiz Yapıldı"
+
+#. TRANSLATORS: The state of a package: package is to be downgraded
+#: lib/packagekit-glib2/pk-enum.c:1029
+#, fuzzy
+#| msgid "Downloaded"
+msgid "Downgrade"
+msgstr "İndirildi"
+
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1034
+#: lib/packagekit-glib2/pk-enum.c:1054
 msgid "Downloading"
 msgstr "İndiriliyor"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1038
+#: lib/packagekit-glib2/pk-enum.c:1058
 msgid "Updating"
 msgstr "Güncelleniyor"
 
 #. TRANSLATORS: The action of the package, in present tense
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1042 lib/packagekit-glib2/pk-enum.c:1177
+#: lib/packagekit-glib2/pk-enum.c:1062 lib/packagekit-glib2/pk-enum.c:1197
 msgid "Installing"
 msgstr "Kuruluyor"
 
 #. TRANSLATORS: The action of the package, in present tense
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1046 lib/packagekit-glib2/pk-enum.c:1173
+#: lib/packagekit-glib2/pk-enum.c:1066 lib/packagekit-glib2/pk-enum.c:1193
 msgid "Removing"
 msgstr "Kaldırılıyor"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1050
+#: lib/packagekit-glib2/pk-enum.c:1070
 msgid "Cleaning up"
 msgstr "Temizleniyor"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1054
+#: lib/packagekit-glib2/pk-enum.c:1074
 msgid "Obsoleting"
 msgstr "Geçersiz kılınıyor"
 
 #. TRANSLATORS: The action of the package, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1058
+#: lib/packagekit-glib2/pk-enum.c:1078
 msgid "Reinstalling"
 msgstr "Yeniden Kuruluyor"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/packagekit-glib2/pk-enum.c:1083
+#: lib/packagekit-glib2/pk-enum.c:1103
 msgid "Downloaded"
 msgstr "İndirildi"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/packagekit-glib2/pk-enum.c:1095
+#: lib/packagekit-glib2/pk-enum.c:1115
 msgid "Removed"
 msgstr "Kaldırıldı"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/packagekit-glib2/pk-enum.c:1099
+#: lib/packagekit-glib2/pk-enum.c:1119
 msgid "Cleaned up"
 msgstr "Temizlendi"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/packagekit-glib2/pk-enum.c:1103
+#: lib/packagekit-glib2/pk-enum.c:1123
 msgid "Obsoleted"
 msgstr "Gereksiz Yapıldı"
 
 #. TRANSLATORS: The action of the package, in past tense
-#: lib/packagekit-glib2/pk-enum.c:1107
+#: lib/packagekit-glib2/pk-enum.c:1127
 msgid "Reinstalled"
 msgstr "Yeniden Kuruldu"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1132
+#: lib/packagekit-glib2/pk-enum.c:1152
 msgid "Unknown role type"
 msgstr "Bilinmeyen rol türü"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1136
+#: lib/packagekit-glib2/pk-enum.c:1156
 msgid "Getting dependencies"
 msgstr "Bağımlılıklar alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1140
+#: lib/packagekit-glib2/pk-enum.c:1160
 msgid "Getting update details"
 msgstr "Güncelleme ayrıntıları alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1145
+#: lib/packagekit-glib2/pk-enum.c:1165
 msgid "Getting details"
 msgstr "Ayrıntılar alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1149
+#: lib/packagekit-glib2/pk-enum.c:1169
 msgid "Getting requires"
 msgstr "Gereksinimleri alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1153
+#: lib/packagekit-glib2/pk-enum.c:1173
 msgid "Getting updates"
 msgstr "Güncellemeler alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1157
+#: lib/packagekit-glib2/pk-enum.c:1177
 msgid "Searching by details"
 msgstr "Ayrıntılara göre aranıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1161
+#: lib/packagekit-glib2/pk-enum.c:1181
 msgid "Searching by file"
 msgstr "Dosyaya göre aranıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1165
+#: lib/packagekit-glib2/pk-enum.c:1185
 msgid "Searching groups"
 msgstr "Gruplar aranıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1169
+#: lib/packagekit-glib2/pk-enum.c:1189
 msgid "Searching by name"
 msgstr "Ada göre aranıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1181
+#: lib/packagekit-glib2/pk-enum.c:1201
 msgid "Installing files"
 msgstr "Dosyalar kuruluyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1185
+#: lib/packagekit-glib2/pk-enum.c:1205
 msgid "Refreshing cache"
 msgstr "Önbellek yenileniyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1189
+#: lib/packagekit-glib2/pk-enum.c:1209
 msgid "Updating packages"
 msgstr "Paketler güncelleniyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1193
+#: lib/packagekit-glib2/pk-enum.c:1213
 msgid "Canceling"
 msgstr "İptal ediliyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1197
+#: lib/packagekit-glib2/pk-enum.c:1217
 msgid "Getting repositories"
 msgstr "Depolar alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1201
+#: lib/packagekit-glib2/pk-enum.c:1221
 msgid "Modifying repository"
 msgstr "Depo değiştiriliyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1205
+#: lib/packagekit-glib2/pk-enum.c:1225
 msgid "Setting data"
 msgstr "Veri ayarlanıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1209
+#: lib/packagekit-glib2/pk-enum.c:1229
 msgid "Removing repository"
 msgstr "Depo kaldırılıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1213
+#: lib/packagekit-glib2/pk-enum.c:1233
 msgid "Resolving"
 msgstr "Çözümleniyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1218
+#: lib/packagekit-glib2/pk-enum.c:1238
 msgid "Getting file list"
 msgstr "Dosya listesi alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1222
+#: lib/packagekit-glib2/pk-enum.c:1242
 msgid "Getting provides"
 msgstr "Gereklilikler alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1226
+#: lib/packagekit-glib2/pk-enum.c:1246
 msgid "Installing signature"
 msgstr "İmza kuruluyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1230
+#: lib/packagekit-glib2/pk-enum.c:1250
 msgid "Getting packages"
 msgstr "Paketler alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1234
+#: lib/packagekit-glib2/pk-enum.c:1254
 msgid "Accepting EULA"
 msgstr "EULA kabul ediliyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1242
+#: lib/packagekit-glib2/pk-enum.c:1262
 msgid "Getting upgrades"
 msgstr "Yükseltmeler alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1246
+#: lib/packagekit-glib2/pk-enum.c:1266
 msgid "Getting categories"
 msgstr "Kategoriler alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1250
+#: lib/packagekit-glib2/pk-enum.c:1270
 msgid "Getting transactions"
 msgstr "İşlemler alınıyor"
 
 #. TRANSLATORS: The role of the transaction, in present tense
-#: lib/packagekit-glib2/pk-enum.c:1254
+#: lib/packagekit-glib2/pk-enum.c:1274
 msgid "Getting system upgrades"
 msgstr "Sistem yükseltmeleri alınıyor"
+
+#. TRANSLATORS: this is a percentage value we use in messages, e.g. "90%.
+#: lib/packagekit-glib2/pk-progress-bar.c:138
+#: lib/packagekit-glib2/pk-progress-bar.c:182
+#, c-format
+msgid "(%i%%)"
+msgstr ""
 
 #. TRANSLATORS: ask the user if they are comfortable installing insecure packages
 #: lib/packagekit-glib2/pk-task-text.c:66

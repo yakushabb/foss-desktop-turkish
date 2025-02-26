@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: polkit master\n"
-"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/polkit/polkit/issues\n"
-"POT-Creation-Date: 2023-08-08 15:27+0000\n"
+"Report-Msgid-Bugs-To: https://github.com/polkit-org/polkit/issues\n"
+"POT-Creation-Date: 2025-02-20 15:31+0000\n"
 "PO-Revision-Date: 2023-08-07 03:24+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -44,27 +44,27 @@ msgstr ""
 "(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
 "program=$(program), command_line=$(command_line))"
 
-#: src/programs/pkaction.c:101
+#: src/programs/pkaction.c:97
 msgid "Only output information about ACTION"
 msgstr "Sadece EYLEM hakkındaki bilgileri çıktı verin"
 
-#: src/programs/pkaction.c:101
+#: src/programs/pkaction.c:97
 msgid "ACTION"
 msgstr "EYLEM"
 
-#: src/programs/pkaction.c:105
+#: src/programs/pkaction.c:101
 msgid "Output detailed action information"
 msgstr "Ayrıntılı eylem bilgilerini çıktı verin"
 
-#: src/programs/pkaction.c:109 src/programs/pkttyagent.c:104
+#: src/programs/pkaction.c:105 src/programs/pkttyagent.c:100
 msgid "Show version"
 msgstr "Sürümü göster"
 
-#: src/programs/pkaction.c:132
+#: src/programs/pkaction.c:128
 msgid "[--action-id ACTION]"
 msgstr "[--action-id EYLEM]"
 
-#: src/programs/pkaction.c:133 src/programs/pkttyagent.c:127
+#: src/programs/pkaction.c:129 src/programs/pkttyagent.c:123
 #, c-format
 msgid ""
 "Report bugs to: %s\n"
@@ -73,13 +73,13 @@ msgstr ""
 "Hataları şuraya bildirin: %s\n"
 "%s ev sayfası: <%s>"
 
-#: src/programs/pkaction.c:147 src/programs/pkcheck.c:498
-#: src/programs/pkttyagent.c:141
+#: src/programs/pkaction.c:143 src/programs/pkcheck.c:496
+#: src/programs/pkttyagent.c:137
 #, c-format
 msgid "%s: Unexpected argument `%s'\n"
 msgstr "%s: Beklenmeyen değişken `%s'\n"
 
-#: src/programs/pkcheck.c:36
+#: src/programs/pkcheck.c:32
 #, c-format
 msgid ""
 "Usage:\n"
@@ -136,23 +136,23 @@ msgstr ""
 "Hataları şuraya bildirin: %s\n"
 "%s ev sayfası: <%s>\n"
 
-#: src/programs/pkcheck.c:398 src/programs/pkcheck.c:431
-#: src/programs/pkcheck.c:443
+#: src/programs/pkcheck.c:396 src/programs/pkcheck.c:429
+#: src/programs/pkcheck.c:441
 #, c-format
 msgid "%s: Argument expected after `%s'\n"
 msgstr "%s: `%s'den sonra değişken bekleniyor\n"
 
-#: src/programs/pkcheck.c:421
+#: src/programs/pkcheck.c:419
 #, c-format
 msgid "%s: Invalid --process value `%s'\n"
 msgstr "%s: Geçersiz --process değeri `%s'\n"
 
-#: src/programs/pkcheck.c:458 src/programs/pkcheck.c:467
+#: src/programs/pkcheck.c:456 src/programs/pkcheck.c:465
 #, c-format
 msgid "%s: Two arguments expected after `--detail, -d'\n"
 msgstr "%s: `--detail, -d'den sonra iki değişken bekleniyor\n"
 
-#: src/programs/pkcheck.c:528
+#: src/programs/pkcheck.c:526
 #, c-format
 msgid "%s: Subject not specified\n"
 msgstr "%s: Konu belirtilmedi\n"
@@ -161,7 +161,7 @@ msgstr "%s: Konu belirtilmedi\n"
 #. * translate the $(program) fragment - it will be expanded to the path
 #. * of the program e.g.  /bin/bash.
 #.
-#: src/programs/pkexec.c:821
+#: src/programs/pkexec.c:856
 msgid "Authentication is needed to run `$(cmdline_short)' as the super user"
 msgstr ""
 "`$(cmdline_short)' programını süper kullanıcı olarak çalıştırmak için kimlik "
@@ -172,47 +172,47 @@ msgstr ""
 #. * be expanded to the path of the program e.g. "/bin/bash" and the latter
 #. * to the user e.g. "John Doe (johndoe)" or "johndoe".
 #.
-#: src/programs/pkexec.c:831
+#: src/programs/pkexec.c:866
 msgid ""
 "Authentication is needed to run `$(cmdline_short)' as user $(user.display)"
 msgstr ""
 "`$(cmdline_short)' programını $(user.display) kullanıcısı olarak çalıştırmak "
 "için kimlik doğrulama gerekir"
 
-#: src/programs/pkttyagent.c:87
+#: src/programs/pkttyagent.c:83
 msgid "Don't replace existing agent if any"
 msgstr "Eğer varsa, mevcut vekili değiştirme"
 
-#: src/programs/pkttyagent.c:91
+#: src/programs/pkttyagent.c:87
 msgid "Close FD when the agent is registered"
 msgstr "Vekil kaydedildiğinde FD'yi kapat"
 
-#: src/programs/pkttyagent.c:91
+#: src/programs/pkttyagent.c:87
 msgid "FD"
 msgstr "FD"
 
-#: src/programs/pkttyagent.c:95
+#: src/programs/pkttyagent.c:91
 msgid "Register the agent for the specified process"
 msgstr "Belirtilen süreç için vekili kaydet"
 
-#: src/programs/pkttyagent.c:96
+#: src/programs/pkttyagent.c:92
 msgid "PID[,START_TIME]"
 msgstr "PID[,BAŞLANGIÇ_ZAMANI]"
 
-#: src/programs/pkttyagent.c:100
+#: src/programs/pkttyagent.c:96
 msgid "Register the agent for the owner of BUS_NAME"
 msgstr "Vekili, VERİYOLU_ADI sahibi için kaydet"
 
-#: src/programs/pkttyagent.c:100
+#: src/programs/pkttyagent.c:96
 msgid "BUS_NAME"
 msgstr "VERİYOLU_ADI"
 
-#: src/programs/pkttyagent.c:155
+#: src/programs/pkttyagent.c:151
 #, c-format
 msgid "%s: Options --process and --system-bus-name are mutually exclusive\n"
 msgstr "%s: --process ve --system-bus-name seçenekleri birbirini dışlar\n"
 
-#: src/programs/pkttyagent.c:179
+#: src/programs/pkttyagent.c:175
 #, c-format
 msgid "%s: Invalid process specifier `%s'\n"
 msgstr "%s: Geçersiz süreç belirteci `%s'\n"

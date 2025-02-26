@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: malcontent\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pwithnall/malcontent/"
 "issues\n"
-"POT-Creation-Date: 2024-02-27 15:28+0000\n"
+"POT-Creation-Date: 2024-09-09 16:32+0000\n"
 "PO-Revision-Date: 2024-02-25 05:01+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -197,13 +197,13 @@ msgstr "Kısıtlanacak uygulama bulunamadı."
 msgid "unknown"
 msgstr "bilinmeyen"
 
-#: libmalcontent-ui/user-controls.c:303 libmalcontent-ui/user-controls.c:388
-#: libmalcontent-ui/user-controls.c:641
-msgid "All Ages"
-msgstr "Tüm Yaşlar"
+#: libmalcontent-ui/user-controls.c:306 libmalcontent-ui/user-controls.c:394
+#: libmalcontent-ui/user-controls.c:647
+msgid "Unrestricted"
+msgstr ""
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:470
+#: libmalcontent-ui/user-controls.c:476
 #, c-format
 msgid ""
 "Prevents %s from running web browsers. Limited web content may still be "
@@ -213,13 +213,13 @@ msgstr ""
 "sınırlı web içeriği diğer uygulamalarda da bulunabilir."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:475
+#: libmalcontent-ui/user-controls.c:481
 #, c-format
 msgid "Prevents specified applications from being used by %s."
 msgstr "Belirtilen uygulamaların %s tarafından kullanılmasını engeller."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:480
+#: libmalcontent-ui/user-controls.c:486
 #, c-format
 msgid "Prevents %s from installing applications."
 msgstr "%s kullanıcısının uygulama kurmasını engeller."
@@ -274,7 +274,7 @@ msgstr "— ebeveyn denetimlerini görüntüle ve düzenle"
 #. Translators: This is the title of the main window
 #. Translators: the name of the application as it appears in a software center
 #: malcontent-control/application.c:123 malcontent-control/main.ui:17
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:9
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:9
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:3
 msgid "Parental Controls"
 msgstr "Ebeveyn Denetimleri"
@@ -378,13 +378,13 @@ msgid "_About Parental Controls"
 msgstr "Ebeveyn Denetimleri _Hakkında"
 
 #. Translators: the brief summary of the application as it appears in a software center.
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:12
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:12
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:4
 msgid "Set parental controls and monitor usage by users"
 msgstr "Ebeveyn denetimlerini ayarlayın ve kullanıcılarla kullanımı izleyin"
 
 #. Translators: These are the application description paragraphs in the AppData file.
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:16
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:16
 msgid ""
 "Manage users’ parental controls restrictions, controlling how long they can "
 "use the computer for, what software they can install, and what installed "
@@ -394,16 +394,12 @@ msgstr ""
 "süre kullanabileceklerini, hangi yazılımları kurabileceklerini ve hangi "
 "kurulu yazılımları çalıştırabileceklerini denetleyin."
 
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:25
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:25
 msgid "Main window"
 msgstr "Ana pencere"
 
-#: malcontent-control/org.freedesktop.MalcontentControl.appdata.xml.in:40
-msgid "The GNOME Project"
-msgstr "GNOME Projesi"
-
 #. Translators: Search terms to find this application. Do NOT translate or localise the semicolons! The list MUST also end with a semicolon!
-#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:14
+#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:13
 msgid ""
 "parental controls;screen time;app restrictions;web browser restrictions;oars;"
 "usage;usage limit;kid;child;"
@@ -450,3 +446,9 @@ msgstr "‘%s’ kullanıcısının hiç zamanı kalmadı"
 #, c-format
 msgid "Error setting time limit on login session: %s"
 msgstr "Oturum açma oturum zaman sınırı ayarlanırken hata oluştu: %s"
+
+#~ msgid "All Ages"
+#~ msgstr "Tüm Yaşlar"
+
+#~ msgid "The GNOME Project"
+#~ msgstr "GNOME Projesi"

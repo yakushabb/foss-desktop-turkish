@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: fprintd\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/libfprint/fprintd/"
 "issues\n"
-"POT-Creation-Date: 2022-07-08 03:25+0000\n"
+"POT-Creation-Date: 2025-02-21 03:26+0000\n"
 "PO-Revision-Date: 2021-12-04 09:16+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/fprintd/"
@@ -48,12 +48,12 @@ msgid "Privileges are required to manage fingerprints for other users."
 msgstr ""
 "Diğer kullanıcılar için parmak izlerini yönetmek için ayrıcalıklar gerekiyor."
 
-#: src/device.c:783
+#: src/device.c:799
 #, c-format
 msgid "Device was not claimed before use"
 msgstr "Aygıt kullanımdan önce istenmedi"
 
-#: src/device.c:792
+#: src/device.c:808
 #, c-format
 msgid "Device already in use by another user"
 msgstr "Aygıt başka kullanıcı tarafından kullanılıyor"
@@ -256,34 +256,70 @@ msgstr "Sağ serçe parmağınızı parmak izi okuyucu üzerinde kaydırın"
 msgid "Swipe your right little finger across %s"
 msgstr "Sağ serçe parmağınızı %s üzerinde kaydırın"
 
-#: pam/fingerprint-strings.h:171 pam/fingerprint-strings.h:199
+#: pam/fingerprint-strings.h:170 pam/fingerprint-strings.h:216
 msgid "Place your finger on the reader again"
 msgstr "Parmağınızı yeniden okuyucuya yerleştirin"
 
-#: pam/fingerprint-strings.h:173 pam/fingerprint-strings.h:201
+#: pam/fingerprint-strings.h:172 pam/fingerprint-strings.h:218
 msgid "Swipe your finger again"
 msgstr "Parmağınızı yeniden kaydırın"
 
-#: pam/fingerprint-strings.h:176 pam/fingerprint-strings.h:204
+#: pam/fingerprint-strings.h:175 pam/fingerprint-strings.h:221
 msgid "Swipe was too short, try again"
 msgstr "Çok kısa kaydırdınız, yeniden deneyin"
 
-#: pam/fingerprint-strings.h:178 pam/fingerprint-strings.h:206
+#: pam/fingerprint-strings.h:179 pam/fingerprint-strings.h:225
 msgid "Your finger was not centered, try swiping your finger again"
 msgstr "Parmağınız ortalanmadı, parmağınızı yeniden kaydırmayı deneyin"
 
-#: pam/fingerprint-strings.h:180 pam/fingerprint-strings.h:208
+#: pam/fingerprint-strings.h:181 pam/fingerprint-strings.h:227
+#, fuzzy
+#| msgid "Your finger was not centered, try swiping your finger again"
+msgid "Your finger was not centered, try touching the sensor again"
+msgstr "Parmağınız ortalanmadı, parmağınızı yeniden kaydırmayı deneyin"
+
+#: pam/fingerprint-strings.h:186 pam/fingerprint-strings.h:232
 msgid "Remove your finger, and try swiping your finger again"
 msgstr "Parmağınızı kaldırın ve yeniden kaydırmayı deneyin"
 
-#: pam/pam_fprintd.c:541
+#: pam/fingerprint-strings.h:188 pam/fingerprint-strings.h:234
+#, fuzzy
+#| msgid "Remove your finger, and try swiping your finger again"
+msgid "Remove your finger, and try touching the sensor again"
+msgstr "Parmağınızı kaldırın ve yeniden kaydırmayı deneyin"
+
+#: pam/fingerprint-strings.h:193 pam/fingerprint-strings.h:239
+#, fuzzy
+#| msgid "Swipe was too short, try again"
+msgid "Swipe was too fast, try again"
+msgstr "Çok kısa kaydırdınız, yeniden deneyin"
+
+#: pam/fingerprint-strings.h:195 pam/fingerprint-strings.h:241
+#, fuzzy
+#| msgid "Swipe was too short, try again"
+msgid "Finger scan was too fast, try again"
+msgstr "Çok kısa kaydırdınız, yeniden deneyin"
+
+#: pam/fingerprint-strings.h:199
+msgid "An unexpected error happened during finger verification"
+msgstr ""
+
+#: pam/fingerprint-strings.h:244
+msgid "The fingerprint has been already enrolled. Try using another finger."
+msgstr ""
+
+#: pam/fingerprint-strings.h:248
+msgid "An unexpected error happened during finger enrollment"
+msgstr ""
+
+#: pam/pam_fprintd.c:584
 msgid "Verification timed out"
 msgstr "Doğrulama zaman aşımına uğradı"
 
-#: pam/pam_fprintd.c:546
+#: pam/pam_fprintd.c:589
 msgid "Failed to match fingerprint"
 msgstr "Parmak izi eşleştirilemedi"
 
-#: pam/pam_fprintd.c:584
+#: pam/pam_fprintd.c:627
 msgid "An unknown error occurred"
 msgstr "Bilinmeyen bir hata oluştu"
