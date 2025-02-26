@@ -10,16 +10,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Console master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/console/issues/\n"
-"POT-Creation-Date: 2024-09-01 11:11+0000\n"
-"PO-Revision-Date: 2024-08-24 08:00+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"POT-Creation-Date: 2025-02-10 19:24+0000\n"
+"PO-Revision-Date: 2024-09-12 09:47+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #: data/org.gnome.Console.desktop.in.in:3
 #: data/org.gnome.Console.metainfo.xml.in.in:8 src/kgx-application.h:26
@@ -38,7 +38,7 @@ msgstr ""
 msgid "New Window"
 msgstr "Yeni Pencere"
 
-#: data/org.gnome.Console.desktop.in.in:27 src/kgx-window.ui:174
+#: data/org.gnome.Console.desktop.in.in:27 src/kgx-window.ui:176
 msgid "New Tab"
 msgstr "Yeni Sekme"
 
@@ -50,11 +50,11 @@ msgstr "Uçbirim Öykünücü"
 msgid "A simple user-friendly terminal emulator for the GNOME desktop."
 msgstr "GNOME masaüstü için basit, kullanıcı dostu uçbirim öykünücü."
 
-#: data/org.gnome.Console.metainfo.xml.in.in:30
+#: data/org.gnome.Console.metainfo.xml.in.in:26
 msgid "Terminal window"
 msgstr "Uçbirim penceresi"
 
-#: data/org.gnome.Console.metainfo.xml.in.in:406 src/kgx-window.c:534
+#: data/org.gnome.Console.metainfo.xml.in.in:462 src/kgx-window.c:561
 msgid "The GNOME Project"
 msgstr "GNOME Projesi"
 
@@ -139,7 +139,7 @@ msgid "Switch to Tab 10"
 msgstr "10. Sekmeye Geç"
 
 #. Translators: %s is the year range
-#: src/kgx-about.c:83 src/kgx-window.c:529
+#: src/kgx-about.c:83 src/kgx-window.c:556
 #, c-format
 msgid "© %s Zander Brown"
 msgstr "© %s Zander Brown"
@@ -155,62 +155,62 @@ msgstr "GPL 3.0 veya daha yenisi"
 msgid "# KGX %s using VTE %u.%u.%u %s\n"
 msgstr "# KGX %s VTE %u.%u.%u %s kullanıyor\n"
 
-#: src/kgx-application.c:255
+#: src/kgx-application.c:283
 msgid "Cannot use both --working-directory and positional parameters"
 msgstr "--working-directory ve konumsal parametreler birlikte kullanılamaz"
 
-#: src/kgx-application.c:443
+#: src/kgx-application.c:503
 msgid "Execute the argument to this option inside the terminal"
 msgstr "Argümanı uçbirimin içinde bu seçeneğe çalıştır"
 
-#: src/kgx-application.c:444
+#: src/kgx-application.c:504
 msgid "COMMAND"
 msgstr "KOMUT"
 
-#: src/kgx-application.c:452
+#: src/kgx-application.c:512
 msgid "Set the working directory"
 msgstr "Çalışma dizinini belirle"
 
 #. Translators: Placeholder of for a given directory
-#: src/kgx-application.c:454
+#: src/kgx-application.c:514
 msgid "DIRNAME"
 msgstr "DİZİNADI"
 
-#: src/kgx-application.c:462
+#: src/kgx-application.c:522
 msgid "Wait until the child exits (TODO)"
 msgstr "Alt süreç çıkana dek bekle (TODO)"
 
-#: src/kgx-application.c:471
+#: src/kgx-application.c:531
 msgid "Set the initial window title"
 msgstr "İlk pencere başlığını belirle"
 
-#: src/kgx-application.c:472
+#: src/kgx-application.c:532
 msgid "TITLE"
 msgstr "BAŞLIK"
 
-#: src/kgx-application.c:480
+#: src/kgx-application.c:540
 msgid "ADVANCED: Set the shell to launch"
 msgstr "GELİŞMİŞ: Başlatılacak kabuğu belirle"
 
-#: src/kgx-application.c:481
+#: src/kgx-application.c:541
 msgid "SHELL"
 msgstr "KABUK"
 
-#: src/kgx-application.c:489
+#: src/kgx-application.c:549
 msgid "ADVANCED: Set the scrollback length"
 msgstr "GELİŞMİŞ: Geri kaydırma uzunluğunu belirle"
 
-#: src/kgx-application.c:490
+#: src/kgx-application.c:550
 msgid "LINES"
 msgstr "SATIRLAR"
 
 #. Translators: %s is the version string, KGX is a codename and should be left as-is
-#: src/kgx-application.c:644
+#: src/kgx-application.c:688
 #, c-format
 msgid "KGX %s — Terminal Emulator"
 msgstr "KGX %s — Uçbirim Öykünücü"
 
-#: src/kgx-application.c:650
+#: src/kgx-application.c:694
 msgid "[-e|-- COMMAND [ARGUMENT...]]"
 msgstr "[-e|-- KOMUT [ARGÜMAN...]]"
 
@@ -278,7 +278,7 @@ msgstr "XTerm"
 #. * this string will only be seen when the running program has
 #. * failed to set a title, and exists purely to avoid blank tabs
 #.
-#: src/kgx-pages.c:471
+#: src/kgx-pages.c:473
 #, c-format
 msgid "Tab %i"
 msgstr "Sekme %i"
@@ -321,17 +321,17 @@ msgid "<b>Failed to start</b> — %s"
 msgstr "<b>Başlatılamadı</b> — %s"
 
 #. Translators: <b> </b> marks the text as bold, ensure they are matched please!
-#: src/kgx-tab.c:814
+#: src/kgx-tab.c:784
 #, c-format
 msgid "<b>Read Only</b> — Command exited with code %i"
 msgstr "<b>Salt Okunur</b> — Komut, %i koduyla çıktı"
 
 #. Translators: <b> </b> marks the text as bold, ensure they are matched please!
-#: src/kgx-tab.c:822
+#: src/kgx-tab.c:792
 msgid "<b>Read Only</b> — Command exited"
 msgstr "<b>Salt Okunur</b> — Komut çıktı"
 
-#: src/kgx-tab.c:842
+#: src/kgx-tab.c:812
 msgid "Command completed"
 msgstr "Komut tamamlandı"
 
@@ -347,7 +347,7 @@ msgstr "Önceki Eşleşme"
 msgid "Next Match"
 msgstr "Sonraki Eşleşme"
 
-#: src/kgx-terminal.c:508
+#: src/kgx-terminal.c:510
 #, c-format
 msgid ""
 "Ctrl-click to open:\n"
@@ -374,15 +374,15 @@ msgstr "Tümünü _Seç"
 msgid "Show in _Files"
 msgstr "_Dosyalarʼda Göster"
 
-#: src/kgx-theme-switcher.ui:16
+#: src/kgx-theme-switcher.ui:24
 msgid "Follow System Style"
 msgstr "Sistem Biçemini İzle"
 
-#: src/kgx-theme-switcher.ui:44
+#: src/kgx-theme-switcher.ui:52
 msgid "Light Style"
 msgstr "Açık Biçem"
 
-#: src/kgx-theme-switcher.ui:71
+#: src/kgx-theme-switcher.ui:79
 msgid "Dark Style"
 msgstr "Koyu Biçem"
 
@@ -396,7 +396,7 @@ msgid "Cannot use both --command and positional parameters"
 msgstr "--command ve konumsal parametreler birlikte kullanılamaz"
 
 #. Translators: Credit yourself here
-#: src/kgx-window.c:541
+#: src/kgx-window.c:568
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
@@ -422,23 +422,23 @@ msgstr "_Klavye Kısayolları"
 msgid "_About Console"
 msgstr "Konsol _Hakkında"
 
-#: src/kgx-window.ui:88
+#: src/kgx-window.ui:90
 msgid "Find in Terminal"
 msgstr "Uçbirimde Bul"
 
-#: src/kgx-window.ui:95
+#: src/kgx-window.ui:97
 msgid "Main Menu"
 msgstr "Ana Menü"
 
-#: src/kgx-window.ui:113
+#: src/kgx-window.ui:115
 msgid "Shrink Text"
 msgstr "Metni Daralt"
 
-#: src/kgx-window.ui:124
+#: src/kgx-window.ui:126
 msgid "Reset Size"
 msgstr "Boyutu Sıfırla"
 
-#: src/kgx-window.ui:148
+#: src/kgx-window.ui:150
 msgid "Enlarge Text"
 msgstr "Metni Genişlet"
 
@@ -493,6 +493,10 @@ msgstr "Davranış"
 #: src/preferences/kgx-preferences-window.ui:66
 msgid "_Unlimited Scrollback"
 msgstr "_Sınırsız Geri Kaydırma"
+
+#: src/preferences/kgx-preferences-window.ui:72
+msgid "_Scrollback Lines"
+msgstr "Satırları _Geri Kaydır"
 
 #: src/preferences/kgx-preferences-window.ui:92
 msgid "Terminal Bell"

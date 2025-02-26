@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gsettings-desktop-schemas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gsettings-desktop-"
 "schemas/issues/\n"
-"POT-Creation-Date: 2024-09-10 17:24+0000\n"
+"POT-Creation-Date: 2025-02-19 19:23+0000\n"
 "PO-Revision-Date: 2024-08-24 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -1651,8 +1651,12 @@ msgid "Disable user switching"
 msgstr "Kullanıcı değişimini devre dışı bırak"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:40
+#, fuzzy
+#| msgid ""
+#| "Prevent the user from switching to another account while his session is "
+#| "active."
 msgid ""
-"Prevent the user from switching to another account while his session is "
+"Prevent the user from switching to another account while their session is "
 "active."
 msgstr ""
 "Kullanıcının kendi oturumu etkinken başka bir hesaba geçmesini engelle."
@@ -1662,7 +1666,9 @@ msgid "Disable lock screen"
 msgstr "Ekran kilitlemeyi devre dışı bırak"
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:48
-msgid "Prevent the user to lock his screen."
+#, fuzzy
+#| msgid "Prevent the user to lock his screen."
+msgid "Prevent the user from locking their screen."
 msgstr "Kullanıcının ekranı kilitlemesini engelle."
 
 #: schemas/org.gnome.desktop.lockdown.gschema.xml.in:54
@@ -2740,6 +2746,51 @@ msgid ""
 msgstr ""
 "Ekran kilitlendiğinde oturum durum iletisinin görüntülenmesine izin ver. "
 "TERK EDİLDİ: Bu anahtar terk edildi ve yok sayılıyor."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:9
+msgid "Enable screen time history"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:10
+msgid ""
+"Enable basic screen time functionality, recording usage data for viewing "
+"history."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:17
+msgid "Enable daily screen time limit"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:18
+msgid ""
+"Enable imposing a screen time limit on the user, as set in daily-limit-"
+"seconds."
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:23
+msgid "Daily screen time limit"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:24
+#, fuzzy
+#| msgid ""
+#| "The amount to delay taking the break by, if the user requests a delay, in "
+#| "seconds."
+msgid ""
+"The limit on the amount of daily screen time the user is allowed, in seconds."
+msgstr ""
+"Eğer kullanıcı erteleme isterse, molaya eklenecek erteleme miktarı, saniye "
+"türünde."
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:30
+msgid "Grayscale once limit is reached"
+msgstr ""
+
+#: schemas/org.gnome.desktop.screen-time-limits.gschema.xml.in:31
+msgid ""
+"Whether to make the screen grayscale once the user’s screen time limit is "
+"reached."
+msgstr ""
 
 #: schemas/org.gnome.desktop.search-providers.gschema.xml.in:7
 msgid "Disable all external search providers"

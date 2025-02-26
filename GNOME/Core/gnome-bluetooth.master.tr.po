@@ -8,15 +8,15 @@
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013.
 # Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2014, 2015.
 # Sabri Ünal <yakushabb@gmail.com>, 2014, 2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-bluetooth/issues\n"
-"POT-Creation-Date: 2024-09-02 18:47+0000\n"
-"PO-Revision-Date: 2024-05-07 12:34+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-02-23 09:43+0000\n"
+"PO-Revision-Date: 2025-02-14 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -37,8 +37,8 @@ msgstr "Lütfen “%s” üstüne girilen PIN kodunu onaylayın."
 
 #: lib/bluetooth-pairing-dialog.c:92 lib/bluetooth-pairing-dialog.c:105
 #: lib/bluetooth-pairing-dialog.c:153
-msgid "Confirm"
-msgstr "Onayla"
+msgid "C_onfirm"
+msgstr "_Onayla"
 
 #: lib/bluetooth-pairing-dialog.c:95
 #, c-format
@@ -102,20 +102,21 @@ msgstr ""
 "düğmelerden herhangi birine basın."
 
 #: lib/bluetooth-pairing-dialog.c:145
-msgid "Allow"
-msgstr "İzin ver"
+msgid "_Allow"
+msgstr "İz_in Ver"
 
 #: lib/bluetooth-pairing-dialog.c:148
-msgid "Dismiss"
-msgstr "Kapat"
+msgid "_Dismiss"
+msgstr "_Gözden Çıkar"
 
 #: lib/bluetooth-pairing-dialog.c:156 lib/bluetooth-pairing-dialog.ui:15
-msgid "Cancel"
-msgstr "İptal"
+#: lib/bluetooth-settings-widget.c:1311 sendto/main.c:447 sendto/main.c:699
+msgid "_Cancel"
+msgstr "İ_ptal"
 
-#: lib/bluetooth-pairing-dialog.ui:22 lib/bluetooth-settings-obexpush.c:247
-msgid "Accept"
-msgstr "Kabul Et"
+#: lib/bluetooth-pairing-dialog.ui:23
+msgid "_Accept"
+msgstr "_Kabul Et"
 
 #: lib/bluetooth-settings-row.c:78 lib/bluetooth-settings-row.ui:12
 msgid "Not Set Up"
@@ -129,18 +130,18 @@ msgstr "Bağlı"
 msgid "Disconnected"
 msgstr "Bağlantı Kesik"
 
-#: lib/bluetooth-settings-widget.c:1140 lib/settings.ui:71
+#: lib/bluetooth-settings-widget.c:1141 lib/settings.ui:71
 msgid "Yes"
 msgstr "Evet"
 
-#: lib/bluetooth-settings-widget.c:1140
+#: lib/bluetooth-settings-widget.c:1141
 msgid "No"
 msgstr "Hayır"
 
 #. translators: first %s is the name of the computer, for example:
 #. * Visible as “Bastien Nocera’s Computer” followed by the
 #. * location of the Downloads folder.
-#: lib/bluetooth-settings-widget.c:1232
+#: lib/bluetooth-settings-widget.c:1233
 #, c-format
 msgid ""
 "Visible as “%s” and available for Bluetooth file transfers. Transferred "
@@ -149,11 +150,11 @@ msgstr ""
 "“%s” olarak görünür ve Bluetooth dosya aktarımlarına uygundur. Aktarılan "
 "dosyalar <a href=\"%s\">İndirilenler</a> klasörüne konur."
 
-#: lib/bluetooth-settings-widget.c:1302
+#: lib/bluetooth-settings-widget.c:1303
 msgid "Forget Device?"
 msgstr "Aygıt Unutulsun Mu?"
 
-#: lib/bluetooth-settings-widget.c:1305
+#: lib/bluetooth-settings-widget.c:1306
 #, c-format
 msgid ""
 "“%s” will be removed from your saved devices. You will have to set it up "
@@ -162,11 +163,7 @@ msgstr ""
 "“%s” kayıtlı aygıtlarınızdan kaldırılacaktır. Kullanmak için yeniden "
 "kurmanız gerekecektir."
 
-#: lib/bluetooth-settings-widget.c:1310 sendto/main.c:447 sendto/main.c:699
-msgid "_Cancel"
-msgstr "_İptal"
-
-#: lib/bluetooth-settings-widget.c:1311
+#: lib/bluetooth-settings-widget.c:1312
 msgid "_Forget"
 msgstr "_Unut"
 
@@ -200,6 +197,10 @@ msgstr "%s konumundan Bluetooth dosya aktarımı"
 #: lib/bluetooth-settings-obexpush.c:244
 msgid "Decline"
 msgstr "Reddet"
+
+#: lib/bluetooth-settings-obexpush.c:247
+msgid "Accept"
+msgstr "Kabul Et"
 
 #: lib/bluetooth-utils.c:56
 msgid "Phone"

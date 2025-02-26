@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: calls master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/calls/issues/\n"
-"POT-Creation-Date: 2024-09-01 10:39+0000\n"
+"POT-Creation-Date: 2025-02-10 19:13+0000\n"
 "PO-Revision-Date: 2024-08-01 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 
 #: data/org.gnome.Calls.desktop.in:3 data/org.gnome.Calls.metainfo.xml.in:6
-#: src/calls-application.c:490 src/ui/call-window.ui:4 src/ui/main-window.ui:4
+#: src/calls-application.c:496 src/ui/call-window.ui:4 src/ui/main-window.ui:4
 msgid "Calls"
 msgstr "Çağrılar"
 
@@ -220,41 +220,41 @@ msgstr "Yeni hesap ekle"
 msgid "VoIP Accounts"
 msgstr "VoIP Hesapları"
 
-#: src/calls-application.c:367
+#: src/calls-application.c:373
 #, c-format
 msgid "Tried dialing invalid tel URI `%s'"
 msgstr "`%s' geçersiz tel URIʼsini arama denendi"
 
-#: src/calls-application.c:735
+#: src/calls-application.c:755
 #, c-format
 msgid "Don't know how to open `%s'"
 msgstr "`%s' nasıl açılır bilinmiyor"
 
-#: src/calls-application.c:799
+#: src/calls-application.c:826
 msgid "The name of the plugins to load"
 msgstr "Yüklenecek eklentinin adı"
 
-#: src/calls-application.c:800
+#: src/calls-application.c:827
 msgid "PLUGIN"
 msgstr "EKLENTİ"
 
-#: src/calls-application.c:805
+#: src/calls-application.c:832
 msgid "Whether to present the main window on startup"
 msgstr "Ana ekranın başlangıçta sunulup sunulmayacağı"
 
-#: src/calls-application.c:811
+#: src/calls-application.c:838
 msgid "Dial a telephone number"
 msgstr "Telefon numarası çevir"
 
-#: src/calls-application.c:812
+#: src/calls-application.c:839
 msgid "NUMBER"
 msgstr "NUMARA"
 
-#: src/calls-application.c:817
+#: src/calls-application.c:844
 msgid "Enable verbose debug messages"
 msgstr "Ayrıntılı hata ayıklama iletilerini etkinleştir"
 
-#: src/calls-application.c:823
+#: src/calls-application.c:850
 msgid "Print current version"
 msgstr "Geçerli sürümü yazdır"
 
@@ -262,7 +262,7 @@ msgstr "Geçerli sürümü yazdır"
 msgid "Anonymous caller"
 msgstr "Anonim çağrı"
 
-#: src/calls-call-record-row.c:95
+#: src/calls-call-record-row.c:97
 #, c-format
 msgid ""
 "%s\n"
@@ -287,32 +287,28 @@ msgstr "İtfaiye"
 msgid "Mountain Rescue"
 msgstr "Dağ Kurtarma"
 
-#: src/calls-main-window.c:119
+#: src/calls-main-window.c:121
 msgid "translator-credits"
 msgstr "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/calls-main-window.c:174
-msgid "USSD"
-msgstr "USSD"
-
-#: src/calls-main-window.c:312
+#: src/calls-main-window.c:322
 msgid "Can't place calls: No modem or VoIP account available"
 msgstr "Aranamıyor: Modem veya uygun VoIP hesabı yok"
 
-#: src/calls-main-window.c:314
+#: src/calls-main-window.c:324
 msgid "Can't place calls: No plugin loaded"
 msgstr "Aranamıyor: Eklenti yüklenmedi"
 
 #. Recent as in "Recent calls" (the call history)
-#: src/calls-main-window.c:356
+#: src/calls-main-window.c:365
 msgid "Recent"
 msgstr "Son"
 
-#: src/calls-main-window.c:364
+#: src/calls-main-window.c:373
 msgid "Contacts"
 msgstr "Kişiler"
 
-#: src/calls-main-window.c:372
+#: src/calls-main-window.c:381
 msgid "Dial Pad"
 msgstr "Tuş Takımı"
 
@@ -386,24 +382,28 @@ msgstr "Kişi Bulunamadı"
 msgid "No Recent Calls"
 msgstr "Son Aranan Yok"
 
-#: src/ui/main-window.ui:76
+#: src/ui/main-window.ui:66
+msgid "USSD"
+msgstr "USSD"
+
+#: src/ui/main-window.ui:78
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: src/ui/main-window.ui:84
+#: src/ui/main-window.ui:87
 msgid "_Close"
 msgstr "_Kapat"
 
-#: src/ui/main-window.ui:90
+#: src/ui/main-window.ui:93
 msgid "_Send"
 msgstr "_Gönder"
 
-#: src/ui/main-window.ui:143
+#: src/ui/main-window.ui:155
 msgid "_VoIP Accounts"
 msgstr "_VoIP Hesapları"
 
 #. "Calls" is the application name, do not translate
-#: src/ui/main-window.ui:157
+#: src/ui/main-window.ui:169
 msgid "_About Calls"
 msgstr "Calls _Hakkında"
 

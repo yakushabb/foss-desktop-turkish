@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rygel gnome-2-32\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/rygel/issues/\n"
-"POT-Creation-Date: 2024-09-03 20:57+0000\n"
+"POT-Creation-Date: 2025-02-13 04:59+0000\n"
 "PO-Revision-Date: 2024-05-07 11:33+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -607,7 +607,7 @@ msgid "Not found"
 msgstr "Bulunamadı"
 
 #: src/librygel-server/rygel-http-post.vala:64
-#: src/librygel-server/rygel-import-resource.vala:215
+#: src/librygel-server/rygel-import-resource.vala:228
 #, c-format
 msgid "Pushing data to non-empty item “%s” not allowed"
 msgstr "Boş olmayan “%s” ögesine veri eklenmesine izin verilmiyor"
@@ -638,12 +638,12 @@ msgstr "%s için veri kaynağı oluşturulamadı"
 msgid "Failed to get original URI for “%s”: %s"
 msgstr "“%s” için orjinal URI alınamadı: %s"
 
-#: src/librygel-server/rygel-import-resource.vala:210
+#: src/librygel-server/rygel-import-resource.vala:223
 #, c-format
 msgid "URI “%s” invalid for importing contents to"
 msgstr "İçeriği içe aktarmada “%s” URI geçersiz"
 
-#: src/librygel-server/rygel-import-resource.vala:237
+#: src/librygel-server/rygel-import-resource.vala:250
 #, c-format
 msgid "Failed to import file from %s: %s"
 msgstr "%s’den dosya içe aktarılamadı: %s"
@@ -1138,22 +1138,22 @@ msgstr "Veri tabanından nesne getirilemiyor: %s"
 msgid "Failed to harvest file %s: %s"
 msgstr "%s dosyası işlenemedi: %s"
 
-#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:192
+#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:194
 #, c-format
 msgid "Failed to query database: %s"
 msgstr "Veri tabanı sorgulanamadı: %s"
 
-#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:273
+#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:275
 #, c-format
 msgid "Failed to enumerate folder “%s”: %s"
 msgstr "“%s” klasörü numaralandırılamadı: %s"
 
-#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:291
+#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:293
 #, c-format
 msgid "Failed to get children of container %s: %s"
 msgstr "%s kabının alt süreçleri getirilemedi: %s"
 
-#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:350
+#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:352
 #, c-format
 msgid "Failed to extract meta-data for file %s"
 msgstr "%s dosyası için üst veri çıkartılamadı"
@@ -1161,7 +1161,7 @@ msgstr "%s dosyası için üst veri çıkartılamadı"
 #. error is only emitted if even the basic information extraction
 #. failed; there's not much to do here, just print the information and
 #. go to the next file
-#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:363
+#: src/plugins/media-export/rygel-media-export-harvesting-task.vala:365
 #, c-format
 msgid "Skipping URI %s; extraction completely failed: %s"
 msgstr "URI %s atlanıyor; ayıklama tümüyle başarısız oldu: %s"
