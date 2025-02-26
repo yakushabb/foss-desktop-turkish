@@ -1,0 +1,666 @@
+# Turkish translation for libgedit-tepl.
+# Copyright (C) 2019 tepl's COPYRIGHT HOLDER
+# Copyright (C) 2024 libgedit-tepl's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgedit-tepl package.
+#
+# Serdar Sağlam <teknomobil@msn.com>, 2019.
+# Muhammet Kara <muhammetk@gmail.com>, 2021.
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2019-2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgedit-tepl master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gedit/libgedit-tepl/-/"
+"issues\n"
+"POT-Creation-Date: 2025-02-07 08:32+0000\n"
+"PO-Revision-Date: 2025-01-17 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Turkish <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+
+#. action, icon, label, accel, tooltip
+#. File menu
+#. Why "file" and not "document"? "Document" is not the best
+#. word because the action is not always to create a new
+#. document. For example a LaTeX document can be composed of
+#. several _files_. Or for source code we do not really create a
+#. new "document".
+#: tepl/tepl-application.c:79
+msgid "_New"
+msgstr "_Yeni"
+
+#: tepl/tepl-application.c:80
+msgid "New file"
+msgstr "Yeni dosya"
+
+#: tepl/tepl-application.c:82
+msgid "New _Window"
+msgstr "Yeni _Pencere"
+
+#: tepl/tepl-application.c:83
+msgid "Create a new window"
+msgstr "Yeni pencere oluştur"
+
+#: tepl/tepl-application.c:85 tepl/tepl-window-actions-file.c:83
+msgid "_Open"
+msgstr "_Aç"
+
+#: tepl/tepl-application.c:86
+msgid "Open a file"
+msgstr "Dosya aç"
+
+#: tepl/tepl-application.c:88 tepl/tepl-close-confirm-dialog-single.c:137
+#: tepl/tepl-tab-saving.c:281
+msgid "_Save"
+msgstr "_Kaydet"
+
+#: tepl/tepl-application.c:89
+msgid "Save the current file"
+msgstr "Geçerli dosyayı kaydet"
+
+#: tepl/tepl-application.c:91
+msgid "Save _As"
+msgstr "_Farklı Kaydet"
+
+#: tepl/tepl-application.c:92
+msgid "Save the current file to a different location"
+msgstr "Geçerli dosyayı farklı konuma kaydet"
+
+#. Edit menu
+#: tepl/tepl-application.c:96
+msgid "_Undo"
+msgstr "Geri _Al"
+
+#: tepl/tepl-application.c:97
+msgid "Undo the last action"
+msgstr "Son işlemi geri al"
+
+#: tepl/tepl-application.c:99
+msgid "_Redo"
+msgstr "_Yeniden Yap"
+
+#: tepl/tepl-application.c:100
+msgid "Redo the last undone action"
+msgstr "Geri alınmış işlemi yeniden yap"
+
+#: tepl/tepl-application.c:102
+msgid "Cu_t"
+msgstr "Ke_s"
+
+#: tepl/tepl-application.c:103
+msgid "Cut the selection"
+msgstr "Seçimi kes"
+
+#: tepl/tepl-application.c:105
+msgid "_Copy"
+msgstr "_Kopyala"
+
+#: tepl/tepl-application.c:106
+msgid "Copy the selection"
+msgstr "Seçimi kopyala"
+
+#: tepl/tepl-application.c:108
+msgid "_Paste"
+msgstr "_Yapıştır"
+
+#: tepl/tepl-application.c:109
+msgid "Paste the clipboard"
+msgstr "Panodan yapıştır"
+
+#: tepl/tepl-application.c:111
+msgid "_Delete"
+msgstr "_Sil"
+
+#: tepl/tepl-application.c:112
+msgid "Delete the selected text"
+msgstr "Seçili metni sil"
+
+#: tepl/tepl-application.c:114
+msgid "Select _All"
+msgstr "_Tümünü seç"
+
+#: tepl/tepl-application.c:115
+msgid "Select all the text"
+msgstr "Tüm metni seç"
+
+#: tepl/tepl-application.c:117
+msgid "_Indent"
+msgstr "_Girinti"
+
+#: tepl/tepl-application.c:118
+msgid "Indent the selected lines"
+msgstr "Seçili çizgileri girintile"
+
+#: tepl/tepl-application.c:120
+msgid "_Unindent"
+msgstr "_Çıkıntı"
+
+#: tepl/tepl-application.c:121
+msgid "Unindent the selected lines"
+msgstr "Seçili çizgileri geri al"
+
+#. Search menu
+#: tepl/tepl-application.c:125
+msgid "_Go to Line…"
+msgstr "Satıra _Git…"
+
+#: tepl/tepl-application.c:126
+msgid "Go to a specific line"
+msgstr "Belirli bir satıra git"
+
+#: tepl/tepl-application-window.c:156
+msgid "Read-Only"
+msgstr "Salt Okunur"
+
+#: tepl/tepl-close-confirm-dialog-single.c:119
+#, c-format
+msgid "Save changes to file “%s” before closing?"
+msgstr "“%s” dosyasını kapatmadan önce değişiklikler kaydedilsin mi?"
+
+#: tepl/tepl-close-confirm-dialog-single.c:125
+msgid "Close _without Saving"
+msgstr "_Kaydetmeden Kapat"
+
+#: tepl/tepl-close-confirm-dialog-single.c:131
+#: tepl/tepl-language-chooser-dialog.c:130 tepl/tepl-prefs-dialog.c:217
+#: tepl/tepl-progress-info-bar.c:52 tepl/tepl-tab-saving.c:280
+#: tepl/tepl-window-actions-file.c:82
+msgid "_Cancel"
+msgstr "_İptal"
+
+#: tepl/tepl-close-confirm-dialog-single.c:143
+msgid "_Save As…"
+msgstr "_Farklı Kaydet…"
+
+#: tepl/tepl-file-loader.c:341
+msgid "The content must be encoded with the UTF-8 character encoding."
+msgstr "İçerik, UTF-8 karakter kodlaması ile kodlanmalıdır."
+
+#: tepl/tepl-goto-line-bar.c:234
+msgid "Go to line:"
+msgstr "Satıra git:"
+
+#: tepl/tepl-goto-line-bar.c:242
+msgid "Close"
+msgstr "Kapat"
+
+#. Translators: the first %s is a filename and the second %s is an
+#. * application name.
+#.
+#: tepl/tepl-io-error-info-bars.c:76
+#, c-format
+msgid "This file (%s) is already open in another %s window."
+msgstr "Bu dosya (%s) başka %s penceresinde zaten açık."
+
+#: tepl/tepl-io-error-info-bars.c:89
+#, c-format
+msgid ""
+"%s opened this instance of the file in a non-editable way. Do you want to "
+"edit it anyway?"
+msgstr ""
+"%s, dosyanın bu örneğini düzenlenemez biçimde açtı. Yine de düzenlemek "
+"istiyor musunuz?"
+
+#: tepl/tepl-io-error-info-bars.c:95
+msgid "_Edit Anyway"
+msgstr "Yine De Düz_enle"
+
+#: tepl/tepl-io-error-info-bars.c:99
+msgid "_Keep Read-Only"
+msgstr "Salt Okunur _Tut"
+
+#: tepl/tepl-io-error-info-bars.c:141
+#, c-format
+msgid "Could not create a backup file while saving “%s”."
+msgstr "“%s” kaydedilirken yedek dosya oluşturulamadı."
+
+#: tepl/tepl-io-error-info-bars.c:146
+msgid ""
+"Could not back up the old copy of the file before saving the new one. You "
+"can ignore this warning and save the file anyway, but if an error occurs "
+"while saving, you could lose the old copy of the file. Save anyway?"
+msgstr ""
+"Dosyanın eski kopyası, yenisini kaydetmeden önce yedeklenemedi. Bu uyarıyı "
+"görmezden gelip yine de dosyayı kaydedebilirsiniz, ama eğer kaydederken hata "
+"oluşursa dosyanın eski kopyasını yitirebilirsiniz. Yine de kaydedilsin mi?"
+
+#: tepl/tepl-io-error-info-bars.c:155
+#, c-format
+msgid "Error message: %s"
+msgstr "Hata iletisi: %s"
+
+#: tepl/tepl-io-error-info-bars.c:161 tepl/tepl-io-error-info-bars.c:264
+#: tepl/tepl-io-error-info-bars.c:314
+msgid "_Save Anyway"
+msgstr "Yine De K_aydet"
+
+#: tepl/tepl-io-error-info-bars.c:165 tepl/tepl-io-error-info-bars.c:268
+#: tepl/tepl-io-error-info-bars.c:318
+msgid "_Don’t Save"
+msgstr "Kay_detme"
+
+#: tepl/tepl-io-error-info-bars.c:203
+#, c-format
+msgid "The file “%s” changed on disk."
+msgstr "“%s” dosyası diskte değiştirildi."
+
+#: tepl/tepl-io-error-info-bars.c:210
+msgid ""
+"This document has unsaved modifications. Do you want to drop your changes "
+"and reload the file?"
+msgstr ""
+"Belgede kaydedilmemiş değişiklikler var. Değişiklikleri atmak ve dosyayı "
+"yeniden yüklemek istiyor musunuz?"
+
+#: tepl/tepl-io-error-info-bars.c:215
+msgid "Do you want to reload the file?"
+msgstr "Dosyayı yeniden yüklemek istiyor musunuz?"
+
+#: tepl/tepl-io-error-info-bars.c:220
+msgid "Drop Changes and _Reload"
+msgstr "Değişiklikleri At ve _Yeniden Yükle"
+
+#: tepl/tepl-io-error-info-bars.c:220
+msgid "_Reload"
+msgstr "_Yeniden Yükle"
+
+#: tepl/tepl-io-error-info-bars.c:226
+msgid "_Ignore"
+msgstr "_Yok Say"
+
+#: tepl/tepl-io-error-info-bars.c:256
+#, c-format
+msgid "The file “%s” has been externally modified."
+msgstr "“%s” dosyası dışarıdan değiştirildi."
+
+#: tepl/tepl-io-error-info-bars.c:257
+msgid "If you save it, all the external changes could be lost. Save it anyway?"
+msgstr ""
+"Kaydederseniz, dışarıda yapılmış tüm değişiklikler yitecek. Yine de "
+"kaydedilsin mi?"
+
+#: tepl/tepl-io-error-info-bars.c:303
+#, c-format
+msgid "Some invalid characters have been detected while saving “%s”."
+msgstr "“%s” kaydedilirken bazı geçersiz karakterler saptandı."
+
+#: tepl/tepl-io-error-info-bars.c:309
+msgid ""
+"If you continue saving this file you can corrupt the document. Save anyway?"
+msgstr ""
+"Bu dosyayı kaydetmeyi sürdürürseniz belgeyi bozabilirsiniz. Yine de "
+"kaydedilsin mi?"
+
+#. chooser_dialog config
+#: tepl/tepl-language-chooser-dialog.c:125
+msgid "Highlight Mode"
+msgstr "Vurgu Kipi"
+
+#: tepl/tepl-language-chooser-dialog.c:131
+msgid "_Select"
+msgstr "_Seç"
+
+#: tepl/tepl-language-chooser-widget.c:76
+msgid "Plain Text"
+msgstr "Düz Metin"
+
+#: tepl/tepl-language-chooser-widget.c:446
+msgid "Search highlight mode…"
+msgstr "Arama vurgulama kipi…"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an
+#. * abbreviation for "Column". Please, use abbreviations if possible.
+#.
+#: tepl/tepl-line-column-indicator.c:49
+#, c-format
+msgid "Ln %d, Col %d"
+msgstr "Sat %d, Süt %d"
+
+#. Translators: do not translate <metadata>.
+#: tepl/tepl-metadata-parser.c:83
+#, c-format
+msgid "The XML file must start with a <metadata> element, not “%s”."
+msgstr "XML dosyası <metadata> ögesiyle başlamalıdır, “%s” ile değil."
+
+#. Translators: do not translate <document>.
+#: tepl/tepl-metadata-parser.c:115
+#, c-format
+msgid "Expected a <document> element, got “%s” instead."
+msgstr "<document> ögesi beklendi ama “%s” alındı."
+
+#. Translators: do not translate “atime”.
+#: tepl/tepl-metadata-parser.c:141
+#, c-format
+msgid "Failed to parse the “atime” attribute value “%s”."
+msgstr "“atime” öznitelik değeri “%s” ayrıştırması başarısız."
+
+#. Translators: do not translate <document>, “uri” and “atime”.
+#: tepl/tepl-metadata-parser.c:156
+msgid "The <document> element must contain the “uri” and “atime” attributes."
+msgstr "<document> ögesi “uri” ve “atime” özniteliklerini içermelidir."
+
+#. Translators: do not translate <entry>.
+#: tepl/tepl-metadata-parser.c:185
+#, c-format
+msgid "Expected an <entry> element, got “%s” instead."
+msgstr "<entry> ögesi beklendi ama “%s” alındı."
+
+#. Translators: do not translate <entry>, “key” and “value”.
+#: tepl/tepl-metadata-parser.c:211
+msgid "The <entry> element is missing the “key” or “value” attribute."
+msgstr "<entry> ögesinin “key” veya “value” özniteliği eksik."
+
+#. Translators: "INS" is the abbreviation for "Insert", for the text
+#. * cursor mode. The translation should be short too.
+#.
+#: tepl/tepl-overwrite-indicator.c:65
+msgid "INS"
+msgstr "EKL"
+
+#. Translators: "OVR" is the abbreviation for "Overwrite", for the text
+#. * cursor mode. The translation should be short too.
+#.
+#: tepl/tepl-overwrite-indicator.c:74
+msgid "OVR"
+msgstr "ÜZY"
+
+#: tepl/tepl-panel1.c:95
+msgid "Hide panel"
+msgstr "Paneli gizle"
+
+#: tepl/tepl-prefs.c:69
+#, c-format
+msgid "_Use the system fixed width font (%s)"
+msgstr "Sistem eş aralıklı yazı tipini (%s) _kullan"
+
+#: tepl/tepl-prefs.c:137
+msgid "Editor _font:"
+msgstr "Düzenleyici _yazı tipi:"
+
+#: tepl/tepl-prefs.c:169
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: tepl/tepl-prefs.c:188
+msgid "_Display line numbers"
+msgstr "Satır numaralarını _göster"
+
+#: tepl/tepl-prefs.c:218
+msgid "_Tab width:"
+msgstr "_Sekme genişliği:"
+
+#: tepl/tepl-prefs.c:264
+msgid "Insert _spaces instead of tabs"
+msgstr "Sekme yerine _boşluk ekle"
+
+#: tepl/tepl-prefs.c:268
+msgid "_Forget you are not using tabulations"
+msgstr "_Tabloları kullanmadığını unut"
+
+#: tepl/tepl-prefs.c:317
+msgid "Highlight current _line"
+msgstr "Geçerli _satırı vurgula"
+
+#: tepl/tepl-prefs.c:321
+msgid "Highlight matching _brackets"
+msgstr "Eşleşen _parantezleri vurgula"
+
+#: tepl/tepl-prefs.c:323
+msgid "Highlighting"
+msgstr "Vurgulama"
+
+#: tepl/tepl-prefs.c:347
+msgid "_Autosave files"
+msgstr "Dosyaları _kendiliğinden kaydet"
+
+#: tepl/tepl-prefs.c:349
+msgid "Time in _minutes between each autosave:"
+msgstr "Her kendiliğinden kaydetme arasındaki _dakika cinsinden süre:"
+
+#: tepl/tepl-prefs.c:415
+msgid "_Create a backup copy of files before saving"
+msgstr "Kaydetmeden önce dosyanın yedek kopyasını _oluştur"
+
+#: tepl/tepl-prefs.c:421
+msgid "Files"
+msgstr "Dosyalar"
+
+#: tepl/tepl-prefs.c:451
+msgid "Follow system style"
+msgstr "Sistem Biçemini İzle"
+
+#: tepl/tepl-prefs.c:454
+msgid "Light style"
+msgstr "Açık Biçem"
+
+#: tepl/tepl-prefs.c:455
+msgid "Dark style"
+msgstr "Koyu Biçem"
+
+#: tepl/tepl-prefs.c:461
+msgid "Theme Variant"
+msgstr "Tema Türevi"
+
+#: tepl/tepl-prefs.c:494
+msgid "Display right _margin at column:"
+msgstr "Sağ kenar boşluğunu sütunda _göster:"
+
+#: tepl/tepl-prefs.c:544
+msgid "Display _statusbar"
+msgstr "_Durum çubuğunu göster"
+
+#: tepl/tepl-prefs-dialog.c:96
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: tepl/tepl-prefs-dialog.c:214
+msgid "Do you really want to reset all preferences?"
+msgstr "Tüm tercihleri sıfırlamak istediğinize emin misiniz?"
+
+#: tepl/tepl-prefs-dialog.c:221
+msgid "_Reset All"
+msgstr "Tümünü _Sıfırla"
+
+#: tepl/tepl-prefs-dialog.c:253
+msgid "_Reset All…"
+msgstr "Tümünü _Sıfırla…"
+
+#: tepl/tepl-prefs-dialog.c:254
+msgid "Reset all preferences"
+msgstr "Tüm tercihleri sıfırla"
+
+#: tepl/tepl-space-drawer-prefs.c:190 tepl/tepl-space-drawer-prefs.c:192
+#: tepl/tepl-space-drawer-prefs.c:194
+msgid "Draw tabs"
+msgstr "Sekmeleri çiz"
+
+#: tepl/tepl-space-drawer-prefs.c:191 tepl/tepl-space-drawer-prefs.c:193
+#: tepl/tepl-space-drawer-prefs.c:195
+msgid "Draw spaces"
+msgstr "Boşlukları çiz"
+
+#: tepl/tepl-space-drawer-prefs.c:196
+msgid "Draw new lines"
+msgstr "Yeni satırları çiz"
+
+#: tepl/tepl-space-drawer-prefs.c:232
+msgid "Leading Spaces"
+msgstr "Öncü Boşluklar"
+
+#: tepl/tepl-space-drawer-prefs.c:236
+msgid "Spaces Inside Text"
+msgstr "Metin İçindeki Boşluklar"
+
+#: tepl/tepl-space-drawer-prefs.c:240
+msgid "Trailing Spaces"
+msgstr "Sondaki Boşluklar"
+
+#: tepl/tepl-space-drawer-prefs.c:260
+msgid "Tab"
+msgstr "Sekme"
+
+#: tepl/tepl-space-drawer-prefs.c:261
+msgid "Space"
+msgstr "Boşluk"
+
+#: tepl/tepl-space-drawer-prefs.c:262
+msgid "No-Break Space"
+msgstr "Kesintisiz Boşluk"
+
+#: tepl/tepl-space-drawer-prefs.c:263
+msgid "Narrow No-Break Space"
+msgstr "Kesintisiz Boşlukları Daralt"
+
+#: tepl/tepl-space-drawer-prefs.c:282
+msgid "Result"
+msgstr "Sonuç"
+
+#: tepl/tepl-space-drawer-prefs.c:315
+msgid "Information"
+msgstr "Bilgi"
+
+#: tepl/tepl-space-drawer-prefs.c:317
+msgid ""
+"When white space drawing is enabled, then non-breaking spaces are always "
+"drawn at all locations, to distinguish them from normal spaces."
+msgstr ""
+"Beyaz boşluk çizimi etkinleştirildiğinde, sıradan boşluklardan ayırt etmek "
+"için her zaman tüm konumlarda kesilmeyen boşluklar çizilir."
+
+#: tepl/tepl-style-scheme-chooser-full.c:90
+msgid "Color Scheme for the Dark Theme Variant"
+msgstr "Koyu Tema Türevi İçin Renk Şeması"
+
+#: tepl/tepl-style-scheme-chooser-full.c:94
+msgid "Color Scheme for the Light Theme Variant"
+msgstr "Açık Tema Türevi İçin Renk Şeması"
+
+#: tepl/tepl-style-scheme-row.c:67
+msgid "Unsupported for the dark theme variant"
+msgstr "Koyu tema türevinde desteklenmiyor"
+
+#: tepl/tepl-style-scheme-row.c:70
+msgid "Unsupported for the light theme variant"
+msgstr "Açık tema türevinde desteklenmiyor"
+
+#. Translators: location of a file.
+#: tepl/tepl-tab-label.c:249
+msgid "Location:"
+msgstr "Konum:"
+
+#: tepl/tepl-tab-label.c:318
+msgid "Close file"
+msgstr "Dosyayı kapat"
+
+#: tepl/tepl-tab-loading.c:36
+msgid "Error when loading the file."
+msgstr "Dosya yüklenirken hata oldu."
+
+#: tepl/tepl-tab-saving.c:49
+msgid "Error when saving the file."
+msgstr "Dosya kaydedilirken hata oldu."
+
+#: tepl/tepl-tab-saving.c:277
+msgid "Save File"
+msgstr "Dosyayı Kaydet"
+
+#. Create a GtkFileChooserDialog, not a GtkFileChooserNative, because
+#. * with GtkFileChooserNative the GFile that we obtain (in flatpak)
+#. * doesn't have the real path to the file, so it would ruin some
+#. * features for text editors:
+#. * - showing the directory in parentheses in the window title, or in the
+#. *   tab tooltip;
+#. * - opening a recent file.
+#. * Basically everywhere where the directory is shown.
+#.
+#: tepl/tepl-window-actions-file.c:79
+msgid "Open File"
+msgstr "Dosyayı Aç"
+
+#~ msgid "Unicode"
+#~ msgstr "Evrensel"
+
+#~ msgid "Western"
+#~ msgstr "Batı Amerika"
+
+#~ msgid "Central European"
+#~ msgstr "Orta Avrupa"
+
+#~ msgid "South European"
+#~ msgstr "Güney Avrupa"
+
+#~ msgid "Baltic"
+#~ msgstr "Baltık"
+
+#~ msgid "Cyrillic"
+#~ msgstr "Kiril"
+
+#~ msgid "Arabic"
+#~ msgstr "Arapça"
+
+#~ msgid "Greek"
+#~ msgstr "Yunanca"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "İbranice Görsel"
+
+#~ msgid "Turkish"
+#~ msgstr "Türkçe"
+
+#~ msgid "Nordic"
+#~ msgstr "İskandinav"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltçe"
+
+#~ msgid "Romanian"
+#~ msgstr "Rumence"
+
+#~ msgid "Armenian"
+#~ msgstr "Ermenice"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "Çince Geleneksel"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "Kiril/Rusça"
+
+#~ msgid "Japanese"
+#~ msgstr "Japonca"
+
+#~ msgid "Korean"
+#~ msgstr "Korece"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "Çince Basitleştirilmiş"
+
+#~ msgid "Georgian"
+#~ msgstr "Gürcüce"
+
+#~ msgid "Hebrew"
+#~ msgstr "İbranice"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "Kiril/Ukraynaca"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamca"
+
+#~ msgid "Thai"
+#~ msgstr "Tayca"
+
+#, c-format
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "['UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']"
+#~ msgstr "['UTF-8', 'CURRENT', 'ISO-8859-9', 'UTF-16']"
+
+#~ msgid "Display _grid pattern"
+#~ msgstr "_Izgara Örüntüsü Göster"

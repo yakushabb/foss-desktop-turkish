@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-chess\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-chess/issues/\n"
-"POT-Creation-Date: 2024-08-24 13:35+0000\n"
+"POT-Creation-Date: 2025-02-12 20:45+0000\n"
 "PO-Revision-Date: 2024-06-25 13:14+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -53,8 +53,8 @@ msgstr ""
 "bilgisayar satranç motorları ile uyumluluğunu ve eğer kuruluysa birçok gözde "
 "satranç motorunu kendiliğinden algılama yeteneğini takdir edecektir."
 
-#: data/org.gnome.Chess.desktop.in:3 data/chess-window.ui:59
-#: src/gnome-chess.vala:1189 src/gnome-chess.vala:1519
+#: data/org.gnome.Chess.desktop.in:3 data/chess-window.ui:52
+#: src/gnome-chess.vala:1189 src/gnome-chess.vala:1518
 msgid "Chess"
 msgstr "Satranç"
 
@@ -197,31 +197,31 @@ msgstr "_Yardım"
 msgid "_About Chess"
 msgstr "Satranç _Hakkında"
 
-#: data/chess-window.ui:68
+#: data/chess-window.ui:67
 msgid "Undo Move"
 msgstr "Hamleyi Geri Al"
 
-#: data/chess-window.ui:97
+#: data/chess-window.ui:95
 msgid "Main Menu"
 msgstr "Ana Menü"
 
 #. Tooltip on the show first move (i.e. game start) navigation button
-#: data/chess-window.ui:135
+#: data/chess-window.ui:130
 msgid "Rewind to Game Start"
 msgstr "Oyun Başlangıcına Dön"
 
 #. Tooltip on the show previous move navigation button
-#: data/chess-window.ui:152
+#: data/chess-window.ui:146
 msgid "Show Previous Move"
 msgstr "Önceki Hamleyi Göster"
 
 #. Tooltip on the show next move navigation button
-#: data/chess-window.ui:169
+#: data/chess-window.ui:162
 msgid "Show Next Move"
 msgstr "Sonraki Hamleyi Göster"
 
 #. Tooltip on the show current move navigation button
-#: data/chess-window.ui:186
+#: data/chess-window.ui:178
 msgid "Show Current Move"
 msgstr "Geçerli Hamleyi Göster"
 
@@ -374,23 +374,23 @@ msgstr "Tahta _Numaralandırma"
 msgid "Move _Hints"
 msgstr "Hamle _Önerileri"
 
-#: data/promotion-type-selector.ui:6
+#: data/promotion-type-selector.ui:5
 msgid "Select Promotion Type"
 msgstr "Terfi Türü Seç"
 
-#: data/promotion-type-selector.ui:34
+#: data/promotion-type-selector.ui:32
 msgid "_Queen"
 msgstr "_Vezir"
 
-#: data/promotion-type-selector.ui:70
+#: data/promotion-type-selector.ui:63
 msgid "_Knight"
 msgstr "_At"
 
-#: data/promotion-type-selector.ui:106
+#: data/promotion-type-selector.ui:94
 msgid "_Rook"
 msgstr "_Kale"
 
-#: data/promotion-type-selector.ui:142
+#: data/promotion-type-selector.ui:125
 msgid "_Bishop"
 msgstr "_Fil"
 
@@ -419,479 +419,478 @@ msgstr "PGNʼde geçersiz zamanlayıcı artımı: %s, basit bir saat kullanılı
 msgid "Paused"
 msgstr "Duraklatıldı"
 
-#: src/chess-window.vala:128
+#: src/chess-window.vala:96
 msgid "Unpause the game"
 msgstr "Oyunu sürdür"
 
-#: src/chess-window.vala:133
+#: src/chess-window.vala:101
 msgid "Pause the game"
 msgstr "Oyunu duraklat"
 
 #. Note there are no move formats for pieces taking kings and this is not allowed in Chess rules
 #. Human Move String: Description of a white pawn moving from %1$s to %2s, e.g. 'c2 to c4'
-#: src/chess-window.vala:314
+#: src/chess-window.vala:295
 #, c-format
 msgid "White pawn moves from %1$s to %2$s"
 msgstr "Beyaz piyon %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:316
+#: src/chess-window.vala:297
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s"
 msgstr "%1$s karesindeki beyaz piyon %2$s karesindeki siyah piyonu alır"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:318
+#: src/chess-window.vala:299
 #, c-format
 msgid "White pawn at %1$s takes the black rook at %2$s"
 msgstr "%1$s karesindeki beyaz piyon %2$s karesindeki siyah kaleyi alır"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:320
+#: src/chess-window.vala:301
 #, c-format
 msgid "White pawn at %1$s takes the black knight at %2$s"
 msgstr "%1$s karesindeki beyaz piyon %2$s karesindeki siyah atı alır"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:322
+#: src/chess-window.vala:303
 #, c-format
 msgid "White pawn at %1$s takes the black bishop at %2$s"
 msgstr "%1$s karesindeki beyaz piyon %2$s karesindeki siyah fili alır"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:324
+#: src/chess-window.vala:305
 #, c-format
 msgid "White pawn at %1$s takes the black queen at %2$s"
 msgstr "%1$s karesindeki beyaz piyon %2$s karesindeki siyah veziri alır"
 
 #. Human Move String: Description of a white rook moving from %1$s to %2$s, e.g. 'a1 to a5'
-#: src/chess-window.vala:326
+#: src/chess-window.vala:307
 #, c-format
 msgid "White rook moves from %1$s to %2$s"
 msgstr "Beyaz kale %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a white rook at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:328
+#: src/chess-window.vala:309
 #, c-format
 msgid "White rook at %1$s takes the black pawn at %2$s"
 msgstr "%1$s karesindeki beyaz kale %2$s karesindeki siyah piyonu alır"
 
 #. Human Move String: Description of a white rook at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:330
+#: src/chess-window.vala:311
 #, c-format
 msgid "White rook at %1$s takes the black rook at %2$s"
 msgstr "%1$s karesindeki beyaz kale %2$s karesindeki siyah kaleyi alır"
 
 #. Human Move String: Description of a white rook at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:332
+#: src/chess-window.vala:313
 #, c-format
 msgid "White rook at %1$s takes the black knight at %2$s"
 msgstr "%1$s karesindeki beyaz kale %2$s karesindeki siyah atı alır"
 
 #. Human Move String: Description of a white rook at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:334
+#: src/chess-window.vala:315
 #, c-format
 msgid "White rook at %1$s takes the black bishop at %2$s"
 msgstr "%1$s karesindeki beyaz kale %2$s karesindeki siyah fili alır"
 
 #. Human Move String: Description of a white rook at %1$s capturing a queen at %2$s"
-#: src/chess-window.vala:336
+#: src/chess-window.vala:317
 #, c-format
 msgid "White rook at %1$s takes the black queen at %2$s"
 msgstr "%1$s karesindeki beyaz kale %2$s karesindeki siyah veziri alır"
 
 #. Human Move String: Description of a white knight moving from %1$s to %2$s, e.g. 'b1 to c3'
-#: src/chess-window.vala:338
+#: src/chess-window.vala:319
 #, c-format
 msgid "White knight moves from %1$s to %2$s"
 msgstr "Beyaz at %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a white knight at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:340
+#: src/chess-window.vala:321
 #, c-format
 msgid "White knight at %1$s takes the black pawn at %2$s"
 msgstr "%1$s karesindeki beyaz at %2$s karesindeki siyah piyonu alır"
 
 #. Human Move String: Description of a white knight at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:342
+#: src/chess-window.vala:323
 #, c-format
 msgid "White knight at %1$s takes the black rook at %2$s"
 msgstr "%1$s karesindeki beyaz at %2$s karesindeki siyah kaleyi alır"
 
 #. Human Move String: Description of a white knight at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:344
+#: src/chess-window.vala:325
 #, c-format
 msgid "White knight at %1$s takes the black knight at %2$s"
 msgstr "%1$s karesindeki beyaz at %2$s karesindeki siyah atı alır"
 
 #. Human Move String: Description of a white knight at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:346
+#: src/chess-window.vala:327
 #, c-format
 msgid "White knight at %1$s takes the black bishop at %2$s"
 msgstr "%1$s karesindeki beyaz at %2$s karesindeki siyah fili alır"
 
 #. Human Move String: Description of a white knight at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:348
+#: src/chess-window.vala:329
 #, c-format
 msgid "White knight at %1$s takes the black queen at %2$s"
 msgstr "%1$s karesindeki beyaz at %2$s karesindeki siyah veziri alır"
 
 #. Human Move String: Description of a white bishop moving from %1$s to %2$s, e.g. 'f1 to b5'
-#: src/chess-window.vala:350
+#: src/chess-window.vala:331
 #, c-format
 msgid "White bishop moves from %1$s to %2$s"
 msgstr "Beyaz fil %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:352
+#: src/chess-window.vala:333
 #, c-format
 msgid "White bishop at %1$s takes the black pawn at %2$s"
 msgstr "%1$s karesindeki beyaz fil %2$s karesindeki siyah piyonu alır"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:354
+#: src/chess-window.vala:335
 #, c-format
 msgid "White bishop at %1$s takes the black rook at %2$s"
 msgstr "%1$s karesindeki beyaz fil %2$s karesindeki siyah kaleyi alır"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:356
+#: src/chess-window.vala:337
 #, c-format
 msgid "White bishop at %1$s takes the black knight at %2$s"
 msgstr "%1$s karesindeki beyaz fil %2$s karesindeki siyah atı alır"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:358
+#: src/chess-window.vala:339
 #, c-format
 msgid "White bishop at %1$s takes the black bishop at %2$s"
 msgstr "%1$s karesindeki beyaz fil %2$s karesindeki siyah fili alır"
 
 #. Human Move String: Description of a white bishop at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:360
+#: src/chess-window.vala:341
 #, c-format
 msgid "White bishop at %1$s takes the black queen at %2$s"
 msgstr "%1$s karesindeki beyaz fil %2$s karesindeki siyah veziri alır"
 
 #. Human Move String: Description of a white queen moving from %1$s to %2$s, e.g. 'd1 to d4'
-#: src/chess-window.vala:362
+#: src/chess-window.vala:343
 #, c-format
 msgid "White queen moves from %1$s to %2$s"
 msgstr "Beyaz vezir %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a white queen at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:364
+#: src/chess-window.vala:345
 #, c-format
 msgid "White queen at %1$s takes the black pawn at %2$s"
 msgstr "%1$s karesindeki beyaz vezir %2$s karesindeki siyah piyonu alır"
 
 #. Human Move String: Description of a white queen at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:366
+#: src/chess-window.vala:347
 #, c-format
 msgid "White queen at %1$s takes the black rook at %2$s"
 msgstr "%1$s karesindeki beyaz vezir %2$s karesindeki siyah kaleyi alır"
 
 #. Human Move String: Description of a white queen at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:368
+#: src/chess-window.vala:349
 #, c-format
 msgid "White queen at %1$s takes the black knight at %2$s"
 msgstr "%1$s karesindeki beyaz vezir %2$s karesindeki siyah atı alır"
 
 #. Human Move String: Description of a white queen at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:370
+#: src/chess-window.vala:351
 #, c-format
 msgid "White queen at %1$s takes the black bishop at %2$s"
 msgstr "%1$s karesindeki beyaz vezir %2$s karesindeki siyah fili alır"
 
 #. Human Move String: Description of a white queen at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:372
+#: src/chess-window.vala:353
 #, c-format
 msgid "White queen at %1$s takes the black queen at %2$s"
 msgstr "%1$s karesindeki beyaz vezir %2$s karesindeki siyah veziri alır"
 
 #. Human Move String: Description of a white king moving from %1$s to %2$s, e.g. 'e1 to f1'
-#: src/chess-window.vala:374
+#: src/chess-window.vala:355
 #, c-format
 msgid "White king moves from %1$s to %2$s"
 msgstr "Beyaz şah %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a white king at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:376
+#: src/chess-window.vala:357
 #, c-format
 msgid "White king at %1$s takes the black pawn at %2$s"
 msgstr "%1$s karesindeki beyaz şah %2$s karesindeki siyah piyonu alır"
 
 #. Human Move String: Description of a white king at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:378
+#: src/chess-window.vala:359
 #, c-format
 msgid "White king at %1$s takes the black rook at %2$s"
 msgstr "%1$s karesindeki beyaz şah %2$s karesindeki siyah kaleyi alır"
 
 #. Human Move String: Description of a white king at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:380
+#: src/chess-window.vala:361
 #, c-format
 msgid "White king at %1$s takes the black knight at %2$s"
 msgstr "%1$s karesindeki beyaz şah %2$s karesindeki siyah atı alır"
 
 #. Human Move String: Description of a white king at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:382
+#: src/chess-window.vala:363
 #, c-format
 msgid "White king at %1$s takes the black bishop at %2$s"
 msgstr "%1$s karesindeki beyaz şah %2$s karesindeki siyah fili alır"
 
 #. Human Move String: Description of a white king at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:384
+#: src/chess-window.vala:365
 #, c-format
 msgid "White king at %1$s takes the black queen at %2$s"
 msgstr "%1$s karesindeki beyaz şah %2$s karesindeki siyah veziri alır"
 
 #. Human Move String: Description of a black pawn moving from %1$s to %2$s, e.g. 'c8 to c6'
-#: src/chess-window.vala:386
+#: src/chess-window.vala:367
 #, c-format
 msgid "Black pawn moves from %1$s to %2$s"
 msgstr "Siyah piyon %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:388
+#: src/chess-window.vala:369
 #, c-format
 msgid "Black pawn at %1$s takes the white pawn at %2$s"
 msgstr "%1$s karesindeki siyah piyon %2$s karesindeki beyaz piyonu alır"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:390
+#: src/chess-window.vala:371
 #, c-format
 msgid "Black pawn at %1$s takes the white rook at %2$s"
 msgstr "%1$s karesindeki siyah piyon %2$s karesindeki beyaz kaleyi alır"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:392
+#: src/chess-window.vala:373
 #, c-format
 msgid "Black pawn at %1$s takes the white knight at %2$s"
 msgstr "%1$s karesindeki siyah piyon %2$s karesindeki beyaz atı alır"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:394
+#: src/chess-window.vala:375
 #, c-format
 msgid "Black pawn at %1$s takes the white bishop at %2$s"
 msgstr "%1$s karesindeki siyah piyon %2$s karesindeki beyaz fili alır"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:396
+#: src/chess-window.vala:377
 #, c-format
 msgid "Black pawn at %1$s takes the white queen at %2$s"
 msgstr "%1$s karesindeki siyah piyon %2$s karesindeki beyaz veziri alır"
 
 #. Human Move String: Description of a black rook moving from %1$s to %2$s, e.g. 'a8 to a4'
-#: src/chess-window.vala:398
+#: src/chess-window.vala:379
 #, c-format
 msgid "Black rook moves from %1$s to %2$s"
 msgstr "Siyah kale %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a black rook at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:400
+#: src/chess-window.vala:381
 #, c-format
 msgid "Black rook at %1$s takes the white pawn at %2$s"
 msgstr "%1$s karesindeki siyah kale %2$s karesindeki beyaz piyonu alır"
 
 #. Human Move String: Description of a black rook at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:402
+#: src/chess-window.vala:383
 #, c-format
 msgid "Black rook at %1$s takes the white rook at %2$s"
 msgstr "%1$s karesindeki siyah kale %2$s karesindeki beyaz kaleyi alır"
 
 #. Human Move String: Description of a black rook at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:404
+#: src/chess-window.vala:385
 #, c-format
 msgid "Black rook at %1$s takes the white knight at %2$s"
 msgstr "%1$s karesindeki siyah kale %2$s karesindeki beyaz atı alır"
 
 #. Human Move String: Description of a black rook at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:406
+#: src/chess-window.vala:387
 #, c-format
 msgid "Black rook at %1$s takes the white bishop at %2$s"
 msgstr "%1$s karesindeki siyah kale %2$s karesindeki beyaz fili alır"
 
 #. Human Move String: Description of a black rook at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:408
+#: src/chess-window.vala:389
 #, c-format
 msgid "Black rook at %1$s takes the white queen at %2$s"
 msgstr "%1$s karesindeki siyah kale %2$s karesindeki beyaz veziri alır"
 
 #. Human Move String: Description of a black knight moving from %1$s to %2$s, e.g. 'b8 to c6'
-#: src/chess-window.vala:410
+#: src/chess-window.vala:391
 #, c-format
 msgid "Black knight moves from %1$s to %2$s"
 msgstr "Siyah at %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a black knight at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:412
+#: src/chess-window.vala:393
 #, c-format
 msgid "Black knight at %1$s takes the white pawn at %2$s"
 msgstr "%1$s karesindeki siyah at %2$s karesindeki beyaz piyonu alır"
 
 #. Human Move String: Description of a black knight at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:414
+#: src/chess-window.vala:395
 #, c-format
 msgid "Black knight at %1$s takes the white rook at %2$s"
 msgstr "%1$s karesindeki siyah at %2$s karesindeki beyaz kaleyi alır"
 
 #. Human Move String: Description of a black knight at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:416
+#: src/chess-window.vala:397
 #, c-format
 msgid "Black knight at %1$s takes the white knight at %2$s"
 msgstr "%1$s karesindeki siyah at %2$s karesindeki beyaz atı alır"
 
 #. Human Move String: Description of a black knight at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:418
+#: src/chess-window.vala:399
 #, c-format
 msgid "Black knight at %1$s takes the white bishop at %2$s"
 msgstr "%1$s karesindeki siyah at %2$s karesindeki beyaz fili alır"
 
 #. Human Move String: Description of a black knight at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:420
+#: src/chess-window.vala:401
 #, c-format
 msgid "Black knight at %1$s takes the white queen at %2$s"
 msgstr "%1$s karesindeki siyah at %2$s karesindeki beyaz veziri alır"
 
 #. Human Move String: Description of a black bishop moving from %1$s to %2$s, e.g. 'f8 to b3'
-#: src/chess-window.vala:422
+#: src/chess-window.vala:403
 #, c-format
 msgid "Black bishop moves from %1$s to %2$s"
 msgstr "Siyah fil %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:424
+#: src/chess-window.vala:405
 #, c-format
 msgid "Black bishop at %1$s takes the white pawn at %2$s"
 msgstr "%1$s karesindeki siyah fil %2$s karesindeki beyaz piyonu alır"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:426
+#: src/chess-window.vala:407
 #, c-format
 msgid "Black bishop at %1$s takes the white rook at %2$s"
 msgstr "%1$s karesindeki siyah fil %2$s karesindeki beyaz kaleyi alır"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:428
+#: src/chess-window.vala:409
 #, c-format
 msgid "Black bishop at %1$s takes the white knight at %2$s"
 msgstr "%1$s karesindeki siyah fil %2$s karesindeki beyaz atı alır"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:430
+#: src/chess-window.vala:411
 #, c-format
 msgid "Black bishop at %1$s takes the white bishop at %2$s"
 msgstr "%1$s karesindeki siyah fil %2$s karesindeki beyaz fili alır"
 
 #. Human Move String: Description of a black bishop at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:432
+#: src/chess-window.vala:413
 #, c-format
 msgid "Black bishop at %1$s takes the white queen at %2$s"
 msgstr "%1$s karesindeki siyah fil %2$s karesindeki beyaz veziri alır"
 
 #. Human Move String: Description of a black queen moving from %1$s to %2$s, e.g. 'd8 to d5'
-#: src/chess-window.vala:434
+#: src/chess-window.vala:415
 #, c-format
 msgid "Black queen moves from %1$s to %2$s"
 msgstr "Siyah vezir %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a black queen at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:436
+#: src/chess-window.vala:417
 #, c-format
 msgid "Black queen at %1$s takes the white pawn at %2$s"
 msgstr "%1$s karesindeki siyah vezir %2$s karesindeki beyaz piyonu alır"
 
 #. Human Move String: Description of a black queen at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:438
+#: src/chess-window.vala:419
 #, c-format
 msgid "Black queen at %1$s takes the white rook at %2$s"
 msgstr "%1$s karesindeki siyah vezir %2$s karesindeki beyaz kaleyi alır"
 
 #. Human Move String: Description of a black queen at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:440
+#: src/chess-window.vala:421
 #, c-format
 msgid "Black queen at %1$s takes the white knight at %2$s"
 msgstr "%1$s karesindeki siyah vezir %2$s karesindeki beyaz atı alır"
 
 #. Human Move String: Description of a black queen at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:442
+#: src/chess-window.vala:423
 #, c-format
 msgid "Black queen at %1$s takes the white bishop at %2$s"
 msgstr "%1$s karesindeki siyah vezir %2$s karesindeki beyaz fili alır"
 
 #. Human Move String: Description of a black queen at %1$s capturing a queen at %2$s
-#: src/chess-window.vala:444
+#: src/chess-window.vala:425
 #, c-format
 msgid "Black queen at %1$s takes the white queen at %2$s"
 msgstr "%1$s karesindeki siyah vezir %2$s karesindeki beyaz veziri alır"
 
 #. Human Move String: Description of a black king moving from %1$s to %2$s, e.g. 'e8 to f8'
-#: src/chess-window.vala:446
+#: src/chess-window.vala:427
 #, c-format
 msgid "Black king moves from %1$s to %2$s"
 msgstr "Siyah şah %1$s karesinden %2$s karesine taşınır"
 
 #. Human Move String: Description of a black king at %1$s capturing a pawn at %2$s
-#: src/chess-window.vala:448
+#: src/chess-window.vala:429
 #, c-format
 msgid "Black king at %1$s takes the white pawn at %2$s"
 msgstr "%1$s karesindeki siyah şah %2$s karesindeki beyaz piyonu alır"
 
 #. Human Move String: Description of a black king at %1$s capturing a rook at %2$s
-#: src/chess-window.vala:450
+#: src/chess-window.vala:431
 #, c-format
 msgid "Black king at %1$s takes the white rook at %2$s"
 msgstr "%1$s karesindeki siyah şah %2$s karesindeki beyaz kaleyi alır"
 
 #. Human Move String: Description of a black king at %1$s capturing a knight at %2$s
-#: src/chess-window.vala:452
+#: src/chess-window.vala:433
 #, c-format
 msgid "Black king at %1$s takes the white knight at %2$s"
 msgstr "%1$s karesindeki siyah şah %2$s karesindeki beyaz atı alır"
 
 #. Human Move String: Description of a black king at %1$s capturing a bishop at %2$s
-#: src/chess-window.vala:454
+#: src/chess-window.vala:435
 #, c-format
 msgid "Black king at %1$s takes the white bishop at %2$s"
 msgstr "%1$s karesindeki siyah şah %2$s karesindeki beyaz fili alır"
 
 #. Human Move String: Description of a black king at %1$s capturing a queen at %2$s"
-#: src/chess-window.vala:456
+#: src/chess-window.vala:437
 #, c-format
 msgid "Black king at %1$s takes the white queen at %2$s"
 msgstr "%1$s karesindeki siyah şah %2$s karesindeki beyaz veziri alır"
 
-#: src/chess-window.vala:465
+#: src/chess-window.vala:446
 msgid "White castles kingside"
 msgstr "Beyaz, şah kanadına rok attı"
 
-#: src/chess-window.vala:467
+#: src/chess-window.vala:448
 msgid "White castles queenside"
 msgstr "Beyaz, vezir kanadına rok attı"
 
-#: src/chess-window.vala:469
+#: src/chess-window.vala:450
 msgid "Black castles kingside"
 msgstr "Siyah, şah kanadına rok attı"
 
-#: src/chess-window.vala:471
+#: src/chess-window.vala:452
 msgid "Black castles queenside"
 msgstr "Siyah, vezir kanadına rok attı"
 
 #. Human Move String: Description of a white pawn at %1$s capturing a pawn at %2$s en passant
-#: src/chess-window.vala:493
+#: src/chess-window.vala:474
 #, c-format
 msgid "White pawn at %1$s takes the black pawn at %2$s en passant"
 msgstr ""
 "%1$s karesindeki beyaz piyon, %2$s karesindeki siyah piyonu geçerken alır"
 
 #. Human Move String: Description of a black pawn at %1$s capturing a pawn at %2$s en passant
-#: src/chess-window.vala:497
+#: src/chess-window.vala:478
 #, c-format
 msgid "Black pawn at %1$s takes white pawn at %2$s en passant"
 msgstr ""
 "%1$s karesindeki siyah piyon, %2$s karesindeki beyaz piyonu geçerken alır"
 
-#. Move History Combo: Go to the start of the game
-#: src/chess-window.vala:531
+#: src/chess-window.vala:506
 msgid "Game Start"
 msgstr "Oyun Başlıyor"
 
@@ -1132,60 +1131,60 @@ msgstr ""
 "Muhammet Kara <muhammetk@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/gnome-chess.vala:1236
+#: src/gnome-chess.vala:1235
 msgid "Error Loading PGN File"
 msgstr "PGN Dosyası Yüklenirken Hata"
 
-#: src/gnome-chess.vala:1237
+#: src/gnome-chess.vala:1236
 msgid "This does not look like a valid PGN game."
 msgstr "Bu geçerli bir PGN oyunu gibi görünmüyor."
 
-#: src/gnome-chess.vala:1238 src/gnome-chess.vala:1246
-#: src/gnome-chess.vala:1338
+#: src/gnome-chess.vala:1237 src/gnome-chess.vala:1245
+#: src/gnome-chess.vala:1337
 msgid "_OK"
 msgstr "_Tamam"
 
-#: src/gnome-chess.vala:1245
+#: src/gnome-chess.vala:1244
 msgid "Invalid Move"
 msgstr "Geçersiz Hamle"
 
 #. Title of save game dialog
-#: src/gnome-chess.vala:1269
+#: src/gnome-chess.vala:1268
 msgid "Save Chess Game"
 msgstr "Satranç Oyununu Kaydet"
 
 #. Default filename for the save game dialog
-#: src/gnome-chess.vala:1293
+#: src/gnome-chess.vala:1292
 msgid "Untitled Chess Game"
 msgstr "Adsız Satranç Oyunu"
 
 #. Save Game Dialog: Name of filter to show only PGN files
 #. Load Game Dialog: Name of filter to show only PGN files
-#: src/gnome-chess.vala:1299 src/gnome-chess.vala:1391
+#: src/gnome-chess.vala:1298 src/gnome-chess.vala:1390
 msgid "PGN files"
 msgstr "PGN dosyaları"
 
 #. Save Game Dialog: Name of filter to show all files
 #. Load Game Dialog: Name of filter to show all files
-#: src/gnome-chess.vala:1304 src/gnome-chess.vala:1396
+#: src/gnome-chess.vala:1303 src/gnome-chess.vala:1395
 msgid "All files"
 msgstr "Tüm dosyalar"
 
-#: src/gnome-chess.vala:1336
+#: src/gnome-chess.vala:1335
 msgid "Save Error"
 msgstr "Kayıt Hatası"
 
-#: src/gnome-chess.vala:1337
+#: src/gnome-chess.vala:1336
 #, c-format
 msgid "Failed to save game: %s"
 msgstr "Oyun kaydedilemedi: %s"
 
-#: src/gnome-chess.vala:1377
+#: src/gnome-chess.vala:1376
 msgid "Save this game before loading another one?"
 msgstr "Başka oyun yüklenmeden önce bu oyun kaydedilsin mi?"
 
 #. Title of load game dialog
-#: src/gnome-chess.vala:1385
+#: src/gnome-chess.vala:1384
 msgid "Load Chess Game"
 msgstr "Satranç Oyununu Yükle"
 

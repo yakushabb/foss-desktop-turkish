@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gthumb\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gthumb/issues/\n"
-"POT-Creation-Date: 2024-08-18 17:33+0000\n"
+"POT-Creation-Date: 2025-02-13 02:01+0000\n"
 "PO-Revision-Date: 2023-10-17 13:42+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -93,11 +93,11 @@ msgstr ""
 "düzenlemenize, resim aramanıza ve katalog olarak sonuçları kaydetmenizi "
 "sağlar."
 
-#: data/appdata/org.gnome.gThumb.appdata.xml.in:50
+#: data/appdata/org.gnome.gThumb.appdata.xml.in:51
 msgid "Browser mode"
 msgstr "Tarayıcı kipi"
 
-#: data/appdata/org.gnome.gThumb.appdata.xml.in:54
+#: data/appdata/org.gnome.gThumb.appdata.xml.in:55
 msgid "Viewer mode"
 msgstr "Gösterici kipi"
 
@@ -147,7 +147,7 @@ msgid "Import the photos on your camera card"
 msgstr "Kamera kartınızdaki fotoğrafları içeri aktar"
 
 #. manually set name and icon
-#: data/org.gnome.gThumb.desktop.in:3 gthumb/gth-application.c:105
+#: data/org.gnome.gThumb.desktop.in:3 gthumb/gth-application.c:107
 #: gthumb/gth-browser.c:428 gthumb/gth-progress-dialog.c:413
 msgid "gThumb"
 msgstr "gThumb"
@@ -238,10 +238,6 @@ msgstr "ekle"
 #: data/ui/extensions-preferences.ui:39
 msgid "_Extensions:"
 msgstr "_Uzantılar:"
-
-#: data/ui/extensions-preferences.ui:116
-msgid "More extensions…"
-msgstr "Daha çok uzantı…"
 
 #: data/ui/file-selection-info.ui:23
 #: extensions/webalbums/data/albumthemes/text.h:32
@@ -474,7 +470,7 @@ msgid "Upload images to 23hq.com"
 msgstr "23hq.com adresine resimleri yükle"
 
 #: extensions/bookmarks/bookmarks.extension.desktop.in.in:3
-#: extensions/bookmarks/callbacks.c:323
+#: extensions/bookmarks/callbacks.c:320
 #: extensions/bookmarks/dlg-bookmarks.c:350
 msgid "Bookmarks"
 msgstr "Yer İmleri"
@@ -561,7 +557,7 @@ msgstr "Diske Yaz"
 
 #: extensions/burn_disc/gth-burn-task.c:405
 #: extensions/oauth/oauth-account-chooser-dialog.c:150
-#: gthumb/dlg-preferences-extensions.c:715
+#: gthumb/dlg-preferences-extensions.c:720
 msgid "_Continue"
 msgstr "_Devam et"
 
@@ -970,7 +966,7 @@ msgstr "Etiket (gömülü)"
 #: extensions/exiv2_tools/exiv2-utils.cpp:878
 #: extensions/exiv2_tools/exiv2-utils.cpp:891
 #: extensions/exiv2_tools/exiv2-utils.cpp:933
-#: extensions/exiv2_tools/exiv2-utils.cpp:1567
+#: extensions/exiv2_tools/exiv2-utils.cpp:1568
 #: extensions/search/gth-search.c:285 gthumb/gth-shortcut.c:441
 msgid "Invalid file format"
 msgstr "Geçersiz dosya biçimi"
@@ -1119,7 +1115,7 @@ msgstr "Gömülü üst veriler ile _eşitle"
 #: extensions/importer/gth-import-preferences-dialog.c:421
 #: extensions/photo_importer/dlg-photo-importer-preferences.c:78
 #: extensions/terminal/dlg-terminal-preferences.c:83
-#: gthumb/dlg-favorite-properties.c:99 gthumb/dlg-preferences-extensions.c:483
+#: gthumb/dlg-favorite-properties.c:99 gthumb/dlg-preferences-extensions.c:488
 #: gthumb/gth-file-properties.c:595
 msgid "Preferences"
 msgstr "Tercihler"
@@ -2451,7 +2447,7 @@ msgid "Enter the preset name:"
 msgstr "Önayar adını girin:"
 
 #: extensions/file_tools/gth-file-tool-curves.c:533
-#: extensions/gstreamer_tools/actions.c:69
+#: extensions/gstreamer_tools/actions.c:71
 #: extensions/image_viewer/gth-image-viewer-page.c:1710
 #: gthumb/gth-browser.c:1984
 msgid "Could not save the file"
@@ -2960,19 +2956,19 @@ msgid "Getting the photo list"
 msgstr "Fotoğraf listesi alınıyor"
 
 #. Translators: %s is a filename
-#: extensions/gstreamer_tools/actions.c:75
+#: extensions/gstreamer_tools/actions.c:77
 #, c-format
 msgid "Image saved as %s"
 msgstr "Resim, %s olarak kaydedildi"
 
-#: extensions/gstreamer_tools/actions.c:101
+#: extensions/gstreamer_tools/actions.c:104
 msgctxt "Filename"
 msgid "Screenshot"
 msgstr "Ekran Görüntüsü"
 
-#: extensions/gstreamer_tools/actions.c:157
-#: extensions/gstreamer_tools/actions.c:169
-#: extensions/gstreamer_tools/actions.c:410
+#: extensions/gstreamer_tools/actions.c:162
+#: extensions/gstreamer_tools/actions.c:183
+#: extensions/gstreamer_tools/actions.c:424
 msgid "Could not take a screenshot"
 msgstr "Ekran görüntüsü alınamadı"
 
@@ -4655,30 +4651,30 @@ msgstr "Dışa aktarıcılar"
 msgid "Could not activate the extension"
 msgstr "Uzantı etkinleştirilemedi"
 
-#: gthumb/dlg-preferences-extensions.c:374
+#: gthumb/dlg-preferences-extensions.c:380
 msgid "Could not deactivate the extension"
 msgstr "Uzantılar devre dışı bırakılamadı"
 
-#: gthumb/dlg-preferences-extensions.c:491
+#: gthumb/dlg-preferences-extensions.c:496
 msgid "gThumb Development Team"
 msgstr "gthumb Geliştirme Takımı"
 
 #. add the page to the preferences dialog
-#: gthumb/dlg-preferences-extensions.c:664
+#: gthumb/dlg-preferences-extensions.c:669
 msgid "Extensions"
 msgstr "Uzantılar"
 
-#: gthumb/dlg-preferences-extensions.c:713
+#: gthumb/dlg-preferences-extensions.c:718
 msgid "Restart required"
 msgstr "Yeniden başlatma gerekli"
 
-#: gthumb/dlg-preferences-extensions.c:714
+#: gthumb/dlg-preferences-extensions.c:719
 msgid "You need to restart gthumb for these changes to take effect"
 msgstr ""
 "Değişikliklerin uygulanabilmesi için gthumb uygulamasını yeniden başlatmanız "
 "gerekmektedir"
 
-#: gthumb/dlg-preferences-extensions.c:716
+#: gthumb/dlg-preferences-extensions.c:721
 msgid "_Restart"
 msgstr "_Yeniden Başlat"
 
@@ -4804,7 +4800,7 @@ msgstr "Sürümü göster"
 msgid "[FILE…] [DIRECTORY…]"
 msgstr "[DOSYA…] [DİZİN…]"
 
-#: gthumb/gth-application.c:170
+#: gthumb/gth-application.c:172
 msgid "— Image browser and viewer"
 msgstr "— Resim tarayıcısı ya da göstericisi"
 
@@ -5608,3 +5604,6 @@ msgstr "gThumb H_akkında"
 #: gthumb/resources/history-menu.ui:9
 msgid "_Delete History"
 msgstr "Geçmişi _Sil"
+
+#~ msgid "More extensions…"
+#~ msgstr "Daha çok uzantı…"

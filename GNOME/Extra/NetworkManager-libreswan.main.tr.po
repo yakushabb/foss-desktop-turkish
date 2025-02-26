@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: network-manager-libreswan main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-"
 "libreswan/issues\n"
-"POT-Creation-Date: 2024-07-27 11:14+0000\n"
+"POT-Creation-Date: 2024-11-24 10:48+0000\n"
 "PO-Revision-Date: 2023-12-29 11:38+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -74,59 +74,87 @@ msgstr "IPsec tabanlı VPN"
 msgid "IPsec based VPN for remote clients"
 msgstr "Uzak istemciler için IPsec tabanlı VPN"
 
-#: ../properties/nm-libreswan-editor-plugin.c:94
-#: ../properties/nm-libreswan-editor-plugin.c:298
-#, c-format
-msgid "Can’t open file “%s”: %s"
-msgstr "“%s” dosyası açılamadı: %s"
-
-#: ../properties/nm-libreswan-editor-plugin.c:248
-#, c-format
-msgid "Missing “conn” section in “%s”"
-msgstr "“%s” içinde eksik “conn” bölümü"
-
-#: ../properties/nm-libreswan-editor-plugin.c:320
+#: ../properties/nm-libreswan-editor-plugin.c:115
 #, c-format
 msgid "Error writing to file “%s”: %s"
 msgstr "“%s” dosyası yazılamadı: %s"
 
-#: ../src/nm-libreswan-service.c:1683
+#: ../src/nm-libreswan-service.c:515
+msgid "Invalid character in password."
+msgstr ""
+
+#: ../src/nm-libreswan-service.c:1501
 msgid "A password is required."
 msgstr "Parola gerekli."
 
-#: ../src/nm-libreswan-service.c:2087
+#: ../src/nm-libreswan-service.c:1621
+#, c-format
+msgid "Error writing config: %s"
+msgstr "Yapılandırma yazılamadı: %s"
+
+#: ../src/nm-libreswan-service.c:1942
 msgid ""
 "Could not process the request because the VPN connection settings were "
 "invalid."
 msgstr "VPN bağlantı ayarları geçersiz olduğundan istek işlenemedi."
 
-#: ../src/nm-libreswan-service.c:2101
+#: ../src/nm-libreswan-service.c:1956
 msgid "Unhandled pending authentication."
 msgstr "İşlenmemiş bekleyen kimlik doğrulaması."
 
-#: ../src/nm-libreswan-service.c:2243
+#: ../src/nm-libreswan-service.c:2100
 msgid "Don’t quit when VPN connection terminates"
 msgstr "VPN bağlantısı sonlandığında çıkma"
 
-#: ../src/nm-libreswan-service.c:2244
+#: ../src/nm-libreswan-service.c:2101
 msgid "Enable verbose debug logging (may expose passwords)"
 msgstr ""
 "Ayrıntılı hata ayıklama günlüklemesini etkinleştir (parolaları görünür "
 "yapabilir)"
 
-#: ../src/nm-libreswan-service.c:2245
+#: ../src/nm-libreswan-service.c:2102
 msgid "D-Bus name to use for this instance"
 msgstr "Bu örnek için kullanılacak D-Bus adı"
 
-#: ../src/nm-libreswan-service.c:2268
+#: ../src/nm-libreswan-service.c:2125
 msgid ""
 "This service provides integrated IPsec VPN capability to NetworkManager."
 msgstr "Bu hizmet NetworkManager için tümleşik IPsec VPN yeterliliğini sağlar."
 
-#: ../shared/utils.c:86
+#: ../shared/utils.c:359
 #, c-format
-msgid "Error writing config: %s"
-msgstr "Yapılandırma yazılamadı: %s"
+msgid "Invalid character in '%s'"
+msgstr ""
+
+#: ../shared/utils.c:391
+#, c-format
+msgid "'%s' key needs to be present"
+msgstr ""
+
+#: ../shared/utils.c:417
+#, c-format
+msgid "property '%s' invalid or not supported"
+msgstr ""
+
+#: ../shared/utils.c:533
+#, c-format
+msgid "'%s' not understood"
+msgstr ""
+
+#: ../shared/utils.c:554
+#, c-format
+msgid "Expected a conn line before '%s'"
+msgstr ""
+
+#: ../shared/utils.c:560 ../shared/utils.c:575
+#, c-format
+msgid "'%s' specified multiple times"
+msgstr ""
+
+#: ../shared/utils.c:624
+#, c-format
+msgid "'%s' is not supported for '%s'"
+msgstr ""
 
 #: ../shared/nm-utils/nm-shared-utils.c:1087
 #, c-format
@@ -597,17 +625,29 @@ msgid ""
 msgstr ""
 
 #: ../properties/nm-libreswan-dialog.ui.h:90
+msgid "Don't require remote certificate name"
+msgstr ""
+
+#: ../properties/nm-libreswan-dialog.ui.h:91
 msgid "Other"
 msgstr "Diğer"
 
-#: ../properties/nm-libreswan-dialog.ui.h:91
+#: ../properties/nm-libreswan-dialog.ui.h:92
 msgid "Advanced Properties"
 msgstr "Gelişmiş Özellikler"
 
-#: ../properties/nm-libreswan-dialog.ui.h:92
+#: ../properties/nm-libreswan-dialog.ui.h:93
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: ../properties/nm-libreswan-dialog.ui.h:93
+#: ../properties/nm-libreswan-dialog.ui.h:94
 msgid "_Apply"
 msgstr "_Uygula"
+
+#, c-format
+#~ msgid "Can’t open file “%s”: %s"
+#~ msgstr "“%s” dosyası açılamadı: %s"
+
+#, c-format
+#~ msgid "Missing “conn” section in “%s”"
+#~ msgstr "“%s” içinde eksik “conn” bölümü"

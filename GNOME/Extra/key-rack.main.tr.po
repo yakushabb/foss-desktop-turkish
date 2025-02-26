@@ -1,0 +1,631 @@
+# Turkish translation for key-rack.
+# Copyright (C) 2024 key-rack's COPYRIGHT HOLDER
+# This file is distributed under the same license as the key-rack package.
+#
+# Emin Tufan Çetin <etcetin@gmail.com>, 2024.
+# Sabri Ünal <yakushabb@gmail.com>,  2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: key-rack main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/sophie-h/key-rack/-/issues\n"
+"POT-Creation-Date: 2024-09-18 08:58+0000\n"
+"PO-Revision-Date: 2024-09-11 23:38+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.5\n"
+
+#: data/app.drey.KeyRack.desktop.in:6 data/app.drey.KeyRack.metainfo.xml.in:5
+#: src/widgets/main_window.ui:8 src/widgets/pages/overview_page.ui:16
+msgid "Key Rack"
+msgstr "Key Rack"
+
+#: data/app.drey.KeyRack.desktop.in:7
+msgid "Keys"
+msgstr "Anahtarlar"
+
+#: data/app.drey.KeyRack.desktop.in:8
+msgid "View and edit your apps’ keys"
+msgstr "Uygulamalarınızın anahtarlarını görüntüleyin ve düzenleyin"
+
+#: data/app.drey.KeyRack.desktop.in:14
+msgid "passwords;key;"
+msgstr "passwords;key;parolalar;anahtarlar;"
+
+#. General
+#: data/app.drey.KeyRack.metainfo.xml.in:10
+msgid "View and edit passwords"
+msgstr "Parolaları görüntüle ve düzenle"
+
+#: data/app.drey.KeyRack.metainfo.xml.in:12
+msgid ""
+"Key Rack allows you to view, create and edit secrets, such as passwords or "
+"tokens, stored by apps. It supports both Flatpak secrets and system-wide "
+"keyrings."
+msgstr ""
+"Key Rack, uygulamalarca depolanan parolalar ya da jetonlar gibi gizleri "
+"görüntülemenizi, oluşturmanızı ve düzenlemenizi sağlar. Hem Flatpak "
+"gizlerini hem de sistem geneli anahtarlıklarını destekler."
+
+#. Branding
+#: data/app.drey.KeyRack.metainfo.xml.in:19
+msgid "Felix Häcker, Sophie Herold"
+msgstr "Felix Häcker, Sophie Herold"
+
+#: data/app.drey.KeyRack.metainfo.xml.in:53
+msgid "Overview of keyrings and Flatpak apps"
+msgstr "Anahtarlıkların ve Flatpak uygulamalarının genel görünümü"
+
+#: data/app.drey.KeyRack.metainfo.xml.in:57
+msgid "Details for a secret"
+msgstr "Giz için ayrıntılar"
+
+#: data/resources/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Genel"
+
+#: data/resources/gtk/help-overlay.ui:15
+msgctxt "shortcut window"
+msgid "Open Search"
+msgstr "Aramayı Aç"
+
+#: data/resources/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Kısayolları Göster"
+
+#: data/resources/gtk/help-overlay.ui:26
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Çık"
+
+#: data/resources/gtk/help-overlay.ui:34
+msgctxt "shortcut window"
+msgid "Keyring"
+msgstr "Anahtarlık"
+
+#: data/resources/gtk/help-overlay.ui:38
+msgctxt "shortcut window"
+msgid "Create New Keyring"
+msgstr "Yeni Anahtarlık Oluştur"
+
+#: data/resources/gtk/help-overlay.ui:44
+msgctxt "shortcut window"
+msgid "Add Key"
+msgstr "Anahtar Ekle"
+
+#: data/resources/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Lock Keyring"
+msgstr "Anahtarlığı Kilitle"
+
+#: data/resources/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Unlock Keyring"
+msgstr "Anahtarlık Kilidini Aç"
+
+#: data/resources/gtk/help-overlay.ui:62
+msgctxt "shortcut window"
+msgid "Change Keyring Password"
+msgstr "Anahtarlık Parolası Değiştir"
+
+#: data/resources/gtk/help-overlay.ui:68
+msgctxt "shortcut window"
+msgid "Delete Keyring"
+msgstr "Anahtarlığı Sil"
+
+#: src/data/item.rs:56
+msgid "Locked element"
+msgstr "Kilitli eleman"
+
+#: src/data/item.rs:287
+msgid "Chrome Safe Storage Password"
+msgstr "Chrome Güvenli Depolama Parolası"
+
+#: src/data/item.rs:288
+msgid "Chrome Dummy Schema"
+msgstr "Chrome Boş Şema"
+
+#: src/data/item.rs:289
+msgid "Saved Web Password"
+msgstr "Kayıtlı Web Parolası"
+
+#: src/data/item.rs:290
+msgid "Web Sync Password"
+msgstr "Web Eşitleme Parolası"
+
+#: src/data/item.rs:291
+msgid "Evolution Data Source Secret"
+msgstr "Evolution Veri Kaynağı Gizi"
+
+#: src/data/item.rs:292
+msgid "Generic Password"
+msgstr "Genel Parola"
+
+#: src/data/item.rs:293
+msgid "GPG Passphrase"
+msgstr "GPG Parola metni"
+
+#: src/data/item.rs:294
+msgid "Disk Encryption Password"
+msgstr "Disk Şifreleme Parolası"
+
+#: src/data/item.rs:295
+msgid "Network Connection Password"
+msgstr "Ağ Bağlantısı Parolası"
+
+#: src/data/item.rs:296
+msgid "Network Password"
+msgstr "Ağ Parolası"
+
+#: src/data/item.rs:297
+msgid "Note"
+msgstr "Not"
+
+#: src/data/item.rs:298
+msgid "Online Account Password"
+msgstr "Çevrim İçi Hesap Parolası"
+
+#: src/data/item.rs:299
+msgid "RDP Credentials"
+msgstr "RDP Kimlik Bilgileri"
+
+#: src/data/item.rs:300
+msgid "VNC Password"
+msgstr "VNC Parolası"
+
+#: src/utils/error.rs:28
+msgid "Show Details"
+msgstr "Ayrıntıları Göster"
+
+#: src/widgets/about_dialog.rs:24
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#: src/widgets/collection_list.ui:32
+msgid "Add New Keyring"
+msgstr "Yeni Anahtarlık Ekle"
+
+#: src/widgets/collection_row.rs:52
+msgid "System Login Keyring"
+msgstr "Sistem Giriş Anahtarlığı"
+
+#: src/widgets/collection_row.rs:54
+msgid "User Keyring"
+msgstr "Kullanıcı Anahtarlığı"
+
+#: src/widgets/collection_row.rs:57
+msgid "Temporary Session Keyring"
+msgstr "Geçici Oturum Anahtarlığı"
+
+#: src/widgets/collection_row.ui:24
+msgid "Locked"
+msgstr "Kilitli"
+
+#: src/widgets/create_collection_dialog.ui:4
+msgid "Create New Keyring"
+msgstr "Yeni Anahtarlık Oluştur"
+
+#: src/widgets/create_collection_dialog.ui:18
+msgid ""
+"A keyring can be used to securely store keys. They can be locked or unlocked "
+"independently of other keyrings using an individual password."
+msgstr ""
+"Bir anahtarlık, anahtarları güvenli depolamak için kullanılabilir. Bireysel "
+"parola kullanılarak diğer anahtarlıklardan bağımsız kilitlenebilir ya da "
+"açılabilirler."
+
+#: src/widgets/create_collection_dialog.ui:21
+msgid "Name"
+msgstr "Ad"
+
+#: src/widgets/create_collection_dialog.ui:27
+msgid "Set Password"
+msgstr "Parola Belirle"
+
+#: src/widgets/create_item_dialog.rs:114
+msgid "Straight rows of keys are easy to guess"
+msgstr "Düz tuş sıralarını öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:117
+msgid "Short keyboard patterns are easy to guess"
+msgstr "Kısa klavye kalıplarını öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:120
+msgid "Repeated keys are easy to guess"
+msgstr "Yinelenen tuşları öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:123
+msgid "Repeated patterns are easy to guess"
+msgstr "Yinelenen kalıpları öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:126
+msgid "This is one of the 10 most commonly used passwords"
+msgstr "Bu, en sık kullanılan 10 paroladan biri"
+
+#: src/widgets/create_item_dialog.rs:129
+msgid "This is one of the 100 most commonly used passwords"
+msgstr "Bu, en sık kullanılan 100 paroladan biri"
+
+#: src/widgets/create_item_dialog.rs:131
+msgid "This is a common password"
+msgstr "Bu, yaygın bir parola"
+
+#: src/widgets/create_item_dialog.rs:133
+msgid "This is similar to a commonly used password"
+msgstr "Bu, yaygın kullanılan bir parolaya benziyor"
+
+#: src/widgets/create_item_dialog.rs:136
+msgid "This contains a easy to guess sequence"
+msgstr "Bu, öngörülmesi kolay dizi içeriyor"
+
+#: src/widgets/create_item_dialog.rs:139
+msgid "Recent years are easy to guess"
+msgstr "Son yılları öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:142
+msgid "A word by itself is easy to guess"
+msgstr "Tek başına sözcüğü öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:145
+msgid "Dates are often easy to guess"
+msgstr "Tarihleri öngörmek genellikle kolaydır"
+
+#: src/widgets/create_item_dialog.rs:148
+msgid "Names and surnames by themselves are easy to guess"
+msgstr "Ad ve soyadları tek başına öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:151
+msgid "Common names and surnames are easy to guess"
+msgstr "Yaygın ad ve soyadları öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:161
+msgid "Use a few words and avoid common phrases"
+msgstr "Birkaç sözcük kullanın ve yaygın ifadelerden kaçının"
+
+#: src/widgets/create_item_dialog.rs:164
+msgid "No need for symbols, digits or uppercase letters"
+msgstr "Simgelere, rakamlara ya da büyük harflere gerek yok"
+
+#: src/widgets/create_item_dialog.rs:166
+msgid "Add another word or two"
+msgstr "Bir ya da iki sözcük daha ekleyin"
+
+#: src/widgets/create_item_dialog.rs:168
+msgid "Capitalization doesn't help very much"
+msgstr "Büyük harf kullanımı pek yardımcı olmuyor"
+
+#: src/widgets/create_item_dialog.rs:171
+msgid "All uppercase is almost as easy to guess as all lowercase"
+msgstr "Tümü büyük ya da tümü küçük harfleri öngörmek kolaydır"
+
+#: src/widgets/create_item_dialog.rs:174
+msgid "Reversed words aren't much harder to guess"
+msgstr "Ters çevrilmiş sözcükleri öngörmek zor değildir"
+
+#: src/widgets/create_item_dialog.rs:177
+msgid "Predictable substitutions don't help very much"
+msgstr "Öngörülebilir vurgu değişikliği pek yardımcı olmuyor"
+
+#: src/widgets/create_item_dialog.rs:180
+msgid "Use a longer keyboard pattern with more turns"
+msgstr "Daha çok dönüş içeren daha uzun bir klavye düzeni kullanın"
+
+#: src/widgets/create_item_dialog.rs:183
+msgid "Avoid repeated words and characters"
+msgstr "Yinelenen sözcüklerden ve karakterlerden kaçının"
+
+#: src/widgets/create_item_dialog.rs:185
+msgid "Avoid using sequences"
+msgstr "Dizileri kullanmaktan kaçının"
+
+#: src/widgets/create_item_dialog.rs:186
+msgid "Avoid using recent years"
+msgstr "Son yılları kullanmaktan kaçının"
+
+#: src/widgets/create_item_dialog.rs:188
+msgid "Avoid years that are associated with you"
+msgstr "Sizinle ilişkili yıllardan kaçının"
+
+#: src/widgets/create_item_dialog.rs:191
+msgid "Avoid dates and years that are associated with you"
+msgstr "Sizinle ilişkili tarih ve yıllardan kaçının"
+
+#: src/widgets/create_item_dialog.rs:199
+msgid "This looks like a safe password!"
+msgstr "Güvenli parolaya benziyor!"
+
+#: src/widgets/create_item_dialog.ui:4
+#: src/widgets/pages/collection_items_page.ui:28
+msgid "Add Key"
+msgstr "Anahtar Ekle"
+
+#: src/widgets/create_item_dialog.ui:21
+msgid "Description"
+msgstr "Açıklama"
+
+#: src/widgets/create_item_dialog.ui:28
+msgid "Password"
+msgstr "Parola"
+
+#: src/widgets/create_item_dialog.ui:58
+msgid "Add"
+msgstr "Ekle"
+
+#: src/widgets/item_dialog.rs:70
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: src/widgets/item_dialog.rs:133
+msgid "Application"
+msgstr "Uygulama"
+
+#: src/widgets/item_dialog.rs:134
+msgid "Connection UUID"
+msgstr "Bağlantı UUIDʼsi"
+
+#: src/widgets/item_dialog.rs:135
+msgid "Database Path"
+msgstr "Veri Tabanı Yolu"
+
+#: src/widgets/item_dialog.rs:136
+msgid "Device ID"
+msgstr "Aygıt Kimliği"
+
+#: src/widgets/item_dialog.rs:137
+msgid "Domain"
+msgstr "Etki Alanı"
+
+#: src/widgets/item_dialog.rs:138
+msgid "Explanation"
+msgstr "Açıklama"
+
+#: src/widgets/item_dialog.rs:139
+msgid "Online Account Identity"
+msgstr "Çevrim İçi Hesap Kimliği"
+
+#: src/widgets/item_dialog.rs:140
+msgid "Homeserver"
+msgstr "Ev Sunucusu"
+
+#: src/widgets/item_dialog.rs:141
+msgid "ID"
+msgstr "Kimlik"
+
+#: src/widgets/item_dialog.rs:142 src/widgets/pages/collection_items_page.ui:20
+msgid "Keyring"
+msgstr "Anahtarlık"
+
+#: src/widgets/item_dialog.rs:143
+msgid "Profile"
+msgstr "Profil"
+
+#: src/widgets/item_dialog.rs:144
+msgid "Protocol"
+msgstr "İletişim Kuralı"
+
+#: src/widgets/item_dialog.rs:145
+msgid "Repository ID"
+msgstr "Depo Kimliği"
+
+#: src/widgets/item_dialog.rs:146
+msgid "Server"
+msgstr "Sunucu"
+
+#: src/widgets/item_dialog.rs:147
+msgid "Setting Key"
+msgstr "Ayar Anahtarı"
+
+#: src/widgets/item_dialog.rs:148
+msgid "Setting Name"
+msgstr "Ayar Adı"
+
+#: src/widgets/item_dialog.rs:149
+msgid "URI"
+msgstr "URI"
+
+#: src/widgets/item_dialog.rs:150
+msgid "UUID"
+msgstr "UUID"
+
+#: src/widgets/item_dialog.rs:151
+msgid "Version"
+msgstr "Sürüm"
+
+#: src/widgets/item_dialog.rs:170
+msgid "Copy Property"
+msgstr "Özelliği Kopyala"
+
+#: src/widgets/item_dialog.rs:287
+msgid "Delete Key?"
+msgstr "Anahtar Silinsin Mi?"
+
+#: src/widgets/item_dialog.rs:288
+msgid "This key will be permanently deleted"
+msgstr "Bu anahtar kalıcı olarak silinecek"
+
+#: src/widgets/item_dialog.rs:292 src/widgets/pages/collection_items_page.rs:85
+#: src/widgets/pages/collection_items_page.rs:141
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/widgets/item_dialog.rs:293
+#: src/widgets/pages/collection_items_page.rs:143
+msgid "Delete"
+msgstr "Sil"
+
+#: src/widgets/item_dialog.ui:22
+msgid "_Secret"
+msgstr "_Giz"
+
+#: src/widgets/item_dialog.ui:30 src/widgets/item_dialog.ui:60
+msgid "Copy Secret"
+msgstr "Gizi Kopyala"
+
+#: src/widgets/item_dialog.ui:42
+msgid "Secret"
+msgstr "Giz"
+
+#: src/widgets/item_dialog.ui:49
+msgid "Show Secret"
+msgstr "Gizi Göster"
+
+#: src/widgets/item_dialog.ui:74
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#: src/widgets/item_dialog.ui:77
+msgid "_Description"
+msgstr "_Açıklama"
+
+#: src/widgets/item_dialog.ui:85
+msgid "Type"
+msgstr "Tür"
+
+#: src/widgets/item_dialog.ui:109
+msgid "D_elete Key…"
+msgstr "Anahtarı _Sil…"
+
+#: src/widgets/pages/collection_items_page.rs:82
+msgid ""
+"You are about to change the password for the system's keyring. This password "
+"is usually the same as your login password to automatically unlock this "
+"keyring on login. If the password is changed to something different, the "
+"automatic unlocking of the keyring might stop working."
+msgstr ""
+"Sistem anahtarlığının parolasını değiştirmek üzeresiniz. Bu parola "
+"genellikle oturum açtığınızda bu anahtarlığın kilidini kendiliğinden açmak "
+"için oturum açma parolanızla aynıdır. Parola değiştirilirse, anahtarlığın "
+"kendiliğinden açılması çalışmayı durdurabilir."
+
+#: src/widgets/pages/collection_items_page.rs:87
+msgid "Change"
+msgstr "Değiştir"
+
+#: src/widgets/pages/collection_items_page.rs:136
+msgid "Delete Keyring?"
+msgstr "Anahtarlık Silinsin Mi?"
+
+#: src/widgets/pages/collection_items_page.rs:138
+msgid "All keys in the keyring will be permanently deleted"
+msgstr "Anahtarlıktaki tüm anahtarlar kalıcı olarak silinecek"
+
+#: src/widgets/pages/collection_items_page.rs:209
+msgid ""
+"This keyring is bound to your user and gets automatically unlocked at login"
+msgstr ""
+"Bu anahtarlık kullanıcınıza bağlı ve oturum açıldığında kendiliğinden açılır"
+
+#: src/widgets/pages/collection_items_page.rs:210
+msgid "All keys in this temporary keyring are removed again on logout"
+msgstr ""
+"Bu geçici anahtarlıktaki tüm anahtarlar oturum kapatıldığında kaldırılacak"
+
+#: src/widgets/pages/collection_items_page.ui:6
+msgid "_Change Password"
+msgstr "Parola _Değiştir"
+
+#: src/widgets/pages/collection_items_page.ui:10
+msgid "_Lock"
+msgstr "_Kilitle"
+
+#: src/widgets/pages/collection_items_page.ui:14
+msgid "_Delete"
+msgstr "S_il"
+
+#: src/widgets/pages/collection_items_page.ui:37
+msgid "Keyring Menu"
+msgstr "Anahtarlık Menüsü"
+
+#: src/widgets/pages/collection_items_page.ui:43
+#: src/widgets/pages/flatpak_items_page.ui:13
+#: src/widgets/pages/overview_page.ui:24
+msgid "Search"
+msgstr "Ara"
+
+#: src/widgets/pages/collection_items_page.ui:61
+#: src/widgets/pages/collection_items_page.ui:70
+#: src/widgets/pages/flatpak_items_page.ui:31
+#: src/widgets/pages/flatpak_items_page.ui:40
+msgid "Search keys"
+msgstr "Anahtarları ara"
+
+#: src/widgets/pages/collection_items_page.ui:79
+msgid "Keyring is locked"
+msgstr "Anahtarlık kilitli"
+
+#: src/widgets/pages/collection_items_page.ui:80
+msgid "Unlock"
+msgstr "Kilidi Aç"
+
+#: src/widgets/pages/collection_items_page.ui:92
+#: src/widgets/pages/flatpak_items_page.ui:59
+msgid "No Keys"
+msgstr "Anahtar Yok"
+
+#: src/widgets/pages/collection_items_page.ui:93
+msgid "This keyring does not contain any keys"
+msgstr "Anahtarlık herhangi bir anahtar içermiyor"
+
+#: src/widgets/pages/collection_items_page.ui:96
+msgid "Add Key…"
+msgstr "Anahtar Ekle…"
+
+#: src/widgets/pages/collection_items_page.ui:129
+#: src/widgets/pages/flatpak_items_page.ui:131
+msgid "No Keys Found"
+msgstr "Anahtar Bulunamadı"
+
+#: src/widgets/pages/collection_items_page.ui:130
+#: src/widgets/pages/flatpak_items_page.ui:132
+#: src/widgets/pages/overview_page.ui:80
+msgid "Try a different search"
+msgstr "Başka arama dene"
+
+#: src/widgets/pages/flatpak_items_page.ui:4
+msgid "App Keys"
+msgstr "Uygulama Anahtarları"
+
+#: src/widgets/pages/flatpak_items_page.ui:60
+msgid "This app does not contain any keys"
+msgstr "Uygulama anahtar içermiyor"
+
+#: src/widgets/pages/overview_page.ui:6
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: src/widgets/pages/overview_page.ui:10
+msgid "_About Key Rack"
+msgstr "Key Rack _Hakkında"
+
+#: src/widgets/pages/overview_page.ui:33
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: src/widgets/pages/overview_page.ui:50 src/widgets/pages/overview_page.ui:59
+msgid "Search keyrings"
+msgstr "Anahtarlıkları ara"
+
+#: src/widgets/pages/overview_page.ui:79
+msgid "No Keyrings Found"
+msgstr "Anahtarlık Bulunamadı"
+
+#: src/widgets/pages/overview_page.ui:87
+msgid "Keyrings"
+msgstr "Anahtarlıklar"
+
+#: src/widgets/pages/overview_page.ui:92
+msgid "Apps"
+msgstr "Uygulamalar"
+
+#: src/widgets/pages/overview_page.ui:98
+msgid "Uninstalled Apps"
+msgstr "Kaldırılmış Uygulamalar"

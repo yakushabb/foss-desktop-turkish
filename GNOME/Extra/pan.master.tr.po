@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pan\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/pan/issues/\n"
-"POT-Creation-Date: 2024-08-24 13:09+0000\n"
+"POT-Creation-Date: 2024-10-31 18:20+0000\n"
 "PO-Revision-Date: 2024-05-24 11:21+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -75,7 +75,7 @@ msgstr "\"%s\" dizini açılırken hata oluştu: %s"
 
 #: pan/data/article-cache.cc:235 pan/data/article-cache.cc:244
 #: pan/data-impl/data-io.cc:278 pan/data-impl/data-io.cc:310
-#: pan/gui/post-ui.cc:1698
+#: pan/gui/post-ui.cc:1699
 #, c-format
 msgid "Unable to save \"%s\" %s"
 msgstr "\"%s\" kaydedilemiyor %s"
@@ -132,12 +132,12 @@ msgid "Skipping newsrc file for server \"%s\""
 msgstr "\"%s\" sunucusu için newsrc dosyası atlanıyor"
 
 # Kaynak koda göre ilki makale sayısı, ikincisi makalenin ait olduğu grup.
-#: pan/data-impl/headers.cc:618
+#: pan/data-impl/headers.cc:713
 #, c-format
 msgid "Expired %lu old articles from \"%s\""
 msgstr "%lu makalenin süresi doldu, \"%s\" grubundan"
 
-#: pan/data-impl/headers.cc:625
+#: pan/data-impl/headers.cc:722
 #, c-format
 msgid ""
 "Unsupported data version for %s headers: %d.\n"
@@ -146,12 +146,12 @@ msgstr ""
 "%s başlıkları için desteklenmeyen veri sürümü: %d\n"
 "Pan’ın eski bir sürümünü kullanıyor olabilirsiniz."
 
-#: pan/data-impl/headers.cc:640
+#: pan/data-impl/headers.cc:740
 #, c-format
 msgid "Loaded %llu articles for \"%s\" in %.1f seconds (%.0f per second)"
 msgstr "%llu makale, \"%s\" için, %.1f saniyede yüklendi (saniyede %.0f)"
 
-#: pan/data-impl/headers.cc:869
+#: pan/data-impl/headers.cc:1009
 #, c-format
 msgid ""
 "Saved %lu parts, %lu articles in \"%s\" in %.1f seconds (%.0f articles/sec)"
@@ -159,7 +159,7 @@ msgstr ""
 "%lu bölüm, %lu makale, \"%s\" içinde, %.1f saniyede kaydedildi (%.0f makale/"
 "saniye)"
 
-#: pan/data-impl/headers.cc:1202
+#: pan/data-impl/headers.cc:1399
 #, c-format
 msgid "Added %lu articles to %s."
 msgstr "%lu makale şuraya eklendi: %s."
@@ -215,7 +215,7 @@ msgstr "_Dosya"
 msgid "_Edit"
 msgstr "_Düzenle"
 
-#: pan/gui/actions.cc:308 pan/gui/prefs-ui.cc:1157
+#: pan/gui/actions.cc:308 pan/gui/prefs-ui.cc:1155
 msgid "_Layout"
 msgstr "_Yerleşim"
 
@@ -243,7 +243,7 @@ msgstr "_Süzgeç"
 msgid "_Go"
 msgstr "_Git"
 
-#: pan/gui/actions.cc:315 pan/gui/prefs-ui.cc:1207
+#: pan/gui/actions.cc:315 pan/gui/prefs-ui.cc:1205
 msgid "_Actions"
 msgstr "_Eylemler"
 
@@ -808,7 +808,7 @@ msgid "Unnamed File"
 msgstr "Adlandırılmamış Dosya"
 
 #: pan/gui/body-pane.cc:1121 pan/gui/gui.cc:1957 pan/gui/header-pane.cc:1306
-#: pan/gui/header-pane.cc:1735 pan/gui/post-ui.cc:2572 pan/gui/prefs-ui.cc:896
+#: pan/gui/header-pane.cc:1737 pan/gui/post-ui.cc:2573 pan/gui/prefs-ui.cc:896
 #: pan/gui/score-add-ui.cc:139 pan/gui/task-pane.cc:795
 msgid "Subject"
 msgstr "Konu"
@@ -817,7 +817,7 @@ msgstr "Konu"
 msgid "From"
 msgstr "Kimden"
 
-#: pan/gui/body-pane.cc:1125 pan/gui/gui.cc:1958 pan/gui/header-pane.cc:1814
+#: pan/gui/body-pane.cc:1125 pan/gui/gui.cc:1958 pan/gui/header-pane.cc:1816
 #: pan/gui/log-ui.cc:308 pan/gui/prefs-ui.cc:892
 msgid "Date"
 msgstr "Tarih"
@@ -1148,7 +1148,7 @@ msgstr "NZB Dosyasını Farklı Kaydet..."
 msgid "Import NZB Files"
 msgstr "NZB Dosyalarını İçe Aktar"
 
-#: pan/gui/gui.cc:817 pan/gui/post-ui.cc:3280
+#: pan/gui/gui.cc:817 pan/gui/post-ui.cc:3281
 msgid "NZB Files"
 msgstr "NZB Dosyaları"
 
@@ -1260,7 +1260,7 @@ msgstr[0] "Bu makalenin %d kısmı %d kadarı eksik."
 msgid "Message-ID"
 msgstr "İleti-Numarası"
 
-#: pan/gui/gui.cc:1959 pan/gui/header-pane.cc:1783 pan/gui/prefs-ui.cc:893
+#: pan/gui/gui.cc:1959 pan/gui/header-pane.cc:1785 pan/gui/prefs-ui.cc:893
 msgid "Lines"
 msgstr "Satırlar"
 
@@ -1268,7 +1268,7 @@ msgstr "Satırlar"
 msgid "Size"
 msgstr "Boyut"
 
-#: pan/gui/gui.cc:1960 pan/gui/header-pane.cc:1799 pan/gui/prefs-ui.cc:891
+#: pan/gui/gui.cc:1960 pan/gui/header-pane.cc:1801 pan/gui/prefs-ui.cc:891
 msgid "Bytes"
 msgstr "Bayt"
 
@@ -1311,7 +1311,7 @@ msgstr "%s: %d boşta, %d etkin @ %.1f KiBps"
 msgid "No Tasks"
 msgstr "Görev Yok"
 
-#: pan/gui/gui.cc:2268 pan/gui/prefs-ui.cc:1140
+#: pan/gui/gui.cc:2268 pan/gui/prefs-ui.cc:1138
 msgid "Tasks"
 msgstr "Görevler"
 
@@ -1336,12 +1336,12 @@ msgstr "Konu veya Yazar"
 msgid "Sub or Auth (regex)"
 msgstr "Konu veya Yazar (düzenli ifade)"
 
-#: pan/gui/header-pane.cc:1307 pan/gui/header-pane.cc:1767
+#: pan/gui/header-pane.cc:1307 pan/gui/header-pane.cc:1769
 #: pan/gui/prefs-ui.cc:890 pan/gui/score-add-ui.cc:140 pan/gui/task-pane.cc:796
 msgid "Author"
 msgstr "Yazar"
 
-#: pan/gui/header-pane.cc:1752 pan/gui/prefs-ui.cc:894
+#: pan/gui/header-pane.cc:1754 pan/gui/prefs-ui.cc:894
 msgid "Score"
 msgstr "Puan"
 
@@ -1357,19 +1357,19 @@ msgstr "Pan: Olaylar"
 msgid "Message"
 msgstr "İleti"
 
-#: pan/gui/pan.cc:336
+#: pan/gui/pan.cc:306
 msgid "Maximize"
 msgstr "Ekranı Kapla"
 
-#: pan/gui/pan.cc:376
+#: pan/gui/pan.cc:346
 msgid "An error has occurred!"
 msgstr "Bir hata oluştu!"
 
-#: pan/gui/pan.cc:389
+#: pan/gui/pan.cc:359
 msgid "New Articles!"
 msgstr "Yeni Makaleler!"
 
-#: pan/gui/pan.cc:390
+#: pan/gui/pan.cc:360
 msgid ""
 "There are new\n"
 "articles available."
@@ -1377,7 +1377,7 @@ msgstr ""
 "Yeni makaleler\n"
 "kullanılabilir durumda."
 
-#: pan/gui/pan.cc:470
+#: pan/gui/pan.cc:435
 msgid ""
 "Thank you for trying Pan!\n"
 " \n"
@@ -1387,7 +1387,7 @@ msgstr ""
 " \n"
 "Haberleri okumak için, öncelikle bir Sunucu Ekleyin."
 
-#: pan/gui/pan.cc:552
+#: pan/gui/pan.cc:517
 msgid ""
 "General Options\n"
 "  -h, --help               Show this usage information and exit.\n"
@@ -1431,22 +1431,22 @@ msgstr ""
 "kaydedileceği yol.\n"
 "  --no-gui                 Sadece terminale çıktı basar, kuyruğu indirmez.\n"
 
-#: pan/gui/pan.cc:887
+#: pan/gui/pan.cc:852
 msgid "Error: --no-gui used without nzb files or news:message-id."
 msgstr ""
 "Hata: --no-gui nzb dosyaları veya news:ileti-numarası olmadan kullanılır."
 
-#: pan/gui/pan.cc:891
+#: pan/gui/pan.cc:856
 #, c-format
 msgid "Pan %s started"
 msgstr "Pan %s başlatıldı"
 
-#: pan/gui/pan.cc:911
+#: pan/gui/pan.cc:876
 msgid "Please configure Pan's news servers before using it as an nzb client."
 msgstr ""
 "Lütfen Pan haber sunucularını, nzb istemcisi kullanmadan önce yapılandırın."
 
-#: pan/gui/pan.cc:1031
+#: pan/gui/pan.cc:996
 msgid "Pan notification"
 msgstr "Pan bildirimi"
 
@@ -1707,85 +1707,85 @@ msgstr "Makale geçici dosyaya yazılırken hata oluştu: %s"
 msgid "Open Draft Article"
 msgstr "Taslak Makale Aç"
 
-#: pan/gui/post-ui.cc:1614
+#: pan/gui/post-ui.cc:1615
 msgid "Save Draft Article"
 msgstr "Taslak Makaleyi Kaydet"
 
-#: pan/gui/post-ui.cc:1652
+#: pan/gui/post-ui.cc:1653
 msgid "File already exists."
 msgstr "Klasör zaten var."
 
-#: pan/gui/post-ui.cc:1653
+#: pan/gui/post-ui.cc:1654
 msgid "Overwrite it?"
 msgstr "Üzerine yazılsın mı?"
 
-#: pan/gui/post-ui.cc:1862
+#: pan/gui/post-ui.cc:1863
 #, c-format
 msgid "Couldn't parse signature command \"%s\": %s"
 msgstr "İmza komutu \"%s\" ayrıştırılamadı: %s"
 
-#: pan/gui/post-ui.cc:1898
+#: pan/gui/post-ui.cc:1899
 msgid "Couldn't convert signature to UTF-8."
 msgstr "İmza, UTF-8 olarak dönüştürülemedi."
 
-#: pan/gui/post-ui.cc:2410
+#: pan/gui/post-ui.cc:2411
 msgid "F_rom"
 msgstr "Ki_mden"
 
-#: pan/gui/post-ui.cc:2427
+#: pan/gui/post-ui.cc:2428
 msgid "_Subject"
 msgstr "_Konu"
 
-#: pan/gui/post-ui.cc:2440
+#: pan/gui/post-ui.cc:2441
 msgid "_Newsgroups"
 msgstr "_Haber Grupları"
 
-#: pan/gui/post-ui.cc:2454
+#: pan/gui/post-ui.cc:2455
 msgid "Mail _To"
 msgstr "K_ime"
 
-#: pan/gui/post-ui.cc:2557
+#: pan/gui/post-ui.cc:2558
 msgid "Delete from Queue"
 msgstr "Kuyruktan Sil"
 
-#: pan/gui/post-ui.cc:2570
+#: pan/gui/post-ui.cc:2571
 msgid "No."
 msgstr "No."
 
-#: pan/gui/post-ui.cc:2574 pan/gui/post-ui.cc:2666 pan/gui/post-ui.cc:2707
+#: pan/gui/post-ui.cc:2575 pan/gui/post-ui.cc:2667 pan/gui/post-ui.cc:2708
 msgid "Filename"
 msgstr "Dosya Adı"
 
-#: pan/gui/post-ui.cc:2576
+#: pan/gui/post-ui.cc:2577
 msgid "Size (KB)"
 msgstr "Boyut (KB)"
 
-#: pan/gui/post-ui.cc:2674
+#: pan/gui/post-ui.cc:2675
 msgid "The current filename"
 msgstr "Mevcut dosya adı"
 
-#: pan/gui/post-ui.cc:2678
+#: pan/gui/post-ui.cc:2679
 msgid "Subject Line"
 msgstr "Konu Satırı"
 
-#: pan/gui/post-ui.cc:2686
+#: pan/gui/post-ui.cc:2687
 msgid "The current subject line"
 msgstr "Mevcut konu satırı"
 
-#: pan/gui/post-ui.cc:2700
+#: pan/gui/post-ui.cc:2701
 msgid "No. "
 msgstr "No. "
 
-#: pan/gui/post-ui.cc:2704
+#: pan/gui/post-ui.cc:2705
 msgid "Enable/Disable"
 msgstr "Aç/Kapat"
 
-#: pan/gui/post-ui.cc:2738
+#: pan/gui/post-ui.cc:2739
 msgid "Follo_wup-To"
 msgstr "Takip A_dresi"
 
 #. i18n: "poster" is a key used by many newsreaders.  probably safest to keep this key in english.
-#: pan/gui/post-ui.cc:2747
+#: pan/gui/post-ui.cc:2748
 msgid ""
 "The newsgroups where replies to your message should go.  This is only needed "
 "if it differs from the \"Newsgroups\" header.\n"
@@ -1798,11 +1798,11 @@ msgstr ""
 "Bütün cevapları kendi e-posta adresinize yönlendirmek için \"Cevapla: "
 "poster” seçeneğini kullanın"
 
-#: pan/gui/post-ui.cc:2754
+#: pan/gui/post-ui.cc:2755
 msgid "_Reply-To"
 msgstr "_Yanıtla"
 
-#: pan/gui/post-ui.cc:2762
+#: pan/gui/post-ui.cc:2763
 msgid ""
 "The email account where mail replies to your posted message should go. This "
 "is only needed if it differs from the \"From\" header."
@@ -1810,52 +1810,52 @@ msgstr ""
 "Gönderilen iletinize posta yanıtlayan e-posta hesabı gitmelidir. Böyle "
 "birşeye sadece \"Kimden” başlığı farklı olduğunda gerek duyulur."
 
-#: pan/gui/post-ui.cc:2769
+#: pan/gui/post-ui.cc:2770
 msgid "_Custom Headers"
 msgstr "_Özel Başlıklar"
 
-#: pan/gui/post-ui.cc:2793
+#: pan/gui/post-ui.cc:2794
 msgid "Add \"_User-Agent\" header"
 msgstr "\"_User-Agent” başlığını ekle"
 
-#: pan/gui/post-ui.cc:2800
+#: pan/gui/post-ui.cc:2801
 msgid "Add \"Message-_ID\" header"
 msgstr "\"Message-_ID” başlığını ekle"
 
-#: pan/gui/post-ui.cc:2928
+#: pan/gui/post-ui.cc:2929
 msgid "Select Parts"
 msgstr "Bölümleri Seç"
 
-#: pan/gui/post-ui.cc:2941
+#: pan/gui/post-ui.cc:2942
 msgid "_Parts"
 msgstr "_Bölümler"
 
-#: pan/gui/post-ui.cc:3108
+#: pan/gui/post-ui.cc:3109
 msgid "Post Article"
 msgstr "Makale Gönder"
 
-#: pan/gui/post-ui.cc:3129
+#: pan/gui/post-ui.cc:3130
 msgid "_Message"
 msgstr "_İleti"
 
-#: pan/gui/post-ui.cc:3130
+#: pan/gui/post-ui.cc:3131
 msgid "More _Headers"
 msgstr "Daha Fazla _Başlık"
 
-#: pan/gui/post-ui.cc:3131
+#: pan/gui/post-ui.cc:3132
 msgid "File _Queue"
 msgstr "Dosya _Kuyruğu"
 
-#: pan/gui/post-ui.cc:3162 pan/gui/profiles-dialog.cc:490
+#: pan/gui/post-ui.cc:3163 pan/gui/profiles-dialog.cc:490
 #, no-c-format
 msgid "On %d, %n wrote:"
 msgstr "%d tarihinde, %n dedi ki:"
 
-#: pan/gui/post-ui.cc:3191
+#: pan/gui/post-ui.cc:3192
 msgid "Add files to queue"
 msgstr "Dosyaları kuyruğa ekle"
 
-#: pan/gui/post-ui.cc:3267
+#: pan/gui/post-ui.cc:3268
 msgid "Save Upload Queue as NZB File"
 msgstr "Karşıya Yükleme Dosyasını NZB olarak Kaydet"
 
@@ -2091,105 +2091,100 @@ msgstr "Dil Ayarları"
 msgid "Font"
 msgstr "Yazı Tipi"
 
-#. systray and notify popup
-#: pan/gui/prefs-ui.cc:1077
+#: pan/gui/prefs-ui.cc:1078
 msgid "System Tray Behavior"
 msgstr "Sistem Çekmecesi Davranışı"
 
-#: pan/gui/prefs-ui.cc:1079
-msgid "Start Pan minimized"
-msgstr "Pan’ı simge durumunda başlat"
-
-#: pan/gui/prefs-ui.cc:1082
+#: pan/gui/prefs-ui.cc:1080
 msgid "Show notifications"
 msgstr "Bildirimleri göster"
 
 #. allow multiple instances (seperate, not communicating with dbus)
-#: pan/gui/prefs-ui.cc:1087
+#: pan/gui/prefs-ui.cc:1085
 msgid "Startup Behavior"
 msgstr "Başlangıç Davranışı"
 
-#: pan/gui/prefs-ui.cc:1089
+#: pan/gui/prefs-ui.cc:1087
 msgid "Allow multiple instances of Pan"
 msgstr "Pan’ın çoklu çalışmasına izin ver"
 
-#: pan/gui/prefs-ui.cc:1094
+#: pan/gui/prefs-ui.cc:1092
 msgid "Autosave Article Draft"
 msgstr "Taslak Makaleleri Otomatik Kaydet"
 
-#: pan/gui/prefs-ui.cc:1096
+#: pan/gui/prefs-ui.cc:1094
 msgid "Minutes to autosave the current Article Draft: "
 msgstr "Taslak Makalelerin Otomatik Kaydedilmesi için gereken dakika: "
 
-#: pan/gui/prefs-ui.cc:1101
+#: pan/gui/prefs-ui.cc:1099
 msgid "Autosave Articles"
 msgstr "Makaleleri Otomatik Kaydet"
 
-#: pan/gui/prefs-ui.cc:1103
+#: pan/gui/prefs-ui.cc:1101
 msgid "Minutes to autosave newsrc files: "
 msgstr "newsrc dosyasının otomatik kaydedilmesi için gereken dakika: "
 
-#: pan/gui/prefs-ui.cc:1110
+#: pan/gui/prefs-ui.cc:1108
 msgid "Password Storage"
 msgstr "Parola Deposu"
 
-#: pan/gui/prefs-ui.cc:1112
+#: pan/gui/prefs-ui.cc:1110
 msgid "Save passwords in password storage"
 msgstr "Parolaları parola deposuna kaydet"
 
-#: pan/gui/prefs-ui.cc:1119
+#: pan/gui/prefs-ui.cc:1117
 msgid "_Miscellaneous"
 msgstr "_Diğer"
 
-#: pan/gui/prefs-ui.cc:1119
+#: pan/gui/prefs-ui.cc:1117
 msgid "Miscellaneous"
 msgstr "Diğer"
 
-#: pan/gui/prefs-ui.cc:1124
+#: pan/gui/prefs-ui.cc:1122
 msgid "Pane Layout"
 msgstr "Çerçeve Yerleşimi"
 
-#: pan/gui/prefs-ui.cc:1143
+#: pan/gui/prefs-ui.cc:1141
 msgid "1=Groups, 2=Headers, 3=Body"
 msgstr "1=Gruplar 2=Başlıklar 3=Gövde"
 
-#: pan/gui/prefs-ui.cc:1145
+#: pan/gui/prefs-ui.cc:1143
 msgid "1=Groups, 2=Body, 3=Headers"
 msgstr "1=Gruplar 2=Gövde 3=Başlıklar"
 
-#: pan/gui/prefs-ui.cc:1147
+#: pan/gui/prefs-ui.cc:1145
 msgid "1=Headers, 2=Groups, 3=Body"
 msgstr "1=Başlıklar 2=Gruplar 3=Gövde"
 
-#: pan/gui/prefs-ui.cc:1149
+#: pan/gui/prefs-ui.cc:1147
 msgid "1=Headers, 2=Body, 3=Groups"
 msgstr "1=Başlıklar 2=Gövde 3=Gruplar"
 
-#: pan/gui/prefs-ui.cc:1151
+#: pan/gui/prefs-ui.cc:1149
 msgid "1=Body, 2=Groups, 3=Headers"
 msgstr "1=Gövde 2=Gruplar 3=Başlıklar"
 
-#: pan/gui/prefs-ui.cc:1153
+#: pan/gui/prefs-ui.cc:1151
 msgid "1=Body, 2=Headers, 3=Groups"
 msgstr "1=Gövde 2=Başlıklar 3=Gruplar"
 
-#: pan/gui/prefs-ui.cc:1157
+#: pan/gui/prefs-ui.cc:1155
 msgid "Layout"
 msgstr "Düzen"
 
-#: pan/gui/prefs-ui.cc:1162
+#: pan/gui/prefs-ui.cc:1160
 msgid "Header Pane Columns"
 msgstr "Başlık Çerçeve Sütunları"
 
-#: pan/gui/prefs-ui.cc:1166
+#: pan/gui/prefs-ui.cc:1164
 msgid "_Headers"
 msgstr "_Başlıklar"
 
-#: pan/gui/prefs-ui.cc:1166
+#: pan/gui/prefs-ui.cc:1164
 msgid "Headers"
 msgstr "Başlıklar"
 
-#: pan/gui/prefs-ui.cc:1172
+#: pan/gui/prefs-ui.cc:1170
 msgid ""
 "This menu lets you configure Pan to take certain actions on your behalf "
 "automatically, based on an article's score."
@@ -2197,202 +2192,202 @@ msgstr ""
 "Bu menü Pan’ı makalenin puanını baz alarak, sizin yerinize otomatik eylemler "
 "yapacak şekilde, yapılandırmanıza olanak tanır."
 
-#: pan/gui/prefs-ui.cc:1177
+#: pan/gui/prefs-ui.cc:1175
 msgid "Mark affected articles read"
 msgstr "Etkilenmiş makaleleri okunmuş olarak işaretle"
 
-#: pan/gui/prefs-ui.cc:1186
+#: pan/gui/prefs-ui.cc:1184
 msgid "_Delete articles scoring at: "
 msgstr "Şu puandaki makaleleri _sil: "
 
-#: pan/gui/prefs-ui.cc:1192
+#: pan/gui/prefs-ui.cc:1190
 msgid "Mark articles read scoring at: "
 msgstr "Şu puandaki makaleleri okunmuş olarak işaretle: "
 
-#: pan/gui/prefs-ui.cc:1198
+#: pan/gui/prefs-ui.cc:1196
 msgid "_Cache articles scoring at: "
 msgstr "Şu puandaki makaleleri _ön belleğe al: "
 
-#: pan/gui/prefs-ui.cc:1204
+#: pan/gui/prefs-ui.cc:1202
 msgid "Download attachments of articles scoring at: "
 msgstr "Şu puandaki makalelerin eklerini indir: "
 
-#: pan/gui/prefs-ui.cc:1207
+#: pan/gui/prefs-ui.cc:1205
 msgid "Actions"
 msgstr "Eylemler"
 
-#: pan/gui/prefs-ui.cc:1212 pan/gui/prefs-ui.cc:1233
+#: pan/gui/prefs-ui.cc:1210 pan/gui/prefs-ui.cc:1231
 msgid "Fonts"
 msgstr "Yazı Tipleri"
 
-#: pan/gui/prefs-ui.cc:1214
+#: pan/gui/prefs-ui.cc:1212
 msgid "Use custom font in Group Pane:"
 msgstr "Grup çerçevesinde özel bir yazı tipi kullan:"
 
-#: pan/gui/prefs-ui.cc:1219
+#: pan/gui/prefs-ui.cc:1217
 msgid "Use custom font in Header Pane:"
 msgstr "Başlık çerçevesinde özel bir yazı tipi kullan:"
 
-#: pan/gui/prefs-ui.cc:1224
+#: pan/gui/prefs-ui.cc:1222
 msgid "Use custom font in Body Pane:"
 msgstr "Gövde çerçevesinde özel bir yazı tipi kullan:"
 
-#: pan/gui/prefs-ui.cc:1229
+#: pan/gui/prefs-ui.cc:1227
 msgid "Monospace font:"
 msgstr "Monospace yazı tipi:"
 
-#: pan/gui/prefs-ui.cc:1233
+#: pan/gui/prefs-ui.cc:1231
 msgid "_Fonts"
 msgstr "_Yazı Tipleri"
 
-#: pan/gui/prefs-ui.cc:1242
+#: pan/gui/prefs-ui.cc:1240
 msgid "Header Pane"
 msgstr "Başlık Çerçevesi"
+
+#: pan/gui/prefs-ui.cc:1243 pan/gui/prefs-ui.cc:1249 pan/gui/prefs-ui.cc:1255
+#: pan/gui/prefs-ui.cc:1261 pan/gui/prefs-ui.cc:1267 pan/gui/prefs-ui.cc:1273
+#: pan/gui/prefs-ui.cc:1282 pan/gui/prefs-ui.cc:1288 pan/gui/prefs-ui.cc:1294
+#: pan/gui/prefs-ui.cc:1300 pan/gui/prefs-ui.cc:1306 pan/gui/prefs-ui.cc:1316
+#: pan/gui/prefs-ui.cc:1326
+msgid "Text:"
+msgstr "Metin:"
 
 #: pan/gui/prefs-ui.cc:1245 pan/gui/prefs-ui.cc:1251 pan/gui/prefs-ui.cc:1257
 #: pan/gui/prefs-ui.cc:1263 pan/gui/prefs-ui.cc:1269 pan/gui/prefs-ui.cc:1275
 #: pan/gui/prefs-ui.cc:1284 pan/gui/prefs-ui.cc:1290 pan/gui/prefs-ui.cc:1296
 #: pan/gui/prefs-ui.cc:1302 pan/gui/prefs-ui.cc:1308 pan/gui/prefs-ui.cc:1318
 #: pan/gui/prefs-ui.cc:1328
-msgid "Text:"
-msgstr "Metin:"
-
-#: pan/gui/prefs-ui.cc:1247 pan/gui/prefs-ui.cc:1253 pan/gui/prefs-ui.cc:1259
-#: pan/gui/prefs-ui.cc:1265 pan/gui/prefs-ui.cc:1271 pan/gui/prefs-ui.cc:1277
-#: pan/gui/prefs-ui.cc:1286 pan/gui/prefs-ui.cc:1292 pan/gui/prefs-ui.cc:1298
-#: pan/gui/prefs-ui.cc:1304 pan/gui/prefs-ui.cc:1310 pan/gui/prefs-ui.cc:1320
-#: pan/gui/prefs-ui.cc:1330
 msgid "Background:"
 msgstr "Arkaplan:"
 
-#: pan/gui/prefs-ui.cc:1249
+#: pan/gui/prefs-ui.cc:1247
 msgid "Scores of 9999 or more:"
 msgstr "9999 puan veya fazlası:"
 
-#: pan/gui/prefs-ui.cc:1255
+#: pan/gui/prefs-ui.cc:1253
 msgid "Scores from 5000 to 9998:"
 msgstr "5000 ile 9998 puan arası:"
 
-#: pan/gui/prefs-ui.cc:1261
+#: pan/gui/prefs-ui.cc:1259
 msgid "Scores from 1 to 4999:"
 msgstr "1 ile 4999 puan arası:"
 
-#: pan/gui/prefs-ui.cc:1267
+#: pan/gui/prefs-ui.cc:1265
 msgid "Scores from -9998 to -1:"
 msgstr "-9998 ile -1 puan arası:"
 
-#: pan/gui/prefs-ui.cc:1273
+#: pan/gui/prefs-ui.cc:1271
 msgid "Scores of -9999 or less:"
 msgstr "-9999 puan veya azı:"
 
-#: pan/gui/prefs-ui.cc:1279
+#: pan/gui/prefs-ui.cc:1277
 msgid "Collapsed thread with unread articles:"
 msgstr "Okunmamış makaleler ile daraltılmış konu:"
 
-#: pan/gui/prefs-ui.cc:1281
+#: pan/gui/prefs-ui.cc:1279
 msgid "Body Pane"
 msgstr "Gövde Çerçevesi"
 
-#: pan/gui/prefs-ui.cc:1288
+#: pan/gui/prefs-ui.cc:1286
 msgid "First level of quoted text:"
 msgstr "Alıntılanmış metnin ilk seviyesi:"
 
-#: pan/gui/prefs-ui.cc:1294
+#: pan/gui/prefs-ui.cc:1292
 msgid "Second level of quoted text:"
 msgstr "Alıntılanmış metnin ikinci seviyesi:"
 
-#: pan/gui/prefs-ui.cc:1300
+#: pan/gui/prefs-ui.cc:1298
 msgid "Third level of quoted text:"
 msgstr "Alıntılanmış metnin üçüncü seviyesi:"
 
 #.
-#: pan/gui/prefs-ui.cc:1306
+#: pan/gui/prefs-ui.cc:1304
 msgid "URL:"
 msgstr "Adres:"
 
 #.
-#: pan/gui/prefs-ui.cc:1312
+#: pan/gui/prefs-ui.cc:1310
 msgid "Signature:"
 msgstr "İmza:"
 
-#: pan/gui/prefs-ui.cc:1315
+#: pan/gui/prefs-ui.cc:1313
 msgid "Group Pane"
 msgstr "Grup Çerçevesi"
 
 #.
-#: pan/gui/prefs-ui.cc:1322
+#: pan/gui/prefs-ui.cc:1320
 msgid "Group Color:"
 msgstr "Grup Rengi:"
 
-#: pan/gui/prefs-ui.cc:1326
+#: pan/gui/prefs-ui.cc:1324
 msgid "Other Text"
 msgstr "Diğer Metin"
 
-#: pan/gui/prefs-ui.cc:1332
+#: pan/gui/prefs-ui.cc:1330
 msgid "Text Color:"
 msgstr "Metin Rengi:"
 
-#: pan/gui/prefs-ui.cc:1335
+#: pan/gui/prefs-ui.cc:1333
 msgid "_Colors"
 msgstr "_Renkler"
 
-#: pan/gui/prefs-ui.cc:1335
+#: pan/gui/prefs-ui.cc:1333
 msgid "Colors"
 msgstr "Renkler"
 
-#: pan/gui/prefs-ui.cc:1340
+#: pan/gui/prefs-ui.cc:1338
 msgid "Preferred Applications"
 msgstr "Tercih Edilen Uygulamalar"
 
-#: pan/gui/prefs-ui.cc:1344
+#: pan/gui/prefs-ui.cc:1342
 msgid "_Web browser:"
 msgstr "_Web tarayıcısı:"
 
-#: pan/gui/prefs-ui.cc:1347
+#: pan/gui/prefs-ui.cc:1345
 msgid "_Gemini client:"
 msgstr "_Gemini istemcisi:"
 
-#: pan/gui/prefs-ui.cc:1350
+#: pan/gui/prefs-ui.cc:1348
 msgid "_Mail reader:"
 msgstr "_Posta okucusu:"
 
-#: pan/gui/prefs-ui.cc:1352
+#: pan/gui/prefs-ui.cc:1350
 msgid "_Text editor:"
 msgstr "_Metin düzenleyici:"
 
-#: pan/gui/prefs-ui.cc:1354
+#: pan/gui/prefs-ui.cc:1352
 msgid "_HTML previewer:"
 msgstr "_HTML ön izleyicisi:"
 
-#: pan/gui/prefs-ui.cc:1356
+#: pan/gui/prefs-ui.cc:1354
 msgid "_Applications"
 msgstr "_Uygulamalar"
 
-#: pan/gui/prefs-ui.cc:1356
+#: pan/gui/prefs-ui.cc:1354
 msgid "Applications"
 msgstr "Uygulamalar"
 
-#: pan/gui/prefs-ui.cc:1361 pan/gui/task-pane.cc:555
+#: pan/gui/prefs-ui.cc:1359 pan/gui/task-pane.cc:555
 msgid "Encoding"
 msgstr "Kodlama"
 
-#: pan/gui/prefs-ui.cc:1365
+#: pan/gui/prefs-ui.cc:1363
 msgid "Default bytes per file (for encoder): "
 msgstr "Her dosya için varsayılan bayt (kodlayıcı için): "
 
-#: pan/gui/prefs-ui.cc:1370
+#: pan/gui/prefs-ui.cc:1368
 msgid "_Upload"
 msgstr "_Karşıya Yükle"
 
-#: pan/gui/prefs-ui.cc:1370
+#: pan/gui/prefs-ui.cc:1368
 msgid "Upload"
 msgstr "Karşıya Yükle"
 
-#: pan/gui/prefs-ui.cc:1379
+#: pan/gui/prefs-ui.cc:1377
 msgid "_Shortcuts"
 msgstr "_Kısayollar"
 
-#: pan/gui/prefs-ui.cc:1379
+#: pan/gui/prefs-ui.cc:1377
 msgid "Shortcuts"
 msgstr "Kısayollar"
 
@@ -3807,6 +3802,9 @@ msgstr "no_mail"
 #, c-format
 #~ msgid "Error setting spellchecker: %s"
 #~ msgstr "Özel imla denetleyicisi ayar hatası: %s"
+
+#~ msgid "Start Pan minimized"
+#~ msgstr "Pan’ı simge durumunda başlat"
 
 #~ msgid "Toggle on/offline"
 #~ msgstr "Değiştir aç/kapat"
