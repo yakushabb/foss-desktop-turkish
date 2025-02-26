@@ -3,26 +3,26 @@
 # This file is distributed under the same license as the Warp package.
 #
 # Sabri Ünal <yakushabb@gmail.com>, 2022-2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2022-2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2022-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Warp Master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/warp/issues\n"
-"POT-Creation-Date: 2024-09-01 16:03+0000\n"
-"PO-Revision-Date: 2024-05-09 10:54+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-01-11 14:00+0000\n"
+"PO-Revision-Date: 2025-01-11 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.5\n"
 "X-POOTLE-MTIME: 1434043811.000000\n"
 
 #: data/app.drey.Warp.desktop.in.in:3 data/app.drey.Warp.metainfo.xml.in.in:4
-#: src/main.rs:122 src/ui/window.ui:81
+#: src/main.rs:131 src/ui/window.ui:81
 msgid "Warp"
 msgstr "Warp"
 
@@ -37,7 +37,7 @@ msgstr ""
 "Gnome;GTK;Wormhole;Magic-Wormhole;solucan deliği;büyülü solucan deliği;"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/app.drey.Warp.metainfo.xml.in.in:9 src/ui/application.rs:251
+#: data/app.drey.Warp.metainfo.xml.in.in:9 src/ui/window.rs:303
 msgid "Fina Wilke"
 msgstr "Fina Wilke"
 
@@ -97,7 +97,7 @@ msgstr "Ana Pencere"
 
 #. Translators: Entry placeholder; This is a noun
 #: data/app.drey.Warp.metainfo.xml.in.in:68
-#: data/app.drey.Warp.metainfo.xml.in.in:88 src/ui/window.ui:205
+#: data/app.drey.Warp.metainfo.xml.in.in:88 src/ui/window.ui:207
 msgid "Transmit Code"
 msgstr "Aktarım Kodu"
 
@@ -346,7 +346,7 @@ msgid "File has been saved to the Downloads folder as “{}”"
 msgstr "Dosya, İndirilenler klasörüne “{}” olarak kaydedildi"
 
 #. Translators: Title
-#: src/ui/action_view.rs:714 src/ui/action_view.ui:288
+#: src/ui/action_view.rs:714 src/ui/action_view.ui:290
 msgid "File Transfer Failed"
 msgstr "Dosya Aktarımı Başarısız"
 
@@ -388,30 +388,30 @@ msgid "Save As"
 msgstr "Farklı Kaydet"
 
 #. Translators: Button; Transmit Link is a noun
-#: src/ui/action_view.ui:108
+#: src/ui/action_view.ui:106
 msgid "Copy Transmit Link"
 msgstr "Aktarım Bağlantısını Kopyala"
 
-#: src/ui/action_view.ui:133
+#: src/ui/action_view.ui:131
 msgid "Your Transmit Code"
 msgstr "Aktarım Kodunuz"
 
 #. Translators: Button; Transmit Code is a noun
-#: src/ui/action_view.ui:181
+#: src/ui/action_view.ui:179
 msgid "Copy Transmit Code"
 msgstr "Aktarım Kodunu Kopyala"
 
 #. Translators: Title
-#: src/ui/action_view.ui:198
+#: src/ui/action_view.ui:196
 msgid "Accept File Transfer?"
 msgstr "Dosya Aktarımı Kabul Edilsin Mi?"
 
-#: src/ui/action_view.ui:207
+#: src/ui/action_view.ui:206
 msgid "Save to Downloads Folder"
 msgstr "İndirilenler Klasörüne Kaydet"
 
 #. Translators: Button
-#: src/ui/action_view.ui:209
+#: src/ui/action_view.ui:208
 msgid "_Accept"
 msgstr "_Kabul Et"
 
@@ -426,87 +426,69 @@ msgid "File Transfer Successful"
 msgstr "Dosya Aktarımı Başarılı"
 
 #. Translators: Button
-#: src/ui/action_view.ui:252
+#: src/ui/action_view.ui:253
 msgid "_Open File"
 msgstr "Dosya _Aç"
 
 #. Translators: Button
-#: src/ui/action_view.ui:267 src/ui/window.ui:51
+#: src/ui/action_view.ui:269 src/ui/window.ui:51
 msgid "_Show in Folder"
 msgstr "_Klasörde Göster"
 
 #. Translators: Button
-#: src/ui/action_view.ui:293
+#: src/ui/action_view.ui:296
 msgid "Co_py Error Message"
 msgstr "Hata İletisini Ko_pyala"
 
 #. Translators: Button
-#: src/ui/action_view.ui:310
+#: src/ui/action_view.ui:314
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: src/ui/application.rs:63
+#: src/ui/application.rs:60
 msgid "Unable to use transfer link: another transfer already in progress"
 msgstr "Aktarım bağlantısı kullanılamaz: başka aktarım sürüyor"
 
-#: src/ui/application.rs:252
-msgid "Tobias Bernard"
-msgstr "Tobias Bernard"
-
-#: src/ui/application.rs:252
-msgid "Sophie Herold"
-msgstr "Sophie Herold"
-
-#: src/ui/application.rs:253
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>\n"
-"Emin Tufan Çetin <etcetin@gmail.com>"
-
-#: src/ui/application.rs:268
+#: src/ui/application.rs:207
 msgid "Sending a File"
 msgstr "Dosya Gönderiliyor"
 
-#: src/ui/application.rs:269
+#: src/ui/application.rs:208
 msgid "Receiving a File"
 msgstr "Dosya Alınıyor"
 
-#: src/ui/camera.rs:251 src/ui/camera.rs:368
+#: src/ui/camera.rs:245
 msgid ""
 "Camera access denied. Open Settings and allow Warp to access the camera."
 msgstr ""
 "Kamera erişimi reddedildi. Ayarlarʼı açın ve Warpʼın kamerayaya erişmesine "
 "izin verin."
 
-#: src/ui/camera.rs:255
+#: src/ui/camera.rs:249
 msgid "Failed to start the camera: {}"
 msgstr "Kamera başlatılamadı: {}"
 
-#: src/ui/camera.rs:258
+#: src/ui/camera.rs:252
 msgid "Error"
 msgstr "Hata"
 
-#: src/ui/camera.rs:269
-msgid "Error talking to the camera portal"
-msgstr "Kamera kapısıyla konuşurken hata"
-
-#: src/ui/camera.rs:503
+#: src/ui/camera.rs:341
 msgid "Could not use the camera portal: {}"
 msgstr "Kamera kapısı kullanılamadı: {}"
 
-#: src/ui/camera.rs:510
+#: src/ui/camera.rs:348
 msgid "Could not start the device provider: {}"
 msgstr "Aygıt sağlayıcısı başlatılamadı: {}"
 
-#: src/ui/camera.rs:541
+#: src/ui/camera.rs:379
 msgid "No Camera Found"
 msgstr "Kamera Bulunamadı"
 
-#: src/ui/camera.rs:543
+#: src/ui/camera.rs:381
 msgid "Connect a camera to scan QR codes"
 msgstr "QR kodlarını taramak için kamera bağlayın"
 
-#: src/ui/camera.ui:11 src/ui/window.ui:213
+#: src/ui/camera.ui:11 src/ui/window.ui:216
 msgid "Scan QR Code"
 msgstr "QR Kodunu Tara"
 
@@ -522,6 +504,15 @@ msgstr "_Sorun Giderme"
 msgid "Downloads dir missing. Please set XDG_DOWNLOAD_DIR"
 msgstr ""
 "İndirilenler dizini bulunamadı. Lütfen XDG_DOWNLOADS_DIR değerini ayarlayın"
+
+#: src/ui/licenses.rs:150
+msgid "Licensed under the <a href=\"{}\">{}</a>."
+msgstr "<a href=\"{}\">{}</a> ile lisanslanmıştır."
+
+#. Translators: License information without a link to the software license
+#: src/ui/licenses.rs:155
+msgid "Licensed under the {}."
+msgstr "{} ile lisanslanmıştır."
 
 #: src/ui/preferences.rs:97
 msgid ""
@@ -626,7 +617,7 @@ msgstr ""
 msgid "Get Started Using Warp"
 msgstr "Warp Kullanmaya Başla"
 
-#: src/ui/window.rs:128
+#: src/ui/window.rs:135
 msgid ""
 "Error loading config file “{0}”, using default config.\n"
 "Error: {1}"
@@ -634,23 +625,37 @@ msgstr ""
 "“{0}” yapılandırma dosyası yüklenemedi, öntanımlı ayar kullanılıyor.\n"
 "Hata: {1}"
 
-#: src/ui/window.rs:242
+#: src/ui/window.rs:284
 msgid "Error saving configuration file: {}"
 msgstr "Yapılandırma dosyası kaydedilirken hata: {}"
 
-#: src/ui/window.rs:360
+#: src/ui/window.rs:304
+msgid "Tobias Bernard"
+msgstr "Tobias Bernard"
+
+#: src/ui/window.rs:304
+msgid "Sophie Herold"
+msgstr "Sophie Herold"
+
+#: src/ui/window.rs:305
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#: src/ui/window.rs:370
 msgid "Select File to Send"
 msgstr "Gönderilecek Dosya Seç"
 
-#: src/ui/window.rs:368
+#: src/ui/window.rs:378
 msgid "Select Folder to Send"
 msgstr "Gönderilecek Klasör Seç"
 
-#: src/ui/window.rs:425
+#: src/ui/window.rs:441
 msgid "“{}” appears to be an invalid Transmit Code. Please try again."
 msgstr "“{}” geçersiz Aktarım Kodu gibi görünüyor. Lütfen yeniden deneyin."
 
-#: src/ui/window.rs:546
+#: src/ui/window.rs:565
 msgid "Sending files with a preconfigured code is not yet supported"
 msgstr "Önceden yapılandırılmış kodla dosya gönderimi henüz desteklenmiyor"
 
@@ -701,7 +706,7 @@ msgstr "_Durdur"
 msgid "Unable to Open File"
 msgstr "Dosya Açılamadı"
 
-#: src/ui/window.ui:50 src/util/error.rs:189
+#: src/ui/window.ui:50 src/util/error.rs:207
 msgid "_Close"
 msgstr "_Kapat"
 
@@ -722,75 +727,75 @@ msgid "Select or drop the file or directory to send"
 msgstr "Gönderilecek dosyayı/dizini seç veya sürükleyip bırak"
 
 #. Translators: Button
-#: src/ui/window.ui:141
+#: src/ui/window.ui:142
 msgid "Select _File…"
 msgstr "_Dosya Seç…"
 
 #. Translators: Button
-#: src/ui/window.ui:155
+#: src/ui/window.ui:157
 msgid "Select F_older…"
 msgstr "_Klasör Seç…"
 
-#: src/ui/window.ui:175
+#: src/ui/window.ui:177
 msgid "_Receive"
 msgstr "_Al"
 
-#: src/ui/window.ui:184
+#: src/ui/window.ui:186
 msgid "Receive File"
 msgstr "Dosya Al"
 
 #. Translators: Text above code input box, transmit code is a noun
-#: src/ui/window.ui:186
+#: src/ui/window.ui:188
 msgid "Enter the transmit code from the sender"
 msgstr "Göndericiden gelen aktarım kodunu girin"
 
 #. Translators: Button
-#: src/ui/window.ui:233
+#: src/ui/window.ui:237
 msgid "Receive _File"
 msgstr "_Dosya Al"
 
-#: src/ui/window.ui:259
+#: src/ui/window.ui:263
 msgid "File Transfer"
 msgstr "Dosya Aktarımı"
 
-#: src/util.rs:34 src/util.rs:39
+#: src/util.rs:37 src/util.rs:43
 msgid "Failed to open downloads folder."
 msgstr "İndirilenler klasörü açılamadı."
 
-#: src/util.rs:206 src/util.rs:279
+#: src/util.rs:216 src/util.rs:291
 msgid "The URI format is invalid"
 msgstr "URI biçimi geçersiz"
 
-#: src/util.rs:210 src/util.rs:214
+#: src/util.rs:220 src/util.rs:224
 msgid "The code does not match the required format"
 msgstr "Kod gerekli biçimle eşleşmiyor"
 
-#: src/util.rs:229 src/util.rs:235
+#: src/util.rs:241 src/util.rs:247
 msgid "Unknown URI version: {}"
 msgstr "Bilinmeyen URI sürümü: {}"
 
-#: src/util.rs:244
+#: src/util.rs:256
 msgid "The URI parameter “rendezvous” contains an invalid URL: “{}”"
 msgstr "“rendezvous” URI parametresi geçersiz URL içeriyor: “{}”"
 
-#: src/util.rs:256
+#: src/util.rs:268
 msgid "The URI parameter “role” must be “follower” or “leader” (was: “{}”)"
 msgstr ""
 "“role” URI parametresi, “follower” veya “leader” olmalıdır (olan: “{}”)"
 
-#: src/util.rs:263
+#: src/util.rs:275
 msgid "Unknown URI parameter “{}”"
 msgstr "Bilinmeyen URI parametresi “{}”"
 
-#: src/util/error.rs:172
+#: src/util/error.rs:190
 msgid "An error occurred"
 msgstr "Hata oluştu"
 
-#: src/util/error.rs:200 src/util/error.rs:283
+#: src/util/error.rs:218 src/util/error.rs:333
 msgid "Corrupt or unexpected message received"
 msgstr "Bozuk ya da beklenmedik ileti alındı"
 
-#: src/util/error.rs:205
+#: src/util/error.rs:223
 msgid ""
 "The rendezvous server will not allow further connections for this code. A "
 "new code needs to be generated."
@@ -798,7 +803,7 @@ msgstr ""
 "Randevu sunucusu, bu kod için daha çok bağlantıya izin vermiyor. Yeni kod "
 "oluşturulmalıdır."
 
-#: src/util/error.rs:207
+#: src/util/error.rs:225
 msgid ""
 "The rendezvous server removed the code due to inactivity. A new code needs "
 "to be generated."
@@ -806,11 +811,11 @@ msgstr ""
 "Randevu sunucusu, durgunluk nedeniyle kodu kaldırdı. Yeni kod "
 "oluşturulmalıdır."
 
-#: src/util/error.rs:209
+#: src/util/error.rs:227
 msgid "The rendezvous server responded with an unknown message: {}"
 msgstr "Randevu sunucusu bilinmeyen iletiyle yanıtladı: {}"
 
-#: src/util/error.rs:212
+#: src/util/error.rs:230
 msgid ""
 "Error connecting to the rendezvous server.\n"
 "You have entered a custom rendezvous server URL in preferences. Please "
@@ -820,7 +825,7 @@ msgstr ""
 "Tercihlerde özel randevu sunucusu URLʼsi girdiniz. URLʼnin doğru olduğundan "
 "ve sunucunun çalıştığından emin olun."
 
-#: src/util/error.rs:214
+#: src/util/error.rs:232
 msgid ""
 "Error connecting to the rendezvous server.\n"
 "Please try again later / verify you are connected to the internet."
@@ -828,7 +833,7 @@ msgstr ""
 "Randevu sunucusuna bağlanırken hata oluştu.\n"
 "Lütfen daha sonra yeniden deneyin / internete bağlı olduğunuzdan emin olun."
 
-#: src/util/error.rs:218
+#: src/util/error.rs:236
 msgid ""
 "Encryption key confirmation failed. If you or your peer didn't mistype the "
 "code, this is a sign of an attacker guessing passwords. Please try again "
@@ -838,51 +843,83 @@ msgstr ""
 "yazmadıysanız, bu, saldırganın parolaları öngördüğünün belirtisidir. Lütfen "
 "bir süre sonra yeniden deneyin."
 
-#: src/util/error.rs:220
+#: src/util/error.rs:238
 msgid "Cannot decrypt a received message"
 msgstr "Alınan iletinin şifresi çözülemiyor"
 
-#: src/util/error.rs:221 src/util/error.rs:294 src/util/error.rs:300
+#: src/util/error.rs:239 src/util/error.rs:344 src/util/error.rs:351
 msgid "An unknown error occurred"
 msgstr "Bilinmeyen hata oluştu"
 
-#: src/util/error.rs:227
+#. Translators: magic-wormhole codes usually look like n-word-word... where n MUST be an arabic number (unlimited digits). The first '-' is mandatory. This error occurs when an empty code was entered.
+#: src/util/error.rs:246
+msgid "The specified code must not be empty"
+msgstr "Belirtilen kod boş olmamalıdır"
+
+#. Translators: magic-wormhole codes usually look like n-word-word... where n MUST be an arabic number (unlimited digits). The first '-' is mandatory. This error occurs when a code was entered that does not contain any '-'.
+#: src/util/error.rs:248
+msgid "The code must contain at least one “-”"
+msgstr "Kod en az bir “-” içermelidir"
+
+#. Translators: magic-wormhole codes usually look like n-word-word... where n MUST be an arabic number (unlimited digits). This error occurs when a code was entered that does not contain a number before the '-'.
+#: src/util/error.rs:250
+msgid "The first segment of a code must be a number"
+msgstr "Kodun ilk bölümü sayı olmalıdır"
+
+#: src/util/error.rs:254
+msgid "Code too weak. It can be guessed with an average of {} try."
+msgid_plural "Code too weak. It can be guessed with an average of {} tries."
+msgstr[0] "Kod çok zayıf. Ortalama {} deneme ile öngörülebilir."
+
+#: src/util/error.rs:262
+msgid ""
+"Code too short. The text after the “-” must be at least {} character long."
+msgid_plural ""
+"Code too short. The text after the “-” must be at least {} characters long."
+msgstr[0] ""
+"Kod çok kısa. “-” iminden sonraki metin en az {} karakter olmalıdır."
+
+#: src/util/error.rs:269
+msgid "Code too weak"
+msgstr "Kod çok zayıf"
+
+#: src/util/error.rs:276
 msgid "File / Directory not found"
 msgstr "Dosya / Dizin bulunamadı"
 
-#: src/util/error.rs:228
+#: src/util/error.rs:277
 msgid "Permission denied"
 msgstr "İzin reddedildi"
 
-#: src/util/error.rs:235
+#: src/util/error.rs:285
 msgid "Canceled"
 msgstr "İptal edildi"
 
-#: src/util/error.rs:237
+#: src/util/error.rs:287
 msgid "Portal service response: Permission denied"
 msgstr "Kapı hizmeti yanıtı: İzin reddedildi"
 
-#: src/util/error.rs:240
+#: src/util/error.rs:290
 msgid "The portal service has failed: {}"
 msgstr "Kapı hizmeti başarısız: {}"
 
-#: src/util/error.rs:243
+#: src/util/error.rs:293
 msgid "Error communicating with the portal service via zbus: {}"
 msgstr "Kapı hizmetiyle zbus üzerinden iletişim kurulurken hata: {}"
 
-#: src/util/error.rs:246 src/util/error.rs:247
+#: src/util/error.rs:296 src/util/error.rs:297
 msgid "Portal error: {}"
 msgstr "Kapı hatası: {}"
 
-#: src/util/error.rs:258
+#: src/util/error.rs:308
 msgid "Transfer was not acknowledged by peer"
 msgstr "Aktarım eşçe onaylanmadı"
 
-#: src/util/error.rs:260
+#: src/util/error.rs:310
 msgid "The received file is corrupted"
 msgstr "Alınan dosya bozuk"
 
-#: src/util/error.rs:266
+#: src/util/error.rs:316
 msgid ""
 "The file contained a different amount of bytes than advertised! Sent {} "
 "bytes, but should have been {}"
@@ -890,31 +927,31 @@ msgstr ""
 "Dosya, söylenenden başka miktarda bayt içeriyordu! {} bayt gönderildi, ancak "
 "{} olmalıydı"
 
-#: src/util/error.rs:271
+#: src/util/error.rs:321
 msgid "The other side has cancelled the transfer"
 msgstr "Karşı taraf aktarımı iptal etti"
 
-#: src/util/error.rs:273
+#: src/util/error.rs:323
 msgid "The other side has rejected the transfer"
 msgstr "Karşı taraf aktarımı reddetti"
 
-#: src/util/error.rs:275
+#: src/util/error.rs:325
 msgid "Something went wrong on the other side: {}"
 msgstr "Karşı tarafta bir şeyler yanlış gitti: {}"
 
-#: src/util/error.rs:290
+#: src/util/error.rs:340
 msgid "Error while establishing file transfer connection"
 msgstr "Dosya aktarım bağlantısı kurulurken hata"
 
-#: src/util/error.rs:292
+#: src/util/error.rs:342
 msgid "Unknown file transfer error"
 msgstr "Bilinmeyen dosya aktarım hatası"
 
-#: src/util/error.rs:301
+#: src/util/error.rs:352
 msgid "An unknown error occurred while creating a zip file: {}"
 msgstr "Zip dosyası oluşturulurken bilinmeyen hata oluştu: {}"
 
-#: src/util/error.rs:302
+#: src/util/error.rs:353
 msgid ""
 "An unexpected error occurred. Please report an issue with the error message."
 msgstr "Beklenmedik hata oluştu. Lütfen hata iletisiyle ilgili sorun bildirin."

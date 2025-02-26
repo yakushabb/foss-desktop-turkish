@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deja-dup\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/deja-dup/-/issues\n"
-"POT-Creation-Date: 2024-09-01 16:08+0000\n"
-"PO-Revision-Date: 2024-08-25 00:15+0300\n"
+"POT-Creation-Date: 2025-02-24 02:25+0000\n"
+"PO-Revision-Date: 2024-10-20 21:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #: app/Assistant.vala:287 app/MountOperationAssistant.vala:161
 msgid "Co_ntinue"
@@ -485,43 +485,43 @@ msgstr "Klasör Seç"
 msgid "Location not available"
 msgstr "Konum uygun değil"
 
-#: app/Notifications.vala:13
+#: app/Notifications.vala:24
 msgid "Starting scheduled backup"
 msgstr "Zamanlanmış yedekleme başlatılıyor"
 
-#: app/Notifications.vala:18
+#: app/Notifications.vala:29
 msgid "Scheduled backup delayed"
 msgstr "Zamanlanmış yedekleme ertelendi"
 
-#: app/Notifications.vala:25
+#: app/Notifications.vala:36
 msgid "Backup completed"
 msgstr "Yedekleme tamamlandı"
 
-#: app/Notifications.vala:30
+#: app/Notifications.vala:41
 msgid "Backup finished"
 msgstr "Yedekleme bitti"
 
-#: app/Notifications.vala:31
+#: app/Notifications.vala:42
 msgid "But not all files were successfully backed up."
 msgstr "Ama tüm dosyalar başarıyla yedeklenmedi."
 
-#: app/Notifications.vala:35 data/ui/SnapBanner.ui:12
+#: app/Notifications.vala:46 data/ui/SnapBanner.ui:12
 msgid "This snap release is deprecated and might not receive updates."
 msgstr "Bu snap sürümü kullanımdan kaldırılmıştır ve güncelleme almayabilir."
 
-#: app/Notifications.vala:41
+#: app/Notifications.vala:58
 msgid "Backup failed"
 msgstr "Yedekleme başarısız"
 
-#: app/Notifications.vala:53
+#: app/Notifications.vala:70
 msgid "Restore failed"
 msgstr "Geri yükleme başarısız"
 
-#: app/Notifications.vala:79
+#: app/Notifications.vala:96
 msgid "Keep your files safe by backing up regularly"
 msgstr "Dosyalarınızı düzenli olarak yedekleyerek güvende tutun"
 
-#: app/Notifications.vala:80
+#: app/Notifications.vala:97
 msgid ""
 "Important documents, data, and settings can be protected by storing them in "
 "a backup. In the case of a disaster, you would be able to recover them from "
@@ -530,11 +530,11 @@ msgstr ""
 "Önemli belgeler, bilgiler ve ayarlar yedeklenerek depolanabilir. Bir çökme "
 "durumunda yedeklemelerle verilerinizi kurtarabilirsiniz."
 
-#: app/Notifications.vala:85
+#: app/Notifications.vala:102
 msgid "Don’t Show Again"
 msgstr "Yeniden Gösterme"
 
-#: app/Notifications.vala:86
+#: app/Notifications.vala:103
 msgid "Open Backups"
 msgstr "Yedekleri Aç"
 
@@ -644,11 +644,11 @@ msgstr "Hemen yedekleme başlat"
 msgid "Please list files to restore"
 msgstr "Lütfen geri yüklenecek dosyaları listeleyin"
 
-#: app/main.vala:96 app/main.vala:109
+#: app/main.vala:95 app/main.vala:107
 msgid "An operation is already in progress"
 msgstr "Bir işlem zaten sürüyor"
 
-#: app/main.vala:402
+#: app/main.vala:377
 msgid "translator-credits"
 msgstr "Emin Tufan Çetin <etcetin@gmail.com>"
 
@@ -657,7 +657,7 @@ msgstr "Emin Tufan Çetin <etcetin@gmail.com>"
 #. context is itself a reference to both the underlying command line tool
 #. "duplicity" and the act of duplicating data for backup.  As a whole, the
 #. phrase "Déjà Dup" may not be very translatable.
-#: app/main.vala:507 data/app.metainfo.xml.in:11
+#: app/main.vala:482 data/app.metainfo.xml.in:11
 msgid "Déjà Dup Backups"
 msgstr "Déjà Dup Yedekleri"
 
@@ -844,14 +844,25 @@ msgid ""
 "If false, Déjà Dup will refuse to run scheduled backups over metered network "
 "connections (like 4G)."
 msgstr ""
-"Reddedilirse, Déjà Dup, sınırlı ağ bağlantıları (4G gibi) üzerinden "
-"zamanlanmış yedekleme yapmayı reddedecektir."
+"Yanlış (false), Déjà Dup, sınırlı ağ bağlantıları (4G gibi) üzerinden "
+"zamanlanmış yedekleme yapmaz."
 
 #: data/app.gschema.xml.in:85
+msgid "Whether to ignore Power Saver mode"
+msgstr "Güç Tutumu kipinin göz ardı edilme durumu"
+
+#: data/app.gschema.xml.in:86
+msgid ""
+"If false, Déjà Dup will refuse to run scheduled backups during Power Saver "
+"mode."
+msgstr ""
+"Yanlış (false) ise, Déjà Dup Güç Tutumu kipinde zamanlanmış yedekleme yapmaz."
+
+#: data/app.gschema.xml.in:90
 msgid "Command to run before the backup tool"
 msgstr "Yedekleme aracından önce çalışacak komut"
 
-#: data/app.gschema.xml.in:86
+#: data/app.gschema.xml.in:91
 msgid ""
 "Useful if you need to manually mount a folder, for example. If this command "
 "fails, the backup won't start."
@@ -859,11 +870,11 @@ msgstr ""
 "Örneğin bir klasörü elle bağlamalıysanız kullanışlıdır. Eğer bu komut "
 "başarısızolursa, yedekleme başlamayacaktır."
 
-#: data/app.gschema.xml.in:90
+#: data/app.gschema.xml.in:95
 msgid "Command to run after the backup tool"
 msgstr "Yedekleme aracından sonra çalışacak komut"
 
-#: data/app.gschema.xml.in:91
+#: data/app.gschema.xml.in:96
 msgid ""
 "Useful if you need to clean up after your setup command. Failures are "
 "ignored."
@@ -871,11 +882,11 @@ msgstr ""
 "Kurulu komutunuzdan sonra temizliğe gereksiniyorsanız kullanışlıdır. Hatalar "
 "yok sayılır."
 
-#: data/app.gschema.xml.in:95
+#: data/app.gschema.xml.in:100
 msgid "Command to run around the backup tool"
 msgstr "Yedekleme aracının çevresinde çalıştırılacak komut"
 
-#: data/app.gschema.xml.in:96
+#: data/app.gschema.xml.in:101
 msgid ""
 "Useful if you need to limit resources or otherwise wrap the execution of the "
 "tool command. An example value might be 'trickle -u 500' which would result "
@@ -885,11 +896,11 @@ msgstr ""
 "kullanışlıdır. Örnek değer 'trickle -u 500' olabilir; bu, deja-dup’ın "
 "'trickle -u 500 duplicity …' çalıştırmasıyla sonuçlanacaktır."
 
-#: data/app.gschema.xml.in:124
+#: data/app.gschema.xml.in:129
 msgid "Type of location to store backup"
 msgstr "Yedeğin depolanacağı konum türü"
 
-#: data/app.gschema.xml.in:125
+#: data/app.gschema.xml.in:130
 msgid ""
 "The type of backup location. If ‘auto’, a default will be chosen based on "
 "what is available."
@@ -897,13 +908,13 @@ msgstr ""
 "Yedek konumunun türü. Eğer ‘auto’ ise, uygun olana göre bir öntanımlı "
 "seçilecektir."
 
-#: data/app.gschema.xml.in:137 data/app.gschema.xml.in:160
-#: data/app.gschema.xml.in:173 data/app.gschema.xml.in:181
-#: data/app.gschema.xml.in:188
+#: data/app.gschema.xml.in:142 data/app.gschema.xml.in:165
+#: data/app.gschema.xml.in:178 data/app.gschema.xml.in:186
+#: data/app.gschema.xml.in:193
 msgid "The folder where backups are stored"
 msgstr "Yedeklerin depolanacağı klasör"
 
-#: data/app.gschema.xml.in:138
+#: data/app.gschema.xml.in:143
 msgid ""
 "The folder hierarchy where backups are stored. Paths can be absolute or "
 "relative to your home directory."
@@ -911,11 +922,11 @@ msgstr ""
 "Yedeklerin depolandığı klasör hiyerarşisi. Yollar mutlak veya ev dizininize "
 "göre göreceli olabilir."
 
-#: data/app.gschema.xml.in:145
+#: data/app.gschema.xml.in:150
 msgid "UUID"
 msgstr "UUID"
 
-#: data/app.gschema.xml.in:146
+#: data/app.gschema.xml.in:151
 msgid ""
 "The unique filesystem identifier for the drive, used to recognize the drive "
 "when it is plugged in."
@@ -923,38 +934,38 @@ msgstr ""
 "Sürücünün takılı olduğu sürücüyü tanıması için kullanılan özgün dosya "
 "sistemi tanımlayıcısı."
 
-#: data/app.gschema.xml.in:150 data/ui/Browser.ui:313
+#: data/app.gschema.xml.in:155 data/ui/Browser.ui:313
 msgid "Name"
 msgstr "Ad"
 
-#: data/app.gschema.xml.in:151
+#: data/app.gschema.xml.in:156
 msgid "The name of the external drive."
 msgstr "Dış sürücünün adı."
 
-#: data/app.gschema.xml.in:155
+#: data/app.gschema.xml.in:160
 msgid "Icon"
 msgstr "Simge"
 
-#: data/app.gschema.xml.in:156
+#: data/app.gschema.xml.in:161
 msgid "The icon of the external drive, as a serialized GIcon."
 msgstr "Dış sürücünün simgesi, seri hale getirilmiş GIcon olarak."
 
-#: data/app.gschema.xml.in:161
+#: data/app.gschema.xml.in:166
 msgid ""
 "The folder hierarchy where backups are stored. Paths are relative to the "
 "drive."
 msgstr ""
 "Yedeklerin depolandığı klasör hiyerarşisi. Yollar sürücüye göre görecelidir."
 
-#: data/app.gschema.xml.in:168
+#: data/app.gschema.xml.in:173
 msgid "The server address"
 msgstr "Sunucu adresi"
 
-#: data/app.gschema.xml.in:169
+#: data/app.gschema.xml.in:174
 msgid "The URI of the remote server location."
 msgstr "Uzak sunucu konumunun URI’si."
 
-#: data/app.gschema.xml.in:174
+#: data/app.gschema.xml.in:179
 msgid ""
 "The folder hierarchy where backups are stored. Paths can be absolute or "
 "relative to the host."
@@ -1105,7 +1116,7 @@ msgstr "Yok Sayılacak Klasörler"
 msgid "These folders are always ignored:"
 msgstr "Bu klasörler sürekli yok sayılır:"
 
-#: data/ui/ConfigFolderPage.ui:72
+#: data/ui/ConfigFolderPage.ui:73
 msgid "Re_set All Folders…"
 msgstr "_Tüm Klasörleri Sıfırla…"
 
@@ -1365,7 +1376,7 @@ msgid "Waiting for ‘%s’ to become connected…"
 msgstr "‘%s’ bağlanması bekleniyor…"
 
 #: libdeja/BackendGoogle.vala:62 libdeja/BackendMicrosoft.vala:58
-#: monitor/ReadyWatcher.vala:160
+#: monitor/ReadyWatcher.vala:164
 msgid "Backup will begin when a network connection becomes available."
 msgstr "Ağ bağlantısı kullanılabildiğinde yedekleme başlayacak."
 
@@ -1473,22 +1484,22 @@ msgstr ""
 "Samba ağ konumları, hem ana bilgisayar adı hem de paylaşım adı içermelidir."
 
 #. Translators: this is the home folder and %s is the user's username
-#: libdeja/CommonUtils.vala:540
+#: libdeja/CommonUtils.vala:543
 #, c-format
 msgid "Home (%s)"
 msgstr "Ev dizini (%s)"
 
 #. Translators: this is the home folder
-#: libdeja/CommonUtils.vala:545
+#: libdeja/CommonUtils.vala:548
 msgid "Home"
 msgstr "Ev Dizini"
 
 #. Translators: this is the trash folder
-#: libdeja/CommonUtils.vala:550
+#: libdeja/CommonUtils.vala:553
 msgid "Trash"
 msgstr "Çöp"
 
-#: libdeja/CommonUtils.vala:612
+#: libdeja/CommonUtils.vala:615
 msgid "Backup encryption password"
 msgstr "Yedek şifreleme parolası"
 
@@ -1604,8 +1615,15 @@ msgstr "Temizleniyor…"
 #. frequently fix odd metadata errors with duplicity.  If we hit an error
 #. a second time, we'll show the unknown error message.
 #. Should emit some sort of error...
+#. Sometimes Restic doesn't emit an exit_error message like it should.
+#. But we only care if we can detect/process the code.
+#. It also returns an error without an actual message in cases like
+#. restoring where there are some per-file errors, which we don't want
+#. to handle as an error. So we only process this if the code is above 1.
+#. Generic ToolInstance handling will handle the 1 case.
 #: libdeja/duplicity/DuplicityJob.vala:641
 #: libdeja/duplicity/DuplicityJob.vala:1036 libdeja/libtool/ToolJoblet.vala:115
+#: libdeja/restic/ResticInstance.vala:130
 msgid "Failed with an unknown error."
 msgstr "Bilinmeyen nedenden dolayı başarısız."
 
@@ -1758,11 +1776,11 @@ msgstr "Restic sürümü anlaşılamadı."
 msgid "This storage location is not yet supported."
 msgstr "Bu depolama konumu henüz desteklenmiyor."
 
-#: monitor/ReadyWatcher.vala:151
+#: monitor/ReadyWatcher.vala:155
 msgid "Backup will begin when power saver mode is no longer active."
 msgstr "Güç tutumu kipi etkin olmadığında yedekleme başlayacaktır."
 
-#: monitor/ReadyWatcher.vala:165
+#: monitor/ReadyWatcher.vala:169
 msgid ""
 "Backup will begin when an unmetered network connection becomes available."
 msgstr "Ölçülmemiş ağ bağlantısı olduğunda yedekleme başlayacaktır."

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Identity\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/YaLTeR/identity/issues\n"
-"POT-Creation-Date: 2024-09-01 16:05+0000\n"
-"PO-Revision-Date: 2024-08-24 08:00+0300\n"
+"POT-Creation-Date: 2024-09-20 06:12+0000\n"
+"PO-Revision-Date: 2024-09-20 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:3
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:7
-#: data/resources/ui/window.blp:137 src/main.rs:85
+#: data/resources/ui/window.blp:137 src/main.rs:103
 msgid "Identity"
 msgstr "Identity"
 
@@ -40,7 +40,7 @@ msgstr ""
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:10
 msgid "A program for comparing multiple versions of an image or video."
 msgstr ""
-"Bir görüntünün veya videonun birden çok sürümünü karşılaştırmak için bir "
+"Bir görüntünün ya da videonun birden çok sürümünü karşılaştırmak için "
 "program."
 
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:15
@@ -60,7 +60,7 @@ msgid "Inspect a few properties of a video in a dialog"
 msgstr "Videonun birkaç özelliğini iletişim kutusunda incele"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:175
+#: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:189
 msgid "Ivan Molodetskikh"
 msgstr "Ivan Molodetskikh"
 
@@ -77,7 +77,7 @@ msgstr "Ortam Açık Değil"
 #. Translators: Description on the media properties window when no files are open.
 #: data/resources/ui/media_properties.blp:23
 msgid "Open a video or image to view its properties."
-msgstr "Özelliklerini görmek için video veya görüntü açın."
+msgstr "Özelliklerini görmek için video ya da görüntü aç."
 
 #. Translators: Section in the media properties window.
 #: data/resources/ui/media_properties.blp:43
@@ -150,7 +150,7 @@ msgstr "Dosyalar arasında geçiş yap"
 #: data/resources/ui/shortcuts.blp:14
 msgctxt "shortcut window"
 msgid "Open videos or images"
-msgstr "Videoları veya görüntüleri aç"
+msgstr "Videoları ya da görüntüleri aç"
 
 #: data/resources/ui/shortcuts.blp:19
 msgctxt "shortcut window"
@@ -169,81 +169,86 @@ msgstr "Seçilen dosyayı kapat"
 
 #: data/resources/ui/shortcuts.blp:34
 msgctxt "shortcut window"
+msgid "Show media properties"
+msgstr "Ortam özelliklerini göster"
+
+#: data/resources/ui/shortcuts.blp:39
+msgctxt "shortcut window"
 msgid "New window"
 msgstr "Yeni pencere"
 
-#: data/resources/ui/shortcuts.blp:39
+#: data/resources/ui/shortcuts.blp:44
 msgctxt "shortcut window"
 msgid "Show shortcuts"
 msgstr "Kısayolları göster"
 
-#: data/resources/ui/shortcuts.blp:44
+#: data/resources/ui/shortcuts.blp:49
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Çık"
 
-#: data/resources/ui/shortcuts.blp:50
+#: data/resources/ui/shortcuts.blp:55
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Oynatma"
 
-#: data/resources/ui/shortcuts.blp:53
+#: data/resources/ui/shortcuts.blp:58
 msgctxt "shortcut window"
 msgid "Play / Pause"
 msgstr "Oynat / Beklet"
 
-#: data/resources/ui/shortcuts.blp:58
+#: data/resources/ui/shortcuts.blp:63
 msgctxt "shortcut window"
 msgid "Step forward one frame"
 msgstr "Bir kare ileri sar"
 
-#: data/resources/ui/shortcuts.blp:63
+#: data/resources/ui/shortcuts.blp:68
 msgctxt "shortcut window"
 msgid "Step back one frame"
 msgstr "Bir kare geri sar"
 
-#: data/resources/ui/shortcuts.blp:69
+#: data/resources/ui/shortcuts.blp:74
 msgctxt "shortcut window"
 msgid "Zoom"
 msgstr "Yaklaştırma"
 
-#: data/resources/ui/shortcuts.blp:72 data/resources/ui/shortcuts.blp:82
+#: data/resources/ui/shortcuts.blp:77 data/resources/ui/shortcuts.blp:87
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "Yankınlaştır"
 
-#: data/resources/ui/shortcuts.blp:77 data/resources/ui/shortcuts.blp:87
+#: data/resources/ui/shortcuts.blp:82 data/resources/ui/shortcuts.blp:92
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "Uzaklaştır"
 
-#: data/resources/ui/shortcuts.blp:92
+#: data/resources/ui/shortcuts.blp:97
 msgctxt "shortcut window"
 msgid "Zoom 1:1"
 msgstr "1:1 Yakınlaştır"
 
-#: data/resources/ui/shortcuts.blp:97
+#: data/resources/ui/shortcuts.blp:102
 msgctxt "shortcut window"
 msgid "Best fit"
 msgstr "En uygun"
 
 #. Translators: Shortcuts window section title for the display mode (arrange as tabs, in a row, in a column).
-#: data/resources/ui/shortcuts.blp:104
+#: data/resources/ui/shortcuts.blp:109
 msgctxt "shortcut window"
 msgid "Display"
 msgstr "Görünüm"
 
-#: data/resources/ui/shortcuts.blp:107
+#: data/resources/ui/shortcuts.blp:112
 msgctxt "shortcut window"
 msgid "Arrange as tabs"
 msgstr "Sekmelerde göster"
 
-#: data/resources/ui/shortcuts.blp:112
+#: data/resources/ui/shortcuts.blp:117
 msgctxt "shortcut window"
 msgid "Arrange in a row"
 msgstr "Satırlarda göster"
 
-#: data/resources/ui/shortcuts.blp:117
+#: data/resources/ui/shortcuts.blp:122
 msgctxt "shortcut window"
 msgid "Arrange in a column"
 msgstr "Sütunlarda göster"
@@ -316,7 +321,7 @@ msgstr "Ortamı Karşılaştır"
 #. Translators: Description text on the window when no files are open.
 #: data/resources/ui/window.blp:176
 msgid "Drag and drop images or videos here"
-msgstr "Görüntüleri ya da videoları buraya sürükleyip bırakın"
+msgstr "Görüntüleri ya da videoları buraya sürükleyip bırak"
 
 #. Translators: Open button label when no files are open.
 #: data/resources/ui/window.blp:180
@@ -326,7 +331,7 @@ msgstr "Ortam Aç…"
 #. Translators: Open button tooltip.
 #: data/resources/ui/window.blp:182 data/resources/ui/window.blp:207
 msgid "Select an Image or Video"
-msgstr "Görüntü veya Video Seç"
+msgstr "Görüntü ya da Video Seç"
 
 #. Translators: Open button label.
 #: data/resources/ui/window.blp:205
@@ -343,60 +348,87 @@ msgstr "Yakınlaştırma Düzeyi"
 msgid "Select Zoom Level"
 msgstr "Yakınlaştırma Düzeyi Seç"
 
+#: src/page.rs:321
+msgid "{} × {}"
+msgstr "{} × {}"
+
 #. Translators: "Not applicable" string for the media properties dialog when a
 #. given property is unknown or missing (e.g. images don't have frame rate).
-#: src/page.rs:312 src/window.rs:503 src/window.rs:511 src/window.rs:519
+#: src/page.rs:330 src/window.rs:511 src/window.rs:519 src/window.rs:527
 msgid "N/A"
 msgstr "Yok"
 
 #. Translators: shown in the About dialog, put your name here.
-#: src/window.rs:343
+#: src/window.rs:348
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
 #. Translators: link title in the About dialog.
-#: src/window.rs:346
+#: src/window.rs:351
 msgid "Contribute Translations"
-msgstr "Çeviriye Katkıda Bulun"
+msgstr "Çeviriye Katkı Ver"
 
-#: src/window.rs:354
+#: src/window.rs:359
+msgid ""
+"This release improves image format support and fixes a few issues with "
+"zooming."
+msgstr ""
+"Bu sürüm resim biçim desteğini iyileştirir ve yakınlaştırmayla ilgili kimi "
+"sorunları çözer."
+
+#: src/window.rs:360
+msgid ""
+"Images are now loaded with glycin, adding support for many more formats like "
+"AVIF and JPEG XL, and improving compatibility, like using the correct color "
+"space for JPEG images."
+msgstr ""
+"Resimler artık glycin ile yükleniyor, AVIF ve JPEG XL gibi birçok biçime "
+"destek sunuluyor, JPEG resimlerde doğru renk alanı kullanma gibi "
+"uyumluluklar iyileştiriliyor."
+
+#: src/window.rs:361
 msgid "Zoom level now takes into account fractional display scale."
 msgstr ""
 "Yakınlaştırma düzeyi artık kesirli ekran ölçeklendirmeyi göz önünde "
 "bulunduruyor."
 
-#: src/window.rs:355
+#: src/window.rs:362
 msgid "Fixed unusably fast zoom on mice with high-resolution scroll wheels."
 msgstr ""
 "Yüksek çözünürlüklü kaydırma tekerli farelerde kullanışsız hızlı "
 "yakınlaştırma düzeltildi."
 
-#: src/window.rs:356
+#: src/window.rs:363
 msgid "Fixed slightly blurry image borders on some zoom levels."
 msgstr "Kimi yakınlaştırma düzeylerindeki bulanık resim kenarları düzeltildi."
 
-#: src/window.rs:357
+#: src/window.rs:364
+msgid "Added an Alt+Enter shortcut to open the media properties dialog."
+msgstr ""
+"Ortam özellikleri iletişim kutusunu gösteren Alt+Enter kısayolu eklendi."
+
+#: src/window.rs:365
 msgid "Updated to the GNOME 47 platform."
 msgstr "GNOME 47 platformuna güncellendi."
 
-#: src/window.rs:358
+#: src/window.rs:366
 msgid "Updated translations."
 msgstr "Çeviriler güncellendi."
 
 #. Translators: Entry in the scale/zoom menu that indicates that the image or video is
 #. always resized to fit the window.
-#: src/window.rs:580
+#: src/window.rs:588
 msgid "Best Fit"
 msgstr "En Uygun"
 
 #. Translators: file chooser file filter name.
-#: src/window.rs:1639
+#: src/window.rs:1650
 msgid "Videos and images"
 msgstr "Videolar ve görüntüler"
 
 #. Translators: file chooser dialog title.
-#: src/window.rs:1647
+#: src/window.rs:1658
 msgid "Open videos or images to compare"
-msgstr "Karşılaştırmak için videoları veya görüntüleri aç"
+msgstr "Karşılaştırmak için videoları ya da görüntüleri aç"
