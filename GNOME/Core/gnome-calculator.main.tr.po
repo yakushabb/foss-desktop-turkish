@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gnome-calculator\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-calculator/"
 "issues\n"
-"POT-Creation-Date: 2025-02-26 11:09+0000\n"
+"POT-Creation-Date: 2025-02-28 09:08+0000\n"
 "PO-Revision-Date: 2025-02-09 17:25+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: data/org.gnome.Calculator.desktop.in:3
 #: data/org.gnome.Calculator.metainfo.xml.in:7 src/gnome-calculator.vala:80
-#: src/gnome-calculator.vala:282 src/ui/math-window.ui:117
+#: src/gnome-calculator.vala:282 src/ui/math-window.ui:105
 msgid "Calculator"
 msgstr "Hesap Makinesi"
 
@@ -557,8 +557,8 @@ msgstr "Sayıların sıfırıncı kökleri tanımsızdır"
 msgid "Error: the number of periods must be positive"
 msgstr "Hata: Dönemlerin toplamı sıfırdan büyük olmalıdır"
 
-#: lib/function-manager.vala:48 src/ui/buttons-advanced.ui:721
-#: src/ui/buttons-financial.ui:989 src/ui/buttons-programming.ui:1948
+#: lib/function-manager.vala:48 src/ui/buttons-advanced.ui:738
+#: src/ui/buttons-financial.ui:1011 src/ui/buttons-programming.ui:1983
 msgid "Logarithm"
 msgstr "Logaritma"
 
@@ -616,15 +616,15 @@ msgstr "Gerçek"
 msgid "Imaginary"
 msgstr "Sanal"
 
-#: lib/function-manager.vala:76 src/ui/buttons-advanced.ui:559
+#: lib/function-manager.vala:76 src/ui/buttons-advanced.ui:576
 msgid "Sine"
 msgstr "Sinüs"
 
-#: lib/function-manager.vala:78 src/ui/buttons-advanced.ui:543
+#: lib/function-manager.vala:78 src/ui/buttons-advanced.ui:560
 msgid "Cosine"
 msgstr "Kosinüs"
 
-#: lib/function-manager.vala:80 src/ui/buttons-advanced.ui:575
+#: lib/function-manager.vala:80 src/ui/buttons-advanced.ui:592
 msgid "Tangent"
 msgstr "Tanjant"
 
@@ -2012,10 +2012,10 @@ msgstr "İnç Kare Başına Pound,inç kare başına pound,psi"
 msgid "Currency"
 msgstr "Para Birimi"
 
-#: search-provider/search-provider.vala:199 src/ui/buttons-programming.ui:41
-#: src/ui/buttons-programming.ui:46 src/ui/buttons-programming.ui:51
-#: src/ui/buttons-programming.ui:2134 src/ui/buttons-programming.ui:2139
-#: src/ui/buttons-programming.ui:2144
+#: search-provider/search-provider.vala:199 src/ui/buttons-programming.ui:44
+#: src/ui/buttons-programming.ui:50 src/ui/buttons-programming.ui:56
+#: src/ui/buttons-programming.ui:2163 src/ui/buttons-programming.ui:2168
+#: src/ui/buttons-programming.ui:2173
 msgid "Copy"
 msgstr "Kopyala"
 
@@ -2023,179 +2023,175 @@ msgstr "Kopyala"
 msgid "Copy result to clipboard"
 msgstr "Sonucu panoya kopyala"
 
-#: src/ui/buttons-advanced.ui:146 src/ui/buttons-basic.ui:120
-#: src/ui/buttons-financial.ui:706 src/ui/buttons-programming.ui:1672
+#: src/ui/buttons-advanced.ui:168 src/ui/buttons-basic.ui:115
+#: src/ui/buttons-financial.ui:728 src/ui/buttons-programming.ui:1712
 msgid "Modulus Divide"
 msgstr "Modül Bölümü"
 
-#: src/ui/buttons-advanced.ui:163 src/ui/buttons-basic.ui:137
-#: src/ui/buttons-financial.ui:723 src/ui/buttons-programming.ui:1292
+#: src/ui/buttons-advanced.ui:185 src/ui/buttons-basic.ui:132
+#: src/ui/buttons-financial.ui:745 src/ui/buttons-programming.ui:1332
 msgid "Divide [/]"
 msgstr "Böl [/]"
 
-#: src/ui/buttons-advanced.ui:259 src/ui/buttons-basic.ui:233
-#: src/ui/buttons-financial.ui:819 src/ui/buttons-programming.ui:1309
+#: src/ui/buttons-advanced.ui:281 src/ui/buttons-basic.ui:228
+#: src/ui/buttons-financial.ui:841 src/ui/buttons-programming.ui:1349
 msgid "Multiply [*]"
 msgstr "Çarp [*]"
 
-#: src/ui/buttons-advanced.ui:276 src/ui/buttons-basic.ui:250
-#: src/ui/buttons-financial.ui:836 src/ui/buttons-programming.ui:1326
+#: src/ui/buttons-advanced.ui:298 src/ui/buttons-basic.ui:245
+#: src/ui/buttons-financial.ui:858 src/ui/buttons-programming.ui:1366
 msgid "Subtract [-]"
 msgstr "Çıkart [-]"
 
-#: src/ui/buttons-advanced.ui:292 src/ui/buttons-basic.ui:266
-#: src/ui/buttons-financial.ui:852 src/ui/buttons-programming.ui:1342
+#: src/ui/buttons-advanced.ui:314 src/ui/buttons-basic.ui:261
+#: src/ui/buttons-financial.ui:874 src/ui/buttons-programming.ui:1382
 msgid "Add [+]"
 msgstr "Topla [+]"
 
-#: src/ui/buttons-advanced.ui:308 src/ui/buttons-basic.ui:282
-#: src/ui/buttons-programming.ui:1270
+#: src/ui/buttons-advanced.ui:330 src/ui/buttons-basic.ui:277
+#: src/ui/buttons-programming.ui:1310 src/math-buttons.vala:699
 msgid "Pi [Ctrl+P]"
 msgstr "Pi [Ctrl+P]"
 
-#: src/ui/buttons-advanced.ui:331 src/ui/buttons-basic.ui:305
-#: src/ui/buttons-financial.ui:869 src/ui/buttons-programming.ui:1254
+#: src/ui/buttons-advanced.ui:353 src/ui/buttons-basic.ui:300
+#: src/ui/buttons-financial.ui:891 src/ui/buttons-programming.ui:1294
 msgid "Root [Ctrl+R]"
 msgstr "Kök [Ctrl+R]"
 
-#: src/ui/buttons-advanced.ui:346 src/ui/buttons-basic.ui:320
+#: src/ui/buttons-advanced.ui:368 src/ui/buttons-basic.ui:315
 msgid "Square [Ctrl+2]"
 msgstr "Kare [Ctrl+2]"
 
-#: src/ui/buttons-advanced.ui:367 src/ui/buttons-basic.ui:341
-#: src/ui/buttons-conversion.ui:227 src/ui/buttons-financial.ui:885
-#: src/ui/buttons-programming.ui:1375
+#: src/ui/buttons-advanced.ui:389 src/ui/buttons-basic.ui:336
+#: src/ui/buttons-conversion.ui:206 src/ui/buttons-financial.ui:907
+#: src/ui/buttons-programming.ui:1415
 msgid "Clear Display [Escape]"
 msgstr "Ekranı Temizle [Escape]"
 
-#: src/ui/buttons-advanced.ui:383 src/ui/buttons-basic.ui:357
-#: src/ui/buttons-financial.ui:901 src/ui/buttons-programming.ui:1688
+#: src/ui/buttons-advanced.ui:405 src/ui/buttons-basic.ui:352
+#: src/ui/buttons-financial.ui:923 src/ui/buttons-programming.ui:1728
 msgid "Start Group [(]"
 msgstr "Yeni bir grup başlat [(]"
 
-#: src/ui/buttons-advanced.ui:400 src/ui/buttons-basic.ui:374
-#: src/ui/buttons-financial.ui:918 src/ui/buttons-programming.ui:1704
+#: src/ui/buttons-advanced.ui:422 src/ui/buttons-basic.ui:369
+#: src/ui/buttons-financial.ui:940 src/ui/buttons-programming.ui:1744
 msgid "End Group [)]"
 msgstr "Grubu sonlandır [)]"
 
-#: src/ui/buttons-advanced.ui:417 src/ui/buttons-basic.ui:391
-#: src/ui/buttons-financial.ui:935
+#: src/ui/buttons-advanced.ui:439 src/ui/buttons-basic.ui:386
+#: src/ui/buttons-financial.ui:957
 msgid "Percentage [%]"
 msgstr "Yüzde [%]"
 
 #. Label on the solve button (clicking this solves the displayed calculation)
-#: src/ui/buttons-advanced.ui:431 src/ui/buttons-basic.ui:405
-#: src/ui/buttons-financial.ui:949 src/ui/buttons-programming.ui:1356
+#: src/ui/buttons-advanced.ui:453 src/ui/buttons-basic.ui:400
+#: src/ui/buttons-financial.ui:971 src/ui/buttons-programming.ui:1396
 msgid "="
 msgstr "="
 
-#: src/ui/buttons-advanced.ui:434 src/ui/buttons-basic.ui:408
-#: src/ui/buttons-financial.ui:952 src/ui/buttons-programming.ui:1359
+#: src/ui/buttons-advanced.ui:456 src/ui/buttons-basic.ui:403
+#: src/ui/buttons-financial.ui:974 src/ui/buttons-programming.ui:1399
 msgid "Calculate Result"
 msgstr "Sonucu Hesapla"
 
-#: src/ui/buttons-advanced.ui:463 src/ui/buttons-programming.ui:1732
+#: src/ui/buttons-advanced.ui:480 src/ui/buttons-programming.ui:1767
 msgid "Subscript Mode [Alt]"
 msgstr "Altsimge Kipi [Alt]"
 
-#: src/ui/buttons-advanced.ui:484 src/ui/buttons-programming.ui:1753
+#: src/ui/buttons-advanced.ui:501 src/ui/buttons-programming.ui:1788
 msgid "Superscript Mode [Ctrl]"
 msgstr "Üstsimge Kipi [Ctrl]"
 
-#: src/ui/buttons-advanced.ui:507 src/ui/buttons-programming.ui:2059
+#: src/ui/buttons-advanced.ui:524 src/ui/buttons-programming.ui:2094
 msgid "Factorize [Ctrl+F]"
 msgstr "Çarpanlara Ayır [Ctrl+F]"
 
-#: src/ui/buttons-advanced.ui:522
+#: src/ui/buttons-advanced.ui:539
 msgid "Scientific Exponent [Ctrl+E]"
 msgstr "Bilimsel Üs [Ctrl+E]"
 
-#: src/ui/buttons-advanced.ui:591
+#: src/ui/buttons-advanced.ui:608
 msgid "Hyperbolic Cosine"
 msgstr "Hiperbolik Kosinüs"
 
-#: src/ui/buttons-advanced.ui:607
+#: src/ui/buttons-advanced.ui:624
 msgid "Hyperbolic Sine"
 msgstr "Hiperbolik Sinüs"
 
-#: src/ui/buttons-advanced.ui:623
+#: src/ui/buttons-advanced.ui:640
 msgid "Hyperbolic Tangent"
 msgstr "Hiperbolik Tanjant"
 
-#: src/ui/buttons-advanced.ui:638 src/ui/buttons-financial.ui:967
-#: src/ui/buttons-programming.ui:1904
+#: src/ui/buttons-advanced.ui:655 src/ui/buttons-financial.ui:989
+#: src/ui/buttons-programming.ui:1939
 msgid "Exponent [^ or **]"
 msgstr "Kuvvet (Üs) [^ ya da **]"
 
-#: src/ui/buttons-advanced.ui:659 src/ui/buttons-programming.ui:1925
+#: src/ui/buttons-advanced.ui:676 src/ui/buttons-programming.ui:1960
 msgid "Inverse [Ctrl+I]"
 msgstr "Tersi [Ctrl+I]"
 
-#: src/ui/buttons-advanced.ui:682
+#: src/ui/buttons-advanced.ui:699
 msgid "Euler’s Number"
 msgstr "Euler Sayıları"
 
-#: src/ui/buttons-advanced.ui:705
+#: src/ui/buttons-advanced.ui:722
 msgid "Natural Logarithm"
 msgstr "Doğal Logaritma"
 
-#: src/ui/buttons-advanced.ui:736 src/ui/buttons-programming.ui:1980
+#: src/ui/buttons-advanced.ui:753 src/ui/buttons-programming.ui:2015
 msgid "Factorial [!]"
 msgstr "Faktöriyel [!]"
 
-#: src/ui/buttons-advanced.ui:758 src/ui/buttons-programming.ui:2002
+#: src/ui/buttons-advanced.ui:775 src/ui/buttons-programming.ui:2037
 msgid "Absolute Value [|]"
 msgstr "Mutlak Değer [|]"
 
-#: src/ui/buttons-advanced.ui:780
+#: src/ui/buttons-advanced.ui:797
 msgid "Imaginary Unit"
 msgstr "Sanal Birim"
 
-#: src/ui/buttons-advanced.ui:803
+#: src/ui/buttons-advanced.ui:820
 msgid "Real Component"
 msgstr "Gerçel Bileşen"
 
-#: src/ui/buttons-advanced.ui:820
+#: src/ui/buttons-advanced.ui:837
 msgid "Imaginary Component"
 msgstr "Sanal Bileşen"
 
-#: src/ui/buttons-advanced.ui:837
+#: src/ui/buttons-advanced.ui:854
 msgid "Complex Conjugate"
 msgstr "Karmaşık Eşlenik"
 
-#: src/ui/buttons-advanced.ui:854
+#: src/ui/buttons-advanced.ui:871
 msgid "Complex Argument"
 msgstr "Karmaşık Değişken"
 
-#: src/ui/buttons-advanced.ui:869 src/ui/buttons-financial.ui:1033
-#: src/ui/buttons-programming.ui:2090
+#: src/ui/buttons-advanced.ui:886 src/ui/buttons-financial.ui:1051
+#: src/ui/buttons-programming.ui:2125
 msgid "Memory"
 msgstr "Hafıza"
 
 #. The label on the memory button
-#: src/ui/buttons-advanced.ui:870 src/ui/buttons-financial.ui:1034
-#: src/ui/buttons-programming.ui:2089
+#: src/ui/buttons-advanced.ui:887 src/ui/buttons-financial.ui:1052
+#: src/ui/buttons-programming.ui:2124
 msgid "x"
 msgstr "x"
 
-#: src/ui/buttons-advanced.ui:884
+#: src/ui/buttons-advanced.ui:901
 msgid "Additional Functions"
 msgstr "Ek İşlevler"
 
-#: src/ui/buttons-conversion.ui:211
-msgid "Negative [-]"
-msgstr "Negatif [-]"
-
-#: src/ui/buttons-conversion.ui:243
+#: src/ui/buttons-conversion.ui:221
 msgid "Switch Conversion Units"
 msgstr "Dönüşüm Birimlerini Yer Değiştir"
 
-#: src/ui/buttons-conversion.ui:259
+#: src/ui/buttons-conversion.ui:236
 msgid "Backspace"
 msgstr "Geri silme tuşu"
 
 #. Title of Compounding Term dialog
-#: src/ui/buttons-financial.ui:5 src/ui/buttons-financial.ui:1050
+#: src/ui/buttons-financial.ui:5 src/ui/buttons-financial.ui:1069
 msgid "Compounding Term"
 msgstr "Bileşik Vade"
 
@@ -2204,7 +2200,7 @@ msgstr "Bileşik Vade"
 #: src/ui/buttons-financial.ui:233 src/ui/buttons-financial.ui:289
 #: src/ui/buttons-financial.ui:345 src/ui/buttons-financial.ui:401
 #: src/ui/buttons-financial.ui:457 src/ui/buttons-financial.ui:519
-#: src/ui/buttons-programming.ui:2201 src/gnome-calculator.vala:308
+#: src/ui/buttons-programming.ui:2230 src/gnome-calculator.vala:308
 msgid "_Cancel"
 msgstr "İ_ptal"
 
@@ -2246,7 +2242,7 @@ msgstr ""
 #: src/ui/buttons-financial.ui:37 src/ui/buttons-financial.ui:155
 #: src/ui/buttons-financial.ui:261 src/ui/buttons-financial.ui:317
 #: src/ui/buttons-financial.ui:335 src/ui/buttons-financial.ui:553
-#: src/ui/buttons-financial.ui:1152
+#: src/ui/buttons-financial.ui:1177
 msgid "Periodic Interest Rate"
 msgstr "Dönemsel Faiz Oranı"
 
@@ -2256,7 +2252,7 @@ msgstr "Dönemsel Faiz Oranı"
 #. Payment Period Dialog: Label before future value input
 #: src/ui/buttons-financial.ui:43 src/ui/buttons-financial.ui:117
 #: src/ui/buttons-financial.ui:367 src/ui/buttons-financial.ui:547
-#: src/ui/buttons-financial.ui:1084
+#: src/ui/buttons-financial.ui:1105
 msgid "Future Value"
 msgstr "Gelecek Değer"
 
@@ -2264,7 +2260,7 @@ msgstr "Gelecek Değer"
 #. Title of Present Value dialog
 #. Periodic Interest Rate Dialog: Label before present value input
 #: src/ui/buttons-financial.ui:49 src/ui/buttons-financial.ui:279
-#: src/ui/buttons-financial.ui:373 src/ui/buttons-financial.ui:1169
+#: src/ui/buttons-financial.ui:373 src/ui/buttons-financial.ui:1195
 msgid "Present Value"
 msgstr "Bugünkü Değer"
 
@@ -2321,7 +2317,7 @@ msgstr ""
 #. Payment Period Dialog: Label before periodic payment input
 #: src/ui/buttons-financial.ui:149 src/ui/buttons-financial.ui:223
 #: src/ui/buttons-financial.ui:311 src/ui/buttons-financial.ui:541
-#: src/ui/buttons-financial.ui:1186
+#: src/ui/buttons-financial.ui:1213
 msgid "Periodic Payment"
 msgstr "Dönemsel Ödeme"
 
@@ -2332,7 +2328,7 @@ msgid "Number of Periods"
 msgstr "Dönem Sayısı"
 
 #. Title of Gross Profit Margin dialog
-#: src/ui/buttons-financial.ui:173 src/ui/buttons-financial.ui:1203
+#: src/ui/buttons-financial.ui:173 src/ui/buttons-financial.ui:1231
 msgid "Gross Profit Margin"
 msgstr "Brüt Kar Marjı"
 
@@ -2368,7 +2364,7 @@ msgstr "Temel"
 #. Periodic Interest Rate Dialog: Label before term input
 #. Calculates the number of payment periods that are necessary during the term of an ordinary annuity, to accumulate a future value of fv, at a periodic interest rate of int. Each payment is equal to amount pmt. See also: http://en.wikipedia.org/wiki/Annuity_(finance_theory)
 #: src/ui/buttons-financial.ui:267 src/ui/buttons-financial.ui:379
-#: src/ui/buttons-financial.ui:1098
+#: src/ui/buttons-financial.ui:1119
 msgid "Term"
 msgstr "Vade"
 
@@ -2450,68 +2446,68 @@ msgstr ""
 "Dönemsel faiz oranıyla, gelecekteki bir değere ulaşması için, sıradan bir "
 "rant dönemi süresince gereken ödeme dönemlerinin sayısını hesaplar."
 
-#: src/ui/buttons-financial.ui:1017
+#: src/ui/buttons-financial.ui:1034
 msgid "Currency Conversion"
 msgstr "Para Birimi Dönüştürme"
 
 #. Calculates the number of compounding periods necessary to increase an investment of present value pv to a future value of fv, at a fixed interest rate of int per compounding period. See also: http://en.wikipedia.org/wiki/Compound_interest
-#: src/ui/buttons-financial.ui:1047
+#: src/ui/buttons-financial.ui:1065
 msgid "Ctrm"
 msgstr "Ctrm"
 
 #. Calculates the depreciation allowance on an asset for a specified period of time, using the double-declining balance method. See also: http://en.wikipedia.org/wiki/Depreciation
-#: src/ui/buttons-financial.ui:1064
+#: src/ui/buttons-financial.ui:1083
 msgid "Ddb"
 msgstr "Ddb"
 
-#: src/ui/buttons-financial.ui:1067
+#: src/ui/buttons-financial.ui:1087
 msgid "Double Declining Depreciation"
 msgstr "Çift Azalan Amortisman"
 
 #. Calculates the future value of an investment based on a series of equal payments, each of amount pmt, at a periodic interest rate of int, over the number of payment periods in the term. See also: http://en.wikipedia.org/wiki/Future_value
-#: src/ui/buttons-financial.ui:1081
+#: src/ui/buttons-financial.ui:1101
 msgid "Fv"
 msgstr "Fv"
 
-#: src/ui/buttons-financial.ui:1101
+#: src/ui/buttons-financial.ui:1123
 msgid "Financial Term"
 msgstr "Finansal Vade"
 
 #. Calculates the depreciation allowance on an asset for a specified period of time, using the Sum-Of-The-Years’-Digits method. This method of depreciation accelerates the rate of depreciation, so that more depreciation expense occurs in earlier periods than in later ones. The depreciable cost is cost - salvage. The useful life is the number of periods, typically years, over which an asset is depreciated. See also: http://en.wikipedia.org/wiki/Depreciation
-#: src/ui/buttons-financial.ui:1115
+#: src/ui/buttons-financial.ui:1137
 msgid "Syd"
 msgstr "Syd"
 
-#: src/ui/buttons-financial.ui:1118
+#: src/ui/buttons-financial.ui:1141
 msgid "Sum of the Years Digits Depreciation"
 msgstr "Yılların-Toplamı Amortisman"
 
 #. Calculates the straight-line depreciation of an asset for one period. The depreciable cost is cost - salvage. The straight-line method of depreciation divides the depreciable cost evenly over the useful life of an asset. The useful life is the number of periods, typically years, over which an asset is depreciated. See also: http://en.wikipedia.org/wiki/Depreciation
-#: src/ui/buttons-financial.ui:1132
+#: src/ui/buttons-financial.ui:1155
 msgid "Sln"
 msgstr "Sln"
 
-#: src/ui/buttons-financial.ui:1135
+#: src/ui/buttons-financial.ui:1159
 msgid "Straight Line Depreciation"
 msgstr "Doğrusal Amortisman"
 
 #. Calculates the periodic interest necessary to increase an investment of present value pv to a future value of fv, over the number of compounding periods in term. See also: http://en.wikipedia.org/wiki/Interest
-#: src/ui/buttons-financial.ui:1149
+#: src/ui/buttons-financial.ui:1173
 msgid "Rate"
 msgstr "Oran"
 
 #. Calculates the present value of an investment based on a series of equal payments, each of amount pmt, discounted at a periodic interest rate of int, over the number of payment periods in the term. See also: http://en.wikipedia.org/wiki/Present_value
-#: src/ui/buttons-financial.ui:1166
+#: src/ui/buttons-financial.ui:1191
 msgid "Pv"
 msgstr "Pv"
 
 #. Calculates the amount of the periodic payment of a loan, where payments are made at the end of each payment period. See also: http://en.wikipedia.org/wiki/Amortization_schedule
-#: src/ui/buttons-financial.ui:1183
+#: src/ui/buttons-financial.ui:1209
 msgid "Pmt"
 msgstr "Pmt"
 
 #. Calculates the resale price of a product, based on the product cost and the wanted gross profit margin. See also: http://en.wikipedia.org/wiki/Gross_profit_margin
-#: src/ui/buttons-financial.ui:1200
+#: src/ui/buttons-financial.ui:1227
 msgid "Gpm"
 msgstr "Gpm"
 
@@ -2531,70 +2527,70 @@ msgstr "Ondalık"
 msgid "Hexadecimal"
 msgstr "Onaltılık"
 
-#: src/ui/buttons-programming.ui:65
+#: src/ui/buttons-programming.ui:66
 msgid "Number Base Conversion"
 msgstr "Sayı Tabanı Dönüşümü"
 
-#: src/ui/buttons-programming.ui:1774
+#: src/ui/buttons-programming.ui:1809
 msgid "Shift Left"
 msgstr "Sola Kaydır"
 
-#: src/ui/buttons-programming.ui:1789
+#: src/ui/buttons-programming.ui:1824
 msgid "Shift Right"
 msgstr "Sağa Kaydır"
 
-#: src/ui/buttons-programming.ui:1805
+#: src/ui/buttons-programming.ui:1840
 msgid "Boolean Exclusive OR"
 msgstr "Mantıksal Özel VEYA"
 
-#: src/ui/buttons-programming.ui:1821
+#: src/ui/buttons-programming.ui:1856
 msgid "Boolean OR"
 msgstr "Mantıksal VEYA"
 
-#: src/ui/buttons-programming.ui:1838
+#: src/ui/buttons-programming.ui:1873
 msgid "Boolean AND"
 msgstr "Mantıksal VE"
 
-#: src/ui/buttons-programming.ui:1855
+#: src/ui/buttons-programming.ui:1890
 msgid "Boolean NOT"
 msgstr "Mantıksal DEĞİL"
 
-#: src/ui/buttons-programming.ui:1872
+#: src/ui/buttons-programming.ui:1907
 msgid "One’s Complement"
 msgstr "Bir’in Tümleyeni"
 
-#: src/ui/buttons-programming.ui:1889
+#: src/ui/buttons-programming.ui:1924
 msgid "Two’s Complement"
 msgstr "İki’nin Tümleyeni"
 
-#: src/ui/buttons-programming.ui:1965
+#: src/ui/buttons-programming.ui:2000
 msgid "Binary Logarithm"
 msgstr "İkili Logaritma"
 
-#: src/ui/buttons-programming.ui:2025
+#: src/ui/buttons-programming.ui:2060
 msgid "Integer Component"
 msgstr "Tamsayı Bileşeni"
 
-#: src/ui/buttons-programming.ui:2042
+#: src/ui/buttons-programming.ui:2077
 msgid "Fractional Component"
 msgstr "Kesirli Bileşen"
 
 #. Title of insert character code dialog
-#: src/ui/buttons-programming.ui:2074 src/ui/buttons-programming.ui:2151
+#: src/ui/buttons-programming.ui:2109 src/ui/buttons-programming.ui:2180
 msgid "Insert Character Code"
 msgstr "Karakter Kodu Ekle"
 
-#: src/ui/buttons-programming.ui:2105
+#: src/ui/buttons-programming.ui:2140
 msgid "Change Word Size"
 msgstr "Sözcük Boyutunu Değiştir"
 
 #. Insert ASCII dialog: Label before character entry
-#: src/ui/buttons-programming.ui:2183
+#: src/ui/buttons-programming.ui:2212
 msgid "Character"
 msgstr "Karakter"
 
 #. Insert ASCII dialog: Button to insert selected character
-#: src/ui/buttons-programming.ui:2211
+#: src/ui/buttons-programming.ui:2240
 msgid "_Insert"
 msgstr "_Ekle"
 
@@ -2652,12 +2648,16 @@ msgstr "Tüm açık pencereleri kapatmak istediğinize emin misiniz?"
 msgid "Close _All"
 msgstr "Tümünü K_apat"
 
-#: src/math-buttons.vala:284 src/math-buttons.vala:760
-#: src/math-buttons.vala:776
+#: src/math-buttons.vala:283 src/math-buttons.vala:767
+#: src/math-buttons.vala:783
 #, c-format
 msgid "%d-bit"
 msgid_plural "%d-bit"
 msgstr[0] "%d-bit"
+
+#: src/math-buttons.vala:705
+msgid "Negative [-]"
+msgstr "Negatif [-]"
 
 #: src/ui/math-converter.ui:138
 msgid "_Copy"
@@ -2667,19 +2667,19 @@ msgstr "_Kopyala"
 msgid "_Paste"
 msgstr "_Yapıştır"
 
-#: src/math-display.vala:624
+#: src/math-display.vala:628
 msgid "Defined Functions"
 msgstr "Tanımlı İşlevler"
 
-#: src/math-display.vala:669
+#: src/math-display.vala:673
 msgid "Built-in keywords"
 msgstr "Yerleşik anahtar sözcükler"
 
-#: src/math-display.vala:713
+#: src/math-display.vala:717
 msgid "Defined currencies"
 msgstr "Tanımlı para birimleri"
 
-#: src/math-display.vala:763
+#: src/math-display.vala:767
 msgid "Defined Variables"
 msgstr "Tanımlı Değişkenler"
 
@@ -2944,86 +2944,86 @@ msgstr ""
 "%s: Geçersiz değişken adı, yalnızca rakamlar, harfler ve alt çizgiler "
 "içerebilir"
 
-#: src/ui/math-window.ui:20 src/math-window.vala:137
+#: src/ui/math-window.ui:8 src/math-window.vala:134
 msgid "Basic"
 msgstr "Temel"
 
-#: src/ui/math-window.ui:25 src/math-window.vala:143
+#: src/ui/math-window.ui:13 src/math-window.vala:140
 msgid "Advanced"
 msgstr "Gelişmiş"
 
-#: src/ui/math-window.ui:30 src/ui/math-window.ui:153 src/math-window.vala:149
+#: src/ui/math-window.ui:18 src/ui/math-window.ui:140 src/math-window.vala:146
 msgid "Financial"
 msgstr "Finansal"
 
-#: src/ui/math-window.ui:35 src/math-window.vala:155
+#: src/ui/math-window.ui:23 src/math-window.vala:152
 msgid "Programming"
 msgstr "Programlama"
 
-#: src/ui/math-window.ui:40 src/math-window.vala:161
+#: src/ui/math-window.ui:28 src/math-window.vala:158
 msgid "Keyboard"
 msgstr "Klavye"
 
-#: src/ui/math-window.ui:45 src/math-window.vala:167
+#: src/ui/math-window.ui:33 src/math-window.vala:164
 msgid "Conversion"
 msgstr "Dönüşüm"
 
-#: src/ui/math-window.ui:54
+#: src/ui/math-window.ui:42
 msgid "_New Window"
 msgstr "_Yeni Pencere"
 
-#: src/ui/math-window.ui:61
+#: src/ui/math-window.ui:49
 msgid "_Clear History"
 msgstr "Geçmişi _Temizle"
 
-#: src/ui/math-window.ui:68
+#: src/ui/math-window.ui:56
 msgid "Result Format"
 msgstr "Sonuç Biçimi"
 
 #. Translators: entry of the Setup submenu of the hamburger menu (with a mnemonic that appears when pressing Alt); set result format to "automatic"; other possible options are "_Fixed", "_Scientific" and "_Engineering"
-#: src/ui/math-window.ui:71
+#: src/ui/math-window.ui:59
 msgid "_Automatic"
 msgstr "_Kendiliğinden"
 
 #. Translators: entry of the Setup submenu of the hamburger menu (with a mnemonic that appears when pressing Alt); set result format to "fixed"; other possible options are "_Automatic", "_Scientific" and "_Engineering"
-#: src/ui/math-window.ui:77
+#: src/ui/math-window.ui:65
 msgid "_Fixed"
 msgstr "_Sabit"
 
 #. Translators: entry of the Setup submenu of the hamburger menu (with a mnemonic that appears when pressing Alt); set result format to "scientific"; other possible options are "_Fixed", "_Automatic" and "_Engineering"
-#: src/ui/math-window.ui:83
+#: src/ui/math-window.ui:71
 msgid "_Scientific"
 msgstr "_Bilimsel"
 
 #. Translators: entry of the Setup submenu of the hamburger menu (with a mnemonic that appears when pressing Alt); set result format to "engineering"; other possible options are "_Fixed", "_Scientific" and "_Automatic"
-#: src/ui/math-window.ui:89
+#: src/ui/math-window.ui:77
 msgid "_Engineering"
 msgstr "_Mühendislik"
 
-#: src/ui/math-window.ui:99
+#: src/ui/math-window.ui:87
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: src/ui/math-window.ui:103
+#: src/ui/math-window.ui:91
 msgid "Keyboard Shortcuts"
 msgstr "Klavye Kısayolları"
 
-#: src/ui/math-window.ui:107
+#: src/ui/math-window.ui:95
 msgid "_Help"
 msgstr "_Yardım"
 
-#: src/ui/math-window.ui:111
+#: src/ui/math-window.ui:99
 msgid "About Calculator"
 msgstr "Hesap Makinesi Hakkında"
 
-#: src/ui/math-window.ui:129
+#: src/ui/math-window.ui:118
 msgid "Mode Selection"
 msgstr "Kip Seçimi"
 
-#: src/ui/math-window.ui:142
+#: src/ui/math-window.ui:128
 msgid "_Undo"
 msgstr "_Geri Al"
 
-#: src/ui/math-window.ui:162
+#: src/ui/math-window.ui:149
 msgid "Main Menu"
 msgstr "Ana Menü"

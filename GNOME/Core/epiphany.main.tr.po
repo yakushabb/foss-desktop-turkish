@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: epiphany\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/epiphany/issues/\n"
-"POT-Creation-Date: 2025-02-20 05:16+0000\n"
-"PO-Revision-Date: 2025-02-09 17:36+0300\n"
+"POT-Creation-Date: 2025-02-27 14:42+0000\n"
+"PO-Revision-Date: 2025-02-23 00:04+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -680,23 +680,23 @@ msgstr ""
 "açılmayacağı."
 
 #: data/org.gnome.epiphany.gschema.xml:325
-#, fuzzy
-#| msgid "Bookmarks"
 msgid "Bookmarks order"
-msgstr "Yer İmleri"
+msgstr "Yer imi sırası"
 
 #: data/org.gnome.epiphany.gschema.xml:326
 msgid ""
 "The order of bookmarks and tags in the main view of the bookmarks dialog."
 msgstr ""
+"Yer imleri ve etiketlerin yer imleri iletişim kutusu ana görünümündeki "
+"sırası."
 
 #: data/org.gnome.epiphany.gschema.xml:330
 msgid "Tags order"
-msgstr ""
+msgstr "Etiket sırası"
 
 #: data/org.gnome.epiphany.gschema.xml:331
 msgid "The order of bookmarks in the tag detail view of each tag."
-msgstr ""
+msgstr "Yer imlerinin her etiketin etiket ayrıntı görünümündeki sırası."
 
 #: data/org.gnome.epiphany.gschema.xml:346
 msgid "Disable forward and back buttons"
@@ -1109,15 +1109,15 @@ msgstr "%2$s:%3$d üstünde kimlik doğrulama için lütfen %1$s PIN’ini girin
 
 #: embed/ephy-client-certificate-manager.c:305
 #: embed/ephy-client-certificate-manager.c:402 embed/ephy-download.c:767
-#: embed/ephy-web-view.c:1347 src/ephy-history-dialog.c:898
+#: embed/ephy-web-view.c:1347 src/ephy-history-dialog.c:889
 #: src/ephy-window.c:262 src/preferences/autofill-view.c:363
-#: src/preferences/extension-view.c:117 src/preferences/passwords-view.c:187
+#: src/preferences/extension-view.c:117 src/preferences/passwords-view.c:178
 #: src/resources/gtk/firefox-sync-dialog.ui:117
 #: src/resources/gtk/history-dialog.ui:58
 #: src/resources/gtk/prefs-lang-dialog.ui:17 src/window-commands.c:358
 #: src/window-commands.c:616 src/window-commands.c:978
-#: src/window-commands.c:1508 src/window-commands.c:2210
-#: src/window-commands.c:3110
+#: src/window-commands.c:1508 src/window-commands.c:2212
+#: src/window-commands.c:3112
 msgid "_Cancel"
 msgstr "İ_ptal"
 
@@ -1679,7 +1679,7 @@ msgstr ""
 "olarak yeniden kurmanız gerekecek."
 
 #: embed/ephy-web-view.c:1348 src/preferences/autofill-view.c:364
-#: src/preferences/passwords-view.c:188 src/resources/gtk/history-dialog.ui:160
+#: src/preferences/passwords-view.c:179 src/resources/gtk/history-dialog.ui:160
 #: src/resources/gtk/location-entry.ui:303
 msgid "_Delete"
 msgstr "_Sil"
@@ -2221,14 +2221,12 @@ msgstr "Geçerli etiketi seç"
 msgid "Remove current tag"
 msgstr "Geçerli etiketi kaldır"
 
-#: src/bookmarks/ephy-bookmarks-dialog.c:855
-#, fuzzy
-#| msgid "Bookmark Page"
+#: src/bookmarks/ephy-bookmarks-dialog.c:861
 msgid "Bookmark removed"
-msgstr "Sayfayı Yer İmlerine Ekle"
+msgstr "Yer imi kaldırıldı"
 
 #. Undo, redo.
-#: src/bookmarks/ephy-bookmarks-dialog.c:858 src/ephy-window.c:916
+#: src/bookmarks/ephy-bookmarks-dialog.c:864 src/ephy-window.c:916
 #: src/resources/gtk/location-entry.ui:277
 msgid "_Undo"
 msgstr "_Geri Al"
@@ -2245,34 +2243,34 @@ msgid "File is not a valid Epiphany bookmarks file: missing bookmarks table"
 msgstr ""
 "Dosya geçerli bir Epiphany yer imi dosyası değil: yer imleri tablosu eksik"
 
-#: src/bookmarks/ephy-bookmarks-import.c:247
+#: src/bookmarks/ephy-bookmarks-import.c:286
 #, c-format
 msgid ""
 "Firefox bookmarks database could not be opened. Close Firefox and try again."
 msgstr ""
 "Firefox yer imleri veri tabanı açılamadı. Firefox’u kapat ve yeniden dene."
 
-#: src/bookmarks/ephy-bookmarks-import.c:260
-#: src/bookmarks/ephy-bookmarks-import.c:292
+#: src/bookmarks/ephy-bookmarks-import.c:299
+#: src/bookmarks/ephy-bookmarks-import.c:335
 #, c-format
 msgid "Firefox bookmarks could not be retrieved!"
 msgstr "Firefox yer imleri alınamadı!"
 
-#: src/bookmarks/ephy-bookmarks-import.c:459
+#: src/bookmarks/ephy-bookmarks-import.c:502
 #, c-format
 msgid "HTML bookmarks database could not be opened: %s"
 msgstr "HTML yer imleri veri tabanı açılamadı: %s"
 
-#: src/bookmarks/ephy-bookmarks-import.c:470
+#: src/bookmarks/ephy-bookmarks-import.c:513
 msgid "HTML bookmarks database could not be read."
 msgstr "HTML yer imleri veri tabanı okunamadı."
 
-#: src/bookmarks/ephy-bookmarks-import.c:492
+#: src/bookmarks/ephy-bookmarks-import.c:535
 #, c-format
 msgid "HTML bookmarks database could not be parsed: %s"
 msgstr "HTML yer imleri veri tabanı ayrıştırılamadı: %s"
 
-#: src/bookmarks/ephy-bookmarks-import.c:645
+#: src/bookmarks/ephy-bookmarks-import.c:707
 #, c-format
 msgid "Bookmarks file could not be parsed:"
 msgstr "Yer imleri dosyası ayrıştırılamadı:"
@@ -2465,39 +2463,41 @@ msgstr "Geçerli sayfanın yüklenmesini durdur"
 msgid "De_select All"
 msgstr "Tüm Seçimi _Kaldır"
 
-#: src/ephy-history-dialog.c:267 src/resources/gtk/history-dialog.ui:50
-msgid "_Select All"
+#: src/ephy-history-dialog.c:267 src/ephy-window.c:924
+#: src/resources/gtk/history-dialog.ui:50
+#: src/resources/gtk/location-entry.ui:313
+msgid "Select _All"
 msgstr "Tümünü _Seç"
 
-#: src/ephy-history-dialog.c:463
+#: src/ephy-history-dialog.c:454
 msgid "Link copied"
 msgstr "Bağlantı kopyalandı"
 
-#: src/ephy-history-dialog.c:561
+#: src/ephy-history-dialog.c:552
 msgid "Remove the selected pages from history"
 msgstr "Seçili sayfaları geçmişten kaldır"
 
-#: src/ephy-history-dialog.c:568
+#: src/ephy-history-dialog.c:559
 msgid "Copy URL"
 msgstr "URL’yi Kopyala"
 
-#: src/ephy-history-dialog.c:894
+#: src/ephy-history-dialog.c:885
 msgid "Clear Browsing History?"
 msgstr "Tarama Geçmişi Temizlensin Mi?"
 
-#: src/ephy-history-dialog.c:895
+#: src/ephy-history-dialog.c:886
 msgid "All visible links will be permanently deleted"
 msgstr "Tüm görünür bağlantılar kalıcı olarak silinecek"
 
-#: src/ephy-history-dialog.c:899 src/resources/gtk/location-entry.ui:309
+#: src/ephy-history-dialog.c:890 src/resources/gtk/location-entry.ui:309
 msgid "Cl_ear"
 msgstr "_Temizle"
 
-#: src/ephy-history-dialog.c:1114
+#: src/ephy-history-dialog.c:1105
 msgid "Unavailable in Incognito Mode"
 msgstr "Gizli Tarama Kipinde Kullanılamıyor"
 
-#: src/ephy-history-dialog.c:1117
+#: src/ephy-history-dialog.c:1108
 msgid "Clear History"
 msgstr "Geçmişi Temizle"
 
@@ -2769,10 +2769,6 @@ msgstr "_Yapıştır"
 #: src/ephy-window.c:923
 msgid "_Paste Text Only"
 msgstr "Yalnızca Metni _Yapıştır"
-
-#: src/ephy-window.c:924 src/resources/gtk/location-entry.ui:313
-msgid "Select _All"
-msgstr "Tümünü _Seç"
 
 #: src/ephy-window.c:926
 msgid "S_end Link by Email…"
@@ -3123,36 +3119,36 @@ msgstr "Bu uzantıyı kaldırmak istediğinize emin misiniz?"
 msgid "_Remove"
 msgstr "_Kaldır"
 
-#: src/preferences/passwords-view.c:132
+#: src/preferences/passwords-view.c:123
 msgid "Password copied"
 msgstr "Parola kopyalandı"
 
-#: src/preferences/passwords-view.c:183
+#: src/preferences/passwords-view.c:174
 msgid "Delete All Passwords?"
 msgstr "Tüm Parolaları Silinsin Mi?"
 
-#: src/preferences/passwords-view.c:184
+#: src/preferences/passwords-view.c:175
 msgid "This will clear all locally stored passwords, and can not be undone."
 msgstr ""
 "Bu, yerel olarak saklanan tüm parolaları temizleyecektir ve bu geri alınamaz."
 
-#: src/preferences/passwords-view.c:243
+#: src/preferences/passwords-view.c:234
 msgid "Copy password"
 msgstr "Parolayı kopyala"
 
-#: src/preferences/passwords-view.c:250
+#: src/preferences/passwords-view.c:241
 msgid "Username"
 msgstr "Kullanıcı adı"
 
-#: src/preferences/passwords-view.c:260
+#: src/preferences/passwords-view.c:251
 msgid "Copy username"
 msgstr "Kullanıcı adını kopyala"
 
-#: src/preferences/passwords-view.c:267
+#: src/preferences/passwords-view.c:258
 msgid "Password"
 msgstr "Parola"
 
-#: src/preferences/passwords-view.c:279
+#: src/preferences/passwords-view.c:270
 msgid "Remove Password"
 msgstr "Parolayı Kaldır"
 
@@ -3374,18 +3370,15 @@ msgstr "Yeni etiket Ekle"
 
 #: src/resources/gtk/bookmark-row.ui:41
 msgid "Properties"
-msgstr ""
+msgstr "Özellikler"
 
 #: src/resources/gtk/bookmarks-dialog.ui:17
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Editing"
 msgid "Edit"
-msgstr "Düzenleme"
+msgstr "Düzenle"
 
 #: src/resources/gtk/bookmarks-dialog.ui:25
 msgid "Done"
-msgstr ""
+msgstr "Bitti"
 
 #: src/resources/gtk/bookmarks-dialog.ui:64
 msgid "Search bookmarks"
@@ -4643,15 +4636,15 @@ msgid "The application “%s” could not be created: %s"
 msgstr "“%s” uygulaması oluşturulamadı: %s"
 
 #. Translators: Desktop notification when a new web app is created.
-#: src/window-commands.c:2117
+#: src/window-commands.c:2119
 msgid "Launch"
 msgstr "Başlat"
 
-#: src/window-commands.c:2203
+#: src/window-commands.c:2205
 msgid "Replace Existing Web App?"
 msgstr "Var Olan Web Uygulaması Değiştirilsin Mi?"
 
-#: src/window-commands.c:2206
+#: src/window-commands.c:2208
 #, c-format
 msgid ""
 "An application named “%s” already exists, replacing it will overwrite it"
@@ -4659,27 +4652,27 @@ msgstr ""
 "“%s” adlı uygulama zaten var. Değiştirme işlemi var olan uygulamanın üzerine "
 "yazacaktır"
 
-#: src/window-commands.c:2211
+#: src/window-commands.c:2213
 msgid "_Replace"
 msgstr "_Değiştir"
 
-#: src/window-commands.c:2596
+#: src/window-commands.c:2598
 msgid "HTML"
 msgstr "HTML"
 
-#: src/window-commands.c:2600
+#: src/window-commands.c:2602
 msgid "MHTML"
 msgstr "MHTML"
 
-#: src/window-commands.c:2646
+#: src/window-commands.c:2648
 msgid "PNG"
 msgstr "PNG"
 
-#: src/window-commands.c:3105
+#: src/window-commands.c:3107
 msgid "Enable Caret Browsing Mode?"
 msgstr "Karet Tarama Kipi Etkinleştirilsin Mi?"
 
-#: src/window-commands.c:3106
+#: src/window-commands.c:3108
 msgid ""
 "Pressing F7 turns caret browsing on or off. This feature places a moveable "
 "cursor in web pages, allowing you to move around with your keyboard. Do you "
@@ -4689,6 +4682,9 @@ msgstr ""
 "web sayfalarına taşınabilir imleç yerleştirir, klavyenizle sayfada "
 "gezinmenizi sağlar. Karet taramayı etkinleştirmek ister misiniz?"
 
-#: src/window-commands.c:3111
+#: src/window-commands.c:3113
 msgid "_Enable"
 msgstr "_Etkinleştir"
+
+#~ msgid "_Select All"
+#~ msgstr "Tümünü _Seç"

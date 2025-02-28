@@ -1,16 +1,16 @@
 # Turkish translation for Loupe.
-# Copyright (C) 2023-2024 Loupe's COPYRIGHT HOLDER
+# Copyright (C) 2023-2025 Loupe's COPYRIGHT HOLDER
 # This file is distributed under the same license as the Loupe package.
 #
-# Sabri Ünal <yakushabb@gmail.com>, 2023-2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2023-2024.
+# Sabri Ünal <yakushabb@gmail.com>, 2023-2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Loupe main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/loupe/-/issues\n"
-"POT-Creation-Date: 2025-02-26 14:06+0000\n"
-"PO-Revision-Date: 2024-12-01 00:16+0300\n"
+"POT-Creation-Date: 2025-02-27 14:57+0000\n"
+"PO-Revision-Date: 2025-02-09 18:14+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -259,48 +259,42 @@ msgstr "Hareketler"
 #: data/resources/gtk/help-overlay.ui:288
 msgctxt "shortcut window"
 msgid "Editing"
-msgstr ""
+msgstr "Düzenleme"
 
 #: data/resources/gtk/help-overlay.ui:291
 msgctxt "shortcut window"
 msgid "Open Editing View"
-msgstr ""
+msgstr "Düzenleme Görünümünü Aç"
 
 #: data/resources/gtk/help-overlay.ui:297
 msgctxt "shortcut window"
 msgid "Replace Original"
-msgstr ""
+msgstr "Özgünü Değiştir"
 
 #: data/resources/gtk/help-overlay.ui:303
 msgctxt "shortcut window"
 msgid "Save As"
-msgstr ""
+msgstr "Farklı Kaydet"
 
 #: data/resources/gtk/help-overlay.ui:309
-#, fuzzy
-#| msgid "Cancel"
 msgctxt "shortcut window"
 msgid "Cancel"
 msgstr "İptal"
 
 #: data/resources/gtk/help-overlay.ui:327
-#, fuzzy
-#| msgid "_Horizontal"
 msgctxt "shortcut window"
 msgid "Mirror Horizontally"
-msgstr "_Yatay"
+msgstr "Yatay Aynala"
 
 #: data/resources/gtk/help-overlay.ui:333
-#, fuzzy
-#| msgid "_Vertical"
 msgctxt "shortcut window"
 msgid "Mirror Vertically"
-msgstr "_Dikey"
+msgstr "Dikey Aynala"
 
 #: data/resources/gtk/help-overlay.ui:339
 msgctxt "shortcut window"
 msgid "Apply Crop"
-msgstr ""
+msgstr "Kırpmayı Uygula"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
 #: src/about.rs:43
@@ -373,214 +367,174 @@ msgstr "Resim çöpten geri yüklenemedi"
 msgid "Drop Image to View"
 msgstr "Görüntülenecek Resmi Bırak"
 
-#: src/widgets/edit/crop.rs:330
-#, fuzzy
-#| msgid "Failed to delete image"
+#: src/widgets/edit/crop.rs:353
 msgid "Failed to Edit Image"
-msgstr "Resim silinemedi"
+msgstr "Resim Düzenlenemedi"
 
 #: src/widgets/edit/crop.ui:6
 msgid "Free"
-msgstr ""
+msgstr "Özgür"
 
 #: src/widgets/edit/crop.ui:11
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Original Scale"
 msgid "Original"
-msgstr "Özgün Ölçekleme"
+msgstr "Özgün"
 
 #: src/widgets/edit/crop.ui:16
 msgid "Square"
-msgstr ""
+msgstr "Kare"
 
 #: src/widgets/edit/crop.ui:21
 msgid "5:4"
-msgstr ""
+msgstr "5:4"
 
 #: src/widgets/edit/crop.ui:26
 msgid "4:3"
-msgstr ""
+msgstr "4:3"
 
 #: src/widgets/edit/crop.ui:31
 msgid "3:2"
-msgstr ""
+msgstr "3:2"
 
 #: src/widgets/edit/crop.ui:36
 msgid "16:9"
-msgstr ""
+msgstr "16:9"
 
 #: src/widgets/edit/crop.ui:91
 msgid "_Free"
-msgstr ""
+msgstr "_Serbest"
 
 #: src/widgets/edit/crop.ui:109
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Original Scale"
 msgid "_Original"
-msgstr "Özgün Ölçekleme"
+msgstr "Ö_zgün"
 
 #: src/widgets/edit/crop.ui:127
 msgid "_Square"
-msgstr ""
+msgstr "_Kare"
 
 #: src/widgets/edit/crop.ui:145
 msgid "_5:4"
-msgstr ""
+msgstr "_5:4"
 
-#: src/widgets/edit/crop.ui:163
+#: src/widgets/edit/crop.ui:166
 msgid "_4:3"
-msgstr ""
+msgstr "_4:3"
 
-#: src/widgets/edit/crop.ui:181
+#: src/widgets/edit/crop.ui:187
 msgid "_3:2"
-msgstr ""
+msgstr "_3:2"
 
-#: src/widgets/edit/crop.ui:199
+#: src/widgets/edit/crop.ui:208
 msgid "_16:9"
-msgstr ""
+msgstr "_16:9"
 
-#: src/widgets/edit/crop.ui:219 src/widgets/edit/crop.ui:365
-#, fuzzy
-#| msgid "_Orientation"
+#: src/widgets/edit/crop.ui:231 src/widgets/edit/crop.ui:377
 msgid "Orientation Landscape"
-msgstr "_Yönelim"
+msgstr "Yatay Yönelim"
 
-#: src/widgets/edit/crop.ui:228 src/widgets/edit/crop.ui:377
-#, fuzzy
-#| msgid "_Orientation"
+#: src/widgets/edit/crop.ui:240 src/widgets/edit/crop.ui:389
 msgid "Orientation Portrait"
-msgstr "_Yönelim"
+msgstr "Dikey Yönelim"
 
-#: src/widgets/edit/crop.ui:249 src/widgets/edit/crop.ui:395
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Rotate Counterclockwise"
+#: src/widgets/edit/crop.ui:261 src/widgets/edit/crop.ui:407
 msgid "Rotate Counter Clockwise"
 msgstr "Saat Yönünün Tersine Döndür"
 
-#: src/widgets/edit/crop.ui:256
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Rotate Clockwise"
+#: src/widgets/edit/crop.ui:268
 msgid "Rotate Clockwise"
 msgstr "Saat Yönünde Döndür"
 
-#: src/widgets/edit/crop.ui:275 src/widgets/edit/crop.ui:403
-#, fuzzy
-#| msgid "_Horizontal"
+#: src/widgets/edit/crop.ui:287 src/widgets/edit/crop.ui:415
 msgid "Mirror Horizontally"
-msgstr "_Yatay"
+msgstr "Yatay Aynala"
 
-#: src/widgets/edit/crop.ui:282
-#, fuzzy
-#| msgid "_Vertical"
+#: src/widgets/edit/crop.ui:294
 msgid "Mirror Vertically"
-msgstr "_Dikey"
+msgstr "Dikey Aynala"
 
-#: src/widgets/edit/crop.ui:295 src/widgets/edit/crop.ui:419
+#: src/widgets/edit/crop.ui:307 src/widgets/edit/crop.ui:431
 msgid "Undo Changes in this View"
-msgstr ""
+msgstr "Bu Görünümdeki Değişiklikleri Geri Al"
 
-#: src/widgets/edit/crop.ui:352
+#: src/widgets/edit/crop.ui:364
 msgid "Aspect Ratio"
-msgstr ""
+msgstr "En Boy Oranı"
 
 #: src/widgets/edit/crop_selection.ui:46
 msgid "Crop Selection"
-msgstr ""
+msgstr "Seçimi Kırp"
 
 #. Translators: Filename suffix
 #. Translators: Filename suffix, {} is replaced by a number
 #: src/widgets/edit_window.rs:192 src/widgets/edit_window.rs:195
 msgid " (Edited)"
 msgid_plural " (Edited {})"
-msgstr[0] ""
+msgstr[0] " (Düzenlendi {})"
 
 #: src/widgets/edit_window.rs:290 src/widgets/edit_window.rs:316
-#, fuzzy
-#| msgid "Failed to delete image"
 msgid "Failed to save image."
-msgstr "Resim silinemedi"
+msgstr "Resim kaydedilemedi."
 
 #: src/widgets/edit_window.rs:346
-#, fuzzy
-#| msgid "Print Image"
 msgid "Editing Image"
-msgstr "Resim Yazdır"
+msgstr "Resim Düzenleniyor"
 
 #: src/widgets/edit_window.rs:360
-#, fuzzy
-#| msgid "Failed to delete image"
 msgid "Failed to edit image."
-msgstr "Resim silinemedi"
+msgstr "Resim düzenlenemedi."
 
 #: src/widgets/edit_window.rs:370 src/widgets/edit_window.rs:393
-#, fuzzy
-#| msgid "Failed to delete image"
 msgid "Failed to Save Image"
-msgstr "Resim silinemedi"
+msgstr "Resim Kaydedilemedi"
 
 #: src/widgets/edit_window.rs:376
-#, fuzzy
-#| msgctxt "shortcut window"
-#| msgid "Navigate Images"
 msgid "Saving Image"
-msgstr "Resimlerde Gezin"
+msgstr "Resim Kaydediliyor"
 
 #: src/widgets/edit_window.ui:64
-#, fuzzy
-#| msgid "Cancel"
 msgid "_Cancel"
-msgstr "İptal"
+msgstr "İ_ptal"
 
 #: src/widgets/edit_window.ui:71
 msgid "_Save"
-msgstr ""
+msgstr "_Kaydet"
 
 #: src/widgets/edit_window.ui:92
 msgid "_Save As…"
-msgstr ""
+msgstr "Farklı _Kaydet…"
 
 #: src/widgets/edit_window.ui:100
 msgid "Keep original and create a new file"
-msgstr ""
+msgstr "Özgünü sakla ve yeni dosya oluştur"
 
 #: src/widgets/edit_window.ui:120
 msgid "_Replace Original"
-msgstr ""
+msgstr "Özgünü _Değiştir"
 
 #: src/widgets/edit_window.ui:128
-#, fuzzy
-#| msgid "Image moved to trash"
 msgid "Original image will be moved to the trash"
-msgstr "Resim çöpe taşındı"
+msgstr "Özgün resim çöpe taşınacak"
 
 #: src/widgets/error_details.rs:79
 msgid ""
 "The following error occurred. If you think this is an issue with the "
 "program, please include this information when you report the error."
 msgstr ""
+"Aşağıdaki hata oluştu. Bunun programla ilgili bir sorun olduğunu "
+"düşünüyorsanız, lütfen hatayı bildirirken bu bilgileri de ekleyin."
 
 #: src/widgets/error_details.ui:4
 msgid "Error Details"
 msgstr "Hata Ayrıntıları"
 
 #: src/widgets/error_details.ui:19
-#, fuzzy
-#| msgid ""
-#| "The image loader reported the following when trying to load the image. "
-#| "Please include this information when you report an error. If possible, "
-#| "please also provide the image that causes the issue."
 msgid ""
 "The image loader reported the following when trying to load or edit the "
 "image. Please include this information when you report an error. If "
 "possible, please also provide the image that causes the issue."
 msgstr ""
-"Resim yükleyici, resmi yüklemeyi denerken aşağıdakileri bildirdi. Hata "
-"bildirirken lütfen bu bilgileri de ekleyin. Eğer oluyorsa, soruna neden olan "
-"resmi de gönderin."
+"Resim yükleyici, resmi yüklemeye ya da düzenlemeye çalışırken aşağıdakileri "
+"bildirdi. Hata bildirdiğinizde lütfen bu bilgileri ekleyin. "
+"Yapabiliyorsanız, soruna neden olan resmi de eklemeyi unutmayın."
 
 #: src/widgets/error_details.ui:24
 msgid "Error Message"
@@ -781,10 +735,8 @@ msgid "Image Properties"
 msgstr "Resim Özellikleri"
 
 #: src/widgets/image_window.ui:132
-#, fuzzy
-#| msgid "Print Image"
 msgid "Edit Image"
-msgstr "Resim Yazdır"
+msgstr "Resmi Düzenle"
 
 #: src/widgets/image_window.ui:220
 msgid "View Images"
@@ -1012,13 +964,5 @@ msgid "Maker, Model"
 msgstr "Üretici, Model"
 
 #: src/widgets/window.rs:222
-#, fuzzy
-#| msgid "Error Details"
 msgid "Show Details"
-msgstr "Hata Ayrıntıları"
-
-#~ msgid "Copy to Clipboard"
-#~ msgstr "Panoya Kopyala"
-
-#~ msgid "Move to Trash"
-#~ msgstr "Çöpe Taşı"
+msgstr "Ayrıntıları Göster"
