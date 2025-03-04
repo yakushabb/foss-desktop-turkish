@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fractal master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/fractal/issues\n"
-"POT-Creation-Date: 2025-02-21 11:01+0000\n"
+"POT-Creation-Date: 2025-03-02 20:07+0000\n"
 "PO-Revision-Date: 2025-02-09 21:42+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1293,7 +1293,6 @@ msgstr "Yeni İstek Gönder"
 #: src/identity_verification_view/choose_method_page.rs:175
 #: src/identity_verification_view/sas_page.rs:147
 #: src/identity_verification_view/scan_qr_code_page.rs:153
-#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:106
 msgid "Verify Session"
 msgstr "Oturumu Doğrula"
 
@@ -2071,7 +2070,7 @@ msgstr ""
 
 #: src/session/view/account_settings/general_page/log_out_subpage.ui:7
 #: src/session/view/account_settings/general_page/mod.ui:118
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:123
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:106
 msgid "Log Out"
 msgstr "Çıkış Yap"
 
@@ -2586,29 +2585,29 @@ msgstr "Diğer Etkin Oturumlar"
 msgid "Could not load the list of connected devices"
 msgstr "Bağlı aygıtların listesi yüklenemedi"
 
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:125
-#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:87
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:108
+#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:109
 msgid "Disconnect Session"
 msgstr "Oturumu Sonlandır"
 
 #. Translators: Time in 24h format, i.e. "23:04".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:185
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:175
 msgid "Last seen at %H:%M"
 msgstr "Son görülme: %H:%M"
 
 #. Translators: Time in 12h format, i.e. "11:04 PM".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:190
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:180
 msgid "Last seen at %I:%M %p"
 msgstr "Son görülme: %I:%M %p"
 
 #. Translators: this a time in 24h format, i.e. "Last seen yesterday at 23:04".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:200
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:190
 #, no-c-format
 msgid "Last seen yesterday at %H:%M"
 msgstr "Son görülme: Dün, %H:%M"
@@ -2617,7 +2616,7 @@ msgstr "Son görülme: Dün, %H:%M"
 #. PM".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:207
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:197
 #, no-c-format
 msgid "Last seen yesterday at %I:%M %p"
 msgstr "Son görülme: Dün, %I:%M %p"
@@ -2626,7 +2625,7 @@ msgstr "Son görülme: Dün, %I:%M %p"
 #. format, i.e. "Last seen Monday at 23:04".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:218
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:208
 #, no-c-format
 msgid "Last seen %A at %H:%M"
 msgstr "Son görülme: %A, %H:%M"
@@ -2635,7 +2634,7 @@ msgstr "Son görülme: %A, %H:%M"
 #. "Last seen Monday at 11:04 PM".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:225
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:215
 #, no-c-format
 msgid "Last seen %A at %I:%M %p"
 msgstr "Son görülme: %A, %l:%M %p"
@@ -2644,7 +2643,7 @@ msgstr "Son görülme: %A, %l:%M %p"
 #. seen February 3 at 23:04".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:234
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:224
 #, no-c-format
 msgid "Last seen %B %-e at %H:%M"
 msgstr "Son görülme: %-e %B, %H:%M"
@@ -2653,7 +2652,7 @@ msgstr "Son görülme: %-e %B, %H:%M"
 #. seen February 3 at 11:04 PM".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:241
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:231
 #, no-c-format
 msgid "Last seen %B %-e at %I:%M %p"
 msgstr "Son görülme: %-e %B, %l:%M %p"
@@ -2662,7 +2661,7 @@ msgstr "Son görülme: %-e %B, %l:%M %p"
 #. seen February 3 2015 at 23:04".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:249
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:239
 #, no-c-format
 msgid "Last seen %B %-e %Y at %H:%M"
 msgstr "Son görülme: %-e %B %Y, %H:%M"
@@ -2671,17 +2670,17 @@ msgstr "Son görülme: %-e %B %Y, %H:%M"
 #. seen February 3 2015 at 11:04 PM".
 #. Do not change the time format as it will follow the system settings.
 #. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:256
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:246
 #, no-c-format
 msgid "Last seen %B %-e %Y at %I:%M %p"
 msgstr "Son görülme: %-e %B %Y, %l:%M %p"
 
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:322
+#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:313
 msgid "Could not disconnect device “{device_name}”"
 msgstr "“{device_name}” aygıtının bağlantısı kesilemedi."
 
 #. Translators: As in 'A verified session'.
-#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:34
+#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:44
 msgid "Verified"
 msgstr "Doğrulanmış"
 

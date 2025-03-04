@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: balsa master\n"
 "Report-Msgid-Bugs-To: http://pawsa.fedorapeople.org/balsa/bugs.html\n"
-"POT-Creation-Date: 2024-03-20 21:32+0000\n"
+"POT-Creation-Date: 2025-03-04 10:47+0000\n"
 "PO-Revision-Date: 2024-03-19 23:42+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -120,7 +120,7 @@ msgstr "Adres, adres defterinde bulunamıyor"
 #: src/balsa-mime-widget-callbacks.c:50 src/balsa-mime-widget-callbacks.c:176
 #: src/balsa-mime-widget-callbacks.c:208 src/balsa-mime-widget-crypto.c:78
 #: src/balsa-mime-widget-crypto.c:84 src/balsa-mime-widget-message.c:362
-#: src/balsa-mime-widget-text.c:255 src/main-window.c:3059
+#: src/balsa-mime-widget-text.c:251 src/main-window.c:3059
 #: src/main-window.c:4265 src/sendmsg-window.c:1446 src/sendmsg-window.c:2992
 #: src/sendmsg-window.c:3952
 msgid "Unknown error"
@@ -343,7 +343,7 @@ msgstr "“%s” için Autocrypt verisi okunurken hata: %s"
 msgid "Autocrypt database"
 msgstr "Autocrypt veri tabanı"
 
-#: libbalsa/autocrypt.c:491 libbalsa/html.c:459 libbalsa/html-pref-db.c:141
+#: libbalsa/autocrypt.c:491 libbalsa/html.c:460 libbalsa/html-pref-db.c:141
 #: libbalsa/identity.c:1650 libbalsa/libbalsa-gpgme-widgets.c:840
 #: libbalsa/server-config.c:557 src/ab-window.c:148 src/folder-conf.c:334
 #: src/mailbox-node.c:1048 src/main-window.c:3938 src/toolbar-prefs.c:125
@@ -654,7 +654,7 @@ msgstr "Bir HTML bölümü alınamadı: %s"
 msgid "Could not convert HTML part to text: %s"
 msgstr "HTML bölümü metine dönüştürülemedi: %s"
 
-#: libbalsa/html.c:452
+#: libbalsa/html.c:453
 msgid ""
 "This message part references content on one or more external servers. To "
 "protect your privacy, Balsa has not downloaded it. You may choose to "
@@ -664,11 +664,11 @@ msgstr ""
 "Gizliliğini korumak için Balsa bu dosyaları indirmedi. İletiyi gönderene "
 "güveniyorsanız indirmeyi seçebilirsiniz."
 
-#: libbalsa/html.c:457
+#: libbalsa/html.c:458
 msgid "_Download external content"
 msgstr "Dış içeriği _indir"
 
-#: libbalsa/html.c:719
+#: libbalsa/html.c:722
 #, c-format
 msgid ""
 "Balsa's external HTML resources filter web extension is not available in the "
@@ -1138,27 +1138,27 @@ msgstr "“%s” aboneliği iptal edilirken hata oluştu"
 msgid "do not show again"
 msgstr "yeniden gösterme"
 
-#: libbalsa/libbalsa.c:407
+#: libbalsa/libbalsa.c:406
 msgid "broken TLS certificate"
 msgstr "Bozuk TLS sertifikası"
 
-#: libbalsa/libbalsa.c:411
+#: libbalsa/libbalsa.c:410
 msgid "SSL/TLS certificate"
 msgstr "SSL/TLS sertifikası"
 
-#: libbalsa/libbalsa.c:415
+#: libbalsa/libbalsa.c:414
 msgid "_Accept Once"
 msgstr "_Bir Kez Kabul Et"
 
-#: libbalsa/libbalsa.c:416
+#: libbalsa/libbalsa.c:415
 msgid "Accept & _Save"
 msgstr "Kabul Et ve _Kaydet"
 
-#: libbalsa/libbalsa.c:417
+#: libbalsa/libbalsa.c:416
 msgid "_Reject"
 msgstr "_Geri Çevir"
 
-#: libbalsa/libbalsa.c:423
+#: libbalsa/libbalsa.c:422
 #, c-format
 msgid ""
 "<big><b>Authenticity of this certificate could not be verified.</b></big>\n"
@@ -1167,64 +1167,64 @@ msgstr ""
 "<big><b>Bu sertifikanın gerçekliği doğrulanamadı.</b></big>\n"
 "Neden: %s"
 
-#: libbalsa/libbalsa.c:464
+#: libbalsa/libbalsa.c:463
 msgid "the signing certificate authority is not known"
 msgstr "imzalayan sertifika yetkilisi bilinmiyor"
 
-#: libbalsa/libbalsa.c:465
+#: libbalsa/libbalsa.c:464
 msgid ""
 "the certificate does not match the expected identity of the site that it was "
 "retrieved from"
 msgstr "sertifika, alındığı sitenin beklenen kimliğiyle eşleşmiyor"
 
-#: libbalsa/libbalsa.c:466
+#: libbalsa/libbalsa.c:465
 msgid "the certificate’s activation time is still in the future"
 msgstr "sertifikanın etkinleştirilme tarihi henüz gelmemiş"
 
-#: libbalsa/libbalsa.c:467
+#: libbalsa/libbalsa.c:466
 msgid "the certificate has expired"
 msgstr "sertifikanın süresi dolmuş"
 
-#: libbalsa/libbalsa.c:468
+#: libbalsa/libbalsa.c:467
 msgid "the certificate has been revoked"
 msgstr "sertifika feshedilmiş"
 
-#: libbalsa/libbalsa.c:469
+#: libbalsa/libbalsa.c:468
 msgid "the certificate’s algorithm is considered insecure"
 msgstr "sertifikanın algoritması güvensiz kabul ediliyor"
 
-#: libbalsa/libbalsa.c:470
+#: libbalsa/libbalsa.c:469
 msgid "an error occurred validating the certificate"
 msgstr "sertifika doğrulanırken hata oluştu"
 
-#: libbalsa/libbalsa.c:486
+#: libbalsa/libbalsa.c:485
 #, c-format
 msgid "unknown certificate validation error %u"
 msgstr "bilinmeyen sertifika doğrulama hatası %u"
 
-#: libbalsa/libbalsa.c:565
+#: libbalsa/libbalsa.c:564
 msgid "No image data"
 msgstr "Resim verisi yok"
 
-#: libbalsa/libbalsa.c:599
+#: libbalsa/libbalsa.c:598
 msgid "Invalid input format"
 msgstr "Geçersiz girdi biçimi"
 
-#: libbalsa/libbalsa.c:603
+#: libbalsa/libbalsa.c:602
 msgid "Internal buffer overrun"
 msgstr "İç  taşması"
 
 #. Translators: please do not translate Face.
-#: libbalsa/libbalsa.c:620
+#: libbalsa/libbalsa.c:619
 msgid "Bad X-Face data"
 msgstr "Bozuk X-Face verisi"
 
-#: libbalsa/libbalsa.c:719
+#: libbalsa/libbalsa.c:718
 #, c-format
 msgid "Cannot play sound event “%s”: %s"
 msgstr "“%s” ses olayı oynatılamıyor: %s"
 
-#: libbalsa/libbalsa.c:735
+#: libbalsa/libbalsa.c:734
 #, c-format
 msgid "Cannot play sound file “%s”: %s"
 msgstr "“%s” ses dosyası oynatılamıyor: %s"
@@ -1973,7 +1973,7 @@ msgstr "“%s” kaldırılamadı: %s"
 msgid "Mailbox does not exist."
 msgstr "Posta kutusu yok."
 
-#: libbalsa/mailbox_maildir.c:904 libbalsa/mailbox_mbox.c:1935
+#: libbalsa/mailbox_maildir.c:904 libbalsa/mailbox_mbox.c:1941
 #: libbalsa/mailbox_mh.c:1084
 msgid "Data copy error"
 msgstr "Veri kopyalama hatası"
@@ -2021,17 +2021,17 @@ msgstr "Posta kutusu mbox biçiminde değil."
 msgid "Cannot lock mailbox."
 msgstr "Posta kutusu kilitlenemiyor."
 
-#: libbalsa/mailbox_mbox.c:1891
+#: libbalsa/mailbox_mbox.c:1897
 #, c-format
 msgid "%s: could not open %s."
 msgstr "%s: %s açılamadı."
 
-#: libbalsa/mailbox_mbox.c:1903
+#: libbalsa/mailbox_mbox.c:1909
 #, c-format
 msgid "%s: could not get new MIME stream."
 msgstr "%s: yeni MIME akışı alınamadı."
 
-#: libbalsa/mailbox_mbox.c:1911
+#: libbalsa/mailbox_mbox.c:1917
 #, c-format
 msgid "%s: %s is not in mbox format."
 msgstr "%s: %s mbox biçiminde değil."
@@ -3675,7 +3675,7 @@ msgstr "_Kullanıcı Adres Defteri DN"
 msgid "Enable _TLS"
 msgstr "_TLS etkinleştir"
 
-#: src/address-book-config.c:646 src/address-book-config.c:1165
+#: src/address-book-config.c:646 src/address-book-config.c:1167
 msgid "GPE Address Book"
 msgstr "GPE Adres Defteri"
 
@@ -3735,27 +3735,27 @@ msgstr "Standart dış sunucu için _Multiget’e zorla"
 msgid "Error displaying help: %s\n"
 msgstr "Yardım görüntülenirken hata: %s\n"
 
-#: src/address-book-config.c:1141
+#: src/address-book-config.c:1143
 msgid "vCard Address Book (GnomeCard)"
 msgstr "vCard Adres Defteri (GnomeCard)"
 
-#: src/address-book-config.c:1147
+#: src/address-book-config.c:1149
 msgid "External query (a program)"
 msgstr "Dış sorgu (bir program)"
 
-#: src/address-book-config.c:1152
+#: src/address-book-config.c:1154
 msgid "LDIF Address Book"
 msgstr "LDIF Adres Defteri"
 
-#: src/address-book-config.c:1158
+#: src/address-book-config.c:1160
 msgid "LDAP Address Book"
 msgstr "LDAP Adres Defteri"
 
-#: src/address-book-config.c:1172
+#: src/address-book-config.c:1174
 msgid "Osmo Address Book"
 msgstr "Osmo Adres Defteri"
 
-#: src/address-book-config.c:1179
+#: src/address-book-config.c:1181
 msgid "CardDAV Address Book"
 msgstr "CardDAV Adres Defteri"
 
@@ -4268,7 +4268,7 @@ msgstr "“%s” dosyası oluşturulamadı: %s"
 msgid "Could not open folder %s: %s"
 msgstr "%s klasörü açılamadı: %s"
 
-#: src/balsa-mime-widget-crypto.c:77 src/balsa-mime-widget-text.c:254
+#: src/balsa-mime-widget-crypto.c:77 src/balsa-mime-widget-text.c:250
 #, c-format
 msgid "Could not save a text part: %s"
 msgstr "Bir metin kısmı kaydedilemedi: %s"
@@ -4413,7 +4413,7 @@ msgstr "Konu: %s\n"
 msgid "Se_nd message to obtain this part"
 msgstr "Bu _bölüme erişmek için iletiyi gönder"
 
-#: src/balsa-mime-widget-message.c:324 src/balsa-mime-widget-text.c:891
+#: src/balsa-mime-widget-message.c:324 src/balsa-mime-widget-text.c:887
 #: src/sendmsg-window.c:1471
 #, c-format
 msgid "Error showing %s: %s\n"
@@ -4475,89 +4475,89 @@ msgstr "FCC:"
 msgid "Disposition-Notification-To:"
 msgstr "Okundu-Bildirimi-İleti-Kişisi:"
 
-#: src/balsa-mime-widget-text.c:589 src/balsa-mime-widget-text.c:1215
+#: src/balsa-mime-widget-text.c:585 src/balsa-mime-widget-text.c:1211
 msgid "Copy link"
 msgstr "Bağlantıyı kopyala"
 
-#: src/balsa-mime-widget-text.c:594 src/balsa-mime-widget-text.c:1219
+#: src/balsa-mime-widget-text.c:590 src/balsa-mime-widget-text.c:1215
 msgid "Open link"
 msgstr "Bağlantıyı aç"
 
-#: src/balsa-mime-widget-text.c:599 src/balsa-mime-widget-text.c:1223
+#: src/balsa-mime-widget-text.c:595 src/balsa-mime-widget-text.c:1219
 msgid "Send link…"
 msgstr "Bağlantıyı gönder…"
 
-#: src/balsa-mime-widget-text.c:631 src/balsa-mime-widget-text.c:1169
+#: src/balsa-mime-widget-text.c:627 src/balsa-mime-widget-text.c:1165
 msgid "Save…"
 msgstr "Kaydet…"
 
-#: src/balsa-mime-widget-text.c:639
+#: src/balsa-mime-widget-text.c:635
 msgid "Highlight structured phrases"
 msgstr "Yapılandırılmış ifadeleri vurgula"
 
-#: src/balsa-mime-widget-text.c:876
+#: src/balsa-mime-widget-text.c:872
 #, c-format
 msgid "Calling URL %s…"
 msgstr "URL %s aranıyor…"
 
-#: src/balsa-mime-widget-text.c:1136
+#: src/balsa-mime-widget-text.c:1132
 msgid "Zoom In"
 msgstr "Yaklaştır"
 
-#: src/balsa-mime-widget-text.c:1141
+#: src/balsa-mime-widget-text.c:1137
 msgid "Zoom Out"
 msgstr "Uzaklaştır"
 
-#: src/balsa-mime-widget-text.c:1146
+#: src/balsa-mime-widget-text.c:1142
 msgid "Zoom 100%"
 msgstr "%100 Yaklaştır"
 
-#: src/balsa-mime-widget-text.c:1155 ui/main-window.ui:119
+#: src/balsa-mime-widget-text.c:1151 ui/main-window.ui:119
 #: ui/main-window.ui:336 ui/message-window.ui:38 ui/sendmsg-window.ui:110
 msgid "Select _All"
 msgstr "_Tümünü Seç"
 
-#: src/balsa-mime-widget-text.c:1178
+#: src/balsa-mime-widget-text.c:1174
 msgid "Print…"
 msgstr "Yazdır…"
 
-#: src/balsa-mime-widget-text.c:1188
+#: src/balsa-mime-widget-text.c:1184
 msgid "Prefer HTML for this sender"
 msgstr "Bu gönderici için HTML’yi yeğle"
 
-#: src/balsa-mime-widget-text.c:1195
+#: src/balsa-mime-widget-text.c:1191
 msgid "Load external content for this sender"
 msgstr "Bu gönderici için dış içeriği yükle"
 
-#: src/balsa-mime-widget-text.c:1380
+#: src/balsa-mime-widget-text.c:1376
 msgid "S_tore Address"
 msgstr "_Adresi Kaydet"
 
-#: src/balsa-mime-widget-text.c:1386
+#: src/balsa-mime-widget-text.c:1382
 msgid "Full Name:"
 msgstr "Tam Adı:"
 
-#: src/balsa-mime-widget-text.c:1387
+#: src/balsa-mime-widget-text.c:1383
 msgid "Nick Name:"
 msgstr "Takma Ad:"
 
-#: src/balsa-mime-widget-text.c:1388
+#: src/balsa-mime-widget-text.c:1384
 msgid "First Name:"
 msgstr "Ad:"
 
-#: src/balsa-mime-widget-text.c:1389
+#: src/balsa-mime-widget-text.c:1385
 msgid "Last Name:"
 msgstr "Soyad:"
 
-#: src/balsa-mime-widget-text.c:1390
+#: src/balsa-mime-widget-text.c:1386
 msgid "Organization:"
 msgstr "Kuruluş:"
 
-#: src/balsa-mime-widget-text.c:1391
+#: src/balsa-mime-widget-text.c:1387
 msgid "Email Address:"
 msgstr "E-posta Adresi:"
 
-#: src/balsa-mime-widget-text.c:1419
+#: src/balsa-mime-widget-text.c:1415
 #, c-format
 msgid ""
 "The message sent by %s with subject “%s” contains 8-bit characters, but no "

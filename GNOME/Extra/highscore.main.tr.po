@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/highscore/issues\n"
-"POT-Creation-Date: 2025-02-26 00:03+0000\n"
+"POT-Creation-Date: 2025-03-02 13:31+0000\n"
 "PO-Revision-Date: 2025-02-14 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -69,7 +69,7 @@ msgstr "Atari Lynx"
 
 #. translators: only released in eastern Asia
 #: search-provider/platform-list.vala:12
-#: src/platforms/platform-register.vala:365
+#: src/platforms/platform-register.vala:366
 msgid "Famicom Disk System"
 msgstr "Famicom Disk Sistemi"
 
@@ -146,23 +146,24 @@ msgstr "TurboGrafx-16"
 
 #. translators: known as "CD-ROM²" in eastern Asia and France
 #: search-provider/platform-list.vala:23
-#: src/platforms/platform-register.vala:378
+#: src/platforms/platform-register.vala:379
 msgid "TurboGrafx-CD"
 msgstr "TurboGrafx-CD"
 
 #: search-provider/platform-list.vala:24
 #: src/input/gamepad/gamepad-type.vala:195
+#: src/platforms/playstation/playstation-properties.ui:9
 #: src/platforms/platform-register.vala:274
 msgid "PlayStation"
 msgstr "PlayStation"
 
 #: search-provider/platform-list.vala:25
-#: src/platforms/platform-register.vala:289
+#: src/platforms/platform-register.vala:290
 msgid "Sega Saturn"
 msgstr "Sega Saturn"
 
 #: search-provider/platform-list.vala:26
-#: src/platforms/platform-register.vala:304
+#: src/platforms/platform-register.vala:305
 msgid "SG-1000"
 msgstr "SG-1000"
 
@@ -171,18 +172,18 @@ msgstr "SG-1000"
 #. "Super Nintendo Entertainment System" because the full name
 #. doesn't fit into the sidebar
 #: search-provider/platform-list.vala:27
-#: src/platforms/platform-register.vala:320
+#: src/platforms/platform-register.vala:321
 msgid "Super Nintendo (SNES)"
 msgstr "Super Nintendo (SNES)"
 
 #: search-provider/platform-list.vala:28
 #: src/platforms/virtual-boy/virtual-boy-controls.vala:5
-#: src/platforms/platform-register.vala:332
+#: src/platforms/platform-register.vala:333
 msgid "Virtual Boy"
 msgstr "Virtual Boy"
 
 #: search-provider/platform-list.vala:29
-#: src/platforms/platform-register.vala:345
+#: src/platforms/platform-register.vala:346
 msgid "WonderSwan"
 msgstr "WonderSwan"
 
@@ -639,6 +640,7 @@ msgstr "XBox Kılavuzu"
 #: src/input/gamepad/gamepad-type.vala:170
 #: src/input/gamepad/gamepad-type.vala:173
 #: src/input/gamepad/gamepad-type.vala:196
+#: src/platforms/playstation/playstation-controls.vala:126
 msgid "Left Stick"
 msgstr "Sol Çubuk"
 
@@ -648,6 +650,7 @@ msgstr "Sol Çubuk"
 #: src/input/gamepad/gamepad-type.vala:171
 #: src/input/gamepad/gamepad-type.vala:174
 #: src/input/gamepad/gamepad-type.vala:197
+#: src/platforms/playstation/playstation-controls.vala:129
 msgid "Right Stick"
 msgstr "Sağ Çubuk"
 
@@ -1178,6 +1181,7 @@ msgstr "Duraklat Düğmesi"
 #: src/platforms/pc-engine/pc-engine-controls.vala:27
 #: src/platforms/pc-engine/pc-engine-controls.vala:83
 #: src/platforms/playstation/playstation-controls.vala:42
+#: src/platforms/playstation/playstation-controls.vala:121
 msgid "Select Button"
 msgstr "Seç Düğmesi"
 
@@ -1502,6 +1506,7 @@ msgstr "Yön Düğmesi"
 #: src/platforms/mega-drive/mega-drive-controls.vala:27
 #: src/platforms/mega-drive/mega-drive-controls.vala:89
 #: src/platforms/playstation/playstation-controls.vala:43
+#: src/platforms/playstation/playstation-controls.vala:122
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:43
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:127
 #: src/platforms/wonderswan/wonderswan-controls.vala:34
@@ -1777,55 +1782,86 @@ msgid "PlayStation Controller"
 msgstr "PlayStation Denetçisi"
 
 #: src/platforms/playstation/playstation-controls.vala:14
+#: src/platforms/playstation/playstation-controls.vala:93
 msgid "Directional Buttons"
 msgstr "Yön Düğmeleri"
 
 #. Translators: @PS_TRIANGLE@ will be shown as an icon, don't change it
 #: src/platforms/playstation/playstation-controls.vala:23
+#: src/platforms/playstation/playstation-controls.vala:102
 msgid "@PS_TRIANGLE@ Button"
 msgstr "@PS_TRIANGLE@ Düğmesi"
 
 #. Translators: @PS_SQUARE@ will be shown as an icon, don't change it
 #: src/platforms/playstation/playstation-controls.vala:25
+#: src/platforms/playstation/playstation-controls.vala:104
 msgid "@PS_SQUARE@ Button"
 msgstr "@PS_SQUARE@ Düğmesi"
 
 #. Translators: @PS_CIRCLE@ will be shown as an icon, don't change it
 #: src/platforms/playstation/playstation-controls.vala:27
+#: src/platforms/playstation/playstation-controls.vala:106
 msgid "@PS_CIRCLE@ Button"
 msgstr "@PS_CIRCLE@ Düğmesi"
 
 #. Translators: @PS_X@ will be shown as an icon, don't change it
 #: src/platforms/playstation/playstation-controls.vala:29
+#: src/platforms/playstation/playstation-controls.vala:108
 msgid "@PS_X@ Button"
 msgstr "@PS_X@ Düğmesi"
 
 #: src/platforms/playstation/playstation-controls.vala:34
+#: src/platforms/playstation/playstation-controls.vala:113
 msgid "L1 Button"
 msgstr "L1 Düğmesi"
 
 #: src/platforms/playstation/playstation-controls.vala:35
+#: src/platforms/playstation/playstation-controls.vala:114
 msgid "L2 Button"
 msgstr "L2 Düğmesi"
 
 #: src/platforms/playstation/playstation-controls.vala:36
+#: src/platforms/playstation/playstation-controls.vala:115
 msgid "R1 Button"
 msgstr "R1 Düğmesi"
 
 #: src/platforms/playstation/playstation-controls.vala:37
+#: src/platforms/playstation/playstation-controls.vala:116
 msgid "R2 Button"
 msgstr "R2 Düğmesi"
 
-#: src/platforms/playstation/playstation-runner-delegate.vala:27
-#: src/platforms/playstation/playstation-runner-delegate.vala:48
+#: src/platforms/playstation/playstation-controls.vala:83
+#, fuzzy
+#| msgid "DualShock 4"
+msgid "DualShock"
+msgstr "DualShock 4"
+
+#: src/platforms/playstation/playstation-controls.vala:135
+#, fuzzy
+#| msgid "L Button"
+msgid "L3 Button"
+msgstr "L Düğmesi"
+
+#: src/platforms/playstation/playstation-controls.vala:136
+#, fuzzy
+#| msgid "R Button"
+msgid "R3 Button"
+msgstr "R Düğmesi"
+
+#: src/platforms/playstation/playstation-properties.ui:12
+msgid "Analog Mode"
+msgstr ""
+
+#: src/platforms/playstation/playstation-runner-delegate.vala:67
+#: src/platforms/playstation/playstation-runner-delegate.vala:88
 #: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:56
 #: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:77
 #, c-format
 msgid "Disc %u"
 msgstr "Disk %u"
 
-#: src/platforms/playstation/playstation-runner-delegate.vala:29
-#: src/platforms/playstation/playstation-runner-delegate.vala:50
+#: src/platforms/playstation/playstation-runner-delegate.vala:69
+#: src/platforms/playstation/playstation-runner-delegate.vala:90
 #: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:58
 #: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:79
 msgid "Switch Disc"
