@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gnome-online-accounts master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
 "issues\n"
-"POT-Creation-Date: 2025-02-12 23:03+0000\n"
+"POT-Creation-Date: 2025-03-01 22:21+0000\n"
 "PO-Revision-Date: 2025-01-11 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -208,9 +208,10 @@ msgstr ""
 #: src/goabackend/goamsgraphprovider.c:214
 #: src/goabackend/goamsgraphprovider.c:227
 #: src/goabackend/goamsgraphprovider.c:252
-#: src/goabackend/goaoauth2provider.c:677
-#: src/goabackend/goaoauth2provider.c:707
-#: src/goabackend/goaoauth2provider.c:718 src/goabackend/goautils.c:136
+#: src/goabackend/goaoauth2provider.c:686
+#: src/goabackend/goaoauth2provider.c:743
+#: src/goabackend/goaoauth2provider.c:773
+#: src/goabackend/goaoauth2provider.c:784 src/goabackend/goautils.c:136
 #: src/goabackend/goawindowsliveprovider.c:182
 #: src/goabackend/goawindowsliveprovider.c:193
 #: src/goabackend/goawindowsliveprovider.c:202
@@ -422,24 +423,30 @@ msgid "Example ID: 00000000-0000-0000-0000-000000000000"
 msgstr "Örnek Kimlik: 00000000-0000-0000-0000-000000000000"
 
 #: src/goabackend/goamsgraphprovider.c:529
-#: src/goabackend/goaoauth2provider.c:959
+#: src/goabackend/goaoauth2provider.c:1025
 #: src/goabackend/goaproviderdialog.c:840
 msgid "_Sign In…"
 msgstr "Giriş _Yap…"
 
 #: src/goabackend/goamsgraphprovider.c:537
-#: src/goabackend/goaoauth2provider.c:967
+#: src/goabackend/goaoauth2provider.c:1033
 msgid "_Copy Link"
 msgstr "Bağlantıyı _Kopyala"
 
 #: src/goabackend/goamsgraphprovider.c:550
-#: src/goabackend/goaoauth2provider.c:977
+#: src/goabackend/goaoauth2provider.c:1043
 msgid "Copy the authorization URL to continue with a specific web browser."
 msgstr ""
 "Belirli bir web tarayıcıyla sürdürmek için yetkilendirme bağlantısını "
 "kopyala."
 
-#: src/goabackend/goaoauth2provider.c:653
+#: src/goabackend/goaoauth2provider.c:708
+#: src/goabackend/goaoauth2provider.c:926
+#, c-format
+msgid "Authorization response: %s"
+msgstr "Yetkilendirme yanıtı: %s"
+
+#: src/goabackend/goaoauth2provider.c:719
 #, c-format
 msgid ""
 "Expected status 200 when requesting access token, instead got status %d (%s)"
@@ -447,51 +454,42 @@ msgstr ""
 "Erişim jetonu istenirken durum kodu 200 bekleniyordu, ama durum kodu %d (%s) "
 "alındı"
 
-#: src/goabackend/goaoauth2provider.c:797
+#: src/goabackend/goaoauth2provider.c:863
 msgid "Authorization response: "
 msgstr "Yetkilendirme yanıtı: "
 
-#: src/goabackend/goaoauth2provider.c:860
-#, c-format
-msgid "Authorization response: %s"
-msgstr "Yetkilendirme yanıtı: %s"
-
-#: src/goabackend/goaoauth2provider.c:868
+#: src/goabackend/goaoauth2provider.c:934
 msgid "Failed to authenticate"
 msgstr "Kimlik doğrulanamadı"
 
-#: src/goabackend/goaoauth2provider.c:904
+#: src/goabackend/goaoauth2provider.c:970
 msgid "Error getting an Access Token: "
 msgstr "Erişim Jetonu alırken hata oluştu: "
 
-#: src/goabackend/goaoauth2provider.c:920
+#: src/goabackend/goaoauth2provider.c:986
 msgid "Error getting identity: "
 msgstr "Kimlik alınırken hata oluştu: "
 
-#: src/goabackend/goaoauth2provider.c:950
+#: src/goabackend/goaoauth2provider.c:1016
 #, c-format
 msgid "Sign in to %s with your browser"
 msgstr "Tarayıcınızla %s hesabınıza giriş yapın"
 
-#: src/goabackend/goaoauth2provider.c:1182
-msgid "Failed to get session keyring"
-msgstr "Oturum anahtarlığı alınamadı"
-
-#: src/goabackend/goaoauth2provider.c:1477
-#: src/goabackend/goaoauth2provider.c:1645
+#: src/goabackend/goaoauth2provider.c:1511
+#: src/goabackend/goaoauth2provider.c:1679
 msgid "Copied to clipboard"
 msgstr "Panoya kopyalandı"
 
-#: src/goabackend/goaoauth2provider.c:1596
+#: src/goabackend/goaoauth2provider.c:1630
 #, c-format
 msgid "Was asked to log in as %s, but logged in as %s"
 msgstr "%s olarak giriş yapılması istendi, ancak %s olarak giriş yapıldı"
 
-#: src/goabackend/goaoauth2provider.c:1833
+#: src/goabackend/goaoauth2provider.c:1867
 msgid "Credentials do not contain access_token"
 msgstr "Kimlik bilgileri içinde access_token bulunmuyor"
 
-#: src/goabackend/goaoauth2provider.c:1877
+#: src/goabackend/goaoauth2provider.c:1911
 #, c-format
 msgid "Failed to refresh access token (%s, %d): "
 msgstr "Erişim jetonu yenilenemedi (%s, %d): "
@@ -837,6 +835,9 @@ msgstr "Kimlik için kimlik bilgileri önbelleği oluşturulamadı"
 #, c-format
 msgid "Error closing file descriptor: %s"
 msgstr "Dosya tanımlayıcı kapatılırken hata: %s"
+
+#~ msgid "Failed to get session keyring"
+#~ msgstr "Oturum anahtarlığı alınamadı"
 
 #~ msgid "None"
 #~ msgstr "Hiçbiri"

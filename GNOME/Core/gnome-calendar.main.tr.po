@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-calendar master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-calendar/issues\n"
-"POT-Creation-Date: 2025-02-14 13:28+0000\n"
+"POT-Creation-Date: 2025-03-10 17:41+0000\n"
 "PO-Revision-Date: 2025-02-09 16:18+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -504,6 +504,11 @@ msgstr "Tarih"
 msgid "Time"
 msgstr "Saat"
 
+#: src/gui/event-editor/gcal-date-time-chooser.ui:26
+#: src/gui/event-editor/gcal-time-chooser-row.ui:15
+msgid "Edit Time"
+msgstr "Saati Düzenle"
+
 #: src/gui/event-editor/gcal-date-time-chooser.ui:65
 msgid ":"
 msgstr ":"
@@ -517,10 +522,6 @@ msgstr "Saat Dilimini Değiştir"
 #: src/gui/event-editor/gcal-time-chooser-row.ui:35
 msgid "Edit time"
 msgstr "Saati düzenle"
-
-#: src/gui/event-editor/gcal-time-chooser-row.ui:15
-msgid "Edit Time"
-msgstr "Saati Düzenle"
 
 #: src/gui/event-editor/gcal-event-editor-dialog.c:120
 msgid "_Save"
@@ -971,7 +972,7 @@ msgstr ""
 "%sʼde"
 
 #.
-#. * Translators: %A is the abbreviated day name, %B is the month name
+#. * Translators: %a is the abbreviated day name, %B is the month name
 #. * and %d is the day of the month as a number between 0 and 31.
 #. * More formats can be found on the doc:
 #. * https://docs.gtk.org/glib/method.DateTime.format.html
@@ -1474,7 +1475,7 @@ msgid "Description"
 msgstr "Açıklama"
 
 #.
-#. * Translators: %A is the abbreviated day name, %B is the month name
+#. * Translators: %A is the full day name, %B is the month name
 #. * and %d is the day of the month as a number between 0 and 31.
 #. * More formats can be found on the doc:
 #. * https://docs.gtk.org/glib/method.DateTime.format.html

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: meld master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/meld/issues\n"
-"POT-Creation-Date: 2025-02-22 22:13+0000\n"
+"POT-Creation-Date: 2025-03-09 02:22+0000\n"
 "PO-Revision-Date: 2024-08-11 04:32+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -975,7 +975,7 @@ msgid "New"
 msgstr "Yeni"
 
 #: meld/resources/gtk/menus.ui:139 meld/resources/gtk/menus.ui:162
-#: meld/vc/_vc.py:77
+#: meld/vc/_vc.py:80
 msgid "Modified"
 msgstr "Değiştirilmiş"
 
@@ -991,11 +991,11 @@ msgstr "Unicode Yollarını Normalleştir"
 msgid "Normal"
 msgstr "Normal"
 
-#: meld/resources/gtk/menus.ui:170 meld/vc/_vc.py:71
+#: meld/resources/gtk/menus.ui:170 meld/vc/_vc.py:74
 msgid "Unversioned"
 msgstr "Sürümlendirilmemiş"
 
-#: meld/resources/gtk/menus.ui:174 meld/vc/_vc.py:70
+#: meld/resources/gtk/menus.ui:174 meld/vc/_vc.py:73
 msgid "Ignored"
 msgstr "Yok sayılmış"
 
@@ -1066,7 +1066,7 @@ msgid "Column Name"
 msgstr "Sütun Adı"
 
 #: meld/resources/ui/column-list.ui:83 meld/resources/ui/filter-list.ui:127
-#: meld/resources/ui/vcview-menus.ui:22 meld/vcview.py:769
+#: meld/resources/ui/vcview-menus.ui:26 meld/vcview.py:774
 msgid "_Remove"
 msgstr "_Kaldır"
 
@@ -1162,7 +1162,7 @@ msgid "_Copy File Paths"
 msgstr "Dosya Yollarını _Kopyala"
 
 #: meld/resources/ui/dirdiff.ui:34 meld/resources/ui/dirdiff.ui:74
-#: meld/resources/ui/dirdiff.ui:114 meld/resources/ui/vcview.ui:139
+#: meld/resources/ui/dirdiff.ui:114 meld/resources/ui/vcview.ui:152
 msgid "Select Folder"
 msgstr "Klasör Seç"
 
@@ -1277,12 +1277,12 @@ msgstr "Dosya 3"
 msgid "File 2"
 msgstr "Dosya 2"
 
-#: meld/resources/ui/filediff.ui:215 meld/resources/ui/vcview.ui:148
+#: meld/resources/ui/filediff.ui:215 meld/resources/ui/vcview.ui:161
 msgid "File 1"
 msgstr "Dosya 1"
 
 #. Create icon and filename CellRenderer
-#: meld/resources/ui/filter-list.ui:53 meld/resources/ui/vcview.ui:217
+#: meld/resources/ui/filter-list.ui:53 meld/resources/ui/vcview.ui:230
 #: meld/dirdiff.py:634
 msgid "Name"
 msgstr "Ad"
@@ -1758,15 +1758,19 @@ msgstr "_Karşılaştır"
 msgid "Co_mmit…"
 msgstr "Gö_nder…"
 
-#: meld/resources/ui/vcview-menus.ui:26
+#: meld/resources/ui/vcview-menus.ui:22
+msgid "_Unstage"
+msgstr ""
+
+#: meld/resources/ui/vcview-menus.ui:30
 msgid "Re_vert"
 msgstr "Geri _Al"
 
-#: meld/resources/ui/vcview-menus.ui:30
+#: meld/resources/ui/vcview-menus.ui:34
 msgid "Delete"
 msgstr "Sil"
 
-#: meld/resources/ui/vcview-menus.ui:37
+#: meld/resources/ui/vcview-menus.ui:41
 msgid "Resolve Conflict"
 msgstr "Çakışma Çöz"
 
@@ -1791,34 +1795,40 @@ msgid "Add to version control"
 msgstr "Sürüm denetimine ekle"
 
 #: meld/resources/ui/vcview.ui:88
+#, fuzzy
+#| msgid "Delete change"
+msgid "Remove staged changes"
+msgstr "Değişikliği sil"
+
+#: meld/resources/ui/vcview.ui:101
 msgid "Remove from version control"
 msgstr "Sürüm denetiminden sil"
 
-#: meld/resources/ui/vcview.ui:101
+#: meld/resources/ui/vcview.ui:114
 msgid "Revert working copy to original state"
 msgstr "Çalışma kopyasını özgün durumuna geri döndür"
 
-#: meld/resources/ui/vcview.ui:114
+#: meld/resources/ui/vcview.ui:127
 msgid "Mark as resolved in version control"
 msgstr "Sürüm denetiminde çözüldü olarak işaretle"
 
-#: meld/resources/ui/vcview.ui:140
+#: meld/resources/ui/vcview.ui:153
 msgid "Open version controlled folder in this pane"
 msgstr "Bu klasörde sürüm denetimli klasör aç"
 
-#: meld/resources/ui/vcview.ui:229
+#: meld/resources/ui/vcview.ui:242
 msgid "Location"
 msgstr "Konum"
 
-#: meld/resources/ui/vcview.ui:238
+#: meld/resources/ui/vcview.ui:251
 msgid "Status"
 msgstr "Durum"
 
-#: meld/resources/ui/vcview.ui:247
+#: meld/resources/ui/vcview.ui:260
 msgid "Extra"
 msgstr "Ek"
 
-#: meld/resources/ui/vcview.ui:279
+#: meld/resources/ui/vcview.ui:292
 msgid "Console output"
 msgstr "Konsol çıktısı"
 
@@ -1987,7 +1997,7 @@ msgstr ""
 "\n"
 "{error}"
 
-#: meld/dirdiff.py:1338 meld/vcview.py:792
+#: meld/dirdiff.py:1338 meld/vcview.py:797
 msgid "Error deleting {}"
 msgstr "{} silinirken hata"
 
@@ -2428,6 +2438,12 @@ msgstr "Kendiliğinden birleştirme için üç dosya gerekiyor, var olan: %r"
 msgid "Cannot compare a mixture of files and directories"
 msgstr "Dosya ve dizinlerin karışımı karşılaştırılamıyor"
 
+#: meld/meldwindow.py:479
+#, fuzzy
+#| msgid "Cannot compare a mixture of files and directories"
+msgid "Cannot compare a non-existent file"
+msgstr "Dosya ve dizinlerin karışımı karşılaştırılamıyor"
+
 #: meld/misc.py:154
 msgid ""
 "{}\n"
@@ -2507,16 +2523,16 @@ msgid "%d branch"
 msgid_plural "%d branches"
 msgstr[0] "%d dal"
 
-#: meld/vc/git.py:353
+#: meld/vc/git.py:363
 #, python-brace-format
 msgid "Mode changed from {old_mode} to {new_mode}"
 msgstr "Kip {old_mode}’den {new_mode}’e değiştirildi"
 
-#: meld/vc/git.py:361
+#: meld/vc/git.py:371
 msgid "Partially staged"
 msgstr "Kısmen sahnelendi"
 
-#: meld/vc/git.py:361
+#: meld/vc/git.py:371
 msgid "Staged"
 msgstr "Sahnelendi"
 
@@ -2531,145 +2547,145 @@ msgstr "Hiçbiri"
 msgid "Rev %s"
 msgstr "Rev %s"
 
-#: meld/vc/_vc.py:55
+#: meld/vc/_vc.py:58
 msgid "Merged"
 msgstr "Birleştirilmiş"
 
-#: meld/vc/_vc.py:55
+#: meld/vc/_vc.py:58
 msgid "Base"
 msgstr "Taban"
 
-#: meld/vc/_vc.py:55
+#: meld/vc/_vc.py:58
 msgid "Local"
 msgstr "Yerel"
 
-#: meld/vc/_vc.py:55
+#: meld/vc/_vc.py:58
 msgid "Remote"
 msgstr "Uzak"
 
-#: meld/vc/_vc.py:74
+#: meld/vc/_vc.py:77
 msgid "Error"
 msgstr "Hata"
 
-#: meld/vc/_vc.py:76
+#: meld/vc/_vc.py:79
 msgid "Newly added"
 msgstr "Yeni eklenmiş"
 
-#: meld/vc/_vc.py:78
+#: meld/vc/_vc.py:81
 msgid "Renamed"
 msgstr "Yeniden Adlandırılmış"
 
-#: meld/vc/_vc.py:79
+#: meld/vc/_vc.py:82
 msgid "Conflict"
 msgstr "Çakışma"
 
-#: meld/vc/_vc.py:80
+#: meld/vc/_vc.py:83
 msgid "Removed"
 msgstr "Silindi"
 
-#: meld/vc/_vc.py:81
+#: meld/vc/_vc.py:84
 msgid "Missing"
 msgstr "Eksik"
 
-#: meld/vc/_vc.py:82
+#: meld/vc/_vc.py:85
 msgid "Not present"
 msgstr "Mevcut değil"
 
-#: meld/vc/_vc.py:83
+#: meld/vc/_vc.py:86
 msgid "Scanning…"
 msgstr "Taranıyor…"
 
 #. Translators: This error message is shown when no
 #. repository of this type is found.
-#: meld/vcview.py:350
+#: meld/vcview.py:351
 #, python-format
 msgid "%(name)s (not found)"
 msgstr "%(name)s (bulunamadı)"
 
 #. Translators: This error message is shown when a version
 #. control binary isn't installed.
-#: meld/vcview.py:354
+#: meld/vcview.py:355
 #, python-format
 msgid "%(name)s (%(cmd)s not installed)"
 msgstr "%(name)s (%(cmd)s yüklü değil)"
 
 #. Translators: This error message is shown when a version
 #. controlled repository is invalid.
-#: meld/vcview.py:358
+#: meld/vcview.py:359
 #, python-format
 msgid "%(name)s (invalid repository)"
 msgstr "%(name)s (geçersiz depo)"
 
-#: meld/vcview.py:372
+#: meld/vcview.py:373
 msgid "No valid version control system found in this folder"
 msgstr "Bu klasörde geçerli sürüm denetimi sistemi bulunamadı"
 
-#: meld/vcview.py:374
+#: meld/vcview.py:375
 msgid "Choose which version control system to use"
 msgstr "Hangi sürüm denetimi sistemini kullanacağınızı seçin"
 
 #. TRANSLATORS: This is the name of the version control
 #. system being used, e.g., "Git" or "Subversion"
-#: meld/vcview.py:432
+#: meld/vcview.py:433
 #, python-brace-format
 msgid "{vc} comparison:"
 msgstr "{vc} karşılaştırma:"
 
 #. Initial yield so when we add this to our tasks, we don't
 #. create iterators that may be invalidated.
-#: meld/vcview.py:447
+#: meld/vcview.py:448
 msgid "Scanning repository"
 msgstr "Depo taranıyor"
 
-#: meld/vcview.py:476
+#: meld/vcview.py:477
 #, python-format
 msgid "Scanning %s"
 msgstr "%s taranıyor"
 
-#: meld/vcview.py:515
+#: meld/vcview.py:516
 msgid "(Empty)"
 msgstr "(Boş)"
 
-#: meld/vcview.py:563
+#: meld/vcview.py:564
 #, python-format
 msgid "%s — local"
 msgstr "%s — yerel"
 
-#: meld/vcview.py:564
+#: meld/vcview.py:565
 #, python-format
 msgid "%s — remote"
 msgstr "%s — uzak"
 
-#: meld/vcview.py:572
+#: meld/vcview.py:573
 #, python-format
 msgid "%s (local, merge, remote)"
 msgstr "%s (yerel, birleştir, uzak)"
 
-#: meld/vcview.py:577
+#: meld/vcview.py:578
 #, python-format
 msgid "%s (remote, merge, local)"
 msgstr "%s (uzak, birleştir, yerel)"
 
-#: meld/vcview.py:588
+#: meld/vcview.py:589
 #, python-format
 msgid "%s — repository"
 msgstr "%s — depo"
 
-#: meld/vcview.py:594
+#: meld/vcview.py:595
 #, python-format
 msgid "%s (working, repository)"
 msgstr "%s (çalışma dizini, depo)"
 
-#: meld/vcview.py:598
+#: meld/vcview.py:599
 #, python-format
 msgid "%s (repository, working)"
 msgstr "%s (depo, çalışma dizini)"
 
-#: meld/vcview.py:763
+#: meld/vcview.py:768
 msgid "Remove folder and all its files?"
 msgstr "Klasör ve dosyaları silinsin mi?"
 
-#: meld/vcview.py:765
+#: meld/vcview.py:770
 msgid ""
 "This will remove all selected files and folders, and all files within any "
 "selected folders, from version control."
@@ -2677,6 +2693,6 @@ msgstr ""
 "Bu işlem, sürüm denetimi sisteminden tüm seçili dosya ve klasörleri, ve "
 "seçili herhangi bir klasör içindeki tüm dosyaları kaldıracak."
 
-#: meld/vcview.py:879
+#: meld/vcview.py:884
 msgid "Clear"
 msgstr "Temizle"

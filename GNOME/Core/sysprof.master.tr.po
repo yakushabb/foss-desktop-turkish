@@ -1,24 +1,24 @@
 # Turkish translation for sysprof.
-# Copyright (C) 2023-2024 sysprof's COPYRIGHT HOLDER
+# Copyright (C) 2023-2025 sysprof's COPYRIGHT HOLDER
 # This file is distributed under the same license as the sysprof package.
 #
-# Sabri Ünal <yakushabb@gmail.com>, 2023, 2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024.
+# Sabri Ünal <yakushabb@gmail.com>, 2023-2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: sysprof master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/sysprof/issues/\n"
-"POT-Creation-Date: 2025-02-17 12:56+0000\n"
-"PO-Revision-Date: 2024-06-25 13:20+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-03-10 11:52+0000\n"
+"PO-Revision-Date: 2025-03-10 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.5\n"
 
 #: data/org.gnome.Sysprof.appdata.xml.in.in:6
 #: data/org.gnome.Sysprof.desktop.in.in:4 src/sysprof/sysprof-application.c:172
@@ -139,7 +139,7 @@ msgstr "Pencereleme"
 
 #: src/libsysprof/sysprof-debuginfod-task.c:97
 msgid "Downloading Symbols…"
-msgstr ""
+msgstr "Semboller İndiriliyor…"
 
 #: src/libsysprof/sysprof-document-allocation.c:151
 msgid "Allocation"
@@ -387,29 +387,17 @@ msgstr "Gözlenecek ek D-Bus adresi"
 
 #: src/sysprof-cli/sysprof-cli.c:340
 msgid "Stack size to copy for unwinding in user-space"
-msgstr ""
+msgstr "Kullanıcı uzayında çözme için kopyalanacak yığın boyutu"
 
 #: src/sysprof-cli/sysprof-cli.c:341
 msgid "Do not use debuginfod to resolve symbols"
-msgstr ""
+msgstr "Simgeleri çözümlemek için debuginfod kullanma"
 
 #: src/sysprof-cli/sysprof-cli.c:374
 msgid "[CAPTURE_FILE] [-- COMMAND ARGS] — Sysprof"
 msgstr "[YAKALAMA_DOSYASI] [-- KOMUT ARGÜMANLARI] — Sysprof"
 
 #: src/sysprof-cli/sysprof-cli.c:377
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Examples:\n"
-#| "\n"
-#| "  # Record gtk4-widget-factory using trace-fd to get application "
-#| "provided\n"
-#| "  # data as well as GTK and GNOME Shell data providers\n"
-#| "  sysprof-cli --gtk --gnome-shell --use-trace-fd -- gtk4-widget-factory\n"
-#| "\n"
-#| "  # Merge multiple syscap files into one\n"
-#| "  sysprof-cli --merge a.syscap b.syscap > c.syscap\n"
 msgid ""
 "\n"
 "Examples:\n"
@@ -435,6 +423,12 @@ msgstr ""
 "\n"
 "  # Birden çok syscap dosyasını tek dosyaya birleştir\n"
 "  sysprof-cli --merge a.syscap b.syscap > c.syscap\n"
+"\n"
+"  # Yığın boyutunun sayfa boyutunun katları olduğu durumlarda kare "
+"imleyicileri\n"
+"  # yerine yığın/kayıt içeriklerini yakalayarak çöz\n"
+"  sysprof-cli --stack-size=8192\n"
+"\n"
 
 #: src/sysprof-cli/sysprof-cli.c:417
 msgid "Too many arguments were passed to sysprof-cli:"
@@ -727,45 +721,45 @@ msgstr "Anahtarlar sayı ile başlayamaz"
 msgid "Keys may only contain alpha-numerics or underline."
 msgstr "Anahtarlar yalnızca harf, sayı veya alt çizgi olabilir."
 
-#: src/sysprof/sysprof-greeter.c:306 src/sysprof/sysprof-window.c:175
+#: src/sysprof/sysprof-greeter.c:324 src/sysprof/sysprof-window.c:175
 msgid "Must Capture to Local File"
 msgstr "Yerel Dosyaya Yakalanmalıdır"
 
-#: src/sysprof/sysprof-greeter.c:307 src/sysprof/sysprof-window.c:176
+#: src/sysprof/sysprof-greeter.c:325 src/sysprof/sysprof-window.c:176
 msgid "You must choose a local file to capture using Sysprof"
 msgstr "Sysprof ile yakalamak için yerel dosya seçmelisiniz"
 
-#: src/sysprof/sysprof-greeter.c:308 src/sysprof/sysprof-recording-pad.c:119
+#: src/sysprof/sysprof-greeter.c:326 src/sysprof/sysprof-recording-pad.c:119
 #: src/sysprof/sysprof-window.c:177 src/sysprof/sysprof-window.c:764
 msgid "Close"
 msgstr "Kapat"
 
-#: src/sysprof/sysprof-greeter.c:331
+#: src/sysprof/sysprof-greeter.c:349
 #, c-format
 msgid "System Capture from %s.syscap"
 msgstr "Sistem Yakalama %s.syscap"
 
-#: src/sysprof/sysprof-greeter.c:335
+#: src/sysprof/sysprof-greeter.c:353
 msgid "Record to File"
 msgstr "Dosyaya Kaydet"
 
-#: src/sysprof/sysprof-greeter.c:336
+#: src/sysprof/sysprof-greeter.c:354
 msgid "Record"
 msgstr "Kaydet"
 
-#: src/sysprof/sysprof-greeter.c:485
+#: src/sysprof/sysprof-greeter.c:503
 msgid "No Change"
 msgstr "Değişiklik Yok"
 
-#: src/sysprof/sysprof-greeter.c:488
+#: src/sysprof/sysprof-greeter.c:506
 msgid "Balanced"
 msgstr "Dengeli"
 
-#: src/sysprof/sysprof-greeter.c:491
+#: src/sysprof/sysprof-greeter.c:509
 msgid "Power Saver"
 msgstr "Güç Tutumu"
 
-#: src/sysprof/sysprof-greeter.c:494
+#: src/sysprof/sysprof-greeter.c:512
 msgid "Performance"
 msgstr "Başarım"
 
@@ -783,27 +777,27 @@ msgstr "Örnekleme profilleyicisi kullanarak yerel yığın izlerini kaydet"
 
 #: src/sysprof/sysprof-greeter.ui:111
 msgid "Unwind Stacks in User Space"
-msgstr ""
+msgstr "Yığınları Kullanıcı Uzayında Çöz"
 
 #: src/sysprof/sysprof-greeter.ui:112
 msgid "Copy stack contents and registers for unwinding in user-space"
-msgstr ""
+msgstr "Kullanıcı uzayında çözmek için yığın içeriğini ve kayıtları kopyala"
 
 #: src/sysprof/sysprof-greeter.ui:123
-#, fuzzy
-#| msgid "Stack Trace"
 msgid "Stack Size"
-msgstr "Yığın İzle"
+msgstr "Yığın Boyutu"
 
 #: src/sysprof/sysprof-greeter.ui:124
 msgid "The number of bytes to copy from the stack"
-msgstr ""
+msgstr "Yığından kopyalanacak bayt sayısı"
 
 #: src/sysprof/sysprof-greeter.ui:135
 msgid ""
 "Unwinding in user-space has considerable overhead but may help in situations "
 "where frame-pointers are unavailable."
 msgstr ""
+"Kullanıcı uzayında çözmek önemli bir ek yük oluşturur, ancak kare "
+"imleyicilerin kullanılamadığı durumlarda yardımcı olabilir."
 
 #: src/sysprof/sysprof-greeter.ui:151
 msgid "Sample JavaScript Stacks"
@@ -1047,15 +1041,15 @@ msgstr "Simgeleri Bağla"
 msgid "Make recording shareable by symbolizing stack traces after recording"
 msgstr "Kayıttan sonra yığın izlerini simgeleştirerek kaydı paylaşılabilir yap"
 
+# Uygulama adı. Çevirmeyin.
 #: src/sysprof/sysprof-greeter.ui:627
-#, fuzzy
-#| msgid "Debug"
 msgid "Debuginfod"
-msgstr "Hata Ayıklama"
+msgstr "Debuginfod"
 
 #: src/sysprof/sysprof-greeter.ui:628
 msgid "Enable Debuginfod to automatically fetch debug symbols"
 msgstr ""
+"Hata ayıklama simgelerini kendiliğinden almak için Debuginfodʼu etkinleştir"
 
 #: src/sysprof/sysprof-greeter.ui:661
 msgid "_Open File…"
@@ -1295,7 +1289,7 @@ msgstr "Süreç Tablosu"
 #: src/sysprof/sysprof-recording-pad.c:58
 #, c-format
 msgid "%<PRIi64> events"
-msgstr ""
+msgstr "%<PRIi64> etkinlik"
 
 #: src/sysprof/sysprof-recording-pad.c:115
 msgid "Recording Failed"
@@ -1472,18 +1466,3 @@ msgstr "Benzer Süreçleri Birleştir"
 #: src/sysprof/sysprof-window.ui:499
 msgid "Left Heavy"
 msgstr "Sol Ağırlıklı"
-
-#~ msgid "_Preferences"
-#~ msgstr "_Tercihler"
-
-#~ msgid "_Help"
-#~ msgstr "_Yardım"
-
-#~ msgid "_About Sysprof"
-#~ msgstr "Sysprof _Hakkında"
-
-#~ msgid "Quit"
-#~ msgstr "Çık"
-
-#~ msgid "%"
-#~ msgstr "%"

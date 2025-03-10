@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gegl master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gegl/issues/\n"
-"POT-Creation-Date: 2025-02-21 22:14+0000\n"
+"POT-Creation-Date: 2025-03-07 18:57+0000\n"
 "PO-Revision-Date: 2024-08-28 22:13+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -2091,8 +2091,8 @@ msgstr ""
 msgid "The shadow's color (defaults to 'black')"
 msgstr "Gölge rengi (öntanımlı olarak 'black')"
 
-#. It does make sense to sometimes have opacities > 1 (see GEGL logo
-#. * for example)
+#. We used to permit opacity values > 1.0, similar results can in many cases be
+#. * achieved with grow_radius.
 #.
 #: operations/common/dropshadow.c:74 operations/common/inner-glow.c:75
 #: operations/common/layer.c:33 operations/common/opacity.c:25
@@ -2101,11 +2101,11 @@ msgstr "Gölge rengi (öntanımlı olarak 'black')"
 msgid "Opacity"
 msgstr "Matlık"
 
-#: operations/common/dropshadow.c:184
+#: operations/common/dropshadow.c:185
 msgid "Dropshadow"
 msgstr "Gölge"
 
-#: operations/common/dropshadow.c:188
+#: operations/common/dropshadow.c:189
 msgid "Creates a dropshadow effect on the input buffer"
 msgstr "Girdi tamponunda gölge etkisi oluşturur"
 

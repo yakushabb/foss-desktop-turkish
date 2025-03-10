@@ -1,6 +1,6 @@
 # Turkish translation of gnome-control-center.
 # Copyright (C) 2000-2003, 2004, 2005, 2008, 2009, 2011 Free Software Foundation, Inc.
-# Copyright (C) 2012-2024 gnome-control-center's COPYRIGHT HOLDER
+# Copyright (C) 2012-2025 gnome-control-center's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-control-center package.
 #
 # Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
@@ -12,7 +12,7 @@
 # Furkan Ahmet Kara <furkanahmetkara.fk@gmail.com>, 2018.
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2018.
 # Muhammet Kara <muhammetk@gmail.com>, 2011-2021.
-# Sabri Ünal <yakushabb@gmail.com>, 2014, 2019, 2022-2024.
+# Sabri Ünal <yakushabb@gmail.com>, 2014, 2019, 2020, 2022-2025.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2013-2025.
 #
 msgid ""
@@ -20,9 +20,9 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
-"POT-Creation-Date: 2025-02-26 13:02+0000\n"
-"PO-Revision-Date: 2025-01-11 08:00+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"POT-Creation-Date: 2025-03-10 10:47+0000\n"
+"PO-Revision-Date: 2025-03-04 21:00+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -32,10 +32,8 @@ msgstr ""
 "X-Generator: Poedit 3.5\n"
 
 #: global-shortcuts-provider/cc-global-shortcut-dialog.ui:6
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Add Keyboard Shortcuts"
-msgstr "Klavye Kısayolları"
+msgstr "Klavye Kısayolları Ekle"
 
 #: global-shortcuts-provider/cc-global-shortcut-dialog.ui:15
 #: panels/applications/cc-application-shortcut-dialog.c:152
@@ -59,7 +57,7 @@ msgstr "Klavye Kısayolları"
 #: panels/privacy/usage/cc-usage-page.ui:147
 #: panels/system/region/cc-format-chooser.ui:32
 #: panels/system/users/cc-add-user-dialog.ui:24
-#: panels/system/users/cc-avatar-chooser.c:92
+#: panels/system/users/cc-avatar-chooser.c:89
 #: panels/system/users/cc-enterprise-login-dialog.ui:44
 #: panels/system/users/cc-fingerprint-dialog.c:1400
 #: panels/system/users/cc-fingerprint-dialog.ui:17
@@ -89,19 +87,19 @@ msgid ""
 "Added keyboard shortcuts will be available globally, and can be changed in "
 "the application’s panel in Settings"
 msgstr ""
+"Eklenen klavye kısayolları küresel olarak kullanılabilecek ve uygulamanın "
+"Ayarlar bölümünden değiştirilebilir"
 
 #: panels/applications/cc-application-shortcut-dialog.c:143
-#, fuzzy
-#| msgid "Reset All Shortcuts?"
 msgid "Remove All Shortcuts?"
-msgstr "Tüm Kısayollar Sıfırlansın Mı?"
+msgstr "Tüm Kısayollar Kaldırılsın Mı?"
 
 #: panels/applications/cc-application-shortcut-dialog.c:148
 #, c-format
 msgid ""
 "All actions from %s that have been registered for global shortcuts will be "
 "removed."
-msgstr ""
+msgstr "Küresel kısayollar için kaydedilmiş tüm %s eylemleri kaldırılacaktır."
 
 #: panels/applications/cc-application-shortcut-dialog.c:153
 #: panels/keyboard/cc-keyboard-shortcut-editor.ui:19
@@ -110,21 +108,17 @@ msgid "_Remove"
 msgstr "_Kaldır"
 
 #: panels/applications/cc-application-shortcut-dialog.c:183
-#, fuzzy
-#| msgid "Reset All Shortcuts?"
 msgid "_Remove All Shortcuts"
-msgstr "Tüm Kısayollar Sıfırlansın Mı?"
+msgstr "Tüm Kısayolları _Kaldır"
 
-#: panels/applications/cc-application-shortcut-dialog.c:265
+#: panels/applications/cc-application-shortcut-dialog.c:263
 #, c-format
 msgid "%s has registered the following global shortcuts"
-msgstr ""
+msgstr "%s şu küresel kısayolları kaydetti"
 
 #: panels/applications/cc-application-shortcut-dialog.ui:5
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Global Shortcuts"
-msgstr "Klavye Kısayolları"
+msgstr "Küresel Kısayollar"
 
 #: panels/applications/cc-applications-panel.c:880
 msgid "System Bus"
@@ -463,14 +457,12 @@ msgid "System permissions that the app requires"
 msgstr "Uygulamanın gereksindiği sistem izinleri"
 
 #: panels/applications/cc-applications-panel.ui:412
-#, fuzzy
-#| msgid "Keyboard Shortcuts"
 msgid "Global S_hortcuts"
-msgstr "Klavye Kısayolları"
+msgstr "Küresel _Kısayollar"
 
 #: panels/applications/cc-applications-panel.ui:413
 msgid "Global actions that have been registered for use"
-msgstr ""
+msgstr "Kullanım için kaydedilmiş küresel eylemler"
 
 #: panels/applications/cc-applications-panel.ui:423
 #: panels/mouse/cc-mouse-panel.ui:67 panels/mouse/cc-mouse-panel.ui:203
@@ -1939,67 +1931,67 @@ msgstr "_Gece Işığı"
 msgid "Night Light"
 msgstr "Gece Işığı"
 
-#: panels/display/cc-display-settings.c:120
+#: panels/display/cc-display-settings.c:127
 msgctxt "Display rotation"
 msgid "Landscape"
 msgstr "Yatay"
 
-#: panels/display/cc-display-settings.c:123
+#: panels/display/cc-display-settings.c:130
 msgctxt "Display rotation"
 msgid "Portrait Right"
 msgstr "Dikey Sağ"
 
-#: panels/display/cc-display-settings.c:126
+#: panels/display/cc-display-settings.c:133
 msgctxt "Display rotation"
 msgid "Portrait Left"
 msgstr "Dikey Sol"
 
-#: panels/display/cc-display-settings.c:129
+#: panels/display/cc-display-settings.c:136
 msgctxt "Display rotation"
 msgid "Landscape (flipped)"
 msgstr "Yatay (ters yüz)"
 
-#: panels/display/cc-display-settings.c:140
+#: panels/display/cc-display-settings.c:147
 msgctxt "Display rotation"
 msgid "Portrait"
 msgstr "Dikey"
 
-#: panels/display/cc-display-settings.c:143
+#: panels/display/cc-display-settings.c:150
 msgctxt "Display rotation"
 msgid "Landscape Right"
 msgstr "Yatay Sağ"
 
-#: panels/display/cc-display-settings.c:146
+#: panels/display/cc-display-settings.c:153
 msgctxt "Display rotation"
 msgid "Landscape Left"
 msgstr "Yatay Sol"
 
-#: panels/display/cc-display-settings.c:149
+#: panels/display/cc-display-settings.c:156
 msgctxt "Display rotation"
 msgid "Portrait (flipped)"
 msgstr "Dikey (çevrilmiş)"
 
-#: panels/display/cc-display-settings.c:160
+#: panels/display/cc-display-settings.c:167
 msgctxt "Display rotation"
 msgid "Upright"
 msgstr "Dik"
 
-#: panels/display/cc-display-settings.c:163
+#: panels/display/cc-display-settings.c:170
 msgctxt "Display rotation"
 msgid "Right"
 msgstr "Sağ"
 
-#: panels/display/cc-display-settings.c:166
+#: panels/display/cc-display-settings.c:173
 msgctxt "Display rotation"
 msgid "Left"
 msgstr "Sol"
 
-#: panels/display/cc-display-settings.c:169
+#: panels/display/cc-display-settings.c:176
 msgctxt "Display rotation"
 msgid "Flipped"
 msgstr "Çevrilmiş"
 
-#: panels/display/cc-display-settings.c:235
+#: panels/display/cc-display-settings.c:242
 msgid "%.2lf Hz"
 msgstr "%.2lf Hz"
 
@@ -2008,12 +2000,12 @@ msgstr "%.2lf Hz"
 #. * 2. The formatting sequence is a range separated by an en-dash
 #. *    (unicode "\u2013"). For example: "Variable (48–144.97 Hz)"
 #.
-#: panels/display/cc-display-settings.c:252
+#: panels/display/cc-display-settings.c:259
 msgid "Variable (%d–%.2lf Hz)"
 msgstr "Değişken (%d–%.2lf Hz)"
 
 #. Translators: "Variable" is an adjective that refers to the refresh rate
-#: panels/display/cc-display-settings.c:259
+#: panels/display/cc-display-settings.c:266
 msgid "Variable (up to %.2lf Hz)"
 msgstr "Değişken (azami %.2lf Hz)"
 
@@ -2042,14 +2034,18 @@ msgstr "_Tazeleme Hızı"
 
 #: panels/display/cc-display-settings.ui:84
 msgid "_HDR (High Dynamic Range)"
-msgstr ""
+msgstr "_HDR (Yüksek Dinamik Aralık)"
 
 #: panels/display/cc-display-settings.ui:92
+msgid "HDR _Brightness"
+msgstr "HDR _Parlaklığı"
+
+#: panels/display/cc-display-settings.ui:114
 msgid "Adjust for _TV"
 msgstr "_TV için Uyarla"
 
-#: panels/display/cc-display-settings.ui:100
-#: panels/display/cc-display-settings.ui:114
+#: panels/display/cc-display-settings.ui:122
+#: panels/display/cc-display-settings.ui:136
 msgctxt "display setting"
 msgid "_Scale"
 msgstr "_Ölçekle"
@@ -2274,10 +2270,8 @@ msgid "Restart"
 msgstr "Yeniden Başlat"
 
 #: panels/keyboard/01-system.xml.in:8
-#, fuzzy
-#| msgid "Power Off"
 msgid "Power off"
-msgstr "Kapat"
+msgstr "Gücü kapat"
 
 #: panels/keyboard/01-system.xml.in:10
 msgid "Lock screen"
@@ -5744,12 +5738,9 @@ msgid "Reduced Functionality"
 msgstr "Azaltılmış İşlev"
 
 #: panels/privacy/bolt/cc-bolt-device-dialog.c:99
-#, fuzzy
-#| msgctxt "Thunderbolt Device Status"
-#| msgid "Connected & Authorized"
 msgctxt "Thunderbolt Device Status"
 msgid "Connected and Authorized"
-msgstr "Bağlı ve Yetkilendirilmiş"
+msgstr "Bağlı ve Yetkili"
 
 #: panels/privacy/bolt/cc-bolt-device-dialog.c:105
 #: panels/privacy/bolt/cc-bolt-device-entry.c:148
@@ -7771,11 +7762,11 @@ msgstr ""
 msgid "_Confirm Password"
 msgstr "Parolayı _Doğrula"
 
-#: panels/system/users/cc-avatar-chooser.c:94
+#: panels/system/users/cc-avatar-chooser.c:91
 msgid "Select"
 msgstr "Seç"
 
-#: panels/system/users/cc-avatar-chooser.c:162
+#: panels/system/users/cc-avatar-chooser.c:159
 msgid "Browse for more pictures"
 msgstr "Daha çok resim için göz at"
 
@@ -9336,58 +9327,51 @@ msgstr "Sıklık"
 #: panels/wellbeing/cc-screen-time-statistics-row.c:228
 msgctxt "abbreviated weekday name for Sunday"
 msgid "S"
-msgstr ""
+msgstr "P"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:229
-#, fuzzy
-#| msgid "AM"
 msgctxt "abbreviated weekday name for Monday"
 msgid "M"
-msgstr "ÖÖ"
+msgstr "Pt"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:230
-#, fuzzy
-#| msgid "To"
 msgctxt "abbreviated weekday name for Tuesday"
 msgid "T"
-msgstr "Şu Zamana"
+msgstr "S"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:231
 msgctxt "abbreviated weekday name for Wednesday"
 msgid "W"
-msgstr ""
+msgstr "Ç"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:232
-#, fuzzy
-#| msgid "To"
 msgctxt "abbreviated weekday name for Thursday"
 msgid "T"
-msgstr "Şu Zamana"
+msgstr "Pr"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:233
 msgctxt "abbreviated weekday name for Friday"
 msgid "F"
-msgstr ""
+msgstr "C"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:234
 msgctxt "abbreviated weekday name for Saturday"
 msgid "S"
-msgstr ""
+msgstr "Ct"
 
 #. Translators: This is a duration in minutes, for example ‘15m’ for 15 minutes.
 #. * Use whatever shortest unit label is used for minutes in your locale.
 #: panels/wellbeing/cc-screen-time-statistics-row.c:391
-#, fuzzy, c-format
-#| msgid "Hum"
+#, c-format
 msgid "%um"
-msgstr "Vız"
+msgstr "%udk"
 
 #. Translators: This is a duration in hours, for example ‘2h’ for 2 hours.
 #. * Use whatever shortest unit label is used for hours in your locale.
 #: panels/wellbeing/cc-screen-time-statistics-row.c:397
 #, c-format
 msgid "%uh"
-msgstr ""
+msgstr "%usa"
 
 #. Translators: This is a duration in hours and minutes, for example
 #. * ‘3h 15m’ for 3 hours and 15 minutes. Use whatever shortest unit label
@@ -9395,91 +9379,85 @@ msgstr ""
 #: panels/wellbeing/cc-screen-time-statistics-row.c:404
 #, c-format
 msgid "%uh %um"
-msgstr ""
+msgstr "%usa %udk"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:663
 #: panels/wellbeing/cc-screen-time-statistics-row.c:783
-#, fuzzy, c-format
-#| msgid "Failed to release fingerprint device %s: %s"
+#, c-format
 msgid "Failed to load session history file ‘%s’: %s"
-msgstr "%s parmak izi aygıtı salınamadı: %s"
+msgstr "Oturum geçmişi dosyası ‘%s’ yüklenemedi: %s"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:664
 msgid "Invalid file structure"
-msgstr ""
+msgstr "Geçersiz dosya yapısı"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:701
-#, fuzzy, c-format
-#| msgid "Failed to list fingerprints: %s"
+#, c-format
 msgid "Failed to load session history file: %s"
-msgstr "Parmak izleri listelenemedi: %s"
+msgstr "Oturum geçmişi dosyası yüklenemedi: %s"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:702
 #: panels/wellbeing/cc-screen-time-statistics-row.c:784
-#, fuzzy
-#| msgid "File History"
 msgid "File is empty"
-msgstr "Dosya Geçmişi"
+msgstr "Dosya boş"
 
 #. G_DATE_BAD_WEEKDAY
 #: panels/wellbeing/cc-screen-time-statistics-row.c:920
 msgid "Average Monday"
-msgstr ""
+msgstr "Pazartesi Ortalaması"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:921
 msgid "Average Tuesday"
-msgstr ""
+msgstr "Salı Ortalaması"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:922
 msgid "Average Wednesday"
-msgstr ""
+msgstr "Çarşamba  Ortalaması"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:923
 msgid "Average Thursday"
-msgstr ""
+msgstr "Perşembe Ortalaması"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:924
 msgid "Average Friday"
-msgstr ""
+msgstr "Cuma Ortalaması"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:925
 msgid "Average Saturday"
-msgstr ""
+msgstr "Cumartesi Ortalaması"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:926
 msgid "Average Sunday"
-msgstr ""
+msgstr "Pazar Ortalaması"
 
 #. Translators: This a medium-length date, for example ‘15 April’
 #: panels/wellbeing/cc-screen-time-statistics-row.c:978
 msgid "%-d %B"
-msgstr ""
+msgstr "%-d %B"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:991
 #: panels/wellbeing/cc-screen-time-statistics-row.c:1002
-#, fuzzy
-#| msgid "Data"
 msgid "No Data"
-msgstr "Veri"
+msgstr "Veri Yok"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:1006
 #, c-format
 msgid "This Week"
-msgstr ""
+msgstr "Bu Hafta"
 
 #. Translators: This is a range of days within a given month.
 #. * For example ‘20–27 April’. The dash is an en-dash.
 #: panels/wellbeing/cc-screen-time-statistics-row.c:1017
 #, c-format
 msgid "%u–%u %s"
-msgstr ""
+msgstr "%u–%u %s"
 
 #. Translators: This is a range of days spanning two months.
 #. * For example, ‘27 April–4 May’. The dash is an en-dash.
 #: panels/wellbeing/cc-screen-time-statistics-row.c:1034
 #, c-format
 msgid "%u %s–%u %s"
-msgstr ""
+msgstr "%u %s–%u %s"
 
 #. Translators: The first placeholder is a formatted date string. The
 #. * second placeholder is a formatted time duration (for example, ‘3 hours’
@@ -9490,12 +9468,15 @@ msgid ""
 "Bar chart of screen time usage over the week starting %s. A line is "
 "overlayed at the %s mark to indicate the configured screen time limit."
 msgstr ""
+"%s ile başlayan hafta boyunca ekran süresi kullanımının çubuk grafiği. "
+"Yapılandırılan ekran süresi sınırını belirtmek için %s işaretinin üzerine "
+"bir çizgi eklenir."
 
 #. Translators: The placeholder is a formatted date string.
 #: panels/wellbeing/cc-screen-time-statistics-row.c:1112
 #, c-format
 msgid "Bar chart of screen time usage over the week starting %s."
-msgstr ""
+msgstr "%s başlayarak hafta boyunca ekran süresi kullanımının çubuk grafiği."
 
 #: panels/wellbeing/cc-screen-time-statistics-row.c:1118
 #, c-format
@@ -9503,91 +9484,76 @@ msgid ""
 "Placeholder for a bar chart of screen time usage. No data is currently "
 "available."
 msgstr ""
+"Ekran süresi kullanımının çubuk grafiği için yer tutucu. Şu anda hiçbir veri "
+"yok."
 
 #: panels/wellbeing/cc-screen-time-statistics-row.ui:27
-#, fuzzy
-#| msgid "Security Checks Unavailable"
 msgid "Screen Time Unavailable"
-msgstr "Güvenlik Denetimleri Kullanılamıyor"
+msgstr "Ekran Süresi Kullanılamıyor"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.ui:29
 msgid "Screen time information will appear here after a period of usage"
-msgstr ""
+msgstr "Ekran süresi bilgisi bir süre kullanıldıktan sonra burada görünecek"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.ui:146
 msgid "Average Week"
-msgstr ""
+msgstr "Ortalama Hafta"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.ui:189
-#, fuzzy
-#| msgid "Previous track"
 msgid "Previous Week"
-msgstr "Önceki parça"
+msgstr "Önceki Hafta"
 
 #: panels/wellbeing/cc-screen-time-statistics-row.ui:199
-#, fuzzy
-#| msgid "Next track"
 msgid "Next Week"
-msgstr "Sonraki parça"
+msgstr "Gelecek hafta"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:18
-#, fuzzy
-#| msgid "Screen Area"
 msgid "Screen Time"
-msgstr "Ekran Alanı"
+msgstr "Ekran Süresi"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:40
 msgid ""
 "Disabling screen time recording stops screen time data from being saved. "
 "This data is never shared outside this device."
 msgstr ""
+"Ekran süresi kaydının devre dışı bırakmak, ekran süresi verilerinin kaydını "
+"durdurur. Bu veriler asla bu aygıt dışında paylaşılmaz."
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:49
-#, fuzzy
-#| msgid "_Dim Screen"
 msgid "_Disable Screen Time"
-msgstr "_Ekran Işığını Azalt"
+msgstr "Ekran Süresini _Devre Dışı Bırak"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:76
 msgid "Screen Time Recording Disabled"
-msgstr ""
+msgstr "Ekran Süresi Kaydı Devre Dışı"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:78
 msgid "Enable recording to view screen usage history"
-msgstr ""
+msgstr "Ekran kullanım geçmişini görüntülemek için kaydı etkinleştir"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:82
-#, fuzzy
-#| msgid "Enable"
 msgid "E_nable"
-msgstr "Etkinleştir"
+msgstr "_Etkinleştir"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:102
-#, fuzzy
-#| msgid "Screen Lock"
 msgid "Screen Limits"
-msgstr "Ekran Kilidi"
+msgstr "Ekran Sınırları"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:105
-#, fuzzy
-#| msgid "_Screen Lock"
 msgid "_Screen Time Limit"
-msgstr "_Ekran Kilidi"
+msgstr "_Ekran Zaman Sınırı"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:112
 msgid "Daily _Limit"
-msgstr ""
+msgstr "Günlük _Sınır"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:118
-#, fuzzy
-#| msgctxt "display setting"
-#| msgid "_Scale"
 msgid "_Grayscale"
-msgstr "_Ölçekle"
+msgstr "_Gri Tonlamalı"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:119
 msgid "Black and white screen for screen limits"
-msgstr ""
+msgstr "Ekran sınırları için siyah beyaz ekran"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:128
 msgid "Break Reminders"
@@ -9610,8 +9576,6 @@ msgid "Reminders to move around"
 msgstr "Hareket etmek için anımsatıcılar"
 
 #: panels/wellbeing/cc-wellbeing-panel.ui:145
-#, fuzzy
-#| msgid "Movement Break S_chedule"
 msgid "Movement _Break Schedule"
 msgstr "Hareket Molası _Zamanı"
 
@@ -10376,11 +10340,3 @@ msgstr[0] "%u Girdi"
 #: subprojects/gvc/gvc-mixer-control.c:2872
 msgid "System Sounds"
 msgstr "Sistem Sesleri"
-
-#~ msgid "How much disk space this app is occupying with app data and caches"
-#~ msgstr ""
-#~ "Bu uygulamanın uygulama verisi ve önbelleklerle ne kadar disk alanı "
-#~ "kapladığı"
-
-#~ msgid "The size of the cursor can be increased to make it easier to see"
-#~ msgstr "İmlecin boyutu, görmeyi kolaylaştırmak için artırılabilir"

@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP plug-ins master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2025-02-25 16:29+0000\n"
+"POT-Creation-Date: 2025-03-10 15:15+0000\n"
 "PO-Revision-Date: 2025-02-14 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -623,7 +623,7 @@ msgstr "Kesitler"
 #: plug-ins/common/smooth-palette.c:301 plug-ins/common/tile.c:390
 #: plug-ins/file-bmp/bmp-load.c:809 plug-ins/file-exr/file-exr.c:288
 #: plug-ins/file-faxg3/faxg3.c:578 plug-ins/file-fits/fits.c:673
-#: plug-ins/file-jpeg/jpeg-load.c:231
+#: plug-ins/file-jpeg/jpeg-load.c:252
 #: plug-ins/file-psd/psd-image-res-load.c:1093
 #: plug-ins/file-psd/psd-load.c:2985 plug-ins/file-sgi/sgi.c:456
 #: plug-ins/file-tiff/file-tiff-load.c:1554
@@ -2015,13 +2015,13 @@ msgstr "Boş seçimler üzerinde işlenemiyor."
 #: plug-ins/file-icns/file-icns-load.c:540
 #: plug-ins/file-icns/file-icns-load.c:592 plug-ins/file-ico/ico-load.c:681
 #: plug-ins/file-ico/ico-load.c:819 plug-ins/file-ico/ico-load.c:1021
-#: plug-ins/file-jpeg/jpeg-load.c:99 plug-ins/file-jpeg/jpeg-load.c:615
+#: plug-ins/file-jpeg/jpeg-load.c:106 plug-ins/file-jpeg/jpeg-load.c:699
 #: plug-ins/file-psd/psd-export.c:2219 plug-ins/file-psd/psd-load.c:189
 #: plug-ins/file-psd/psd-load.c:194 plug-ins/file-psd/psd-thumb-load.c:82
 #: plug-ins/file-psd/psd-thumb-load.c:87 plug-ins/flame/flame.c:539
 #: plug-ins/fractal-explorer/fractal-explorer-dialogs.c:1771
 #: plug-ins/fractal-explorer/fractal-explorer.c:1171 plug-ins/gfig/gfig.c:525
-#: plug-ins/help/gimphelplocale.c:255 plug-ins/help/gimphelplocale.c:271
+#: plug-ins/help/gimphelplocale.c:260 plug-ins/help/gimphelplocale.c:277
 #: plug-ins/lighting/lighting-ui.c:952
 #, c-format
 msgid "Could not open '%s' for reading: %s"
@@ -2036,7 +2036,8 @@ msgstr "'%s' okunurken hata oluştu: %s"
 msgid "Curve Bend"
 msgstr "Eğri Bükümü"
 
-#: plug-ins/common/curve-bend.c:1063 plug-ins/gfig/gfig-dialog.c:1211
+#: plug-ins/common/curve-bend.c:1063 plug-ins/file-jpeg/jpeg-export.c:862
+#: plug-ins/gfig/gfig-dialog.c:1211
 msgid "Options"
 msgstr "Seçenekler"
 
@@ -2613,7 +2614,7 @@ msgstr "EOF (dosya sonu) ya da görüntü başlığı okunurken hata"
 #: plug-ins/file-bmp/bmp-load.c:265 plug-ins/file-exr/file-exr.c:197
 #: plug-ins/file-faxg3/faxg3.c:244 plug-ins/file-fli/fli-gimp.c:483
 #: plug-ins/file-icns/file-icns-load.c:532 plug-ins/file-ico/ico-load.c:673
-#: plug-ins/file-ico/ico-load.c:811 plug-ins/file-jpeg/jpeg-load.c:90
+#: plug-ins/file-ico/ico-load.c:811 plug-ins/file-jpeg/jpeg-load.c:97
 #: plug-ins/file-psd/psd-load.c:202 plug-ins/file-raw/file-darktable.c:467
 #: plug-ins/file-raw/file-rawtherapee.c:345 plug-ins/file-sgi/sgi.c:315
 #: plug-ins/file-tiff/file-tiff-load.c:299
@@ -3984,13 +3985,13 @@ msgstr "16 bit/kanal"
 msgid "CMYK profile required for export"
 msgstr "Dışa aktarma için CMYK profili gerekli"
 
-#: plug-ins/common/file-jpegxl.c:2035 plug-ins/file-jpeg/jpeg-export.c:899
+#: plug-ins/common/file-jpegxl.c:2035 plug-ins/file-jpeg/jpeg-export.c:904
 #: plug-ins/file-psd/psd-export.c:2459
 #: plug-ins/file-tiff/file-tiff-export.c:1318
 msgid "Name of the color profile used for CMYK export."
 msgstr "CMYK dışa aktarma için kullanılan renk profilinin adı."
 
-#: plug-ins/common/file-jpegxl.c:2054 plug-ins/file-jpeg/jpeg-export.c:910
+#: plug-ins/common/file-jpegxl.c:2054 plug-ins/file-jpeg/jpeg-export.c:915
 #: plug-ins/file-psd/psd-export.c:2470
 #: plug-ins/file-tiff/file-tiff-export.c:1330
 #, c-format
@@ -8479,7 +8480,7 @@ msgstr "Bük"
 msgid "Basic Options"
 msgstr "Temel Seçenekler"
 
-#: plug-ins/common/warp.c:448 plug-ins/file-jpeg/jpeg-export.c:951
+#: plug-ins/common/warp.c:448 plug-ins/file-jpeg/jpeg-export.c:956
 #: plug-ins/file-webp/file-webp-dialog.c:98
 msgid "Advanced Options"
 msgstr "Gelişmiş Seçenekler"
@@ -9650,7 +9651,7 @@ msgstr ""
 
 #. ----- Open PSD file -----
 #: plug-ins/file-icns/file-icns-load.c:584 plug-ins/file-ico/ico-load.c:1013
-#: plug-ins/file-jpeg/jpeg-load.c:601 plug-ins/file-psd/psd-thumb-load.c:72
+#: plug-ins/file-jpeg/jpeg-load.c:685 plug-ins/file-psd/psd-thumb-load.c:72
 #: plug-ins/file-raw/file-darktable.c:620
 #: plug-ins/file-raw/file-rawtherapee.c:459
 #, c-format
@@ -9796,24 +9797,24 @@ msgstr "Dosya boyutu: %s"
 msgid "Calculating file size..."
 msgstr "Dosya boyutu hesaplanıyor..."
 
-#: plug-ins/file-jpeg/jpeg-export.c:807 plug-ins/file-jpeg/jpeg-export.c:878
+#: plug-ins/file-jpeg/jpeg-export.c:807 plug-ins/file-jpeg/jpeg-export.c:883
 msgid "File size: unknown"
 msgstr "Dosya boyutu: bilinmiyor"
 
-#: plug-ins/file-jpeg/jpeg-export.c:886
+#: plug-ins/file-jpeg/jpeg-export.c:891
 msgid "Enable preview to obtain the file size."
 msgstr "Dosya boyutunu elde etmek için ön izlemeye olanak tanı."
 
-#: plug-ins/file-jpeg/jpeg-export.c:891 plug-ins/file-psd/psd-export.c:2451
+#: plug-ins/file-jpeg/jpeg-export.c:896 plug-ins/file-psd/psd-export.c:2451
 #: plug-ins/file-tiff/file-tiff-export.c:1310
 msgid "No soft-proofing profile"
 msgstr "Ekran provası profili yok"
 
-#: plug-ins/file-jpeg/jpeg-load.c:221
+#: plug-ins/file-jpeg/jpeg-load.c:241
 msgid "JPEG preview"
 msgstr "JPEG ön izleme"
 
-#: plug-ins/file-jpeg/jpeg-load.c:486
+#: plug-ins/file-jpeg/jpeg-load.c:570
 #, c-format
 msgid ""
 "Error trying to open temporary %s file '%s' for jpeg metadata loading: %s"
@@ -13273,12 +13274,12 @@ msgstr "Uzaklaştır"
 msgid "Copy selection"
 msgstr "Seçimi kopyala"
 
-#: plug-ins/help/gimphelpdomain.c:200
+#: plug-ins/help/gimphelpdomain.c:195
 #, c-format
 msgid "The help pages for '%s' are not available."
 msgstr "'%s' için yardım sayfaları kullanılabilir değil."
 
-#: plug-ins/help/gimphelpdomain.c:206
+#: plug-ins/help/gimphelpdomain.c:201
 msgid "The GIMP user manual is not available."
 msgstr "GIMP kullanıcı kılavuzu kullanılabilir değil."
 
@@ -13288,7 +13289,7 @@ msgstr "GIMP kullanıcı kılavuzu kullanılabilir değil."
 #. * ends with a space, a newline or is end of text.
 #. * Cf. bug 762282.
 #.
-#: plug-ins/help/gimphelpdomain.c:213
+#: plug-ins/help/gimphelpdomain.c:208
 msgid ""
 "Please install the additional help package or use the online user manual at: "
 "https://docs.gimp.org/"
@@ -13296,11 +13297,11 @@ msgstr ""
 "Lütfen ilave yardım paketlerini kurun veya https://docs.gimp.org/ çevrim içi "
 "kullanıcı kılavuzunu kullanın"
 
-#: plug-ins/help/gimphelpdomain.c:222
+#: plug-ins/help/gimphelpdomain.c:217
 msgid "Perhaps you are missing GIO backends and need to install GVFS?"
 msgstr "GIO arkauçları eksik olabilir ve GVFS yüklemeniz gerekebilir?"
 
-#: plug-ins/help/gimphelpdomain.c:241
+#: plug-ins/help/gimphelpdomain.c:236
 #, c-format
 msgid "Help ID '%s' unknown"
 msgstr "'%s' yardım kimliği bilinmiyor"
@@ -13310,12 +13311,12 @@ msgstr "'%s' yardım kimliği bilinmiyor"
 msgid "Loading index from '%s'"
 msgstr "İçerik '%s' adresinden yükleniyor"
 
-#: plug-ins/help/gimphelplocale.c:239
+#: plug-ins/help/gimphelplocale.c:242
 #, c-format
 msgid "Could not load data from '%s': %s"
 msgstr "'%s' dosyasından veri yüklenemedi: %s"
 
-#: plug-ins/help/gimphelplocale.c:311
+#: plug-ins/help/gimphelplocale.c:320
 #, c-format
 msgid ""
 "Parse error in '%s':\n"

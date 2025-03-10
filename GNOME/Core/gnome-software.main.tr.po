@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-software master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-software/issues\n"
-"POT-Creation-Date: 2025-02-28 10:23+0000\n"
+"POT-Creation-Date: 2025-03-03 19:04+0000\n"
 "PO-Revision-Date: 2025-02-03 15:02+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -80,7 +80,7 @@ msgid "The update details"
 msgstr "Güncelleme ayrıntıları"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/metainfo/org.gnome.Software.metainfo.xml.in:2703
+#: data/metainfo/org.gnome.Software.metainfo.xml.in:2742
 #: src/gs-application.c:263
 msgid "The GNOME Project"
 msgstr "GNOME Projesi"
@@ -3567,7 +3567,7 @@ msgstr "Diğer Kategoriler"
 msgid "No App Data Found"
 msgstr "Uygulama Verisi Bulunamadı"
 
-#: lib/gs-plugin-loader.c:2744
+#: lib/gs-plugin-loader.c:2754
 msgctxt "Distribution name"
 msgid "Unknown"
 msgstr "Bilinmeyen"
@@ -5002,8 +5002,10 @@ msgstr "%s başlatılamıyor"
 
 #. TRANSLATORS: failure text for the in-app notification
 #. TRANSLATORS: we failed to get a proper error code
+#. TRANSLATORS: failure text for the in-app notification
+#. TRANSLATORS: we failed to get a proper error code
 #: src/gs-shell.c:1764 src/gs-shell.c:1792 src/gs-shell.c:1836
-#: src/gs-shell.c:1880 src/gs-shell.c:1940
+#: src/gs-shell.c:1880 src/gs-shell.c:1919 src/gs-shell.c:1944
 msgid "Sorry, something went wrong"
 msgstr "Üzgünüz, bir şeyler yanlış gitti"
 
@@ -5018,7 +5020,7 @@ msgstr "%s başlatılamıyor: %s kurulmamış"
 
 #. TRANSLATORS: failure text for the in-app notification
 #: src/gs-shell.c:1782 src/gs-shell.c:1826 src/gs-shell.c:1870
-#: src/gs-shell.c:1920
+#: src/gs-shell.c:1924
 msgid "Not enough disk space for operation"
 msgstr "İşlem için yeterli disk alanı yok"
 
@@ -5046,17 +5048,17 @@ msgid "Unable to contact %s"
 msgstr "%s ile iletişim kurulamıyor"
 
 #. TRANSLATORS: failure text for the in-app notification, where the 'Software' means this app, aka 'GNOME Software'.
-#: src/gs-shell.c:1924
+#: src/gs-shell.c:1928
 msgid "Restart Software to use new plugins"
 msgstr "Yeni eklentileri kullanmak için Yazılımlarʼı yeniden başlat"
 
 #. TRANSLATORS: need to be connected to the AC power
-#: src/gs-shell.c:1928
+#: src/gs-shell.c:1932
 msgid "Device needs to be plugged in"
 msgstr "Aygıt takılı olmalıdır"
 
 #. TRANSLATORS: not enough juice to do this safely
-#: src/gs-shell.c:1931
+#: src/gs-shell.c:1935
 msgid "Battery level is too low"
 msgstr "Pil düzeyi çok düşük"
 
@@ -5951,12 +5953,12 @@ msgid "Filesystem access to %s"
 msgstr "Dosya sistemi erişimi %s"
 
 #. TRANSLATORS: status text when downloading new metadata
-#: plugins/flatpak/gs-flatpak.c:1382
+#: plugins/flatpak/gs-flatpak.c:1380
 #, c-format
 msgid "Getting flatpak metadata for %s…"
 msgstr "%s için flatpak üst verisi alınıyor…"
 
-#: plugins/flatpak/gs-flatpak.c:3608
+#: plugins/flatpak/gs-flatpak.c:3606
 #, c-format
 msgid "Failed to refine addon ‘%s’: %s"
 msgstr "‘%s’ eklentisi arıtılamadı: %s"

@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: glib\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/glib/-/issues\n"
-"POT-Creation-Date: 2025-02-25 00:56+0000\n"
-"PO-Revision-Date: 2024-04-09 02:42+0300\n"
+"POT-Creation-Date: 2025-03-10 16:16+0000\n"
+"PO-Revision-Date: 2025-03-10 00:16+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-POOTLE-MTIME: 1433280446.000000\n"
 
 #: gio/gappinfo.c:374
@@ -376,10 +376,8 @@ msgid "%s filetype"
 msgstr "%s dosya türü"
 
 #: gio/gconverteroutputstream.c:427
-#, fuzzy
-#| msgid "Unrepresentable character in conversion input"
 msgid "Unexpected data after end of conversion"
-msgstr "Dönüşüm girdisi içinde temsil edilemez karakter"
+msgstr "Dönüşüm bittikten sonra beklenmeyen veri"
 
 #: gio/gcredentials.c:327
 msgid "GCredentials contains invalid data"
@@ -483,10 +481,9 @@ msgstr ""
 #. * the second is the literal name of an attribute in the address.
 #.
 #: gio/gdbusaddress.c:625 gio/gdbusaddress.c:640 gio/gdbusaddress.c:655
-#, fuzzy, c-format
-#| msgid "Error in address “%s” — the host attribute is missing or malformed"
+#, c-format
 msgid "Error in address “%s” — the %s attribute is missing or malformed"
-msgstr "“%s” adresinde hata — host özniteliği eksik ya da hatalı oluşturulmuş"
+msgstr "“%s” adresinde hata — %s özniteliği eksik ya da hatalı oluşturulmuş"
 
 #: gio/gdbusaddress.c:677
 msgid "Error auto-launching: "
@@ -793,14 +790,9 @@ msgstr "%s iletisi: INVALID başlık alanı sağlandı"
 #. * the second is the name of a header field and the third is
 #. * a value that is reserved for the given field.
 #: gio/gdbusmessage.c:1434 gio/gdbusmessage.c:1458
-#, fuzzy, c-format
-#| msgid ""
-#| "%s message: PATH header field is using the reserved value /org/"
-#| "freedesktop/DBus/Local"
+#, c-format
 msgid "%s message: %s header field is using the reserved value %s"
-msgstr ""
-"%s iletisi: PATH başlık alanı, ayrılmış olan /org/freedesktop/DBus/Local "
-"değerini kullanıyor"
+msgstr "%s iletisi: %s başlık alanı, ayrılmış olan %s değerini kullanıyor"
 
 #: gio/gdbusmessage.c:1449
 #, c-format
@@ -2192,11 +2184,11 @@ msgstr "Kimlik doğrularken anonim kullanıcı kullan"
 #. Translator: List here is a verb as in 'List all mounts'
 #: gio/gio-tool-mount.c:74
 msgid "List user-interesting volumes, drives and mounts"
-msgstr ""
+msgstr "Kullanıyı ilgilendiren birimleri, sürücüleri ve bağları listele"
 
 #: gio/gio-tool-mount.c:75
 msgid "Monitor user-interesting volume, drive and mount events"
-msgstr ""
+msgstr "Kullanıcıyı ilgilendiren birim, sürücü ve bağlama olaylarını izle"
 
 #: gio/gio-tool-mount.c:76
 msgid "Show extra information"
@@ -3667,11 +3659,11 @@ msgstr ""
 
 #: gio/gresource-tool.c:564
 msgid "  SECTION   An (optional) elf section name\n"
-msgstr "  BÖLÜM   (İsteğe Bağlı) Bir elf bölüm adı\n"
+msgstr "  BÖLÜM   (İsteğe bağlı) bir elf bölüm adı\n"
 
 #: gio/gresource-tool.c:568 gio/gsettings-tool.c:725
 msgid "  COMMAND   The (optional) command to explain\n"
-msgstr "  KOMUT   (İsteğe Bağlı) Açıklanacak komut\n"
+msgstr "  KOMUT   (İsteğe bağlı) açıklanacak komut\n"
 
 #: gio/gresource-tool.c:574
 msgid "  FILE      An elf file (a binary or a shared library)\n"
@@ -3691,7 +3683,7 @@ msgstr "[YOL]"
 
 #: gio/gresource-tool.c:583
 msgid "  PATH      An (optional) resource path (may be partial)\n"
-msgstr "  YOL      (isteğe bağlı) kaynak yolu (kısmi olabilir)\n"
+msgstr "  YOL      (İsteğe bağlı) kaynak yolu (kısmi olabilir)\n"
 
 #: gio/gresource-tool.c:584
 msgid "PATH"
@@ -5627,7 +5619,7 @@ msgstr ""
 
 #: glib/goption.c:546 glib/goption.c:586
 msgid "deprecated"
-msgstr ""
+msgstr "kullanım dışı"
 
 #: glib/goption.c:727
 msgid "[OPTION…]"
@@ -6461,37 +6453,33 @@ msgstr "%.1f PB"
 msgid "%.1f EB"
 msgstr "%.1f EB"
 
-#, c-format
+#~ msgid "List"
+#~ msgstr "Listele"
+
+#~ msgid "Monitor events"
+#~ msgstr "Eylemleri gözlemle"
+
 #~ msgid "Error in address “%s” — the port attribute is missing or malformed"
 #~ msgstr ""
 #~ "“%s” adresinde hata — bağlantı noktası özniteliği eksik ya da hatalı "
 #~ "oluşturulmuş"
 
-#, c-format
 #~ msgid ""
 #~ "Error in address “%s” — the noncefile attribute is missing or malformed"
 #~ msgstr ""
 #~ "“%s” adresinde hata — noncefile özniteliği eksik ya da hatalı oluşturulmuş"
 
-#, c-format
 #~ msgid ""
 #~ "No such interface “org.freedesktop.DBus.Properties” on object at path %s"
 #~ msgstr ""
 #~ "%s yolundaki nesnede “org.freedesktop.DBus.Properties” gibi bir arayüz yok"
 
-#, c-format
 #~ msgid ""
 #~ "%s message: INTERFACE header field is using the reserved value org."
 #~ "freedesktop.DBus.Local"
 #~ msgstr ""
 #~ "%s iletisi: INTERFACE başlık alanı, ayrılmış olan org.freedesktop.DBus."
 #~ "Local değerini kullanıyor"
-
-#~ msgid "List"
-#~ msgstr "Listele"
-
-#~ msgid "Monitor events"
-#~ msgstr "Eylemleri gözlemle"
 
 #~ msgid "Could not allocate %"
 #~ msgid_plural "Could not allocate %"

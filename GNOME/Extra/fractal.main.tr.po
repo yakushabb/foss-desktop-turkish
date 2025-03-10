@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fractal master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/fractal/issues\n"
-"POT-Creation-Date: 2025-03-02 20:07+0000\n"
+"POT-Creation-Date: 2025-03-10 14:14+0000\n"
 "PO-Revision-Date: 2025-02-09 21:42+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -189,7 +189,7 @@ msgstr "Değişikliği Onayla"
 
 #: src/components/action_button.ui:52 src/components/rows/loading_row.ui:27
 #: src/session/view/account_settings/general_page/log_out_subpage.ui:142
-#: src/session/view/account_settings/user_sessions_page/mod.ui:79
+#: src/session/view/account_settings/user_sessions_page/mod.ui:81
 #: src/session/view/content/room_details/history_viewer/audio.ui:54
 #: src/session/view/content/room_details/history_viewer/file.ui:53
 #: src/session/view/content/room_details/history_viewer/visual_media.ui:60
@@ -1755,23 +1755,30 @@ msgstr "{brand} ile giriş yap"
 msgid "Fractal: Matrix credentials for {user_id}"
 msgstr "Fractal: {user_id} için Matrix kimlik bilgileri"
 
-#: src/secret/linux.rs:514
+#: src/secret/linux.rs:512
 msgid "The secret storage file is corrupted."
 msgstr "Giz depolama dosyası bozuk."
 
-#: src/secret/linux.rs:518
+#: src/secret/linux.rs:516
 msgid "Could not access the secret storage file location."
 msgstr "Giz depolama dosyası konumuna erişilemedi."
 
-#: src/secret/linux.rs:521
+#: src/secret/linux.rs:519
 msgid "An unexpected error occurred when accessing the secret storage file."
 msgstr "Gizli depolama dosyasına erişilirken beklenmedik hata oluştu."
 
-#: src/secret/linux.rs:524
+#: src/secret/linux.rs:522
 msgid "The secret storage file has been changed by another process."
 msgstr "Giz depolama dosyası başka süreççe değiştirildi."
 
-#: src/secret/linux.rs:527
+#: src/secret/linux.rs:525
+msgid ""
+"An unexpected error occurred when interacting with the D-Bus Secret Portal "
+"backend."
+msgstr ""
+"D-Bus Giz Kapı arka ucuyla etkileşim kurulurken beklenmedik hata oluştu."
+
+#: src/secret/linux.rs:528
 msgid ""
 "The request to the Flatpak Secret Portal was cancelled. Make sure to accept "
 "any prompt asking to access it."
@@ -1779,7 +1786,7 @@ msgstr ""
 "Flatpak Giz Kapısına yapılan istek iptal edildi. Erişmek isteyen herhangi "
 "bir istemi kabul ettiğinizden emin olun."
 
-#: src/secret/linux.rs:530
+#: src/secret/linux.rs:531
 msgid ""
 "The Flatpak Secret Portal is not available. Make sure xdg-desktop-portal is "
 "installed, and it is at least at version 1.5.0."
@@ -1787,39 +1794,32 @@ msgstr ""
 "Flatpak Giz Kapısı yok. xdg-desktop-portalʼın kurulu olduğundan ve en az "
 "1.5.0 sürümünün olduğundan emin olun."
 
-#: src/secret/linux.rs:533
-msgid ""
-"An unexpected error occurred when interacting with the D-Bus Secret Portal "
-"backend."
-msgstr ""
-"D-Bus Giz Kapı arka ucuyla etkileşim kurulurken beklenmedik hata oluştu."
-
-#: src/secret/linux.rs:536
+#: src/secret/linux.rs:534
 msgid "The Flatpak Secret Portal provided a key that is too weak to be secure."
 msgstr "Flatpak Giz Kapısı, güvenli olamayacak dek zayıf bir anahtar sağladı."
 
-#: src/secret/linux.rs:550
+#: src/secret/linux.rs:548
 msgid "The item was deleted."
 msgstr "Öge silinmiş."
 
-#: src/secret/linux.rs:554 src/secret/linux.rs:576
+#: src/secret/linux.rs:552 src/secret/linux.rs:572
 msgid ""
 "An unexpected error occurred when interacting with the D-Bus Secret Service."
 msgstr "D-Bus Giz Hizmeti ile etkileşim kurulurken beklenmedik hata oluştu."
 
-#: src/secret/linux.rs:557
+#: src/secret/linux.rs:555
 msgid "The collection or item is locked."
 msgstr "Derleme ya da öge kilitli."
 
-#: src/secret/linux.rs:560
+#: src/secret/linux.rs:558
 msgid "The D-Bus Secret Service session does not exist."
 msgstr "D-Bus Giz Hizmeti oturumu yok."
 
-#: src/secret/linux.rs:563
+#: src/secret/linux.rs:561
 msgid "The collection or item does not exist."
 msgstr "Derleme ya da öge yok."
 
-#: src/secret/linux.rs:567
+#: src/secret/linux.rs:565
 msgid ""
 "The request to the D-Bus Secret Service was cancelled. Make sure to accept "
 "any prompt asking to access it."
@@ -1827,7 +1827,7 @@ msgstr ""
 "D-Bus Giz Hizmeti’ne yapılan istek iptal edildi. Erişmek için sorulan istemi "
 "kabul ettiğinizden emin olun."
 
-#: src/secret/linux.rs:570
+#: src/secret/linux.rs:568
 msgid ""
 "Could not access the default collection. Make sure a keyring was created and "
 "set as default."
@@ -1954,6 +1954,91 @@ msgstr "Keşfet"
 msgid "Forget Room"
 msgstr "Odayı Unut"
 
+#. Translators: Time in 24h format, i.e. "23:04".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:298
+msgid "Last seen at %H:%M"
+msgstr "Son görülme: %H:%M"
+
+#. Translators: Time in 12h format, i.e. "11:04 PM".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:303
+msgid "Last seen at %I:%M %p"
+msgstr "Son görülme: %I:%M %p"
+
+#. Translators: this a time in 24h format, i.e. "Last seen yesterday at 23:04".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:313
+#, no-c-format
+msgid "Last seen yesterday at %H:%M"
+msgstr "Son görülme: Dün, %H:%M"
+
+#. Translators: this is a time in 12h format, i.e. "Last seen Yesterday at 11:04
+#. PM".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:320
+#, no-c-format
+msgid "Last seen yesterday at %I:%M %p"
+msgstr "Son görülme: Dün, %I:%M %p"
+
+#. Translators: this is the name of the week day followed by a time in 24h
+#. format, i.e. "Last seen Monday at 23:04".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:331
+#, no-c-format
+msgid "Last seen %A at %H:%M"
+msgstr "Son görülme: %A, %H:%M"
+
+#. Translators: this is the week day name followed by a time in 12h format, i.e.
+#. "Last seen Monday at 11:04 PM".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:338
+#, no-c-format
+msgid "Last seen %A at %I:%M %p"
+msgstr "Son görülme: %A, %l:%M %p"
+
+#. Translators: this is the month and day and the time in 24h format, i.e. "Last
+#. seen February 3 at 23:04".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:347
+#, no-c-format
+msgid "Last seen %B %-e at %H:%M"
+msgstr "Son görülme: %-e %B, %H:%M"
+
+#. Translators: this is the month and day and the time in 12h format, i.e. "Last
+#. seen February 3 at 11:04 PM".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:354
+#, no-c-format
+msgid "Last seen %B %-e at %I:%M %p"
+msgstr "Son görülme: %-e %B, %l:%M %p"
+
+#. Translators: this is the full date and the time in 24h format, i.e. "Last
+#. seen February 3 2015 at 23:04".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:362
+#, no-c-format
+msgid "Last seen %B %-e %Y at %H:%M"
+msgstr "Son görülme: %-e %B %Y, %H:%M"
+
+#. Translators: this is the full date and the time in 12h format, i.e. "Last
+#. seen February 3 2015 at 11:04 PM".
+#. Do not change the time format as it will follow the system settings.
+#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
+#: src/session/model/user_sessions_list/user_session.rs:369
+#, no-c-format
+msgid "Last seen %B %-e %Y at %I:%M %p"
+msgstr "Son görülme: %-e %B %Y, %l:%M %p"
+
 #: src/session/view/account_settings/general_page/change_password_subpage.rs:151
 msgid "Password must be at least 8 characters long"
 msgstr "Parola en azından 8 karakter uzunluğunda olmalı"
@@ -2070,7 +2155,7 @@ msgstr ""
 
 #: src/session/view/account_settings/general_page/log_out_subpage.ui:7
 #: src/session/view/account_settings/general_page/mod.ui:118
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:106
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:103
 msgid "Log Out"
 msgstr "Çıkış Yap"
 
@@ -2197,14 +2282,17 @@ msgid "Homeserver address copied to clipboard"
 msgstr "Ev sunucusu adresi panoya kopyalandı"
 
 #: src/session/view/account_settings/general_page/mod.ui:101
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:22
 msgid "Session ID"
 msgstr "Oturum Kimliği"
 
 #: src/session/view/account_settings/general_page/mod.ui:103
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:24
 msgid "Copy Session ID"
 msgstr "Oturum Kimliğini Kopyala"
 
 #: src/session/view/account_settings/general_page/mod.ui:104
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:25
 msgid "Session ID copied to clipboard"
 msgstr "Oturum kimliği panoya kopyalandı"
 
@@ -2576,113 +2664,57 @@ msgstr "Oturumlar"
 msgid "Current Session"
 msgstr "Geçerli Oturum"
 
-#: src/session/view/account_settings/user_sessions_page/mod.ui:24
-#: src/session/view/account_settings/user_sessions_page/mod.ui:48
+#: src/session/view/account_settings/user_sessions_page/mod.ui:25
+#: src/session/view/account_settings/user_sessions_page/mod.ui:49
 msgid "Other Active Sessions"
 msgstr "Diğer Etkin Oturumlar"
 
-#: src/session/view/account_settings/user_sessions_page/mod.ui:70
+#: src/session/view/account_settings/user_sessions_page/mod.ui:72
 msgid "Could not load the list of connected devices"
 msgstr "Bağlı aygıtların listesi yüklenemedi"
 
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:108
-#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:109
-msgid "Disconnect Session"
-msgstr "Oturumu Sonlandır"
+#. Translators: As in 'The session is verified'.
+#. Translators: As in 'A verified session'.
+#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:43
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.rs:110
+msgid "Verified"
+msgstr "Doğrulanmış"
 
-#. Translators: Time in 24h format, i.e. "23:04".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:175
-msgid "Last seen at %H:%M"
-msgstr "Son görülme: %H:%M"
+#. Translators: As in 'The session is not verified'.
+#. Translators: As in 'A verified session'.
+#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:60
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.rs:114
+#, fuzzy
+#| msgid "Verified"
+msgid "Not verified"
+msgstr "Doğrulanmış"
 
-#. Translators: Time in 12h format, i.e. "11:04 PM".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:180
-msgid "Last seen at %I:%M %p"
-msgstr "Son görülme: %I:%M %p"
-
-#. Translators: this a time in 24h format, i.e. "Last seen yesterday at 23:04".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:190
-#, no-c-format
-msgid "Last seen yesterday at %H:%M"
-msgstr "Son görülme: Dün, %H:%M"
-
-#. Translators: this is a time in 12h format, i.e. "Last seen Yesterday at 11:04
-#. PM".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:197
-#, no-c-format
-msgid "Last seen yesterday at %I:%M %p"
-msgstr "Son görülme: Dün, %I:%M %p"
-
-#. Translators: this is the name of the week day followed by a time in 24h
-#. format, i.e. "Last seen Monday at 23:04".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:208
-#, no-c-format
-msgid "Last seen %A at %H:%M"
-msgstr "Son görülme: %A, %H:%M"
-
-#. Translators: this is the week day name followed by a time in 12h format, i.e.
-#. "Last seen Monday at 11:04 PM".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:215
-#, no-c-format
-msgid "Last seen %A at %I:%M %p"
-msgstr "Son görülme: %A, %l:%M %p"
-
-#. Translators: this is the month and day and the time in 24h format, i.e. "Last
-#. seen February 3 at 23:04".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:224
-#, no-c-format
-msgid "Last seen %B %-e at %H:%M"
-msgstr "Son görülme: %-e %B, %H:%M"
-
-#. Translators: this is the month and day and the time in 12h format, i.e. "Last
-#. seen February 3 at 11:04 PM".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:231
-#, no-c-format
-msgid "Last seen %B %-e at %I:%M %p"
-msgstr "Son görülme: %-e %B, %l:%M %p"
-
-#. Translators: this is the full date and the time in 24h format, i.e. "Last
-#. seen February 3 2015 at 23:04".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:239
-#, no-c-format
-msgid "Last seen %B %-e %Y at %H:%M"
-msgstr "Son görülme: %-e %B %Y, %H:%M"
-
-#. Translators: this is the full date and the time in 12h format, i.e. "Last
-#. seen February 3 2015 at 11:04 PM".
-#. Do not change the time format as it will follow the system settings.
-#. See `man strftime` or the documentation of g_date_time_format for the available specifiers: <https://docs.gtk.org/glib/method.DateTime.format.html>
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:246
-#, no-c-format
-msgid "Last seen %B %-e %Y at %I:%M %p"
-msgstr "Son görülme: %-e %B %Y, %l:%M %p"
-
-#: src/session/view/account_settings/user_sessions_page/user_session_row.rs:313
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.rs:179
 msgid "Could not disconnect device “{device_name}”"
 msgstr "“{device_name}” aygıtının bağlantısı kesilemedi."
 
-#. Translators: As in 'A verified session'.
-#: src/session/view/account_settings/user_sessions_page/user_session_row.ui:44
-msgid "Verified"
-msgstr "Doğrulanmış"
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:40
+#, fuzzy
+#| msgid "Public"
+msgid "Public Name"
+msgstr "Genel"
+
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:58
+msgid "Last Seen"
+msgstr ""
+
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:80
+#, fuzzy
+#| msgid "User Location"
+msgid "Last Location"
+msgstr "Kullanıcı Konumu"
+
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:114
+#: src/session/view/account_settings/user_sessions_page/user_session_subpage.ui:124
+#, fuzzy
+#| msgid "Disconnect Session"
+msgid "Disconnect"
+msgstr "Oturumu Sonlandır"
 
 #: src/session/view/content/explore/mod.ui:20
 msgid "Public Rooms Search"
@@ -4951,45 +4983,45 @@ msgstr "Depo açılamadı."
 msgid "Could not save file"
 msgstr "Dosya kaydedilemedi"
 
-#: src/utils/matrix/mod.rs:190
+#: src/utils/matrix/mod.rs:191
 msgid "{user} sent an audio file."
 msgstr "{user} ses dosyası gönderdi."
 
-#: src/utils/matrix/mod.rs:193
+#: src/utils/matrix/mod.rs:194
 msgid "{user} sent a file."
 msgstr "{user} dosya gönderdi."
 
-#: src/utils/matrix/mod.rs:195
+#: src/utils/matrix/mod.rs:196
 msgid "{user} sent an image."
 msgstr "{user} görüntü gönderdi."
 
-#: src/utils/matrix/mod.rs:198
+#: src/utils/matrix/mod.rs:199
 msgid "{user} sent their location."
 msgstr "{user} kendi konumunu gönderdi."
 
-#: src/utils/matrix/mod.rs:210
+#: src/utils/matrix/mod.rs:211
 msgid "{user} sent a video."
 msgstr "{user} video gönderdi."
 
-#: src/utils/matrix/mod.rs:217
+#: src/utils/matrix/mod.rs:218
 msgid "{user} sent a sticker."
 msgstr "{user} yapışkan gönderdi."
 
-#: src/utils/matrix/mod.rs:227
+#: src/utils/matrix/mod.rs:228
 msgid "{user}: {message}"
 msgstr "{user}: {message}"
 
 #. Translators: Do NOT translate the content between '{' and '}', this is a
 #. variable name.
-#: src/utils/matrix/mod.rs:251
+#: src/utils/matrix/mod.rs:252
 msgid "{user} invited you"
 msgstr "{user} sizi davet etti"
 
-#: src/utils/matrix/mod.rs:280
+#: src/utils/matrix/mod.rs:281
 msgid "Could not generate unique session ID"
 msgstr "Benzersiz oturum kimliği oluşturulamadı"
 
-#: src/utils/matrix/mod.rs:281
+#: src/utils/matrix/mod.rs:282
 #, fuzzy
 #| msgid "Could not log the session out"
 msgid "Could not access the session tokens"
