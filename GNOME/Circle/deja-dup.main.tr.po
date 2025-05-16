@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deja-dup\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/deja-dup/-/issues\n"
-"POT-Creation-Date: 2025-03-10 11:56+0000\n"
-"PO-Revision-Date: 2025-03-10 08:00+0300\n"
+"POT-Creation-Date: 2025-05-14 23:23+0000\n"
+"PO-Revision-Date: 2025-05-15 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -24,311 +24,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: app/Assistant.vala:287 app/MountOperationAssistant.vala:161
-msgid "Co_ntinue"
-msgstr "S_ürdür"
-
-#: app/Assistant.vala:293
-msgctxt "verb"
-msgid "_Test"
-msgstr "_Sına"
-
-#: app/Assistant.vala:329
-msgid "_Pause"
-msgstr "_Duraklat"
-
-#: app/Assistant.vala:332
-msgid "_Back"
-msgstr "_Geri"
-
-#: app/Assistant.vala:334
-msgid "_Close"
-msgstr "_Kapat"
-
-#: app/Assistant.vala:340 app/ConfigFolderPage.vala:26
-#: data/ui/PassphraseDialog.ui:29
-msgid "_Cancel"
-msgstr "İ_ptal"
-
-#: app/Assistant.vala:350
-msgid "_Forward"
-msgstr "_İleri"
-
-#: app/AssistantBackup.vala:21
-msgctxt "back up is verb"
-msgid "Back Up"
-msgstr "Yedekle"
-
-#: app/AssistantBackup.vala:28
-msgctxt "back up is verb"
-msgid "_Back Up"
-msgstr "_Yedekle"
-
-#: app/AssistantBackup.vala:67
-msgid ""
-"The following folders cannot be backed up because Backups does not have "
-"access to them:"
-msgstr "Yedekler’in erişimi olmadığından şu klasörler yedeklenemeyecek:"
-
-#: app/AssistantBackup.vala:83
-msgid "Creating the first backup.  This may take a while."
-msgstr "İlk yedek oluşturuluyor. Bu biraz zaman alabilir."
-
-#: app/AssistantBackup.vala:84
-msgid ""
-"Creating a fresh backup to protect against backup corruption.  This will "
-"take longer than normal."
-msgstr ""
-"Yedek bozulmasını önlemek için taze yedek oluşturuluyor. Bu olağandan daha "
-"uzun sürebilir."
-
-#. Translators:  This is the phrase 'Backing up' in the larger phrase
-#. "Backing up '%s'".  %s is a filename.
-#: app/AssistantBackup.vala:99
-msgid "Backing up:"
-msgstr "Yedekleniyor:"
-
-#: app/AssistantBackup.vala:108
-msgid "Backup Failed"
-msgstr "Yedekleme Başarısız"
-
-#: app/AssistantBackup.vala:111
-msgid "Backup Finished"
-msgstr "Yedekleme Bitti"
-
-#. Also leave ourselves up if we just finished a restore test.
-#: app/AssistantBackup.vala:115
-msgid "Your files were successfully backed up and tested."
-msgstr "Dosyalarınız başarıyla yedeklendi ve sınandı."
-
-#: app/AssistantBackup.vala:122
-msgid "Backing Up…"
-msgstr "Yedekleniyor…"
-
-#. In the unlikely event the user turned on automatic backups but never
-#. made a backup, we should tell them if we start up and need to be
-#. configured for first time.
-#: app/AssistantBackup.vala:128 app/AssistantOperation.vala:867
-msgid "Backups needs your input to continue"
-msgstr "Yedekler, sürmek için girdinize gereksiniyor"
-
-#: app/AssistantBackup.vala:149
-msgid "Backup in progress"
-msgstr "Yedekleme sürüyor"
-
-#: app/AssistantLocation.vala:15
-msgid "Restore From Where?"
-msgstr "Nereden Geri Yükleme Yapılacak?"
-
-#: app/AssistantLocation.vala:23
-msgid "_Search"
-msgstr "_Ara"
-
-#: app/AssistantOperation.vala:166
-msgid "Scanning:"
-msgstr "Taranıyor:"
-
-#: app/AssistantOperation.vala:167
-msgid "Scanning…"
-msgstr "Taranıyor…"
-
-#: app/AssistantOperation.vala:271
-msgid "_Details"
-msgstr "_Ayrıntılar"
-
-#: app/AssistantOperation.vala:318 app/Browser.vala:276
-msgid "In order to continue, the following packages need to be installed:"
-msgstr "Sürdürmek için şu paketler kurulmalıdır:"
-
-#: app/AssistantOperation.vala:350
-msgid "Wrong encryption password. Try again."
-msgstr "Yanlış şifreleme parolası. Yeniden deneyin."
-
-#. always default to encrypted
-#: app/AssistantOperation.vala:361
-msgid ""
-"You will need your password to restore your files. You might want to write "
-"it down."
-msgstr ""
-"Dosyalarınızı geri yüklemek için parola gereklidir. Bunu bir yere yazmak "
-"isteyebilirsiniz."
-
-#: app/AssistantOperation.vala:362
-msgid "_Password-protect your backup"
-msgstr "_Yedeğinizi parolayla koruyun"
-
-#: app/AssistantOperation.vala:369 app/AssistantOperation.vala:412
-#: data/ui/PassphraseDialog.ui:18
-msgid "E_ncryption password"
-msgstr "_Şifreleme parolası"
-
-#: app/AssistantOperation.vala:378
-msgid "Confir_m password"
-msgstr "Parolayı _doğrula"
-
-#: app/AssistantOperation.vala:400
-msgid ""
-"In order to check that you will be able to retrieve your files in the case "
-"of an emergency, please enter your encryption password again to perform a "
-"brief restore test."
-msgstr ""
-"Acil durumda dosyalarınızı geri getirip getiremeyeceğinizi denetlemek için "
-"lütfen şifreleme parolanızı yeniden girin ve kısa bir geri yükleme sınaması "
-"yapın."
-
-#: app/AssistantOperation.vala:419
-msgid "Test every two _months"
-msgstr "Her iki _ayda bir sına"
-
-#: app/AssistantOperation.vala:446
-msgid "_Grant Access"
-msgstr "_Erişime İzin Ver"
-
-#: app/AssistantOperation.vala:511
-msgid "Install Packages"
-msgstr "Paketleri Kur"
-
-#: app/AssistantOperation.vala:526
-msgid "Summary"
-msgstr "Özet"
-
-#: app/AssistantOperation.vala:548
-msgid "Restore Test"
-msgstr "Geri Yükleme Sınaması"
-
-#: app/AssistantOperation.vala:556
-msgid "Grant Access"
-msgstr "Erişime İzin Ver"
-
-#: app/AssistantOperation.vala:786
-msgid "Require Password?"
-msgstr "Parola istesin mi?"
-
-#: app/AssistantOperation.vala:788
-msgid "Encryption Password Needed"
-msgstr "Şifreleme Parolası Gerekli"
-
-#: app/AssistantOperation.vala:835
-msgid "Backups needs your encryption password to continue"
-msgstr "Yedekler, sürmek için şifreleme parolanıza gereksiniyor"
-
-#: app/AssistantOperation.vala:909 data/ui/Browser.ui:240
-msgctxt "verb"
-msgid "_Install"
-msgstr "_Kur"
-
-#: app/AssistantOperation.vala:914 app/Browser.vala:278
-msgid "Backups needs to install packages to continue"
-msgstr "Yedekler, sürmek için paket kurulumuna gereksiniyor"
-
-#: app/AssistantRestore.vala:59 data/ui/MainWindow.ui:38
-msgid "Restore"
-msgstr "Geri Yükle"
-
-#: app/AssistantRestore.vala:63 data/ui/RestoreToolbarView.ui:43
-msgid "_Restore"
-msgstr "_Geri Yükle"
-
-#: app/AssistantRestore.vala:152
-msgid "Restore files to _original locations"
-msgstr "Dosyaları _özgün konumlarına geri yükle"
-
-#: app/AssistantRestore.vala:166
-msgid "Restore to _specific folder"
-msgstr "_Belirli bir klasöre geri yükle"
-
-#: app/AssistantRestore.vala:181 data/ui/ConfigLocationGroup.ui:19
-#: data/ui/ConfigLocationGroup.ui:50 data/ui/ConfigLocationGroup.ui:97
-#: data/ui/ConfigLocationGroup.ui:106 data/ui/ConfigLocationGroup.ui:115
-msgid "_Folder"
-msgstr "_Klasör"
-
-#: app/AssistantRestore.vala:201
-msgid "Backups does not have permission to restore the following files:"
-msgstr "Yedekler’in şu dosyaları geri yükleme izni yok:"
-
-#: app/AssistantRestore.vala:264
-msgid "Backup location"
-msgstr "Yedekleme konumu"
-
-#. Translators: label for the date from which we are restoring
-#: app/AssistantRestore.vala:279
-msgid "Restore date"
-msgstr "Geri yükleme tarihi"
-
-#. Translators: label for the folder into which we putting restored files
-#: app/AssistantRestore.vala:288
-msgid "Restore folder"
-msgstr "Klasörü geri yükle"
-
-#: app/AssistantRestore.vala:312
-msgid "Checking for Backups…"
-msgstr "Yedekler Denetleniyor…"
-
-#: app/AssistantRestore.vala:320
-msgid "Restore From When?"
-msgstr "Hangi Zamandan Geri Yükleme Yapılacak?"
-
-#: app/AssistantRestore.vala:331
-msgid "Restore to Where?"
-msgstr "Nereye Geri Yüklensin?"
-
-#. Translators:  This is the word 'Restoring' in the phrase
-#. "Restoring '%s'".  %s is a filename.
-#: app/AssistantRestore.vala:364
-msgid "Restoring:"
-msgstr "Geri yükleniyor:"
-
-#: app/AssistantRestore.vala:376
-msgid "No backups to restore"
-msgstr "Geri yüklenebilecek yedek yok"
-
-#: app/AssistantRestore.vala:454
-msgid "Original location"
-msgstr "Özgün konum"
-
-#: app/AssistantRestore.vala:468
-msgid "File to restore"
-msgid_plural "Files to restore"
-msgstr[0] "Geri yüklenecek dosya(lar)"
-
-#: app/AssistantRestore.vala:493
-msgid "Restore Failed"
-msgstr "Geri Yükleme Başarısız"
-
-#: app/AssistantRestore.vala:495
-msgid "Restore Finished"
-msgstr "Geri Yükleme Bitti"
-
-#. if it *is* visible, a header will be set already
-#: app/AssistantRestore.vala:498
-msgid "Your files were successfully restored."
-msgstr "Dosyalarınız başarıyla geri yüklendi."
-
-#: app/AssistantRestore.vala:501
-msgid "Your file was successfully restored."
-msgid_plural "Your files were successfully restored."
-msgstr[0] "Dosya(ları)nız başarıyla geri yüklendi."
-
-#: app/AssistantRestore.vala:508 libdeja/Operation.vala:49
-msgid "Restoring…"
-msgstr "Geri Yükleniyor…"
-
-#: app/AssistantRestore.vala:578
-msgid "Restore in progress"
-msgstr "Geri yükleme sürüyor"
-
 #: app/Background.vala:79
 msgid "Cannot back up automatically"
 msgstr "Kendiliğinden yedeklenemez"
 
-#: app/Browser.vala:217
-msgid "Authentication needed"
-msgstr "Kimlik doğrulama gerekli"
+#: app/BrowserPage.vala:130
+msgctxt "noun"
+msgid "Search"
+msgstr "Arama"
 
-#: app/Browser.vala:384 libdeja/duplicity/DuplicityJob.vala:1016
-msgid "No backup files found"
-msgstr "Yedekleme dosyası bulunamadı"
+#: app/BrowserPage.vala:134 data/ui/Browser.ui:25 data/ui/Browser.ui:76
+msgid "Files"
+msgstr "Dosyalar"
 
 #: app/ConfigAutoBackupRow.vala:21
 msgid "Back Up _Automatically"
@@ -390,15 +97,20 @@ msgid "At least %d day"
 msgid_plural "At least %d days"
 msgstr[0] "En az %d gün"
 
-#: app/ConfigFolderPage.vala:23
+#: app/ConfigFolderPage.vala:21
 msgid "Reset All Folders?"
 msgstr "Tüm Klasörler Sıfırlansın Mı?"
 
-#: app/ConfigFolderPage.vala:24
+#: app/ConfigFolderPage.vala:22
 msgid "All changes to backed up and ignored folders will be lost."
 msgstr "Yedeklenen ve yok sayılan klasörlerdeki tüm değişiklikler yitecek."
 
-#: app/ConfigFolderPage.vala:27
+#: app/ConfigFolderPage.vala:24 app/OperationWrapper.vala:379
+#: data/ui/ActionDialog.ui:20 data/ui/PassphraseDialog.ui:61
+msgid "_Cancel"
+msgstr "İ_ptal"
+
+#: app/ConfigFolderPage.vala:25
 msgid "Rese_t"
 msgstr "Sı_fırla"
 
@@ -414,36 +126,40 @@ msgid ""
 msgstr "Yedekler’in erişimi olmadığından bu klasör yedeklenemeyecek."
 
 #. *** Basic entries ***
-#: app/ConfigLocationRow.vala:52 libdeja/BackendGoogle.vala:74
+#: app/ConfigLocationRow.vala:53 libdeja/BackendGoogle.vala:74
 msgid "Google Drive"
 msgstr "Google Drive"
 
-#: app/ConfigLocationRow.vala:54 libdeja/BackendMicrosoft.vala:70
+#: app/ConfigLocationRow.vala:55 libdeja/BackendMicrosoft.vala:70
 msgid "Microsoft OneDrive"
 msgstr "Microsoft OneDrive"
 
-#: app/ConfigLocationRow.vala:56
+#: app/ConfigLocationRow.vala:57 libdeja/BackendRclone.vala:66
+msgid "Rclone"
+msgstr "Rclone"
+
+#: app/ConfigLocationRow.vala:59
 msgid "Local Folder"
 msgstr "Yerel Klasör"
 
-#: app/ConfigLocationRow.vala:58
+#: app/ConfigLocationRow.vala:61
 msgid "Network Server"
 msgstr "Ağ Sunucusu"
 
 #. *** Old deprecated cloud entries, kept just for a kinder migration ***
-#: app/ConfigLocationRow.vala:63
+#: app/ConfigLocationRow.vala:66
 msgid "Google Cloud Storage"
 msgstr "Google Bulut Depolama"
 
-#: app/ConfigLocationRow.vala:65
+#: app/ConfigLocationRow.vala:68
 msgid "OpenStack Swift"
 msgstr "OpenStack Swift"
 
-#: app/ConfigLocationRow.vala:67
+#: app/ConfigLocationRow.vala:70
 msgid "Rackspace Cloud Files"
 msgstr "Rackspace Bulut Dosyaları"
 
-#: app/ConfigLocationRow.vala:69
+#: app/ConfigLocationRow.vala:72
 msgid "Amazon S3"
 msgstr "Amazon S3"
 
@@ -465,25 +181,21 @@ msgstr[0] "Her %d günde bir"
 msgid "Use _Restic for new backups"
 msgstr "Yeni yedekler için _Restic kullan"
 
-#: app/FileStore.vala:196
+#: app/FileStore.vala:193
 msgid "File"
 msgstr "Dosya"
 
-#: app/FileStore.vala:198
+#: app/FileStore.vala:195
 msgid "Link"
 msgstr "Bağlantı"
 
-#: app/FileStore.vala:200
+#: app/FileStore.vala:197
 msgid "Folder"
 msgstr "Klasör"
 
 #: app/FolderChooserButton.vala:21
 msgid "Choose Folder"
 msgstr "Klasör Seç"
-
-#: app/MountOperationAssistant.vala:68
-msgid "Location not available"
-msgstr "Konum uygun değil"
 
 #: app/Notifications.vala:24
 msgid "Starting scheduled backup"
@@ -493,35 +205,11 @@ msgstr "Zamanlanmış yedekleme başlatılıyor"
 msgid "Scheduled backup delayed"
 msgstr "Zamanlanmış yedekleme ertelendi"
 
-#: app/Notifications.vala:36
-msgid "Backup completed"
-msgstr "Yedekleme tamamlandı"
-
-#: app/Notifications.vala:41
-msgid "Backup finished"
-msgstr "Yedekleme bitti"
-
-#: app/Notifications.vala:42
-msgid "But not all files were successfully backed up."
-msgstr "Ama tüm dosyalar başarıyla yedeklenmedi."
-
-#: app/Notifications.vala:46 data/ui/SnapBanner.ui:12
-msgid "This snap release is deprecated and might not receive updates."
-msgstr "Bu snap sürümü kullanımdan kaldırılmıştır ve güncelleme almayabilir."
-
-#: app/Notifications.vala:58
-msgid "Backup failed"
-msgstr "Yedekleme başarısız"
-
-#: app/Notifications.vala:70
-msgid "Restore failed"
-msgstr "Geri yükleme başarısız"
-
-#: app/Notifications.vala:96
+#: app/Notifications.vala:60
 msgid "Keep your files safe by backing up regularly"
 msgstr "Dosyalarınızı düzenli olarak yedekleyerek güvende tutun"
 
-#: app/Notifications.vala:97
+#: app/Notifications.vala:61
 msgid ""
 "Important documents, data, and settings can be protected by storing them in "
 "a backup. In the case of a disaster, you would be able to recover them from "
@@ -530,39 +218,157 @@ msgstr ""
 "Önemli belgeler, bilgiler ve ayarlar yedeklenerek depolanabilir. Bir çökme "
 "durumunda yedeklemelerle verilerinizi kurtarabilirsiniz."
 
-#: app/Notifications.vala:102
+#: app/Notifications.vala:66
 msgid "Don’t Show Again"
 msgstr "Yeniden Gösterme"
 
-#: app/Notifications.vala:103
+#: app/Notifications.vala:67
 msgid "Open Backups"
 msgstr "Yedekleri Aç"
 
-#: app/PreferencesDialog.vala:28
+#: app/OperationLauncher.vala:60
+msgid "Failed to start backup; there's already an ongoing operation"
+msgstr "Yedekleme başlatılamadı; şu anda süren işlem var"
+
+#: app/OperationLauncher.vala:82
+msgid "Failed to restore; there's already an ongoing operation"
+msgstr "Geri yüklenemedi; şu anda süren işlem var"
+
+#: app/OperationLauncher.vala:101 app/OperationLauncher.vala:118
+msgid "There's already an ongoing operation"
+msgstr "Şu anda süren işlem var"
+
+#: app/OperationLauncher.vala:223 app/OperationWrapper.vala:187
+msgid "Backup completed"
+msgstr "Yedekleme tamamlandı"
+
+#: app/OperationLauncher.vala:225
+msgid "But not all files were successfully backed up"
+msgstr "Ama tüm dosyalar başarıyla yedeklenmedi"
+
+#: app/OperationLauncher.vala:228 app/OperationWrapper.vala:189
+msgid "Restore completed"
+msgstr "Geri yükleme tamamlandı"
+
+#: app/OperationLauncher.vala:230
+msgid "But not all files were successfully restored"
+msgstr "Ama tüm dosyalar başarıyla geri yüklenmedi"
+
+#: app/OperationLauncher.vala:246
+msgid "Backup in progress"
+msgstr "Yedekleme sürüyor"
+
+#: app/OperationLauncher.vala:257
+msgid "Restore in progress"
+msgstr "Geri yükleme sürüyor"
+
+#. Note: keep this language in sync with notification sent from OperationLauncher
+#: app/OperationWrapper.vala:170
+msgid "Backup completed, but not all files were successfully backed up"
+msgstr "Yedekleme tamamlandı, ancak tüm dosyalar başarıyla yedeklenmedi"
+
+#: app/OperationWrapper.vala:172
+msgid "Restore completed, but not all files were successfully restored"
+msgstr "Geri yükleme tamamlandı, ancak tüm dosyalar başarıyla geri yüklenmedi"
+
+#: app/OperationWrapper.vala:174 app/OperationWrapper.vala:245
+#: app/OperationWrapper.vala:292 app/OperationWrapper.vala:375
+msgid "_Details"
+msgstr "_Ayrıntılar"
+
+#: app/OperationWrapper.vala:177 app/OperationWrapper.vala:250
+msgid "_Close"
+msgstr "_Kapat"
+
+#: app/OperationWrapper.vala:212
+msgid "_Pause"
+msgstr "_Duraklat"
+
+#: app/OperationWrapper.vala:214
+msgid "_Stop"
+msgstr "_Durdur"
+
+#: app/OperationWrapper.vala:236
+msgid "Failed to back up"
+msgstr "Yedeklenemedi"
+
+#: app/OperationWrapper.vala:241
+msgid "Failed to list files"
+msgstr "Dosyalar listelenemedi"
+
+#: app/OperationWrapper.vala:243
+msgid "Failed to restore"
+msgstr "Geri yüklenemedi"
+
+#: app/OperationWrapper.vala:263
+msgid "E_ncryption password"
+msgstr "_Şifreleme parolası"
+
+#: app/OperationWrapper.vala:282 app/OperationWrapper.vala:337
+msgid "_Enter Password…"
+msgstr "Parolayı _Gir…"
+
+#: app/OperationWrapper.vala:286
+msgid "Wrong encryption password, try again"
+msgstr "Yanlış şifreleme parolası, yeniden deneyin"
+
+#: app/OperationWrapper.vala:287
+msgid "Wrong Encryption Password"
+msgstr "Yanlış Şifreleme Parolası"
+
+#: app/OperationWrapper.vala:288
+msgid "Try again."
+msgstr "Yeniden deneyin."
+
+#: app/OperationWrapper.vala:291
+msgid "Encryption setup needed"
+msgstr "Şifreleme kurulumu gerekli"
+
+#: app/OperationWrapper.vala:293
+msgid "Require Password?"
+msgstr "Parola istesin mi?"
+
+#: app/OperationWrapper.vala:294
 msgid ""
-"Restic is a another backup tool that can be used under the hood instead of "
-"Duplicity."
+"You will need your password to restore your files. You might want to write "
+"it down."
 msgstr ""
-"Restic, Duplicity’nin yerine kullanılabilecek başka bir yedekleme aracıdır."
+"Dosyalarınızı geri yüklemek için parola gereklidir. Bunu bir yere yazmak "
+"isteyebilirsiniz."
 
-#: app/PreferencesDialog.vala:29
+#: app/OperationWrapper.vala:297
+msgid "Encryption password needed"
+msgstr "Şifreleme parolası gerekli"
+
+#: app/OperationWrapper.vala:298
+msgid "Encryption Password Needed"
+msgstr "Şifreleme Parolası Gerekli"
+
+#: app/OperationWrapper.vala:303
 msgid ""
-"It is hoped that Restic will enable new features more easily in the future."
-msgstr "Gelecekte Restic’in yeni özellikleri daha kolaylaşacağı umulmaktadır."
+"In order to check that you will be able to retrieve your files in the case "
+"of an emergency, please enter your encryption password again to perform a "
+"brief restore test."
+msgstr ""
+"Acil durumda dosyalarınızı geri getirip getiremeyeceğinizi denetlemek için "
+"lütfen şifreleme parolanızı yeniden girin ve kısa bir geri yükleme sınaması "
+"yapın."
 
-#: app/PreferencesDialog.vala:31
-msgid "This is an experimental feature and may be removed at any time."
-msgstr "Bu deneysel özelliktir ve her an kaldırılabilir."
+#: app/OperationWrapper.vala:317
+msgid "Enter Password"
+msgstr "Parola Gir"
 
-#: app/PreferencesDialog.vala:32
-msgid "Use caution, but any testing you can manage is appreciated."
-msgstr "Dikkatli kullanın ancak yapacağınız her sınayış önemlidir."
+#: app/OperationWrapper.vala:353
+msgid "Authentication needed"
+msgstr "Kimlik doğrulama gerekli"
 
-#. Translators: the %s formatting is a link start and end.
-#: app/PreferencesDialog.vala:35
-#, c-format
-msgid "Please %sreport%s successes or failures when enabled."
-msgstr "Lütfen etkinleştirdiğinizde başarıları veya hataları %sbildirin%s."
+#: app/OperationWrapper.vala:354
+msgid "_Connect…"
+msgstr "_Bağlan…"
+
+#: app/OperationWrapper.vala:380
+msgid "Co_ntinue"
+msgstr "S_ürdür"
 
 #. Check for some really simple/common friendly names
 #: app/RecentBackupRow.vala:39
@@ -585,15 +391,6 @@ msgstr[0] "%d gün önce"
 msgctxt "backups"
 msgid "None"
 msgstr "Yok"
-
-#: app/RestoreHeaderBar.vala:19 app/RestoreHeaderBar.vala:20
-msgid "Back"
-msgstr "Geri"
-
-#: app/RestoreHeaderBar.vala:26 app/RestoreHeaderBar.vala:27
-#: data/ui/RestoreToolbarView.ui:22
-msgid "Search"
-msgstr "Ara"
 
 #: app/SavePasswordRow.vala:14
 msgid "_Remember password"
@@ -620,35 +417,15 @@ msgstr "%x %X"
 msgid "_OK"
 msgstr "_Tamam"
 
-#: app/WidgetUtils.vala:22
-msgid ""
-"(Note that you will have to grant access every time because your desktop "
-"session does not support saving credentials.)"
-msgstr ""
-"(Masaüstü oturumunuz kimlik bilgilerini kaydetmeyi desteklemediğinden her "
-"bir kez erişim izni vermeniz gerekecektir.)"
-
-#: app/main.vala:22 monitor/monitor.vala:19
+#: app/main.vala:18 monitor/monitor.vala:19
 msgid "Show version"
 msgstr "Sürümü göster"
 
-#: app/main.vala:23
-msgid "Restore given files"
-msgstr "Belirtilen dosyaları geri yükle"
-
-#: app/main.vala:24
+#: app/main.vala:19
 msgid "Immediately start a backup"
 msgstr "Hemen yedekleme başlat"
 
-#: app/main.vala:90
-msgid "Please list files to restore"
-msgstr "Lütfen geri yüklenecek dosyaları listeleyin"
-
-#: app/main.vala:95 app/main.vala:107
-msgid "An operation is already in progress"
-msgstr "Bir işlem zaten sürüyor"
-
-#: app/main.vala:377
+#: app/main.vala:299
 msgid "translator-credits"
 msgstr "Emin Tufan Çetin <etcetin@gmail.com>"
 
@@ -657,11 +434,12 @@ msgstr "Emin Tufan Çetin <etcetin@gmail.com>"
 #. context is itself a reference to both the underlying command line tool
 #. "duplicity" and the act of duplicating data for backup.  As a whole, the
 #. phrase "Déjà Dup" may not be very translatable.
-#: app/main.vala:482 data/app.metainfo.xml.in:11
+#: app/main.vala:359 data/app.metainfo.xml.in:11
 msgid "Déjà Dup Backups"
 msgstr "Déjà Dup Yedekleri"
 
-#: data/app.desktop.in:6 data/ui/MainWindow.ui:9
+#: data/app.desktop.in:6 data/ui/MainWindow.ui:9 data/ui/OverviewPage.ui:9
+#: data/ui/SnapshotsPage.ui:9 data/ui/WelcomePage.ui:9
 msgid "Backups"
 msgstr "Yedekler"
 
@@ -671,13 +449,13 @@ msgstr "Kendinizi veri yitiminden koruyun"
 
 #. These keywords are used when searching for applications in dashes, etc.
 #. Keep the English keywords and add your own keywords in your language, separated by semicolons.
-#: data/app.desktop.in:29
+#: data/app.desktop.in:27
 msgid "déjà;deja;dup;archive;archiving;backup;backups;back up;"
 msgstr ""
 "déjà;deja;dup;archive;archiving;backup;backups;back up;arşiv;arşivleme;yedek;"
 "yedekle;yedekleme;"
 
-#: data/app.desktop.in:37
+#: data/app.desktop.in:35
 msgid "Back Up"
 msgstr "Yedekle"
 
@@ -896,11 +674,11 @@ msgstr ""
 "kullanışlıdır. Örnek değer 'trickle -u 500' olabilir; bu, deja-dup’ın "
 "'trickle -u 500 duplicity …' çalıştırmasıyla sonuçlanacaktır."
 
-#: data/app.gschema.xml.in:140
+#: data/app.gschema.xml.in:141
 msgid "Type of location to store backup"
 msgstr "Yedeğin depolanacağı konum türü"
 
-#: data/app.gschema.xml.in:141
+#: data/app.gschema.xml.in:142
 msgid ""
 "The type of backup location. If ‘auto’, a default will be chosen based on "
 "what is available."
@@ -908,13 +686,13 @@ msgstr ""
 "Yedek konumunun türü. Eğer ‘auto’ ise, uygun olana göre bir öntanımlı "
 "seçilecektir."
 
-#: data/app.gschema.xml.in:153 data/app.gschema.xml.in:176
-#: data/app.gschema.xml.in:189 data/app.gschema.xml.in:197
-#: data/app.gschema.xml.in:204
+#: data/app.gschema.xml.in:155 data/app.gschema.xml.in:178
+#: data/app.gschema.xml.in:191 data/app.gschema.xml.in:199
+#: data/app.gschema.xml.in:206 data/app.gschema.xml.in:218
 msgid "The folder where backups are stored"
 msgstr "Yedeklerin depolanacağı klasör"
 
-#: data/app.gschema.xml.in:154
+#: data/app.gschema.xml.in:156
 msgid ""
 "The folder hierarchy where backups are stored. Paths can be absolute or "
 "relative to your home directory."
@@ -922,11 +700,11 @@ msgstr ""
 "Yedeklerin depolandığı klasör hiyerarşisi. Yollar mutlak veya ev dizininize "
 "göre göreceli olabilir."
 
-#: data/app.gschema.xml.in:161
+#: data/app.gschema.xml.in:163
 msgid "UUID"
 msgstr "UUID"
 
-#: data/app.gschema.xml.in:162
+#: data/app.gschema.xml.in:164
 msgid ""
 "The unique filesystem identifier for the drive, used to recognize the drive "
 "when it is plugged in."
@@ -934,38 +712,38 @@ msgstr ""
 "Sürücünün takılı olduğu sürücüyü tanıması için kullanılan özgün dosya "
 "sistemi tanımlayıcısı."
 
-#: data/app.gschema.xml.in:166 data/ui/Browser.ui:313
+#: data/app.gschema.xml.in:168 data/ui/Browser.ui:83
 msgid "Name"
 msgstr "Ad"
 
-#: data/app.gschema.xml.in:167
+#: data/app.gschema.xml.in:169
 msgid "The name of the external drive."
 msgstr "Dış sürücünün adı."
 
-#: data/app.gschema.xml.in:171
+#: data/app.gschema.xml.in:173
 msgid "Icon"
 msgstr "Simge"
 
-#: data/app.gschema.xml.in:172
+#: data/app.gschema.xml.in:174
 msgid "The icon of the external drive, as a serialized GIcon."
 msgstr "Dış sürücünün simgesi, seri hale getirilmiş GIcon olarak."
 
-#: data/app.gschema.xml.in:177
+#: data/app.gschema.xml.in:179
 msgid ""
 "The folder hierarchy where backups are stored. Paths are relative to the "
 "drive."
 msgstr ""
 "Yedeklerin depolandığı klasör hiyerarşisi. Yollar sürücüye göre görecelidir."
 
-#: data/app.gschema.xml.in:184
+#: data/app.gschema.xml.in:186
 msgid "The server address"
 msgstr "Sunucu adresi"
 
-#: data/app.gschema.xml.in:185
+#: data/app.gschema.xml.in:187
 msgid "The URI of the remote server location."
 msgstr "Uzak sunucu konumunun URI’si."
 
-#: data/app.gschema.xml.in:190
+#: data/app.gschema.xml.in:192 data/app.gschema.xml.in:219
 msgid ""
 "The folder hierarchy where backups are stored. Paths can be absolute or "
 "relative to the host."
@@ -973,15 +751,26 @@ msgstr ""
 "Yedeklerin depolandığı klasör hiyerarşisi. Yollar mutlak veya ana "
 "bilgisayara göre göreceli olabilir."
 
+#: data/app.gschema.xml.in:213
+msgid "The Rclone remote"
+msgstr "Rclone uzağı"
+
+#: data/app.gschema.xml.in:214
+msgid ""
+"The name of a pre-configured Rclone remote. See Rclone documentation for how "
+"to configure one."
+msgstr ""
+"Önceden yapılandırılmış Rclone uzağının adı. Nasıl yapılandıracağınızı "
+"Rclone belgelendirmesini okuyarak öğrenin."
+
 #: data/app.metainfo.xml.in:14
 msgid ""
 "Déjà Dup is a simple backup tool. It hides the complexity of backing up the "
-"Right Way (encrypted, off-site, and regular) and uses Restic &amp; Duplicity "
-"behind the scenes."
+"Right Way (encrypted, off-site, and regular) and uses Restic behind the "
+"scenes."
 msgstr ""
 "Déjà Dup, basit yedekleme aracıdır. Doğru yöntemle yedekleme karmaşasını "
-"(şifreli, dışarıda ve düzenli) kolaylaştırır ve arka uçta Restic ve "
-"Duplicity kullanır."
+"(şifreli, dışarıda ve düzenli) kolaylaştırır ve arka uçta Restic kullanır."
 
 #: data/app.metainfo.xml.in:16
 msgid ""
@@ -1047,76 +836,39 @@ msgstr "Yedek Gözlemcisi"
 msgid "Schedules backups at regular intervals"
 msgstr "Düzenli aralıklarla planlanmış yedeklemeler"
 
-#: data/ui/Browser.ui:27 data/ui/Browser.ui:306
-msgid "Files"
-msgstr "Dosyalar"
-
-#. Translators: this means scanning the storage location data files, not the source folders
-#: data/ui/Browser.ui:72
-msgid "Scanning backup files…"
-msgstr "Yedek dosyaları taranıyor…"
-
-#: data/ui/Browser.ui:89
+#: data/ui/Browser.ui:41
 msgid "Folder is Empty"
 msgstr "Klasör Boş"
 
-#: data/ui/Browser.ui:100
+#: data/ui/Browser.ui:52
 msgid "No Results Found"
 msgstr "Sonuç Bulunamadı"
 
-#: data/ui/Browser.ui:101
+#: data/ui/Browser.ui:53
 msgid "Try a different search"
 msgstr "Başka arama dene"
 
-#: data/ui/Browser.ui:128
-msgid "_Retry"
-msgstr "_Yeniden Dene"
-
-#: data/ui/Browser.ui:165
-msgid "_Connect"
-msgstr "_Bağlan"
-
-#: data/ui/Browser.ui:190
-msgid "Encryption password needed"
-msgstr "Şifreleme parolası gerekli"
-
-#: data/ui/Browser.ui:204
-msgid "_Enter Password"
-msgstr "Parolayı _Gir"
-
-#: data/ui/Browser.ui:277
-msgid "Installing packages…"
-msgstr "Paketler kuruluyor…"
-
-#: data/ui/Browser.ui:392
+#: data/ui/Browser.ui:162
 msgid "Location"
 msgstr "Konum"
+
+#: data/ui/ConfigExcludeFolderGroup.ui:9
+msgid "Add I_gnored Folder…"
+msgstr "_Yok Sayılanlar Klasörü Ekle…"
+
+#: data/ui/ConfigExcludeFolderGroup.ui:11
+msgid "Folders to Ignore"
+msgstr "Yok Sayılacak Klasörler"
+
+#: data/ui/ConfigExcludeFolderGroup.ui:16
+msgid "These folders are always ignored:"
+msgstr "Bu klasörler sürekli yok sayılır:"
 
 #: data/ui/ConfigFolderPage.ui:10
 msgid "Folders"
 msgstr "Klasörler"
 
-#: data/ui/ConfigFolderPage.ui:13
-msgid "Add Backed _Up Folder…"
-msgstr "_Yedeklenenler Klasörü Ekle…"
-
-#: data/ui/ConfigFolderPage.ui:16
-msgid "Folders to Back Up"
-msgstr "Yedeklenecek Klasörler"
-
 #: data/ui/ConfigFolderPage.ui:21
-msgid "Add I_gnored Folder…"
-msgstr "_Yok Sayılanlar Klasörü Ekle…"
-
-#: data/ui/ConfigFolderPage.ui:23
-msgid "Folders to Ignore"
-msgstr "Yok Sayılacak Klasörler"
-
-#: data/ui/ConfigFolderPage.ui:28
-msgid "These folders are always ignored:"
-msgstr "Bu klasörler sürekli yok sayılır:"
-
-#: data/ui/ConfigFolderPage.ui:73
 msgid "Re_set All Folders…"
 msgstr "_Tüm Klasörleri Sıfırla…"
 
@@ -1124,39 +876,95 @@ msgstr "_Tüm Klasörleri Sıfırla…"
 msgid "Remove"
 msgstr "Kaldır"
 
+#: data/ui/ConfigIncludeFolderGroup.ui:9
+msgid "Add Backed _Up Folder…"
+msgstr "_Yedeklenenler Klasörü Ekle…"
+
+#: data/ui/ConfigIncludeFolderGroup.ui:12
+msgid "Folders to Back Up"
+msgstr "Yedeklenecek Klasörler"
+
 #: data/ui/ConfigLocationGroup.ui:9
 msgid "Storage"
 msgstr "Depolama"
 
-#: data/ui/ConfigLocationGroup.ui:31 data/ui/ConfigLocationGroup.ui:62
+#: data/ui/ConfigLocationGroup.ui:20 data/ui/ConfigLocationGroup.ui:52
+#: data/ui/ConfigLocationGroup.ui:99 data/ui/ConfigLocationGroup.ui:108
+#: data/ui/ConfigLocationGroup.ui:118 data/ui/ConfigLocationGroup.ui:171
+#: data/ui/RestoreTargetDialog.ui:64
+msgid "_Folder"
+msgstr "_Klasör"
+
+#: data/ui/ConfigLocationGroup.ui:32 data/ui/ConfigLocationGroup.ui:64
 msgid "_Reset Account Access"
 msgstr "Hesap Erişimini _Sıfırla"
 
-#: data/ui/ConfigLocationGroup.ui:82
+#: data/ui/ConfigLocationGroup.ui:84
 msgid "Ser_ver Address"
 msgstr "Sun_ucu Adresi"
+
+#: data/ui/ConfigLocationGroup.ui:150
+msgid "_Remote"
+msgstr "_Uzak"
+
+#: data/ui/ConfigLocationGroup.ui:161
+msgid ""
+"Rclone is an advanced cloud storage tool. Read <a href=\"https://rclone.org/"
+"\">its documentation</a> for how to configure a remote."
+msgstr ""
+"Rclone, gelişmiş bulut depolama aracıdır. Uzağın nasıl yapılandırılacağını "
+"<a href=\"https://rclone.org/\">belgelendirmesini</a> okuyarak öğrenin."
+
+#: data/ui/ConfigLocationGroup.ui:183
+msgid "_Reset Config Encryption Password"
+msgstr "Yapılandırma Şifreleme Parolasını _Sıfırla"
 
 #: data/ui/ConfigLocationRow.ui:48
 msgid "_Location"
 msgstr "_Konum"
 
+#: data/ui/FirstBackupDialog.ui:9
+msgctxt "back up is verb"
+msgid "_Back Up"
+msgstr "_Yedekle"
+
+#: data/ui/FirstBackupDialog.ui:12
+msgid "New Backup"
+msgstr "Yeni Yedek"
+
 #: data/ui/HelpButton.ui:28
 msgid "Help"
 msgstr "Yardım"
 
-#: data/ui/MainWindow.ui:27
-msgid "Overview"
-msgstr "Genel Görünüm"
-
-#: data/ui/OverviewPage.ui:37
+#: data/ui/OverviewPage.ui:50
 msgid "Storage Location"
 msgstr "Depolama Konumu"
 
-#: data/ui/OverviewPage.ui:64
+#: data/ui/OverviewPage.ui:74
+msgid "Browse _Latest Backup Files"
+msgstr "_Son Yedek Dosyalarına Göz At"
+
+#: data/ui/OverviewPage.ui:83
+msgid "Bro_wse Backups"
+msgstr "Yedeklere _Göz At"
+
+#: data/ui/OverviewPage.ui:94
 msgid "_Back Up Now"
 msgstr "Şimdi _Yedekle"
 
-#: data/ui/PassphraseDialog.ui:30
+#: data/ui/PassphraseDialog.ui:22
+msgid "_Password-protect your backup"
+msgstr "_Yedeğinizi parolayla koruyun"
+
+#: data/ui/PassphraseDialog.ui:39
+msgid "Confir_m password"
+msgstr "Parolayı _doğrula"
+
+#: data/ui/PassphraseDialog.ui:54
+msgid "Test every two _months"
+msgstr "Her iki _ayda bir sına"
+
+#: data/ui/PassphraseDialog.ui:62
 msgid "Con_tinue"
 msgstr "_Sürdür"
 
@@ -1183,14 +991,6 @@ msgid ""
 msgstr ""
 "Eğer konum alanı azsa en eski yedekler yine de silinecektir veya ilgili "
 "yedeklerin silinmesini önlemek için üç aya dek tutulacaktır."
-
-#: data/ui/PreferencesDialog.ui:60
-msgid "Labs"
-msgstr "Laboratuvar"
-
-#: data/ui/PreferencesDialog.ui:64
-msgid "Restic"
-msgstr "Restic"
 
 #: data/ui/PrimaryMenuButton.ui:15
 msgid "Main Menu"
@@ -1219,6 +1019,49 @@ msgstr "Yedekler _Hakkında"
 #: data/ui/RecentBackupRow.ui:10
 msgid "Most Recent Backup"
 msgstr "En Son Yedek"
+
+#: data/ui/RestoreLocationDialog.ui:9
+msgctxt "verb"
+msgid "_Search"
+msgstr "_Ara"
+
+#: data/ui/RestoreLocationDialog.ui:12
+msgid "Restore From Where?"
+msgstr "Nereden Geri Yüklenecek?"
+
+#: data/ui/RestoreTargetDialog.ui:9
+msgid "_Restore"
+msgstr "_Geri Yükle"
+
+#: data/ui/RestoreTargetDialog.ui:12
+msgid "Restore to Where?"
+msgstr "Nereye Geri Yüklenecek?"
+
+#: data/ui/RestoreTargetDialog.ui:19
+msgid "Restore files to their _original locations"
+msgstr "Dosyaları _özgün konumlarına geri yükle"
+
+#: data/ui/RestoreTargetDialog.ui:40
+msgid "Restore files to a _specific folder"
+msgstr "Dosyaları _belirli bir klasöre geri yükle"
+
+#: data/ui/RestoreTargetWarningButton.ui:20
+msgid "Backups does not have permission to restore the following files:"
+msgstr "Yedekler’in şu dosyaları geri yükleme izni yok:"
+
+#: data/ui/RestoreToolbarView.ui:24 data/ui/RestoreToolbarView.ui:26
+msgid "Up"
+msgstr "Yukarı"
+
+#: data/ui/RestoreToolbarView.ui:37 data/ui/RestoreToolbarView.ui:99
+msgid "_Restore…"
+msgstr "_Geri Yükle…"
+
+#: data/ui/RestoreToolbarView.ui:54 data/ui/RestoreToolbarView.ui:56
+#: data/ui/RestoreToolbarView.ui:88 data/ui/RestoreToolbarView.ui:118
+#: data/ui/RestoreToolbarView.ui:120
+msgid "Search"
+msgstr "Ara"
 
 #: data/ui/ServerAddressHelp.ui:15
 msgid "Server Addresses"
@@ -1284,25 +1127,29 @@ msgstr "sftp:// veya ssh://"
 msgid "dav:// or davs://"
 msgstr "dav:// veya davs://"
 
-#: data/ui/SnapBanner.ui:11
-msgid "_Learn More"
-msgstr "_Daha Çoğunu Öğren"
+#: data/ui/SnapshotsPage.ui:52
+msgid "No Backups Found"
+msgstr "Yedek Bulunamadı"
+
+#: data/ui/SnapshotsPage.ui:53
+msgid "This storage location is empty"
+msgstr "Bu depolama konumu boş"
 
 #: data/ui/TimeCombo.ui:15
 msgid "_Date"
 msgstr "_Tarih"
 
-#: data/ui/WelcomePage.ui:17
+#: data/ui/WelcomePage.ui:23
 msgid "Welcome to Backups"
 msgstr "Yedekler’e Hoş Geldiniz"
 
-#: data/ui/WelcomePage.ui:40
-msgid "Create Your First _Backup"
-msgstr "İlk _Yedeğinizi Oluşturun"
+#: data/ui/WelcomePage.ui:46
+msgid "Create Your First _Backup…"
+msgstr "İlk _Yedeğinizi Oluşturun…"
 
-#: data/ui/WelcomePage.ui:61
-msgid "_Restore From a Previous Backup"
-msgstr "Önceki Yedekten _Geri Yükle"
+#: data/ui/WelcomePage.ui:67
+msgid "_Restore From a Previous Backup…"
+msgstr "Önceki Yedekten _Geri Yükle…"
 
 #: data/ui/help-overlay.ui:16
 msgctxt "shortcut window"
@@ -1346,8 +1193,8 @@ msgstr "Ara"
 
 #: data/ui/help-overlay.ui:61
 msgctxt "shortcut window"
-msgid "Go back"
-msgstr "Geri git"
+msgid "Go up"
+msgstr "Yukarı git"
 
 #: data/ui/help-overlay.ui:67
 msgctxt "shortcut window"
@@ -1366,17 +1213,17 @@ msgstr "%2$s üzerinde %1$s"
 msgid "Backup will begin when %s is connected."
 msgstr "%s bağlandığında yedekleme başlayacaktır."
 
-#: libdeja/BackendDrive.vala:250 libdeja/BackendRemote.vala:164
+#: libdeja/BackendDrive.vala:251 libdeja/BackendRemote.vala:164
 msgid "Storage location not available"
 msgstr "Depolama konumu kullanılabilir değil"
 
-#: libdeja/BackendDrive.vala:250
+#: libdeja/BackendDrive.vala:251
 #, c-format
 msgid "Waiting for ‘%s’ to become connected…"
 msgstr "‘%s’ bağlanması bekleniyor…"
 
 #: libdeja/BackendGoogle.vala:62 libdeja/BackendMicrosoft.vala:58
-#: monitor/ReadyWatcher.vala:164
+#: libdeja/BackendRclone.vala:43 monitor/ReadyWatcher.vala:164
 msgid "Backup will begin when a network connection becomes available."
 msgstr "Ağ bağlantısı kullanılabildiğinde yedekleme başlayacak."
 
@@ -1401,7 +1248,7 @@ msgid "%s on Microsoft OneDrive"
 msgstr "Microsoft OneDrive’daki %s dizini"
 
 #. Duplicity requires a folder, and this is a reasonable restriction.
-#: libdeja/BackendMicrosoft.vala:116
+#: libdeja/BackendMicrosoft.vala:95
 msgid "You must provide a Microsoft OneDrive folder."
 msgstr "Microsoft OneDrive klasörü belirtmelisiniz."
 
@@ -1423,8 +1270,40 @@ msgstr "Déjà Dup için %s kimlik bilgileri"
 #. Translators: %s is a brand name like Google or Microsoft
 #: libdeja/BackendOAuth.vala:260
 #, c-format
-msgid "You first need to allow Backups to access your %s account."
-msgstr "Öncelikle Yedekler’in %s hesabınıza erişimine izin vermelisiniz."
+msgid "Access to your %s account is required"
+msgstr "%s hesabınıza erişim gerekiyor"
+
+#. Translators: %s is a brand name like Google or Microsoft
+#: libdeja/BackendOAuth.vala:262
+#, c-format
+msgid "Grant Access to %s"
+msgstr "%s Erişimine İzin Ver"
+
+#. Translators: %s is a folder.
+#: libdeja/BackendRclone.vala:69
+#, c-format
+msgid "%s with Rclone"
+msgstr "Rclone ile %s"
+
+#: libdeja/BackendRclone.vala:77
+msgid "An Rclone remote needs to be set."
+msgstr "Rclone uzağı ayarlanmalıdır."
+
+#: libdeja/BackendRclone.vala:142
+msgid "Rclone config encryption password"
+msgstr "Rclone yapılandırma şifreleme parolası"
+
+#: libdeja/BackendRclone.vala:174
+msgid "Your Rclone config file is encrypted. Please provide its password."
+msgstr "Rclone yapılandırma dosyanız şifrelidir. Lütfen parolasını sağlayın."
+
+#: libdeja/BackendRclone.vala:175
+msgid "Rclone Config Encryption _Password"
+msgstr "Rclone Yapılandırma Şifreleme _Parolası"
+
+#: libdeja/BackendRclone.vala:176
+msgid "Wrong Rclone config encryption password. Try again."
+msgstr "Yanlış Rclone yapılandırma şifreleme parolası. Yeniden deneyin."
 
 #: libdeja/BackendRemote.vala:94
 msgid "The network server is not available"
@@ -1499,7 +1378,7 @@ msgstr "Ev Dizini"
 msgid "Trash"
 msgstr "Çöp"
 
-#: libdeja/CommonUtils.vala:623
+#: libdeja/CommonUtils.vala:625
 msgid "Backup encryption password"
 msgstr "Yedek şifreleme parolası"
 
@@ -1519,39 +1398,85 @@ msgstr ""
 "Masaüstü oturumunuz Flatpak uygulamalarının kendiliğinden başlatılmasını "
 "desteklemiyor."
 
-#: libdeja/Operation.vala:47
+#: libdeja/Operation.vala:61
 msgid "Backing up…"
 msgstr "Yedekleniyor…"
 
-#: libdeja/Operation.vala:51
+#: libdeja/Operation.vala:63
+msgid "Restoring…"
+msgstr "Geri Yükleniyor…"
+
+#: libdeja/Operation.vala:65
 msgid "Checking for backups…"
 msgstr "Yedekler denetleniyor…"
 
-#: libdeja/Operation.vala:53
+#: libdeja/Operation.vala:67
 msgid "Listing files…"
 msgstr "Dosyalar listeleniyor…"
 
-#: libdeja/Operation.vala:55 libdeja/Operation.vala:86
-#: libdeja/duplicity/DuplicityJob.vala:313
-#: libdeja/duplicity/DuplicityJob.vala:324
-#: libdeja/duplicity/DuplicityJob.vala:360
+#: libdeja/Operation.vala:69 libdeja/duplicity/DuplicityJob.vala:305
+#: libdeja/duplicity/DuplicityJob.vala:316
+#: libdeja/duplicity/DuplicityJob.vala:352
 msgid "Preparing…"
 msgstr "Hazırlanıyor…"
 
-#: libdeja/Operation.vala:106
+#: libdeja/Operation.vala:135
 msgid "Custom tool setup failed."
 msgstr "Özel araç kurulumu başarısız."
 
-#: libdeja/OperationBackup.vala:27
+#: libdeja/Operation.vala:250
+msgid "Once granted, Backups will automatically continue"
+msgstr "Verildiğinde yedeklemeler kendiliğinden sürecek"
+
+#: libdeja/Operation.vala:253
+msgid ""
+"Note that you will have to grant access every time because your desktop "
+"session does not support saving credentials"
+msgstr ""
+"Masaüstü oturumunuz kimlik bilgilerini kaydetmeyi desteklemediğinden her "
+"defasında erişim izni vermeniz gerekecektir"
+
+#: libdeja/Operation.vala:258
+msgid "_Grant Access…"
+msgstr "_Erişime İzin Ver…"
+
+#: libdeja/Operation.vala:592
+msgid "In order to continue, the following packages need to be installed:"
+msgstr "Sürdürmek için şu paketler kurulmalıdır:"
+
+#: libdeja/Operation.vala:596
+msgid "Required packages need to be installed."
+msgstr "Gerekli paketler kurulmalıdır."
+
+#: libdeja/Operation.vala:597
+msgid "Required Packages"
+msgstr "Gerekli Paketler"
+
+#: libdeja/Operation.vala:597
+msgctxt "verb"
+msgid "_Install"
+msgstr "_Kur"
+
+#: libdeja/Operation.vala:619
+msgid "Installing packages…"
+msgstr "Paketler kuruluyor…"
+
+#: libdeja/OperationBackup.vala:29
 msgid ""
 "Could not back up the following files.  Please make sure you are able to "
 "open them."
 msgstr ""
 "Aşağıdaki dosyalar yedeklenemiyor. Bu dosyaları açabildiğinizden emin olun."
 
-#: libdeja/OperationBackup.vala:44 libdeja/OperationVerify.vala:39
+#: libdeja/OperationBackup.vala:46 libdeja/OperationVerify.vala:37
 msgid "Verifying backup…"
 msgstr "Yedekleme doğrulanıyor…"
+
+#: libdeja/OperationBackup.vala:70
+msgid ""
+"The following folders cannot be backed up because Backups does not have "
+"access to them:"
+msgstr "Yedekler’in erişimi olmadığından şu klasörler yedeklenemeyecek:"
 
 #: libdeja/OperationRestore.vala:35
 msgid "Restoring files…"
@@ -1576,12 +1501,15 @@ msgstr ""
 "deneyin."
 
 #. Error case (unrecognized files)
-#: libdeja/ToolSupport.vala:127
-msgid "Unrecognized files in storage location. Choose an empty folder instead."
-msgstr "Depolama konumunda tanınmayan dosyalar. Bunun yerine boş klasör seçin."
+#: libdeja/ToolSupport.vala:125
+#, c-format
+msgid ""
+"Unrecognized file in storage location: '%s'. Choose an empty folder instead."
+msgstr ""
+"Depolama konumunda tanınmayan dosya: '%s'. Bunun yerine boş klasör seçin."
 
 #: libdeja/duplicity/DuplicityJob.vala:75
-#: libdeja/duplicity/DuplicityJob.vala:136
+#: libdeja/duplicity/DuplicityJob.vala:140
 msgid "Paused (no network)"
 msgstr "Duraklatıldı (ağ yok)"
 
@@ -1589,27 +1517,27 @@ msgstr "Duraklatıldı (ağ yok)"
 #. Don't bother checking whether this is first or later backup.
 #. If the user adds folders to their backup and the target is just too small, let them know.
 #. Tiny backup location.  Suggest they get a larger one.
-#: libdeja/duplicity/DuplicityJob.vala:489 libdeja/restic/ResticJob.vala:335
+#: libdeja/duplicity/DuplicityJob.vala:477 libdeja/restic/ResticJob.vala:312
 msgid "Backup location is too small."
 msgstr "Yedekleme konumu çok küçük."
 
-#: libdeja/duplicity/DuplicityJob.vala:490 libdeja/restic/ResticJob.vala:336
+#: libdeja/duplicity/DuplicityJob.vala:478 libdeja/restic/ResticJob.vala:313
 #, c-format
 msgid "Try using a location with at least %s."
 msgstr "En az %s alanlı bir konum kullanmayı deneyin."
 
-#: libdeja/duplicity/DuplicityJob.vala:491
+#: libdeja/duplicity/DuplicityJob.vala:479
 msgid "(Space for two full backups is required.)"
 msgstr "(İki tam yedekleme için alan gereklidir.)"
 
 #. Can't delete any more backup chains ourselves. Tell the user, so they can clear out space.
-#: libdeja/duplicity/DuplicityJob.vala:512
+#: libdeja/duplicity/DuplicityJob.vala:500
 #, c-format
 msgid ""
 "Backup location does not have enough free space. Please free up at least %s."
 msgstr "Yedekleme konumunda yeterli boş alan yok. En az %s boşaltmayı deneyin."
 
-#: libdeja/duplicity/DuplicityJob.vala:514
+#: libdeja/duplicity/DuplicityJob.vala:502
 #, c-format
 msgid ""
 "Backup location does not have enough free space. Try using a location with "
@@ -1618,8 +1546,8 @@ msgstr ""
 "Yedekleme konumunda yeterli boş alan yok. En az %s boş alanlı bir konum "
 "kullanmayı deneyin."
 
-#: libdeja/duplicity/DuplicityJob.vala:534
-#: libdeja/duplicity/DuplicityJob.vala:548
+#: libdeja/duplicity/DuplicityJob.vala:522
+#: libdeja/duplicity/DuplicityJob.vala:536
 msgid "Cleaning up…"
 msgstr "Temizleniyor…"
 
@@ -1630,32 +1558,26 @@ msgstr "Temizleniyor…"
 #. frequently fix odd metadata errors with duplicity.  If we hit an error
 #. a second time, we'll show the unknown error message.
 #. Should emit some sort of error...
-#. Sometimes Restic doesn't emit an exit_error message like it should.
-#. But we only care if we can detect/process the code.
-#. It also returns an error without an actual message in cases like
-#. restoring where there are some per-file errors, which we don't want
-#. to handle as an error. So we only process this if the code is above 1.
-#. Generic ToolInstance handling will handle the 1 case.
-#: libdeja/duplicity/DuplicityJob.vala:640
-#: libdeja/duplicity/DuplicityJob.vala:1035 libdeja/libtool/ToolJoblet.vala:114
-#: libdeja/restic/ResticInstance.vala:135
+#: libdeja/duplicity/DuplicityJob.vala:628
+#: libdeja/duplicity/DuplicityJob.vala:1026 libdeja/libtool/ToolJoblet.vala:102
+#: libdeja/restic/ResticInstance.vala:165
 msgid "Failed with an unknown error."
 msgstr "Bilinmeyen nedenden dolayı başarısız."
 
 #. notify upper layers, if they want to do anything
-#: libdeja/duplicity/DuplicityJob.vala:850
+#: libdeja/duplicity/DuplicityJob.vala:837
 msgid "Bad encryption password."
 msgstr "Kötü şifreleme parolası."
 
 #. make text a little nicer than duplicity gives
 #. duplicity gives something like "home/blah/blah not found in archive,
 #. no files restored".
-#: libdeja/duplicity/DuplicityJob.vala:899
+#: libdeja/duplicity/DuplicityJob.vala:886
 #, c-format
 msgid "Could not restore ‘%s’: File not found in backup"
 msgstr "‘%s’ geri yüklenemedi: Dosya, yedek içerisinde bulunamadı"
 
-#: libdeja/duplicity/DuplicityJob.vala:910
+#: libdeja/duplicity/DuplicityJob.vala:897
 #, c-format
 msgid ""
 "The existing backup is of a computer named %s, but the current computer’s "
@@ -1665,57 +1587,65 @@ msgstr ""
 "Var olan yedek %s adında bilgisayarın, ama şu anki bilgisayarın adı %s. Eğer "
 "bu beklenmedikse başka konuma yedeklemelisiniz."
 
-#: libdeja/duplicity/DuplicityJob.vala:913
-msgid "Computer name changed"
-msgstr "Bilgisayar adı değişmiş"
+#: libdeja/duplicity/DuplicityJob.vala:900
+msgid "Unexpected computer name encountered"
+msgstr "Beklenmedik bilgisayar adıyla karşılaşıldı"
 
-#: libdeja/duplicity/DuplicityJob.vala:948
+#: libdeja/duplicity/DuplicityJob.vala:901
+msgid "Computer Name Changed"
+msgstr "Bilgisayar Adı Değişmiş"
+
+#: libdeja/duplicity/DuplicityJob.vala:939
 #, c-format
 msgid "Permission denied when trying to create ‘%s’."
 msgstr "‘%s’ oluşturmaya çalışılırken izin verilmedi."
 
 #. assume error is on backend side
-#: libdeja/duplicity/DuplicityJob.vala:952
-#: libdeja/duplicity/DuplicityJob.vala:956
+#: libdeja/duplicity/DuplicityJob.vala:943
+#: libdeja/duplicity/DuplicityJob.vala:947
 #, c-format
 msgid "Permission denied when trying to read ‘%s’."
 msgstr "‘%s’ okunmaya çalışılırken izin verilmedi."
 
-#: libdeja/duplicity/DuplicityJob.vala:960
+#: libdeja/duplicity/DuplicityJob.vala:951
 #, c-format
 msgid "Permission denied when trying to delete ‘%s’."
 msgstr "‘%s’ silinmeye çalışılırken izin verilmedi."
 
-#: libdeja/duplicity/DuplicityJob.vala:967
+#: libdeja/duplicity/DuplicityJob.vala:958
 #, c-format
 msgid "Backup location ‘%s’ does not exist."
 msgstr "‘%s’ yedekleme konumu yok."
 
-#: libdeja/duplicity/DuplicityJob.vala:973
-#: libdeja/duplicity/DuplicityJob.vala:1006
+#: libdeja/duplicity/DuplicityJob.vala:964
+#: libdeja/duplicity/DuplicityJob.vala:997
 msgid "No space left."
 msgstr "Boş alan kalmadı."
 
-#: libdeja/duplicity/DuplicityJob.vala:995
+#: libdeja/duplicity/DuplicityJob.vala:986
 #, c-format
 msgid "Error reading file ‘%s’."
 msgstr "‘%s’ dosyası okunurken hata."
 
-#: libdeja/duplicity/DuplicityJob.vala:997
+#: libdeja/duplicity/DuplicityJob.vala:988
 #, c-format
 msgid "Error writing file ‘%s’."
 msgstr "‘%s’ dosyası yazılırken hata."
 
-#: libdeja/duplicity/DuplicityJob.vala:1008
+#: libdeja/duplicity/DuplicityJob.vala:999
 #, c-format
 msgid "No space left in ‘%s’."
 msgstr "‘%s’ içerisinde boş alan kalmadı."
 
-#: libdeja/duplicity/DuplicityJob.vala:1066
+#: libdeja/duplicity/DuplicityJob.vala:1007
+msgid "No backup files found"
+msgstr "Yedekleme dosyası bulunamadı"
+
+#: libdeja/duplicity/DuplicityJob.vala:1057
 msgid "Uploading…"
 msgstr "Yükleniyor…"
 
-#: libdeja/duplicity/DuplicityJob.vala:1527
+#: libdeja/duplicity/DuplicityJob.vala:1518
 msgid "could not restore test file"
 msgstr "sınama dosyası geri yüklenemedi"
 
@@ -1737,7 +1667,7 @@ msgstr ""
 msgid "Could not understand duplicity version."
 msgstr "Duplicity sürümü anlaşılamadı."
 
-#: libdeja/duplicity/DuplicityPlugin.vala:106
+#: libdeja/duplicity/DuplicityPlugin.vala:100
 msgid ""
 "This storage location is no longer supported. You can still use duplicity "
 "directly to back up or restore your files."
@@ -1745,26 +1675,26 @@ msgstr ""
 "Bu depolama konumu artık desteklenmiyor. Yine de, dosyalarınızı yedeklemek "
 "veya geri yüklemek için doğrudan duplicity’yi kullanabilirsiniz."
 
-#: libdeja/libtool/ToolJoblet.vala:124
+#: libdeja/libtool/ToolJoblet.vala:112
 #, c-format
 msgid "An error occurred while validating your backup: ‘%s’."
 msgstr "Yedek doğrulanırken hata oluştu: ‘%s’."
 
-#: libdeja/libtool/ToolJoblet.vala:126
+#: libdeja/libtool/ToolJoblet.vala:114
 msgid "The backup might be corrupted."
 msgstr "Yedek bozulmuş olabilir."
 
-#: libdeja/libtool/ToolJoblet.vala:128
+#: libdeja/libtool/ToolJoblet.vala:116
 msgid "Please investigate the problem or start a new, separate backup."
 msgstr "Lütfen sorunu araştırın ya da yeni, ayrı bir yedekleme başlatın."
 
-#: libdeja/restic/ResticJob.vala:177
+#: libdeja/restic/ResticJob.vala:180
 #, c-format
 msgid "Could not find storage location ‘%s’."
 msgstr "‘%s’ depolama konumu bulunamadı."
 
 #. Translators: "external" here means a backup that Deja Dup didn't make
-#: libdeja/restic/ResticJob.vala:589
+#: libdeja/restic/ResticJob.vala:565
 msgctxt "non-Deja-Dup backup"
 msgid "external"
 msgstr "dış"
@@ -1787,7 +1717,7 @@ msgstr ""
 msgid "Could not understand restic version."
 msgstr "Restic sürümü anlaşılamadı."
 
-#: libdeja/restic/ResticPlugin.vala:121
+#: libdeja/restic/ResticPlugin.vala:115
 msgid "This storage location is not yet supported."
 msgstr "Bu depolama konumu henüz desteklenmiyor."
 
@@ -1799,6 +1729,3 @@ msgstr "Güç tutumu kipi etkin olmadığında yedekleme başlayacaktır."
 msgid ""
 "Backup will begin when an unmetered network connection becomes available."
 msgstr "Ölçülmemiş ağ bağlantısı olduğunda yedekleme başlayacaktır."
-
-#~ msgid "Use _Restic instead of Duplicity"
-#~ msgstr "Duplicity yerine _Restic kullan"

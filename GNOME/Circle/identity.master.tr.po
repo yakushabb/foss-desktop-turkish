@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the Identity package.
 #
 # Sabri Ünal <yakushabb@gmail.com>, 2023, 2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Identity\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/YaLTeR/identity/issues\n"
-"POT-Creation-Date: 2024-09-20 06:12+0000\n"
-"PO-Revision-Date: 2024-09-20 08:00+0300\n"
+"POT-Creation-Date: 2025-05-11 13:18+0000\n"
+"PO-Revision-Date: 2025-05-11 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:3
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:7
-#: data/resources/ui/window.blp:137 src/main.rs:103
+#: data/resources/ui/window.blp:128 src/main.rs:103
 msgid "Identity"
 msgstr "Identity"
 
@@ -33,9 +33,10 @@ msgstr "Görüntüleri ve videoları karşılaştır"
 
 #. Translators: search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:10
-msgid "Movie;Film;Clip;Difference;Frame;Quality;"
+msgid "Movie;Film;Clip;Video;Image;Difference;Frame;Quality;Compare;Check;"
 msgstr ""
-"Movie;Film;Clip;Difference;Frame;Quality;Film;Klip;Fark;Kare;Çerçeve;Kalite;"
+"Movie;Film;Clip;Video;Image;Difference;Frame;Quality;Film;Klip;Fark;Başka;"
+"İmaj;Görsel;Görüntü;Resim;Kare;Çerçeve;Kalite;Nitelik;Denetim;Kontrol;"
 
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:10
 msgid "A program for comparing multiple versions of an image or video."
@@ -60,7 +61,7 @@ msgid "Inspect a few properties of a video in a dialog"
 msgstr "Videonun birkaç özelliğini iletişim kutusunda incele"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:189
+#: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:195
 msgid "Ivan Molodetskikh"
 msgstr "Ivan Molodetskikh"
 
@@ -299,52 +300,52 @@ msgid "Arrange as Tabs"
 msgstr "Sekmelerde Göster"
 
 #. Translators: Tooltip for the primary menu button that selects the tiled in a row display mode.
-#: data/resources/ui/window.blp:112
+#: data/resources/ui/window.blp:109
 msgid "Arrange in a Row"
 msgstr "Satırlarda Göster"
 
 #. Translators: Tooltip for the primary menu button that selects the tiled in a column display mode.
-#: data/resources/ui/window.blp:122
+#: data/resources/ui/window.blp:116
 msgid "Arrange in a Column"
 msgstr "Sütunlarda Göster"
 
 #. Translators: Primary menu tooltip.
-#: data/resources/ui/window.blp:164 data/resources/ui/window.blp:225
+#: data/resources/ui/window.blp:155 data/resources/ui/window.blp:216
 msgid "Main Menu"
 msgstr "Ana Menü"
 
 #. Translators: Title text on the window when no files are open.
-#: data/resources/ui/window.blp:173
+#: data/resources/ui/window.blp:164
 msgid "Compare Media"
 msgstr "Ortamı Karşılaştır"
 
 #. Translators: Description text on the window when no files are open.
-#: data/resources/ui/window.blp:176
+#: data/resources/ui/window.blp:167
 msgid "Drag and drop images or videos here"
 msgstr "Görüntüleri ya da videoları buraya sürükleyip bırak"
 
 #. Translators: Open button label when no files are open.
-#: data/resources/ui/window.blp:180
+#: data/resources/ui/window.blp:171
 msgid "Open Media…"
 msgstr "Ortam Aç…"
 
 #. Translators: Open button tooltip.
-#: data/resources/ui/window.blp:182 data/resources/ui/window.blp:207
+#: data/resources/ui/window.blp:173 data/resources/ui/window.blp:198
 msgid "Select an Image or Video"
 msgstr "Görüntü ya da Video Seç"
 
 #. Translators: Open button label.
-#: data/resources/ui/window.blp:205
+#: data/resources/ui/window.blp:196
 msgid "Open"
 msgstr "Aç"
 
 #. Translators: Scale/zoom entry tooltip.
-#: data/resources/ui/window.blp:240
+#: data/resources/ui/window.blp:231
 msgid "Zoom Level"
 msgstr "Yakınlaştırma Düzeyi"
 
 #. Translators: Scale/zoom menu button tooltip.
-#: data/resources/ui/window.blp:245
+#: data/resources/ui/window.blp:236
 msgid "Select Zoom Level"
 msgstr "Yakınlaştırma Düzeyi Seç"
 
@@ -354,81 +355,94 @@ msgstr "{} × {}"
 
 #. Translators: "Not applicable" string for the media properties dialog when a
 #. given property is unknown or missing (e.g. images don't have frame rate).
-#: src/page.rs:330 src/window.rs:511 src/window.rs:519 src/window.rs:527
+#: src/page.rs:330 src/window.rs:517 src/window.rs:525 src/window.rs:533
 msgid "N/A"
 msgstr "Yok"
 
 #. Translators: shown in the About dialog, put your name here.
-#: src/window.rs:348
+#: src/window.rs:351
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
 #. Translators: link title in the About dialog.
-#: src/window.rs:351
+#: src/window.rs:354
 msgid "Contribute Translations"
 msgstr "Çeviriye Katkı Ver"
 
-#: src/window.rs:359
-msgid ""
-"This release improves image format support and fixes a few issues with "
-"zooming."
-msgstr ""
-"Bu sürüm resim biçim desteğini iyileştirir ve yakınlaştırmayla ilgili kimi "
-"sorunları çözer."
-
+#. Translators: name of https://apps.gnome.org/VideoTrimmer
 #: src/window.rs:360
-msgid ""
-"Images are now loaded with glycin, adding support for many more formats like "
-"AVIF and JPEG XL, and improving compatibility, like using the correct color "
-"space for JPEG images."
-msgstr ""
-"Resimler artık glycin ile yükleniyor, AVIF ve JPEG XL gibi birçok biçime "
-"destek sunuluyor, JPEG resimlerde doğru renk alanı kullanma gibi "
-"uyumluluklar iyileştiriliyor."
+msgid "Video Trimmer"
+msgstr "Video Kırpıcı"
 
-#: src/window.rs:361
-msgid "Zoom level now takes into account fractional display scale."
-msgstr ""
-"Yakınlaştırma düzeyi artık kesirli ekran ölçeklendirmeyi göz önünde "
-"bulunduruyor."
-
+#. Translators: summary of https://apps.gnome.org/VideoTrimmer
 #: src/window.rs:362
-msgid "Fixed unusably fast zoom on mice with high-resolution scroll wheels."
-msgstr ""
-"Yüksek çözünürlüklü kaydırma tekerli farelerde kullanışsız hızlı "
-"yakınlaştırma düzeltildi."
+msgid "Trim videos quickly"
+msgstr "Videoları hızlıca kırp"
 
-#: src/window.rs:363
-msgid "Fixed slightly blurry image borders on some zoom levels."
-msgstr "Kimi yakınlaştırma düzeylerindeki bulanık resim kenarları düzeltildi."
+#: src/window.rs:369
+msgid "This release has a minor visual refresh for GNOME 48."
+msgstr "Bu dağıtım GNOME 48 için küçük görsel yenileme içeriyor."
 
-#: src/window.rs:364
-msgid "Added an Alt+Enter shortcut to open the media properties dialog."
-msgstr ""
-"Ortam özellikleri iletişim kutusunu gösteren Alt+Enter kısayolu eklendi."
+#: src/window.rs:370
+msgid "Changed the versioning scheme to year.month."
+msgstr "Sürümlendirme şeması yıl.ay olarak değiştirildi."
 
-#: src/window.rs:365
-msgid "Updated to the GNOME 47 platform."
-msgstr "GNOME 47 platformuna güncellendi."
+#: src/window.rs:371
+msgid "Updated to the GNOME 48 platform."
+msgstr "GNOME 48 platformuna güncellendi."
 
-#: src/window.rs:366
+#: src/window.rs:372
 msgid "Updated translations."
 msgstr "Çeviriler güncellendi."
 
 #. Translators: Entry in the scale/zoom menu that indicates that the image or video is
 #. always resized to fit the window.
-#: src/window.rs:588
+#: src/window.rs:594
 msgid "Best Fit"
 msgstr "En Uygun"
 
 #. Translators: file chooser file filter name.
-#: src/window.rs:1650
+#: src/window.rs:1668
 msgid "Videos and images"
 msgstr "Videolar ve görüntüler"
 
 #. Translators: file chooser dialog title.
-#: src/window.rs:1658
+#: src/window.rs:1676
 msgid "Open videos or images to compare"
 msgstr "Karşılaştırmak için videoları ya da görüntüleri aç"
+
+#~ msgid ""
+#~ "This release improves image format support and fixes a few issues with "
+#~ "zooming."
+#~ msgstr ""
+#~ "Bu sürüm resim biçim desteğini iyileştirir ve yakınlaştırmayla ilgili "
+#~ "kimi sorunları çözer."
+
+#~ msgid ""
+#~ "Images are now loaded with glycin, adding support for many more formats "
+#~ "like AVIF and JPEG XL, and improving compatibility, like using the "
+#~ "correct color space for JPEG images."
+#~ msgstr ""
+#~ "Resimler artık glycin ile yükleniyor, AVIF ve JPEG XL gibi birçok biçime "
+#~ "destek sunuluyor, JPEG resimlerde doğru renk alanı kullanma gibi "
+#~ "uyumluluklar iyileştiriliyor."
+
+#~ msgid "Zoom level now takes into account fractional display scale."
+#~ msgstr ""
+#~ "Yakınlaştırma düzeyi artık kesirli ekran ölçeklendirmeyi göz önünde "
+#~ "bulunduruyor."
+
+#~ msgid "Fixed unusably fast zoom on mice with high-resolution scroll wheels."
+#~ msgstr ""
+#~ "Yüksek çözünürlüklü kaydırma tekerli farelerde kullanışsız hızlı "
+#~ "yakınlaştırma düzeltildi."
+
+#~ msgid "Fixed slightly blurry image borders on some zoom levels."
+#~ msgstr ""
+#~ "Kimi yakınlaştırma düzeylerindeki bulanık resim kenarları düzeltildi."
+
+#~ msgid "Added an Alt+Enter shortcut to open the media properties dialog."
+#~ msgstr ""
+#~ "Ortam özellikleri iletişim kutusunu gösteren Alt+Enter kısayolu eklendi."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app.drey.Elastic main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/elastic/-/issues\n"
-"POT-Creation-Date: 2024-09-01 16:06+0000\n"
+"POT-Creation-Date: 2025-05-10 18:26+0000\n"
 "PO-Revision-Date: 2024-05-09 10:43+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Poedit 3.4.3\n"
 
 #: data/app.drey.Elastic.desktop.in:3 data/app.drey.Elastic.metainfo.xml.in:11
-#: src/window.ui:6
+#: src/window.blp:5
 msgid "Elastic"
 msgstr "Elastic"
 
@@ -34,7 +34,7 @@ msgstr "Spring canlandırmaları tasarla"
 msgid "spring;animation;animations;GNOME;GTK;Adwaita;"
 msgstr "spring;animation;animations;GNOME;GTK;Adwaita;canlandırma;animasyon;"
 
-#: data/app.drey.Elastic.gschema.xml:14 src/preferences-dialog.ui:15
+#: data/app.drey.Elastic.gschema.xml:14 src/preferences-dialog.blp:10
 msgid "Use Damping"
 msgstr "Sönümleme Kullan"
 
@@ -165,15 +165,15 @@ msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/basic-view.ui:80
+#: src/basic-view.blp:70
 msgid "Initial Velocity"
 msgstr "Başlangıç Hızı"
 
-#: src/basic-view.ui:81
+#: src/basic-view.blp:71
 msgid "Information About Initial Velocity"
 msgstr "Başlangıç Hızı Bilgisi"
 
-#: src/basic-view.ui:82
+#: src/basic-view.blp:72
 msgid ""
 "Initial velocity affects the beginning of the animation curve without "
 "changing duration. This is useful when finishing gestures with an animation, "
@@ -183,31 +183,31 @@ msgstr ""
 "etkiler. Bu, canlandırmayla hareketleri bitirirken ya da hareketin her iki "
 "yönde de daha çok sekmesini sağlamak için kullanışlıdır."
 
-#: src/basic-view.ui:100
+#: src/basic-view.blp:90
 msgid "Toggle Graph"
 msgstr "Grafiği Aç/Kapat"
 
-#: src/basic-view.ui:112
+#: src/basic-view.blp:102
 msgid "Run Animation"
 msgstr "Canlandırmayı Çalıştır"
 
-#: src/export-view.ui:200
+#: src/export-view.blp:189
 msgid "_Copy Snippet"
 msgstr "Parçayı _Kopyala"
 
-#: src/graph-view.vala:92
+#: src/graph-view.vala:90
 msgid "Min: %.2lf"
 msgstr "Asgari: %.2lf"
 
-#: src/graph-view.vala:97
+#: src/graph-view.vala:95
 msgid "Max: %.2lf"
 msgstr "Azami: %.2lf"
 
-#: src/graph-view.vala:120
+#: src/graph-view.vala:118
 msgid "Duration: %.0lf ms"
 msgstr "Süre: %.0lf ms"
 
-#: src/preferences-dialog.ui:10
+#: src/preferences-dialog.blp:7
 msgid ""
 "Damping determines how much the spring oscillates. Damping ratio is a more "
 "convenient parameter adjusted to behave the same way regardless of mass and "
@@ -223,19 +223,19 @@ msgstr ""
 "Sönümleme kullanan başka bir çerçeveden (framework) değerleri içe aktarmanız "
 "gerekiyorsa, sönümlemeye geçiş yapabilirsiniz."
 
-#: src/preferences-dialog.ui:16
+#: src/preferences-dialog.blp:11
 msgid "Prefer damping instead of damping ratio"
 msgstr "Sönümleme oranı yerine sönümleme yeğle"
 
-#: src/properties-view.ui:96
+#: src/properties-view.blp:87
 msgid "Damping"
 msgstr "Sönümleme"
 
-#: src/properties-view.ui:97
+#: src/properties-view.blp:88
 msgid "Information About Damping"
 msgstr "Sönümleme Bilgisi"
 
-#: src/properties-view.ui:98
+#: src/properties-view.blp:89
 msgid ""
 "How much the spring oscillates. Set it to the marked value to bring the "
 "spring to rest as soon as possible with no oscillation, lower values to "
@@ -245,15 +245,15 @@ msgstr ""
 "belirtilen değere ayarlayın, salınım oluşturmak için daha düşük değerler, "
 "yayı yavaşlatmak için daha yüksek değerler kullanın."
 
-#: src/properties-view.ui:109
+#: src/properties-view.blp:99
 msgid "Damping Ratio"
 msgstr "Sönümleme Oranı"
 
-#: src/properties-view.ui:110
+#: src/properties-view.blp:100
 msgid "Information About Damping Ratio"
 msgstr "Sönümleme Oranı Bilgisi"
 
-#: src/properties-view.ui:111
+#: src/properties-view.blp:101
 msgid ""
 "How much the spring oscillates. Set it to 1 to bring the spring to rest as "
 "soon as possible with no oscillation, lower values to create oscillation, "
@@ -263,15 +263,15 @@ msgstr ""
 "olarak ayarlayın, salınım oluşturmak için daha düşük değerler, yayı "
 "yavaşlatmak için daha yüksek değerler kullanın."
 
-#: src/properties-view.ui:126
+#: src/properties-view.blp:115
 msgid "Mass"
 msgstr "Kütle"
 
-#: src/properties-view.ui:127
+#: src/properties-view.blp:116
 msgid "Information About Mass"
 msgstr "Kütle Bilgisi"
 
-#: src/properties-view.ui:128
+#: src/properties-view.blp:117
 msgid ""
 "The mass of the attached object. The higher the mass is, the longer the "
 "spring takes to stop."
@@ -279,29 +279,29 @@ msgstr ""
 "Ekli nesnenin kütlesi. Kütle ne denli yüksekse, yayın durması o denli uzun "
 "sürer."
 
-#: src/properties-view.ui:139
+#: src/properties-view.blp:128
 msgid "Stiffness"
 msgstr "Sertlik"
 
-#: src/properties-view.ui:140
+#: src/properties-view.blp:129
 msgid "Information About Stiffness"
 msgstr "Sertlik Bilgisi"
 
-#: src/properties-view.ui:141
+#: src/properties-view.blp:130
 msgid ""
 "The stiffness of the spring. The higher the stiffness is, the faster the "
 "spring contracts."
 msgstr "Yayın sertliği. Sertlik ne denli yüksekse, yay o denli hızlı kasılır."
 
-#: src/properties-view.ui:152
+#: src/properties-view.blp:141
 msgid "Epsilon"
 msgstr "Epsilon"
 
-#: src/properties-view.ui:153
+#: src/properties-view.blp:142
 msgid "Information About Epsilon"
 msgstr "Epsilon Bilgisi"
 
-#: src/properties-view.ui:154
+#: src/properties-view.blp:143
 msgid ""
 "Determines when to stop the simulation. This value should be large enough "
 "that the animation doesn’t last too long, but small enough that there’s no "
@@ -311,38 +311,38 @@ msgstr ""
 "uzun sürmemesi için yeterince büyük olmalı, ancak sonunda herhangi bir "
 "görünür atlama olmamalıdır."
 
-#: src/window.ui:19
+#: src/window.blp:16
 msgid "_Reset"
 msgstr "_Sıfırla"
 
-#: src/window.ui:20
+#: src/window.blp:17
 msgid "Reset to Defaults"
 msgstr "Öntanımlı Değerlere Sıfırla"
 
-#: src/window.ui:31
+#: src/window.blp:29
 msgid "Main Menu"
 msgstr "Ana Menü"
 
-#: src/window.ui:76
+#: src/window.blp:73
 msgid "Basic"
 msgstr "Temel"
 
-#: src/window.ui:86
+#: src/window.blp:82
 msgid "Interactive"
 msgstr "Etkileşimli"
 
-#: src/window.ui:129
+#: src/window.blp:118
 msgid "_Preferences"
 msgstr "_Tercihler"
 
-#: src/window.ui:133
+#: src/window.blp:123
 msgid "_Keyboard Shortcuts"
 msgstr "_Klavye Kısayolları"
 
-#: src/window.ui:137
+#: src/window.blp:128
 msgid "_About Elastic"
 msgstr "Elastic _Hakkında"
 
-#: src/window.vala:71
+#: src/window.vala:70
 msgid "Copied to clipboard"
 msgstr "Panoya kopyalandı"

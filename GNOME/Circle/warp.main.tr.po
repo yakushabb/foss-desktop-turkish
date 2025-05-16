@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Warp Master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/warp/issues\n"
-"POT-Creation-Date: 2025-03-09 15:30+0000\n"
-"PO-Revision-Date: 2025-01-11 08:00+0300\n"
+"POT-Creation-Date: 2025-03-26 14:48+0000\n"
+"PO-Revision-Date: 2025-03-21 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -97,7 +97,7 @@ msgstr "Ana Pencere"
 
 #. Translators: Entry placeholder; This is a noun
 #: data/app.drey.Warp.metainfo.xml.in.in:68
-#: data/app.drey.Warp.metainfo.xml.in.in:88 src/ui/window.ui:207
+#: data/app.drey.Warp.metainfo.xml.in.in:88 src/ui/window.ui:208
 msgid "Transmit Code"
 msgstr "Aktarım Kodu"
 
@@ -445,15 +445,15 @@ msgstr "Hata İletisini Ko_pyala"
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: src/ui/application.rs:60
+#: src/ui/application.rs:63
 msgid "Unable to use transfer link: another transfer already in progress"
 msgstr "Aktarım bağlantısı kullanılamaz: başka aktarım sürüyor"
 
-#: src/ui/application.rs:207
+#: src/ui/application.rs:216
 msgid "Sending a File"
 msgstr "Dosya Gönderiliyor"
 
-#: src/ui/application.rs:208
+#: src/ui/application.rs:217
 msgid "Receiving a File"
 msgstr "Dosya Alınıyor"
 
@@ -488,7 +488,7 @@ msgstr "Kamera Bulunamadı"
 msgid "Connect a camera to scan QR codes"
 msgstr "QR kodlarını taramak için kamera bağlayın"
 
-#: src/ui/camera.ui:11 src/ui/window.ui:216
+#: src/ui/camera.ui:11 src/ui/window.ui:217
 msgid "Scan QR Code"
 msgstr "QR Kodunu Tara"
 
@@ -643,19 +643,29 @@ msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/ui/window.rs:374
+#. Translators: This is a promotion and should match the app name as seen at https://apps.gnome.org/PikaBackup/
+#: src/ui/window.rs:313
+msgid "Pika Backup"
+msgstr "Pika Yedek"
+
+#. Translators: This is a promotion and should match the short app summary as seen at https://apps.gnome.org/PikaBackup/
+#: src/ui/window.rs:315
+msgid "Keep your data safe"
+msgstr "Verinizi güvende tutun"
+
+#: src/ui/window.rs:381
 msgid "Select File to Send"
 msgstr "Gönderilecek Dosya Seç"
 
-#: src/ui/window.rs:382
+#: src/ui/window.rs:389
 msgid "Select Folder to Send"
 msgstr "Gönderilecek Klasör Seç"
 
-#: src/ui/window.rs:445
+#: src/ui/window.rs:456
 msgid "“{}” appears to be an invalid Transmit Code. Please try again."
 msgstr "“{}” geçersiz Aktarım Kodu gibi görünüyor. Lütfen yeniden deneyin."
 
-#: src/ui/window.rs:569
+#: src/ui/window.rs:580
 msgid "Sending files with a preconfigured code is not yet supported"
 msgstr "Önceden yapılandırılmış kodla dosya gönderimi henüz desteklenmiyor"
 
@@ -750,11 +760,11 @@ msgid "Enter the transmit code from the sender"
 msgstr "Göndericiden gelen aktarım kodunu girin"
 
 #. Translators: Button
-#: src/ui/window.ui:237
+#: src/ui/window.ui:238
 msgid "Receive _File"
 msgstr "_Dosya Al"
 
-#: src/ui/window.ui:263
+#: src/ui/window.ui:264
 msgid "File Transfer"
 msgstr "Dosya Aktarımı"
 

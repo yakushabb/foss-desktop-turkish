@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fragments master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Fragments/issues\n"
-"POT-Creation-Date: 2025-03-10 14:14+0000\n"
+"POT-Creation-Date: 2025-04-10 20:03+0000\n"
 "PO-Revision-Date: 2025-02-16 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -550,7 +550,7 @@ msgstr "Geçerli Ağ Hızı"
 msgid "Download Speed"
 msgstr "İndirme Hızı"
 
-#: data/gtk/stats_dialog.ui:66 data/gtk/torrent_dialog.ui:361
+#: data/gtk/stats_dialog.ui:66 data/gtk/torrent_dialog.ui:364
 msgid "Upload Speed"
 msgstr "Gönderim Hızı"
 
@@ -571,7 +571,7 @@ msgid "Paused"
 msgstr "Duraklatıldı"
 
 #: data/gtk/stats_dialog.ui:124 data/gtk/stats_dialog.ui:168
-#: data/gtk/stats_dialog.ui:229 data/gtk/torrent_dialog.ui:300
+#: data/gtk/stats_dialog.ui:229 data/gtk/torrent_dialog.ui:302
 msgid "Downloaded"
 msgstr "İndirilen"
 
@@ -588,7 +588,7 @@ msgid "Time Active"
 msgstr "Etkin Zaman"
 
 #: data/gtk/stats_dialog.ui:181 data/gtk/stats_dialog.ui:242
-#: data/gtk/torrent_dialog.ui:386
+#: data/gtk/torrent_dialog.ui:391
 msgid "Uploaded"
 msgstr "Gönderilen"
 
@@ -628,11 +628,11 @@ msgstr "Daha"
 msgid "A Problem Has Occurred"
 msgstr "Sorun Çıktı"
 
-#: data/gtk/torrent_dialog.ui:289 data/gtk/torrent_dialog.ui:375
+#: data/gtk/torrent_dialog.ui:290 data/gtk/torrent_dialog.ui:379
 msgid "Peers"
 msgstr "Eşler"
 
-#: data/gtk/torrent_dialog.ui:407
+#: data/gtk/torrent_dialog.ui:413
 msgid "Receiving Files Metadata…"
 msgstr "Dosya Üst Verileri Alınıyor…"
 
@@ -652,11 +652,11 @@ msgstr "Sırada _Yukarı Taşı"
 msgid "Queue Move _Down"
 msgstr "Sırada _Aşağı Taşı"
 
-#: data/gtk/torrent_menu.ui:28 src/app.rs:536
+#: data/gtk/torrent_menu.ui:28 src/app.rs:475
 msgid "_Open"
 msgstr "_Aç"
 
-#: data/gtk/torrent_menu.ui:32 src/actions.rs:388 src/app.rs:591
+#: data/gtk/torrent_menu.ui:32 src/actions.rs:385 src/app.rs:530
 msgid "_Remove"
 msgstr "_Kaldır"
 
@@ -779,15 +779,15 @@ msgstr "Fragments _Hakkında"
 msgid "Unable to copy magnet link to clipboard"
 msgstr "Mıknatıs bağlantısı panoya kopyalanamadı"
 
-#: src/actions.rs:117
+#: src/actions.rs:114
 msgid "Copied magnet link to clipboard"
 msgstr "Mıknatıs bağlantısı panoya kopyalandı"
 
-#: src/actions.rs:380
+#: src/actions.rs:377
 msgid "Remove Torrent?"
 msgstr "Torrent Kaldırılsın Mı?"
 
-#: src/actions.rs:382
+#: src/actions.rs:379
 msgid ""
 "Once removed, continuing the transfer will require the torrent file or "
 "magnet link."
@@ -795,75 +795,75 @@ msgstr ""
 "Kaldırdıktan sonra aktarımı sürdürmek için torrent dosyası veya mıknatıs "
 "bağlantısı gerekecektir."
 
-#: src/actions.rs:386 src/app.rs:589
+#: src/actions.rs:383 src/app.rs:528
 msgid "_Cancel"
 msgstr "İ_ptal"
 
 #. Check button
-#: src/actions.rs:392
+#: src/actions.rs:389
 msgid "Remove downloaded data as well"
 msgstr "İndirilen verileri de kaldır"
 
-#: src/actions.rs:433
+#: src/actions.rs:430
 msgid "Set Torrent Location"
 msgstr "Torrent Konumu Belirle"
 
-#: src/actions.rs:437 src/utils.rs:165
+#: src/actions.rs:434 src/utils.rs:165
 msgid "_Select"
 msgstr "_Seç"
 
-#: src/actions.rs:446
+#: src/actions.rs:443
 msgid "Move Data?"
 msgstr "Veri Taşınsın Mı?"
 
-#: src/actions.rs:447
+#: src/actions.rs:444
 msgid ""
 "In order to continue using the torrent, the data must be available at the "
 "new location."
 msgstr "Torrenti kullanabilmek için veri yeni konumunda bulunmalıdır."
 
-#: src/actions.rs:450
+#: src/actions.rs:447
 msgid "_Only Change Location"
 msgstr "_Yalnızca Konumu Değiştir"
 
-#: src/actions.rs:451
+#: src/actions.rs:448
 msgid "_Move Data to New Location"
 msgstr "Veriyi Yeni Konuma _Taşı"
 
-#: src/actions.rs:526
+#: src/actions.rs:523
 msgid "Unable to open file / folder"
 msgstr "Dosya/klasör açılamadı"
 
-#: src/actions.rs:533
+#: src/actions.rs:530
 msgid "Could not open file"
 msgstr "Dosya açılamadı"
 
-#: src/app.rs:401
+#: src/app.rs:340
 msgid "Downloading data…"
 msgstr "Veri indiriliyor…"
 
-#: src/app.rs:465
+#: src/app.rs:404
 msgid "Unsupported file format"
 msgstr "Desteklenmeyen dosya biçimi"
 
-#: src/app.rs:535
+#: src/app.rs:474
 msgid "Open Torrents"
 msgstr "Torrent Aç"
 
-#: src/app.rs:540
+#: src/app.rs:479
 msgid "Torrent files"
 msgstr "Torrent dosyaları"
 
-#: src/app.rs:545
+#: src/app.rs:484
 msgid "All files"
 msgstr "Tüm dosyalar"
 
 #. NOTE: Title of the modal when the user removes all downloaded torrents
-#: src/app.rs:580
+#: src/app.rs:519
 msgid "Remove all Downloaded Torrents?"
 msgstr "Tüm İndirilen Torrentler kaldırılsın mı?"
 
-#: src/app.rs:584
+#: src/app.rs:523
 msgid ""
 "This will only remove torrents from Fragments, but will keep the downloaded "
 "content."
@@ -1012,35 +1012,35 @@ msgstr "{} / {}"
 msgid "{} of {} · {}"
 msgstr "{} / {} · {}"
 
-#: src/ui/window.rs:112
+#: src/ui/window.rs:150
 msgid "Remote control \"{}\""
 msgstr "\"{}\" uzaktan denetim"
 
-#: src/ui/window.rs:207
+#: src/ui/window.rs:245
 msgid "New torrent added"
 msgstr "Yeni torrent eklendi"
 
-#: src/ui/window.rs:221
+#: src/ui/window.rs:259
 msgid "Torrent completely downloaded"
 msgstr "Torrent tümüyle indirildi"
 
-#: src/ui/window.rs:300
+#: src/ui/window.rs:359
 msgid "Add magnet link “{}” from clipboard?"
 msgstr "Panodan “{}” mıknatıs bağlantısı eklensin mi?"
 
-#: src/ui/window.rs:301
+#: src/ui/window.rs:360
 msgid "Add magnet link from clipboard?"
 msgstr "Panodan mıknatıs bağlantısı eklensin mi?"
 
-#: src/ui/window.rs:306 src/ui/window.rs:327
+#: src/ui/window.rs:365 src/ui/window.rs:386
 msgid "_Add"
 msgstr "_Ekle"
 
-#: src/ui/window.rs:315
+#: src/ui/window.rs:374
 msgid "Add torrent from “{}”?"
 msgstr "“{}” konumundan torrent eklensin mi?"
 
-#: src/ui/window.rs:322
+#: src/ui/window.rs:381
 msgid "Add “{}” from clipboard?"
 msgstr "Panodan “{}” eklensin mi?"
 

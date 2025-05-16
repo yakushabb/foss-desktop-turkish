@@ -5,15 +5,15 @@
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>
 # Bünyamin Kırmızı <bunyamin.kirmizi@outlook.com>, 2022.
 # Sabri Ünal <yakushabb@gmail.com>, 2022-2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2022, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2022, 2024, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/apostrophe/issues\n"
-"POT-Creation-Date: 2025-03-09 12:17+0000\n"
-"PO-Revision-Date: 2025-02-02 00:12+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-05-11 13:16+0000\n"
+"PO-Revision-Date: 2025-05-11 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -38,119 +38,123 @@ msgstr ""
 msgid "Apostrophe, an elegant, distraction-free markdown editor"
 msgstr "Apostrophe; güzel, ilgi dağıtmayan markdown düzenleyici"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:35
+#: data/org.gnome.gitlab.somas.Apostrophe.desktop.in.in:18
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:47
 msgid "Color scheme"
 msgstr "Renk şeması"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:36
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:48
 msgid "Use the color scheme in the application's UI and in the text area."
 msgstr "Renk şemasını, uygulama arayüzünde ve metin alanında kullan."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:42
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:54
 msgid "Check spelling while typing"
 msgstr "Yazarken yazım denetimi yap"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:43
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:55
 msgid "Enable or disable spellchecking."
 msgstr "Yazım denetimini etkinleştir veya devre dışı bırakın."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:49
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:61
 msgid "Synchronize editor/preview scrolling"
 msgstr "Düzenleyici/ön izleme kaydırmayı eşzamanla"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:50
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:62
 msgid "Keep the editor and preview scroll positions in sync."
 msgstr "Düzenleyici ve ön izleme kaydırma konumlarını eşzamanlı tutun."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:56
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:68
 msgid "Input format"
 msgstr "Girdi biçimi"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:57
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:69
 msgid "Input format to use when previewing and exporting using Pandoc."
 msgstr ""
 "Pandoc kullanarak ön izleme ve dışa aktarma sırasında kullanılacak giriş "
 "biçimi."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:63
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:75
 msgid "Autohide Headerbar"
 msgstr "Üst bilgi çubuğunu kendiliğinden gizle"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:64
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:76
 msgid "Hide the header and status bars when typing."
 msgstr "Yazarken başlığı ve durum çubuklarını gizleyin."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:70
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:82
 msgid "Default statistic"
 msgstr "Öntanımlı istatistik"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:71
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:83
 msgid "Which statistic is shown on the main window."
 msgstr "Ana pencerede hangi istatistiğin gösterileceği."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:77
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:89
 msgid "Characters per line"
 msgstr "Satır başına karakter sayısı"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:78
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:90
 msgid "Maximum number of characters per line within the editor."
 msgstr "Düzenleyici içinde satır başına en çok karakter sayısı."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:84
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:96
 #: data/ui/AboutHemingway.ui:6
 msgid "Hemingway Mode"
 msgstr "Hemingway Kipi"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:85
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:97
 msgid "Whether the user can delete text or not."
 msgstr "Kullanıcının metni silip silemeyeceği."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:91
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:103
 msgid "Hemingway Toast Count"
 msgstr "Hemingway Bildirim Sayısı"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:92
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:104
 msgid "Number of times the Hemingway Toast has been shown"
 msgstr "Hemingway Bildirimi’nin gösterilme sayısı"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:98
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:110
 msgid "Preview mode"
 msgstr "Ön izleme kipi"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:99
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:111
 msgid "How to display the preview."
 msgstr "Ön izleme nasıl görüntülenir."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:105
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:117
 #: data/ui/Preferences.ui:64
 msgid "Preview Security"
 msgstr "Ön İzleme Güvenliği"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:106
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:118
 msgid "Security policy to apply when rendering files."
 msgstr "Dosyaları oluştururken uygulanacak güvenlik ilkesi."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:112
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:124
 msgid "Preview active"
 msgstr "Ön izleme etkin"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:113
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:125
 msgid "Whether showing of preview is active when launching a new window."
 msgstr "Yeni pencere başlatılırken ön izlemenin etkin olup olmadığı."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:119
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:131
 msgid "Text size"
 msgstr "Metin boyutu"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:120
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:132
 msgid "Preferred relative size for the text."
 msgstr "Metin için yeğlenen göreli boyut."
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:126
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:138
 msgid "Toolbar"
 msgstr "Araç çubuğu"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:127
+#: data/org.gnome.gitlab.somas.Apostrophe.gschema.xml:139
 msgid "Whether the toolbar is shown or not."
 msgstr "Araç çubuğunun gösterilme durumu."
 
@@ -203,23 +207,23 @@ msgstr ""
 "Her biçimde dışarıya aktarın: PDF, Word/Libreoffice, LaTeX ve hatta HTML "
 "slayt gösterileri"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:53
+#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:55
 msgid "Main window"
 msgstr "Ana pencere"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:57
+#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:59
 msgid "Main window in dark mode"
 msgstr "Koyu kipte ana pencere"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:61
+#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:63
 msgid "Inserting a table with the help of the toolbar"
 msgstr "Araç çubuğu yardımıyla tablo ekleme"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:65
+#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:67
 msgid "The preview lets you see a live rendered version of your document"
 msgstr "Ön izleme, belgenizin canlı işlenmiş sürümünü görmenizi sağlar"
 
-#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:69
+#: data/org.gnome.gitlab.somas.Apostrophe.metainfo.xml.in.in:71
 msgid "The focus mode allow for a more distraction-free experience"
 msgstr "Odak kipi dikkat dağıtmayan bir deneyim sunar"
 
@@ -264,7 +268,7 @@ msgid "Formats"
 msgstr "Biçimler"
 
 #: data/ui/Export.ui:67 apostrophe/export_dialog.py:125
-#: apostrophe/export_dialog.py:332 apostrophe/export_dialog.py:336
+#: apostrophe/export_dialog.py:336 apostrophe/export_dialog.py:340
 msgid "Export"
 msgstr "Dışa aktar"
 
@@ -340,8 +344,8 @@ msgstr "Artımlı Madde İmleri"
 msgid "Show one bullet point after another in a slideshow"
 msgstr "Slayt gösterisinde madde imlerini birbiri ardına göster"
 
-#: data/ui/Headerbar.ui:10 apostrophe/main_window.py:776
-#: apostrophe/main_window.py:791
+#: data/ui/Headerbar.ui:10 apostrophe/main_window.py:775
+#: apostrophe/main_window.py:790
 msgid "New File"
 msgstr "Yeni Dosya"
 
@@ -775,11 +779,11 @@ msgstr "Tablo"
 msgid "Show More Controls"
 msgstr "Daha Çok Denetim Göster"
 
-#: data/ui/Window.ui:64
+#: data/ui/Window.ui:61
 msgid "This file may be insecure"
 msgstr "Dosya güvensiz olabilir"
 
-#: data/ui/Window.ui:65
+#: data/ui/Window.ui:62
 msgid ""
 "Previewing files from untrusted sources can be dangerous.\n"
 "If you're unsure about the contents of this file, open it in the Restricted "
@@ -789,31 +793,31 @@ msgstr ""
 "Dosyanın içeriğinden emin değilseniz, javascript ve HTMLʼnin devre dışı "
 "bırakıldığı Kısıtlı Ön İzleme ile açın."
 
-#: data/ui/Window.ui:77
+#: data/ui/Window.ui:74
 msgid "Load Preview"
 msgstr "Ön İzlemeyi Yükle"
 
-#: data/ui/Window.ui:86
+#: data/ui/Window.ui:83
 msgid "Load Restricted Preview"
 msgstr "Kısıtlı Ön İzlemeyi Yükle"
 
-#: data/ui/Window.ui:159
+#: data/ui/Window.ui:191
 msgid "File Has Changed on Disk"
 msgstr "Dosya Diskte Değiştirildi"
 
-#: data/ui/Window.ui:169
+#: data/ui/Window.ui:201
 msgid "The file has been changed by another program"
 msgstr "Dosya başka bir programca değiştirildi"
 
-#: data/ui/Window.ui:177
+#: data/ui/Window.ui:209
 msgid "_Discard Changes and Reload"
 msgstr "Değişiklikleri _Gözden Çıkar ve Yeniden Yükle"
 
-#: apostrophe/application.py:244
+#: apostrophe/application.py:260
 msgid "Donate"
 msgstr "Bağış Yap"
 
-#: apostrophe/application.py:245
+#: apostrophe/application.py:261
 msgid "Translations"
 msgstr "Çeviriler"
 
@@ -822,18 +826,18 @@ msgid "Close"
 msgstr "Kapat"
 
 # %s burada Dosya türü (PDF, HTML, ODT vs)
-#: apostrophe/export_dialog.py:128 apostrophe/export_dialog.py:337
+#: apostrophe/export_dialog.py:128 apostrophe/export_dialog.py:341
 #, python-format
 msgid "Export to %s"
 msgstr "%s olarak dışa aktar"
 
-#: apostrophe/export_dialog.py:130 apostrophe/export_dialog.py:333
-#: apostrophe/export_dialog.py:338 apostrophe/main_window.py:420
-#: apostrophe/main_window.py:498 apostrophe/main_window.py:591
+#: apostrophe/export_dialog.py:130 apostrophe/export_dialog.py:337
+#: apostrophe/export_dialog.py:342 apostrophe/main_window.py:423
+#: apostrophe/main_window.py:505 apostrophe/main_window.py:607
 msgid "Cancel"
 msgstr "İptal"
 
-#: apostrophe/export_dialog.py:157 apostrophe/export_dialog.py:326
+#: apostrophe/export_dialog.py:161 apostrophe/export_dialog.py:330
 #, python-brace-format
 msgid ""
 "An error happened while trying to export:\n"
@@ -845,11 +849,11 @@ msgstr ""
 "{err_msg}"
 
 # {} burada PDF, HTML ve pek çok dosya türü ile değiştirilmektedir.
-#: apostrophe/export_dialog.py:239
+#: apostrophe/export_dialog.py:243
 msgid "Export to {}"
 msgstr "{} olarak dışa aktar"
 
-#: apostrophe/export_dialog.py:333
+#: apostrophe/export_dialog.py:337
 msgid "Select folder"
 msgstr "Klasör seç"
 
@@ -890,43 +894,58 @@ msgid "adverb"
 msgstr "belirteç"
 
 #. Hemingway Toast
-#: apostrophe/main_window.py:157
+#: apostrophe/main_window.py:151
 msgid "Text can't be deleted while on Hemingway mode"
 msgstr "Hemingway kipindeyken metin silinemez"
 
-#: apostrophe/main_window.py:160
+#: apostrophe/main_window.py:154
 msgid "Tell me more"
 msgstr "Daha çoğunu söyle"
 
-#: apostrophe/main_window.py:416
+#: apostrophe/main_window.py:419
 msgid "Save your File"
 msgstr "Dosyanızı kaydedin"
 
-#: apostrophe/main_window.py:419 apostrophe/main_window.py:593
+#: apostrophe/main_window.py:422 apostrophe/main_window.py:609
 msgid "Save"
 msgstr "Kaydet"
 
-#: apostrophe/main_window.py:487
+#: apostrophe/main_window.py:494
 msgid "Markdown Files"
 msgstr "Markdown Dosyaları"
 
-#: apostrophe/main_window.py:491
+#: apostrophe/main_window.py:498
 msgid "Plain Text Files"
 msgstr "Düz Metin Dosyaları"
 
-#: apostrophe/main_window.py:494
+#: apostrophe/main_window.py:501
 msgid "Open a .md file"
 msgstr "Bir .md dosyası aç"
 
-#: apostrophe/main_window.py:497
+#: apostrophe/main_window.py:504
 msgid "Open"
 msgstr "Aç"
 
-#: apostrophe/main_window.py:585
+#: apostrophe/main_window.py:571
+#, python-brace-format
+msgid ""
+"Failed to detect encoding for file:\n"
+"{file}\n"
+"\n"
+"The error was:\n"
+"{err_msg}"
+msgstr ""
+"Dosya için kodlama saptanamadı:\n"
+"{file}\n"
+"\n"
+"Hata:\n"
+"{err_msg}"
+
+#: apostrophe/main_window.py:601
 msgid "Save Changes?"
 msgstr "Değişiklikler Kaydedilsin Mi?"
 
-#: apostrophe/main_window.py:586
+#: apostrophe/main_window.py:602
 #, python-format
 msgid ""
 "“%s” contains unsaved changes. If you don’t save, all your changes will be "
@@ -935,7 +954,7 @@ msgstr ""
 "“%s” kaydedilmemiş değişiklikler içeriyor. Kaydetmezseniz, tüm "
 "değişiklikleriniz tümüyle yitecek."
 
-#: apostrophe/main_window.py:592
+#: apostrophe/main_window.py:608
 msgid "Discard"
 msgstr "_Gözden Çıkar"
 
@@ -1066,7 +1085,7 @@ msgstr ""
 "\n"
 "kod\n"
 
-#: apostrophe/text_view.py:203 apostrophe/text_view.py:205
+#: apostrophe/text_view.py:215 apostrophe/text_view.py:217
 msgid "web page"
 msgstr "web sayfası"
 
