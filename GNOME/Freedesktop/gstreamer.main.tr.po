@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gstreamer 1.21.90\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/gstreamer/gstreamer/"
 "issues\n"
-"POT-Creation-Date: 2025-02-16 03:29+0000\n"
+"POT-Creation-Date: 2025-09-16 15:29+0000\n"
 "PO-Revision-Date: 2024-02-25 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -1087,12 +1087,12 @@ msgstr "%s iletişim kuralı için URI işleyicisi bulunamadı"
 msgid "URI scheme '%s' not supported"
 msgstr "URI şema '%s' desteklenmez"
 
-#: gst/gstutils.c:2682 tools/gst-launch.c:351
+#: gst/gstutils.c:2719 tools/gst-launch.c:351
 #, c-format
 msgid "ERROR: from element %s: %s\n"
 msgstr "HATA: %s ögesinden: %s\n"
 
-#: gst/gstutils.c:2684 tools/gst-launch.c:353 tools/gst-launch.c:715
+#: gst/gstutils.c:2721 tools/gst-launch.c:353 tools/gst-launch.c:715
 #, c-format
 msgid ""
 "Additional debug info:\n"
@@ -1328,7 +1328,7 @@ msgstr "Dosya \"%s\" bir sokettir."
 msgid "Failed after iterations as requested."
 msgstr "İstenildiği gibi tekrarlama başarısız oldu."
 
-#: plugins/elements/gstidentity.c:1068
+#: plugins/elements/gstidentity.c:1070
 msgid "eos-after and error-after can't both be defined."
 msgstr "eos-sonra ve hata-sonra her ikisi de tanımlanamaz."
 
@@ -1361,94 +1361,94 @@ msgstr "Akışı yeterli veri içermiyor."
 msgid "Stream contains no data."
 msgstr "Akış hiçbir veri içermiyor."
 
-#: tools/gst-inspect.c:361
+#: tools/gst-inspect.c:363
 #, c-format
 msgid "%sImplemented Interfaces%s:\n"
 msgstr "%serçeklenmiş Arayüzler%s:\n"
 
-#: tools/gst-inspect.c:378
+#: tools/gst-inspect.c:380
 #, fuzzy, c-format
 msgid "%sElement Flags%s:\n"
 msgstr "%serçeklenmiş Arayüzler%s:\n"
 
-#: tools/gst-inspect.c:501
+#: tools/gst-inspect.c:503
 msgid "readable"
 msgstr "okunabilir"
 
-#: tools/gst-inspect.c:506
+#: tools/gst-inspect.c:508
 msgid "writable"
 msgstr "yazılabilir"
 
-#: tools/gst-inspect.c:511
+#: tools/gst-inspect.c:513
 msgid "deprecated"
 msgstr "kullanım dışı"
 
-#: tools/gst-inspect.c:515
+#: tools/gst-inspect.c:517
 msgid "controllable"
 msgstr "yöneltilebilir"
 
-#: tools/gst-inspect.c:520
+#: tools/gst-inspect.c:522
 msgid "conditionally available"
 msgstr "koşullu olarak kullanılabilir"
 
-#: tools/gst-inspect.c:526
+#: tools/gst-inspect.c:528
 msgid "can be set only at object construction time"
 msgstr ""
 
-#: tools/gst-inspect.c:529
+#: tools/gst-inspect.c:531
 msgid "changeable in NULL, READY, PAUSED or PLAYING state"
 msgstr "BOŞ, HAZIR, DURDURULMUŞ veya YÜRÜTÜLÜYOR durumlarına değiştirilebilir"
 
-#: tools/gst-inspect.c:532
+#: tools/gst-inspect.c:534
 msgid "changeable only in NULL, READY or PAUSED state"
 msgstr "sadece NULL, READY ya da PAUSED olarak değiştirilebilir"
 
-#: tools/gst-inspect.c:535
+#: tools/gst-inspect.c:537
 msgid "changeable only in NULL or READY state"
 msgstr "sadece NULL ya da READY olarak değiştirilebilir"
 
-#: tools/gst-inspect.c:1303
+#: tools/gst-inspect.c:1305
 msgid "Blacklisted files:"
 msgstr "Kara listeye alınan dosyalar:"
 
-#: tools/gst-inspect.c:1318 tools/gst-inspect.c:1457
+#: tools/gst-inspect.c:1320 tools/gst-inspect.c:1459
 #, c-format
 msgid "%sTotal count%s: %s"
 msgstr "%sToplam sayı%s: %s"
 
-#: tools/gst-inspect.c:1320
+#: tools/gst-inspect.c:1322
 #, c-format
 msgid "%d blacklisted file"
 msgid_plural "%d blacklisted files"
 msgstr[0] "%d kara listeye alınan dosya"
 
-#: tools/gst-inspect.c:1459
+#: tools/gst-inspect.c:1461
 #, c-format
 msgid "%d plugin"
 msgid_plural "%d plugins"
 msgstr[0] "%d eklentisi"
 
-#: tools/gst-inspect.c:1462
+#: tools/gst-inspect.c:1464
 #, c-format
 msgid "%d blacklist entry"
 msgid_plural "%d blacklist entries"
 msgstr[0] "%d kara liste girdisi"
 
-#: tools/gst-inspect.c:1467
+#: tools/gst-inspect.c:1469
 #, c-format
 msgid "%d feature"
 msgid_plural "%d features"
 msgstr[0] "%d özelliği"
 
-#: tools/gst-inspect.c:2228
+#: tools/gst-inspect.c:2230
 msgid "Print all elements"
 msgstr "Tüm ögeleri yazdır"
 
-#: tools/gst-inspect.c:2230
+#: tools/gst-inspect.c:2232
 msgid "Print list of blacklisted files"
 msgstr "Kara listeye alınmış dosyaların listesini yazdır"
 
-#: tools/gst-inspect.c:2232
+#: tools/gst-inspect.c:2234
 msgid ""
 "Print a machine-parsable list of features the specified plugin or all "
 "plugins provide.\n"
@@ -1460,11 +1460,11 @@ msgstr ""
 "                                       Dış kendiliğinden eklenti kurulum "
 "tekniği ile bağlantıda yararlıdır"
 
-#: tools/gst-inspect.c:2237
+#: tools/gst-inspect.c:2239
 msgid "List the plugin contents"
 msgstr "Eklenti içeriklerini listele"
 
-#: tools/gst-inspect.c:2239
+#: tools/gst-inspect.c:2241
 msgid ""
 "A slashes ('/') separated list of types of elements (also known as klass) to "
 "list. (unordered)"
@@ -1472,11 +1472,11 @@ msgstr ""
 "Bir eğik çizgi ('/') ögelerinin türlerini listelemek için (klass olarak da "
 "bilinen) listelerine ayrılmış. (sıralı değil)"
 
-#: tools/gst-inspect.c:2242
+#: tools/gst-inspect.c:2244
 msgid "Check if the specified element or plugin exists"
 msgstr "Belirtilen öge ya da eklentinin var olup olmadığını denetle"
 
-#: tools/gst-inspect.c:2245
+#: tools/gst-inspect.c:2247
 msgid ""
 "When checking if an element or plugin exists, also check that its version is "
 "at least the version specified"
@@ -1484,11 +1484,11 @@ msgstr ""
 "Bir öge ya da eklentinin var olup olmadığı denetlenirken, belirtilen en son "
 "sürümde olup olmadıklarını da denetle"
 
-#: tools/gst-inspect.c:2249
+#: tools/gst-inspect.c:2251
 msgid "Print supported URI schemes, with the elements that implement them"
 msgstr "Desteklenen URI şemalarını onlara uygulanan ögelerle yazdır"
 
-#: tools/gst-inspect.c:2254
+#: tools/gst-inspect.c:2256
 msgid ""
 "Disable colors in output. You can also achieve the same by setting "
 "'GST_INSPECT_NO_COLORS' environment variable to any value."
@@ -1496,16 +1496,16 @@ msgstr ""
 "Çıktıdaki renkleri devre dışı bırakın. 'GST_INSPECT_NO_COLORS' ortam "
 "değişkenini herhangi bir değere ayarlayarak da aynısını elde edebilirsiniz."
 
-#: tools/gst-inspect.c:2262
+#: tools/gst-inspect.c:2264
 msgid "Color output, even when not sending to a tty."
 msgstr "Bir tty göndermese bile renk çıkışı."
 
-#: tools/gst-inspect.c:2436
+#: tools/gst-inspect.c:2438
 #, c-format
 msgid "Could not load plugin file: %s\n"
 msgstr "Eklenti dosyası yüklenemedi: %s\n"
 
-#: tools/gst-inspect.c:2442
+#: tools/gst-inspect.c:2444
 #, c-format
 msgid "No such element or plugin '%s'\n"
 msgstr "Böyle bir öge ya da '%s' eklentisi yok\n"
@@ -1680,27 +1680,27 @@ msgstr "Akış sonu için beklerken bir hata oldu\n"
 msgid "Use Windows high-resolution clock, precision: %u ms\n"
 msgstr "Windows yüksek çözünürlüklü saat, hassasiyet kullanımı: %u ms\n"
 
-#: tools/gst-launch.c:1093
+#: tools/gst-launch.c:1092
 msgid "Output tags (also known as metadata)"
 msgstr "Çıktı etiketleri (metadata olarak da bilinir)"
 
-#: tools/gst-launch.c:1095
+#: tools/gst-launch.c:1094
 msgid "Output TOC (chapters and editions)"
 msgstr "İçindekiler Çıktısı (bölümler ve sürümleri)"
 
-#: tools/gst-launch.c:1097
+#: tools/gst-launch.c:1096
 msgid "Output status information and property notifications"
 msgstr "Çıktı durum bilgisi ve özellik uyarıları"
 
-#: tools/gst-launch.c:1099
+#: tools/gst-launch.c:1098
 msgid "Do not print any progress information"
 msgstr "Herhangi bir ilerleme bilgisi yazdırmayın"
 
-#: tools/gst-launch.c:1101
+#: tools/gst-launch.c:1100
 msgid "Output messages"
 msgstr "Çıktı iletileri"
 
-#: tools/gst-launch.c:1103
+#: tools/gst-launch.c:1102
 msgid ""
 "Do not output status information for the specified property if verbose "
 "output is enabled (can be used multiple times)"
@@ -1708,32 +1708,32 @@ msgstr ""
 "Ayrıntılı çıktı etkinse, durum bilgilerini belirtilen özellik için çıkış "
 "değil (birden çok kez kullanılabilir)"
 
-#: tools/gst-launch.c:1105
+#: tools/gst-launch.c:1104
 msgid "PROPERTY-NAME"
 msgstr "ÖZELLİK-ADI"
 
-#: tools/gst-launch.c:1107
+#: tools/gst-launch.c:1106
 msgid "Set the name of the program"
 msgstr ""
 
-#: tools/gst-launch.c:1108
+#: tools/gst-launch.c:1107
 #, fuzzy
 msgid "PROGRAM-NAME"
 msgstr "ÖZELLİK-ADI"
 
-#: tools/gst-launch.c:1110
+#: tools/gst-launch.c:1109
 msgid "Do not install a fault handler"
 msgstr "Hatalı işleticiyi kurma"
 
-#: tools/gst-launch.c:1112
+#: tools/gst-launch.c:1111
 msgid "Force EOS on sources before shutting the pipeline down"
 msgstr "Boru hattı kapatılmadan önce kaynaklarda EOS zorla"
 
-#: tools/gst-launch.c:1115
+#: tools/gst-launch.c:1114
 msgid "Gather and print index statistics"
 msgstr "Dizin istatistiklerini topla ve yazdır"
 
-#: tools/gst-launch.c:1119
+#: tools/gst-launch.c:1118
 msgid ""
 "Do not print current position of pipeline. If this option is unspecified, "
 "the position will be printed when stdout is a TTY. To enable printing "
@@ -1743,7 +1743,7 @@ msgstr ""
 "stdout bir TTY olduğunda konum yazdırılır. Stdout bir TTY olmadığında "
 "yazdırma konumunu etkinleştirmek için \"kuvvet-konum\" seçeneğini kullanın"
 
-#: tools/gst-launch.c:1125
+#: tools/gst-launch.c:1124
 msgid ""
 "Allow printing current position of pipeline even if stdout is not a TTY. "
 "This option has no effect if the \"no-position\" option is specified"
@@ -1752,49 +1752,49 @@ msgstr ""
 "verin. \"pozisyon-yok\" seçeneği belirtilirse bu seçeneğin hiçbir etkisi "
 "olmaz"
 
-#: tools/gst-launch.c:1213
+#: tools/gst-launch.c:1212
 #, c-format
 msgid "ERROR: pipeline could not be constructed: %s.\n"
 msgstr "HATA: boru hattı oluşturulamadı: %s.\n"
 
-#: tools/gst-launch.c:1217
+#: tools/gst-launch.c:1216
 msgid "ERROR: pipeline could not be constructed.\n"
 msgstr "HATA: boru hattı oluşturulamadı.\n"
 
-#: tools/gst-launch.c:1221
+#: tools/gst-launch.c:1220
 #, c-format
 msgid "WARNING: erroneous pipeline: %s\n"
 msgstr "UYARI: hatalı boru hattı: %s\n"
 
-#: tools/gst-launch.c:1238
+#: tools/gst-launch.c:1236
 msgid "ERROR: the 'pipeline' element wasn't found.\n"
 msgstr "HATA: 'pipeline' ögesi bulunamadı.\n"
 
-#: tools/gst-launch.c:1287
+#: tools/gst-launch.c:1285
 msgid "Setting pipeline to PAUSED ...\n"
 msgstr "DURDURULDU durumu için ardışık düzen ayarlamaları ...\n"
 
-#: tools/gst-launch.c:1292
+#: tools/gst-launch.c:1290
 msgid "Failed to set pipeline to PAUSED.\n"
 msgstr "İşlem hattı DURAKLATILDI olarak ayarlanamadı.\n"
 
-#: tools/gst-launch.c:1296
+#: tools/gst-launch.c:1294
 msgid "Pipeline is live and does not need PREROLL ...\n"
 msgstr "Boru hattı çalışıyor ve PREROLL ihtiyacı yok ...\n"
 
-#: tools/gst-launch.c:1300
+#: tools/gst-launch.c:1298
 msgid "Pipeline is PREROLLING ...\n"
 msgstr "Boru hattı PREROLLING yapıyor ...\n"
 
-#: tools/gst-launch.c:1344
+#: tools/gst-launch.c:1342
 msgid "Execution ended after %"
 msgstr "Çalıştırma % sonrası bitti"
 
-#: tools/gst-launch.c:1361
+#: tools/gst-launch.c:1359
 msgid "Setting pipeline to NULL ...\n"
 msgstr "Boru hattı NULL olarak ayarlanıyor ...\n"
 
-#: tools/gst-launch.c:1379
+#: tools/gst-launch.c:1376
 msgid "Freeing pipeline ...\n"
 msgstr "Boru hattı boşaltılıyor ...\n"
 

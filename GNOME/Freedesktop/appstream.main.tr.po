@@ -23,14 +23,15 @@
 # Oğuz Ersen <oguz@ersen.moe>, 2022, 2023, 2024.
 # Sabri Ünal <libreajans@gmail.com>, 2022, 2023.
 # Sabri Ünal <yakushabb@gmail.com>, 2025.
+# Sasi Ba <sasiba8328@fuasha.com>, 2025.
 #
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: appstream\n"
 "Report-Msgid-Bugs-To: appstream@lists.freedesktop.org\n"
-"POT-Creation-Date: 2024-12-08 23:22+0100\n"
-"PO-Revision-Date: 2025-01-15 03:00+0000\n"
+"POT-Creation-Date: 2025-09-01 14:00+0200\n"
+"PO-Revision-Date: 2025-08-30 04:01+0000\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/appstream/"
 "translations/tr/>\n"
@@ -39,7 +40,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.13.1-dev\n"
 
 #: data/org.freedesktop.appstream.cli.metainfo.xml:8
 msgid "AppStream CLI"
@@ -81,7 +82,7 @@ msgstr ""
 "tanımlayıcısıyla yazılım yüklemek için sistem üst veri havuzuna kolay erişim "
 "sağlar."
 
-#: src/as-cache.c:904
+#: src/as-cache.c:906
 #, c-format
 msgid "Cache location '%s' is not writable."
 msgstr "Önbellek konumu '%s', yazılabilir değil."
@@ -419,546 +420,546 @@ msgstr "Araçlar"
 
 #. TRANSLATORS: This is the formatting of English and localized name
 #. of the rating e.g. "Adults Only (solo adultos)"
-#: src/as-content-rating.c:284
+#: src/as-content-rating.c:283
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/as-content-rating.c:430
+#: src/as-content-rating.c:429
 msgid "General"
 msgstr "Genel"
 
-#: src/as-content-rating.c:439
+#: src/as-content-rating.c:438
 msgid "ALL"
 msgstr "Tümü"
 
-#: src/as-content-rating.c:443 src/as-content-rating.c:552
+#: src/as-content-rating.c:442 src/as-content-rating.c:551
 msgid "Adults Only"
 msgstr "Yalnızca Yetişkinler"
 
-#: src/as-content-rating.c:445 src/as-content-rating.c:550
+#: src/as-content-rating.c:444 src/as-content-rating.c:549
 msgid "Mature"
 msgstr "Yetişkin"
 
-#: src/as-content-rating.c:447 src/as-content-rating.c:549
+#: src/as-content-rating.c:446 src/as-content-rating.c:548
 msgid "Teen"
 msgstr "Genç"
 
-#: src/as-content-rating.c:449 src/as-content-rating.c:548
+#: src/as-content-rating.c:448 src/as-content-rating.c:547
 msgid "Everyone 10+"
 msgstr "10 Yaş Üstü Herkes"
 
-#: src/as-content-rating.c:451 src/as-content-rating.c:546
+#: src/as-content-rating.c:450 src/as-content-rating.c:545
 msgid "Everyone"
 msgstr "Herkes"
 
-#: src/as-content-rating.c:453 src/as-content-rating.c:545
+#: src/as-content-rating.c:452 src/as-content-rating.c:544
 msgid "Early Childhood"
 msgstr "Erken Çocukluk"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:835
+#: src/as-content-rating.c:834
 msgid "No cartoon violence"
 msgstr "Çizgi dizisi şiddeti yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:837
+#: src/as-content-rating.c:836
 msgid "Cartoon characters in unsafe situations"
 msgstr "Çizgi karakterler güvensiz durumlarda"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:839
+#: src/as-content-rating.c:838
 msgid "Cartoon characters in aggressive conflict"
 msgstr "Çizgi karakterler saldırgan çatışma halinde"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:841
+#: src/as-content-rating.c:840
 msgid "Graphic violence involving cartoon characters"
 msgstr "Çizgi karakterlerin dahil olduğu görsel şiddet"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:846
+#: src/as-content-rating.c:845
 msgid "No fantasy violence"
 msgstr "Fantezi şiddeti yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:848
+#: src/as-content-rating.c:847
 msgid "Characters in unsafe situations easily distinguishable from reality"
 msgstr ""
 "Güvensiz durumlardaki karakterler gerçeklikten kolayca ayırt edilebilir"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:850
+#: src/as-content-rating.c:849
 msgid "Characters in aggressive conflict easily distinguishable from reality"
 msgstr ""
 "Agresif çatışma içindeki karakterler gerçeklikten kolayca ayırt edilebilir"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:852
+#: src/as-content-rating.c:851
 msgid "Graphic violence easily distinguishable from reality"
 msgstr "Gerçeklikten kolayca ayırt edilebilen canlı şiddet"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:857
+#: src/as-content-rating.c:856
 msgid "No realistic violence"
 msgstr "Gerçekçi şiddet yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:859
+#: src/as-content-rating.c:858
 msgid "Mildly realistic characters in unsafe situations"
 msgstr "Hafif gerçekçi karakterler güvenli olmayan durumlarda"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:861
+#: src/as-content-rating.c:860
 msgid "Depictions of realistic characters in aggressive conflict"
 msgstr "Agresif çatışma içindeki gerçekçi karakterlerin betimlemesi"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:863
+#: src/as-content-rating.c:862
 msgid "Graphic violence involving realistic characters"
 msgstr "Gerçekçi karakterleri ilgilendiren canlı şiddet"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:868
+#: src/as-content-rating.c:867
 msgid "No bloodshed"
 msgstr "Kan dökme yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:870
+#: src/as-content-rating.c:869
 msgid "Unrealistic bloodshed"
 msgstr "Gerçekçi olmayan kan dökme"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:872
+#: src/as-content-rating.c:871
 msgid "Realistic bloodshed"
 msgstr "Gerçekçi kan dökme"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:874
+#: src/as-content-rating.c:873
 msgid "Depictions of bloodshed and the mutilation of body parts"
 msgstr "Kan dökme betimlemeleri ve vücut parçalarının sakatlanması"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:879
+#: src/as-content-rating.c:878
 msgid "No sexual violence"
 msgstr "Cinsel şiddet yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:883
+#: src/as-content-rating.c:882
 msgid "Rape or other violent sexual behavior"
 msgstr "Tecavüz veya diğer şiddetli cinsel davranış"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:888
+#: src/as-content-rating.c:887
 msgid "No references to alcohol"
 msgstr "Alkole atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:890
+#: src/as-content-rating.c:889
 msgid "References to alcoholic beverages"
 msgstr "Alkollü içeceklere atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:892
+#: src/as-content-rating.c:891
 msgid "Use of alcoholic beverages"
 msgstr "Alkollü içeceklerin kullanımı"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:898
+#: src/as-content-rating.c:897
 msgid "No references to illicit drugs"
 msgstr "Yasadışı ilaçlara atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:900
+#: src/as-content-rating.c:899
 msgid "References to illicit drugs"
 msgstr "Yasadışı ilaçlara atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:902
+#: src/as-content-rating.c:901
 msgid "Use of illicit drugs"
 msgstr "Yasadışı ilaçların kullanımı"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:908
+#: src/as-content-rating.c:907
 msgid "No references to tobacco products"
 msgstr "Tütün ürünlerine atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:910
+#: src/as-content-rating.c:909
 msgid "References to tobacco products"
 msgstr "Tütün ürünlerine atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:912
+#: src/as-content-rating.c:911
 msgid "Use of tobacco products"
 msgstr "Tütün ürünlerinin kullanımı"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:918
+#: src/as-content-rating.c:917
 msgid "No nudity of any sort"
 msgstr "Herhangi biçimde çıplaklık yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:920
+#: src/as-content-rating.c:919
 msgid "Brief artistic nudity"
 msgstr "Kısa sanatsal çıplaklık"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:922
+#: src/as-content-rating.c:921
 msgid "Prolonged nudity"
 msgstr "Uzun çıplaklık"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:924
+#: src/as-content-rating.c:923
 msgid "Explicit nudity involving visible sexual organs"
 msgstr "Görünür cinsel organlar içeren açık çıplaklık"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:929
+#: src/as-content-rating.c:928
 msgid "No references to or depictions of sexual nature"
 msgstr "Cinsel doğaya atıf veya betimleme yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:931
+#: src/as-content-rating.c:930
 msgid "Provocative references or depictions"
 msgstr "Kışkırtıcı atıflar veya betimlemeler"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:933
+#: src/as-content-rating.c:932
 msgid "Sexual references or depictions"
 msgstr "Cinsel atıflar veya betimlemeler"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:935
+#: src/as-content-rating.c:934
 msgid "Graphic sexual behavior"
 msgstr "Canlı cinsel davranış"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:940
+#: src/as-content-rating.c:939
 msgid "No profanity of any kind"
 msgstr "Herhangi biçimde küfür yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:942
+#: src/as-content-rating.c:941
 msgid "Mild or infrequent use of profanity"
 msgstr "Hafif veya sık olmayan küfür kullanımı"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:944
+#: src/as-content-rating.c:943
 msgid "Moderate use of profanity"
 msgstr "Orta kullanımlı küfür"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:946
+#: src/as-content-rating.c:945
 msgid "Strong or frequent use of profanity"
 msgstr "Şiddetli veya sık küfür kullanımı"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:951
+#: src/as-content-rating.c:950
 msgid "No inappropriate humor"
 msgstr "Uygunsuz mizah yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:953
+#: src/as-content-rating.c:952
 msgid "Slapstick humor"
 msgstr "Kaba mizah"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:955
+#: src/as-content-rating.c:954
 msgid "Vulgar or bathroom humor"
 msgstr "Kaba veya banyo mizahı"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:957
+#: src/as-content-rating.c:956
 msgid "Mature or sexual humor"
 msgstr "Olgun veya cinsel mizah"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:962
+#: src/as-content-rating.c:961
 msgid "No discriminatory language of any kind"
 msgstr "Herhangi biçimde ayrımcı dil yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:964
+#: src/as-content-rating.c:963
 msgid "Negativity towards a specific group of people"
 msgstr "Belirli bir insan kümesine karşı olumsuzluk"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:966
+#: src/as-content-rating.c:965
 msgid "Discrimination designed to cause emotional harm"
 msgstr "Duygusal zarara neden olmaya tasarlanmış ayrımcılık"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:968
+#: src/as-content-rating.c:967
 msgid "Explicit discrimination based on gender, sexuality, race or religion"
 msgstr "Cinsiyet, cinsellik, ırk veya din tabanlı açık ayrımcılık"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:973
+#: src/as-content-rating.c:972
 msgid "No advertising of any kind"
 msgstr "Herhangi biçimde reklam yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:975
+#: src/as-content-rating.c:974
 msgid "Product placement"
 msgstr "Ürün yerleştirme"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:977
+#: src/as-content-rating.c:976
 msgid "Explicit references to specific brands or trademarked products"
 msgstr "Belirli markalara veya ticari markalı ürünlere açık atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:979
+#: src/as-content-rating.c:978
 msgid "Users are encouraged to purchase specific real-world items"
 msgstr "Kullanıcılar belirli gerçek dünya ögelerini satın almaya özendirilir"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:984
+#: src/as-content-rating.c:983
 msgid "No gambling of any kind"
 msgstr "Herhangi biçimde kumar yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:986
+#: src/as-content-rating.c:985
 msgid "Gambling on random events using tokens or credits"
 msgstr ""
 "Belirteç veya kontör kullanarak rastlantısal etkinlikler üzerinde kumar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:988
+#: src/as-content-rating.c:987
 msgid "Gambling using “play” money"
 msgstr "“Oyun” parası kullanarak kumar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:990
+#: src/as-content-rating.c:989
 msgid "Gambling using real money"
 msgstr "Gerçek para kullanarak kumar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:995
+#: src/as-content-rating.c:994
 msgid "No ability to spend money"
 msgstr "Para harcama yeteneği yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:997
+#: src/as-content-rating.c:996
 msgid "Users are encouraged to donate real money"
 msgstr "Kullanıcılar gerçek para bağışlamaya özendirilir"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1000
+#: src/as-content-rating.c:999
 msgid "Ability to spend real money in-app"
 msgstr "Uygulama içi gerçek para harcama yeteneği"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1005
+#: src/as-content-rating.c:1004
 msgid "No way to chat with other users"
 msgstr "Diğer kullanıcılarla sohbet etme yolu yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1007
+#: src/as-content-rating.c:1006
 msgid "User-to-user interactions without chat functionality"
 msgstr "Sohbet işlevi olmadan kullanıcıdan kullanıcıya etkileşimler"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1009
+#: src/as-content-rating.c:1008
 msgid "Moderated chat functionality between users"
 msgstr "Kullanıcılar arasında denetlenen konuşma işlevi"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1011
+#: src/as-content-rating.c:1010
 msgid "Uncontrolled chat functionality between users"
 msgstr "Kullanıcılar arasında denetlenmeyen konuşma işlevi"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1016
+#: src/as-content-rating.c:1015
 msgid "No way to talk with other users"
 msgstr "Diğer kullanıcılarla konuşma yolu yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1019
+#: src/as-content-rating.c:1018
 msgid "Moderated audio or video chat functionality between users"
 msgstr "Kullanıcılar arasında denetlenen sesli veya görüntülü konuşma işlevi"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1021
+#: src/as-content-rating.c:1020
 msgid "Uncontrolled audio or video chat functionality between users"
 msgstr ""
 "Kullanıcılar arasında denetlenmeyen sesli veya görüntülü konuşma işlevi"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1026
+#: src/as-content-rating.c:1025
 msgid "No sharing of social network usernames or email addresses"
 msgstr "Sosyal ağ kullanıcı adlarının veya e-posta adreslerinin paylaşımı yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1030
+#: src/as-content-rating.c:1029
 msgid "Sharing social network usernames or email addresses"
 msgstr "Sosyal ağ kullanıcı adlarını veya e-posta adreslerini paylaşır"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1035
+#: src/as-content-rating.c:1034
 msgid "No sharing of user information with third parties"
 msgstr "Üçüncü şahıslarla kullanıcı bilgisi paylaşımı yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1037
+#: src/as-content-rating.c:1036
 msgid "Checking for the latest application version"
 msgstr "En son uygulama sürümünün denetlenmesi"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1039
+#: src/as-content-rating.c:1038
 msgid "Sharing diagnostic data that does not let others identify the user"
 msgstr ""
 "Başkalarının kullanıcıyı tanımasını sağlamayacak tanılama verilerinin "
 "paylaşılması"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1041
+#: src/as-content-rating.c:1040
 msgid "Sharing information that lets others identify the user"
 msgstr "Başkalarının kullanıcıyı tanımasını sağlayacak bilgilerin paylaşılması"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1046
+#: src/as-content-rating.c:1045
 msgid "No sharing of physical location with other users"
 msgstr "Diğer kullanıcılarla fiziksel konum paylaşımı yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1050
+#: src/as-content-rating.c:1049
 msgid "Sharing physical location with other users"
 msgstr "Diğer kullanıcılarla fiziksel konum paylaşımı"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1071
+#: src/as-content-rating.c:1070
 msgid "No references to homosexuality"
 msgstr "Eşcinselliğe atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1073
+#: src/as-content-rating.c:1072
 msgid "Indirect references to homosexuality"
 msgstr "Eşcinselliğe doğrudan olmayan atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1075
+#: src/as-content-rating.c:1074
 msgid "Kissing between people of the same gender"
 msgstr "Benzer cinsiyetteki insanlar arasında öpüşme"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1077
+#: src/as-content-rating.c:1076
 msgid "Graphic sexual behavior between people of the same gender"
 msgstr "Benzer cinsiyetteki insanların arasında görsel cinsî davranış"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1082
+#: src/as-content-rating.c:1081
 msgid "No references to prostitution"
 msgstr "Fuhşa atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1084
+#: src/as-content-rating.c:1083
 msgid "Indirect references to prostitution"
 msgstr "Fuhşa doğrudan olmayan atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1086
+#: src/as-content-rating.c:1085
 msgid "Direct references to prostitution"
 msgstr "Fuhuşa doğrudan atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1088
+#: src/as-content-rating.c:1087
 msgid "Graphic depictions of the act of prostitution"
 msgstr "Fuhuş eyleminin görsel betimlemeleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1093
+#: src/as-content-rating.c:1092
 msgid "No references to adultery"
 msgstr "Eş aldatmaya atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1095
+#: src/as-content-rating.c:1094
 msgid "Indirect references to adultery"
 msgstr "Eş aldatmaya doğrudan olmayan atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1097
+#: src/as-content-rating.c:1096
 msgid "Direct references to adultery"
 msgstr "Eş aldatmaya doğrudan atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1099
+#: src/as-content-rating.c:1098
 msgid "Graphic depictions of the act of adultery"
 msgstr "Eş aldatma eyleminin görsel betimlemeleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1104
+#: src/as-content-rating.c:1103
 msgid "No sexualized characters"
 msgstr "Cinselleştirilmiş karakterler yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1107
+#: src/as-content-rating.c:1106
 msgid "Scantily clad human characters"
 msgstr "Yetersizce giyinmiş insan karakterleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1109
+#: src/as-content-rating.c:1108
 msgid "Overtly sexualized human characters"
 msgstr "Açıkça cinselleştirilmiş insan karakterleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1114
+#: src/as-content-rating.c:1113
 msgid "No references to desecration"
 msgstr "Kutsala saygısızlığa atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1116
+#: src/as-content-rating.c:1115
 msgid "Depictions of or references to historical desecration"
 msgstr "Tarihsel saygısızlığa ilişkin betimlemeler veya atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1118
+#: src/as-content-rating.c:1117
 msgid "Depictions of modern-day human desecration"
 msgstr "Çağdaş zaman insan saygısızlığının betimlemeleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1120
+#: src/as-content-rating.c:1119
 msgid "Graphic depictions of modern-day desecration"
 msgstr "Çağdaş zaman saygısızlığının görsel betimlemeleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1125
+#: src/as-content-rating.c:1124
 msgid "No visible dead human remains"
 msgstr "Görününür ölü insan kalıntıları yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1127
+#: src/as-content-rating.c:1126
 msgid "Visible dead human remains"
 msgstr "Görününür ölü insan kalıntıları"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1129
+#: src/as-content-rating.c:1128
 msgid "Dead human remains that are exposed to the elements"
 msgstr "Parçalarına ayrılmış ölü insan kalıntıları"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1131
+#: src/as-content-rating.c:1130
 msgid "Graphic depictions of desecration of human bodies"
 msgstr "İnsan bedenlerine saygısızlığın görsel betimlemeleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1136
+#: src/as-content-rating.c:1135
 msgid "No references to slavery"
 msgstr "Köleliğe atıf yok"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1138
+#: src/as-content-rating.c:1137
 msgid "Depictions of or references to historical slavery"
 msgstr "Tarihsel köleliğe ait betimlemeler veya atıflar"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1140
+#: src/as-content-rating.c:1139
 msgid "Depictions of modern-day slavery"
 msgstr "Çağdaş zaman köleliğinin betimlemeleri"
 
 #. TRANSLATORS: content rating description, see https://hughsie.github.io/oars/
-#: src/as-content-rating.c:1142
+#: src/as-content-rating.c:1141
 msgid "Graphic depictions of modern-day slavery"
 msgstr "Çağdaş zaman köleliğinin görsel betimlemeleri"
 
@@ -993,19 +994,19 @@ msgstr "Alınan dosya boyutu sıfırdı."
 
 #. TRANSLATORS: Name of the "Cinnamon" desktop environment.
 #. TRANSLATORS: Name of the "cinnamon" visual environment style.
-#: src/as-desktop-env-data.h:43 src/as-desktop-env-data.h:77
+#: src/as-desktop-env-data.h:43 src/as-desktop-env-data.h:79
 msgid "Cinnamon"
 msgstr "Cinnamon"
 
 #. TRANSLATORS: Name of the "DDE" desktop environment.
 #. TRANSLATORS: Name of the "dde" visual environment style.
-#: src/as-desktop-env-data.h:45 src/as-desktop-env-data.h:79
+#: src/as-desktop-env-data.h:45 src/as-desktop-env-data.h:81
 msgid "Deepin"
 msgstr "Deepin"
 
 #. TRANSLATORS: Name of the "EDE" desktop environment.
 #. TRANSLATORS: Name of the "ede" visual environment style.
-#: src/as-desktop-env-data.h:47 src/as-desktop-env-data.h:81
+#: src/as-desktop-env-data.h:47 src/as-desktop-env-data.h:83
 msgid "EDE"
 msgstr "EDE"
 
@@ -1016,7 +1017,7 @@ msgstr "Endless"
 
 #. TRANSLATORS: Name of the "GNOME" desktop environment.
 #. TRANSLATORS: Name of the "gnome" visual environment style.
-#: src/as-desktop-env-data.h:51 src/as-desktop-env-data.h:83
+#: src/as-desktop-env-data.h:51 src/as-desktop-env-data.h:85
 msgid "GNOME"
 msgstr "GNOME"
 
@@ -1024,19 +1025,19 @@ msgstr "GNOME"
 #. TRANSLATORS: Name of the "Plasma" desktop environment.
 #. TRANSLATORS: Name of the "plasma" visual environment style.
 #: src/as-desktop-env-data.h:53 src/as-desktop-env-data.h:63
-#: src/as-desktop-env-data.h:99
+#: src/as-desktop-env-data.h:103
 msgid "KDE Plasma"
 msgstr "KDE Plasma"
 
 #. TRANSLATORS: Name of the "LXDE" desktop environment.
 #. TRANSLATORS: Name of the "lxde" visual environment style.
-#: src/as-desktop-env-data.h:55 src/as-desktop-env-data.h:87
+#: src/as-desktop-env-data.h:55 src/as-desktop-env-data.h:91
 msgid "LXDE"
 msgstr "LXDE"
 
 #. TRANSLATORS: Name of the "LXQt" desktop environment.
 #. TRANSLATORS: Name of the "lxqt" visual environment style.
-#: src/as-desktop-env-data.h:57 src/as-desktop-env-data.h:89
+#: src/as-desktop-env-data.h:57 src/as-desktop-env-data.h:93
 msgid "LXQt"
 msgstr "LXQt"
 
@@ -1047,13 +1048,13 @@ msgstr "MATE"
 
 #. TRANSLATORS: Name of the "Pantheon" desktop environment.
 #. TRANSLATORS: Name of the "pantheon" visual environment style.
-#: src/as-desktop-env-data.h:61 src/as-desktop-env-data.h:95
+#: src/as-desktop-env-data.h:61 src/as-desktop-env-data.h:99
 msgid "Pantheon"
 msgstr "Pantheon"
 
 #. TRANSLATORS: Name of the "Razor" desktop environment.
 #. TRANSLATORS: Name of the "razor" visual environment style.
-#: src/as-desktop-env-data.h:65 src/as-desktop-env-data.h:107
+#: src/as-desktop-env-data.h:65 src/as-desktop-env-data.h:111
 msgid "Razor"
 msgstr "Razor"
 
@@ -1064,58 +1065,68 @@ msgstr "ROX"
 
 #. TRANSLATORS: Name of the "Unity" desktop environment.
 #. TRANSLATORS: Name of the "unity" visual environment style.
-#: src/as-desktop-env-data.h:69 src/as-desktop-env-data.h:111
+#: src/as-desktop-env-data.h:69 src/as-desktop-env-data.h:115
 msgid "Unity"
 msgstr "Unity"
 
 #. TRANSLATORS: Name of the "XFCE" desktop environment.
 #. TRANSLATORS: Name of the "xfce" visual environment style.
-#: src/as-desktop-env-data.h:71 src/as-desktop-env-data.h:115
+#: src/as-desktop-env-data.h:71 src/as-desktop-env-data.h:119
 msgid "Xfce"
 msgstr "Xfce"
 
+#. TRANSLATORS: Name of the "android" visual environment style.
+#: src/as-desktop-env-data.h:77
+msgid "Android"
+msgstr "Android"
+
 #. TRANSLATORS: Name of the "gnome:dark" visual environment style.
-#: src/as-desktop-env-data.h:85
+#: src/as-desktop-env-data.h:87
 msgid "GNOME (Dark)"
 msgstr "GNOME (Koyu)"
 
+#. TRANSLATORS: Name of the "ios" visual environment style.
+#: src/as-desktop-env-data.h:89
+msgid "iOS"
+msgstr "iOS"
+
 #. TRANSLATORS: Name of the "macos" visual environment style.
-#: src/as-desktop-env-data.h:91
+#: src/as-desktop-env-data.h:95
 msgid "macOS"
 msgstr "macOS"
 
 #. TRANSLATORS: Name of the "mate" visual environment style.
-#: src/as-desktop-env-data.h:93
+#: src/as-desktop-env-data.h:97
 msgid "Mate"
 msgstr "Mate"
 
 #. TRANSLATORS: Name of the "pantheon:dark" visual environment style.
-#: src/as-desktop-env-data.h:97
+#: src/as-desktop-env-data.h:101
 msgid "Pantheon (Dark)"
 msgstr "Pantheon (Koyu)"
 
-#. TRANSLATORS: Name of the "plasma:dark" visual environment style.
-#: src/as-desktop-env-data.h:101
-msgid "KDE Plasma (Dark)"
-msgstr "KDE Plasma (Koyu)"
-
 #. TRANSLATORS: Name of the "plasma-mobile" visual environment style.
-#: src/as-desktop-env-data.h:103
+#: src/as-desktop-env-data.h:105
 msgid "Plasma Mobile"
 msgstr "Plasma Mobil"
 
 #. TRANSLATORS: Name of the "plasma-mobile:dark" visual environment style.
-#: src/as-desktop-env-data.h:105
+#: src/as-desktop-env-data.h:107
 msgid "Plasma Mobile (Dark)"
 msgstr "Plasma Mobil (Koyu)"
 
-#. TRANSLATORS: Name of the "rox" visual environment style.
+#. TRANSLATORS: Name of the "plasma:dark" visual environment style.
 #: src/as-desktop-env-data.h:109
+msgid "KDE Plasma (Dark)"
+msgstr "KDE Plasma (Koyu)"
+
+#. TRANSLATORS: Name of the "rox" visual environment style.
+#: src/as-desktop-env-data.h:113
 msgid "Rox"
 msgstr "Rox"
 
 #. TRANSLATORS: Name of the "windows" visual environment style.
-#: src/as-desktop-env-data.h:113
+#: src/as-desktop-env-data.h:117
 msgid "Microsoft Windows"
 msgstr "Microsoft Windows"
 
@@ -1128,25 +1139,25 @@ msgstr "Microsoft Windows"
 msgid "app;application;package;program;programme;suite;tool"
 msgstr "uygulama;paket;program;takım;araç"
 
-#: src/as-pool.c:1148
+#: src/as-pool.c:1154
 msgid "Metadata files have errors:"
 msgstr "Üst veri dosyalarında hata var:"
 
-#: src/as-pool.c:2397
+#: src/as-pool.c:2411
 msgid "Group"
 msgstr "Grup"
 
-#: src/as-pool.c:2452
+#: src/as-pool.c:2466
 msgid "Iconsets"
 msgstr "Simge Kümeleri"
 
 #. TRANSLATORS: Info in appstreamcli status about OS data origin
-#: src/as-pool.c:2500
+#: src/as-pool.c:2514
 msgid "Data from locally installed software"
 msgstr "Yerel olarak kurulan yazılımlardan gelen veriler"
 
 #. TRANSLATORS: Info in appstreamcli status about OS data origin
-#: src/as-pool.c:2503
+#: src/as-pool.c:2517
 msgid "Software catalog data"
 msgstr "Yazılım kataloğu verileri"
 
@@ -1543,152 +1554,152 @@ msgid "GNU Affero General Public License v3.0 or later"
 msgstr "GNU Affero Genel Kamu Lisansı v3.0 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:274
+#: src/as-spdx-data.h:282
 msgid "GNU Free Documentation License v1.1 only - invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.1 sadece - değişmez"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:276
+#: src/as-spdx-data.h:284
 msgid "GNU Free Documentation License v1.1 or later - invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.1 ya da sonrası - değişmezler"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:278
+#: src/as-spdx-data.h:286
 msgid "GNU Free Documentation License v1.1 only - no invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.1 sadece - değişmezler yok"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:280
+#: src/as-spdx-data.h:288
 msgid "GNU Free Documentation License v1.1 or later - no invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.1 ya da sonrası - değişmezler yok"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:282
+#: src/as-spdx-data.h:290
 msgid "GNU Free Documentation License v1.1 only"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.1 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:284
+#: src/as-spdx-data.h:292
 msgid "GNU Free Documentation License v1.1 or later"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.1 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:287
+#: src/as-spdx-data.h:295
 msgid "GNU Free Documentation License v1.2 only - invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.2 sadece - değişmezler"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:289
+#: src/as-spdx-data.h:297
 msgid "GNU Free Documentation License v1.2 or later - invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.2 ya da sonrası - değişmezler"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:291
+#: src/as-spdx-data.h:299
 msgid "GNU Free Documentation License v1.2 only - no invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.2 sadece - değişmezler yok"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:293
+#: src/as-spdx-data.h:301
 msgid "GNU Free Documentation License v1.2 or later - no invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.2 ya da sonrası - değişmezler yok"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:295
+#: src/as-spdx-data.h:303
 msgid "GNU Free Documentation License v1.2 only"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.2 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:297
+#: src/as-spdx-data.h:305
 msgid "GNU Free Documentation License v1.2 or later"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.2 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:300
+#: src/as-spdx-data.h:308
 msgid "GNU Free Documentation License v1.3 only - invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.3 sadece - değişmezler"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:302
+#: src/as-spdx-data.h:310
 msgid "GNU Free Documentation License v1.3 or later - invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.3 ya da sonrası - değişmezler"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:304
+#: src/as-spdx-data.h:312
 msgid "GNU Free Documentation License v1.3 only - no invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.3 sadece - değişmezler yok"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:306
+#: src/as-spdx-data.h:314
 msgid "GNU Free Documentation License v1.3 or later - no invariants"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.3 ya da sonrası - değişmezler yok"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:308
+#: src/as-spdx-data.h:316
 msgid "GNU Free Documentation License v1.3 only"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.3 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:310
+#: src/as-spdx-data.h:318
 msgid "GNU Free Documentation License v1.3 or later"
 msgstr "GNU Özgür Belgelendirme Lisansı v1.3 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:314 src/as-spdx-data.h:318
+#: src/as-spdx-data.h:322 src/as-spdx-data.h:326
 msgid "GNU General Public License v1.0 only"
 msgstr "GNU Genel Kamu Lisansı v1.0 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:316 src/as-spdx-data.h:320
+#: src/as-spdx-data.h:324 src/as-spdx-data.h:328
 msgid "GNU General Public License v1.0 or later"
 msgstr "GNU Genel Kamu Lisansı v1.0 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:322 src/as-spdx-data.h:326
+#: src/as-spdx-data.h:330 src/as-spdx-data.h:334
 msgid "GNU General Public License v2.0 only"
 msgstr "GNU Genel Kamu Lisansı v2.0 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:324 src/as-spdx-data.h:328
+#: src/as-spdx-data.h:332 src/as-spdx-data.h:336
 msgid "GNU General Public License v2.0 or later"
 msgstr "GNU Genel Kamu Lisansı v2.0 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:335 src/as-spdx-data.h:339
+#: src/as-spdx-data.h:343 src/as-spdx-data.h:347
 msgid "GNU General Public License v3.0 only"
 msgstr "GNU Genel Kamu Lisansı v3.0 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:337 src/as-spdx-data.h:341
+#: src/as-spdx-data.h:345 src/as-spdx-data.h:349
 msgid "GNU General Public License v3.0 or later"
 msgstr "GNU Genel Kamu Lisansı v3.0 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:407 src/as-spdx-data.h:411
+#: src/as-spdx-data.h:417 src/as-spdx-data.h:421
 msgid "GNU Library General Public License v2 only"
 msgstr "GNU Kütüphane Genel Kamu Lisansı v2 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:409 src/as-spdx-data.h:413
+#: src/as-spdx-data.h:419 src/as-spdx-data.h:423
 msgid "GNU Library General Public License v2 or later"
 msgstr "GNU Kütüphane Genel Kamu Lisansı v2 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:415 src/as-spdx-data.h:419
+#: src/as-spdx-data.h:425 src/as-spdx-data.h:429
 msgid "GNU Lesser General Public License v2.1 only"
 msgstr "GNU Kısıtlı Genel Kamu Lisansı v2.1 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:417 src/as-spdx-data.h:421
+#: src/as-spdx-data.h:427 src/as-spdx-data.h:431
 msgid "GNU Lesser General Public License v2.1 or later"
 msgstr "GNU Kısıtlı Genel Kamu Lisansı v2.1 ya da sonrası"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:423 src/as-spdx-data.h:427
+#: src/as-spdx-data.h:433 src/as-spdx-data.h:437
 msgid "GNU Lesser General Public License v3.0 only"
 msgstr "GNU Kısıtlı Genel Kamu Lisansı v3.0 sadece"
 
 #. TRANSLATORS: Please do not translate the license name itself.
-#: src/as-spdx-data.h:425 src/as-spdx-data.h:429
+#: src/as-spdx-data.h:435 src/as-spdx-data.h:439
 msgid "GNU Lesser General Public License v3.0 or later"
 msgstr "GNU Kısıtlı Genel Kamu Lisansı v3.0 ya da sonrası"
 
@@ -1785,10 +1796,29 @@ msgstr ""
 "lütfen bağlantıları paylaşmak için <url/> etiketini kullanın."
 
 #: src/as-validator-issue-tag.h:103
+msgid ""
+"The description element does not contain any valid content (paragraphs, "
+"enumerations, etc.)."
+msgstr ""
+"Açıklama öğesi geçerli bir içerik (paragraflar, madde işaretleri vb.) "
+"içermiyor."
+
+#: src/as-validator-issue-tag.h:108
+msgid ""
+"The description element contains raw text that is not in any paragraph or "
+"other permitted tag. This is not allowed and the additional text may be "
+"ignored by parsers or raise errors."
+msgstr ""
+"Açıklama (description) öğesi, herhangi bir paragraf veya izin verilen başka "
+"bir etiket içinde olmayan ham metin içeriyor. Bu duruma izin verilmez ve "
+"eklenen metin ayrıştırıcılar (parsers) tarafından yok sayılabilir ya da hata "
+"oluşturabilir."
+
+#: src/as-validator-issue-tag.h:114
 msgid "This tag is not translatable."
 msgstr "Bu etiket çevrilebilir değil."
 
-#: src/as-validator-issue-tag.h:108
+#: src/as-validator-issue-tag.h:119
 msgid ""
 "This tag must only appear once in this context. Having multiple tags of this "
 "kind is not valid."
@@ -1796,7 +1826,7 @@ msgstr ""
 "Bu etiket bu bağlamda yalnızca bir kez görünmelidir. Bu türden birden fazla "
 "etikete sahip olmak geçerli değildir."
 
-#: src/as-validator-issue-tag.h:113
+#: src/as-validator-issue-tag.h:124
 msgid ""
 "The mentioned tag is empty, which is highly likely not intended as it should "
 "have content."
@@ -1804,13 +1834,13 @@ msgstr ""
 "Bahsedilen etiket boştur, bu da bir içeriğe sahip olması gerektiği için "
 "büyük olasılıkla istenen değildir."
 
-#: src/as-validator-issue-tag.h:118
+#: src/as-validator-issue-tag.h:129
 msgid ""
 "The mentioned tag has text content, even though it must not contain text."
 msgstr ""
 "Bahsedilen etiket, metin içermemesi gerekmesine rağmen metin içeriğine sahip."
 
-#: src/as-validator-issue-tag.h:123
+#: src/as-validator-issue-tag.h:134
 msgid ""
 "The component ID is required to follow a reverse domain-name scheme for its "
 "name. See the AppStream specification for details."
@@ -1818,7 +1848,7 @@ msgstr ""
 "Bileşen kimliği, adı için ters etki alanı şemasını takip etmek için "
 "gereklidir. Ayrıntılar için AppStream tanımlamasına bakın."
 
-#: src/as-validator-issue-tag.h:128
+#: src/as-validator-issue-tag.h:139
 msgid ""
 "The component ID is not a reverse domain-name. Please update the ID to avoid "
 "future issues and be compatible with all AppStream implementations.\n"
@@ -1839,7 +1869,7 @@ msgstr ""
 "başlatılabilmesi için bu bileşenin <launchable/> etiketindeki yeni masaüstü "
 "girdisinden bahsetmeyi unutmayın."
 
-#: src/as-validator-issue-tag.h:136
+#: src/as-validator-issue-tag.h:147
 msgid ""
 "The component ID might not follow the reverse domain-name schema (the TLD "
 "used by it is not known to the validator)."
@@ -1847,7 +1877,7 @@ msgstr ""
 "Bileşen kimliği, ters etki alanı adı şemasını izlemeyebilir (bunun "
 "tarafından kullanılan TLD, doğrulayıcı tarafından bilinmiyor)."
 
-#: src/as-validator-issue-tag.h:141
+#: src/as-validator-issue-tag.h:152
 msgid ""
 "The component ID contains an invalid character. Only ASCII characters, dots "
 "and numbers are permitted."
@@ -1855,11 +1885,11 @@ msgstr ""
 "Bileşen kimliği geçersiz bir karakter içermektedir. Yalnızca ASCII "
 "karakterlerine, noktalara ve rakamlara izin verilmektedir."
 
-#: src/as-validator-issue-tag.h:146
+#: src/as-validator-issue-tag.h:157
 msgid "The component ID starts with punctuation. This is not allowed."
 msgstr "Bileşen kimliği noktalama işaretiyle başlıyor. Buna izin verilmez."
 
-#: src/as-validator-issue-tag.h:151
+#: src/as-validator-issue-tag.h:162
 msgid ""
 "The component ID contains a hyphen/minus in its domain part. Using a hyphen "
 "is strongly discouraged to improve interoperability with other tools such as "
@@ -1872,7 +1902,7 @@ msgstr ""
 "çizgiyle (`_`) değiştirmek iyi bir seçenektir. Kısa çizgilere yalnızca "
 "bileşen kimliğinin son bölümünde izin verilir."
 
-#: src/as-validator-issue-tag.h:157
+#: src/as-validator-issue-tag.h:168
 msgid ""
 "The component ID contains a segment starting with a number. Starting a "
 "segment of the reverse-DNS ID with a number is strongly discouraged, to keep "
@@ -1884,11 +1914,11 @@ msgstr ""
 "bir bölümünün bir sayıyla başlatılması kesinlikle önerilmez. İdeal olarak, "
 "bu segmentler için ön ek olarak bir alt çizgi kullanın."
 
-#: src/as-validator-issue-tag.h:163
+#: src/as-validator-issue-tag.h:174
 msgid "The component ID should only contain lowercase characters."
 msgstr "Bileşen kimliği yalnızca küçük harf karakterleri içermelidir."
 
-#: src/as-validator-issue-tag.h:168
+#: src/as-validator-issue-tag.h:179
 msgid ""
 "The domain part of the rDNS component ID (first two parts) must only contain "
 "lowercase characters."
@@ -1896,7 +1926,7 @@ msgstr ""
 "rDNS bileşen kimliğinin etki alanı bölümü (ilk iki bölüm) yalnızca küçük "
 "harf karakterleri içermelidir."
 
-#: src/as-validator-issue-tag.h:173
+#: src/as-validator-issue-tag.h:184
 msgid ""
 "The component is part of the Freedesktop project, but its ID does not start "
 "with fd.o's reverse-DNS name (\"org.freedesktop\")."
@@ -1904,7 +1934,7 @@ msgstr ""
 "Bileşen Freedesktop projesinin bir parçası, ancak kimliği fd.o'nun ters DNS "
 "adıyla (\"org.freedesktop\") başlamıyor."
 
-#: src/as-validator-issue-tag.h:178
+#: src/as-validator-issue-tag.h:189
 msgid ""
 "The component is part of the KDE project, but its ID does not start with "
 "KDE's reverse-DNS name (\"org.kde\")."
@@ -1912,7 +1942,7 @@ msgstr ""
 "Bileşen, KDE projesinin bir parçası, ancak kimliği KDE'nin ters DNS adıyla "
 "(\"org.kde\") başlamıyor."
 
-#: src/as-validator-issue-tag.h:183
+#: src/as-validator-issue-tag.h:194
 msgid ""
 "The component is part of the GNOME project, but its ID does not start with "
 "GNOME's reverse-DNS name (\"org.gnome\")."
@@ -1920,11 +1950,11 @@ msgstr ""
 "Bileşen GNOME projesinin bir parçası, ancak kimliği GNOME'un ters DNS adıyla "
 "(\"org.gnome\") başlamıyor."
 
-#: src/as-validator-issue-tag.h:188
+#: src/as-validator-issue-tag.h:199
 msgid "The SPDX license expression is invalid and could not be parsed."
 msgstr "SPDX lisans ifadesi geçersiz ve ayrıştırılamadı."
 
-#: src/as-validator-issue-tag.h:193
+#: src/as-validator-issue-tag.h:204
 msgid ""
 "The license ID was not found in the SPDX database. Please check that the "
 "license ID is written in an SPDX-conformant way and is a valid free software "
@@ -1934,7 +1964,7 @@ msgstr ""
 "SPDX'e uygun bir şekilde yazıldığını ve geçerli bir özgür yazılım lisansı "
 "olduğunu denetleyin."
 
-#: src/as-validator-issue-tag.h:199
+#: src/as-validator-issue-tag.h:210
 msgid ""
 "The metadata itself seems to be licensed under a complex collection of "
 "licenses. Please license the data under a simple permissive license, like "
@@ -1948,7 +1978,7 @@ msgstr ""
 "vermek için lütfen verileri FSFAP, MIT veya CC0-1.0 gibi basit bir serbest "
 "lisans altında lisanslayın."
 
-#: src/as-validator-issue-tag.h:205
+#: src/as-validator-issue-tag.h:216
 msgid ""
 "The metadata itself does not seem to be licensed under a permissive license. "
 "Please license the data under a permissive license, like FSFAP, CC0-1.0 or "
@@ -1961,7 +1991,7 @@ msgstr ""
 "etmelerine izin vermek için lütfen verileri FSFAP, CC0-1.0 veya 0BSD gibi "
 "serbest bir lisans altında lisanslayın."
 
-#: src/as-validator-issue-tag.h:211
+#: src/as-validator-issue-tag.h:222
 msgid ""
 "The update-contact does not appear to be a valid email address (escaping of "
 "`@` is only allowed as `_at_` or `_AT_`)."
@@ -1970,7 +2000,7 @@ msgstr ""
 "karakterini kaçırmaya yalnızca `_at_` veya `_AT_` olarak izin verilmektedir)."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:217
+#: src/as-validator-issue-tag.h:228
 msgid ""
 "The `environment` property is set to an unrecognized graphical environment/"
 "style combination."
@@ -1979,42 +2009,42 @@ msgstr ""
 "ayarlanmış."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:223
+#: src/as-validator-issue-tag.h:234
 msgid "The `width` property must be a positive integer."
 msgstr "`width` özelliği pozitif bir tam sayı olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:229
+#: src/as-validator-issue-tag.h:240
 msgid "The `height` property must be a positive integer."
 msgstr "`height` özelliği pozitif bir tam sayı olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:235
+#: src/as-validator-issue-tag.h:246
 msgid "The `scale` property must be a positive integer."
 msgstr "`scale` özelliği pozitif bir tam sayı olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:241
+#: src/as-validator-issue-tag.h:252
 msgid "The image type must be either `source` or `thumbnail`."
 msgstr "Resim türü `source` veya `thumbnail` olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:247
+#: src/as-validator-issue-tag.h:258
 msgid "The `width` property must be present if the image type is `thumbnail`."
 msgstr "Resim türü `thumbnail` ise `width` özelliği var olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:253
+#: src/as-validator-issue-tag.h:264
 msgid "The `height` property must be present if the image type is `thumbnail`."
 msgstr "Resim türü `thumbnail` ise `height` özelliği var olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:259
+#: src/as-validator-issue-tag.h:270
 msgid "There can only be one `source` image per screenshot and language."
 msgstr "Her ekran görüntüsü ve dil için yalnızca bir `source` resim olabilir."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:265
+#: src/as-validator-issue-tag.h:276
 msgid ""
 "A screenshot must have at least one untranslated image of type `source`."
 msgstr ""
@@ -2022,7 +2052,7 @@ msgstr ""
 "olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:271
+#: src/as-validator-issue-tag.h:282
 msgid ""
 "A screenshot must have at least one untranslated image of type `source`, "
 "which could not be found. Instead, a tag with an `en` locale (`xml:lang=en`) "
@@ -2034,13 +2064,13 @@ msgstr ""
 "resim olması amaçlanan `en` yerel ayarına (`xml:lang=en`) sahip bir etiket "
 "bulundu. Lütfen bu durumda XML yerelleştirme özniteliğini kaldırın."
 
-#: src/as-validator-issue-tag.h:278
+#: src/as-validator-issue-tag.h:289
 msgid ""
 "Unable to reach the screenshot image on its remote location - does the image "
 "exist?"
 msgstr "Ekran görüntüsü resmine uzak konumunda erişilemiyor - resim mevcut mu?"
 
-#: src/as-validator-issue-tag.h:283
+#: src/as-validator-issue-tag.h:294
 msgid ""
 "Unable to reach the screenshot video on its remote location - does the video "
 "file exist?"
@@ -2048,7 +2078,7 @@ msgstr ""
 "Ekran görüntüsü videosuna uzak konumunda erişilemiyor - video dosyası mevcut "
 "mu?"
 
-#: src/as-validator-issue-tag.h:288
+#: src/as-validator-issue-tag.h:299
 msgid ""
 "Consider using a secure (HTTPS) URL to reference this screenshot image or "
 "video."
@@ -2056,7 +2086,7 @@ msgstr ""
 "Bu ekran görüntüsü resmine veya videosuna referans vermek için güvenli "
 "(HTTPS) bir URL kullanmayı düşünün."
 
-#: src/as-validator-issue-tag.h:293
+#: src/as-validator-issue-tag.h:304
 msgid ""
 "A screenshot must have at least one image that has a scaling factor of 1."
 msgstr ""
@@ -2064,7 +2094,7 @@ msgstr ""
 "olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:299
+#: src/as-validator-issue-tag.h:310
 msgid ""
 "A screenshot must contain at least one image or video in order to be useful. "
 "Please add an <image/> to it."
@@ -2072,7 +2102,7 @@ msgstr ""
 "Bir ekran görüntüsü, faydalı olması için en az bir resim ya da video "
 "içermelidir. Lütfen bir <image/> ekleyin."
 
-#: src/as-validator-issue-tag.h:304
+#: src/as-validator-issue-tag.h:315
 msgid ""
 "A screenshot must contain either images or videos, but not both at the same "
 "time. Please use this screenshot exclusively for either static images or for "
@@ -2082,12 +2112,12 @@ msgstr ""
 "anda içermemelidir. Lütfen bu ekran görüntüsünü yalnızca statik resimler ya "
 "da videolar için kullanın."
 
-#: src/as-validator-issue-tag.h:310
+#: src/as-validator-issue-tag.h:321
 msgid "The screenshot does not have a caption text. Consider adding one."
 msgstr "Ekran görüntüsünün bir başlık metni yok. Bir tane eklemeyi düşünün."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:316
+#: src/as-validator-issue-tag.h:327
 msgid ""
 "The screenshot video does not specify which video codec was used in a "
 "`codec` property."
@@ -2096,7 +2126,7 @@ msgstr ""
 "kullanıldığını belirtmemektedir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:322
+#: src/as-validator-issue-tag.h:333
 msgid ""
 "The screenshot video does not specify which container format was used in a "
 "`container` property."
@@ -2105,7 +2135,7 @@ msgstr ""
 "kullanıldığını belirtmemektedir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:328
+#: src/as-validator-issue-tag.h:339
 msgid ""
 "The selected video codec is not supported by AppStream and software centers "
 "may not be able to play the video. Only the AV1 and VP9 codecs are currently "
@@ -2117,7 +2147,7 @@ msgstr ""
 "kullanılmaktadır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:335
+#: src/as-validator-issue-tag.h:346
 msgid ""
 "The selected video container format is not supported by AppStream and "
 "software centers may not be able to play the video. Only the WebM and "
@@ -2129,7 +2159,7 @@ msgstr ""
 "Matroska video konteynerleri desteklenmekte, `container` özelliği için "
 "`webm` ve `mkv` değerleri kullanılmaktadır."
 
-#: src/as-validator-issue-tag.h:341
+#: src/as-validator-issue-tag.h:352
 msgid ""
 "For videos, only the WebM and Matroska (.mkv) container formats are "
 "currently supported. The file extension of the referenced video does not "
@@ -2139,7 +2169,7 @@ msgstr ""
 "desteklenmektedir. Referans edilen videonun dosya uzantısı bu biçimlerden "
 "hiçbirine ait değildir."
 
-#: src/as-validator-issue-tag.h:347
+#: src/as-validator-issue-tag.h:358
 msgid ""
 "The default screenshot of a software component must not be a video. Use a "
 "static image as default screenshot and set the video as a secondary "
@@ -2149,11 +2179,11 @@ msgstr ""
 "Öntanımlı ekran görüntüsü olarak statik bir resim kullanın ve videoyu "
 "ikincil ekran görüntüsü olarak ayarlayın."
 
-#: src/as-validator-issue-tag.h:352
+#: src/as-validator-issue-tag.h:363
 msgid "No screenshot is marked as default."
 msgstr "Hiçbir ekran görüntüsü öntanımlı olarak işaretlenmedi."
 
-#: src/as-validator-issue-tag.h:357
+#: src/as-validator-issue-tag.h:368
 msgid ""
 "Found an unknown tag in a requires/recommends group. This is likely an "
 "error, because a component relation of this type is unknown."
@@ -2162,7 +2192,7 @@ msgstr ""
 "olasılıkla bir hatadır, çünkü bu tür bir bileşen ilişkisi bilinmemektedir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:363
+#: src/as-validator-issue-tag.h:374
 msgid ""
 "A `requires` or `recommends` item requires a value to denote a valid "
 "relation."
@@ -2171,7 +2201,7 @@ msgstr ""
 "bir değer gerektirmektedir."
 
 #. TRANSLATORS: `version` is an AppStream XML property. Please do not translate it.
-#: src/as-validator-issue-tag.h:369
+#: src/as-validator-issue-tag.h:380
 msgid ""
 "Found `version` property on required/recommended item of a type that should "
 "not have or require a version."
@@ -2180,7 +2210,7 @@ msgstr ""
 "türün gereken/tavsiye edilen ögesinde bulundu."
 
 #. TRANSLATORS: `version` and `compare` are AppStream XML properties. Please do not translate them.
-#: src/as-validator-issue-tag.h:375
+#: src/as-validator-issue-tag.h:386
 msgid ""
 "Found `version` property on this required/recommended item, but not "
 "`compare` property. It is recommended to explicitly define a comparison "
@@ -2191,7 +2221,7 @@ msgstr ""
 "edilir."
 
 #. TRANSLATORS: `eq/ne/lt/gt/le/ge` are AppStream XML values. Please do not translate them.
-#: src/as-validator-issue-tag.h:381
+#: src/as-validator-issue-tag.h:392
 msgid ""
 "Invalid comparison operation on relation item. Only one of `eq/ne/lt/gt/le/"
 "ge` is permitted."
@@ -2199,7 +2229,7 @@ msgstr ""
 "İlişki ögesinde geçersiz karşılaştırma işlemi. `eq/ne/lt/gt/le/ge` "
 "işlemlerinden yalnızca birine izin verilir."
 
-#: src/as-validator-issue-tag.h:386
+#: src/as-validator-issue-tag.h:397
 msgid ""
 "The relation item has a comparison operation set, but does not support any "
 "comparisons."
@@ -2207,7 +2237,7 @@ msgstr ""
 "İlişki ögesinin bir karşılaştırma işlemi kümesi var, ancak herhangi bir "
 "karşılaştırmayı desteklemiyor."
 
-#: src/as-validator-issue-tag.h:391
+#: src/as-validator-issue-tag.h:402
 msgid ""
 "This relation item has already been defined once for this or a different "
 "relation type. Please do not redefine relations."
@@ -2216,7 +2246,7 @@ msgstr ""
 "tanımlandı. Lütfen ilişkileri yeniden tanımlamayın."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:397
+#: src/as-validator-issue-tag.h:408
 msgid ""
 "Found a memory size relation in a `requires` tag. This means users will not "
 "be able to even install the component without having enough RAM. This is "
@@ -2229,7 +2259,7 @@ msgstr ""
 "yerine `recommends` etiketinde `memory` kullanmak istersiniz."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:404
+#: src/as-validator-issue-tag.h:415
 msgid ""
 "Found a user input control relation in a `requires` tag. This means users "
 "will not be able to even install the component without having the defined "
@@ -2242,7 +2272,7 @@ msgstr ""
 "ve bunun yerine `recommends` etiketinde `control` kullanmak istersiniz."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:411
+#: src/as-validator-issue-tag.h:422
 msgid ""
 "This `control` item defines an unknown input method and is invalid. Check "
 "the specification for a list of permitted values."
@@ -2251,7 +2281,7 @@ msgstr ""
 "geçersizdir. İzin verilen değerlerin listesi için tanımlamaya göz atın."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:417
+#: src/as-validator-issue-tag.h:428
 msgid ""
 "This `display_length` item contains an invalid display length. Its value "
 "must be a positive integer value denoting logical pixels. Please refer to "
@@ -2263,7 +2293,7 @@ msgstr ""
 "bakın."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:424
+#: src/as-validator-issue-tag.h:435
 msgid ""
 "This `side` property of this `display_length` item contains an invalid "
 "value. It must either be `shortest` or `longest`, or unset to imply "
@@ -2276,7 +2306,7 @@ msgstr ""
 "için ayarlanmamış olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:431
+#: src/as-validator-issue-tag.h:442
 msgid ""
 "This `hardware` item contains an invalid value. It should be a Computer "
 "Hardware ID (CHID) UUID without braces."
@@ -2285,7 +2315,7 @@ msgstr ""
 "Bilgisayar Donanım Kimliği (Computer Hardware ID - CHID) UUID'si olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:437
+#: src/as-validator-issue-tag.h:448
 msgid ""
 "A `memory` item must only contain a non-zero integer value, depicting a "
 "system memory size in mebibyte (MiB)"
@@ -2294,12 +2324,12 @@ msgstr ""
 "sıfır olmayan bir tam sayı değeri içermelidir"
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:443
+#: src/as-validator-issue-tag.h:454
 msgid "The set tag value is not valid for an `internet` relation."
 msgstr "Ayarlanan etiket değeri bir `internet` ilişkisi için geçerli değildir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:449
+#: src/as-validator-issue-tag.h:460
 msgid ""
 "The `bandwidth_mbitps` property is not allowed when using `offline-only` as "
 "value."
@@ -2307,7 +2337,7 @@ msgstr ""
 "Değer olarak `offline-only` kullanıldığında `bandwidth_mbitps` özelliğine "
 "izin verilmiyor."
 
-#: src/as-validator-issue-tag.h:454
+#: src/as-validator-issue-tag.h:465
 msgid ""
 "The value of this property must be a positive integer value, describing the "
 "minimum required bandwidth in mbit/s."
@@ -2315,13 +2345,13 @@ msgstr ""
 "Bu özelliğin değeri, mbit/sn cinsinden gerekli asgari bant genişliğini "
 "tanımlayan pozitif bir tam sayı değeri olmalıdır."
 
-#: src/as-validator-issue-tag.h:459
+#: src/as-validator-issue-tag.h:470
 msgid ""
 "The set component type is not a recognized, valid AppStream component type."
 msgstr ""
 "Ayarlanan bileşen türü tanınan, geçerli bir AppStream bileşen türü değil."
 
-#: src/as-validator-issue-tag.h:464
+#: src/as-validator-issue-tag.h:475
 msgid ""
 "The component has a priority value set. This is not allowed in metainfo "
 "files."
@@ -2329,7 +2359,7 @@ msgstr ""
 "Bileşenin ayarlanmış bir öncelik değeri var. Buna metainfo dosyalarında izin "
 "verilmez."
 
-#: src/as-validator-issue-tag.h:469
+#: src/as-validator-issue-tag.h:480
 msgid ""
 "The component has a `merge` method defined. This is not allowed in metainfo "
 "files."
@@ -2337,15 +2367,15 @@ msgstr ""
 "Bileşenin tanımlanmış bir `merge` metodu var. Buna metainfo dosyalarında "
 "izin verilmez."
 
-#: src/as-validator-issue-tag.h:474
+#: src/as-validator-issue-tag.h:485
 msgid "The component is missing an ID (<id/> tag)."
 msgstr "Bileşenin kimliği (<id/> etiketi) eksik."
 
-#: src/as-validator-issue-tag.h:479
+#: src/as-validator-issue-tag.h:490
 msgid "The component is missing a name (<name/> tag)."
 msgstr "Bileşenin adı (<name/> etiketi) eksik."
 
-#: src/as-validator-issue-tag.h:484
+#: src/as-validator-issue-tag.h:495
 msgid ""
 "The name of this component is excessively long and can likely not be "
 "displayed properly in most layouts."
@@ -2353,11 +2383,11 @@ msgstr ""
 "Bu bileşenin adı çok uzun ve büyük olasılıkla çoğu düzende düzgün "
 "görüntülenemeyebilir."
 
-#: src/as-validator-issue-tag.h:489
+#: src/as-validator-issue-tag.h:500
 msgid "The component is missing a summary (<summary/> tag)."
 msgstr "Bileşenin özeti (<summary/> etiketi) eksik."
 
-#: src/as-validator-issue-tag.h:494
+#: src/as-validator-issue-tag.h:505
 msgid ""
 "The <id/> tag still contains a `type` property, probably from an old "
 "conversion to the recent metainfo format."
@@ -2365,7 +2395,7 @@ msgstr ""
 "<id/> etiketi hala, büyük olasılıkla son metainfo biçimine eski bir "
 "dönüşümden kalan, bir `type` özelliği içeriyor."
 
-#: src/as-validator-issue-tag.h:499
+#: src/as-validator-issue-tag.h:510
 msgid ""
 "The `pkgname` tag appears multiple times. You should evaluate creating a "
 "metapackage containing the metainfo and .desktop files in order to avoid "
@@ -2375,25 +2405,25 @@ msgstr ""
 "fazla paket adı tanımlamaktan kaçınmak için metainfo ve .desktop dosyalarını "
 "içeren bir metapaket oluşturmayı değerlendirmelisiniz."
 
-#: src/as-validator-issue-tag.h:504
+#: src/as-validator-issue-tag.h:515
 msgid "The component name should (likely) not end with a dot (`.`)."
 msgstr "Bileşen adı (muhtemelen) nokta (`.`) ile bitmemelidir."
 
-#: src/as-validator-issue-tag.h:509
+#: src/as-validator-issue-tag.h:520
 msgid "The component summary should not end with a dot (`.`)."
 msgstr "Bileşen özeti nokta (`.`) ile bitmemelidir."
 
-#: src/as-validator-issue-tag.h:514
+#: src/as-validator-issue-tag.h:525
 msgid "The component summary must not contain tabs or linebreaks."
 msgstr "Bileşen özeti sekme veya satır sonu karakterleri içermemelidir."
 
-#: src/as-validator-issue-tag.h:519
+#: src/as-validator-issue-tag.h:530
 msgid "The summary must not contain any URL. Use the `<url/>` tags for links."
 msgstr ""
 "Özet, herhangi bir URL içermemelidir. Bağlantılar için `<url/>` etiketlerini "
 "kullanın."
 
-#: src/as-validator-issue-tag.h:524
+#: src/as-validator-issue-tag.h:535
 msgid ""
 "The summary text does not start with a capitalized word, project name or "
 "number."
@@ -2401,7 +2431,7 @@ msgstr ""
 "Özet metni büyük harfle başlayan bir sözcük, proje adı veya numarası ile "
 "başlamıyor."
 
-#: src/as-validator-issue-tag.h:529
+#: src/as-validator-issue-tag.h:540
 msgid ""
 "The summary text is very long, and will likely not be displayed properly "
 "everywhere. It should be <= 90 characters."
@@ -2410,7 +2440,7 @@ msgstr ""
 "görüntülenmeyecektir. 90 karakter veya daha az olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:535
+#: src/as-validator-issue-tag.h:546
 msgid ""
 "Icons of type `stock` or `cached` must not contain an URL, a full or an "
 "relative path to the icon. Only file basenames or stock names are allowed."
@@ -2420,20 +2450,20 @@ msgstr ""
 "verilir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:542
+#: src/as-validator-issue-tag.h:553
 msgid "Icons of type `remote` must contain an URL to the referenced icon."
 msgstr "`remote` türündeki simgeler, başvurulan simgeye bir URL içermelidir."
 
-#: src/as-validator-issue-tag.h:547
+#: src/as-validator-issue-tag.h:558
 msgid "Unable to reach remote icon at the given web location - does it exist?"
 msgstr "Verilen web konumundaki uzak simgeye erişilemiyor - mevcut mu?"
 
-#: src/as-validator-issue-tag.h:552
+#: src/as-validator-issue-tag.h:563
 msgid "Consider using a secure (HTTPS) URL for the remote icon link."
 msgstr "Uzak simge linki için güvenli (HTTPS) bir URL kullanmayı düşünün."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:558
+#: src/as-validator-issue-tag.h:569
 msgid ""
 "Metainfo files may only contain icons of type `stock` or `remote`, the set "
 "type is not allowed."
@@ -2442,7 +2472,7 @@ msgstr ""
 "içerebilir, set türüne izin verilmez."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:564
+#: src/as-validator-issue-tag.h:575
 msgid ""
 "Invalid `type` property for this `url` tag. URLs of this type are not known "
 "in the AppStream specification."
@@ -2450,32 +2480,32 @@ msgstr ""
 "Bu `url` etiketi için geçersiz `type` özelliği. Bu tür URL’ler AppStream "
 "tanımlamasında bilinmemektedir."
 
-#: src/as-validator-issue-tag.h:569
+#: src/as-validator-issue-tag.h:580
 msgid ""
 "Unable to reach remote location that this URL references - does it exist?"
 msgstr "Bu URL'nin referans gösterdiği uzak konuma erişilemiyor - mevcut mu?"
 
-#: src/as-validator-issue-tag.h:574
+#: src/as-validator-issue-tag.h:585
 msgid "Consider using a secure (HTTPS) URL for this web link."
 msgstr "Bu web linki için güvenli (HTTPS) bir URL kullanmayı düşünün."
 
-#: src/as-validator-issue-tag.h:579
+#: src/as-validator-issue-tag.h:590
 msgid "A web URL was expected for this value."
 msgstr "Bu değer için bir web URL'si bekleniyordu."
 
-#: src/as-validator-issue-tag.h:584
+#: src/as-validator-issue-tag.h:595
 msgid ""
 "This web link uses the FTP protocol. Consider switching to HTTP(S) instead."
 msgstr ""
 "Bu web bağlantısı FTP protokolünü kullanmaktadır. Bunun yerine HTTP(S)'ye "
 "geçmeyi düşünün."
 
-#: src/as-validator-issue-tag.h:589
+#: src/as-validator-issue-tag.h:600
 msgid "An URL of this type has already been defined."
 msgstr "Bu türde bir URL zaten tanımlandı."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:595
+#: src/as-validator-issue-tag.h:606
 msgid ""
 "This component is missing an `url` element of type `homepage` to link to the "
 "project's homepage."
@@ -2484,7 +2514,7 @@ msgstr ""
 "bir `url` ögesi eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:601
+#: src/as-validator-issue-tag.h:612
 msgid ""
 "The toplevel `developer_name` element is deprecated. Please use the `name` "
 "element in a `developer` block instead."
@@ -2493,7 +2523,7 @@ msgstr ""
 "`developer` bloğunda `name` öğesinini kullanın."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:608
+#: src/as-validator-issue-tag.h:619
 msgid ""
 "This component contains no `developer` element with information about its "
 "author."
@@ -2501,7 +2531,7 @@ msgstr ""
 "Bu bileşen, yazarı hakkında bilgi içeren bir `developer` ögesi içermiyor."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:614
+#: src/as-validator-issue-tag.h:625
 msgid ""
 "The `developer` element is missing an `id` property, containing a unique "
 "string ID for the developer. Consider adding a unique ID."
@@ -2509,7 +2539,7 @@ msgstr ""
 "`developer` öğesinde, geliştirici için benzersiz bir dize kimliği içeren "
 "`id` özelliği eksik. Benzersiz bir kimlik eklemeyi düşünün."
 
-#: src/as-validator-issue-tag.h:620
+#: src/as-validator-issue-tag.h:631
 msgid ""
 "The developer-ID is invalid. It should be an rDNS string identifying the "
 "developer, or a Fediverse handle. It must also only contain lowercase ASCII "
@@ -2520,7 +2550,7 @@ msgstr ""
 "sayılar ve noktalama işaretleri içermelidir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:627
+#: src/as-validator-issue-tag.h:638
 msgid ""
 "The `developer` block does not have a `name` element with a human-readable "
 "project author name."
@@ -2529,11 +2559,11 @@ msgstr ""
 "ögesi yok."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:633
+#: src/as-validator-issue-tag.h:644
 msgid "The `name` child of a `developer` block must not contain a hyperlink."
 msgstr "`developer` bloğunun `name` alt ögesi bağlantı içermemelidir."
 
-#: src/as-validator-issue-tag.h:638
+#: src/as-validator-issue-tag.h:649
 msgid ""
 "The set value is not an identifier for a desktop environment as registered "
 "with Freedesktop.org."
@@ -2542,23 +2572,23 @@ msgstr ""
 "tanımlayıcı değildir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:644
+#: src/as-validator-issue-tag.h:655
 msgid "This `launchable` tag has an unknown type and can not be used."
 msgstr "Bu `launchable` etiketi bilinmeyen bir türe sahiptir ve kullanılamaz."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:650
+#: src/as-validator-issue-tag.h:661
 msgid "This `bundle` tag has an unknown type and can not be used."
 msgstr "Bu `bundle` etiketi bilinmeyen bir türe sahiptir ve kullanılamaz."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:656
+#: src/as-validator-issue-tag.h:667
 msgid ""
 "The `update_contact` tag should not be included in catalog AppStream XML."
 msgstr ""
 "`update_contact` etiketi AppStream XML koleksiyonuna dahil edilmemelidir."
 
-#: src/as-validator-issue-tag.h:661
+#: src/as-validator-issue-tag.h:672
 msgid ""
 "This tag is a GNOME-specific extension to AppStream and not part of the "
 "official specification. Do not expect it to work in all implementations and "
@@ -2568,7 +2598,7 @@ msgstr ""
 "bir parçası değildir. Tüm uygulamalarda ve tüm yazılım merkezlerinde "
 "çalışmasını beklemeyin."
 
-#: src/as-validator-issue-tag.h:667
+#: src/as-validator-issue-tag.h:678
 msgid ""
 "Found invalid tag. Non-standard tags should be prefixed with `x-`. AppStream "
 "also provides the <custom/> tag to add arbitrary custom data to metainfo "
@@ -2584,7 +2614,7 @@ msgstr ""
 "etiketler tanımlamaktan daha kullanışlı olabilir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:675
+#: src/as-validator-issue-tag.h:686
 msgid ""
 "The essential tag `metadata_license` is missing. A license for the metadata "
 "itself always has to be defined."
@@ -2592,7 +2622,7 @@ msgstr ""
 "`metadata_license` gerekli etiketi eksik. Üst verilerin kendisi için bir "
 "lisans her zaman tanımlanmalıdır."
 
-#: src/as-validator-issue-tag.h:680
+#: src/as-validator-issue-tag.h:691
 msgid ""
 "The component is missing a long description. Components of this type must "
 "have a long description."
@@ -2600,7 +2630,7 @@ msgstr ""
 "Bileşenin uzun bir açıklaması eksik. Bu tür bileşenlerin uzun bir açıklaması "
 "olmalıdır."
 
-#: src/as-validator-issue-tag.h:685
+#: src/as-validator-issue-tag.h:696
 msgid ""
 "It would be useful to add a long description to this font to present it "
 "better to users."
@@ -2608,7 +2638,7 @@ msgstr ""
 "Kullanıcılara daha iyi sunabilmek için bu yazı tipine uzun bir açıklama "
 "eklemek faydalı olacaktır."
 
-#: src/as-validator-issue-tag.h:690
+#: src/as-validator-issue-tag.h:701
 msgid ""
 "It is recommended to add a long description to this component to present it "
 "better to users."
@@ -2616,7 +2646,7 @@ msgstr ""
 "Kullanıcılara daha iyi sunabilmek için bu bileşene uzun bir açıklama "
 "eklemeniz tavsiye edilir."
 
-#: src/as-validator-issue-tag.h:695
+#: src/as-validator-issue-tag.h:706
 msgid ""
 "This generic component is missing a long description. It may be useful to "
 "add one."
@@ -2624,8 +2654,19 @@ msgstr ""
 "Bu genel bileşenin uzun bir açıklaması eksik. Bir tane eklemek faydalı "
 "olabilir."
 
+#: src/as-validator-issue-tag.h:711
+msgid ""
+"The component is missing an untranslated long description, but has a "
+"translated one for the English locale. You need to provide a locale-less "
+"description in English as translation template."
+msgstr ""
+"Bileşen, İngilizce yerelleştirmesi için çevrilmiş bir uzun açıklama içeriyor "
+"ancak çeviri şablonu olarak kullanılacak, yerel ayardan bağımsız "
+"(locale’siz) bir İngilizce açıklama eksik. Bir İngilizce açıklama sağlamanız "
+"gerekiyor."
+
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:701
+#: src/as-validator-issue-tag.h:718
 msgid ""
 "This `desktop-application` component is missing a `desktop-id` launchable "
 "tag. This means that this application can not be launched and has no "
@@ -2640,7 +2681,7 @@ msgstr ""
 "uygulamanın tamamen yok sayılmasına neden olacağı anlamına gelir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:710
+#: src/as-validator-issue-tag.h:727
 msgid ""
 "This `desktop-application` component has no `desktop-id` launchable tag, "
 "however it contains all the necessary information to display the "
@@ -2657,7 +2698,7 @@ msgstr ""
 "eklenmesi şiddetle tavsiye edilir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:720
+#: src/as-validator-issue-tag.h:737
 msgid ""
 "Type `console-application` component, but no information about binaries in "
 "$PATH was provided via a `provides/binary` tag."
@@ -2666,7 +2707,7 @@ msgstr ""
 "ile $PATH içindeki ikili dosyalar hakkında herhangi bir bilgi sağlanmadı."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:726
+#: src/as-validator-issue-tag.h:743
 msgid ""
 "This `web-application` component is missing a `launchable` tag of type `url`."
 msgstr ""
@@ -2674,7 +2715,7 @@ msgstr ""
 "eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:732
+#: src/as-validator-issue-tag.h:749
 msgid ""
 "This `web-application` component is missing a `icon` tag to specify a valid "
 "icon."
@@ -2683,7 +2724,7 @@ msgstr ""
 "`icon` etiketi eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:738
+#: src/as-validator-issue-tag.h:755
 msgid ""
 "This `web-application` component is missing categorizations. A `categories` "
 "block is likely missing."
@@ -2692,7 +2733,7 @@ msgstr ""
 "`categories` bloğu eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:744
+#: src/as-validator-issue-tag.h:761
 msgid ""
 "Type `font` component, but no font information was provided via a `provides/"
 "font` tag."
@@ -2701,7 +2742,7 @@ msgstr ""
 "tipi bilgisi sağlanmadı."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:750
+#: src/as-validator-issue-tag.h:767
 msgid ""
 "Type `driver` component, but no modalias information was provided via a "
 "`provides/modalias` tag."
@@ -2710,7 +2751,7 @@ msgstr ""
 "bir modalias bilgisi sağlanmadı."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:756
+#: src/as-validator-issue-tag.h:773
 msgid ""
 "An `extends` tag is specified, but the component is not of type `addon`, "
 "`localization` or `repository`."
@@ -2719,12 +2760,12 @@ msgstr ""
 "da `repository` türünde değil."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:762
+#: src/as-validator-issue-tag.h:779
 msgid "The component is an addon, but no `extends` tag was specified."
 msgstr "Bileşen bir eklentidir, ancak `extends` etiketi belirtilmedi."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:768
+#: src/as-validator-issue-tag.h:785
 msgid ""
 "This `localization` component is missing an `extends` tag, to specify the "
 "components it adds localization to."
@@ -2733,7 +2774,7 @@ msgstr ""
 "belirtmek için bir `extends` etiketi eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:774
+#: src/as-validator-issue-tag.h:791
 msgid ""
 "This `localization` component does not define any languages this "
 "localization is for."
@@ -2742,14 +2783,14 @@ msgstr ""
 "tanımlamamaktadır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:780
+#: src/as-validator-issue-tag.h:797
 msgid ""
 "This `service` component is missing a `launchable` tag of type `service`."
 msgstr ""
 "Bu `service` bileşeninde, `service` türünde bir `launchable` etiketi eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:786
+#: src/as-validator-issue-tag.h:803
 msgid ""
 "Suggestions of any type other than `upstream` are not allowed in metainfo "
 "files."
@@ -2757,7 +2798,7 @@ msgstr ""
 "Metainfo dosyalarında `upstream` dışında başka bir türde önerilere izin "
 "verilmez."
 
-#: src/as-validator-issue-tag.h:791
+#: src/as-validator-issue-tag.h:808
 msgid ""
 "The category name is not valid. Refer to the XDG Menu Specification for a "
 "list of valid category names."
@@ -2765,7 +2806,7 @@ msgstr ""
 "Kategori adı geçerli değil. Geçerli kategori adlarının listesi için XDG Menü "
 "Tanımlamasına bakın."
 
-#: src/as-validator-issue-tag.h:796
+#: src/as-validator-issue-tag.h:813
 msgid ""
 "All categories for this component have been ignored, either because they "
 "were invalid or because they are of low quality (e.g. custom 'X-' prefixed "
@@ -2777,7 +2818,7 @@ msgstr ""
 "seti olanlar) göz ardı edildi. Lütfen kategori adlarınızı düzeltin veya daha "
 "fazla kategori ekleyin."
 
-#: src/as-validator-issue-tag.h:802
+#: src/as-validator-issue-tag.h:819
 msgid ""
 "This component is in no valid categories, even though it should be. Please "
 "check its metainfo file and desktop-entry file."
@@ -2785,20 +2826,20 @@ msgstr ""
 "Bu bileşen, olması gerektiği halde geçerli bir kategoride değil. Lütfen "
 "metainfo dosyasına ve masaüstü girdi dosyasına bakın."
 
-#: src/as-validator-issue-tag.h:807
+#: src/as-validator-issue-tag.h:824
 msgid "The screenshot caption is too long (should be <= 100 characters)"
 msgstr "Ekran görüntüsü başlığı çok uzun (<= 100 karakter olmalıdır)"
 
-#: src/as-validator-issue-tag.h:812
+#: src/as-validator-issue-tag.h:829
 msgid "Unable to read file."
 msgstr "Dosya okunamıyor."
 
-#: src/as-validator-issue-tag.h:817
+#: src/as-validator-issue-tag.h:834
 msgid "The XML of this file is malformed."
 msgstr "Bu dosyanın XML'i bozuk."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:823
+#: src/as-validator-issue-tag.h:840
 msgid ""
 "Invalid tag found in catalog metadata. Only `component` tags are permitted."
 msgstr ""
@@ -2806,7 +2847,7 @@ msgstr ""
 "etiketlerine izin verilmektedir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:829
+#: src/as-validator-issue-tag.h:846
 msgid ""
 "The metainfo file uses an ancient version of the AppStream specification, "
 "which can not be validated. Please migrate it to version 0.6 (or higher). "
@@ -2819,7 +2860,7 @@ msgstr ""
 "farklılık içerir; bu nedenle, verileri modernleştirirken değişiklikleri "
 "dikkatle denetleyin."
 
-#: src/as-validator-issue-tag.h:835
+#: src/as-validator-issue-tag.h:852
 msgid ""
 "This XML document has an unknown root tag. Maybe this file is not a metainfo "
 "document?"
@@ -2827,21 +2868,21 @@ msgstr ""
 "Bu XML belgesinde bilinmeyen bir root etiketi var. Belki de bu dosya bir "
 "metainfo belgesi değildir?"
 
-#: src/as-validator-issue-tag.h:840
+#: src/as-validator-issue-tag.h:857
 msgid "The metainfo filename does not match the component ID."
 msgstr "Metainfo dosya adı bileşen kimliğiyle eşleşmemektedir."
 
-#: src/as-validator-issue-tag.h:845
+#: src/as-validator-issue-tag.h:862
 msgid "Unable to load the desktop-entry file associated with this component."
 msgstr "Bu bileşenle ilişkili masaüstü girdi dosyası yüklenemedi."
 
-#: src/as-validator-issue-tag.h:850
+#: src/as-validator-issue-tag.h:867
 msgid "This component metadata refers to a non-existing .desktop file."
 msgstr ""
 "Bu bileşen üst verileri, var olmayan bir .desktop dosyasına referans "
 "etmektedir."
 
-#: src/as-validator-issue-tag.h:855
+#: src/as-validator-issue-tag.h:872
 msgid ""
 "A category defined in the desktop-entry file is not valid. Refer to the XDG "
 "Menu Specification for a list of valid categories."
@@ -2849,11 +2890,11 @@ msgstr ""
 "Masaüstü girdi dosyasında tanımlanan bir kategori geçerli değil. Geçerli "
 "kategorilerin listesi için XDG Menü Tanımlamasına bakın."
 
-#: src/as-validator-issue-tag.h:860
+#: src/as-validator-issue-tag.h:877
 msgid "Error while reading some data from the desktop-entry file."
 msgstr "Masaüstü girdi dosyasından bazı veriler okunurken hata oluştu."
 
-#: src/as-validator-issue-tag.h:865
+#: src/as-validator-issue-tag.h:882
 msgid ""
 "The value of this desktop-entry field contains invalid or non-printable "
 "UTF-8 characters, which can not be displayed properly."
@@ -2861,14 +2902,14 @@ msgstr ""
 "Bu masaüstü girdi alanının değeri, düzgün görüntülenemeyen geçersiz veya "
 "yazdırılamayan UTF-8 karakterleri içeriyor."
 
-#: src/as-validator-issue-tag.h:870
+#: src/as-validator-issue-tag.h:887
 msgid ""
 "This desktop-entry field value is quoted, which is likely unintentional."
 msgstr ""
 "Bu masaüstü girdi alanı değeri tırnak içine alınmış ve bu muhtemelen "
 "istenmeden yapıldı."
 
-#: src/as-validator-issue-tag.h:875
+#: src/as-validator-issue-tag.h:892
 msgid ""
 "This desktop-entry file has the 'Hidden' property set. This is wrong for "
 "vendor-installed .desktop files, and nullifies all effects this .desktop "
@@ -2880,7 +2921,7 @@ msgstr ""
 "dosyasının sahip olduğu (MIME ilişkilendirmeleri dahil) tüm etkileri "
 "geçersiz kılar ve bu büyük ihtimalle istenen şey değildir."
 
-#: src/as-validator-issue-tag.h:881
+#: src/as-validator-issue-tag.h:898
 msgid ""
 "This desktop-entry file has the 'OnlyShowIn' property set with an empty "
 "value. This might not be intended, as this will hide the application from "
@@ -2892,16 +2933,16 @@ msgstr ""
 "masaüstlerinden gizleyecektir. Uygulamayı tüm masaüstlerinden gizlemek "
 "istiyorsanız, 'NoDisplay=true' kullanmak daha açıktır."
 
-#: src/as-validator-issue-tag.h:887
+#: src/as-validator-issue-tag.h:904
 msgid "No AppStream metadata was found in this directory or directory tree."
 msgstr "Bu dizinde veya dizin ağacında AppStream üst verisi bulunamadı."
 
 #. pedantic because not everything which has metadata is an application
-#: src/as-validator-issue-tag.h:892
+#: src/as-validator-issue-tag.h:909
 msgid "No XDG applications directory found."
 msgstr "XDG uygulama dizini bulunamadı."
 
-#: src/as-validator-issue-tag.h:897
+#: src/as-validator-issue-tag.h:914
 msgid ""
 "The metainfo file is stored in a legacy path. Please place it in `/usr/share/"
 "metainfo/`."
@@ -2909,12 +2950,12 @@ msgstr ""
 "Metainfo dosyası, eski bir yolda saklanmaktadır. Lütfen `/usr/share/metainfo/"
 "` dizinine yerleştirin."
 
-#: src/as-validator-issue-tag.h:902
+#: src/as-validator-issue-tag.h:919
 msgid "The metainfo file specifies multiple components. This is not allowed."
 msgstr ""
 "Metainfo dosyası birden fazla bileşen belirtmektedir. Buna izin verilmez."
 
-#: src/as-validator-issue-tag.h:907
+#: src/as-validator-issue-tag.h:924
 msgid ""
 "The releases are not sorted in a latest to oldest version order. This is "
 "required as some tools will assume that the latest version is always at the "
@@ -2927,7 +2968,7 @@ msgstr ""
 "arttırmaktadır."
 
 #. TRANSLATORS: Please do not translate AppStream tag/property names (in backticks).
-#: src/as-validator-issue-tag.h:915
+#: src/as-validator-issue-tag.h:932
 msgid ""
 "The type of the releases block is invalid. It needs to either `embedded` "
 "(the default) or `external`."
@@ -2935,7 +2976,7 @@ msgstr ""
 "Yayın bloğunun türü geçersiz. `embedded` (öntanımlı) veya `external` olması "
 "gerekir."
 
-#: src/as-validator-issue-tag.h:920
+#: src/as-validator-issue-tag.h:937
 msgid ""
 "The URL to an external release metadata file is insecure. This is not "
 "allowed, please use HTTPS URLs only."
@@ -2943,11 +2984,11 @@ msgstr ""
 "Harici bir yayın üst veri dosyasına giden URL güvenli değil. Buna izin "
 "verilmez, lütfen yalnızca HTTPS URL'ler kullanın."
 
-#: src/as-validator-issue-tag.h:925
+#: src/as-validator-issue-tag.h:942
 msgid "Failed to download release metadata."
 msgstr "Yayın üst verileri indirilemedi."
 
-#: src/as-validator-issue-tag.h:930
+#: src/as-validator-issue-tag.h:947
 msgid ""
 "A local release metadata file was not found. It is strongly recommended to "
 "validate this metadata together with the main MetaInfo file."
@@ -2955,22 +2996,22 @@ msgstr ""
 "Yerel bir yayın üst veri dosyası bulunamadı. Bu üst verilerin ana MetaInfo "
 "dosyası ile birlikte doğrulanması şiddetle tavsiye edilir."
 
-#: src/as-validator-issue-tag.h:936
+#: src/as-validator-issue-tag.h:953
 msgid "The value set as release urgency is not a known urgency value."
 msgstr ""
 "Yayın aciliyeti olarak ayarlanan değer, bilinen bir aciliyet değeri değil."
 
-#: src/as-validator-issue-tag.h:941
+#: src/as-validator-issue-tag.h:958
 msgid "The value set as release type is invalid."
 msgstr "Yayın türü olarak ayarlanan değer geçersiz."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:947
+#: src/as-validator-issue-tag.h:964
 msgid "The release is missing the `version` property."
 msgstr "Yayın için `version` özelliği eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:953
+#: src/as-validator-issue-tag.h:970
 msgid ""
 "The release entry is missing either the `date` (preferred) or the "
 "`timestamp` property."
@@ -2978,7 +3019,7 @@ msgstr ""
 "Release girdisi için `date` (tercih edilen) veya `timestamp` özelliği eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:959
+#: src/as-validator-issue-tag.h:976
 msgid ""
 "The release entry is missing the `date` property. Ensure to add it before "
 "publishing the snapshot release."
@@ -2986,28 +3027,28 @@ msgstr ""
 "Release girdisi için `date` özniteliği eksik. Anlık görüntü yayınını "
 "yayınlamadan eklemeyi unutmayın."
 
-#: src/as-validator-issue-tag.h:964
+#: src/as-validator-issue-tag.h:981
 msgid "The release timestamp is invalid."
 msgstr "Yayın zaman damgası geçersiz."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:970
+#: src/as-validator-issue-tag.h:987
 msgid "The release description must be put inside a `description` tag"
 msgstr "Sürüm açıklaması `description`etiketi içine konulmalıdır"
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:976
+#: src/as-validator-issue-tag.h:993
 msgid ""
 "The value set as artifact type is invalid. Must be either `source` or "
 "`binary`."
 msgstr ""
 "Yapı türü olarak ayarlanan değer geçersiz. `source` veya `binary` olmalıdır."
 
-#: src/as-validator-issue-tag.h:981
+#: src/as-validator-issue-tag.h:998
 msgid "The value set as artifact bundle type is invalid."
 msgstr "Yapı takım türü olarak ayarlanan değer geçersiz."
 
-#: src/as-validator-issue-tag.h:986
+#: src/as-validator-issue-tag.h:1003
 msgid ""
 "The platform triplet for this release is invalid. It must be in the form of "
 "`architecture-oskernel-osenv` - refer to the AppStream documentation or "
@@ -3018,16 +3059,16 @@ msgstr ""
 "belgelendirmesine veya normalleştirilmiş GNU üçlüleriyle ilgili bilgilere "
 "bakın."
 
-#: src/as-validator-issue-tag.h:993
+#: src/as-validator-issue-tag.h:1010
 msgid "The selected checksumming algorithm is unsupported or unknown."
 msgstr "Seçilen sağlama toplamı algoritması desteklenmiyor veya bilinmiyor."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:999
+#: src/as-validator-issue-tag.h:1016
 msgid "The size type is unknown. Must be `download` or `installed`."
 msgstr "Boyut türü bilinmiyor. `download` veya `installed` olmalıdır."
 
-#: src/as-validator-issue-tag.h:1004
+#: src/as-validator-issue-tag.h:1021
 msgid ""
 "The artifact filename must be a file basename, not a (relative or absolute) "
 "path."
@@ -3035,11 +3076,11 @@ msgstr ""
 "Yapı dosya adı bir dosya temel adı olmalıdır, bir (göreceli veya mutlak) yol "
 "değil."
 
-#: src/as-validator-issue-tag.h:1009
+#: src/as-validator-issue-tag.h:1026
 msgid "The value set as release issue type is invalid."
 msgstr "Yayın sorunu türü olarak ayarlanan değer geçersiz."
 
-#: src/as-validator-issue-tag.h:1014
+#: src/as-validator-issue-tag.h:1031
 msgid ""
 "The issue is tagged at security vulnerability with a CVE number, but its "
 "value does not look like a valid CVE identifier."
@@ -3048,7 +3089,7 @@ msgstr ""
 "geçerli bir CVE tanımlayıcısı gibi görünmüyor."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1020
+#: src/as-validator-issue-tag.h:1037
 msgid ""
 "This component is missing information about releases. Consider adding a "
 "`releases` tag to describe releases and their changes."
@@ -3056,7 +3097,7 @@ msgstr ""
 "Bu bileşende yayınlar hakkında bilgiler eksik. Yayınları ve değişikliklerini "
 "açıklamak için bir `releases` etiketi eklemeyi düşünün."
 
-#: src/as-validator-issue-tag.h:1025
+#: src/as-validator-issue-tag.h:1042
 msgid ""
 "The AppStream specification requires a complete, ISO 8601 date string with "
 "at least day-granularity to denote dates. Please ensure the date string is "
@@ -3066,7 +3107,7 @@ msgstr ""
 "ayrıntıya sahip tam bir ISO 8601 tarih dizgesi gerektirmektedir. Lütfen "
 "tarih dizgesinin geçerli olduğundan emin olun."
 
-#: src/as-validator-issue-tag.h:1031
+#: src/as-validator-issue-tag.h:1048
 msgid ""
 "This component extends, provides, requires or recommends itself, which is "
 "certainly not intended and may confuse users or machines dealing with this "
@@ -3077,7 +3118,7 @@ msgstr ""
 "genişletmekte, sağlamakta, gerektirmekte veya tavsiye etmektedir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1038
+#: src/as-validator-issue-tag.h:1055
 msgid ""
 "Licenses for `runtime` components are usually too complex to reflect them in "
 "a simple SPDX expression. Consider using a `LicenseRef` and a web URL as "
@@ -3089,7 +3130,7 @@ msgstr ""
 "değeri için bir `LicenseRef` ve bir web URL'si kullanmayı düşünün. Örn. "
 "`LicenseRef-free=https://example.com/licenses.html`"
 
-#: src/as-validator-issue-tag.h:1044
+#: src/as-validator-issue-tag.h:1061
 msgid ""
 "Since a `runtime` component is comprised of multiple other software "
 "components, their component-IDs may be listed in a `<provides/>` section for "
@@ -3099,13 +3140,13 @@ msgstr ""
 "bileşen kimlikleri bu çalışma zamanı için bir `<provides/>` bölümünde "
 "listelenebilir."
 
-#: src/as-validator-issue-tag.h:1049
+#: src/as-validator-issue-tag.h:1066
 msgid ""
 "The type of the item that the component provides is not known to AppStream."
 msgstr "Bileşenin sağladığı ögenin türü AppStream tarafından bilinmemektedir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1055
+#: src/as-validator-issue-tag.h:1072
 msgid ""
 "The toplevel `mimetypes` tag is deprecated. Please use `mediatype` tags in a "
 "`provides` block instead to indicate that your software provides a media "
@@ -3116,7 +3157,7 @@ msgstr ""
 "`provides` bloğunda `mediatype` etiketlerini kullanın."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1062
+#: src/as-validator-issue-tag.h:1079
 msgid ""
 "This component has no `content_rating` tag to provide age rating "
 "information. You can generate the tag data online by answering a few "
@@ -3127,62 +3168,62 @@ msgstr ""
 "yanıtlayarak etiket verilerini çevrim içi olarak oluşturabilirsiniz"
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1069
+#: src/as-validator-issue-tag.h:1086
 msgid ""
 "The `type` attribute of this `content_rating` element is missing or empty."
 msgstr "`content_rating` ögesinin `type` özniteliğini eksik veya boş."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1075
+#: src/as-validator-issue-tag.h:1092
 msgid ""
 "The `type` attribute of the `content_rating` element has an invalid value."
 msgstr "`content_rating` ögesinin `type` özniteliğini geçersiz değer içeriyor."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1081
+#: src/as-validator-issue-tag.h:1098
 msgid "The `content_rating` tag can only contain `content_attribute` children."
 msgstr ""
 "`content_rating` etiketi yalnızca `content_attribute`alt etiketi içerebilir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1087
+#: src/as-validator-issue-tag.h:1104
 msgid ""
 "The `id` attribute of the `content_attribute` element is missing or empty."
 msgstr "`content_attribute` ögesinin `id` özniteliği eksik veya boş."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1093
+#: src/as-validator-issue-tag.h:1110
 msgid ""
 "The `id` attribute of the `content_attribute` element has an invalid value."
 msgstr "`content_attribute` ögesinin `id` özniteliği geçersiz değer içeriyor."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1099
+#: src/as-validator-issue-tag.h:1116
 msgid "The `content_attribute` tag needs a value."
 msgstr "`content_attribute` etiketinin bir değeri olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1105
+#: src/as-validator-issue-tag.h:1122
 msgid "The `content_attribute` tag value is unknown."
 msgstr "`content_attribute` etiketinin değeri bilinmiyor."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1111
+#: src/as-validator-issue-tag.h:1128
 msgid "The `content_attribute` tag value is invalid for the given id."
 msgstr "Belirtilen kimlik için `content_attribute` etiketi değeri geçersiz."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1117
+#: src/as-validator-issue-tag.h:1134
 msgid "A `content_attribute` tag with this ID has already been defined."
 msgstr "Bu kimliğe sahip bir `content_attribute` etiketi zaten tanımlanmış."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1123
+#: src/as-validator-issue-tag.h:1140
 msgid "This `tag` is missing a `namespace` attribute."
 msgstr "Bu `tag` etiketinin `namespace` özniteliği eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1129
+#: src/as-validator-issue-tag.h:1146
 msgid ""
 "This tag or its namespace contains invalid characters. Only lower-cased "
 "ASCII letters, numbers, dots, hyphens and underscores are permitted."
@@ -3191,26 +3232,26 @@ msgstr ""
 "ASCII harflerine, rakamlara, noktalara, kısa çizgilere ve alt çizgilere izin "
 "verilmektedir."
 
-#: src/as-validator-issue-tag.h:1134
+#: src/as-validator-issue-tag.h:1151
 msgid "The type of this color is not valid."
 msgstr "Bu rengin türü geçerli değil."
 
-#: src/as-validator-issue-tag.h:1139
+#: src/as-validator-issue-tag.h:1156
 msgid "The value of this color scheme preference is not valid."
 msgstr "Bu renk düzeni tercihinin değeri geçerli değil."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1145
+#: src/as-validator-issue-tag.h:1162
 msgid ""
 "The name of the color scheme property is wrong. It should be "
 "`scheme_preference`."
 msgstr "Renk düzeni özelliğinin adı yanlış. `scheme_preference` olmalıdır."
 
-#: src/as-validator-issue-tag.h:1150
+#: src/as-validator-issue-tag.h:1167
 msgid "This color is not a valid HTML color code."
 msgstr "Bu renk, geçerli bir HTML renk kodu değil."
 
-#: src/as-validator-issue-tag.h:1155
+#: src/as-validator-issue-tag.h:1172
 msgid ""
 "A color for this type/scheme combination was already set. Colors must be "
 "unique per type/scheme."
@@ -3218,14 +3259,14 @@ msgstr ""
 "Bu tür/düzen birleşimi için bir renk zaten ayarlandı. Renkler her tür/düzen "
 "için benzersiz olmalıdır."
 
-#: src/as-validator-issue-tag.h:1160
+#: src/as-validator-issue-tag.h:1177
 msgid ""
 "The given DOI (Digital Object Identifier) for this reference item is not "
 "valid."
 msgstr ""
 "Bu referans öğesi için verilen DOI (Dijital Nesne Tanımlayıcı) geçerli değil."
 
-#: src/as-validator-issue-tag.h:1165
+#: src/as-validator-issue-tag.h:1182
 msgid ""
 "The value for this citation reference item must be an URL to a CFF (Citation "
 "File Format) file."
@@ -3234,7 +3275,7 @@ msgstr ""
 "URL’si olmalıdır."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1171
+#: src/as-validator-issue-tag.h:1188
 msgid ""
 "This registry reference item is missing the `name` property to denote the "
 "name of the registry it is about."
@@ -3242,7 +3283,7 @@ msgstr ""
 "Bu kayıt defteri referans öğesinde, ilgili olduğu kayıt defterinin adını "
 "belirten `name` özelliği eksik."
 
-#: src/as-validator-issue-tag.h:1176
+#: src/as-validator-issue-tag.h:1193
 msgid ""
 "The registry for this reference item is unknown. This may be due to a typing "
 "error, or the registry needs to be registered with AppStream."
@@ -3250,30 +3291,30 @@ msgstr ""
 "Bu referans öğesinin kaydı bilinmiyor. Bunun nedeni bir yazım hatası "
 "olabilir ya da kayıt defterinin AppStream’e kaydedilmesi gerekiyor olabilir."
 
-#: src/as-validator-issue-tag.h:1182
+#: src/as-validator-issue-tag.h:1199
 msgid "The reference item is missing a value."
 msgstr "Referans öğesinde bir değer eksik."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1188
+#: src/as-validator-issue-tag.h:1205
 msgid "The `custom` tag can only contain `value` children."
 msgstr "`custom` etiketi yalnızca `value` alt ögelerini içerebilir."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1194
+#: src/as-validator-issue-tag.h:1211
 msgid "This `custom` tag value is missing a `key` attribute."
 msgstr "Bu `custom` etiket değerinde `key` özniteliği eksik."
 
-#: src/as-validator-issue-tag.h:1199
+#: src/as-validator-issue-tag.h:1216
 msgid "A key can only be used once."
 msgstr "Bir anahtar yalnızca bir kez kullanılabilir."
 
-#: src/as-validator-issue-tag.h:1204
+#: src/as-validator-issue-tag.h:1221
 msgid "This custom value is empty."
 msgstr "Bu özel değer boş."
 
 #. TRANSLATORS: Please do not translate AppStream tag and property names (in backticks).
-#: src/as-validator-issue-tag.h:1210
+#: src/as-validator-issue-tag.h:1227
 msgid ""
 "A `keywords` tag must not be localized in metainfo files (upstream "
 "metadata). Localize the individual keyword entries instead."
@@ -3325,9 +3366,9 @@ msgstr ""
 
 #. TRANSLATORS: An invalid XML element was found, "Found" refers to the tag name found, "Allowed" to the permitted name.
 #. TRANSLATORS: An invalid XML element was found, "Found" refers to the tag name found, "Allowed" to the permitted names.
-#: src/as-validator.c:870 src/as-validator.c:1484 src/as-validator.c:1660
-#: src/as-validator.c:1881 src/as-validator.c:2536 src/as-validator.c:2558
-#: src/as-validator.c:2682 src/as-validator.c:3005
+#: src/as-validator.c:870 src/as-validator.c:1493 src/as-validator.c:1669
+#: src/as-validator.c:1890 src/as-validator.c:2545 src/as-validator.c:2567
+#: src/as-validator.c:2691 src/as-validator.c:3014
 #, c-format
 msgid "Found: %s - Allowed: %s"
 msgstr "Bulunan: %s - İzin verilen: %s"

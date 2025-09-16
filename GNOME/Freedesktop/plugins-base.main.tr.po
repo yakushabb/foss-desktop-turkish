@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base 1.19.2\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/gstreamer/gstreamer/"
 "issues\n"
-"POT-Creation-Date: 2025-02-24 03:27+0000\n"
+"POT-Creation-Date: 2025-09-16 15:29+0000\n"
 "PO-Revision-Date: 2021-10-04 13:55+0300\n"
 "Last-Translator: Mehmet Kececi <mkececi@mehmetkececi.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -23,20 +23,20 @@ msgstr ""
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "X-Project-Style: gnome\n"
 
-#: ext/alsa/gstalsasink.c:611
+#: ext/alsa/gstalsasink.c:621
 msgid "Could not open device for playback in mono mode."
 msgstr "Mono kipte çalmak için aygıt açılamıyor."
 
-#: ext/alsa/gstalsasink.c:613
+#: ext/alsa/gstalsasink.c:623
 msgid "Could not open device for playback in stereo mode."
 msgstr "Stereo kipte çalmak için aygıt açılamıyor."
 
-#: ext/alsa/gstalsasink.c:617
+#: ext/alsa/gstalsasink.c:627
 #, c-format
 msgid "Could not open device for playback in %d-channel mode."
 msgstr "Aygıtı %d- kanal kipinde çalmak için açamıyor."
 
-#: ext/alsa/gstalsasink.c:914
+#: ext/alsa/gstalsasink.c:924
 msgid ""
 "Could not open audio device for playback. Device is being used by another "
 "application."
@@ -44,28 +44,28 @@ msgstr ""
 "Aygıtı çalmak için için açamıyor. Aygıt başka bir uygulama tarafından "
 "kullanılmakta."
 
-#: ext/alsa/gstalsasink.c:919
+#: ext/alsa/gstalsasink.c:929
 msgid "Could not open audio device for playback."
 msgstr "Aygıtı çalma için açamıyor."
 
-#: ext/alsa/gstalsasink.c:1142
+#: ext/alsa/gstalsasink.c:1152
 msgid "Error outputting to audio device. The device has been disconnected."
 msgstr "Ses aygıtına çıktı gönderilirken hata. Aygıt bağlantısı kesildi."
 
-#: ext/alsa/gstalsasrc.c:505
+#: ext/alsa/gstalsasrc.c:515
 msgid "Could not open device for recording in mono mode."
 msgstr "Mono kipte kaydetmek için aygıtı açamıyor."
 
-#: ext/alsa/gstalsasrc.c:507
+#: ext/alsa/gstalsasrc.c:517
 msgid "Could not open device for recording in stereo mode."
 msgstr "Stereo kipte kaydetmek için aygıtı açamıyor."
 
-#: ext/alsa/gstalsasrc.c:511
+#: ext/alsa/gstalsasrc.c:521
 #, c-format
 msgid "Could not open device for recording in %d-channel mode"
 msgstr "Aygıtı %d-kanal kipinde kaydetmek için açamıyor"
 
-#: ext/alsa/gstalsasrc.c:786
+#: ext/alsa/gstalsasrc.c:796
 msgid ""
 "Could not open audio device for recording. Device is being used by another "
 "application."
@@ -73,23 +73,23 @@ msgstr ""
 "Aygıtı kaydetmek için açamıyor. Aygıt başka bir uygulama tarafından "
 "kullanılmakta."
 
-#: ext/alsa/gstalsasrc.c:791
+#: ext/alsa/gstalsasrc.c:801
 msgid "Could not open audio device for recording."
 msgstr "Kayıt için ses aygıtı açılamıyor."
 
-#: ext/alsa/gstalsasrc.c:1041
+#: ext/alsa/gstalsasrc.c:1051
 msgid "Error recording from audio device. The device has been disconnected."
 msgstr "Ses aygıtından kayıt sırasında hata. Aygıt bağlantısı kesildi."
 
-#: ext/cdparanoia/gstcdparanoiasrc.c:281 ext/cdparanoia/gstcdparanoiasrc.c:287
+#: ext/cdparanoia/gstcdparanoiasrc.c:284 ext/cdparanoia/gstcdparanoiasrc.c:290
 msgid "Could not open CD device for reading."
 msgstr "Okumak için CD aygıtı açılamıyor."
 
-#: ext/cdparanoia/gstcdparanoiasrc.c:413
+#: ext/cdparanoia/gstcdparanoiasrc.c:416
 msgid "Could not seek CD."
 msgstr "CD bulunamıyor."
 
-#: ext/cdparanoia/gstcdparanoiasrc.c:421
+#: ext/cdparanoia/gstcdparanoiasrc.c:424
 msgid "Could not read CD."
 msgstr "CD okunamıyor."
 
@@ -111,8 +111,8 @@ msgstr "Bu bir metin dosyasına benziyor"
 #: gst/playback/gstplaysink.c:3190 gst/playback/gstplaysink.c:3199
 #: gst/playback/gstplaysink.c:3649 gst/playback/gstplaysink.c:4578
 #: gst/playback/gstplaysinkconvertbin.c:97
-#: gst/playback/gstplaysinkconvertbin.c:117 gst/playback/gsturidecodebin.c:1569
-#: gst/playback/gsturisourcebin.c:1823
+#: gst/playback/gstplaysinkconvertbin.c:117 gst/playback/gsturidecodebin.c:1573
+#: gst/playback/gsturisourcebin.c:1822
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."
 msgstr "Kayıp öge '%s' - GStreamer kurulumunu denetleyin."
@@ -179,44 +179,44 @@ msgstr "Autoaudiosink ögesi çalışmıyor."
 msgid "Can't play a text file without video or visualizations."
 msgstr "Video veya görsellik olmadan metin dosyasını oynatamaz."
 
-#: gst/playback/gsturidecodebin.c:1004
+#: gst/playback/gsturidecodebin.c:1008
 #, c-format
 msgid "No decoder available for type '%s'."
 msgstr "'%s' türü için kod çözücü bulunamadı."
 
-#: gst/playback/gsturidecodebin.c:1478 gst/playback/gsturisourcebin.c:1743
+#: gst/playback/gsturidecodebin.c:1482 gst/playback/gsturisourcebin.c:1742
 msgid "No URI specified to play from."
 msgstr "Çalmak için bir ağ adresi belirtilmedi."
 
-#: gst/playback/gsturidecodebin.c:1484 gst/playback/gsturisourcebin.c:1749
+#: gst/playback/gsturidecodebin.c:1488 gst/playback/gsturisourcebin.c:1748
 #, c-format
 msgid "Invalid URI \"%s\"."
 msgstr "Geçersiz URI \"%s\"."
 
-#: gst/playback/gsturidecodebin.c:1491 gst/playback/gsturisourcebin.c:1756
+#: gst/playback/gsturidecodebin.c:1495 gst/playback/gsturisourcebin.c:1755
 msgid "This stream type cannot be played yet."
 msgstr "Bu akış türü henüz çalınamıyor."
 
-#: gst/playback/gsturidecodebin.c:1509 gst/playback/gsturisourcebin.c:1774
+#: gst/playback/gsturidecodebin.c:1513 gst/playback/gsturisourcebin.c:1773
 #, c-format
 msgid "No URI handler implemented for \"%s\"."
 msgstr "\"%s\" için hiçbir URI işleyicisi geliştirilmemiş."
 
-#: gst/playback/gsturidecodebin.c:2417 gst/playback/gsturisourcebin.c:2552
+#: gst/playback/gsturidecodebin.c:2421 gst/playback/gsturisourcebin.c:2560
 #, fuzzy
 msgid "Source element can't be prepared"
 msgstr "Kaynak ögesi geçersiz."
 
-#: gst/playback/gsturidecodebin.c:2423 gst/playback/gsturisourcebin.c:2546
+#: gst/playback/gsturidecodebin.c:2427 gst/playback/gsturisourcebin.c:2554
 msgid "Source element is invalid."
 msgstr "Kaynak ögesi geçersiz."
 
-#: gst/playback/gsturisourcebin.c:1188
+#: gst/playback/gsturisourcebin.c:1194
 #, c-format
 msgid "Failed to create download directory '%s'."
 msgstr ""
 
-#: gst/playback/gsturisourcebin.c:2558
+#: gst/playback/gsturisourcebin.c:2566
 #, fuzzy
 msgid "Source element has no pads."
 msgstr "Kaynak ögesi geçersiz."
@@ -234,16 +234,16 @@ msgstr "Sesi yeterince hızlı kaydedemiyor"
 msgid "This CD has no audio tracks"
 msgstr "Bu CD hiç ses izi içermiyor"
 
-#: gst-libs/gst/gl/gstglbasesrc.c:447
+#: gst-libs/gst/gl/gstglbasesrc.c:456
 #, fuzzy
 msgid "An OpenGL error occurred"
 msgstr "Bir GL hatası oluştu"
 
-#: gst-libs/gst/gl/gstglbasesrc.c:589
+#: gst-libs/gst/gl/gstglbasesrc.c:598
 msgid "The GL API is not compatible with the current GL context"
 msgstr ""
 
-#: gst-libs/gst/gl/gstglbasesrc.c:614
+#: gst-libs/gst/gl/gstglbasesrc.c:623
 msgid "Subclass failed to initialize."
 msgstr ""
 
@@ -758,11 +758,11 @@ msgstr "müzik anahtarı"
 msgid "Initial key in which the sound starts"
 msgstr "Sesin başladığı başlangıç anahtarı"
 
-#: tools/gst-device-monitor.c:300 tools/gst-play.c:1626
+#: tools/gst-device-monitor.c:427 tools/gst-play.c:1626
 msgid "Print version information and exit"
 msgstr "Sürüm bilgisini yaz ve çık"
 
-#: tools/gst-device-monitor.c:302
+#: tools/gst-device-monitor.c:429
 msgid ""
 "Don't exit after showing the initial device list, but wait for devices to "
 "added/removed."
@@ -770,7 +770,7 @@ msgstr ""
 "Başlangıç aygıt listesini gösterdikten sonra kapanma, eklenecek/çıkartılacak "
 "aygıtları bekle."
 
-#: tools/gst-device-monitor.c:305
+#: tools/gst-device-monitor.c:432
 msgid "Include devices from hidden device providers."
 msgstr "Gizli cihaz sağlayıcılarından cihazları ekleyin."
 

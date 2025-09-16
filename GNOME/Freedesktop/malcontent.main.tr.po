@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: malcontent\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/pwithnall/malcontent/"
 "issues\n"
-"POT-Creation-Date: 2024-09-09 16:32+0000\n"
+"POT-Creation-Date: 2025-09-16 15:30+0000\n"
 "PO-Revision-Date: 2024-02-25 05:01+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -126,56 +126,307 @@ msgid "Authentication is required to read another user’s account info."
 msgstr ""
 "Başka kullanıcının hesap bilgilerini okumak için kimlik doğrulanmalıdır."
 
-#: libmalcontent/app-filter.c:696
+#: accounts-service/com.endlessm.ParentalControls.policy.in:124
+#, fuzzy
+#| msgid "Change your own app filter"
+msgid "Change your own web filter"
+msgstr "Kendi uygulama süzgecini değiştir"
+
+#: accounts-service/com.endlessm.ParentalControls.policy.in:125
+#, fuzzy
+#| msgid "Authentication is required to change your app filter."
+msgid "Authentication is required to change your web filter."
+msgstr "Uygulama süzgecinizi değiştirmek için kimlik doğrulanmalıdır."
+
+#: accounts-service/com.endlessm.ParentalControls.policy.in:134
+#, fuzzy
+#| msgid "Read your own app filter"
+msgid "Read your own web filter"
+msgstr "Kendi uygulama süzgecini oku"
+
+#: accounts-service/com.endlessm.ParentalControls.policy.in:135
+#, fuzzy
+#| msgid "Authentication is required to read your app filter."
+msgid "Authentication is required to read your web filter."
+msgstr "Uygulama süzgecinizi okumak için kimlik doğrulanmalıdır."
+
+#: accounts-service/com.endlessm.ParentalControls.policy.in:144
+#, fuzzy
+#| msgid "Change another user’s app filter"
+msgid "Change another user’s web filter"
+msgstr "Başka kullanıcının uygulama süzgecini değiştir"
+
+#: accounts-service/com.endlessm.ParentalControls.policy.in:145
+#, fuzzy
+#| msgid "Authentication is required to change another user’s app filter."
+msgid "Authentication is required to change another user’s web filter."
+msgstr ""
+"Başka kullanıcının uygulama süzgecini değiştirmek için kimlik "
+"doğrulanmalıdır."
+
+#: accounts-service/com.endlessm.ParentalControls.policy.in:154
+#, fuzzy
+#| msgid "Read another user’s app filter"
+msgid "Read another user’s web filter"
+msgstr "Başka kullanıcının uygulama süzgecini oku"
+
+#: accounts-service/com.endlessm.ParentalControls.policy.in:155
+#, fuzzy
+#| msgid "Authentication is required to read another user’s app filter."
+msgid "Authentication is required to read another user’s web filter."
+msgstr ""
+"Başka kullanıcının uygulama süzgecini okumak için kimlik doğrulanmalıdır."
+
+#: libmalcontent/app-filter.c:775
 #, c-format
 msgid "App filter for user %u was in an unrecognized format"
 msgstr "%u kullanıcısı için uygulama süzgeci tanınmayan biçimde"
 
-#: libmalcontent/app-filter.c:727
+#: libmalcontent/app-filter.c:806
 #, c-format
 msgid "OARS filter for user %u has an unrecognized kind ‘%s’"
 msgstr "%u kullanıcısı için OARS süzgeci tanınmayan ‘%s’ türünde"
 
-#: libmalcontent/manager.c:283 libmalcontent/manager.c:420
-#: libmalcontent/manager.c:803
+#: libmalcontent/manager.c:370 libmalcontent/manager.c:506
 #, c-format
 msgid "Not allowed to query parental controls data for user %u"
 msgstr "%u kullanıcısı için ebeveyn denetimi verileri sorgulanamaz"
 
-#: libmalcontent/manager.c:288
+#: libmalcontent/manager.c:375
 #, c-format
 msgid "User %u does not exist"
 msgstr "%u kullanıcısı yok"
 
-#: libmalcontent/manager.c:296
+#: libmalcontent/manager.c:383
 msgid "System accounts service not available"
 msgstr "Sistem hesap hizmeti kullanılamıyor"
 
-#: libmalcontent/manager.c:402
+#: libmalcontent/manager.c:639
 msgid "App filtering is globally disabled"
 msgstr "Uygulama süzgeci tümüyle devre dışı"
 
-#: libmalcontent/manager.c:785
+#: libmalcontent/manager.c:944
 msgid "Session limits are globally disabled"
 msgstr "Oturum kısıtları tümüyle devre dışı"
 
-#: libmalcontent/session-limits.c:306
+#: libmalcontent/manager.c:1250
+#, fuzzy
+#| msgid "App filtering is globally disabled"
+msgid "Web filtering is globally disabled"
+msgstr "Uygulama süzgeci tümüyle devre dışı"
+
+#: libmalcontent/session-limits.c:382
 #, c-format
 msgid "Session limit for user %u was in an unrecognized format"
 msgstr "%u kullanıcısı için oturum kısıtları tanınmayan biçimde"
 
-#: libmalcontent/session-limits.c:328
+#: libmalcontent/session-limits.c:404
 #, c-format
 msgid "Session limit for user %u has an unrecognized type ‘%u’"
 msgstr "%u kullanıcısı için oturum kısıtları tanınmayan ‘%u’ türünde"
 
-#: libmalcontent/session-limits.c:346
+#: libmalcontent/session-limits.c:423
 #, c-format
 msgid "Session limit for user %u has invalid daily schedule %u–%u"
 msgstr "%u kullanıcısı için oturum kısıtları geçersiz günlük düzende %u–%u"
 
+#: libmalcontent/session-limits.c:439
+#, fuzzy, c-format
+#| msgid "Session limit for user %u has invalid daily schedule %u–%u"
+msgid "Session limit for user %u has invalid daily limit %u"
+msgstr "%u kullanıcısı için oturum kısıtları geçersiz günlük düzende %u–%u"
+
+#: libmalcontent/user-manager.c:368 malcontent-control/application.c:488
+msgid "Failed to load user data from the system"
+msgstr "Sistemden kullanıcı verisi yüklenemedi"
+
+#: libmalcontent/web-filter.c:429
+#, c-format
+msgid "Web filter for user %u references an invalid filter list ‘%s’ at ‘%s’"
+msgstr ""
+
+#: libmalcontent/web-filter.c:471
+#, fuzzy, c-format
+#| msgid "OARS filter for user %u has an unrecognized kind ‘%s’"
+msgid "Web filter for user %u contains an invalid entry ‘%s’"
+msgstr "%u kullanıcısı için OARS süzgeci tanınmayan ‘%s’ türünde"
+
+#: libmalcontent/web-filter.c:574
+#, fuzzy, c-format
+#| msgid "App filter for user %u was in an unrecognized format"
+msgid "Web filter for user %u was in an unrecognized format"
+msgstr "%u kullanıcısı için uygulama süzgeci tanınmayan biçimde"
+
+#: libmalcontent/web-filter.c:596
+#, fuzzy, c-format
+#| msgid "Session limit for user %u has an unrecognized type ‘%u’"
+msgid "Web filter for user %u has an unrecognized type ‘%u’"
+msgstr "%u kullanıcısı için oturum kısıtları tanınmayan ‘%u’ türünde"
+
+#: libmalcontent-timer/child-timer-service.c:509
+#: libmalcontent-timer/child-timer-service.c:527
+#, fuzzy, c-format
+#| msgid "Error getting session limits for user ‘%s’: %s"
+msgid "Error getting details for UID %d: %s"
+msgstr "‘%s’ kullanıcısı için oturum sınırları alınırken hata oluştu: %s"
+
+#: libmalcontent-timer/child-timer-service.c:564
+#: libmalcontent-timer/parent-timer-service.c:485
+#: libmalcontent-web/filtering-dbus-service.c:409
+#, c-format
+msgid "Invalid interface name ‘%s’."
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:582
+#: libmalcontent-timer/child-timer-service.c:602
+#: libmalcontent-timer/child-timer-service.c:806
+#: libmalcontent-timer/child-timer-service.c:814
+#: libmalcontent-timer/child-timer-service.c:835
+#, c-format
+msgid "Invalid usage parameters: %s"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:699
+#: libmalcontent-timer/child-timer-service.c:720
+#: libmalcontent-timer/parent-timer-service.c:600
+#: libmalcontent-timer/parent-timer-service.c:621
+#: libmalcontent-web/filtering-dbus-service.c:504
+#: libmalcontent-web/filtering-dbus-service.c:525
+#, c-format
+msgid "Unknown property ‘%s.%s’."
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:744
+#: libmalcontent-timer/parent-timer-service.c:645
+#: libmalcontent-web/filtering-dbus-service.c:549
+#, c-format
+msgid "Unknown interface ‘%s’."
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:807
+msgid "Times out of order"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:815
+msgid "End time in the future"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:836
+msgid "No entries"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:876
+#: libmalcontent-timer/child-timer-service.c:886
+#: libmalcontent-timer/child-timer-service.c:1075
+#: libmalcontent-timer/child-timer-service.c:1085
+#: libmalcontent-timer/child-timer-service.c:1132
+#: libmalcontent-timer/parent-timer-service.c:742
+#: libmalcontent-timer/parent-timer-service.c:755
+#: libmalcontent-timer/parent-timer-service.c:782
+#: libmalcontent-timer/parent-timer-service.c:810
+#, c-format
+msgid "Error identifying user: %s"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:887
+#: libmalcontent-timer/child-timer-service.c:1086
+#: libmalcontent-timer/parent-timer-service.c:756
+#: libmalcontent-timer/parent-timer-service.c:783
+#: libmalcontent-timer/parent-timer-service.c:811
+msgid "Invalid or unknown user"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:921
+#: libmalcontent-timer/child-timer-service.c:929
+#: libmalcontent-timer/child-timer-service.c:1187
+#: libmalcontent-timer/child-timer-service.c:1195
+#: libmalcontent-timer/parent-timer-service.c:852
+#: libmalcontent-timer/parent-timer-service.c:860
+#, c-format
+msgid "Error opening user file: %s"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:982
+#, c-format
+msgid "Error saving user file: %s"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:1140
+msgid "Recording usage is disabled"
+msgstr ""
+
+#: libmalcontent-timer/child-timer-service.c:1148
+#, c-format
+msgid "Error querying user parental controls policy: %s"
+msgstr ""
+
+#: libmalcontent-timer/parent-timer-service.c:505
+#, c-format
+msgid "Invalid query parameters: %s"
+msgstr ""
+
+#: libmalcontent-timer/parent-timer-service.c:820
+msgid "Permission denied to query user usage"
+msgstr ""
+
+#: libmalcontent-timer/timer-service.c:103 libmalcontent-web/web-service.c:99
+msgid "Directory to store data in (default: $STATE_DIRECTORY)"
+msgstr ""
+
+#: libmalcontent-timer/timer-service.c:103 libmalcontent-web/web-service.c:99
+#: libmalcontent-web/web-service.c:101
+msgid "DIR"
+msgstr ""
+
+#. Add an additional command line option for the state directory.
+#: libmalcontent-timer/timer-service.c:108 libmalcontent-web/web-service.c:106
+msgid "Service Options:"
+msgstr ""
+
+#: libmalcontent-timer/timer-service.c:108 libmalcontent-web/web-service.c:106
+msgid "Show service help options"
+msgstr ""
+
+#: libmalcontent-timer/timer-service.c:199 libmalcontent-web/web-service.c:200
+msgid ""
+"No state directory specified using $STATE_DIRECTORY or --state-directory"
+msgstr ""
+
+#: libmalcontent-timer/timer-service.c:297
+#, fuzzy
+#| msgid "— view and edit parental controls"
+msgid "— record session and app usage information for parental controls"
+msgstr "— ebeveyn denetimlerini görüntüle ve düzenle"
+
+#: libmalcontent-timer/timer-service.c:298
+msgid ""
+"Record session and app usage information provided by user login sessions to "
+"monitor and enforce configured parental controls screen time limits on "
+"accounts."
+msgstr ""
+
+#: libmalcontent-timer/timer-store.c:115
+#, c-format
+msgid "Invalid record type ‘%s’"
+msgstr ""
+
+#: libmalcontent-timer/timer-store.c:144
+#, c-format
+msgid "Invalid identifier ‘%s’"
+msgstr ""
+
+#: libmalcontent-timer/timer-store.c:480
+#, c-format
+msgid "Database is already open for ‘%s’"
+msgstr ""
+
+#: libmalcontent-timer/timer-store.c:532
+#, c-format
+msgid "Corrupt file ‘%s’"
+msgstr ""
+
 #. Translators: the placeholder is a user’s full name
-#: libmalcontent-ui/restrict-applications-dialog.c:256
+#: libmalcontent-ui/restrict-applications-dialog.c:257
 #, c-format
 msgid "Restrict %s from using the following installed applications."
 msgstr "%s kullanıcısının aşağıdaki kurulu uygulamaları kullanmasını kısıtla."
@@ -192,18 +443,13 @@ msgstr "Uygulamaları ara…"
 msgid "No applications found to restrict."
 msgstr "Kısıtlanacak uygulama bulunamadı."
 
-#. Translators: this is the full name for an unknown user account.
-#: libmalcontent-ui/user-controls.c:198 libmalcontent-ui/user-controls.c:209
-msgid "unknown"
-msgstr "bilinmeyen"
-
-#: libmalcontent-ui/user-controls.c:306 libmalcontent-ui/user-controls.c:394
-#: libmalcontent-ui/user-controls.c:647
+#: libmalcontent-ui/user-controls.c:292 libmalcontent-ui/user-controls.c:380
+#: libmalcontent-ui/user-controls.c:620
 msgid "Unrestricted"
 msgstr ""
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:476
+#: libmalcontent-ui/user-controls.c:462
 #, c-format
 msgid ""
 "Prevents %s from running web browsers. Limited web content may still be "
@@ -213,13 +459,13 @@ msgstr ""
 "sınırlı web içeriği diğer uygulamalarda da bulunabilir."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:481
+#: libmalcontent-ui/user-controls.c:467
 #, c-format
 msgid "Prevents specified applications from being used by %s."
 msgstr "Belirtilen uygulamaların %s tarafından kullanılmasını engeller."
 
 #. Translators: The placeholder is a user’s display name.
-#: libmalcontent-ui/user-controls.c:486
+#: libmalcontent-ui/user-controls.c:472
 #, c-format
 msgid "Prevents %s from installing applications."
 msgstr "%s kullanıcısının uygulama kurmasını engeller."
@@ -232,24 +478,24 @@ msgstr "Uygulama Kullanım Kısıtlamaları"
 msgid "Restrict _Web Browsers"
 msgstr "_Web Tarayıcılarını Kısıtla"
 
-#: libmalcontent-ui/user-controls.ui:51
+#: libmalcontent-ui/user-controls.ui:52
 msgid "_Restrict Applications"
 msgstr "Uygulamaları _Kısıtla"
 
-#: libmalcontent-ui/user-controls.ui:73
+#: libmalcontent-ui/user-controls.ui:74
 msgid "Software Installation Restrictions"
 msgstr "Yazılım Kurulumu Kısıtlamaları"
 
-#: libmalcontent-ui/user-controls.ui:77
+#: libmalcontent-ui/user-controls.ui:78
 msgid "Restrict Application _Installation"
 msgstr "Uygulama _Kurulumunu Kısıtla"
 
-#: libmalcontent-ui/user-controls.ui:99
+#: libmalcontent-ui/user-controls.ui:100
 msgid "Application _Suitability"
 msgstr "Uygulama _Uygunluğu"
 
 # Biraz serbest çeviri oldu.
-#: libmalcontent-ui/user-controls.ui:102
+#: libmalcontent-ui/user-controls.ui:103
 msgid ""
 "Restricts the browsing or installation of applications unsuitable for this "
 "age or younger."
@@ -257,58 +503,127 @@ msgstr ""
 "Bu yaş ya da daha küçükler için uygun olmayan uygulamaların taranmasını ya "
 "da kurulmasını kısıtlar."
 
-#. Translators: This documents the --user command line option to malcontent-control:
-#: malcontent-control/application.c:102
-msgid "User to select in the UI"
-msgstr "Kullanıcı arayüzünde seçilecek kullanıcı"
+#: libmalcontent-web/filter-updater.c:513
+#, fuzzy, c-format
+#| msgid "Error getting session limits for user ‘%s’: %s"
+msgid "Error loading cache file ‘%s’: %s"
+msgstr "‘%s’ kullanıcısı için oturum sınırları alınırken hata oluştu: %s"
 
-#. Translators: This is a placeholder for a command line argument value:
-#: malcontent-control/application.c:104
-msgid "USERNAME"
-msgstr "KULLANICIADI"
+#: libmalcontent-web/filter-updater.c:566
+#, c-format
+msgid "Invalid hostname ‘%.*s’ in filter list from ‘%s’"
+msgstr ""
 
-#: malcontent-control/application.c:116
-msgid "— view and edit parental controls"
+#: libmalcontent-web/filter-updater.c:588
+#, c-format
+msgid "Invalid hostname ‘%s’ in custom filter list"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:782
+#: libmalcontent-web/filter-updater.c:841
+msgid "Web filter update already in progress"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:813
+#, c-format
+msgid "Error creating user filter directory: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:822
+#: libmalcontent-web/filter-updater.c:848
+#, c-format
+msgid "Error opening user filter directory: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:874
+#: libmalcontent-web/filter-updater.c:916
+#, c-format
+msgid "Error loading user’s web filtering policy: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:880
+#: libmalcontent-web/filter-updater.c:905
+#, fuzzy, c-format
+#| msgid "App filtering is globally disabled"
+msgid "Web filtering is disabled for user %u"
+msgstr "Uygulama süzgeci tümüyle devre dışı"
+
+#: libmalcontent-web/filter-updater.c:953
+#: libmalcontent-web/filter-updater.c:969
+#, c-format
+msgid "Error clearing old items from download cache: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:1015
+#: libmalcontent-web/filter-updater.c:1025
+#, c-format
+msgid "Invalid filter list ‘%s’: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:1016
+msgid "Filter lists must be provided via HTTPS"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:1026
+msgid "Invalid URI"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:1054
+#: libmalcontent-web/filter-updater.c:1072
+#: libmalcontent-web/filter-updater.c:1086
+#: libmalcontent-web/filter-updater.c:1097
+#, c-format
+msgid "Failed to download URI ‘%s’: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:1140
+#, fuzzy, c-format
+#| msgid "Error getting session limits for user ‘%s’: %s"
+msgid "Error deleting old user web filter ‘%s’: %s"
+msgstr "‘%s’ kullanıcısı için oturum sınırları alınırken hata oluştu: %s"
+
+#: libmalcontent-web/filter-updater.c:1162
+#, c-format
+msgid "Error opening user web filter temporary file: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:1181
+#: libmalcontent-web/filter-updater.c:1445
+#: libmalcontent-web/filter-updater.c:1457
+#, c-format
+msgid "Error adding to user filter: %s"
+msgstr ""
+
+#: libmalcontent-web/filter-updater.c:1482
+#: libmalcontent-web/filter-updater.c:1496
+#: libmalcontent-web/filter-updater.c:1513
+#, c-format
+msgid "Error committing user filter: %s"
+msgstr ""
+
+#: libmalcontent-web/filtering-dbus-service.c:626
+#, c-format
+msgid "Error updating filters: %s"
+msgstr ""
+
+#: libmalcontent-web/web-service.c:101
+msgid "Directory to cache data in (default: $CACHE_DIRECTORY)"
+msgstr ""
+
+#: libmalcontent-web/web-service.c:209
+msgid ""
+"No cache directory specified using $CACHE_DIRECTORY or --cache-directory"
+msgstr ""
+
+#: libmalcontent-web/web-service.c:310
+#, fuzzy
+#| msgid "— view and edit parental controls"
+msgid "— manage web filter lists for parental controls"
 msgstr "— ebeveyn denetimlerini görüntüle ve düzenle"
 
-#. Translators: This is the title of the main window
-#. Translators: the name of the application as it appears in a software center
-#: malcontent-control/application.c:123 malcontent-control/main.ui:17
-#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:9
-#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:3
-msgid "Parental Controls"
-msgstr "Ebeveyn Denetimleri"
-
-#: malcontent-control/application.c:309
-msgid "Copyright © 2019, 2020 Endless Mobile, Inc."
-msgstr "Telif Hakkı © 2019, 2020 Endless Mobile, Inc."
-
-#. Translators: this should be "translated" to the
-#. names of people who have translated Malcontent into
-#. this language, one per line.
-#: malcontent-control/application.c:314
-msgid "translator-credits"
+#: libmalcontent-web/web-service.c:311
+msgid "Manage web filter lists to enforce parental controls on web access."
 msgstr ""
-"Sabri Ünal <libreajans@gmail.com>\n"
-"Emin Tufan Çetin <etcetin@gmail.com>"
-
-#. Translators: "Malcontent" is the brand name of this
-#. project, so should not be translated.
-#: malcontent-control/application.c:320
-msgid "Malcontent Website"
-msgstr "Malcontent Web Sitesi"
-
-#: malcontent-control/application.c:340
-msgid "The help contents could not be displayed"
-msgstr "Yardım içeriği gösterilemiyor"
-
-#: malcontent-control/application.c:389
-msgid "Failed to load user data from the system"
-msgstr "Sistemden kullanıcı verisi yüklenemedi"
-
-#: malcontent-control/application.c:391
-msgid "Please make sure that the AccountsService is installed and enabled."
-msgstr "AccountsService’in kurulu ve etkinleştirildiğinden emin olun."
 
 #. Translators: Replace the link to commonsensemedia.org with some
 #. * localised guidance for parents/carers on how to set restrictions on
@@ -319,7 +634,7 @@ msgstr "AccountsService’in kurulu ve etkinleştirildiğinden emin olun."
 #. * further!
 #. * https://gitlab.freedesktop.org/pwithnall/malcontent/-/issues/new
 #.
-#: malcontent-control/application.c:424
+#: malcontent-control/access-page.c:200
 #, c-format
 msgid ""
 "It’s recommended that restrictions are set as part of an ongoing "
@@ -327,33 +642,170 @@ msgid ""
 "internet-safety'>Read guidance</a> on what to consider."
 msgstr ""
 "Kısıtlamaların, %s ile süren konuşmanın parçası olarak belirlenmesi "
-"önerilir. Nelere özenilmesi gerektiğine ilişkin <a href='https://www."
-"guvenliweb.org.tr/e_kilavuz'>kılavuzu okuyun</a>."
+"önerilir. Nelere özenilmesi gerektiğine ilişkin <a href='https://"
+"www.guvenliweb.org.tr/e_kilavuz'>kılavuzu okuyun</a>."
 
-#: malcontent-control/carousel.ui:38
-msgid "Previous Page"
-msgstr "Önceki Sayfa"
+#: malcontent-control/access-page.ui:8
+#, fuzzy
+#| msgid "Application Usage Restrictions"
+msgid "Access & Restrictions"
+msgstr "Uygulama Kullanım Kısıtlamaları"
 
-#: malcontent-control/carousel.ui:57
-msgid "Next Page"
-msgstr "Sonraki Sayfa"
+#. Translators: This documents the --user command line option to malcontent-control:
+#: malcontent-control/application.c:128
+msgid "User to select in the UI"
+msgstr "Kullanıcı arayüzünde seçilecek kullanıcı"
 
-#: malcontent-control/main.ui:87
-msgid "Permission Required"
-msgstr "İzin Gerekli"
+#. Translators: This is a placeholder for a command line argument value:
+#: malcontent-control/application.c:130
+msgid "USERNAME"
+msgstr "KULLANICIADI"
 
-#: malcontent-control/main.ui:88
+#: malcontent-control/application.c:142
+msgid "— view and edit parental controls"
+msgstr "— ebeveyn denetimlerini görüntüle ve düzenle"
+
+#. Translators: This is the title of the main window
+#. Translators: the name of the application as it appears in a software center
+#: malcontent-control/application.c:150 malcontent-control/main.ui:7
+#: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:9
+#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:2
+#: malcontent-control/user-page.ui:8
+msgid "Parental Controls"
+msgstr "Ebeveyn Denetimleri"
+
+#: malcontent-control/application.c:377
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <libreajans@gmail.com>\n"
+"Emin Tufan Çetin <etcetin@gmail.com>"
+
+#: malcontent-control/application.c:379
 msgid ""
-"Permission is required to view and change user parental controls settings."
+"Copyright © 2019, 2021–2022 Endless Mobile, Inc.\n"
+"Copyright © 2022–2025 GNOME Foundation, Inc. and malcontent contributors"
+msgstr ""
+
+#: malcontent-control/application.c:399
+msgid "The help contents could not be displayed"
+msgstr "Yardım içeriği gösterilemiyor"
+
+#: malcontent-control/application.c:490
+msgid "Please make sure that the AccountsService is installed and enabled."
+msgstr "AccountsService’in kurulu ve etkinleştirildiğinden emin olun."
+
+#: malcontent-control/cc-duration-row.c:50
+#, c-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+
+#: malcontent-control/cc-duration-row.c:51
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+
+#: malcontent-control/cc-duration-row.c:52
+#, c-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+
+#. 5 hours 2 minutes 12 seconds
+#: malcontent-control/cc-duration-row.c:59
+#, c-format
+msgctxt "hours minutes seconds"
+msgid "%s %s %s"
+msgstr ""
+
+#. 5 hours 2 minutes
+#: malcontent-control/cc-duration-row.c:64
+#, c-format
+msgctxt "hours minutes"
+msgid "%s %s"
+msgstr ""
+
+#. 5 hours
+#: malcontent-control/cc-duration-row.c:69
+#, c-format
+msgctxt "hours"
+msgid "%s"
+msgstr ""
+
+#. 2 minutes 12 seconds
+#: malcontent-control/cc-duration-row.c:77
+#, c-format
+msgctxt "minutes seconds"
+msgid "%s %s"
+msgstr ""
+
+#. 2 minutes
+#: malcontent-control/cc-duration-row.c:82
+#, c-format
+msgctxt "minutes"
+msgid "%s"
+msgstr ""
+
+#. 0 seconds
+#: malcontent-control/cc-duration-row.c:93
+msgid "0 seconds"
+msgstr ""
+
+#. Translators: This is time format used in 12-hour mode.
+#: malcontent-control/cc-time-row.c:266
+msgid "%-l:%M %p"
+msgstr ""
+
+#. Translators: This is time format used in 24-hour mode.
+#: malcontent-control/cc-time-row.c:271
+msgid "%-k:%M"
+msgstr ""
+
+#: malcontent-control/cc-timelike-editor.ui:17
+msgid "Increment Hour"
+msgstr ""
+
+#: malcontent-control/cc-timelike-editor.ui:42
+msgid "Increment Minute"
+msgstr ""
+
+#: malcontent-control/cc-timelike-editor.ui:57
+msgid "Time"
+msgstr ""
+
+#: malcontent-control/cc-timelike-editor.ui:75
+msgid "Decrement Hour"
+msgstr ""
+
+#: malcontent-control/cc-timelike-editor.ui:100
+msgid "Decrement Minute"
+msgstr ""
+
+#: malcontent-control/main.ui:20
+msgid "Accounts Overview"
+msgstr ""
+
+#: malcontent-control/main.ui:76
+msgid "Parental Unlock Required"
+msgstr ""
+
+#: malcontent-control/main.ui:77
+#, fuzzy
+#| msgid ""
+#| "Permission is required to view and change user parental controls settings."
+msgid ""
+"Parental unlock is required to view data and activity for child accounts and "
+"edit their Parental Control settings."
 msgstr ""
 "Kullanıcı ebeveyn denetimleri ayarlarını görüntülemek ve değiştirmek için "
 "izin gereklidir."
 
-#: malcontent-control/main.ui:110
+#: malcontent-control/main.ui:114
 msgid "No Standard User Accounts"
 msgstr "Standart Kullanıcı Hesabı Yok"
 
-#: malcontent-control/main.ui:111
+#: malcontent-control/main.ui:115
 msgid ""
 "Parental controls can only be applied to standard user\n"
 "accounts. These can be created in the user settings."
@@ -361,25 +813,25 @@ msgstr ""
 "Ebeveyn denetimleri yalnızca standart kullanıcı hesaplarına uygulanabilir. \n"
 "Bunlar kullanıcı ayarlarından oluşturulabilir."
 
-#: malcontent-control/main.ui:115
+#: malcontent-control/main.ui:119
 msgid "_User Settings"
 msgstr "_Kullanıcı Ayarları"
 
-#: malcontent-control/main.ui:138
+#: malcontent-control/main.ui:149
 msgid "Loading…"
 msgstr "Yükleniyor…"
 
-#: malcontent-control/main.ui:171
+#: malcontent-control/main.ui:189
 msgid "_Help"
 msgstr "_Yardım"
 
-#: malcontent-control/main.ui:175
+#: malcontent-control/main.ui:193
 msgid "_About Parental Controls"
 msgstr "Ebeveyn Denetimleri _Hakkında"
 
 #. Translators: the brief summary of the application as it appears in a software center.
 #: malcontent-control/org.freedesktop.MalcontentControl.metainfo.xml.in:12
-#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:4
+#: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:3
 msgid "Set parental controls and monitor usage by users"
 msgstr "Ebeveyn denetimlerini ayarlayın ve kullanıcılarla kullanımı izleyin"
 
@@ -401,15 +853,15 @@ msgstr "Ana pencere"
 #. Translators: Search terms to find this application. Do NOT translate or localise the semicolons! The list MUST also end with a semicolon!
 #: malcontent-control/org.freedesktop.MalcontentControl.desktop.in:13
 msgid ""
-"parental controls;screen time;app restrictions;web browser restrictions;oars;"
-"usage;usage limit;kid;child;"
+"parental controls;screen time;app restrictions;web browser "
+"restrictions;oars;usage;usage limit;kid;child;"
 msgstr ""
 "ebeveyn denetimleri;ebeveyn denetimi;aile denetimleri;aile denetimi;ebeveyn "
 "kontrolleri;ebeveyn kontrolü;aile kontrolü;ekran zamanı;uygulama "
 "kısıtlamaları;uygulama sınırlamaları;yazılım kısıtlamaları;yazılım "
 "sınırlamaları;web tarayıcı kısıtlamaları;web tarayıcı sınırlamaları;internet "
-"tarayıcı kısıtlamaları;internet tarayıcı sınırlamaları;oars;kullanım;"
-"kullanım sınırı;kullanım kısıtı;çocuk;evlat;"
+"tarayıcı kısıtlamaları;internet tarayıcı "
+"sınırlamaları;oars;kullanım;kullanım sınırı;kullanım kısıtı;çocuk;evlat;"
 
 #: malcontent-control/org.freedesktop.MalcontentControl.policy.in:9
 msgid "Manage parental controls"
@@ -421,34 +873,159 @@ msgstr ""
 "Kullanıcı ebeveyn denetimlerini okumak ve değiştirmek için kimlik "
 "doğrulaması gereklidir"
 
-#: malcontent-control/user-selector.c:426
-msgid "Your account"
-msgstr "Hesabınız"
+#. Translators: Replace the link to commonsensemedia.org with some
+#. * localised guidance for parents/carers on how to set restrictions on
+#. * their child/caree in a responsible way which is in keeping with the
+#. * best practice and culture of the region. If no suitable localised
+#. * guidance exists, and if the default commonsensemedia.org link is not
+#. * suitable, please file an issue against malcontent so we can discuss
+#. * further!
+#. * https://gitlab.freedesktop.org/pwithnall/malcontent/-/issues/new
+#.
+#: malcontent-control/time-page.c:524
+#, fuzzy, c-format
+#| msgid ""
+#| "It’s recommended that restrictions are set as part of an ongoing "
+#| "conversation with %s. <a href='https://www.commonsensemedia.org/privacy-"
+#| "and-internet-safety'>Read guidance</a> on what to consider."
+msgid ""
+"It’s recommended that Screen Time limits and schedules are set as part of an "
+"ongoing conversation with %s. <a href='https://www.commonsensemedia.org/"
+"privacy-and-internet-safety'>Read guidance</a> on what to consider."
+msgstr ""
+"Kısıtlamaların, %s ile süren konuşmanın parçası olarak belirlenmesi "
+"önerilir. Nelere özenilmesi gerektiğine ilişkin <a href='https://"
+"www.guvenliweb.org.tr/e_kilavuz'>kılavuzu okuyun</a>."
+
+#: malcontent-control/time-page.ui:8 malcontent-control/user-page.ui:45
+msgid "Screen Time"
+msgstr ""
+
+#: malcontent-control/time-page.ui:25
+msgid "Screen Limits"
+msgstr ""
+
+#: malcontent-control/time-page.ui:28
+msgid "Screen Time Limit"
+msgstr ""
+
+#: malcontent-control/time-page.ui:29
+msgid "Reminders and other hints when the daily time limit is reached"
+msgstr ""
+
+#: malcontent-control/time-page.ui:35
+msgid "Daily Time Limit"
+msgstr ""
+
+#: malcontent-control/time-page.ui:47
+msgid "Bedtime Schedule"
+msgstr ""
+
+#: malcontent-control/time-page.ui:48
+msgid "Pauses notifications and shows a reminder"
+msgstr ""
+
+#: malcontent-control/time-page.ui:54
+msgid "Bedtime"
+msgstr ""
+
+#. Translators: This is the full date and time format used in 12-hour mode.
+#: malcontent-control/user-page.c:200
+msgid "%-e %B %Y, %-l:%M %P"
+msgstr ""
+
+#. Translators: This is the full date and time format used in 24-hour mode.
+#: malcontent-control/user-page.c:205
+msgid "%-e %B %Y, %-k:%M"
+msgstr ""
+
+#: malcontent-control/user-page.c:208
+#, c-format
+msgid "Last logged in: %s"
+msgstr ""
+
+#: malcontent-control/user-page.ui:46
+msgid "View an overview of this account’s device activity"
+msgstr ""
+
+#: malcontent-control/user-page.ui:78
+#, fuzzy
+#| msgid "Application Usage Restrictions"
+msgid "Access &amp; Restrictions"
+msgstr "Uygulama Kullanım Kısıtlamaları"
+
+#: malcontent-control/user-page.ui:79
+#, fuzzy
+#| msgid "Application Usage Restrictions"
+msgid "Manage application and software restriction settings"
+msgstr "Uygulama Kullanım Kısıtlamaları"
+
+#: malcontent-control/user-selector.ui:8
+msgid ""
+"Administrators can add or remove accounts that are managed by the Parental "
+"Controls app in the Users panel of the Settings app."
+msgstr ""
+
+#: malcontent-timerd/main.c:52 malcontent-webd/main.c:52
+msgid "Exiting due to reaching inactivity timeout"
+msgstr ""
+
+#: malcontent-webd-update/main.c:103
+#, fuzzy, c-format
+#| msgid "Error getting session limits for user ‘%s’: %s"
+msgid "Error updating error file ‘%s’: %s"
+msgstr "‘%s’ kullanıcısı için oturum sınırları alınırken hata oluştu: %s"
+
+#. --help handling
+#: malcontent-webd-update/main.c:139
+msgid "- trigger a web filter update"
+msgstr ""
 
 #. Always allow root, to avoid a situation where this PAM module prevents
 #. * all users logging in with no way of recovery.
-#: pam/pam_malcontent.c:142 pam/pam_malcontent.c:188
+#: pam/pam_malcontent.c:144 pam/pam_malcontent.c:192
 #, c-format
 msgid "User ‘%s’ has no time limits enabled"
 msgstr "‘%s’ kullanıcısının etkin zaman sınırı yok"
 
-#: pam/pam_malcontent.c:151 pam/pam_malcontent.c:172
+#: pam/pam_malcontent.c:153 pam/pam_malcontent.c:174
 #, c-format
 msgid "Error getting session limits for user ‘%s’: %s"
 msgstr "‘%s’ kullanıcısı için oturum sınırları alınırken hata oluştu: %s"
 
-#: pam/pam_malcontent.c:182
+#: pam/pam_malcontent.c:186
 #, c-format
 msgid "User ‘%s’ has no time remaining"
 msgstr "‘%s’ kullanıcısının hiç zamanı kalmadı"
 
-#: pam/pam_malcontent.c:200
+#: pam/pam_malcontent.c:204
 #, c-format
 msgid "Error setting time limit on login session: %s"
 msgstr "Oturum açma oturum zaman sınırı ayarlanırken hata oluştu: %s"
 
+#~ msgid "unknown"
+#~ msgstr "bilinmeyen"
+
 #~ msgid "All Ages"
 #~ msgstr "Tüm Yaşlar"
 
+#~ msgid "Copyright © 2019, 2020 Endless Mobile, Inc."
+#~ msgstr "Telif Hakkı © 2019, 2020 Endless Mobile, Inc."
+
+#~ msgid "Malcontent Website"
+#~ msgstr "Malcontent Web Sitesi"
+
+#~ msgid "Previous Page"
+#~ msgstr "Önceki Sayfa"
+
+#~ msgid "Next Page"
+#~ msgstr "Sonraki Sayfa"
+
+#~ msgid "Permission Required"
+#~ msgstr "İzin Gerekli"
+
 #~ msgid "The GNOME Project"
 #~ msgstr "GNOME Projesi"
+
+#~ msgid "Your account"
+#~ msgstr "Hesabınız"

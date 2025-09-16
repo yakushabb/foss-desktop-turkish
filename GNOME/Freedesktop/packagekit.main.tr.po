@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PackageKit package.
 #
 # Translators:
-# Emir SARI, 2023
+# Emir SARI, 2023,2025
 # Muhammet Kara <muhammetk@gmail.com>, 2014
 # Muhammet Kara <muhammetk@gmail.com>, 2014
 # Necdet Yücel <necdetyucel@gmail.com>, 2012,2015-2016
 # Richard Hughes <richard@hughsie.com>, 2011
-# Sabri Ünal <libreajans@gmail.com>, 2023
+# b83946de5835331df42b9ffcc43e6a33_05e65cd <73a30e0a984b2291d4915f37112ad292_814039>, 2023-2024
 # Serdar Sağlam <teknomobil@msn.com>, 2020
 # yunus kaba <yunuskaba@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: PackageKit\n"
 "Report-Msgid-Bugs-To: https://github.com/hughsie/PackageKit/issues\n"
-"POT-Creation-Date: 2024-04-16 15:27+0000\n"
+"POT-Creation-Date: 2025-09-16 15:33+0000\n"
 "Language-Team: Turkish (http://app.transifex.com/freedesktop/packagekit/"
 "language/tr/)\n"
 "Language: tr\n"
@@ -37,7 +37,7 @@ msgstr "Yapılandırma dosyası yüklenemedi: %s"
 #. TRANSLATORS: this is an atomic transaction
 #. TRANSLATORS: the role is the point of the transaction,
 #. * e.g. update-packages
-#: client/pk-console.c:165 client/pk-console.c:560
+#: client/pk-console.c:165 client/pk-console.c:575
 msgid "Transaction"
 msgstr "İşlem"
 
@@ -136,7 +136,7 @@ msgstr "Üst öge"
 
 #. TRANSLATORS: this is the name of the parent group
 #. TRANSLATORS: this is the name of the backend
-#: client/pk-console.c:264 client/pk-console.c:2286
+#: client/pk-console.c:264 client/pk-console.c:2342
 msgid "Name"
 msgstr "Ad"
 
@@ -154,9 +154,9 @@ msgstr "Güncellemeyle ilgili ayrıntılar:"
 #. TRANSLATORS: the package that is being processed
 #. TRANSLATORS: the package that is not signed by a known key
 #. TRANSLATORS: the package name that was trying to be installed
-#: client/pk-console.c:314 client/pk-console.c:579
-#: lib/packagekit-glib2/pk-task-text.c:123
-#: lib/packagekit-glib2/pk-task-text.c:198
+#: client/pk-console.c:314 client/pk-console.c:594
+#: lib/packagekit-glib2/pk-task-text.c:107
+#: lib/packagekit-glib2/pk-task-text.c:178
 msgid "Package"
 msgstr "Paket"
 
@@ -174,7 +174,7 @@ msgstr "Geçersiz kılar"
 
 #. TRANSLATORS: details about the update, the vendor URLs
 #. TRANSLATORS: the vendor (e.g. vmware) that is providing the EULA
-#: client/pk-console.c:332 lib/packagekit-glib2/pk-task-text.c:201
+#: client/pk-console.c:332 lib/packagekit-glib2/pk-task-text.c:181
 msgid "Vendor"
 msgstr "Satıcı"
 
@@ -263,76 +263,76 @@ msgid "Application restart required by:"
 msgstr "Uygulamanın yeniden başlatılması gerekiyor:"
 
 #. TRANSLATORS: This a list of details about the package
-#: client/pk-console.c:474
+#: client/pk-console.c:488
 msgid "Package description"
 msgstr "Paket açıklaması"
 
 #. TRANSLATORS: This where the package has no files
-#: client/pk-console.c:494
+#: client/pk-console.c:509
 msgid "No files"
 msgstr "Dosya yok"
 
 #. TRANSLATORS: This a list files contained in the package
-#: client/pk-console.c:499
+#: client/pk-console.c:514
 msgid "Package files"
 msgstr "Paket dosyaları"
 
 #. TRANSLATORS: the percentage complete of the transaction
-#: client/pk-console.c:595
+#: client/pk-console.c:610
 msgid "Percentage"
 msgstr "Yüzde"
 
 #. TRANSLATORS: the status of the transaction (e.g. downloading)
-#: client/pk-console.c:618
+#: client/pk-console.c:633
 msgid "Status"
 msgstr "Durum"
 
 #. TRANSLATORS: the results from the transaction
-#: client/pk-console.c:659
+#: client/pk-console.c:671
 msgid "Results:"
 msgstr "Sonuçlar:"
 
 #. TRANSLATORS: we failed to get any results, which is pretty
 #. * fatal in my book
-#: client/pk-console.c:667 client/pk-console.c:827
+#: client/pk-console.c:677 client/pk-console.c:838
 msgid "Fatal error"
 msgstr "Onulmaz hata"
 
 #. TRANSLATORS: the user asked to update everything,
 #. * but there is nothing that can be updated
-#: client/pk-console.c:692
+#: client/pk-console.c:702
 msgid "There are no packages to update."
 msgstr "Güncellenecek paket yok."
 
 #. TRANSLATORS: the transaction failed in a way we could
 #. * not expect
 #. TRANSLATORS: the transaction failed in a way we could not expect
-#: client/pk-console.c:696 contrib/command-not-found/pk-command-not-found.c:670
+#: client/pk-console.c:706 contrib/command-not-found/pk-command-not-found.c:670
 msgid "The transaction failed"
-msgstr "İletim başarısız"
+msgstr "İşlem başarısız"
 
 #. TRANSLATORS: print a message when there are no updates
-#: client/pk-console.c:725
+#: client/pk-console.c:735
 msgid "There are no updates available at this time."
 msgstr "Şimdilik güncelleme yok."
 
-#: client/pk-console.c:748
+#: client/pk-console.c:758
 msgid "There are no upgrades available at this time."
 msgstr "Şimdilik yükseltme yok."
 
 #. TRANSLATORS: a package needs to restart their system
-#: client/pk-console.c:810
+#: client/pk-console.c:820
 msgid "Please restart the computer to complete the update."
 msgstr ""
 "Lütfen güncelleme işlemini tamamlamak için bilgisayarınızı yeniden başlatın."
 
 #. TRANSLATORS: a package needs to restart the session
-#: client/pk-console.c:813
+#: client/pk-console.c:823
 msgid "Please logout and login to complete the update."
 msgstr "Lütfen güncelleme işlemini tamamlamak için oturumu kapatıp açın."
 
 #. TRANSLATORS: a package needs to restart their system (due to security)
-#: client/pk-console.c:816
+#: client/pk-console.c:826
 msgid ""
 "Please restart the computer to complete the update as important security "
 "updates have been installed."
@@ -341,82 +341,82 @@ msgstr ""
 "lütfen bilgisayarınızı yeniden başlatın."
 
 #. TRANSLATORS: a package needs to restart the session (due to security)
-#: client/pk-console.c:819
+#: client/pk-console.c:829
 msgid ""
 "Please logout and login to complete the update as important security updates "
 "have been installed."
 msgstr ""
 "Önemli güvenlik güncellemeleri kurulduğundan güncellemeyi tamamlamak için "
-"lütfen çıkış yapın ve tekrar oturum açın."
+"lütfen oturumunuzu kapatın ve yeniden oturum açın."
 
 #. TRANSLATORS: more than one package could be found that matched,
 #. * to follow is a list of possible packages
-#: client/pk-console.c:897
+#: client/pk-console.c:932
 msgid "More than one package matches:"
-msgstr "Birden fazla paket eşleşiyor:"
+msgstr "Birden çok paket eşleşiyor:"
 
 #. TRANSLATORS: This finds out which package in the list to use
-#: client/pk-console.c:909
+#: client/pk-console.c:944
 msgid "Please choose the correct package: "
 msgstr "Lütfen doğru paketi seçin: "
 
 #. TRANSLATORS: we asked to install a package
 #. * that could not be found in any repo
-#: client/pk-console.c:946
+#: client/pk-console.c:981
 msgid "Package not found"
 msgstr "Paket bulunamadı"
 
 #. TRANSLATORS: we couldn't find anything
-#: client/pk-console.c:964
+#: client/pk-console.c:999
 msgid "No packages were found"
 msgstr "Hiçbir paket bulunamadı"
 
 #. TRANSLATORS: The user used
 #. * 'pkcon install dave.rpm' rather than
 #. * 'pkcon install-local dave.rpm'
-#: client/pk-console.c:989
+#: client/pk-console.c:1024
 #, c-format
 msgid ""
 "Expected package name, actually got file. Try using 'pkcon install-local %s' "
 "instead."
 msgstr ""
-"Paket adı bekleniyordu, dosya alındı. Bunun yerine 'pkcon install-local %s' "
+"Paket adı bekleniyordu, dosya alındı. Bunun yerine “pkcon install-local %s” "
 "kullanmayı deneyin."
 
 #. TRANSLATORS: There was an error finding a package
 #. * for installation. The detailed error follows.
-#: client/pk-console.c:1024
+#: client/pk-console.c:1059
 #, c-format
 msgid "This tool could not find any available package: %s"
 msgstr "Bu araç kullanılabilir bir paket bulamadı: %s"
 
 #. TRANSLATORS: We were unable to find a package for installation.
-#: client/pk-console.c:1041
+#: client/pk-console.c:1076
 msgid "This tool could not find any available package."
 msgstr "Bu araç kullanılabilir hiç paket bulamadı."
 
 #. TRANSLATORS: There was an error finding a package
 #. * for installation, it may already be installed.
-#: client/pk-console.c:1050
+#: client/pk-console.c:1085
 msgid "The selected packages may already be installed."
 msgstr "Seçili paketler halihazırda kurulu olabilir."
 
 #. TRANSLATORS: There was an error getting the list
 #. * of files for the package. The detailed error follows
-#: client/pk-console.c:1078
+#: client/pk-console.c:1113
 #, c-format
 msgid "This tool could not find the installed package: %s"
 msgstr "Bu araç kurulu paketi bulamadı: %s"
 
 #. TRANSLATORS: There was an error getting the list
 #. * of files for the package. The detailed error follows
-#: client/pk-console.c:1107 client/pk-console.c:1138
+#: client/pk-console.c:1142 client/pk-console.c:1173
 #, c-format
 msgid "This tool could not find the package: %s"
 msgstr "Bu araç paketi bulamadı: %s"
 
 #. TRANSLATORS: there are no updates, so nothing to do
-#: client/pk-console.c:1183
+#: client/pk-console.c:1218
 msgid "No packages require updating to newer versions."
 msgstr "Daha yeni bir sürüme yükseltilmesi gereken paket yok."
 
@@ -428,217 +428,219 @@ msgstr "Daha yeni bir sürüme yükseltilmesi gereken paket yok."
 #. * details about the package. The detailed error follows
 #. TRANSLATORS: The package name was not found in
 #. * any software repositories. The detailed error follows
-#: client/pk-console.c:1221 client/pk-console.c:1250 client/pk-console.c:1289
-#: client/pk-console.c:1348 client/pk-console.c:1376
+#: client/pk-console.c:1256 client/pk-console.c:1285 client/pk-console.c:1324
+#: client/pk-console.c:1383 client/pk-console.c:1411
 #, c-format
 msgid "This tool could not find all the packages: %s"
 msgstr "Bu araç paketleri bulamadı: %s"
 
 #. TRANSLATORS: This is when the daemon crashed, and we are up
 #. * shit creek without a paddle
-#: client/pk-console.c:1403
+#: client/pk-console.c:1438
 msgid "The daemon crashed mid-transaction!"
 msgstr "Art alan hizmeti işlem sürerken çöktü!"
 
 #. TRANSLATORS: This is the header to the --help menu
-#: client/pk-console.c:1425
+#: client/pk-console.c:1470
 msgid "PackageKit Console Interface"
 msgstr "PackageKit Konsol Arayüzü"
 
 #. these are commands we can use with pkcon
-#: client/pk-console.c:1427
+#: client/pk-console.c:1472
 msgid "Subcommands:"
 msgstr "Alt komutlar:"
 
 #. TRANSLATORS: we keep a database updated with the time that an
 #. * action was last executed
-#: client/pk-console.c:1514
+#: client/pk-console.c:1570
 msgid "Failed to get the time since this action was last completed"
 msgstr "Bu eylemin en son tamamlandığı tarih bulunamadı"
 
 #. TRANSLATORS: this is the time since this role was used
-#: client/pk-console.c:1518
+#: client/pk-console.c:1574
 msgid "Time since"
 msgstr "Geçen zaman"
 
 #. TRANSLATORS: There follows a list of packages downloaded and ready
 #. * to be updated
-#: client/pk-console.c:1538
+#: client/pk-console.c:1594
 msgid "Prepared updates:"
 msgstr "Hazırlanan güncellemeler:"
 
 #. TRANSLATORS: The network settings could not be sent
-#: client/pk-console.c:1607
+#: client/pk-console.c:1663
 msgid "The proxy could not be set"
 msgstr "Vekil sunucu ayarlanamadı"
 
 #. TRANSLATORS: command line argument, just show the version string
-#: client/pk-console.c:1649 client/pk-monitor.c:330
+#: client/pk-console.c:1705 client/pk-monitor.c:330
 msgid "Show the program version and exit"
 msgstr "Uygulama sürümünü göster ve çık"
 
 #. TRANSLATORS: command line argument, use a filter to narrow down results
-#: client/pk-console.c:1652
+#: client/pk-console.c:1708
 msgid "Set the filter, e.g. installed"
-msgstr "Süzgeci ayarla; örn. kurulu"
+msgstr "Süzgeci ayarla; örneğin, kurulu"
 
 #. command line argument, do we ask questions
-#: client/pk-console.c:1655
+#: client/pk-console.c:1711
 msgid "Install the packages without asking for confirmation"
 msgstr "Paketleri onay istemeden kur"
 
 #. command line argument, do we just download or apply changes
-#: client/pk-console.c:1658
+#: client/pk-console.c:1714
 msgid "Prepare the transaction by downloading packages only"
-msgstr "İletimi sadece paketleri indirecek biçimde ayarla"
+msgstr "İşlemi yalnızca paketleri indirecek biçimde ayarla"
 
 #. command line argument, do we allow package downgrades
-#: client/pk-console.c:1661
+#: client/pk-console.c:1717
 msgid "Allow packages to be downgraded during transaction"
 msgstr "İşlem sırasında paketlerin eski sürümlere indirilmesine izin ver"
 
-#: client/pk-console.c:1663
+#: client/pk-console.c:1719
 msgid "Allow packages to be reinstalled during transaction"
 msgstr "İşlem sırasında paketlerin yeniden kurulmasına izin ver"
 
-#: client/pk-console.c:1665
+#: client/pk-console.c:1721
 msgid "Automatically remove unused dependencies"
 msgstr "Kullanılmayan bağımlılıkları kendiliğinden kaldır"
 
 #. TRANSLATORS: command line argument, this command is not a priority
-#: client/pk-console.c:1668
+#: client/pk-console.c:1724
 msgid "Run the command using idle network bandwidth and also using less power"
 msgstr "Komutu ağ kullanılmadığında çalıştır ve daha az güç harca"
 
 #. TRANSLATORS: command line argument, just output without fancy formatting
-#: client/pk-console.c:1671
+#: client/pk-console.c:1727
 msgid ""
 "Print to screen a machine readable output, rather than using animated widgets"
 msgstr ""
 "Ekrana canlandırmalı araç takımları yerine makine okuyabilir bir çıktı yazdır"
 
 #. TRANSLATORS: command line argument, just output without fancy formatting
-#: client/pk-console.c:1674
+#: client/pk-console.c:1730
 msgid ""
 "The maximum metadata cache age (in seconds). Use -1 to use only cache, 1 to "
 "reload cache."
 msgstr ""
+"En büyük üst veri önbelleği yaşı (saniye türünden). Yalnızca önbelleği "
+"kullanmak için -1, önbelleği yeniden yüklemek için 1 kullanın."
 
 #. command line argument, do we ask questions
-#: client/pk-console.c:1677
+#: client/pk-console.c:1733
 msgid "Allow untrusted packages to be installed."
 msgstr "Güvenilmeyen paketlerin kurulmasına izin verin."
 
 #. TRANSLATORS: we failed to contact the daemon
-#: client/pk-console.c:1715
+#: client/pk-console.c:1771
 msgid "Failed to parse command line"
 msgstr "Komut satırı ayrıştırılamadı"
 
 #. TRANSLATORS: we failed to contact the daemon
-#: client/pk-console.c:1725
+#: client/pk-console.c:1781
 msgid "Failed to contact PackageKit"
-msgstr "PackageKit'e bağlanılamadı"
+msgstr "PackageKit’e bağlanılamadı"
 
 #. TRANSLATORS: The user specified
 #. * an incorrect filter
-#: client/pk-console.c:1788
+#: client/pk-console.c:1844
 msgid "The filter specified was invalid"
 msgstr "Belirtilen süzgeç geçersiz"
 
 #. TRANSLATORS: a search type can
 #. * be name, details, file, etc
-#: client/pk-console.c:1814
+#: client/pk-console.c:1870
 msgid "A search type is required, e.g. name"
-msgstr "Bir arama türü gerekiyor; örn. ad"
+msgstr "Bir arama türü gerekiyor; örneğin, ad"
 
 #. TRANSLATORS: the user
 #. * needs to provide a search term
 #. TRANSLATORS: the user needs
 #. * to provide a search term
-#: client/pk-console.c:1824 client/pk-console.c:1841 client/pk-console.c:1858
-#: client/pk-console.c:1875
+#: client/pk-console.c:1880 client/pk-console.c:1897 client/pk-console.c:1914
+#: client/pk-console.c:1931
 msgid "A search term is required"
 msgstr "Bir arama terimi gerekiyor"
 
 #. TRANSLATORS: the user did not
 #. * specify what they wanted to install
-#: client/pk-console.c:1901
+#: client/pk-console.c:1957
 msgid "A package name to install is required"
 msgstr "Kurulum için bir paket adı gerekiyor"
 
 #. TRANSLATORS: the user did not
 #. * specify what they wanted to install
-#: client/pk-console.c:1915
+#: client/pk-console.c:1971
 msgid "A filename to install is required"
 msgstr "Kurulum için bir dosya adı gerekiyor"
 
 #. TRANSLATORS: geeky error, real
 #. * users won't see this
-#: client/pk-console.c:1931
+#: client/pk-console.c:1987
 msgid "A type, key_id and package_id are required"
 msgstr "Bir tür, key_id ve package_id gerekiyor"
 
 #. TRANSLATORS: the user did not
 #. * specify what they wanted to remove
-#: client/pk-console.c:1949
+#: client/pk-console.c:2005
 msgid "A package name to remove is required"
 msgstr "Kaldırılacak paketin adı gerekiyor"
 
 #. TRANSLATORS: the user did not
 #. * specify anything about what to
 #. * download or where
-#: client/pk-console.c:1962
+#: client/pk-console.c:2018
 msgid "A destination directory and the package names to download are required"
 msgstr "Bir hedef dizin ve indirilecek paketlerin adları gerekiyor"
 
 #. TRANSLATORS: the directory does
 #. * not exist, so we can't continue
-#: client/pk-console.c:1972
+#: client/pk-console.c:2028
 msgid "Directory not found"
 msgstr "Dizin bulunamadı"
 
 #. TRANSLATORS: geeky error, real
 #. * users won't see this
-#: client/pk-console.c:1987
+#: client/pk-console.c:2043
 msgid "A licence identifier (eula-id) is required"
 msgstr "Bir lisans belirleyici (eula kimliği) gerekiyor"
 
 #. TRANSLATORS: The user did not
 #. * specify a package name
-#: client/pk-console.c:2013
+#: client/pk-console.c:2069
 msgid "A package name to resolve is required"
 msgstr "Çözümlenecek bir paket adı gerekiyor"
 
 #. TRANSLATORS: The user did not
 #. * specify a repository name
-#: client/pk-console.c:2030 client/pk-console.c:2047
+#: client/pk-console.c:2086 client/pk-console.c:2103
 msgid "A repository name is required"
 msgstr "Bir depo adı gerekiyor"
 
-#: client/pk-console.c:2063
+#: client/pk-console.c:2119
 msgid "A repo name, parameter and value are required"
 msgstr "Bir depo adı, parametre ve değer gerekiyor"
 
-#: client/pk-console.c:2080
+#: client/pk-console.c:2136
 msgid "A repo id and autoremove required"
 msgstr "Bir depo kimliği ve otomatik kaldırma gerekiyor"
 
 #. TRANSLATORS: The user didn't
 #. * specify what action to use
-#: client/pk-console.c:2107
+#: client/pk-console.c:2163
 msgid "An action, e.g. 'update-packages' is required"
-msgstr "'update-packages' gibi bir eylem gerekiyor"
+msgstr "“update-packages” gibi bir eylem gerekiyor"
 
 #. TRANSLATORS: The user specified
 #. * an invalid action
-#: client/pk-console.c:2117
+#: client/pk-console.c:2173
 msgid "A correct role is required"
 msgstr "Bir doğru rol gerekiyor"
 
 #. TRANSLATORS: The user did not
 #. * provide a package name
-#: client/pk-console.c:2137 client/pk-console.c:2154 client/pk-console.c:2166
-#: client/pk-console.c:2196 client/pk-console.c:2229
+#: client/pk-console.c:2193 client/pk-console.c:2210 client/pk-console.c:2222
+#: client/pk-console.c:2252 client/pk-console.c:2285
 msgid "A package name is required"
 msgstr "Bir paket adı gerekiyor"
 
@@ -646,46 +648,46 @@ msgstr "Bir paket adı gerekiyor"
 #. * "provides" certain things, e.g.
 #. * mime(gstreamer-decoder-mp3),
 #. * the user didn't specify it
-#: client/pk-console.c:2180
+#: client/pk-console.c:2236
 msgid "A package provide string is required"
 msgstr "Paket sağlayan karakter dizisi gerekiyor"
 
-#: client/pk-console.c:2207 client/pk-console.c:2218
+#: client/pk-console.c:2263 client/pk-console.c:2274
 msgid "A filename is required"
 msgstr "Bir dosya adı gerekiyor"
 
 #. TRANSLATORS: this is the description of the backend
-#: client/pk-console.c:2290
+#: client/pk-console.c:2346
 msgid "Description"
 msgstr "Açıklama"
 
 #. TRANSLATORS: this is the author of the backend
-#: client/pk-console.c:2294
+#: client/pk-console.c:2350
 msgid "Author"
 msgstr "Yazar"
 
 #. TRANSLATORS: The user did not provide a distro name
-#: client/pk-console.c:2364
+#: client/pk-console.c:2420
 msgid "You need to specify a list file to create"
 msgstr "Oluşturulması için bir liste dosyası belirtmelisiniz"
 
 #. TRANSLATORS: There was an error
 #. * getting the list of packages.
 #. * The filename follows
-#: client/pk-console.c:2377
+#: client/pk-console.c:2433
 #, c-format
 msgid "File already exists: %s"
-msgstr "Böyle bir dosya halihazırda var: %s"
+msgstr "Dosya zaten var: %s"
 
 #. TRANSLATORS: The user tried to use an
 #. * unsupported option on the command line
-#: client/pk-console.c:2395
+#: client/pk-console.c:2451
 #, c-format
 msgid "Option '%s' is not supported"
-msgstr "'%s' seçeneği desteklenmiyor"
+msgstr "“%s” seçeneği desteklenmiyor"
 
 #. TRANSLATORS: Generic failure of what they asked to do
-#: client/pk-console.c:2405
+#: client/pk-console.c:2461
 msgid "Command failed"
 msgstr "Komut başarısız"
 
@@ -703,47 +705,47 @@ msgid "PackageKit Monitor"
 msgstr "PackageKit İzleyicisi"
 
 #. TRANSLATORS: this is a percentage value we use in messages, e.g. "90%"
-#: client/pk-offline-update.c:155
+#: client/pk-offline-update.c:161
 #, c-format
 msgid "%i%%"
-msgstr ""
+msgstr "%%%i"
 
 #. TRANSLATORS: this is the message we send plymouth to
 #. * advise of the new percentage completion when installing system upgrades
-#: client/pk-offline-update.c:161
+#: client/pk-offline-update.c:167
 msgid "Installing System Upgrade"
 msgstr "Sistem Yükseltmesi Kuruluyor"
 
 #. TRANSLATORS: this is the message we send plymouth to
 #. * advise of the new percentage completion when installing updates
-#: client/pk-offline-update.c:165
+#: client/pk-offline-update.c:171
 msgid "Installing Updates"
 msgstr "Güncellemeler Kuruluyor"
 
 #. TRANSLATORS: we've finished doing offline updates
-#: client/pk-offline-update.c:201
+#: client/pk-offline-update.c:207
 msgid "Rebooting after installing updates…"
-msgstr "Güncellemeler kuruldu, bilgisayar yeniden başlatılıyor..."
+msgstr "Güncellemeler kuruldu, bilgisayar yeniden başlatılıyor…"
 
 #. TRANSLATORS: we've finished doing offline updates
-#: client/pk-offline-update.c:243
+#: client/pk-offline-update.c:249
 msgid "Shutting down after installing updates…"
 msgstr "Güncellemeler kurulduktan sonra kapatılıyor…"
 
 #. TRANSLATORS: we've started doing offline updates
-#: client/pk-offline-update.c:384
+#: client/pk-offline-update.c:394
 msgid "Installing updates; this could take a while..."
-msgstr "Güncellemeler kuruluyor, bu biraz vakit alabilir..."
+msgstr "Güncellemeler kuruluyor; bu, biraz vakit alabilir…"
 
 #. TRANSLATORS: we've started doing offline system upgrade
-#: client/pk-offline-update.c:421
+#: client/pk-offline-update.c:434
 msgid "Installing system upgrade; this could take a while..."
-msgstr "Sistem yükseltmesi kuruluyor, bu işlem biraz vakit alabilir..."
+msgstr "Sistem yükseltmesi kuruluyor; bu, biraz vakit alabilir…"
 
 #. TRANSLATORS: downloading repo data so we can search
 #: contrib/command-not-found/pk-command-not-found.c:427
 msgid "Downloading details about the software repositories."
-msgstr "Yazılım depolarıyla ilgili ayrıntıları indir."
+msgstr "Yazılım depolarıyla ilgili ayrıntılar indiriliyor…"
 
 #. TRANSLATORS: downloading file lists so we can search
 #: contrib/command-not-found/pk-command-not-found.c:431
@@ -753,12 +755,12 @@ msgstr "Dosya listesi indiriliyor (tamamlanması biraz vakit alabilir)."
 #. TRANSLATORS: waiting for native lock
 #: contrib/command-not-found/pk-command-not-found.c:435
 msgid "Waiting for package manager lock."
-msgstr "Paket yöneticisinin kilitlenmesi bekleniyor."
+msgstr "Paket yöneticisi kilidi bekleniyor…"
 
 #. TRANSLATORS: loading package cache so we can search
 #: contrib/command-not-found/pk-command-not-found.c:439
 msgid "Loading list of packages."
-msgstr "Paketlerin listesi yükleniyor."
+msgstr "Paketlerin listesi yükleniyor…"
 
 #. TRANSLATORS: we failed to find the package, this shouldn't happen
 #: contrib/command-not-found/pk-command-not-found.c:499
@@ -818,7 +820,7 @@ msgstr "Bu dosyayı içeren paket:"
 #: contrib/command-not-found/pk-command-not-found.c:870
 #, c-format
 msgid "Install package '%s' to provide command '%s'?"
-msgstr "'%s' paketi '%s' komutunu sağlaması için kurulsun mu?"
+msgstr "“%s” paketi “%s” komutunu sağlaması için kurulsun mu?"
 
 #. TRANSLATORS: Show the user a list of packages that provide this command
 #: contrib/command-not-found/pk-command-not-found.c:893
@@ -1097,31 +1099,23 @@ msgstr "Kullanılamaz"
 
 #. TRANSLATORS: The state of a package: to be installed with the next action
 #: lib/packagekit-glib2/pk-enum.c:1017
-#, fuzzy
-#| msgid "Installed"
 msgid "Install"
-msgstr "Kurulu"
+msgstr "Kur"
 
 #. TRANSLATORS: The state of a package: to be removed with the next action
 #: lib/packagekit-glib2/pk-enum.c:1021
-#, fuzzy
-#| msgid "Removed"
 msgid "Remove"
-msgstr "Kaldırıldı"
+msgstr "Kaldır"
 
 #. TRANSLATORS: The state of a package: package is obsolete
 #: lib/packagekit-glib2/pk-enum.c:1025
-#, fuzzy
-#| msgid "Obsoleted"
 msgid "Obsolete"
-msgstr "Gereksiz Yapıldı"
+msgstr "Eski"
 
 #. TRANSLATORS: The state of a package: package is to be downgraded
 #: lib/packagekit-glib2/pk-enum.c:1029
-#, fuzzy
-#| msgid "Downloaded"
 msgid "Downgrade"
-msgstr "İndirildi"
+msgstr "Düşür"
 
 #. TRANSLATORS: The action of the package, in present tense
 #: lib/packagekit-glib2/pk-enum.c:1054
@@ -1158,7 +1152,7 @@ msgstr "Geçersiz kılınıyor"
 #. TRANSLATORS: The action of the package, in present tense
 #: lib/packagekit-glib2/pk-enum.c:1078
 msgid "Reinstalling"
-msgstr "Yeniden Kuruluyor"
+msgstr "Yeniden kuruluyor"
 
 #. TRANSLATORS: The action of the package, in past tense
 #: lib/packagekit-glib2/pk-enum.c:1103
@@ -1178,12 +1172,12 @@ msgstr "Temizlendi"
 #. TRANSLATORS: The action of the package, in past tense
 #: lib/packagekit-glib2/pk-enum.c:1123
 msgid "Obsoleted"
-msgstr "Gereksiz Yapıldı"
+msgstr "Gereksiz yapıldı"
 
 #. TRANSLATORS: The action of the package, in past tense
 #: lib/packagekit-glib2/pk-enum.c:1127
 msgid "Reinstalled"
-msgstr "Yeniden Kuruldu"
+msgstr "Yeniden kuruldu"
 
 #. TRANSLATORS: The role of the transaction, in present tense
 #: lib/packagekit-glib2/pk-enum.c:1152
@@ -1326,159 +1320,159 @@ msgid "Getting system upgrades"
 msgstr "Sistem yükseltmeleri alınıyor"
 
 #. TRANSLATORS: this is a percentage value we use in messages, e.g. "90%.
-#: lib/packagekit-glib2/pk-progress-bar.c:138
-#: lib/packagekit-glib2/pk-progress-bar.c:182
+#: lib/packagekit-glib2/pk-progress-bar.c:146
+#: lib/packagekit-glib2/pk-progress-bar.c:191
 #, c-format
 msgid "(%i%%)"
-msgstr ""
+msgstr "(%%%i)"
 
 #. TRANSLATORS: ask the user if they are comfortable installing insecure packages
-#: lib/packagekit-glib2/pk-task-text.c:66
+#: lib/packagekit-glib2/pk-task-text.c:54
 msgid "Do you want to allow installing of unsigned software?"
 msgstr "İmzalanmamış yazılımların kurulmasına izin veriyor musunuz?"
 
 #. TRANSLATORS: tell the user we've not done anything
-#: lib/packagekit-glib2/pk-task-text.c:71
+#: lib/packagekit-glib2/pk-task-text.c:59
 msgid "The unsigned software will not be installed."
 msgstr "İmzalanmamış yazılımlar kurulmayacak."
 
 #. TRANSLATORS: the package repository is signed by a key that is not recognised
-#: lib/packagekit-glib2/pk-task-text.c:120
+#: lib/packagekit-glib2/pk-task-text.c:104
 msgid "Software source signature required"
 msgstr "Yazılım kaynak imzası gerekiyor"
 
 #. TRANSLATORS: the package repository name
-#: lib/packagekit-glib2/pk-task-text.c:126
+#: lib/packagekit-glib2/pk-task-text.c:110
 msgid "Software source name"
 msgstr "Yazılım kaynağı adı"
 
 #. TRANSLATORS: the key URL
-#: lib/packagekit-glib2/pk-task-text.c:129
+#: lib/packagekit-glib2/pk-task-text.c:113
 msgid "Key URL"
-msgstr "Anahtar URL'si"
+msgstr "Anahtar URL’si"
 
 #. TRANSLATORS: the username of the key
-#: lib/packagekit-glib2/pk-task-text.c:132
+#: lib/packagekit-glib2/pk-task-text.c:116
 msgid "Key user"
 msgstr "Anahtar kullanıcısı"
 
 #. TRANSLATORS: the key ID, usually a few hex digits
-#: lib/packagekit-glib2/pk-task-text.c:135
+#: lib/packagekit-glib2/pk-task-text.c:119
 msgid "Key ID"
 msgstr "Anahtar kimliği"
 
 #. TRANSLATORS: the key fingerprint, again, yet more hex
-#: lib/packagekit-glib2/pk-task-text.c:138
+#: lib/packagekit-glib2/pk-task-text.c:122
 msgid "Key fingerprint"
 msgstr "Anahtar parmak izi"
 
 #. TRANSLATORS: the timestamp (a bit like a machine readable time)
-#: lib/packagekit-glib2/pk-task-text.c:141
+#: lib/packagekit-glib2/pk-task-text.c:125
 msgid "Key Timestamp"
 msgstr "Anahtar zaman damgası"
 
 #. TRANSLATORS: ask the user if they want to import
-#: lib/packagekit-glib2/pk-task-text.c:154
+#: lib/packagekit-glib2/pk-task-text.c:138
 msgid "Do you accept this signature?"
 msgstr "İmzayı kabul ediyor musunuz?"
 
 #. TRANSLATORS: tell the user we've not done anything
-#: lib/packagekit-glib2/pk-task-text.c:159
+#: lib/packagekit-glib2/pk-task-text.c:143
 msgid "The signature was not accepted."
 msgstr "İmza kabul edilmedi."
 
 #. TRANSLATORS: this is another name for a software licence that has to be read before installing
-#: lib/packagekit-glib2/pk-task-text.c:195
+#: lib/packagekit-glib2/pk-task-text.c:175
 msgid "End user licence agreement required"
 msgstr "Son kullanıcı sözleşmesini kabul etmeniz gerekiyor"
 
 #. TRANSLATORS: the EULA text itself (long and boring)
-#: lib/packagekit-glib2/pk-task-text.c:204
+#: lib/packagekit-glib2/pk-task-text.c:184
 msgid "Agreement"
 msgstr "Antlaşma"
 
 #. TRANSLATORS: ask the user if they've read and accepted the EULA
-#: lib/packagekit-glib2/pk-task-text.c:208
+#: lib/packagekit-glib2/pk-task-text.c:188
 msgid "Do you accept this agreement?"
 msgstr "Bu antlaşmayı kabul ediyor musunuz?"
 
 #. TRANSLATORS: tell the user we've not done anything
-#: lib/packagekit-glib2/pk-task-text.c:213
+#: lib/packagekit-glib2/pk-task-text.c:193
 msgid "The agreement was not accepted."
 msgstr "Antlaşma kabul edilmedi."
 
 #. TRANSLATORS: the user needs to change media inserted into the computer
-#: lib/packagekit-glib2/pk-task-text.c:252
+#: lib/packagekit-glib2/pk-task-text.c:228
 msgid "Media change required"
 msgstr "Ortam değişikliği gerekiyor"
 
 #. TRANSLATORS: the type, e.g. DVD, CD, etc
-#: lib/packagekit-glib2/pk-task-text.c:255
+#: lib/packagekit-glib2/pk-task-text.c:231
 msgid "Media type"
 msgstr "Ortam türü"
 
 #. TRANSLATORS: the media label, usually like 'disk-1of3'
-#: lib/packagekit-glib2/pk-task-text.c:258
+#: lib/packagekit-glib2/pk-task-text.c:234
 msgid "Media label"
 msgstr "Ortam etiketi"
 
 #. TRANSLATORS: the media description, usually like 'Fedora 12 disk 5'
-#: lib/packagekit-glib2/pk-task-text.c:261
+#: lib/packagekit-glib2/pk-task-text.c:237
 msgid "Text"
 msgstr "Metin"
 
 #. TRANSLATORS: ask the user to insert the media
-#: lib/packagekit-glib2/pk-task-text.c:267
+#: lib/packagekit-glib2/pk-task-text.c:243
 msgid "Please insert the correct media"
 msgstr "Lütfen doğru ortamı yerleştirin"
 
 #. TRANSLATORS: tell the user we've not done anything as they are lazy
-#: lib/packagekit-glib2/pk-task-text.c:272
+#: lib/packagekit-glib2/pk-task-text.c:248
 msgid "The correct media was not inserted."
 msgstr "Doğru ortam takılmadı."
 
 #. TRANSLATORS: When processing, we might have to remove other dependencies
-#: lib/packagekit-glib2/pk-task-text.c:287
+#: lib/packagekit-glib2/pk-task-text.c:263
 msgid "The following packages have to be removed:"
 msgstr "Aşağıdaki paketler kaldırılmalıdır:"
 
 #. TRANSLATORS: When processing, we might have to install other dependencies
-#: lib/packagekit-glib2/pk-task-text.c:292
+#: lib/packagekit-glib2/pk-task-text.c:268
 msgid "The following packages have to be installed:"
 msgstr "Aşağıdaki paketler kurulmalıdır:"
 
 #. TRANSLATORS: When processing, we might have to update other dependencies
-#: lib/packagekit-glib2/pk-task-text.c:297
+#: lib/packagekit-glib2/pk-task-text.c:273
 msgid "The following packages have to be updated:"
 msgstr "Aşağıdaki paketler yükseltilmelidir:"
 
 #. TRANSLATORS: When processing, we might have to reinstall other dependencies
-#: lib/packagekit-glib2/pk-task-text.c:302
+#: lib/packagekit-glib2/pk-task-text.c:278
 msgid "The following packages have to be reinstalled:"
 msgstr "Aşağıdaki paketler yeniden kurulmalıdır:"
 
 #. TRANSLATORS: When processing, we might have to downgrade other dependencies
-#: lib/packagekit-glib2/pk-task-text.c:307
+#: lib/packagekit-glib2/pk-task-text.c:283
 msgid "The following packages have to be downgraded:"
 msgstr "Aşağıdaki paketlerin eski sürümleri kurulmalıdır:"
 
 #. TRANSLATORS: When processing, we might have to obsolete other dependencies
-#: lib/packagekit-glib2/pk-task-text.c:312
+#: lib/packagekit-glib2/pk-task-text.c:288
 msgid "The following packages have to be obsoleted:"
 msgstr "Aşağıdaki paketler kullanılmamalıdır: "
 
 #. TRANSLATORS: When processing, untrusted and non-verified packages may be encountered
-#: lib/packagekit-glib2/pk-task-text.c:317
+#: lib/packagekit-glib2/pk-task-text.c:293
 msgid "The following packages are untrusted:"
 msgstr "Aşağıdaki paketlere güvenilmiyor:"
 
 #. TRANSLATORS: ask the user if the proposed changes are okay
-#: lib/packagekit-glib2/pk-task-text.c:421
+#: lib/packagekit-glib2/pk-task-text.c:393
 msgid "Proceed with changes?"
 msgstr "Değişiklikler uygulansın mı?"
 
 #. TRANSLATORS: tell the user we didn't do anything
-#: lib/packagekit-glib2/pk-task-text.c:426
+#: lib/packagekit-glib2/pk-task-text.c:398
 msgid "The transaction did not proceed."
 msgstr "İşlem sürdürülemedi."
 
@@ -1800,7 +1794,7 @@ msgstr "Küçük bir gecikme sonrasında çık"
 #. TRANSLATORS: exit straight away, used for automatic profiling
 #: src/pk-main.c:129
 msgid "Exit after the engine has loaded"
-msgstr "İşletke yüklendikten sonra çık"
+msgstr "Motor yüklendikten sonra çık"
 
 #. TRANSLATORS: don't unset environment variables, used for debugging
 #: src/pk-main.c:132
@@ -1826,25 +1820,25 @@ msgid "Failed to load the backend: %s"
 msgstr "Arka uç yüklenemedi: %s"
 
 #. TRANSLATORS: is not GPG signed
-#: src/pk-transaction.c:2734
+#: src/pk-transaction.c:2724
 msgid "The software is not from a trusted source."
 msgstr "Bu yazılım güvenilir bir kaynaktan gelmiyor."
 
-#: src/pk-transaction.c:2742
+#: src/pk-transaction.c:2732
 msgid "Do not update this package unless you are sure it is safe to do so."
 msgstr ""
 "Bunu yapmanın güvenli olduğundan emin değilseniz bu paketi güncellemeyin."
 
-#: src/pk-transaction.c:2743
+#: src/pk-transaction.c:2733
 msgid "Do not update these packages unless you are sure it is safe to do so."
 msgstr ""
 "Bunu yapmanın güvenli olduğundan emin değilseniz bu paketleri güncellemeyin."
 
-#: src/pk-transaction.c:2753
+#: src/pk-transaction.c:2743
 msgid "Do not install this package unless you are sure it is safe to do so."
 msgstr "Bunu yapmanın güvenli olduğundan emin değilseniz bu paketi kurmayın."
 
-#: src/pk-transaction.c:2754
+#: src/pk-transaction.c:2744
 msgid "Do not install these packages unless you are sure it is safe to do so."
 msgstr ""
 "Bunu yapmanın güvenli olduğundan emin değilseniz bu paketleri kurmayın."

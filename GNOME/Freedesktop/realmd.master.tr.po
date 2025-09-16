@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: realmd\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/realmd/realmd/issues\n"
-"POT-Creation-Date: 2022-09-28 15:27+0000\n"
+"POT-Creation-Date: 2025-09-16 15:35+0000\n"
 "PO-Revision-Date: 2017-09-19 19:43+0000\n"
 "Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/freedesktop/realmd/language/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Process was terminated with signal: %d"
 msgstr "Süreç şu sinyal ile sonlandırıldı: %d"
 
-#: ../service/realm-command.c:400 ../service/realm-ldap.c:424
+#: ../service/realm-command.c:400 ../service/realm-ldap.c:429
 #, c-format
 msgid "The operation was cancelled"
 msgstr "İşlem iptal edildi"
@@ -53,17 +53,17 @@ msgstr "Sunucudan geçersiz veya desteklenmeyen Netlogon verisi alındı"
 msgid "LDAP on this system does not support UDP connections"
 msgstr "Sistem üzerindeki LDAP, UDP bağlantılarını desteklemiyor"
 
-#: ../service/realm-disco-mscldap.c:354 ../service/realm-disco-rootdse.c:480
+#: ../service/realm-disco-mscldap.c:354 ../service/realm-disco-rootdse.c:538
 msgid "Failed to setup LDAP connection"
 msgstr ""
 
-#: ../service/realm-example.c:82 ../service/realm-samba.c:293
-#: ../service/realm-sssd-ad.c:362 ../service/realm-sssd-ipa.c:304
+#: ../service/realm-example.c:82 ../service/realm-samba.c:292
+#: ../service/realm-sssd-ad.c:365 ../service/realm-sssd-ipa.c:327
 #, c-format
 msgid "Unsupported or unknown membership software '%s'"
 msgstr "Desteklenmeyen veya bilinmeyen '%s' üyelik yazılımı"
 
-#: ../service/realm-example.c:170 ../service/realm-samba.c:334
+#: ../service/realm-example.c:170 ../service/realm-samba.c:333
 msgid "Already joined to a domain"
 msgstr "Zaten bir alana katılındı"
 
@@ -71,8 +71,8 @@ msgstr "Zaten bir alana katılındı"
 msgid "Admin name or password is not valid"
 msgstr "Yönetici adı veya parolası gereçersiz"
 
-#: ../service/realm-example.c:242 ../service/realm-samba.c:475
-#: ../service/realm-sssd-ad.c:584
+#: ../service/realm-example.c:242 ../service/realm-samba.c:474
+#: ../service/realm-sssd-ad.c:587 ../service/realm-sssd-ad.c:708
 msgid "Not currently joined to this domain"
 msgstr "Yakında bu alana katılmamış"
 
@@ -80,93 +80,94 @@ msgstr "Yakında bu alana katılmamış"
 msgid "Need credentials for leaving this domain"
 msgstr "Bu alandan ayrılmak için kimlik bilgileri gereklidir"
 
-#: ../service/realm-ini-config.c:736
+#: ../service/realm-ini-config.c:752
 #, c-format
 msgid "Couldn't write out config: %s"
 msgstr "Yapılandırmaya yazılamadı: %s"
 
-#: ../service/realm-invocation.c:536
+#: ../service/realm-invocation.c:537
 msgid "Not authorized to perform this action"
 msgstr "Bu eylemi gerçekleştirmeye yetkili değilsiniz"
 
-#: ../service/realm-kerberos.c:130 ../service/realm-kerberos.c:208
+#: ../service/realm-kerberos.c:131 ../service/realm-kerberos.c:209
 #: ../service/realm-provider.c:158
 msgid "Operation was cancelled."
 msgstr "İşlem iptal edildi."
 
-#: ../service/realm-kerberos.c:135
+#: ../service/realm-kerberos.c:136
 msgid "Failed to enroll machine in realm. See diagnostics."
 msgstr ""
 "Makinenin erişim alanına kaydedilmesi başarısız oldu. Tanılamalara bakın."
 
-#: ../service/realm-kerberos.c:213
+#: ../service/realm-kerberos.c:214
 msgid "Failed to unenroll machine from domain. See diagnostics."
 msgstr ""
 "Makinenin erişim alanından çıkartılması başarısız oldu. Tanılamalara bakın."
 
-#: ../service/realm-kerberos.c:273
+#: ../service/realm-kerberos.c:274
 msgid "Joining this realm without credentials is not supported"
 msgstr "Bu erişim alanına kimlik bilgileri olmadan katılmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:274
+#: ../service/realm-kerberos.c:275
 msgid "Leaving this realm without credentials is not supported"
 msgstr "Bu erişim alanından kimlik bilgileri olmadan ayrılmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:277
+#: ../service/realm-kerberos.c:278
 msgid "Joining this realm using a credential cache is not supported"
 msgstr ""
 "Bu erişim alanına bir kimlik bilgisi ön belleği kullanarak katılmak "
 "desteklenmiyor"
 
-#: ../service/realm-kerberos.c:278
+#: ../service/realm-kerberos.c:279
 msgid "Leaving this realm using a credential cache is not supported"
 msgstr ""
 "Bu erişim alanından bir kimlik bilgisi ön belleği kullanarak ayrılmak "
 "desteklenmiyor"
 
-#: ../service/realm-kerberos.c:281
+#: ../service/realm-kerberos.c:282
 msgid "Joining this realm using a secret is not supported"
 msgstr "Bu erişim alanına bir sırrı kullanarak katılmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:282
+#: ../service/realm-kerberos.c:283
 msgid "Unenrolling this realm using a secret is not supported"
 msgstr "Bu erişim alanından bir sırrı kullanarak ayrılmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:285
+#: ../service/realm-kerberos.c:286
 msgid "Enrolling this realm using a password is not supported"
 msgstr "Bu erişim alanına bir parola kullanarak kayıt yaptırmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:286
+#: ../service/realm-kerberos.c:287
 msgid "Unenrolling this realm using a password is not supported"
 msgstr "Bu erişim alanından bir parola kullanarak ayrılmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:312
+#: ../service/realm-kerberos.c:313
 msgid "Joining this realm is not supported"
 msgstr "Bu erişim alanına katılmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:313
+#: ../service/realm-kerberos.c:314
 msgid "Leaving this realm is not supported"
 msgstr "Bu erişim alanından ayrılmak desteklenmiyor"
 
-#: ../service/realm-kerberos.c:333 ../service/realm-kerberos.c:506
+#: ../service/realm-kerberos.c:335 ../service/realm-kerberos.c:446
+#: ../service/realm-kerberos.c:564
 msgid "Already running another action"
 msgstr "Zaten başka eylem çalışıyor"
 
-#: ../service/realm-kerberos.c:377
+#: ../service/realm-kerberos.c:381
 #, c-format
 msgid "Already joined to another domain: %s"
 msgstr "Zaten başka bir alana katılındı: %s"
 
-#: ../service/realm-kerberos.c:448
+#: ../service/realm-kerberos.c:506
 msgid "Failed to change permitted logins. See diagnostics."
 msgstr "İzin verilen oturumlar değiştirilemedi. Tanılamalara bakın."
 
-#: ../service/realm-kerberos.c:749
+#: ../service/realm-kerberos.c:809
 #, c-format
 msgid "The realm does not allow specifying logins"
 msgstr "Bu erişim alanı oturumları belirtmeye izin vermiyor"
 
-#: ../service/realm-kerberos.c:757
+#: ../service/realm-kerberos.c:817
 #, c-format
 msgid "Invalid login argument%s%s%s does not match the login format."
 msgstr "Geçersiz oturum açma değişkeni%s%s%s oturum açma biçimiyle eşleşmiyor."
@@ -190,7 +191,7 @@ msgstr "Gerekli paketler kurulmamış: %s"
 #. * to configure, enable and start stuff. So if you're properly
 #. * worried, remove realmd and do stuff manually.
 #.
-#: ../service/realm-packages.c:478 ../tools/realm-client.c:143
+#: ../service/realm-packages.c:478 ../tools/realm-client.c:144
 msgid "Installing necessary packages"
 msgstr "Gerekli paketler kuruluyor"
 
@@ -198,12 +199,12 @@ msgstr "Gerekli paketler kuruluyor"
 msgid "Failed to discover realm. See diagnostics."
 msgstr "Erişim alanının keşfi başarısız oldu. Tanılamalara bakın."
 
-#: ../service/realm-samba.c:520
+#: ../service/realm-samba.c:519 ../tools/realm-renew.c:118
 #, c-format
 msgid "Not joined to this domain"
 msgstr "Bu alana katılınmadı "
 
-#: ../service/realm-samba.c:530 ../service/realm-samba.c:572
+#: ../service/realm-samba.c:529 ../service/realm-samba.c:571
 #, c-format
 msgid "The Samba provider cannot restrict permitted logins."
 msgstr "Samba sağlayıcı izin verilen oturumları kısıtlayamaz."
@@ -214,17 +215,17 @@ msgid "Invalid login argument '%s' contains unsupported characters."
 msgstr ""
 "Geçersiz oturum açma değişkeni '%s' desteklenmeyen karakterler içeriyor."
 
-#: ../service/realm-sssd-ad.c:128
+#: ../service/realm-sssd-ad.c:131
 #, c-format
 msgid "Enabling SSSD in nsswitch.conf and PAM failed."
 msgstr "PAM ve nsswitch.conf içinde SSSD etkinleştirmesi başarısız oldu."
 
-#: ../service/realm-sssd-ad.c:277
+#: ../service/realm-sssd-ad.c:280
 #, c-format
 msgid "Unable to automatically join the domain"
 msgstr "Alana otomatik olarak katılınamadı"
 
-#: ../service/realm-sssd-ad.c:379
+#: ../service/realm-sssd-ad.c:382
 #, c-format
 msgid ""
 "Joining a domain with a one time password is only supported with the '%s' "
@@ -233,7 +234,7 @@ msgstr ""
 "Bir alana tek kullanımlık parola ile katılmak ancak '%s' üyelik yazılımı ile "
 "desteklenmektedir"
 
-#: ../service/realm-sssd-ad.c:393
+#: ../service/realm-sssd-ad.c:396
 #, c-format
 msgid ""
 "Joining a domain with a user password is only supported with the '%s' "
@@ -242,17 +243,17 @@ msgstr ""
 "Bir alana bir kullanıcı parolası ile katılmak ancak '%s' üyelik yazılımı ile "
 "desteklenmektedir"
 
-#: ../service/realm-sssd-ad.c:409
+#: ../service/realm-sssd-ad.c:412
 #, c-format
 msgid "Unsupported credentials for joining a domain"
 msgstr "Bir alana katılmak için desteklenmeyen kimlik bilgileri"
 
-#: ../service/realm-sssd-ad.c:465 ../service/realm-sssd-ipa.c:308
+#: ../service/realm-sssd-ad.c:468 ../service/realm-sssd-ipa.c:331
 #: ../tools/realm-join.c:242
 msgid "Already joined to this domain"
 msgstr "Bu alana zaten katıldınız"
 
-#: ../service/realm-sssd-ad.c:471 ../service/realm-sssd-ipa.c:312
+#: ../service/realm-sssd-ad.c:474 ../service/realm-sssd-ipa.c:335
 msgid "A domain with this name is already configured"
 msgstr "Bu isimli bir alan zaten yapılandırıldı"
 
@@ -261,22 +262,22 @@ msgstr "Bu isimli bir alan zaten yapılandırıldı"
 msgid "Already have domain %s in sssd.conf config file"
 msgstr "sssd.conf yapılandırma dosyasında %s alanı zaten mevcut"
 
-#: ../service/realm-sssd-config.c:198
+#: ../service/realm-sssd-config.c:196
 #, c-format
 msgid "Don't have domain %s in sssd.conf config file"
 msgstr "sssd.conf yapılandırma dosyasında %s alanı bulunmuyor"
 
-#: ../service/realm-sssd-ipa.c:294
+#: ../service/realm-sssd-ipa.c:317
 msgid "The computer-ou argument is not supported when joining an IPA domain."
 msgstr "computer-ou parametresi bir IPA alanına bağlanırken desteklenmez."
 
-#: ../service/realm-sssd-ipa.c:298
+#: ../service/realm-sssd-ipa.c:321
 #, fuzzy
 msgid ""
 "The do-not-touch-config option is not supported when joining an IPA domain."
 msgstr "computer-ou parametresi bir IPA alanına bağlanırken desteklenmez."
 
-#: ../service/realm-sssd-ipa.c:466
+#: ../service/realm-sssd-ipa.c:489
 msgid "Not currently joined to this realm"
 msgstr "Bu erişim alanına yakında katılmadınız"
 
@@ -293,130 +294,136 @@ msgid "Unenroll this machine from a realm"
 msgstr "Bu makineyi bir erişim alanından çıkar"
 
 #: ../tools/realm.c:43
+#, fuzzy
+#| msgid "Enroll this machine in a realm"
+msgid "Renew credentials for this machine in a realm"
+msgstr "Bu makineyi bir erişim alanına kaydettir"
+
+#: ../tools/realm.c:44
 msgid "List known realms"
 msgstr "Bilinen erişim alanlarını listele"
 
-#: ../tools/realm.c:44
+#: ../tools/realm.c:45
 msgid "Permit user logins"
 msgstr "Kullanıcı oturum açmasını kısıtla"
 
-#: ../tools/realm.c:45
+#: ../tools/realm.c:46
 msgid "Deny user logins"
 msgstr "Kullanıcı oturum açmasına izin verme"
 
-#: ../tools/realm.c:182
+#: ../tools/realm.c:183
 #, c-format
 msgid "Invalid value for %s option: %s"
 msgstr "%s seçeneği için geçersiz değer: %s"
 
-#: ../tools/realm.c:214
+#: ../tools/realm.c:215
 msgid "Install mode to a specific prefix"
 msgstr "Belirli bir önek için kurulum kipi"
 
-#: ../tools/realm.c:215
+#: ../tools/realm.c:216
 msgid "Verbose output"
 msgstr "Ayrıntılı çıktı"
 
-#: ../tools/realm.c:216
+#: ../tools/realm.c:217
 msgid "Do not prompt for input"
 msgstr "Girdi için sorma"
 
-#: ../tools/realm-client.c:193 ../tools/realm-client.c:203
+#: ../tools/realm-client.c:194 ../tools/realm-client.c:204
 msgid "Couldn't connect to realm service"
 msgstr "Erişim alanı servisine bağlanılamadı"
 
-#: ../tools/realm-client.c:232
+#: ../tools/realm-client.c:233
 msgid "Couldn't load the realm service"
 msgstr "Erişim alanı servisi yüklenemedi"
 
-#: ../tools/realm-client.c:251
+#: ../tools/realm-client.c:252
 msgid "Couldn't connect to system bus"
 msgstr "Sistem veri yoluna bağlanılamadı"
 
-#: ../tools/realm-client.c:281
+#: ../tools/realm-client.c:282
 #, c-format
 msgid "Couldn't create socket pair: %s"
 msgstr "Soket çifti oluşturulamadı: %s"
 
-#: ../tools/realm-client.c:289 ../tools/realm-client.c:321
+#: ../tools/realm-client.c:290 ../tools/realm-client.c:323
 msgid "Couldn't create socket"
 msgstr "Soket oluşturulamadı"
 
-#: ../tools/realm-client.c:302
+#: ../tools/realm-client.c:303
 msgid "Couldn't run realmd"
 msgstr "realmd çalıştırılamadı"
 
-#: ../tools/realm-client.c:569
+#: ../tools/realm-client.c:574
 #, c-format
 msgid "Couldn't create runtime directory: %s: %s"
 msgstr "Çalışma zamanı dizini oluşturulamadı: %s: %s"
 
-#: ../tools/realm-client.c:579
+#: ../tools/realm-client.c:584
 #, c-format
 msgid "Couldn't create credential cache file: %s: %s"
 msgstr "Kimlik önbellek dosyası oluşturulamadı: %s: %s"
 
-#: ../tools/realm-client.c:589
+#: ../tools/realm-client.c:594
 msgid "Couldn't resolve credential cache"
 msgstr "Kimlik önbelleği çözülemedi"
 
-#: ../tools/realm-client.c:679
+#: ../tools/realm-client.c:692
 #, c-format
 msgid "Invalid password for %s"
 msgstr "%s için geçersiz parola"
 
-#: ../tools/realm-client.c:683
+#: ../tools/realm-client.c:696
 #, c-format
 msgid "Couldn't authenticate as %s"
 msgstr "%s olarak kimlik doğrulanamadı"
 
-#: ../tools/realm-client.c:708
+#: ../tools/realm-client.c:721
 #, c-format
 msgid "Couldn't parse user name: %s"
 msgstr "Kullanıcı adı ayrıştırılamadı: %s"
 
-#: ../tools/realm-client.c:732
+#: ../tools/realm-client.c:745
 msgid "Couldn't read credential cache"
 msgstr "Kimlik ön belleği okunamadı"
 
-#: ../tools/realm-client.c:758 ../tools/realm-client.c:965
+#: ../tools/realm-client.c:771 ../tools/realm-client.c:981
 msgid "Couldn't initialize kerberos"
 msgstr "Kerberos başlatılamadı"
 
-#: ../tools/realm-client.c:821
+#: ../tools/realm-client.c:837
 #, c-format
 msgid "Cannot prompt for a password when running in unattended mode"
 msgstr "Sahipsiz kipte çalışırken parola sorulamadı"
 
-#: ../tools/realm-client.c:825
+#: ../tools/realm-client.c:841
 #, c-format
 msgid "Password for %s: "
 msgstr "%s için parola: "
 
-#: ../tools/realm-client.c:843
+#: ../tools/realm-client.c:859
 #, c-format
 msgid "Couldn't prompt for password: %s"
 msgstr "Parola sorulamadı: %s"
 
-#: ../tools/realm-client.c:878
+#: ../tools/realm-client.c:894
 #, c-format
 msgid "Realm does not support membership using a password"
 msgstr "Erişim alanı parola kullanan üyeliği desteklemiyor"
 
-#: ../tools/realm-client.c:917
+#: ../tools/realm-client.c:933
 #, c-format
 msgid "Realm does not support membership using a one time password"
 msgstr "Erişim alanı tek kullanımlık parola kullanan üyeliği desteklemiyor"
 
-#: ../tools/realm-client.c:985
+#: ../tools/realm-client.c:1001
 msgid "Couldn't select kerberos credentials"
 msgstr "Kerberos kimliği seçilemedi"
 
-#: ../tools/realm-client.c:999
+#: ../tools/realm-client.c:1015
 msgid "Couldn't read kerberos credentials"
 msgstr "Kerberos kimlikleri okunamadı"
 
-#: ../tools/realm-client.c:1049
+#: ../tools/realm-client.c:1065
 #, c-format
 msgid "Realm does not support automatic membership"
 msgstr "Erişim alanı otomatik üyeliği desteklemiyor"
@@ -448,6 +455,7 @@ msgid "Use specific client software"
 msgstr "Belirli istemci yazılımını kullan"
 
 #: ../tools/realm-discover.c:186 ../tools/realm-join.c:302
+#: ../tools/realm-renew.c:155
 msgid "Use specific membership software"
 msgstr "Belirli üyelik yazılımını kullan"
 
@@ -457,7 +465,7 @@ msgid "Use specific server software"
 msgstr "Belirli sunucu yazılımı kullan"
 
 #: ../tools/realm-discover.c:188 ../tools/realm-join.c:318
-#: ../tools/realm-leave.c:276
+#: ../tools/realm-leave.c:276 ../tools/realm-renew.c:157
 msgid "Use ldaps to connect to LDAP"
 msgstr ""
 
@@ -473,7 +481,7 @@ msgstr "Erişim alanına katılamadı"
 msgid "Cannot join this realm"
 msgstr "Bu erişim alanına katılamaz"
 
-#: ../tools/realm-join.c:235
+#: ../tools/realm-join.c:235 ../tools/realm-renew.c:111
 msgid "No such realm found"
 msgstr "Böyle bir erişim alanı bulunamadı"
 
@@ -559,50 +567,84 @@ msgstr "Herhangi bir erişim alanı girişine izin ver"
 msgid "Deny any realm account login"
 msgstr "Herhangi bir erişim alanı girişini reddet"
 
-#: ../tools/realm-logins.c:202
-msgid "Withdraw permit for a realm account to login"
-msgstr "Bir erişim alanı için oturum açma hesabına verilen izni iptal et"
-
-#: ../tools/realm-logins.c:204
-msgid "Treat names as groups which to permit"
-msgstr "İsimlere izin verilecek gruplar olarak davran"
-
-#: ../tools/realm-logins.c:205
+#: ../tools/realm-logins.c:201
 msgid "Realm to permit/deny logins for"
 msgstr "Oturumlara izin verilecek/reddedilecek erişim alanı"
 
-#: ../tools/realm-logins.c:219
+#: ../tools/realm-logins.c:207
+msgid "Withdraw permit for a realm account to login"
+msgstr "Bir erişim alanı için oturum açma hesabına verilen izni iptal et"
+
+#: ../tools/realm-logins.c:209
+msgid "Treat names as groups which to permit"
+msgstr "İsimlere izin verilecek gruplar olarak davran"
+
+#: ../tools/realm-logins.c:226
 msgid "No logins should be specified with -a or --all"
 msgstr "Hiç bir oturum -a veya --all ile blirtilmemelidir"
 
-#: ../tools/realm-logins.c:222
+#: ../tools/realm-logins.c:229
 msgid "The --withdraw or -x arguments cannot be used when denying logins"
 msgstr "--withdraw veya -x parametreleri oturumları reddederken kullanılamaz"
 
-#: ../tools/realm-logins.c:225
+#: ../tools/realm-logins.c:232
 msgid "Specific logins must be specified with --withdraw"
 msgstr "Belirli oturumlar --withdraw ile belirtilmelidir"
 
-#: ../tools/realm-logins.c:228
+#: ../tools/realm-logins.c:235
 msgid "Groups may not be specified with -a or --all"
 msgstr "Gruplar -a veya --all ile belirtilmemelidir"
 
-#: ../tools/realm-logins.c:235
+#: ../tools/realm-logins.c:242
 msgid "Use --all to deny all logins"
 msgstr "Tüm oturumları reddetmek için --all kullanın"
 
-#: ../tools/realm-logins.c:237
+#: ../tools/realm-logins.c:244
 msgid "Specify specific users to add or remove from the permitted list"
 msgstr ""
 "Izin verilen listeden ekleme veya çıkarma yapmak için belirli kullanıcıları "
 "belirtin"
 
-#: ../tools/realm-logins.c:241
+#: ../tools/realm-logins.c:248
 msgid ""
 "Specifying deny without --all is deprecated. Use realm permit --withdraw"
 msgstr ""
 "--all kullanmadan reddetme tanımlamak artık kullanılmıyor. Erişim alanı "
 "iznini --withdraw ile kullanın"
+
+#: ../tools/realm-renew.c:109
+#, fuzzy
+#| msgid "Need credentials for leaving this domain"
+msgid "Cannot renew credentials for this realm"
+msgstr "Bu alandan ayrılmak için kimlik bilgileri gereklidir"
+
+#: ../tools/realm-renew.c:133
+#, fuzzy
+#| msgid "Couldn't read kerberos credentials"
+msgid "Couldn't renew realm credentials"
+msgstr "Kerberos kimlikleri okunamadı"
+
+#: ../tools/realm-renew.c:159
+msgid "Path to the keytab"
+msgstr ""
+
+#: ../tools/realm-renew.c:161
+msgid "Fully-qualified name of the host"
+msgstr ""
+
+#: ../tools/realm-renew.c:163
+msgid "lifetime of the host accounts password in days"
+msgstr ""
+
+#: ../tools/realm-renew.c:165
+msgid "Try to update Samba's internal machine account password as well"
+msgstr ""
+
+#: ../tools/realm-renew.c:185
+#, fuzzy
+#| msgid "Specify one realm to join"
+msgid "Specify one realm to renew credentials"
+msgstr "Katılmak için bir erişim alanı belirtin"
 
 #~ msgid "Discover realm"
 #~ msgstr "Erişim alanını keşfet"

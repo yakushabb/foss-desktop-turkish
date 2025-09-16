@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-1.19.2\n"
 "Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/gstreamer/gstreamer/"
 "issues\n"
-"POT-Creation-Date: 2022-07-08 03:26+0000\n"
+"POT-Creation-Date: 2025-09-16 15:28+0000\n"
 "PO-Revision-Date: 2021-10-04 14:09+0300\n"
 "Last-Translator: Mehmet Kececi <mkececi@mehmetkececi.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "X-Project-Style: gnome\n"
 
-#: ext/curl/gstcurlhttpsrc.c:1439
+#: ext/curl/gstcurlhttpsrc.c:1443
 msgid "No URL set."
 msgstr "Hiç bir URL ayarlanmamış."
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Could not read DVD."
 msgstr "DVD okunamıyor."
 
-#: ext/smoothstreaming/gstmssdemux.c:430
+#: ext/smoothstreaming/gstmssdemux.c:439
 #: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:735
 msgid "This file contains no playable streams."
 msgstr "Dosya çalınabilir akışlar içermiyor."
@@ -68,7 +68,7 @@ msgid "Generated file has a larger preroll time than its streams duration"
 msgstr ""
 "Oluşturlmuş dosya, akışlarının süresinden daha büyük preroll zamanına sahip"
 
-#: gst/camerabin2/camerabingeneral.c:167 gst/camerabin2/gstcamerabin2.c:1866
+#: gst/camerabin2/camerabingeneral.c:167 gst/camerabin2/gstcamerabin2.c:1887
 #: gst/camerabin2/gstdigitalzoom.c:283 gst/camerabin2/gstviewfinderbin.c:275
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."
@@ -84,7 +84,7 @@ msgstr ""
 msgid "Digitalzoom element couldn't be created"
 msgstr "Digitalzoom öğesi oluşturulamadı"
 
-#: gst/dvdspu/gstdvdspu.c:1044
+#: gst/dvdspu/gstdvdspu.c:1570
 msgid "Subpicture format was not configured before data flow"
 msgstr "Alt resim biçimi, veri  akışından önce yapılandırılmış"
 
@@ -98,67 +98,67 @@ msgid "Couldn't download fragments"
 msgstr "Parçalar indirilemedi"
 
 #: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:4102
-#: gst/mpegtsdemux/mpegtsbase.c:1751
+#: gst/mpegtsdemux/mpegtsbase.c:1799
 msgid "Internal data stream error."
 msgstr "İç veri akım hatası."
 
-#: sys/dvb/gstdvbsrc.c:1597 sys/dvb/gstdvbsrc.c:1811
+#: sys/dvb/gstdvbsrc.c:1644 sys/dvb/gstdvbsrc.c:1858
 #, c-format
 msgid "Device \"%s\" does not exist."
 msgstr "Aygıt  \"%s\" bulunamadı."
 
-#: sys/dvb/gstdvbsrc.c:1601
+#: sys/dvb/gstdvbsrc.c:1648
 #, c-format
 msgid "Could not open frontend device \"%s\"."
 msgstr "Aygıt açılamaz durumda \"%s\"."
 
-#: sys/dvb/gstdvbsrc.c:1620
+#: sys/dvb/gstdvbsrc.c:1667
 #, c-format
 msgid "Could not get settings from frontend device \"%s\"."
 msgstr "Aygıt ayarları bulunamadı \"%s\"."
 
-#: sys/dvb/gstdvbsrc.c:1637
+#: sys/dvb/gstdvbsrc.c:1684
 #, c-format
 msgid "Cannot enumerate delivery systems from frontend device \"%s\"."
 msgstr ""
 "\"%s\" ön arayüz aygıtından teslim sistemleri numaralandırma yapılamıyor."
 
-#: sys/dvb/gstdvbsrc.c:1815
+#: sys/dvb/gstdvbsrc.c:1862
 #, c-format
 msgid "Could not open file \"%s\" for reading."
 msgstr "Dosyayı \"%s\" okumak için açamıyor."
 
-#: sys/dvb/parsechannels.c:410
+#: sys/dvb/parsechannels.c:416
 #, c-format
 msgid "Couldn't find channel configuration file"
 msgstr "Kanal yapılandırma dosyası bulamadım"
 
-#: sys/dvb/parsechannels.c:413 sys/dvb/parsechannels.c:563
+#: sys/dvb/parsechannels.c:419 sys/dvb/parsechannels.c:569
 #, c-format
 msgid "Couldn't load channel configuration file: '%s'"
 msgstr "Kanal yapılandırma dosyası yüklenemedi: '%s'"
 
-#: sys/dvb/parsechannels.c:421 sys/dvb/parsechannels.c:846
+#: sys/dvb/parsechannels.c:427 sys/dvb/parsechannels.c:852
 #, c-format
 msgid "Couldn't find details for channel '%s'"
 msgstr "Ayrıntılar için kanal '%s' bulamıyor"
 
-#: sys/dvb/parsechannels.c:430
+#: sys/dvb/parsechannels.c:436
 #, c-format
 msgid "No properties for channel '%s'"
 msgstr "Kanal '%s' için hiçbir özellikleri yok"
 
-#: sys/dvb/parsechannels.c:439
+#: sys/dvb/parsechannels.c:445
 #, c-format
 msgid "Failed to set properties for channel '%s'"
 msgstr "'%s' kanal özelliklerini ayarlama başarısız oldu"
 
-#: sys/dvb/parsechannels.c:560
+#: sys/dvb/parsechannels.c:566
 #, c-format
 msgid "Couldn't find channel configuration file: '%s'"
 msgstr "Kanal yapılandırma dosyası bulamadı: '%s'"
 
-#: sys/dvb/parsechannels.c:570
+#: sys/dvb/parsechannels.c:576
 #, c-format
 msgid "Channel configuration file doesn't contain any channels"
 msgstr "Kanal yapılandırma dosyası herhangi bir kanal içermez"
