@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: file-roller\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/file-roller/issues/\n"
-"POT-Creation-Date: 2025-03-10 14:03+0000\n"
+"POT-Creation-Date: 2025-09-10 13:22+0000\n"
 "PO-Revision-Date: 2023-10-17 01:23+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -27,55 +27,22 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4\n"
 
-#: data/org.gnome.FileRoller.appdata.xml.in:9
-#: data/org.gnome.FileRoller.desktop.in.in:3 src/fr-application-menu.c:131
+#: data/org.gnome.FileRoller.desktop.in.in:2
+#: data/org.gnome.FileRoller.metainfo.xml.in:9 src/fr-application-menu.c:131
 #: src/fr-application.c:472 src/fr-window.c:1869 src/fr-window.c:4627
 msgid "File Roller"
 msgstr "File Roller"
 
-#: data/org.gnome.FileRoller.appdata.xml.in:10
-msgid "Open, modify and create compressed archive files"
-msgstr "Sıkıştırılmış arşiv dosyalarını aç, değiştir ve oluştur"
-
-#: data/org.gnome.FileRoller.appdata.xml.in:12
-msgid ""
-"File Roller is a GNOME application for opening, creating, and modifying "
-"archive and compressed archive files."
-msgstr ""
-"File Roller arşiv ve sıkıştırılmış arşiv dosyalarını açmak, oluşturmak ve "
-"değiştirmek için bir GNOME uygulamasıdır."
-
-#: data/org.gnome.FileRoller.appdata.xml.in:16
-msgid ""
-"File Roller supports a wide range of different archive files, including:"
-msgstr "File Roller, şunlar gibi çok sayıda arşiv dosyasını destekler:"
-
-#: data/org.gnome.FileRoller.appdata.xml.in:20
-msgid "gzip archives (.tar.gz, .tgz)"
-msgstr "gzip arşivleri (.tar.gz, .tgz)"
-
-#: data/org.gnome.FileRoller.appdata.xml.in:21
-msgid "bzip archives (.tar.bz, .tbz)"
-msgstr "bzip arşivleri (.tar.bz, .tbz)"
-
-#: data/org.gnome.FileRoller.appdata.xml.in:22
-msgid "zip archives (.zip)"
-msgstr "zip arşivleri (.zip)"
-
-#: data/org.gnome.FileRoller.appdata.xml.in:23
-msgid "xz archives (.tar.xz)"
-msgstr "xz arşivleri (.tar.xz)"
-
-#: data/org.gnome.FileRoller.desktop.in.in:4
+#: data/org.gnome.FileRoller.desktop.in.in:3
 msgid "Archive Manager"
 msgstr "Arşiv Yöneticisi"
 
-#: data/org.gnome.FileRoller.desktop.in.in:5
+#: data/org.gnome.FileRoller.desktop.in.in:4
 msgid "Create and modify an archive"
 msgstr "Arşiv oluştur ve değiştir"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.FileRoller.desktop.in.in:7
+#: data/org.gnome.FileRoller.desktop.in.in:6
 msgid "zip;tar;extract;unpack;"
 msgstr "zip;tar;aç;çıkart;ayıkla;"
 
@@ -226,6 +193,39 @@ msgstr "Öntanımlı birim boyutu"
 #: data/org.gnome.FileRoller.gschema.xml:195
 msgid "The default size for volumes."
 msgstr "Öntanımlı birim boyutu."
+
+#: data/org.gnome.FileRoller.metainfo.xml.in:10
+msgid "Open, modify and create compressed archive files"
+msgstr "Sıkıştırılmış arşiv dosyalarını aç, değiştir ve oluştur"
+
+#: data/org.gnome.FileRoller.metainfo.xml.in:12
+msgid ""
+"File Roller is a GNOME application for opening, creating, and modifying "
+"archive and compressed archive files."
+msgstr ""
+"File Roller arşiv ve sıkıştırılmış arşiv dosyalarını açmak, oluşturmak ve "
+"değiştirmek için bir GNOME uygulamasıdır."
+
+#: data/org.gnome.FileRoller.metainfo.xml.in:16
+msgid ""
+"File Roller supports a wide range of different archive files, including:"
+msgstr "File Roller, şunlar gibi çok sayıda arşiv dosyasını destekler:"
+
+#: data/org.gnome.FileRoller.metainfo.xml.in:20
+msgid "gzip archives (.tar.gz, .tgz)"
+msgstr "gzip arşivleri (.tar.gz, .tgz)"
+
+#: data/org.gnome.FileRoller.metainfo.xml.in:21
+msgid "bzip archives (.tar.bz, .tbz)"
+msgstr "bzip arşivleri (.tar.bz, .tbz)"
+
+#: data/org.gnome.FileRoller.metainfo.xml.in:22
+msgid "zip archives (.zip)"
+msgstr "zip arşivleri (.zip)"
+
+#: data/org.gnome.FileRoller.metainfo.xml.in:23
+msgid "xz archives (.tar.xz)"
+msgstr "xz arşivleri (.tar.xz)"
 
 #: nautilus/nautilus-fileroller.c:258
 msgid "Extract Here"
@@ -513,24 +513,24 @@ msgid "You can’t add an archive to itself."
 msgstr "Bir arşivi kendisine ekleyemezsiniz."
 
 #. Translators: %s is a filename.
-#: src/fr-command-7z.c:296 src/fr-command-rar.c:532 src/fr-command-tar.c:328
+#: src/fr-command-7z.c:296 src/fr-command-rar.c:539 src/fr-command-tar.c:328
 #, c-format
 msgid "Adding “%s”"
 msgstr "“%s” ekleniyor"
 
 #. Translators: %s is a filename.
-#: src/fr-command-7z.c:449 src/fr-command-rar.c:664 src/fr-command-tar.c:449
+#: src/fr-command-7z.c:450 src/fr-command-rar.c:671 src/fr-command-tar.c:449
 #, c-format
 msgid "Extracting “%s”"
 msgstr "“%s” çıkarılıyor"
 
 #. Translators: %s is a filename.
-#: src/fr-command-rar.c:613 src/fr-command-tar.c:394
+#: src/fr-command-rar.c:620 src/fr-command-tar.c:394
 #, c-format
 msgid "Removing “%s”"
 msgstr "“%s” kaldırılıyor"
 
-#: src/fr-command-rar.c:806
+#: src/fr-command-rar.c:813
 #, c-format
 msgid "Could not find the volume: %s"
 msgstr "Birim bulunamadı: %s"

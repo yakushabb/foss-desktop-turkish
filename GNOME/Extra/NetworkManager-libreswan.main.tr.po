@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: network-manager-libreswan main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-"
 "libreswan/issues\n"
-"POT-Creation-Date: 2024-11-24 10:48+0000\n"
+"POT-Creation-Date: 2025-09-16 15:10+0000\n"
 "PO-Revision-Date: 2023-12-29 11:38+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -79,79 +79,79 @@ msgstr "Uzak istemciler için IPsec tabanlı VPN"
 msgid "Error writing to file “%s”: %s"
 msgstr "“%s” dosyası yazılamadı: %s"
 
-#: ../src/nm-libreswan-service.c:515
+#: ../src/nm-libreswan-service.c:516
 msgid "Invalid character in password."
 msgstr ""
 
-#: ../src/nm-libreswan-service.c:1501
+#: ../src/nm-libreswan-service.c:1502
 msgid "A password is required."
 msgstr "Parola gerekli."
 
-#: ../src/nm-libreswan-service.c:1621
+#: ../src/nm-libreswan-service.c:1622
 #, c-format
 msgid "Error writing config: %s"
 msgstr "Yapılandırma yazılamadı: %s"
 
-#: ../src/nm-libreswan-service.c:1942
+#: ../src/nm-libreswan-service.c:1943
 msgid ""
 "Could not process the request because the VPN connection settings were "
 "invalid."
 msgstr "VPN bağlantı ayarları geçersiz olduğundan istek işlenemedi."
 
-#: ../src/nm-libreswan-service.c:1956
+#: ../src/nm-libreswan-service.c:1957
 msgid "Unhandled pending authentication."
 msgstr "İşlenmemiş bekleyen kimlik doğrulaması."
 
-#: ../src/nm-libreswan-service.c:2100
+#: ../src/nm-libreswan-service.c:2101
 msgid "Don’t quit when VPN connection terminates"
 msgstr "VPN bağlantısı sonlandığında çıkma"
 
-#: ../src/nm-libreswan-service.c:2101
+#: ../src/nm-libreswan-service.c:2102
 msgid "Enable verbose debug logging (may expose passwords)"
 msgstr ""
 "Ayrıntılı hata ayıklama günlüklemesini etkinleştir (parolaları görünür "
 "yapabilir)"
 
-#: ../src/nm-libreswan-service.c:2102
+#: ../src/nm-libreswan-service.c:2103
 msgid "D-Bus name to use for this instance"
 msgstr "Bu örnek için kullanılacak D-Bus adı"
 
-#: ../src/nm-libreswan-service.c:2125
+#: ../src/nm-libreswan-service.c:2126
 msgid ""
 "This service provides integrated IPsec VPN capability to NetworkManager."
 msgstr "Bu hizmet NetworkManager için tümleşik IPsec VPN yeterliliğini sağlar."
 
-#: ../shared/utils.c:359
+#: ../shared/utils.c:364
 #, c-format
 msgid "Invalid character in '%s'"
 msgstr ""
 
-#: ../shared/utils.c:391
+#: ../shared/utils.c:401 ../shared/utils.c:518
 #, c-format
 msgid "'%s' key needs to be present"
 msgstr ""
 
-#: ../shared/utils.c:417
+#: ../shared/utils.c:431 ../shared/utils.c:527
 #, c-format
 msgid "property '%s' invalid or not supported"
 msgstr ""
 
-#: ../shared/utils.c:533
+#: ../shared/utils.c:580
 #, c-format
 msgid "'%s' not understood"
 msgstr ""
 
-#: ../shared/utils.c:554
+#: ../shared/utils.c:606
 #, c-format
 msgid "Expected a conn line before '%s'"
 msgstr ""
 
-#: ../shared/utils.c:560 ../shared/utils.c:575
+#: ../shared/utils.c:612 ../shared/utils.c:627
 #, c-format
 msgid "'%s' specified multiple times"
 msgstr ""
 
-#: ../shared/utils.c:624
+#: ../shared/utils.c:676
 #, c-format
 msgid "'%s' is not supported for '%s'"
 msgstr ""
@@ -193,27 +193,27 @@ msgstr ""
 "'%2$s' türünde \"%1$s\" değeri geçersiz veya '%4$s' türünde '%3$s' özelliği "
 "için aralık dışında"
 
-#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:50
 #, c-format
 msgid "unable to get editor plugin name: %s"
 msgstr "düzenleyici eklenti adı alınamadı: %s"
 
-#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:60
 #, c-format
 msgid "missing plugin file \"%s\""
 msgstr "kayıp eklenti dosyası \"%s\""
 
-#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:128
 #, c-format
 msgid "cannot load editor plugin: %s"
 msgstr "düzenleyici eklentisi yüklenemedi: %s"
 
-#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:137
 #, c-format
 msgid "cannot load factory %s from plugin: %s"
 msgstr "üretici %s eklentiden yüklenemedi: %s"
 
-#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:163
 msgid "unknown error creating editor instance"
 msgstr "düzenleyici örneği oluşturulurken bilinmeyen hata"
 
@@ -338,8 +338,8 @@ msgstr "Phase1 Algoritması"
 #| "config: ike <proposals>"
 msgid ""
 "IKE encryption/authentication algorithm to be used for the connection (phase "
-"1 aka ISAKMP SA). The format is “cipher-hash;modpgroup, cipher-hash;"
-"modpgroup, …”.\n"
+"1 aka ISAKMP SA). The format is “cipher-hash;modpgroup, cipher-"
+"hash;modpgroup, …”.\n"
 "                        config: ike <proposals>"
 msgstr ""
 "(Faz 1 yani ISAKMP SA) Bağlantı için kullanılacak IKE şifreleme/kimlik "
@@ -629,18 +629,28 @@ msgid "Don't require remote certificate name"
 msgstr ""
 
 #: ../properties/nm-libreswan-dialog.ui.h:91
+msgid "Send certificate(leftsendcert)"
+msgstr ""
+
+#: ../properties/nm-libreswan-dialog.ui.h:92
+msgid ""
+"Configure how Libreswan will send X.509 certificates to the remote host. "
+"Valid values are: 'yes', 'always', 'no', 'never', 'sendifasked'."
+msgstr ""
+
+#: ../properties/nm-libreswan-dialog.ui.h:93
 msgid "Other"
 msgstr "Diğer"
 
-#: ../properties/nm-libreswan-dialog.ui.h:92
+#: ../properties/nm-libreswan-dialog.ui.h:94
 msgid "Advanced Properties"
 msgstr "Gelişmiş Özellikler"
 
-#: ../properties/nm-libreswan-dialog.ui.h:93
+#: ../properties/nm-libreswan-dialog.ui.h:95
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: ../properties/nm-libreswan-dialog.ui.h:94
+#: ../properties/nm-libreswan-dialog.ui.h:96
 msgid "_Apply"
 msgstr "_Uygula"
 

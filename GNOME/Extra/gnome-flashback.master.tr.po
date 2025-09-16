@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gnome-flashback master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-flashback/"
 "issues/\n"
-"POT-Creation-Date: 2025-02-12 22:03+0000\n"
+"POT-Creation-Date: 2025-09-10 17:03+0000\n"
 "PO-Revision-Date: 2024-09-02 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -25,122 +25,6 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 "X-POOTLE-MTIME: 1432972725.000000\n"
 
-#: backends/gf-monitor.c:135
-msgid "Built-in display"
-msgstr "Yerleşik ekran"
-
-#: backends/gf-monitor.c:169
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:433
-msgid "Unknown"
-msgstr "Bilinmeyen"
-
-#: backends/gf-monitor.c:171
-msgid "Unknown Display"
-msgstr "Bilinmeyen Ekran"
-
-#: backends/gf-monitor.c:180
-#, c-format
-msgctxt ""
-"This is a monitor vendor name, followed by a size in inches, like 'Dell 15\"'"
-msgid "%s %s"
-msgstr "%s %s"
-
-#: backends/gf-monitor.c:194
-#, c-format
-msgctxt ""
-"This is a monitor vendor name followed by product/model name where size in "
-"inches could not be calculated, e.g. Dell U2414H"
-msgid "%s %s"
-msgstr "%s %s"
-
-#. Translators: this is a filename used for screencast
-#. * recording, where "%d" and "%t" date and time, e.g.
-#. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: daemons/media-keys/gsd-media-keys-manager.c:551
-#, no-c-format
-msgid "Screencast from %d %t.webm"
-msgstr "Ekran yayını - %d %t.webm"
-
-#. translators: this is the name of the file that gets made up
-#. * with the screenshot
-#: daemons/media-keys/gsd-screenshot-utils.c:240
-#, c-format
-msgid "Screenshot from %s"
-msgstr "Ekran görüntüsü %s"
-
-#: daemons/polkit/flashback-authenticator.c:100
-#, c-format
-msgid "_Password for %s:"
-msgstr "%s _Parolası:"
-
-#: daemons/polkit/flashback-authenticator.c:104
-#: daemons/polkit/flashback-polkit-dialog.ui:99
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:368
-msgid "_Password:"
-msgstr "_Parola:"
-
-#: daemons/polkit/flashback-authenticator.c:259
-msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr "Kimlik doğrulama girişiminiz başarısız oldu. Lütfen yeniden deneyin."
-
-#: daemons/polkit/flashback-listener.c:139
-msgid "Authentication dialog was dismissed by the user"
-msgstr "Kimlik doğrulama penceresi kullanıcıca kapatıldı"
-
-#: daemons/polkit/flashback-polkit-dialog.c:202
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as one of the users below is required to perform this action."
-msgstr ""
-"Bir uygulama ayrıcalık gerektiren eylem gerçekleştirmeye çalışıyor. Bu "
-"işlemi gerçekleştirmek için aşağıdaki kullanıcılardan biri olarak kimlik "
-"doğrulaması gerekiyor."
-
-#: daemons/polkit/flashback-polkit-dialog.c:212
-#: daemons/polkit/flashback-polkit-dialog.ui:68
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication is required to perform this action."
-msgstr ""
-"Bir uygulama ayrıcalık gerektiren eylem gerçekleştirmeye çalışıyor. Bu "
-"işlemi gerçekleştirmek için kimlik doğrulaması gerekiyor."
-
-#: daemons/polkit/flashback-polkit-dialog.c:217
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as the super user is required to perform this action."
-msgstr ""
-"Bir uygulama ayrıcalık gerektiren eylem gerçekleştirmeye çalışıyor. Bu "
-"işlemi gerçekleştirmek için süper kullanıcı olarak kimlik doğrulaması "
-"gerekiyor."
-
-#: daemons/polkit/flashback-polkit-dialog.c:386
-msgid "Select user..."
-msgstr "Kullanıcı seç..."
-
-#: daemons/polkit/flashback-polkit-dialog.c:425
-#, c-format
-msgid "%s (%s)"
-msgstr "%s (%s)"
-
-#: daemons/polkit/flashback-polkit-dialog.c:600
-msgid "Action:"
-msgstr "Eylem:"
-
-#: daemons/polkit/flashback-polkit-dialog.c:603
-#, c-format
-msgid "Click to edit %s"
-msgstr "%s düzenlemek için tıkla"
-
-#: daemons/polkit/flashback-polkit-dialog.c:611
-msgid "Vendor:"
-msgstr "Sağlayıcı:"
-
-#: daemons/polkit/flashback-polkit-dialog.c:614
-#, c-format
-msgid "Click to open %s"
-msgstr "%s açmak için tıkla"
-
 #: daemons/polkit/flashback-polkit-dialog.ui:8
 msgid "Authenticate"
 msgstr "Kimlik Doğrula"
@@ -149,12 +33,23 @@ msgstr "Kimlik Doğrula"
 msgid "<big><b>Title</b></big>"
 msgstr "<big><b>Başlık</b></big>"
 
+#: daemons/polkit/flashback-polkit-dialog.ui:68
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+"Bir uygulama ayrıcalık gerektiren eylem gerçekleştirmeye çalışıyor. Bu "
+"işlemi gerçekleştirmek için kimlik doğrulaması gerekiyor."
+
+#: daemons/polkit/flashback-polkit-dialog.ui:99
+msgid "_Password:"
+msgstr "_Parola:"
+
 #: daemons/polkit/flashback-polkit-dialog.ui:192
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Ayrıntılar</b></small>"
 
 #: daemons/polkit/flashback-polkit-dialog.ui:213
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:785
 msgid "_Cancel"
 msgstr "İ_ptal"
 
@@ -162,67 +57,63 @@ msgstr "İ_ptal"
 msgid "_Authenticate"
 msgstr "_Kimlik Doğrula"
 
-#: data/applications/gnome-flashback.desktop.in:4
+#: data/applications/gnome-flashback.desktop.in:3
 msgid "GNOME Flashback"
 msgstr "GNOME Flashback"
 
-#: data/autostart/gnome-flashback-clipboard.desktop.in.in:4
+#: data/autostart/gnome-flashback-clipboard.desktop.in.in:3
 msgid "Clipboard (GNOME Flashback)"
 msgstr "Pano (GNOME Flashback)"
 
-#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:3
+#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:2
 msgid "Geoclue Demo agent (GNOME Flashback)"
 msgstr "Geoclue Örnek birimi (GNOME Flashback)"
 
-#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:4
+#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:3
 msgid "Demo geoclue agent"
 msgstr "Örnek geoclue birimi"
 
-#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:5
+#: data/autostart/gnome-flashback-geoclue-demo-agent.desktop.in.in:4
 msgid "geolocation;"
 msgstr "geolocation;"
 
-#: data/autostart/gnome-flashback-idle-monitor.desktop.in.in:4
-msgid "Idle Monitor (GNOME Flashback)"
-msgstr "Boşluk Gözlemcisi (GNOME Flashback)"
-
-#: data/autostart/gnome-flashback-media-keys.desktop.in.in:4
+#: data/autostart/gnome-flashback-media-keys.desktop.in.in:3
 msgid "MediaKeys (GNOME Flashback)"
 msgstr "Ortam Tuşları (GNOME Flashback)"
 
-#: data/autostart/gnome-flashback-nm-applet.desktop.in:3
+#: data/autostart/gnome-flashback-nm-applet.desktop.in:2
 msgid "Network (GNOME Flashback)"
 msgstr "Ağ (GNOME Flashback)"
 
-#: data/autostart/gnome-flashback-nm-applet.desktop.in:4
+#: data/autostart/gnome-flashback-nm-applet.desktop.in:3
 msgid "Manage your network connections"
 msgstr "Ağ bağlantılarını yönet"
 
-#: data/autostart/gnome-flashback-polkit.desktop.in.in:4
+#: data/autostart/gnome-flashback-polkit.desktop.in.in:3
 msgid "Polkit (GNOME Flashback)"
 msgstr "Polkit (GNOME Flashback)"
 
-#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:4
+#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:3
 msgid "Science"
 msgstr "Bilim"
 
-#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:5
+#: data/directories/X-GNOME-Flashback-Science.directory.desktop.in:4
 msgid "Scientific applications"
 msgstr "Bilimsel uygulamalar"
 
-#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:4
+#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:3
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:5
+#: data/directories/X-GNOME-Flashback-Settings.directory.desktop.in:4
 msgid "Personal preferences"
 msgstr "Kişisel tercihler"
 
-#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:4
+#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:3
 msgid "Administration"
 msgstr "Yönetici"
 
-#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:5
+#: data/directories/X-GNOME-Flashback-Settings-System.directory.desktop.in:4
 msgid "Change system-wide settings (affects all users)"
 msgstr "Sistem geneli ayarları değiştir (tüm kullanıcıları etkiler)"
 
@@ -295,7 +186,6 @@ msgid "Clipboard"
 msgstr "Pano"
 
 #: data/schemas/org.gnome.gnome-flashback.gschema.xml:27
-#: gnome-flashback/libdesktop/gf-desktop-window.c:824
 msgid "Desktop"
 msgstr "Masaüstü"
 
@@ -458,7 +348,6 @@ msgid "The size of desktop icons."
 msgstr "Masaüstü simgelerinin boyutu."
 
 #: data/schemas/org.gnome.gnome-flashback.desktop.icons.gschema.xml:11
-#: gnome-flashback/libdesktop/gf-icon-view.c:1332
 msgid "Placement"
 msgstr "Yerleşim"
 
@@ -472,7 +361,6 @@ msgstr ""
 "(serbest). Simgelerin masaüstünde nasıl yerleşeceğini denetler."
 
 #: data/schemas/org.gnome.gnome-flashback.desktop.icons.gschema.xml:17
-#: gnome-flashback/libdesktop/gf-icon-view.c:1338
 msgid "Sort by"
 msgstr "Şuna göre sırala"
 
@@ -630,19 +518,19 @@ msgstr "Değişiklikleri _Koru"
 msgid "Confirm Changes"
 msgstr "Değişiklikleri Onayla"
 
-#: data/xsessions/gnome-flashback-compiz.desktop.in.in:3
+#: data/xsessions/gnome-flashback-compiz.desktop.in.in:2
 msgid "GNOME Flashback (Compiz)"
 msgstr "GNOME Flashback (Compiz)"
 
-#: data/xsessions/gnome-flashback-compiz.desktop.in.in:4
+#: data/xsessions/gnome-flashback-compiz.desktop.in.in:3
 msgid "This session logs you into GNOME Flashback with Compiz"
 msgstr "Bu oturum Compiz ile GNOME Flashback uygulamasına giriş yaptırır"
 
-#: data/xsessions/gnome-flashback-metacity.desktop.in.in:3
+#: data/xsessions/gnome-flashback-metacity.desktop.in.in:2
 msgid "GNOME Flashback (Metacity)"
 msgstr "GNOME Flashback (Metacity)"
 
-#: data/xsessions/gnome-flashback-metacity.desktop.in.in:4
+#: data/xsessions/gnome-flashback-metacity.desktop.in.in:3
 msgid "This session logs you into GNOME Flashback with Metacity"
 msgstr "Bu oturum Metacity ile GNOME Flashback uygulamasına giriş yaptırır"
 
@@ -652,389 +540,11 @@ msgid "Settings changes will revert in %d second!"
 msgid_plural "Settings changes will revert in %d seconds!"
 msgstr[0] "Ayar değişiklikleri %d saniye içinde geri dönecek!"
 
-#: gnome-flashback/gf-main.c:43
-msgid "Replace a currently running application"
-msgstr "Şu an çalışan uygulamayı değiştir"
-
-#: gnome-flashback/gf-main.c:49
-msgid "Print version and exit"
-msgstr "Sürüm bilgisini yazdır ve çık"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:295
-msgid "Slow Keys Turned On"
-msgstr "Yavaş Tuşlar Açık"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:296
-msgid "Slow Keys Turned Off"
-msgstr "Yavaş Tuşlar Kapalı"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:298
-msgid ""
-"You just held down the Shift key for 8 seconds. This is the shortcut for the "
-"Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Shift tuşuna 8 saniye boyunca bastınız. Bu, klavyenizin çalışma yolunu "
-"etkileyen Yavaş Tuşlar özelliğinin kısayoludur."
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:303
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:390
-#: system-indicators/si-bluetooth.c:116
-msgid "Turn Off"
-msgstr "Kapat"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:303
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:390
-#: system-indicators/si-bluetooth.c:130
-msgid "Turn On"
-msgstr "Aç"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:305
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:392
-msgid "Leave On"
-msgstr "Açık Bırak"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:305
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:392
-msgid "Leave Off"
-msgstr "Kapalı Bırak"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:313
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:400
-msgid "Universal Access"
-msgstr "Evrensel Erişim"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:379
-msgid "Sticky Keys Turned On"
-msgstr "Yapışkan Tuşlar Açık"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:380
-msgid "Sticky Keys Turned Off"
-msgstr "Yapışkan Tuşlar Kapalı"
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:383
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-"Shift tuşuna art arda 5 kez bastınız. Bu, klavyenizin çalışma yolunu "
-"etkileyen Yapışkan Tuşlar özelliğinin kısayoludur."
-
-#: gnome-flashback/liba11y-keyboard/gf-a11y-keyboard.c:385
-msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row. This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
-msgstr ""
-"İki tuşa aynı anda veya Shift tuşuna art arda 5 kez bastınız. Bu, "
-"klavyenizin çalışma yolunu etkileyen Yapışkan Tuşlar özelliğini kapatır."
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:109
-msgid "Headphones"
-msgstr "Kulaklıklar"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:112
-msgid "Headset"
-msgstr "Kulaklıklı Mikrofon"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:115
-msgid "Microphone"
-msgstr "Mikrofon"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:178
-#, c-format
-msgid "Failed to start Sound Preferences: %s"
-msgstr "Ses Tercihleri başlatılamadı: %s"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:248
-msgid "What kind of device did you plug in?"
-msgstr "Ne tür aygıt taktınız?"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:262
-#: system-indicators/si-bluetooth.c:307 system-indicators/si-volume.c:446
-msgid "Sound Settings"
-msgstr "Ses Ayarları"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:269
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:104
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:111
-msgid "Cancel"
-msgstr "İptal"
-
-#: gnome-flashback/libaudio-device-selection/gf-audio-device-selection-dialog.c:285
-msgid "Unknown Audio Device"
-msgstr "Bilinmeyen Ses Aygıtı"
-
-#: gnome-flashback/libautomount-manager/gsd-automount-manager.c:175
-#, c-format
-msgid "Unable to mount %s"
-msgstr "%s bağlanamadı"
-
-#: gnome-flashback/libautomount-manager/gsd-automount-manager.c:292
-#, c-format
-msgid "Unable to open a folder for %s"
-msgstr "%s için klasör açılamıyor"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:339
-msgid "Ask what to do"
-msgstr "Ne yapılacağını sor"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:345
-msgid "Do Nothing"
-msgstr "Bir Şey Yapma"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:351
-msgid "Open Folder"
-msgstr "Klasörü Aç"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:498
-#, c-format
-msgid "Unable to eject %p"
-msgstr "%p çıkarılamıyor"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:500
-#, c-format
-msgid "Unable to unmount %p"
-msgstr "%p bağı kaldırılamıyor"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:709
-msgid "You have just inserted an Audio CD."
-msgstr "Az önce Ses CD’si eklediniz."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:711
-msgid "You have just inserted an Audio DVD."
-msgstr "Az önce Ses DVD’si eklediniz."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:713
-msgid "You have just inserted a Video DVD."
-msgstr "Az önce Video DVD’si taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:715
-msgid "You have just inserted a Video CD."
-msgstr "Az önce Video CD’si taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:717
-msgid "You have just inserted a Super Video CD."
-msgstr "Az önce Super Video CD taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:719
-msgid "You have just inserted a blank CD."
-msgstr "Az önce boş CD taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:721
-msgid "You have just inserted a blank DVD."
-msgstr "Az önce boş DVD taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:723
-msgid "You have just inserted a blank Blu-Ray disc."
-msgstr "Az önce boş Blu-Ray disk taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:725
-msgid "You have just inserted a blank HD DVD."
-msgstr "Az önce boş HD DVD taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:727
-msgid "You have just inserted a Photo CD."
-msgstr "Az önce Fotoğraf CD’si taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:729
-msgid "You have just inserted a Picture CD."
-msgstr "Az önce Resim CD’si taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:731
-msgid "You have just inserted a medium with digital photos."
-msgstr "Az önce dijital fotoğraflı ortam yerleştirdiniz."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:733
-msgid "You have just inserted a digital audio player."
-msgstr "Az önce dijital ses oynatıcı taktınız."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:735
-msgid ""
-"You have just inserted a medium with software intended to be automatically "
-"started."
-msgstr "Az önce kendiliğinden başlaması amaçlanan yazılım ortamı taktınız."
-
-#. fallback to generic greeting
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:738
-msgid "You have just inserted a medium."
-msgstr "Az önce ortam yerleştirdiniz."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:740
-msgid "Choose what application to launch."
-msgstr "Başlatılacak uygulamayı seçin."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:749
-#, c-format
-msgid ""
-"Select how to open \"%s\" and whether to perform this action in the future "
-"for other media of type \"%s\"."
-msgstr ""
-"\"%s\" türünün nasıl açılacağını ve bundan sonra \"%s\" türündeki diğer "
-"ortamlar için bu eylemin uygulanıp uygulanmayacağını seçin."
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:776
-msgid "_Always perform this action"
-msgstr "Bu eylemi _hep uygula"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:786
-msgid "_OK"
-msgstr "_Tamam"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:792
-msgid "_Eject"
-msgstr "_Çıkar"
-
-#: gnome-flashback/libautomount-manager/gsd-autorun.c:797
-msgid "_Unmount"
-msgstr "_Bağı Kaldır"
-
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:102
-#: gnome-flashback/libdesktop/gf-icon-view.c:1320
-msgid "New Folder"
-msgstr "Yeni Klasör"
-
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:112
-msgid "Create"
-msgstr "Oluştur"
-
-#: gnome-flashback/libdesktop/gf-create-folder-dialog.c:140
-#: gnome-flashback/libdesktop/gf-rename-popover.c:117
-msgid "Folder name"
-msgstr "Klasör adı"
-
-#: gnome-flashback/libdesktop/gf-home-icon.c:45
-msgid "Home"
-msgstr "Ev"
-
-#: gnome-flashback/libdesktop/gf-icon.c:508
-msgid "Open"
-msgstr "Aç"
-
-#: gnome-flashback/libdesktop/gf-icon.c:544
-msgid "Move to Trash"
-msgstr "Çöpe taşı"
-
-#: gnome-flashback/libdesktop/gf-icon.c:564
-msgid "Rename..."
-msgstr "Yeniden adlandır..."
-
-#: gnome-flashback/libdesktop/gf-icon.c:587
-msgid "Empty Trash"
-msgstr "Çöpü Boşalt"
-
-#: gnome-flashback/libdesktop/gf-icon.c:601
-msgid "Properties"
-msgstr "Özellikler"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1096
-msgid "Auto arrange icons"
-msgstr "Simgeleri kendiliğinden düzenle"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1100
-msgid "Align icons to grid"
-msgstr "Simgeleri ızgaraya hizala"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1104
-msgctxt "Free placement of icons"
-msgid "Free"
-msgstr "Serbest"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1224
-msgid "Name"
-msgstr "Ad"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1228
-msgid "Date modified"
-msgstr "Değiştirilme tarihi"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1232
-msgid "Size"
-msgstr "Boyut"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1348
-msgid "Change Background"
-msgstr "Arka Planı Değiştir"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1356
-msgid "Display Settings"
-msgstr "Ekran Ayarları"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:1368
-msgid "Open Terminal"
-msgstr "Uçbirim aç"
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3215
-msgid "Folder names cannot contain “/”."
-msgstr "Klasör adları “/” içeremez."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3217
-msgid "File names cannot contain “/”."
-msgstr "Dosya adları “/” içeremez."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3224
-msgid "A folder cannot be called “.”."
-msgstr "Klasör “.” olarak adlandırılamaz."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3226
-msgid "A file cannot be called “.”."
-msgstr "Dosya “.” olarak adlandırılamaz."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3233
-msgid "A folder cannot be called “..”."
-msgstr "Klasör “..” olarak adlandırılamaz."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3235
-msgid "A file cannot be called “..”."
-msgstr "Dosya “..” olarak adlandırılamaz."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3251
-msgid "A folder with that name already exists."
-msgstr "Bu adda klasör zaten var."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3253
-msgid "A file with that name already exists."
-msgstr "Bu adda dosya zaten var."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3264
-msgid "Folders with “.” at the beginning of their name are hidden."
-msgstr "Adının başında “.” olan klasörler gizlidir."
-
-#: gnome-flashback/libdesktop/gf-icon-view.c:3266
-msgid "Files with “.” at the beginning of their name are hidden."
-msgstr "Adının başında “.” olan dosyalar gizlidir."
-
-#: gnome-flashback/libdesktop/gf-rename-popover.c:117
-msgid "File name"
-msgstr "Dosya adı"
-
-#: gnome-flashback/libdesktop/gf-rename-popover.c:254
-msgid "Rename"
-msgstr "Yeniden adlandır"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:514
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:750
-msgid "Log Out"
-msgstr "Oturumu Kapat"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:518
-msgid "Click Log Out to quit these applications and log out of the system."
-msgstr ""
-"Bu uygulamalardan çıkmak ve sistem oturumunu kapatmak için Çıkış tıklayın."
-
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:526
 #, c-format
 msgid "%s will be logged out automatically in %d second."
 msgid_plural "%s will be logged out automatically in %d seconds."
 msgstr[0] "%s oturumu %d saniye içinde kendiliğinden kapatılacak."
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:537
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:754
-msgid "Power Off"
-msgstr "Kapat"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:540
-msgid "Click Power Off to quit these applications and power off the system."
-msgstr "Bu uygulamadan çıkmak ve sistemi kapatmak için Kapat’a tıklayın."
 
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:542
 #, c-format
@@ -1042,27 +552,11 @@ msgid "The system will power off automatically in %d second."
 msgid_plural "The system will power off automatically in %d seconds."
 msgstr[0] "Sistem %d saniye içinde kendiliğinden kapatılacak."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:549
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:758
-msgid "Restart"
-msgstr "Yeniden başlat"
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:552
-msgid "Click Restart to quit these applications and restart the system."
-msgstr ""
-"Bu uygulamalardan çıkmak ve sistemi yeniden başlatmak için Yeniden Başlat’a "
-"tıklayın."
-
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:554
 #, c-format
 msgid "The system will restart automatically in %d second."
 msgid_plural "The system will restart automatically in %d seconds."
 msgstr[0] "Sistem %d saniye içinde kendiliğinden yeniden başlatılacak."
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:561
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:762
-msgid "Hibernate"
-msgstr "Hazırda Beklet"
 
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:562
 #, c-format
@@ -1070,21 +564,11 @@ msgid "The system will hibernate automatically in %d second."
 msgid_plural "The system will hibernate automatically in %d seconds."
 msgstr[0] "Sistem %d saniye içinde kendiliğinden hazırda bekletilecek."
 
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:569
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:766
-msgid "Suspend"
-msgstr "Askıya Al"
-
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:570
 #, c-format
 msgid "The system will suspend automatically in %d second."
 msgid_plural "The system will suspend automatically in %d seconds."
 msgstr[0] "Sistem %d saniye içinde kendiliğinden askıya alınacak."
-
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:577
-#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:770
-msgid "Hybrid Sleep"
-msgstr "Karma Uyku"
 
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.c:578
 #, c-format
@@ -1104,84 +588,13 @@ msgstr ""
 "Uygulamaların işlemlerinin bitmesi bekleniyor. Uygulamaların kesilmesi veri "
 "yitimine neden olabilir."
 
+#: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:111
+msgid "Cancel"
+msgstr "İptal"
+
 #: gnome-flashback/libend-session-dialog/gf-inhibit-dialog.ui:125
 msgid "Lock Screen"
 msgstr "Ekranı Kilitle"
-
-#: gnome-flashback/libnotifications/gf-bubble.c:549
-#: gnome-flashback/libnotifications/gf-bubble.c:553
-#: gnome-flashback/libnotifications/nd-notification-box.c:320
-#: gnome-flashback/libnotifications/nd-notification-box.c:322
-msgid "Closes the notification."
-msgstr "Bildirimi kapatır."
-
-#: gnome-flashback/libnotifications/gf-bubble.c:573
-#: gnome-flashback/libnotifications/gf-bubble.c:604
-#: gnome-flashback/libnotifications/nd-notification-box.c:338
-msgid "Notification summary text."
-msgstr "Bildirim özeti metni."
-
-#: gnome-flashback/libnotifications/gf-bubble.c:623
-msgid "Notification"
-msgstr "Bildirim"
-
-#: gnome-flashback/libnotifications/nd-daemon.c:98
-msgid "Invalid notification identifier"
-msgstr "Tanımlanmamış bildirim"
-
-#: gnome-flashback/libnotifications/nd-notification-box.c:358
-msgid "Notification body text."
-msgstr "Bildirim gövdesi metni."
-
-#: gnome-flashback/libnotifications/nd-queue.c:428
-msgid "Clear all notifications"
-msgstr "Tüm bildirimleri temizle"
-
-#: gnome-flashback/libnotifications/nd-queue.c:846
-msgid "Notifications"
-msgstr "Bildirimler"
-
-#: gnome-flashback/libscreensaver/gf-auth.c:432
-msgid "Your account was given a time limit that has now passed."
-msgstr "Hesabınıza verilen zaman sınırı şu an doldu."
-
-#: gnome-flashback/libscreensaver/gf-auth.c:436
-msgid "Sorry, that didn’t work. Please try again."
-msgstr "Üzgünüm ama işe yaramadı. Lütfen yeniden deneyin."
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:179
-msgid "Failed to switch to greeter!"
-msgstr "Karşılama penceresine geçilemedi!"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:253
-msgid "Time has expired."
-msgstr "Süre doldu."
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:469
-msgid "Checking…"
-msgstr "Denetleniyor…"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:494
-msgid "S_witch User…"
-msgstr "Kullanıcı _Değiştir…"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:503
-msgid "_Unlock"
-msgstr "_Kilidini Aç"
-
-#: gnome-flashback/libscreensaver/gf-unlock-dialog.c:714
-msgid "You have the Caps Lock key on."
-msgstr "Caps Lock tuşunuz açık durumda."
-
-#: gnome-flashback/libscreenshot/gf-screenshot.c:279
-msgid "Screenshot taken"
-msgstr "Ekran görüntüsü alındı"
-
-#. translators:
-#. * The device has been disabled
-#: gvc/gvc/gvc-mixer-control.c:1872
-msgid "Disabled"
-msgstr "Devre dışı"
 
 #. translators:
 #. * The number of sound outputs on a particular device
@@ -1199,126 +612,524 @@ msgid "%u Input"
 msgid_plural "%u Inputs"
 msgstr[0] "%u Girdi"
 
-#: gvc/gvc/gvc-mixer-control.c:2872
-msgid "System Sounds"
-msgstr "Sistem Sesleri"
-
-#: system-indicators/si-bluetooth.c:122
-msgid "Send Files"
-msgstr "Dosya Gönder"
-
-#: system-indicators/si-bluetooth.c:260
-msgid "Disconnect"
-msgstr "Bağlantıyı Kes"
-
-#: system-indicators/si-bluetooth.c:273
-msgid "Connect"
-msgstr "Bağlan"
-
-#: system-indicators/si-bluetooth.c:288
-msgid "Keyboard Settings"
-msgstr "Klavye Ayarları"
-
-#: system-indicators/si-bluetooth.c:296
-msgid "Mouse & Touchpad Settings"
-msgstr "Fare ve Dokunmatik Yüzey Ayarları"
-
-#: system-indicators/si-bluetooth.c:344
-msgid "Bluetooth Settings"
-msgstr "Bluetooth Ayarları"
-
 #: system-indicators/si-bluetooth.c:438
 #, c-format
 msgid "%d Connected Device"
 msgid_plural "%d Connected Devices"
 msgstr[0] "%d Aygıt Bağlı"
 
-#: system-indicators/si-bluetooth.c:445
-msgid "Not Connected"
-msgstr "Bağlı Değil"
+#~ msgid "Built-in display"
+#~ msgstr "Yerleşik ekran"
 
-#: system-indicators/si-desktop-menu-item.c:82
+#~ msgid "Unknown"
+#~ msgstr "Bilinmeyen"
+
+#~ msgid "Unknown Display"
+#~ msgstr "Bilinmeyen Ekran"
+
 #, c-format
-msgid "Desktop file “%s” is missing!"
-msgstr "“%s” masaüstü dosyası bulunamadı!"
+#~ msgctxt ""
+#~ "This is a monitor vendor name, followed by a size in inches, like 'Dell "
+#~ "15\"'"
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
 
-#: system-indicators/si-desktop-menu-item.c:105
 #, c-format
-msgid "Failed to start “%s”: %s"
-msgstr "“%s” başlatılamadı: %s"
+#~ msgctxt ""
+#~ "This is a monitor vendor name followed by product/model name where size "
+#~ "in inches could not be calculated, e.g. Dell U2414H"
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
 
-#: system-indicators/si-input-sources.c:859
-msgid "Show Keyboard Layout"
-msgstr "Klavye Düzenini Göster"
+#, no-c-format
+#~ msgid "Screencast from %d %t.webm"
+#~ msgstr "Ekran yayını - %d %t.webm"
 
-#: system-indicators/si-input-sources.c:890
-msgid "Region & Language Settings"
-msgstr "Bölge ve Dil Ayarları"
-
-#: system-indicators/si-module.c:33
-msgid "System Indicators"
-msgstr "Sistem Belirteçleri"
-
-#: system-indicators/si-module.c:34
-msgid "This applet contains system indicators"
-msgstr "Uygulamacık sistem belirteçleri içerir"
-
-#: system-indicators/si-power.c:63
-msgid "UPS"
-msgstr "Kesintisiz Güç Kaynağı (UPS)"
-
-#: system-indicators/si-power.c:65
-msgid "Battery"
-msgstr "Pil"
-
-#: system-indicators/si-power.c:81
-msgid "Fully Charged"
-msgstr "Tümüyle Şarj Oldu"
-
-#: system-indicators/si-power.c:83
-msgid "Empty"
-msgstr "Boş"
-
-#: system-indicators/si-power.c:89
-msgid "Not Charging"
-msgstr "Şarj Olmuyor"
-
-#: system-indicators/si-power.c:91 system-indicators/si-power.c:96
-msgid "Estimating..."
-msgstr "Öngörülüyor..."
-
-#. Translators: this is <hours>:<minutes> Remaining (<percentage>)
-#: system-indicators/si-power.c:105
 #, c-format
-msgid "%.0f:%02.0f Remaining (%.0f%%)"
-msgstr "%.0f:%02.0f Kaldı (%%%.0f)"
+#~ msgid "Screenshot from %s"
+#~ msgstr "Ekran görüntüsü %s"
 
-#. Translators: this is <hours>:<minutes> Until Full (<percentage>)
-#: system-indicators/si-power.c:112
 #, c-format
-msgid "%.0f:%02.0f Until Full (%.0f%%)"
-msgstr "Tümüyle Dolmasına %.0f:%02.0f (%%%.0f)"
+#~ msgid "_Password for %s:"
+#~ msgstr "%s _Parolası:"
 
-#: system-indicators/si-power.c:146
-msgid "Power Settings"
-msgstr "Güç Ayarları"
+#~ msgid "Your authentication attempt was unsuccessful. Please try again."
+#~ msgstr ""
+#~ "Kimlik doğrulama girişiminiz başarısız oldu. Lütfen yeniden deneyin."
 
-#: system-indicators/si-volume.c:245
-msgid "Volume changed"
-msgstr "Ses değişti"
+#~ msgid "Authentication dialog was dismissed by the user"
+#~ msgstr "Kimlik doğrulama penceresi kullanıcıca kapatıldı"
 
-#: system-indicators/si-volume.c:266
-msgid "Mute"
-msgstr "Sesi Kapat"
+#~ msgid ""
+#~ "An application is attempting to perform an action that requires "
+#~ "privileges. Authentication as one of the users below is required to "
+#~ "perform this action."
+#~ msgstr ""
+#~ "Bir uygulama ayrıcalık gerektiren eylem gerçekleştirmeye çalışıyor. Bu "
+#~ "işlemi gerçekleştirmek için aşağıdaki kullanıcılardan biri olarak kimlik "
+#~ "doğrulaması gerekiyor."
 
-#: system-indicators/si-volume.c:523
-msgid "Input"
-msgstr "Girdi"
+#~ msgid ""
+#~ "An application is attempting to perform an action that requires "
+#~ "privileges. Authentication as the super user is required to perform this "
+#~ "action."
+#~ msgstr ""
+#~ "Bir uygulama ayrıcalık gerektiren eylem gerçekleştirmeye çalışıyor. Bu "
+#~ "işlemi gerçekleştirmek için süper kullanıcı olarak kimlik doğrulaması "
+#~ "gerekiyor."
 
-#: system-indicators/si-volume.c:523
-msgid "Output"
-msgstr "Çıktı"
+#~ msgid "Select user..."
+#~ msgstr "Kullanıcı seç..."
 
-#: system-indicators/si-volume.c:534
-msgid "Muted"
-msgstr "Sessiz"
+#, c-format
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "Action:"
+#~ msgstr "Eylem:"
+
+#, c-format
+#~ msgid "Click to edit %s"
+#~ msgstr "%s düzenlemek için tıkla"
+
+#~ msgid "Vendor:"
+#~ msgstr "Sağlayıcı:"
+
+#, c-format
+#~ msgid "Click to open %s"
+#~ msgstr "%s açmak için tıkla"
+
+#~ msgid "Idle Monitor (GNOME Flashback)"
+#~ msgstr "Boşluk Gözlemcisi (GNOME Flashback)"
+
+#~ msgid "Replace a currently running application"
+#~ msgstr "Şu an çalışan uygulamayı değiştir"
+
+#~ msgid "Print version and exit"
+#~ msgstr "Sürüm bilgisini yazdır ve çık"
+
+#~ msgid "Slow Keys Turned On"
+#~ msgstr "Yavaş Tuşlar Açık"
+
+#~ msgid "Slow Keys Turned Off"
+#~ msgstr "Yavaş Tuşlar Kapalı"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds. This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Shift tuşuna 8 saniye boyunca bastınız. Bu, klavyenizin çalışma yolunu "
+#~ "etkileyen Yavaş Tuşlar özelliğinin kısayoludur."
+
+#~ msgid "Turn Off"
+#~ msgstr "Kapat"
+
+#~ msgid "Turn On"
+#~ msgstr "Aç"
+
+#~ msgid "Leave On"
+#~ msgstr "Açık Bırak"
+
+#~ msgid "Leave Off"
+#~ msgstr "Kapalı Bırak"
+
+#~ msgid "Universal Access"
+#~ msgstr "Evrensel Erişim"
+
+#~ msgid "Sticky Keys Turned On"
+#~ msgstr "Yapışkan Tuşlar Açık"
+
+#~ msgid "Sticky Keys Turned Off"
+#~ msgstr "Yapışkan Tuşlar Kapalı"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Shift tuşuna art arda 5 kez bastınız. Bu, klavyenizin çalışma yolunu "
+#~ "etkileyen Yapışkan Tuşlar özelliğinin kısayoludur."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row. This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "İki tuşa aynı anda veya Shift tuşuna art arda 5 kez bastınız. Bu, "
+#~ "klavyenizin çalışma yolunu etkileyen Yapışkan Tuşlar özelliğini kapatır."
+
+#~ msgid "Headphones"
+#~ msgstr "Kulaklıklar"
+
+#~ msgid "Headset"
+#~ msgstr "Kulaklıklı Mikrofon"
+
+#~ msgid "Microphone"
+#~ msgstr "Mikrofon"
+
+#, c-format
+#~ msgid "Failed to start Sound Preferences: %s"
+#~ msgstr "Ses Tercihleri başlatılamadı: %s"
+
+#~ msgid "What kind of device did you plug in?"
+#~ msgstr "Ne tür aygıt taktınız?"
+
+#~ msgid "Sound Settings"
+#~ msgstr "Ses Ayarları"
+
+#~ msgid "Unknown Audio Device"
+#~ msgstr "Bilinmeyen Ses Aygıtı"
+
+#, c-format
+#~ msgid "Unable to mount %s"
+#~ msgstr "%s bağlanamadı"
+
+#, c-format
+#~ msgid "Unable to open a folder for %s"
+#~ msgstr "%s için klasör açılamıyor"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Ne yapılacağını sor"
+
+#~ msgid "Do Nothing"
+#~ msgstr "Bir Şey Yapma"
+
+#~ msgid "Open Folder"
+#~ msgstr "Klasörü Aç"
+
+#, c-format
+#~ msgid "Unable to eject %p"
+#~ msgstr "%p çıkarılamıyor"
+
+#, c-format
+#~ msgid "Unable to unmount %p"
+#~ msgstr "%p bağı kaldırılamıyor"
+
+#~ msgid "You have just inserted an Audio CD."
+#~ msgstr "Az önce Ses CD’si eklediniz."
+
+#~ msgid "You have just inserted an Audio DVD."
+#~ msgstr "Az önce Ses DVD’si eklediniz."
+
+#~ msgid "You have just inserted a Video DVD."
+#~ msgstr "Az önce Video DVD’si taktınız."
+
+#~ msgid "You have just inserted a Video CD."
+#~ msgstr "Az önce Video CD’si taktınız."
+
+#~ msgid "You have just inserted a Super Video CD."
+#~ msgstr "Az önce Super Video CD taktınız."
+
+#~ msgid "You have just inserted a blank CD."
+#~ msgstr "Az önce boş CD taktınız."
+
+#~ msgid "You have just inserted a blank DVD."
+#~ msgstr "Az önce boş DVD taktınız."
+
+#~ msgid "You have just inserted a blank Blu-Ray disc."
+#~ msgstr "Az önce boş Blu-Ray disk taktınız."
+
+#~ msgid "You have just inserted a blank HD DVD."
+#~ msgstr "Az önce boş HD DVD taktınız."
+
+#~ msgid "You have just inserted a Photo CD."
+#~ msgstr "Az önce Fotoğraf CD’si taktınız."
+
+#~ msgid "You have just inserted a Picture CD."
+#~ msgstr "Az önce Resim CD’si taktınız."
+
+#~ msgid "You have just inserted a medium with digital photos."
+#~ msgstr "Az önce dijital fotoğraflı ortam yerleştirdiniz."
+
+#~ msgid "You have just inserted a digital audio player."
+#~ msgstr "Az önce dijital ses oynatıcı taktınız."
+
+#~ msgid ""
+#~ "You have just inserted a medium with software intended to be "
+#~ "automatically started."
+#~ msgstr "Az önce kendiliğinden başlaması amaçlanan yazılım ortamı taktınız."
+
+#~ msgid "You have just inserted a medium."
+#~ msgstr "Az önce ortam yerleştirdiniz."
+
+#~ msgid "Choose what application to launch."
+#~ msgstr "Başlatılacak uygulamayı seçin."
+
+#, c-format
+#~ msgid ""
+#~ "Select how to open \"%s\" and whether to perform this action in the "
+#~ "future for other media of type \"%s\"."
+#~ msgstr ""
+#~ "\"%s\" türünün nasıl açılacağını ve bundan sonra \"%s\" türündeki diğer "
+#~ "ortamlar için bu eylemin uygulanıp uygulanmayacağını seçin."
+
+#~ msgid "_Always perform this action"
+#~ msgstr "Bu eylemi _hep uygula"
+
+#~ msgid "_OK"
+#~ msgstr "_Tamam"
+
+#~ msgid "_Eject"
+#~ msgstr "_Çıkar"
+
+#~ msgid "_Unmount"
+#~ msgstr "_Bağı Kaldır"
+
+#~ msgid "New Folder"
+#~ msgstr "Yeni Klasör"
+
+#~ msgid "Create"
+#~ msgstr "Oluştur"
+
+#~ msgid "Folder name"
+#~ msgstr "Klasör adı"
+
+#~ msgid "Home"
+#~ msgstr "Ev"
+
+#~ msgid "Open"
+#~ msgstr "Aç"
+
+#~ msgid "Move to Trash"
+#~ msgstr "Çöpe taşı"
+
+#~ msgid "Rename..."
+#~ msgstr "Yeniden adlandır..."
+
+#~ msgid "Empty Trash"
+#~ msgstr "Çöpü Boşalt"
+
+#~ msgid "Properties"
+#~ msgstr "Özellikler"
+
+#~ msgid "Auto arrange icons"
+#~ msgstr "Simgeleri kendiliğinden düzenle"
+
+#~ msgid "Align icons to grid"
+#~ msgstr "Simgeleri ızgaraya hizala"
+
+#~ msgctxt "Free placement of icons"
+#~ msgid "Free"
+#~ msgstr "Serbest"
+
+#~ msgid "Name"
+#~ msgstr "Ad"
+
+#~ msgid "Date modified"
+#~ msgstr "Değiştirilme tarihi"
+
+#~ msgid "Size"
+#~ msgstr "Boyut"
+
+#~ msgid "Change Background"
+#~ msgstr "Arka Planı Değiştir"
+
+#~ msgid "Display Settings"
+#~ msgstr "Ekran Ayarları"
+
+#~ msgid "Open Terminal"
+#~ msgstr "Uçbirim aç"
+
+#~ msgid "Folder names cannot contain “/”."
+#~ msgstr "Klasör adları “/” içeremez."
+
+#~ msgid "File names cannot contain “/”."
+#~ msgstr "Dosya adları “/” içeremez."
+
+#~ msgid "A folder cannot be called “.”."
+#~ msgstr "Klasör “.” olarak adlandırılamaz."
+
+#~ msgid "A file cannot be called “.”."
+#~ msgstr "Dosya “.” olarak adlandırılamaz."
+
+#~ msgid "A folder cannot be called “..”."
+#~ msgstr "Klasör “..” olarak adlandırılamaz."
+
+#~ msgid "A file cannot be called “..”."
+#~ msgstr "Dosya “..” olarak adlandırılamaz."
+
+#~ msgid "A folder with that name already exists."
+#~ msgstr "Bu adda klasör zaten var."
+
+#~ msgid "A file with that name already exists."
+#~ msgstr "Bu adda dosya zaten var."
+
+#~ msgid "Folders with “.” at the beginning of their name are hidden."
+#~ msgstr "Adının başında “.” olan klasörler gizlidir."
+
+#~ msgid "Files with “.” at the beginning of their name are hidden."
+#~ msgstr "Adının başında “.” olan dosyalar gizlidir."
+
+#~ msgid "File name"
+#~ msgstr "Dosya adı"
+
+#~ msgid "Rename"
+#~ msgstr "Yeniden adlandır"
+
+#~ msgid "Log Out"
+#~ msgstr "Oturumu Kapat"
+
+#~ msgid "Click Log Out to quit these applications and log out of the system."
+#~ msgstr ""
+#~ "Bu uygulamalardan çıkmak ve sistem oturumunu kapatmak için Çıkış tıklayın."
+
+#~ msgid "Power Off"
+#~ msgstr "Kapat"
+
+#~ msgid "Click Power Off to quit these applications and power off the system."
+#~ msgstr "Bu uygulamadan çıkmak ve sistemi kapatmak için Kapat’a tıklayın."
+
+#~ msgid "Restart"
+#~ msgstr "Yeniden başlat"
+
+#~ msgid "Click Restart to quit these applications and restart the system."
+#~ msgstr ""
+#~ "Bu uygulamalardan çıkmak ve sistemi yeniden başlatmak için Yeniden "
+#~ "Başlat’a tıklayın."
+
+#~ msgid "Hibernate"
+#~ msgstr "Hazırda Beklet"
+
+#~ msgid "Suspend"
+#~ msgstr "Askıya Al"
+
+#~ msgid "Hybrid Sleep"
+#~ msgstr "Karma Uyku"
+
+#~ msgid "Closes the notification."
+#~ msgstr "Bildirimi kapatır."
+
+#~ msgid "Notification summary text."
+#~ msgstr "Bildirim özeti metni."
+
+#~ msgid "Notification"
+#~ msgstr "Bildirim"
+
+#~ msgid "Invalid notification identifier"
+#~ msgstr "Tanımlanmamış bildirim"
+
+#~ msgid "Notification body text."
+#~ msgstr "Bildirim gövdesi metni."
+
+#~ msgid "Clear all notifications"
+#~ msgstr "Tüm bildirimleri temizle"
+
+#~ msgid "Notifications"
+#~ msgstr "Bildirimler"
+
+#~ msgid "Your account was given a time limit that has now passed."
+#~ msgstr "Hesabınıza verilen zaman sınırı şu an doldu."
+
+#~ msgid "Sorry, that didn’t work. Please try again."
+#~ msgstr "Üzgünüm ama işe yaramadı. Lütfen yeniden deneyin."
+
+#~ msgid "Failed to switch to greeter!"
+#~ msgstr "Karşılama penceresine geçilemedi!"
+
+#~ msgid "Time has expired."
+#~ msgstr "Süre doldu."
+
+#~ msgid "Checking…"
+#~ msgstr "Denetleniyor…"
+
+#~ msgid "S_witch User…"
+#~ msgstr "Kullanıcı _Değiştir…"
+
+#~ msgid "_Unlock"
+#~ msgstr "_Kilidini Aç"
+
+#~ msgid "You have the Caps Lock key on."
+#~ msgstr "Caps Lock tuşunuz açık durumda."
+
+#~ msgid "Screenshot taken"
+#~ msgstr "Ekran görüntüsü alındı"
+
+#~ msgid "Disabled"
+#~ msgstr "Devre dışı"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sistem Sesleri"
+
+#~ msgid "Send Files"
+#~ msgstr "Dosya Gönder"
+
+#~ msgid "Disconnect"
+#~ msgstr "Bağlantıyı Kes"
+
+#~ msgid "Connect"
+#~ msgstr "Bağlan"
+
+#~ msgid "Keyboard Settings"
+#~ msgstr "Klavye Ayarları"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "Fare ve Dokunmatik Yüzey Ayarları"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Bluetooth Ayarları"
+
+#~ msgid "Not Connected"
+#~ msgstr "Bağlı Değil"
+
+#, c-format
+#~ msgid "Desktop file “%s” is missing!"
+#~ msgstr "“%s” masaüstü dosyası bulunamadı!"
+
+#, c-format
+#~ msgid "Failed to start “%s”: %s"
+#~ msgstr "“%s” başlatılamadı: %s"
+
+#~ msgid "Show Keyboard Layout"
+#~ msgstr "Klavye Düzenini Göster"
+
+#~ msgid "Region & Language Settings"
+#~ msgstr "Bölge ve Dil Ayarları"
+
+#~ msgid "System Indicators"
+#~ msgstr "Sistem Belirteçleri"
+
+#~ msgid "This applet contains system indicators"
+#~ msgstr "Uygulamacık sistem belirteçleri içerir"
+
+#~ msgid "UPS"
+#~ msgstr "Kesintisiz Güç Kaynağı (UPS)"
+
+#~ msgid "Battery"
+#~ msgstr "Pil"
+
+#~ msgid "Fully Charged"
+#~ msgstr "Tümüyle Şarj Oldu"
+
+#~ msgid "Empty"
+#~ msgstr "Boş"
+
+#~ msgid "Not Charging"
+#~ msgstr "Şarj Olmuyor"
+
+#~ msgid "Estimating..."
+#~ msgstr "Öngörülüyor..."
+
+#, c-format
+#~ msgid "%.0f:%02.0f Remaining (%.0f%%)"
+#~ msgstr "%.0f:%02.0f Kaldı (%%%.0f)"
+
+#, c-format
+#~ msgid "%.0f:%02.0f Until Full (%.0f%%)"
+#~ msgstr "Tümüyle Dolmasına %.0f:%02.0f (%%%.0f)"
+
+#~ msgid "Power Settings"
+#~ msgstr "Güç Ayarları"
+
+#~ msgid "Volume changed"
+#~ msgstr "Ses değişti"
+
+#~ msgid "Mute"
+#~ msgstr "Sesi Kapat"
+
+#~ msgid "Input"
+#~ msgstr "Girdi"
+
+#~ msgid "Output"
+#~ msgstr "Çıktı"
+
+#~ msgid "Muted"
+#~ msgstr "Sessiz"

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: symbolic-preview master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/design/contrast\n"
-"POT-Creation-Date: 2024-07-29 20:41+0000\n"
-"PO-Revision-Date: 2024-05-10 22:30+0300\n"
+"POT-Creation-Date: 2025-09-10 23:26+0000\n"
+"PO-Revision-Date: 2025-05-16 22:41+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
@@ -18,18 +18,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.6\n"
 "X-POOTLE-MTIME: 1429307949.000000\n"
 
 #: data/org.gnome.design.SymbolicPreview.metainfo.xml.in.in:7
-#: data/org.gnome.design.SymbolicPreview.desktop.in.in:3
-#: data/resources/ui/window.ui:48 src/widgets/window.rs:295
-#: src/application.rs:147
+#: data/org.gnome.design.SymbolicPreview.desktop.in.in:2
+#: data/resources/ui/window.ui:48 src/widgets/window.rs:296
+#: src/application.rs:187
 msgid "Symbolic Preview"
 msgstr "Sembolik Ön İzleme"
 
 #: data/org.gnome.design.SymbolicPreview.metainfo.xml.in.in:8
-#: data/org.gnome.design.SymbolicPreview.desktop.in.in:4
+#: data/org.gnome.design.SymbolicPreview.desktop.in.in:3
 msgid "Symbolics made easy"
 msgstr "Sembolikler kolaylaştı"
 
@@ -49,13 +49,19 @@ msgstr "Ana Pencere"
 msgid "Single Symbolic Icon"
 msgstr "Tek Sembolik Simge"
 
-#: data/org.gnome.design.SymbolicPreview.metainfo.xml.in.in:82
+#. developer_name tag deprecated with Appstream 1.0
+#: data/org.gnome.design.SymbolicPreview.metainfo.xml.in.in:83
 msgid "Bilal Elmoussaoui"
 msgstr "Bilal Elmoussaoui"
 
-#: data/org.gnome.design.SymbolicPreview.desktop.in.in:9
+#: data/org.gnome.design.SymbolicPreview.desktop.in.in:8
 msgid "Gnome;GTK;Symbolics;Icon;"
 msgstr "Gnome;GTK;Symbolics;Icon;Sembolikler;Simge;İkon;"
+
+#: data/org.gnome.design.SymbolicPreview.desktop.in.in:18
+#: data/resources/ui/window.ui:6
+msgid "New Window"
+msgstr "Yeni Pencere"
 
 #: data/org.gnome.design.SymbolicPreview.gschema.xml.in:6
 #: data/org.gnome.design.SymbolicPreview.gschema.xml.in:7
@@ -96,7 +102,7 @@ msgid "The exported SVG file will be stored in this directory"
 msgstr "Dışa aktarılmış SVG dosyası bu dizinde saklanacak"
 
 #: data/resources/ui/export_popover.ui:63 data/resources/ui/window.ui:67
-#: src/widgets/window.rs:302
+#: src/widgets/window.rs:303
 msgid "Export All"
 msgstr "Tümünü Dışa Aktar"
 
@@ -190,10 +196,6 @@ msgstr "Önerilen"
 msgid "Destructive"
 msgstr "Yıkıcı"
 
-#: data/resources/ui/window.ui:6
-msgid "New Window"
-msgstr "Yeni Pencere"
-
 #: data/resources/ui/window.ui:12
 msgid "Reload"
 msgstr "Yeniden Yükle"
@@ -214,7 +216,7 @@ msgstr "_Klavye Kısayolları"
 msgid "_About Symbolic Preview"
 msgstr "Sembolik Ön İzleme _Hakkında"
 
-#: data/resources/ui/window.ui:53 src/widgets/window.rs:336
+#: data/resources/ui/window.ui:53 src/widgets/window.rs:337
 msgid "_Open"
 msgstr "_Aç"
 
@@ -250,7 +252,7 @@ msgstr ""
 "Uygulamanızda pek çok özel sembolik simge varsa, simge takımı bunları "
 "yönetmek için doğru yoldur"
 
-#: src/widgets/export/dialog.rs:102 src/widgets/window.rs:330
+#: src/widgets/export/dialog.rs:102 src/widgets/window.rs:331
 msgid "SVG images"
 msgstr "SVG resimleri"
 
@@ -258,7 +260,7 @@ msgstr "SVG resimleri"
 msgid "Export a symbolic icon"
 msgstr "Sembolik simgeyi dışa aktar"
 
-#: src/widgets/export/dialog.rs:111 src/widgets/window.rs:308
+#: src/widgets/export/dialog.rs:111 src/widgets/window.rs:309
 msgid "Export"
 msgstr "Dışa Aktar"
 
@@ -286,11 +288,15 @@ msgstr "Simge Takımı Adı"
 msgid "Icons Set Source Location"
 msgstr "Simge Takımı Kaynak Konumu"
 
-#: src/widgets/window.rs:335
+#: src/widgets/window.rs:336
 msgid "Open File"
 msgstr "Dosya Aç"
 
-#: src/application.rs:153
+#: src/application.rs:40
+msgid "Open a new window"
+msgstr "Yeni pencere aç"
+
+#: src/application.rs:193
 msgid "translator-credits"
 msgstr "Sabri Ünal <libreajans@gmail.com>"
 

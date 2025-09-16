@@ -2,15 +2,15 @@
 # Copyright (C) 2023-2024 Typography's COPYRIGHT HOLDER
 # This file is distributed under the same license as the Typography package.
 #
-# Sabri Ünal <yakushabb@gmail.com>, 2023, 2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2023.
+# Sabri Ünal <yakushabb@gmail.com>, 2023, 2024, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Typography master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/design/typography\n"
-"POT-Creation-Date: 2024-11-24 12:09+0000\n"
-"PO-Revision-Date: 2024-10-27 07:48+0300\n"
+"POT-Creation-Date: 2025-09-12 16:18+0000\n"
+"PO-Revision-Date: 2025-08-28 22:50+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -18,108 +18,132 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.design.Typography.desktop.in:3
-#: data/org.gnome.design.Typography.metainfo.xml.in:8 src/window.c:95
+#: data/org.gnome.design.Typography.desktop.in.in:2
+#: data/org.gnome.design.Typography.metainfo.xml.in.in:8 src/window.c:160
 #: src/window.ui:6
 msgid "Typography"
 msgstr "Tipografi"
 
-#: data/org.gnome.design.Typography.desktop.in:4
-#: data/org.gnome.design.Typography.metainfo.xml.in:9
+#: data/org.gnome.design.Typography.desktop.in.in:3
+#: data/org.gnome.design.Typography.metainfo.xml.in.in:9
 msgid "Look up text styles"
 msgstr "Metin biçemlerine bak"
 
-#: data/org.gnome.design.Typography.metainfo.xml.in:11
+#: data/org.gnome.design.Typography.metainfo.xml.in.in:11
 msgid "Tool for working with the GNOME typography design guidelines."
 msgstr "GNOME tipografi tasarım yönergeleriyle çalışmak için araç."
 
 #. Translators: This is my name
-#: data/org.gnome.design.Typography.metainfo.xml.in:31
+#: data/org.gnome.design.Typography.metainfo.xml.in.in:31 src/window.c:162
 msgid "Zander Brown"
 msgstr "Zander Brown"
 
-#: src/window.c:90
+#: src/window.c:80
 #, c-format
-msgid "Copyright © %s Zander Brown"
-msgstr "Telif Hakkı © %s Zander Brown"
+msgid "“%s” copied to the clipboard"
+msgstr "“%s” panoya kopyalandı"
+
+#: src/window.c:104
+msgid "Couldn't Open URI"
+msgstr "URI Açılamadı"
+
+#: src/window.c:108
+msgid "_Close"
+msgstr "_Kapat"
+
+#: src/window.c:154
+#, c-format
+msgid "© %s Zander Brown"
+msgstr "© %s Zander Brown"
 
 #. Translators: Credit yourself here
-#: src/window.c:101
+#: src/window.c:170
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <libreajans@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/window.ui:15
+#: src/window.ui:16
 msgid "Main Menu"
 msgstr "Ana Menü"
 
-#: src/window.ui:53
+#: src/window.ui:51
 msgid "Title 1"
 msgstr "Başlık 1"
 
-#: src/window.ui:75
+#: src/window.ui:73
 msgid "Title 2"
 msgstr "Başlık 2"
 
-#: src/window.ui:97
+#: src/window.ui:95
 msgid "Title 3"
 msgstr "Başlık 3"
 
-#: src/window.ui:119
+#: src/window.ui:117
 msgid "Title 4"
 msgstr "Başlık 4"
 
-#: src/window.ui:141
+#: src/window.ui:139
+msgid "Numeric"
+msgstr "Sayısal"
+
+#: src/window.ui:161
 msgid "Heading"
 msgstr "Başlık"
 
-#: src/window.ui:163
+#: src/window.ui:183
 msgid "Body"
 msgstr "Gövde"
 
-#: src/window.ui:185
+#: src/window.ui:205
 msgid "Caption Heading"
 msgstr "Resim Yazısı Başlığı"
 
-#: src/window.ui:207
+#: src/window.ui:227
 msgid "Caption"
 msgstr "Resim Yazısı"
 
-#: src/window.ui:236 src/window.ui:247
+#: src/window.ui:249
+msgid "Monospace"
+msgstr "Eş Aralıklı"
+
+#: src/window.ui:278 src/window.ui:289
 msgid "Quotation"
 msgstr "Alıntı"
 
-#: src/window.ui:258
-msgid "Time / Ratio"
-msgstr "Zaman / Oran"
-
-#: src/window.ui:270
+#: src/window.ui:300
 msgid "Multiplication"
 msgstr "Çarpım"
 
-#: src/window.ui:282
+#: src/window.ui:312
 msgid "Ellipsis"
 msgstr "Üç Nokta"
 
-#: src/window.ui:294
+#: src/window.ui:324
 msgid "Apostrophe"
 msgstr "Kesme İmi"
 
-#: src/window.ui:306
+#: src/window.ui:336
 msgid "Bullet"
 msgstr "Nokta"
 
-#: src/window.ui:318
+#: src/window.ui:348
 msgid "Range"
 msgstr "Erim"
 
-#: src/window.ui:357
+#: src/window.ui:389
 msgid "Design _Guidelines<sup>↗</sup>"
 msgstr "Tasarım _Yönergeleri<sup>↗</sup>"
 
-#: src/window.ui:364
+#: src/window.ui:396
 msgid "_About Typography"
 msgstr "Tipografi _Hakkında"
+
+#, c-format
+#~ msgid "Copyright © %s Zander Brown"
+#~ msgstr "Telif Hakkı © %s Zander Brown"
+
+#~ msgid "Time / Ratio"
+#~ msgstr "Zaman / Oran"

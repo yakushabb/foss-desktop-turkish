@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: NetworkManager-openconnect main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-"
 "openconnect/issues\n"
-"POT-Creation-Date: 2025-01-10 20:32+0000\n"
+"POT-Creation-Date: 2025-09-10 22:14+0000\n"
 "PO-Revision-Date: 2024-03-16 08:44+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -49,73 +49,73 @@ msgstr "Cisco AnyConnect, Juniper ve ocserv tabanlı ağlar ile uyumludur."
 msgid "The NetworkManager Developers"
 msgstr "NetworkManager Geliştiricileri"
 
-#: ../auth-dialog/main.c:885
+#: ../auth-dialog/main.c:848
 #, c-format
 msgid "OpenConnect: %s: %s:%s"
 msgstr "OpenConnect: %s: %s:%s"
 
-#: ../auth-dialog/main.c:915
+#: ../auth-dialog/main.c:878
 #, c-format
 msgid "Connect to VPN “%s”"
 msgstr "“%s” VPN’e bağlan"
 
-#: ../auth-dialog/main.c:917
+#: ../auth-dialog/main.c:880
 msgid "Connect to VPN"
 msgstr "VPN’e bağlan"
 
-#: ../auth-dialog/main.c:994
+#: ../auth-dialog/main.c:937
 msgid "<b>The certificate may be invalid or untrusted!</b>\n"
 msgstr "<b>Sertifika geçersiz veya güvenilmez!</b>\n"
 
-#: ../auth-dialog/main.c:995
+#: ../auth-dialog/main.c:938
 msgid "<b>Reason: "
 msgstr "<b>Neden: "
 
-#: ../auth-dialog/main.c:1015 ../auth-dialog/main.c:1855
+#: ../auth-dialog/main.c:958 ../auth-dialog/main.c:1721
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: ../auth-dialog/main.c:1025
+#: ../auth-dialog/main.c:968
 msgid "I really know what I am doing"
 msgstr "Ne yaptığımı gerçekten biliyorum"
 
-#: ../auth-dialog/main.c:1034
+#: ../auth-dialog/main.c:977
 msgid "Connect anyway"
 msgstr "Yine de bağlan"
 
-#: ../auth-dialog/main.c:1778
+#: ../auth-dialog/main.c:1644
 msgid "_Close"
 msgstr "_Kapat"
 
-#: ../auth-dialog/main.c:1795
+#: ../auth-dialog/main.c:1661
 msgid "VPN host"
 msgstr "VPN sunucu"
 
-#: ../auth-dialog/main.c:1806
+#: ../auth-dialog/main.c:1672
 msgid "C_onnect"
 msgstr "B_ağlan"
 
-#: ../auth-dialog/main.c:1813
+#: ../auth-dialog/main.c:1679
 msgid "Automatically start connecting next time"
 msgstr "Sonraki kez kendiliğinden bağlanmaya başla"
 
-#: ../auth-dialog/main.c:1832
+#: ../auth-dialog/main.c:1698
 msgid "Select a host to fetch the login form"
 msgstr "Giriş formunun alınacağı sunucu seç"
 
-#: ../auth-dialog/main.c:1837
+#: ../auth-dialog/main.c:1703
 msgid "Contacting host, please wait…"
 msgstr "Ana makineye başvuruluyor, lütfen bekleyin…"
 
-#: ../auth-dialog/main.c:1849
+#: ../auth-dialog/main.c:1715
 msgid "_Login"
 msgstr "_Giriş"
 
-#: ../auth-dialog/main.c:1861
+#: ../auth-dialog/main.c:1727
 msgid "Save passwords"
 msgstr "Parolaları kaydet"
 
-#: ../auth-dialog/main.c:1869
+#: ../auth-dialog/main.c:1735
 msgid "Log"
 msgstr "Günlükle"
 
@@ -222,64 +222,17 @@ msgstr "HOTP — elle girildi"
 msgid "Yubikey OATH"
 msgstr "Yubikey OATH"
 
-#: ../properties/nm-openconnect-editor.c:277
-msgid "Cisco AnyConnect"
-msgstr "Cisco AnyConnect"
-
-#: ../properties/nm-openconnect-editor.c:284
-msgid "Juniper/Pulse Network Connect"
-msgstr "Juniper/Pulse Network Connect"
-
-#: ../properties/nm-openconnect-editor-plugin.c:57
-#: ../properties/nm-openconnect-editor-plugin.c:60
+#: ../properties/nm-openconnect-editor-plugin.c:45
 msgid "Multi-protocol VPN client (openconnect)"
 msgstr "Çoklu iletişim kurallı VPN istemcisi (openconnect)"
 
-#: ../properties/nm-openconnect-editor-plugin.c:58
+#: ../properties/nm-openconnect-editor-plugin.c:46
 msgid ""
 "Compatible with Cisco AnyConnect, Juniper Network Connect and Junos Pulse, "
 "and PAN GlobalProtect SSL VPNs."
 msgstr ""
 "Cisco AnyConnect, Juniper Network Connect, Junos Pulse ve PAN GlobalProtect "
 "SSL VPN’leriyle uyumludur."
-
-#: ../properties/nm-openconnect-editor-plugin.c:61
-msgid ""
-"Compatible with Cisco AnyConnect and Juniper Network Connect and Junos Pulse "
-"SSL VPNs."
-msgstr ""
-"Cisco AnyConnect, Juniper Network Connect ve Junos Pulse SSL VPN’leriyle "
-"uyumludur."
-
-#: ../properties/nm-openconnect-editor-plugin.c:63
-msgid "Cisco AnyConnect Compatible VPN (openconnect)"
-msgstr "Cisco AnyConnect Uyumlu VPN (openconnect)"
-
-#: ../properties/nm-openconnect-editor-plugin.c:64
-msgid "Compatible with Cisco AnyConnect SSL VPN."
-msgstr "Cisco AnyConnect SSL VPN ile uyumlu."
-
-#: ../properties/nm-openconnect-editor-plugin.c:105
-msgid "Cisco AnyConnect or openconnect"
-msgstr "Cisco AnyConnect veya openconnect"
-
-#. https://git.infradead.org/users/dwmw2/openconnect.git/blob/40802e459:/library.c#l113
-#: ../properties/nm-openconnect-editor-plugin.c:106
-#: ../openconnect-strings.txt:2474
-msgid "Compatible with Cisco AnyConnect SSL VPN, as well as ocserv"
-msgstr "Cisco AnyConnect SSL VPN ve ocserv ile uyumludur"
-
-#. https://git.infradead.org/users/dwmw2/openconnect.git/blob/40802e459:/library.c#l128
-#: ../properties/nm-openconnect-editor-plugin.c:110
-#: ../openconnect-strings.txt:2477
-msgid "Juniper Network Connect"
-msgstr "Juniper Network Connect"
-
-#. https://git.infradead.org/users/dwmw2/openconnect.git/blob/b795ff352:/library.c#l130
-#: ../properties/nm-openconnect-editor-plugin.c:111
-#: ../openconnect-strings.txt:2480
-msgid "Compatible with Juniper Network Connect"
-msgstr "Juniper Network Connect ile uyumludur"
 
 #: ../shared/nm-utils/nm-shared-utils.c:185
 #, c-format
@@ -4798,6 +4751,21 @@ msgstr "Yalnızca http ya da socks(5) vekilleri destekleniyor\n"
 #: ../openconnect-strings.txt:2471
 msgid "Cisco AnyConnect or OpenConnect"
 msgstr "Cisco AnyConnect veya OpenConnect"
+
+#. https://git.infradead.org/users/dwmw2/openconnect.git/blob/40802e459:/library.c#l113
+#: ../openconnect-strings.txt:2474
+msgid "Compatible with Cisco AnyConnect SSL VPN, as well as ocserv"
+msgstr "Cisco AnyConnect SSL VPN ve ocserv ile uyumludur"
+
+#. https://git.infradead.org/users/dwmw2/openconnect.git/blob/40802e459:/library.c#l128
+#: ../openconnect-strings.txt:2477
+msgid "Juniper Network Connect"
+msgstr "Juniper Network Connect"
+
+#. https://git.infradead.org/users/dwmw2/openconnect.git/blob/b795ff352:/library.c#l130
+#: ../openconnect-strings.txt:2480
+msgid "Compatible with Juniper Network Connect"
+msgstr "Juniper Network Connect ile uyumludur"
 
 #. https://git.infradead.org/users/dwmw2/openconnect.git/blob/8e7efd51f:/library.c#l146
 #: ../openconnect-strings.txt:2483
@@ -9758,6 +9726,28 @@ msgstr "hesapla komutu"
 #: ../openconnect-strings.txt:5244
 msgid "Unrecognised response from Yubikey when generating tokencode\n"
 msgstr "Tokencode oluşturulurken Yubikey'den gelen tanınmayan yanıt\n"
+
+#~ msgid "Cisco AnyConnect"
+#~ msgstr "Cisco AnyConnect"
+
+#~ msgid "Juniper/Pulse Network Connect"
+#~ msgstr "Juniper/Pulse Network Connect"
+
+#~ msgid ""
+#~ "Compatible with Cisco AnyConnect and Juniper Network Connect and Junos "
+#~ "Pulse SSL VPNs."
+#~ msgstr ""
+#~ "Cisco AnyConnect, Juniper Network Connect ve Junos Pulse SSL VPN’leriyle "
+#~ "uyumludur."
+
+#~ msgid "Cisco AnyConnect Compatible VPN (openconnect)"
+#~ msgstr "Cisco AnyConnect Uyumlu VPN (openconnect)"
+
+#~ msgid "Compatible with Cisco AnyConnect SSL VPN."
+#~ msgstr "Cisco AnyConnect SSL VPN ile uyumlu."
+
+#~ msgid "Cisco AnyConnect or openconnect"
+#~ msgstr "Cisco AnyConnect veya openconnect"
 
 #, c-format
 #~ msgid "  %s (%s)\n"

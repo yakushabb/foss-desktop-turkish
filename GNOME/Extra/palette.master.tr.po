@@ -9,25 +9,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: palette master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/design/palette\n"
-"POT-Creation-Date: 2024-09-07 10:29+0000\n"
-"PO-Revision-Date: 2023-05-12 11:38+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"POT-Creation-Date: 2025-09-14 08:11+0000\n"
+"PO-Revision-Date: 2025-06-25 14:51+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.design.Palette.metainfo.xml.in:8
-#: data/org.gnome.design.Palette.desktop.in:3 src/palette.vala:332
+#: data/org.gnome.design.Palette.desktop.in:2
+#: data/org.gnome.design.Palette.metainfo.xml.in:8 src/palette.vala:226
 msgid "Color Palette"
 msgstr "Renk Paleti"
 
+#: data/org.gnome.design.Palette.desktop.in:3
 #: data/org.gnome.design.Palette.metainfo.xml.in:9
-msgid "Color Palette tool"
-msgstr "Renk Paleti aracı"
+msgid "Look up GNOME colors"
+msgstr "GNOME renklerine bak"
 
 #: data/org.gnome.design.Palette.metainfo.xml.in:11
 msgid ""
@@ -36,93 +37,106 @@ msgstr ""
 "GNOME renk paletini tasarım yönergeleri tarafından tanımlandığı gibi "
 "görüntülemek için bir araç."
 
-#: data/org.gnome.design.Palette.metainfo.xml.in:22
+#: data/org.gnome.design.Palette.metainfo.xml.in:18
 msgid "The palette"
 msgstr "Palet"
 
 #. Translators: This is my name
-#: data/org.gnome.design.Palette.metainfo.xml.in:69
+#: data/org.gnome.design.Palette.metainfo.xml.in:75
 msgid "Zander Brown"
 msgstr "Zander Brown"
 
-#: data/org.gnome.design.Palette.desktop.in:4
-msgid "Icon color palette"
-msgstr "Simge renk paleti"
-
-#: src/palette.ui:6 src/palette.vala:231
-msgid "Palette"
-msgstr "Palet"
-
-#: src/palette.ui:14
-msgid "Main Menu"
-msgstr "Ana Menü"
-
-#: src/palette.ui:64
-msgid "_Export"
-msgstr "_Dışa Aktar"
-
-#: src/palette.ui:70
-msgid "Design _Guidelines<sup>↗</sup>"
-msgstr "Tasarım _Yönergeleri<sup>↗</sup>"
-
-#: src/palette.ui:77
-msgid "_About Color Palette"
-msgstr "Renk Paleti _Hakkında"
-
-#: src/palette.vala:23
+#: src/insert-buttons.py:26
 msgid "Blue"
 msgstr "Mavi"
 
-#: src/palette.vala:24
+#: src/insert-buttons.py:27
 msgid "Green"
 msgstr "Yeşil"
 
-#: src/palette.vala:25
+#: src/insert-buttons.py:28
 msgid "Yellow"
 msgstr "Sarı"
 
-#: src/palette.vala:26
+#: src/insert-buttons.py:29
 msgid "Orange"
 msgstr "Turuncu"
 
-#: src/palette.vala:27
+#: src/insert-buttons.py:30
 msgid "Red"
 msgstr "Kırmızı"
 
-#: src/palette.vala:28
+#: src/insert-buttons.py:31
 msgid "Purple"
 msgstr "Mor"
 
-#: src/palette.vala:29
+#: src/insert-buttons.py:32
 msgid "Brown"
 msgstr "Kahverengi"
 
-#: src/palette.vala:30
+#: src/insert-buttons.py:33
 msgid "Light"
 msgstr "Açık"
 
-#: src/palette.vala:31
+#: src/insert-buttons.py:34
 msgid "Dark"
 msgstr "Koyu"
 
-#: src/palette.vala:268
+#: src/palette.ui.in:9
+msgid "Palette"
+msgstr "Palet"
+
+#: src/palette.ui.in:31
+msgid "_Export"
+msgstr "_Dışa Aktar"
+
+#: src/palette.ui.in:37
+msgid "Design _Guidelines<sup>↗</sup>"
+msgstr "Tasarım _Yönergeleri<sup>↗</sup>"
+
+#: src/palette.ui.in:44
+msgid "_About Color Palette"
+msgstr "Renk Paleti _Hakkında"
+
+#: src/palette.ui.in:51
+msgid "Main Menu"
+msgstr "Ana Menü"
+
+#: src/palette.vala:143
+msgid "Launch Failed"
+msgstr "Başlatılamadı"
+
+#: src/palette.vala:144 src/palette.vala:167
+msgid "Close"
+msgstr "Kapat"
+
+#: src/palette.vala:154
 msgid "Export the Palette"
 msgstr "Paleti Dışa Aktar"
 
-#: src/palette.vala:269
+#: src/palette.vala:155
 msgid "Export"
 msgstr "Dışa Aktar"
 
-#: src/palette.vala:288
-msgid "Copyright © 2018-20 Zander Brown"
-msgstr "Telif Hakkı © 2018-20 Zander Brown"
+#: src/palette.vala:166
+msgid "Export Failed"
+msgstr "Dışa Aktarılamadı"
 
-#: src/palette.vala:293
+#: src/palette.vala:182
+msgid "© 2018-2025 Zander Brown"
+msgstr "© 2018-2025 Zander Brown"
+
+#: src/palette.vala:187
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <libreajans@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/palette.vala:296
-msgid "Kept sane by"
-msgstr "Bakım yapan"
+#~ msgid "Kept sane by"
+#~ msgstr "Bakım yapan"
+
+#~ msgid "Color Palette tool"
+#~ msgstr "Renk Paleti aracı"
+
+#~ msgid "Icon color palette"
+#~ msgstr "Simge renk paleti"

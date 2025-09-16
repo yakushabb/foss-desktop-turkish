@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: contrast master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/design/contrast\n"
-"POT-Creation-Date: 2024-07-29 20:40+0000\n"
-"PO-Revision-Date: 2024-05-10 22:27+0300\n"
+"POT-Creation-Date: 2025-09-10 11:40+0000\n"
+"PO-Revision-Date: 2025-08-28 22:49+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -18,23 +18,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.design.Contrast.desktop.in.in:3
+#: data/org.gnome.design.Contrast.desktop.in.in:2
 #: data/org.gnome.design.Contrast.metainfo.xml.in.in:7
-#: data/resources/ui/window.ui:21 src/application.rs:99 src/main.rs:27
+#: data/resources/ui/window.ui:21 src/application.rs:131 src/main.rs:27
 msgid "Contrast"
 msgstr "Kontrast"
 
-#: data/org.gnome.design.Contrast.desktop.in.in:4
-#: data/org.gnome.design.Contrast.metainfo.xml.in.in:8 src/application.rs:101
+#: data/org.gnome.design.Contrast.desktop.in.in:3
+#: data/org.gnome.design.Contrast.metainfo.xml.in.in:8
 msgid "Check contrast between two colors"
 msgstr "İki renk arasındaki karşıtlığı gözden geçir"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.design.Contrast.desktop.in.in:10
+#: data/org.gnome.design.Contrast.desktop.in.in:9
 msgid "Color;Contrast;GNOME;GTK;"
 msgstr "Color;Contrast;GNOME;GTK;Renk;Karşıtlık;Kontrast;"
+
+#: data/org.gnome.design.Contrast.desktop.in.in:18
+msgid "New Window"
+msgstr "Yeni Pencere"
 
 #: data/org.gnome.design.Contrast.metainfo.xml.in.in:10
 msgid ""
@@ -49,7 +53,7 @@ msgid "Main Window"
 msgstr "Ana Pencere"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.design.Contrast.metainfo.xml.in.in:81
+#: data/org.gnome.design.Contrast.metainfo.xml.in.in:87
 msgid "Bilal Elmoussaoui"
 msgstr "Bilal Elmoussaoui"
 
@@ -57,32 +61,32 @@ msgstr "Bilal Elmoussaoui"
 msgid "Pick a Color"
 msgstr "Renk Seç"
 
-#: data/resources/ui/shortcuts.ui:13
+#: data/resources/ui/shortcuts.ui:6
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Genel"
 
-#: data/resources/ui/shortcuts.ui:17
+#: data/resources/ui/shortcuts.ui:9
 msgctxt "shortcut window"
 msgid "New Window"
 msgstr "Yeni Pencere"
 
-#: data/resources/ui/shortcuts.ui:24
+#: data/resources/ui/shortcuts.ui:15
 msgctxt "shortcut window"
 msgid "Close Window"
 msgstr "Pencereyi Kapat"
 
-#: data/resources/ui/shortcuts.ui:31
+#: data/resources/ui/shortcuts.ui:21
 msgctxt "shortcut window"
 msgid "Reverse Colors"
 msgstr "Renkleri Ters Çevir"
 
-#: data/resources/ui/shortcuts.ui:38
+#: data/resources/ui/shortcuts.ui:27
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Kısayolları Göster"
 
-#: data/resources/ui/shortcuts.ui:45
+#: data/resources/ui/shortcuts.ui:33
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Çık"
@@ -115,7 +119,11 @@ msgstr "Ön Plan Rengi"
 msgid "Main Menu"
 msgstr "Ana Menü"
 
-#: src/application.rs:109
+#: src/application.rs:35
+msgid "Open a new window"
+msgstr "Yeni pencere aç"
+
+#: src/application.rs:141
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <libreajans@gmail.com>\n"

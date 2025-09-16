@@ -16,38 +16,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gedit\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/gedit/gedit/-/issues/\n"
-"POT-Creation-Date: 2025-03-10 14:55+0000\n"
-"PO-Revision-Date: 2025-02-14 08:00+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit/issues/\n"
+"POT-Creation-Date: 2025-09-13 13:55+0000\n"
+"PO-Revision-Date: 2025-09-01 23:58+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.7\n"
 "X-POOTLE-MTIME: 1433962102.000000\n"
 
-#: data/org.gnome.gedit.desktop.in:3 data/org.gnome.gedit.metainfo.xml.in:7
+#: data/org.gnome.gedit.desktop.in:2 data/org.gnome.gedit.metainfo.xml.in:7
 msgid "gedit"
 msgstr "gedit"
 
-#: data/org.gnome.gedit.desktop.in:4
+#: data/org.gnome.gedit.desktop.in:3
 msgid "Edit text files"
 msgstr "Metin dosyalarını düzenle"
 
 #. Translators: Do NOT translate or localize the semicolons. The list MUST also
 #. end with a semicolon. It contains search terms to find this application.
-#: data/org.gnome.gedit.desktop.in:15
+#: data/org.gnome.gedit.desktop.in:14
 msgid "Text;Editor;Plaintext;Write;gedit;"
 msgstr "Metin;Düzenleyici;Düzyazı;Yaz;gedit;"
 
-#: data/org.gnome.gedit.desktop.in:19
+#: data/org.gnome.gedit.desktop.in:18
 msgid "New Window"
 msgstr "Yeni Pencere"
 
-#: data/org.gnome.gedit.desktop.in:23
+#: data/org.gnome.gedit.desktop.in:22
 msgid "New Document"
 msgstr "Yeni Belge"
 
@@ -591,16 +591,16 @@ msgstr "gedit’i bağımsız kipte çalıştır"
 msgid "[FILE…] [+LINE[:COLUMN]]"
 msgstr "[DOSYA…] [+SATIR[:SÜTUN]]"
 
-#: gedit/gedit-app.c:223
+#: gedit/gedit-app.c:225
 msgid "There was an error displaying the help."
 msgstr "Yardım görüntülenirken hata oluştu."
 
-#: gedit/gedit-app.c:686
+#: gedit/gedit-app.c:688
 #, c-format
 msgid "Untitled Document %d"
 msgstr "Adsız Belge %d"
 
-#: gedit/gedit-app.c:880
+#: gedit/gedit-app.c:883
 #, c-format
 msgid "%s: invalid encoding."
 msgstr "%s: geçersiz kodlama."
@@ -613,9 +613,9 @@ msgstr "Paneli gizle"
 msgid "Close _without Saving"
 msgstr "Kaydetmeden _Kapat"
 
-#: gedit/gedit-close-confirmation-dialog.c:277 gedit/gedit-commands-file.c:485
-#: gedit/gedit-commands-file.c:561 gedit/gedit-commands-file.c:785
-#: gedit/gedit-commands-file.c:1510 gedit/gedit-encodings-dialog.c:192
+#: gedit/gedit-close-confirmation-dialog.c:277 gedit/gedit-commands-file.c:486
+#: gedit/gedit-commands-file.c:562 gedit/gedit-commands-file.c:788
+#: gedit/gedit-commands-file.c:1517 gedit/gedit-encodings-dialog.c:192
 #: gedit/gedit-file-chooser-open-dialog.c:78 gedit/gedit-io-error-info-bar.c:95
 #: gedit/gedit-io-error-info-bar.c:294 gedit/gedit-preferences-dialog.c:468
 #: plugins/filebrowser/gedit-file-browser-utils.c:211
@@ -629,7 +629,7 @@ msgstr "İ_ptal"
 msgid "_Save As…"
 msgstr "Farklı _Kaydet…"
 
-#: gedit/gedit-close-confirmation-dialog.c:295 gedit/gedit-commands-file.c:784
+#: gedit/gedit-close-confirmation-dialog.c:295 gedit/gedit-commands-file.c:787
 #: gedit/gedit-header-bar.c:187 gedit/resources/gtk/menus-common.ui:101
 msgid "_Save"
 msgstr "_Kaydet"
@@ -734,29 +734,29 @@ msgid "Loading %d file…"
 msgid_plural "Loading %d files…"
 msgstr[0] "%d dosya yükleniyor…"
 
-#: gedit/gedit-commands-file.c:476
+#: gedit/gedit-commands-file.c:477
 #, c-format
 msgid "The file “%s” is read-only."
 msgstr "“%s” dosyası salt-okunur."
 
-#: gedit/gedit-commands-file.c:481
+#: gedit/gedit-commands-file.c:482
 msgid "Do you want to try to replace it with the one you are saving?"
 msgstr "Onu kaydettiğiniz ile değiştirmeyi denemek ister misiniz?"
 
-#: gedit/gedit-commands-file.c:486
+#: gedit/gedit-commands-file.c:487
 #: gedit/resources/ui/gedit-replace-dialog.ui:55
 msgid "_Replace"
 msgstr "_Değiştir"
 
-#: gedit/gedit-commands-file.c:526
+#: gedit/gedit-commands-file.c:527
 msgid "Save the file using compression?"
 msgstr "Dosya sıkıştırılarak kaydedilsin mi ?"
 
-#: gedit/gedit-commands-file.c:530
+#: gedit/gedit-commands-file.c:531
 msgid "Save the file as plain text?"
 msgstr "Düz yazı olarak kaydedilsin mi?"
 
-#: gedit/gedit-commands-file.c:543
+#: gedit/gedit-commands-file.c:544
 #, c-format
 msgid ""
 "The file “%s” was previously saved as plain text and will now be saved using "
@@ -765,11 +765,11 @@ msgstr ""
 "“%s” dosyası daha önce düz metin olarak kaydedildi ve şimdi sıkıştırılarak "
 "kaydedilecek."
 
-#: gedit/gedit-commands-file.c:547
+#: gedit/gedit-commands-file.c:548
 msgid "_Save Using Compression"
 msgstr "_Sıkıştırarak Kaydet"
 
-#: gedit/gedit-commands-file.c:552
+#: gedit/gedit-commands-file.c:553
 #, c-format
 msgid ""
 "The file “%s” was previously saved using compression and will now be saved "
@@ -778,33 +778,33 @@ msgstr ""
 "“%s” dosyası daha önce sıkıştırılarak kaydedilmiş ve şimdi düz metin olarak "
 "kaydedilecek."
 
-#: gedit/gedit-commands-file.c:555
+#: gedit/gedit-commands-file.c:556
 msgid "_Save As Plain Text"
 msgstr "Düz Metin Olarak _Kaydet"
 
-#: gedit/gedit-commands-file.c:671 gedit/gedit-commands-file.c:960
+#: gedit/gedit-commands-file.c:672 gedit/gedit-commands-file.c:967
 #, c-format
 msgid "Saving file “%s”…"
 msgstr "“%s” dosyası kaydediliyor…"
 
 #. Translators: "Save As" is the title of the file chooser window.
-#: gedit/gedit-commands-file.c:782
+#: gedit/gedit-commands-file.c:785
 msgctxt "window title"
 msgid "Save As"
 msgstr "Farklı Kaydet"
 
-#: gedit/gedit-commands-file.c:1371
+#: gedit/gedit-commands-file.c:1378
 #, c-format
 msgid "Reverting the document “%s”…"
 msgstr "“%s” belgesi eski durumuna getiriliyor…"
 
-#: gedit/gedit-commands-file.c:1418
+#: gedit/gedit-commands-file.c:1425
 #, c-format
 msgid "Revert unsaved changes to document “%s”?"
 msgstr ""
 "“%s” belgesi içerisinde yapılan değişiklikler eski durumuna döndürülsün mü?"
 
-#: gedit/gedit-commands-file.c:1427
+#: gedit/gedit-commands-file.c:1434
 #, c-format
 msgid ""
 "Changes made to the document in the last %ld second will be permanently lost."
@@ -814,12 +814,12 @@ msgid_plural ""
 msgstr[0] ""
 "Belge içerisinde son %ld saat içerisinde yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1436
+#: gedit/gedit-commands-file.c:1443
 msgid ""
 "Changes made to the document in the last minute will be permanently lost."
 msgstr "Belge içerisinde son bir dakikada yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1442
+#: gedit/gedit-commands-file.c:1449
 #, c-format
 msgid ""
 "Changes made to the document in the last minute and %ld second will be "
@@ -831,7 +831,7 @@ msgstr[0] ""
 "Belge içerisinde son bir dakikada ve %ld saniyede yapılan değişiklikler "
 "kaybolacak."
 
-#: gedit/gedit-commands-file.c:1452
+#: gedit/gedit-commands-file.c:1459
 #, c-format
 msgid ""
 "Changes made to the document in the last %ld minute will be permanently lost."
@@ -840,12 +840,12 @@ msgid_plural ""
 "lost."
 msgstr[0] "Belge içerisinde son %ld dakikada yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1467
+#: gedit/gedit-commands-file.c:1474
 msgid "Changes made to the document in the last hour will be permanently lost."
 msgstr ""
 "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1473
+#: gedit/gedit-commands-file.c:1480
 #, c-format
 msgid ""
 "Changes made to the document in the last hour and %d minute will be "
@@ -857,7 +857,7 @@ msgstr[0] ""
 "Belge içerisinde son bir saatte ve son %d dakikada yapılan değişiklikler "
 "kaybolacak."
 
-#: gedit/gedit-commands-file.c:1488
+#: gedit/gedit-commands-file.c:1495
 #, c-format
 msgid ""
 "Changes made to the document in the last %d hour will be permanently lost."
@@ -866,7 +866,7 @@ msgid_plural ""
 msgstr[0] ""
 "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
 
-#: gedit/gedit-commands-file.c:1511
+#: gedit/gedit-commands-file.c:1518
 msgid "_Revert"
 msgstr "_Eski Durumuna Döndür"
 
@@ -895,7 +895,7 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Muhammet Kara <muhammetk@gmail.com>\n"
-"Barış Çiçek <baris@teamforce.name.tr>"
+"Sabri Ünal <yakushabb@gmail.com>"
 
 #: gedit/gedit-commands-search.c:106
 #, c-format
@@ -924,7 +924,7 @@ msgstr "Sekme Kümesi %i"
 msgid "Read-Only"
 msgstr "Salt Okunur"
 
-#: gedit/gedit-encoding-items.c:92
+#: gedit/gedit-encoding-items.c:89
 #, c-format
 msgid "Current Locale (%s)"
 msgstr "Geçerli Yerelleştirme (%s)"
@@ -947,23 +947,23 @@ msgid "Do you really want to reset the character encodings’ preferences?"
 msgstr "Gerçekten karakter kodlaması tercihlerini sıfırlamak istiyor musunuz?"
 
 #. Reset button
-#: gedit/gedit-encodings-dialog.c:193 gedit/gedit-encodings-dialog.c:818
+#: gedit/gedit-encodings-dialog.c:193 gedit/gedit-encodings-dialog.c:812
 msgid "_Reset"
 msgstr "_Sıfırla"
 
-#: gedit/gedit-encodings-dialog.c:729
+#: gedit/gedit-encodings-dialog.c:723
 msgid "Add"
 msgstr "Ekle"
 
-#: gedit/gedit-encodings-dialog.c:772
+#: gedit/gedit-encodings-dialog.c:766
 msgid "Remove"
 msgstr "Kaldır"
 
-#: gedit/gedit-encodings-dialog.c:783
+#: gedit/gedit-encodings-dialog.c:777
 msgid "Move to a higher priority"
 msgstr "Daha yüksek önceliğe taşı"
 
-#: gedit/gedit-encodings-dialog.c:794
+#: gedit/gedit-encodings-dialog.c:788
 msgid "Move to a lower priority"
 msgstr "Daha düşük önceliğe taşı"
 
@@ -1143,7 +1143,7 @@ msgstr ""
 "daha çok karakter içeriyor."
 
 #. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
-#: gedit/gedit-io-error-info-bar.c:470
+#: gedit/gedit-io-error-info-bar.c:471
 #, c-format
 msgid ""
 "Cannot handle “%s:” locations in write mode. Please check that you typed the "
@@ -1152,7 +1152,7 @@ msgstr ""
 "Yazma kipinde “%s:” konumları işlenemez. Lütfen konumu doğru yazdığınızdan "
 "emin olun ve yeniden deneyin."
 
-#: gedit/gedit-io-error-info-bar.c:477
+#: gedit/gedit-io-error-info-bar.c:478
 msgid ""
 "Cannot handle this location in write mode. Please check that you typed the "
 "location correctly and try again."
@@ -1160,7 +1160,7 @@ msgstr ""
 "Yazma kipinde bu konum işlenemiyor. Lütfen konumu doğru yazdığınızdan emin "
 "olun ve yeniden deneyin."
 
-#: gedit/gedit-io-error-info-bar.c:486
+#: gedit/gedit-io-error-info-bar.c:487
 #, c-format
 msgid ""
 "“%s” is not a valid location. Please check that you typed the location "
@@ -1169,7 +1169,7 @@ msgstr ""
 "“%s” geçerli konum değil. Lütfen konumu doğru yazdığınızdan emin olun ve "
 "yeniden deneyin."
 
-#: gedit/gedit-io-error-info-bar.c:493
+#: gedit/gedit-io-error-info-bar.c:494
 msgid ""
 "You do not have the permissions necessary to save the file. Please check "
 "that you typed the location correctly and try again."
@@ -1177,7 +1177,7 @@ msgstr ""
 "Dosyayı kaydetmek için gerekli izinlere sahip değilsiniz. Lütfen konumu "
 "doğru yazdığınıza emin olun ve yeniden deneyin."
 
-#: gedit/gedit-io-error-info-bar.c:499
+#: gedit/gedit-io-error-info-bar.c:500
 msgid ""
 "There is not enough disk space to save the file. Please free some disk space "
 "and try again."
@@ -1185,7 +1185,7 @@ msgstr ""
 "Dosyayı kaydetmek için yeterli disk alanı yok. Lütfen diskinizde yer açıp "
 "yeniden deneyin."
 
-#: gedit/gedit-io-error-info-bar.c:504
+#: gedit/gedit-io-error-info-bar.c:505
 msgid ""
 "You are trying to save the file on a read-only disk. Please check that you "
 "typed the location correctly and try again."
@@ -1193,11 +1193,11 @@ msgstr ""
 "Dosyayı salt okunur diske kaydetmeye çalışıyorsunuz. Lütfen konumu doğru "
 "yazdığınıza emin olun ve yeniden deneyin."
 
-#: gedit/gedit-io-error-info-bar.c:510
+#: gedit/gedit-io-error-info-bar.c:511
 msgid "A file with the same name already exists. Please use a different name."
 msgstr "Aynı adda başka dosya zaten var. Lütfen başka ad kullanın."
 
-#: gedit/gedit-io-error-info-bar.c:515
+#: gedit/gedit-io-error-info-bar.c:516
 msgid ""
 "The disk where you are trying to save the file has a limitation on length of "
 "the file names. Please use a shorter name."
@@ -1205,7 +1205,7 @@ msgstr ""
 "Dosyayı kaydetmeye çalıştığınız diskte dosya boyutu sınırı var. Lütfen daha "
 "kısa ad kullanın."
 
-#: gedit/gedit-io-error-info-bar.c:530
+#: gedit/gedit-io-error-info-bar.c:531
 #, c-format
 msgid "Could not save the file “%s”."
 msgstr "“%s” dosyası kaydedilemedi."
@@ -1313,59 +1313,59 @@ msgid "Find and Replace"
 msgstr "Bul ve Değiştir"
 
 #. Translators: the %s is a path to a file.
-#: gedit/gedit-tab.c:765
+#: gedit/gedit-tab.c:696
 #, c-format
 msgid "Reverting %s"
 msgstr "%s eski durumuna döndürülüyor"
 
 #. Translators: the %s is a path to a file.
-#: gedit/gedit-tab.c:771
+#: gedit/gedit-tab.c:702
 #, c-format
 msgid "Loading %s"
 msgstr "%s yükleniyor"
 
 #. Translators: the first %s is a file name (e.g. test.txt) the second one
 #. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
-#: gedit/gedit-tab.c:850
+#: gedit/gedit-tab.c:781
 #, c-format
 msgid "Saving %s to %s"
 msgstr "%s, %s konumuna kaydediliyor"
 
-#: gedit/gedit-tab.c:855
+#: gedit/gedit-tab.c:786
 #, c-format
 msgid "Saving %s"
 msgstr "%s kaydediliyor"
 
-#: gedit/gedit-tab.c:1375
+#: gedit/gedit-tab-label.c:303
+msgid "Close Document"
+msgstr "Belgeyi Kapat"
+
+#: gedit/gedit-tab-utils.c:27
 #, c-format
 msgid "Error opening file %s"
 msgstr "%s dosyası açılırken hata"
 
-#: gedit/gedit-tab.c:1379
+#: gedit/gedit-tab-utils.c:31
 #, c-format
 msgid "Error reverting file %s"
 msgstr "%s dosyası eski durumuna döndürülürken hata"
 
-#: gedit/gedit-tab.c:1383
+#: gedit/gedit-tab-utils.c:35
 #, c-format
 msgid "Error saving file %s"
 msgstr "%s dosyası kaydedilirken hata"
 
-#: gedit/gedit-tab.c:1414
+#: gedit/gedit-tab-utils.c:85
 msgid "Name:"
 msgstr "Ad:"
 
-#: gedit/gedit-tab.c:1415
+#: gedit/gedit-tab-utils.c:86
 msgid "MIME Type:"
 msgstr "MIME Türü:"
 
-#: gedit/gedit-tab.c:1416
+#: gedit/gedit-tab-utils.c:87
 msgid "Encoding:"
 msgstr "Kodlama:"
-
-#: gedit/gedit-tab-label.c:302
-msgid "Close Document"
-msgstr "Belgeyi Kapat"
 
 #. Translators: '/ on <remote-share>'
 #: gedit/gedit-utils.c:361
@@ -2218,13 +2218,29 @@ msgstr "Önceki Sonuç"
 msgid "Next Result"
 msgstr "Sonraki Sonuç"
 
-#: plugins/docinfo/docinfo.plugin.desktop.in:5
+#: plugins/codecomment/codecomment.plugin.desktop.in:4
+msgid "Code Comment"
+msgstr "Kod Yorumu"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in:5
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Seçili kod bloğunu yorumla ya da yorumunu kaldır."
+
+#: plugins/codecomment/gedit-code-comment-view-activatable.c:124
+msgid "Co_mment Code"
+msgstr "Kodu _Yorumla"
+
+#: plugins/codecomment/gedit-code-comment-view-activatable.c:129
+msgid "U_ncomment Code"
+msgstr "Kod Yorumunu _Kaldır"
+
+#: plugins/docinfo/docinfo.plugin.desktop.in:4
 #: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:7
 #: plugins/docinfo/resources/ui/gedit-docinfo-plugin.ui:13
 msgid "Document Statistics"
 msgstr "Belge İstatistikleri"
 
-#: plugins/docinfo/docinfo.plugin.desktop.in:6
+#: plugins/docinfo/docinfo.plugin.desktop.in:5
 msgid "Report the number of words, lines and characters in a document."
 msgstr "Belgedeki sözcük, satır ve karakter sayısını verir."
 
@@ -2260,11 +2276,11 @@ msgstr "Karakterler (boşluksuz)"
 msgid "Bytes"
 msgstr "Bayt"
 
-#: plugins/filebrowser/filebrowser.plugin.desktop.in:6
+#: plugins/filebrowser/filebrowser.plugin.desktop.in:5
 msgid "File Browser Panel"
 msgstr "Dosya Tarayıcısı Paneli"
 
-#: plugins/filebrowser/filebrowser.plugin.desktop.in:7
+#: plugins/filebrowser/filebrowser.plugin.desktop.in:6
 msgid "Easy file access from the side panel."
 msgstr "Yan bölmeden kolay dosya erişimi."
 
@@ -2448,7 +2464,7 @@ msgstr "Uzaktaki Konumların İlk Haline Gelmesini Etkinleştir"
 
 #: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:21
 msgid "Sets whether to enable restoring of remote locations."
-msgstr "Uzaktaki konumların ilk haline getirilmesinin etkinliğini atar."
+msgstr "Uzak konumların geri yüklenmesinin etkinleştirilme durumunu ayarlar."
 
 #: plugins/filebrowser/org.gnome.gedit.plugins.filebrowser.gschema.xml:25
 msgid "Set Location to First Document"
@@ -2502,7 +2518,7 @@ msgstr "İkili dosyaları süzerken kullanılacak ek örüntüler."
 #: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:13
 #: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:79
 msgid "_Set Root to Active Document"
-msgstr "_Başlangıcı Aktif Belge Olarak Ata"
+msgstr "_Başlangıcı Etkin Belgeye Ayarla"
 
 #: plugins/filebrowser/resources/ui/gedit-file-browser-menus.ui:19
 msgid "_New Folder"
@@ -2557,19 +2573,19 @@ msgstr "Geçmiş"
 msgid "Open history menu"
 msgstr "Geçmiş menüsünü aç"
 
-#: plugins/modelines/modelines.plugin.desktop.in:5
+#: plugins/modelines/modelines.plugin.desktop.in:4
 msgid "Modelines"
 msgstr "Kip Satırları"
 
-#: plugins/modelines/modelines.plugin.desktop.in:6
+#: plugins/modelines/modelines.plugin.desktop.in:5
 msgid "Emacs, Kate and Vim-style modelines support for gedit."
 msgstr "gedit için Emacs, Kate ve Vim-style kip satırları desteği."
 
-#: plugins/quickhighlight/quickhighlight.plugin.desktop.in:5
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in:4
 msgid "Quick Highlight"
 msgstr "Hızlı Vurgulama"
 
-#: plugins/quickhighlight/quickhighlight.plugin.desktop.in:6
+#: plugins/quickhighlight/quickhighlight.plugin.desktop.in:5
 msgid "Highlights every occurrences of selected text."
 msgstr "Her seçili metni vurgular."
 
@@ -2578,7 +2594,7 @@ msgid "S_ort…"
 msgstr "_Sırala…"
 
 #: plugins/sort/resources/ui/gedit-sort-plugin.ui:13
-#: plugins/sort/sort.plugin.desktop.in:5
+#: plugins/sort/sort.plugin.desktop.in:4
 msgid "Sort"
 msgstr "Sırala"
 
@@ -2602,7 +2618,7 @@ msgstr "Sü_tundan başla:"
 msgid "_Sort"
 msgstr "_Sırala"
 
-#: plugins/sort/sort.plugin.desktop.in:6
+#: plugins/sort/sort.plugin.desktop.in:5
 msgid "Sorts a document or selected text."
 msgstr "Belgeyi veya seçili metni sıraya dizer."
 
@@ -2651,31 +2667,31 @@ msgstr ""
 "Yazım denetimi için kullanılan öntanımlı dil. Ortama bağlı olarak en uygun "
 "dili almak için dizgeyi boş bırakın."
 
-#: plugins/spell/spell.plugin.desktop.in:5
+#: plugins/spell/spell.plugin.desktop.in:4
 msgid "Spell Checker"
 msgstr "Yazım Denetçisi"
 
-#: plugins/spell/spell.plugin.desktop.in:6
+#: plugins/spell/spell.plugin.desktop.in:5
 msgid "Checks the spelling of the current document."
 msgstr "Geçerli belgede yazım denetimi yapar."
 
-#: plugins/textsize/gedit-text-size-app-activatable.c:153
+#: plugins/textsize/gedit-text-size-app-activatable.c:145
 msgid "_Normal size"
 msgstr "_Normal boyut"
 
-#: plugins/textsize/gedit-text-size-app-activatable.c:157
+#: plugins/textsize/gedit-text-size-app-activatable.c:149
 msgid "S_maller Text"
 msgstr "_Küçük Metin"
 
-#: plugins/textsize/gedit-text-size-app-activatable.c:161
+#: plugins/textsize/gedit-text-size-app-activatable.c:153
 msgid "_Larger Text"
 msgstr "_Büyük Metin"
 
-#: plugins/textsize/textsize.plugin.desktop.in:5
+#: plugins/textsize/textsize.plugin.desktop.in:4
 msgid "Text Size"
 msgstr "Metin Boyutu"
 
-#: plugins/textsize/textsize.plugin.desktop.in:6
+#: plugins/textsize/textsize.plugin.desktop.in:5
 msgid "Easily increase and decrease the text size."
 msgstr "Metin boyutunu kolayca büyüt ya da küçült."
 
@@ -2756,429 +2772,10 @@ msgstr "Tarih/zaman eklenirken…"
 msgid "_Prompt for a format"
 msgstr "_Biçim için sor"
 
-#: plugins/time/time.plugin.desktop.in:5
+#: plugins/time/time.plugin.desktop.in:4
 msgid "Insert Date/Time"
 msgstr "Tarih/Zaman Ekle"
 
-#: plugins/time/time.plugin.desktop.in:6
+#: plugins/time/time.plugin.desktop.in:5
 msgid "Inserts current date and time at the cursor position."
 msgstr "İmlecin bulunduğu yere şimdiki tarihi ve zamanı ekler."
-
-#~ msgid "Preferences"
-#~ msgstr "Tercihler"
-
-#~ msgid "_Enable automatic indentation"
-#~ msgstr "Kendiliğinden _girintilemeyi etkinleştir"
-
-#~ msgid "Default setting for highlight misspelled words."
-#~ msgstr "Hatalı yazılmış sözcükleri vurgulamak için öntanımlı ayar."
-
-#~ msgid "Configure spell plugin"
-#~ msgstr "İmla eklentisini yapılandır"
-
-#~ msgid "Defaults for new documents"
-#~ msgstr "Yeni belge için öntanımlar"
-
-#~ msgid "Document background pattern type"
-#~ msgstr "Belge arka planı örüntü türü"
-
-#~ msgid "Whether the document will get a background pattern painted."
-#~ msgstr "Belgenin arka plan örüntüsüyle boyanma durumu."
-
-#~ msgid "Reverting %s from %s"
-#~ msgstr "%s dosyası %s konumundan eski durumuna döndürülüyor"
-
-#~ msgid "Loading %s from %s"
-#~ msgstr "%s dosyası %s konumundan yükleniyor"
-
-#~ msgid "Build"
-#~ msgstr "Derle"
-
-#~ msgid "Run “make” in the document directory"
-#~ msgstr "Belge dizininde “make” komutunu çalıştır"
-
-#~ msgid "Open terminal here"
-#~ msgstr "Burada uçbirim aç"
-
-#~ msgid "Open a terminal in the document location"
-#~ msgstr "Belge konumunda uçbirim aç"
-
-#~ msgid "Remove trailing spaces"
-#~ msgstr "Sondaki boşlukları sil"
-
-#~ msgid "Remove useless trailing spaces in your file"
-#~ msgstr "Dosyanızın sonundaki gereksiz boşlukları siler"
-
-#~ msgid "Run command"
-#~ msgstr "Komut çalıştır"
-
-#~ msgid "Execute a custom command and put its output in a new document"
-#~ msgstr "Özel komut çalıştır ve çıktıyı yeni belgeye koy"
-
-#~ msgid "Send to fpaste"
-#~ msgstr "Fpaste’e gönder"
-
-#~ msgid "Paste selected text or current document to fpaste"
-#~ msgstr "Seçili metni ya da geçerli belgeyi fpaste’e yapıştır"
-
-#~ msgid "External Tools"
-#~ msgstr "Dış Araçlar"
-
-#~ msgid "Execute external commands and shell scripts."
-#~ msgstr "Dış komutları ve kabuk betiklerini çalıştırır."
-
-#~ msgid "Whether to use the system font"
-#~ msgstr "Sistem yazı tipinin kullanılması"
-
-#~ msgid ""
-#~ "If true, the external tools will use the desktop-global standard font if "
-#~ "it’s monospace (and the most similar font it can come up with otherwise)."
-#~ msgstr ""
-#~ "Eğer etkinse; dış araçlar, tek aralıklıysa genel masaüstü yazı tipini (ve "
-#~ "aksi halde, bulabileceği en yakın yazı tipini) kullanacak."
-
-#~ msgid "Font"
-#~ msgstr "Yazı Tipi"
-
-#~ msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
-#~ msgstr ""
-#~ "Pango yazı tipi adı. “Sans 12” veya “Monospace Bold 14” buna örnektir."
-
-#~ msgid "Manage _External Tools…"
-#~ msgstr "_Dış Araçları Yönet…"
-
-#~ msgid "External _Tools"
-#~ msgstr "Dış _Araçlar"
-
-#~ msgid "Could not execute command: %s"
-#~ msgstr "Komut çalıştırılamadı: %s"
-
-#~ msgid "You must be inside a word to run this command"
-#~ msgstr "Bu komutu çalıştırmak için sözcüğün içinde olmanız gerekiyor"
-
-#~ msgid "Running tool:"
-#~ msgstr "Çalıştırılacak araç:"
-
-#~ msgid "Done."
-#~ msgstr "Bitti."
-
-#~ msgid "Exited"
-#~ msgstr "Çıkıldı"
-
-#~ msgid "All languages"
-#~ msgstr "Tüm diller"
-
-#~ msgid "New tool"
-#~ msgstr "Yeni araç"
-
-#~ msgid "This accelerator is already bound to %s"
-#~ msgstr "Bu hızlandırıcı zaten %s ile bağlı"
-
-#~ msgid "Type a new accelerator, or press Backspace to clear"
-#~ msgstr ""
-#~ "Yeni hızlandırıcı belirt, ya da temizlemek için Backspace tuşuna bas"
-
-#~ msgid "Type a new accelerator"
-#~ msgstr "Yeni hızlandırıcı belirt"
-
-#~ msgid "Stopped."
-#~ msgstr "Durduruldu."
-
-#~ msgid "Stop Tool"
-#~ msgstr "Aracı Durdur"
-
-#~ msgid "Always available"
-#~ msgstr "Her zaman kullanılabilir"
-
-#~ msgid "All documents"
-#~ msgstr "Tüm belgeler"
-
-#~ msgid "All documents except untitled ones"
-#~ msgstr "Adlandırılmamışlar dışında tüm belgeler"
-
-#~ msgid "Local files only"
-#~ msgstr "Yalnızca yerel dosyalar"
-
-#~ msgid "Remote files only"
-#~ msgstr "Yalnızca uzaktaki dosyalar"
-
-#~ msgid "Untitled documents only"
-#~ msgstr "Yalnızca adlandırılmamış belgeler"
-
-#~ msgid "Current document"
-#~ msgstr "Geçerli belge"
-
-#~ msgid "Current selection"
-#~ msgstr "Geçerli seçim"
-
-#~ msgid "Current selection (default to document)"
-#~ msgstr "Geçerli seçim (belge olarak öntanımlıdır)"
-
-#~ msgid "Current line"
-#~ msgstr "Geçerli satır"
-
-#~ msgid "Current word"
-#~ msgstr "Geçerli sözcük"
-
-#~ msgid "Display in bottom pane"
-#~ msgstr "Alt panel içinde göster"
-
-#~ msgid "Create new document"
-#~ msgstr "Yeni belge oluştur"
-
-#~ msgid "Append to current document"
-#~ msgstr "Geçerli belgeye ekle"
-
-#~ msgid "Replace current document"
-#~ msgstr "Geçerli belgenin yerine koy"
-
-#~ msgid "Replace current selection"
-#~ msgstr "Geçerli seçimin yerine koy"
-
-#~ msgid "Insert at cursor position"
-#~ msgstr "İmlecin konumunda ekle"
-
-#~ msgid "Manage External Tools"
-#~ msgstr "Dış Araçları Yönet"
-
-#~ msgid "Add a new tool"
-#~ msgstr "Yeni araç ekle"
-
-#~ msgid "Add Tool"
-#~ msgstr "Araç Ekle"
-
-#~ msgid "Remove selected tool"
-#~ msgstr "Seçilen aracı kaldır"
-
-#~ msgid "Remove Tool"
-#~ msgstr "Aracı Kaldır"
-
-#~ msgid "Revert tool"
-#~ msgstr "Aracı eski durumuna döndür"
-
-#~ msgid "Revert Tool"
-#~ msgstr "Aracı Eski Durumuna Döndür"
-
-#~ msgid "Shortcut _key:"
-#~ msgstr "_Kısayol tuşu:"
-
-#~ msgid "_Save:"
-#~ msgstr "_Kaydet:"
-
-#~ msgid "_Input:"
-#~ msgstr "_Girdi:"
-
-#~ msgid "_Output:"
-#~ msgstr "_Çıktı:"
-
-#~ msgid "_Applicability:"
-#~ msgstr "Ç_alıştırılabilirlik:"
-
-#~ msgid "Tool Output"
-#~ msgstr "Araç Çıktısı"
-
-#~ msgid "Command Color Text"
-#~ msgstr "Komut Rengi Metni"
-
-#~ msgid "The command color text"
-#~ msgstr "Komut rengi metni"
-
-#~ msgid "Error Color Text"
-#~ msgstr "Hata Rengi Metni"
-
-#~ msgid "The error color text"
-#~ msgstr "Hata rengi metni"
-
-#~ msgid ""
-#~ "If true, the terminal will use the desktop-global standard font if it’s "
-#~ "monospace (and the most similar font it can come up with otherwise)."
-#~ msgstr ""
-#~ "Eğer etkinse; uçbirim, tek aralıklıysa genel masaüstü yazı tipini (ve "
-#~ "aksi halde, bulabileceği en yakın yazı tipini) kullanacak."
-
-#~ msgid "C_ommand color:"
-#~ msgstr "_Komut rengi:"
-
-#~ msgid "_Error color:"
-#~ msgstr "_Hata rengi:"
-
-#~ msgid "Python Console"
-#~ msgstr "Python Konsolu"
-
-#~ msgid "Interactive Python console standing in the bottom panel."
-#~ msgstr "Alt panelde duran etkileşimli Python uçbirimi."
-
-#~ msgid "Manage _Snippets…"
-#~ msgstr "_Parçaları Yönet…"
-
-#~ msgid "Snippets"
-#~ msgstr "Parçalar"
-
-#~ msgid "The archive “%s” could not be created"
-#~ msgstr "“%s” arşivi oluşturulamadı"
-
-#~ msgid "Target directory “%s” does not exist"
-#~ msgstr "Hedef dizin “%s” yok"
-
-#~ msgid "Target directory “%s” is not a valid directory"
-#~ msgstr "Hedef dizin “%s”, geçerli dizin değil"
-
-#~ msgid "File “%s” does not exist"
-#~ msgstr "“%s” dosyası yok"
-
-#~ msgid "File “%s” is not a valid snippets file"
-#~ msgstr "“%s” dosyası geçerli parçalar dosyası değil"
-
-#~ msgid "Imported file “%s” is not a valid snippets file"
-#~ msgstr "İçe aktarılan “%s” dosyası geçerli parçalar dosyası değil"
-
-#~ msgid "The archive “%s” could not be extracted"
-#~ msgstr "“%s” arşivi açılamadı"
-
-#~ msgid "The following files could not be imported: %s"
-#~ msgstr "Bu dosyalar aktarılamadı: %s"
-
-#~ msgid "File “%s” is not a valid snippets archive"
-#~ msgstr "“%s” dosyası geçerli parçalar arşivi değil"
-
-#~ msgid "Snippets archive"
-#~ msgstr "Parçalar arşivi"
-
-#~ msgid "Add a new snippet…"
-#~ msgstr "Yeni parça ekle…"
-
-#~ msgid "Global"
-#~ msgstr "Genel"
-
-#~ msgid "Revert selected snippet"
-#~ msgstr "Seçilen bölümleri eski durumuna döndür"
-
-#~ msgid "Delete selected snippet"
-#~ msgstr "Seçili bölümü sil"
-
-#~ msgid ""
-#~ "This is not a valid Tab trigger. Triggers can either contain alphanumeric "
-#~ "characters (or _, : and .) or a single (non-alphanumeric) character like: "
-#~ "{, [, etc."
-#~ msgstr ""
-#~ "Bu, geçerli sekme tetikleyicisi değildir. Tetikleyiciler ya alfasayısal "
-#~ "karakterler (rakamlar ve harfler) (veya _, : ve .) ya da {, [ vb. gibi "
-#~ "(alfasayısal olmayan) tek karakter içerebilir."
-
-#~ msgid "Single word the snippet is activated with after pressing Tab"
-#~ msgstr "Sekme tuşuna basıldıktan sonra parçayı etkinleştirecek tekil sözcük"
-
-#~ msgid "The following error occurred while importing: %s"
-#~ msgstr "İçe aktarım sırasında aşağıdaki hata oluştu: %s"
-
-#~ msgid "Import successfully completed"
-#~ msgstr "İçe aktarma başarıyla tamamlandı"
-
-#~ msgid "Import snippets"
-#~ msgstr "Parçaları aktar"
-
-#~ msgid "All supported archives"
-#~ msgstr "Tüm desteklenen arşivler"
-
-#~ msgid "Gzip compressed archive"
-#~ msgstr "Gzip ile sıkıştırılmış arşiv"
-
-#~ msgid "Bzip2 compressed archive"
-#~ msgstr "Bzip2 ile sıkıştırılmış arşiv"
-
-#~ msgid "Single snippets file"
-#~ msgstr "Tek parçalar dosyası"
-
-#~ msgid "All files"
-#~ msgstr "Tüm dosyalar"
-
-#~ msgid "The following error occurred while exporting: %s"
-#~ msgstr "Aktarılırken aşağıdaki hata oluştu: %s"
-
-#~ msgid "Export successfully completed"
-#~ msgstr "Aktarma başarıyla tamamlandı"
-
-#~ msgid ""
-#~ "Do you want to include selected <b>system</b> snippets in your export?"
-#~ msgstr ""
-#~ "Aktarmanızda seçilen <b>sistem</b> parçalarını da dahil etmek ister "
-#~ "misiniz?"
-
-#~ msgid "There are no snippets selected to be exported"
-#~ msgstr "Aktarma için hiçbir parça seçilmemiş"
-
-#~ msgid "Export snippets"
-#~ msgstr "Parçaları aktar"
-
-#~ msgid "Type a new shortcut, or press Backspace to clear"
-#~ msgstr "Yeni kısayol yaz, ya da temizlemek için Geri Silme tuşuna bas"
-
-#~ msgid "Type a new shortcut"
-#~ msgstr "Yeni kısayol yaz"
-
-#~ msgid ""
-#~ "Execution of the Python command (%s) exceeds the maximum time, execution "
-#~ "aborted."
-#~ msgstr ""
-#~ "Python komutunun (%s) çalıştırılması azami süreyi aştı, yürütme "
-#~ "durduruldu."
-
-#~ msgid "Execution of the Python command (%s) failed: %s"
-#~ msgstr "Python komutunun (%s) çalıştırılması başarısız oldu: %s"
-
-#~ msgid "Insert often-used pieces of text in a fast way."
-#~ msgstr "Sıklıkla kullanılan metin parçalarını hızlıca ekleyin."
-
-#~ msgid "Manage Snippets"
-#~ msgstr "Parçaları Yönet"
-
-#~ msgid "Create new snippet"
-#~ msgstr "Yeni parça oluştur"
-
-#~ msgid "Add Snippet"
-#~ msgstr "Parça Ekle"
-
-#~ msgid "Remove Snippet"
-#~ msgstr "Parçayı Sil"
-
-#~ msgid "Import Snippets"
-#~ msgstr "Parçaları İçe Aktar"
-
-#~ msgid "Export selected snippets"
-#~ msgstr "Seçili bölümleri aktar"
-
-#~ msgid "Export Snippets"
-#~ msgstr "Parçaları Dışa Aktar"
-
-#~ msgid "Activation"
-#~ msgstr "Etkinleştirme"
-
-#~ msgid "_Tab trigger:"
-#~ msgstr "_Tab tetikleyicisi:"
-
-#~ msgid "S_hortcut key:"
-#~ msgstr "_Kısayol tuşu:"
-
-#~ msgid "Shortcut key with which the snippet is activated"
-#~ msgstr "Parçanın etkinleşeceği kısayol tuşu"
-
-#~ msgid "_Drop targets:"
-#~ msgstr "Hedefleri _bırak:"
-
-#~ msgid "Quick Open…"
-#~ msgstr "Hızlı Aç…"
-
-#~ msgid "Quick Open"
-#~ msgstr "Hızlı Aç"
-
-#~ msgid "Quickly open files."
-#~ msgstr "Dosyaları hızlıca açar."
-
-#~ msgid "Type to search…"
-#~ msgstr "Aramak için yazın…"
-
-#~ msgid "Style Scheme"
-#~ msgstr "Biçem Şeması"
-
-#~ msgid "Color Scheme"
-#~ msgstr "Renk Şeması"

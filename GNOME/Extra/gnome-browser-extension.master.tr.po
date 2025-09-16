@@ -2,16 +2,17 @@
 # Copyright (C) 2016 chrome-gnome-shell's COPYRIGHT HOLDER
 # This file is distributed under the same license as the chrome-gnome-shell package.
 # Muhammet Kara <muhammetk@gmail.com>, 2016.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2020.
+# Sabri Ünal <yakushabb@gmail.com>, 2023
+# Emin Tufan Çetin <etcetin@gmail.com>, 2018, 2020, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: chrome-gnome-shell master\n"
 "Report-Msgid-Bugs-To: ykonotopov@gnome.org\n"
-"POT-Creation-Date: 2025-03-04 06:18+0000\n"
-"PO-Revision-Date: 2023-02-23 05:25+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"POT-Creation-Date: 2025-09-06 19:37+0000\n"
+"PO-Revision-Date: 2025-04-03 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,8 +75,8 @@ msgid ""
 "This extension provides integration with GNOME Shell and the corresponding "
 "extensions repository https://extensions.gnome.org"
 msgstr ""
-"Bu uygulama, GNOME Kabuk ve buna uygun uzantı deposu olan https://extensions."
-"gnome.org ile tümleşim sağlar"
+"Bu uzantı GNOME Kabuk ve https://extensions.gnome.org uzantı "
+"deposuylatümleşim sağlar"
 
 #. $REQUEST$ is a placeholder for technical name of request that web extension
 #. make via native messaging host application.
@@ -103,26 +104,30 @@ msgid ""
 "Unable to locate GNOME Shell settings or version. Make sure it is installed "
 "and running."
 msgstr ""
-"GNOME Kabuk ayarları veya sürümü saptanamıyor. Kurulu olduğundan ve "
+"GNOME Kabuk ayarları ya da sürümü saptanamıyor. Kurulduğundan ve "
 "çalıştığından emin olun."
 
+#. $url$ is a placeholder for URL
+#.
+#. String placeholders:
+#. url
+#.
 #: chrome-gnome-shell-key-no_host_connector:1
 #, fuzzy
 #| msgid ""
 #| "Although GNOME Shell integration extension is running, native host "
-#| "connector is not detected. Refer <a href='https://wiki.gnome.org/Projects/"
-#| "GnomeShellIntegrationForChrome/Installation'>documentation</a> for "
-#| "instructions about installing connector."
+#| "connector is not detected. Refer <a href='https://"
+#| "gnome.pages.gitlab.gnome.org/gnome-browser-integration/pages/installation-"
+#| "guide.html'>documentation</a> for instructions about installing connector."
 msgid ""
 "Although GNOME Shell integration extension is running, native host connector "
-"is not detected. Refer <a href='https://gnome.pages.gitlab.gnome.org/gnome-"
-"browser-integration/pages/installation-guide.html'>documentation</a> for "
-"instructions about installing connector."
+"is not detected. Refer <a href='$url$'>documentation</a> for instructions "
+"about installing connector."
 msgstr ""
 "GNOME Kabuk tümleşim uzantısı çalışıyor ancak yerleşik ana makine bağlayıcı "
-"saptanamadı. Bağlayıcıyı kurmakla ilgili yönergeler için <a href='https://"
-"wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/"
-"Installation'>belgelendirmeye</a> bakın."
+"saptanamadı. Bağlayıcıyı kurulumuyla ilgili yönergelere <a href='https://"
+"gnome.pages.gitlab.gnome.org/gnome-browser-integration/pages/installation-"
+"guide.html'>belgelendirmeden</a> bakılabilir."
 
 #. Means 'Web extension does not received answer from native messaging host
 #. application.'
@@ -201,7 +206,7 @@ msgstr "Eşzamanlama"
 
 #: chrome-gnome-shell-key-synchronization_cancel:1
 msgid "Do not enable synchronization."
-msgstr "Eşzamanlamayı etkinleştirme."
+msgstr "Eşzamanlamayı devre dışı bırak."
 
 #. $CAUSE$ is placeholder for error that caused synchronization failure.
 #.
@@ -229,9 +234,7 @@ msgstr "Uzak uzantı listesi kullan, yerelin üstüne yaz."
 #. this string. New line character is treated as line break (<br />)
 #: chrome-gnome-shell-key-translation_credits:1
 msgid "translation_credits"
-msgstr ""
-"Türkçe çeviri: <a href=\"mailto:muhammetk@gmail.com\">Muhammet Kara</a>,\n"
-"<a href=\"mailto:etcetin@gmail.com\">Emin Tufan Çetin</a>"
+msgstr "Türkçe çeviri: Emin Tufan Çetin, Muhammet Kara"
 
 #. Link name for translation credits tab in options dialog.
 #: chrome-gnome-shell-key-translation_credits_title:1
@@ -249,21 +252,19 @@ msgstr "bilinmeyen hata"
 #| msgid ""
 #| "Your native host connector do not support following APIs: $$1. Probably "
 #| "you should upgrade native host connector or install plugins for missing "
-#| "APIs. Refer <a href='https://wiki.gnome.org/Projects/"
-#| "GnomeShellIntegrationForChrome/Installation'>documentation</a> for "
+#| "APIs. Refer <a href='https://gnome.pages.gitlab.gnome.org/gnome-browser-"
+#| "integration/pages/installation-guide.html'>documentation</a> for "
 #| "instructions."
 msgid ""
 "Your native host connector do not support following APIs: $$1. Probably you "
 "should upgrade native host connector or install plugins for missing APIs. "
-"Refer <a href='https://gnome.pages.gitlab.gnome.org/gnome-browser-"
-"integration/pages/installation-guide.html'>documentation</a> for "
-"instructions."
+"Refer <a href='$$2'>documentation</a> for instructions."
 msgstr ""
 "Yerleşik ana makine bağlayıcı şu API’leri desteklemiyor: $$1. Büyük "
-"olasılıkla yerleşik ana makine bağlayıcıyı güncellemelisiniz veya eksik "
-"API’ler için eklentileri kurmalısınız. Yönergeler için <a href='https://wiki."
-"gnome.org/Projects/GnomeShellIntegrationForChrome/"
-"Installation'>belgelendirmeye</a> bakın."
+"olasılıkla yerleşik ana makine bağlayıcıyı güncellemelisiniz ya da eksik "
+"API’ler için eklenti kurmalısınız. Yönergelere <a href='https://"
+"gnome.pages.gitlab.gnome.org/gnome-browser-integration/pages/installation-"
+"guide.html'>belgelendirmeden</a> bakılabilir."
 
 #: chrome-gnome-shell-key-yes:1
 msgid "Yes"
@@ -271,78 +272,31 @@ msgstr "Evet"
 
 #. Chrome store description
 #: chrome-gnome-shell-store-description:1
+#, fuzzy
+#| msgid ""
+#| "You MUST install native connector for this extension to work.\n"
+#| "\n"
+#| "For Arch Linux, Debian, Fedora, Gentoo and Ubuntu you can install package "
+#| "named \"chrome-gnome-shell\".\n"
+#| "\n"
+#| "You also can install connector manually. See https://wiki.gnome.org/"
+#| "Projects/GnomeShellIntegrationForChrome/Installation for install "
+#| "instructions.\n"
 msgid ""
 "You MUST install native connector for this extension to work.\n"
 "\n"
 "For Arch Linux, Debian, Fedora, Gentoo and Ubuntu you can install package "
 "named \"chrome-gnome-shell\".\n"
 "\n"
-"You also can install connector manually. See https://wiki.gnome.org/Projects/"
-"GnomeShellIntegrationForChrome/Installation for install instructions.\n"
+"You also can install connector manually. See https://"
+"gnome.pages.gitlab.gnome.org/gnome-browser-integration/pages/installation-"
+"guide.html for install instructions.\n"
 msgstr ""
 "Bu uzantının çalışması için yerleşik bağlayıcıyı KURMALISINIZ.\n"
 "\n"
 "Arch Linux, Debian, Fedora, Gentoo ve Ubuntu için \"chrome-gnome-shell\" "
 "paketini kurabilirsiniz.\n"
 "\n"
-"Ayrıca bağlayıcıyı elle kurabilirsiniz. Kurulum yönergeleri için https://"
-"wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation adresine "
-"göz atın.\n"
-
-#~ msgid "hours"
-#~ msgstr "saat"
-
-#~ msgid "Update check period"
-#~ msgstr "Güncelleme denetleme sıklığı"
-
-#~ msgid "Last check"
-#~ msgstr "Son denetleme"
-
-#~ msgid "Next check"
-#~ msgstr "Sonraki denetleme"
-
-#~ msgid "Check for GNOME Shell extensions update"
-#~ msgstr "GNOME Kabuk uzantılarının güncellemelerini denetle"
-
-#~ msgid "Check update of enabled GNOME Shell extensions only"
-#~ msgstr "Yalnızca etkin GNOME Kabuk uzantılarının güncellemelerini denetle"
-
-#~ msgid ""
-#~ "Your native host connector does not support updates check for enabled "
-#~ "GNOME Shell extensions only. Consider update."
-#~ msgstr ""
-#~ "Yerleşik ana makine bağlayıcınız yalnızca etkin GNOME Kabuk uzantılarının "
-#~ "yeni sürümlerini denetlemeyi desteklemiyor. Güncellemeyi düşünün."
-
-#~ msgid ""
-#~ "Your native host connector does not support check for GNOME Shell "
-#~ "extensions updates. Probably python-requests package is missing."
-#~ msgstr ""
-#~ "Yerleşik ana makine bağlayıcınız GNOME Kabuk uzantılarının "
-#~ "güncellemelerini denetlemeyi desteklemiyor. Büyük olasılıkla python-"
-#~ "requests paketi eksik."
-
-#~ msgid "An update for GNOME Shell extensions available"
-#~ msgstr "GNOME Kabuk uzantıları için güncelleme var"
-
-#~ msgid "Failed to check GNOME Shell extensions updates: $CAUSE$"
-#~ msgstr "GNOME Kabuk uzantılarının güncellemeleri denetlenemedi: $CAUSE$"
-
-#~ msgid ""
-#~ "A network error has occurred. Please check your Internet connection and/"
-#~ "or proxy settings."
-#~ msgstr ""
-#~ "Bir ağ hatası meydana geldi. Lütfen Internet bağlantınızı ve/veya vakil "
-#~ "sunucu ayarlarınızı kontrol edin."
-
-#~ msgid "Show information about network errors"
-#~ msgstr "Ağ hataları hakkındaki bilgileri göster"
-
-#~ msgid "older than version 4"
-#~ msgstr "sürüm 4'ten daha eski"
-
-#~ msgid "version $$1"
-#~ msgstr "sürüm $$1"
-
-#~ msgid "Connecting to native host application…"
-#~ msgstr "Yerleşik ana makine uygulamasına bağlanılıyor…"
+"Ayrıca bağlayıcıyı elle kurabilirsiniz. Kurulum yönergelerine https://"
+"wiki.gnome.org/Projects/GnomeShellIntegrationForChrome/Installation "
+"adresinden göz atılabilir.\n"

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Endeavour master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Endeavour/-/issues\n"
-"POT-Creation-Date: 2025-03-10 11:49+0000\n"
+"POT-Creation-Date: 2025-09-13 18:09+0000\n"
 "PO-Revision-Date: 2023-10-17 01:19+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -27,18 +27,23 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4\n"
 
-#: data/appdata/org.gnome.Todo.appdata.xml.in.in:6
-#: data/org.gnome.Todo.desktop.in.in:3 src/gui/gtd-application.c:115
-#: src/gui/gtd-window.ui:119 src/main.c:37
+#: data/org.gnome.Todo.desktop.in.in:2
+#: src/appdata/org.gnome.Todo.appdata.xml.in.in:13 src/gui/gtd-window.blp:7
+#: src/main.c:37
 msgid "Endeavour"
 msgstr "Endeavour"
 
-#: data/appdata/org.gnome.Todo.appdata.xml.in.in:7
-#: data/org.gnome.Todo.desktop.in.in:4
+#: data/org.gnome.Todo.desktop.in.in:3
+#: src/appdata/org.gnome.Todo.appdata.xml.in.in:14
 msgid "Manage your tasks"
 msgstr "Görevlerinizi yönetin"
 
-#: data/appdata/org.gnome.Todo.appdata.xml.in.in:10
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Todo.desktop.in.in:12
+msgid "Task;Productivity;Todo;Endeavor;"
+msgstr "Görev;Verimlilik;Üretkenlik;Yapılacaklar;Endeavor;"
+
+#: src/appdata/org.gnome.Todo.appdata.xml.in.in:17
 msgid ""
 "Endeavour is a task management application designed for simplicity. Save and "
 "order your todos. Manage multiple todo lists. And more"
@@ -47,55 +52,46 @@ msgstr ""
 "Yapacaklarınızı kaydedin ve düzenleyin. Çoklu yapılacak listelerini yönetin. "
 "Ve daha çoğu…"
 
-#: data/appdata/org.gnome.Todo.appdata.xml.in.in:23
+#: src/appdata/org.gnome.Todo.appdata.xml.in.in:35
 msgid "Empty state"
 msgstr "Boş durum"
 
-#: data/appdata/org.gnome.Todo.appdata.xml.in.in:27
+#: src/appdata/org.gnome.Todo.appdata.xml.in.in:39
 msgid "Task lists"
 msgstr "Görev listeleri"
 
-#: data/appdata/org.gnome.Todo.appdata.xml.in.in:159
-msgid "Jamie Murphy"
-msgstr "Jamie Murphy"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.Todo.desktop.in.in:13
-msgid "Task;Productivity;Todo;Endeavor;"
-msgstr "Görev;Verimlilik;Üretkenlik;Yapılacaklar;Endeavor;"
-
-#: data/org.gnome.todo.gschema.xml:6
+#: data/org.gnome.todo.gschema.xml.in:6
 msgid "Window maximized"
 msgstr "Pencere ekranı kapladı"
 
-#: data/org.gnome.todo.gschema.xml:7
+#: data/org.gnome.todo.gschema.xml.in:7
 msgid "Window maximized state"
 msgstr "Pencere ekranı kaplamış durumda"
 
-#: data/org.gnome.todo.gschema.xml:11
+#: data/org.gnome.todo.gschema.xml.in:11
 msgid "Window size"
 msgstr "Pencere boyutu"
 
-#: data/org.gnome.todo.gschema.xml:12
+#: data/org.gnome.todo.gschema.xml.in:12
 msgid "Window size (width and height)."
 msgstr "Pencere boyutu (genişlik ve yükseklik)."
 
-#: data/org.gnome.todo.gschema.xml:16
+#: data/org.gnome.todo.gschema.xml.in:16
 msgid "First run of Endeavour"
 msgstr "Endeavourʼın ilk çalıştırılışı"
 
-#: data/org.gnome.todo.gschema.xml:17
+#: data/org.gnome.todo.gschema.xml.in:17
 msgid ""
 "Whether it’s the first run of Endeavour (to run the initial setup) or not"
 msgstr ""
 "Endeavourʼın (ilk kurulumun yapılması için) ilk kez çalıştırılıp "
 "çalıştırılmadığı"
 
-#: data/org.gnome.todo.gschema.xml:21
+#: data/org.gnome.todo.gschema.xml.in:21
 msgid "Default provider to add new lists to"
 msgstr "Yeni listelerin ekleneceği öntanımlı sağlayıcı"
 
-#: data/org.gnome.todo.gschema.xml:22
+#: data/org.gnome.todo.gschema.xml.in:22
 msgid "The identifier of the default provider to add new lists to"
 msgstr "Yeni listelerin ekleneceği öntanımlı sağlayıcının tanımlayıcısı"
 
@@ -120,27 +116,32 @@ msgstr "Yerel"
 msgid "Error fetching tasks from list"
 msgstr "Listeden görevleri getirirken hata"
 
-#: src/engine/gtd-task-list-eds.c:828 src/gui/gtd-panel-inbox.c:116
+#: src/engine/gtd-task-list-eds.c:828 src/gui/gtd-panel-inbox.c:113
 msgid "Inbox"
 msgstr "Gelen Kutusu"
 
-#: src/gui/gtd-application.c:65
+#. FIXME: This is only really useful if Endeavour is ran as a service. Is that desired functionality?
+#: src/gui/gtd-application.c:63
 msgid "Quit Endeavour"
 msgstr "Endeavourʼdan Çık"
 
-#: src/gui/gtd-application.c:66
+#: src/gui/gtd-application.c:64
 msgid "Enable debug messages"
 msgstr "Hata ayıklama iletilerini etkinleştir"
 
-#: src/gui/gtd-application.c:67
-msgid "Print version information and exit"
+#: src/gui/gtd-application.c:65
+#, fuzzy
+#| msgid "Print version information and exit"
+msgid "Print version information"
 msgstr "Sürüm bilgisini yazdır ve çık"
 
-#: src/gui/gtd-application.c:118
-msgid "Copyright © 2015–2022 The Endeavour authors"
+#: src/gui/gtd-application.c:82
+#, fuzzy, c-format
+#| msgid "Copyright © 2015–2022 The Endeavour authors"
+msgid "Copyright © 2015–%d The Endeavour authors"
 msgstr "Telif Hakları © 2015–2023 Endeavour yazarları"
 
-#: src/gui/gtd-application.c:125
+#: src/gui/gtd-application.c:176
 msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
@@ -149,8 +150,8 @@ msgstr ""
 "Çağatay Yiğit Şahin <cyigitsahin@outlook.com>\n"
 "Sabri Ünal <libreajans@gmail.com>"
 
-#: src/gui/gtd-edit-pane.c:93 src/gui/gtd-panel-all-tasks.c:113
-#: src/gui/gtd-panel-next-week.c:116
+#: src/gui/gtd-edit-pane.c:93 src/gui/gtd-panel-all-tasks.c:110
+#: src/gui/gtd-panel-next-week.c:113
 msgid "No date set"
 msgstr "Tarih ayarlanmadı"
 
@@ -179,13 +180,58 @@ msgctxt "taskdate"
 msgid "None"
 msgstr "Yok"
 
-#. Translators: %1$s is the task list name, %2$s is the provider name
+#: src/gui/gtd-new-task-list-dialog.blp:5
+#, fuzzy
+#| msgid "Task Lists"
+msgid "New Task List"
+msgstr "Görev Listeleri"
+
+#: src/gui/gtd-new-task-list-dialog.blp:16
+#, fuzzy
+#| msgid "Create _List"
+msgid "Create a Task List"
+msgstr "Liste _Oluştur"
+
+#: src/gui/gtd-new-task-list-dialog.blp:19
+#, fuzzy
+#| msgid "List Name"
+msgid "Task List Name"
+msgstr "Liste Adı"
+
+#: src/gui/gtd-new-task-list-dialog.blp:25
+msgid "Color"
+msgstr ""
+
+#: src/gui/gtd-new-task-list-dialog.blp:33
+msgid "Connect to an Online Task List"
+msgstr ""
+
+#: src/gui/gtd-new-task-list-dialog.blp:36
+msgid ""
+"If the calendar belongs to one of your online accounts, you can add it "
+"through the <a href=\"GOA\">online account settings</a>."
+msgstr ""
+
+#: src/gui/gtd-new-task-list-dialog.blp:53
+msgid "Create _List"
+msgstr "Liste _Oluştur"
+
+#: src/gui/gtd-new-task-list-dialog.c:69
+msgid "An error occurred while creating a task list"
+msgstr "Görev listesi oluşturulurken hata oluştu"
+
 #: src/gui/gtd-new-task-row.c:90
+#, c-format
+msgid "Select list"
+msgstr ""
+
+#. Translators: %1$s is the task list name, %2$s is the provider name
+#: src/gui/gtd-new-task-row.c:102
 #, c-format
 msgid "%1$s \t <small>%2$s</small>"
 msgstr "%1$s \t <small>%2$s</small>"
 
-#: src/gui/gtd-new-task-row.c:127
+#: src/gui/gtd-new-task-row.c:139
 msgid "An error occurred while creating a task"
 msgstr "Görev oluşturulurken hata oluştu"
 
@@ -198,48 +244,48 @@ msgstr "Yeni görev…"
 #. * have plurals, some languages reuse the singular form for numbers
 #. * like 21, 31, 41, etc.
 #.
-#: src/gui/gtd-panel-all-tasks.c:126
+#: src/gui/gtd-panel-all-tasks.c:123
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
 msgstr[0] "%d gün önce"
 
-#: src/gui/gtd-panel-all-tasks.c:130 src/gui/gtd-task-row.c:133
+#: src/gui/gtd-panel-all-tasks.c:127 src/gui/gtd-task-row.c:133
 msgid "Yesterday"
 msgstr "Dün"
 
-#: src/gui/gtd-panel-all-tasks.c:134 src/gui/gtd-panel-next-week.c:128
-#: src/gui/gtd-panel-today.c:152 src/gui/gtd-panel-today.c:270
+#: src/gui/gtd-panel-all-tasks.c:131 src/gui/gtd-panel-next-week.c:125
+#: src/gui/gtd-panel-today.c:149 src/gui/gtd-panel-today.c:267
 #: src/gui/gtd-task-row.c:125
 msgid "Today"
 msgstr "Bugün"
 
-#: src/gui/gtd-panel-all-tasks.c:138 src/gui/gtd-panel-next-week.c:132
+#: src/gui/gtd-panel-all-tasks.c:135 src/gui/gtd-panel-next-week.c:129
 #: src/gui/gtd-task-row.c:129
 msgid "Tomorrow"
 msgstr "Yarın"
 
-#: src/gui/gtd-panel-all-tasks.c:322
+#: src/gui/gtd-panel-all-tasks.c:319
 msgid "All"
 msgstr "Tümü"
 
-#: src/gui/gtd-panel-next-week.c:124 src/gui/gtd-panel-today.c:143
+#: src/gui/gtd-panel-next-week.c:121 src/gui/gtd-panel-today.c:140
 msgid "Overdue"
 msgstr "Gecikmiş"
 
-#: src/gui/gtd-panel-next-week.c:362
+#: src/gui/gtd-panel-next-week.c:359
 msgid "Next 7 Days"
 msgstr "Sonraki 7 Gün"
 
-#: src/gui/gtd-panel-task-list.c:208
+#: src/gui/gtd-panel-task-list.c:206
 msgid "Unarchive"
 msgstr "Arşivden Çıkar"
 
-#: src/gui/gtd-panel-task-list.c:208 src/gui/gtd-panel-task-list.ui:52
+#: src/gui/gtd-panel-task-list.c:206 src/gui/gtd-panel-task-list.ui:52
 msgid "Archive"
 msgstr "Arşivle"
 
-#: src/gui/gtd-panel-task-list.c:233
+#: src/gui/gtd-panel-task-list.c:237
 msgid "An error occurred while updating a task"
 msgstr "Görev güncellenirken hata oluştu"
 
@@ -256,94 +302,70 @@ msgstr "Tamamlanan görevleri temizle…"
 msgid "Delete"
 msgstr "Sil"
 
-#: src/gui/gtd-provider-popover.c:97
-msgid "An error occurred while creating a task list"
-msgstr "Görev listesi oluşturulurken hata oluştu"
+#: src/gui/gtd-sidebar.blp:31
+#, fuzzy
+#| msgid "Task Lists"
+msgid "Lists"
+msgstr "Görev Listeleri"
 
-#: src/gui/gtd-provider-popover.ui:25
-msgid "Create _List"
-msgstr "Liste _Oluştur"
+#: src/gui/gtd-sidebar.blp:51
+#, fuzzy
+#| msgid "Archived"
+msgctxt "Translators: 'archived' as in 'archived task lists'"
+msgid "Archived"
+msgstr "Arşivlenmiş"
 
-#: src/gui/gtd-provider-popover.ui:42
-msgid "_Cancel"
-msgstr "İ_ptal"
+#: src/gui/gtd-sidebar.blp:90
+msgid "Archived"
+msgstr "Arşivlenmiş"
 
-#: src/gui/gtd-provider-popover.ui:55
-msgid "List Name"
-msgstr "Liste Adı"
+#: src/gui/gtd-sidebar.blp:106
+msgid "No Archived Lists"
+msgstr "Arşivlenmiş Liste Yok"
 
-#: src/gui/gtd-provider-popover.ui:116
-msgid "Select a storage location"
-msgstr "Depolama konumu seç"
-
-#: src/gui/gtd-provider-row.ui:60
-msgid "Off"
-msgstr "Kapalı"
-
-#: src/gui/gtd-provider-selector.ui:22
-msgid "Click to add a new Google account"
-msgstr "Yeni Google hesabı eklemek için tıkla"
-
-#: src/gui/gtd-provider-selector.ui:38
-msgid "Google"
-msgstr "Google"
-
-#: src/gui/gtd-provider-selector.ui:48
-msgid "Click to add a new ownCloud account"
-msgstr "Yeni ownCloud hesabı eklemek için tıkla"
-
-#: src/gui/gtd-provider-selector.ui:64
-msgid "ownCloud"
-msgstr "ownCloud"
-
-#: src/gui/gtd-provider-selector.ui:74
-msgid "Click to add a new Microsoft Exchange account"
-msgstr "Yeni Microsoft Exchange hesabı eklemek için tıkla"
-
-#: src/gui/gtd-provider-selector.ui:90
-msgid "Microsoft Exchange"
-msgstr "Microsoft Exchange"
-
-#: src/gui/gtd-provider-selector.ui:103
-msgid "Or you can just store your tasks on this computer"
-msgstr "Ya da görevlerinizi yalnızca bu bilgisayarda depolayabilirsiniz"
-
-#: src/gui/gtd-sidebar-provider-row.ui:64
-msgid "Loading…"
-msgstr "Yükleniyor…"
-
-#: src/gui/gtd-sidebar.c:419
+#: src/gui/gtd-sidebar.c:347
 #, c-format
 msgid "Task list <b>%s</b> removed"
 msgstr "<b>%s</b> görev listesi kaldırıldı"
 
-#: src/gui/gtd-sidebar.c:422 src/gui/gtd-task-list-view.c:454
+#: src/gui/gtd-sidebar.c:350 src/gui/gtd-task-list-view.c:455
 msgid "Undo"
 msgstr "Geri Al"
 
-#. Translators: 'archived' as in 'archived task lists'
-#: src/gui/gtd-sidebar.ui:90
-msgid "Archived"
-msgstr "Arşivlenmiş"
+#: src/gui/gtd-sidebar-provider-group.blp:17
+msgid "Add New List to This Provider"
+msgstr ""
 
-#: src/gui/gtd-sidebar.ui:127
-msgid "No Archived Lists"
-msgstr "Arşivlenmiş Liste Yok"
-
-#: src/gui/gtd-task-list-view.c:436
+#: src/gui/gtd-task-list-view.c:437
 #, c-format
 msgid "Task <b>%s</b> removed"
 msgstr "<b>%s</b> görevi kaldırıldı"
 
-#: src/gui/gtd-task-list-view.ui:69
+#: src/gui/gtd-task-list-view.ui:65
 msgid "Tasks Will Appear Here"
 msgstr "Görevler Burada Görünecek"
 
-#: src/gui/gtd-task-list-view.ui:78
+#: src/gui/gtd-task-list-view.ui:74
 msgid "Add Tasks..."
 msgstr "Görev Ekle…"
 
-#: src/gui/gtd-window.c:104
+#: src/gui/gtd-window.blp:48
+msgid "Main Menu"
+msgstr ""
+
+#: src/gui/gtd-window.blp:70 src/gui/menus.ui:7
+msgid "_Help"
+msgstr "_Yardım"
+
+#: src/gui/gtd-window.blp:75 src/gui/menus.ui:11
+msgid "_Keyboard Shortcuts"
+msgstr "_Klavye Kısayolları"
+
+#: src/gui/gtd-window.blp:80 src/gui/menus.ui:15
+msgid "_About Endeavour"
+msgstr "Endeavour _Hakkında"
+
+#: src/gui/gtd-window.c:96
 msgid ""
 "This is a development build of Endeavour. You may experience errors, wrong "
 "behaviors, and data loss."
@@ -351,29 +373,13 @@ msgstr ""
 "Bu, Endeavourʼın geliştirme inşasıdır. Hatalar, yanlış davranışlar ve veri "
 "yitimi yaşayabilirsiniz."
 
-#: src/gui/gtd-window.c:363
+#: src/gui/gtd-window.c:264
 msgid "Close"
 msgstr "Kapat"
 
-#: src/gui/gtd-window.c:400
+#: src/gui/gtd-window.c:300
 msgid "Details"
 msgstr "Ayrıntılar"
-
-#: src/gui/gtd-window.ui:45
-msgid "New List"
-msgstr "Yeni Liste"
-
-#: src/gui/menus.ui:7
-msgid "_Help"
-msgstr "_Yardım"
-
-#: src/gui/menus.ui:11
-msgid "_Keyboard Shortcuts"
-msgstr "_Klavye Kısayolları"
-
-#: src/gui/menus.ui:15
-msgid "_About Endeavour"
-msgstr "Endeavour _Hakkında"
 
 #: src/gui/shortcuts-dialog.ui:14
 msgctxt "shortcut window"
@@ -399,6 +405,45 @@ msgstr "Yukarıdaki panele/görünüme taşı"
 msgctxt "shortcut window"
 msgid "Move to the panel/view below"
 msgstr "Aşağıdaki panele/görünüme taşı"
+
+#~ msgid "Jamie Murphy"
+#~ msgstr "Jamie Murphy"
+
+#~ msgid "_Cancel"
+#~ msgstr "İ_ptal"
+
+#~ msgid "Select a storage location"
+#~ msgstr "Depolama konumu seç"
+
+#~ msgid "Off"
+#~ msgstr "Kapalı"
+
+#~ msgid "Click to add a new Google account"
+#~ msgstr "Yeni Google hesabı eklemek için tıkla"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Click to add a new ownCloud account"
+#~ msgstr "Yeni ownCloud hesabı eklemek için tıkla"
+
+#~ msgid "ownCloud"
+#~ msgstr "ownCloud"
+
+#~ msgid "Click to add a new Microsoft Exchange account"
+#~ msgstr "Yeni Microsoft Exchange hesabı eklemek için tıkla"
+
+#~ msgid "Microsoft Exchange"
+#~ msgstr "Microsoft Exchange"
+
+#~ msgid "Or you can just store your tasks on this computer"
+#~ msgstr "Ya da görevlerinizi yalnızca bu bilgisayarda depolayabilirsiniz"
+
+#~ msgid "Loading…"
+#~ msgstr "Yükleniyor…"
+
+#~ msgid "New List"
+#~ msgstr "Yeni Liste"
 
 #~ msgid "Manage your personal tasks"
 #~ msgstr "Kişisel görevlerinizi yönetin"
@@ -429,6 +474,3 @@ msgstr "Aşağıdaki panele/görünüme taşı"
 
 #~ msgid "Scheduled"
 #~ msgstr "Zamanlanmış"
-
-#~ msgid "Task Lists"
-#~ msgstr "Görev Listeleri"

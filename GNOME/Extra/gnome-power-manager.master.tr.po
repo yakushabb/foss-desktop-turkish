@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gnome-power-manager\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-power-manager/"
 "issues/\n"
-"POT-Creation-Date: 2025-02-12 23:12+0000\n"
+"POT-Creation-Date: 2025-09-10 18:03+0000\n"
 "PO-Revision-Date: 2022-09-22 23:48+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -28,26 +28,26 @@ msgstr ""
 
 #. TRANSLATORS: shown on the titlebar
 #. TRANSLATORS: the program name
-#: data/org.gnome.PowerStats.desktop.in:3 src/gpm-statistics.c:983
-#: src/gpm-statistics.c:1351 src/gpm-statistics.ui:5
+#: data/org.gnome.PowerStats.desktop.in:2 src/gpm-statistics.c:983
+#: src/gpm-statistics.c:1604 src/gpm-statistics.ui:5
 msgid "Power Statistics"
 msgstr "Güç İstatistikleri"
 
-#: data/org.gnome.PowerStats.desktop.in:4
-#: data/appdata/org.gnome.PowerStats.appdata.xml.in:8
+#: data/org.gnome.PowerStats.desktop.in:3
+#: data/appdata/org.gnome.PowerStats.metainfo.xml.in:8
 msgid "Observe power management"
 msgstr "Güç yönetimini gözlemle"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.PowerStats.desktop.in:6
+#: data/org.gnome.PowerStats.desktop.in:5
 msgid "battery;consumption;charge;"
 msgstr "pil;batarya;tüketim;harcama;şarj;"
 
-#: data/appdata/org.gnome.PowerStats.appdata.xml.in:7
+#: data/appdata/org.gnome.PowerStats.metainfo.xml.in:7
 msgid "GNOME Power Statistics"
 msgstr "GNOME Güç İstatistikleri"
 
-#: data/appdata/org.gnome.PowerStats.appdata.xml.in:10
+#: data/appdata/org.gnome.PowerStats.metainfo.xml.in:10
 msgid ""
 "Power Statistics can show historical and current battery information and "
 "programs waking up that use power."
@@ -55,7 +55,7 @@ msgstr ""
 "Güç İstatistikleri geçmiş ve şimdiki pil bilgilerini, uyandığında güç "
 "tüketen programları gösterebilir."
 
-#: data/appdata/org.gnome.PowerStats.appdata.xml.in:14
+#: data/appdata/org.gnome.PowerStats.metainfo.xml.in:14
 msgid ""
 "You probably only need to install this application if you are having "
 "problems with your laptop battery, or are trying to work out what programs "
@@ -620,13 +620,8 @@ msgstr "Düzeltme çarpanı"
 msgid "Prediction accuracy"
 msgstr "Öngörü doğruluğu"
 
-#. TRANSLATORS: show verbose debugging
-#: src/gpm-statistics.c:1339
-msgid "Show extra debugging information"
-msgstr "Ek hata ayıklama bilgisi göster"
-
 #. TRANSLATORS: show a device by default
-#: src/gpm-statistics.c:1342
+#: src/gpm-statistics.c:1578
 msgid "Select this device at startup"
 msgstr "Bu aygıtı açılışta seç"
 
@@ -661,3 +656,6 @@ msgstr "Geçmiş"
 #: src/gpm-statistics.ui:284
 msgid "Statistics"
 msgstr "İstatistikler"
+
+#~ msgid "Show extra debugging information"
+#~ msgstr "Ek hata ayıklama bilgisi göster"

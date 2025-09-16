@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hitori master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/hitori/issues\n"
-"POT-Creation-Date: 2025-02-13 02:43+0000\n"
+"POT-Creation-Date: 2025-09-10 20:53+0000\n"
 "PO-Revision-Date: 2024-05-10 22:40+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <gnometurk@gnome.org>\n"
@@ -23,27 +23,27 @@ msgstr ""
 "X-Generator: Poedit 3.4.3\n"
 
 #. Translators: the name of the application as it appears in a software center
-#: data/org.gnome.Hitori.desktop.in:3 data/org.gnome.Hitori.appdata.xml.in:9
-#: data/hitori.ui:68 src/main.c:101
+#: data/org.gnome.Hitori.desktop.in:2 data/org.gnome.Hitori.metainfo.xml.in:9
+#: data/hitori.ui:68 src/main.c:114
 msgid "Hitori"
 msgstr "Hitori"
 
 #. Translators: the brief summary of the application as it appears in a software center.
-#: data/org.gnome.Hitori.desktop.in:4 data/org.gnome.Hitori.appdata.xml.in:12
+#: data/org.gnome.Hitori.desktop.in:3 data/org.gnome.Hitori.metainfo.xml.in:12
 msgid "Play the Hitori puzzle game"
 msgstr "Hitori bulmaca oyununu oynayın"
 
 #. Translators: Search terms to find this application. Do NOT translate or localise the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.Hitori.desktop.in:6
+#: data/org.gnome.Hitori.desktop.in:5
 msgid "puzzle;game;logic;grid;"
 msgstr "puzzle;game;logic;grid;bulmaca;yapboz;oyun;mantık;ızgara;tablo;"
 
-#. Translators: These are the application description paragraphs in the AppData file.
-#: data/org.gnome.Hitori.appdata.xml.in:16
+#. Translators: These are the application description paragraphs in the Metainfo file.
+#: data/org.gnome.Hitori.metainfo.xml.in:16
 msgid "Hitori is a logic game similar to the popular game of Sudoku."
 msgstr "Hitori, gözde Sudoku oyununa benzer mantık oyunudur."
 
-#: data/org.gnome.Hitori.appdata.xml.in:17
+#: data/org.gnome.Hitori.metainfo.xml.in:17
 msgid ""
 "You play the game against the clock, aiming to eliminate all the duplicate "
 "numbers in each row and column in the fastest time. Multiple sizes of game "
@@ -55,7 +55,7 @@ msgstr ""
 "hücrelere çözümü bulmaya yardımcı işaretler koyabilirsiniz. Takıldığınız "
 "yerde oyun size ipucu verebilir."
 
-#: data/org.gnome.Hitori.appdata.xml.in:42
+#: data/org.gnome.Hitori.metainfo.xml.in:42
 msgid "Philip Withnall"
 msgstr "Philip Withnall"
 
@@ -104,7 +104,7 @@ msgctxt "shortcut window"
 msgid "Toggle Menu"
 msgstr "Menüyü aç veya kapat"
 
-#: data/hitori.ui:9 src/main.c:355
+#: data/hitori.ui:9 src/main.c:318
 msgid "_New Game"
 msgstr "_Yeni Oyun"
 
@@ -275,31 +275,24 @@ msgstr ""
 msgid "Hitori Website"
 msgstr "Hitori Web Sayfası"
 
-#: src/main.c:255
+#: src/main.c:105
 msgid "Enable debug mode"
 msgstr "Hata ayıklama kipini etkinleştir"
 
 #. Translators: This means to choose a number as the "seed" for random number generation used when creating a board
-#: src/main.c:257
+#: src/main.c:107
 msgid "Seed the board generation"
 msgstr "Tahta oluşumu için sayı gir"
 
-#. Options
-#: src/main.c:271
+#: src/main.c:112
 msgid "- Play a game of Hitori"
 msgstr "- Hitori oyunu oyna"
 
-#. Print an error
-#: src/main.c:281
-#, c-format
-msgid "Command line options could not be parsed: %s\n"
-msgstr "Komut satırı seçenekleri ayrıştırılamadı: %s\n"
-
-#: src/main.c:351
+#: src/main.c:314
 msgid "Do you want to stop the current game?"
 msgstr "Geçerli oyunu durdurmak istiyor musunuz?"
 
-#: src/main.c:354
+#: src/main.c:317
 msgid "Keep _Playing"
 msgstr "Oynamayı _Sürdür"
 
@@ -317,3 +310,7 @@ msgstr "_Çık"
 #: src/rules.c:273
 msgid "_Play Again"
 msgstr "Yeniden _Oyna"
+
+#, c-format
+#~ msgid "Command line options could not be parsed: %s\n"
+#~ msgstr "Komut satırı seçenekleri ayrıştırılamadı: %s\n"

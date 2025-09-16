@@ -15,32 +15,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ghex\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/ghex/issues/\n"
-"POT-Creation-Date: 2025-03-10 15:02+0000\n"
-"PO-Revision-Date: 2025-02-16 08:00+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"POT-Creation-Date: 2025-09-12 16:27+0000\n"
+"PO-Revision-Date: 2025-06-25 14:46+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-POOTLE-MTIME: 1423957989.000000\n"
 
-#: data/org.gnome.GHex.appdata.xml.in.in:6
+#: data/org.gnome.GHex.desktop.in.in:4
+msgid "Hex Editor"
+msgstr "Onaltılık Düzenliyici"
+
+#: data/org.gnome.GHex.desktop.in.in:5 data/org.gnome.GHex.metainfo.xml.in.in:7
+msgid "Inspect and edit binary files"
+msgstr "İkilik dosyaları incele ve düzenle"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon! Here, 'binary' means a binary file (not the base-2 numeric system).
+#: data/org.gnome.GHex.desktop.in.in:7
+msgid "binary;debug;hexadecimal;"
+msgstr "ikilik;ikili;hata ayıklama;onaltılık;"
+
+#: data/org.gnome.GHex.desktop.in.in:20
+msgid "New Window"
+msgstr "Yeni Pencere"
+
+#: data/org.gnome.GHex.metainfo.xml.in.in:6
 #: src/ghex-application-window.ui.in:151
 msgid "GHex"
 msgstr "GHex"
 
-#: data/org.gnome.GHex.appdata.xml.in.in:7 data/org.gnome.GHex.desktop.in.in:6
-msgid "Inspect and edit binary files"
-msgstr "İkilik dosyaları incele ve düzenle"
-
-#: data/org.gnome.GHex.appdata.xml.in.in:9
+#: data/org.gnome.GHex.metainfo.xml.in.in:9
 msgid "GHex is a hex editor for the GNOME desktop."
 msgstr "GHex, GNOME masaüstü için onaltılık düzenleyicidir."
 
-#: data/org.gnome.GHex.appdata.xml.in.in:12
+#: data/org.gnome.GHex.metainfo.xml.in.in:12
 msgid ""
 "GHex can load raw data from binary files and display them for editing in the "
 "traditional hex editor view. The display is split in two columns, with "
@@ -52,24 +65,15 @@ msgstr ""
 "bir sütunda onaltılık değer ve diğerinde ASCII gösterimi ile iki sütuna "
 "bölünmüştür. GHex ham verilerle çalışmak için yararlı bir araçtır."
 
-#: data/org.gnome.GHex.desktop.in.in:5
-msgid "Hex Editor"
-msgstr "Onaltılık Düzenliyici"
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon! Here, 'binary' means a binary file (not the base-2 numeric system).
-#: data/org.gnome.GHex.desktop.in.in:8
-msgid "binary;debug;hexadecimal;"
-msgstr "ikilik;ikili;hata ayıklama;onaltılık;"
-
 #: src/chartable.ui:30
 msgid "Character table"
 msgstr "Karakter tablosu"
 
-#: src/chartable.ui:44 src/find-options.ui:67
+#: src/chartable.ui:44 src/find-options.ui:69
 msgid "ASCII"
 msgstr "ASCII"
 
-#: src/chartable.ui:69 src/find-options.ui:66
+#: src/chartable.ui:69 src/find-options.ui:65
 msgid "Hex"
 msgstr "Onaltılık"
 
@@ -241,7 +245,7 @@ msgstr "_Büyük/küçük harfi görmezden gel"
 msgid "Show:"
 msgstr "Göster:"
 
-#: src/find-options.ui:68 src/preferences.ui:170
+#: src/find-options.ui:73 src/preferences.ui:170
 msgid "Both"
 msgstr "Her İkisi"
 
@@ -330,19 +334,19 @@ msgstr "Hiçbir belirimi bulunamadı."
 #. Translators: this is the string for an untitled buffer that will
 #. * be displayed in the titlebar when a user does File->New
 #.
-#: src/ghex-application-window.c:49 src/hex-document.c:1110
+#: src/ghex-application-window.c:43 src/hex-document.c:1148
 msgid "Untitled"
 msgstr "Başlıksız"
 
-#: src/ghex-application-window.c:307
+#: src/ghex-application-window.c:359
 msgid "There was an error saving the file."
 msgstr "Dosya kaydedilirken hata oluştu."
 
-#: src/ghex-application-window.c:347
+#: src/ghex-application-window.c:399
 msgid "Save Changes?"
 msgstr "Değişiklikler Kaydedilsin Mi?"
 
-#: src/ghex-application-window.c:350
+#: src/ghex-application-window.c:402
 msgid ""
 "Open documents contain unsaved changes.\n"
 "Changes which are not saved will be permanently lost."
@@ -350,39 +354,39 @@ msgstr ""
 "Açık belgeler kaydedilmemiş değişiklikler içeriyor.\n"
 "Kaydedilmeyen değişiklikler kalıcı olarak yitirilecek."
 
-#: src/ghex-application-window.c:353 src/ghex-application-window.c:482
-#: src/ghex-application-window.c:1191 src/paste-special.ui:53
+#: src/ghex-application-window.c:405 src/ghex-application-window.c:534
+#: src/ghex-application-window.c:1253 src/paste-special.ui:53
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: src/ghex-application-window.c:354 src/ghex-application-window.c:483
+#: src/ghex-application-window.c:406 src/ghex-application-window.c:535
 msgid "_Discard"
 msgstr "_Gözden Çıkar"
 
 #. Translators: %s is the filename that is currently being
 #. * edited.
-#: src/ghex-application-window.c:470
+#: src/ghex-application-window.c:522
 #, c-format
 msgid "%s has been edited since opening."
 msgstr "%s açıldıktan sonra düzenlendi."
 
-#: src/ghex-application-window.c:474
+#: src/ghex-application-window.c:526
 msgid "The buffer has been edited since opening."
 msgstr "Tampon açıldıktan sonra düzenlendi."
 
-#: src/ghex-application-window.c:477
+#: src/ghex-application-window.c:529
 msgid "Would you like to save your changes?"
 msgstr "Değişikliklerinizi kaydetmek ister misiniz?"
 
-#: src/ghex-application-window.c:484
+#: src/ghex-application-window.c:536
 msgid "_Save"
 msgstr "_Kaydet"
 
-#: src/ghex-application-window.c:1050
+#: src/ghex-application-window.c:1111
 msgid "There was an error saving the file to the path specified."
 msgstr "Dosya belirtilen yola kaydedilirken hata oluştu."
 
-#: src/ghex-application-window.c:1069
+#: src/ghex-application-window.c:1130
 msgid ""
 "An unknown error has occurred in attempting to reload the file you have just "
 "saved."
@@ -390,18 +394,18 @@ msgstr ""
 "Yeni kaydettiğiniz dosyayı yeniden yüklemeye çalışırken bilinmeyen hata "
 "oluştu."
 
-#: src/ghex-application-window.c:1122
+#: src/ghex-application-window.c:1183
 msgid "Select a file to save buffer as"
 msgstr "Tampondaki dosyayı saklamak için dosya seç"
 
 #. Translators: %s here is the filename the user is being asked to
 #. * confirm whether they want to revert.
-#: src/ghex-application-window.c:1186
+#: src/ghex-application-window.c:1248
 #, c-format
 msgid "Are you sure you want to revert %s?"
 msgstr "%s geri alınsın ister misiniz?"
 
-#: src/ghex-application-window.c:1188
+#: src/ghex-application-window.c:1250
 msgid ""
 "Your changes will be lost.\n"
 "This action cannot be undone."
@@ -409,15 +413,15 @@ msgstr ""
 "Değişiklikleriniz yitecek.\n"
 "Bu işlem geri alınamaz."
 
-#: src/ghex-application-window.c:1192 src/ghex-application-window.ui.in:39
+#: src/ghex-application-window.c:1254 src/ghex-application-window.ui.in:39
 msgid "_Revert"
 msgstr "_Geri Al"
 
-#: src/ghex-application-window.c:1282
+#: src/ghex-application-window.c:1344
 msgid "Select a file to open"
 msgstr "Açılacak dosyayı seç"
 
-#: src/ghex-application-window.c:1389
+#: src/ghex-application-window.c:1452
 #, c-format
 msgid ""
 "Sorry, but help could not be opened.\n"
@@ -440,7 +444,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/ghex-application-window.c:1586
+#: src/ghex-application-window.c:1649
 #, c-format
 msgid ""
 "Offset: <tt>0x%lX</tt>; <tt>0x%lX</tt> bytes from <tt>0x%lX</tt> to "
@@ -449,12 +453,12 @@ msgstr ""
 "Ofset: <tt>0x%lX</tt>; <tt>0x%lX</tt> bayt, <tt>0x%lX</tt> ile <tt>0x%lX</"
 "tt> arasında seçildi"
 
-#: src/ghex-application-window.c:1589
+#: src/ghex-application-window.c:1652
 #, c-format
 msgid "Offset: <tt>0x%lX</tt>"
 msgstr "Ofset: <tt>0x%lX</tt>"
 
-#: src/ghex-application-window.c:1596
+#: src/ghex-application-window.c:1659
 #, c-format
 msgid ""
 "Offset: <tt>%ld</tt>; <tt>%ld</tt> bytes from <tt>%ld</tt> to <tt>%ld</tt> "
@@ -463,13 +467,13 @@ msgstr ""
 "Ofset: <tt>%ld</tt>; <tt>%ld</tt> bayt, <tt>%ld</tt> ile <tt>%ld</tt> "
 "arasında seçildi"
 
-#: src/ghex-application-window.c:1599
+#: src/ghex-application-window.c:1662
 #, c-format
 msgid "Offset: <tt>%ld</tt>"
 msgstr "Ofset: <tt>%ld</tt>"
 
 #. Weird rendering if you don't put the space at the start
-#: src/ghex-application-window.c:1607
+#: src/ghex-application-window.c:1670
 #, c-format
 msgid ""
 " <sub>HEX</sub> Offset: <tt>0x%lX</tt>; <tt>0x%lX</tt> bytes from <tt>0x%lX</"
@@ -480,14 +484,14 @@ msgstr ""
 "ile <tt>0x%lX</tt> arası seçildi <sub>DEC</sub> Ofset: <tt>%ld</tt>; "
 "<tt>%ld</tt> bayt, <tt>%ld</tt> ile <tt>%ld</tt> arasında seçildi"
 
-#: src/ghex-application-window.c:1611
+#: src/ghex-application-window.c:1674
 #, c-format
 msgid ""
 " <sub>HEX</sub> Offset: <tt>0x%lX</tt> <sub>DEC</sub> Offset: <tt>%ld</tt>"
 msgstr ""
 " <sub>HEX</sub> Ofset: <tt>0x%lX</tt> <sub>DEC</sub> Ofset: <tt>%ld</tt>"
 
-#: src/ghex-application-window.c:2430
+#: src/ghex-application-window.c:2521
 msgid ""
 "You are attempting to open a file 1GB or larger.\n"
 "\n"
@@ -513,11 +517,11 @@ msgstr ""
 "Bu iletinin görünmesini önlemek için başka tampon arka ucu kullanmayı "
 "deneyin."
 
-#: src/ghex-application-window.c:2488
+#: src/ghex-application-window.c:2579
 msgid "There was an error reading the file."
 msgstr "Dosya okunurken hata oluştu."
 
-#: src/ghex-application-window.c:2549
+#: src/ghex-application-window.c:2640
 msgid ""
 "There was an error loading the requested file. The file either no longer "
 "exists, is inaccessible, or you may not have permission to access the file."
@@ -526,8 +530,8 @@ msgstr ""
 "dosyaya erişim izniniz yok."
 
 #: src/ghex-application-window.ui.in:31
-msgid "_New"
-msgstr "_Yeni"
+msgid "_New Window"
+msgstr "_Yeni Pencere"
 
 #: src/ghex-application-window.ui.in:35
 msgid "Save _As"
@@ -622,47 +626,51 @@ msgstr "Onaltılık düzenlemek için dosya aç"
 msgid "_Open"
 msgstr "_Aç"
 
-#: src/ghex-application-window.ui.in:188
+#: src/ghex-application-window.ui.in:187 src/help-overlay.ui:19
+msgid "New blank hex buffer"
+msgstr "Yeni boş onaltılık tampon"
+
+#: src/ghex-application-window.ui.in:196
 msgid "Main Menu"
 msgstr "Ana Menü"
 
-#: src/ghex-application-window.ui.in:190
+#: src/ghex-application-window.ui.in:198
 msgid "Main menu"
 msgstr "Ana menü"
 
-#: src/ghex-application-window.ui.in:200
+#: src/ghex-application-window.ui.in:208
 msgid "Find a string in the hex document"
 msgstr "Hex belgesinde dizge bul"
 
-#: src/ghex-application-window.ui.in:209
+#: src/ghex-application-window.ui.in:217
 msgid "Save document"
 msgstr "Belgeyi kaydet"
 
-#: src/ghex-application-window.ui.in:217
+#: src/ghex-application-window.ui.in:225
 msgid "No File Loaded"
 msgstr "Dosya Yüklenmedi"
 
-#: src/ghex-application-window.ui.in:220
+#: src/ghex-application-window.ui.in:228
 msgid ""
 "• Press the Open button\n"
-"• Press Ctrl+N to start a new document\n"
+"• Press Ctrl+T to start a new document\n"
 "• Press Ctrl+O to browse for a document\n"
 "\n"
 "Or, press Ctrl+W to close the window."
 msgstr ""
 "• Aç düğmesine basın\n"
-"• Yeni belge başlatmak için Ctrl+N tuşlarına basın\n"
+"• Yeni belge başlatmak için Ctrl+T tuşlarına basın\n"
 "• Belgeye göz atmak için Ctrl+O tuşlarına basın\n"
 "\n"
 "Veya pencereyi kapatmak için Ctrl+W tuşlarına basın."
 
-#: src/ghex-application-window.ui.in:309
+#: src/ghex-application-window.ui.in:317
 msgid "Toggle insert mode (add data to file rather than replace existing data)"
 msgstr ""
 "Ekleme kipini aç/kapat (var olan verileri değiştirmek yerine dosyaya veri "
 "ekle)"
 
-#: src/ghex-application-window.ui.in:321
+#: src/ghex-application-window.ui.in:329
 msgid "Toggle a pane showing various numeric conversions"
 msgstr "Türlü sayısal dönüşümleri gösteren bölmeyi aç/kapat"
 
@@ -686,7 +694,7 @@ msgstr "_Yinele"
 msgid "Cu_t"
 msgstr "Ke_s"
 
-#: src/gtkhex.ui:76 src/paste-special.c:420
+#: src/gtkhex.ui:76 src/paste-special.c:450
 msgid "_Copy"
 msgstr "_Kopyala"
 
@@ -701,10 +709,6 @@ msgstr "_Geometri"
 #: src/help-overlay.ui:14
 msgid "Files"
 msgstr "Dosyalar"
-
-#: src/help-overlay.ui:19
-msgid "New blank hex buffer"
-msgstr "Yeni boş onaltılık tampon"
 
 #: src/help-overlay.ui:26
 msgid "Open a file for editing"
@@ -825,14 +829,18 @@ msgid "General"
 msgstr "Genel"
 
 #: src/help-overlay.ui:229
+msgid "New window"
+msgstr "Yeni pencere"
+
+#: src/help-overlay.ui:236
 msgid "Show help"
 msgstr "Yardımı göster"
 
-#: src/help-overlay.ui:236
+#: src/help-overlay.ui:243
 msgid "Show preferences"
 msgstr "Tercihleri göster"
 
-#: src/help-overlay.ui:243
+#: src/help-overlay.ui:250
 msgid "Toggle insert mode"
 msgstr "Ekleme kipini aç/kapat"
 
@@ -981,25 +989,37 @@ msgstr "İşaretsiz ve ondalık değerleri onaltılık olarak göster"
 msgid "Stream Length:"
 msgstr "Akım Uzunluğu:"
 
-#: src/hex-document.c:1138
+#: src/hex-document.c:1176
 #, c-format
 msgid "Page"
 msgstr "Sayfa"
 
-#: src/hex-document.c:1144 src/hex-document.c:1247
+#: src/hex-document.c:1182 src/hex-document.c:1285
 #, c-format
 msgid "Hex dump generated by"
 msgstr "Onaltılık baskıyı yaratan"
 
-#: src/hex-document.c:1170
+#: src/hex-document.c:1208
 #, c-format
 msgid "Previous page"
 msgstr "Önceki sayfa"
 
-#: src/hex-document.c:1185
+#: src/hex-document.c:1223
 #, c-format
 msgid "Next page"
 msgstr "Sonraki sayfa"
+
+#: src/hex-info-bar.c:207
+msgid "File Has Changed on Disk"
+msgstr "Dosya Diskte Değiştirildi"
+
+#: src/hex-info-bar.c:211
+msgid "The file has been changed by another program."
+msgstr "Dosya başka bir programca değiştirildi"
+
+#: src/hex-info-bar.ui:69
+msgid "_Discard Changes and Reload"
+msgstr "Değişiklikleri _Gözden Çıkar ve Yeniden Yükle"
 
 #: src/jump-dialog.ui:35
 msgid "Jump to byte (enter offset):"
@@ -1030,15 +1050,19 @@ msgid "Closes the jump-to-byte pane"
 msgstr "Bayt’a git bölmesini kapatır"
 
 #: src/main.c:44
+msgid "Open a new window"
+msgstr "Yeni pencere aç"
+
+#: src/main.c:50
 msgid "Show the application version"
 msgstr "Uygulama sürümünü göster"
 
-#: src/main.c:105
+#: src/main.c:109
 #, c-format
 msgid "This is GHex, version %s\n"
 msgstr "GHex, sürüm %s\n"
 
-#: src/main.c:170
+#: src/main.c:194
 msgid "GHex - A hex editor for the GNOME desktop"
 msgstr "GHex - GNOME masaüstü için onaltılık düzenleyici"
 
@@ -1090,39 +1114,36 @@ msgstr "Belirtilen imi sil"
 msgid "Closes the marks pane"
 msgstr "İmler bölmesini kapatır"
 
-#: src/paste-special.c:218
+#: src/paste-special.c:224
 #, c-format
-msgid ""
-"Paste failed; invalid hex format.\n"
-"\n"
-"The string must be in the format of space-delineated hex byte pairs.\n"
-"\n"
-"For example: \"FF 3D 99 0A\""
-msgstr ""
-"Yapıştırılamadı; geçersiz onaltılık biçim.\n"
-"\n"
-"Dizge, boşlukla ayrılmış onaltılık bayt çiftleri biçiminde olmalıdır.\n"
-"\n"
-"Örnek: \"FF 3D 99 0A\""
+msgid "Failed to paste. Unexpected end of text"
+msgstr "Yapıştırılamadı. Beklenmeyen metin sonu"
 
-#: src/paste-special.c:305
+#: src/paste-special.c:238
+#, c-format
+msgid "Failed to paste. The pasted string contains an invalid hex digit."
+msgstr ""
+"Yapıştırma başarısız oldu. Yapıştırılan dizge geçersiz onaltılık rakam "
+"içeriyor."
+
+#: src/paste-special.c:335
 msgid "GHex Paste Data"
 msgstr "GHex Veriyi Yapıştır"
 
-#: src/paste-special.c:422
+#: src/paste-special.c:452
 msgid "Copy Special"
 msgstr "Özel Kopyala"
 
-#: src/paste-special.c:527
+#: src/paste-special.c:557
 msgid "Plain text (as ASCII)"
 msgstr "Düz metin (ASCII olarak)"
 
-#: src/paste-special.c:544
+#: src/paste-special.c:574
 msgid "Plain text (Unicode)"
 msgstr "Düz metin (Unicode)"
 
-#: src/paste-special.c:548
-msgid "Plain text (as space-delimited hex pairs)"
+#: src/paste-special.c:578
+msgid "Plain text (as hex string representing bytes)"
 msgstr "Düz metin (boşlukla ayrılmış onaltılık çiftler olarak)"
 
 #: src/paste-special.ui:28
@@ -1258,3 +1279,20 @@ msgstr "_Tümünü Değiştir"
 #: src/replace-dialog.ui:58
 msgid "Replaces all occurrences of the search string with the replace string"
 msgstr "Arama dizgesinin her belirimini değiştirme dizgesi ile değiştirir"
+
+#, c-format
+#~ msgid ""
+#~ "Paste failed; invalid hex format.\n"
+#~ "\n"
+#~ "The string must be in the format of space-delineated hex byte pairs.\n"
+#~ "\n"
+#~ "For example: \"FF 3D 99 0A\""
+#~ msgstr ""
+#~ "Yapıştırılamadı; geçersiz onaltılık biçim.\n"
+#~ "\n"
+#~ "Dizge, boşlukla ayrılmış onaltılık bayt çiftleri biçiminde olmalıdır.\n"
+#~ "\n"
+#~ "Örnek: \"FF 3D 99 0A\""
+
+#~ msgid "Plain text (as space-delimited hex pairs)"
+#~ msgstr "Düz metin (boşlukla ayrılmış onaltılık çiftler olarak)"
