@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: citations master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/citations/-/issues\n"
-"POT-Creation-Date: 2025-04-14 18:53+0000\n"
-"PO-Revision-Date: 2025-01-26 16:36+0300\n"
+"POT-Creation-Date: 2025-09-13 18:03+0000\n"
+"PO-Revision-Date: 2025-08-28 21:56+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 
 #: cratebibtex/src/entry_type.rs:117
 msgid "Article"
@@ -95,23 +95,27 @@ msgid "Plain"
 msgstr "Düz"
 
 #. NOTE: This is the app name
-#: data/org.gnome.World.Citations.desktop.in.in:3
+#: data/org.gnome.World.Citations.desktop.in.in:2
 #: data/org.gnome.World.Citations.metainfo.xml.in.in:7
 #: data/resources/ui/window.ui:67 src/main.rs:39
 msgid "Citations"
 msgstr "Alıntılar"
 
-#: data/org.gnome.World.Citations.desktop.in.in:4
+#: data/org.gnome.World.Citations.desktop.in.in:3
 #: data/org.gnome.World.Citations.metainfo.xml.in.in:8
 msgid "Manage your bibliography"
 msgstr "Kaynakçanızı yönetin"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.World.Citations.desktop.in.in:10
+#: data/org.gnome.World.Citations.desktop.in.in:9
 msgid "bibliography;citing;literature;BibTeX;LaTeX;TeX;"
 msgstr ""
-"bibliography;citing;literature;BibTeX;LaTeX;TeX;kaynakça;kaynak dizini;"
-"alıntı;literatür;yazın;alanyazın;"
+"bibliography;citing;literature;BibTeX;LaTeX;TeX;kaynakça;kaynak "
+"dizini;alıntı;literatür;yazın;alanyazın;"
+
+#: data/org.gnome.World.Citations.desktop.in.in:19
+msgid "New Window"
+msgstr "Yeni Pencere"
 
 #: data/org.gnome.World.Citations.gschema.xml.in:6
 msgid "Window width"
@@ -217,15 +221,15 @@ msgstr "Alıntı Yok"
 msgid "Create a new citation"
 msgstr "Yeni alıntı oluştur"
 
-#: data/resources/ui/entry_list_row.ui:91
+#: data/resources/ui/entry_list_row.ui:89
 msgid "_Open PDF"
 msgstr "PDF _Aç"
 
-#: data/resources/ui/entry_list_row.ui:95
+#: data/resources/ui/entry_list_row.ui:93
 msgid "_Copy Key"
 msgstr "Anahtarı _Kopyala"
 
-#: data/resources/ui/entry_list_row.ui:101 data/resources/ui/window.ui:61
+#: data/resources/ui/entry_list_row.ui:99 data/resources/ui/window.ui:61
 msgid "_Delete"
 msgstr "_Sil"
 
@@ -257,7 +261,7 @@ msgstr "_Başlık"
 msgid "_Year"
 msgstr "_Yıl"
 
-#: data/resources/ui/entry_page.ui:152 src/entry_page.rs:396
+#: data/resources/ui/entry_page.ui:152 src/entry_page.rs:397
 msgid "Open in Browser"
 msgstr "Tarayıcıda Aç"
 
@@ -336,42 +340,47 @@ msgstr "DOI’den"
 msgid "DOI"
 msgstr "DOI"
 
-#: data/resources/ui/shortcuts.ui:11
+#: data/resources/ui/shortcuts.ui:6
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Genel"
 
-#: data/resources/ui/shortcuts.ui:14
+#: data/resources/ui/shortcuts.ui:9
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Kısayolları Göster"
 
-#: data/resources/ui/shortcuts.ui:20
+#: data/resources/ui/shortcuts.ui:15
 msgctxt "shortcut window"
 msgid "New Window"
 msgstr "Yeni Pencere"
 
-#: data/resources/ui/shortcuts.ui:26
+#: data/resources/ui/shortcuts.ui:21
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr "Pencereyi Kapat"
+
+#: data/resources/ui/shortcuts.ui:27
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Çık"
 
-#: data/resources/ui/shortcuts.ui:34
+#: data/resources/ui/shortcuts.ui:35
 msgctxt "shortcut window"
 msgid "Bibliography"
 msgstr "Kaynakça"
 
-#: data/resources/ui/shortcuts.ui:37
+#: data/resources/ui/shortcuts.ui:38
 msgctxt "shortcut window"
 msgid "Open"
 msgstr "Aç"
 
-#: data/resources/ui/shortcuts.ui:43
+#: data/resources/ui/shortcuts.ui:44
 msgctxt "shortcut window"
 msgid "Save"
 msgstr "Kaydet"
 
-#: data/resources/ui/shortcuts.ui:49
+#: data/resources/ui/shortcuts.ui:50
 msgctxt "shortcut window"
 msgid "Search"
 msgstr "Ara"
@@ -465,15 +474,19 @@ msgstr "PDF indirilemedi"
 msgid "Make sure that {path} exists"
 msgstr "{path} yolunun var olduğuna emin olun"
 
-#: src/add_pdf_dialog.rs:193
+#: src/add_pdf_dialog.rs:194
 msgid "PDF Files"
 msgstr "PDF Dosyaları"
 
-#: src/add_pdf_dialog.rs:201
+#: src/add_pdf_dialog.rs:202
 msgid "Select a PDF"
 msgstr "PDF Seç"
 
 #: src/application.rs:37
+msgid "Open a new window"
+msgstr "Yeni pencere aç"
+
+#: src/application.rs:46
 msgid "Enable debug messages"
 msgstr "Hata ayıklama iletilerini etkinleştir"
 
@@ -507,7 +520,7 @@ msgstr "Özel…"
 msgid "Author not set"
 msgstr "Yazar ayarlanmadı"
 
-#: src/entry_list_row.rs:85
+#: src/entry_list_row.rs:84
 msgid "Title not set"
 msgstr "Başlık ayarlanamadı"
 
@@ -520,7 +533,7 @@ msgstr "Diğer…"
 msgid "Citation Key already exists"
 msgstr "Alıntı Anahtarı zaten var"
 
-#: src/entry_page.rs:601
+#: src/entry_page.rs:602
 msgid "PDF added"
 msgstr "PDF eklendi"
 
@@ -617,75 +630,72 @@ msgstr "Okul"
 msgid "Institution"
 msgstr "Kurum"
 
-#: src/window.rs:122
+#: src/window.rs:119
 msgid "Could not add entry"
 msgstr "Girdi eklenemedi"
 
-#: src/window.rs:362 src/window.rs:387
+#: src/window.rs:359 src/window.rs:384
 msgid "BibTeX Files"
 msgstr "BibTeX Dosyaları"
 
-#: src/window.rs:396
+#: src/window.rs:393
 msgid "Create New Bibliography"
 msgstr "Yeni Kaynakça Oluştur"
 
-#: src/window.rs:397
+#: src/window.rs:394
 msgid "_Create"
 msgstr "_Oluştur"
 
 #. TRANSLATORS This a file name, .bib will be appended e.g.
 #. bibliography.bib, please only use alphabetic characters.
-#: src/window.rs:400
+#: src/window.rs:397
 msgid "bibliography"
 msgstr "kaynakça"
 
-#: src/window.rs:523
+#: src/window.rs:520
 msgid "An entry with the given citation key already exists"
 msgstr "Belirtilen alıntı anahtarında girdi zaten var"
 
-#: src/window.rs:538
+#: src/window.rs:535
 msgid "Bibliography saved"
 msgstr "Kaynakça kaydedildi"
 
-#: src/window.rs:591
+#: src/window.rs:588
 msgid "Citation Deleted"
 msgstr "Alıntı Silindi"
 
-#: src/window.rs:593
+#: src/window.rs:590
 msgid "Undo"
 msgstr "Geri Al"
 
-#: src/window.rs:636
+#: src/window.rs:633
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
 #. NOTE Dialog title which informs the user about unsaved changes.
-#: src/window.rs:650
+#: src/window.rs:647
 msgid "Unsaved Changes"
 msgstr "Kaydedilmemiş Değişiklikler"
 
 #. NOTE Dialog subtitle which informs the user about unsaved changes more detailed.
-#: src/window.rs:653
+#: src/window.rs:650
 msgid "Do you want to write all changes to the safe?"
 msgstr "Tüm değişiklikleri kasaya yazmak ister misiniz?"
 
-#: src/window.rs:657
+#: src/window.rs:654
 msgid "_Quit Without Saving"
 msgstr "Kaydetmeden Ç_ık"
 
-#: src/window.rs:658
+#: src/window.rs:655
 msgid "_Don't Quit"
 msgstr "Çık_ma"
 
-#: src/window.rs:659
+#: src/window.rs:656
 msgid "_Save and Quit"
 msgstr "_Kaydet ve Çık"
 
-#: src/window.rs:702
+#: src/window.rs:699
 msgid "Remove From Recent Files"
 msgstr "Son Kullanılan Dosyalardan Kaldır"
-
-#~ msgid "New Window"
-#~ msgstr "Yeni Pencere"

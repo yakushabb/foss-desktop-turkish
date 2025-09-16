@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: obfuscate master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/obfuscate/issues\n"
-"POT-Creation-Date: 2025-04-19 19:14+0000\n"
-"PO-Revision-Date: 2024-05-09 10:49+0300\n"
+"POT-Creation-Date: 2025-09-10 22:17+0000\n"
+"PO-Revision-Date: 2025-08-28 22:01+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -18,25 +18,27 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/com.belmoussaoui.Obfuscate.desktop.in.in:3
+#: data/com.belmoussaoui.Obfuscate.desktop.in.in:2
 #: data/com.belmoussaoui.Obfuscate.metainfo.xml.in.in:7
-#: data/resources/ui/window.ui:155 src/application.rs:83 src/main.rs:18
+#: data/resources/ui/window.ui:155 src/application.rs:124 src/main.rs:18
 msgid "Obfuscate"
 msgstr "Obfuscate"
 
-#: data/com.belmoussaoui.Obfuscate.desktop.in.in:4
-#: data/com.belmoussaoui.Obfuscate.metainfo.xml.in.in:8 src/application.rs:84
+#: data/com.belmoussaoui.Obfuscate.desktop.in.in:3
+#: data/com.belmoussaoui.Obfuscate.metainfo.xml.in.in:8 src/application.rs:125
 msgid "Censor private information"
 msgstr "Gizli bilgileri sansürle"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/com.belmoussaoui.Obfuscate.desktop.in.in:10
+#: data/com.belmoussaoui.Obfuscate.desktop.in.in:9
 msgid "Censor;Private;Image;Obfuscate;"
-msgstr ""
-"Censor;Private;Image;Obfuscate;Sansür;Özel;Gizli;Mahrem;Görüntü;Resim;"
-"Fotoğraf;Perdele;Ört;Gizle;Karart;Sakla;"
+msgstr "Censor;Private;Image;Obfuscate;Sansür;Özel;Gizli;Mahrem;Görüntü;Resim;Fotoğraf;Perdele;Ört;Gizle;Karart;Sakla;"
+
+#: data/com.belmoussaoui.Obfuscate.desktop.in.in:21
+msgid "New Window"
+msgstr "Yeni Pencere"
 
 #: data/com.belmoussaoui.Obfuscate.gschema.xml.in:6
 msgid "Default window maximized behaviour"
@@ -57,67 +59,67 @@ msgstr "Ana Pencere"
 msgid "Bilal Elmoussaoui"
 msgstr "Bilal Elmoussaoui"
 
-#: data/resources/ui/shortcuts.ui:11
+#: data/resources/ui/shortcuts.ui:6
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Genel"
 
-#: data/resources/ui/shortcuts.ui:14
+#: data/resources/ui/shortcuts.ui:9
 msgctxt "shortcut window"
 msgid "Open a New Window"
 msgstr "Yeni Pencere Aç"
 
-#: data/resources/ui/shortcuts.ui:20
+#: data/resources/ui/shortcuts.ui:15
 msgctxt "shortcut window"
 msgid "Open a File"
 msgstr "Dosya Aç"
 
-#: data/resources/ui/shortcuts.ui:26
+#: data/resources/ui/shortcuts.ui:21
 msgctxt "shortcut window"
 msgid "Load Image from Clipboard"
 msgstr "Görüntüyü Panodan Yükle"
 
-#: data/resources/ui/shortcuts.ui:32
+#: data/resources/ui/shortcuts.ui:27
 msgctxt "shortcut window"
 msgid "Copy Image to Clipboard"
 msgstr "Görüntüyü Panoya Kopyala"
 
-#: data/resources/ui/shortcuts.ui:38
+#: data/resources/ui/shortcuts.ui:33
 msgctxt "shortcut window"
 msgid "Save As"
 msgstr "Farklı Kaydet"
 
-#: data/resources/ui/shortcuts.ui:44
+#: data/resources/ui/shortcuts.ui:39
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Kısayolları Göster"
 
-#: data/resources/ui/shortcuts.ui:50
+#: data/resources/ui/shortcuts.ui:45
 msgctxt "shortcut window"
 msgid "Close the Active Window"
 msgstr "Etkin Pencereyi Kapat"
 
-#: data/resources/ui/shortcuts.ui:58
+#: data/resources/ui/shortcuts.ui:53
 msgctxt "shortcut window"
 msgid "Editor"
 msgstr "Düzenleyici"
 
-#: data/resources/ui/shortcuts.ui:61
+#: data/resources/ui/shortcuts.ui:56
 msgctxt "shortcut window"
 msgid "Undo"
 msgstr "Geri Al"
 
-#: data/resources/ui/shortcuts.ui:67
+#: data/resources/ui/shortcuts.ui:62
 msgctxt "shortcut window"
 msgid "Redo"
 msgstr "Yinele"
 
-#: data/resources/ui/shortcuts.ui:73
+#: data/resources/ui/shortcuts.ui:68
 msgctxt "shortcut window"
 msgid "Zoom In"
 msgstr "Yakınlaştır"
 
-#: data/resources/ui/shortcuts.ui:79
+#: data/resources/ui/shortcuts.ui:74
 msgctxt "shortcut window"
 msgid "Zoom Out"
 msgstr "Uzaklaştır"
@@ -166,7 +168,7 @@ msgstr "Yakınlaştır"
 msgid "Select a File"
 msgstr "Dosya Seç"
 
-#: data/resources/ui/window.ui:119 src/widgets/window.rs:451
+#: data/resources/ui/window.ui:119 src/widgets/window.rs:453
 msgid "Open"
 msgstr "Aç"
 
@@ -194,7 +196,11 @@ msgstr "Doldur"
 msgid "Blur"
 msgstr "Bulanıklaştır"
 
-#: src/application.rs:89
+#: src/application.rs:29
+msgid "Open a new window"
+msgstr "Yeni pencere aç"
+
+#: src/application.rs:130
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
@@ -220,12 +226,12 @@ msgstr "İptal"
 msgid "Discard"
 msgstr "Gözden Çıkar"
 
-#: src/widgets/window.rs:241 src/widgets/window.rs:409
+#: src/widgets/window.rs:241 src/widgets/window.rs:411
 msgid "Save"
 msgstr "Kaydet"
 
 # forum için web sitesi çevirisi kullanıldı.
-#: src/widgets/window.rs:333
+#: src/widgets/window.rs:334
 msgid ""
 "The blur tool is not secure. Please do not use it to share sensitive "
 "information in a public forum"
@@ -233,14 +239,14 @@ msgstr ""
 "Bulanıklaştırma aracı güvenli değildir. Hassas bilgileri kamuya açık web "
 "sitelerinde paylaşmak için kullanmayın"
 
-#: src/widgets/window.rs:408
+#: src/widgets/window.rs:410
 msgid "Save File"
 msgstr "Dosyayı Kaydet"
 
-#: src/widgets/window.rs:429
+#: src/widgets/window.rs:431
 msgid "All Images"
 msgstr "Tüm Resimler"
 
-#: src/widgets/window.rs:452
+#: src/widgets/window.rs:454
 msgid "Open File"
 msgstr "Dosya Aç"

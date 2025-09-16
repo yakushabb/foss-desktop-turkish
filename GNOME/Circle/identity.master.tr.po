@@ -9,34 +9,32 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Identity\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/YaLTeR/identity/issues\n"
-"POT-Creation-Date: 2025-05-11 13:18+0000\n"
-"PO-Revision-Date: 2025-05-11 08:00+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"POT-Creation-Date: 2025-09-13 15:33+0000\n"
+"PO-Revision-Date: 2025-08-28 22:00+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:3
+#: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:2
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:7
 #: data/resources/ui/window.blp:128 src/main.rs:103
 msgid "Identity"
 msgstr "Identity"
 
-#: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:4
+#: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:3
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:8
 msgid "Compare images and videos"
 msgstr "Görüntüleri ve videoları karşılaştır"
 
 #. Translators: search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:10
+#: data/org.gnome.gitlab.YaLTeR.Identity.desktop.in.in:9
 msgid "Movie;Film;Clip;Video;Image;Difference;Frame;Quality;Compare;Check;"
-msgstr ""
-"Movie;Film;Clip;Video;Image;Difference;Frame;Quality;Film;Klip;Fark;Başka;"
-"İmaj;Görsel;Görüntü;Resim;Kare;Çerçeve;Kalite;Nitelik;Denetim;Kontrol;"
+msgstr "Movie;Film;Clip;Video;Image;Difference;Frame;Quality;Film;Klip;Fark;Başka;İmaj;Görsel;Görüntü;Resim;Kare;Çerçeve;Kalite;Nitelik;Denetim;Kontrol;"
 
 #: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:10
 msgid "A program for comparing multiple versions of an image or video."
@@ -121,12 +119,12 @@ msgid "Container"
 msgstr "Taşıyıcı"
 
 #. Translators: Title that is shown upon video or image loading error.
-#: data/resources/ui/page.blp:40
+#: data/resources/ui/page.blp:63
 msgid "File Failed to Load"
 msgstr "Dosya yüklenemedi"
 
 #. Translators: Label shown when a video or image has failed to load.
-#: data/resources/ui/page.blp:43
+#: data/resources/ui/page.blp:66
 msgid ""
 "Could not display the file.\n"
 "\n"
@@ -349,67 +347,77 @@ msgstr "Yakınlaştırma Düzeyi"
 msgid "Select Zoom Level"
 msgstr "Yakınlaştırma Düzeyi Seç"
 
-#: src/page.rs:321
+#. Translators: screen reader label on the Play / Pause button.
+#: data/resources/ui/window.blp:284
+msgid "Play / Pause"
+msgstr "Oynat / Beklet"
+
+#. Translators: screen reader label on the playback position slider.
+#: data/resources/ui/window.blp:306
+msgid "Playback position"
+msgstr "Oynatma konumu"
+
+#: src/page.rs:378
 msgid "{} × {}"
 msgstr "{} × {}"
 
 #. Translators: "Not applicable" string for the media properties dialog when a
 #. given property is unknown or missing (e.g. images don't have frame rate).
-#: src/page.rs:330 src/window.rs:517 src/window.rs:525 src/window.rs:533
+#: src/page.rs:387 src/window.rs:551 src/window.rs:559 src/window.rs:567
 msgid "N/A"
 msgstr "Yok"
 
 #. Translators: shown in the About dialog, put your name here.
-#: src/window.rs:351
+#: src/window.rs:353
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
 #. Translators: link title in the About dialog.
-#: src/window.rs:354
+#: src/window.rs:356
 msgid "Contribute Translations"
 msgstr "Çeviriye Katkı Ver"
 
 #. Translators: name of https://apps.gnome.org/VideoTrimmer
-#: src/window.rs:360
+#: src/window.rs:362
 msgid "Video Trimmer"
 msgstr "Video Kırpıcı"
 
 #. Translators: summary of https://apps.gnome.org/VideoTrimmer
-#: src/window.rs:362
+#: src/window.rs:364
 msgid "Trim videos quickly"
 msgstr "Videoları hızlıca kırp"
 
-#: src/window.rs:369
+#: src/window.rs:371
 msgid "This release has a minor visual refresh for GNOME 48."
 msgstr "Bu dağıtım GNOME 48 için küçük görsel yenileme içeriyor."
 
-#: src/window.rs:370
+#: src/window.rs:372
 msgid "Changed the versioning scheme to year.month."
 msgstr "Sürümlendirme şeması yıl.ay olarak değiştirildi."
 
-#: src/window.rs:371
+#: src/window.rs:373
 msgid "Updated to the GNOME 48 platform."
 msgstr "GNOME 48 platformuna güncellendi."
 
-#: src/window.rs:372
+#: src/window.rs:374
 msgid "Updated translations."
 msgstr "Çeviriler güncellendi."
 
 #. Translators: Entry in the scale/zoom menu that indicates that the image or video is
 #. always resized to fit the window.
-#: src/window.rs:594
+#: src/window.rs:628
 msgid "Best Fit"
 msgstr "En Uygun"
 
 #. Translators: file chooser file filter name.
-#: src/window.rs:1668
+#: src/window.rs:1798
 msgid "Videos and images"
 msgstr "Videolar ve görüntüler"
 
 #. Translators: file chooser dialog title.
-#: src/window.rs:1676
+#: src/window.rs:1806
 msgid "Open videos or images to compare"
 msgstr "Karşılaştırmak için videoları ya da görüntüleri aç"
 

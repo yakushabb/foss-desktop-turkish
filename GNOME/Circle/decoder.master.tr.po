@@ -4,15 +4,15 @@
 #
 # Ümit Solmaz <u2slmz@pm.me>, 2021.
 # Sabri Ünal <yakushabb@gmail.com>, 2022-2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2022-2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2022-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: decoder master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Decoder/-/issues\n"
-"POT-Creation-Date: 2025-04-19 16:05+0000\n"
-"PO-Revision-Date: 2024-10-20 21:03+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-09-13 17:59+0000\n"
+"PO-Revision-Date: 2025-07-13 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -21,19 +21,19 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.4.4\n"
 
-#: data/com.belmoussaoui.Decoder.desktop.in.in:3
+#: data/com.belmoussaoui.Decoder.desktop.in.in:2
 #: data/com.belmoussaoui.Decoder.metainfo.xml.in.in:7
 #: data/resources/ui/history_page.ui:14 data/resources/ui/window.ui:18
 #: data/resources/ui/window.ui:34 src/application.rs:47 src/main.rs:18
 msgid "Decoder"
 msgstr "Decoder"
 
-#: data/com.belmoussaoui.Decoder.desktop.in.in:4
+#: data/com.belmoussaoui.Decoder.desktop.in.in:3
 msgid "Scan and Generate QR Codes"
 msgstr "QR Kod Tara ve Oluştur"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/com.belmoussaoui.Decoder.desktop.in.in:10
+#: data/com.belmoussaoui.Decoder.desktop.in.in:9
 msgid "QR;Scan;Generate;Code;"
 msgstr "QR;Scan;Generate;Code;Kare;Tara;Oluştur;Yarat;Üret;Kod;"
 
@@ -115,27 +115,32 @@ msgstr "Kamera Seç"
 msgid "Capture From a Screenshot"
 msgstr "Ekran Görüntüsünden Yakala"
 
-#: data/resources/ui/help-overlay.ui:11
+#: data/resources/ui/help-overlay.ui:6
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Genel"
 
-#: data/resources/ui/help-overlay.ui:14
+#: data/resources/ui/help-overlay.ui:9
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Kısayolları Göster"
 
-#: data/resources/ui/help-overlay.ui:20
+#: data/resources/ui/help-overlay.ui:15
+msgctxt "shortcut window"
+msgid "Close Window"
+msgstr "Pecereyi Kapat"
+
+#: data/resources/ui/help-overlay.ui:21
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Çık"
 
-#: data/resources/ui/help-overlay.ui:28
+#: data/resources/ui/help-overlay.ui:29
 msgctxt "shortcut window"
 msgid "Codes"
 msgstr "Kodlar"
 
-#: data/resources/ui/help-overlay.ui:31
+#: data/resources/ui/help-overlay.ui:32
 msgctxt "shortcut window"
 msgid "Scan QR Code"
 msgstr "QR Kod Tara"
@@ -243,7 +248,9 @@ msgstr "_Dışa Aktar…"
 msgid "_Delete"
 msgstr "_Sil"
 
+#. TRANSLATORS This goes into a file name
 #: data/resources/ui/qrcode_scanned_page.ui:4 src/widgets/qrcode/widget.rs:70
+#: src/widgets/window.rs:275
 msgid "QR Code"
 msgstr "QR Kod"
 
@@ -303,27 +310,26 @@ msgstr ""
 
 #. NOTE This is in the context of selecting a wifi encryption
 #. algorithm.
-#: src/qrcode_kind.rs:338
+#: src/qrcode_kind.rs:341
 msgid "None"
 msgstr "Bilinmeyen"
 
-#: src/widgets/qrcode/create.rs:118 src/widgets/qrcode/scanned_page.rs:122
+#: src/widgets/qrcode/create.rs:118 src/widgets/qrcode/scanned_page.rs:124
 msgid "Could not generate QR code"
 msgstr "QR kodu oluşturulamadı"
 
-#: src/widgets/qrcode/create.rs:162 src/widgets/qrcode/scanned_page.rs:117
+#: src/widgets/qrcode/create.rs:162 src/widgets/qrcode/scanned_page.rs:119
 msgid "QR Code saved in history"
 msgstr "QR Kodu geçmiye kaydedildi"
 
-#: src/widgets/qrcode/row.rs:134
+#: src/widgets/qrcode/row.rs:136
 msgid "Copied to clipboard"
 msgstr "Panoya kopyalandı"
 
-#: src/widgets/window.rs:262
+#: src/widgets/window.rs:273
 msgid "_Select"
 msgstr "_Seç"
 
-#. TRANSLATORS This a file name, do not translate the file format (.png)
-#: src/widgets/window.rs:264
-msgid "qr-code.png"
-msgstr "qr-code.png"
+#: src/widgets/window.rs:293
+msgid "QR code saved"
+msgstr "QR kodu kaydedildi"

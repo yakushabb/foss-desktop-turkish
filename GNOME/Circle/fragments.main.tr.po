@@ -9,21 +9,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fragments master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Fragments/issues\n"
-"POT-Creation-Date: 2025-04-10 20:03+0000\n"
-"PO-Revision-Date: 2025-02-16 08:00+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"POT-Creation-Date: 2025-09-10 13:34+0000\n"
+"PO-Revision-Date: 2025-08-28 21:59+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.6\n"
 
-#: data/de.haeckerfelix.Fragments.desktop.in.in:13
+#: data/de.haeckerfelix.Fragments.desktop.in.in:12
 msgid "bittorrent;torrent;magnet;download;p2p;"
-msgstr ""
-"bittorrent;torrent;magnet;download;p2p;mıknatıs;demirkapan;indirme;eşteneşe;"
+msgstr "bittorrent;torrent;magnet;download;p2p;mıknatıs;demirkapan;indirme;eşteneşe;"
 
 #. General
 #: data/de.haeckerfelix.Fragments.metainfo.xml.in.in:10
@@ -92,7 +91,7 @@ msgid ""
 "to."
 msgstr "Bağlanılacak uzak Fragments veya Transmission oturumunun adresini gir."
 
-#: data/gtk/add_connection_dialog.ui:60 data/gtk/torrent_row.ui:118
+#: data/gtk/add_connection_dialog.ui:60 data/gtk/torrent_row.ui:119
 msgid "Name"
 msgstr "Ad"
 
@@ -429,12 +428,13 @@ msgstr "Bilgisayar"
 
 #: data/gtk/preferences_dialog.ui:386
 msgid ""
-"You can verify your connection by asking <a href=\"https://transmissionbt."
-"com\">transmissionbt.com</a> to test connecting to your computer as peers "
-"would."
+"You can verify your connection by asking <a href=\"https://"
+"transmissionbt.com\">transmissionbt.com</a> to test connecting to your "
+"computer as peers would."
 msgstr ""
-"Bilgisayarınıza yapılacak bağlantıları <a href=\"https://transmissionbt."
-"com\">transmissionbt.com</a> adresine sorarak sınayıp, doğrulayabilirsiniz."
+"Bilgisayarınıza yapılacak bağlantıları <a href=\"https://"
+"transmissionbt.com\">transmissionbt.com</a> adresine sorarak sınayıp, "
+"doğrulayabilirsiniz."
 
 #: data/gtk/preferences_dialog.ui:398
 msgid "Test"
@@ -566,7 +566,7 @@ msgstr "Toplam"
 msgid "Active"
 msgstr "Etkin"
 
-#: data/gtk/stats_dialog.ui:111 src/utils.rs:124
+#: data/gtk/stats_dialog.ui:111 src/utils.rs:129
 msgid "Paused"
 msgstr "Duraklatıldı"
 
@@ -608,11 +608,11 @@ msgstr "Torrent Ayrıntıları"
 msgid "Overview"
 msgstr "Genel Görünüm"
 
-#: data/gtk/torrent_dialog.ui:87 data/gtk/torrent_row.ui:234
+#: data/gtk/torrent_dialog.ui:87 data/gtk/torrent_row.ui:235
 msgid "Pause"
 msgstr "Duraklat"
 
-#: data/gtk/torrent_dialog.ui:114 data/gtk/torrent_row.ui:251
+#: data/gtk/torrent_dialog.ui:114 data/gtk/torrent_row.ui:252
 msgid "Continue"
 msgstr "Sürdür"
 
@@ -656,7 +656,7 @@ msgstr "Sırada _Aşağı Taşı"
 msgid "_Open"
 msgstr "_Aç"
 
-#: data/gtk/torrent_menu.ui:32 src/actions.rs:385 src/app.rs:530
+#: data/gtk/torrent_menu.ui:32 src/actions.rs:402 src/app.rs:530
 msgid "_Remove"
 msgstr "_Kaldır"
 
@@ -669,14 +669,18 @@ msgid "_Copy Magnet Link"
 msgstr "Mıktanıs Bağlantısı _Kopyala"
 
 #: data/gtk/torrent_menu.ui:42
-msgid "_Ask Tracker for More Peers"
-msgstr "Takipçiye Daha Çok Eş _Sor"
-
-#: data/gtk/torrent_menu.ui:46
 msgid "Set _Location…"
 msgstr "_Konum Belirle…"
 
-#: data/gtk/torrent_menu.ui:53
+#: data/gtk/torrent_menu.ui:46
+msgid "_Verify Local Data"
+msgstr "Yerel Veriyi _Doğrula"
+
+#: data/gtk/torrent_menu.ui:50
+msgid "_Ask Tracker for More Peers"
+msgstr "İzleyiciye Daha Çok Eş _Sor"
+
+#: data/gtk/torrent_menu.ui:57
 msgid "_Properties"
 msgstr "_Özellikler"
 
@@ -699,27 +703,27 @@ msgstr "Gönderilen"
 msgid "Stopped"
 msgstr "Durduruldu"
 
-#: data/gtk/torrent_row.ui:70
+#: data/gtk/torrent_row.ui:71
 msgid "Downloading"
 msgstr "İndirilen"
 
-#: data/gtk/torrent_row.ui:88
+#: data/gtk/torrent_row.ui:89
 msgid "Uploading"
 msgstr "Yüklenen"
 
-#: data/gtk/torrent_row.ui:162
+#: data/gtk/torrent_row.ui:163
 msgid "Torrent progress"
 msgstr "Torrent ilerlemesi"
 
-#: data/gtk/torrent_row.ui:189
+#: data/gtk/torrent_row.ui:190
 msgid "Delete"
 msgstr "Sil"
 
-#: data/gtk/torrent_row.ui:210
+#: data/gtk/torrent_row.ui:211
 msgid "Queue – Move up"
 msgstr "Sıra – Yukarı taşı"
 
-#: data/gtk/torrent_row.ui:218
+#: data/gtk/torrent_row.ui:219
 msgid "Queue – Move down"
 msgstr "Sıra – Aşağı taşı"
 
@@ -783,11 +787,11 @@ msgstr "Mıknatıs bağlantısı panoya kopyalanamadı"
 msgid "Copied magnet link to clipboard"
 msgstr "Mıknatıs bağlantısı panoya kopyalandı"
 
-#: src/actions.rs:377
+#: src/actions.rs:394
 msgid "Remove Torrent?"
 msgstr "Torrent Kaldırılsın Mı?"
 
-#: src/actions.rs:379
+#: src/actions.rs:396
 msgid ""
 "Once removed, continuing the transfer will require the torrent file or "
 "magnet link."
@@ -795,46 +799,46 @@ msgstr ""
 "Kaldırdıktan sonra aktarımı sürdürmek için torrent dosyası veya mıknatıs "
 "bağlantısı gerekecektir."
 
-#: src/actions.rs:383 src/app.rs:528
+#: src/actions.rs:400 src/app.rs:528
 msgid "_Cancel"
 msgstr "İ_ptal"
 
 #. Check button
-#: src/actions.rs:389
+#: src/actions.rs:406
 msgid "Remove downloaded data as well"
 msgstr "İndirilen verileri de kaldır"
 
-#: src/actions.rs:430
+#: src/actions.rs:447
 msgid "Set Torrent Location"
 msgstr "Torrent Konumu Belirle"
 
-#: src/actions.rs:434 src/utils.rs:165
+#: src/actions.rs:451 src/utils.rs:170
 msgid "_Select"
 msgstr "_Seç"
 
-#: src/actions.rs:443
+#: src/actions.rs:460
 msgid "Move Data?"
 msgstr "Veri Taşınsın Mı?"
 
-#: src/actions.rs:444
+#: src/actions.rs:461
 msgid ""
 "In order to continue using the torrent, the data must be available at the "
 "new location."
 msgstr "Torrenti kullanabilmek için veri yeni konumunda bulunmalıdır."
 
-#: src/actions.rs:447
+#: src/actions.rs:464
 msgid "_Only Change Location"
 msgstr "_Yalnızca Konumu Değiştir"
 
-#: src/actions.rs:448
+#: src/actions.rs:465
 msgid "_Move Data to New Location"
 msgstr "Veriyi Yeni Konuma _Taşı"
 
-#: src/actions.rs:523
+#: src/actions.rs:540
 msgid "Unable to open file / folder"
 msgstr "Dosya/klasör açılamadı"
 
-#: src/actions.rs:530
+#: src/actions.rs:547
 msgid "Could not open file"
 msgstr "Dosya açılamadı"
 
@@ -875,7 +879,7 @@ msgstr ""
 msgid "Local Fragments session"
 msgstr "Yerel Fragments oturumu"
 
-#: src/backend/connection_manager.rs:233 src/backend/connection_manager.rs:426
+#: src/backend/connection_manager.rs:233 src/backend/connection_manager.rs:423
 msgid "Unable to stop transmission-daemon"
 msgstr "transmission-daemon durdurulamadı"
 
@@ -917,11 +921,11 @@ msgstr "{} ile bağlantı koptu."
 msgid "Credentials could not be saved"
 msgstr "Kimlik bilgileri kaydedilemedi"
 
-#: src/ui/connection_box.rs:331
+#: src/ui/connection_box.rs:332
 msgid "No connection found with UUID \"{}\""
 msgstr "UUID \"{}\" ile bağlantı bulunamadı"
 
-#: src/ui/connection_box.rs:376
+#: src/ui/connection_box.rs:377
 msgid "Failed to establish a connection with the Transmission service (“{}”)."
 msgstr "Transmission hizmetiyle (“{}”) bağlantı kurulamadı."
 
@@ -955,7 +959,7 @@ msgstr "Sınanıyor…"
 msgid "Port is open. You can communicate with other peers."
 msgstr "Bağlantı noktası açık. Diğer eşlerle iletişebilirsiniz."
 
-#: src/ui/preferences_dialog.rs:370
+#: src/ui/preferences_dialog.rs:371
 msgid ""
 "Port is closed. Communication with other peers is limited.\n"
 "Check your router or firewall if port forwarding is enabled for your "
@@ -965,11 +969,11 @@ msgstr ""
 "Bilgisayarınız için bağlantı noktası yönlendirmenin etkin olup olmadığını "
 "yönlendiricinizde veya güvenlik duvarında gözden geçirin. "
 
-#: src/ui/preferences_dialog.rs:375
+#: src/ui/preferences_dialog.rs:377
 msgid "Test failed. Make sure you are connected to the internet."
 msgstr "Sınama başarısız. İnternete bağlı olduğunuza emin olun."
 
-#: src/ui/preferences_dialog.rs:406 src/ui/stats_dialog.rs:306
+#: src/ui/preferences_dialog.rs:408 src/ui/stats_dialog.rs:306
 msgid "You are connected with “{}”"
 msgstr "“{}” ile bağlandınız"
 
@@ -992,7 +996,7 @@ msgstr[0] "{} ({} etkin)"
 #. uploading speed
 #. Displayed under the torrent name in the main window when torrent
 #. download is finished
-#: src/ui/torrent_row.rs:255
+#: src/ui/torrent_row.rs:274
 msgid "{} uploaded · {}"
 msgstr "{} gönderildi · {}"
 
@@ -1000,7 +1004,7 @@ msgstr "{} gönderildi · {}"
 #. total torrent size
 #. Displayed under the torrent name in the main window when torrent
 #. is stopped
-#: src/ui/torrent_row.rs:263
+#: src/ui/torrent_row.rs:282
 msgid "{} of {}"
 msgstr "{} / {}"
 
@@ -1008,7 +1012,7 @@ msgstr "{} / {}"
 #. total torrent size, third {} is the download speed
 #. Displayed under the torrent name in the main window when torrent
 #. is downloading
-#: src/ui/torrent_row.rs:269
+#: src/ui/torrent_row.rs:288
 msgid "{} of {} · {}"
 msgstr "{} / {} · {}"
 
@@ -1044,47 +1048,52 @@ msgstr "“{}” konumundan torrent eklensin mi?"
 msgid "Add “{}” from clipboard?"
 msgstr "Panodan “{}” eklensin mi?"
 
-#: src/utils.rs:96
+#: src/utils.rs:85
+msgid "{}/s"
+msgid_plural "{}/s"
+msgstr[0] "{}/sn"
+
+#: src/utils.rs:101
 msgid "more than a day"
 msgstr "bir günden çok"
 
-#: src/utils.rs:104
+#: src/utils.rs:109
 msgid "{} day"
 msgid_plural "{} days"
 msgstr[0] "{} gün"
 
-#: src/utils.rs:105
+#: src/utils.rs:110
 msgid "{} hour"
 msgid_plural "{} hours"
 msgstr[0] "{} saat"
 
-#: src/utils.rs:106
+#: src/utils.rs:111
 msgid "{} minute"
 msgid_plural "{} minutes"
 msgstr[0] "{} dakika"
 
-#: src/utils.rs:107
+#: src/utils.rs:112
 msgid "{} second"
 msgid_plural "{} seconds"
 msgstr[0] "{} saniye"
 
 #. i18n: "Queued" is the current status of a torrent
-#: src/utils.rs:130 src/utils.rs:133 src/utils.rs:136
+#: src/utils.rs:135 src/utils.rs:138 src/utils.rs:141
 msgid "Queued"
 msgstr "Sırada"
 
-#: src/utils.rs:131
+#: src/utils.rs:136
 msgid "Checking…"
 msgstr "Denetleniyor…"
 
-#: src/utils.rs:134
+#: src/utils.rs:139
 msgid "Seeding…"
 msgstr "Gönderiliyor…"
 
-#: src/utils.rs:158
+#: src/utils.rs:163
 msgid "Select Download Directory"
 msgstr "İndirme Dizini Seç"
 
-#: src/utils.rs:159
+#: src/utils.rs:164
 msgid "Select Incomplete Directory"
 msgstr "Tamamlanmamış Dizini Seç"

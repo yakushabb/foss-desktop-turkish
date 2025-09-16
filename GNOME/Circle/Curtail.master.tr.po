@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: curtail\n"
 "Report-Msgid-Bugs-To: https://github.com/Huluti/Curtail/issues\n"
-"POT-Creation-Date: 2025-04-22 15:24+0000\n"
+"POT-Creation-Date: 2025-09-16 15:26+0000\n"
 "PO-Revision-Date: 2025-03-23 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -24,13 +24,13 @@ msgstr ""
 "X-Project-Style: gnome\n"
 
 #: data/com.github.huluti.Curtail.appdata.xml.in:7
-#: data/com.github.huluti.Curtail.desktop.in:3 data/ui/window.ui:4
+#: data/com.github.huluti.Curtail.desktop.in:2 data/ui/window.ui:4
 #: data/ui/window.ui:33
 msgid "Curtail"
 msgstr "Curtail"
 
 #: data/com.github.huluti.Curtail.appdata.xml.in:8
-#: data/com.github.huluti.Curtail.desktop.in:5
+#: data/com.github.huluti.Curtail.desktop.in:4
 msgid "Compress your images"
 msgstr "Görüntülerinizi sıkıştırın"
 
@@ -422,16 +422,6 @@ msgstr "Görüntü Aç"
 msgid "Show in Folder"
 msgstr "Klasörde Göster"
 
-#: src/window.py:257
-#, python-brace-format
-msgid "Safe mode with “{suffix_prefix}” suffix"
-msgstr "“{suffix_prefix}” son ekiyle güvenli kip"
-
-#: src/window.py:260
-#, python-brace-format
-msgid "Safe mode with “{suffix_prefix}” prefix"
-msgstr "“{suffix_prefix}” ön ekiyle güvenli kip"
-
 #: src/window.py:263
 msgid "Overwrite mode"
 msgstr "Üzerine yazma kipi"
@@ -476,16 +466,24 @@ msgstr "Dosya bulunamadı"
 msgid "This file doesn't exist."
 msgstr "Böyle bir dosya yok."
 
-#: src/window.py:418
+#: src/window.py:419
 msgid "Format of this file is not supported."
 msgstr "Bu dosyanın biçimi desteklenmiyor."
 
-#: src/window.py:474
+#: src/window.py:477
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Muhammet Emin Akalan <05akalan57@gmail.com>"
 
-#: src/window.py:478
+#: src/window.py:481
 msgid "Contributors"
 msgstr "Katkıda Bulunanlar"
+
+#, python-brace-format
+#~ msgid "Safe mode with “{suffix_prefix}” suffix"
+#~ msgstr "“{suffix_prefix}” son ekiyle güvenli kip"
+
+#, python-brace-format
+#~ msgid "Safe mode with “{suffix_prefix}” prefix"
+#~ msgstr "“{suffix_prefix}” ön ekiyle güvenli kip"
