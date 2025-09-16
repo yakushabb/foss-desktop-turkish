@@ -7,16 +7,16 @@
 # Fatih Demir <kabalak@gtranslator.org>, 2001.
 # Alper Ersoy <aersoy@tfz.net>, 2001.
 # Muhammet Kara <muhammetk@gmail.com>, 2014.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2019, 2022, 2024, 2025.
 # Sabri Ünal <yakushabb@gmail.com>, 2019, 2020, 2022, 2024, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2019, 2022, 2024, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP script-fu master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2025-03-10 15:17+0000\n"
-"PO-Revision-Date: 2025-02-03 19:17+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-09-15 07:58+0000\n"
+"PO-Revision-Date: 2025-04-12 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -221,7 +221,7 @@ msgstr "Script-Fu Dizin Seçimi"
 msgid "Error while executing %s:"
 msgstr "%s yürütülürken hata:"
 
-#: plug-ins/script-fu/libscriptfu/script-fu-scripts.c:417
+#: plug-ins/script-fu/libscriptfu/script-fu-scripts.c:541
 #, c-format
 msgid "Error while loading %s:"
 msgstr "%s yüklenirken hata:"
@@ -565,13 +565,37 @@ msgstr "Yalnızca koyulaştır"
 msgid "Gradient to color stains"
 msgstr "Renk lekelerine renk geçişi"
 
-#: plug-ins/script-fu/scripts/difference-clouds.scm:76
+#: plug-ins/script-fu/scripts/difference-clouds.scm:82
 msgid "_Difference Clouds"
-msgstr "_Farklı Bulutlar"
+msgstr "_Başka Bulutlar"
 
-#: plug-ins/script-fu/scripts/difference-clouds.scm:77
+#: plug-ins/script-fu/scripts/difference-clouds.scm:83
 msgid "Solid noise applied with Difference layer mode"
 msgstr "Değişik katman kipiyle uygulanmış yoğun gürültü"
+
+#: plug-ins/script-fu/scripts/difference-clouds.scm:89
+msgid "Random Seed"
+msgstr "Rastgele Tohum"
+
+#: plug-ins/script-fu/scripts/difference-clouds.scm:90
+msgid "Levels"
+msgstr "Düzeyler"
+
+#: plug-ins/script-fu/scripts/difference-clouds.scm:91
+msgid "Tileable"
+msgstr "Döşenebilir"
+
+#: plug-ins/script-fu/scripts/difference-clouds.scm:92
+msgid "Turbulent"
+msgstr "Çalkantı"
+
+#: plug-ins/script-fu/scripts/difference-clouds.scm:93
+msgid "X"
+msgstr "X"
+
+#: plug-ins/script-fu/scripts/difference-clouds.scm:94
+msgid "Y"
+msgstr "Y"
 
 #: plug-ins/script-fu/scripts/distress-selection.scm:112
 msgid "_Distort..."
@@ -1110,8 +1134,8 @@ msgstr "J_ava eşlemi..."
 #: plug-ins/script-fu/scripts/palette-export.scm:426
 msgid "Export the active palette as a java.util.Hashtable&lt;String,Color&gt;"
 msgstr ""
-"Etkin paleti bir Java hashtable olarak dışa aktar java.util.Hashtable&lt;"
-"String,Color&gt;"
+"Etkin paleti bir Java hashtable olarak dışa aktar "
+"java.util.Hashtable&lt;String,Color&gt;"
 
 #: plug-ins/script-fu/scripts/paste-as-brush.scm:59
 #: plug-ins/script-fu/scripts/paste-as-pattern.scm:45
