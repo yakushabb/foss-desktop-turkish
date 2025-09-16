@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Loupe main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/loupe/-/issues\n"
-"POT-Creation-Date: 2025-03-09 20:51+0000\n"
+"POT-Creation-Date: 2025-09-12 11:30+0000\n"
 "PO-Revision-Date: 2025-03-07 12:19+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -20,31 +20,32 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.5\n"
 
-#: data/org.gnome.Loupe.desktop.in.in:3
-#: data/org.gnome.Loupe.metainfo.xml.in.in:6 src/about.rs:31
-#: src/widgets/image_window.rs:866
+#: data/org.gnome.Loupe.desktop.in.in:2
+#: data/org.gnome.Loupe.metainfo.xml.in.in:6 src/about.rs:32
+#: src/widgets/image_window.rs:867
 msgid "Image Viewer"
 msgstr "Resim Görüntüleyici"
+
+#: data/org.gnome.Loupe.desktop.in.in:3
+#: data/org.gnome.Loupe.metainfo.xml.in.in:13
+msgid "View images"
+msgstr "Resimleri göster"
 
 # https://gitlab.gnome.org/GNOME/glib/-/issues/443 hatası sebebiyle uygulama adı dahil ingilizce hallerini de koruyalım.
 #: data/org.gnome.Loupe.desktop.in.in:11
 msgid "Picture;Graphics;Loupe;"
 msgstr ""
-"Image Viewer;Picture;Graphics;Loupe;Resim;Fotoğraf;Grafikler;Görseller;"
-"Görüntüleyici;"
+"Image "
+"Viewer;Picture;Graphics;Loupe;Resim;Fotoğraf;Grafikler;Görseller;Görüntüleyici;"
 
 #: data/org.gnome.Loupe.gschema.xml.in:6
 msgid "Show the image properties sidebar"
 msgstr "Resim özellikleri kenar çubuğunu göster"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.Loupe.metainfo.xml.in.in:8 src/about.rs:34
+#: data/org.gnome.Loupe.metainfo.xml.in.in:8 src/about.rs:35
 msgid "The GNOME Project"
 msgstr "GNOME Projesi"
-
-#: data/org.gnome.Loupe.metainfo.xml.in.in:13
-msgid "View images"
-msgstr "Resimleri göster"
 
 #: data/org.gnome.Loupe.metainfo.xml.in.in:15
 msgid "Browse through your images and inspect their metadata with:"
@@ -297,13 +298,13 @@ msgid "Apply Crop"
 msgstr "Kırpmayı Uygula"
 
 #. Translators: Replace "translator-credits" with your names, one name per line
-#: src/about.rs:43
+#: src/about.rs:45
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
 "Emin Tufan Çetin <etcetin@gmail.com>"
 
-#: src/about.rs:44
+#: src/about.rs:46
 msgid "Copyright © 2020–2024 Christopher Davis et al."
 msgstr "Telif Hakkı © 2020–2024 Christopher Davis ve ark."
 
@@ -312,41 +313,41 @@ msgid "Could not list other files in directory."
 msgstr "Dizindeki diğer dosyalar listelenemedi."
 
 #. Translators: Display of the f-number <https://en.wikipedia.org/wiki/F-number>. {} will be replaced with the number
-#: src/metadata.rs:253
+#: src/metadata.rs:263
 msgid "\\u{192}\\u{2215}{}"
 msgstr "\\u{192}\\u{2215}{}"
 
 #. Translators: Fractional exposure time (photography) in seconds
-#: src/metadata.rs:266
+#: src/metadata.rs:276
 msgid "1\\u{2215}{}\\u{202F}s"
 msgstr "1\\u{2215}{}\\u{202F}sn"
 
 #. Translators: Exposure time (photography) in seconds
-#: src/metadata.rs:274
+#: src/metadata.rs:284
 msgid "{}\\u{202F}s"
 msgstr "{}\\u{202F}sn"
 
-#: src/metadata.rs:288
+#: src/metadata.rs:298
 msgid "{}\\u{202F}mm"
 msgstr "{}\\u{202F}mm"
 
 #. Translators: short for "north" in GPS coordinate
-#: src/metadata.rs:328
+#: src/metadata.rs:338
 msgid "N"
 msgstr "K"
 
 #. Translators: short for "south" in GPS coordinate
-#: src/metadata.rs:332
+#: src/metadata.rs:342
 msgid "S"
 msgstr "G"
 
 #. Translators: short for "east" in GPS coordinate
-#: src/metadata.rs:341
+#: src/metadata.rs:351
 msgid "E"
 msgstr "D"
 
 #. Translators: short for "west" in GPS coordinate
-#: src/metadata.rs:345
+#: src/metadata.rs:355
 msgid "W"
 msgstr "B"
 
@@ -359,7 +360,7 @@ msgstr "B"
 msgid "%x %X"
 msgstr "%x %X"
 
-#: src/util.rs:182 src/widgets/image_window.rs:638
+#: src/util.rs:182 src/widgets/image_window.rs:639
 msgid "Failed to restore image from trash"
 msgstr "Resim çöpten geri yüklenemedi"
 
@@ -367,7 +368,7 @@ msgstr "Resim çöpten geri yüklenemedi"
 msgid "Drop Image to View"
 msgstr "Görüntülenecek Resmi Bırak"
 
-#: src/widgets/edit/crop.rs:360
+#: src/widgets/edit/crop.rs:364
 msgid "Failed to Edit Image"
 msgstr "Resim Düzenlenemedi"
 
@@ -491,15 +492,15 @@ msgstr "Resim kaydedilemedi."
 msgid "Editing Image"
 msgstr "Resim Düzenleniyor"
 
-#: src/widgets/edit_window.rs:360
+#: src/widgets/edit_window.rs:363
 msgid "Failed to edit image."
 msgstr "Resim düzenlenemedi."
 
-#: src/widgets/edit_window.rs:370 src/widgets/edit_window.rs:393
+#: src/widgets/edit_window.rs:373 src/widgets/edit_window.rs:396
 msgid "Failed to Save Image"
 msgstr "Resim Kaydedilemedi"
 
-#: src/widgets/edit_window.rs:376
+#: src/widgets/edit_window.rs:379
 msgid "Saving Image"
 msgstr "Resim Kaydediliyor"
 
@@ -527,7 +528,7 @@ msgstr "Özgünü _Değiştir"
 msgid "Original image will be moved to the trash"
 msgstr "Özgün resim çöpe taşınacak"
 
-#: src/widgets/error_details.rs:79
+#: src/widgets/error_details.rs:80
 msgid ""
 "The following error occurred. If you think this is an issue with the "
 "program, please include this information when you report the error."
@@ -671,51 +672,51 @@ msgstr "Özel Yakınlaştırma Düzeyi"
 msgid "Zoom to Specified Level"
 msgstr "Belirli Düzeye Yaklaş"
 
-#: src/widgets/image_window.rs:502
+#: src/widgets/image_window.rs:503
 msgid "Supported image formats"
 msgstr "Desteklenen resim biçimleri"
 
-#: src/widgets/image_window.rs:508
+#: src/widgets/image_window.rs:509
 msgid "All files"
 msgstr "Tüm dosyalar"
 
-#: src/widgets/image_window.rs:515
+#: src/widgets/image_window.rs:516
 msgid "Open Image"
 msgstr "Resim Aç"
 
-#: src/widgets/image_window.rs:601
+#: src/widgets/image_window.rs:602
 msgid "Image copied to clipboard"
 msgstr "Resim panoya kopyalandı"
 
-#: src/widgets/image_window.rs:622
+#: src/widgets/image_window.rs:623
 msgid "Image moved to trash"
 msgstr "Resim çöpe taşındı"
 
-#: src/widgets/image_window.rs:623
+#: src/widgets/image_window.rs:624
 msgid "Undo"
 msgstr "Geri Al"
 
-#: src/widgets/image_window.rs:653
+#: src/widgets/image_window.rs:654
 msgid "Failed to move image to trash"
 msgstr "Resim çöpe taşınamadı"
 
-#: src/widgets/image_window.rs:677
+#: src/widgets/image_window.rs:678
 msgid "Permanently Delete Image?"
 msgstr "Resim Kalıcı Olarak Silinsin Mi?"
 
-#: src/widgets/image_window.rs:679
+#: src/widgets/image_window.rs:680
 msgid "After deleting the image “{}” it will be permanently lost."
 msgstr "“{}” resmi silindikten sonra kalıcı olarak yitirilecek."
 
-#: src/widgets/image_window.rs:687
+#: src/widgets/image_window.rs:688
 msgid "Cancel"
 msgstr "İptal"
 
-#: src/widgets/image_window.rs:688
+#: src/widgets/image_window.rs:689
 msgid "Delete"
 msgstr "Sil"
 
-#: src/widgets/image_window.rs:699
+#: src/widgets/image_window.rs:700
 msgid "Failed to delete image"
 msgstr "Resim silinemedi"
 

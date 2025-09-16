@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GDM\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues/\n"
-"POT-Creation-Date: 2025-03-10 14:29+0000\n"
+"POT-Creation-Date: 2025-09-15 21:29+0000\n"
 "PO-Revision-Date: 2025-02-02 00:10+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -62,19 +62,21 @@ msgstr "XDMCP: Geçersiz XDMCP sürümü!"
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Adres ayrıştırılamadı"
 
-#: common/gdm-common.c:307
+#: common/gdm-common.c:343
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom bir karakter aygıtı değil"
 
-#: common/gdm-common.c:346
+#: common/gdm-common.c:382
 msgid "Unable to create transient display: "
 msgstr "Geçici ekran oluşturulamadı: "
 
-#: common/gdm-common.c:543
+#: common/gdm-common.c:579
 msgid "Could not identify the current session: "
 msgstr "Geçerli oturum saptanamadı: "
 
-#: common/gdm-common.c:552
+#: common/gdm-common.c:588
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Geçerli oturak saptanamadı."
 
@@ -95,27 +97,27 @@ msgstr ""
 "sırada bu ekran devre dışı kalacaktır.  Sorun çözüldüğünde lütfen GDM’yi "
 "yeniden başlatın."
 
-#: daemon/gdm-manager.c:762
+#: daemon/gdm-manager.c:765
 msgid "No display available"
 msgstr "Kullanılabilir ekran yok"
 
-#: daemon/gdm-manager.c:860 daemon/gdm-manager.c:1188
+#: daemon/gdm-manager.c:863 daemon/gdm-manager.c:1192
 msgid "No session available"
 msgstr "Kullanılabilir oturum yok"
 
-#: daemon/gdm-manager.c:879
+#: daemon/gdm-manager.c:882
 msgid "Chooser session unavailable"
 msgstr "Seçici oturumu kullanılabilir değil"
 
-#: daemon/gdm-manager.c:895
+#: daemon/gdm-manager.c:898
 msgid "Can only be called before user is logged in"
 msgstr "Yalnızca kullanıcı oturum açmadan önce çağrılabilir"
 
-#: daemon/gdm-manager.c:906
+#: daemon/gdm-manager.c:910
 msgid "Caller not GDM"
 msgstr "Çağıran GDM değil"
 
-#: daemon/gdm-manager.c:916
+#: daemon/gdm-manager.c:920
 msgid "Unable to open private communication channel"
 msgstr "Özel iletişim kanalı açılamadı"
 
@@ -124,12 +126,12 @@ msgstr "Özel iletişim kanalı açılamadı"
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Sunucu, %s kullanıcısınca oluşturulacaktı ama bu kullanıcı yok"
 
-#: daemon/gdm-server.c:398 daemon/gdm-server.c:418 utils/gdm-config.c:505
+#: daemon/gdm-server.c:398 daemon/gdm-server.c:418
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "groupid, %d olarak ayarlanamadı"
 
-#: daemon/gdm-server.c:404 utils/gdm-config.c:511
+#: daemon/gdm-server.c:404
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s için initgroups () başarısız oldu"
@@ -256,6 +258,7 @@ msgid "Username:"
 msgstr "Kullanıcı adı:"
 
 #: daemon/gdm-session-worker.c:1675 daemon/gdm-session-worker.c:1692
+#, c-format
 msgid "no user account available"
 msgstr "hiçbir kullanıcı hesabı yok"
 
@@ -283,57 +286,47 @@ msgstr "TCP yuvası üzerinden dinle"
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "GNOME Görüntü Yöneticisi X Oturumu Başlatıcı"
 
-#: daemon/main.c:125 daemon/main.c:138
+#: daemon/main.c:126 daemon/main.c:139
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "PID dosyası %s yazılamıyor: büyük olasılıkla disk dolu: %s"
 
-#: daemon/main.c:182
-#, c-format
-msgid "Failed to create ran once marker dir %s: %s"
-msgstr "Bir kerelik çalışma belirleyicisi dizin %s oluşturulamadı: %s"
-
-#: daemon/main.c:188
-#, c-format
-msgid "Failed to create LogDir %s: %s"
-msgstr "LogDir %s oluşturulamadı: %s"
-
-#: daemon/main.c:223
+#: daemon/main.c:197
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
 msgstr "GDM kullanıcısı “%s” bulunamadı. İptal ediliyor!"
 
-#: daemon/main.c:229
+#: daemon/main.c:203
 msgid "The GDM user should not be root. Aborting!"
 msgstr "GDM kullanıcısı ‘root’ olmamalı. İptal ediliyor!"
 
-#: daemon/main.c:235
+#: daemon/main.c:209
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
 msgstr "GDM kümesi “%s” bulunamadı. İptal ediliyor!"
 
-#: daemon/main.c:241
+#: daemon/main.c:215
 msgid "The GDM group should not be root. Aborting!"
 msgstr "GDM kümesi ‘root’ olmamalı. İptal ediliyor!"
 
-#: daemon/main.c:309
+#: daemon/main.c:283
 msgid "Make all warnings fatal"
 msgstr "Tüm uyarıları ölümcül yap"
 
-#: daemon/main.c:310
+#: daemon/main.c:284
 msgid "Exit after a time (for debugging)"
 msgstr "Bir süre sonra çık (hata ayıklama için)"
 
-#: daemon/main.c:311
+#: daemon/main.c:285
 msgid "Print GDM version"
 msgstr "GDM sürümünü yazdır"
 
-#: daemon/main.c:322
+#: daemon/main.c:296
 msgid "GNOME Display Manager"
 msgstr "GNOME Görüntü Yöneticisi"
 
 #. make sure the pid file doesn't get wiped
-#: daemon/main.c:342
+#: daemon/main.c:316
 msgid "Only the root user can run GDM"
 msgstr "Yalnızca yetkili kullanıcı GDM’yi çalıştırabilir"
 
@@ -572,36 +565,27 @@ msgstr "“%s” aynı anda etkinleştirilip devre dışı bırakılamaz"
 msgid "“%s” is not a valid %s “%s” value"
 msgstr "“%s”, geçerli bir %s “%s” değeri değil"
 
-#: utils/gdm-config.c:496
+#: utils/gdm-config.c:633
 #, c-format
-msgid "Failed to switch to %s user"
-msgstr "%s kullanıcısına geçilemedi"
-
-#: utils/gdm-config.c:517
-#, c-format
-msgid "Couldn’t set userid to %u"
-msgstr "userid, %u olarak ayarlanamadı"
-
-#: utils/gdm-config.c:680
 msgid "No distro detected, no hook to run"
 msgstr "Dağıtım algılanmadı, çalıştırılacak kanca yok"
 
-#: utils/gdm-config.c:698
+#: utils/gdm-config.c:651
 #, c-format
 msgid "No valid args found to run hook “%s”"
 msgstr "“%s” kancasını çalıştırmak için geçerli argüman bulunamadı"
 
-#: utils/gdm-config.c:703
+#: utils/gdm-config.c:656
 #, c-format
 msgid "Running distro hook “%s”\n"
 msgstr "“%s” dağıtım kancası çalıştırılıyor\n"
 
-#: utils/gdm-config.c:717
+#: utils/gdm-config.c:670
 #, c-format
 msgid "Distro hook “%s” requested stopping"
 msgstr "“%s” dağıtım kancası durdurma istedi"
 
-#: utils/gdm-config.c:730
+#: utils/gdm-config.c:683
 #, c-format
 msgid ""
 "Distro hook failed with exit status %d and error %s:\n"
@@ -617,50 +601,52 @@ msgstr ""
 "%s"
 
 #. TRANSLATORS: Failed to set command “command” option key “option-key” via distro hook
-#: utils/gdm-config.c:780
+#: utils/gdm-config.c:733
 #, c-format
 msgid "Failed to set command “%s” option key “%s” via distro hook: "
 msgstr "Komut “%s”, seçenek anahtarı “%s” dağıtım kancasıyla ayarlanamadı: "
 
-#: utils/gdm-config.c:820
+#: utils/gdm-config.c:773
 #, c-format
 msgid "Failed to create directory %s"
 msgstr "%s dizini oluşturulamadı"
 
-#: utils/gdm-config.c:891
+#: utils/gdm-config.c:844
+#, c-format
 msgid "dconf profile not found"
 msgstr "dconf profili bulunamadı"
 
-#: utils/gdm-config.c:981
+#: utils/gdm-config.c:934
+#, c-format
 msgid "dconf has no system-db configured"
 msgstr "dconf’ta yapılandırılmış system-db yok"
 
 #. TRANSLATORS: First value is a file path, second is an error message
-#: utils/gdm-config.c:1130
+#: utils/gdm-config.c:1083
 #, c-format
 msgid "Failed to get the “%s” header comment: %s, was it modified?"
 msgstr "“%s” başlık yorumu alınamadı: %s, değiştirildi mi?"
 
-#: utils/gdm-config.c:1133
+#: utils/gdm-config.c:1086
 #, c-format
 msgid "File “%s” header comment does not match, was it modified?"
 msgstr "Dosya “%s” başlık yorumu eşleşmiyor, değiştirildi mi?"
 
 #. XXX: Fail with an error instead?
-#: utils/gdm-config.c:1261
+#: utils/gdm-config.c:1214
 #, c-format
 msgid "No expected header found on lock file “%s”, was it modified?"
 msgstr "“%s” kilit dosyasında beklenen başlık bulunamadı, değiştirildi mi?"
 
-#: utils/gdm-config.c:1546
+#: utils/gdm-config.c:1499
 msgid "Failed to run a required distro hook: "
 msgstr "Gerekli dağıtım kancası çalıştırılamadı: "
 
-#: utils/gdm-config.c:1562 utils/gdmflexiserver.c:45
+#: utils/gdm-config.c:1515 utils/gdmflexiserver.c:45
 msgid "COMMAND"
 msgstr "KOMUT"
 
-#: utils/gdm-config.c:1566
+#: utils/gdm-config.c:1519
 #, c-format
 msgid ""
 "Commands:\n"
@@ -683,46 +669,46 @@ msgstr ""
 "\n"
 "Komutlarla ilgili yardım almak için “%s KOMUT --help” kullanın.\n"
 
-#: utils/gdm-config.c:1628
+#: utils/gdm-config.c:1581
 msgid "Command options"
 msgstr "Komut seçenekleri"
 
 #. TRANSLATORS: You need to be root to use PROGRAM-NAME “command” command
-#: utils/gdm-config.c:1663
+#: utils/gdm-config.c:1616
 #, c-format
 msgid "You need to be root to use %s “%s” command"
 msgstr "%s “%s” komutunu kullanmak için kök olmalısınız"
 
-#: utils/gdm-config.c:1713
+#: utils/gdm-config.c:1666
 #, c-format
 msgid "Failed to set %s setting: "
 msgstr "%s ayarı belirlenemedi: "
 
-#: utils/gdm-config.c:1805
+#: utils/gdm-config.c:1758
 msgid "Failed to set smartcard setting"
 msgstr "Akıllı kart ayarı belirlenemedi"
 
-#: utils/gdm-config.c:1811
+#: utils/gdm-config.c:1764
 msgid "Failed to set password setting"
 msgstr "Parola ayarı belirlenemedi"
 
-#: utils/gdm-config.c:1825
+#: utils/gdm-config.c:1778
 msgid "Enabled"
 msgstr "Etkinleştirildi"
 
-#: utils/gdm-config.c:1825
+#: utils/gdm-config.c:1778
 msgid "Disabled"
 msgstr "Devre dışı bırakıldı"
 
-#: utils/gdm-config.c:1834
+#: utils/gdm-config.c:1787
 msgid "Not supported"
 msgstr "Desteklenmiyor"
 
-#: utils/gdm-config.c:1850
+#: utils/gdm-config.c:1803
 msgid "Required"
 msgstr "Gerekli"
 
-#: utils/gdm-config.c:1911
+#: utils/gdm-config.c:1855
 #, c-format
 msgid ""
 "GDM Authorization configuration\n"
@@ -739,36 +725,37 @@ msgstr ""
 "  Akıllı Kart kimlik doğrulaması: %s\n"
 "  Akıllı Kart silme işlemi: %s\n"
 
-#: utils/gdm-config.c:1939
+#: utils/gdm-config.c:1883
 msgctxt "Interactive question"
 msgid "Y"
 msgstr "E"
 
-#: utils/gdm-config.c:1940
+#: utils/gdm-config.c:1884
 msgctxt "Interactive question"
 msgid "y"
 msgstr "e"
 
-#: utils/gdm-config.c:1941
+#: utils/gdm-config.c:1885
 msgctxt "Interactive question"
 msgid "N"
 msgstr "H"
 
-#: utils/gdm-config.c:1942
+#: utils/gdm-config.c:1886
 msgctxt "Interactive question"
 msgid "n"
 msgstr "h"
 
-#: utils/gdm-config.c:1946
+#: utils/gdm-config.c:1890
 msgctxt "Interactive question"
 msgid "Do you want to continue? [Y/n]? "
 msgstr "Sürdürmek istiyor musunuz? [E/h]? "
 
-#: utils/gdm-config.c:1964
+#: utils/gdm-config.c:1908
+#, c-format
 msgid "User cancelled the request"
 msgstr "Kullanıcı isteği iptal etti"
 
-#: utils/gdm-config.c:1995
+#: utils/gdm-config.c:1939
 #, c-format
 msgid "Failed to reset %s setting: "
 msgstr "%s ayarı sıfırlanamadı: "
@@ -794,3 +781,19 @@ msgstr "Bu uygulamanın sürümü"
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
 msgstr "— Yeni GDM girişi"
+
+#, c-format
+#~ msgid "Failed to create ran once marker dir %s: %s"
+#~ msgstr "Bir kerelik çalışma belirleyicisi dizin %s oluşturulamadı: %s"
+
+#, c-format
+#~ msgid "Failed to create LogDir %s: %s"
+#~ msgstr "LogDir %s oluşturulamadı: %s"
+
+#, c-format
+#~ msgid "Failed to switch to %s user"
+#~ msgstr "%s kullanıcısına geçilemedi"
+
+#, c-format
+#~ msgid "Couldn’t set userid to %u"
+#~ msgstr "userid, %u olarak ayarlanamadı"
