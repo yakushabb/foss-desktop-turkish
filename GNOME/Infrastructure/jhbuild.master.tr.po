@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jhbuild master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/jhbuild/issues/\n"
-"POT-Creation-Date: 2024-03-11 14:31+0000\n"
+"POT-Creation-Date: 2025-09-10 20:56+0000\n"
 "PO-Revision-Date: 2024-03-11 08:08+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -73,17 +73,6 @@ msgstr ""
 "UYARI: pkg-config kullanılamıyor (genellikle 'pkgconfig' paketinin "
 "parçasıdır)"
 
-#: jhbuild/commands/base.py:32
-msgid "Update all modules from version control"
-msgstr "Tüm modülleri sürüm denetiminden güncelle"
-
-#: jhbuild/commands/base.py:35 jhbuild/commands/base.py:83
-#: jhbuild/commands/base.py:117 jhbuild/commands/base.py:160
-#: jhbuild/commands/base.py:272 jhbuild/commands/base.py:434
-#: jhbuild/commands/tinderbox.py:32
-msgid "[ options ... ] [ modules ... ]"
-msgstr "[ seçenekler ... ] [ modüller ... ]"
-
 #: jhbuild/commands/base.py:41 jhbuild/commands/base.py:193
 #: jhbuild/commands/base.py:443 jhbuild/commands/clean.py:39
 #: jhbuild/commands/tinderbox.py:56
@@ -116,13 +105,9 @@ msgstr "tüm hafif bağımlılıkları görmezden gel"
 msgid "%s not in module list"
 msgstr "%s modül listesinde değil"
 
-#: jhbuild/commands/base.py:80
-msgid "Update one or more modules from version control"
-msgstr "Bir ya da daha çok modülü sürüm denetiminden güncelle"
-
 #: jhbuild/commands/base.py:98 jhbuild/commands/base.py:136
 #: jhbuild/commands/base.py:389 jhbuild/commands/rdepends.py:53
-#: jhbuild/moduleset.py:185
+#: jhbuild/moduleset.py:186
 #, python-format
 msgid "A module called '%s' could not be found."
 msgstr "'%s' adlı modül bulunamadı."
@@ -132,10 +117,6 @@ msgstr "'%s' adlı modül bulunamadı."
 #: jhbuild/commands/uninstall.py:58
 msgid "This command requires a module parameter."
 msgstr "Bu komuta bir modül parametresi gerekir"
-
-#: jhbuild/commands/base.py:114
-msgid "Clean one or more modules"
-msgstr "Bir ya da daha çok modülü temizle"
 
 #: jhbuild/commands/base.py:123
 msgid "honour the makeclean setting in config file"
@@ -149,10 +130,6 @@ msgstr "kaynak ağacı tümüyle temizle"
 #: jhbuild/commands/base.py:143
 msgid "clean command called while makeclean is set to False, skipped."
 msgstr "makeclean, False olarak ayarlıyken clean komutu çağrıldı; atlandı."
-
-#: jhbuild/commands/base.py:157
-msgid "Update and compile all modules (the default)"
-msgstr "Tüm modülleri güncelle ve derle (öntanımlı)"
 
 #: jhbuild/commands/base.py:166 jhbuild/commands/base.py:278
 #: jhbuild/commands/make.py:40 jhbuild/commands/tinderbox.py:38
@@ -240,10 +217,6 @@ msgstr ""
 "da sistem bağımlılıklarını yok saymak için komut satırı seçeneği %(opt)s "
 "kullanın"
 
-#: jhbuild/commands/base.py:269
-msgid "Update and compile one or more modules"
-msgstr "Bir ya da daha çok modülü güncelle ve derle"
-
 #: jhbuild/commands/base.py:341 jhbuild/commands/make.py:112
 #: jhbuild/commands/uninstall.py:50
 #, python-format
@@ -253,14 +226,6 @@ msgid ""
 msgstr ""
 "\"%(modname)s\" modülü yok,\"%(reponame)s\" deposu kullanılarak "
 "kendiliğinden oluşturuldu"
-
-#: jhbuild/commands/base.py:354
-msgid "Run a command under the JHBuild environment"
-msgstr "JHBuild ortamı altında komut çalıştır"
-
-#: jhbuild/commands/base.py:357
-msgid "[ options ... ] program [ arguments ... ]"
-msgstr "[ seçenekler ... ] program [ argümanlar ... ]"
 
 #: jhbuild/commands/base.py:363
 msgid "run command in build dir of the given module"
@@ -285,14 +250,6 @@ msgstr "'%s' komutu çalıştırılamadı"
 msgid "No command given"
 msgstr "Komut verilmedi"
 
-#: jhbuild/commands/base.py:416
-msgid "Start a shell under the JHBuild environment"
-msgstr "JHBuild ortamı altında kabuk başlat"
-
-#: jhbuild/commands/base.py:431
-msgid "List the modules that would be built"
-msgstr "İnşa edilecek modülleri listele"
-
 #: jhbuild/commands/base.py:440
 msgid "show which revision will be built"
 msgstr "hangi revizyonun inşa edileceğini göster"
@@ -313,15 +270,6 @@ msgstr "yalnızca inşa edilecekleri değil, tüm modülleri listele"
 msgid "Conflicting options specified ('--start-at' and '--all-modules')"
 msgstr "Çakışan seçenekler belirtildi ('--start-at' ve '--all-modules')"
 
-#: jhbuild/commands/base.py:497
-msgid "Output a Graphviz dependency graph for one or more modules"
-msgstr "Bir ya da daha çok modül için Graphviz bağımlılık grafiği çıktısı al"
-
-#: jhbuild/commands/base.py:500 jhbuild/commands/base.py:533
-#: jhbuild/commands/info.py:41 jhbuild/commands/uninstall.py:34
-msgid "[ modules ... ]"
-msgstr "[ modüller ... ]"
-
 #: jhbuild/commands/base.py:506
 msgid "add dotted lines to soft dependencies"
 msgstr "hafif bağımlılıklar için noktalı satırlar ekle"
@@ -330,29 +278,10 @@ msgstr "hafif bağımlılıklar için noktalı satırlar ekle"
 msgid "group modules from metamodule together"
 msgstr "modülleri metamodule'den birlikte grupla"
 
-#: jhbuild/commands/base.py:530
-msgid "Run post-install triggers for named modules (or all)"
-msgstr ""
-"Adlandırılmış modüller (ya da tümü) için kurulum sonrası tetikleyicileri "
-"çalıştır"
-
-#: jhbuild/commands/bootstrap.py:25
-msgid "Build support tools"
-msgstr "Destek araçlarını inşa et"
-
-#: jhbuild/commands/checkbranches.py:29
-msgid ""
-"Check modules in GNOME Git repository have the correct branch definition"
-msgstr "GNOME Git deposundaki modüllerin doğru dal tanımı olduğunu denetle"
-
 #: jhbuild/commands/checkbranches.py:66
 #, python-format
 msgid "%(module)s is missing branch definition for %(branch)s"
 msgstr "%(module)s modülünün %(branch)s için dal tanımı eksik"
-
-#: jhbuild/commands/checkmodulesets.py:27
-msgid "Check if modules in JHBuild have the correct definition"
-msgstr "JHBuild'deki modüllerin tanımının doğru olup olmadığını denetle"
 
 #: jhbuild/commands/checkmodulesets.py:40
 #, python-format
@@ -367,14 +296,6 @@ msgstr "%(module)s (%(href)s) denetlenemiyor"
 #: jhbuild/commands/clean.py:30
 msgid "Clean all modules"
 msgstr "Tüm modülleri temizle"
-
-#: jhbuild/commands/gui.py:26
-msgid "Build targets from a GUI app"
-msgstr "Bir GUI uygulamasından hedefler inşa et"
-
-#: jhbuild/commands/info.py:38
-msgid "Display information about one or more modules"
-msgstr "bir ya da daha çok modülle ilgili bilgileri görüntüle"
 
 #: jhbuild/commands/info.py:47
 msgid ""
@@ -487,10 +408,6 @@ msgstr "Sonra:"
 msgid "Before:"
 msgstr "Önce:"
 
-#: jhbuild/commands/__init__.py:46 jhbuild/commands/make.py:34
-msgid "[ options ... ]"
-msgstr "[ seçenekler ... ]"
-
 #: jhbuild/commands/__init__.py:93 jhbuild/commands/sysdeps.py:63
 #, python-format
 msgid "required=%s"
@@ -539,10 +456,6 @@ msgstr "JHBuild komutları şunlardır:"
 msgid "For more information run \"jhbuild <command> --help\""
 msgstr "Daha çok bilgi için \"jhbuild <command> --help\" çalıştır"
 
-#: jhbuild/commands/__init__.py:155
-msgid "Information about available JHBuild commands"
-msgstr "Kullanılabilir JHBuild komutlarıyla ilgili bilgiler"
-
 #: jhbuild/commands/__init__.py:179
 #, python-format
 msgid "no such command (did you mean \"jhbuild build %s\"?)"
@@ -552,10 +465,6 @@ msgstr "böyle bir komut yok (şunu mu demek istediniz: \"jhbuild build %s\"?)"
 #, python-format
 msgid "no such command (did you mean \"jhbuild run %s\"?)"
 msgstr "böyle bir komut yok (şunu mu demek istediniz: \"jhbuild run %s\"?)"
-
-#: jhbuild/commands/make.py:31
-msgid "Compile and install the module for the current directory"
-msgstr "Geçerli dizindeki modülü derle ve kur"
 
 #: jhbuild/commands/make.py:77
 #, python-format
@@ -567,14 +476,6 @@ msgstr "Geçerli dizin, şurada değil: çıkış kökü %r"
 msgid "No module matching current directory %r in the moduleset"
 msgstr "Modül kümesindeki hiçbir modül geçerli %r dizini ile eşleşmiyor"
 
-#: jhbuild/commands/rdepends.py:29
-msgid "Display reverse-dependencies of a module"
-msgstr "Bir modülün tersine bağımlılıklarını göster"
-
-#: jhbuild/commands/rdepends.py:32
-msgid "[ module ]"
-msgstr "[ modül ]"
-
 #: jhbuild/commands/rdepends.py:38
 msgid "display dependency path next to modules"
 msgstr "modüllerin yanında bağımlılık yolunu göster"
@@ -583,10 +484,6 @@ msgstr "modüllerin yanında bağımlılık yolunu göster"
 msgid "limit display to modules directly depending on given module"
 msgstr ""
 "görüntüyü verilen modüle doğrudan bağımlı olan modüller ile sınırlandır"
-
-#: jhbuild/commands/sanitycheck.py:36
-msgid "Check that required support tools are available"
-msgstr "Gerekli destek araçlarının geçerliliğini denetle"
 
 #: jhbuild/commands/sanitycheck.py:43
 msgid "no extra arguments expected"
@@ -611,7 +508,7 @@ msgstr "kurulum ön eki (%s) yazılabilir değil"
 #: jhbuild/modtypes/cmake.py:96 jhbuild/modtypes/meson.py:94
 #: jhbuild/versioncontrol/bzr.py:219 jhbuild/versioncontrol/cvs.py:302
 #: jhbuild/versioncontrol/darcs.py:106 jhbuild/versioncontrol/fossil.py:103
-#: jhbuild/versioncontrol/git.py:504 jhbuild/versioncontrol/hg.py:106
+#: jhbuild/versioncontrol/git.py:525 jhbuild/versioncontrol/hg.py:106
 #: jhbuild/versioncontrol/mtn.py:142 jhbuild/versioncontrol/svn.py:320
 #, python-format
 msgid "%s not found"
@@ -665,14 +562,6 @@ msgstr ""
 "Lütfen eksik makroları (%(macros)s) aşağıdaki yollardan birinde kopyalayın: "
 "%(path)s"
 
-#: jhbuild/commands/snapshot.py:29
-msgid "Print out a moduleset for the exact versions that are checked out"
-msgstr "Denetlenmiş tam sürümler için bir modük kümesi yazdır"
-
-#: jhbuild/commands/sysdeps.py:35
-msgid "Check and install tarball dependencies using system packages"
-msgstr "Sistem paketlerini kullanan tarball bağımlılıklarını denetle ve kur"
-
 #: jhbuild/commands/sysdeps.py:43
 msgid "Machine readable list of missing sysdeps"
 msgstr "Eksik sysdeps'lerin makine okunur listesi"
@@ -722,10 +611,6 @@ msgstr ""
 #: jhbuild/commands/sysdeps.py:217
 #, python-format
 msgid "Installing dependencies on system: %s"
-msgstr ""
-
-#: jhbuild/commands/tinderbox.py:29
-msgid "Build modules non-interactively and store build logs"
 msgstr ""
 
 #: jhbuild/commands/tinderbox.py:53
@@ -854,11 +739,11 @@ msgid ""
 "quiet mode has been disabled because the Python curses module is missing."
 msgstr ""
 
-#: jhbuild.desktop.in.in:4
+#: jhbuild.desktop.in.in:3
 msgid "GNOME Build Tool"
 msgstr "GNOME İnşa Aracı"
 
-#: jhbuild.desktop.in.in:5
+#: jhbuild.desktop.in.in:4
 msgid "Build GNOME modules"
 msgstr "GNOME modüllerini inşa et"
 
@@ -895,67 +780,67 @@ msgstr ""
 msgid "**** Starting module %s ****"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:43
+#: jhbuild/frontends/buildscript.py:42
 #, python-format
 msgid "install prefix (%s) must be writable"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:50
+#: jhbuild/frontends/buildscript.py:49
 #, python-format
 msgid "checkout root (%s) can not be created"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:52
+#: jhbuild/frontends/buildscript.py:51
 #, python-format
 msgid "checkout root (%s) must be writable"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:59
+#: jhbuild/frontends/buildscript.py:58
 #, python-format
 msgid "checkout copy dir (%s) can not be created"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:61
+#: jhbuild/frontends/buildscript.py:60
 #, python-format
 msgid "checkout copy dir (%s) must be writable"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:68
+#: jhbuild/frontends/buildscript.py:67
 #, python-format
 msgid "checkout export dir (%s) can not be created"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:70
+#: jhbuild/frontends/buildscript.py:69
 #, python-format
 msgid "checkout export dir (%s) must be writable"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:119
+#: jhbuild/frontends/buildscript.py:118
 #, python-format
 msgid "Skipping %s (installed recently)"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:128
+#: jhbuild/frontends/buildscript.py:127
 #, python-format
 msgid "module %(mod)s will be built even though %(dep)s failed"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:131
+#: jhbuild/frontends/buildscript.py:130
 #, python-format
 msgid "module %(mod)s not built due to non buildable %(dep)s"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:250
+#: jhbuild/frontends/buildscript.py:249
 #, python-format
 msgid "Ignoring uninstalled package: %s"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:269
+#: jhbuild/frontends/buildscript.py:268
 #, python-format
 msgid "Running post-installation trigger script: %r"
 msgstr ""
 
-#: jhbuild/frontends/buildscript.py:277 jhbuild/frontends/gtkui.py:604
+#: jhbuild/frontends/buildscript.py:276 jhbuild/frontends/gtkui.py:604
 #, python-format
 msgid "%(command)s returned with an error code (%(rc)s)"
 msgstr ""
@@ -985,7 +870,8 @@ msgstr "Başla"
 msgid "Build Completed"
 msgstr "İnşa Tamamlandı"
 
-#: jhbuild/frontends/gtkui.py:376 jhbuild/frontends/terminal.py:313
+#: jhbuild/frontends/gtkui.py:376 jhbuild/frontends/terminal.py:312
+#: jhbuild/frontends/terminal.py:320
 #, python-format
 msgid "Error during phase %(phase)s of %(module)s"
 msgstr ""
@@ -994,25 +880,25 @@ msgstr ""
 msgid "Pick an Action"
 msgstr ""
 
-#: jhbuild/frontends/gtkui.py:396 jhbuild/frontends/terminal.py:340
+#: jhbuild/frontends/gtkui.py:396 jhbuild/frontends/terminal.py:347
 #, python-format
 msgid "Rerun phase %s"
 msgstr ""
 
-#: jhbuild/frontends/gtkui.py:399 jhbuild/frontends/terminal.py:342
+#: jhbuild/frontends/gtkui.py:399 jhbuild/frontends/terminal.py:349
 #, python-format
 msgid "Ignore error and continue to %s"
 msgstr ""
 
-#: jhbuild/frontends/gtkui.py:402 jhbuild/frontends/terminal.py:344
+#: jhbuild/frontends/gtkui.py:402 jhbuild/frontends/terminal.py:351
 msgid "Ignore error and continue to next module"
 msgstr ""
 
-#: jhbuild/frontends/gtkui.py:404 jhbuild/frontends/terminal.py:345
+#: jhbuild/frontends/gtkui.py:404 jhbuild/frontends/terminal.py:352
 msgid "Give up on module"
 msgstr ""
 
-#: jhbuild/frontends/gtkui.py:411 jhbuild/frontends/terminal.py:354
+#: jhbuild/frontends/gtkui.py:411 jhbuild/frontends/terminal.py:361
 #, python-format
 msgid "Go to phase \"%s\""
 msgstr ""
@@ -1076,39 +962,39 @@ msgstr "başarılı"
 msgid "the following modules were not built"
 msgstr ""
 
-#: jhbuild/frontends/terminal.py:328 jhbuild/frontends/tinderbox.py:374
+#: jhbuild/frontends/terminal.py:335 jhbuild/frontends/tinderbox.py:374
 msgid "automatically retrying configure"
 msgstr ""
 
-#: jhbuild/frontends/terminal.py:332 jhbuild/frontends/tinderbox.py:379
+#: jhbuild/frontends/terminal.py:339 jhbuild/frontends/tinderbox.py:379
 msgid "automatically forcing a fresh checkout"
 msgstr ""
 
-#: jhbuild/frontends/terminal.py:346
+#: jhbuild/frontends/terminal.py:353
 msgid "Start shell"
 msgstr "Kabuğu başlat"
 
-#: jhbuild/frontends/terminal.py:347
+#: jhbuild/frontends/terminal.py:354
 msgid "Reload configuration"
 msgstr "Yapılandırmayı yeniden yükle"
 
-#: jhbuild/frontends/terminal.py:356
+#: jhbuild/frontends/terminal.py:363
 msgid "choice: "
 msgstr "seçim: "
 
-#: jhbuild/frontends/terminal.py:379
+#: jhbuild/frontends/terminal.py:386
 msgid "exit shell to continue with build"
 msgstr ""
 
-#: jhbuild/frontends/terminal.py:394
+#: jhbuild/frontends/terminal.py:401
 msgid "invalid choice"
 msgstr "geçersiz seçim"
 
-#: jhbuild/frontends/terminal.py:402
+#: jhbuild/frontends/terminal.py:409
 msgid "Type \"yes\" to confirm the action: "
 msgstr ""
 
-#: jhbuild/frontends/terminal.py:407
+#: jhbuild/frontends/terminal.py:414
 msgid "yes"
 msgstr "evet"
 
@@ -1164,16 +1050,16 @@ msgstr "EOF"
 msgid "Configuring"
 msgstr "Yapılandırılıyor"
 
-#: jhbuild/modtypes/autotools.py:252 jhbuild/modtypes/cmake.py:113
+#: jhbuild/modtypes/autotools.py:252 jhbuild/modtypes/cmake.py:134
 #: jhbuild/modtypes/linux.py:142 jhbuild/modtypes/meson.py:122
 #: jhbuild/modtypes/waf.py:84
 msgid "Cleaning"
 msgstr "Temizleniyor"
 
-#: jhbuild/modtypes/autotools.py:258 jhbuild/modtypes/cmake.py:122
+#: jhbuild/modtypes/autotools.py:258 jhbuild/modtypes/cmake.py:143
 #: jhbuild/modtypes/distutils.py:59 jhbuild/modtypes/linux.py:155
 #: jhbuild/modtypes/meson.py:128 jhbuild/modtypes/perl.py:52
-#: jhbuild/modtypes/waf.py:92
+#: jhbuild/modtypes/pip.py:61 jhbuild/modtypes/waf.py:92
 msgid "Building"
 msgstr "İnşa Ediliyor"
 
@@ -1182,7 +1068,7 @@ msgstr "İnşa Ediliyor"
 msgid "Checking"
 msgstr ""
 
-#: jhbuild/modtypes/autotools.py:299 jhbuild/modtypes/cmake.py:131
+#: jhbuild/modtypes/autotools.py:299 jhbuild/modtypes/cmake.py:152
 #: jhbuild/modtypes/meson.py:141 jhbuild/modtypes/waf.py:122
 msgid "Creating tarball for"
 msgstr ""
@@ -1195,9 +1081,10 @@ msgstr ""
 msgid "Uninstalling old installed version"
 msgstr ""
 
-#: jhbuild/modtypes/autotools.py:317 jhbuild/modtypes/cmake.py:143
+#: jhbuild/modtypes/autotools.py:317 jhbuild/modtypes/cmake.py:164
 #: jhbuild/modtypes/distutils.py:70 jhbuild/modtypes/meson.py:150
-#: jhbuild/modtypes/perl.py:66 jhbuild/modtypes/waf.py:133
+#: jhbuild/modtypes/perl.py:66 jhbuild/modtypes/pip.py:70
+#: jhbuild/modtypes/waf.py:133
 msgid "Installing"
 msgstr "Kuruluyor"
 
@@ -1323,10 +1210,6 @@ msgstr ""
 msgid "source directory %s was not created"
 msgstr "%s kaynak dizini oluşturulmadı"
 
-#: jhbuild/modtypes/__init__.py:645
-msgid "wipe directory and start over"
-msgstr "dizini temizle ve baştan başla"
-
 #: jhbuild/modtypes/linux.py:46
 #, python-format
 msgid "kconfig file %s was not created"
@@ -1367,44 +1250,44 @@ msgstr ""
 msgid "module '%(module)s' has invalid size attribute ('%(size)s')"
 msgstr ""
 
-#: jhbuild/moduleset.py:90
+#: jhbuild/moduleset.py:91
 #, python-format
 msgid "fixed case of module '%(orig)s' to '%(new)s'"
 msgstr ""
 
-#: jhbuild/moduleset.py:136
+#: jhbuild/moduleset.py:137
 #, python-format
 msgid "%(module)s has a dependency on unknown \"%(invalid)s\" module"
 msgstr ""
 
-#: jhbuild/moduleset.py:149
+#: jhbuild/moduleset.py:150
 #, python-format
 msgid "Circular dependencies detected: %s"
 msgstr ""
 
-#: jhbuild/moduleset.py:300
+#: jhbuild/moduleset.py:302
 msgid "Unknown module:"
 msgstr "Bilinmeyen modül:"
 
-#: jhbuild/moduleset.py:439
+#: jhbuild/moduleset.py:441
 msgid "<if> must have exactly one of condition-set='' or condition-unset=''"
 msgstr ""
 
-#: jhbuild/moduleset.py:458
+#: jhbuild/moduleset.py:460
 #, python-format
 msgid "could not download %s: %s"
 msgstr "%s indirilemedi: %s"
 
-#: jhbuild/moduleset.py:463 jhbuild/moduleset.py:465
+#: jhbuild/moduleset.py:465 jhbuild/moduleset.py:467
 #, python-format
 msgid "failed to parse %s: %s"
 msgstr "%s ayrıştırılamadı: %s"
 
-#: jhbuild/moduleset.py:500
+#: jhbuild/moduleset.py:502
 msgid "Duplicate repository:"
 msgstr ""
 
-#: jhbuild/moduleset.py:603
+#: jhbuild/moduleset.py:605
 #, python-format
 msgid ""
 "Modulesets were edited locally but JHBuild is configured to get them from "
@@ -1576,7 +1459,7 @@ msgstr ""
 
 #: jhbuild/versioncontrol/bzr.py:73 jhbuild/versioncontrol/darcs.py:51
 #: jhbuild/versioncontrol/fossil.py:48 jhbuild/versioncontrol/hg.py:53
-#: jhbuild/versioncontrol/mtn.py:52 jhbuild/versioncontrol/tarball.py:66
+#: jhbuild/versioncontrol/mtn.py:52 jhbuild/versioncontrol/tarball.py:65
 #, python-format
 msgid "branch for %(name)s has wrong override, check your %(filename)s"
 msgstr ""
@@ -1621,8 +1504,8 @@ msgstr ""
 
 #: jhbuild/versioncontrol/darcs.py:82 jhbuild/versioncontrol/darcs.py:88
 #: jhbuild/versioncontrol/fossil.py:80 jhbuild/versioncontrol/fossil.py:93
-#: jhbuild/versioncontrol/git.py:616 jhbuild/versioncontrol/git.py:656
-#: jhbuild/versioncontrol/git.py:732 jhbuild/versioncontrol/hg.py:90
+#: jhbuild/versioncontrol/git.py:635 jhbuild/versioncontrol/git.py:675
+#: jhbuild/versioncontrol/git.py:751 jhbuild/versioncontrol/hg.py:90
 #: jhbuild/versioncontrol/hg.py:96
 msgid "date based checkout not yet supported\n"
 msgstr ""
@@ -1631,59 +1514,91 @@ msgstr ""
 msgid "ignored bad branch redefinition for module:"
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:202
-msgid "Need at least git-1.5.6 from June/08 to operate"
+#: jhbuild/versioncontrol/git.py:142
+#, python-format
+msgid "Need at least git-%s to operate"
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:216
+#: jhbuild/versioncontrol/git.py:149
+msgid "Cannot set \"version\" of a git branch without \"tag\""
+msgstr ""
+
+#: jhbuild/versioncontrol/git.py:219
 msgid "Unexpected: Checkoutdir is not a git repository:"
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:296
+#: jhbuild/versioncontrol/git.py:299
 #, python-format
 msgid ""
 "The requested branch \"%s\" is not available. Neither locally, nor remotely "
 "in the origin remote."
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:304
+#: jhbuild/versioncontrol/git.py:307
 msgid "Refusing to switch a dirty tree."
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:382
+#: jhbuild/versioncontrol/git.py:371
 #, python-format
 msgid "Command %s returned no output"
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:387
+#: jhbuild/versioncontrol/git.py:376
 #, python-format
 msgid "Command %s did not include commit line: %r"
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:476
+#: jhbuild/versioncontrol/git.py:465
 msgid ""
 "Failed to update module as it switched to git (you should check for changes "
 "then remove the directory)."
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:477
+#: jhbuild/versioncontrol/git.py:466
 msgid ""
 "Failed to update module (missing .git) (you should check for changes then "
 "remove the directory)."
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:581
-msgid ""
-"External handling failed\n"
-" If you are running git version < 1.5.6 it is recommended you update.\n"
+#: jhbuild/versioncontrol/git.py:504 jhbuild/versioncontrol/tarball.py:237
+msgid "Applying patch"
+msgstr "Yama uygulanıyor"
+
+#: jhbuild/versioncontrol/git.py:510
+#, python-format
+msgid "Skipping patch '%s' (already applied)"
 msgstr ""
 
-#: jhbuild/versioncontrol/git.py:628
+#: jhbuild/versioncontrol/git.py:516
+#, fuzzy, python-format
+#| msgid "could not download patch"
+msgid "Could not apply patch '%s'\n"
+msgstr "yama indirilemedi"
+
+#: jhbuild/versioncontrol/git.py:600
+msgid "External handling failed\n"
+msgstr ""
+
+#: jhbuild/versioncontrol/git.py:647
 #, python-format
 msgid "Cannot get last revision from %s. Check the module location."
 msgstr ""
 
-#: jhbuild/versioncontrol/__init__.py:197
+#: jhbuild/versioncontrol/__init__.py:202
+#, python-format
+msgid "could not download patch (error: %s)"
+msgstr "yama indirilemedi (hata: %s)"
+
+#: jhbuild/versioncontrol/__init__.py:204
+msgid "could not download patch"
+msgstr "yama indirilemedi"
+
+#: jhbuild/versioncontrol/__init__.py:236
+#, python-format
+msgid "Failed to find patch: %s"
+msgstr "Yama bulunamadı: %s"
+
+#: jhbuild/versioncontrol/__init__.py:280
 #, python-format
 msgid "unknown repository type %s"
 msgstr ""
@@ -1731,89 +1646,151 @@ msgstr ""
 msgid "Error checking for conflicts"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:92
-#, python-format
-msgid "branch for %s is not correct, check the moduleset file."
-msgstr ""
-
-#: jhbuild/versioncontrol/tarball.py:134
+#: jhbuild/versioncontrol/tarball.py:111
 #, python-format
 msgid "URL has no filename component: %s"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:176
+#: jhbuild/versioncontrol/tarball.py:153
 msgid "file not downloaded"
 msgstr "dosya indirilmedi"
 
-#: jhbuild/versioncontrol/tarball.py:181
+#: jhbuild/versioncontrol/tarball.py:158
 #, python-format
 msgid "downloaded file size is incorrect (expected %(size1)d, got %(size2)d)"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:187
+#: jhbuild/versioncontrol/tarball.py:164
 #, python-format
 msgid "invalid hash attribute on module %s"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:200
+#: jhbuild/versioncontrol/tarball.py:177
 #, python-format
 msgid "file hash is incorrect (expected %(sum1)s, got %(sum2)s)"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:203
+#: jhbuild/versioncontrol/tarball.py:180
 #, python-format
 msgid "skipped hash check (missing support for %s)"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:207
+#: jhbuild/versioncontrol/tarball.py:184
 #, python-format
 msgid "tarball dir (%s) must be writable"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:219
+#: jhbuild/versioncontrol/tarball.py:196
 msgid "unable to find wget or curl"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:235
+#: jhbuild/versioncontrol/tarball.py:212
 #, python-format
 msgid "tarball dir (%s) can not be created"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:247
+#: jhbuild/versioncontrol/tarball.py:224
 #, python-format
 msgid "failed to unpack %s"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:250
+#: jhbuild/versioncontrol/tarball.py:227
 #, python-format
 msgid "could not unpack tarball (expected %s dir)"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:267
-#, python-format
-msgid "could not download patch (error: %s)"
-msgstr "yama indirilemedi (hata: %s)"
-
-#: jhbuild/versioncontrol/tarball.py:269
-msgid "could not download patch"
-msgstr "yama indirilemedi"
-
-#: jhbuild/versioncontrol/tarball.py:301
-#, python-format
-msgid "Failed to find patch: %s"
-msgstr "Yama bulunamadı: %s"
-
-#: jhbuild/versioncontrol/tarball.py:311
-msgid "Applying patch"
-msgstr "Yama uygulanıyor"
-
-#: jhbuild/versioncontrol/tarball.py:319
+#: jhbuild/versioncontrol/tarball.py:245
 msgid "unable to find quilt"
 msgstr ""
 
-#: jhbuild/versioncontrol/tarball.py:330
+#: jhbuild/versioncontrol/tarball.py:256
 msgid "could not checkout quilt patch set"
 msgstr ""
+
+#~ msgid "Update all modules from version control"
+#~ msgstr "Tüm modülleri sürüm denetiminden güncelle"
+
+#~ msgid "[ options ... ] [ modules ... ]"
+#~ msgstr "[ seçenekler ... ] [ modüller ... ]"
+
+#~ msgid "Update one or more modules from version control"
+#~ msgstr "Bir ya da daha çok modülü sürüm denetiminden güncelle"
+
+#~ msgid "Clean one or more modules"
+#~ msgstr "Bir ya da daha çok modülü temizle"
+
+#~ msgid "Update and compile all modules (the default)"
+#~ msgstr "Tüm modülleri güncelle ve derle (öntanımlı)"
+
+#~ msgid "Update and compile one or more modules"
+#~ msgstr "Bir ya da daha çok modülü güncelle ve derle"
+
+#~ msgid "Run a command under the JHBuild environment"
+#~ msgstr "JHBuild ortamı altında komut çalıştır"
+
+#~ msgid "[ options ... ] program [ arguments ... ]"
+#~ msgstr "[ seçenekler ... ] program [ argümanlar ... ]"
+
+#~ msgid "Start a shell under the JHBuild environment"
+#~ msgstr "JHBuild ortamı altında kabuk başlat"
+
+#~ msgid "List the modules that would be built"
+#~ msgstr "İnşa edilecek modülleri listele"
+
+#~ msgid "Output a Graphviz dependency graph for one or more modules"
+#~ msgstr ""
+#~ "Bir ya da daha çok modül için Graphviz bağımlılık grafiği çıktısı al"
+
+#~ msgid "[ modules ... ]"
+#~ msgstr "[ modüller ... ]"
+
+#~ msgid "Run post-install triggers for named modules (or all)"
+#~ msgstr ""
+#~ "Adlandırılmış modüller (ya da tümü) için kurulum sonrası tetikleyicileri "
+#~ "çalıştır"
+
+#~ msgid "Build support tools"
+#~ msgstr "Destek araçlarını inşa et"
+
+#~ msgid ""
+#~ "Check modules in GNOME Git repository have the correct branch definition"
+#~ msgstr "GNOME Git deposundaki modüllerin doğru dal tanımı olduğunu denetle"
+
+#~ msgid "Check if modules in JHBuild have the correct definition"
+#~ msgstr "JHBuild'deki modüllerin tanımının doğru olup olmadığını denetle"
+
+#~ msgid "Build targets from a GUI app"
+#~ msgstr "Bir GUI uygulamasından hedefler inşa et"
+
+#~ msgid "Display information about one or more modules"
+#~ msgstr "bir ya da daha çok modülle ilgili bilgileri görüntüle"
+
+#~ msgid "[ options ... ]"
+#~ msgstr "[ seçenekler ... ]"
+
+#~ msgid "Information about available JHBuild commands"
+#~ msgstr "Kullanılabilir JHBuild komutlarıyla ilgili bilgiler"
+
+#~ msgid "Compile and install the module for the current directory"
+#~ msgstr "Geçerli dizindeki modülü derle ve kur"
+
+#~ msgid "Display reverse-dependencies of a module"
+#~ msgstr "Bir modülün tersine bağımlılıklarını göster"
+
+#~ msgid "[ module ]"
+#~ msgstr "[ modül ]"
+
+#~ msgid "Check that required support tools are available"
+#~ msgstr "Gerekli destek araçlarının geçerliliğini denetle"
+
+#~ msgid "Print out a moduleset for the exact versions that are checked out"
+#~ msgstr "Denetlenmiş tam sürümler için bir modük kümesi yazdır"
+
+#~ msgid "Check and install tarball dependencies using system packages"
+#~ msgstr "Sistem paketlerini kullanan tarball bağımlılıklarını denetle ve kur"
+
+#~ msgid "wipe directory and start over"
+#~ msgstr "dizini temizle ve baştan başla"
 
 #~ msgid ""
 #~ "WARNING: yelp-tools not available (usually part of package 'yelp-tools')"

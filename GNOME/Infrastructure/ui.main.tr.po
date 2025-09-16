@@ -25,6 +25,11 @@ msgstr "#i18n:gnome.org"
 msgid "Adwaita Demo"
 msgstr "Adwaita Demo"
 
+msgid ""
+"All information about the Vala programming language for users, its syntax, "
+"tooling, and many code examples"
+msgstr ""
+
 msgid "All participants are expected to follow this Code of Conduct"
 msgstr "Tüm katılımcıların bu Davranış Kurallarına uyması beklenmektedir"
 
@@ -35,16 +40,21 @@ msgid "Apps for GNOME"
 msgstr "GNOME İçin Uygulamalar"
 
 msgid ""
-"As a Core app, it is also pre-installed on [GNOME OS Nightly](https://os."
-"gnome.org/) which you can install as a virtual machine."
+"As a Core app, it is also pre-installed on [GNOME OS Nightly](https://"
+"os.gnome.org/) which you can install as a virtual machine."
 msgstr ""
-"Sanal makine olarak kurabileceğiniz [GNOME OS Gecelik](https://os.gnome."
-"org/)’te de Çekirdek uygulama olarak önceden kuruludur."
+"Sanal makine olarak kurabileceğiniz [GNOME OS Gecelik](https://"
+"os.gnome.org/)’te de Çekirdek uygulama olarak önceden kuruludur."
 
 msgid "Brand Book"
 msgstr "Marka Kitabı"
 
 msgid "Building blocks for modern GNOME apps"
+msgstr "Çağdaş GNOME uygulamaları için yapı taşları"
+
+#, fuzzy
+#| msgid "Building blocks for modern GNOME apps"
+msgid "Building blocks for modern adaptive GNOME apps"
 msgstr "Çağdaş GNOME uygulamaları için yapı taşları"
 
 msgid "Chat for discussing websites"
@@ -64,6 +74,9 @@ msgstr "Kod Deposu"
 
 msgid "Code of Conduct"
 msgstr "Davranış Kuralları"
+
+msgid "Codeberg"
+msgstr ""
 
 msgid "Contact"
 msgstr "İletişim"
@@ -86,6 +99,11 @@ msgstr "Kullanıcı arayüzü, kullanıcı deneyimi ve görsel tasarla"
 
 msgid "Developer Center"
 msgstr "Geliştirici Merkezi"
+
+#, fuzzy
+#| msgid "GNOME Development Center"
+msgid "Development Platform"
+msgstr "GNOME Geliştirme Merkezi"
 
 msgid "Documentation"
 msgstr "Belgendirme"
@@ -155,6 +173,11 @@ msgstr "GTK, GLib ve GIO gibi kütüphaneler üzerine kurulmuştur"
 
 msgid "GTK is the underlying library for the user interface"
 msgstr "GTK, kullanıcı arayüzünün altında yatan temel kütüphanedir"
+
+#, fuzzy
+#| msgid "GTK&nbsp;4 Docs"
+msgid "GTK&nbsp;3 Docs"
+msgstr "GTK&nbsp;4 Belgeleri"
 
 msgid "GTK&nbsp;4 Docs"
 msgstr "GTK&nbsp;4 Belgeleri"
@@ -251,6 +274,16 @@ msgstr "Libadwaita Belgeleri"
 msgid "Libadwaita docs"
 msgstr "Libadwaita belgeleri"
 
+#, fuzzy
+#| msgid "Libadwaita Docs"
+msgid "Libhandy Docs"
+msgstr "Libadwaita Belgeleri"
+
+msgid ""
+"Main development repository of the Vala language and compiler, issue tracker "
+"and contribution platform"
+msgstr ""
+
 msgid "Maintain websites and create content"
 msgstr "Web sitelerine bakım yap ve içerik oluştur"
 
@@ -285,20 +318,28 @@ msgid "News"
 msgstr "Haberler"
 
 #. Translators: The {0} will be replaced with 'GitLab' or 'GitHub'
+#, fuzzy
+#| msgid ""
+#| "Next, we want that git on your computer can also use your {0} account. "
+#| "For this, you need an SSH key. If you don't have an SSH key yet you can "
+#| "[generate a new one](https://docs.gitlab.com/ee/user/ssh.html#generate-an-"
+#| "ssh-key-pair) using [Console](https://apps.gnome.org/Console/). "
+#| "Alternatively, you can generate one using the [Passwords and Keys]"
+#| "(https://flathub.org/de/apps/org.gnome.seahorse.Application) app."
 msgid ""
-"Next, we want that git on your computer can also use your {0} account. For "
-"this, you need an SSH key. If you don't have an SSH key yet you can "
-"[generate a new one](https://docs.gitlab.com/ee/user/ssh.html#generate-an-"
-"ssh-key-pair) using [Console](https://apps.gnome.org/Console/). "
+"Next, we want to make sure that git on your computer can also use your {0} "
+"account. For this, you need an SSH key. If you don't have an SSH key yet you "
+"can [generate a new one](https://docs.gitlab.com/ee/user/ssh.html#generate-"
+"an-ssh-key-pair) using [Console](https://apps.gnome.org/Console/). "
 "Alternatively, you can generate one using the [Passwords and Keys](https://"
-"flathub.org/de/apps/org.gnome.seahorse.Application) app."
+"flathub.org/apps/org.gnome.seahorse.Application) app."
 msgstr ""
 "Ardından, bilgisayarınızdaki git’in {0} hesabınızı da kullanabilmesini "
 "istiyoruz. Bunun için SSH anahtarı gerekli. Henüz SSH anahtarınız yoksa "
 "[Konsol](https://apps.gnome.org/Console/) uygulamasını kullanarak [yenisini "
 "oluşturabilirsiniz](https://docs.gitlab.com/ee/user/ssh.html#generate-an-ssh-"
-"key-pair). Ayrıca, [Parolalar ve Anahtarlar](https://flathub.org/de/apps/org."
-"gnome.seahorse.Application) uygulamasını kullanarak da anahtar "
+"key-pair). Ayrıca, [Parolalar ve Anahtarlar](https://flathub.org/de/apps/"
+"org.gnome.seahorse.Application) uygulamasını kullanarak da anahtar "
 "oluşturabilirsiniz."
 
 msgid "No apps matching the given search found."
@@ -308,15 +349,20 @@ msgstr "Verilen aramayla eşleşen uygulama bulunamadı."
 msgid ""
 "Now, we have to let git in your local project know of your personal copy on "
 "{0} via this URL. For this we need to go back to the command line. First, "
-"you have to change ([`cd`](https://www.gnu.org/software/bash/manual/bash."
-"html#index-cd)) into the project you have been working on. Afterwards you "
-"can use the command"
+"you have to change ([`cd`](https://www.gnu.org/software/bash/manual/"
+"bash.html#index-cd)) into the project you have been working on. Afterwards "
+"you can use the command"
 msgstr ""
 "Şimdi, bu URL aracılığıyla yerel projenizdeki git’e {0} üstündeki kişisel "
 "kopyanızı bildirmemiz gerekiyor. Bunun için komut satırına geri dönmeliyiz. "
-"İlk olarak, üzerinde çalıştığınız dizine geçmeniz ([`cd`](https://www.gnu."
-"org/software/bash/manual/bash.html#index-cd)) gerekiyor. Ardından şu komutu "
-"kullanabilirsiniz"
+"İlk olarak, üzerinde çalıştığınız dizine geçmeniz ([`cd`](https://"
+"www.gnu.org/software/bash/manual/bash.html#index-cd)) gerekiyor. Ardından şu "
+"komutu kullanabilirsiniz"
+
+#, fuzzy
+#| msgid "Documentation"
+msgid "Official Vala Documentation"
+msgstr "Belgendirme"
 
 msgid ""
 "On this page you can learn how to contribute to *{0}*. If you are interested "
@@ -345,6 +391,7 @@ msgid "Overview of many important development resources for GNOME"
 msgstr "GNOME için birçok önemli geliştirme kaynağına genel bakış"
 
 # Oluşturulma tarihi
+#. Translators: The {0} will be replaced with a tranlsated date and time.
 msgid "Page generated {0}"
 msgstr "Sayfa {0}’da oluşturuldu"
 
@@ -403,8 +450,10 @@ msgstr ""
 msgid "Style guide for designing print material and websites for GNOME"
 msgstr "GNOME basılı materyal ve web sitesi tasarımları için biçem kılavuzu"
 
-msgid "The URL is available under the button “Clone” below “Clone with SSH.”"
-msgstr "URL, “SSH ile klonla”nın altındaki “Klonla” düğmesinin altındadır."
+msgid ""
+"The URL is available next to the “HTTPS” and “SSH” buttons after clicking "
+"the “SSH” button."
+msgstr ""
 
 msgid "The URL is available under the button “Code” below “SSH.”"
 msgstr "URL, “SSH” altındaki “Code” düğmesinin altındadır."
@@ -445,9 +494,9 @@ msgid "This app is built with the *{0}* programming language."
 msgstr "Bu uygulama *{0}* programlama diliyle yazılmıştır."
 
 msgid ""
-"This is especially helpful during the [feature freeze period](https://wiki."
-"gnome.org/ReleasePlanning/Freezes) which is dedicated to finding and fixing "
-"bugs."
+"This is especially helpful during the [feature freeze period](https://"
+"wiki.gnome.org/ReleasePlanning/Freezes) which is dedicated to finding and "
+"fixing bugs."
 msgstr ""
 "Bu, özellikle hataları bulma ve çözmeye ayrılmış [özellik dondurma sürecinde]"
 "(https://wiki.gnome.org/ReleasePlanning/Freezes) yararlıdır."
@@ -488,7 +537,9 @@ msgstr "Tipografi"
 msgid "Use GNOME’s infrastructure to host your project"
 msgstr "Projenizi barındırmak için GNOME’un alt yapısını kullanın"
 
-msgid "Vala Bindings Reference"
+#, fuzzy
+#| msgid "Vala Bindings Reference"
+msgid "Vala Bindings API References"
 msgstr "Vala Bağlamaları Referansı"
 
 msgid "View all GNOME Teams"
@@ -580,18 +631,19 @@ msgid ""
 "The original text in apps is usually written in American English. The "
 "translation into other languages can be added by translators separately. The "
 "translation usually encompasses the apps’ user interface as well as the "
-"metadata shown in places like [Software](https://apps.gnome.org/app/org."
-"gnome.Software/) or [apps.gnome.org](https://apps.gnome.org). Common "
+"metadata shown in places like [Software](https://apps.gnome.org/app/"
+"org.gnome.Software/) or [apps.gnome.org](https://apps.gnome.org). Common "
 "abbreviations used in this context are *l10n* (localization) and *i18n* "
 "(internationalization)."
 msgstr ""
 "Uygulamalardaki özgün metin genellikle Amerikan İngilizcesi ile yazılır. "
 "Diğer dillere çeviri, çevirmenlerce ayrıca eklenebilir. Çeviri genellikle "
-"uygulamaların kullanıcı arayüzünün yanı sıra [Yazılımlar](https://apps.gnome."
-"org/app/org.gnome.Software/) ya da [apps.gnome.org](https://apps.gnome.org) "
-"gibi yerlerde gösterilen üst verileri de kapsar. Bu bağlamda kullanılan "
-"yaygın kısaltmalar *l10n* (yerelleştirme, İngilizce “localization”) ve "
-"*i18n* (uluslararasılaştırma, İngilizce “internationalization”) biçimindedir."
+"uygulamaların kullanıcı arayüzünün yanı sıra [Yazılımlar](https://"
+"apps.gnome.org/app/org.gnome.Software/) ya da [apps.gnome.org](https://"
+"apps.gnome.org) gibi yerlerde gösterilen üst verileri de kapsar. Bu bağlamda "
+"kullanılan yaygın kısaltmalar *l10n* (yerelleştirme, İngilizce "
+"“localization”) ve *i18n* (uluslararasılaştırma, İngilizce "
+"“internationalization”) biçimindedir."
 
 #: templates/app.md:26
 msgid ""
@@ -613,13 +665,13 @@ msgstr ""
 
 #: templates/app.md:26
 msgid ""
-"This app is translated via the [GNOME translation system](https://l10n.gnome."
-"org) called *Damned Lies*."
+"This app is translated via the [GNOME translation system](https://"
+"l10n.gnome.org) called *Damned Lies*."
 msgstr ""
 "Bu uygulama, *Damned Lies* olarak adlandırılıan [GNOME çeviri sistemi]"
 "(https://l10n.gnome.org) üzerinden çevirilmiştir."
 
-#: templates/app.md:61 templates/app.md:42 templates/app.md:40
+#: templates/app.md:61 templates/app.md:42 templates/app.md:30
 msgid "Trying the latest version"
 msgstr "En son sürümün denenmesi"
 
@@ -633,7 +685,7 @@ msgstr ""
 "Bu, yalnızca sistemle sıkı tümleşim gerektiren çok az sayıda uygulama için "
 "geçerlidir."
 
-#: templates/app.md:64 templates/app.md:45 templates/app.md:43
+#: templates/app.md:64 templates/app.md:45 templates/app.md:33
 msgid ""
 "When reporting an issue or suggesting a feature, it can be helpful to base "
 "the report on the latest version of the app. To this end, you can check the "
@@ -643,26 +695,15 @@ msgstr ""
 "sürümüne dayandarılması yararlı olabilir. Bu doğrultuda, aşağıdaki kurulum "
 "yöntemlerini gözden geçirebilirsiniz."
 
-#: templates/app.md:69 templates/app.md:50 templates/app.md:48
+#: templates/app.md:69 templates/app.md:50 templates/app.md:38
 msgid "Installation from Flathub"
 msgstr "Flathubʼdan kurulum"
 
-#: templates/app.md:88
-msgid ""
-"This app does not currently provide information on where to inspect issues."
-msgstr ""
-"Bu uygulama, şu anda sorunların nerede inceleneceğine ilişkin bilgi "
-"sağlamamaktadır."
-
-#: templates/app.md:94 templates/app.md:70
+#: templates/app.md:75 templates/app.md:94 templates/app.md:93
 msgid "Installing a nightly build"
 msgstr "Gecelik inşadan kurulum"
 
-#: templates/app.md:96 templates/app.md:138 templates/app.md:77
-msgid "Quality testing"
-msgstr "Nitelik sınaması"
-
-#: templates/app.md:96 templates/app.md:72
+#: templates/app.md:77 templates/app.md:96 templates/app.md:95
 msgid ""
 "This app allows to install a version of its current development status. Such "
 "installations were traditionally generated each night, giving them the name "
@@ -674,17 +715,7 @@ msgstr ""
 "adlandırılırdı. Şimdilerde ise, genellikle ana geliştirme sürümü "
 "değiştiğinde yeniden üretilirler."
 
-#: templates/app.md:98 templates/app.md:79 templates/app.md:140
-msgid ""
-"Catching issues and regressions before they land in a stable release is very "
-"valuable for a project. You can help with this by trying out an upcoming "
-"release."
-msgstr ""
-"Kararlı sürüme ulaşmadan önce sorunları ve gerilemeleri yakalamak bir proje "
-"için çok değerlidir. Yaklaşan sürümleri deneyerek bu konuda yardımcı "
-"olabilirsiniz."
-
-#: templates/app.md:100 templates/app.md:76
+#: templates/app.md:81 templates/app.md:100 templates/app.md:99
 msgid ""
 "**Warning:** Nightly builds of apps should only be used for testing and not "
 "for actual tasks. You can identify nightly builds of the app on your system "
@@ -703,11 +734,32 @@ msgstr ""
 "Yedekleriniz olmadan asla uygulamaların gecelik inşalarıyla verileriniz "
 "üzerinde çalışmayın."
 
-#: templates/app.md:103 templates/app.md:144 templates/app.md:84
+#: templates/app.md:87
+msgid ""
+"This app does not currently provide information on where to inspect issues."
+msgstr ""
+"Bu uygulama, şu anda sorunların nerede inceleneceğine ilişkin bilgi "
+"sağlamamaktadır."
+
+#: templates/app.md:96 templates/app.md:119 templates/app.md:138
+msgid "Quality testing"
+msgstr "Nitelik sınaması"
+
+#: templates/app.md:98 templates/app.md:121 templates/app.md:67
+msgid ""
+"Catching issues and regressions before they land in a stable release is very "
+"valuable for a project. You can help with this by trying out an upcoming "
+"release."
+msgstr ""
+"Kararlı sürüme ulaşmadan önce sorunları ve gerilemeleri yakalamak bir proje "
+"için çok değerlidir. Yaklaşan sürümleri deneyerek bu konuda yardımcı "
+"olabilirsiniz."
+
+#: templates/app.md:103 templates/app.md:129 templates/app.md:144
 msgid "Chasing issues"
 msgstr "Sorunların izini sürmek"
 
-#: templates/app.md:105 templates/app.md:146 templates/app.md:86
+#: templates/app.md:105 templates/app.md:131 templates/app.md:146
 msgid ""
 "For many apps, the issue tracker is a central place for coordination of app "
 "development. It is not only used to track all existing problems but also to "
@@ -717,11 +769,21 @@ msgstr ""
 "ana yerdir. Yalnızca var olan tüm sorunları izlemek için değil, aynı zamanda "
 "yeni özellikleri ve diğer türlü görevleri planlamak için de kullanılır."
 
-#: templates/app.md:121 templates/app.md:162 templates/app.md:102
+#: templates/app.md:111 templates/app.md:130 templates/app.md:129
+msgid ""
+"The nightly version can also be installed via [Console](https://"
+"apps.gnome.org/app/org.gnome.Console/) if the nightly repository is already "
+"[configured](http://nightly.gnome.org)."
+msgstr ""
+"Gecelik sürüm, eğer gecelik depo önceden [yapılandırılmışsa](http://"
+"nightly.gnome.org) [Konsol](https://apps.gnome.org/app/org.gnome.Console/) "
+"üzerinden de kurulabilir."
+
+#: templates/app.md:121 templates/app.md:147 templates/app.md:162
 msgid "Reporting found issues"
 msgstr "Bulunan sorunları bildirmek"
 
-#: templates/app.md:123 templates/app.md:164 templates/app.md:104
+#: templates/app.md:123 templates/app.md:149 templates/app.md:164
 msgid ""
 "Reporting issues you found when using the app can be of high value for app "
 "maintainers. However, processing issue reports can also take considerable "
@@ -733,14 +795,18 @@ msgstr ""
 "ölçüde zaman alabilir. Aşağıdaki adımları deneyerek işin bir bölümünü "
 "üstlenebilirsiniz:"
 
-#: templates/app.md:125 templates/app.md:166 templates/app.md:106
+#: templates/app.md:124 templates/app.md:143 templates/app.md:119
+msgid "You can do this by trying out the nightly build of the app."
+msgstr "Bunu, uygulamanın gecelik inşasını deneyerek yapabilirsiniz."
+
+#: templates/app.md:125 templates/app.md:151 templates/app.md:166
 msgid ""
 "Search the issue tracker to find out if the issue has already been reported."
 msgstr ""
 "Sorunun daha önce bildirilip bildirilmediğini öğrenmek için sorun izleyicide "
 "arama yapın."
 
-#: templates/app.md:126 templates/app.md:167 templates/app.md:107
+#: templates/app.md:126 templates/app.md:152 templates/app.md:167
 msgid ""
 "Check if the issue also exists in the [latest version of the app](#trying-"
 "the-latest-version)."
@@ -748,7 +814,7 @@ msgstr ""
 "Sorunun [uygulamanın en son sürümünde](#trying-the-latest-version) de olup "
 "olmadığını denetleyin."
 
-#: templates/app.md:127 templates/app.md:168 templates/app.md:108
+#: templates/app.md:127 templates/app.md:153 templates/app.md:168
 msgid ""
 "If applicable, try to find out under which exact circumstances the problem "
 "occurs."
@@ -756,7 +822,7 @@ msgstr ""
 "Yapılabiliyorsa, sorunun tam olarak hangi koşullar altında ortaya çıktığını "
 "bulmaya çalışın."
 
-#: templates/app.md:128 templates/app.md:169 templates/app.md:109
+#: templates/app.md:128 templates/app.md:154 templates/app.md:169
 msgid ""
 "Report all potentially relevant information, like the version of the app "
 "that expose the behavior."
@@ -764,44 +830,35 @@ msgstr ""
 "İlgili davranışı ortaya çıkaran uygulama sürümü gibi olası tüm ilgili "
 "bilgileri bildirin."
 
-#: templates/app.md:130 templates/app.md:171 templates/app.md:111
+#: templates/app.md:130 templates/app.md:156 templates/app.md:171
 msgid "Diagnosing listed issues"
 msgstr "Listelenen sorunların saptanması"
 
-#: templates/app.md:130 templates/app.md:106
-msgid ""
-"The nightly version can also be installed via [Console](https://apps.gnome."
-"org/app/org.gnome.Console/) if the nightly repository is already [configured]"
-"(http://nightly.gnome.org)."
-msgstr ""
-"Gecelik sürüm, eğer gecelik depo önceden [yapılandırılmışsa](http://nightly."
-"gnome.org) [Konsol](https://apps.gnome.org/app/org.gnome.Console/) üzerinden "
-"de kurulabilir."
-
-#: templates/app.md:132 templates/app.md:173 templates/app.md:113
+#: templates/app.md:132 templates/app.md:158 templates/app.md:173
 msgid ""
 "Tracking down the exact cause of an issue can be a very important task. "
 "Especially for issues tagged with labels like “Needs Diagnosis” or “Needs "
 "Information.” If you can reproduce, that is, trigger the reported problem "
 "yourself, you can try to dig deeper. This can go from finding out under "
 "which exact conditions the issue appears, over running the app with [debug "
-"output enabled](https://developer-old.gnome.org/glib/unstable/glib-running."
-"html), to adding debug outputs to the code that narrow down the problem."
+"output enabled](https://developer-old.gnome.org/glib/unstable/glib-"
+"running.html), to adding debug outputs to the code that narrow down the "
+"problem."
 msgstr ""
 "Sorunun tam nedenini bulmak, özellikle “Tanı Gerekli” ya da “Bilgi Gerekli” "
 "gibi etiketlerle imlenmiş sorunlar için çok önemli bir iş olabilir. "
 "Bildirilen sorunu kendiniz yeniden üretebiliyorsanız, yani "
 "tetikleyebiliyorsanız, daha derinlere inmeyi de deneyebilirsiniz. Bu, "
 "sorunun tam olarak hangi koşullar altında ortaya çıktığını bulmaktan, "
-"uygulamayı [hata ayıklama çıktısı etkinleştirilerek](https://developer-old."
-"gnome.org/glib/unstable/glib-running.html) çalıştırmaya, sorunu daraltan "
+"uygulamayı [hata ayıklama çıktısı etkinleştirilerek](https://developer-"
+"old.gnome.org/glib/unstable/glib-running.html) çalıştırmaya, sorunu daraltan "
 "hata ayıklama çıktılarını koda eklemeye kadar gidebilir."
 
-#: templates/app.md:134 templates/app.md:175 templates/app.md:115
+#: templates/app.md:134 templates/app.md:160 templates/app.md:175
 msgid "Suggesting features"
 msgstr "Özellik önerme"
 
-#: templates/app.md:136 templates/app.md:177 templates/app.md:117
+#: templates/app.md:136 templates/app.md:162 templates/app.md:177
 msgid ""
 "Most apps handle feature requests via the issue tracker as well. Note that "
 "implementing features and maintaining them as part of the codebase in the "
@@ -815,7 +872,7 @@ msgstr ""
 "Dolayısıyla, yeni özelliğin bu uygulamanın parçası olacak kadar ilgili olup "
 "olmadığını göz önünde bulundurmalısınız."
 
-#: templates/app.md:138 templates/app.md:179 templates/app.md:119
+#: templates/app.md:138 templates/app.md:164 templates/app.md:179
 msgid ""
 "When suggesting a new feature, it is helpful to focus on the question of "
 "what practical problem the feature should solve. Not on how the app should "
@@ -828,7 +885,7 @@ msgstr ""
 "pratik sorunu çözmesi gerektiği konusuna odaklanmak daha yararlı olacaktır. "
 "Dilenirse, bu özelliğe gerek duyduğunuz pratik örnek de verebilirsiniz."
 
-#: templates/app.md:140 templates/app.md:116
+#: templates/app.md:140 templates/app.md:121 templates/app.md:139
 msgid ""
 "Catching issues and regressions before they land in a stable release is very "
 "valuable for a project. You can help with this by trying out an upcoming "
@@ -840,11 +897,11 @@ msgstr ""
 "olabilirsiniz.\n"
 "Bunu, uygulamanın gecelik inşasını deneyerek yapabilirsiniz."
 
-#: templates/app.md:140 templates/app.md:181 templates/app.md:121
+#: templates/app.md:140 templates/app.md:181 templates/app.md:109
 msgid "Finding a task"
 msgstr "Görev bulma"
 
-#: templates/app.md:142 templates/app.md:183 templates/app.md:123
+#: templates/app.md:142 templates/app.md:183 templates/app.md:111
 msgid ""
 "The issue tracker can also help you find open tasks you could tackle. Before "
 "implementing a new feature, it is usually a good idea to check in with the "
@@ -855,15 +912,11 @@ msgstr ""
 "birleştirme isteklerinin onaylanıp onaylanmayacağını bakımcılarla görüşerek "
 "doğrulamak genellikle iyi bir fikir olacaktır."
 
-#: templates/app.md:143 templates/app.md:119
-msgid "You can do this by trying out the nightly build of the app."
-msgstr "Bunu, uygulamanın gecelik inşasını deneyerek yapabilirsiniz."
-
-#: templates/app.md:146 templates/app.md:187 templates/app.md:127
+#: templates/app.md:146 templates/app.md:187 templates/app.md:201
 msgid "Working on the code"
 msgstr "Kod üzerinde çalışma"
 
-#: templates/app.md:148 templates/app.md:189 templates/app.md:129
+#: templates/app.md:148 templates/app.md:189 templates/app.md:203
 msgid ""
 "Whether you want to fix a typo, change the user interface, or work on the "
 "code of the app, the following information can help you get started. The "
@@ -880,7 +933,7 @@ msgstr ""
 "belgeleri inceleyebilirsiniz. Sonraki bölüm size değişikliklerinizi nasıl "
 "göndereceğinizi gösterecektir."
 
-#: templates/app.md:150 templates/app.md:191 templates/app.md:131
+#: templates/app.md:150 templates/app.md:191 templates/app.md:205
 msgid ""
 "If you are planning a somewhat larger change or addition to the app, it is "
 "often a good idea to check in with the maintainers of the app to find out if "
@@ -901,7 +954,7 @@ msgstr ""
 "denetlemek için de iyi bir yoldur. En iyi çabalarımıza karşın, tüm "
 "projelerin bakımı her zaman sürekli olarak yapılamamaktadır."
 
-#: templates/app.md:152 templates/app.md:193 templates/app.md:133
+#: templates/app.md:152 templates/app.md:193 templates/app.md:207
 msgid ""
 "Note that while many community members are happy to help you out when you "
 "are stuck, maintainers oftentimes might not have the resources to guide you "
@@ -911,7 +964,11 @@ msgstr ""
 "da, çoğu zaman bir katkıda bulunurken size kılavuzluk edebilecek kaynakları "
 "bulunmayabileceğini unutmayın."
 
-#: templates/app.md:185 templates/app.md:189 templates/app.md:124
+#: templates/app.md:182 templates/app.md:193 templates/app.md:223
+msgid "Getting the app to build"
+msgstr "Uygulamanın inşası"
+
+#: templates/app.md:185 templates/app.md:170 templates/app.md:189
 msgid ""
 "This app also has tasks which are labeled with the “Newcomer” tag. Those "
 "tasks usually require less prior knowledge or are less complex."
@@ -919,11 +976,7 @@ msgstr ""
 "Bu uygulamada “Yeni Gelenler” etiketiyle imlenmiş görevler de bulunmaktadır. "
 "Bu görevler genellikle daha az ön bilgi gerektirir ya da daha az karmaşıktır."
 
-#: templates/app.md:193 templates/app.md:182 templates/app.md:223
-msgid "Getting the app to build"
-msgstr "Uygulamanın inşası"
-
-#: templates/app.md:195 templates/app.md:184 templates/app.md:225
+#: templates/app.md:186 templates/app.md:197 templates/app.md:227
 msgid ""
 "When making changes to an app you will usually want to build and test the "
 "app with its changes on your computer. For most apps this process can be "
@@ -933,7 +986,7 @@ msgstr ""
 "birlikte bilgisayarınızda inşa etmek ve sınamak istersiniz. Bu işlem, çoğu "
 "uygulama için Builder uygulamasını kullanarak kolaylaştırılabilir."
 
-#: templates/app.md:211 templates/app.md:200 templates/app.md:241
+#: templates/app.md:202 templates/app.md:213 templates/app.md:243
 msgid ""
 "After starting Builder, you can choose to *clone* a project. This will "
 "download the app to your computer."
@@ -941,14 +994,18 @@ msgstr ""
 "Builder’ı başlattıktan sonra projeyi *klonlamayı* seçebilirsiniz. Bu, "
 "uygulamayı bilgisayarınıza indirecektir."
 
-#: templates/app.md:223 templates/app.md:212 templates/app.md:253
+#: templates/app.md:214 templates/app.md:225 templates/app.md:255
 msgid ""
 "You have to enter the repository location. The correct URL can be copied "
 "from below."
 msgstr ""
 "Depo konumunu girmeniz gerekir. Doğru URL’yi aşağıdan kopyalayabilirsiniz."
 
-#: templates/app.md:241 templates/app.md:230 templates/app.md:271
+#: templates/app.md:226
+msgid "There is no information available on how to build this app."
+msgstr ""
+
+#: templates/app.md:232 templates/app.md:243 templates/app.md:273
 msgid ""
 "Depending on your internet connection and the size of the project, cloning "
 "the project might take a while. After Builder has completed this step, the "
@@ -962,15 +1019,7 @@ msgstr ""
 "gerekebilir. Uygulamayı başarıyla inşa edip başlatıp başlatamayacağınızı "
 "denemek için şimdi “Projeyi Çalıştır” düğmesine basabilirsiniz."
 
-#: templates/app.md:245 templates/app.md:300 templates/app.md:304
-msgid "C language"
-msgstr "C dili"
-
-#: templates/app.md:245 templates/app.md:226 templates/app.md:224
-msgid "Python language"
-msgstr "Python dili"
-
-#: templates/app.md:251 templates/app.md:240 templates/app.md:281
+#: templates/app.md:242 templates/app.md:253 templates/app.md:283
 msgid ""
 "If everything goes right, the app should be built. After the build has been "
 "completed, the built app should start automatically."
@@ -978,27 +1027,35 @@ msgstr ""
 "Her şey yolunda giderse, uygulama sorunsuzca inşa edilmelidir. İnşa "
 "tamamlandıktan sonra, inşa edilen uygulama kendiliğinden başlamalıdır."
 
-#: templates/app.md:256 templates/app.md:286 templates/app.md:304
+#: templates/app.md:247 templates/app.md:226 templates/app.md:228
+msgid "Python language"
+msgstr "Python dili"
+
+#: templates/app.md:258 templates/app.md:299 templates/app.md:317
 msgid "Rust language"
 msgstr "Rust dili"
 
-#: templates/app.md:300 templates/app.md:304 templates/app.md:226
-msgid "Vala language"
-msgstr "Vala dili"
-
-#: templates/app.md:304 templates/app.md:226 templates/app.md:214
+#: templates/app.md:287 templates/app.md:216 templates/app.md:228
 msgid "JavaScript language"
 msgstr "JavaScript dili"
 
-#: templates/app.md:312 templates/app.md:310 templates/app.md:301
+#: templates/app.md:288 templates/app.md:302 templates/app.md:216
+msgid "C language"
+msgstr "C dili"
+
+#: templates/app.md:302 templates/app.md:306 templates/app.md:228
+msgid "Vala language"
+msgstr "Vala dili"
+
+#: templates/app.md:317 templates/app.md:296 templates/app.md:278
 msgid "Setting up GitHub"
 msgstr "GitHub’ı ayarlama"
 
-#: templates/app.md:341 templates/app.md:319 templates/app.md:371
+#: templates/app.md:346 templates/app.md:366 templates/app.md:324
 msgid "Submitting your work"
 msgstr "Çalışmanızı gönderme"
 
-#: templates/app.md:343 templates/app.md:321 templates/app.md:373
+#: templates/app.md:348 templates/app.md:368 templates/app.md:326
 msgid ""
 "After making changes to a project, you can submit them for review. Our goal "
 "is to create what’s called a *merge request* or *pull request*. That means "
@@ -1009,16 +1066,16 @@ msgstr ""
 "denilen şeyi oluşturmaktır. Bu, bir projenin kodunda ve verilerinde "
 "değişiklik önermek anlamına gelir."
 
-#: templates/app.md:358 templates/app.md:336 templates/app.md:388
+#: templates/app.md:360 templates/app.md:380 templates/app.md:338
 msgid "Setting up GitLab"
 msgstr "GitLab’ı ayarlama"
 
-#: templates/app.md:381 templates/app.md:359 templates/app.md:411
+#: templates/app.md:388 templates/app.md:408 templates/app.md:366
 msgid "Creating your own project copy"
 msgstr "Kendi proje kopyanızı oluşturma"
 
 # Ardından şu komutu kullanabilirsiniz: devamı
-#: templates/app.md:401 templates/app.md:379 templates/app.md:431
+#: templates/app.md:408 templates/app.md:428 templates/app.md:386
 msgid ""
 "where `<ssh-fork-url>` has to be replaced with the SSH URL you looked up in "
 "the previous step."
@@ -1026,15 +1083,15 @@ msgstr ""
 "burada `<ssh-fork-url>` bir önceki adımda baktığınız SSH URL’si ile "
 "değiştirilmelidir."
 
-#: templates/app.md:406 templates/app.md:384 templates/app.md:436
+#: templates/app.md:413 templates/app.md:433 templates/app.md:391
 msgid "Creating a merge request"
 msgstr "Birleştirme isteği oluşturma"
 
-#: templates/app.md:408 templates/app.md:386 templates/app.md:438
+#: templates/app.md:415 templates/app.md:435 templates/app.md:393
 msgid "We now arrive at what are more regular tasks when working with git."
 msgstr "Şimdi git ile çalışırken daha sıradan görevlere geliyoruz."
 
-#: templates/app.md:413 templates/app.md:391 templates/app.md:443
+#: templates/app.md:420 templates/app.md:440 templates/app.md:398
 msgid ""
 "First, we want to switch to what’s called a different *branch*. Branches are "
 "variants of the original code where you can, for example, develop a feature, "
@@ -1045,7 +1102,7 @@ msgstr ""
 "geliştirebileceğiniz özgün kodun türevleridir. Bunu yapmak için şunu "
 "çağırabilirsiniz"
 
-#: templates/app.md:419 templates/app.md:397 templates/app.md:449
+#: templates/app.md:426 templates/app.md:446 templates/app.md:404
 msgid ""
 "where `my-changes` is a short description of what you are working on, "
 "without spaces."
@@ -1053,7 +1110,7 @@ msgstr ""
 "burada `my-changes` üzerinde çalıştığınız konunun boşluksuz kısa "
 "açıklamasıdır."
 
-#: templates/app.md:424 templates/app.md:402 templates/app.md:454
+#: templates/app.md:431 templates/app.md:451 templates/app.md:409
 msgid ""
 "Next, we want to save the changes you made with git. That’s usually referred "
 "to as creating a *commit*. You can do this with the command"
@@ -1062,7 +1119,7 @@ msgstr ""
 "genellikle *işleme* oluşturmak olarak adlandırılır. Bunu şu komutla "
 "yapabilirsiniz"
 
-#: templates/app.md:430 templates/app.md:408 templates/app.md:460
+#: templates/app.md:437 templates/app.md:457 templates/app.md:415
 msgid ""
 "The commit messages should describe your changes. You can learn more about "
 "[choosing a fitting commit message](https://handbook.gnome.org/development/"
@@ -1072,7 +1129,7 @@ msgstr ""
 "seçme](https://handbook.gnome.org/development/commit-messages.html) ile "
 "ilgili daha çok bilgi edinebilirsiniz."
 
-#: templates/app.md:435 templates/app.md:413 templates/app.md:465
+#: templates/app.md:442 templates/app.md:462 templates/app.md:420
 msgid ""
 "Now, we have to get your saved changes onto GitLab. Luckily, we have already "
 "done all the setup with using `git remote add` in the previous section. All "
@@ -1082,7 +1139,7 @@ msgstr ""
 "bölümde `git remote add` kullanarak tüm kurulumu zaten yapmıştık. Şimdi "
 "geriye kalan tek işlem şunu çağırmak"
 
-#: templates/app.md:444 templates/app.md:422 templates/app.md:474
+#: templates/app.md:451 templates/app.md:471 templates/app.md:429
 msgid ""
 "We are finally at the last step. If you check the output in Console after "
 "our previous `git push` command, you will probably already see a website "
@@ -1139,12 +1196,13 @@ msgstr ""
 #: templates/index.md:21
 msgid ""
 "In GNOME we use Matrix chat to hang out together and discuss projects. You "
-"can get started in the [\\#newcomers room](https://matrix.to/#/#newcomers:"
-"gnome.org) or directly reach out in a more specific chat room."
+"can get started in the [\\#newcomers room](https://matrix.to/#/"
+"#newcomers:gnome.org) or directly reach out in a more specific chat room."
 msgstr ""
 "GNOME’da birlikte takılmak ve projeleri tartışmak için Matrix konuşmasını "
-"kullanıyoruz. [\\#newcomers odasından](https://matrix.to/#/#newcomers:gnome."
-"org) başlayabilir ya da doğrudan daha özel konuşma odasına erişebilirsiniz."
+"kullanıyoruz. [\\#newcomers odasından](https://matrix.to/#/"
+"#newcomers:gnome.org) başlayabilir ya da doğrudan daha özel konuşma odasına "
+"erişebilirsiniz."
 
 #: templates/index.md:34
 msgid "Creating a new app"
@@ -1226,8 +1284,8 @@ msgstr ""
 "Sizin için önemli olan ya da içsel bir güdü duyduğunuz bir konuyu çözmeye "
 "çalışın."
 
-#: templates/index.md:112 templates/app.md:249 templates/app.md:304
-#: templates/app.md:308
+#: templates/index.md:112 templates/app.md:292 templates/app.md:306
+#: templates/app.md:220
 msgid ""
 "To get started with developing GNOME apps with C we recommend the [Beginners "
 "Tutorial](https://developer.gnome.org/documentation/tutorials/beginners/"
@@ -1267,8 +1325,8 @@ msgstr ""
 "bulamadıysanız lütfen [bize bildirin.](https://gitlab.gnome.org/Teams/"
 "Websites/welcome.gnome.org/-/issues)"
 
-#: templates/index.md:154 templates/app.md:308 templates/app.md:230
-#: templates/app.md:218
+#: templates/index.md:154 templates/app.md:291 templates/app.md:220
+#: templates/app.md:232
 msgid ""
 "We recommend the [GJS Developer Guide](https://gjs.guide/guides/) to get "
 "started with JavaScript in GNOME. You can find other important resources "
@@ -1278,21 +1336,22 @@ msgstr ""
 "(https://gjs.guide/guides/) öneriyoruz. Diğer önemli kaynakları aşağıda "
 "bulabilirsiniz."
 
-#: templates/index.md:184 templates/app.md:249 templates/app.md:230
-#: templates/app.md:228
+#: templates/index.md:184 templates/app.md:251 templates/app.md:230
+#: templates/app.md:232
 msgid ""
-"If you are familiar with the basics of the [Python language](https://www."
-"python.org/), we recommend the [Beginners Tutorial](https://developer.gnome."
-"org/documentation/tutorials/beginners/getting_started.html) which also "
-"covers the Python language. You can find other important resources below."
+"If you are familiar with the basics of the [Python language](https://"
+"www.python.org/), we recommend the [Beginners Tutorial](https://"
+"developer.gnome.org/documentation/tutorials/beginners/getting_started.html) "
+"which also covers the Python language. You can find other important "
+"resources below."
 msgstr ""
 "[Python dilinin](https://www.python.org/) temellerine alışkınsanız, Python "
 "dilini de kapsayan [Yeni Başlayanlar Eğitimini](https://developer.gnome.org/"
 "documentation/tutorials/beginners/getting_started.html) öneririz. Diğer "
 "önemli kaynakları aşağıda bulabilirsiniz."
 
-#: templates/index.md:225 templates/app.md:260 templates/app.md:290
-#: templates/app.md:308
+#: templates/index.md:225 templates/app.md:262 templates/app.md:303
+#: templates/app.md:321
 msgid ""
 "If you are familiar with the basics of the [Rust language](https://www.rust-"
 "lang.org), we recommend the online book [GUI development with Rust and GTK 4]"
@@ -1306,14 +1365,21 @@ msgstr ""
 "uygulamalar oluşturmak için Rust’ın nasıl kullanılabileceğini "
 "açıklamaktadır. Diğer önemli kaynakları aşağıda bulabilirsiniz."
 
-#: templates/index.md:277 templates/app.md:304 templates/app.md:308
-#: templates/app.md:230
+#: templates/index.md:277 templates/app.md:306 templates/app.md:310
+#: templates/app.md:232
+#, fuzzy
+#| msgid ""
+#| "For getting started with the [Vala language](https://vala.dev/), we "
+#| "recommend the [Vala Tutorial](https://wiki.gnome.org/Projects/Vala/"
+#| "Tutorial) or the [Beginners Tutorial](https://developer.gnome.org/"
+#| "documentation/tutorials/beginners/getting_started.html), which also "
+#| "covers Vala. You can find other important resources below."
 msgid ""
 "For getting started with the [Vala language](https://vala.dev/), we "
-"recommend the [Vala Tutorial](https://wiki.gnome.org/Projects/Vala/Tutorial) "
-"or the [Beginners Tutorial](https://developer.gnome.org/documentation/"
-"tutorials/beginners/getting_started.html), which also covers Vala. You can "
-"find other important resources below."
+"recommend the [Vala Tutorial](https://docs.vala.dev/tutorials/programming-"
+"language/main.html) or the [Beginners Tutorial](https://developer.gnome.org/"
+"documentation/tutorials/beginners/getting_started.html), which also covers "
+"Vala. You can find other important resources below."
 msgstr ""
 "[Vala diline](https://vala.dev/) başlamak için, [Vala Eğitimini](https://"
 "wiki.gnome.org/Projects/Vala/Tutorial) ya da Vala’yı da kapsayan [Yeni "
@@ -1321,7 +1387,7 @@ msgstr ""
 "beginners/getting_started.html) öneririz. Diğer önemli kaynakları aşağıda "
 "bulabilirsiniz."
 
-#: templates/index.md:310
+#: templates/index.md:332
 msgid ""
 "The following apps are worth trying out to get started with development "
 "within GNOME. For more apps you can check the [Development Tools section]"
@@ -1458,9 +1524,9 @@ msgstr ""
 
 #: templates/team/design.md:58
 msgid ""
-"The posts in the design team’s [recommended reading list](https://hedgedoc."
-"gnome.org/design-reading?view#), particularly those by Havoc Pennington (for "
-"some insight into the history behind GNOME design work)."
+"The posts in the design team’s [recommended reading list](https://"
+"hedgedoc.gnome.org/design-reading?view#), particularly those by Havoc "
+"Pennington (for some insight into the history behind GNOME design work)."
 msgstr ""
 "Tasarım takımının [önerilen okuma listesindeki](https://hedgedoc.gnome.org/"
 "design-reading?view#) gönderiler, özellikle Havoc Pennington tarafından "
@@ -1543,11 +1609,11 @@ msgstr ""
 
 #: templates/team/websites.md:3
 msgid ""
-"The Websites Team maintains pages like [This Week in GNOME](https://thisweek."
-"gnome.org/), [Apps for GNOME](https://apps.gnome.org/), and many more. You "
-"can find an overview of all websites on our [team page](https://gitlab.gnome."
-"org/Teams/Websites/). The websites team is supported by the work of the "
-"design and infrastructure teams."
+"The Websites Team maintains pages like [This Week in GNOME](https://"
+"thisweek.gnome.org/), [Apps for GNOME](https://apps.gnome.org/), and many "
+"more. You can find an overview of all websites on our [team page](https://"
+"gitlab.gnome.org/Teams/Websites/). The websites team is supported by the "
+"work of the design and infrastructure teams."
 msgstr ""
 "Web Siteleri Takımı [GNOME’da Bu Hafta](https://thisweek.gnome.org/), [GNOME "
 "İçin Uygulamalar](https://apps.gnome.org/) gibi daha birçok sayfanın "
@@ -1594,13 +1660,17 @@ msgstr ""
 "Web sitelerindeki çalışmalar web sitesinden web sitesine büyük ölçüde "
 "değişiklik gösterir. Başlarken, tüm bir web sitesini ve hatta tüm web "
 "sitelerini yeniden tasarlamak gibi dürtülere direnmek iyi bir fikirdir. "
-"Bunun yerine, açık sorunlar için [takımın sorun izleyicisini](https://gitlab."
-"gnome.org/groups/Teams/Websites/-/issues/) gözden geçirebilirsiniz. Ayrıca "
-"hangi web sitesinin size teknoloji bakımından uygun olduğunu da "
+"Bunun yerine, açık sorunlar için [takımın sorun izleyicisini](https://"
+"gitlab.gnome.org/groups/Teams/Websites/-/issues/) gözden geçirebilirsiniz. "
+"Ayrıca hangi web sitesinin size teknoloji bakımından uygun olduğunu da "
 "inceleyebilirsiniz: Bazı web siteleri Sphinx, Jekyll ya da düz HTML ile "
 "yazılırken, diğerleri daha karmaşık Rust kodlarına dayanmaktadır."
 
-#: templates/team/websites.md:59 templates/index.md:308 templates/app.md:310
-#: templates/app.md:288 templates/app.md:340
+#: templates/team/websites.md:59 templates/index.md:330 templates/app.md:293
+#: templates/app.md:315 templates/app.md:335
 msgid "Useful apps"
 msgstr "Yararlı uygulamalar"
+
+#~ msgid ""
+#~ "The URL is available under the button “Clone” below “Clone with SSH.”"
+#~ msgstr "URL, “SSH ile klonla”nın altındaki “Klonla” düğmesinin altındadır."
