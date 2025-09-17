@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2023-05-10 12:32+0200\n"
-"PO-Revision-Date: 2023-10-24 10:37+0000\n"
+"POT-Creation-Date: 2025-07-23 13:31+0200\n"
+"PO-Revision-Date: 2025-09-17 17:53+0000\n"
 "Last-Translator: Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>\n"
 "Language-Team: Turkish <https://translations.documentfoundation.org/projects/libo_ui-master/filtermessages/tr/>\n"
 "Language: tr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-POOTLE-MTIME: 1554880045.000000\n"
 
 #. 5AQgJ
@@ -62,7 +62,7 @@ msgstr "'%s1' kullanıcı arayüzü ismi şu anda '%s2' XML süzgeci tarafından
 #: filter/inc/strings.hrc:35
 msgctxt "STR_ERROR_EXPORT_XSLT_NOT_FOUND"
 msgid "The XSLT for export cannot be found. Please enter a valid path."
-msgstr "Dışarı aktarma için XSLT bulunamadı. Lütfen geçerli bir dizin giriniz."
+msgstr "Dışa aktarma için XSLT bulunamadı. Lütfen geçerli bir dizin giriniz."
 
 #. 7VkMt
 #: filter/inc/strings.hrc:36
@@ -289,12 +289,12 @@ msgctxt "STR_ERR_PDF_EXPORT_ABORTED"
 msgid "PDF export aborted"
 msgstr "PDF dışa aktarımı iptal edildi"
 
-#. zLVLQ
+#. UAKJF
 #: filter/inc/strings.hrc:79
 msgctxt "STR_WARN_PDFUA_ISSUES"
-msgid "One accessibility issue detected. Do you want to continue?"
-msgid_plural "%1 accessibility issues detected. Do you want to continue?"
-msgstr[0] "%1 erişilebilirlik sorunu tespit edildi. Devam etmek istiyor musunuz?"
+msgid "One accessibility error detected. Do you want to continue?"
+msgid_plural "%1 accessibility errors detected. Do you want to continue?"
+msgstr[0] "Bir erişilebilirlik hatası tespit edildi. Devam etmek istiyor musunuz?"
 
 #. Kb2AE
 #: filter/inc/strings.hrc:80
@@ -302,12 +302,12 @@ msgctxt "STR_PDFUA_IGNORE"
 msgid "Continue"
 msgstr "Devam"
 
-#. PcZQn
+#. CqgUu
 #: filter/inc/strings.hrc:81
 msgctxt "STR_PDFUA_INVESTIGATE"
-msgid "Investigate issue"
-msgid_plural "Investigate issues"
-msgstr[0] "Sorunları incele"
+msgid "Investigate error"
+msgid_plural "Investigate errors"
+msgstr[0] "Hatayı araştırın"
 
 #. eNaMA
 #. Progress bar status indicator when importing or exporting
@@ -399,471 +399,525 @@ msgctxt "pdfgeneralpage|extended_tip|all"
 msgid "Exports all defined print ranges. If no print range is defined, exports the entire document."
 msgstr "Tüm tanımlı yazdırma aralıklarını dışa aktarır. Eğer tanımlı yazdırma aralığı yok ise tüm belgeyi dışa aktarır."
 
-#. NXztB
+#. mFDan
 #: filter/uiconfig/ui/pdfgeneralpage.ui:64
-msgctxt "pdfgeneralpage|range"
+msgctxt "pdfgeneralpage|pagerange"
 msgid "_Pages:"
-msgstr "_Sayfalar:"
+msgstr "_Safyalar:"
 
-#. ZdAZ9
+#. PGTnA
 #: filter/uiconfig/ui/pdfgeneralpage.ui:78
-msgctxt "pdfgeneralpage|extended_tip|range"
+msgctxt "pdfgeneralpage|extended_tip|pagerange"
 msgid "Exports the pages you type in the box."
 msgstr "Kutuya yazdığınız sayfaları dışa aktarır."
 
-#. WTSeS
+#. mshTf
 #: filter/uiconfig/ui/pdfgeneralpage.ui:89
+msgctxt "pdfgeneralpage|sheetrange"
+msgid "_Sheets:"
+msgstr "_Sayfalar:"
+
+#. YL2yA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:103
+msgctxt "pdfgeneralpage|extended_tip|sheetrange"
+msgid "Exports the sheets you type in the box."
+msgstr "Kutuya yazdığınız sayfaları dışa aktarır."
+
+#. WTSeS
+#: filter/uiconfig/ui/pdfgeneralpage.ui:114
 msgctxt "pdfgeneralpage|selection"
 msgid "_Selection"
 msgstr "_Seçim"
 
 #. RQeDb
-#: filter/uiconfig/ui/pdfgeneralpage.ui:99
+#: filter/uiconfig/ui/pdfgeneralpage.ui:124
 msgctxt "pdfgeneralpage|extended_tip|selection"
 msgid "Exports the current selection."
 msgstr "Mevcut seçimi dışa aktarır."
 
 #. qQrdx
-#: filter/uiconfig/ui/pdfgeneralpage.ui:121
+#: filter/uiconfig/ui/pdfgeneralpage.ui:146
 msgctxt "pdfgeneralpage|extended_tip|pages"
 msgid "Exports the pages you type in the box."
 msgstr "Kutuya yazdığınız sayfaları dışa aktarır."
 
-#. tFeCH
-#: filter/uiconfig/ui/pdfgeneralpage.ui:135
+#. 2xAFV
+#: filter/uiconfig/ui/pdfgeneralpage.ui:167
+msgctxt "pdfgeneralpage|extended_tip|sheets"
+msgid "Exports the sheets you type in the box."
+msgstr "Kutuya yazdığınız sayfaları dışa aktarır."
+
+#. di5RC
+#: filter/uiconfig/ui/pdfgeneralpage.ui:181
 msgctxt "pdfgeneralpage|slides"
-msgid "Slides:"
-msgstr "Slaytlar:"
+msgid "_Slides:"
+msgstr "_Slaytlar:"
 
 #. 9Cyn8
-#: filter/uiconfig/ui/pdfgeneralpage.ui:144
+#: filter/uiconfig/ui/pdfgeneralpage.ui:190
 msgctxt "pdfgeneralpage|viewpdf"
 msgid "_View PDF after export"
 msgstr "Dışa aktarma sonrası PDF'yi _göster"
 
 #. mwuGG
-#: filter/uiconfig/ui/pdfgeneralpage.ui:153
+#: filter/uiconfig/ui/pdfgeneralpage.ui:199
 msgctxt "pdfgeneralpage|extended_tip|viewpdf"
 msgid "Open the exported document in the system default PDF viewer."
 msgstr "Dışa aktarılan belgeyi sistem varsayılan PDF görüntüleyicisinde açın."
 
 #. aWj7F
-#: filter/uiconfig/ui/pdfgeneralpage.ui:168
+#: filter/uiconfig/ui/pdfgeneralpage.ui:214
 msgctxt "pdfgeneralpage|selectedsheets"
 msgid "_Selection/Selected sheet(s)"
 msgstr "_Seçim/Seçilen sayfa(lar)"
 
 #. MXtmZ
-#: filter/uiconfig/ui/pdfgeneralpage.ui:181
+#: filter/uiconfig/ui/pdfgeneralpage.ui:227
 msgctxt "pdfgeneralpage|label1"
 msgid "Range"
 msgstr "Aralık"
 
 #. WbQ5j
-#: filter/uiconfig/ui/pdfgeneralpage.ui:211
+#: filter/uiconfig/ui/pdfgeneralpage.ui:257
 msgctxt "pdfgeneralpage|losslesscompress"
 msgid "_Lossless compression"
 msgstr "_Kayıpsız sıkıştırma"
 
 #. 9ut6Q
-#: filter/uiconfig/ui/pdfgeneralpage.ui:221
+#: filter/uiconfig/ui/pdfgeneralpage.ui:267
 msgctxt "pdfgeneralpage|extended_tip|losslesscompress"
 msgid "Selects a lossless compression of images. All pixels are preserved."
 msgstr "Kayıpsız resim sıkıştırmayı seçer. Tüm pikseller korunur."
 
-#. ccCL4
-#: filter/uiconfig/ui/pdfgeneralpage.ui:233
-msgctxt "pdfgeneralpage|reduceresolution"
-msgid "Reduce ima_ge resolution to:"
-msgstr "_Görüntü çözünürlüğünü şu şekilde azalt:"
+#. GSkFq
+#: filter/uiconfig/ui/pdfgeneralpage.ui:279
+msgctxt "pdfgeneralpage|changeresolution"
+msgid "Change ima_ge resolution to:"
+msgstr "Resim çözünürlüğünü şuna değiştir:"
 
-#. bAtCV
-#: filter/uiconfig/ui/pdfgeneralpage.ui:245
-msgctxt "pdfgeneralpage|extended_tip|reduceresolution"
+#. imABE
+#: filter/uiconfig/ui/pdfgeneralpage.ui:291
+msgctxt "pdfgeneralpage|extended_tip|changeresolution"
 msgid "Select to resample or down-size the images to a lower number of pixels per inch."
-msgstr "Görüntüleri inç başına daha düşük piksel sayısı olacak şekilde yeniden örneklemek veya küçültmek için seçin."
+msgstr "Görüntüleri inç başına daha düşük piksel sayısına yeniden örneklemek veya aşağı boyutlandırmak için seçin."
 
 #. XHeTx
-#: filter/uiconfig/ui/pdfgeneralpage.ui:260
+#: filter/uiconfig/ui/pdfgeneralpage.ui:306
 msgctxt "pdfgeneralpage|resolution"
 msgid "75 DPI"
 msgstr "75 DPI"
 
 #. CXj4e
-#: filter/uiconfig/ui/pdfgeneralpage.ui:261
+#: filter/uiconfig/ui/pdfgeneralpage.ui:307
 msgctxt "pdfgeneralpage|resolution"
 msgid "150 DPI"
 msgstr "150 DPI"
 
 #. jZKqd
-#: filter/uiconfig/ui/pdfgeneralpage.ui:262
+#: filter/uiconfig/ui/pdfgeneralpage.ui:308
 msgctxt "pdfgeneralpage|resolution"
 msgid "300 DPI"
 msgstr "300 DPI"
 
 #. GsMsK
-#: filter/uiconfig/ui/pdfgeneralpage.ui:263
+#: filter/uiconfig/ui/pdfgeneralpage.ui:309
 msgctxt "pdfgeneralpage|resolution"
 msgid "600 DPI"
 msgstr "600 DPI"
 
 #. 5yTAM
-#: filter/uiconfig/ui/pdfgeneralpage.ui:264
+#: filter/uiconfig/ui/pdfgeneralpage.ui:310
 msgctxt "pdfgeneralpage|resolution"
 msgid "1200 DPI"
 msgstr "1200 DPI"
 
 #. r6npH
-#: filter/uiconfig/ui/pdfgeneralpage.ui:270
+#: filter/uiconfig/ui/pdfgeneralpage.ui:316
 msgctxt "pdfgeneralpage|comboboxtext-entry"
 msgid "75 DPI"
 msgstr "75 DPI"
 
 #. SkTeA
-#: filter/uiconfig/ui/pdfgeneralpage.ui:279
+#: filter/uiconfig/ui/pdfgeneralpage.ui:325
 msgctxt "pdfgeneralpage|extended_tip|resolution"
 msgid "Select the target resolution for the images."
 msgstr "Resimler için hedef çözünürlüğü seçin."
 
 #. mEbKx
-#: filter/uiconfig/ui/pdfgeneralpage.ui:303
+#: filter/uiconfig/ui/pdfgeneralpage.ui:349
 msgctxt "pdfgeneralpage|extended_tip|quality"
 msgid "Enter the quality level for JPEG compression."
 msgstr "JPEG sıkıştırma için kalite seviyesi girin."
 
 #. FP56V
-#: filter/uiconfig/ui/pdfgeneralpage.ui:325
+#: filter/uiconfig/ui/pdfgeneralpage.ui:371
 msgctxt "pdfgeneralpage|jpegcompress"
 msgid "_JPEG compression"
 msgstr "_JPEG sıkıştırma"
 
 #. PZCPi
-#: filter/uiconfig/ui/pdfgeneralpage.ui:335
+#: filter/uiconfig/ui/pdfgeneralpage.ui:381
 msgctxt "pdfgeneralpage|extended_tip|jpegcompress"
 msgid "Select a JPEG compression level. With a high quality level, almost all pixels are preserved. With a low quality level, some pixels are lost and artifacts are introduced, but file sizes are reduced."
 msgstr "Bir JPEG sıkıştırma düzeyi seçin. Yüksek kalite düzeyinde neredeyse tüm pikseller korunur. Düşük kalite düzeyinde bazı pikseller kaybolur ve yapay nesneler ortaya çıkar ancak dosya boyutu küçültülür."
 
 #. ST3Rc
-#: filter/uiconfig/ui/pdfgeneralpage.ui:349
+#: filter/uiconfig/ui/pdfgeneralpage.ui:395
 msgctxt "pdfgeneralpage|label6"
 msgid "_Quality:"
 msgstr "_Kalite:"
 
 #. cFwGA
-#: filter/uiconfig/ui/pdfgeneralpage.ui:371
+#: filter/uiconfig/ui/pdfgeneralpage.ui:417
 msgctxt "pdfgeneralpage|label2"
 msgid "Images"
 msgstr "Resimler"
 
 #. NwjSn
-#: filter/uiconfig/ui/pdfgeneralpage.ui:401
+#: filter/uiconfig/ui/pdfgeneralpage.ui:447
 msgctxt "pdfgeneralpage|watermark"
 msgid "Sign with _watermark"
 msgstr "Filigran _ile imzala"
 
 #. 2uMoT
-#: filter/uiconfig/ui/pdfgeneralpage.ui:410
+#: filter/uiconfig/ui/pdfgeneralpage.ui:456
 msgctxt "pdfgeneralpage|extended_tip|watermark"
 msgid "Add a centered, vertical, light green watermark text to the page background. The watermark is not part of the source document."
 msgstr "Sayfa arka planına ortalanmış, dikey, açık yeşil bir filigran metni ekleyin.  Filigran, kaynak belgenin bir parçası değildir."
 
 #. L7AYx
-#: filter/uiconfig/ui/pdfgeneralpage.ui:427
+#: filter/uiconfig/ui/pdfgeneralpage.ui:473
 msgctxt "pdfgeneralpage|extended_tip|watermarkentry"
 msgid "Insert the text for the watermark signature."
 msgstr "Filigran imzası için metni ekleyin."
 
 #. JtBsL
-#: filter/uiconfig/ui/pdfgeneralpage.ui:439
+#: filter/uiconfig/ui/pdfgeneralpage.ui:485
 msgctxt "pdfgeneralpage|watermarklabel"
 msgid "Text:"
 msgstr "Metin:"
 
 #. VfFZf
-#: filter/uiconfig/ui/pdfgeneralpage.ui:458
+#: filter/uiconfig/ui/pdfgeneralpage.ui:504
 msgctxt "pdfgeneralpage|label3"
 msgid "Watermark"
 msgstr "Filigran"
 
 #. 2hSjJ
-#: filter/uiconfig/ui/pdfgeneralpage.ui:500
+#: filter/uiconfig/ui/pdfgeneralpage.ui:546
 msgctxt "pdfgeneralpage|embed"
 msgid "Hybrid PDF (em_bed ODF file)"
 msgstr "Melez PDF (gö_mülü ODF dosyası)"
 
-#. vzxG2
-#: filter/uiconfig/ui/pdfgeneralpage.ui:504
+#. eNsuA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:550
 msgctxt "pdfgeneralpage|embed|tooltip_text"
-msgid "Creates a PDF that is easily editable in %PRODUCTNAME"
-msgstr "%PRODUCTNAME ile kolayca düzenlenebilir bir PDF oluşturur"
+msgid "Creates a PDF that embeds the original ODF file as an attachment."
+msgstr "Özgün ODF dosyasının ek olarak yerleştirildiği bir PDF oluşturur."
 
-#. 3tDFv
-#: filter/uiconfig/ui/pdfgeneralpage.ui:510
+#. JS7DG
+#: filter/uiconfig/ui/pdfgeneralpage.ui:556
 msgctxt "pdfgeneralpage|extended_tip|embed"
-msgid "This setting enables you to export the document as a .pdf file containing two file formats: PDF and ODF."
-msgstr "Bu ayar belgenizi PDF ve ODF biçimlerini içeren bir .pdf dosyası olarak dışa aktarmanızı sağlar."
+msgid "This setting enables you to export the document as a .pdf file containing two file formats: PDF and ODF as an attachment. "
+msgstr "Bu ayar, belgeyi iki dosya biçimi içeren bir .pdf dosyası olarak dışa aktarmanızı sağlar: PDF ve ek olarak ODF. "
 
-#. RAvA6
-#: filter/uiconfig/ui/pdfgeneralpage.ui:521
-msgctxt "pdfgeneralpage|tagged"
-msgid "_Tagged PDF (add document structure)"
-msgstr "_Etiketli PDF (belge yapısını ekle)"
+#. NCgBM
+#: filter/uiconfig/ui/pdfgeneralpage.ui:583
+msgctxt "pdfgeneralpage|pdf_version|tooltip_text"
+msgid "Select the PDF version. PDF/A version variants creates an ISO 19005 compliant PDF file, ideal for long-term document preservation."
+msgstr "PDF sürümünü seçin. PDF/A sürümü varyantları, uzun süreli belge koruma için ideal olan ISO 19005 uyumlu bir PDF dosyası oluşturur."
 
-#. cAm8Z
-#: filter/uiconfig/ui/pdfgeneralpage.ui:525
-msgctxt "pdfgeneralpage|tagged|tooltip_text"
-msgid "Includes a document's content structure information in a PDF"
-msgstr "Bir belgenin içerik yapı bilgisini PDF dosyasına dahil eder"
+#. Ac3Ga
+#: filter/uiconfig/ui/pdfgeneralpage.ui:587
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF 1.7"
+msgstr "PDF 1.7"
 
-#. Btxot
-#: filter/uiconfig/ui/pdfgeneralpage.ui:531
-msgctxt "pdfgeneralpage|extended_tip|tagged"
-msgid "Select to write PDF tags. This can increase file size by huge amounts."
-msgstr "PDF etiketlerini yazdırmak için seçin. Bu, dosya boyutunu büyük miktarlarda artırabilir."
+#. D6SQE
+#: filter/uiconfig/ui/pdfgeneralpage.ui:588
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF 2.0"
+msgstr "PDF 2.0"
 
-#. 6sDFd
-#: filter/uiconfig/ui/pdfgeneralpage.ui:542
-msgctxt "pdfgeneralpage|forms"
-msgid "Create PDF for_m"
-msgstr "PDF for_mu oluştur"
+#. 5ZmpA
+#: filter/uiconfig/ui/pdfgeneralpage.ui:589
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-1b (PDF 1.4 base)"
+msgstr "PDF/A-1b (PDF 1.4 tabanı)"
 
-#. 3Vg8V
-#: filter/uiconfig/ui/pdfgeneralpage.ui:546
-msgctxt "pdfgeneralpage|forms|tooltip_text"
-msgid "Creates a PDF with fields that can be filled out"
-msgstr "Alanları doldurulabilecek bir PDF dosyası oluşturur"
+#. wVHBd
+#: filter/uiconfig/ui/pdfgeneralpage.ui:590
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-2b (PDF 1.7 base)"
+msgstr "PDF/A-2b (PDF 1.7 tabanı)"
 
-#. hmxuq
-#: filter/uiconfig/ui/pdfgeneralpage.ui:552
-msgctxt "pdfgeneralpage|extended_tip|forms"
-msgid "Choose to create a PDF form. This can be filled out and printed by the user of the PDF document."
-msgstr "Bir PDF formu oluşturmak için seçin. Bu PDF dosyasının kullanıcısı tarafından doldurulabilir ve yazdırılabilir."
+#. xFuVe
+#: filter/uiconfig/ui/pdfgeneralpage.ui:591
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-3b (PDF 1.7 base)"
+msgstr "PDF/A-3b (PDF 1.7 tabanı)"
 
-#. B7zan
-#: filter/uiconfig/ui/pdfgeneralpage.ui:572
-msgctxt "pdfgeneralpage|allowdups"
-msgid "Allow duplicate field _names"
-msgstr "Tekrarlana_n alan adlarına izin ver"
+#. Pk2QP
+#: filter/uiconfig/ui/pdfgeneralpage.ui:592
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF/A-4 (PDF 2.0 base)"
+msgstr "PDF/A-4 (PDF 2.0 tabanı)"
 
-#. D4MmM
-#: filter/uiconfig/ui/pdfgeneralpage.ui:581
-msgctxt "pdfgeneralpage|extended_tip|allowdups"
-msgid "Allows you to use the same field name for multiple fields in the generated PDF file. If disabled, field names will be exported using generated unique names."
-msgstr "Oluşturulan PDF dosyasında birden fazla alan için aynı alan adını kullanmaya izin verir. Etkisiz hale getirilirse alan adları oluşturulan benzersiz adlarla dışa aktarılırlar."
-
-#. tkPCH
-#: filter/uiconfig/ui/pdfgeneralpage.ui:597
-msgctxt "pdfgeneralpage|format"
-msgid "FDF"
-msgstr "FDF"
-
-#. rfzrh
-#: filter/uiconfig/ui/pdfgeneralpage.ui:598
-msgctxt "pdfgeneralpage|format"
-msgid "PDF"
-msgstr "PDF"
-
-#. S7caE
+#. S7DSM
 #: filter/uiconfig/ui/pdfgeneralpage.ui:599
-msgctxt "pdfgeneralpage|format"
-msgid "HTML"
-msgstr "HTML"
+msgctxt "pdfgeneralpage|extended_tip|pdf_version"
+msgid "Versions can be either the \"classic\" PDF (i.e. PDF 1.7, PDF 2.0) or PDF/A conformant. PDF/A is defined as an electronic document file format for long term preservation  and archiving. It allows only a subset of PDF features that are compatible with that use case. For example: All fonts that were used in the source document will be embedded into the generated PDF file. PDF tags will be written."
+msgstr "Sürümler “klasik” PDF (ör. PDF 1.7, PDF 2.0) veya PDF/A uyumlu olabilir. PDF/A, uzun vadeli koruma ve arşivleme için tanımlanmış elektronik belge dosya formatıdır. Bu kullanım durumu ile uyumlu PDF özelliklerinin yalnızca bir alt kümesine izin verir. Örneğin: Kaynak belgede kullanılan tüm yazı tipleri oluşturulan PDF dosyasına gömülecektir. PDF etiketleri yazılacaktır."
 
-#. HUzsi
-#: filter/uiconfig/ui/pdfgeneralpage.ui:600
-msgctxt "pdfgeneralpage|format"
-msgid "XML"
-msgstr "XML"
-
-#. xbYYC
-#: filter/uiconfig/ui/pdfgeneralpage.ui:604
-msgctxt "pdfgeneralpage|extended_tip|format"
-msgid "Select the format of submitting forms from within the PDF file."
-msgstr "PDF dosyası içinde form gönderme biçimini seçin."
-
-#. ECLBB
-#: filter/uiconfig/ui/pdfgeneralpage.ui:626
-msgctxt "pdfgeneralpage|label7"
-msgid "Submit _format:"
-msgstr "Biçimi _gönder:"
-
-#. JwEDc
-#: filter/uiconfig/ui/pdfgeneralpage.ui:657
-msgctxt "pdfgeneralpage|pdfa"
-msgid "Archival (P_DF/A, ISO 19005)"
-msgstr "Arşiv (P_DF/A, ISO 19005)"
-
-#. qQjPA
-#: filter/uiconfig/ui/pdfgeneralpage.ui:661
-msgctxt "pdfgeneralpage|pdfa|tooltip_text"
-msgid "Creates an ISO 19005-2 compliant PDF file, ideal for long-term document preservation"
-msgstr "ISO 19005-2 uyumlu bir PDF dosyası oluşturur, uzun dönemli dosya saklamak için uygundur"
-
-#. Zhi5M
-#: filter/uiconfig/ui/pdfgeneralpage.ui:667
-msgctxt "pdfgeneralpage|extended_tip|pdfa"
-msgid "Converts to the PDF/A-2b or PDF/A-1b format. This is defined as an electronic document file format for long term preservation. All fonts that were used in the source document will be embedded into the generated PDF file. PDF tags will be written."
-msgstr "PDF/A-2b veya PDF/A-1b biçimine dönüştürür. Bu dosya biçimi uzun dönem saklama için elektronik belge biçimi olarak tanımlanmaktadır. Kaynak belgede kullanılan bütün yazı tipleri oluşturulan PDF dosyasının içine gömülecektir. PDF etiketleri yazılacaktır."
-
-#. jmaDc
-#: filter/uiconfig/ui/pdfgeneralpage.ui:716
-msgctxt "pdfgeneralpage|pdfaversion"
-msgid "PDF_/A version:"
-msgstr "PDF_/A sürümü:"
+#. te76B
+#: filter/uiconfig/ui/pdfgeneralpage.ui:620
+msgctxt "pdfgeneralpage|pdf_version"
+msgid "PDF_ Version:"
+msgstr "PDF_Sürüm:"
 
 #. VQGHi
-#: filter/uiconfig/ui/pdfgeneralpage.ui:748
+#: filter/uiconfig/ui/pdfgeneralpage.ui:652
 msgctxt "pdfgeneralpage|pdfua"
 msgid "Universal Accessibilit_y (PDF/UA)"
 msgstr "Evrensel Erişilebilirli_k (PDF/UA)"
 
 #. 4B3FD
-#: filter/uiconfig/ui/pdfgeneralpage.ui:752
+#: filter/uiconfig/ui/pdfgeneralpage.ui:656
 msgctxt "pdfgeneralpage|pdfua|tooltip_text"
 msgid "Creates a universal accessibility-compliant PDF file that follows the requirements of PDF/UA (ISO 14289) specifications."
 msgstr "PDF/UA (ISO 14289) özelliklerinin ihtiyaçlarına uyan ve evrensel erişilebilirlik ile uyumlu bir PDF dosyası oluşturur."
 
 #. Birq5
-#: filter/uiconfig/ui/pdfgeneralpage.ui:758
+#: filter/uiconfig/ui/pdfgeneralpage.ui:662
 msgctxt "pdfgeneralpage|extended_tip|pdfua"
 msgid "Creates a universal accessibility-complying PDF file that follows the requirements of PDF/UA (ISO 14289) specifications."
 msgstr "PDF/UA (ISO 14289) belirtimlerinin gereksinimlerini karşılayan evrensel erişilebilirlikle uyumlu bir PDF dosyası oluşturur."
 
-#. Drqkd
-#: filter/uiconfig/ui/pdfgeneralpage.ui:773
-msgctxt "pdfgeneralpage|label4"
+#. tCrYc
+#: filter/uiconfig/ui/pdfgeneralpage.ui:677
+msgctxt "pdfgeneralpage|general_label"
 msgid "General"
 msgstr "Genel"
 
+#. B7zan
+#: filter/uiconfig/ui/pdfgeneralpage.ui:715
+msgctxt "pdfgeneralpage|allowdups"
+msgid "Allow duplicate field _names"
+msgstr "Tekrarlana_n alan adlarına izin ver"
+
+#. D4MmM
+#: filter/uiconfig/ui/pdfgeneralpage.ui:724
+msgctxt "pdfgeneralpage|extended_tip|allowdups"
+msgid "Allows you to use the same field name for multiple fields in the generated PDF file. If disabled, field names will be exported using generated unique names."
+msgstr "Oluşturulan PDF dosyasında birden fazla alan için aynı alan adını kullanmaya izin verir. Etkisiz hale getirilirse alan adları oluşturulan benzersiz adlarla dışa aktarılırlar."
+
+#. tkPCH
+#: filter/uiconfig/ui/pdfgeneralpage.ui:740
+msgctxt "pdfgeneralpage|format"
+msgid "FDF"
+msgstr "FDF"
+
+#. rfzrh
+#: filter/uiconfig/ui/pdfgeneralpage.ui:741
+msgctxt "pdfgeneralpage|format"
+msgid "PDF"
+msgstr "PDF"
+
+#. S7caE
+#: filter/uiconfig/ui/pdfgeneralpage.ui:742
+msgctxt "pdfgeneralpage|format"
+msgid "HTML"
+msgstr "HTML"
+
+#. HUzsi
+#: filter/uiconfig/ui/pdfgeneralpage.ui:743
+msgctxt "pdfgeneralpage|format"
+msgid "XML"
+msgstr "XML"
+
+#. xbYYC
+#: filter/uiconfig/ui/pdfgeneralpage.ui:747
+msgctxt "pdfgeneralpage|extended_tip|format"
+msgid "Select the format of submitting forms from within the PDF file."
+msgstr "PDF dosyası içinde form gönderme biçimini seçin."
+
+#. ECLBB
+#: filter/uiconfig/ui/pdfgeneralpage.ui:769
+msgctxt "pdfgeneralpage|label7"
+msgid "Submit _format:"
+msgstr "Biçimi _gönder:"
+
+#. 6sDFd
+#: filter/uiconfig/ui/pdfgeneralpage.ui:794
+msgctxt "pdfgeneralpage|forms"
+msgid "Create PDF for_m"
+msgstr "PDF for_mu oluştur"
+
+#. 3Vg8V
+#: filter/uiconfig/ui/pdfgeneralpage.ui:798
+msgctxt "pdfgeneralpage|forms|tooltip_text"
+msgid "Creates a PDF with fields that can be filled out"
+msgstr "Alanları doldurulabilecek bir PDF dosyası oluşturur"
+
+#. hmxuq
+#: filter/uiconfig/ui/pdfgeneralpage.ui:804
+msgctxt "pdfgeneralpage|extended_tip|forms"
+msgid "Choose to create a PDF form. This can be filled out and printed by the user of the PDF document."
+msgstr "Bir PDF formu oluşturmak için seçin. Bu PDF dosyasının kullanıcısı tarafından doldurulabilir ve yazdırılabilir."
+
+#. 9iu3h
+#: filter/uiconfig/ui/pdfgeneralpage.ui:819
+msgctxt "pdfgeneralpage|forms_label"
+msgid "Forms"
+msgstr "Formlar"
+
 #. FQzGc
-#: filter/uiconfig/ui/pdfgeneralpage.ui:802
+#: filter/uiconfig/ui/pdfgeneralpage.ui:848
 msgctxt "pdfgeneralpage|bookmarks"
 msgid "Export outl_ines"
 msgstr "Anahattı d_ışa aktar"
 
 #. Cc2Um
-#: filter/uiconfig/ui/pdfgeneralpage.ui:809
+#: filter/uiconfig/ui/pdfgeneralpage.ui:852
 msgctxt "pdfgeneralpage|bookmarks|tooltip_text"
 msgid "Export headings along with hyperlinked entries in Table of Contents as PDF bookmarks."
 msgstr "İçindekiler'deki köprülü girişlerle birlikte başlıkları PDF yer imleri olarak dışa aktar."
 
 #. Q3h6b
-#: filter/uiconfig/ui/pdfgeneralpage.ui:812
+#: filter/uiconfig/ui/pdfgeneralpage.ui:858
 msgctxt "pdfgeneralpage|extended_tip|bookmarks"
 msgid "PDF bookmarks are created for all paragraphs with outline level 1 or greater and for all “Table of Contents” entries with hyperlinks."
 msgstr "PDF yer imleri, anahat düzeyi 1 veya daha yüksek olan tüm paragraflar ve köprü içeren tüm \"İçindekiler Tablosu\" girdileri için oluşturulur."
 
 #. kQbPh
-#: filter/uiconfig/ui/pdfgeneralpage.ui:823
+#: filter/uiconfig/ui/pdfgeneralpage.ui:869
 msgctxt "pdfgeneralpage|exportplaceholders"
 msgid "Expo_rt placeholders"
 msgstr "Yer tutucuları _dışa aktar"
 
 #. T6RjA
-#: filter/uiconfig/ui/pdfgeneralpage.ui:832
+#: filter/uiconfig/ui/pdfgeneralpage.ui:878
 msgctxt "pdfgeneralpage|extended_tip|exportplaceholders"
 msgid "Export the placeholders fields visual markings only. The exported placeholder is ineffective."
 msgstr "Yer tutucu alanlarını yalnızca görsel işaretler olarak dışa aktarın.  Dışa aktarılan yer tutucu etkin değil."
 
 #. P4kGd
-#: filter/uiconfig/ui/pdfgeneralpage.ui:843
+#: filter/uiconfig/ui/pdfgeneralpage.ui:889
 msgctxt "pdfgeneralpage|comments"
 msgid "Comm_ents as PDF annotations"
 msgstr "Açıklamal_arı PDF dipnotu olarak"
 
 #. SijbK
-#: filter/uiconfig/ui/pdfgeneralpage.ui:852
+#: filter/uiconfig/ui/pdfgeneralpage.ui:898
 msgctxt "pdfgeneralpage|extended_tip|comments"
 msgid "Select to export comments of Writer and Calc documents as PDF annotations."
 msgstr "Writer ve Calc belgelerinin açıklamalarını PDF ek açıklamaları olarak dışa aktarmak için seçer."
 
 #. y9evS
-#: filter/uiconfig/ui/pdfgeneralpage.ui:863
+#: filter/uiconfig/ui/pdfgeneralpage.ui:909
 msgctxt "pdfgeneralpage|emptypages"
 msgid "Exp_ort automatically inserted blank pages"
 msgstr "_Otomatik eklenmiş boş sayfaları dışa aktar"
 
 #. Drp3w
-#: filter/uiconfig/ui/pdfgeneralpage.ui:872
+#: filter/uiconfig/ui/pdfgeneralpage.ui:918
 msgctxt "pdfgeneralpage|extended_tip|emptypages"
 msgid "If switched on, automatically inserted blank pages are exported to the PDF file. This is best if you are printing the pdf file double-sided. Example: In a book a chapter paragraph style is set to always start with an odd numbered page. If the previous chapter ends on an odd page, then an even numbered blank page is normally automatically inserted. This option controls whether to export that even numbered page or not."
 msgstr "Açılırsa, otomatik olarak eklenen boş sayfalar PDF dosyasına aktarılır.  Bu, pdf dosyasını çift taraflı yazdırıyorsanız en iyisidir.  Örnek: Bir kitapta bölüm paragraf biçemi her zaman tek numaralı bir sayfayla başlayacak şekilde ayarlanmıştır.  Önceki bölüm tek bir sayfada bitiyorsa, normalde otomatik olarak çift numaralı boş bir sayfa eklenir.  Bu seçenek, o çift numaralı sayfanın dışa aktarılıp aktarılmayacağını kontrol eder."
 
 #. sHqKP
-#: filter/uiconfig/ui/pdfgeneralpage.ui:883
+#: filter/uiconfig/ui/pdfgeneralpage.ui:929
 msgctxt "pdfgeneralpage|usereferencexobject"
 msgid "Use reference XObjects"
 msgstr "XNesnesi başvurusu kullan"
 
 #. avuEd
-#: filter/uiconfig/ui/pdfgeneralpage.ui:892
+#: filter/uiconfig/ui/pdfgeneralpage.ui:938
 msgctxt "pdfgeneralpage|extended_tip|usereferencexobject"
 msgid "When the option is enabled, then the reference XObject markup is used:  viewers have to support this markup to show vector images. Otherwise a fallback bitmap is shown in the viewer."
 msgstr "Seçenek etkinleştirildiğinde, referans XObject işaretlemesi kullanılır: izleyicilerin vektör görüntülerini göstermek için bu işaretlemeyi desteklemesi gerekir.  Aksi takdirde, görüntüleyicide bir geri dönüş bitmap gösterilir."
 
 #. 2K2cD
-#: filter/uiconfig/ui/pdfgeneralpage.ui:903
+#: filter/uiconfig/ui/pdfgeneralpage.ui:949
 msgctxt "pdfgeneralpage|hiddenpages"
 msgid "Export _hidden pages"
 msgstr "Gizli _sayfaları dışa aktar"
 
 #. Gr5rf
-#: filter/uiconfig/ui/pdfgeneralpage.ui:912
+#: filter/uiconfig/ui/pdfgeneralpage.ui:958
 msgctxt "pdfgeneralpage|extended_tip|hiddenpages"
 msgid "Exports document hidden slides."
 msgstr "Gizli slaytları dışa aktarır."
 
 #. ghuXR
-#: filter/uiconfig/ui/pdfgeneralpage.ui:923
+#: filter/uiconfig/ui/pdfgeneralpage.ui:969
 msgctxt "pdfgeneralpage|notes"
 msgid "Export _notes pages"
 msgstr "_Not sayfalarını dışa aktar"
 
 #. hRjqL
-#: filter/uiconfig/ui/pdfgeneralpage.ui:932
+#: filter/uiconfig/ui/pdfgeneralpage.ui:978
 msgctxt "pdfgeneralpage|extended_tip|notes"
 msgid "Export also the Notes pages view at the end of the exported PDF presentation document."
 msgstr "Dışa aktarılan PDF sunum belgesinin sonundaki Notlar sayfaları görünümünü de dışa aktarın."
 
 #. BGvC2
-#: filter/uiconfig/ui/pdfgeneralpage.ui:943
+#: filter/uiconfig/ui/pdfgeneralpage.ui:989
 msgctxt "pdfgeneralpage|onlynotes"
 msgid "Export onl_y notes pages"
 msgstr "_Sadece not sayfalarını dışa aktar"
 
 #. Mwnea
-#: filter/uiconfig/ui/pdfgeneralpage.ui:953
+#: filter/uiconfig/ui/pdfgeneralpage.ui:999
 msgctxt "pdfgeneralpage|extended_tip|onlynotes"
 msgid "Exports only the Notes page views."
 msgstr "Yalnızca Notlar sayfa görünümlerini dışa aktarır."
 
 #. MpRUp
-#: filter/uiconfig/ui/pdfgeneralpage.ui:964
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1010
 msgctxt "pdfgeneralpage|singlepagesheets"
 msgid "Whole sheet export"
 msgstr "Bütün sayfayı dışa aktar"
 
 #. jRGAS
-#: filter/uiconfig/ui/pdfgeneralpage.ui:973
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1019
 msgctxt "pdfgeneralpage|extended_tip|singlepagessheets"
 msgid "Ignores each sheet’s paper size, print ranges and shown/hidden status and puts every sheet (even hidden sheets) on exactly one page, which is exactly as small or large as needed to fit the whole contents of the sheet."
 msgstr "Her sayfanın kağıt boyutunu, yazdırma aralıklarını ve gösterilen/gizli durumunu yok sayar ve her sayfayı (gizli sayfalar dahil) tam olarak sayfanın tüm içeriğini sığdırmak için gerektiği kadar küçük veya büyük olan tek bir sayfaya yerleştirir."
 
 #. DiBsa
-#: filter/uiconfig/ui/pdfgeneralpage.ui:984
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1030
 msgctxt "pdfgeneralpage|commentsinmargin"
 msgid "_Comments in margin"
 msgstr "_Kenar boşluğundaki yorumlar"
 
 #. RpDqi
-#: filter/uiconfig/ui/pdfgeneralpage.ui:993
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1039
 msgctxt "pdfgeneralpage|extended_tip|commentsinmargin"
 msgid "Select to export comments of Writer documents in the page margin."
 msgstr "Writer belgelerinin sayfa kenar boşluğundaki yorumlarını dışa aktarmak için seçin."
 
-#. AcPTB
-#: filter/uiconfig/ui/pdfgeneralpage.ui:1008
-msgctxt "pdfgeneralpage|label9"
+#. RAvA6
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1050
+msgctxt "pdfgeneralpage|tagged"
+msgid "_Tagged PDF (add document structure)"
+msgstr "_Etiketli PDF (belge yapısını ekle)"
+
+#. cAm8Z
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1054
+msgctxt "pdfgeneralpage|tagged|tooltip_text"
+msgid "Includes a document's content structure information in a PDF"
+msgstr "Bir belgenin içerik yapı bilgisini PDF dosyasına dahil eder"
+
+#. Btxot
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1060
+msgctxt "pdfgeneralpage|extended_tip|tagged"
+msgid "Select to write PDF tags. This can increase file size by huge amounts."
+msgstr "PDF etiketlerini yazdırmak için seçin. Bu, dosya boyutunu büyük miktarlarda artırabilir."
+
+#. kvAZK
+#: filter/uiconfig/ui/pdfgeneralpage.ui:1075
+msgctxt "pdfgeneralpage|structure_label"
 msgid "Structure"
 msgstr "Yapı"
 
@@ -874,7 +928,7 @@ msgid "Export bookmarks as named destinations"
 msgstr "Yerimlerini hedef isim olarak dışa aktar"
 
 #. XCKUE
-#: filter/uiconfig/ui/pdflinkspage.ui:35
+#: filter/uiconfig/ui/pdflinkspage.ui:33
 msgctxt "pdflinkspage|export|tooltip_text"
 msgid "Enable the checkbox to export bookmarks in your document as named destinations in the PDF document."
 msgstr "Belgenizdeki yer imlerini PDF belgesinde adlandırılmış hedefler olarak dışa aktarmak için onay kutusunu etkinleştirin."
@@ -951,8 +1005,20 @@ msgctxt "pdflinkspage|extended_tip|openinternet"
 msgid "Cross-document links are opened with the Internet browser. The Internet browser must be able to handle the specified file type inside the hyperlink."
 msgstr "Çapraz belge bağlantıları internet tarayıcısıyla açılır. İnternet tarayıcısının köprüde belirtilen dosya türünü işleyebilmesi gerekir."
 
+#. vw8zA
+#: filter/uiconfig/ui/pdflinkspage.ui:180
+msgctxt "pdflinkspage|removeexternallinks"
+msgid "Remove cross-document links"
+msgstr "Belgeler arası bağlantıları kaldır"
+
+#. mkY6P
+#: filter/uiconfig/ui/pdflinkspage.ui:189
+msgctxt "pdflinkspage|extended_tip|removeexternallinks"
+msgid "Cross-document links will be removed from your PDF document."
+msgstr "Belgeler arası bağlantılar PDF belgenizden kaldırılmış olacak."
+
 #. B9TGg
-#: filter/uiconfig/ui/pdflinkspage.ui:184
+#: filter/uiconfig/ui/pdflinkspage.ui:204
 msgctxt "pdflinkspage|label5"
 msgid "Cross-document Links"
 msgstr "Çapraz-belge bağlantıları"
@@ -964,43 +1030,43 @@ msgid "PDF Options"
 msgstr "PDF Seçenekleri"
 
 #. BwbwB
-#: filter/uiconfig/ui/pdfoptionsdialog.ui:41
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:38
 msgctxt "pdfoptionsdialog|ok"
 msgid "E_xport"
 msgstr "Dışa _Aktar"
 
 #. Y2Mem
-#: filter/uiconfig/ui/pdfoptionsdialog.ui:138
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:131
 msgctxt "pdfoptionsdialog|general"
 msgid "General"
 msgstr "Genel"
 
 #. DMBHC
-#: filter/uiconfig/ui/pdfoptionsdialog.ui:185
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:181
 msgctxt "pdfoptionsdialog|initialview"
 msgid "Initial View"
 msgstr "Başlangıç Görünümü"
 
 #. 35g8K
-#: filter/uiconfig/ui/pdfoptionsdialog.ui:233
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:235
 msgctxt "pdfoptionsdialog|userinterface"
 msgid "User Interface"
 msgstr "Kullanıcı Arayüzü"
 
 #. 3EStU
-#: filter/uiconfig/ui/pdfoptionsdialog.ui:281
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:289
 msgctxt "pdfoptionsdialog|links"
 msgid "Links"
 msgstr "Bağlantılar"
 
 #. x4GVL
-#: filter/uiconfig/ui/pdfoptionsdialog.ui:329
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:343
 msgctxt "pdfoptionsdialog|security"
 msgid "Security"
 msgstr "Güvenlik"
 
 #. Vmf6H
-#: filter/uiconfig/ui/pdfoptionsdialog.ui:377
+#: filter/uiconfig/ui/pdfoptionsdialog.ui:397
 msgctxt "pdfoptionsdialog|digitalsignatures"
 msgid "Digital Signatures"
 msgstr "Sayısal İmzalar"
@@ -1227,17 +1293,17 @@ msgctxt "pdfsecuritypage|label4"
 msgid "Content"
 msgstr "İçerik"
 
-#. bDVGF
+#. uzDnE
 #: filter/uiconfig/ui/pdfsignpage.ui:33
 msgctxt "pdfsignpage|label2"
-msgid "Use this certificate to digitally sign PDF documents:"
-msgstr "PDF belgelerini sayısal olarak imzalamak için bu sertifikayı kullan:"
+msgid "Use this X.509 certificate to digitally sign PDF documents:"
+msgstr "PDF belgelerini sayısal olarak imzalamak için bu X.509 sertifikasını kullanın:"
 
-#. EznHF
+#. GZgNV
 #: filter/uiconfig/ui/pdfsignpage.ui:53
 msgctxt "pdfsignpage|extended_tip|cert"
-msgid "Allows you to select a certificate to be used for signing this PDF export."
-msgstr "PDF dışa aktarımı sırasında imzalama için kullanılacak bir sertifikayı seçmenize izin verir."
+msgid "Allows you to select an X.509 certificate to be used for signing this PDF export."
+msgstr "PDF dışa aktarımını imzalamak için kullanılacak bir X.509 sertifikası seçmenizi sağlar."
 
 #. xgYD9
 #: filter/uiconfig/ui/pdfsignpage.ui:69
@@ -1317,11 +1383,11 @@ msgctxt "pdfsignpage|label15"
 msgid "Time Stamp Authority:"
 msgstr "Zaman Damgası Otoritesi:"
 
-#. YeAiB
+#. FZmZF
 #: filter/uiconfig/ui/pdfsignpage.ui:290
 msgctxt "pdfsignpage|label1"
-msgid "Certificate"
-msgstr "Sertifika"
+msgid "X.509 Certificate"
+msgstr "X.509 Sertifikası"
 
 #. 92sua
 #: filter/uiconfig/ui/pdfuserinterfacepage.ui:43
@@ -1653,11 +1719,11 @@ msgctxt "pdfviewpage|firstonleft"
 msgid "First page is _left"
 msgstr "İlk sayfa so_lda"
 
-#. xWdBk
+#. z57kb
 #: filter/uiconfig/ui/pdfviewpage.ui:450
 msgctxt "pdfviewpage|extended_tip|firstonleft"
-msgid "Select to generate a PDF file that shows pages side by side in a continuous column. For more than two pages, the first page is displayed on the left. You must enable support for complex text layout on Language settings - Languages in the Options dialog box."
-msgstr "Sayfaları sürekli bir sütunda yan yana gösteren bir PDF dosyası oluşturmak için seçin. İkiden fazla sayfa için ilk sayfa solda görüntülenir. Seçenekler iletişim kutusunda Dil ayarları - Diller'de karmaşık metin düzeni desteğini etkinleştirmelisiniz."
+msgid "Select to generate a PDF file that shows pages side by side in a continuous column. For more than two pages, the first page is displayed on the left. You must enable support for complex text layout on Languages and Locales - General in the Options dialog box."
+msgstr "Sayfaları sürekli bir sütunda yan yana gösteren bir PDF dosyası oluşturmak için seçin. İkiden fazla sayfa için ilk sayfa solda görüntülenir. Seçenekler iletişim penceresindeki Diller ve Yereller - Genel bölümünde karmaşık metin düzeni desteğini etkinleştirmeniz gerekir."
 
 #. sYKod
 #: filter/uiconfig/ui/pdfviewpage.ui:465
@@ -1705,7 +1771,7 @@ msgstr "Mevcut Belge"
 #: filter/uiconfig/ui/testxmlfilter.ui:134
 msgctxt "testxmlfilter|extended_tip|currentdocument"
 msgid "The front-most open file that matches the XML filter criteria will be used to test the filter. The current XML export filter transforms the file and the resulting XML code is displayed in the XML Filter output window."
-msgstr "XML filtre kıstasına uyan en önde açılmış dosya filtreyi test etmek için kullanılacaktır. Mevcut XML dışa aktarım filtresi dosyayı dönütürür ve sonuç XML kodu XML Filtre çıktısı penceresi içerisinde gösterilir."
+msgstr "XML filtre kıstasına uyan en önde açılmış dosya filtreyi test etmek için kullanılacaktır. Mevcut XML dışa aktarma filtresi dosyayı dönütürür ve sonuç XML kodu XML Filtre çıktısı penceresinde gösterilir."
 
 #. EPLxG
 #: filter/uiconfig/ui/testxmlfilter.ui:150
@@ -1741,7 +1807,7 @@ msgstr "Gözat..."
 #: filter/uiconfig/ui/testxmlfilter.ui:235
 msgctxt "testxmlfilter|extended_tip|importbrowse"
 msgid "Opens a file selection dialog. The selected file is opened using the current XML import filter."
-msgstr "Bir dosya seçim iletişim penceresi açar. Seçili dosya mevcut XML içeri aktarım filtresi kullanılarak açılır."
+msgstr "Bir dosya seçim iletişim penceresi açar. Seçili dosya mevcut XML içe aktarma filtresi kullanılarak açılır."
 
 #. RGb9P
 #: filter/uiconfig/ui/testxmlfilter.ui:246
@@ -1804,7 +1870,7 @@ msgid "Import"
 msgstr "İçe aktar"
 
 #. NsJor
-#: filter/uiconfig/ui/testxmlfilter.ui:399
+#: filter/uiconfig/ui/testxmlfilter.ui:396
 msgctxt "testxmlfilter|extended_tip|TestXMLFilterDialog"
 msgid "Tests the XSLT stylesheets used by the selected XML filter."
 msgstr "Seçili XML süzgeci tarafından kullanılan XSLT çalışma sayfasını test eder."
@@ -1828,109 +1894,109 @@ msgid "XML Filter Settings"
 msgstr "XML Süzgeç Ayarları"
 
 #. x9LGg
-#: filter/uiconfig/ui/xmlfiltersettings.ui:41
+#: filter/uiconfig/ui/xmlfiltersettings.ui:42
 msgctxt "xmlfiltersettings|extended_tip|help"
 msgid "Displays the help page for this dialog."
 msgstr "Bu iletişim penceresi için yardım sayfasını görüntüler."
 
 #. CmVSC
-#: filter/uiconfig/ui/xmlfiltersettings.ui:63
+#: filter/uiconfig/ui/xmlfiltersettings.ui:64
 msgctxt "xmlfiltersettings|extended_tip|close"
 msgid "Closes the dialog."
 msgstr "İletişim penceresini kapatır."
 
 #. VvrGU
-#: filter/uiconfig/ui/xmlfiltersettings.ui:110
+#: filter/uiconfig/ui/xmlfiltersettings.ui:111
 msgctxt "xmlfiltersettings|header_name"
 msgid "Name"
 msgstr "Adı"
 
 #. D6uZS
-#: filter/uiconfig/ui/xmlfiltersettings.ui:123
+#: filter/uiconfig/ui/xmlfiltersettings.ui:124
 msgctxt "xmlfiltersettings|header_type"
 msgid "Type"
 msgstr "Tür"
 
 #. A6qWH
-#: filter/uiconfig/ui/xmlfiltersettings.ui:134
+#: filter/uiconfig/ui/xmlfiltersettings.ui:135
 msgctxt "xmlfiltersettings|extended_tip|filterlist"
 msgid "Select one or more filters, then click one of the buttons."
 msgstr "Bir veya daha fazla süzgeç seçin, ardından düğmelerden birine tıklayın."
 
 #. VcMQo
-#: filter/uiconfig/ui/xmlfiltersettings.ui:156
+#: filter/uiconfig/ui/xmlfiltersettings.ui:157
 msgctxt "xmlfiltersettings|new"
 msgid "_New..."
 msgstr "_Yeni..."
 
 #. upKZD
-#: filter/uiconfig/ui/xmlfiltersettings.ui:163
+#: filter/uiconfig/ui/xmlfiltersettings.ui:164
 msgctxt "xmlfiltersettings|extended_tip|new"
 msgid "Opens a dialog for creating a new filter."
 msgstr "Yeni bir filtre oluşturmak için bir iletişim penceresi açar."
 
 #. W6Ju3
-#: filter/uiconfig/ui/xmlfiltersettings.ui:175
+#: filter/uiconfig/ui/xmlfiltersettings.ui:176
 msgctxt "xmlfiltersettings|edit"
 msgid "_Edit..."
 msgstr "_Düzenle..."
 
 #. GMxC8
-#: filter/uiconfig/ui/xmlfiltersettings.ui:182
+#: filter/uiconfig/ui/xmlfiltersettings.ui:183
 msgctxt "xmlfiltersettings|extended_tip|edit"
 msgid "Opens a dialog for editing the selected filter."
 msgstr "Seçili filtreyi düzenlemek için bir iletişim kutusu açar."
 
 #. DAoSK
-#: filter/uiconfig/ui/xmlfiltersettings.ui:194
+#: filter/uiconfig/ui/xmlfiltersettings.ui:195
 msgctxt "xmlfiltersettings|test"
 msgid "_Test XSLTs..."
 msgstr "_XSLT'leri Test Et..."
 
 #. mWGrq
-#: filter/uiconfig/ui/xmlfiltersettings.ui:201
+#: filter/uiconfig/ui/xmlfiltersettings.ui:202
 msgctxt "xmlfiltersettings|extended_tip|test"
 msgid "Opens a dialog for testing the selected filter."
 msgstr "Seçili filtreyi test etmek için bir iletişim penceresi açar."
 
 #. FE7Za
-#: filter/uiconfig/ui/xmlfiltersettings.ui:213
+#: filter/uiconfig/ui/xmlfiltersettings.ui:214
 msgctxt "xmlfiltersettings|delete"
 msgid "_Delete..."
 msgstr "_Sil..."
 
 #. bDixG
-#: filter/uiconfig/ui/xmlfiltersettings.ui:220
+#: filter/uiconfig/ui/xmlfiltersettings.ui:221
 msgctxt "xmlfiltersettings|extended_tip|delete"
 msgid "Deletes the selected file after you confirm the dialog that follows."
 msgstr "Takip eden iletişimin onaylanmasından sonra seçili dosyayı siler."
 
 #. DmuTA
-#: filter/uiconfig/ui/xmlfiltersettings.ui:232
+#: filter/uiconfig/ui/xmlfiltersettings.ui:233
 msgctxt "xmlfiltersettings|save"
 msgid "_Save as Package..."
 msgstr "_Paket Olarak Kaydet..."
 
 #. tPh4b
-#: filter/uiconfig/ui/xmlfiltersettings.ui:239
+#: filter/uiconfig/ui/xmlfiltersettings.ui:240
 msgctxt "xmlfiltersettings|extended_tip|save"
 msgid "Displays a Save as dialog to save the selected file as an XSLT filter package (*.jar)."
 msgstr "Seçili dosyayı bir XSLT süzgeç paketi (*.jar) şeklinde kaydetmek için Farklı Kaydet iletişim penceresini görüntüler ."
 
 #. CuahL
-#: filter/uiconfig/ui/xmlfiltersettings.ui:251
+#: filter/uiconfig/ui/xmlfiltersettings.ui:252
 msgctxt "xmlfiltersettings|open"
 msgid "_Open Package..."
 msgstr "_Paketi Aç..."
 
 #. D3FRp
-#: filter/uiconfig/ui/xmlfiltersettings.ui:258
+#: filter/uiconfig/ui/xmlfiltersettings.ui:259
 msgctxt "xmlfiltersettings|extended_tip|open"
 msgid "Displays an Open dialog to open a filter from an XSLT filter package (*.jar)."
 msgstr "Bir XSLT süzgeç paketini (*.jar) açmak için Aç iletişim penceresi görüntüler."
 
 #. bC6ha
-#: filter/uiconfig/ui/xmlfiltersettings.ui:290
+#: filter/uiconfig/ui/xmlfiltersettings.ui:291
 msgctxt "xmlfiltersettings|extended_tip|XMLFilterSettingsDialog"
 msgid "Opens the XML Filter Settings dialog, where you can create, edit, delete, and test filters to import and to export XML files."
 msgstr "XML dosyalarını içe aktarmak ve dışa aktarmak için filtreler oluşturabileceğiniz, düzenleyebileceğiniz, silebileceğiniz ve test edebileceğiniz XML Filtre Ayarları iletişim penceresini açar."
@@ -1941,62 +2007,62 @@ msgctxt "xmlfiltertabpagegeneral|label2"
 msgid "_Filter name:"
 msgstr "_Süzgeç ismi:"
 
-#. dreFh
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:37
-msgctxt "xmlfiltertabpagegeneral|label3"
-msgid "_Application:"
-msgstr "_Uygulama:"
-
-#. yQmBY
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:51
-msgctxt "xmlfiltertabpagegeneral|label4"
-msgid "_Name of file type:"
-msgstr "_Dosya türü adı:"
-
-#. NB3Gy
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:65
-msgctxt "xmlfiltertabpagegeneral|label5"
-msgid "File _extension:"
-msgstr "Dosya _uzantısı:"
-
-#. fPxWA
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:79
-msgctxt "xmlfiltertabpagegeneral|label6"
-msgid "Comment_s:"
-msgstr "Açıklamala_r:"
-
 #. rYNyn
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:100
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:43
 msgctxt "xmlfiltertabpagegeneral|extended_tip|filtername"
 msgid "Enter the name that you want to display in the list box of the XML Filter Settings dialog."
 msgstr "XML Süzgeç Ayarları iletişim penceresinde görüntülemek istediğiniz ismi seçiniz."
 
-#. D5aZP
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:119
-msgctxt "xmlfiltertabpagegeneral|extended_tip|extension"
-msgid "Enter the file extension to use when you open a file without specifying a filter. The file extension is used to determine which filter to use."
-msgstr "Süzgeç belirtmeden bir dosyayı açtığınızda kullanılacak dosya uzantısını girin. Dosya uzantısı, hangi süzgecin kullanılacağını belirlemek için kullanılır."
-
-#. fZvBA
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:138
-msgctxt "xmlfiltertabpagegeneral|extended_tip|interfacename"
-msgid "Enter the name that you want to display in the File type box in file dialogs."
-msgstr "Dosya iletişim penceresi Dosya Türü  kutusunda göstermek istediğiniz adı girin."
+#. dreFh
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:56
+msgctxt "xmlfiltertabpagegeneral|label3"
+msgid "_Application:"
+msgstr "_Uygulama:"
 
 #. BFUsA
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:162
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:81
 msgctxt "xmlfiltertabpagegeneral|extended_tip|application"
 msgid "Select the application that you want to use with the filter."
 msgstr "Süzgeç ile kullanmak istediğiniz uygulamayı seçin."
 
+#. yQmBY
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:94
+msgctxt "xmlfiltertabpagegeneral|label4"
+msgid "_Name of file type:"
+msgstr "_Dosya türü adı:"
+
+#. fZvBA
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:114
+msgctxt "xmlfiltertabpagegeneral|extended_tip|interfacename"
+msgid "Enter the name that you want to display in the File type box in file dialogs."
+msgstr "Dosya iletişim penceresi Dosya Türü  kutusunda göstermek istediğiniz adı girin."
+
+#. NB3Gy
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:127
+msgctxt "xmlfiltertabpagegeneral|label5"
+msgid "File _extension:"
+msgstr "Dosya _uzantısı:"
+
+#. D5aZP
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:147
+msgctxt "xmlfiltertabpagegeneral|extended_tip|extension"
+msgid "Enter the file extension to use when you open a file without specifying a filter. The file extension is used to determine which filter to use."
+msgstr "Süzgeç belirtmeden bir dosyayı açtığınızda kullanılacak dosya uzantısını girin. Dosya uzantısı, hangi süzgecin kullanılacağını belirlemek için kullanılır."
+
+#. fPxWA
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:160
+msgctxt "xmlfiltertabpagegeneral|label6"
+msgid "Comment_s:"
+msgstr "Açıklamala_r:"
+
 #. Gfrm2
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:186
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:187
 msgctxt "xmlfiltertabpagegeneral|extended_tip|description"
 msgid "Enter a comment (optional)."
 msgstr "Bir açıklama girin (seçimlik)."
 
 #. G632R
-#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:206
+#: filter/uiconfig/ui/xmlfiltertabpagegeneral.ui:207
 msgctxt "xmlfiltertabpagegeneral|extended_tip|XmlFilterTabPageGeneral"
 msgid "Enter or edit general information for an XML filter."
 msgstr "XML süzgecine ait genel bilgileri ekleyin veya düzenleyin."
@@ -2019,71 +2085,71 @@ msgctxt "xmlfiltertabpagetransformation|label4"
 msgid "_XSLT for export:"
 msgstr "Dışa aktarılacak _XSLT:"
 
+#. sjWgJ
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:81
+msgctxt "xmlfiltertabpagetransformation|extended_tip|xsltexport"
+msgid "If this is an export filter, enter the file name of the XSLT stylesheet that you want to use for exporting."
+msgstr "Eğer bu bir dışa aktarım filtresi ise, dışa aktarmak istediğiniz XSLT çalışma sayfasının dosya adını yazın."
+
 #. GwzvD
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:69
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:92
 msgctxt "xmlfiltertabpagetransformation|browseexport"
 msgid "Brows_e..."
 msgstr "Göza_t..."
 
 #. QLd25
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:76
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:99
 msgctxt "xmlfiltertabpagetransformation|extended_tip|browseexport"
 msgid "Opens a file selection dialog."
 msgstr "Bir dosya seçim iletişim penceresi açar."
 
 #. oZGZS
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:89
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:112
 msgctxt "xmlfiltertabpagetransformation|label5"
 msgid "XSLT _for import:"
 msgstr "İçe _aktarma için XSLT:"
 
+#. Xgroa
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:136
+msgctxt "xmlfiltertabpagetransformation|extended_tip|xsltimport"
+msgid "If this is an import filter, enter the file name of the XSLT stylesheet that you want to use for importing."
+msgstr "Eğer bu bir içe aktarma filtresi ise, içe aktarmak istediğiniz XSLT çalışma sayfasının dosya adını yazın."
+
 #. UNKTt
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:101
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:147
 msgctxt "xmlfiltertabpagetransformation|browseimport"
 msgid "B_rowse..."
 msgstr "Gö_zat..."
 
 #. TecWL
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:108
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:154
 msgctxt "xmlfiltertabpagetransformation|extended_tip|browseimport"
 msgid "Opens a file selection dialog."
 msgstr "Bir dosya seçim iletişim penceresi açar."
 
 #. 9nV9R
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:121
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:167
 msgctxt "xmlfiltertabpagetransformation|label6"
 msgid "Template for _import:"
 msgstr "İçe aktar_ma şablonu:"
 
+#. wRFNU
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:191
+msgctxt "xmlfiltertabpagetransformation|extended_tip|tempimport"
+msgid "Enter the name of the template that you want to use for importing. In the template, styles are defined to display XML tags."
+msgstr "İçe aktarmak için kullanacağınız taslağın adını yazın. Taslak içerisinde, biçemler XML etiketlerini göstermek için tanımlanmıştır."
+
 #. MNLtB
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:133
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:202
 msgctxt "xmlfiltertabpagetransformation|browsetemp"
 msgid "Browse..."
 msgstr "Gözat..."
 
 #. Dce3n
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:139
+#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:208
 msgctxt "xmlfiltertabpagetransformation|extended_tip|browsetemp"
 msgid "Opens a file selection dialog."
 msgstr "Bir dosya seçim iletişim penceresi açar."
-
-#. sjWgJ
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:162
-msgctxt "xmlfiltertabpagetransformation|extended_tip|xsltexport"
-msgid "If this is an export filter, enter the file name of the XSLT stylesheet that you want to use for exporting."
-msgstr "Eğer bu bir dışa aktarım filtresi ise, dışarı aktarmak istediğiniz XSLT çalışma sayfasının dosya adını yazın."
-
-#. Xgroa
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:185
-msgctxt "xmlfiltertabpagetransformation|extended_tip|xsltimport"
-msgid "If this is an import filter, enter the file name of the XSLT stylesheet that you want to use for importing."
-msgstr "Eğer bu bir içeri aktarım filtresi ise, içeri aktarmak istediğiniz XSLT çalışma sayfasının dosya adını yazın."
-
-#. wRFNU
-#: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:208
-msgctxt "xmlfiltertabpagetransformation|extended_tip|tempimport"
-msgid "Enter the name of the template that you want to use for importing. In the template, styles are defined to display XML tags."
-msgstr "İçeri aktarmak için kullanacağınız taslağın adını yazın. Taslak içerisinde, biçemler XML etiketlerini göstermek için tanımlanmıştır."
 
 #. XTDex
 #: filter/uiconfig/ui/xmlfiltertabpagetransformation.ui:229
@@ -2126,3 +2192,237 @@ msgstr "Dönüştürme"
 msgctxt "xsltfilterdialog|extended_tip|XSLTFilterDialog"
 msgid "Opens a dialog for creating a new filter."
 msgstr "Yeni bir filtre oluşturmak için bir iletişim penceresi açar."
+
+#~ msgctxt "pdfgeneralpage|embed|tooltip_text"
+#~ msgid "Creates a PDF that is easily editable in %PRODUCTNAME"
+#~ msgstr "%PRODUCTNAME ile kolayca düzenlenebilir bir PDF oluşturur"
+
+#~ msgctxt "pdfgeneralpage|extended_tip|embed"
+#~ msgid "This setting enables you to export the document as a .pdf file containing two file formats: PDF and ODF."
+#~ msgstr "Bu ayar belgenizi PDF ve ODF biçimlerini içeren bir .pdf dosyası olarak dışa aktarmanızı sağlar."
+
+#~ msgctxt "pdfgeneralpage|pdfa"
+#~ msgid "Archival (P_DF/A, ISO 19005)"
+#~ msgstr "Arşiv (P_DF/A, ISO 19005)"
+
+#~ msgctxt "pdfgeneralpage|pdfa|tooltip_text"
+#~ msgid "Creates an ISO 19005-2 compliant PDF file, ideal for long-term document preservation"
+#~ msgstr "ISO 19005-2 uyumlu bir PDF dosyası oluşturur, uzun dönemli dosya saklamak için uygundur"
+
+#~ msgctxt "pdfgeneralpage|extended_tip|pdfa"
+#~ msgid "Converts to the PDF/A-2b or PDF/A-1b format. This is defined as an electronic document file format for long term preservation. All fonts that were used in the source document will be embedded into the generated PDF file. PDF tags will be written."
+#~ msgstr "PDF/A-2b veya PDF/A-1b biçimine dönüştürür. Bu dosya biçimi uzun dönem saklama için elektronik belge biçimi olarak tanımlanmaktadır. Kaynak belgede kullanılan bütün yazı tipleri oluşturulan PDF dosyasının içine gömülecektir. PDF etiketleri yazılacaktır."
+
+#~ msgctxt "pdfgeneralpage|pdfaversion"
+#~ msgid "PDF_/A version:"
+#~ msgstr "PDF_/A sürümü:"
+
+#~ msgctxt "pdfgeneralpage|label9"
+#~ msgid "Structure"
+#~ msgstr "Yapı"
+
+#~ msgctxt "STR_WARN_PDFUA_ISSUES"
+#~ msgid "One accessibility issue detected. Do you want to continue?"
+#~ msgid_plural "%1 accessibility issues detected. Do you want to continue?"
+#~ msgstr[0] "%1 erişilebilirlik sorunu tespit edildi. Devam etmek istiyor musunuz?"
+
+#~ msgctxt "STR_PDFUA_INVESTIGATE"
+#~ msgid "Investigate issue"
+#~ msgid_plural "Investigate issues"
+#~ msgstr[0] "Sorunları incele"
+
+#~ msgctxt "pdfgeneralpage|reduceresolution"
+#~ msgid "Reduce ima_ge resolution to:"
+#~ msgstr "_Görüntü çözünürlüğünü şu şekilde azalt:"
+
+#~ msgctxt "pdfgeneralpage|extended_tip|reduceresolution"
+#~ msgid "Select to resample or down-size the images to a lower number of pixels per inch."
+#~ msgstr "Görüntüleri inç başına daha düşük piksel sayısı olacak şekilde yeniden örneklemek veya küçültmek için seçin."
+
+#~ msgctxt "pdfsignpage|label2"
+#~ msgid "Use this certificate to digitally sign PDF documents:"
+#~ msgstr "PDF belgelerini sayısal olarak imzalamak için bu sertifikayı kullan:"
+
+#~ msgctxt "pdfsignpage|extended_tip|cert"
+#~ msgid "Allows you to select a certificate to be used for signing this PDF export."
+#~ msgstr "PDF dışa aktarımı sırasında imzalama için kullanılacak bir sertifikayı seçmenize izin verir."
+
+#~ msgctxt "pdfsignpage|label1"
+#~ msgid "Certificate"
+#~ msgstr "Sertifika"
+
+#~ msgctxt "pdfgeneralpage|range"
+#~ msgid "_Pages:"
+#~ msgstr "_Sayfalar:"
+
+#~ msgctxt "pdfgeneralpage|slides"
+#~ msgid "Slides:"
+#~ msgstr "Slaytlar:"
+
+#~ msgctxt "pdfviewpage|extended_tip|firstonleft"
+#~ msgid "Select to generate a PDF file that shows pages side by side in a continuous column. For more than two pages, the first page is displayed on the left. You must enable support for complex text layout on Language settings - Languages in the Options dialog box."
+#~ msgstr "Sayfaları sürekli bir sütunda yan yana gösteren bir PDF dosyası oluşturmak için seçin. İkiden fazla sayfa için ilk sayfa solda görüntülenir. Seçenekler iletişim kutusunda Dil ayarları - Diller'de karmaşık metin düzeni desteğini etkinleştirmelisiniz."
+
+#~ msgctxt "pdfgeneralpage|pdfa"
+#~ msgid "Archive (P_DF/A, ISO 19005)"
+#~ msgstr "Arşiv (P_DF/A, ISO 19005)"
+
+#~ msgctxt "pdfgeneralpage|extended_tip|bookmarks"
+#~ msgid "Select to export bookmarks of Writer documents as PDF bookmarks. Bookmarks are created for all outline paragraphs (Tools - Chapter Numbering) and for all table of contents entries for which you did assign hyperlinks in the source document."
+#~ msgstr "Writer belgelerinin yer imlerini PDF yer imleri olarak dışa aktarmak için seçer. Yer imleri; tüm anahat paragraflar (Araçlar - Bölüm Numaralandırma) için ve kaynak belgede köprüler atadığınız içindekiler tablosu girdilerinin tümü için oluşturulur."
+
+#~ msgctxt "pdflinkspage|export"
+#~ msgid "Export outlines as named destinations"
+#~ msgstr "Anahatları adlandırılmış hedefler olarak dışa aktar"
+
+#~ msgctxt "pdflinkspage|extended_tip|export"
+#~ msgid "Enable the checkbox to export the names of objects in your document as valid bookmark targets. This allows you to link to those objects by name from other documents."
+#~ msgstr "Belgenizdeki nesnelerin adlarını geçerli yer imi hedefleri olarak dışa aktarmak için onay kutusunu etkinleştirin.  Bu, diğer belgelerden bu nesnelere ada göre bağlantı kurmanıza olanak tanır."
+
+#~ msgctxt "pdfviewpage|extended_tip|fitvis"
+#~ msgid "Select to generate a PDF file that shows the text and graphics on the page zoomed to fit the width of the reader's window."
+#~ msgstr "Okuyucu penceresi genişliğine yakınlaştırılıp sığdırılan sayfadaki metin ve grafikleri gösteren PDF dosyası üretmek için seçin."
+
+#~ msgctxt "xmlfiltertabpagegeneral|extended_tip|extension"
+#~ msgid "Enter the file extension to use when you open a file without specifying a filter. The file extension to used to determine which filter to use."
+#~ msgstr "Süzgeç belirtmeden bir dosyayı açtığınızda kullanılacak dosya uzantısını girin.  Hangi süzgecin kullanılacağını belirlemek için kullanılacak dosya uzantısı."
+
+#~ msgctxt "pdfgeneralpage|extended_tip|emptypages"
+#~ msgid "If switched on, automatically inserted blank pages are exported to the PDF file. This is best if you are printing the pdf file double-sided. Example: In a book a chapter paragraph style is set to always start with an odd numbered page. If the previous chapter ends on an odd page, %PRODUCTNAME inserts an even numbered blank page. This option controls whether to export that even numbered page or not."
+#~ msgstr "Açık ise, otomatik olarak eklenen boş sayfalar pdf dosyasına aktarılmış olur. Bu, eğer pdf dosyalarını çift taraflı basıyorsanız en iyi seçenektir. Örneğin: Bir kitapta bir bölüm paragrafının biçemi her zaman tek numaralı bir sayfayla başlıyacak şekilde ayarlanır. Önceki bölüm tek numaralı bir sayfada sonlanır. %PRODUCTNAME araya bir çift numaralı boş sayfa sokar. Bu seçenek bahsi geçen çift numaralı sayfaların basılıp basılmayacağını denetler."
+
+#~ msgctxt "xmlfiltertabpagegeneral|extended_tip|extension"
+#~ msgid "Enter the file extension to use when you open a file without specifying a filter. %PRODUCTNAME uses the file extension to determine which filter to use."
+#~ msgstr "Bir süzgeç belirtmeden bir dosya açtığınızda kullanılacak dosya uzantısını girin. %PRODUCTNAME  dosya uzantısını kullanılacak süzgece karar vermek için kullanır."
+
+#~ msgctxt "pdfgeneralpage|reduceresolution"
+#~ msgid "Reduce ima_ge resolution"
+#~ msgstr "Görüntünün çözünürlüğünü indir_ge"
+
+#~ msgctxt "pdflinkspage|extended_tip|export"
+#~ msgid "Exports the current file in PDF format."
+#~ msgstr "Mevcut dosyayı PDF biçiminde dışa aktarır."
+
+#~ msgctxt "pdfsignpage|extended_tip|select"
+#~ msgid "Opens the Select Certificate dialog."
+#~ msgstr "Sertifika Seç iletişim penceresini açar."
+
+#~ msgctxt "xmlfiltersettings|extended_tip|new"
+#~ msgid "Opens a dialog with the name of a new filter."
+#~ msgstr " Yeni bir süzgecin adıyla bir iletişim penceresi açar."
+
+#~ msgctxt "xmlfiltersettings|extended_tip|edit"
+#~ msgid "Opens a dialog with the name of the selected file."
+#~ msgstr "Seçilmiş olan dosyanın adıyla bir iletişim penceresi açar."
+
+#~ msgctxt "xmlfiltersettings|extended_tip|test"
+#~ msgid "Opens a dialog with the name of the selected file."
+#~ msgstr "Seçilmiş olan dosyanın adıyla bir iletişim penceresi açar."
+
+#~ msgctxt "xsltfilterdialog|extended_tip|XSLTFilterDialog"
+#~ msgid "Opens a dialog with the name of a new filter."
+#~ msgstr " Yeni bir süzgecin adıyla bir iletişim penceresi açar."
+
+#~ msgctxt "KEY_VERSION_CHECK"
+#~ msgid ""
+#~ "Warning: Not all of the imported EPS graphics could be saved at level1\n"
+#~ "as some are at a higher level!"
+#~ msgstr ""
+#~ "Uyarı: İçe aktarılan EPS grafiklerinin hepsi seviye1 olarak kaydedilemeyebilir \n"
+#~ "çünkü bazıları daha yüksek bir seviyede olabilir!"
+
+#~ msgctxt "pdfgeneralpage|reduceresolution"
+#~ msgid "_Reduce image resolution"
+#~ msgstr "_Resim çözünürlüğünü azalt"
+
+#~ msgctxt "pdfgeneralpage|forms"
+#~ msgid "_Create PDF form"
+#~ msgstr "_PDF formu oluştur"
+
+#~ msgctxt "pdfgeneralpage|pdfaversion"
+#~ msgid "PDF/A _version:"
+#~ msgstr "PDF/A _sürümü:"
+
+#~ msgctxt "pdfgeneralpage|pdfua"
+#~ msgid "U_niversal Accessibility (PDF/UA)"
+#~ msgstr "E_vrensel Erişilebilirlik (PDF/UA)"
+
+#~ msgctxt "pdfgeneralpage|bookmarks"
+#~ msgid "Export _outlines"
+#~ msgstr "Anahattı _dışa aktar"
+
+#~ msgctxt "pdfgeneralpage|comments"
+#~ msgid "_Comments as PDF annotations"
+#~ msgstr "_Yorumları PDF dipnotu olarak"
+
+#~ msgctxt "pdfviewpage|outline"
+#~ msgid "_Outline and page"
+#~ msgstr "_Anahat ve sayfa"
+
+#~ msgctxt "pdfviewpage|contlayout"
+#~ msgid "_Continuous"
+#~ msgstr "_Sürekli"
+
+#~ msgctxt "pdfviewpage|contfacinglayout"
+#~ msgid "C_ontinuous facing"
+#~ msgstr "S_ürekli tarama"
+
+#~ msgctxt "pdfgeneralpage|bookmarks"
+#~ msgid "Export _bookmarks"
+#~ msgstr "Yerimlerini _dışa aktar"
+
+#~ msgctxt "pdfuserinterfacepage|allbookmarks"
+#~ msgid "_All bookmark levels"
+#~ msgstr "_Tüm yerimi seviyeleri"
+
+#~ msgctxt "pdfuserinterfacepage|visiblebookmark"
+#~ msgid "_Visible bookmark levels:"
+#~ msgstr "_Görünür yer imi düzeyleri:"
+
+#~ msgctxt "pdfuserinterfacepage|label4"
+#~ msgid "Bookmarks"
+#~ msgstr "Yer imleri"
+
+#~ msgctxt "pdfviewpage|outline"
+#~ msgid "_Bookmarks and page"
+#~ msgstr "_Yer imleri ve sayfa"
+
+#~ msgctxt "impswfdialog|ImpSWFDialog"
+#~ msgid "Flash (SWF) Options"
+#~ msgstr "Flash (SWF) Seçenekleri"
+
+#~ msgctxt "impswfdialog|label1"
+#~ msgid ""
+#~ "1: min. quality\n"
+#~ "100: max. quality"
+#~ msgstr ""
+#~ "1: en düşük kalite\n"
+#~ "100: en yüksek kalite"
+
+#~ msgctxt "impswfdialog|exportall"
+#~ msgid "Export _all slides (uncheck to export current slide)"
+#~ msgstr "Tüm sl_aytları dışa aktar (geçerli slayttaki dışa aktarımları kontrol etme)"
+
+#~ msgctxt "impswfdialog|exportmultiplefiles"
+#~ msgid "Export as _multiple files"
+#~ msgstr "Çoklu dosya _olarak dışa aktar"
+
+#~ msgctxt "impswfdialog|exportbackgrounds"
+#~ msgid "Export _backgrounds"
+#~ msgstr "Arkaplanları _dışa aktar"
+
+#~ msgctxt "impswfdialog|exportbackgroundobjects"
+#~ msgid "Export back_ground objects"
+#~ msgstr "_Arkaplan nesnelerini dışa aktar"
+
+#~ msgctxt "impswfdialog|exportslidecontents"
+#~ msgid "Export _slide contents"
+#~ msgstr "_Slayt içeriklerini dışa aktar"
+
+#~ msgctxt "impswfdialog|exportsound"
+#~ msgid "Export _Verilogix Slide Annotations"
+#~ msgstr "_Verilogix Slayt Açıklamalarını Dışa Aktar"
+
+#~ msgctxt "impswfdialog|exportoleasjpeg"
+#~ msgid "Export OLE objects as _JPEG images"
+#~ msgstr "OLE nesnelerini _JPEG resimleri olarak dışa aktar"

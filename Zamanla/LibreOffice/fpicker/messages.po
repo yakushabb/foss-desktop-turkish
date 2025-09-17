@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
-"POT-Creation-Date: 2022-06-09 11:50+0200\n"
-"PO-Revision-Date: 2023-10-25 14:36+0000\n"
+"POT-Creation-Date: 2025-01-27 13:39+0100\n"
+"PO-Revision-Date: 2025-05-01 20:44+0000\n"
 "Last-Translator: Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>\n"
 "Language-Team: Turkish <https://translations.documentfoundation.org/projects/libo_ui-master/fpickermessages/tr/>\n"
 "Language: tr\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-POOTLE-MTIME: 1544614520.000000\n"
 
 #. SJGCw
@@ -64,15 +64,15 @@ msgctxt "STR_DEFAULT_DIRECTORY"
 msgid "My Documents"
 msgstr "Belgelerim"
 
-#. 99gqd
+#. iTPzL
 #: fpicker/inc/strings.hrc:32
 msgctxt "RID_FILEOPEN_NOTEXISTENTFILE"
 msgid ""
-"The file $name$ does not exist.\n"
+"The file $(ARG1) does not exist.\n"
 "Make sure you have entered the correct file name."
 msgstr ""
-"$name$ dosyası yok.\n"
-"Varolan bir dosya adı giriniz."
+"Dosya $(ARG1) mevcut değil.\n"
+"Doğru dosya adını girdiğinizden emin olun."
 
 #. CahDV
 #: fpicker/inc/strings.hrc:33
@@ -197,11 +197,11 @@ msgctxt "explorerfiledialog|add"
 msgid "Add current folder to Places"
 msgstr "Mevcut dizini Yerler'e ekle"
 
-#. wP2nq
+#. 6ZCFB
 #: fpicker/uiconfig/ui/explorerfiledialog.ui:311
-msgctxt "explorerfiledialog|add"
+msgctxt "explorerfiledialog|del"
 msgid "Remove selected folder from Places"
-msgstr "Seçili dizini Yerler'den sil"
+msgstr "Seçilen dizini Yerler'den kaldır"
 
 #. Upnsg
 #: fpicker/uiconfig/ui/explorerfiledialog.ui:365
@@ -281,6 +281,12 @@ msgctxt "explorerfiledialog|gpgencrypt"
 msgid "Encrypt with GPG key"
 msgstr "GPG anahtarı ile şifrele"
 
+#. raQ3e
+#: fpicker/uiconfig/ui/explorerfiledialog.ui:759
+msgctxt "explorerfiledialog|gpgencrypt"
+msgid "Sign with default certificate"
+msgstr "Varsayılan sertifika ile imzala"
+
 #. 2ZWy2
 #: fpicker/uiconfig/ui/foldernamedialog.ui:8
 msgctxt "foldernamedialog|FolderNameDialog"
@@ -330,67 +336,67 @@ msgid "Remote Files"
 msgstr "Uzak Dosyalar"
 
 #. FA4UT
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:142
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:139
 msgctxt "remotefilesdialog|open"
 msgid "_Open"
 msgstr "_Aç"
 
 #. uGwr4
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:175
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:172
 msgctxt "remotefilesdialog|label1"
 msgid "Service:"
 msgstr "Hizmet:"
 
 #. cwNkT
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:203
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:200
 msgctxt "remotefilesdialog|add_service_btn"
 msgid "_Manage services"
 msgstr "Servisleri _yönet"
 
 #. Jnndg
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:253
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:251
 msgctxt "remotefilesdialog|list_view|tooltip_text"
 msgid "List view"
 msgstr "Liste görünümü"
 
 #. xxBtB
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:268
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:266
 msgctxt "remotefilesdialog|icon_view|tooltip_text"
 msgid "Icon view"
 msgstr "Simge görünümü"
 
 #. 6CiqC
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:284
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:282
 msgctxt "remotefilesdialog|new_folder|tooltip_text"
 msgid "Create New Folder"
 msgstr "Yeni Klasör Oluştur"
 
 #. aXDaC
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:389
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:387
 msgctxt "remotefilesdialog|name"
 msgid "Name"
 msgstr "Adı"
 
 #. qRHnF
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:409
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:407
 msgctxt "remotefilesdialog|size"
 msgid "Size"
 msgstr "Boyutu"
 
 #. qeF3r
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:423
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:421
 msgctxt "remotefilesdialog|date"
 msgid "Date modified"
 msgstr "Değiştirilme tarihi"
 
 #. cGNWD
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:499
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:497
 msgctxt "remotefilesdialog|filterLabel"
 msgid "Filter"
 msgstr "Süzgeç"
 
 #. rCVer
-#: fpicker/uiconfig/ui/remotefilesdialog.ui:513
+#: fpicker/uiconfig/ui/remotefilesdialog.ui:511
 msgctxt "remotefilesdialog|nameLabel"
 msgid "File name"
 msgstr "Dosya adı"
@@ -414,86 +420,92 @@ msgctxt "STR_SVT_FILEPICKER_GPGENCRYPT"
 msgid "Encrypt with ~GPG key"
 msgstr "~GPG anahtarı ile şifrele"
 
-#. LWkae
+#. uyMuc
 #: include/fpicker/strings.hrc:18
+msgctxt "STR_SVT_FILEPICKER_GPGSIGN"
+msgid "Sign with ~default certificate"
+msgstr "~Varsayılan sertifika ile imzala"
+
+#. LWkae
+#: include/fpicker/strings.hrc:19
 msgctxt "STR_SVT_FILEPICKER_FILTER_OPTIONS"
 msgid "~Edit filter settings"
 msgstr "Süzg~eç ayarlarını düzenle"
 
 #. k7Sdb
-#: include/fpicker/strings.hrc:19
+#: include/fpicker/strings.hrc:20
 msgctxt "STR_SVT_FILEPICKER_READONLY"
 msgid "~Read-only"
 msgstr "~Salt-okunur"
 
 #. 7VhDp
-#: include/fpicker/strings.hrc:20
+#: include/fpicker/strings.hrc:21
 msgctxt "STR_SVT_FILEPICKER_INSERT_AS_LINK"
 msgid "~Link"
 msgstr "~Bağlantı"
 
 #. dFf6y
-#: include/fpicker/strings.hrc:21
+#: include/fpicker/strings.hrc:22
 msgctxt "STR_SVT_FILEPICKER_SHOW_PREVIEW"
 msgid "Pr~eview"
 msgstr "Ön İzl~eme"
 
 #. uu7VW
-#: include/fpicker/strings.hrc:22
+#: include/fpicker/strings.hrc:23
 msgctxt "STR_SVT_FILEPICKER_PLAY"
 msgid "~Play"
 msgstr "~Yürüt"
 
 #. ReGYn
-#: include/fpicker/strings.hrc:23
+#: include/fpicker/strings.hrc:24
 msgctxt "STR_SVT_FILEPICKER_VERSION"
 msgid "~Version:"
 msgstr "~Sürüm:"
 
 #. nuKha
-#: include/fpicker/strings.hrc:24
+#: include/fpicker/strings.hrc:25
 msgctxt "STR_SVT_FILEPICKER_TEMPLATES"
 msgid "S~tyles:"
 msgstr "B~içemler:"
 
 #. emrjD
-#: include/fpicker/strings.hrc:25
+#: include/fpicker/strings.hrc:26
 msgctxt "STR_SVT_FILEPICKER_IMAGE_TEMPLATE"
 msgid "Style:"
 msgstr "Biçem:"
 
 #. TNmc2
-#: include/fpicker/strings.hrc:26
+#: include/fpicker/strings.hrc:27
 msgctxt "STR_SVT_FILEPICKER_IMAGE_ANCHOR"
 msgid "A~nchor:"
 msgstr "Sa~bitleyici:"
 
 #. JvMvb
-#: include/fpicker/strings.hrc:27
+#: include/fpicker/strings.hrc:28
 msgctxt "STR_SVT_FILEPICKER_SELECTION"
 msgid "~Selection"
 msgstr "~Seçim"
 
 #. VEgEJ
-#: include/fpicker/strings.hrc:28
+#: include/fpicker/strings.hrc:29
 msgctxt "STR_SVT_FILEPICKER_FILTER_TITLE"
 msgid "File ~type:"
 msgstr "Dosya ~türü:"
 
 #. 7Mozz
-#: include/fpicker/strings.hrc:29
+#: include/fpicker/strings.hrc:30
 msgctxt "STR_SVT_FOLDERPICKER_DEFAULT_TITLE"
 msgid "Select Path"
 msgstr "Yol Seçin"
 
 #. GtMEC
-#: include/fpicker/strings.hrc:30
+#: include/fpicker/strings.hrc:31
 msgctxt "STR_SVT_FOLDERPICKER_DEFAULT_DESCRIPTION"
 msgid "Please select a folder."
 msgstr "Lütfen bir klasör seçin."
 
 #. 7pThC
-#: include/fpicker/strings.hrc:31
+#: include/fpicker/strings.hrc:32
 msgctxt "STR_SVT_ALREADYEXISTOVERWRITE"
 msgid ""
 "A file named \"$filename$\" already exists.\n"
@@ -505,19 +517,19 @@ msgstr ""
 "Değiştirmek istiyor musunuz?"
 
 #. t4wDh
-#: include/fpicker/strings.hrc:32
+#: include/fpicker/strings.hrc:33
 msgctxt "STR_SVT_ALREADYEXISTOVERWRITE_SECONDARY"
 msgid "The file already exists in \"$dirname$\". Replacing it will overwrite its contents."
 msgstr "Dosya zaten \"$dirname$\" içinde var. Değiştirmek içeriğinin üzerine yazacaktır."
 
 #. cBvCB
-#: include/fpicker/strings.hrc:33
+#: include/fpicker/strings.hrc:34
 msgctxt "STR_SVT_ALLFORMATS"
 msgid "All Formats"
 msgstr "Tüm Biçimler"
 
 #. z6Eo3
-#: include/fpicker/strings.hrc:34
+#: include/fpicker/strings.hrc:35
 msgctxt "STR_SVT_DELETESERVICE"
 msgid ""
 "Are you sure you want to delete the service?\n"
@@ -527,31 +539,135 @@ msgstr ""
 "\"$servicename$\""
 
 #. KegFE
-#: include/fpicker/strings.hrc:35
+#: include/fpicker/strings.hrc:36
 msgctxt "STR_SVT_ROOTLABEL"
 msgid "Root"
 msgstr "Kök Dizini"
 
 #. sWRTd
-#: include/fpicker/strings.hrc:36
+#: include/fpicker/strings.hrc:37
 msgctxt "STR_FILTERNAME_ALL"
 msgid "All files"
 msgstr "Tüm dosyalar"
 
 #. FBggE
-#: include/fpicker/strings.hrc:37
+#: include/fpicker/strings.hrc:38
 msgctxt "STR_FILEDLG_OPEN"
 msgid "Open"
 msgstr "Aç"
 
 #. wJYsA
-#: include/fpicker/strings.hrc:38
+#: include/fpicker/strings.hrc:39
 msgctxt "STR_FILEDLG_TYPE"
 msgid "File ~type"
 msgstr "Dosya ~türü"
 
 #. EEBg4
-#: include/fpicker/strings.hrc:39
+#: include/fpicker/strings.hrc:40
 msgctxt "STR_FILEDLG_SAVE"
 msgid "Save"
 msgstr "Kaydet"
+
+#. KACYH
+#: include/fpicker/strings.hrc:42
+msgctxt "STR_FILESAVE_AUTOEXTENSION"
+msgid "Automatically adds the file extension to the end of the file name that corresponds to the selected file type."
+msgstr "Seçilen dosya türüne karşılık gelen dosya adının sonuna dosya uzantısını otomatik olarak ekler."
+
+#. 4qPci
+#: include/fpicker/strings.hrc:43
+msgctxt "STR_FILESAVE_SAVEWITHPASSWORD"
+msgid "Protects the file with a password that must be entered before a user can open the file."
+msgstr "Dosyayı, bir kullanıcının dosyayı açabilmesi için girilmesi gereken bir parola ile korur."
+
+#. dFCgT
+#: include/fpicker/strings.hrc:44
+msgctxt "STR_FILESAVE_CUSTOMIZEFILTER"
+msgid "Allows you to set the spreadsheet saving options for some types of data files."
+msgstr "Bazı veri dosyası türleri için hesap tablosu kaydetme seçeneklerini ayarlamanızı sağlar."
+
+#. fJtCZ
+#: include/fpicker/strings.hrc:45
+msgctxt "STR_FILEOPEN_READONLY"
+msgid "Opens the file in read-only mode."
+msgstr "Dosyayı salt okunur kipte açar."
+
+#. BMEgo
+#: include/fpicker/strings.hrc:46
+msgctxt "STR_FILEDLG_LINK_CB"
+msgid "Inserts the selected graphic file as a link."
+msgstr "Seçilen grafik dosyasını bir bağlantı olarak ekler."
+
+#. jHPYN
+#: include/fpicker/strings.hrc:47
+msgctxt "STR_FILEDLG_PREVIEW_CB"
+msgid "Displays a preview of the selected graphic file."
+msgstr "Seçilen grafik dosyasının önizlemesini görüntüler."
+
+#. xWLX2
+#: include/fpicker/strings.hrc:48
+msgctxt "STR_FILESAVE_DOPLAY"
+msgid "Plays the selected sound file. Click again to stop playing the sound file."
+msgstr "Seçilen ses dosyasını çalar. Ses dosyasını çalmayı durdurmak için tekrar tıklayın."
+
+#. 27ayC
+#: include/fpicker/strings.hrc:49
+msgctxt "STR_FILEOPEN_VERSION"
+msgid "If there are multiple versions of the selected file, select the version that you want to open."
+msgstr "Seçili dosyanın birden fazla sürümü varsa, açmak istediğiniz sürümü seçin."
+
+#. K6RjJ
+#: include/fpicker/strings.hrc:50
+msgctxt "STR_FILESAVE_TEMPLATE"
+msgid "Select the paragraph style or outline level that you want to use to separate the source document into sub-documents."
+msgstr "Kaynak belgeyi alt belgelere ayırmak için kullanmak istediğiniz paragraf biçemini veya anahat düzeyini seçin."
+
+#. 7GLrR
+#: include/fpicker/strings.hrc:51
+msgctxt "STR_FILEOPEN_IMAGE_TEMPLATE"
+msgid "Select the frame style for the graphic."
+msgstr "Grafik için çerçeve biçemini seçin."
+
+#. Lfiaj
+#: include/fpicker/strings.hrc:52
+msgctxt "STR_FILEOPEN_IMAGE_ANCHOR"
+msgid "Select the frame style for the graphic."
+msgstr "Grafik için çerçeve biçemini seçin."
+
+#. d6DG8
+#: include/fpicker/strings.hrc:53
+msgctxt "STR_FILESAVE_SELECTION"
+msgid "Exports only the selected graphic objects in %PRODUCTNAME Draw and Impress to another format. If this box is not checked, the entire document is exported."
+msgstr "Yalnızca %PRODUCTNAME Draw and Impress içindeki seçili grafik nesnelerini başka bir biçime aktarır. Bu kutu işaretlenmezse, belgenin tamamı dışa aktarılır."
+
+#~ msgctxt "RID_FILEOPEN_NOTEXISTENTFILE"
+#~ msgid ""
+#~ "The file $name$ does not exist.\n"
+#~ "Make sure you have entered the correct file name."
+#~ msgstr ""
+#~ "$name$ dosyası yok.\n"
+#~ "Varolan bir dosya adı giriniz."
+
+#~ msgctxt "explorerfiledialog|add"
+#~ msgid "Remove selected folder from Places"
+#~ msgstr "Seçili dizini Yerler'den sil"
+
+#~ msgctxt "explorerfiledialog|add"
+#~ msgid "Add shortcut"
+#~ msgstr "Kısayol ekle"
+
+#~ msgctxt "explorerfiledialog|add"
+#~ msgid "Delete shortcut"
+#~ msgstr "Kısayolu sil"
+
+#~ msgctxt "remotefilesdialog|save"
+#~ msgid "_Save"
+#~ msgstr "_Kaydet"
+
+#~ msgctxt "remotefilesdialog|add_service_btn"
+#~ msgid "Add service"
+#~ msgstr "Hizmet ekle"
+
+#~ msgctxt "STR_PLACES_TITLE"
+#~ msgid "Places"
+#~ msgstr "Yerler"

@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.libreoffice.org/enter_bug.cgi?product=LibreOffice&bug_status=UNCONFIRMED&component=UI\n"
 "POT-Creation-Date: 2022-07-06 20:18+0200\n"
-"PO-Revision-Date: 2023-10-24 10:37+0000\n"
-"Last-Translator: Ayhan YALÇINSOY <ayhanyalcinsoy@gmail.com>\n"
+"PO-Revision-Date: 2025-03-04 14:19+0000\n"
+"Last-Translator: Zeki Bildirici <kobzeci@gmail.com>\n"
 "Language-Team: Turkish <https://translations.documentfoundation.org/projects/libo_ui-master/connectivitymessages/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Accelerator-Marker: ~\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.10.1\n"
 "X-POOTLE-MTIME: 1544244060.000000\n"
 
 #. 9KHB8
@@ -123,31 +123,31 @@ msgstr "Sorgu çalıştırılamadı. İşleç çok karmaşık."
 #: connectivity/inc/strings.hrc:42
 msgctxt "STR_QUERY_INVALID_LIKE_COLUMN"
 msgid "The query cannot be executed. You cannot use “LIKE” with columns of this type."
-msgstr "Sorgu yürütülemez. Bu tür sütunlarla “LIKE” kullanamazsınız."
+msgstr "Sorgu yürütülemez. Bu tür sütunlarla “BENZER” kullanamazsınız."
 
 #. SsqWz
 #: connectivity/inc/strings.hrc:43
 msgctxt "STR_QUERY_INVALID_LIKE_STRING"
 msgid "The query cannot be executed. “LIKE” can be used with a string argument only."
-msgstr "Sorgu yürütülemez. “BEĞEN” yalnızca bir dize argümanıyla kullanılabilir."
+msgstr "Sorgu yürütülemez. “BENZER” yalnızca bir dize argümanıyla kullanılabilir."
 
 #. ZFFrf
 #: connectivity/inc/strings.hrc:44
 msgctxt "STR_QUERY_NOT_LIKE_TOO_COMPLEX"
 msgid "The query cannot be executed. The “NOT LIKE” condition is too complex."
-msgstr "Sorgu çalıştırılamaz. ”BEĞENME\" durumu çok karmaşık."
+msgstr "Sorgu çalıştırılamaz. ”BENZEMEYEN\" durumu çok karmaşık."
 
 #. AaZzs
 #: connectivity/inc/strings.hrc:45
 msgctxt "STR_QUERY_LIKE_WILDCARD"
 msgid "The query cannot be executed. The “LIKE” condition contains wildcard in the middle."
-msgstr "Sorgu çalıştırılamaz. \"BEĞEN\" koşulu ortada joker karakter içeriyor."
+msgstr "Sorgu çalıştırılamaz. \"BENZER\" koşulu ortada joker karakter içeriyor."
 
 #. GN6F9
 #: connectivity/inc/strings.hrc:46
 msgctxt "STR_QUERY_LIKE_WILDCARD_MANY"
 msgid "The query cannot be executed. The “LIKE” condition contains too many wildcards."
-msgstr "Sorgu çalıştırılamaz. \"BEĞEN\" koşulu çok fazla joker karakter içeriyor."
+msgstr "Sorgu çalıştırılamaz. \"BENZER\" koşulu çok fazla joker karakter içeriyor."
 
 #. LreLr
 #: connectivity/inc/strings.hrc:47
@@ -670,3 +670,261 @@ msgstr "_Sıfırla"
 msgctxt "stock"
 msgid "_Yes"
 msgstr "_Evet"
+
+#~ msgctxt "STR_WRONG_PARAM_INDEX"
+#~ msgid "You tried to set a parameter at position '$pos$' but there is/are only '$count$' parameter(s) allowed. One reason may be that the property \"ParameterNameSubstitution\" is not set to TRUE in the data source."
+#~ msgstr "'$pos$' konumundaki parametreyi belirlemek istediniz fakat orada sadece '$count$' parametresine(lerine) izin verilir. Bir diğer sebep de \"ParameterNameSubstitution\" özelliği veri kaynağında TRUE olarak tanımlanmamış olabilir."
+
+#~ msgctxt "STR_NO_ELEMENT_NAME"
+#~ msgid "There is no element named '$name$'."
+#~ msgstr "'$name$' isminde bir öge yok."
+
+#~ msgctxt "STR_UNSUPPORTED_FUNCTION"
+#~ msgid "The driver does not support the function '$functionname$'."
+#~ msgstr "Sürücü '$functionname$' işlevini desteklememektedir."
+
+#~ msgctxt "STR_UNSUPPORTED_FEATURE"
+#~ msgid "The driver does not support the functionality for '$featurename$'. It is not implemented."
+#~ msgstr "Sürücü '$featurename$' işlevselliğini desteklememektedir. Yürütülemez."
+
+#~ msgctxt "STR_STRING_LENGTH_EXCEEDED"
+#~ msgid "The string '$string$' exceeds the maximum length of $maxlen$ characters when converted to the target character set '$charset$'."
+#~ msgstr "Dizi '$string$' hedef karakter takımı '$charset$' e dönüştürüldüğünde, $maxlen$ karakterlerin en fazla uzunluğu geçer."
+
+#~ msgctxt "STR_CANNOT_CONVERT_STRING"
+#~ msgid "The string '$string$' cannot be converted using the encoding '$charset$'."
+#~ msgstr "Dizi '$string$', '$charset$' kullanılarak dönüştürülemedi."
+
+#~ msgctxt "STR_QUERY_TOO_COMPLEX"
+#~ msgid "The query can not be executed. It is too complex."
+#~ msgstr "Sorgu çalıştırılamadı. Çok karmaşık."
+
+#~ msgctxt "STR_OPERATOR_TOO_COMPLEX"
+#~ msgid "The query can not be executed. The operator is too complex."
+#~ msgstr "Sorgu çalıştırılamadı. İşleç çok karmaşık."
+
+#~ msgctxt "STR_QUERY_INVALID_LIKE_COLUMN"
+#~ msgid "The query can not be executed. You cannot use 'LIKE' with columns of this type."
+#~ msgstr "Sorgu çalıştırılamadı. 'LIKE'ı bu tip sütunları ile kullanamazsınız."
+
+#~ msgctxt "STR_QUERY_INVALID_LIKE_STRING"
+#~ msgid "The query can not be executed. 'LIKE' can be used with a string argument only."
+#~ msgstr "Sorgu çalıştırılamadı. 'LIKE' sadece bir dizi değişkeni ile kullanılabilir."
+
+#~ msgctxt "STR_QUERY_NOT_LIKE_TOO_COMPLEX"
+#~ msgid "The query can not be executed. The 'NOT LIKE' condition is too complex."
+#~ msgstr "Sorgu çalıştırılamadı. 'NOT LIKE' ifadesi çok karmaşık."
+
+#~ msgctxt "STR_QUERY_LIKE_WILDCARD"
+#~ msgid "The query can not be executed. The 'LIKE' condition contains wildcard in the middle."
+#~ msgstr "Sorgu çalıştırılamadı. 'LIKE' ifadesi ortasında özel sembol bulunmaktadir."
+
+#~ msgctxt "STR_QUERY_LIKE_WILDCARD_MANY"
+#~ msgid "The query can not be executed. The 'LIKE' condition contains too many wildcards."
+#~ msgstr "Sorgu çalıştırılamadı. 'LIKE' ifadesi çok fazla özel sembol içermektedir."
+
+#~ msgctxt "STR_INVALID_COLUMNNAME"
+#~ msgid "The column name '$columnname$' is not valid."
+#~ msgstr "Sütun ismi '$columnname$' geçersizdir."
+
+#~ msgctxt "STR_NO_CONNECTION"
+#~ msgid "The connection could not be created. May be the necessary data provider is not installed."
+#~ msgstr "Bağlantı oluşturulamadı. Veri taşıyıcı yüklenmemiş olabilir."
+
+#~ msgctxt "STR_COULD_NOT_CREATE_INDEX_NAME"
+#~ msgid "The index could not be created. The file '$filename$' is used by another index."
+#~ msgstr "İndeks oluşturulamadı. '$filename$' dosyası diğer bir indeks tarafından kullanılmaktadır."
+
+#~ msgctxt "STR_SQL_NAME_ERROR"
+#~ msgid "The name '$name$' doesn't match SQL naming constraints."
+#~ msgstr "'$name$' ismi SQL isim standartlarıyla uyuşmamaktadır."
+
+#~ msgctxt "STR_INVALID_COLUMN_TYPE"
+#~ msgid "Invalid column type for column '$columnname$'."
+#~ msgstr "'$columnname$' sütunu için geçersiz sütun türü."
+
+#~ msgctxt "STR_INVALID_COLUMN_PRECISION"
+#~ msgid "Invalid precision for column '$columnname$'."
+#~ msgstr "'$columnname$' sütunu için geçersiz duyarlılık biçimi."
+
+#~ msgctxt "STR_INVALID_PRECISION_SCALE"
+#~ msgid "Precision is less than scale for column '$columnname$'."
+#~ msgstr "'$columnname$' sütunu için gereken duyarlılık olması gerekenden daha azdır."
+
+#~ msgctxt "STR_INVALID_COLUMN_NAME_LENGTH"
+#~ msgid "Invalid column name length for column '$columnname$'."
+#~ msgstr "'$columnname$' sütunu için geçersiz sütun ismi uzunluğu."
+
+#~ msgctxt "STR_DUPLICATE_VALUE_IN_COLUMN"
+#~ msgid "Duplicate value found in column '$columnname$'."
+#~ msgstr "'$columnname$' sütunu içinde aynı iki değerden bulundu."
+
+#~ msgctxt "STR_INVALID_COLUMN_DECIMAL_VALUE"
+#~ msgid ""
+#~ "The '$columnname$' column has been defined as a \"Decimal\" type, the max. length is $precision$ characters (with $scale$ decimal places).\n"
+#~ "\n"
+#~ "The specified value \"$value$ is longer than the number of digits allowed."
+#~ msgstr ""
+#~ "'$columnname$' sütunu \"Ondalık\" türünde tanımlandığında en fazla $precision$ uzunluğunda olur. ($scale$ ondalık haneleriyle).\n"
+#~ "\n"
+#~ "Belirlenen \"$value$ değeri izin verilen rakam sayısından daha uzundur."
+
+#~ msgctxt "STR_COLUMN_NOT_ALTERABLE"
+#~ msgid "The column '$columnname$' could not be altered. May be the file system is write protected."
+#~ msgstr "'$columnname$' sütunu değiştirilemedi. Belki dosya sistemi yazma korumalı olabilir."
+
+#~ msgctxt "STR_INVALID_COLUMN_VALUE"
+#~ msgid "The column '$columnname$' could not be updated. The value is invalid for that column."
+#~ msgstr "'$columnname$' sütunu güncellenemedi. Sütun için geçersiz değer bulunmaktadır."
+
+#~ msgctxt "STR_COLUMN_NOT_ADDABLE"
+#~ msgid "The column '$columnname$' could not be added. May be the file system is write protected."
+#~ msgstr "'$columnname$' sütunu eklenemedi. Belki dosya sistemi yazma korumalı olabilir."
+
+#~ msgctxt "STR_COLUMN_NOT_DROP"
+#~ msgid "The column at position '$position$' could not be dropped. May be the file system is write protected."
+#~ msgstr "Sütun '$position$' konumundan kaldırılamadı. Belki dosya sistemi yazma korumalı olabilir."
+
+#~ msgctxt "STR_TABLE_NOT_DROP"
+#~ msgid "The table '$tablename$' could not be dropped. May be the file system is write protected."
+#~ msgstr "'$tablename$' tablosu kaldırılamadı. Belki dosya sistemi yazma korumalı olabilir."
+
+#~ msgctxt "STR_INVALID_DBASE_FILE"
+#~ msgid "The file '$filename$' is an invalid (or unrecognized) dBase file."
+#~ msgstr "'$filename$' dosyası geçersiz (ya da tanınmayan) bir dBase dosyasıdır."
+
+#~ msgctxt "STR_QUERY_COMPLEX_COUNT"
+#~ msgid "The query can not be executed. It is too complex. Only \"COUNT(*)\" is supported."
+#~ msgstr "Sorgu çalıştırılamadı. Yapı çok karmaşık. Yalnızca \"COUNT(*)\" desteklenmektedir."
+
+#~ msgctxt "STR_QUERY_INVALID_BETWEEN"
+#~ msgid "The query can not be executed. The 'BETWEEN' arguments are not correct."
+#~ msgstr "Sorgu çalıştırılamadı. 'BETWEEN' değişkenleri doğru değil."
+
+#~ msgctxt "STR_QUERY_FUNCTION_NOT_SUPPORTED"
+#~ msgid "The query can not be executed. The function is not supported."
+#~ msgstr "Sorgu çalıştırılamadı. İşlev desteklenmiyor."
+
+#~ msgctxt "STR_TABLE_READONLY"
+#~ msgid "The table can not be changed. It is read only."
+#~ msgstr "Tablo değiştirilemedi. Salt-okunur durumda."
+
+#~ msgctxt "STR_DELETE_ROW"
+#~ msgid "The row could not be deleted. The option \"Display inactive records\" is set."
+#~ msgstr "Satır silinemedi. \"Aktif olmayan kayıtları göster\" seçeneğini tanımlayın."
+
+#~ msgctxt "STR_QUERY_MORE_TABLES"
+#~ msgid "The query can not be executed. It contains more than one table."
+#~ msgstr "Sorgu çalıştırılamadı. Bir tablodan daha fazla tablo içermektedir."
+
+#~ msgctxt "STR_QUERY_NO_TABLE"
+#~ msgid "The query can not be executed. It contains no valid table."
+#~ msgstr "Sorgu çalıştırılamadı. Geçersiz tablo içermektedir."
+
+#~ msgctxt "STR_QUERY_NO_COLUMN"
+#~ msgid "The query can not be executed. It contains no valid columns."
+#~ msgstr "Sorgu çalıştırılamadı. Geçersiz sütun içermektedir."
+
+#~ msgctxt "STR_INVALID_PARA_COUNT"
+#~ msgid "The count of the given parameter values doesn't match the parameters."
+#~ msgstr "Varolan paremetre değerleri ile count ile alınan parametre değerleri uyuşmaktadır."
+
+#~ msgctxt "STR_NO_VALID_FILE_URL"
+#~ msgid "The URL '$URL$' is not valid. A connection can not be created."
+#~ msgstr "'$URL$' adresi geçersizdir. Bir bağlantı oluşturulamadı."
+
+#~ msgctxt "STR_NO_CLASSNAME"
+#~ msgid "The driver class '$classname$' could not be loaded."
+#~ msgstr "Sürücü sınıfı '$classname$' yüklenemedi."
+
+#~ msgctxt "STR_NO_RESULTSET"
+#~ msgid "The execution of the query doesn't return a valid result set."
+#~ msgstr "Sorgu sonucunda geçerli bir sonuç kümesi geri dönmedi."
+
+#~ msgctxt "STR_NO_ROWCOUNT"
+#~ msgid "The execution of the update statement doesn't effect any rows."
+#~ msgstr "Güncelleme ifadesi hiçbir satıra etki etmedi."
+
+#~ msgctxt "STR_NO_CLASSNAME_PATH"
+#~ msgid "The additional driver class path is '$classpath$'."
+#~ msgstr "Ek sürücü sınıfı yolu '$classpath$' 'dır."
+
+#~ msgctxt "STR_UNKNOWN_PARA_TYPE"
+#~ msgid "The type of parameter at position '$position$' is unknown."
+#~ msgstr "'$position$' konumundaki parametrenin türü bilinmemektedir."
+
+#~ msgctxt "STR_UNKNOWN_COLUMN_TYPE"
+#~ msgid "The type of column at position '$position$' is unknown."
+#~ msgstr "'$position$' konumundaki parametrenin türü bilinmemektedir."
+
+#~ msgctxt "STR_NO_MAC_OS_FOUND"
+#~ msgid "No suitable Mac OS installation was found."
+#~ msgstr "Mac OS kurulumu bulunamadı."
+
+#~ msgctxt "STR_NO_TABLE_CONTAINER"
+#~ msgid "An error occurred while obtaining the connection's table container."
+#~ msgstr "Bağlantının tablo taşıyıcısı alınırken bir hata oluştu."
+
+#~ msgctxt "STR_NO_TABLENAME"
+#~ msgid "There is no table named '$tablename$'."
+#~ msgstr "'$tablename$' isminde bir tablo yok."
+
+#~ msgctxt "STR_PARSER_CYCLIC_SUB_QUERIES"
+#~ msgid "The statement contains a cyclic reference to one or more sub queries."
+#~ msgstr "İfade bir devirli başvuruyu bir ya da daha fazla alt sorguyu içeriyor."
+
+#~ msgctxt "STR_DB_OBJECT_NAME_WITH_SLASHES"
+#~ msgid "The name must not contain any slashes ('/')."
+#~ msgstr "İsim ('/') işaretini içermemelidir."
+
+#~ msgctxt "STR_DB_OBJECT_NAME_IS_USED"
+#~ msgid "The name '$1$' is already in use in the database."
+#~ msgstr "'$1$' ismi daha önceden veritabanında kullanılmış."
+
+#~ msgctxt "STR_COLUMN_NOT_UPDATEABLE"
+#~ msgid "The column at position '$position$' could not be updated."
+#~ msgstr "'$position$' konumundaki sütun güncelleştirilmesi yapılamadı."
+
+#~ msgctxt "STR_ERR_EXECUTING_QUERY"
+#~ msgid "An error occurred while executing the query."
+#~ msgstr "Sorgu çalıştırılırken bir hata meydana geldi."
+
+#~ msgctxt "STR_QUERY_AT_LEAST_ONE_TABLES"
+#~ msgid "The query can not be executed. It needs at least one table."
+#~ msgstr "Sorgu çalıştırılamadı. En azından bir tabloya ihtiyaç duyulmaktadır."
+
+#~ msgctxt "STR_NO_COUNT_SUPPORT"
+#~ msgid "The driver does not support the 'COUNT' function."
+#~ msgstr "Sürücü 'COUNT' işlevini desteklememektedir."
+
+#~ msgctxt "STR_STMT_TYPE_NOT_SUPPORTED"
+#~ msgid "This statement type not supported by this database driver."
+#~ msgstr "Bu ifade türü bu veritabanı sürücüsü tarafından desteklenmemektedir."
+
+#~ msgctxt "STR_UNSPECIFIED_ERROR"
+#~ msgid "An unknown error occurred."
+#~ msgstr "Bilinmeyen bir hata oluştu."
+
+#~ msgctxt "STR_ERROR_REFRESH_ROW"
+#~ msgid "An error occurred while refreshing the current row."
+#~ msgstr "Geçerli satır yeniden yüklenirken bir hata meydana geldi."
+
+#~ msgctxt "STR_ERROR_GET_ROW"
+#~ msgid "An error occurred while getting the current row."
+#~ msgstr "Geçerli satır getirilirken bir hata meydana geldi."
+
+#~ msgctxt "STR_QUERY_INVALID_IS_NULL_COLUMN"
+#~ msgid "The query can not be executed. The 'IS NULL' can only be used with a column name."
+#~ msgstr "Sorgu çalıştırılamadı. 'IS NULL' sadece sütun ismiyle birlikte kullanılabilir."
+
+#~ msgctxt "STR_ILLEGAL_MOVEMENT"
+#~ msgid "Illegal cursor movement occurred."
+#~ msgstr "Geçersiz imleç taşıması meydana geldi."
+
+#~ msgctxt "STR_COMMIT_ROW"
+#~ msgid "Please commit row '$position$' before update rows or insert new rows."
+#~ msgstr "Lütfen '$position$' satırını uygulamadan önce satırları güncelleyin ya da yeni satırlar ekleyin."
+
+#~ msgctxt "STR_NO_CONNECTION_GIVEN"
+#~ msgid "It doesn't exist a connection to the database."
+#~ msgstr "Varolan bir veritabanı bağlantısı yok."
