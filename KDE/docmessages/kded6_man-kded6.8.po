@@ -1,0 +1,605 @@
+#
+# Serdar Soytetir <tulliana@gmail.com>, 2012.
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-29 02:12+0000\n"
+"PO-Revision-Date: 2025-03-13 15:54+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.07.70\n"
+
+#. Tag: title
+#: man-kded6.8.docbook:9
+#, no-c-format
+msgid "kded6 User's Manual"
+msgstr "kded6 Kullanıcı Kılavuzu"
+
+#. Tag: author
+#: man-kded6.8.docbook:10
+#, no-c-format
+msgid "<firstname>David</firstname> <surname>Faure</surname>"
+msgstr "<firstname>David</firstname> <surname>Faure</surname>"
+
+#. Tag: contrib
+#: man-kded6.8.docbook:13
+#, no-c-format
+msgid "Maintainer"
+msgstr "Bakımcı"
+
+#. Tag: email
+#: man-kded6.8.docbook:15
+#, no-c-format
+msgid "faure@kde.org"
+msgstr "faure@kde.org"
+
+#. Tag: author
+#: man-kded6.8.docbook:19
+#, no-c-format
+msgid "<firstname>Waldo</firstname> <surname>Bastian</surname>"
+msgstr "<firstname>Waldo</firstname> <surname>Bastian</surname>"
+
+#. Tag: contrib
+#: man-kded6.8.docbook:22
+#, no-c-format
+msgid "Original author"
+msgstr "Özgün yazar"
+
+#. Tag: email
+#: man-kded6.8.docbook:24
+#, no-c-format
+msgid "bastian@kde.org"
+msgstr "bastian@kde.org"
+
+#. Tag: date
+#: man-kded6.8.docbook:28
+#, no-c-format
+msgid "2023-06-22"
+msgstr "2023-06-22"
+
+#. Tag: releaseinfo
+#: man-kded6.8.docbook:29
+#, no-c-format
+msgid "Frameworks 6"
+msgstr "Frameworks 6"
+
+#. Tag: productname
+#: man-kded6.8.docbook:30
+#, no-c-format
+msgid "KDE Frameworks"
+msgstr "KDE Frameworks"
+
+#. Tag: manvolnum
+#: man-kded6.8.docbook:36
+#, no-c-format
+msgid "<manvolnum>8</manvolnum>"
+msgstr "<manvolnum>8</manvolnum>"
+
+#. Tag: refpurpose
+#: man-kded6.8.docbook:41
+#, no-c-format
+msgid "&kde; daemon - triggers Sycoca database updates when needed."
+msgstr "&kde; ardalan süreci, gerektiğinde Sycoca veritabanını günceller."
+
+#. Tag: title
+#: man-kded6.8.docbook:45
+#, no-c-format
+msgid "Synopsis"
+msgstr "Özet"
+
+#. Tag: cmdsynopsis
+#: man-kded6.8.docbook:47
+#, no-c-format
+msgid "<command>kded6</command> <arg choice=\"opt\">--check</arg>"
+msgstr "<command>kded6</command> <arg choice=\"opt\">--check</arg>"
+
+#. Tag: title
+#: man-kded6.8.docbook:54
+#, no-c-format
+msgid "Description"
+msgstr "Açıklama"
+
+#. Tag: para
+#: man-kded6.8.docbook:56
+#, no-c-format
+msgid ""
+"<command>kded6</command> consolidates several small services in one process. "
+"These are mostly &DBus; services provided by KDED modules, but it also "
+"manages sycoca (a binary cache of servicetypes, &MIME; types and services "
+"used by KService) and KConfig update scripts as needed."
+msgstr ""
+"<command>kded6</command>, tek süreçte birden çok küçük hizmeti birleştirir. "
+"Bunlar çoğunlukla KDED modülleri tarafından sağlanan &DBus; hizmetleridir; "
+"ancak gerekirse sycoca (hizmet türleri, &MIME; türleri ve KService "
+"tarafından kullanılan hizmetlerin ikili önbelleği) ve KConfig güncelleme "
+"betiklerini de yönetir."
+
+#. Tag: para
+#: man-kded6.8.docbook:58
+#, no-c-format
+msgid ""
+"For sycoca, it monitors the directories containing .desktop files. When a "
+"file is added/removed, it waits 5 seconds (in case of a series of updates), "
+"and then launches <command>kbuildsycoca6</command> to update the sycoca."
+msgstr ""
+"Sycoca için .desktop dosyalarını içeren dizinleri izler. Bir dosya "
+"eklendiğinde veya kaldırıldığında 5 saniye kadar bekler (bir güncelleme "
+"serisi durumunda), ardından sycoca’yı güncellemek için "
+"<command>kbuildsycoca6</command> komutunu başlatır."
+
+#. Tag: para
+#: man-kded6.8.docbook:60
+#, no-c-format
+msgid ""
+"For KConfig, it checks newly-installed update files, &ie; the *.upd files "
+"used to update configuration files of users when the configuration file "
+"formats changes, and runs the KConfig update utility to perform the updates."
+msgstr ""
+"KConfig için yeni kurulan güncelleme dosyalarını denetler, örn. yapılandırma "
+"dosyası biçimleri değiştiğinde kullanıcıların yapılandırma dosyalarını "
+"güncellemek için kullanılan *.upd dosyaları ve güncellemeleri "
+"gerçekleştirmek için KConfig güncelleme izlencesini çalıştırır."
+
+#. Tag: para
+#: man-kded6.8.docbook:62
+#, no-c-format
+msgid ""
+"Those tasks are also run when <command>kded6</command> is started to ensure "
+"that the user configuration is up to date."
+msgstr ""
+"Bu görevler <command>kded6</command> başladığında da kullanıcı "
+"yapılandırmasını güncel tutmak için çalıştırılır."
+
+#. Tag: para
+#: man-kded6.8.docbook:64
+#, no-c-format
+msgid ""
+"You do not normally need to run <command>kded6</command> directly; &plasma; "
+"desktop sessions run it automatically, and it is started on demand when an "
+"application attempts to use a &DBus; interface provided by it or one of its "
+"modules."
+msgstr ""
+"Normalde <command>kded6</command> komutunu doğrudan çalıştırmanız gerekmez; "
+"&plasma; masaüstü oturumu kendiliğinden çalıştırır ve bir uygulama onun "
+"tarafından sağlanan bir &DBus; arayüzünü veya modüllerinden birini "
+"çağırdığında başlatılır."
+
+#. Tag: title
+#: man-kded6.8.docbook:71
+#, no-c-format
+msgid "Options"
+msgstr "Seçenekler"
+
+#. Tag: option
+#: man-kded6.8.docbook:75
+#, no-c-format
+msgid "--check"
+msgstr "--check"
+
+#. Tag: para
+#: man-kded6.8.docbook:77
+#, no-c-format
+msgid "Check the sycoca database, updating it if necessary, and exit."
+msgstr "sycoca veritabanını denetleyin, gerekliyse güncelleyin ve çıkın."
+
+#. Tag: title
+#: man-kded6.8.docbook:87
+#, no-c-format
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#. Tag: para
+#: man-kded6.8.docbook:89
+#, no-c-format
+msgid ""
+"<command>kded6</command> can be configured with the <filename>kded6rc</"
+"filename> ini-style configuration file. On &UNIX; systems, this can be found "
+"at <filename><varname>$XDG_CONFIG_HOME</varname>/kded6rc</filename>; if "
+"<varname>$XDG_CONFIG_HOME</varname> is not set, this defaults to "
+"<filename>~/.config/kded6rc</filename>."
+msgstr ""
+"<command>kded6</command> komutu, <filename>kded6rc</filename> ini-biçemli "
+"yapılandırma dosyasıyla yapılandırılabilir. &UNIX; sistemlerde, bu "
+"<filename><varname>$XDG_CONFIG_HOME</varname>/kded6rc</filename> konumunda "
+"bulunabilir; <varname>$XDG_CONFIG_HOME</varname> ayarlanmamışsa öntanımlı "
+"değer <filename>~/.config/kded6rc</filename> olur."
+
+#. Tag: para
+#: man-kded6.8.docbook:91
+#, no-c-format
+msgid ""
+"Configuration file entries are read on-demand, so changes can be made while "
+"<command>kded6</command> is running. However, all the current configuration "
+"options only really affect the startup behaviour of <command>kded6</command>."
+msgstr ""
+"Yapılandırma dosyası girdileri istendiğinde okunur, böylece değişiklikler "
+"<command>kded6</command> çalışırken yapılabilir. Ancak tüm geçerli "
+"yapılandırma seçenekleri gerçekten yalnızca <command>kded6</command> "
+"davranışını etkiler."
+
+#. Tag: para
+#: man-kded6.8.docbook:93
+#, no-c-format
+msgid "The <option>[General]</option> section has the following options:"
+msgstr "<option>[Genel]</option> bölümü şu seçenekleri içerir:"
+
+#. Tag: option
+#: man-kded6.8.docbook:96
+#, no-c-format
+msgid "CheckSycoca"
+msgstr "CheckSycoca"
+
+#. Tag: para
+#: man-kded6.8.docbook:97
+#, no-c-format
+msgid ""
+"Whether to update sycoca at startup (default: <constant>true</constant>)."
+msgstr ""
+"Sycoca’nın açılışta güncellenip güncellenmeyeceği (öntanımlı: "
+"<constant>true</constant>)."
+
+#. Tag: option
+#: man-kded6.8.docbook:101
+#, no-c-format
+msgid "CheckUpdates"
+msgstr "CheckUpdates"
+
+#. Tag: para
+#: man-kded6.8.docbook:102
+#, no-c-format
+msgid ""
+"Whether to perform outstanding KConfig updates at startup (default: "
+"<constant>true</constant>)."
+msgstr ""
+"Kalmış KConfig güncellemelerinin açılışta yapılıp yapılmayacağı (öntanımlı: "
+"<constant>true</constant>)."
+
+#. Tag: option
+#: man-kded6.8.docbook:106
+#, no-c-format
+msgid "CheckFileStamps"
+msgstr "CheckFileStamps"
+
+#. Tag: para
+#: man-kded6.8.docbook:107
+#, no-c-format
+msgid ""
+"Whether to check file timestamps when performing the initial sycoca update "
+"(default: <constant>true</constant>). See the documentation for "
+"<command>kbuildsycoca6</command> for more details."
+msgstr ""
+"İlk sycoca güncellemesini yaparken dosya zaman damgalarının denetlenip "
+"denetlenmeyeceği (öntanımlı: <constant>true</constant>). Ayrıntılar için "
+"<command>kbuildsycoca6</command> belgelendirmesine göz atın."
+
+#. Tag: option
+#: man-kded6.8.docbook:111
+#, no-c-format
+msgid "DelayedCheck"
+msgstr "DelayedCheck"
+
+#. Tag: para
+#: man-kded6.8.docbook:112
+#, no-c-format
+msgid ""
+"Whether to delay the initial sycoca update until about a minute after "
+"starting (default: <constant>false</constant>)."
+msgstr ""
+"İlk sycoca güncellemesinin başlangıçtan bir dakika sonraya kadar "
+"geciktirilip geciktirilmemesi (öntanımlı: <constant>false</constant>)."
+
+#. Tag: para
+#: man-kded6.8.docbook:118
+#, no-c-format
+msgid ""
+"Each module also has a <option>[Module-<replaceable>name</replaceable>]</"
+"option> section in <filename>kded6rc</filename>, where <replaceable>name</"
+"replaceable> is the name of the module's desktop file without the <filename>."
+"desktop</filename> extension. This contains an <option>autoload</option> "
+"option that specifies whether the module should be automatically loaded when "
+"<command>kded6</command> is started (default: <constant>false</constant>). "
+"Note that this setting can also be changed via <command>kded6</command>'s "
+"&DBus; interface."
+msgstr ""
+"Her modül ayrıca <filename>kded6rc</filename> içinde bir <option>[Modül-"
+"<replaceable>ad</replaceable>]</option> kısmına sahiptir, burada "
+"<replaceable>ad</replaceable>, modülün masaüstü dosyasının <filename>."
+"desktop</filename> uzantısı olmadan adıdır. Bu modülün <command>kded6</"
+"command> başlatıldığında kendiliğinden yüklenip yüklenmemesi gerektiğini "
+"belirten bir <option>autoload</option> seçeneği içerir (öntanımlı: "
+"<constant>false</constant>). Bu ayarın <command>kded6</command> &DBus; "
+"arayüzüyle de değiştirilebileceğini söyleyelim."
+
+#. Tag: title
+#: man-kded6.8.docbook:124
+#, no-c-format
+msgid "See Also"
+msgstr "Ayrıca Bakınız"
+
+#. Tag: para
+#: man-kded6.8.docbook:125
+#, no-c-format
+msgid ""
+"<citerefentry><refentrytitle>kbuildsycoca6</refentrytitle><manvolnum>8</"
+"manvolnum></citerefentry>, <citerefentry><refentrytitle>kdeinit6</"
+"refentrytitle><manvolnum>8</manvolnum></citerefentry>"
+msgstr ""
+"<citerefentry><refentrytitle>kbuildsycoca6</refentrytitle><manvolnum>8</"
+"manvolnum></citerefentry>, <citerefentry><refentrytitle>kdeinit6</"
+"refentrytitle><manvolnum>8</manvolnum></citerefentry>"
+
+#. Tag: title
+#: man-kded6.8.docbook:134
+#, no-c-format
+msgid "Bugs"
+msgstr "Hatalar"
+
+#. Tag: para
+#: man-kded6.8.docbook:135
+#, no-c-format
+msgid ""
+"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to "
+"report bugs."
+msgstr ""
+"Hataları bildirmek için lütfen <ulink url=\"https://bugs.kde.org\">&kde;’nin "
+"hata izleyicisini</ulink> kullanın."
+
+#~ msgid "2014-03-22"
+#~ msgstr "2014-03-22"
+
+#~ msgid "2010-10-28"
+#~ msgstr "2010-10-28"
+
+#~ msgid "&kde; 4.5"
+#~ msgstr "&kde; 4.5"
+
+#~ msgid ""
+#~ "<command>kded4</command> <arg choice=\"opt\">--help</arg> <arg choice="
+#~ "\"opt\">Generic options</arg> <arg choice=\"opt\">Qt-options</arg> <arg "
+#~ "choice=\"opt\">KDE-options</arg> <arg choice=\"opt\">--check</arg>"
+#~ msgstr ""
+#~ "<command>kded4</command> <arg choice=\"opt\">--help</arg> <arg choice="
+#~ "\"opt\">Temel seçenekler</arg> <arg choice=\"opt\">Qt-seçenekleri</arg> "
+#~ "<arg choice=\"opt\">KDE-seçenekleri</arg> <arg choice=\"opt\">--check</"
+#~ "arg>"
+
+#~ msgid ""
+#~ "<command>kded4</command> is responsible for creating the sycoca file, i."
+#~ "e. the binary cache of servicetypes, mimetypes, and services for a "
+#~ "particular user."
+#~ msgstr ""
+#~ "<command>kded4</command>, belirli bir kullanıcının kullandığı servis "
+#~ "tipleri, mime tipleri ve servisler için derlenmiş önbellekler anlamına "
+#~ "gelen sycoca dosyalarını oluşturmakla görevlidir."
+
+#~ msgid "Konqueror Browser Preloader"
+#~ msgstr "Konqueror Tarayıcı Önyükleyicisi"
+
+#~ msgid "Reduces Konqueror startup time."
+#~ msgstr "Konqueror açılış zamanını azaltır."
+
+#~ msgid "Directory Watcher"
+#~ msgstr "Dizin İzleyici"
+
+#~ msgid "Monitors directories for changes."
+#~ msgstr "Dizinleri değişiklik için izler.."
+
+#~ msgid "Hardware Detection"
+#~ msgstr "Donanım Bulma"
+
+#~ msgid "Provides a user interface for hardware events."
+#~ msgstr "Donanım olayları için kullanıcı arayüzü sunar."
+
+#~ msgid "SSL Certificate Policy"
+#~ msgstr "SSL Sertifika Politikası"
+
+#~ msgid "Automatic proxy configuration."
+#~ msgstr "Otomatik vekil sunucu yapılandırması."
+
+#~ msgid "Password Caching"
+#~ msgstr "Parola Önbellekleme"
+
+#~ msgid "Sound Policy"
+#~ msgstr "Ses Politikası"
+
+#~ msgid "Provides the sound system policy to applications."
+#~ msgstr "Uygulamalara ses sistemi politikası sağlar."
+
+#~ msgid "Favicons"
+#~ msgstr "Site Simgeleri"
+
+#~ msgid "Stores website icons."
+#~ msgstr "Web sayfası simgelerini saklar."
+
+#~ msgid "Display Management"
+#~ msgstr "Ekran Yönetimi"
+
+#~ msgid "Manages displays and video outputs."
+#~ msgstr "Ekranları ve video çıkışlarını yönetir."
+
+#~ msgid "Cookie jar"
+#~ msgstr "Çerezler"
+
+#~ msgid "Stores network cookies."
+#~ msgstr "Ağ çerezlerini saklar."
+
+#~ msgid "Network Watcher"
+#~ msgstr "Ağ İzleyici"
+
+#~ msgid "Subversion Module"
+#~ msgstr "Subversion Modülü"
+
+#~ msgid ""
+#~ "Provides various subversion actions to filemanager and other software."
+#~ msgstr ""
+#~ "Dosya yöneticisine ve diğer bazı uygulamalara subversion (SVN) "
+#~ "işlemlerini yapma olanağı sağlar."
+
+#~ msgid "Network Status"
+#~ msgstr "Ağ Durumu"
+
+#~ msgid "Write Daemon"
+#~ msgstr "Yazma Servisi"
+
+#~ msgid "Notification area watcher"
+#~ msgstr "Bildirim alanı izleyici"
+
+#~ msgid "KMixD"
+#~ msgstr "KMixD"
+
+#~ msgid "KMixD Mixer Service"
+#~ msgstr "KMixD Karıştırıcı Servisi"
+
+#~ msgid "Systemtray daemon"
+#~ msgstr "Sistem çekmecesi servisi"
+
+#~ msgid "Keyboard Daemon"
+#~ msgstr "Klavye Servisi"
+
+#~ msgid "Keeps track of keyboard changes (new keyboard, changed layout)"
+#~ msgstr ""
+#~ "Klavye değişikliklerini izler (yeni klavye, klavye düzeninin değişmesi "
+#~ "gibi)"
+
+#~ msgid "Remote URL Change Notifier"
+#~ msgstr "Uzak Adres Değişimi Bildirici"
+
+#~ msgid "Provides change notifications for network folders"
+#~ msgstr "Ağ dizinleri için değiştirme bildirimleri sağlar"
+
+#~ msgid "Activity Manager"
+#~ msgstr "Etkinlik Yöneticisi"
+
+#~ msgid "The Nepomuk activities manager backend"
+#~ msgstr "Nepomuk etkinlik yöneticisi arka ucu"
+
+#~ msgid "Display Management change monitor"
+#~ msgstr "Ekran Yönetimi değişim izleyicisi"
+
+#~ msgid "Notifies how the display has been rotated (where available)"
+#~ msgstr "Ekranın nasıl döndürüldüğünü bildirir (eğer bu işlem yapılmışsa)"
+
+#~ msgid "Free Space Notifier"
+#~ msgstr "Boş Alan Bildirici"
+
+#~ msgid "Warns when running out of space in your home folder."
+#~ msgstr "Ev dizininizde boş alan azaldığı zaman uyarır."
+
+#~ msgid "Removable Device Automounter"
+#~ msgstr "Otomatik Çıkarılabilir Aygıt Bağlayıcı"
+
+#~ msgid "Nepomuk Search Module"
+#~ msgstr "Nepomuk Arama Modülü"
+
+#~ msgid "Power Management"
+#~ msgstr "Güç Yönetimi"
+
+#~ msgid "Battery, Display and CPU power management and notifications."
+#~ msgstr "Pil, Ekran, İşlemci güç yönetimi ve bildirimleri."
+
+#~ msgid "K Remote Control Daemon"
+#~ msgstr "K Uzaktan Kumanda Servisi"
+
+#~ msgid "Manages the Remote Control commands received"
+#~ msgstr "Alınan Uzaktan Kumanda komutlarını yönetir"
+
+#~ msgid "Status Notifier Manager"
+#~ msgstr "Durum Bildirim Yöneticisi"
+
+#~ msgid "Manages services that provide status notifier user interfaces."
+#~ msgstr "Durum bildirimi kullanıcı arayüzünü sunan servisleri yönetir."
+
+#~ msgid "DNS-SD Service Discovery Monitor"
+#~ msgstr "DNS-SD Servis Bulma İzleyicisi"
+
+#~ msgid "Monitors the network for DNS-SD services."
+#~ msgstr "Ağı DNS-SD servisleri için izler."
+
+#~ msgid "Drive Ejector"
+#~ msgstr "Sürücü Çıkartıcı"
+
+#~ msgid "Time zone"
+#~ msgstr "Zaman dilimi"
+
+#~ msgid "Input Actions"
+#~ msgstr "Girdi Eylemleri"
+
+#~ msgid "Input Actions service performing configured actions on key presses."
+#~ msgstr ""
+#~ "Tuş basımları üzerinde önceden yapılandırılmış eylemleri gerçekleştiren "
+#~ "Girdi Eylemleri servisi."
+
+#~ msgid "--author"
+#~ msgstr "--author"
+
+#~ msgid "Show author information."
+#~ msgstr "Yazar bilgisini göster."
+
+#~ msgid "--help"
+#~ msgstr "--help"
+
+#~ msgid "Show help about options."
+#~ msgstr "Seçeneklerle ilgili yardım göster."
+
+#~ msgid "--help-all"
+#~ msgstr "--help-all"
+
+#~ msgid "Show all options."
+#~ msgstr "Tüm seçenekleri göster."
+
+#~ msgid "--help-kde"
+#~ msgstr "--help-kde"
+
+#~ msgid "Show KDE specific options."
+#~ msgstr "KDE özel seçeneklerini göster."
+
+#~ msgid "--help-qt"
+#~ msgstr "--help-qt"
+
+#~ msgid "Show Qt specific options."
+#~ msgstr "Qt özel seçeneklerini göster."
+
+#~ msgid "--license"
+#~ msgstr "--license"
+
+#~ msgid "Show license information."
+#~ msgstr "Lisans bilgisini göster."
+
+#~ msgid "<option>-v</option> <option>--version</option>"
+#~ msgstr "<option>-v</option> <option>--version</option>"
+
+#~ msgid "Show version information"
+#~ msgstr "Sürüm bilgisini göster"
+
+#~ msgid "Application Options"
+#~ msgstr "Uygulama Seçenekleri"
+
+#~ msgid "Check Sycoca database only once."
+#~ msgstr "Sycoca veritabanını sadece bir kez kontrol et."
+
+#~ msgid "Usage"
+#~ msgstr "Kullanım"
+
+#~ msgid ""
+#~ "If <command>kded4</command> is called without parameters and is already "
+#~ "running, it shows the message:"
+#~ msgstr ""
+#~ "<command>kded4</command> komutu bir parametre verilmeden çalıştırılmışsa "
+#~ "ve zaten çalışıyorsa şu ileti gösterilir:"
+
+#~ msgid "KDE Daemon (kded) already running."
+#~ msgstr "KDE Servisi (kded) çalışıyor."
+
+#~ msgid ""
+#~ "<replaceable>kdeoptions</replaceable>(7), <replaceable>qtoptions</"
+#~ "replaceable>(7), <replaceable>kbuildsycoca4</replaceable>(8)"
+#~ msgstr ""
+#~ "<replaceable>kdeoptions</replaceable>(7), <replaceable>qtoptions</"
+#~ "replaceable>(7), <replaceable>kbuildsycoca4</replaceable>(8)"

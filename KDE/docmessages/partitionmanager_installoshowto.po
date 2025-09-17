@@ -1,0 +1,271 @@
+#
+# SPDX-FileCopyrightText: 2023, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-09-24 00:52+0000\n"
+"PO-Revision-Date: 2025-03-06 00:02+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: installoshowto.docbook:2
+#, no-c-format
+msgid "How-To: Installing a New Operating System"
+msgstr "Nasıl Yapılır: Yeni Bir İşletim Sistemi Kurulumu"
+
+#. Tag: para
+#: installoshowto.docbook:4
+#, no-c-format
+msgid ""
+"This how-to describes the preparation of a new hard disk device for an OS "
+"installation: Suppose you bought a new hard disk and now intend to use it as "
+"a replacement for the old one that currently holds your OS and data "
+"partitions. You would also like to take this opportunity to install a new "
+"operating system. Several steps will have to be taken to make the transition "
+"from the old to the new system and drive."
+msgstr ""
+"Bu nasıl yapılır belgesi, bir işletim sistemi kurulumu için yeni bir sabit "
+"disk aygıtının hazırlanmasını açıklar: Yeni bir sabit disk satın aldığınızı "
+"ve şimdi bunu, işletim sisteminizi ve veri bölüntülerinizi tutan eski sabit "
+"diskin yerine kullanmak istediğinizi varsayalım. Bu fırsatı yeni bir işletim "
+"sistemi kurmak için de kullanmak istersiniz. Eski sistemden yeni sisteme ve "
+"sürücüye geçiş yapmak için birkaç adım atılması gerekecektir."
+
+#. Tag: para
+#: installoshowto.docbook:8
+#, no-c-format
+msgid ""
+"In the following, <quote>/dev/sdb</quote> is the old hard disk and <quote>/"
+"dev/sdc</quote> is the new one. This screenshot shows the situation on the "
+"source device:"
+msgstr ""
+"Aşağıda, <quote>/dev/sdb</quote> eski sabit disk ve <quote>/dev/sdc</quote> "
+"yeni sabit disktir. Bu ekran görüntüsü, kaynak aygıttaki durumu gösterir:"
+
+#. Tag: phrase
+#: installoshowto.docbook:16
+#, no-c-format
+msgid "Main window with source device"
+msgstr "Kaynak aygıt ile ana pencere"
+
+#. Tag: para
+#: installoshowto.docbook:21
+#, no-c-format
+msgid ""
+"The new device will look like this. Note that it doesn't yet have valid "
+"partition table, thus the first step to take is to create one by selecting "
+"<xref linkend=\"menu-device-createpartitiontable\"/>:"
+msgstr ""
+"Yeni aygıt böyle görünecek. Henüz geçerli bir bölüntüleme tablosu olmadığını "
+"unutmayın, bu nedenle atılacak ilk adım <xref linkend=\"menu-device-"
+"createpartitiontable\"/> ögesini seçerek bir tane oluşturmaktır:"
+
+#. Tag: phrase
+#: installoshowto.docbook:29
+#, no-c-format
+msgid "Main window with destination device"
+msgstr "Hedef aygıt ile birlikte ana pencere"
+
+#. Tag: para
+#: installoshowto.docbook:34
+#, no-c-format
+msgid ""
+"After confirming the warning dialog you can begin creating partitions on the "
+"new device by clicking the extended partition and selecting <xref linkend="
+"\"menu-partition-new\"/>. Begin with an extended partition at the end of the "
+"device to later hold the home and swap partitions:"
+msgstr ""
+"Uyarı iletişim kutusunu onayladıktan sonra, genişletilmiş bölüntüye tıklayıp "
+"<xref linkend=\"menu-partition-new\"/> ögesini seçerek yeni aygıtta "
+"bölüntüler oluşturmaya başlayabilirsiniz. Daha sonra home ve diğer "
+"bölüntülerideğiştirmek için aygıtın sonunda genişletilmiş bir bölüntüyle "
+"başlayın:"
+
+#. Tag: phrase
+#: installoshowto.docbook:42
+#, no-c-format
+msgid "Creating an extended partition"
+msgstr "Genişletilmiş bir bölüntü oluşturma"
+
+#. Tag: para
+#: installoshowto.docbook:47
+#, no-c-format
+msgid ""
+"Click <guibutton>OK</guibutton> and the operation to create this extended "
+"partition is added to the list."
+msgstr ""
+"<guibutton>Tamam</guibutton>’a tıklayın ve bu genişletilmiş bölüntüyü "
+"oluşturma işlemi listeye eklenir."
+
+#. Tag: para
+#: installoshowto.docbook:51
+#, no-c-format
+msgid ""
+"Now create a primary partition on the rest of the device where the new OS "
+"will be installed. Make it as large as the unallocated area in front of the "
+"extended partition:"
+msgstr ""
+"Şimdi, aygıtın geri kalanında yeni işletim sisteminin kurulacağı bir "
+"birincil bölüntü oluşturun. Genişletilmiş bölüntünün önündeki ayrılmamış "
+"alan kadar büyük yapın:"
+
+#. Tag: phrase
+#: installoshowto.docbook:59
+#, no-c-format
+msgid "Creating a primary partition"
+msgstr "Bir birincil bölüntü oluşturma"
+
+#. Tag: para
+#: installoshowto.docbook:64
+#, no-c-format
+msgid ""
+"Click <guibutton>OK</guibutton> in the dialog to accept your choice. The "
+"operation to create the new primary partition is then added to the operation "
+"list."
+msgstr ""
+"Seçiminizi kabul etmek için iletişim kutusunda <guibutton>Tamam</"
+"guibutton>’a tıklayın. Yeni birincil bölüntüyü oluşturma işlemi daha sonra "
+"işlem listesine eklenir."
+
+#. Tag: para
+#: installoshowto.docbook:68
+#, no-c-format
+msgid ""
+"Now it is time to copy the home partition from the old device to the "
+"extended partition on the new device. Select the old device in the Device "
+"List panel, click on partition <quote>sdb5</quote> and pick <xref linkend="
+"\"menu-partition-copy\"/>."
+msgstr ""
+"Şimdi eski aygıttaki home bölüntüsünü yeni aygıttaki genişletilmiş bölüntüye "
+"kopyalamanın zamanı geldi. Aygıt Listesi panelinde eski aygıtı seçin, "
+"<quote>sdb5</quote> bölüntüsüne tıklayın ve <xref linkend=\"menu-partition-"
+"copy\"/> ögesini seçin."
+
+#. Tag: para
+#: installoshowto.docbook:72
+#, no-c-format
+msgid ""
+"Then go back to the new device and click the extended partition. Select "
+"<xref linkend=\"menu-partition-paste\"/>. The following dialog will come up:"
+msgstr ""
+"Ardından yeni aygıta geri dönün ve genişletilmiş bölüntüye tıklayın. <xref "
+"linkend=\"menu-partition-paste\"/> ögesini seçin. Aşağıdaki iletişim kutusu "
+"gelecektir:"
+
+#. Tag: phrase
+#: installoshowto.docbook:80
+#, no-c-format
+msgid "Pasting the home partition"
+msgstr "Bir home bölüntüsünü yapıştırmak"
+
+#. Tag: para
+#: installoshowto.docbook:85
+#, no-c-format
+msgid ""
+"This already looks mostly okay but you already know that you will not need "
+"that much free space after the home partition because you will later create "
+"a swap partition there."
+msgstr ""
+"Bu zaten çoğunlukla iyi görünüyor; ancak daha sonra orada bir takas "
+"bölüntüsü oluşturacağınız için home bölüntüsünden sonra o kadar boş alana "
+"gereksiniminiz olmayacağını zaten biliyorsunuz."
+
+#. Tag: para
+#: installoshowto.docbook:89
+#, no-c-format
+msgid ""
+"So grab the right resize handle in the dialog's resizer widget and move it "
+"to the right until the free space after the pasted partition has a size more "
+"suitable for a swap partition:"
+msgstr ""
+"Bu nedenle, iletişim kutusunun yeniden boyutlandırma araç takımında doğru "
+"yeniden boyutlandırma tutacını alın ve yapıştırılan bölüntüden sonraki boş "
+"alan, bir takas bölüntüsü için daha uygun bir boyuta sahip olana kadar sağa "
+"hareket ettirin:"
+
+#. Tag: phrase
+#: installoshowto.docbook:97
+#, no-c-format
+msgid "Resizing a pasted partition"
+msgstr "Yapıştırılan bir bölüntüyü yeniden boyutlandırma"
+
+#. Tag: para
+#: installoshowto.docbook:102
+#, no-c-format
+msgid ""
+"This looks fine. Click <guibutton>OK</guibutton> to accept and close the "
+"dialog. A new operation to paste the copied partition to the extended "
+"partition on <quote>sdc</quote> is added to the operation list. Note that "
+"this operation will also set the new size."
+msgstr ""
+"Bu iyi görünüyor. İletişim kutusunu kabul etmek ve kapatmak için "
+"<guibutton>Tamam</guibutton>’a tıklayın. Kopyalanan bölüntüyü <quote>sdc</"
+"quote> üzerindeki genişletilmiş bölüntüye yapıştırmak için yeni bir işlem, "
+"işlem listesine eklenir. Bu işlemin yeni boyutu da belirleyeceğini unutmayın."
+
+#. Tag: para
+#: installoshowto.docbook:106
+#, no-c-format
+msgid ""
+"Finally you will want to create a new swap partition at the end of the "
+"extended partition on <quote>sdc</quote>. There is no need to copy the "
+"existing swap partition from <quote>sdb</quote> because swap does not hold "
+"any permanent information worth keeping. Simply create a new partition with "
+"type linuxswap that fills the whole of the unallocated area after the new "
+"home partition."
+msgstr ""
+"Son olarak, <quote>sdc</quote> üzerindeki genişletilmiş bölüntünün sonunda "
+"yeni bir takas bölüntüsü oluşturmak isteyeceksiniz. Var olan takas "
+"bölüntüsünü <quote>sdb</quote>’den kopyalamaya gerek yoktur; çünkü takas, "
+"saklamaya değer herhangi bir kalıcı bilgi tutmaz. Yeni home bölüntüsünden "
+"sonra ayrılmamış alanın tamamını dolduran linuxswap türünde yeni bir bölüntü "
+"oluşturmanız yeterlidir."
+
+#. Tag: para
+#: installoshowto.docbook:110
+#, no-c-format
+msgid ""
+"The main window with all operations and the preview of how <quote>sdc</"
+"quote> will look like once they are applied now looks like this:"
+msgstr ""
+"Tüm işlemleri içeren ana pencere ve <quote>sdc</quote>’nin uygulandıktan "
+"sonra nasıl görüneceğinin önizlemesi artık şuna benzer:"
+
+#. Tag: phrase
+#: installoshowto.docbook:118
+#, no-c-format
+msgid "Main window after setting up all operations"
+msgstr "Tüm işlemleri ayarladıktan sonra ana pencere"
+
+#. Tag: para
+#: installoshowto.docbook:123
+#, no-c-format
+msgid ""
+"This looks great so select <xref linkend=\"menu-edit-apply\"/>, confirm the "
+"warning dialog and wait until the operations have all been executed. For "
+"details on executing operations see <link linkend=\"howto-resizepartition"
+"\">the how-to on resizing partitions</link>."
+msgstr ""
+"Bu harika görünüyor, bu nedenle <xref linkend=\"menu-edit-apply\"/> ögesini "
+"seçin, uyarı iletişim kutusunu onaylayın ve işlemlerin tümü yürütülene kadar "
+"bekleyin. Yürütme işlemleriyle ilgili ayrıntılar için <link linkend=\"howto-"
+"resizepartition\">bölüntüleri yeniden boyutlandırma hakkında nasıl yapılır</"
+"link>’a bakın."
+
+#. Tag: para
+#: installoshowto.docbook:127
+#, no-c-format
+msgid ""
+"Your new hard disk device is now ready for the installation of your new "
+"operating system."
+msgstr ""
+"Yeni sabit disk aygıtınız artık yeni işletim sisteminizin kurulumu için "
+"hazırdır."

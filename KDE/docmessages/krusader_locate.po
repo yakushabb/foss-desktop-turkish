@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: krusader_locate\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-20 00:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: locate.docbook:8
+#, no-c-format
+msgid "Locate &GUI; Frontend"
+msgstr ""
+
+#. Tag: primary
+#: locate.docbook:10
+#, no-c-format
+msgid "Locate"
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:12
+#, no-c-format
+msgid ""
+"&krusader; has a &GUI; front end for the <command>locate</command> command "
+"(findutils). Locate is used for fast file searching not from a folder but a "
+"database. The package contains among other files, <command>locate</command> "
+"and <command>updatedb</command>. <command>updatedb</command> goes through "
+"the local file system and stores the file entries in the database. "
+"<command>cron</command> often calls <command>updatedb</command> every night "
+"(set with <application>KCron</application>). Choose <menuchoice> "
+"<guimenu>Tools</guimenu> <guimenuitem>Locate...</guimenuitem> </menuchoice> "
+"or <keycombo action=\"simul\">&Ctrl;&Shift; <keycap>L</keycap></keycombo> to "
+"start this feature. <link linkend=\"konfig-advanced\">Konfigurator</link> "
+"can set additional arguments for <command>updatedb</command>."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:32
+#, no-c-format
+msgid "Checkbox Options"
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:35
+#, no-c-format
+msgid ""
+"<guilabel>Show only the existing files</guilabel>: if the database contains "
+"entries which no longer exist any more (deleted, moved since the last "
+"<command>updatedb</command>), <command>locate</command> does not list them. "
+"It checks the existence of each file before the listing in the results "
+"window (slow)."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:45
+#, no-c-format
+msgid ""
+"<guilabel>Case Sensitive</guilabel>: unchecking it allows lower and upper "
+"case search."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:50
+#, no-c-format
+msgid "Action buttons"
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:53
+#, no-c-format
+msgid ""
+"<guibutton>Locate</guibutton>: executes <command>locate <replaceable>foo "
+"foo</replaceable></command> and places its output into the results window."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:60
+#, no-c-format
+msgid "<guibutton>Stop</guibutton>: stops the locating process."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:65
+#, no-c-format
+msgid ""
+"<guibutton>UpdateDB</guibutton>: starts <command>updatedb</command> for "
+"updating the locate database after entering the root password."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:71
+#, no-c-format
+msgid "<guibutton>Close</guibutton>: closes the locate window."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:76
+#, no-c-format
+msgid "Results window"
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:79
+#, no-c-format
+msgid ""
+"Double-click on an item: steps to its folder, makes the item visible and "
+"closes the locate dialog."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:83
+#, no-c-format
+msgid "Right click: edits/views/finds the menu."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:86
+#, no-c-format
+msgid "<keycap>F3</keycap>: views the current item."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:90
+#, no-c-format
+msgid "<keycap>F4</keycap>: edits the current item."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:94
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>F</keycap></keycombo>: finds files "
+"in the results window."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:100
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>N</keycap></keycombo>: shows the "
+"next search result."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:106
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>P</keycap></keycombo>: shows the "
+"previous search result."
+msgstr ""
+
+#. Tag: para
+#: locate.docbook:114
+#, no-c-format
+msgid ""
+"The results window supports dragging items to other windows and copy to "
+"clipboard (<keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>)."
+msgstr ""

@@ -1,0 +1,4442 @@
+#
+# SPDX-FileCopyrightText: 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: krusader_viewer-editor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-06-12 01:07+0000\n"
+"PO-Revision-Date: 2025-09-04 14:57+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.08.0\n"
+
+#. Tag: title
+#: viewer-editor.docbook:8
+#, no-c-format
+msgid "KrViewer: &krusader;'s internal viewer-editor"
+msgstr "KrViewer: &krusader;'in dahili görüntüleyici-düzenleyicisi"
+
+#. Tag: primary
+#: viewer-editor.docbook:11
+#, no-c-format
+msgid "<primary>Viewer</primary>"
+msgstr "<primary>Görüntüleyici</primary>"
+
+#. Tag: seealso
+#: viewer-editor.docbook:12
+#, no-c-format
+msgid "<seealso>Editor</seealso>"
+msgstr "<seealso>Düzenleyici</seealso>"
+
+#. Tag: para
+#: viewer-editor.docbook:14
+#, no-c-format
+msgid ""
+"Pressing &Enter; on a selected file <emphasis>opens the file with the "
+"associated application</emphasis>. The editor-viewer is tabbed, configure it "
+"on the <link linkend=\"konfig-general\">Konfigurator General page</link>"
+msgstr ""
+"Seçili dosyada &Enter; tuşuna basmak <emphasis>dosyayı ilişkili uygulama ile "
+"açar</emphasis>. Düzenleyici-görüntüleyici sekmelidir, <link linkend="
+"\"konfig-general\">Konfigurator Genel sayfası</link> üzerinden "
+"yapılandırabilirsiniz."
+
+#. Tag: title
+#: viewer-editor.docbook:19
+#, no-c-format
+msgid "<title>Viewer</title>"
+msgstr "<title>Görüntüleyici</title>"
+
+#. Tag: para
+#: viewer-editor.docbook:20
+#, fuzzy, no-c-format
+#| msgid ""
+#| "To view a file as fast as possible according to its type, just put it "
+#| "under the cursor and press <keycap>F3</keycap>. &krusader;'s internal "
+#| "viewer is actually a part of &konqueror;, which can basically view every "
+#| "file type viewable by &konqueror; (&eg; display pictures, play music, "
+#| "show the content of an archive). This is called the 'Generic viewer', for "
+#| "which you need to configure the MIME types."
+msgid ""
+"To view a file as fast as possible according to its type, just put it under "
+"the cursor and press <keycap>F3</keycap>. &krusader;'s internal viewer is "
+"actually a part of &konqueror;, which can basically view every file type "
+"viewable by &konqueror; (&eg; display pictures, play music, show the content "
+"of an archive). This is called the 'Generic viewer', for which you need to "
+"configure the &MIME; types."
+msgstr ""
+"Bir dosyayı türüne göre olabilecek en hızlı şekilde açmak için imleci "
+"dosyanın üstüne getirin ve <keycap>F3</keycap> tuşuna basın. &krusader;'ın "
+"dahili görüntüleyicisi &konqueror;'un bir parçasıdır, bu sayede &konqueror "
+"tarafından görüntülenebilen (&örn; resim görüntüleme, müzik oynatma, arşiv "
+"dosyasının içeriğini gösterme) tüm dosya türünü görüntüleyebilir. Bu, 'Genel "
+"görüntüleyici' olarak adlandırılmaktadır ve burası için MIME türlerini "
+"yapılandırmanız gerekmektedir."
+
+#. Tag: para
+#: viewer-editor.docbook:28
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The viewer works as follows: <itemizedlist> <listitem> <para>It tries to "
+#| "view the file with the <emphasis>'Generic viewer'.</emphasis></para> </"
+#| "listitem> <listitem> <para>When the file type (MIME type) cannot be "
+#| "determined or when a file (&eg; a binary) does not have an associated "
+#| "action, it disables the 'generic viewer'. The file is treated as a text "
+#| "file, which is the <emphasis>'Text viewer'</emphasis>.</para> </listitem> "
+#| "<listitem> <para>The user can change in the <link linkend="
+#| "\"kredit_krviewer_menu\">KrViewer menu</link> between: 'Generic "
+#| "viewer' (if available), 'Text viewer' and <emphasis>'Hex viewer'</"
+#| "emphasis>.</para> </listitem> </itemizedlist>You can configure the "
+#| "default viewer mode on the <link linkend=\"konfig-general\">Konfigurator "
+#| "General page</link> ."
+msgid ""
+"The viewer works as follows: <itemizedlist> <listitem> <para>It tries to "
+"view the file with the <emphasis>'Generic viewer'.</emphasis></para> </"
+"listitem> <listitem> <para>When the file type (&MIME; type) cannot be "
+"determined or when a file (&eg; a binary) does not have an associated "
+"action, it disables the 'generic viewer'. The file is treated as a text "
+"file, which is the <emphasis>'Text viewer'</emphasis>.</para> </listitem> "
+"<listitem> <para>The user can change in the <link linkend="
+"\"kredit_krviewer_menu\">KrViewer menu</link> between: 'Generic viewer' (if "
+"available), 'Text viewer' and <emphasis>'Hex viewer'</emphasis>.</para> </"
+"listitem> </itemizedlist>You can configure the default viewer mode on the "
+"<link linkend=\"konfig-general\">Konfigurator General page</link> ."
+msgstr ""
+"Görüntüleyici şu şekilde çalışır: <itemizedlist><listitem><para>Dosyayı "
+"<emphasis>’Genel görüntüleyici’.</emphasis> ile görüntülemeye çalışır</"
+"para></listitem><listitem><para>Dosya türü (MIME türü) tanımlanamazsa ya da "
+"dosyanın (&örn; ikilik dosya) ilişkili eylemi yoksa, ’genel görüntüleyici’ "
+"devre dışı bırakılır. Dosya düz metin dosyası gibi davranılır, bu da "
+"<emphasis>’Metin görüntüleyici’dir</emphasis>.</para></"
+"listitem><listitem><para>Kullanıcı <link linkend=\"kredit_krviewer_menu"
+"\">KrViewer menüsündeki</link> ’Genel görüntüleyici’ (varsa), ’metin "
+"görüntüleyici’ ve <emphasis>’Hex görüntüleyici’</emphasis> arasında geçiş "
+"yapabilir.</para></listitem></itemizedlist><link linkend=\"konfig-general"
+"\">Konfigurator Genel sayfasınd</link> öntanımlı görüntüleyici kipini "
+"ayarlayabilirsiniz."
+
+#. Tag: para
+#: viewer-editor.docbook:50
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Shift; <keycap>F3</keycap></keycombo> views a "
+"&URL; on demand, &eg;:"
+msgstr ""
+"<keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo> bir &URL; "
+"'yi istek üzerine görüntüler, &eg;:"
+
+#. Tag: para
+#: viewer-editor.docbook:56
+#, no-c-format
+msgid "<userinput> <command>man:/</command> </userinput>views the manpages."
+msgstr ""
+"<userinput> <command>man:/</command> </userinput>kılavuz sayfalarını "
+"görüntüler."
+
+#. Tag: para
+#: viewer-editor.docbook:62
+#, no-c-format
+msgid ""
+"<userinput> <command>man:/</command><replaceable>krusader</replaceable> </"
+"userinput>views manpage of &krusader;."
+msgstr ""
+"<userinput> <command>man:/</command><replaceable>krusader</replaceable> </"
+"userinput>&krusader; 'ın kılavuz sayfasını görüntüler."
+
+#. Tag: para
+#: viewer-editor.docbook:68
+#, no-c-format
+msgid "<userinput> <command>info:/</command> </userinput>views the infopages."
+msgstr ""
+"<userinput> <command>info:/</command> </userinput>bilgi sayfalarını "
+"görüntüler."
+
+#. Tag: para
+#: viewer-editor.docbook:74
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<userinput> <command>http://</command><replaceable>krusader.sourceforce."
+#| "net/</replaceable> </userinput>views a webpage."
+msgid ""
+"<userinput> <command>https://</command><replaceable>krusader.org</"
+"replaceable> </userinput>views a webpage."
+msgstr ""
+"<userinput> <command>http://</command><replaceable>krusader.sourceforce.net/"
+"</replaceable> </userinput>web sayfasını görüntüler."
+
+#. Tag: para
+#: viewer-editor.docbook:80
+#, no-c-format
+msgid ""
+"<userinput> <command>ftp://</command><replaceable>ftp.kde.org/pub/kde/</"
+"replaceable> </userinput>views a &FTP; server."
+msgstr ""
+"<userinput> <command>ftp://</command><replaceable>ftp.kde.org/pub/kde/</"
+"replaceable> </userinput>&FTP; sunucusunu görüntüler."
+
+#. Tag: para
+#: viewer-editor.docbook:86
+#, no-c-format
+msgid ""
+"<userinput> <command>sftp://</command><replaceable>sftp.foo/</replaceable> </"
+"userinput>views a secure &FTP; server."
+msgstr ""
+"<userinput> <command>sftp://</command><replaceable>sftp.foo/</replaceable> </"
+"userinput>güvenilir bir &FTP; sayfasını görüntüler."
+
+#. Tag: para
+#: viewer-editor.docbook:92
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<userinput> <command>file:/</command><replaceable>home/frank</"
+#| "replaceable> </userinput>views the home directory of Frank."
+msgid ""
+"<userinput> <command>file:/</command><replaceable>home/frank</replaceable> </"
+"userinput>views Frank's home folder."
+msgstr ""
+"<userinput> <command>file:/</command><replaceable>home/frank</replaceable> </"
+"userinput>Frank’in ana dizinini görüntüler."
+
+#. Tag: para
+#: viewer-editor.docbook:98
+#, no-c-format
+msgid ""
+"<userinput> <command>tar:/</command><replaceable>home/frank/archive.tar.gz/</"
+"replaceable> </userinput>opens content browser window for the <literal role="
+"\"extension\">tar.gz</literal> archive."
+msgstr ""
+"<userinput> <command>tar:/</command><replaceable>home/frank/archive.tar.gz/</"
+"replaceable> </userinput> <literal role=\"extension\">tar.gz</literal> "
+"arşivi için içerik tarayıcısı penceresini açar."
+
+#. Tag: para
+#: viewer-editor.docbook:105
+#, no-c-format
+msgid ""
+"KrViewer can have the following menus: <link linkend=\"katepart-menu-file"
+"\">File</link>, <link linkend=\"katepart-menu-edit\">Edit</link>, <link "
+"linkend=\"katepart-menu-view\">View</link>, <link linkend=\"katepart-menu-"
+"settings\">Settings</link> and <link linkend=\"kredit_krviewer_menu"
+"\">Krviewer</link>, depending on which file type is viewed. They will be "
+"discussed in the <link linkend=\"kredit\">Editor section</link>. The "
+"internal viewer can follow links on &HTML; pages. With <keycombo action="
+"\"simul\">&Ctrl;&Shift; <keycap>E</keycap></keycombo> the viewer can start "
+"&krusader;'s internal editor (which is basically the same application)."
+msgstr ""
+"KrViewer görüntülenen dosya türüne bağlı olarak takip eden menülere sahip "
+"olabilir: <link linkend=\"katepart-menu-file\">Dosya</link>, <link linkend="
+"\"katepart-menu-edit\">Düzenle</link>, <link linkend=\"katepart-menu-view"
+"\">Görüntüle</link>, <link linkend=\"katepart-menu-settings\">Settings</"
+"link> ve <link linkend=\"kredit_krviewer_menu\">Krviewer</link>. Bunlar "
+"<link linkend=\"kredit\">Düzenleyici bölümü</link> içerisinde "
+"tartışılacaktır. Dahili görüntüleyici &HTML; sayfaları üzerindeki "
+"bağlantıları takip edebilir. <keycombo action=\"simul\">&Ctrl;&Shift; "
+"<keycap>E</keycap></keycombo> ile görüntüleyici &krusader;'in dahili "
+"düzenleyicisini başlatabilir (ki bu temel olarak aynı uygulamadır)."
+
+#. Tag: para
+#: viewer-editor.docbook:119
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The embedded viewer is not written by us, it is supplied via &kf5; and "
+#| "KIO Slaves. We cannot and do not want to change it, using these libraries "
+#| "reduces the amount of written code. So we do not have to reinvent the "
+#| "wheel ;-)"
+msgid ""
+"The embedded viewer is not written by us, it is supplied via &kde-"
+"frameworks; and KIO Slaves. We cannot and do not want to change it, using "
+"these libraries reduces the amount of written code. So we do not have to "
+"reinvent the wheel ;-)"
+msgstr ""
+"Gömülü görüntüleyici tarafımızdan yazılmadı, &kf5; ve KIO Slaves tarafından "
+"sağlandı. Bunu değiştiremiyoruz ve değiştirmek istemiyoruz, bu kütüphaneleri "
+"kullanmak yazılı kod miktarını azaltır. Yani tekerleği yeniden icat etmek "
+"zorunda değiliz ;-)"
+
+#. Tag: title
+#: viewer-editor.docbook:128
+#, no-c-format
+msgid "<title>Editor</title>"
+msgstr "<title>Düzenleyici</title>"
+
+#. Tag: primary
+#: viewer-editor.docbook:130
+#, no-c-format
+msgid "<primary>Editor</primary>"
+msgstr "<primary>Düzenleyici</primary>"
+
+#. Tag: para
+#: viewer-editor.docbook:132
+#, no-c-format
+msgid ""
+"&krusader;'s internal editor has almost everything that you can expect of an "
+"editor. Editing is similar to viewing but with the <keycap>F4</keycap> key. "
+"The default editor is &krusader;'s internal editor. You can change the "
+"default editor in the <link linkend=\"konfig-general\">Konfigurator General "
+"page</link>, if you prefer to use an external editor."
+msgstr ""
+"&krusader;'ın dahili düzenleyicisi bir düzenleyiciden bekleyebileceğiniz "
+"neredeyse her şeye sahiptir. Düzenleme görüntülemeye çok benzer ve "
+"<keycap>F4</keycap> ile yapılır. Varsayılan düzenleyici &krusader;'ın dahili "
+"düzenleyicisidir. Eğer harici bir düzenleyici kullanmak isterseniz, "
+"arsayılan düzenleyiciyi <link linkend=\"konfig-general\">Konfigurator Genel "
+"sayfası</link> içerisinden değiştirebilirsiniz."
+
+#. Tag: para
+#: viewer-editor.docbook:140
+#, no-c-format
+msgid ""
+"When you use &krusader;'s internal editor for the first time, it is "
+"recommended to look at each section of the <link linkend=\"katepart-menu-"
+"settings\">Settings</link> menu, and configure it the way you want it."
+msgstr ""
+"&krusader;'ın dahili düzenleyicisiniilk defa kullandığınız zaman, <link "
+"linkend=\"katepart-menu-settings\">Ayarlar</link> menüsünün her bir bölümüne "
+"göz atmanız, istediğiniz şekilde yapılandırmanız önerilir."
+
+#. Tag: title
+#: viewer-editor.docbook:148
+#, no-c-format
+msgid "Menu overview"
+msgstr "Menü genel bakışı"
+
+#. Tag: para
+#: viewer-editor.docbook:151
+#, no-c-format
+msgid ""
+"There are different menus and menu items in simple and advanced mode. The "
+"advanced mode is enabled by checking the option <link linkend=\"katepart-"
+"appearance\"> Enable power user mode (&kde; 3 mode)</link> on the "
+"<guilabel>Appearance</guilabel> page in &kappname;s settings."
+msgstr ""
+"Basit ve gelişmiş kipte farklı menüler ve menü ögeleri vardır. Gelişmiş mod "
+"&kappname;s  ayarları içerisindeki <guilabel>Görünüm</guilabel> sayfası "
+"üzerinden <link linkend=\"katepart-appearance\"> Güç kullanıcısı kipini "
+"etkinleştir (&kde; 3 kip)</link> seçeneği işaretlenerek aktifleştirilir."
+
+#. Tag: title
+#: viewer-editor.docbook:157
+#, no-c-format
+msgid "The File Menu"
+msgstr "Dosya Menüsü"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:163
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Save</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> </"
+"shortcut> <guimenu>Dosya</guimenu> <guimenuitem>Kaydet</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:172
+#, no-c-format
+msgid ""
+"This saves the current document. If there has already been a save of the "
+"document then this will overwrite the previously saved file without asking "
+"for the user's consent. If it is the first save of a new document the save "
+"as dialog (described below) will be invoked."
+msgstr ""
+"Bu mevcut belgeyi kaydeder. Belge zaten kaydedilmişse, bu kullanıcının "
+"rızasını sormadan önceden kaydedilmiş dosyanın üzerine yazacaktır. Yeni bir "
+"belgenin ilk kaydıysa, aşağıdaki gibi kaydet diyalog kutusu (aşağıda "
+"açıklandığı şekilde) çağrılacaktır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:183
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Save As...</guimenuitem>"
+msgstr "<guimenu>Dosya</guimenu> <guimenuitem>Farklı Kaydet...</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:189
+#, no-c-format
+msgid "This allows a document to be saved with a new file name."
+msgstr "Bu bir belgenin yeni bir dosya ismi ile kaydedilebilmesini sağlar."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:197
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"><keycap>F5</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Reload</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"><keycap>F5</keycap></keycombo> </"
+"shortcut> <guimenu>Dosya</guimenu> <guimenuitem>Yeniden Yükle</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:206
+#, no-c-format
+msgid ""
+"Reloads the active file from disk. This command is useful if another program "
+"or process has changed the file while you have it open in &kappname;."
+msgstr ""
+"Aktif dosyayı diskten yeniden yükler. Bu komut &kappname; içerisinde açılmış "
+"olan bir dosyayı başka bir program ya da süreç değiştirmiş ise kullanışlıdır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:215
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Print...</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> </"
+"shortcut> <guimenu>Dosya</guimenu> <guimenuitem>Yazdır...</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:224
+#, no-c-format
+msgid ""
+"Opens a simple print dialog allowing the user to specify what, where, and "
+"how to print."
+msgstr ""
+"Kullanıcının neyi, nerede ve nasıl yazdıracağını belirtmesini sağlayan basit "
+"bir yazdırma iletişim penceresi açar."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:233
+#, fuzzy, no-c-format
+#| msgid "<guimenu>File</guimenu> <guimenuitem>Export as HTML</guimenuitem>"
+msgid "<guimenu>File</guimenu> <guimenuitem>Export as &HTML;</guimenuitem>"
+msgstr ""
+"<guimenu>Dosya</guimenu> <guimenuitem>HTML olarak dışa aktar</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:239
+#, no-c-format
+msgid ""
+"Export your file in &HTML; format so your document can be viewed as a web "
+"page. This item is only displayed when the plugin <guilabel>Exporter</"
+"guilabel> is loaded."
+msgstr ""
+"Dosyanızı &HTML; biçiminde dışarı aktarın böylece belgeniz bir web sayfası "
+"olarak görüntülenebilir. Bu öge sadece <guilabel>Dışa Aktarıcı</guilabel> "
+"eklentisi yüklü olduğu zaman gösterilir."
+
+#. Tag: title
+#: viewer-editor.docbook:251
+#, no-c-format
+msgid "The Edit Menu"
+msgstr "Düzenleme Menüsü"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:255
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Undo</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu> <guimenuitem>Geri Al</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:261
+#, no-c-format
+msgid ""
+"This is used to eliminate or reverse the most recent user action or "
+"operation."
+msgstr ""
+"Bu en son kullanıcı eylemini veya çalışmasını elemek veya tersine çevirmek "
+"için kullanılır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:268
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></"
+"keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></"
+"keycombo></shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Yinele</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:273
+#, no-c-format
+msgid "This will reverse the most recent change (if any) made using Undo"
+msgstr ""
+"Bu, Geri Al kullanılarak yapılan en son değişikliği (varsa) tersine çevirir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:278
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Cut</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Kes</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:283
+#, no-c-format
+msgid ""
+"This command deletes the current selection and places it on the clipboard. "
+"The clipboard is a feature that works invisibly to provide a way to transfer "
+"data between applications."
+msgstr ""
+"Bu komut mevcut seçimi siler ve panoya yerleştirir. Pano, uygulamalar "
+"arasında veri aktarımı sağlamak için görünmez bir şekilde çalışan bir "
+"özelliktir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:291
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Kopyala</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:296
+#, no-c-format
+msgid ""
+"This copies the currently selected text to the clipboard so that it may be "
+"pasted elsewhere. The clipboard is a feature that works invisibly to provide "
+"a way to transfer data between applications."
+msgstr ""
+"Bu, mevcut seçili metni panoya kopyalar böylece bu metin başka bir yere "
+"yapıştırılabilir. Pano, uygulamalar arasında veri aktarımı sağlamak için "
+"görünmez bir şekilde çalışan bir özelliktir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:302
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Yapıştır</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:307
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This will insert the contents of the clipboard at the cursor position. "
+#| "The clipboard is feature that works invisibly to provide a way to "
+#| "transfer data between applications."
+msgid ""
+"This will insert the contents of the clipboard at the cursor position. The "
+"clipboard is a feature that works invisibly to provide a way to transfer "
+"data between applications."
+msgstr ""
+"Bu, pano içeriklerini imleç konumuna ekler. Pano, uygulamalar arasında veri "
+"aktarımı sağlamak için görünmez bir şekilde çalışan bir özelliktir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:313
+#, fuzzy, no-c-format
+#| msgid "<guimenu>Edit</guimenu><guimenuitem>Copy as HTML</guimenuitem>"
+msgid "<guimenu>Edit</guimenu><guimenuitem>Copy as &HTML;</guimenuitem>"
+msgstr ""
+"<guimenu>Düzenle</guimenu><guimenuitem>HTML olarak kopyala</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:317
+#, no-c-format
+msgid ""
+"This copies the currently selected text to the clipboard as &HTML;. This "
+"item is only displayed when the plugin <guilabel>Exporter</guilabel> is "
+"loaded."
+msgstr ""
+"Bu, seçili metni panoya &HTML; olarak kopyalar. Bu öğe sadece <guilabel>Dışa "
+"Aktarıcı</guilabel> eklentisi yüklendiğinde görüntülenir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:324
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Select All</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Tümünü Seç</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:329
+#, no-c-format
+msgid ""
+"This will select the entire document. This could be very useful for copying "
+"the entire file to another application."
+msgstr ""
+"Bu, tüm belgeyi seçecektir. Bu, tüm dosyanın başka bir uygulamaya "
+"kopyalanması için çok yararlı olabilir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:335
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></"
+"keycombo> </shortcut> <guimenu>Edit</guimenu><guimenuitem>Deselect</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></"
+"keycombo> </shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Seçimi İptal "
+"Et</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:341
+#, no-c-format
+msgid "Deselects the selected text in the editor if any."
+msgstr "Varsa, seçilen metnin editördeki seçimini kaldırır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:345
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></"
+"keycombo> </shortcut> <guimenu>Edit</guimenu><guimenuitem>Block Selection "
+"Mode</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></"
+"keycombo> </shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Blok Seçim "
+"Kipi</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:352
+#, no-c-format
+msgid ""
+"Toggles Selection Mode. When the Selection Mode is <guilabel>BLOCK</"
+"guilabel>, you can make vertical selections, &eg; select column 5 to 10 in "
+"lines 9 to 15. The status bar shows the current state of the Selection Mode, "
+"either <guilabel>BLOCK</guilabel> or <guilabel>LINE</guilabel>."
+msgstr ""
+"Seçim kipine değiştirir.  Seçim Kipi <guilabel>BLOK</guilabel> olduğu zaman, "
+"dikey seçimler yapabilirsiniz, &eg; 9 ile 15 satırları arasındaki 5 ile 10 "
+"sütunları arasını seç. Durum çubuğu Seçim Kipinin <guilabel>BLOK</guilabel> "
+"ya da <guilabel>ÇİZGİ</guilabel> olup olmamasına göre mevcut durumunu "
+"gösterir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:359
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<shortcut> <keycombo action=\"simul\"><keysym>Meta</keysym>&Ctrl;"
+#| "<keycap>V</keycap></keycombo> </shortcut> <guimenu>Edit</"
+#| "guimenu><guimenuitem>VI input Mode</guimenuitem>"
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Meta;&Ctrl;<keycap>V</keycap></"
+"keycombo> </shortcut> <guimenu>Edit</guimenu><guimenuitem>VI input Mode</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"><keysym>Meta</keysym>&Ctrl;<keycap>V</"
+"keycap></keycombo> </shortcut> <guimenu>Düzenle</guimenu><guimenuitem>VI "
+"girdi Kipi</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:366
+#, no-c-format
+msgid ""
+"Switch to a vi-like, modal editing mode. This mode supports the most used "
+"commands and motions from vim's normal and visual mode and has an optional "
+"vi mode statusbar. This status bar shows commands while they are being "
+"entered, output from commands and the current mode.The behavior of this mode "
+"can be configured in the <link linkend=\"katepart-pref-edit-vi-input-mode"
+"\">Vi Input Mode</link> section of the <guilabel>Editing</guilabel> page in "
+"&kappname;'s settings dialog."
+msgstr ""
+"Vi-gibi, kip düzenleme kipine geçer. Bu kip, en çok kullanılan komutları "
+"destekler ve vim’in normal ve görsel kipinden hareketler içerir ve ek olarak "
+"vi kipi durum çubuğu vardır. Bu durum çubuğu girilirken komutları, komut "
+"çıktılarını ve mevcut kipi gösterir. Bu kipin davranışı, &kappname;’nin "
+"ayarlar penceresinde <guilabel>Düzenleme</guilabel> sayfasının <link linkend="
+"\"katepart-pref-edit-vi-input-mode\">Vi Girdi Kipi</link> bölümünden "
+"yapılandırılabilir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:375
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<shortcut> <keycombo action=\"simul\"><keycap>Ins</keycap></keycombo> </"
+#| "shortcut> <guimenu>Edit</guimenu><guimenuitem>Overwrite Mode</guimenuitem>"
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ins;</keycombo> </shortcut> "
+"<guimenu>Edit</guimenu><guimenuitem>Overwrite Mode</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"><keycap>Ins</keycap></keycombo> </"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Kipin Üzerine Yaz</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:382
+#, no-c-format
+msgid ""
+"Toggles the Insert/Overwrite modes. When the mode is <guilabel>INS</"
+"guilabel>, you insert characters where the cursor is. When the mode is "
+"<guilabel>OVR</guilabel>, writing characters will replace the current "
+"characters if your cursor is positioned before any character. The status bar "
+"shows the current state of the Overwrite Mode, either <guilabel>INS</"
+"guilabel> or <guilabel>OVR</guilabel>."
+msgstr ""
+"Ekle/Üzerine Yaz kiplerine değiştirir. Kip <guilabel>INS</guilabel> olduğu "
+"zaman, karakterleri imlecin olduğu yere eklersiniz. Kip <guilabel>OVR</"
+"guilabel> olduğu zaman, imleciniz herhangi bir karakterden önce konumlanmış "
+"ise karakterleri yazmak mevcut karakterleri değiştirecektir. Durum çubuğu "
+"Üzerine Yazma Kipinin, <guilabel>INS</guilabel> ya da <guilabel>OVR</"
+"guilabel> olup olmamasına göre mevcut durumunu gösterir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:391
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Bul...</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:396
+#, no-c-format
+msgid ""
+"This opens the incremental search bar at the bottom of the editor window. On "
+"the left side of the bar is a button with an icon to close the bar, followed "
+"by a small text box for entering the search pattern."
+msgstr ""
+"Bu, düzenleme penceresinin altında artımlı arama çubuğunu açar. Çubuğun sol "
+"tarafında çubuğu kapatmaya yarayan, arama kalıbı için küçük bir metin kutusu "
+"bulunduran bir düğme vardır."
+
+#. Tag: para
+#: viewer-editor.docbook:399
+#, no-c-format
+msgid ""
+"When you start entering characters of your search pattern, the search starts "
+"immediately. If there is a match in the text this is highlighted and the "
+"background color of the entry field changes to light green. If the search "
+"pattern does not match any string in the text, this is indicated by a light "
+"red background color of the entry field and <guilabel>Not found</guilabel> "
+"is displayed at the right side of the bar."
+msgstr ""
+"Arama modelinizin karakterlerini girmeye başladığınızda, arama hemen başlar. "
+"Metinde bir eşleşme varsa bu vurgulanır ve giriş alanının arka plan rengi "
+"açık yeşil renge dönüşür. Arama modeli metindeki herhangi bir dizeyle "
+"eşleşmiyorsa, bu giriş alanının açık kırmızı arkaplan rengi ile gösterilir "
+"ve çubuğun sağ tarafında <guilabel>Bulunamadı</guilabel> görüntülenir."
+
+#. Tag: para
+#: viewer-editor.docbook:404 viewer-editor.docbook:465
+#, no-c-format
+msgid ""
+"Use the <guilabel>Next</guilabel> or <guilabel>Previous</guilabel> button to "
+"jump to the next or previous match in the document."
+msgstr ""
+"Belge içerisinde önceki ya da sonraki eşleşmeye atlamak için "
+"<guilabel>Sonraki</guilabel> ya da <guilabel>Önceki</guilabel> kullanın."
+
+#. Tag: para
+#: viewer-editor.docbook:406
+#, no-c-format
+msgid ""
+"You can choose whether the search should be case sensitive. Selecting "
+"<guilabel>Match Case</guilabel> will limit finds to entries that match the "
+"case (upper or lower) of each of the characters in the search pattern."
+msgstr ""
+"Aramanın büyük/küçük harfe duyarlı olup olmayacağını seçebilirsiniz. "
+"<guilabel>Eşleşme Örneği</guilabel> seçeneğinin seçilmesi, bulguları arama "
+"modelindeki her bir karakterin (üst veya alt) durumuyla eşleşen girişlerle "
+"sınırlar."
+
+#. Tag: para
+#: viewer-editor.docbook:410
+#, no-c-format
+msgid ""
+"Click on the button with a green arrow icon at the right side of the "
+"incremental search bar to switch to the power search and replace bar."
+msgstr ""
+"Güç aramaya geçmek ve çubuğu değiştirmek için artımlı arama çubuğunun sağ "
+"tarafındaki yeşil ok simgesi olan düğmeye tıklayın."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:419
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F3</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Next</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\"><keycap>F3</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Sonrakini Bul</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:423
+#, no-c-format
+msgid ""
+"This repeats the last find operation, if any, without calling the "
+"incremental search bar."
+msgstr "Bu, artan arama çubuğunu çağırmadan, son bulma işlemini tekrarlar."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:431
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo> "
+"</shortcut> <guimenu>Edit</guimenu> <guimenuitem>Find Previous</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo> "
+"</shortcut> <guimenu>Düzenle</guimenu> <guimenuitem>Öncekini Bul</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:440
+#, no-c-format
+msgid ""
+"This repeats the last find operation, if any, without calling the "
+"incremental search bar, and searching backwards instead of forwards through "
+"the document."
+msgstr ""
+"Bu, son arama işlemini, artımlı arama çubuğunu çağırmadan ve belge boca "
+"ileriye doğru aramak yerine geriye doğru arayarak tekrar eder."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:449
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Replace...</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Değiştir...</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:454
+#, no-c-format
+msgid ""
+"This command opens the power search and replace bar. On the upper left side "
+"of the bar is a button with an icon to close the bar, followed by a small "
+"text box for entering the search pattern."
+msgstr ""
+"Bu komut güç arama ve değiştirme çubuğunu açar. Çubuğun sol üst tarafında, "
+"çubuğu kapatmak için bir simge bulunan bir düğme ve ardından arama modelini "
+"girmek için küçük bir metin kutusu vardır."
+
+#. Tag: para
+#: viewer-editor.docbook:457
+#, no-c-format
+msgid ""
+"You can control the search mode by selecting <guilabel>Plain text</"
+"guilabel>, <guilabel>Whole words</guilabel>, <guilabel>Escape sequences</"
+"guilabel> or <guilabel>Regular expression</guilabel> from the drop down box."
+msgstr ""
+"Arama kipini açılır menüden <guilabel>Düz metin</guilabel>, <guilabel>Tüm "
+"kelimeler</guilabel>, <guilabel>Kaçış dizileri</guilabel> ya da "
+"<guilabel>Düzenli ifade</guilabel> seçerek kontrol edebilirsiniz."
+
+#. Tag: para
+#: viewer-editor.docbook:461
+#, no-c-format
+msgid ""
+"If <guilabel>Escape sequences</guilabel> or <guilabel>Regular expression</"
+"guilabel> are selected, the <guibutton>Add...</guibutton> menuitem at the "
+"bottom of the context menu of the text boxes will be enabled and allows you "
+"to add escape sequences or regular expression items to the search or replace "
+"pattern from predefined lists."
+msgstr ""
+"Eğer <guilabel>Kaçış dizileri</guilabel> ya da<guilabel>Düzenli ifade</"
+"guilabel> seçili ise, metin kutularının içerik menüsünün altındaki "
+"<guibutton>Ekle...</guibutton> menü alanı etkinleştirilir ve ön tanımlı "
+"listelerden arama veya değiştirme düzenine kaçış dizileri veya düzenli ifade "
+"öğeleri eklemenizi sağlar."
+
+#. Tag: para
+#: viewer-editor.docbook:467
+#, no-c-format
+msgid ""
+"Enter the text to replace with in the text box labeled <guilabel>Replace</"
+"guilabel> and click the <guibutton>Replace</guibutton> button to replace "
+"only the highlighted text or the <guibutton>Replace All</guibutton> button "
+"to replace the search text in the whole document."
+msgstr ""
+"Değiştirilecek metni <guilabel>Değiştir</guilabel> etiketli metin kutusuna "
+"girin ve yalnızca vurgulanan metni değiştirmek için <guibutton>Değiştir</"
+"guibutton> düğmesini veya arama belgesindeki tüm metni değiştirmek için "
+"<guibutton>Tümünü Değiştir</guibutton> düğmesini tıklayın."
+
+#. Tag: para
+#: viewer-editor.docbook:471
+#, no-c-format
+msgid ""
+"You can modify the search and replace behavior by selecting different "
+"options at the bottom of the bar. Selecting <guilabel>Match Case</guilabel> "
+"will limit finds to entries that match the case (upper or lower) of each of "
+"the characters in the search pattern. <guilabel>Selection Only</guilabel> "
+"will search and replace within the current selection only. The "
+"<guilabel>Find All</guilabel> button highlights all matches in the document "
+"and shows the number of found matches in a small popup."
+msgstr ""
+"Ara ve değiştir davranışını, çubuğun sonundan farklı seçenekleri seçerek "
+"değiştirebilirsiniz. <guilabel>Eşleşme Durumu</guilabel> seçilmesi, "
+"bulguları arama kalıbındaki her bir karakter için harf (büyük ya da küçük) "
+"eşleşmesi girdisine sınırlayacaktır. <guilabel>Sadece Seçim</guilabel> "
+"sadece mevcut seçim içerisinde bulup değiştirecektir. <guilabel>Tümünü BUll</"
+"guilabel> tuşu  belgedeki tüm eşleşmeleri vurgular ve küçük bir açılan "
+"pencerede bulunan eşleşme sayısını gösterir."
+
+#. Tag: para
+#: viewer-editor.docbook:479
+#, no-c-format
+msgid ""
+"Click on the button with a green arrow icon at the right side of the power "
+"search and replace bar to switch to the incremental search bar."
+msgstr ""
+"Güç aramanın sağ tarafında yeşil bir ok simgesi olan düğmeye tıklayın ve "
+"artımlı arama çubuğuna geçmek için çubuğu değiştirin."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:490
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></"
+"shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Selected</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></"
+"shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Seçimi Bul</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:495
+#, no-c-format
+msgid "Finds next occurrence of selected text."
+msgstr "Seçili metnin bir sonraki eşleşmesini bulur."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:501
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>H</keycap></"
+"keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Selected "
+"Backwards</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>H</keycap></"
+"keycombo></shortcut> <guimenu>Düzenle</guimenu><guimenuitem>Geriye Doğru "
+"Seçimi Bul</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:506
+#, no-c-format
+msgid "Finds previous occurrence of selected text."
+msgstr "Aranan metnin bir önceki eşleşmesini bul."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:512
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Go to Line...</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </"
+"shortcut> <guimenu>Düzenle</guimenu> <guimenuitem>Satıra Git...</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:519
+#, no-c-format
+msgid ""
+"This opens the goto line bar at the bottom of the window which is used to "
+"have the cursor jump to a particular line (specified by number) in the "
+"document. The line number may be entered directly into the text box or "
+"graphically by clicking on the up or down arrow spin controls at the side of "
+"the text box. The little up arrow will increase the line number and the down "
+"arrow decrease it. Close the bar with a click on the button with an icon on "
+"the left side of the bar."
+msgstr ""
+"Bu, pencerenin en altında imleci belge içerisinde (sayı ile belirtilmiş "
+"olan) belirli bir satıra atlatmak için kullanılan satıra git çubuğu açar. "
+"Satır numarası direkt olarak metin kutusuna ya da metin kutusunun yan "
+"kısmında grafik olarak yukarı aşağı ok çevirmeli kontrollerine tıklayarak "
+"girilmiş olabilir. Küçük yukarı oku satır numarasını azaltacaktır ve aşağı "
+"ok artıracaktır. Çubuğu, çubuğun sol kısmındaki simgeli tuşa tıklayarak "
+"kapatın."
+
+#. Tag: title
+#: viewer-editor.docbook:534
+#, no-c-format
+msgid "The View Menu"
+msgstr "Görünüm Menüsü"
+
+#. Tag: para
+#: viewer-editor.docbook:536
+#, no-c-format
+msgid ""
+"The <guimenu>View</guimenu> menu allows you to manage settings specific to "
+"the active editor, and to manage frames."
+msgstr ""
+"<guimenu>Görünüm</guimenu> menüsü ayarları etkin düzenleyiciye göre "
+"özelleşmiş bir şekilde yönetmenize ve çerçeveleri yönetmenize olanak tanır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:544
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>New Window</guimenuitem>"
+msgstr "<guimenu>Görünüm</guimenu> <guimenuitem>Yeni Pencere</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:550
+#, no-c-format
+msgid ""
+"Create another window containing the current document. All changes to the "
+"document in one window are reflected in the other window and vice versa."
+msgstr ""
+"Mevcut belgeyi içeren başka bir pencere oluştur. Bir penceredeki belgedeki "
+"değişiklikler diğer pencereye de yansır ve bunun tersi de geçerlidir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:558
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F7</keycap></keycombo></"
+"shortcut> <guimenu>View</guimenu> <guimenuitem>Switch to Command Line</"
+"guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\"><keycap>F7</keycap></keycombo></"
+"shortcut> <guimenu>Görünüm</guimenu> <guimenuitem>Komut Satırına Değiştir</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:566
+#, no-c-format
+msgid ""
+"Displays the Katepart command line at the bottom of the window. In the "
+"command line, type <userinput>help</userinput> to get help and "
+"<userinput>help list</userinput> to get a list of commands."
+msgstr ""
+"Pencere sonunda Katepart komut satırını görüntüler. Komut satırına, yardım "
+"almak için<userinput>yardım</userinput>ve komut listesini almak için ise "
+"<userinput>yardım listesi</userinput> yazın."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:573
+#, no-c-format
+msgid ""
+"<guimenu>View</guimenu><guimenuitem>Show the Javascript Console</guimenuitem>"
+msgstr ""
+"<guimenu>Görünüm</guimenu><guimenuitem>Javascript Uç Birimini Göster</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:576
+#, no-c-format
+msgid ""
+"This opens a tool view that allows you to run Javascript code interactively. "
+"For more information, see <ulink url=\"help:/katepart/advanced-editing-tools-"
+"scripting.html\">Extending &kate; with Scripts</ulink>"
+msgstr ""
+"Bu, Javascript kodunu etkileşimli olarak çalıştırmanıza izin veren bir araç "
+"görünümü açar. Daha fazla bilgi için bkz. <ulink url=\"help:/katepart/"
+"advanced-editing-tools-scripting.html\">&kate; 'i Betikler ile Büyütmek</"
+"ulink>"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:585
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Schema</guisubmenu>"
+msgstr "<guimenu>Görünüm</guimenu> <guisubmenu>Şema</guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:591
+#, no-c-format
+msgid "Select a font schema."
+msgstr "Yazı tipi şeması seç."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:598
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F10</keycap></keycombo></"
+"shortcut> <guimenu>View</guimenu> <guimenuitem>Dynamic Word Wrap</"
+"guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\"><keycap>F10</keycap></keycombo></"
+"shortcut> <guimenu>Görünüm</guimenu> <guimenuitem>Dinamik Kelime Sarması</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:605
+#, no-c-format
+msgid "The text lines will be wrapped at the view border on the screen."
+msgstr "Metin çizgileri ekranın görünüm sınırında sarılacaktır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:613
+#, no-c-format
+msgid ""
+"<guimenu>View</guimenu> <guisubmenu>Dynamic Word Wrap Indicators</guisubmenu>"
+msgstr ""
+"<guimenu>Grünüm</guimenu> <guisubmenu>Dinamik Kelime Kaydırma Belirteçleri</"
+"guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:619
+#, no-c-format
+msgid ""
+"Choose when and how the dynamic word wrap indicators should be displayed. "
+"This is only available if the <guilabel>Dynamic Word Wrap</guilabel> option "
+"is checked."
+msgstr ""
+"Dinamik kelime kaydırıcı belirteçlerinin ne zaman ve nasıl görüntüleneceğini "
+"seç. Bu sadece <guilabel>Dinamik Kelime Kaydırması</guilabel> seçeneği "
+"işaretli ise kullanılabilirdir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:628
+#, no-c-format
+msgid ""
+"<guimenu>View</guimenu> <guimenuitem>Show Static Word Wrap Marker</"
+"guimenuitem>"
+msgstr ""
+"<guimenu>Görünüm</guimenu> <guimenuitem>Durağan Kelime Kaydırma "
+"İşaretçilerini Göster</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:634 viewer-editor.docbook:1707
+#, no-c-format
+msgid ""
+"If this option is checked, a vertical line will be drawn at the word wrap "
+"column as defined in the <menuchoice> <guimenu>Settings</guimenu> "
+"<guimenuitem>Configure Editor...</guimenuitem></menuchoice> in the Editing "
+"tab. Please note that the word wrap marker is only drawn if you use a fixed "
+"pitch font."
+msgstr ""
+"Eğer bu seçenek seçili ise, <menuchoice> <guimenu>Ayarlar</guimenu> "
+"<guimenuitem>Düzenleyiciyi Yapılandır...</guimenuitem></menuchoice> "
+"içerisinde Düzenleme Sekmesinde tanımlandığı gibi kelime kaydırma sütununda "
+"dikey bir çizgi çizilecektir. Lütfen unutmayın ki kelime kaydırıcı sadece "
+"sabit bir yükseklikteki yazı tipi kullanırsanız çizilir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:646
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F6</keycap></keycombo></"
+"shortcut> <guimenu>View</guimenu> <guimenuitem>Show Icon Border</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\"><keycap>F6</keycap></keycombo></"
+"shortcut> <guimenu>Görünüm</guimenu> <guimenuitem>Simge Kenarlığını Göster</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:653
+#, no-c-format
+msgid ""
+"This is a toggle item. Setting it on checked will make the Icon Border "
+"visible in the left side of the active editor, and vice versa. The Icon "
+"Border indicates the positions of the marked lines in the editor."
+msgstr ""
+"Bu bir değiştirme ögesidir. İşaretli olarak ayarlandığında, Simge "
+"Kenarlığını etkin düzenleyicinin sol tarafında görünür hale getirecek ve "
+"bunun tersi de geçerli olacaktır. Simge Kenarlığı, düzenleyicide işaretli "
+"çizgilerin konumunu gösterir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:662
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F11</keycap></keycombo></"
+"shortcut> <guimenu>View</guimenu> <guimenuitem>Show Line Numbers</"
+"guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\"><keycap>F11</keycap></keycombo></"
+"shortcut> <guimenu>Görünüm</guimenu> <guimenuitem>Satır Numaralarını Göster</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:669
+#, no-c-format
+msgid ""
+"This is a toggle Item. Setting it on checked will make a pane displaying the "
+"line numbers of the document visible in the left border of the active "
+"editor, and vice versa."
+msgstr ""
+"Bu bir değiştirme ögesidir. İşaretli olarak ayarlandığında, etkin editörün "
+"sol kenarlığında görünür olan, belgenin satır numaralarını gösteren bir "
+"panel açacak ve bunun tersi de geçerli olacaktır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:678
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Show Scrollbar Marks</guisubmenu>"
+msgstr ""
+"<guimenu>Görünüm</guimenu> <guisubmenu>Kaydırma Çubuğu İşaretlerini Göster</"
+"guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:684
+#, no-c-format
+msgid ""
+"If this option is checked, the view will show marks on the vertical "
+"scrollbar. The marks are equivalent to the marks on the <link linkend="
+"\"katepart-menu-view-show-icon-border\">Icon Border</link>."
+msgstr ""
+"Eğer bu seçenek işaretli ise, görünüm işaretleri dikey kaydırma çubuğunda "
+"gösterecektir. Bu işaretler <link linkend=\"katepart-menu-view-show-icon-"
+"border\">Simge Kenarlığı</link> üzerindeki işaretlere eşdeğerdir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:693
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\"><keycap>F9</keycap></keycombo></"
+"shortcut> <guimenu>View</guimenu> <guimenuitem>Show Folding Markers</"
+"guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\"><keycap>F9</keycap></keycombo></"
+"shortcut> <guimenu>Görünüm</guimenu> <guimenuitem>Katlama İşaretlerini "
+"Göster</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:699
+#, no-c-format
+msgid "If this option is checked, the marks for code folding will be shown."
+msgstr "Bu seçenek işaretliyse, kod sarmalama işaretleri gösterilecektir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:707
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Code Folding</guisubmenu>"
+msgstr "<guimenu>Görünüm</guimenu> <guisubmenu>Kod Sarmalama</guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:712
+#, no-c-format
+msgid ""
+"These options pertain to <ulink url=\"help:/katepart/advanced-editing-tools-"
+"code-folding.html\">code folding</ulink>:"
+msgstr ""
+"Bu seçenekler <ulink url=\"help:/katepart/advanced-editing-tools-code-"
+"folding.html\">kod sarmalama</ulink> ile ilgilidir:"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:718
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"><keycap>F9</keycap></keycombo> </"
+"shortcut> <guimenuitem>Show Folding Markers</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"><keycap>F9</keycap></keycombo> </"
+"shortcut> <guimenuitem>Sarmalama İşaretçilerini Göster</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:724
+#, no-c-format
+msgid ""
+"Toggles the display of the folding marker pane in the left side of the view."
+msgstr ""
+"Katlama işaretçisi panelinin görünümün sol kısmında görüntülenmesini "
+"değiştirir."
+
+#. Tag: guimenuitem
+#: viewer-editor.docbook:730
+#, no-c-format
+msgid "Fold Current Node"
+msgstr "Geçerli Düğümü Topla"
+
+#. Tag: para
+#: viewer-editor.docbook:732
+#, no-c-format
+msgid "Collapse the region that contains the cursor."
+msgstr "İmleci içeren bölgeyi daralt."
+
+#. Tag: guimenuitem
+#: viewer-editor.docbook:737
+#, no-c-format
+msgid "Unfold Current Node"
+msgstr "Geçerli Düğümü Aç"
+
+#. Tag: para
+#: viewer-editor.docbook:739
+#, no-c-format
+msgid "Expand the region that contains the cursor."
+msgstr "İmleci içeren bölgeyi genişlet."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:743
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>-</keycap></"
+"keycombo> </shortcut> <guimenuitem>Fold Toplevel Nodes</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>-</keycap></"
+"keycombo> </shortcut> <guimenuitem>En Üst Seviye Düğümlerini Katla</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:749
+#, no-c-format
+msgid ""
+"Collapse all toplevel regions in the document. Click on the right pointing "
+"triangle to expand all toplevel regions."
+msgstr ""
+"Belgedeki tüm üst seviye bölgelerini daralt. Tüm üst seviye bölgelerini "
+"genişletmek için sağı gösteren üçgene tıkla."
+
+#. Tag: guimenuitem
+#: viewer-editor.docbook:757
+#, no-c-format
+msgid "Enlarge Font"
+msgstr "Yazıtipini Büyüt"
+
+#. Tag: para
+#: viewer-editor.docbook:759
+#, no-c-format
+msgid "This increases the display font size."
+msgstr "Görüntü yazıtipi puntosunu artırır."
+
+#. Tag: guimenuitem
+#: viewer-editor.docbook:763
+#, no-c-format
+msgid "Shrink Font"
+msgstr "Yazıtipini Küçült"
+
+#. Tag: para
+#: viewer-editor.docbook:765
+#, no-c-format
+msgid "This decreases the display font size."
+msgstr "Görüntü yazıtipi puntosunun azaltır."
+
+#. Tag: title
+#: viewer-editor.docbook:771
+#, no-c-format
+msgid "The Bookmarks Menu"
+msgstr "Yer İmleri Menüsü"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:776
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </"
+"shortcut> <guimenu>Bookmarks</guimenu> <guimenuitem>Set Bookmark</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </"
+"shortcut> <guimenu>Yer İmleri</guimenu> <guimenuitem>Yer İmi Ayarla</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:785
+#, no-c-format
+msgid ""
+"Sets or removes a bookmark in the current line of the active document. (If "
+"it is there, it is removed, otherwise one is set)."
+msgstr ""
+"Etkin belgenin geçerli satırındaki yer imini ayarlar ya da kaldırır. (Eğer "
+"varsa, kaldırılır, aksi halde biri ayarlanır). "
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:794
+#, no-c-format
+msgid ""
+"<guimenu>Bookmarks</guimenu> <guimenuitem>Clear All Bookmarks</guimenuitem>"
+msgstr ""
+"<guimenu>Yer İmleri</guimenu> <guimenuitem>Tüm Yer İmlerini Temizle</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:800
+#, no-c-format
+msgid ""
+"This command will remove all the markers from the document as well as the "
+"list of markers which is appended at the bottom of this menu item."
+msgstr ""
+"Bu komut, belgeden tüm işaretleyicileri ve bu menü ögesinin sonuna eklenen "
+"işaretçilerin listesini kaldıracaktır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:808
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<shortcut><keycombo action=\"simul\">&Alt; <keycap>PgUp</keycap></"
+#| "keycombo></shortcut> <guimenu>Bookmarks</guimenu><guimenuitem>Previous</"
+#| "guimenuitem>"
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Alt; &PgUp;</keycombo></shortcut> "
+"<guimenu>Bookmarks</guimenu><guimenuitem>Previous</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Alt; <keycap>PgUp</keycap></keycombo></"
+"shortcut> <guimenu>Yer İmleri</guimenu><guimenuitem>Önceki</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:812
+#, no-c-format
+msgid ""
+"This will move the cursor to beginning of the first above line with a "
+"bookmark. The menuitem text will include the line number and the first piece "
+"of text on the line. This item is only available when there is a bookmark in "
+"a line above the cursor."
+msgstr ""
+"Bu, imleci yer imi içeren üstteki ilk satırın başlangıcına taşıyacaktır. "
+"Menuitem metni satır numarasını ve satırdaki ilk metin parçasını "
+"içerecektir. Bu öge sadece imlecin üzerinde bir satırda bir yer imi "
+"olduğunda kullanılabilir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:819
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Alt; <keycap>PgDown</keycap></"
+"keycombo></shortcut> <guimenu>Bookmarks</guimenu><guimenuitem>Next</"
+"guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Alt; <keycap>PgDown</keycap></"
+"keycombo></shortcut> <guimenu>Yer İmleri</guimenu><guimenuitem>Sonraki</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:822
+#, no-c-format
+msgid ""
+"This will move the cursor to beginning of the next line with a bookmark. The "
+"menuitem text will include the line number and the first piece of text on "
+"the line. This item is only available when there is a bookmark in a line "
+"below the cursor."
+msgstr ""
+"Bu, imleci yer imi içeren sonraki ilk satırın başlangıcına taşıyacaktır. "
+"Menuitem metni satır numarası ve satırdaki ilk metin parçasını içerecektir. "
+"Bu öğe yalnızca imlecin altındaki bir satırda bir yer imi olduğunda "
+"kullanılabilir."
+
+#. Tag: para
+#: viewer-editor.docbook:830
+#, no-c-format
+msgid ""
+"At the bottom of this menu, a list of bookmarks appears if any bookmarks are "
+"available for this window."
+msgstr ""
+"Bu menünün alt kısmında, bu pencere için herhangi bir yer işareti varsa yer "
+"imlerinin bir listesi görüntülenir."
+
+#. Tag: title
+#: viewer-editor.docbook:840
+#, no-c-format
+msgid "The Tools Menu"
+msgstr "Araçlar Menüsü"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:844
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Read Only Mode</guimenuitem>"
+msgstr "<guimenu>Araçlar</guimenu> <guimenuitem>Salt Okunur Kipi</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:848
+#, no-c-format
+msgid ""
+"Set the current document to Read Only mode. This prevents any text addition "
+"and any changes in the document formatting."
+msgstr ""
+"Geçerli belgeyi Salt Okunur kipine ayarla. Bu belge biçimlendirmesinde "
+"herhangi bir değiştirmeyi ve metin eklemesini engeller."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:854
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Mode</guisubmenu>"
+msgstr "<guimenu>Araçlar</guimenu> <guisubmenu>Kip</guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:858
+#, no-c-format
+msgid ""
+"Choose the filetype scheme you prefer for the active document. This "
+"overwrites the global filetype mode set in <menuchoice> <guimenu>Settings</"
+"guimenu> <guimenuitem>Configure Editor...</guimenuitem></menuchoice> in the "
+"Filetypes tab for your current document only."
+msgstr ""
+"Etkin belge için tercih ettiğiniz dosya tipi şemasını seçin. Bu Dosya "
+"Tipleri sekmesi içerisindeki <menuchoice> <guimenu>Ayarlar</"
+"guimenu><guimenuitem>Düzenleyiciyi Yapılandır...</guimenuitem></menuchoice> "
+"içinden sadece mevcut belgeniz için genel dosya tipi kipini değiştirir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:868
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Highlighting</guisubmenu>"
+msgstr "<guimenu>Araçlar</guimenu><guisubmenu>Vurgulama</guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:872
+#, no-c-format
+msgid ""
+"Choose the Highlighting scheme you prefer for the active document. This "
+"overwrites the global highlighting mode set in <menuchoice> "
+"<guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></"
+"menuchoice> for your current document only."
+msgstr ""
+"Etkin belge için tercih ettiğiniz vurgulama şemasını seçin. Bu Dosya Tipleri "
+"sekmesi içerisindeki <menuchoice> <guimenu>Ayarlar</"
+"guimenu><guimenuitem>Düzenleyiciyi Yapılandır...</guimenuitem></menuchoice> "
+"içinden sadece mevcut belgeniz için genel vurgulama kipini değiştirir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:881
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Indentation</guisubmenu>"
+msgstr "<guimenu>Araçlar</guimenu> <guisubmenu>Girintileme</guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:885
+#, no-c-format
+msgid ""
+"Choose the style of indentation you want for your active document. This "
+"overwrites the global indentation mode set in <menuchoice> "
+"<guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></"
+"menuchoice> for your current document only."
+msgstr ""
+"Arşiv belgeniz için istediğiniz girintinin biçemini seçin. Bu sadece geçerli "
+"belgeniz için <menuchoice> <guimenu>Ayarlar</guimenu> "
+"<guimenuitem>Düzenleyiciyi Yapılandır...</guimenuitem></menuchoice> "
+"içerisinde ayarlanmış olan genel girinti kipinin üzerine yazar."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:894
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Encoding</guisubmenu>"
+msgstr "<guimenu>Ayarlar</guimenu> <guisubmenu>Kodlama</guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:898
+#, no-c-format
+msgid ""
+"You can overwrite the default encoding set in <menuchoice> "
+"<guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></"
+"menuchoice> in the <guilabel>Open/Save</guilabel> page to set a different "
+"encoding for your current document. The encoding you set here will be only "
+"valid for your current document."
+msgstr ""
+"Geçerli belgeniz için farklı bir kodlama ayarlamak için varsayılan kodlama "
+"setinin üzerine <guilabel>Aç/Kaydet</guilabel> sayfası içerisindeki "
+"<menuchoice> <guimenu>Ayarlar</guimenu> <guimenuitem>Düzenleyiciyi "
+"Yapılandır...</guimenuitem></menuchoice> içerisinden yazabilirsiniz. Buraya "
+"ayarladığınız kodlama sadece mevcut belgeniz için geçerli olacaktır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:908
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>End of Line</guisubmenu>"
+msgstr "<guimenu>Araçlar</guimenu> <guisubmenu>Satır Sonu</guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:912
+#, no-c-format
+msgid ""
+"Choose your preferred end of line mode for your active document. This "
+"overwrites the global end of line mode set in <menuchoice> "
+"<guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></"
+"menuchoice> for your current document only."
+msgstr ""
+"Etkin belgeniz için tercih ettiğiniz satır sonu kipini seçin. Bu sadece "
+"geçerli belgleniz için genel satır sonu kip ayarlarını<menuchoice> "
+"<guimenu>Ayarlar</guimenu> <guimenuitem>Düzenleyiciyi Yapılandır...</"
+"guimenuitem></menuchoice> içerisinden üzerine yazacaktır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:921
+#, no-c-format
+msgid ""
+"<guimenu>Tools</guimenu> <guisubmenu>Add Byte Mark Order (BOM)</guisubmenu>"
+msgstr ""
+"<guimenu>Araçlar</guimenu> <guisubmenu>Bayt İşareti Sırası Ekle (BSİ)</"
+"guisubmenu>"
+
+#. Tag: para
+#: viewer-editor.docbook:925
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Checking this action you can explicitly add a byte order mark for unicode "
+#| "encoded documents. The byte order mark (BOM) is a Unicode character used "
+#| "to signal the endianness (byte order) of a text file or stream, for more "
+#| "information see <ulink url=\"http://en.wikipedia.org/wiki/Byte_Order_Mark"
+#| "\">Byte Order Mark</ulink>."
+msgid ""
+"Checking this action you can explicitly add a byte order mark for unicode "
+"encoded documents. The byte order mark (BOM) is a Unicode character used to "
+"signal the endianness (byte order) of a text file or stream, for more "
+"information see <ulink url=\"https://en.wikipedia.org/wiki/Byte_Order_Mark"
+"\">Byte Order Mark</ulink>."
+msgstr ""
+"Bu eylemi işaretleyerek unicode kodlanmış belgeler için açıkça bir bayt "
+"sırası işareti ekleyebilirsiniz. Bayt sırası işareti (BSİ) bir metin "
+"dosyasının veya akışının endianını (bayt sırası) sinyal yapmak için "
+"kullanılan bir Unicode karakteridir, daha fazla bilgi için bakınız <ulink "
+"url=\"http://en.wikipedia.org/wiki/Byte_Order_Mark\">Bayt Sırası İşareti</"
+"ulink>."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:933
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Space</keycap></"
+#| "keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Invoke Code "
+#| "Completion</guimenuitem>"
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Space;</keycombo> </shortcut> "
+"<guimenu>Tools</guimenu> <guimenuitem>Invoke Code Completion</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Space</keycap></"
+"keycombo> </shortcut> <guimenu>Ayarlar</guimenu> <guimenuitem>Kod "
+"Tamamlamayı Çağır</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:941
+#, no-c-format
+msgid ""
+"Manually invoke command completion, usually by using a shortcut bound to "
+"this action."
+msgstr ""
+"Komut tamamlamayı el ile tetikle, genellikle bu eylem için bir kısayol "
+"kullanılır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:946
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Word Completion</guimenuitem>"
+msgstr "<guimenu>Araçlar</guimenu> <guimenuitem>Kelime Tamamlama</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:951
+#, no-c-format
+msgid ""
+"<guimenuitem>Reuse Word Below</guimenuitem> (<keycombo action=\"simul"
+"\">&Ctrl; <keycap>9</keycap></keycombo>) and <guimenuitem>Reuse Word Above</"
+"guimenuitem> (<keycombo action=\"simul\">&Ctrl; <keycap>8</keycap></"
+"keycombo>) complete the currently typed text by searching for similar words "
+"backward or forward from the current cursor position. <guimenuitem>Shell "
+"Completion</guimenuitem> pops up a completion box with matching entries."
+msgstr ""
+"<guimenuitem>Aşağıdaki Kelimeyi Yeniden Kullan</guimenuitem> (<keycombo "
+"action=\"simul\">&Ctrl; <keycap>9</keycap></keycombo>) ve "
+"<guimenuitem>Yukarıdaki Kelimeyi Yeniden Kullan</guimenuitem> (<keycombo "
+"action=\"simul\">&Ctrl; <keycap>8</keycap></keycombo>) mevcutta yazılan "
+"metni mevcut imleç konumundan ileriye veya geriye doğru benzer kelimeleri "
+"arayarak tamamlar. <guimenuitem>Kabuk Tamamlama</guimenuitem> eşleşen "
+"girdiler içeren tamamlama kutusu açar."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:961
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>O</keycap></"
+"keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Automatic Spell "
+"Checking</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>O</keycap></"
+"keycombo> </shortcut> <guimenu>Araçlar</guimenu> <guimenuitem>Kendiliğinden "
+"Yazım Denetimi</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:969
+#, no-c-format
+msgid ""
+"When <guimenuitem>Automatic Spell Checking</guimenuitem> is enabled, wrong "
+"text is underlined in the document on-the-fly."
+msgstr ""
+"<guimenuitem>Kendiliğinden Yazım Denetimi</guimenuitem> etkinleştirildiği "
+"zaman, yanlış metin belge içerisinde anında altı çizili hale gelir."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:975
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Spelling...</guimenuitem>"
+msgstr "<guimenu>Araçlar</guimenu><guimenuitem>Yazım...</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:984
+#, no-c-format
+msgid ""
+"<action>This initiates the spellchecking program - a program designed to "
+"help the user catch and correct any spelling errors.</action> Clicking on "
+"this entry will start the checker and bring up the speller dialog box "
+"through which the user can control the process. There are four settings "
+"lined up vertically in the center of the dialog with their corresponding "
+"labels just to the left. Starting at the top they are:"
+msgstr ""
+"<action>Bu, yazım denetimi programını başlatır - kullanıcının yazım "
+"hatalarını yakalamasına ve düzeltmesine yardımcı olmak için tasarlanmış bir "
+"program.</action> Bu girdiye tıklamak, denetleyiciyi başlatacak ve "
+"kullanıcının işlemi denetleyebileceği yazım iletişim kutusunu açacaktır. "
+"İletişim kutusunun ortasına ilgili etiketlerine göre dikey olarak dizilmiş "
+"dört ayar vardır; En baştan başlayarak bunlar:"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:993
+#, no-c-format
+msgid "Unknown word:"
+msgstr "Bilinmeyen kelime:"
+
+#. Tag: para
+#: viewer-editor.docbook:994
+#, no-c-format
+msgid ""
+"Here, the spellchecker indicates the word currently under consideration. "
+"This happens when the checker encounters a word not in its dictionary - a "
+"file containing a list of correctly spelled words against which it compares "
+"each word in the editor."
+msgstr ""
+"Burada, yazım denetçisi şu anda dikkate alınan kelimeyi gösterir. Bu, "
+"denetçi sözlüğünde olmayan bir sözcükle karşılaştığında gerçekleşir - "
+"editörde her sözcüğü karşılaştıran doğru sözcüklerin listesini içeren bir "
+"dosyadır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1000
+#, no-c-format
+msgid "Replace with:"
+msgstr "Şununla değiştir:"
+
+#. Tag: para
+#: viewer-editor.docbook:1001
+#, no-c-format
+msgid ""
+"If the checker has any similar words in its dictionary the first one will be "
+"listed here. The user can accept the suggestion, type in his or her own "
+"correction, or choose a different suggestion from the next box."
+msgstr ""
+"Denetçinin sözlüğünde benzer kelimeler varsa, bunlardan ilki burada "
+"listelenecektir. Kullanıcı öneriyi kabul edebilir, kendi düzeltmesi şeklinde "
+"yazabilir veya bir sonraki kutudan farklı bir öneri seçebilir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1007
+#, no-c-format
+msgid "Language:"
+msgstr "Dil:"
+
+#. Tag: para
+#: viewer-editor.docbook:1008
+#, no-c-format
+msgid ""
+"If you have installed multiple dictionaries, here you can select which "
+"dictionary/language should be used."
+msgstr ""
+"Eğer birden fazla sözlük kurduysanız, buradan hangi sözlük/dilin "
+"kullanılacağını seçebilirsiniz."
+
+#. Tag: para
+#: viewer-editor.docbook:1013
+#, no-c-format
+msgid ""
+"On the right side of the dialog box are 6 buttons that allow the user to "
+"control the spellcheck process. They are:"
+msgstr ""
+"İletişim kutusunun sağ tarafında kullanıcının yazım denetimi sürecini "
+"kontrol etmesini sağlayan 6 adet tuş bulunmaktadır. Bunlar:"
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1018
+#, no-c-format
+msgid "Add to Dictionary"
+msgstr "Sözlüğe Ekle"
+
+#. Tag: para
+#: viewer-editor.docbook:1019
+#, no-c-format
+msgid ""
+"Pressing this button adds the <guilabel>Unknown word </guilabel> to the "
+"checker's dictionary. This means that in the future the checker will always "
+"consider this word to be correctly spelled."
+msgstr ""
+"Bu tuşa basmak denetleyicinin sözlüğüne <guilabel>Bilinmeyen kelime</"
+"guilabel> ekler. Bu, denetçinin ileride bu kelimeyi her zaman düzgün "
+"yazılmış olarak göz önüne alacağı anlamına gelir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1025
+#, no-c-format
+msgid "Suggest"
+msgstr "Öner"
+
+#. Tag: para
+#: viewer-editor.docbook:1026
+#, no-c-format
+msgid ""
+"The checker may list here a number of possible replacements for the word "
+"under consideration. Clicking on any one of the suggestions will cause that "
+"word to be entered in the <guilabel>Replace with</guilabel> box, above."
+msgstr ""
+"Denetçi, göz önünde bulundurulan kelime için bir dizi olası değiştirmeyi "
+"burada listeleyebilir. Önerilerden herhangi birine tıkladığınızda, bu "
+"kelimenin yukarıdaki <guilabel>Şununla değiştir</guilabel> kutusuna "
+"girilmesine neden olur."
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1032
+#, no-c-format
+msgid "Replace"
+msgstr "Değiştir"
+
+#. Tag: para
+#: viewer-editor.docbook:1033
+#, no-c-format
+msgid ""
+"This button has the checker replace the word under consideration in the "
+"document with the word in the <guilabel>Replace with</guilabel> box."
+msgstr ""
+"Bu tuş belgedeki <guilabel>Şununla değiştir</guilabel> kutusu içerisinde göz "
+"önüne alınan kelimeyi değiştirecek kontrol ediciye sahiptir."
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1038
+#, no-c-format
+msgid "Replace All"
+msgstr "Tümünü Değiştir"
+
+#. Tag: para
+#: viewer-editor.docbook:1039
+#, no-c-format
+msgid ""
+"This button causes the checker to replace not only the current "
+"<guilabel>Unknown word:</guilabel> but to automatically make the same "
+"substitution for any other occurrences of this <guilabel>Unknown word</"
+"guilabel> in the document."
+msgstr ""
+"Bu tuş denetleyicinin sadece mevcut <guilabel>Bilinmeyen kelime:</guilabel> "
+"değiştirmesine değil, aynı yerine koyma işlemini belgede herhangi bir "
+"<guilabel>Bilinmeyen kelime</guilabel> oluşu için yapmasına sebep olur."
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1045
+#, no-c-format
+msgid "Ignore"
+msgstr "Yoksay"
+
+#. Tag: para
+#: viewer-editor.docbook:1046
+#, no-c-format
+msgid ""
+"Activating this button will have the checker move on without making any "
+"changes."
+msgstr ""
+"Bu düğmeyi etkinleştirmek, denetçinin herhangi bir değişiklik yapmadan devam "
+"etmesini sağlayacaktır."
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1050
+#, no-c-format
+msgid "Ignore All"
+msgstr "Tümünü Yoksay"
+
+#. Tag: para
+#: viewer-editor.docbook:1051
+#, no-c-format
+msgid ""
+"This button tells the checker to do nothing with the current "
+"<guilabel>Unknown word:</guilabel> and to pass over any other instances of "
+"the same word."
+msgstr ""
+"Bu tuş, denetleyiciye geçerli <guilabel>Bilinmeyen sözcük:</guilabel> ile "
+"hiçbir şey yapmamasını ve aynı kelimenin diğer örneklerini iletmesini söyler."
+
+#. Tag: para
+#: viewer-editor.docbook:1053
+#, no-c-format
+msgid ""
+"This only applies to the current spellcheck run. If the checker is run again "
+"later it will stop on this same word."
+msgstr ""
+"Bu sadece geçerli yazım denetimi için geçerlidir. Denetleyici daha sonra "
+"tekrar çalıştırılırsa, aynı sözcük üzerinde duracaktır."
+
+#. Tag: para
+#: viewer-editor.docbook:1059
+#, no-c-format
+msgid ""
+"Three more buttons are located horizontally along the bottom of the "
+"spellcheck dialog. They are:"
+msgstr ""
+"Yazım denetimi iletişim kutusunun alt kısmında yatay olarak üç tuş daha "
+"bulunur. Bunlar:"
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1064
+#, no-c-format
+msgid "Help"
+msgstr "Yardım"
+
+#. Tag: para
+#: viewer-editor.docbook:1065
+#, no-c-format
+msgid "This invokes the &kde; help system with the help page for this dialog."
+msgstr ""
+"Bu, bu iletişim kutusu için yardım sayfası ile birlikte &kde; yardım "
+"sistemini çağırır."
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1070
+#, no-c-format
+msgid "Finished"
+msgstr "Tamamlandı"
+
+#. Tag: para
+#: viewer-editor.docbook:1071
+#, no-c-format
+msgid "This button ends the spellcheck process, and returns to the document."
+msgstr "Bu tuş yazım denetimi sürecini sona erdirir, ve belgeye döner."
+
+#. Tag: guibutton
+#: viewer-editor.docbook:1076
+#, no-c-format
+msgid "Cancel"
+msgstr "İptal Et"
+
+#. Tag: para
+#: viewer-editor.docbook:1077
+#, no-c-format
+msgid ""
+"This button cancels the spellcheck process, all modifications are reverted, "
+"and you will return to your document."
+msgstr ""
+"Bu tuş yazım denetimi işlemini iptal eder, tüm düzenlemeler geri döndürülür, "
+"ve belgenize geri dönersiniz."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1087
+#, no-c-format
+msgid ""
+"<guimenu>Tools</guimenu> <guimenuitem>Spelling (from cursor)...</guimenuitem>"
+msgstr ""
+"<guimenu>Araçlar</guimenu> <guimenuitem>Yazım Denetimi (imleçten itibaren)..."
+"</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1091
+#, no-c-format
+msgid ""
+"This initiates the spellchecking program but it starts where your cursor is "
+"instead of at the beginning of the document."
+msgstr ""
+"Bu yazım denetimi programını başlatır fakat, belgenin başlagıcı yerine "
+"imleciniz nerede ise orada başlar."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1097
+#, no-c-format
+msgid ""
+"<guimenu>Tools</guimenu> <guimenuitem>Spellcheck Selection...</guimenuitem>"
+msgstr ""
+"<guimenu>Araçlar</guimenu> <guimenuitem>Yazım Denetimi Seçimi...</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1101
+#, no-c-format
+msgid "Spellchecks the current selection."
+msgstr "Mevcut seçimin yazımını denetler."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1106
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Change Dictionary</guimenuitem>"
+msgstr "<guimenu>Araçlar</guimenu> <guimenuitem>Sözlüğü Değiştir</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1110
+#, no-c-format
+msgid ""
+"Displays a drop down box with all available dictionaries for spellchecking "
+"at the bottom of the editor window. This allows easy switching of the "
+"spellcheck dictionary &eg; for automatic spellcheck of text in different "
+"languages."
+msgstr ""
+"Editör penceresinin altında, yazım denetimi için tüm kullanılabilir "
+"sözlükleri içeren bir açılır kutu görüntüler. Bu, yazım denetimi sözlüğünün "
+"kolayca değiştirilmesine izin verir &eg; metnin farklı dillerdeki otomatik "
+"yazım denetimi için."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1117
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Clean Indentation</guimenuitem>"
+msgstr "<guimenu>Aralar</guimenu><guimenuitem>Temiz Girintileme</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1120
+#, no-c-format
+msgid ""
+"This cleans the indentation for the current selection or for the line the "
+"cursor is currently in. Cleaning the indentation ensures that all your "
+"selected text follows the indentation mode you choose."
+msgstr ""
+"Bu, geçerli seçimin veya imlecin şu anda içinde bulunduğu satırın "
+"girintisini temizler. Girintiyi temizlemek, seçtiğiniz tüm metinlerin "
+"seçtiğiniz girinti kipini takip etmesini sağlar."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1127
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Align</guimenuitem>"
+msgstr "<guimenu>Araçlar</guimenu> <guimenuitem>Hizala</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1132
+#, no-c-format
+msgid ""
+"Causes a realign of the current line or selected lines using the indentation "
+"mode and indentation settings in the document."
+msgstr ""
+"Belgedeki girinti kipini ve girinti ayarlarını kullanarak geçerli satırın "
+"veya seçilen satırların yeniden hizalanmasına neden olur."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1138
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo> </"
+"shortcut> <guimenu>Tools</guimenu> <guimenuitem>Comment</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo> </"
+"shortcut> <guimenu>Araçlar</guimenu> <guimenuitem>Yorum</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1145
+#, no-c-format
+msgid ""
+"This adds one space to the beginning of the line where the text cursor is "
+"located or to the beginning of any selected lines."
+msgstr ""
+"Bu, metin imlecinin bulunduğu satırın başına veya seçilen herhangi bir "
+"satırın başına bir boşluk ekler."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1152
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>D</keycap></"
+"keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Uncomment</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>D</keycap></"
+"keycombo> </shortcut> <guimenu>Araçlar</guimenu> <guimenuitem>Yorumu Kaldır</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1159
+#, no-c-format
+msgid ""
+"This removes one space (if any exist) from the beginning of the line where "
+"the text cursor is located or from the beginning of any selected lines."
+msgstr ""
+"Bu, metin imlecinin bulunduğu satırın başından ya da seçili satırların "
+"başından bir boşluğu (varsa) kaldırır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1165
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> </"
+"shortcut> <guimenu>Tools</guimenu> <guimenuitem>Uppercase</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> </"
+"shortcut> <guimenu>Araçlar</guimenu> <guimenuitem>Büyük Harf</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1172
+#, no-c-format
+msgid "Put the selected text or the letter after the cursor in uppercase."
+msgstr "Seçili metni veya imleçten sonraki harfi büyük harfe koy."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1177
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>U</keycap></"
+"keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Lowercase</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>U</keycap></"
+"keycombo> </shortcut> <guimenu>Araçlar </guimenu> <guimenuitem>Küçük Harf</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1184
+#, no-c-format
+msgid "Put the selected text or the letter after the cursor in lowercase."
+msgstr "İmleçten sonraki harfi veya seçili metni küçük harfe koy."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1189
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>U</keycap></"
+"keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Capitalize</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>U</keycap></"
+"keycombo> </shortcut> <guimenu>Araçlar</guimenu> <guimenuitem>Baş Harfleri "
+"Büyüt</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1196
+#, no-c-format
+msgid "Capitalize the selected text or the current word."
+msgstr "Mevcut kelimeyi veya seçili metni tamamen büyük harf yap."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1201
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>J</keycap></keycombo> </"
+"shortcut> <guimenu>Tools</guimenu> <guimenuitem>Join Lines</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>J</keycap></keycombo> </"
+"shortcut> <guimenu>Araçlar</guimenu> <guimenuitem>Satırları Birleştir</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1208
+#, no-c-format
+msgid ""
+"Joins the selected lines, or the current line and the line below with one "
+"white space character as a separator. Leading/trailing white space on joined "
+"lines is removed in the affected ends."
+msgstr ""
+"Seçili satırları, ya da mevcut satırı ve aşağıdaki satırı bir beyaz "
+"karakteri ayırıcı olarak birleştirir. Birleştirilen satırlardaki baştaki/"
+"sondaki beyaz boşluklar etkilenen sonlarda kaldırılır."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1214
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Apply Word Wrap</guimenuitem>"
+msgstr ""
+"<guimenu>Araçlar</guimenu> <guimenuitem>Kelime Kaydırmasını Uygula</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1218
+#, no-c-format
+msgid ""
+"Apply static word wrapping on all the document. That means that a new line "
+"of text will automatically start when the current line exceeds the length "
+"specified by the <guilabel>Wrap words at</guilabel> option in the Editing "
+"tab in <menuchoice> <guimenu>Settings</guimenu><guimenuitem>Configure "
+"Editor...</guimenuitem></menuchoice>"
+msgstr ""
+"Durağan kelime kaydırmasını tüm belgeye uygula. Bu, mevcut "
+"satırın<menuchoice><guimenu>Ayarlar</guimenu><guimenuitem>Düzenleyiciyi "
+"Yapılandır...</guimenuitem></menuchoice> içerisindeki Düzenleme sekmesi "
+"içinde<guilabel>Kelimeleri şurada kaydır</guilabel> seçeneği ile belirtilen "
+"uzunluğu aştığı zaman yeni bir satırın otomatik olarak başlayacağı anlamına "
+"gelir."
+
+#. Tag: para
+#: viewer-editor.docbook:1227
+#, no-c-format
+msgid ""
+"If the <link linkend=\"katepart-pref-plugins\">plugin</link> Insert File is "
+"enabled, you will find here an additional menu item <guimenuitem>Insert "
+"File...</guimenuitem>."
+msgstr ""
+"Eğer <link linkend=\"katepart-pref-plugins\">eklenti</link> Dosya Ekle "
+"etkinleştirilmiş ise, burada ek bir menü ögesi olan <guimenuitem>Dosya "
+"Ekle...</guimenuitem> bulacaksınız."
+
+#. Tag: title
+#: viewer-editor.docbook:1236
+#, no-c-format
+msgid "The Settings Menu"
+msgstr "Ayarlar Menüsü"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1241
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem>"
+msgstr ""
+"<guimenu>Ayarlar</guimenu> <guimenuitem>Düzenleyiciyi Yapılandır...</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1247
+#, no-c-format
+msgid ""
+"This menu item opens a dialog whereby several different <link linkend="
+"\"kredit_config\">settings</link> may be adjusted."
+msgstr ""
+"Bu menü ögesi birkaç farklı <link linkend=\"kredit_config\">ayarın</link> "
+"ayarlanabildiği bir iletişim kutusu açar."
+
+#. Tag: title
+#: viewer-editor.docbook:1261
+#, no-c-format
+msgid "The KrViewer Menu"
+msgstr "KrViewer Menüsü"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1265
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>G</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Generic "
+"viewer</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>G</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Genel "
+"görüntüleyici</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1276
+#, no-c-format
+msgid ""
+"&krusader;'s internal viewer is actually part of &konqueror;, which can "
+"basically view every file type viewable by &konqueror; (&eg; display "
+"pictures, play music, show the content of an archive)."
+msgstr ""
+"&krusader;'ın iç görüntüleyicisi aslında &konqueror;'ın bir parçasıdır, "
+"temel olarak &konqueror; tarafından görüntülenebilir her dosya türünü "
+"görüntüleyebilir (&eg; resimleri göstermek, müzik çalmak, bir arşivin "
+"içeriğini göstermek)."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1285
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift; <keycap>T</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Text viewer</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift; <keycap>T</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Metin "
+"görüntüleyicisi</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1295
+#, no-c-format
+msgid "View the file in text mode."
+msgstr "Dosyayı metin kipinde görüntüle."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1300
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>H</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Hex viewer</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>H</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Onaltılık "
+"görüntüleyici</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1311
+#, no-c-format
+msgid "View the file in hex mode."
+msgstr "Dosyayı onaltılık kipinde görüntüle."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1316
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>L</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Lister</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>L</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Listeleyici</"
+"guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1327
+#, no-c-format
+msgid ""
+"Fast text/hex viewer for huge filesizes, done by <link linkend=\"konfig-"
+"general\">Krusader lister</link>."
+msgstr ""
+"<link linkend=\"konfig-general\">Krusader listeleyicisi</link> tarafından "
+"yapılan, büyük dosya boyutları için hızlı metin/onaltılık görüntüleyicisi."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1333
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>E</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Text editor</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>E</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Metin "
+"düzenleyici</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1344
+#, no-c-format
+msgid "Edit the file in text mode."
+msgstr "Dosyayı metin kipinde düzenle"
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1349
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>D</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Detach Tab</"
+"guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>D</keycap></"
+"keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Ayırma "
+"Sekmesi</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1360
+#, no-c-format
+msgid "Detach browsing Tab and open in a new window."
+msgstr "Gözatma sekmesini ayır ve yeni bir pencerede aç."
+
+#. Tag: menuchoice
+#: viewer-editor.docbook:1366
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl; <keycap>Q</keycap></keycombo> "
+"</shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\"> &Ctrl; <keycap>Q</keycap></keycombo> "
+"</shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Kapat</guimenuitem>"
+
+#. Tag: para
+#: viewer-editor.docbook:1377
+#, no-c-format
+msgid "Closes &krusader;'s viewer/editor window."
+msgstr "&krusader;'ın görüntüleyici/düzenleyici penceresini kapatır."
+
+#. Tag: title
+#: viewer-editor.docbook:1387
+#, no-c-format
+msgid "The Editor Component Configuration"
+msgstr "Düzenleyici Bileşeni Yapılandırması"
+
+#. Tag: para
+#: viewer-editor.docbook:1388
+#, no-c-format
+msgid ""
+"This group contains all pages related to the editor component of &kappname;. "
+"Most of the settings here are defaults, they can be overridden by <link "
+"linkend=\"katepart-pref-open-save-modes-filetypes\">defining a filetype</"
+"link>, by <ulink url=\"help:/katepart/config-variables.html\">Document "
+"Variables</ulink> or by changing them per document during an editing session."
+msgstr ""
+"Bu grup &kappname; editör bileşeni ile ilgili tüm sayfaları içerir. Buradaki "
+"ayarların çoğu varsayılan değerlerdir, <link linkend=\"katepart-pref-open-"
+"save-modes-filetypes\">dosya tipi belirlenerek</link>, <ulink url=\"help:/"
+"katepart/config-variables.html\">Belge Çeşitliliği</ulink> veya düzenleme "
+"süreci sırasında her belge için değiştirerek üzerlerine yazılabilir."
+
+#. Tag: title
+#: viewer-editor.docbook:1394
+#, no-c-format
+msgid "Appearance"
+msgstr "Görünüm"
+
+#. Tag: title
+#: viewer-editor.docbook:1397 viewer-editor.docbook:1685
+#: viewer-editor.docbook:2079
+#, no-c-format
+msgid "<title>General</title>"
+msgstr "<title>Genel</title>"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1401
+#, no-c-format
+msgid "Dynamic Word Wrap"
+msgstr "Dinamik Sözcük Kaydırma"
+
+#. Tag: para
+#: viewer-editor.docbook:1403
+#, no-c-format
+msgid ""
+"If this option is checked, the text lines will be wrapped at the view border "
+"on the screen."
+msgstr ""
+"Eğer bu seçenek işaretlenmişse, metin satırları, ekrandaki izleme "
+"kenarlıklarında kaydırılacak."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1407
+#, no-c-format
+msgid "Dynamic word wrap indicators (if applicable)"
+msgstr "Devingen sözcük kaydırma belirteçleri (uygulanabilir ise)"
+
+#. Tag: para
+#: viewer-editor.docbook:1408
+#, no-c-format
+msgid ""
+"Choose when the Dynamic word wrap indicators should be displayed, either "
+"<guilabel>Off</guilabel>, <guilabel>Follow Line Numbers</guilabel> or "
+"<guilabel>Always on</guilabel>."
+msgstr ""
+"Dinamik sözcük kaydırma girintilerinin ne zaman görüntüleneceğini seçin, "
+"<guilabel>Kapalı</guilabel>, <guilabel>Satır Numaralarını Takip Et</"
+"guilabel> ya da <guilabel>Daima açık</guilabel>."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1413
+#, no-c-format
+msgid "Align dynamically wrapped lines to indentation depth:"
+msgstr "Devingen olarak kaydırılmış satırları girinti derinliğine hizala:"
+
+#. Tag: para
+#: viewer-editor.docbook:1416
+#, no-c-format
+msgid ""
+"Enables the start of dynamically wrapped lines to be aligned vertically to "
+"the indentation level of the first line. This can help to make code and "
+"markup more readable."
+msgstr ""
+"Dinamik olarak kaydırılmış satırların ilk satırın girinti seviyesine dikey "
+"olarak hizalanmasını sağlar. Bu kod ve işaretlemeyi daha okunabilir hale "
+"getirmeye yardımcı olabilir."
+
+#. Tag: para
+#: viewer-editor.docbook:1419
+#, no-c-format
+msgid ""
+"Additionally, this allows you to set a maximum width of the screen, as a "
+"percentage, after which dynamically wrapped lines will no longer be "
+"vertically aligned. For example, at 50%, lines whose indentation levels are "
+"deeper than 50% of the width of the screen will not have vertical alignment "
+"applied to subsequent wrapped lines."
+msgstr ""
+"Buna ek olarak, bu, ekranın maksimum genişliğini yüzde olarak ayarlamanıza "
+"olanak verir, bundan sonra dinamik olarak kaydırılmış çizgiler artık dikey "
+"olarak hizalanmayacaktır. Örneğin, %50’lik kısım, bunlar girinti seviyeleri "
+"ekranın genişliğinin %50’sinden daha derin olan çizgiler, sonraki "
+"kaydırılmış çizgilere uygulanan dikey hizalamaya sahip olmayacaktır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1431
+#, no-c-format
+msgid "Whitespace Highlighting"
+msgstr "Beyazalan Vurgulaması"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1435
+#, no-c-format
+msgid "Highlight tabulators"
+msgstr "Tablolayıcıları Vurgula"
+
+#. Tag: para
+#: viewer-editor.docbook:1436
+#, no-c-format
+msgid ""
+"The editor will display a &raquo; symbol to indicate the presence of a tab "
+"in the text."
+msgstr ""
+"Düzenleyci metindeki sekmenin varlığını girintilemek için &raquo; sembolünü "
+"görüntüleyecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1440
+#, no-c-format
+msgid "Highlight trailing spaces"
+msgstr "Sondaki boşlukları vurgula"
+
+#. Tag: para
+#: viewer-editor.docbook:1441
+#, no-c-format
+msgid ""
+"The editor will display dots to indicate the presence of extra whitespace at "
+"the end of lines."
+msgstr ""
+"Editör, satırların sonunda ekstra beyaz boşluk varlığını göstermek için "
+"noktalar gösterecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1449
+#, no-c-format
+msgid "<guilabel>Advanced</guilabel>"
+msgstr "<guilabel>Gelişmiş</guilabel>"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1454
+#, no-c-format
+msgid "Show indentation lines"
+msgstr "Girinti satırlarını göster"
+
+#. Tag: para
+#: viewer-editor.docbook:1456
+#, no-c-format
+msgid ""
+"If this is checked, the editor will display vertical lines to help "
+"identifying indent lines."
+msgstr ""
+"Bu işaretlenirse, düzenleyici girinti satırlarının tanımlanmasına yardımcı "
+"olmak için dikey çizgiler görüntüler."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1460
+#, no-c-format
+msgid "Highlight range between selected brackets"
+msgstr "Seçilen parantezler arasındaki aralığı vurgula"
+
+#. Tag: para
+#: viewer-editor.docbook:1462
+#, no-c-format
+msgid ""
+"If this is enabled, the range between the selected matching brackets will be "
+"highlighted."
+msgstr ""
+"Bu etkin ise, seçilmiş eşleşen parantezler arasındaki aralık vurgulanacaktır."
+
+#. Tag: title
+#: viewer-editor.docbook:1472
+#, no-c-format
+msgid "<title>Borders</title>"
+msgstr "<title>Kenarlıklar</title>"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1476
+#, no-c-format
+msgid "<guilabel>Borders</guilabel>"
+msgstr "<guilabel>Kenarlıklar</guilabel>"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1480
+#, no-c-format
+msgid "Show folding markers (if available)"
+msgstr "Katlama işaretlerini göster (eğer kullanılabilir ise)"
+
+#. Tag: para
+#: viewer-editor.docbook:1482
+#, no-c-format
+msgid ""
+"If this option is checked, the current view will display marks for code "
+"folding, if code folding is available."
+msgstr ""
+"Bu seçenek işaretliyse, geçerli görünüm kod katlama mevcut ise kod katlama "
+"için işaretleri gösterecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1486
+#, no-c-format
+msgid "Show icon border"
+msgstr "Simge kenarlığını göster"
+
+#. Tag: para
+#: viewer-editor.docbook:1488
+#, no-c-format
+msgid ""
+"If this is checked, you will see an icon border on the left hand side. The "
+"icon border shows bookmark signs for instance."
+msgstr ""
+"Eğer bu seçili ise, sol tarafta simge kenarlığını göreceksiniz. Simge "
+"kenarlığı girintileme için yer imi işaretlerini gösterir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1492
+#, no-c-format
+msgid "Show line numbers"
+msgstr "Satır numaralarını göster"
+
+#. Tag: para
+#: viewer-editor.docbook:1494
+#, no-c-format
+msgid "If this is checked, you will see line numbers on the left hand side."
+msgstr "Eğer bu seçili ise, sol tarafta satır numaralarını göreceksiniz."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1498
+#, no-c-format
+msgid "Show scrollbar marks"
+msgstr "Kaydırma çubuğu işaretlerini göster"
+
+#. Tag: para
+#: viewer-editor.docbook:1500
+#, no-c-format
+msgid ""
+"If this option is checked the current view will show marks on the vertical "
+"scrollbar. These marks will for instance show bookmarks."
+msgstr ""
+"Eğer bu seçenek seçili ise mevcut görünüm dikey kaydırma çubuğunda "
+"işaretleri gösterecektir. Bu işaretler örneğin yer imlerini gösterecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1509
+#, no-c-format
+msgid "Sort Bookmarks Menu"
+msgstr "Yer İmleri Menüsünü Sırala"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1514
+#, no-c-format
+msgid "By creation"
+msgstr "Oluşturmaya göre"
+
+#. Tag: para
+#: viewer-editor.docbook:1516
+#, no-c-format
+msgid ""
+"Each new bookmark will be added to the bottom, independently from where it "
+"is placed in the document."
+msgstr ""
+"Her yeni yer imi, belge içinde nereye yerleştirildiğinden bağımsız olarak, "
+"listenin en sonuna eklenecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1520
+#, no-c-format
+msgid "By position"
+msgstr "Konuma göre"
+
+#. Tag: para
+#: viewer-editor.docbook:1522
+#, no-c-format
+msgid "The bookmarks will be ordered by the line numbers they are placed at."
+msgstr ""
+"Yer imleri, yerleştirildikleri satırların numaraları ile sıralandırılacak."
+
+#. Tag: title
+#: viewer-editor.docbook:1534
+#, no-c-format
+msgid "Fonts &amp; Colors"
+msgstr "Yazı Tipleri &amp; Renkler"
+
+#. Tag: para
+#: viewer-editor.docbook:1536
+#, no-c-format
+msgid ""
+"This section of the dialog lets you configure all fonts and colors in any "
+"color scheme you have, as well creating new schemes or deleting existing "
+"ones. Each scheme has settings for colors, fonts and normal and highlight "
+"text styles."
+msgstr ""
+"İletişim kutusunun bu bölümü, sahip olduğunuz renk şemasındaki tüm yazı "
+"tiplerini ve renkleri yapılandırmanıza, ayrıca yeni şemalar oluşturmanıza "
+"veya varolanları silmenize olanak tanır. Her şemada renkler, yazı tipleri ve "
+"normal ve vurgulanmış metin stilleri için ayarlar bulunur."
+
+#. Tag: para
+#: viewer-editor.docbook:1542
+#, no-c-format
+msgid ""
+"&kappname; will preselect the currently active scheme for you, if you want "
+"to work on a different scheme start by selecting that from the "
+"<guilabel>Schema</guilabel> combobox. With the <guibutton>New</guibutton> "
+"and <guibutton>Delete</guibutton> button you can create a new scheme or "
+"delete existing ones."
+msgstr ""
+"&kappname; mevcut aktif şemayı sizin için seçecektir, eğer farklı bir şemada "
+"çalışmak isterseniz  bunu <guilabel>Şema</guilabel> çoklu seçim kutusundan "
+"seçerek başlayın. <guibutton>Yeni</guibutton> ve <guibutton>Sil</guibutton> "
+"tuşları ile yeni bir şema oluşturabilir ya da mevcut olanları silebilirsiniz."
+
+#. Tag: para
+#: viewer-editor.docbook:1546
+#, no-c-format
+msgid ""
+"At the bottom of the page you can select the <guilabel>Default schema for "
+"&kappname;</guilabel>."
+msgstr ""
+"Sayfanın sonundan <guilabel>&kappname; için varsayılan şema</guilabel> "
+"seçebilirsiniz."
+
+#. Tag: title
+#: viewer-editor.docbook:1549
+#, no-c-format
+msgid "Colors"
+msgstr "Renkler"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1553
+#, no-c-format
+msgid "Text Area Background"
+msgstr "Metin Bölgesi Arkaplanı"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1559
+#, no-c-format
+msgid "Normal text"
+msgstr "Normal metin"
+
+#. Tag: para
+#: viewer-editor.docbook:1560
+#, no-c-format
+msgid ""
+"This is the default background for the editor area, it will be the dominant "
+"color on the editor area."
+msgstr ""
+"Bu editör alanının varsayılan arka planıdır, editör alanında baskın renk "
+"olacaktır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1565
+#, no-c-format
+msgid "Selected text"
+msgstr "Seçili metin"
+
+#. Tag: para
+#: viewer-editor.docbook:1566
+#, no-c-format
+msgid ""
+"This is the background for selected text. The default is the global "
+"selection color, as set in your &plasma; color preferences."
+msgstr ""
+"Bu seçilen metin için arkaplandır. Varsayılan &plasma; renk tercihleri "
+"içerisinden de ayarlandığı gibi genel seçim rengidir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1572
+#, no-c-format
+msgid "Current line"
+msgstr "Mevcut satır"
+
+#. Tag: para
+#: viewer-editor.docbook:1573
+#, no-c-format
+msgid ""
+"Set the color for the current line. Setting this a bit different from the "
+"Normal text background helps to keep focus on the current line."
+msgstr ""
+"Mevcut satırın rengini ayarla. Bunu ayarlamak Normal metin arkaplan "
+"ayarlamaktan biraz farklıdır mevcut satıra odaklı kalınmasına yardımcı olur."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1579
+#, no-c-format
+msgid "Bookmark"
+msgstr "Yer İmi"
+
+#. Tag: para
+#: viewer-editor.docbook:1580
+#, no-c-format
+msgid ""
+"This combobox lets you set overlay colors for various mark types. The color "
+"is mixed into the background color of a marked line, so that a line with "
+"more marks or a marked line that is current has a background that is a mix "
+"of more colors. The mark colors are also used if you enable display of "
+"scrollbar marks."
+msgstr ""
+"Bu çoklu seçim kutusu çeşitli marke türleri için kaplama rengini "
+"ayarlamanıza olanak tanır. Renk, işaretli çizginin arkaplanı içerisinde "
+"karıştırılır, bu demektir ki daha fazla maskeli bir çizgi veya mevcut bir "
+"işaretli çizgi daha fazla renk karışımı olan bir arkaplana sahiptir. Renkler "
+"ayrıca kaydırma çubuğu maskelerini aktifleştirirseniz de kullanılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1592
+#, no-c-format
+msgid "Additional Elements"
+msgstr "Ek Ögeler"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1596
+#, no-c-format
+msgid "Left border background"
+msgstr "Sol kenarlık arkaplanı"
+
+#. Tag: para
+#: viewer-editor.docbook:1597
+#, no-c-format
+msgid ""
+"This color is used for the marks, line numbers and folding marker borders in "
+"the left side of the editor view when they are displayed."
+msgstr ""
+"Bu renk, görüntülendiğinde editör görünümünün sol tarafındaki işaretler, "
+"çizgi numaraları ve katlama işaretleri kenarlıkları için kullanılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1602
+#, no-c-format
+msgid "Line numbers"
+msgstr "Satır numaraları"
+
+#. Tag: para
+#: viewer-editor.docbook:1603
+#, no-c-format
+msgid ""
+"This color is used to draw the line numbers on the left side of the view "
+"when displayed."
+msgstr ""
+"Bu renk, görüntülendiği zaman görünümün sol tarafındaki çizgi numaralarını "
+"çizmek için kullanılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1607
+#, no-c-format
+msgid "Bracket highlight"
+msgstr "Köşeli parantez vurgusu"
+
+#. Tag: para
+#: viewer-editor.docbook:1608
+#, no-c-format
+msgid "This color is used to draw the background of matching brackets."
+msgstr "Bu renk, eşleşen parantezlerin arka planını çizmek için kullanılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1612
+#, no-c-format
+msgid "Word wrap markers"
+msgstr "Sözcük kaydırma işaretleri"
+
+#. Tag: para
+#: viewer-editor.docbook:1613
+#, no-c-format
+msgid ""
+"This color is used to draw a pattern to the left of dynamically wrapped "
+"lines when those are aligned vertically, as well as for the static word wrap "
+"marker."
+msgstr ""
+"Bu renk, dikey olarak hizalandıkları zaman dinamik olarak kaydırılmış "
+"çizgilerin solunda ve aynı zamanda statik sözcük kaydırma işaretçisi için "
+"bir desen çizmek için kullanılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1618
+#, no-c-format
+msgid "Tab and space markers"
+msgstr "Sekme ve boşluk işaretleri"
+
+#. Tag: para
+#: viewer-editor.docbook:1619
+#, no-c-format
+msgid "This color is used to draw white space indicators when enabled."
+msgstr ""
+"Bu renk, etkinleştirildiği zaman beyaz boşluk göstergelerini çizmek için "
+"kullanılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1623
+#, no-c-format
+msgid "Spelling mistake line"
+msgstr "Yazım yanlışı satırı"
+
+#. Tag: para
+#: viewer-editor.docbook:1624
+#, no-c-format
+msgid "sets the color of the line that is used to indicate spelling mistakes."
+msgstr "yazım yanlışlarını göstermek için kullanılan satırın rengini ayarlar."
+
+#. Tag: title
+#: viewer-editor.docbook:1635
+#, no-c-format
+msgid "Fonts"
+msgstr "Yazı Tipleri"
+
+#. Tag: para
+#: viewer-editor.docbook:1636
+#, no-c-format
+msgid ""
+"Here you can choose the font for the schema. You can choose from any font "
+"available on your system, and set a default size. A sample text displays at "
+"the bottom of the dialog, so you can see the effect of your choices."
+msgstr ""
+"Burada şema için yazı tipini seçebilirsiniz. Sisteminizde bulunan herhangi "
+"bir yazı tipini seçebilir ve varsayılan bir boyut ayarlayabilirsiniz. "
+"İletişim kutusunun altında örnek bir metin görüntülenir, böylece "
+"seçimlerinizin etkisini görebilirsiniz."
+
+#. Tag: title
+#: viewer-editor.docbook:1644
+#, no-c-format
+msgid "Normal Text Styles"
+msgstr "Normal Metin Biçemleri"
+
+#. Tag: para
+#: viewer-editor.docbook:1645
+#, no-c-format
+msgid ""
+"The normal text styles are inherited by the highlight text styles, allowing "
+"the editor to present text in a very consistent way, for example comment "
+"text is using the same style in almost all of the text formats that "
+"&kappname; can highlight."
+msgstr ""
+"Normal metin biçemleri, vurgu metni biçemleri tarafından devralınır, "
+"editörün metni çok tutarlı bir şekilde sunmasına izin verir, örneğin yorum "
+"metni hemen hemen tüm metin biçimlerinde &kappname; vurgulayabileceği aynı "
+"biçemi kullanır."
+
+#. Tag: para
+#: viewer-editor.docbook:1649 viewer-editor.docbook:1664
+#, no-c-format
+msgid ""
+"The name in the list of styles is using the style configured for the item, "
+"providing you with an immediate preview when configuring a style."
+msgstr ""
+"Biçem listesindeki ad öge için yapılandırılan biçemi kullanır ve biçem "
+"yapılandırırken anında önizleme sağlar."
+
+#. Tag: para
+#: viewer-editor.docbook:1652
+#, no-c-format
+msgid ""
+"Each style lets you select common attributes as well as foreground and "
+"background colors. To unset a background color, rightclick to use the "
+"context menu."
+msgstr ""
+"Her biçem, ortak nitelikleri yanı sıra ön plan ve arka plan renkleri "
+"seçmenizi sağlar. Arka plan rengini kaldırmak için içerik menüsünü kullanmak "
+"için sağ tıklayın."
+
+#. Tag: title
+#: viewer-editor.docbook:1658
+#, no-c-format
+msgid "Highlighting Text Styles"
+msgstr "Metin Biçemleri Vurgusu"
+
+#. Tag: para
+#: viewer-editor.docbook:1659
+#, no-c-format
+msgid ""
+"Here you can edit the text styles used by a specific highlight definition. "
+"The editor preselects the highlight used by your current document. To work "
+"on a different highlight, select one in the <guilabel>Highlight</guilabel> "
+"combobox above the style list."
+msgstr ""
+"Buradan metin türlerini belirli bir vurgulama tanımlaması kullanarak "
+"düzenleyebilirsiniz. Düzenleyici mevcut belgeniz tarafından kullanılan "
+"vurguyu önceden seçer. Başka bir vurguda çalışmak için biçem listesi "
+"içindeki <guilabel>Vurgu</guilabel> çoklu seçim kutusu içerisinden birini "
+"seçin."
+
+#. Tag: para
+#: viewer-editor.docbook:1667
+#, no-c-format
+msgid ""
+"Each style lets you select common attributes as well as foreground and "
+"background colors. To unset a background color, rightclick to use the "
+"context menu. In addition you can see if a style is equal to the default "
+"style used for the item, and set it to that if not."
+msgstr ""
+"Her bir biçem önplan ve arkaplan renklerinin yanında genel öznitelikleri de "
+"seçmenize izin verir. Arkaplan rengini kaldırmak için bağlam menüsü "
+"kullanmak için sağ tıklayın. Ek olarak, biçemin öge için kullanılan "
+"varsayılan biçeme denk olup olmadığını görebilir, eğer değilse de "
+"ayarlayabilirsiniz."
+
+#. Tag: para
+#: viewer-editor.docbook:1671
+#, no-c-format
+msgid ""
+"You will notice that many highlights contain other highlights represented by "
+"groups in the style list. For example most highlights import the Alert "
+"highlight, and many source code formats imports the Doxygen highlight. "
+"Editing colors in those groups only affects the styles when used in the "
+"edited highlight format."
+msgstr ""
+"Biçem listesinde başka vurgular içeren pek çok vurgunun gruplar içerisinde "
+"temsil edildiğini fark edeceksiniz. Örneğin çoğu vurgu Uyarı vurgusunu içeri "
+"aktarır, ve pek çok kaynak kodu biçimi Doxygen vurgusunu içe aktarır. Bu "
+"gruplardaki renkleri düzenlemek biçemleri sadece düzenlenen vurgu biçimi "
+"içerisinde kullanıldıkları zaman etkiler."
+
+#. Tag: title
+#: viewer-editor.docbook:1682
+#, no-c-format
+msgid "Editing"
+msgstr "Düzenleme"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1689
+#, no-c-format
+msgid "Static Word Wrap"
+msgstr "Durağan Sözcük Kaydırma"
+
+#. Tag: para
+#: viewer-editor.docbook:1690
+#, no-c-format
+msgid ""
+"Word wrap is a feature that causes the editor to automatically start a new "
+"line of text and move (wrap) the cursor to the beginning of that new line. "
+"&kappname; will automatically start a new line of text when the current line "
+"reaches the length specified by the <link linkend=\"katepart-pref-wrap-words-"
+"at\">Wrap Words At:</link> option."
+msgstr ""
+"Kelime kaydırma özelliği, düzenleyicinin metinde otomatik olarak yeni satır "
+"başlatmasına ve imleci bu yeni satır başına hareket ettirmesine "
+"(aydırmasına) sebep olur. &kappname; mevcut satır <link linkend=\"katepart-"
+"pref-wrap-words-at\">Kelimeleri Şurada Kaydır:</link> seçeneği içerisinde "
+"belirtilen aralığına ulaştığı zaman otomatik olarak yeni bir satır başlatır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1698
+#, no-c-format
+msgid "Enable static word wrap"
+msgstr "Durağan sözcük kaydırmayı etkinleştir"
+
+#. Tag: para
+#: viewer-editor.docbook:1700
+#, no-c-format
+msgid "Turns static word wrap on or off."
+msgstr "Durağan sözcük kaydırmayı açar veya kapatır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1704
+#, no-c-format
+msgid "Show static word wrap markers (if applicable)"
+msgstr "Durağan sözcük kaydırma işaretlerini göster (kullanılabilir ise)"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1715
+#, no-c-format
+msgid "Wrap words at:"
+msgstr "Sözcükleri şurada kaydır:"
+
+#. Tag: para
+#: viewer-editor.docbook:1717
+#, no-c-format
+msgid ""
+"If the <link linkend=\"katepart-pref-word-wrap\">Enable static word wrap</"
+"link> option is selected this entry determines the length (in characters) at "
+"which the editor will automatically start a new line."
+msgstr ""
+"Eğer <link linkend=\"katepart-pref-word-wrap\">Durağan kelime kaydırmasını "
+"etkinleştir</link> seçeneği seçili ise bu girdi hangi uzunluğun (karakter "
+"olarak) hangi düzenleyicide otomatik olarak yeni bir satır başlatacağına "
+"karar verir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1727
+#, no-c-format
+msgid "Misc"
+msgstr "Çeşitli"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1731
+#, no-c-format
+msgid "Remove trailing spaces while editing"
+msgstr "Düzenleme esnasında sondaki boşlukları kaldır"
+
+#. Tag: para
+#: viewer-editor.docbook:1732
+#, no-c-format
+msgid ""
+"&kappname; will automatically eliminate extra spaces at the ends of lines of "
+"text."
+msgstr ""
+"&kappname; metnin satırlarının sonundaki ek boşlukları otomatik olarak "
+"eleyecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1736
+#, no-c-format
+msgid "Auto brackets"
+msgstr "Otomatik parantezler"
+
+#. Tag: para
+#: viewer-editor.docbook:1736
+#, no-c-format
+msgid ""
+"When the user types a left bracket ([, (, or {) &kappname; automatically "
+"enters the right bracket (}, ), or ]) to the right of the cursor."
+msgstr ""
+"Kullanıcı bir sol parantez yazdığı zaman ([, (, veya {) &kappname; sağ "
+"parantezi (}, ), veya ]) otomatik olarak imlecin sağına ekler."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1742
+#, no-c-format
+msgid "Copy/Cut the current line if no selection"
+msgstr "Eğer seçim yoksa mevcut satırı Kopyala/Kes"
+
+#. Tag: para
+#: viewer-editor.docbook:1743
+#, no-c-format
+msgid ""
+"If this option is enabled and the text selection is empty, copy and cut "
+"action are performed for the line of text at the actual cursor position."
+msgstr ""
+"Bu seçenek etkinleştirilirse ve metin seçimi boşsa, imlecin gerçek konumunda "
+"metin satırı için kopyalama ve kesme eylemi gerçekleştirilir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1748
+#, no-c-format
+msgid "Allow scrolling past the end of the document"
+msgstr "Belgenin sonunu geçtikten sonra kaydırmaya izin ver"
+
+#. Tag: para
+#: viewer-editor.docbook:1749
+#, no-c-format
+msgid ""
+"This option lets you scroll past the end of the document. This can be used "
+"to vertically centre the bottom of the document, or put it on top of the "
+"current view."
+msgstr ""
+"Bu seçenek belgenin sonun kaydırmanızı sağlar. Bu, belgenin sonunu dikey "
+"olarak ortalamak veya geçerli görünümün en üstüne koymak için kullanılabilir."
+
+#. Tag: title
+#: viewer-editor.docbook:1760
+#, no-c-format
+msgid "Cursor &amp; Selection"
+msgstr "İmleç &amp; Seçimi"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1765
+#, no-c-format
+msgid "Text Cursor Movement"
+msgstr "Metin İmleci Hareketi"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1769
+#, no-c-format
+msgid "Smart home and smart end"
+msgstr "Akıllı başlangıç ve akıllı son"
+
+#. Tag: para
+#: viewer-editor.docbook:1771
+#, no-c-format
+msgid ""
+"When selected, pressing the home key will cause the cursor to skip white "
+"space and go to the start of a line's text."
+msgstr ""
+"Seçili olduğu zaman, home tuşuna basılması imlecin beyaz boşlukları "
+"atlamasına ve satırın başındaki metne gitmesine sebep olur."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1776
+#, no-c-format
+msgid "Wrap cursor"
+msgstr "İmleci kaydır"
+
+#. Tag: para
+#: viewer-editor.docbook:1778
+#, fuzzy, no-c-format
+#| msgid ""
+#| "When on, moving the insertion cursor using the <emphasis role=\"bold"
+#| "\">Left</emphasis> and <emphasis role=\"bold\">Right</emphasis> keys will "
+#| "go on to previous/next line at beginning/end of the line, similar to most "
+#| "editors."
+msgid ""
+"When on, moving the insertion cursor using the &Left; and &Right; keys will "
+"go on to previous/next line at beginning/end of the line, similar to most "
+"editors."
+msgstr ""
+"Açık ise, ekleme imlecini <emphasis role=\"bold\">Sol</emphasis> ve "
+"<emphasis role=\"bold\">Sağ</emphasis> tuşlarını kullanarak hareket "
+"ettirmek, pek çok düzenleyicideki gibi satırın başındaki/sonundaki önceki/"
+"sonraki satıra gidecektir."
+
+#. Tag: para
+#: viewer-editor.docbook:1780
+#, no-c-format
+msgid ""
+"When off, the insertion cursor cannot be moved left of the line start, but "
+"it can be moved off the line end, which can be very handy for programmers. "
+"When this option is chosen, moving the cursor with the arrow keys off the "
+"end of a line (to the right) causes it to jump down to the beginning of the "
+"next line. Likewise when the cursor is moved past the beginning of a line "
+"(to the left) it jumps up to the end of the preceding line. When this option "
+"is not selected, moving the cursor right past the end of a line merely "
+"causes it to continue horizontally in the same line and trying to move it "
+"left past the beginning does nothing."
+msgstr ""
+"Kapalıyken, ekleme imleci satır başlangıcından sola hareket ettirilemez, "
+"ancak programcılar için çok kullanışlı olabilen satır sonundan "
+"çıkarılabilir. Bu seçenek seçildiğinde, imleci bir satırın sonundaki ok "
+"tuşlarıyla (sağda) hareket ettirmek, bir sonraki satırın başına atlamasına "
+"neden olur. Benzer şekilde, imleç bir çizginin başlangıcından (sola) "
+"geçtiğinde, önceki satırın sonuna kadar atlar. Bu seçenek seçilmediğinde, "
+"imlecin bir çizginin sonundan hemen sonra hareket ettirilmesi, sadece aynı "
+"çizgide yatay olarak devam etmesine ve başlangıcını geride bırakmaya "
+"çalışmasına neden olur."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1792
+#, no-c-format
+msgid "PageUp/PageDown moves cursor"
+msgstr "PageUp/PageDown imleci hareket ettirir"
+
+#. Tag: para
+#: viewer-editor.docbook:1794
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This option changes the behavior of the cursor when the user presses the "
+#| "<keycap>Page Up</keycap> or <keycap>Page Down</keycap> key. If unselected "
+#| "the text cursor will maintain its relative position within the visible "
+#| "text in &kappname; as new text becomes visible as a result of the "
+#| "operation. So if the cursor is in the middle of the visible text when the "
+#| "operation occurs it will remain there (except when one reaches the "
+#| "beginning or end.) With this option selected, the first key press will "
+#| "cause the cursor to move to either the top or bottom of the visible text "
+#| "as a new page of text is displayed."
+msgid ""
+"This option changes the behavior of the cursor when the user presses the "
+"&PgUp; or &PgDn; key. If unselected the text cursor will maintain its "
+"relative position within the visible text in &kappname; as new text becomes "
+"visible as a result of the operation. So if the cursor is in the middle of "
+"the visible text when the operation occurs it will remain there (except when "
+"one reaches the beginning or end.) With this option selected, the first key "
+"press will cause the cursor to move to either the top or bottom of the "
+"visible text as a new page of text is displayed."
+msgstr ""
+"Bu seçenek, kullanıcı <keycap>Page Up</keycap> ya da <keycap>Page Down</"
+"keycap> tuşlarına bastığındaki imleç davranışını değiştirir. Eğer "
+"seçilmemişse, metin imleci &kappname; içindeki görünür metne göre göreceli "
+"konumunu, işlemin sonucuna göre yeni metin görünür oldukça korur. Yani, eğer "
+"imleç işlem başlayınca görünür metnin ortasında ise orada kalır (bir tanesi "
+"başına ya da sonuna gelmediği sürece). Bu seçenek seçilirse, ilk tuş basışı "
+"imleci görünür metnin üstüne ya da altına taşır böylece metnin yeni sayfası "
+"gösterilir. "
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1805
+#, no-c-format
+msgid "Autocenter cursor (lines):"
+msgstr "İmleci otomatik ortala (satırlar):"
+
+#. Tag: para
+#: viewer-editor.docbook:1807
+#, no-c-format
+msgid ""
+"Sets the number of lines to maintain visible above and below the cursor when "
+"possible."
+msgstr ""
+"Mümkün olduğu zaman imlecin üzerinde ve altında görünecek satır sayısını "
+"ayarlar."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1816
+#, no-c-format
+msgid "Text Selection Mode"
+msgstr "Metin Seçim Kipi"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1820
+#, no-c-format
+msgid "Normal"
+msgstr "Normal"
+
+#. Tag: para
+#: viewer-editor.docbook:1822
+#, no-c-format
+msgid ""
+"Selections will be overwritten by typed text and will be lost on cursor "
+"movement."
+msgstr ""
+"Seçimler yazılı metin tarafından üzerine yazıma uğrayacaktır ve imleç "
+"hareketi ile kaybolacaktır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1827
+#, no-c-format
+msgid "Persistent"
+msgstr "Kalıcı"
+
+#. Tag: para
+#: viewer-editor.docbook:1829
+#, no-c-format
+msgid "Selections will stay even after cursor movement and typing."
+msgstr "Seçimler imleç hareketi ve yazmadan sonra bile kalacaktır."
+
+#. Tag: title
+#: viewer-editor.docbook:1840
+#, no-c-format
+msgid "Indentation"
+msgstr "Girintileme"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1845
+#, no-c-format
+msgid "Default Indentation mode:"
+msgstr "Varsayılan girintileme kipi:"
+
+#. Tag: para
+#: viewer-editor.docbook:1847
+#, no-c-format
+msgid ""
+"Select the automatic indentation mode you want to use as default. It is "
+"strongly recommended to use <userinput>None</userinput> or "
+"<userinput>Normal</userinput> here, and use filetype configurations to set "
+"other indentation modes for text formats like C/C++ code or &XML;."
+msgstr ""
+"Varsayılan olarak kullanmak istediğiniz girintileme kipini seçin. Burada "
+"<userinput>Hiçbiri</userinput> veya <userinput>Normal</userinput> "
+"kullanmanız özellikle tavsiye edilir, C/C++ kodları veya &XML; gibi diğer "
+"metin biçimleri için diğer girintileme kiplerini ayarlamak için dosya tipi "
+"yapılandırmalarını kullanın."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1855
+#, no-c-format
+msgid "Indent using"
+msgstr "Kullanılan girintileme"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1859
+#, no-c-format
+msgid "Tabulators"
+msgstr "Tablolayıcılar"
+
+#. Tag: para
+#: viewer-editor.docbook:1861
+#, no-c-format
+msgid ""
+"When this is enabled the editor will insert tabulator characters when you "
+"press the &Tab; key or use <ulink url=\"help:/katepart/kate-part-autoindent."
+"html\">automatic indentation</ulink>."
+msgstr ""
+"Bu etkinleştirildiğinde, &Tab; tuşuna bastığınızda ya da <ulink url=\"help:/"
+"katepart/kate-part-autoindent.html\">otomatik girintileme</ulink> "
+"kullandığınızda düzenleyici sekme karakterleri ekleyecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1867
+#, no-c-format
+msgid "Spaces"
+msgstr "Boşluklar"
+
+#. Tag: para
+#: viewer-editor.docbook:1869
+#, no-c-format
+msgid ""
+"When this is enabled the editor will insert a calculated number of spaces "
+"according to the position in the text and the <option>tab-width</option> "
+"setting when you press the &Tab; key or use <ulink url=\"help:/katepart/kate-"
+"part-autoindent.html\">automatic indentation</ulink>."
+msgstr ""
+"Bu etkileştirildiği zaman, düzenleyici metnin içindeki konuma göre ve &Tab; "
+"tuşuna bastığınız zaman <option>sekme-genişliği</option> ayarına göre veya "
+"<ulink url=\"help:/katepart/kate-part-autoindent.html\">otomatik "
+"girintileme</ulink> kullandığınız zaman hesaplanan sayıda boşluk "
+"ekleyecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1876
+#, no-c-format
+msgid "Tabulators and Spaces"
+msgstr "Tablolayıcılar ve Boşluklar"
+
+#. Tag: para
+#: viewer-editor.docbook:1878
+#, no-c-format
+msgid ""
+"When this is enabled, the editor will insert spaces as describe above when "
+"indenting or pressing &Tab; at the beginning of a line, but insert "
+"tabulators when the &Tab; key is pressed in the middle or end of a line."
+msgstr ""
+"Bu etkinleştirildiğinde, yukarıda anlatıldığı gibi girintileme yapıldığında "
+"ya da satır başında &Tab; tuşuna basıldığında düzenleyici boşluk "
+"ekleyecektir fakat satırın ortasında ya da sonunda iken &Tab; tuşu sekme "
+"ekleyecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1884
+#, no-c-format
+msgid "Tab width:"
+msgstr "Sekme genişliği:"
+
+#. Tag: para
+#: viewer-editor.docbook:1886
+#, no-c-format
+msgid ""
+"This configures the number of spaces that are displayed in place of a "
+"tabulator character."
+msgstr ""
+"Bu, bir tablolayıcı karakterinin yerine görüntülenen boşluk sayısını "
+"yapılandırır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1891
+#, no-c-format
+msgid "Indentation width:"
+msgstr "Girintileme genişliği:"
+
+#. Tag: para
+#: viewer-editor.docbook:1893
+#, no-c-format
+msgid ""
+"The indentation width is the number of spaces which is used to indent a "
+"line. If configured to indent using tabulators, a tabulator character is "
+"inserted if the indentation is divisible by the tab width."
+msgstr ""
+"Girinti genişliği, bir çizgiyi girintilemek için kullanılan boşluk "
+"sayısıdır. Tablolayıcılar kullanılarak girintilemek üzere yapılandırılmışsa, "
+"girinti sekme genişliğine göre bölünebilirse bir tablolayıcı karakteri "
+"eklenir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1903
+#, no-c-format
+msgid "Indentation Properties"
+msgstr "Girintileme Özellikleri"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1907
+#, no-c-format
+msgid "Keep Extra Spaces"
+msgstr "Ek Boşlukları Koru"
+
+#. Tag: para
+#: viewer-editor.docbook:1908
+#, no-c-format
+msgid ""
+"If this option is disabled, changing the indentation level aligns a line to "
+"a multiple of the width specified in <guilabel>Indentation width</guilabel>."
+msgstr ""
+"Bu seçenek kapatılmış ise, girintileme seviyesini değiştirmek, satırı "
+"<guilabel>Girintileme genişliği</guilabel> içerisinde belirtilen genişliğin "
+"bir katına hizalar."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1913
+#, no-c-format
+msgid "Adjust indentation of code pasted from the clipboard"
+msgstr "Panodan yapıştırılan kodun girintilemesini ayarla"
+
+#. Tag: para
+#: viewer-editor.docbook:1915
+#, no-c-format
+msgid ""
+"If this option is selected, pasted code from the clipboard is indented. "
+"Triggering the <guimenuitem>Undo</guimenuitem> action removes the "
+"indentation."
+msgstr ""
+"Eğer bu seçenek seçilmiş ise, panodan yapıştırılan kod girintilenir. "
+"<guimenuitem>Geri Al</guimenuitem> eyleminin tetiklenmesi girintilemeyi "
+"kaldırır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1924
+#, no-c-format
+msgid "Indentation Actions"
+msgstr "Girintileme Eylemleri"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1928
+#, no-c-format
+msgid "Backspace key in leading blank space unindents"
+msgstr "Baştaki boşlukta Backspace tuşu girintiyi azaltır"
+
+#. Tag: para
+#: viewer-editor.docbook:1930
+#, no-c-format
+msgid ""
+"If this option is selected, the &Backspace; key decreases the indentation "
+"level if the cursor is located in the leading blank space of a line."
+msgstr ""
+"Bu seçenek seçili ise, imleç satır başındaki önde gelen boş alanda "
+"konumlanmış ise &Backspace; tuşu girinti seviyesini azaldır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1935
+#, no-c-format
+msgid "Tab key action (if no selection exists)"
+msgstr "Tab tuşu eylemi (eğer seçim yok ise)"
+
+#. Tag: para
+#: viewer-editor.docbook:1937
+#, no-c-format
+msgid ""
+"If you want &Tab; to align the current line in the current code block like "
+"in emacs, make &Tab; a shortcut to the action <guimenuitem>Align</"
+"guimenuitem>."
+msgstr ""
+"Eğer emacs’teki gibi mevcut kod bloğunda mevcut satırı hizalamak için &Tab; "
+"kullanmak istiyorsanız, &Tab; tuşunu <guimenuitem>Hizala</guimenuitem> "
+"eylemi için bir kısayol olarak ayarlayın."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1943
+#, no-c-format
+msgid "Always advance to the next tab position"
+msgstr "Her zaman sonraki sekme konumuna ilerle"
+
+#. Tag: para
+#: viewer-editor.docbook:1945
+#, no-c-format
+msgid ""
+"If this option is selected, the &Tab; key always inserts white space so that "
+"the next tab position is reached. If the option <guilabel>Insert spaces "
+"instead of tabulators</guilabel> on the <guilabel>General</guilabel> tab in "
+"the <guilabel>Editing</guilabel> page is enabled, spaces are inserted; "
+"otherwise, a single tabulator is inserted."
+msgstr ""
+"Eğer bu seçenek seçili ise, &Tab; tuşu daima beyaz alan ekler böylece bir "
+"sonraki tab konumuna ulaşılmış olur. Eğer <guilabel>Tablolar yerine "
+"boşlukları ekle</guilabel> seçeneği seçili ise <guilabel>Düzenleme</"
+"guilabel> içerisindeki <guilabel>Genel</guilabel> sekmesi üzerindeki sayfa "
+"etkinleştirilmiş ise, boşluklar eklenir; aksi halde tekil bir tablo eklenir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1952
+#, no-c-format
+msgid "Always increase indentation level"
+msgstr "Girinti seviyesini her zaman yükselt"
+
+#. Tag: para
+#: viewer-editor.docbook:1954
+#, no-c-format
+msgid ""
+"If this option is selected, the &Tab; key always indents the current line by "
+"the number of character positions specified in <guilabel>Indentation width</"
+"guilabel>."
+msgstr ""
+"Bu seçenek seçili ise, &Tab; tuşu mevcut satırı <guilabel>Girinti genişliği</"
+"guilabel> içerisinde belirtilmiş olan karakter konumları ile daima "
+"girintiler."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1960
+#, no-c-format
+msgid "Increase indentation level if in leading blank space"
+msgstr "Önde gelen boşluktaysa girinti seviyesini artırın"
+
+#. Tag: para
+#: viewer-editor.docbook:1962
+#, no-c-format
+msgid ""
+"If this option is selected, the &Tab; key either indents the current line or "
+"advances to the next tab position. If the insertion point is at or before "
+"the first non-space character in the line, or if there is a selection, the "
+"current line is indented by the number of character positions specified in "
+"<guilabel>Indentation width</guilabel>. If the insertion point is located "
+"after the first non-space character in the line and there is no selection, "
+"white space is inserted so that the next tab position is reached: if the "
+"option <guilabel>Insert spaces instead of tabulators</guilabel> on the "
+"<guilabel>General</guilabel> tab in the <guilabel>Editing</guilabel> page is "
+"enabled, spaces are inserted; otherwise, a single tabulator is inserted."
+msgstr ""
+"Eğer bu seçenek seçiliyse, &Tab; tuşu ya mevcut satırı girintiler ya da "
+"sonraki seçme konumuna ilerler. Eğer ekleme noktası satırda boşluk olmayan "
+"ilk karakterde ya da önce ise, ya da bir seçim yoksa, mevcut satır "
+"<guilabel>Girintileme genişliği</guilabel> bölümünde belirtilen karaktar "
+"sayısı kadar girintilenir. Eğer ekleme noktası satırdaki ilk boşluk olmayan "
+"karakterden sonra ise ya da bir seçim yoksa, beyaz boşluk eklenir böylece "
+"sonraki sekme konumuna ulaşılır: eğer <guilabel>Düzenleme</guilabel> "
+"sayfasındaki <guilabel>Genel</guilabel> sekmesinde yer alan <guilabel>Sekme "
+"yerine boşluk ekle</guilabel> seçiliyse, boşluklar eklenir, değilse, tek "
+"sekme eklenir."
+
+#. Tag: title
+#: viewer-editor.docbook:1986
+#, no-c-format
+msgid "Auto Completion"
+msgstr "Otomatik Tamamlama"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1989 viewer-editor.docbook:2020
+#, no-c-format
+msgid "<guilabel>General</guilabel>"
+msgstr "<guilabel>Genel</guilabel>"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:1993
+#, no-c-format
+msgid "Enable auto completion"
+msgstr "Otomatik tamamlamayı etkinleştir"
+
+#. Tag: para
+#: viewer-editor.docbook:1995
+#, no-c-format
+msgid ""
+"If enabled, a word completion box automatically pops up during typing "
+"showing a list of text entries to complete the current text under the cursor."
+msgstr ""
+"Eğer seçili ise, yazım sırasında imleç altındaki mevcut metni tamamlamak "
+"için metin listesi göstererek, kelime tamamlama kutusu otomatik olarak "
+"açılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2005
+#, no-c-format
+msgid "Minimal word length to complete"
+msgstr "Tamamlanacak olan kelimenin asgari uzunluğu"
+
+#. Tag: para
+#: viewer-editor.docbook:2006
+#, no-c-format
+msgid ""
+"While typing text, the word completion searches for words in the document "
+"starting with the already typed text. This option configures the minimal "
+"amount of characters that are needed to make the word completion active and "
+"pop up a completion box."
+msgstr ""
+"Metin yazarken, kelime tamamlama hali hazırda yazılmış metinle başlayan "
+"belgede kelimeler arar. Bu seçenek, sözcük tamamlamayı etkin hale getirmek "
+"ve bir tamamlama kutusu açmak için gereken minimum karakter miktarını "
+"yapılandırır."
+
+#. Tag: title
+#: viewer-editor.docbook:2017
+#, no-c-format
+msgid "Vi Input Mode"
+msgstr "Vi Girdi Kipi"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2024
+#, no-c-format
+msgid "Use VI input mode"
+msgstr "VI girdi kipini kullan"
+
+#. Tag: para
+#: viewer-editor.docbook:2026
+#, no-c-format
+msgid ""
+"When selected, the vi input mode will be enabled when opening a new view. "
+"You can still toggle the vi input mode on/off for a particular view in the "
+"<guimenu>Edit</guimenu> menu."
+msgstr ""
+"Seçili olduğu zaman, yeni görünüm açılırken vi girdi kipi etkinleştirilir. "
+"Vi girdi kipini <guimenu>Düzenle</guimenu> menüsü içerisinden belirli bir "
+"görünüm için hala açık/kapalı olarak değiştirebilirsiniz."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2032
+#, no-c-format
+msgid "Let Vi commands override Kate shortcuts"
+msgstr "Vi komutlarının Kate kısayollarının üzerie yazmasına izin ver"
+
+#. Tag: para
+#: viewer-editor.docbook:2034
+#, no-c-format
+msgid ""
+"When selected, Vi commands will override &kappname;'s built-in commands. For "
+"example: <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> will "
+"redo, and override the standard action (showing the search and replace "
+"dialog)."
+msgstr ""
+"Seçili olduğu zaman, Vi komutları &kappname;'in yerleşik komutlarının "
+"üzerine yazacaktır. Örneğin: <keycombo action=\"simul\">&Ctrl;<keycap>R</"
+"keycap></keycombo> geri alacak, ve standart eylemin üzerine yazacaktır (ara "
+"ve değiştir iletişim kutusunu göstererek)."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2040
+#, no-c-format
+msgid "Hide the Vi mode status bar"
+msgstr "Vi kipi durum çubuğunu gizle"
+
+#. Tag: para
+#: viewer-editor.docbook:2042
+#, no-c-format
+msgid ""
+"By default, an extra status bar will be used when the Vi input mode is "
+"enabled. This status bar shows commands while they are being typed and "
+"messages/errors produced by Vi commands."
+msgstr ""
+"Varsayılan olarak, Vi girdi kipi etkinleştirildiğinde ekstra bir durum "
+"çubuğu kullanılır. Bu durum çubuğu, yazımları esnasında komutları ve Vi "
+"komutları tarafından üretilen mesajları/hataları gösterir."
+
+#. Tag: para
+#: viewer-editor.docbook:2045
+#, no-c-format
+msgid "Checking this option will hide this extra status line."
+msgstr "Bu seçeneği işaretlemek ek durum satırını gizleyecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2052
+#, no-c-format
+msgid "Key Mapping"
+msgstr "Tuş Haritalaması"
+
+#. Tag: para
+#: viewer-editor.docbook:2053
+#, no-c-format
+msgid ""
+"Key mapping is used to change the meaning of typed keys. This allows you to "
+"move commands to other keys or make special keypresses for doing a series of "
+"commands."
+msgstr ""
+"Anahtar eşleme, yazılan tuşların anlamını değiştirmek için kullanılır. Bu, "
+"komutları diğer tuşlara taşımanıza veya bir dizi komut yapmak için özel tuş "
+"basımlarına olanak tanır."
+
+#. Tag: para
+#: viewer-editor.docbook:2057
+#, no-c-format
+msgid "Example:"
+msgstr "Örnek:"
+
+#. Tag: para
+#: viewer-editor.docbook:2058
+#, no-c-format
+msgid "<keycap>F2</keycap> -> <keycap>I--</keycap> &Esc;"
+msgstr "<keycap>F2</keycap> -> <keycap>I--</keycap> &Esc;"
+
+#. Tag: para
+#: viewer-editor.docbook:2059
+#, no-c-format
+msgid ""
+"This will prepend <keycap>I--</keycap> to a line when pressing <keycap>F2</"
+"keycap>."
+msgstr ""
+"Bu <keycap>F2</keycap> basılıyken <keycap>I--</keycap> satır başına "
+"getirecektir."
+
+#. Tag: title
+#: viewer-editor.docbook:2068
+#, no-c-format
+msgid "Spellcheck"
+msgstr "Yazım Denetimi"
+
+#. Tag: para
+#: viewer-editor.docbook:2069
+#, no-c-format
+msgid ""
+"These configuration options are described in the documentation for the "
+"&systemsettings; module <ulink url=\"help:/kcontrol/spellchecking\">Spell "
+"Checker</ulink>."
+msgstr ""
+"Bu yapılandırma seçenekleri &systemsettings; <ulink url=\"help:/kcontrol/"
+"spellchecking\">Yazım Denetçisi</ulink> modülü için olan belgelendirme "
+"içerisinde açıklanmıştır."
+
+#. Tag: title
+#: viewer-editor.docbook:2076
+#, no-c-format
+msgid "Open/Save"
+msgstr "Aç/Kaydet"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2084
+#, no-c-format
+msgid "File Format"
+msgstr "Dosya Biçimi"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2089
+#, no-c-format
+msgid "Encoding:"
+msgstr "Kodlama:"
+
+#. Tag: para
+#: viewer-editor.docbook:2091
+#, no-c-format
+msgid ""
+"This defines the standard encoding to use to open/save files, if not changed "
+"in the open/save dialog or by using a command line option."
+msgstr ""
+"Bu, eğer değiştirilmemiş ise açma/kaydetme iletişim kutusu veya komut satırı "
+"seçeneğini kullanarak, dosyaları açmak/kaydetmek için gereken standart "
+"kodlamayı tanımlar."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2097
+#, no-c-format
+msgid "Encoding Detection"
+msgstr "Kodlama Algılaması"
+
+#. Tag: para
+#: viewer-editor.docbook:2099
+#, no-c-format
+msgid ""
+"Select an item from the drop down box, either to disable autodetection or "
+"use <guilabel>Universal</guilabel> to enable autodetection for all "
+"encodings. But as this may probably only detect utf-8/utf-16, selecting a "
+"region will use custom heuristics for better results. If neither the "
+"encoding chosen as standard above, nor the encoding specified in the open/"
+"save dialog, nor the encoding specified on command line match the content of "
+"the file, this detection will be run."
+msgstr ""
+"Tüm kodlamalar için otomatik algılamayı devre dışı bırakmak için aşağı "
+"açılır kutudan bir öge seçin, ya da etkinleştirmek için <guilabel>Evrensel</"
+"guilabel> kullanın. Fakat bu muhtemelen sadece utf-8/utf-16 algılayacaktır, "
+"bölge seçmek daha iyi sonuçlar için özel buluşları kullanacaktır. Eğer ki "
+"kodlama yukarıdaki standarttaki gibi seçilmemiş ise, dosyanın içeriği ile ne "
+"aç/kaydet iletişim penceresinde belirtilmiş olan kodlama ne de komut "
+"satırında belirtilmiş olan kodlama uyuşmaktadır, bu algılama yürütülecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2110
+#, no-c-format
+msgid "Fallback Encoding"
+msgstr "Yedek Kodlama"
+
+#. Tag: para
+#: viewer-editor.docbook:2112
+#, no-c-format
+msgid ""
+"This defines the fallback encoding to try for opening files if neither the "
+"encoding chosen as standard above, nor the encoding specified in the open/ "
+"save dialog, nor the encoding specified on command line match the content of "
+"the file. Before this is used, an attempt will be made to determine the "
+"encoding to use by looking for a byte order marker at start of file: if one "
+"is found, the right unicode encoding will be chosen; otherwise encoding "
+"detection will run, if both fail fallback encoding will be tried."
+msgstr ""
+"Bu, ne yukarıdaki standart olarak seçilen kodlamanın ne aç / kaydet iletişim "
+"kutusunda belirtilen kodlamanın ne de komut satırında belirtilen kodlamanın "
+"dosyanın içeriğiyle eşleşmediği durumlarda dosyaları açmayı denemek için "
+"geri dönüş kodlamasını tanımlar. Bu kullanılmadan önce, dosyanın "
+"başlangıcında bir bayt sırası işaretçisi arayarak kullanılacak kodlamayı "
+"belirlemek için bir girişimde bulunulur: bir tane bulunursa, doğru unicode "
+"kodlaması seçilecektir; Aksi takdirde kodlama tespiti, eğer her ikisi de "
+"başarısız olan geri dönüş kodlaması denenecekse çalışır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2123
+#, no-c-format
+msgid "End of line:"
+msgstr "Satır sonu:"
+
+#. Tag: para
+#: viewer-editor.docbook:2125
+#, no-c-format
+msgid ""
+"Choose your preferred end of line mode for your active document. You have "
+"the choice between &UNIX;, DOS/&Windows; or Macintosh."
+msgstr ""
+"Geçerli belgeniz için tercih ettiğiniz satır sonun kipini seçin. &UNIX;, DOS/"
+"&Windows; veya Macintosh arasında seçime sahipsiniz."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2130
+#, no-c-format
+msgid "Automatic end of line detection"
+msgstr "Otomatik satır sonu algılaması"
+
+#. Tag: para
+#: viewer-editor.docbook:2132
+#, no-c-format
+msgid ""
+"Check this if you want the editor to autodetect the end of line type. The "
+"first found end of line type will be used for the whole file."
+msgstr ""
+"Eğer düzenleyicinin satır sonu türünü otomatik olarak algılamasını "
+"istiyorsanız bunu işaretleyin. Bulunan ilk satır sonu türü tüm dosya için "
+"kullanılacakır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2138
+#, no-c-format
+msgid "Enable byte order marker"
+msgstr "Bayt sırası işaretleyiciyi etkinleştir"
+
+#. Tag: para
+#: viewer-editor.docbook:2140
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The byte order mark is a special sequence at the beginning of unicode "
+#| "encoded documents. It helps editors to open text documents with the "
+#| "correct unicode encoding. For more information see <ulink url=\"http://en."
+#| "wikipedia.org/wiki/Byte_Order_Mark\">Byte Order Mark</ulink>."
+msgid ""
+"The byte order mark is a special sequence at the beginning of unicode "
+"encoded documents. It helps editors to open text documents with the correct "
+"unicode encoding. For more information see <ulink url=\"https://en.wikipedia."
+"org/wiki/Byte_Order_Mark\">Byte Order Mark</ulink>."
+msgstr ""
+"Bayt sırası işareti, unicode kodlanmış belgelerin başında özel bir dizidir. "
+"Editörlerin metin belgelerini doğru unicode kodlamasıyla açmasına yardımcı "
+"olur. Daha fazla bilgi için bkz. <ulink url=\"http://en.wikipedia.org/wiki/"
+"Byte_Order_Mark\">Bayt Sırası İşareti</ulink>."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2154
+#, no-c-format
+msgid "Automatic Cleanups on Load/Save"
+msgstr "Yüklemede/Kaydetmede Otomatik Temizleme"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2158
+#, no-c-format
+msgid "Remove trailing spaces"
+msgstr "Sondaki boşlukları kaldır"
+
+#. Tag: para
+#: viewer-editor.docbook:2160
+#, no-c-format
+msgid ""
+"The editor will automatically eliminate extra spaces at the ends of lines of "
+"text while loading/saving the file."
+msgstr ""
+"Düzenleyici, dosyayı yüklerken/kaydederken metin satırlarının sonlarındaki "
+"fazla boşlukları otomatik olarak eleyecektir."
+
+#. Tag: title
+#: viewer-editor.docbook:2172
+#, no-c-format
+msgid "<title>Advanced</title>"
+msgstr "<title>Gelişmiş</title>"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2175
+#, no-c-format
+msgid "Folder Config File"
+msgstr "Dizin Yapılandırma Dosyası"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2179
+#, no-c-format
+msgid "Search depth for config file:"
+msgstr "Yapılandırma dosyası için derinlik ara:"
+
+#. Tag: para
+#: viewer-editor.docbook:2181
+#, no-c-format
+msgid ""
+"The editor will search the given number of folder levels upwards for "
+"&kappname; config file and load the settings line from it. Further "
+"information about these hidden folder config files you find in the <ulink "
+"url=\"help:/katepart/config-variables.html\">document variables section</"
+"ulink>."
+msgstr ""
+"Düzenleyici dizin seviyelerinin verilen sayılarını &kappname; yapılandırma "
+"dosyası için yukarıya doğru arayacak ve buradan ayarlar satırını "
+"yükleyecektir. Bu gizli dizin yapılandırma dosyaları hakkında daha fazla "
+"bilgiyi <ulink url=\"help:/katepart/config-variables.html\">belge "
+"değişkenleri bölümü</ulink> içerisinden bulabilirsiniz."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2193
+#, no-c-format
+msgid "Backup on Save"
+msgstr "Kaydederken yedekle"
+
+#. Tag: para
+#: viewer-editor.docbook:2194
+#, no-c-format
+msgid ""
+"Backing up on save will cause &kappname; to copy the disk file to &lt;"
+"prefix&gt;&lt;filename&gt;&lt;suffix&gt; before saving changes. The suffix "
+"defaults to <emphasis role=\"bold\">~</emphasis> and prefix is empty by "
+"default."
+msgstr ""
+"Kaydetme sırasında yedekleme &kappname;'in disk dosyasını değişiklikleri "
+"kaydetmeden önce &lt;prefix&gt;&lt;filename&gt;&lt;suffix&gt; içerisine "
+"kaydedecektir. Sonek varsayılan olarak <emphasis role=\"bold\">~</emphasis> "
+"ve önek ise varsayılan olarak boştur."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2200
+#, no-c-format
+msgid "Local files"
+msgstr "Yerel dosyalar"
+
+#. Tag: para
+#: viewer-editor.docbook:2202
+#, no-c-format
+msgid "Check this if you want backups of local files when saving."
+msgstr "Eğer yerel dosyaları kaydederken yedeklemek istiyorsanız bunu seçin."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2207
+#, no-c-format
+msgid "Remote files"
+msgstr "Uzak dosyalar"
+
+#. Tag: para
+#: viewer-editor.docbook:2209
+#, no-c-format
+msgid "Check this if you want backups of remote files when saving."
+msgstr "Eğer uzak dosyaları kaydederken yedeklemek istiyorsanız bunu seçin."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2213
+#, no-c-format
+msgid "Prefix"
+msgstr "Önek"
+
+#. Tag: para
+#: viewer-editor.docbook:2215
+#, no-c-format
+msgid "Enter the prefix to prepend to the backup file names."
+msgstr "Yedeklenen dosya isimlerinin başına getirmek üzere bir önek girin."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2219
+#, no-c-format
+msgid "Suffix"
+msgstr "Sonek"
+
+#. Tag: para
+#: viewer-editor.docbook:2221
+#, no-c-format
+msgid "Enter the suffix to add to the backup file names."
+msgstr "Yedekleme dosya isimlerine eklemek üzere sonek girin."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2225
+#, no-c-format
+msgid "Disable swap file syncing"
+msgstr "Takas dosyası senkronizasyonunu kapat"
+
+#. Tag: para
+#: viewer-editor.docbook:2227
+#, no-c-format
+msgid ""
+"&kappname; is able to recover (most of) what was written after last save in "
+"case of a crash or power failure. A swap file (.swp.&lt;filename&gt;) is "
+"created after the first editing action on a document. If the user doesn’t "
+"save the changes and &kappname; crashes, the swap file remains on the disk. "
+"When opening a file, &kappname; checks if there is a swap file for the "
+"document and if it is, it asks the user whether he wants to recover the lost "
+"data or not. The user has the possibility to view the differences between "
+"the original file and the recovered one, too. The swap file is deleted after "
+"every save and on normal exit."
+msgstr ""
+"&kappname;, bir çökme anında ya da güç sorununda kayıt sonrasında "
+"yazılanları (çoğunu) kurtarabilir. Bir belgedeki ilk düzenleme eyleminden "
+"sonra bir takas dosyası (.swp.&lt;dosyaadi&gt;) oluşturulur. Eğer kullanıcı "
+"değişiklikleri kaydetmezse ve &kappname; çökerse, takas dosyası diskte "
+"kalır. Bir dosya açılırken, &kappname; o belge için bir takas dosyası var mı "
+"diye kontrol eder ve eğer varsa, kullanıcıya kayıp veriyi kurtarmak isteyip "
+"istemediğini sorar. Kullanıcı, özgün dosya ile kurtarılan dosya arasındaki "
+"farkları da görüntüleyebilir. Takas dosya her kayıtta ya da normal kapatma "
+"sonrasında silinir."
+
+#. Tag: para
+#: viewer-editor.docbook:2235
+#, no-c-format
+msgid ""
+"&kappname; syncs the swap files on the disk every 15 seconds, but only if "
+"they have changed since the last sync. The user can disable the swap files "
+"syncing if he wants, by checking the <guilabel>Disable swap file syncing</"
+"guilabel> box, but this can lead to more data loss."
+msgstr ""
+"&kappname; takas dosyalarını, eğer son senkronizasyondan sonra değişiklik "
+"olmuşsa diske her 15 saniyede bir senkronize eder. Kullanıcı, takas "
+"dosyalarını senkronize etmeyi, <guilabel>Takas dosyası senkronizasyonunu "
+"kapat</guilabel> kutusunu işaretleyerek kapatabilir fakat bu daha fazla veri "
+"kaybına yol açabilir."
+
+#. Tag: title
+#: viewer-editor.docbook:2250
+#, no-c-format
+msgid "Modes &amp; Filetypes"
+msgstr "Kipler &amp; Dosya Tipleri"
+
+#. Tag: para
+#: viewer-editor.docbook:2251
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This page allows you to override the default configuration for documents "
+#| "of specified MIME types. When the editor loads a document, it will try if "
+#| "it matches the file masks or MIME types for one of the defined filetypes, "
+#| "and if so apply the variables defined. If more filetypes match, the one "
+#| "with the highest priority will be used."
+msgid ""
+"This page allows you to override the default configuration for documents of "
+"specified &MIME; types. When the editor loads a document, it will try if it "
+"matches the file masks or &MIME; types for one of the defined filetypes, and "
+"if so apply the variables defined. If more filetypes match, the one with the "
+"highest priority will be used."
+msgstr ""
+"Bu sayfa belirtilmiş MIME türleri için varsayılan belge yapılandırmasının "
+"üzerine yazmanıza olanak tanır. Düzenleyici belgeyi yüklediği zaman, "
+"belirtilen dosya türlerinden biri için dosya maskeleri veya MIME türleri ile "
+"eşleşip eşleşmediğini deneyecektir, eğer eşleşiyor ise belirtilen "
+"değişkenleri uygulayacaktır. Eğer daha fazla dosya türü eşleşir ise, yüksek "
+"öncelikli olan kullanılacaktır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2259
+#, no-c-format
+msgid "Filetype:"
+msgstr "Dosya tipi:"
+
+#. Tag: para
+#: viewer-editor.docbook:2260 viewer-editor.docbook:2280
+#, no-c-format
+msgid ""
+"The filetype with the highest priority is the one displayed in the first "
+"drop down box. If more filetypes were found, they are also listed."
+msgstr ""
+"En yüksek önceliğe sahip dosya tipi, aşağı açılır ilk kutuda "
+"görüntülenendir. Daha fazla dosya tipi bulunursa, bunlar da listelenir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2265
+#, no-c-format
+msgid "<guilabel>New</guilabel>"
+msgstr "<guilabel>Yeni</guilabel>"
+
+#. Tag: para
+#: viewer-editor.docbook:2266
+#, no-c-format
+msgid ""
+"This is used to create a new filetype. After you click on this button, the "
+"fields below get empty and you can fill the properties you want for the new "
+"filetype."
+msgstr ""
+"Bu yeni bir dosya tipi oluşturmak için kullanılır. BU tuşa bastıktan sonra, "
+"aşağıdaki alanlar boşalır ve yeni dosya tipi için istediğiniz özellikler ile "
+"doldurabilirsiiz."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2271
+#, no-c-format
+msgid "Delete"
+msgstr "Sil"
+
+#. Tag: para
+#: viewer-editor.docbook:2272
+#, no-c-format
+msgid ""
+"To remove an existing filetype, select it from the drop down box and press "
+"the Delete button."
+msgstr ""
+"Mevcut bir dosya türünü kaldırmak için açılır listeden seçin ve Sil "
+"düğmesine basın."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2279
+#, no-c-format
+msgid "Properties of <replaceable>current filetype</replaceable>"
+msgstr "<replaceable>mevcut dosya türü</replaceable> seçenekleri"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2285
+#, no-c-format
+msgid "Name:"
+msgstr "İsim:"
+
+#. Tag: para
+#: viewer-editor.docbook:2286
+#, no-c-format
+msgid ""
+"The name of the filetype will be the text of the corresponding menu item. "
+"This name is displayed in the <menuchoice><guimenu>Tools</"
+"guimenu><guimenuitem>Filetypes</guimenuitem> </menuchoice>"
+msgstr ""
+"Dosya tipinin ismi uyuşan menü ögesinin metni olacaktır. Bu isim "
+"<menuchoice><guimenu>Araçlar</guimenu><guimenuitem>Dosya Tipleri</"
+"guimenuitem> </menuchoice> içerisinde görüntülenebilir. "
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2292
+#, no-c-format
+msgid "Section:"
+msgstr "Bölüm:"
+
+#. Tag: para
+#: viewer-editor.docbook:2293
+#, no-c-format
+msgid ""
+"The section name is used to organize the file types in menus. This is also "
+"used in the <menuchoice><guimenu>Tools</guimenu><guimenuitem>Filetypes</"
+"guimenuitem> </menuchoice> menu."
+msgstr ""
+"Bölüm ismi menülerdeki dosya tiplerini düzenlemek için kullanılır. Bu ayrıca "
+"<menuchoice><guimenu>Araçlar</guimenu><guimenuitem>Dosya Tipleri</"
+"guimenuitem></menuchoice> menüsü içerisinde de kullanılır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2299
+#, no-c-format
+msgid "Variables:"
+msgstr "Değişkenler:"
+
+#. Tag: para
+#: viewer-editor.docbook:2300
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This string allows you to configure &kappname;'s settings for the files "
+#| "selected by this MIME type using &kappname; variables. You can set almost "
+#| "any configuration option, such as highlight, indent-mode, etc."
+msgid ""
+"This string allows you to configure &kappname;'s settings for the files "
+"selected by this &MIME; type using &kappname; variables. You can set almost "
+"any configuration option, such as highlight, indent-mode, &etc;"
+msgstr ""
+"Bu karakter dizisi &kappname;'in ayarlarını &kappname; değişkenlerini "
+"kullanan bu MIME türleri tarafından seçilmiş dosyalar için yapılandırmanıza "
+"olanak tanır. Vurgulama, girinti-kipi vb. seçenekler dahil pek çok "
+"yapılandırmayı ayarlayabilirsiniz."
+
+#. Tag: para
+#: viewer-editor.docbook:2304
+#, no-c-format
+msgid ""
+"Press <guibutton>Edit</guibutton> to see a list of all available variables "
+"and their descriptions. Select the checkbox on the left to enable a "
+"particular variable and then set the value of the variable on the right. "
+"Some variables provide a drop-down box to select possible values from while "
+"others require you to enter a valid value manually."
+msgstr ""
+"Tüm kullanılabilir değişkenlerin listesini ve onların açıklamasını görmek "
+"için <guibutton>Düzenle</guibutton> butonuna basın. Belirli bir değişkeni "
+"etkinleştirmek için solundaki kutucuğu işaetleyin ve sağındaki değişkenin "
+"değerini ayarlayın. Bazı değişkenler olası değerler arasından seçmenizi "
+"sağlayan açılır kutu açarken bazıları elle veri girmenizi gerektirebilir."
+
+#. Tag: para
+#: viewer-editor.docbook:2309
+#, no-c-format
+msgid ""
+"For complete information on these variables, see <ulink url=\"help:/katepart/"
+"config-variables.html\">Configuring with Document Variables</ulink>."
+msgstr ""
+"Bu değişkenlerdeki tam bir bilgi için bakınız <ulink url=\"help:/katepart/"
+"config-variables.html\">Belge Değişkenleri ile Yapılandırma</ulink>."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2315
+#, no-c-format
+msgid "Highlighting:"
+msgstr "Vurgulama:"
+
+#. Tag: para
+#: viewer-editor.docbook:2316
+#, no-c-format
+msgid ""
+"If you create a new file type, this drop down box allows you to select a "
+"filetype for highlighting."
+msgstr ""
+"Yeni bir dosya türü oluşturursanız, bu açılır kutu vurgulamak için bir dosya "
+"türü seçmenize izin verir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2321
+#, no-c-format
+msgid "Indentation Mode:"
+msgstr "Girintileme Kipi:"
+
+#. Tag: para
+#: viewer-editor.docbook:2322
+#, no-c-format
+msgid "The drop down box specifies the indentation mode for new documents."
+msgstr "Açılır kutu yeni belgeler için girintileme kipini belirler."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2327
+#, no-c-format
+msgid "File extensions:"
+msgstr "Dosya uzantıları:"
+
+#. Tag: para
+#: viewer-editor.docbook:2328
+#, no-c-format
+msgid ""
+"The wildcards mask allows you to select files by filename. A typical mask "
+"uses an asterisk and the file extension, for example <filename>*.txt; *."
+"text</filename>. The string is a semicolon-separated list of masks."
+msgstr ""
+"Joker karakter maskesi dosyaları isimlerine göre seçmenize olanak tanır. "
+"Tipik bir maske yıldızı ve dosya uzantısını kullanır, örneğin <filename>*."
+"txt; *.text</filename>. Karakter dizisi maskelerin yarı-sütunlar ise "
+"ayrılmış listesidir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2334
+#, fuzzy, no-c-format
+#| msgid "MIME types:"
+msgid "&MIME; types:"
+msgstr "MIME türleri:"
+
+#. Tag: para
+#: viewer-editor.docbook:2335
+#, fuzzy, no-c-format
+#| msgid "Displays a wizard that helps you easily select MIME types."
+msgid "Displays a wizard that helps you easily select &MIME; types."
+msgstr "Kolaylıkla MIME türü seçmenize yardımcı olan sihirbaz görüntüler."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2339
+#, no-c-format
+msgid "Priority:"
+msgstr "Öncelik:"
+
+#. Tag: para
+#: viewer-editor.docbook:2340
+#, no-c-format
+msgid ""
+"Sets a priority for this file type. If more than one file type selects the "
+"same file, the one with the highest priority will be used."
+msgstr ""
+"Bu dosya tipi için önceliği ayarlar. Eğer birden fazla dosya tipi aynı "
+"dosyayı seçerse, en yüksek öncelikli olan kullanılacaktır."
+
+#. Tag: guibutton
+#: viewer-editor.docbook:2347
+#, no-c-format
+msgid "Download Highlighting Files..."
+msgstr "Vurgulama Dosyalarını İndir..."
+
+#. Tag: para
+#: viewer-editor.docbook:2349
+#, no-c-format
+msgid ""
+"Click this button to download new or updated syntax highlight descriptions "
+"from the &kappname; website."
+msgstr ""
+"&kappname; web sitesinden yeni veya güncellenmiş söz dizimi vurgulaması "
+"açıklamaları için bu tuşa tıklayın."
+
+#. Tag: title
+#: viewer-editor.docbook:2362
+#, no-c-format
+msgid "Extensions"
+msgstr "Uzantılar"
+
+#. Tag: para
+#: viewer-editor.docbook:2363
+#, no-c-format
+msgid ""
+"The <guilabel>Plugins</guilabel> tab lists all available plugins and you can "
+"check those you want to use. Click on the <guibutton>Information</guibutton> "
+"button to open the <guilabel>About</guilabel> dialog of this plugin."
+msgstr ""
+"<guilabel>Eklentiler</guilabel> sekmesi tüm kullanılabilir eklentileri "
+"listeler ve kullanmak istediğinizi buradan işaretleyebilirsiniz. Eklentinin "
+"<guilabel>Hakkında</guilabel> penceresini açmak için <guibutton>Bilgi</"
+"guibutton> butonuna basın."
+
+#. Tag: para
+#: viewer-editor.docbook:2366
+#, no-c-format
+msgid ""
+"Once a configurable plugin is checked, the <guibutton>Configure</guibutton> "
+"button is enabled and you can click it in order to configure the highlighted "
+"plugin."
+msgstr ""
+"Yapılandırılabilir eklendi işaretlendi ise <guibutton>Yapılandır</guibutton> "
+"butonu etkin hale gelir ve işaretli eklentiyi yapılandırmak için buna "
+"basabilirsiniz."
+
+#. Tag: title
+#: viewer-editor.docbook:2370
+#, no-c-format
+msgid "Editor Component Plugins"
+msgstr "Düzenleyici Bileşeni Eklentileri"
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2379
+#, no-c-format
+msgid "AutoBrace"
+msgstr "AutoBrace"
+
+#. Tag: para
+#: viewer-editor.docbook:2380
+#, no-c-format
+msgid ""
+"The autobrace plugin supersedes the &kappname; internal <quote>Auto "
+"Brackets</quote> feature. It automatically inserts a closing brace <keycap>}"
+"</keycap> at the beginning of the next line after ending a line with an "
+"opening one <keycap>{</keycap> and pressing the &Enter; key."
+msgstr ""
+"Otomatik ayraç eklentisi &kappname; dahili <quote>Otomatik Ayraçlar</quote> "
+"özelliğinin üstüne yazar. Otomatik olarak, <keycap>{</keycap> ile açılarak "
+"biten bir satırdan sonraki satırın başına kapatma ayracı <keycap>}</keycap> "
+"ekler ve &Enter; tuşuna basar."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2392
+#, no-c-format
+msgid "Data Tools"
+msgstr "Veri Araçları"
+
+#. Tag: para
+#: viewer-editor.docbook:2393
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Enables data tools like thesaurus and spell check (if installed). Data "
+#| "tools are only available when text is selected, or when the right mouse "
+#| "button is clicked over a word. If no data tools are offered even when "
+#| "text is selected, you need to install them. If this plugin is enabled and "
+#| "data tools are installed, additional items appear at the end of the "
+#| "context menu."
+msgid ""
+"Enables data tools like thesaurus and spell check (if installed). Data tools "
+"are only available when text is selected, or when the &RMB; is clicked over "
+"a word. If no data tools are offered even when text is selected, you need to "
+"install them. If this plugin is enabled and data tools are installed, "
+"additional items appear at the end of the context menu."
+msgstr ""
+"Thesaurus ve imla denetimi (eğer kuruluysa) veri araçlarını etkinleştirir. "
+"Veri araçları sadece metin seçiliyken ya da farenin sağ tuşu bir kelime "
+"üzerinde tıklandıysa kullanılabilirdir. Eğer metin seçiliyken hiç veri aracı "
+"önerilmezse, onları kurmanız gerekir. Eğer bu eklenti etkin ise ve veri "
+"araçları kuruluysa, içerik menüsünün sonunda ek ögeler görünecektir."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2401
+#, no-c-format
+msgid "Exporter"
+msgstr "Dışa Aktarıcı"
+
+#. Tag: para
+#: viewer-editor.docbook:2402
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This command allows you to export the current document with all "
+#| "highlighting information into a HTML document using "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Export as HTML</"
+#| "guimenuitem></menuchoice>. Additionally you can use "
+#| "<menuchoice><guimenu>Edit</guimenu> <guimenuitem>Copy as HTML</"
+#| "guimenuitem></menuchoice> to copy the currently selected text as HTML to "
+#| "the system clipboard."
+msgid ""
+"This command allows you to export the current document with all highlighting "
+"information into a &HTML; document using <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Export as &HTML;</guimenuitem></menuchoice>. "
+"Additionally you can use <menuchoice><guimenu>Edit</guimenu> "
+"<guimenuitem>Copy as &HTML;</guimenuitem></menuchoice> to copy the currently "
+"selected text as &HTML; to the system clipboard."
+msgstr ""
+"Bu komut mevcut belgeyi tüm vurgulama bilgisi ile birlikte "
+"<menuchoice><guimenu>Dosya</guimenu> <guimenuitem>HTML olarak dışa aktar</"
+"guimenuitem></menuchoice> kullanarak HTML belgesi olarak dışarıya "
+"aktarmanıza olanak sağlar. Ek olarak mevcutta seçilmiş metni sistem panosuna "
+"HTML olarak kopyalamak için <menuchoice><guimenu>Düzenle</guimenu> "
+"<guimenuitem>HTML olarak kopyala</guimenuitem></menuchoice> "
+"kullanabilirsiniz."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2415
+#, no-c-format
+msgid "IconInserter"
+msgstr "IconInserter"
+
+#. Tag: para
+#: viewer-editor.docbook:2416
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The icon inserter plugin is only of use for &kde; developers: It adds an "
+#| "item <guimenuitem>Insert KIcon-Code</guimenuitem> into the context menu "
+#| "of the editor. If activated, the &plasma;'s icon chooser opens (showing "
+#| "application icons, action icons &etc;..). If you click on it, the file "
+#| "name without file extension will be inserted as text. Useful only for "
+#| "setting icons via &kf5; through the KIcon() class."
+msgid ""
+"The icon inserter plugin is only of use for &kde; developers: It adds an "
+"item <guimenuitem>Insert KIcon-Code</guimenuitem> into the context menu of "
+"the editor. If activated, the &plasma;'s icon chooser opens (showing "
+"application icons, action icons &etc;..). If you click on it, the file name "
+"without file extension will be inserted as text. Useful only for setting "
+"icons via &kde-frameworks; through the KIcon() class."
+msgstr ""
+"Simge ekleyici eklentisi, &kde; geliştiricileri için kullanımdadır: Bu bir "
+"<guimenuitem>Klcon Kodu Ekle</guimenuitem> ögesini düzenleyicinin bağlam "
+"menüsüne ekler. Eğer etkinse &plasma;'nın simge seçicisi (uygulama "
+"simgelerini, eylem simgelerini vb. gösteren...) açılır. Eğer buna "
+"tıklarsanız dosya adı uzantısız bir biçimde metin olarak içe aktarılır. Bu, "
+"yalnızca simgeleri &kf5; aracılığı ile Klcon() sınıfında ayarlamak için "
+"kullanışlıdır."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2424
+#, fuzzy, no-c-format
+#| msgid "Insane (not ZEN) HTML coding (light edition)"
+msgid "Insane (not ZEN) &HTML; coding (light edition)"
+msgstr "Insane (ZEN değil) HTML kodlama (hafif sürüm)"
+
+#. Tag: para
+#: viewer-editor.docbook:2425
+#, fuzzy, no-c-format
+#| msgid ""
+#| "A plugin, which does zen-coding like selector completion. For more "
+#| "information see <ulink url=\"http://en.wikipedia.org/wiki/Zen_Coding\"> "
+#| "Zen Coding</ulink>."
+msgid ""
+"A plugin, which does zen-coding like selector completion. For more "
+"information see <ulink url=\"https://en.wikipedia.org/wiki/Zen_Coding\"> Zen "
+"Coding</ulink>."
+msgstr ""
+"Zen-kodlama gibi seçici tamamlama yapan bir eklenti. Daha fazla bilgi için "
+"bakınız <ulink url=\"http://en.wikipedia.org/wiki/Zen_Coding\"> Zen Kodlama</"
+"ulink>."
+
+#. Tag: guilabel
+#: viewer-editor.docbook:2430
+#, no-c-format
+msgid "Insert File"
+msgstr "Dosya Ekle"
+
+#. Tag: para
+#: viewer-editor.docbook:2431
+#, no-c-format
+msgid ""
+"This plugin allows you to insert any readable file at the cursor position. "
+"If enabled, the <guimenu>Tools</guimenu> menu has an additional menu item "
+"<guimenuitem>Insert File</guimenuitem>."
+msgstr ""
+"Bu eklenti imleç konumuna herhangi bir okunabilir dosyayı eklemenize imkan "
+"tanır. Etkinleştirildiği zaman, <guimenu>Araçlar</guimenu> menüsü "
+"<guimenuitem>Dosya Ekle</guimenuitem> şeklinde ek bir menü ögesine sahip "
+"olur."

@@ -1,0 +1,1991 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: katepart_advanced\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-08-12 00:59+0000\n"
+"PO-Revision-Date: 2025-03-13 15:54+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.07.70\n"
+
+#. Tag: author
+#: advanced.docbook:4
+#, no-c-format
+msgid "&Anders.Lund; &Anders.Lund.mail;"
+msgstr "&Anders.Lund; &Anders.Lund.mail;"
+
+#. Tag: author
+#: advanced.docbook:5
+#, no-c-format
+msgid "&Dominik.Haumann; &Dominik.Haumann.mail;"
+msgstr "&Dominik.Haumann; &Dominik.Haumann.mail;"
+
+#. Tag: trans_comment
+#: advanced.docbook:6
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>İşbaran</"
+"firstname><surname>Akçayır</"
+"surname><affiliation><address><email>isbaran@gmail.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit> <othercredit role="
+"\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: title
+#: advanced.docbook:9
+#, no-c-format
+msgid "Advanced Editing Tools"
+msgstr "Gelişmiş Düzenleme Araçları"
+
+#. Tag: title
+#: advanced.docbook:13
+#, no-c-format
+msgid "Comment/Uncomment"
+msgstr "Yorum/Yorumları Kaldır"
+
+#. Tag: para
+#: advanced.docbook:15
+#, no-c-format
+msgid ""
+"The <guimenuitem>Comment</guimenuitem> and <guimenuitem>Uncomment</"
+"guimenuitem> commands, available from the <guimenu>Tools</guimenu> menu "
+"allow you to add or remove comment markers to the selection, or the current "
+"line if no text is selected, if comments are supported by the format of the "
+"text you are editing."
+msgstr ""
+"<guimenu>Araçlar</guimenu> menüsünde bulunan <guimenuitem>Yorum</"
+"guimenuitem> ve <guimenuitem>Yorumları Kaldır</guimenuitem> komutları, "
+"düzenlediğiniz metnin biçimi izin veriyorsa seçime veya seçili metin yoksa "
+"geçerli satıra yorum imleyicileri eklemenize veya kaldırmanıza olanak tanır."
+
+#. Tag: para
+#: advanced.docbook:21
+#, no-c-format
+msgid ""
+"The rules for how commenting is done are defined in the syntax definitions, "
+"so if syntax highlighting is not used, commenting/uncommenting is not "
+"possible."
+msgstr ""
+"Yorumlamanın nasıl yapıldığına ilişkin kurallar sözdizim tanımlarında "
+"tanımlanmıştır, dolayısıyla sözdizim vurgulama kullanılmazsa yorum yapma/"
+"yorumları kaldırma olanaklı değildir."
+
+#. Tag: para
+#: advanced.docbook:25
+#, no-c-format
+msgid ""
+"Some formats define single line comment markers, some multiline markers and "
+"some both. If multiline markers are not available, commenting out a "
+"selection that does not fully include its last line is not possible."
+msgstr ""
+"Bazı biçimler tek satırlı yorum imleyicilerini, bazıları çok satırlıları ve "
+"bazıları da her ikisini birden tanımlar. Çok satırlı imleyiciler "
+"kullanılamıyorsa son satırını tam olarak içermeyen bir seçimin yorumlanması "
+"olanaklı değildir."
+
+#. Tag: para
+#: advanced.docbook:30
+#, no-c-format
+msgid ""
+"If a single line marker is available, commenting single lines is preferred "
+"where applicable, as this helps to avoid problems with nested comments."
+msgstr ""
+"Tek satır imleyicisi kullanılabiliyorsa iç içe geçmiş yorumlarla ilgili "
+"sorunların önlenmesine yardımcı olduğundan, uygun olduğu yerde tek satırlara "
+"yorum yapılması tercih edilir."
+
+#. Tag: para
+#: advanced.docbook:34
+#, no-c-format
+msgid ""
+"When removing comment markers, no uncommented text should be selected. When "
+"removing multiline comment markers from a selection, any whitespace outside "
+"the comment markers is ignored."
+msgstr ""
+"Yorum imleyicilerini kaldırırken yorumsuz metin seçilmemelidir. Bir seçimden "
+"çok satırlı yorum imleyicilerini kaldırırken, yorum işaretçilerinin "
+"dışındaki tüm boşluklar dikkate alınmaz."
+
+#. Tag: primary
+#: advanced.docbook:38
+#, no-c-format
+msgid "<primary>comment</primary>"
+msgstr "<primary>yoruma</primary>"
+
+#. Tag: para
+#: advanced.docbook:38
+#, no-c-format
+msgid ""
+"To place comment markers, use the <menuchoice><guimenu>Tools</"
+"guimenu><guimenuitem>Comment</guimenuitem></menuchoice> menu item or the "
+"related keyboard shortcut sequence, the default is <keycombo action=\"simul"
+"\">&Ctrl;<keycap>D</keycap></keycombo>."
+msgstr ""
+"Yorum imleyicileri yerleştirmek için <menuchoice><guimenu>Araçlar</"
+"guimenu><guimenuitem>Yorum</guimenuitem></menuchoice> menü ögesini veya "
+"ilgili klavye kısayolu dizisini kullanın; öntanımlı kısayol: <keycombo "
+"action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo>."
+
+#. Tag: primary
+#: advanced.docbook:44
+#, no-c-format
+msgid "<primary>uncomment</primary>"
+msgstr "<primary>yorumları kaldır</primary>"
+
+#. Tag: para
+#: advanced.docbook:44
+#, no-c-format
+msgid ""
+"To remove comment markers, use the <menuchoice><guimenu>Tools</"
+"guimenu><guimenuitem>Uncomment</guimenuitem></menuchoice> menu item or the "
+"related keyboard shortcut, the default is <keycombo action=\"simul\">&Ctrl;"
+"&Shift;<keycap>D</keycap></keycombo>."
+msgstr ""
+"Yorum imleyicilerini kaldırmak için <menuchoice><guimenu>Araçlar</"
+"guimenu><guimenuitem>Yorumları Kaldır</guimenuitem></menuchoice> menü "
+"ögesini veya ilgili klavye kısayolu dizisini kullanın; öntanımlı kısayol: "
+"<keycombo action=\"simul\">&Ctrl;&Shift;<keycap>D</keycap></keycombo>."
+
+#. Tag: title
+#: advanced.docbook:53
+#, no-c-format
+msgid "The Editor Component Command Line"
+msgstr "Düzenleyici Bileşeni Komut Satırı"
+
+#. Tag: para
+#: advanced.docbook:55
+#, no-c-format
+msgid ""
+"&kappname;'s editor component has an internal command line, allowing you to "
+"perform various actions from a minimal &GUI;. The command line is a text "
+"entry at the bottom of the editor area; to show it select "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Switch to Command Line</"
+"guimenuitem></menuchoice> or use the shortcut (default is <keycombo action="
+"\"simul\"><keycap>F7</keycap></keycombo>). The editor provides a set of "
+"commands as documented below, and additional commands can be provided by "
+"plugins."
+msgstr ""
+"&kappname; uygulamasını düzenleyici bileşeninde içsel bir komut satırı "
+"vardır; bu bileşen, minimal bir grafik arayüzden çeşitli eylemleri "
+"gerçekleştirmenize olanak tanır. Komut satırı, düzenleyici alanının alt "
+"kısmında bulunan bir metin girişi alanıdır; onu göstermek için "
+"<menuchoice><guimenu>Görünüm</guimenu><guimenuitem>Komut Satırına Geç</"
+"guimenuitem></menuchoice> ögesini veya klavye kısayolunu (öntanımlı kısayol: "
+"<keycombo action=\"simul\"><keycap>F7</keycap></keycombo>) kullanın. "
+"Düzenleyici, aşağıda belgelendiği gibi bir dizi komut sağlar ve eklentiler "
+"tarafından ek komutlar verilebilir."
+
+#. Tag: para
+#: advanced.docbook:64
+#, no-c-format
+msgid ""
+"To execute a command, type the command then press the return key. The "
+"command line will indicate whether it succeeded and possibly display a "
+"message. If you entered the command line by pressing <keycap>F7</keycap> it "
+"will automatically hide after a few seconds. To clear the message and enter "
+"a new command, press <keycap>F7</keycap> again."
+msgstr ""
+"Bir komutu yürütmek için komutu yazın ve ardından Dönüş düğmesine basın. "
+"Komut satırı başarılı olup olmadığını gösterecek ve büyük olasılıkla bir "
+"ileti görüntüleyecektir. Komut satırına <keycap>F7</keycap> düğmesine "
+"basarak girdiyseniz birkaç saniye sonra kendiliğinden gizlenir. İletiyi "
+"temizlemek ve yeni bir komut girmek için yeniden <keycap>F7</keycap> "
+"düğmesine basın."
+
+#. Tag: para
+#: advanced.docbook:70
+#, no-c-format
+msgid ""
+"The command line has a built-in help system; issue the command "
+"<command>help</command> to get started. To see a list of all available "
+"commands issue <command>help list</command>; to view help for a specific "
+"command, do <command>help <replaceable>command</replaceable></command>."
+msgstr ""
+"Komut satırında yerleşik bir yardım sistemi bulunur; Başlamak için "
+"<command>help</command> komutunu verin. Kullanılabilir tüm komutların bir "
+"listesini görmek için <command>help list</command> komutunu verin; Belirli "
+"bir komutun yardımını görüntülemek için <command>help <replaceable>komut</"
+"replaceable></command> girişini yapın."
+
+#. Tag: para
+#: advanced.docbook:75
+#, no-c-format
+msgid ""
+"The command line has a built in history, so you can reuse commands already "
+"typed. To navigate the history, use the &Up; and &Down; keys. When showing "
+"historical commands, the argument part of the command will be selected, "
+"allowing you to easily overwrite the arguments."
+msgstr ""
+"Komut satırının yerleşik bir geçmişi vardır, böylece önceden yazdığınız "
+"komutları yeniden kullanabilirsiniz. Geçmişe gitmek için &Up; ve &Down; "
+"düğmelerini kullanın. Geçmiş komutları gösterirken, komutun argüman kısmı "
+"seçilerek argümanların üzerine kolayca yazmanıza olanak sağlanır."
+
+#. Tag: title
+#: advanced.docbook:82
+#, no-c-format
+msgid "Standard Command Line Commands"
+msgstr "Standart Komut Satırı Komutları"
+
+#. Tag: title
+#: advanced.docbook:85
+#, no-c-format
+msgid "Argument types"
+msgstr "Argüman türleri"
+
+#. Tag: term
+#: advanced.docbook:88
+#, no-c-format
+msgid "BOOLEAN"
+msgstr "BOOLE"
+
+#. Tag: para
+#: advanced.docbook:89
+#, no-c-format
+msgid ""
+"This is used with commands that turns things on or off. Legal values are "
+"<userinput>on</userinput>, <userinput>off</userinput>, <userinput>true</"
+"userinput>, <userinput>false</userinput>, <userinput>1</userinput> or "
+"<userinput>0</userinput>."
+msgstr ""
+"Bir şeyleri açıp kapatan komutlarla kullanılır. Kullanılabilir değerler "
+"şunlardır: <userinput>on</userinput>, <userinput>off</userinput>, "
+"<userinput>true</userinput>, <userinput>false</userinput>, <userinput>1</"
+"userinput> or <userinput>0</userinput>."
+
+#. Tag: term
+#: advanced.docbook:96
+#, no-c-format
+msgid "INTEGER"
+msgstr "TAMSAYI"
+
+#. Tag: para
+#: advanced.docbook:97
+#, no-c-format
+msgid "An integer number."
+msgstr "Bir tamsayı."
+
+#. Tag: term
+#: advanced.docbook:101
+#, no-c-format
+msgid "STRING"
+msgstr "DİZİ"
+
+#. Tag: para
+#: advanced.docbook:102
+#, no-c-format
+msgid ""
+"A string, surrounded by single quotes (') or double quotes (\") when it "
+"contains spaces."
+msgstr ""
+"Boşluk içerdiğinde tek tırnak (') veya çift tırnak (\") ile çevrelenen bir "
+"dizi."
+
+#. Tag: title
+#: advanced.docbook:110
+#, no-c-format
+msgid "Commands for Configuring the Editor"
+msgstr "Düzenleyiciyi Yapılandırmak için Komutlar"
+
+#. Tag: para
+#: advanced.docbook:112
+#, no-c-format
+msgid ""
+"These commands are provided by the editor component, and allow you to "
+"configure the active document and view only. This is handy if you want to "
+"use a setting different from the default settings, for example for "
+"indentation."
+msgstr ""
+"Bu komutlar düzenleyici bileşeni tarafından sağlanır ve etkin belgeyi ve "
+"yalnızca görüntülemeyi yapılandırmanıza olanak tanır. Girinti gibi öntanımlı "
+"ayarlardan farklı bir ayar kullanmak istiyorsanız bu kullanışlıdır."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:120
+#, no-c-format
+msgid "<command>set-tab-width</command><arg choice=\"req\">INTEGER width</arg>"
+msgstr ""
+"<command>set-tab-width</command><arg choice=\"req\">TAMSAYI genişlik</arg>"
+
+#. Tag: para
+#: advanced.docbook:121
+#, no-c-format
+msgid "Sets the tab width to the number <userinput>width</userinput>."
+msgstr "Sekme <userinput>genişliğini</userinput> ayarlar."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:125
+#, no-c-format
+msgid ""
+"<command>set-indent-width</command><arg choice=\"req\">INTEGER width</arg>"
+msgstr ""
+"<command>set-indent-width</command><arg choice=\"req\">TAMSAYI genişlik</arg>"
+
+#. Tag: para
+#: advanced.docbook:126
+#, no-c-format
+msgid ""
+"Sets the indentation width to the number <userinput>width</userinput>. Used "
+"only if you are indenting with spaces."
+msgstr ""
+"Girintileme <userinput>genişliğini</userinput> ayarlar. Yalnızca boşluklarla "
+"girintileme yapıyorsanız kullanılır."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:132
+#, no-c-format
+msgid ""
+"<command>set-word-wrap-column</command><arg choice=\"req\">INTEGER width</"
+"arg>"
+msgstr ""
+"<command>set-word-wrap-column</command><arg choice=\"req\">TAMSAYI genişlik</"
+"arg>"
+
+#. Tag: para
+#: advanced.docbook:133
+#, no-c-format
+msgid ""
+"Sets the line width for hard wrapping to <userinput>width</userinput>. This "
+"is used if you are having your text wrapped automatically."
+msgstr ""
+"Sert kaydırma için satır <userinput>genişliğini</userinput> ayarlar. Bu, "
+"metninizde kendiliğinden kaydırma kullanıyorsanız kullanılır."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:139
+#, no-c-format
+msgid ""
+"<command>set-icon-border</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-icon-border</command><arg choice=\"req\">BOOLE etkinleştir</arg>"
+
+#. Tag: para
+#: advanced.docbook:141
+#, no-c-format
+msgid "Sets the visibility of the icon border."
+msgstr "Simge kenarlığının görünürlüğünü ayarlar."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:145
+#, no-c-format
+msgid ""
+"<command>set-folding-markers</command><arg choice=\"req\">BOOLEAN enable</"
+"arg>"
+msgstr ""
+"<command>set-folding-markers</command><arg choice=\"req\">BOOLE etkinleştir</"
+"arg>"
+
+#. Tag: para
+#: advanced.docbook:146
+#, no-c-format
+msgid "Sets the visibility of the folding markers pane."
+msgstr "Katlama imleyicileri yüzeyinin görünürlüğünü ayarlar."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:150
+#, no-c-format
+msgid ""
+"<command>set-line-numbers</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-line-numbers</command><arg choice=\"req\">BOOLE etkinleştir</"
+"arg>"
+
+#. Tag: para
+#: advanced.docbook:151
+#, no-c-format
+msgid "Sets the visibility of the line numbers pane."
+msgstr "Satır numaraları yüzeyinin görünürlüğünü ayarlar."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:155
+#, no-c-format
+msgid ""
+"<command>set-replace-tabs</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-replace-tabs</command><arg choice=\"req\">BOOLE etkinleştir</"
+"arg>"
+
+#. Tag: para
+#: advanced.docbook:156
+#, no-c-format
+msgid "If enabled, tabs are replaced with spaces as you type."
+msgstr "Etkinleştirilirse sekmeler siz yazdıkça boşluklarla değiştirilir."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:161
+#, no-c-format
+msgid ""
+"<command>set-remove-trailing-space</command><arg choice=\"req\">BOOLEAN "
+"enable</arg>"
+msgstr ""
+"<command>set-remove-trailing-space</command><arg choice=\"req\">BOOLE "
+"etkinleştir</arg>"
+
+#. Tag: para
+#: advanced.docbook:162
+#, no-c-format
+msgid ""
+"If enabled, trailing whitespace is removed whenever the cursor leaves a line."
+msgstr ""
+"Etkinleştirilirse sondaki boşluklar imleç satırı terk ettiğinde kaldırılır."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:167
+#, no-c-format
+msgid ""
+"<command>set-show-tabs</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-show-tabs</command><arg choice=\"req\">BOOLE etkinleştir</arg>"
+
+#. Tag: para
+#: advanced.docbook:168
+#, no-c-format
+msgid ""
+"If enabled, TAB characters and trailing whitespace will be visualized by a "
+"small dot."
+msgstr ""
+"Etkinleştirilirse SEKME karakterleri ve sondaki boşluklar küçük bir noktayla "
+"görselleştirilir."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:173
+#, no-c-format
+msgid ""
+"<command>set-show-indent</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-show-indent</command><arg choice=\"req\">BOOLE etkinleştir</arg>"
+
+#. Tag: para
+#: advanced.docbook:174
+#, no-c-format
+msgid "If enabled, indentation will be visualized by a vertical dotted line."
+msgstr ""
+"Etkinleştirilirse girintileme dikey noktalı bir satırla görselleştirilir."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:179
+#, no-c-format
+msgid ""
+"<command>set-indent-spaces</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-indent-spaces</command><arg choice=\"req\">BOOLE etkinleştir</"
+"arg>"
+
+#. Tag: para
+#: advanced.docbook:180
+#, no-c-format
+msgid ""
+"If enabled, the editor will indent with <option>indent-width</option> spaces "
+"for each indentation level, rather than with one TAB character."
+msgstr ""
+"Etkinleştirilirse düzenleyici her bir girintileme düzeyi için SEKME "
+"karakteri yerine <option>indent-width</option> kadar boşlukla girintileme "
+"yapar."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:186
+#, no-c-format
+msgid ""
+"<command>set-mixed-indent</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-mixed-indent</command><arg choice=\"req\">BOOLE etkinleştir</"
+"arg>"
+
+#. Tag: para
+#: advanced.docbook:187
+#, no-c-format
+msgid ""
+"If enabled, &kappname; will use a mix of TAB and spaces for indentation. "
+"Each indentation level will be <option>indent-width</option> wide, and more "
+"indentation levels will be optimized to use as many TAB characters as "
+"possible."
+msgstr ""
+"Etkinleştirilirse &kappname;, girintileme için SEKME ve boşlukların bir "
+"karışımını kullanır. Her girinti düzeyi <option>indent-width</option> "
+"genişliğinde olacak ve daha fazla girinti düzeyi olabildiğince çok sayıda "
+"SEKME karakteri kullanacak şekilde eniyilenecektir."
+
+#. Tag: para
+#: advanced.docbook:191
+#, no-c-format
+msgid ""
+"When executed, this command will additionally set space indentation enabled, "
+"and if the indent width is unspecified it will be set to half of the "
+"<option>tab-width</option> for the document at the time of execution."
+msgstr ""
+"Yürütüldüğünde, bu komut ek olarak boşluk girintisini etkinleştirir ve "
+"girinti genişliği belirtilmemişse yürütme sırasında belgenin <option>tab-"
+"width</option> değerinin yarısına ayarlanır."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:197
+#, no-c-format
+msgid ""
+"<command>set-word-wrap</command><arg choice=\"req\">BOOLEAN enable</arg>"
+msgstr ""
+"<command>set-word-wrap</command><arg choice=\"req\">BOOLE etkinleştir</arg>"
+
+#. Tag: para
+#: advanced.docbook:199
+#, no-c-format
+msgid "Enables dynamic word wrap according to <userinput>enable</userinput>."
+msgstr ""
+"<userinput>enable</userinput> değerine göre devingen sözcük kaydırmayı "
+"etkinleştirir."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:204
+#, no-c-format
+msgid ""
+"<command>set-replace-tabs-save</command><arg choice=\"req\">BOOLEAN enable </"
+"arg>"
+msgstr ""
+"<command>set-replace-tabs-save</command><arg choice=\"req\">BOOLE "
+"etkinleştir</arg>"
+
+#. Tag: para
+#: advanced.docbook:206
+#, no-c-format
+msgid ""
+"When enabled, tabs will be replaced with whitespace whenever the document is "
+"saved."
+msgstr ""
+"Etkinleştirildiğinde, belge kaydedildiğinde sekmelerin yerini boşluklar "
+"alacaktır."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:211
+#, no-c-format
+msgid ""
+"<command>set-remove-trailing-space-save</command><arg choice=\"req\">BOOLEAN "
+"enable</arg>"
+msgstr ""
+"<command>set-replace-tabs-save</command><arg choice=\"req\">BOOLE "
+"etkinleştir</arg>"
+
+#. Tag: para
+#: advanced.docbook:212
+#, no-c-format
+msgid ""
+"When enabled, trailing space will be removed from each line whenever the "
+"document is saved."
+msgstr ""
+"Etkinleştirildiğinde, belge kaydedildiğinde her satırın sondaki boşluk "
+"kaldırılacaktır."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:217
+#, no-c-format
+msgid "<command>set-indent-mode</command><arg choice=\"req\">STRING name</arg>"
+msgstr "<command>set-indent-mode</command><arg choice=\"req\">DİZİ ad</arg>"
+
+#. Tag: para
+#: advanced.docbook:218
+#, no-c-format
+msgid ""
+"Sets the autoindentation mode to <userinput>name</userinput>. If "
+"<userinput>name</userinput> is not known, the mode is set to 'none'. Valid "
+"modes are 'none', 'normal', 'cstyle', 'haskell', 'lilypond', 'lisp', "
+"'python', 'ruby' and 'xml'."
+msgstr ""
+"Kendiliğinden girintileme kipini <userinput>ad</userinput> olarak ayarlar. "
+"<userinput>ad</userinput> bilinmiyorsa kip “none” olarak ayarlanır. Geçerli "
+"kipler: “none”, “normal”, “cstyle”, “haskell”, “lilypond”, “lisp”, “python”, "
+"“ruby” ve “xml”."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:225
+#, no-c-format
+msgid ""
+"<command>set-auto-ident</command><arg choice=\"req\">BOOLEAN script</arg>"
+msgstr "<command>set-auto-ident</command><arg choice=\"req\">BOOLE betik</arg>"
+
+#. Tag: para
+#: advanced.docbook:226
+#, no-c-format
+msgid "Enable or disable autoindentation."
+msgstr "Kendiliğinden girintilemeyi etkinleştirin veya devre dışı bırakın."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:230
+#, no-c-format
+msgid ""
+"<command>set-highlight</command><arg choice=\"req\">STRING highlight</arg>"
+msgstr "<command>set-highlight</command><arg choice=\"req\">DİZİ vurgu</arg>"
+
+#. Tag: para
+#: advanced.docbook:231
+#, no-c-format
+msgid ""
+"Sets the syntax highlighting system for the document. The argument must be a "
+"valid highlight name, as seen in the <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>Highlighting</guisubmenu></menuchoice> menu. This "
+"command provides an autocompletion list for its argument."
+msgstr ""
+"Belgenin sözdizim vurgulama sistemini ayarlar. Argüman, "
+"<menuchoice><guimenu>Araçlar</guimenu><guisubmenu>Vurgulama</guisubmenu></"
+"menuchoice> menüsünde görüldüğü gibi geçerli bir vurgu adı olmalıdır. Bu "
+"komut, argümanı için bir kendiliğinden tamamlama listesi sağlar."
+
+#. Tag: para
+#: advanced.docbook:240
+#, no-c-format
+msgid ""
+"Reload all <link linkend=\"dev-scripting\">&javascript; scripts</link> used "
+"by &kate;, including indenters and command line scripts."
+msgstr ""
+"Girintileyiciler ve komut satırı betikleri de içerilmek üzere, &kate;’in "
+"kullandığı tüm <link linkend=\"dev-scripting\">&javascript; betiklerini</"
+"link> yeniden yükleyin."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:245
+#, no-c-format
+msgid "<command>set-mode</command><arg choice=\"req\">STRING mode</arg>"
+msgstr "<command>set-mode</command><arg choice=\"req\">DİZİ kip</arg>"
+
+#. Tag: para
+#: advanced.docbook:246
+#, no-c-format
+msgid "Choose the filetype scheme for the current document."
+msgstr "Geçerli belge için dosya türü şemasını seçin."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:251
+#, no-c-format
+msgid ""
+"<command>nn[oremap]</command><arg choice=\"req\">STRING original</arg> <arg "
+"choice=\"req\">STRING mapped</arg>"
+msgstr ""
+"<command>nn[oremap]</command><arg choice=\"req\">DİZGİ özgün</arg> <arg "
+"choice=\"req\">DİZİ eşlemlenen</arg>"
+
+#. Tag: para
+#: advanced.docbook:253
+#, no-c-format
+msgid ""
+"Map the key sequence <userinput>original</userinput> to <userinput>mapped</"
+"userinput>."
+msgstr ""
+"<userinput>Özgün</userinput> düğme sıralamasını <userinput>eşlemlenen</"
+"userinput> sıralamasına eşlemler."
+
+#. Tag: title
+#: advanced.docbook:262
+#, no-c-format
+msgid "Commands for editing"
+msgstr "Düzenleme için komutlar"
+
+#. Tag: para
+#: advanced.docbook:264
+#, no-c-format
+msgid "These commands modify the current document."
+msgstr "Bu komutlar, geçerli belgeyi değiştirir."
+
+#. Tag: para
+#: advanced.docbook:269
+#, no-c-format
+msgid "Indents the selected lines or the current line."
+msgstr "Seçili satırları veya geçerli satırı girintiler."
+
+#. Tag: para
+#: advanced.docbook:274
+#, no-c-format
+msgid "Unindents the selected lines or current line."
+msgstr "Seçili satırların veya geçerli satırın girintisini kaldırır."
+
+#. Tag: para
+#: advanced.docbook:279
+#, no-c-format
+msgid ""
+"Cleans up the indentation of the selected lines or current line according to "
+"the indentation settings in the document."
+msgstr ""
+"Seçili satırların veya geçerli satırın girintisini belgedeki girintileme "
+"ayarlarına göre temizler."
+
+#. Tag: para
+#: advanced.docbook:286
+#, no-c-format
+msgid ""
+"Inserts comment markers to make the selection or selected lines or current "
+"line a comment according to the text format as defined by the syntax "
+"highlight definition for the document."
+msgstr ""
+"Seçimi veya seçili satırları veya geçerli satırı, belgenin sözdizim "
+"vurgulama tanımıyla tanımlandığı şekilde metin biçimine göre bir yorum "
+"haline getirmek için yorum imleyicileri ekler."
+
+#. Tag: para
+#: advanced.docbook:293
+#, no-c-format
+msgid ""
+"Removes comment markers from the selection or selected lines or current line "
+"according to the text format as defined by the syntax highlight definition "
+"for the document."
+msgstr ""
+"Belgenin sözdizim vurgulama tanımıyla tanımlanan metin biçimine göre "
+"seçimden veya seçili satırlardan veya geçerli satırdan yorum imleyicilerini "
+"kaldırır."
+
+#. Tag: para
+#: advanced.docbook:300
+#, no-c-format
+msgid "Deletes the current line."
+msgstr "Geçerli satırı siler."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:304
+#, no-c-format
+msgid ""
+"<command>replace</command><arg choice=\"req\"> STRING pattern</arg> <arg "
+"choice=\"req\">STRING replacement</arg>"
+msgstr ""
+"<command>replace</command><arg choice=\"req\"> DİZİ dizgi</arg> <arg choice="
+"\"req\">DİZİ değişim</arg>"
+
+#. Tag: para
+#: advanced.docbook:306
+#, no-c-format
+msgid ""
+"Replaces text matching <userinput>pattern</userinput> with "
+"<userinput>replacement</userinput>. If you want to include whitespace in the "
+"<userinput>pattern</userinput>, you must quote both the <userinput>pattern</"
+"userinput> and <userinput>replacement</userinput> with single or double "
+"quotes. If the arguments are unquoted, the first word is used as "
+"<userinput>pattern</userinput> and the rest for <userinput>replacement</"
+"userinput>. If <userinput>replacement</userinput> is empty, each occurrence "
+"of <userinput>pattern</userinput> is removed."
+msgstr ""
+"<userinput>dizgi</userinput> ile eşleşen metni <userinput>değişim</"
+"userinput> ile değiştirir. <userinput>dizgi</userinput>’de boşlukları "
+"içermek isterseniz hem <userinput>dizgi</userinput> hem <userinput>değişim</"
+"userinput> değişkenlerini tek veya çift tırnak içine almalısınız. Argümanlar "
+"tırnak içinde değilse ilk sözcük <userinput>dizgi</userinput> ve geri kalanı "
+"<userinput>değişim</userinput> olarak kullanılır. Eğer <userinput>değişim</"
+"userinput> boşsa her bir <userinput>dizgi</userinput> oluşu kaldırılır."
+
+#. Tag: para
+#: advanced.docbook:314
+#, no-c-format
+msgid ""
+"You can set flags to configure the search by adding a colon, followed by one "
+"or more letters each representing a configuration, giving the form "
+"<userinput>replace:options pattern replacement</userinput>. Available "
+"options are:"
+msgstr ""
+"Aramayı yapılandırmak için iki nokta üst üste ve ardından her biri bir "
+"yapılandırmayı temsil eden bir veya daha fazla harf ekleyerek "
+"<userinput>replace:seçenekler dizgi değişim</userinput> formunu vererek "
+"bayrakları ayarlayabilirsiniz. Kullanılabilir seçenekler şunlardır:"
+
+#. Tag: userinput
+#: advanced.docbook:322 advanced.docbook:715 advanced.docbook:760
+#, no-c-format
+msgid "<userinput>b</userinput>"
+msgstr "<userinput>b</userinput>"
+
+#. Tag: para
+#: advanced.docbook:323 advanced.docbook:716 advanced.docbook:761
+#, no-c-format
+msgid "Search backwards."
+msgstr "Geriye doğru arayın."
+
+#. Tag: userinput
+#: advanced.docbook:327 advanced.docbook:720 advanced.docbook:775
+#, no-c-format
+msgid "<userinput>c</userinput>"
+msgstr "<userinput>c</userinput>"
+
+#. Tag: para
+#: advanced.docbook:328 advanced.docbook:721 advanced.docbook:776
+#, no-c-format
+msgid "Search from cursor position."
+msgstr "İmleç konumundan itibaren arayın."
+
+#. Tag: userinput
+#: advanced.docbook:332 advanced.docbook:725
+#, no-c-format
+msgid "<userinput>e</userinput>"
+msgstr "<userinput>e</userinput>"
+
+#. Tag: para
+#: advanced.docbook:333 advanced.docbook:726
+#, no-c-format
+msgid "Search in the selection only."
+msgstr "Yalnızca seçimde arayın."
+
+#. Tag: userinput
+#: advanced.docbook:337 advanced.docbook:730 advanced.docbook:765
+#, no-c-format
+msgid "<userinput>r</userinput>"
+msgstr "<userinput>r</userinput>"
+
+#. Tag: para
+#: advanced.docbook:338 advanced.docbook:731
+#, no-c-format
+msgid ""
+"Do regular expression search. If set, you may use <userinput>\\N</userinput> "
+"where N is a number to represent captures in the replacement string."
+msgstr ""
+"Düzenli ifade araması yapın. Ayarlıysa N değiştirme dizisindeki yakalamaları "
+"temsil etmek üzere bir numara olması için <userinput>\\N</userinput> "
+"kullanabilirsiniz."
+
+#. Tag: userinput
+#: advanced.docbook:344 advanced.docbook:737 advanced.docbook:770
+#, no-c-format
+msgid "<userinput>s</userinput>"
+msgstr "<userinput>s</userinput>"
+
+#. Tag: para
+#: advanced.docbook:345 advanced.docbook:738 advanced.docbook:771
+#, no-c-format
+msgid "Do case sensitive search."
+msgstr "BÜYÜK/küçük harf duyarlı arama yapın."
+
+#. Tag: userinput
+#: advanced.docbook:349
+#, no-c-format
+msgid "<userinput>p</userinput>"
+msgstr "<userinput>p</userinput>"
+
+#. Tag: para
+#: advanced.docbook:350
+#, no-c-format
+msgid "Prompt for permission to replace the next occurrence."
+msgstr "Sonraki oluşu değiştirmek için izin isteyin."
+
+#. Tag: userinput
+#: advanced.docbook:354 advanced.docbook:742
+#, no-c-format
+msgid "<userinput>w</userinput>"
+msgstr "<userinput>w</userinput>"
+
+#. Tag: para
+#: advanced.docbook:355 advanced.docbook:743
+#, no-c-format
+msgid "Match whole words only."
+msgstr "Yalnızca tam sözcüklerle eşleştirin."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:365
+#, no-c-format
+msgid "<command>date</command><arg choice=\"req\">STRING format</arg>"
+msgstr "<command>date</command><arg choice=\"req\">DİZİ biçim</arg>"
+
+#. Tag: para
+#: advanced.docbook:366
+#, no-c-format
+msgid ""
+"Inserts a date/time string as defined by the specified <userinput>format</"
+"userinput>, or the format <quote>yyyy-MM-dd hh:mm:ss</quote> if none is "
+"specified. The following translations are done when interpreting "
+"<userinput>format</userinput>:"
+msgstr ""
+"Tanımlı <userinput>biçim</userinput> veya yoksa <quote>yyyy-MM-dd hh:mm:ss</"
+"quote> biçimi ile bir tarih/zaman dizisi ekler. <userinput>biçim</userinput> "
+"yorumlanırken aşağıdaki çeviriler kullanılır:"
+
+#. Tag: literal
+#: advanced.docbook:374
+#, no-c-format
+msgid "<literal>d</literal>"
+msgstr "<literal>d</literal>"
+
+#. Tag: entry
+#: advanced.docbook:374
+#, no-c-format
+msgid "The day as number without a leading zero (1-31)."
+msgstr "Başında sıfır olmadan sayı olarak gün (1–31)."
+
+#. Tag: literal
+#: advanced.docbook:375
+#, no-c-format
+msgid "<literal>dd</literal>"
+msgstr "<literal>dd</literal>"
+
+#. Tag: entry
+#: advanced.docbook:375
+#, no-c-format
+msgid "The day as number with a leading zero (01-31)."
+msgstr "Başında sıfır olacak şekilde gün (01–31)."
+
+#. Tag: literal
+#: advanced.docbook:376
+#, no-c-format
+msgid "<literal>ddd</literal>"
+msgstr "<literal>ddd</literal>"
+
+#. Tag: entry
+#: advanced.docbook:376
+#, no-c-format
+msgid "The abbreviated localized day name (&eg; 'Mon'..'Sun')."
+msgstr "Kısa yerelleştirilmiş gün adı (&eg;, “Pzt”‥“Paz”)."
+
+#. Tag: literal
+#: advanced.docbook:377
+#, no-c-format
+msgid "dddd"
+msgstr "dddd"
+
+#. Tag: entry
+#: advanced.docbook:377
+#, no-c-format
+msgid "The long localized day name (&eg; 'Monday'..'Sunday')."
+msgstr "Uzun yerelleştirilmiş gün adı (&eg;, “Pazartesi”‥“Pazar”)."
+
+#. Tag: literal
+#: advanced.docbook:378
+#, no-c-format
+msgid "<literal>M</literal>"
+msgstr "<literal>M</literal>"
+
+#. Tag: entry
+#: advanced.docbook:378
+#, no-c-format
+msgid "The month as number without a leading zero (1-12)."
+msgstr "Başında sıfır olmadan sayı olarak ay (1–12)."
+
+#. Tag: literal
+#: advanced.docbook:379
+#, no-c-format
+msgid "<literal>MM</literal>"
+msgstr "<literal>MM</literal>"
+
+#. Tag: entry
+#: advanced.docbook:379
+#, no-c-format
+msgid "The month as number with a leading zero (01-12)."
+msgstr "Başında sıfır olacak şekilde ay (01–12)."
+
+#. Tag: literal
+#: advanced.docbook:380
+#, no-c-format
+msgid "MMMM"
+msgstr "MMMM"
+
+#. Tag: entry
+#: advanced.docbook:380
+#, no-c-format
+msgid "The long localized month name (&eg; 'January'..'December')."
+msgstr "Uzun yerelleştirilmiş ay adı (&eg;, “Ocak”‥“Şubat”)."
+
+#. Tag: literal
+#: advanced.docbook:381
+#, no-c-format
+msgid "<literal>MMM</literal>"
+msgstr "<literal>MMM</literal>"
+
+#. Tag: entry
+#: advanced.docbook:381
+#, no-c-format
+msgid "The abbreviated localized month name (&eg; 'Jan'..'Dec')."
+msgstr "Kısa yerelleştirilmiş ay adı (&eg;, “Oca”‥“Şub”)."
+
+#. Tag: literal
+#: advanced.docbook:382
+#, no-c-format
+msgid "<literal>yy</literal>"
+msgstr "<literal>yy</literal>"
+
+#. Tag: entry
+#: advanced.docbook:382
+#, no-c-format
+msgid "The year as two digit number (00-99)."
+msgstr "İki basamaklı sayı olarak yıl (00–99)."
+
+#. Tag: literal
+#: advanced.docbook:384
+#, no-c-format
+msgid "yyyy"
+msgstr "yyyy"
+
+#. Tag: entry
+#: advanced.docbook:384
+#, no-c-format
+msgid "The year as four digit number (1752-8000)."
+msgstr "Dört basamaklı sayı olarak yıl (1752–8000)."
+
+#. Tag: literal
+#: advanced.docbook:385
+#, no-c-format
+msgid "<literal>h</literal>"
+msgstr "<literal>h</literal>"
+
+#. Tag: entry
+#: advanced.docbook:385
+#, no-c-format
+msgid "The hour without a leading zero (0..23 or 1..12 if AM/PM display)."
+msgstr "Başında sıfır olmadan saat (0‥23 veya ÖÖ/ÖS görüntüleniyorsa 1‥12)."
+
+#. Tag: literal
+#: advanced.docbook:386
+#, no-c-format
+msgid "<literal>hh</literal>"
+msgstr "<literal>hh</literal>"
+
+#. Tag: entry
+#: advanced.docbook:386
+#, no-c-format
+msgid "The hour with a leading zero (00..23 or 01..12 if AM/PM display)."
+msgstr "Başında sıfır olarak saat (00‥23 veya ÖÖ/ÖS görüntüleniyorsa 01‥02)."
+
+#. Tag: literal
+#: advanced.docbook:387
+#, no-c-format
+msgid "<literal>m</literal>"
+msgstr "<literal>m</literal>"
+
+#. Tag: entry
+#: advanced.docbook:387
+#, no-c-format
+msgid "The minute without a leading zero (0..59)."
+msgstr "Başında sıfır olmadan dakika (0‥59)."
+
+#. Tag: literal
+#: advanced.docbook:388
+#, no-c-format
+msgid "<literal>mm</literal>"
+msgstr "<literal>mm</literal>"
+
+#. Tag: entry
+#: advanced.docbook:388
+#, no-c-format
+msgid "The minute with a leading zero (00..59)."
+msgstr "Başında sıfır olarak dakika (00‥59)."
+
+#. Tag: literal
+#: advanced.docbook:389
+#, no-c-format
+msgid "<literal>s</literal>"
+msgstr "<literal>s</literal>"
+
+#. Tag: entry
+#: advanced.docbook:389
+#, no-c-format
+msgid "The second without a leading zero (0..59)."
+msgstr "Başında sıfır olmadan saniye (0‥59)."
+
+#. Tag: literal
+#: advanced.docbook:390
+#, no-c-format
+msgid "<literal>ss</literal>"
+msgstr "<literal>ss</literal>"
+
+#. Tag: entry
+#: advanced.docbook:390
+#, no-c-format
+msgid "The second with a leading zero (00..59)."
+msgstr "Önünde sıfır olarak saniye (00‥59)."
+
+#. Tag: literal
+#: advanced.docbook:391
+#, no-c-format
+msgid "<literal>z</literal>"
+msgstr "<literal>z</literal>"
+
+#. Tag: entry
+#: advanced.docbook:391
+#, no-c-format
+msgid "The milliseconds without leading zeroes (0..999)."
+msgstr "Başında sıfır olmadan milisaniye (0‥999)."
+
+#. Tag: literal
+#: advanced.docbook:392
+#, no-c-format
+msgid "<literal>zzz</literal>"
+msgstr "<literal>zzz</literal>"
+
+#. Tag: entry
+#: advanced.docbook:392
+#, no-c-format
+msgid "The milliseconds with leading zeroes (000..999)."
+msgstr "Başında sıfır olarak milisaniye (000‥999)."
+
+#. Tag: literal
+#: advanced.docbook:393
+#, no-c-format
+msgid "<literal>AP</literal>"
+msgstr "<literal>AP</literal>"
+
+#. Tag: entry
+#: advanced.docbook:393
+#, no-c-format
+msgid "Use AM/PM display. AP will be replaced by either \"AM\" or \"PM\"."
+msgstr "ÖÖ/ÖS görüntüsünü kullanın. AP, \"ÖÖ\" veya \"ÖS\" ile değiştirilir."
+
+#. Tag: literal
+#: advanced.docbook:394
+#, no-c-format
+msgid "<literal>ap</literal>"
+msgstr "<literal>ap</literal>"
+
+#. Tag: entry
+#: advanced.docbook:394
+#, no-c-format
+msgid "Use am/pm display. ap will be replaced by either \"am\" or \"pm\"."
+msgstr ""
+"ÖÖ/ÖS görüntüsünü kullanın. AP, \"AM\" veya \"PM\" olarak değiştirilir."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:403
+#, no-c-format
+msgid "<command>char</command><arg choice=\"req\">STRING identifier</arg>"
+msgstr "<command>char</command><arg choice=\"req\">DİZİ tanımlayıcı</arg>"
+
+#. Tag: para
+#: advanced.docbook:405
+#, no-c-format
+msgid ""
+"This command allows you to insert literal characters by their numerical "
+"identifier, in decimal, octal or hexadecimal form. To use it launch the "
+"Editing Command dialog and type <userinput>char: [number]</userinput> in the "
+"entry box, then hit <guibutton>OK</guibutton>."
+msgstr ""
+"Bu komut, sayısal tanımlayıcılarına göre; ondalık, sekizlik veya onaltılık "
+"biçimde gerçek karakterleri eklemenizi sağlar. Bunu kullanmak için Düzenleme "
+"Komutu iletişim kutusunu başlatın ve giriş kutusuna <userinput>char: "
+"[number]</userinput> yazın, ardından <guibutton>Tamam</guibutton>’a basın."
+
+#. Tag: title
+#: advanced.docbook:412
+#, no-c-format
+msgid "<command>char</command> examples"
+msgstr "<command>char</command> örnekleri"
+
+#. Tag: para
+#: advanced.docbook:414
+#, no-c-format
+msgid "Input: <userinput>char:234</userinput>"
+msgstr "Girdi: <userinput>char:234</userinput>"
+
+#. Tag: para
+#: advanced.docbook:415
+#, no-c-format
+msgid "Output: <computeroutput>&#234;</computeroutput>"
+msgstr "Çıktı: <computeroutput>&#234;</computeroutput>"
+
+#. Tag: para
+#: advanced.docbook:416
+#, no-c-format
+msgid "Input: <userinput>char:0x1234</userinput>"
+msgstr "Girdi: <userinput>char:0x1234</userinput>"
+
+#. Tag: para
+#: advanced.docbook:417
+#, no-c-format
+msgid "Output: <computeroutput>&#x1234;</computeroutput>"
+msgstr "Çıktı: <computeroutput>&#x1234;</computeroutput>"
+
+#. Tag: primary
+#: advanced.docbook:425
+#, no-c-format
+msgid "replace, sed style"
+msgstr "sed biçeminde değiştirme"
+
+#. Tag: secondary
+#: advanced.docbook:426
+#, no-c-format
+msgid "search, sed style"
+msgstr "sed biçeminde arama"
+
+#. Tag: term
+#: advanced.docbook:426
+#, no-c-format
+msgid "<command>s///[ig]</command> <command>%s///[ig]</command>"
+msgstr "<command>s///[ig]</command> <command>%s///[ig]</command>"
+
+#. Tag: para
+#: advanced.docbook:430
+#, no-c-format
+msgid ""
+"This command does a sed-like search/replace operation on the current line, "
+"or on the whole file (<command>%s///</command>)."
+msgstr ""
+"Bu komut, geçerli satırda veya tüm dosyada sed benzeri arama/değiştirme "
+"işlemi yapar (<command>%s///</command>)."
+
+#. Tag: para
+#: advanced.docbook:433
+#, no-c-format
+msgid ""
+"In short, the text is searched for text matching the <emphasis>search "
+"pattern</emphasis>, the regular expression between the first and the second "
+"slash, and when a match is found, the matching part of the text is replaced "
+"with the expression between the second and last slash. Parentheses in the "
+"search pattern create <emphasis>back references</emphasis>, that is the "
+"command remembers which part of the string matched in the parentheses; these "
+"strings can be reused in the replace pattern, referred to as <userinput>\\1</"
+"userinput> for the first set of parentheses, <userinput>\\2</userinput> for "
+"the second and so on."
+msgstr ""
+"Kısacası metinde, birinci ve ikinci eğik çizgi arasındaki normal ifade olan "
+"<emphasis>arama dizgisi</emphasis> ile eşleşen metin aranır ve bir eşleşme "
+"bulunduğunda metnin eşleşen kısmı, ikinci ve son eğik çizgi arasındaki "
+"ifadeyle değiştirilir. Arama dizgisindeki parantezler <emphasis>geriye "
+"başvurular</emphasis> oluşturur; yani komut, parantez içinde eşleşen dizinin "
+"hangi bölümünün anımsanacağını bilir; bu diziler, ilk parantez kümesi için "
+"<userinput>\\1</userinput>, ikinci parantez kümesi için <userinput>\\2</"
+"userinput> olarak anılan değiştirme dizgisinde yeniden kullanılabilir."
+
+#. Tag: para
+#: advanced.docbook:444
+#, no-c-format
+msgid ""
+"To search for a literal <literal>(</literal> or <literal>)</literal>, you "
+"need to <emphasis>escape</emphasis> it using a backslash character: "
+"<userinput>\\(\\)</userinput>"
+msgstr ""
+"Bir gerçek karakter aramak için <literal>(</literal> veya <literal>)</"
+"literal> onu bir ters eğik çizgi karakteriyle <emphasis>kaçırmalısınız</"
+"emphasis>: <userinput>\\(\\)</userinput>"
+
+#. Tag: para
+#: advanced.docbook:448
+#, no-c-format
+msgid ""
+"If you put an <userinput>i</userinput> at the end of the expression, the "
+"matching will be case insensitive. If you put a <userinput>g</userinput> at "
+"the end, all occurrences of the pattern will be replaced, otherwise only the "
+"first occurrence is replaced."
+msgstr ""
+"İfadenin sonuna <userinput>i</userinput> koyarsanız eşleştirme BÜYÜK/küçük "
+"harfe duyarlı olmayacaktır. Eğer sona bir <userinput>g</userinput> "
+"koyarsanız dizginin tüm oluşları değiştirilecektir, aksi takdirde yalnızca "
+"ilk oluş değiştirilir."
+
+#. Tag: title
+#: advanced.docbook:455
+#, no-c-format
+msgid "Replacing text in the current line"
+msgstr "Geçerli satırda metin değiştirmek"
+
+#. Tag: para
+#: advanced.docbook:457
+#, no-c-format
+msgid ""
+"Your friendly compiler just stopped, telling you that the class "
+"<classname>myClass</classname> mentioned in line 3902 in your source file is "
+"not defined."
+msgstr ""
+"Dost canlısı derleyiciniz, kaynak dosyanızda 3902. satırda bahsedilen "
+"<classname>sınıfım</classname> sınıfının tanımlanmadığını söyleyerek durdu."
+
+#. Tag: para
+#: advanced.docbook:461
+#, no-c-format
+msgid ""
+"&quot;Buckle!&quot; you think, it is of course <classname>MyClass</"
+"classname>. You go to line 3902, and instead of trying to find the word in "
+"the text, you launch the Editing Command Dialog, enter <userinput>s/myclass/"
+"MyClass/i</userinput>, hit the <guibutton>OK</guibutton> button, save the "
+"file and compile &ndash; successfully without the error."
+msgstr ""
+"“Tüh!”, tabii ki <classname>Sınıfım</classname> olması gerek diye "
+"düşündünüz. 3902. satıra gittiniz ve metinde sözcüğü bulmak yerine Düzenleme "
+"Komutu iletişim kutusunu açarak <userinput>s/sınıfım/Sınıfım/i</userinput> "
+"yazdınız ve <guibutton>Tamam</guibutton> düğmesine bastınız; artık dosyayı "
+"kaydedip hatasız şekilde derleyebilirsiniz."
+
+#. Tag: title
+#: advanced.docbook:471
+#, no-c-format
+msgid "Replacing text in the whole file"
+msgstr "Tüm dosyada metin değiştirmek"
+
+#. Tag: para
+#: advanced.docbook:473
+#, no-c-format
+msgid ""
+"Imagine that you have a file, in which you mention a <quote>Miss Jensen</"
+"quote> several times, when someone comes in and tells you that she just got "
+"married to <quote>Mr Jones</quote>. You want, of course, to replace each and "
+"every occurrence of <quote>Miss Jensen</quote> with <quote>Ms Jones</quote>."
+msgstr ""
+"Birkaç kez <quote>Bayan Gökçen</quote>’den söz ettiğiniz bir dosyanız "
+"olduğunu ve birisinin gelip size <quote>Bay Gökmen</quote> ile yeni "
+"evlendiğini söylediğini hayal edin. Elbette, <quote>Bayan Gökçen</quote> "
+"ifadesinin her bir örneğini <quote>Bayan Gökmen</quote> ile değiştirmek "
+"istersiniz."
+
+#. Tag: para
+#: advanced.docbook:479
+#, no-c-format
+msgid ""
+"Enter the command line and issue the command <userinput>%s/Miss Jensen/Ms "
+"Jones/</userinput> and hit return, you are done."
+msgstr ""
+"Komut satırına girin ve <userinput>%s/Gökçen/Gökmen/</userinput> komutunu "
+"çalıştırın, işiniz bitti."
+
+#. Tag: title
+#: advanced.docbook:486
+#, no-c-format
+msgid "A More Advanced Example"
+msgstr "Daha Gelişmiş Bir Örnek"
+
+#. Tag: para
+#: advanced.docbook:488
+#, no-c-format
+msgid ""
+"This example makes use of <emphasis>back references</emphasis> as well as a "
+"<emphasis>character class</emphasis> (if you do not know what that is, "
+"please refer to the related documentation mentioned below)."
+msgstr ""
+"Bu örnekte <emphasis>geriye başvuruların</emphasis> yanı sıra "
+"<emphasis>karakter sınıfının</emphasis> kullanımı kullanılmaktadır (bunun ne "
+"olduğunu bilmiyorsanız lütfen aşağıda belirtilen ilgili belgelere bakın)."
+
+#. Tag: para
+#: advanced.docbook:493
+#, no-c-format
+msgid "Suppose you have the following line:"
+msgstr "Aşağıdaki gibi bir satırınız olduğunu düşünün:"
+
+#. Tag: programlisting
+#: advanced.docbook:495
+#, no-c-format
+msgid ""
+"void MyClass::DoStringOps( String      &amp;foo, String &amp;bar, String *p, "
+"int  &amp;a, int &amp;b )"
+msgstr ""
+"void MyClass::DoStringOps( String      &amp;foo, String &amp;bar, String *p, "
+"int  &amp;a, int &amp;b )"
+
+#. Tag: para
+#: advanced.docbook:497
+#, no-c-format
+msgid ""
+"Now you realize that this is not nice code, and decide that you want to use "
+"the <constant>const</constant> keyword for all <quote>address of</quote> "
+"arguments, those characterized by the &amp; operator in front of the "
+"argument name. You would also like to simplify the white space, so that "
+"there is only 1 whitespace character between each word."
+msgstr ""
+"Bunun pek güzel bir kod olmadığını anladınız ve argüman adının önünde &amp; "
+"ile karakterize edilen tüm <quote>address of</quote> argümanları için "
+"<constant>const</constant> anahtar sözcüğünü kullanmaya karar verdiniz. "
+"Ayrıca, her sözcük arasında yalnızca 1 boşluk karakteri olacak şekilde beyaz "
+"alanı basitleştirmek istediniz."
+
+#. Tag: para
+#: advanced.docbook:504
+#, no-c-format
+msgid ""
+"Launch the Editing Command Dialog, and enter: <userinput>s/\\s+(\\w+)\\s"
+"+(&amp;)/ const \\1 \\2/g</userinput> and hit the <guibutton>OK</guibutton> "
+"button. The <userinput>g</userinput> at the end of the expression makes the "
+"regular expression recompile for each match to save the "
+"<emphasis>backreferences</emphasis>."
+msgstr ""
+"Düzenleme Komut iletişim kutusunu açın ve <userinput>s/\\s+(\\w+)\\s"
+"+(&amp;)/ const \\1 \\2/g</userinput> yazarak <guibutton>Tamam</guibutton> "
+"düğmesine tıklayın. İfadenin sonundaki <userinput>g</userinput> "
+"<emphasis>geriye başvuruların</emphasis> kaydedilmesi için düzenli ifadenin "
+"her eşleşmede yeniden derlenmesini sağlar."
+
+#. Tag: para
+#: advanced.docbook:509
+#, no-c-format
+msgid ""
+"Output: <computeroutput>void MyClass::DoStringOps( const String &amp;foo, "
+"const String &amp;bar, String *p, const int &amp;a, const int &amp;b )</"
+"computeroutput>"
+msgstr ""
+"Çıktı: <computeroutput>void MyClass::DoStringOps( const String &amp;foo, "
+"const String &amp;bar, String *p, const int &amp;a, const int &amp;b )</"
+"computeroutput>"
+
+#. Tag: para
+#: advanced.docbook:513
+#, no-c-format
+msgid ""
+"Mission completed! Now, what happened? Well, we looked for some white space "
+"(<literal>\\s+</literal>) followed by one or more alphabetic characters "
+"(<literal>\\w+</literal>) followed by some more whitespace (<literal>\\s+</"
+"literal>) followed by an ampersand, and in the process saved the alphabetic "
+"chunk and the ampersand for reuse in the replace operation. Then we replaced "
+"the matching part of our line with one whitespace followed by <quote>const</"
+"quote> followed by one whitespace followed by our saved alphabetical chunk "
+"(<literal>\\1</literal>) followed by one whitespace followed by our saved "
+"ampersand (<literal>\\2</literal>)"
+msgstr ""
+"Görev tamamlandı! Şimdi ne yaptık? İlk olarak, biraz boşluk (<literal>\\s+</"
+"literal>), sonrasında bir veya daha çok abecesel karakterler (<literal>\\w+</"
+"literal>), sonrasında biraz daha boşluk (<literal>\\s+</literal>), "
+"sonrasında bir ve işareti aradık; bu süreçte abecesel parçayı ve ve "
+"işaretini değiştirme işleminde yeniden kullanım için sakladık. Sonrasında, "
+"satırımızın eşleşen kısmını bir boşluk ve sonrasında <quote>const</quote> "
+"ile bir boşluk daha ve abecesel parça ile izledik (<literal>\\1</literal>); "
+"bunlardan sonra yine bir boşluk ve kaydettiğimiz ve işaretini koyduk "
+"(<literal>\\2</literal>)"
+
+#. Tag: para
+#: advanced.docbook:524
+#, no-c-format
+msgid ""
+"Now in some cases the alphabetical chunk was <quote>String</quote>, in some "
+"<quote>int</quote>, so using the character class <literal>\\w</literal> and "
+"the <literal>+</literal> quantifier proved a valuable asset."
+msgstr ""
+"Bazı durumlarda bu abecesel parça bir <quote>String</quote>, bazı durumlarda "
+"ise <quote>int</quote> idi, böylece <literal>\\w</literal> karakter sınıfını "
+"ve <literal>+</literal> niceleyicisi bize çok yararlı oldu."
+
+#. Tag: para
+#: advanced.docbook:537
+#, no-c-format
+msgid "Sorts the selected text or entire document."
+msgstr "Seçili metni veya tüm belgeyi sıralar."
+
+#. Tag: para
+#: advanced.docbook:542
+#, no-c-format
+msgid "Sort the selected lines or entire document naturally."
+msgstr "Seçili satırları veya tüm belgeyi doğal olarak sıralayın."
+
+#. Tag: title
+#: advanced.docbook:545
+#, no-c-format
+msgid "<command>sort</command> vs. <command>natsort</command>"
+msgstr "<command>sort</command> ve <command>natsort</command>"
+
+#. Tag: para
+#: advanced.docbook:546
+#, no-c-format
+msgid ""
+"<userinput><command>sort</command>(a10, a1, a2)</userinput> results in "
+"<computeroutput>a1, a10, a2</computeroutput>"
+msgstr ""
+"<userinput><command>sort</command>(a10, a1, a2)</userinput>, "
+"<computeroutput>a1, a10, a2</computeroutput> sonucunu verir"
+
+#. Tag: para
+#: advanced.docbook:548
+#, no-c-format
+msgid ""
+"<userinput><command>natsort</command>(a10, a1, a2)</userinput> results in "
+"<computeroutput>a1, a2, a10</computeroutput>"
+msgstr ""
+"<userinput><command>natsort</command>(a10, a1, a2)</userinput>, "
+"<computeroutput>a1, a2, a10</computeroutput> sonucunu verir"
+
+#. Tag: para
+#: advanced.docbook:555
+#, no-c-format
+msgid "Move selected lines down."
+msgstr "Seçili satırları aşağı taşıyın."
+
+#. Tag: para
+#: advanced.docbook:560
+#, no-c-format
+msgid "Move selected lines up."
+msgstr "Seçili satırları yukarı taşıyın."
+
+#. Tag: para
+#: advanced.docbook:565
+#, no-c-format
+msgid "Remove duplicated lines from the selected text or the whole document."
+msgstr "Seçili metinden veya tüm belgeden yinelenen satırları kaldırın."
+
+#. Tag: para
+#: advanced.docbook:571
+#, no-c-format
+msgid "Remove trailing space from the selected text or the whole document."
+msgstr "Seçili metnin veya tüm belgenin sonundaki gereksiz boşluğu kaldırın."
+
+#. Tag: para
+#: advanced.docbook:577
+#, no-c-format
+msgid "Remove leading space from the selected text or the whole document."
+msgstr "Seçili metnin ya da tüm belgenin başındaki boşlukları kaldırın."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:582
+#, no-c-format
+msgid "<command>join</command><arg choice=\"opt\">STRING separator</arg>"
+msgstr "<command>join</command><arg choice=\"opt\">DİZİ ayırıcı</arg>"
+
+#. Tag: para
+#: advanced.docbook:583
+#, no-c-format
+msgid ""
+"Join selected lines or whole document. Optionally takes a parameter defining "
+"a separator, for example: <userinput><command>join</command> ', '</userinput>"
+msgstr ""
+"Seçili satırları veya tüm belgeyi birbirine katın. İsteğe bağlı olarak bir "
+"ayırıcı tanımlayan bir parametre alır; örneğin <userinput><command>join</"
+"command> ', '</userinput>"
+
+#. Tag: para
+#: advanced.docbook:590
+#, no-c-format
+msgid "Remove all blank spaces from the selected text or the whole document."
+msgstr "Seçili metinden veya tüm belgeden boş boşlukları kaldırın."
+
+#. Tag: para
+#: advanced.docbook:597
+#, no-c-format
+msgid ""
+"This command aligns lines in the selected block or whole document on the "
+"column given by a regular expression given as an argument."
+msgstr ""
+"Bu komut, seçilen bloktaki veya belgenin tamamındaki satırları, argüman "
+"olarak verilen normal bir ifadeyle verilen sütunda hizalar."
+
+#. Tag: para
+#: advanced.docbook:598
+#, no-c-format
+msgid ""
+"If you give an empty pattern it will align on the first non-blank character "
+"by default."
+msgstr ""
+"Boş bir dizgi verirseniz öntanımlı olarak ilk boş olmayan karaktere "
+"hizalanır."
+
+#. Tag: para
+#: advanced.docbook:599
+#, no-c-format
+msgid "If the pattern has a capture it will indent on the captured match."
+msgstr "Dizginin bir yakalaması varsa yakalanan eşleşmeye girintili olacaktır."
+
+#. Tag: emphasis
+#: advanced.docbook:600
+#, no-c-format
+msgid "Examples:"
+msgstr "Örnekler:"
+
+#. Tag: para
+#: advanced.docbook:601
+#, no-c-format
+msgid ""
+"<userinput>alignon -</userinput> will insert spaces before the first '-' of "
+"each lines to align them all on the same column."
+msgstr ""
+"<userinput>alignon -</userinput>, tümünü aynı sütunda hizalamak için her bir "
+"satırın önündeki “-” öncesinde boşluklar ekler."
+
+#. Tag: para
+#: advanced.docbook:602
+#, no-c-format
+msgid ""
+"<userinput>alignon :\\\\s+(.)</userinput> will insert spaces before the "
+"first non-blank character that occurs after a colon to align them all on the "
+"same column."
+msgstr ""
+"<userinput>alignon :\\\\s+(.)</userinput>, tümünü aynı sütunda hizalamak "
+"için bir noktalı virgülden sonra oluşan ilk boş olmayan karakterin öncesine "
+"boşluklar ekler."
+
+#. Tag: para
+#: advanced.docbook:608
+#, no-c-format
+msgid "Unwrap the selected text or the whole document."
+msgstr "Seçili metnin veya tüm belgenin kaydırmasını geri alın."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:612
+#, no-c-format
+msgid "<command>each</command><arg choice=\"req\">STRING script</arg>"
+msgstr "<command>each</command><arg choice=\"req\">DİZİ betik</arg>"
+
+#. Tag: para
+#: advanced.docbook:613
+#, no-c-format
+msgid ""
+"Given a &javascript; function as an argument, call that for the list of "
+"selected lines and replace them with the return value of that callback."
+msgstr ""
+"Argüman olarak bir &javascript; işlevi verildiğinde, seçili satırların "
+"listesi için bunu çağırın ve bunları, o geri çağırmanın dönüş değeriyle "
+"değiştirin."
+
+#. Tag: title
+#: advanced.docbook:617
+#, no-c-format
+msgid "Join selected lines"
+msgstr "Seçili satırları birbirine kat"
+
+#. Tag: userinput
+#: advanced.docbook:618
+#, no-c-format
+msgid "<command>each</command> 'function(lines){return lines.join(\", \")}'"
+msgstr "<command>each</command> 'function(lines){return lines.join(\", \")}'"
+
+#. Tag: para
+#: advanced.docbook:621 advanced.docbook:640 advanced.docbook:658
+#, no-c-format
+msgid "Or, more briefly:"
+msgstr "Veya kısaca:"
+
+#. Tag: userinput
+#: advanced.docbook:622
+#, no-c-format
+msgid "<command>each</command> 'lines.join(\", \")'"
+msgstr "<command>each</command> 'lines.join(\", \")'"
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:631
+#, no-c-format
+msgid "<command>filter</command><arg choice=\"req\">STRING script</arg>"
+msgstr "<command>filter</command><arg choice=\"req\">DİZİ betik</arg>"
+
+#. Tag: para
+#: advanced.docbook:632
+#, no-c-format
+msgid ""
+"Given a &javascript; function as an argument, call that for the list of "
+"selected lines and remove those where the callback returns false."
+msgstr ""
+"Argüman olarak bir &javascript; işlevi verildiğinde, seçili satırların "
+"listesi için bunu çağırın ve geri çağırmanın false döndürdüğü satırları "
+"kaldırın."
+
+#. Tag: title
+#: advanced.docbook:636 advanced.docbook:653
+#, no-c-format
+msgid "Remove blank lines"
+msgstr "Boş satırları kaldır"
+
+#. Tag: userinput
+#: advanced.docbook:637
+#, no-c-format
+msgid "<command>filter</command> 'function(1){return 1.length > 0;}'"
+msgstr "<command>filter</command> 'function(1){return 1.length > 0;}'"
+
+#. Tag: userinput
+#: advanced.docbook:641
+#, no-c-format
+msgid "<command>filter</command> 'line.length > 0'"
+msgstr "<command>filter</command> 'line.length > 0'"
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:648
+#, no-c-format
+msgid "<command>map</command><arg choice=\"req\">STRING script</arg>"
+msgstr "<command>map</command><arg choice=\"req\">DİZİ betik</arg>"
+
+#. Tag: para
+#: advanced.docbook:649
+#, no-c-format
+msgid ""
+"Given a &javascript; function as an argument, call that for the list of "
+"selected lines and replace the line with the value of the callback."
+msgstr ""
+"Argüman olarak bir &javascript; işlevi verildiğinde, seçili satırların "
+"listesi için bunu çağırın ve satırı geri çağırmanın değeriyle değiştirin."
+
+#. Tag: userinput
+#: advanced.docbook:654
+#, no-c-format
+msgid ""
+"<command>map</command> 'function(line){return line.replace(/^s+/,\"\");}'"
+msgstr ""
+"<command>map</command> 'function(line){return line.replace(/^s+/,\"\");}'"
+
+#. Tag: userinput
+#: advanced.docbook:659
+#, no-c-format
+msgid "<command>map</command> 'line.replace(/^s+/,\"\")'"
+msgstr "<command>map</command> 'line.replace(/^s+/,\"\")'"
+
+#. Tag: para
+#: advanced.docbook:667
+#, no-c-format
+msgid "Duplicate the selected lines above the current selection."
+msgstr "Seçili satırları geçerli seçim üzerine çoğaltın."
+
+#. Tag: para
+#: advanced.docbook:673
+#, no-c-format
+msgid "Duplicate the selected lines below the current selection."
+msgstr "Seçili satırları geçerli seçimin altına çoğaltın."
+
+#. Tag: title
+#: advanced.docbook:682
+#, no-c-format
+msgid "Commands for navigation"
+msgstr "Dolaşım için komutlar"
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:687
+#, no-c-format
+msgid "<command>goto</command><arg choice=\"req\">INT line</arg>"
+msgstr "<command>goto</command><arg choice=\"req\">TAMSAYI satır</arg>"
+
+#. Tag: para
+#: advanced.docbook:688
+#, no-c-format
+msgid "This command navigates to the specified line."
+msgstr "Bu komut, belirtilen satıra gider."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:692
+#, no-c-format
+msgid "<command>grep</command> <arg choice=\"req\">STRING pattern</arg>"
+msgstr "<command>grep</command> <arg choice=\"req\">DİZİ dizgi</arg>"
+
+#. Tag: para
+#: advanced.docbook:694
+#, no-c-format
+msgid ""
+"Search the document for the regular expression <userinput>pattern</"
+"userinput>. For more information, see <xref linkend=\"regular-expressions\"/"
+">."
+msgstr ""
+"Belgeyi, <userinput>dizgi</userinput> düzenli ifadesi için arayın. Daha "
+"fazla bilgi için <xref linkend=\"regular-expressions\"/> bölümüne bakın."
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:701
+#, no-c-format
+msgid "<command>find</command><arg choice=\"req\">STRING pattern</arg>"
+msgstr "<command>find</command><arg choice=\"req\">DİZİ dizgi</arg>"
+
+#. Tag: para
+#: advanced.docbook:702
+#, no-c-format
+msgid ""
+"This command navigates to the first occurrence of <userinput>pattern</"
+"userinput> according to the configuration. Following occurrences can be "
+"found using <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find Next</"
+"guimenuitem></menuchoice> (the default shortcut is <keycap>F3</keycap>)."
+msgstr ""
+"Bu komut, yapılandırmaya göre <userinput>dizgi</userinput>’nin ilk oluşuna "
+"gider. İzleyen oluşlar, <menuchoice><guimenu>Düzen</"
+"guimenu><guimenuitem>Sonrakini Bul</guimenuitem></menuchoice> ile "
+"bulunabilir (öntanımlı kısayol: <keycap>F3</keycap>)."
+
+#. Tag: para
+#: advanced.docbook:707
+#, no-c-format
+msgid ""
+"The find command can be configured by appending a colon followed by one or "
+"more options, the form is <userinput>find:options pattern</userinput>. The "
+"following options are supported:"
+msgstr ""
+"Bul komutu, iki nokta üst üste ve ardından bir veya daha fazla seçeneğin "
+"eklenmesiyle yapılandırılabilir; komutun biçimi <userinput>find:seçenekler "
+"dizgi</userinput> biçimindedir. Aşağıdaki seçenekler desteklenir:"
+
+#. Tag: cmdsynopsis
+#: advanced.docbook:752
+#, no-c-format
+msgid "<command>ifind</command><arg choice=\"req\">STRING pattern</arg>"
+msgstr "<command>ifind</command><arg choice=\"req\">DİZİ dizgi</arg>"
+
+#. Tag: para
+#: advanced.docbook:753
+#, no-c-format
+msgid ""
+"This command provides <quote>as-you-type</quote> searching. You can "
+"configure the behavior of the search by appending a colon followed by one or "
+"more options, like this: <userinput>ifind:options pattern</userinput>. "
+"Allowed options are:"
+msgstr ""
+"Bu komut, <quote>yazdıkça</quote> aramayı sağlar. Aramanın davranışını bir "
+"sütun ve seçenekleri ekleyerek yapılandırabilirsiniz; şöyledir: "
+"<userinput>ifind:seçenekler dizgi</userinput>. İzin verilen seçenekler:"
+
+#. Tag: para
+#: advanced.docbook:766
+#, no-c-format
+msgid "Do regular expression search."
+msgstr "Düzenli ifade araması yapın."
+
+#. Tag: title
+#: advanced.docbook:789
+#, no-c-format
+msgid ""
+"Commands for Basic Editor Functions (These depend on the application the "
+"editor component is used in)"
+msgstr ""
+"Temel Düzenleyici İşlevleri için Komutlar (Bunlar düzenleyici bileşenin "
+"kullanıldığı uygulamaya göre değişir)"
+
+#. Tag: para
+#: advanced.docbook:795
+#, no-c-format
+msgid "Save the current document."
+msgstr "Geçerli belgeyi kaydedin."
+
+#. Tag: para
+#: advanced.docbook:800
+#, no-c-format
+msgid "Save all currently open documents."
+msgstr "Tüm geçerli açık belgeleri kaydedin."
+
+#. Tag: para
+#: advanced.docbook:805
+#, no-c-format
+msgid "Close the current document."
+msgstr "Geçerli belgeyi kapatın."
+
+#. Tag: para
+#: advanced.docbook:810
+#, no-c-format
+msgid "Close all open documents."
+msgstr "Tüm açık belgeleri kapatın."
+
+#. Tag: para
+#: advanced.docbook:815
+#, no-c-format
+msgid "Save and close the current document."
+msgstr "Geçerli belgeyi kaydedin ve kapatın."
+
+#. Tag: para
+#: advanced.docbook:820
+#, no-c-format
+msgid "Save and close all currently open documents."
+msgstr "Tüm geçerli açık belgeleri kaydedin ve kapatın."
+
+#. Tag: para
+#: advanced.docbook:825
+#, no-c-format
+msgid "Save and close the current document only if it has changed."
+msgstr "Geçerli belgeyi yalnızca değiştiyse kaydedin ve kapatın."
+
+#. Tag: para
+#: advanced.docbook:831
+#, no-c-format
+msgid "Save and close all currently open documents only if they have changed."
+msgstr ""
+"Geçerli açık olan tüm belgeleri yalnızca değiştiyse kaydedin ve kapatın."
+
+#. Tag: para
+#: advanced.docbook:837
+#, no-c-format
+msgid "Go to the previous document in the documents list."
+msgstr "Belgeler listesindeki önceki belgeye gidin."
+
+#. Tag: para
+#: advanced.docbook:843
+#, no-c-format
+msgid "Go to the next document in the documents list."
+msgstr "Belgeler listesindeki sonraki belgeye gidin."
+
+#. Tag: para
+#: advanced.docbook:849
+#, no-c-format
+msgid "Open a new document in horizontal split view."
+msgstr "Yatay bölünmüş görünümde yeni bir belge açın."
+
+#. Tag: para
+#: advanced.docbook:855
+#, no-c-format
+msgid "Open a new document in vertical split view."
+msgstr "Dikey bölünmüş görünümde yeni bir belge açın."
+
+#. Tag: para
+#: advanced.docbook:861
+#, no-c-format
+msgid "Reload the current document if it has changed on disk."
+msgstr "Geçerli belge diskte değiştiyse yeniden yükleyin."
+
+#. Tag: para
+#: advanced.docbook:867
+#, no-c-format
+msgid "Edit a new document."
+msgstr "Yeni bir belge düzenleyin."
+
+#. Tag: para
+#: advanced.docbook:873
+#, no-c-format
+msgid "Open the Print dialog to print the current document."
+msgstr "Geçerli belgeyi yazdırmak için Yazdır iletişim kutusunu açın."
+
+#. Tag: title
+#: advanced.docbook:887
+#, no-c-format
+msgid "Using Code Folding"
+msgstr "Kod Katlamayı Kullanmak"
+
+#. Tag: para
+#: advanced.docbook:889
+#, no-c-format
+msgid ""
+"Code folding allows you to hide parts of a document in the editor, making it "
+"easier to overview large documents. In &kappname; the foldable regions are "
+"calculated using rules defined in the syntax highlight definitions, and "
+"therefore it is only available in some formats - typically program source "
+"code, XML markup and similar. Most highlight definitions supporting code "
+"folding also lets you manually define foldable regions, typically using the "
+"<userinput>BEGIN</userinput> and <userinput>END</userinput> keywords."
+msgstr ""
+"Kod katlama, bir belgenin bölümlerini düzenleyicide gizlemenize olanak "
+"tanıyarak büyük belgelere genel bakışı kolaylaştırır. &kappname;’de "
+"katlanabilir bölgeler, sözdizim vurgulama tanımlarında tanımlanan kurallar "
+"kullanılarak hesaplanır ve bu nedenle yalnızca bazı biçimlerde "
+"kullanılabilir — tipik olarak program kaynak kodu, XML işaretlemesi ve "
+"benzeri. Kod katlamayı destekleyen çoğu vurgu tanımı, genellikle "
+"<userinput>BEGIN</userinput> ve <userinput>END</userinput> anahtar "
+"sözcüklerini kullanarak katlanabilir bölgeleri elle tanımlamanıza da olanak "
+"tanır."
+
+#. Tag: para
+#: advanced.docbook:897
+#, no-c-format
+msgid ""
+"To use the code folding feature, activate the folding markers using "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Folding Markers</"
+"guimenuitem></menuchoice> menu item if they are not already visible. The "
+"Folding Markers Pane on the left side of the screen displays a graphical "
+"view of the foldable regions, with triangle symbols to indicate the possible "
+"operation on a given region: a top down triangle means that the region is "
+"expanded, clicking it will collapse the region and a right pointing triangle "
+"will be displayed instead."
+msgstr ""
+"Kod katlama özelliğini kullanmak için halihazırda görünmüyorsa "
+"<menuchoice><guimenu>Görünüm</guimenu><guimenuitem>Katlama İmleyicilerini "
+"Göster</guimenuitem></menuchoice> menü ögesini kullanarak katlama "
+"imleyicilerini etkinleştirin. Ekranın sol tarafındaki Katlama İmleyicileri "
+"Bölmesi, belirli bir bölgedeki olası işlemi belirtmek için üçgen "
+"sembolleriyle katlanabilir bölgelerin grafiksel bir görünümünü görüntüler: "
+"Yukarıdan aşağıya bir üçgen, bölgenin genişletildiği anlamına gelir; "
+"tıklandığında bölge daraltılır ve bunun yerine sağa işaret eden bir üçgen "
+"görüntülenir."
+
+#. Tag: para
+#: advanced.docbook:905
+#, no-c-format
+msgid ""
+"Three commands are provided to manipulate the state of folding regions, see "
+"the <link linkend=\"view-code-folding\">menu documentation</link>."
+msgstr ""
+"Katlama bölgelerinin durumunu değiştirmek için üç komut sağlanır; ek bilgi "
+"için <link linkend=\"view-code-folding\">menü belgelendirmesine</link> bakın."
+
+#. Tag: para
+#: advanced.docbook:909
+#, no-c-format
+msgid ""
+"The folded lines are remembered when a file is closed, so when you reopen "
+"the file the folded nodes will still be folded. This applies to reload "
+"operations as well."
+msgstr ""
+"Katlanmış çizgiler, bir dosya kapatıldığında anımsanır, böylece dosyayı "
+"yeniden açtığınızda katlanmış düğümler hâlâ katlanmış olacaktır. Bu aynı "
+"zamanda yeniden yükleme işlemleri için de geçerlidir."
+
+#. Tag: para
+#: advanced.docbook:913
+#, no-c-format
+msgid ""
+"If you do not want to use the code folding feature, you can disable the "
+"<guilabel>Show folding markers (if available)</guilabel> option in the <link "
+"linkend=\"appearance\">Appearance</link> page of the editor configuration."
+msgstr ""
+"Kod katlama özelliğini kullanmak istemiyorsanız düzenleyici "
+"yapılandırmasının <link linkend=\"appearance\">Görünüş</link> bölümündeki "
+"<guilabel>Katlama imleyicilerini göster</guilabel> seçeneğini "
+"kullanabilirsiniz."

@@ -1,0 +1,365 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
+"PO-Revision-Date: 2025-03-06 00:01+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: resizehowto.docbook:2
+#, no-c-format
+msgid "How-To: Resizing a Partition"
+msgstr "Nasıl Yapılır: Bir Bölüntüyü Yeniden Boyutlandırmak"
+
+#. Tag: para
+#: resizehowto.docbook:4
+#, no-c-format
+msgid ""
+"This how-to explains the resizing of a <glossterm linkend=\"glossary-"
+"partition\">partition</glossterm> that is becoming too full. See the "
+"following screenshot for the initial situation before resizing:"
+msgstr ""
+"Bu nasıl yapılır belgesi, fazla dolmakta olan bir <glossterm linkend="
+"\"glossary-partition\">bölüntünün</glossterm> yeniden boyutlandırılmasını "
+"açıklar. Yeniden boyutlandırmadan önceki ilk durum için aşağıdaki ekran "
+"görüntüsüne bakın:"
+
+#. Tag: phrase
+#: resizehowto.docbook:12
+#, no-c-format
+msgid "Main window before resizing partitions"
+msgstr "Bölüntüleri yeniden boyutlandırmadan önce ana pencere"
+
+#. Tag: para
+#: resizehowto.docbook:17
+#, no-c-format
+msgid ""
+"On <glossterm linkend=\"glossary-device\">device</glossterm> <quote>/dev/"
+"sdb</quote>, partition <quote>sdb2</quote> has only little free space left "
+"while the other partition, <quote>sdb1</quote>, is far from being full. For "
+"that reason it seems advisable to make the first partition a little smaller "
+"and grow <quote>sdb2</quote> so it has more free space available."
+msgstr ""
+"<quote>/dev/sdb</quote> <glossterm linkend=\"glossary-device\">aygıtı</"
+"glossterm>üzerinde, <quote>sdb2</quote> bölüntüde çok az boş alan kalırken, "
+"diğer bölüntü <quote >sdb1</quote>, dolu olmaktan çok uzak. Bu nedenle, ilk "
+"bölüntünün biraz daha küçültülmesi ve daha fazla kullanılabilir boş alana "
+"sahip olması için <quote>sdb2</quote> ögesinin büyütülmesi tavsiye edilir."
+
+#. Tag: title
+#: resizehowto.docbook:22
+#, no-c-format
+msgid "Note: You cannot modify mounted partitions."
+msgstr "Not: Bağlı bölüntüleri değiştiremezsiniz."
+
+#. Tag: para
+#: resizehowto.docbook:23
+#, no-c-format
+msgid ""
+"In the screenshot above both partitions are not currently mounted. If one or "
+"both of them were mounted you would have to unmount them first using <xref "
+"linkend=\"menu-partition-mount\"/>."
+msgstr ""
+"Yukarıdaki ekran görüntüsünde, her iki bölüntü de şu anda bağlı değil. "
+"Bunlardan biri veya her ikisi takılıysa önce <xref linkend=\"menu-partition-"
+"mount\"/> kullanarak bunları kaldırmanız gerekir."
+
+#. Tag: para
+#: resizehowto.docbook:26
+#, no-c-format
+msgid ""
+"The first step is to make more room for the partition to grow, so start by "
+"shrinking <quote>sdb1</quote>. Click on the partition and choose <xref "
+"linkend=\"menu-partition-resize\"/>. The following dialog comes up:"
+msgstr ""
+"İlk adım, bölüntünün büyütülmesi için daha fazla yer açmaktır, bu nedenle "
+"<quote>sdb1</quote>’i küçülterek başlayın. Bölüntüye tıklayın ve <xref "
+"linkend=\"menu-partition-resize\"/> ögesini seçin. Aşağıdaki iletişim kutusu "
+"gelir:"
+
+#. Tag: phrase
+#: resizehowto.docbook:34
+#, no-c-format
+msgid "Resize dialog before resizing /dev/sdb1"
+msgstr "/dev/sdb1 bölüntüsünü yeniden boyutlandırmadan önceki pencere"
+
+#. Tag: para
+#: resizehowto.docbook:39
+#, no-c-format
+msgid ""
+"The dialog allows you to resize the partition in multiple ways. You can "
+"either drag the right handle to the left until the partition has the desired "
+"size or simply enter the size in the <guilabel>Size</guilabel> text field. "
+"Another possibility would be to adjust the size by clicking on the little "
+"arrows next to the text field, but that is a little tedious for larger "
+"changes."
+msgstr ""
+"İletişim kutusu, bölüntü birden çok şekilde yeniden boyutlandırmanıza olanak "
+"tanır. Bölüntü istenen boyuta gelene kadar sağ tutacı sola sürükleyebilir "
+"veya boyutu <guilabel>Boyut</guilabel> metin alanına girebilirsiniz. Başka "
+"bir olasılık, metin alanının yanındaki küçük oklara tıklayarak boyutu "
+"ayarlamak olabilir; ancak bu, daha büyük değişiklikler için biraz can "
+"sıkıcıdır."
+
+#. Tag: para
+#: resizehowto.docbook:43
+#, no-c-format
+msgid ""
+"Whichever way you prefer for setting the new size, the dialog should now "
+"look like this:"
+msgstr ""
+"Yeni boyutu ayarlamak için hangi yolu tercih ederseniz edin, iletişim kutusu "
+"şu şekilde görünmelidir:"
+
+#. Tag: phrase
+#: resizehowto.docbook:51
+#, no-c-format
+msgid "Resize dialog after resizing /dev/sdb1"
+msgstr ""
+"/dev/sdb1’i yeniden boyutlandırdıktan sonra yeniden boyutlandırma iletişim "
+"kutusu"
+
+#. Tag: para
+#: resizehowto.docbook:56
+#, no-c-format
+msgid ""
+"After you click on <guibutton>OK</guibutton>, a new operation is added to "
+"the pending operations list and the graphical view and tree view of the "
+"device are updated to reflect the new situation:"
+msgstr ""
+"<guibutton>Tamam</guibutton>’a tıkladıktan sonra bekleyen işlemler listesine "
+"yeni bir işlem eklenir ve aygıtın grafik görünümü ve ağaç görünümü yeni "
+"durumu yansıtacak şekilde güncellenir:"
+
+#. Tag: phrase
+#: resizehowto.docbook:64
+#, no-c-format
+msgid "Main window after resizing /dev/sdb1"
+msgstr "/dev/sdb1’i yeniden boyutlandırdıktan sonra ana pencere"
+
+#. Tag: title
+#: resizehowto.docbook:70
+#, no-c-format
+msgid "Note: Operations are previewed first before applying them."
+msgstr "Not: İşlemler, uygulanmadan önce önizlenir."
+
+#. Tag: para
+#: resizehowto.docbook:71
+#, no-c-format
+msgid ""
+"Although the main window reflects the device's state how it will be after "
+"applying the new operation, the operation has in fact not been applied yet: "
+"While operations are pending you can still undo them (one by one using <xref "
+"linkend=\"menu-edit-undo\"/> or <xref linkend=\"menu-edit-clear\"/> to undo "
+"all of them) or quit &partman;, and nothing will have been modified at all."
+msgstr ""
+"Ana pencere, aygıtın durumunu yeni işlemi uyguladıktan sonra nasıl olacağını "
+"yansıtsa da, işlem aslında henüz uygulanmadı: İşlemler beklemedeyken yine de "
+"onları geri alabilirsiniz (<xref linkend=\"menu-edit-undo\"/> kullanarak "
+"teker teker veya tümünü geri almak için <xref linkend=\"menu-edit-clear\"/>) "
+"veya &partman; uygulamasından çıkın ve hiçbir şey değiştirilmemiş olacaktır."
+
+#. Tag: para
+#: resizehowto.docbook:74
+#, no-c-format
+msgid ""
+"Now that there is some free space between the two partitions you can move "
+"and grow partition <quote>sdb2</quote>. First, click on <quote>sdb2</quote> "
+"and choose <xref linkend=\"menu-partition-resize\"/> again. The resize "
+"dialog comes up once more, this time for the second partition. Drag its left "
+"handle to the leftmost end so that the dialog looks like this:"
+msgstr ""
+"Artık iki bölüntü arasında bir miktar boş alan olduğuna göre, <quote>sdb2</"
+"quote> bölüntüsünü taşıyabilir ve büyütebilirsiniz. Önce <quote>sdb2</quote> "
+"üzerine tıklayın ve yeniden <xref linkend=\"menu-partition-resize\"/> "
+"ögesini seçin. Yeniden boyutlandırma iletişim kutusu, bu sefer ikinci "
+"bölüntü için bir kez daha açılır. İletişim kutusunun şöyle görünmesi için "
+"sol tutacını en sol uca sürükleyin:"
+
+#. Tag: phrase
+#: resizehowto.docbook:82
+#, no-c-format
+msgid "Resize dialog after resizing /dev/sdb2"
+msgstr ""
+"/dev/sdb2’yi yeniden boyutlandırma sonrası yeniden boyutlandırma iletişim "
+"kutusu"
+
+#. Tag: para
+#: resizehowto.docbook:87
+#, no-c-format
+msgid ""
+"Be careful to make sure that the <guilabel>Free space before</guilabel> text "
+"field really does show <quote>0 MiB</quote> because otherwise there will be "
+"a little free space left between the partitions that will then be wasted."
+msgstr ""
+"<guilabel>Öncesindeki boş alan</guilabel> metin alanının gerçekten <quote>0 "
+"MiB</quote> gösterdiğinden emin olun, aksi takdirde bölüntüler arasında "
+"kalan ve daha sonra boşa gidecek olan biraz boş alan olacaktır."
+
+#. Tag: para
+#: resizehowto.docbook:91
+#, no-c-format
+msgid ""
+"Now click <guibutton>OK</guibutton> again. In the main window things now "
+"look like this:"
+msgstr ""
+"Şimdi yeniden <guibutton>Tamam</guibutton>’a tıklayın. Ana pencerede işler "
+"şimdi şöyle görünür:"
+
+#. Tag: phrase
+#: resizehowto.docbook:99
+#, no-c-format
+msgid "Main window after resizing /dev/sdb2"
+msgstr "/dev/sdb2’yi yeniden boyutlandırma sonra ana pencere"
+
+#. Tag: para
+#: resizehowto.docbook:104
+#, no-c-format
+msgid ""
+"This already looks like what you wanted, so choose <xref linkend=\"menu-edit-"
+"apply\"/>. A dialog box will come up and ask you if you are sure to apply "
+"the pending operations. Confirm this dialog box and &partman; will begin "
+"executing operations:"
+msgstr ""
+"Bu zaten istediğiniz gibi görünüyor, bu yüzden <xref linkend=\"menu-edit-"
+"apply\"/> ögesini seçin. Bir iletişim kutusu açılacak ve bekleyen işlemleri "
+"uygulayacağınızdan emin olup olmadığınızı soracaktır. Bu iletişim kutusunu "
+"onaylayın ve &partman; işlemleri yürütmeye başlayacak:"
+
+#. Tag: phrase
+#: resizehowto.docbook:112
+#, no-c-format
+msgid "&partman; is applying operations"
+msgstr "&partman;, işlemleri uyguluyor"
+
+#. Tag: para
+#: resizehowto.docbook:117
+#, no-c-format
+msgid ""
+"While operations are being executed you can click on the plus-sign next to "
+"each operation in the list to find out the jobs it is made up of and see "
+"which job is currently being run."
+msgstr ""
+"İşlemler yapılırken listedeki her işlemin yanındaki artı işaretine "
+"tıklayarak o işlemin hangi işlerden oluştuğunu öğrenebilir ve o anda hangi "
+"işin çalıştığını görebilirsiniz."
+
+#. Tag: para
+#: resizehowto.docbook:121
+#, no-c-format
+msgid ""
+"Resizing a partition in the way you resized <quote>/dev/sdb2</quote> above "
+"always means it has to be moved to the left first before it can be grown "
+"because partitions can never be grown to the left directly. Unfortunately, "
+"moving such a large partition will take quite some time. It is not unusual "
+"for an operation like this to take several minutes or even more."
+msgstr ""
+"Bir bölüntüyü yukarıda <quote>/dev/sdb2</quote> olarak yeniden "
+"boyutlandırdığınız şekilde yeniden boyutlandırmak, bölüntüler hiçbir zaman "
+"doğrudan sola doğru büyütülemeyeceğinden, büyütülebilmesi için önce sola "
+"taşınması gerektiği anlamına gelir. Ne yazık ki, bu kadar büyük bir "
+"bölüntüyü taşımak oldukça zaman alacaktır. Bunun gibi bir işlemin birkaç "
+"dakika veya daha fazla sürmesi alışılmadık bir durum değildir."
+
+#. Tag: para
+#: resizehowto.docbook:125
+#, no-c-format
+msgid "Finally, all operations will have been successfully completed:"
+msgstr "Son olarak, tüm işlemler başarıyla tamamlanmış olacaktır:"
+
+#. Tag: phrase
+#: resizehowto.docbook:133
+#, no-c-format
+msgid "Progress dialog after successfully applying operations"
+msgstr "İşlemleri başarıyla uyguladıktan sonra ilerleme penceresi"
+
+#. Tag: para
+#: resizehowto.docbook:138
+#, no-c-format
+msgid ""
+"By clicking on <guibutton>OK</guibutton> you can now close the progress "
+"dialog and return to the main window. &partman; will rescan your devices at "
+"this point so that might take a few seconds."
+msgstr ""
+"<guibutton>Tamam</guibutton>’a tıklayarak artık ilerleme iletişim kutusunu "
+"kapatabilir ve ana pencereye dönebilirsiniz. &partman;, bu noktada "
+"aygıtlarınızı yeniden tarar, bu işlem birkaç saniye sürebilir."
+
+#. Tag: para
+#: resizehowto.docbook:142
+#, no-c-format
+msgid ""
+"If you are interested in some more details about the operations that were "
+"just run click on <guibutton>Details</guibutton>. You will see the detailed "
+"report that is always generated (and updated on the fly) while &partman; "
+"executes operations:"
+msgstr ""
+"Az önce çalıştırılan işlemlerle ilgili daha fazla ayrıntıyla "
+"ilgileniyorsanız <guibutton>Ayrıntılar</guibutton>’a tıklayın. &partman; "
+"uygulamasının işlemleri yürütmesi sırasında her zaman oluşturulan (ve anında "
+"güncellenen) ayrıntılı raporu göreceksiniz:"
+
+#. Tag: phrase
+#: resizehowto.docbook:150
+#, no-c-format
+msgid "Progress dialog details"
+msgstr "İlerleme penceresi ayrıntıları"
+
+#. Tag: para
+#: resizehowto.docbook:155
+#, no-c-format
+msgid ""
+"This report is particularly of interest if an error occurs while executing "
+"operations. A report shows each operation, each job and each external "
+"command that is being run and is thus very helpful when trying to track down "
+"problems."
+msgstr ""
+"Bu rapor, özellikle işlemler yürütülürken bir hata oluşursa ilgi çekicidir. "
+"Bir rapor, çalıştırılmakta olan her işlemi, her işi ve her harici komutu "
+"gösterir ve bu nedenle sorunları izlemeye çalışırken çok yardımcı olur."
+
+#. Tag: para
+#: resizehowto.docbook:159
+#, no-c-format
+msgid ""
+"You can save the report as <acronym>HTML</acronym> or view it in an external "
+"web browser."
+msgstr ""
+"Raporu <acronym>HTML</acronym> olarak kaydedebilir veya dış bir web "
+"tarayıcısında görüntüleyebilirsiniz."
+
+#. Tag: para
+#: resizehowto.docbook:164
+#, no-c-format
+msgid ""
+"Always save the detailed report as <acronym>HTML</acronym> when executing "
+"the operations fails with errors or warnings for later reference. You might "
+"also want to include it in a bug report you submit to the &kde; bug tracking "
+"system at <ulink url=\"https://bugs.kde.org\">bugs.kde.org</ulink>."
+msgstr ""
+"İşlemler yürütülürken hatalarla veya uyarılarla başarısız olduğunda daha "
+"sonra başvurmak üzere ayrıntılı raporu her zaman <acronym>HTML</acronym> "
+"olarak kaydedin. Bunu, <ulink url=\"https://bugs.kde.org\">bugs.kde.org</"
+"ulink> adresindeki &kde; hata izleme sistemine gönderdiğiniz bir hata "
+"raporunda da içermek isteyebilirsiniz."
+
+#. Tag: para
+#: resizehowto.docbook:169
+#, no-c-format
+msgid ""
+"To hide the details again click on <guibutton>Details</guibutton> and to "
+"finally close the progress dialog click on <guibutton>OK</guibutton>."
+msgstr ""
+"Ayrıntıları yeniden gizlemek için <guibutton>Ayrıntılar</guibutton>’a "
+"tıklayın ve son olarak ilerleme iletişim kutusunu kapatmak için "
+"<guibutton>Tamam</guibutton>’a tıklayın."

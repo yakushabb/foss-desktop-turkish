@@ -1,0 +1,492 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: ark_man-ark.1\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-05 00:46+0000\n"
+"PO-Revision-Date: 2025-02-27 19:23+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: man-ark.1.docbook:8
+#, no-c-format
+msgid "&ark; User's Manual"
+msgstr "&ark; Kullanıcı Kılavuzu"
+
+#. Tag: author
+#: man-ark.1.docbook:10
+#, no-c-format
+msgid ""
+"<firstname>Lauri</firstname><surname>Watts</surname> <contrib>Initial "
+"version of &ark; man page in 2005.</contrib> <email>lauri@kde.org</email>"
+msgstr ""
+"<firstname>Lauri</firstname><surname>Watts</surname> <contrib>İlk &ark; "
+"kılavuz sayfası sürümü, 2005.</contrib> <email>lauri@kde.org</email>"
+
+#. Tag: author
+#: man-ark.1.docbook:14
+#, no-c-format
+msgid ""
+"<firstname>Raphael</firstname><surname>Kubo da Costa</surname> "
+"<contrib>Update of &ark; man page in 2009.</contrib> <email>rakuco@FreeBSD."
+"org</email>"
+msgstr ""
+"<firstname>Raphael</firstname><surname>Kubo da Costa</surname> "
+"<contrib>&ark; kılavuz sayfası güncelleme, 2009.</contrib> "
+"<email>rakuco@FreeBSD.org</email>"
+
+#. Tag: author
+#: man-ark.1.docbook:18
+#, no-c-format
+msgid ""
+"<firstname>Ragnar</firstname><surname>Thomsen</surname> <contrib>Update of "
+"&ark; man page in 2015 and 2016.</contrib> <email>rthomsen6@gmail.com</email>"
+msgstr ""
+"<firstname>Ragnar</firstname><surname>Thomsen</surname> <contrib>&ark; "
+"kılavuz sayfası güncelleme, 2015 ve 2016.</contrib> <email>rthomsen6@gmail."
+"com</email>"
+
+#. Tag: date
+#: man-ark.1.docbook:22
+#, no-c-format
+msgid "2018-08-08"
+msgstr "2018-08-08"
+
+#. Tag: releaseinfo
+#: man-ark.1.docbook:23
+#, no-c-format
+msgid "18.12"
+msgstr "18.12"
+
+#. Tag: productname
+#: man-ark.1.docbook:24
+#, no-c-format
+msgid "KDE Applications"
+msgstr "KDE Uygulamaları"
+
+#. Tag: manvolnum
+#: man-ark.1.docbook:29
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr "<manvolnum>1</manvolnum>"
+
+#. Tag: refpurpose
+#: man-ark.1.docbook:34
+#, no-c-format
+msgid "&kde; archiving tool"
+msgstr "&kde; arşivleme aracı"
+
+#. Tag: cmdsynopsis
+#: man-ark.1.docbook:38
+#, no-c-format
+msgid ""
+"<command>ark</command> <group choice=\"opt\"><option>-b</option></group> "
+"<group choice=\"opt\"><option>-a</option></group> <group choice=\"opt"
+"\"><option>-e</option></group> <group choice=\"opt\"><option>-O</option></"
+"group> <group choice=\"opt\"><option>-c</option></group> <group choice=\"opt"
+"\"><option>-f</option> <replaceable> suffix</replaceable></group> <group "
+"choice=\"opt\"><option>-p</option></group> <group choice=\"opt\"><option>-t</"
+"option> <replaceable> file</replaceable></group> <group choice=\"opt"
+"\"><option>-d</option></group> <group choice=\"opt\"><option>-m</option></"
+"group> <group choice=\"opt\"><option>-o</option> <replaceable> directory</"
+"replaceable></group> <arg choice=\"opt\">&kde-frameworks; Generic Options</"
+"arg> <arg choice=\"opt\">&Qt; Generic Options</arg>"
+msgstr ""
+"<command>ark</command> <group choice=\"opt\"><option>-b</option></group> "
+"<group choice=\"opt\"><option>-a</option></group> <group choice=\"opt"
+"\"><option>-e</option></group> <group choice=\"opt\"><option>-O</option></"
+"group> <group choice=\"opt\"><option>-c</option></group> <group choice=\"opt"
+"\"><option>-f</option> <replaceable> sonek</replaceable></group> <group "
+"choice=\"opt\"><option>-p</option></group> <group choice=\"opt\"><option>-t</"
+"option> <replaceable> dosya</replaceable></group> <group choice=\"opt"
+"\"><option>-d</option></group> <group choice=\"opt\"><option>-m</option></"
+"group> <group choice=\"opt\"><option>-o</option> <replaceable> dizin</"
+"replaceable></group> <arg choice=\"opt\">&kde-frameworks; Genel Seçenekleri</"
+"arg> <arg choice=\"opt\">&Qt; Genel Seçenekleri</arg>"
+
+#. Tag: title
+#: man-ark.1.docbook:60
+#, no-c-format
+msgid "Description"
+msgstr "Açıklama"
+
+#. Tag: para
+#: man-ark.1.docbook:61
+#, no-c-format
+msgid ""
+"&ark; is a program for managing various compressed file formats within "
+"&kde;. Archives can be viewed, extracted, created and modified with &ark;. "
+"The program can handle various formats such as <application>tar</"
+"application>, <application>gzip</application>, <application>bzip2</"
+"application>, <application>zip</application>, <application>rar</application> "
+"(when the appropriate libraries or command-line programs are installed)."
+msgstr ""
+"&ark;, &kde; için birçok farklı sıkıştırılmış dosya biçimi yönetimini yapan "
+"bir programdır. &ark; ile arşivler görüntülenebilir, çıkarılabilir, "
+"oluşturulabilir ve düzenlenebilir. Program, <application>tar</application>, "
+"<application>gzip</application>, <application>bzip2</application>, "
+"<application>zip</application>, <application>rar</application> gibi birçok "
+"farklı biçimi (uygun kitaplık veya komut satırı programları kuruluysa) "
+"desteklemektedir."
+
+#. Tag: title
+#: man-ark.1.docbook:72
+#, no-c-format
+msgid "Operation modes"
+msgstr "İşlem kipleri"
+
+#. Tag: para
+#: man-ark.1.docbook:73
+#, no-c-format
+msgid ""
+"&ark; can be used either as a stand-alone &GUI; program as well as a command-"
+"line program in order to perform some specific tasks."
+msgstr ""
+"&ark;, tek başına bir grafiksel program olarak kullanılabileceği gibi, bazı "
+"belirli görevleri gerçekleştirmek için bir komut satırı programı olarak da "
+"kullanılabilir."
+
+#. Tag: para
+#: man-ark.1.docbook:75
+#, no-c-format
+msgid ""
+"If invoked without the -b (--batch) or -c (--add) options, &ark; is started "
+"as a normal &GUI; program."
+msgstr ""
+"-b (--batch) veya -c (--add) seçenekleri olmadan çağrılırsa &ark;, normal "
+"bir grafiksel program olarak başlatılır."
+
+#. Tag: para
+#: man-ark.1.docbook:77
+#, no-c-format
+msgid ""
+"When the -b (--batch) option is used, &ark; can be used to extract the "
+"contents of one or more files directly from the command-line, without "
+"launching its &GUI;."
+msgstr ""
+"-b (--batch) seçeneği kullanıldığında &ark;, grafik arayüzünü başlatmadan "
+"bir veya daha çok dosyanın içeriğini doğrudan komut satırından çıkarmak için "
+"kullanılabilir."
+
+#. Tag: para
+#: man-ark.1.docbook:80
+#, no-c-format
+msgid ""
+"When the -c (--add) option is used, &ark; prompts for files that should be "
+"added to a new archive or to an existing archive."
+msgstr ""
+"-c (--add) seçeneği kullanıldığında &ark;, yeni veya var olan bir arşive "
+"eklenmesi gereken dosyaları ister."
+
+#. Tag: title
+#: man-ark.1.docbook:87
+#, no-c-format
+msgid "Options"
+msgstr "Seçenekler"
+
+#. Tag: option
+#: man-ark.1.docbook:91
+#, no-c-format
+msgid "-d, --dialog"
+msgstr "-d, --dialog"
+
+#. Tag: para
+#: man-ark.1.docbook:93
+#, no-c-format
+msgid "Show a dialog for specifying the options for a batch or add operation."
+msgstr ""
+"Toplu iş veya ekleme işlemine ilişkin seçenekleri belirlemek için bir "
+"iletişim kutusu gösterin."
+
+#. Tag: option
+#: man-ark.1.docbook:97
+#, no-c-format
+msgid "-m, --mimetypes"
+msgstr "-m, --mimetypes"
+
+#. Tag: para
+#: man-ark.1.docbook:99
+#, no-c-format
+msgid "List supported &MIME; types."
+msgstr "Desteklenen &MIME; türlerini listele."
+
+#. Tag: option
+#: man-ark.1.docbook:103
+#, no-c-format
+msgid "-o, --destination <replaceable>directory</replaceable>"
+msgstr "-o, --destination <replaceable>dizin</replaceable>"
+
+#. Tag: para
+#: man-ark.1.docbook:105
+#, no-c-format
+msgid ""
+"Default the extraction directory to <replaceable>directory</replaceable>. If "
+"not passed, the current path is used."
+msgstr ""
+"Çıkarma dizinini öntanımlı olarak <replaceable>dizin</replaceable>’e ayarla. "
+"Geçirilmezse geçerli yol kullanılır."
+
+#. Tag: title
+#: man-ark.1.docbook:112
+#, no-c-format
+msgid "Options for adding files"
+msgstr "Dosyalar eklemek için seçenekler"
+
+#. Tag: option
+#: man-ark.1.docbook:115
+#, no-c-format
+msgid "-c, --add"
+msgstr "-c, --add"
+
+#. Tag: para
+#: man-ark.1.docbook:117
+#, no-c-format
+msgid ""
+"Query the user for an archive filename and add specified files to it. Quit "
+"when finished."
+msgstr ""
+"Kullanıcıyı bir arşiv dosya adı için sorgula ve belirtilen dosyaları buna "
+"ekle. İş bitince çıkılır."
+
+#. Tag: option
+#: man-ark.1.docbook:122
+#, no-c-format
+msgid "-t, --add-to <replaceable>filename</replaceable>"
+msgstr "-t, --add-to <replaceable>dosyaadı</replaceable>"
+
+#. Tag: para
+#: man-ark.1.docbook:124
+#, no-c-format
+msgid ""
+"Add the specified files to <replaceable>filename</replaceable>. Create "
+"archive if it does not exist. Quit when finished."
+msgstr ""
+"Belirtilen dosyaları <replaceable>dosyaadı</replaceable>’na ekle. Yoksa "
+"arşiv dosyası oluştur. İş bitince çıkılır."
+
+#. Tag: option
+#: man-ark.1.docbook:129
+#, no-c-format
+msgid "-p, --changetofirstpath"
+msgstr "-p, --changetofirstpath"
+
+#. Tag: para
+#: man-ark.1.docbook:131
+#, no-c-format
+msgid ""
+"Change the current directory to the first entry and add all other entries "
+"relative to this one."
+msgstr ""
+"Geçerli dizini ilk girdiyle değiştir ve buna göre diğer tüm girdileri ekle."
+
+#. Tag: option
+#: man-ark.1.docbook:137
+#, no-c-format
+msgid "-f, --autofilename <replaceable>suffix</replaceable>"
+msgstr "-f, --autofilename <replaceable>sonek</replaceable>"
+
+#. Tag: para
+#: man-ark.1.docbook:139
+#, no-c-format
+msgid ""
+"Automatically choose a filename, with the selected <replaceable>suffix</"
+"replaceable> (for example rar, tar.gz, zip or any other supported types)."
+msgstr ""
+"Bir <replaceable>sonek</replaceable> kullanarak kendiliğinden bir dosya adı "
+"seç (örneğin, rar, tar.gz, zip veya desteklenen diğer dosya türleri)."
+
+#. Tag: title
+#: man-ark.1.docbook:147
+#, no-c-format
+msgid "Options for batch extraction"
+msgstr "Toplu çıkarma işlemleri için seçenekler"
+
+#. Tag: option
+#: man-ark.1.docbook:150
+#, no-c-format
+msgid "-b, --batch"
+msgstr "-b, --batch"
+
+#. Tag: para
+#: man-ark.1.docbook:152
+#, no-c-format
+msgid ""
+"Use the batch interface instead of the usual dialog. This option is implied "
+"if more than one url is specified."
+msgstr ""
+"Her zamanki iletişim kutusu yerine toplu arabirimi kullan. Birden fazla URL "
+"belirtilmişse bu seçenek belirtilir."
+
+#. Tag: option
+#: man-ark.1.docbook:158
+#, no-c-format
+msgid "-e, --autodestination"
+msgstr "-e, --autodestination"
+
+#. Tag: para
+#: man-ark.1.docbook:160
+#, no-c-format
+msgid ""
+"The destination argument will be set to the path of the first file supplied."
+msgstr "Hedef argümanı, sağlanan ilk dosyanın yoluna ayarlanacaktır."
+
+#. Tag: option
+#: man-ark.1.docbook:166
+#, no-c-format
+msgid "-a, --autosubfolder"
+msgstr "-a, --autosubfolder"
+
+#. Tag: para
+#: man-ark.1.docbook:168
+#, no-c-format
+msgid ""
+"Archive contents will be read, and if detected to not be a single folder "
+"archive, a subfolder by the name of the archive will be created."
+msgstr ""
+"Arşiv içeriği okunur ve tek klasör arşivi olmadığı algılanırsa arşivin adına "
+"göre bir alt klasör oluşturulur."
+
+#. Tag: option
+#: man-ark.1.docbook:174
+#, no-c-format
+msgid "-O, --opendestination"
+msgstr "-O, --opendestination"
+
+#. Tag: para
+#: man-ark.1.docbook:176
+#, no-c-format
+msgid "Open the destination folder when the extraction is complete."
+msgstr "Çıkarma işlemi tamamlandığında hedef klasörü aç."
+
+#. Tag: title
+#: man-ark.1.docbook:185
+#, no-c-format
+msgid "See Also"
+msgstr "Ayrıca"
+
+#. Tag: member
+#: man-ark.1.docbook:187
+#, no-c-format
+msgid ""
+"More detailed user documentation is available from <ulink url=\"help:/ark"
+"\">help:/ark</ulink> (either enter this &URL; into &konqueror;, or run "
+"<userinput><command>khelpcenter</command> <parameter>help:/ark</parameter></"
+"userinput>)."
+msgstr ""
+"Ayrıntılı kullanıcı belgelendirmesine <ulink url=\"help:/ark\">help:/ark</"
+"ulink> bölümünden ulaşabilirsiniz (ya bu &URL;’yi &konqueror;’a girin ya da "
+"<userinput><command>khelpcenter</command> <parameter>help:/ark</parameter></"
+"userinput> komutunu çalıştırın)."
+
+#. Tag: member
+#: man-ark.1.docbook:192
+#, no-c-format
+msgid "kf6options(7)"
+msgstr "kf6options(7)"
+
+#. Tag: member
+#: man-ark.1.docbook:193
+#, no-c-format
+msgid "qt6options(7)"
+msgstr "qt6options(7)"
+
+#. Tag: title
+#: man-ark.1.docbook:198
+#, no-c-format
+msgid "Examples"
+msgstr "Örnekler"
+
+#. Tag: userinput
+#: man-ark.1.docbook:202
+#, no-c-format
+msgid ""
+"<command>ark</command> <option>--batch</option> <replaceable>archive.tar."
+"bz2</replaceable>"
+msgstr ""
+"<command>ark</command> <option>--batch</option> <replaceable>arşiv.tar.bz2</"
+"replaceable>"
+
+#. Tag: para
+#: man-ark.1.docbook:205
+#, no-c-format
+msgid ""
+"Will extract <replaceable>archive.tar.bz2</replaceable> into the current "
+"directory without showing any &GUI;."
+msgstr ""
+"<replaceable>arşiv.tar.bz2</replaceable> dosyasını, herhangi bir grafik "
+"arayüz göstermeden geçerli dizine çıkarır."
+
+#. Tag: userinput
+#: man-ark.1.docbook:212
+#, no-c-format
+msgid ""
+"<command>ark</command> <option>-b</option> <option>-d</option> "
+"<replaceable>archive.tar.bz2</replaceable> <replaceable>archive2.zip</"
+"replaceable>"
+msgstr ""
+"<command>ark</command> <option>-b</option> <option>-d</option> "
+"<replaceable>arşiv.tar.bz2</replaceable> <replaceable>arşiv2.zip</"
+"replaceable>"
+
+#. Tag: para
+#: man-ark.1.docbook:215
+#, no-c-format
+msgid ""
+"Will first show an extraction options dialog and then extract both "
+"<replaceable>archive.tar.bz2</replaceable> and <replaceable>archive2.zip</"
+"replaceable> into the directory chosen in the dialog."
+msgstr ""
+"Önce çıkarma seçenekleri iletişim kutusunu gösterip <replaceable>arşiv.tar."
+"bz2</replaceable> ve <replaceable>arşiv2.zip</replaceable> dosyalarını "
+"iletişim kutusunda seçili dizine çıkarır."
+
+#. Tag: userinput
+#: man-ark.1.docbook:222
+#, no-c-format
+msgid ""
+"<command>ark</command> <option>--add-to</option> <replaceable>my-archive."
+"zip</replaceable> <replaceable>photo1.jpg</replaceable> <replaceable>text."
+"txt</replaceable>"
+msgstr ""
+"<command>ark</command> <option>--add-to</option> <replaceable>arşivim.zip</"
+"replaceable> <replaceable>fotoğraf.jpg</replaceable> <replaceable>metin.txt</"
+"replaceable>"
+
+#. Tag: para
+#: man-ark.1.docbook:226
+#, no-c-format
+msgid ""
+"Will create <replaceable>my-archive.zip</replaceable> if does not exist and "
+"then add <replaceable>photo1.jpg</replaceable> and <replaceable>text.txt</"
+"replaceable> to it."
+msgstr ""
+"Yoksa <replaceable>arşivim.zip</replaceable> dosyasını oluşturulur, ardından "
+"<replaceable>fotoğraf.jpg</replaceable> ve <replaceable>metin.txt</"
+"replaceable> dosyaları içine eklenir."
+
+#. Tag: title
+#: man-ark.1.docbook:236
+#, no-c-format
+msgid "Maintainership"
+msgstr "Proje Yönetimi"
+
+#. Tag: para
+#: man-ark.1.docbook:237
+#, no-c-format
+msgid ""
+"&ark; is currently maintained by <emphasis role=\"bold\">Elvis Angelaccio</"
+"emphasis> and <emphasis role=\"bold\">Ragnar Thomsen</emphasis>."
+msgstr ""
+"&ark; bakımı şu anda <emphasis role=\"bold\">Elvis Angelaccio</emphasis> ve "
+"<emphasis role=\"bold\">Ragnar Thomsen</emphasis> tarafından yapılmaktadır."
+
+#~ msgid "16.08"
+#~ msgstr "16.08"

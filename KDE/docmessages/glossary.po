@@ -1,0 +1,2085 @@
+# translation of khelpcenter_glossary.po to Türkçe
+# Copyright (C) 2004 Free Software Foundation, Inc.
+#
+# Engin ÇAĞATAY <tulliana@gmail.com>, 2004, 2012.
+# Volkan Gezer <volkangezer@gmail.com>, 2013, 2017.
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: khelpcenter_glossary\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-05-29 00:58+0000\n"
+"PO-Revision-Date: 2025-03-08 00:27+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: index.docbook:26
+#, no-c-format
+msgid "Technologies"
+msgstr "Teknolojiler"
+
+#. Tag: glossterm
+#: index.docbook:28
+#, no-c-format
+msgid "Akonadi"
+msgstr "Akonadi"
+
+#. Tag: para
+#: index.docbook:29
+#, no-c-format
+msgid ""
+"The data storage access mechanism for all PIM (Personal Information Manager) "
+"data in &kde; SC 4. One single storage and retrieval system allows "
+"efficiency and extensibility not possible under &kde; 3, where each PIM "
+"component had its own system. Note that use of Akonadi does not change data "
+"storage formats (vcard, iCalendar, mbox, maildir etc.) - it just provides a "
+"new way of accessing and updating the data.&newpara; The main reasons for "
+"design and development of Akonadi are of technical nature, &eg; having a "
+"unique way to access PIM-data (contacts, calendars, emails..) from different "
+"applications (&eg; &kmail;, &calligrawords; &etc;), thus eliminating the "
+"need to write similar code here and there.&newpara; Another goal is to de-"
+"couple GUI applications like &kmail; from the direct access to external "
+"resources like mail-servers - which was a major reason for bug-reports/"
+"wishes with regard to performance/responsiveness in the past.&newpara; More "
+"info:&newpara; &linkstart;\"https://community.kde.org/KDE_PIM/Akonadi"
+"\"&linkmid;Akonadi for KDE's PIM&linkend;&newpara; &linkstart;\"https://en."
+"wikipedia.org/wiki/Akonadi\"&linkmid;Wikipedia: Akonadi&linkend;&newpara; "
+"&linkstart;\"https://techbase.kde.org/KDE_PIM/Akonadi\"&linkmid;Techbase - "
+"Akonadi&linkend;"
+msgstr ""
+"&kde; yazılım derlemesi 4 içindeki Kişişel Bilgi Yöneticisi (PIM) verisine "
+"erişmeyi sağlayan veri erişim sistemidir. Tek bir deponun ve depo erişim "
+"sisteminin kullanılması, verimliliği ve yeni özellikler eklemeyi "
+"kolaylaştırır. &kde; 3 serisinde bunun yerine her PIM uygulamasının kendi "
+"sistemi vardı. Akonadi’nin veri depolama biçimlerini değiştirmediğini "
+"(vcard, iCalendar, mbox, maildir vb.), bu verilere farklı bir yolla "
+"eriştiğini ve veriyi güncellediğini unutmayın.&newpara; Akonadi’nin "
+"tasarımının ve geliştirilmesinin teknik açıdan doğal nedenleri vardır; "
+"örneğin, farklı uygulamalardan (&eg; &kmail;, &calligrawords; &etc;) PIM "
+"verisine (adres defterindeki kişiler, takvimler, e-postalar gibi) erişmek "
+"için tek bir yol. Bu yol kullanıldığında aynı kodları iki ayrı yerde yazmak "
+"gerekmez.&newpara;Başka bir amaç da &kmail; gibi uygulamaların e-posta "
+"sunucuları gibi dış kaynaklara doğrudan erişmesini engelleyerek uygulama "
+"arayüzünü ayırmak. Bu durum, geçmişte açılan uygulama başarımı ve "
+"uygulamadan hızlı yanıt alma konulu hata bildirimlerine ve isteklere neden "
+"olan sorunları da çözdü.&newpara;Daha fazla bilgi:&newpara; &linkstart;"
+"\"https://community.kde.org/KDE_PIM/Akonadi\"&linkmid;KDE’nin Kişisel Bilgi "
+"Yöneticisi için Akonadi&linkend;&newpara; &linkstart;\"https://en.wikipedia."
+"org/wiki/Akonadi\"&linkmid;Vikipedi: Akonadi&linkend;&newpara; &linkstart;"
+"\"https://techbase.kde.org/KDE_PIM/Akonadi\"&linkmid;Techbase — "
+"Akonadi&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kde\">&kde;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:44
+#, no-c-format
+msgid "<glossterm>Applications</glossterm>"
+msgstr "<glossterm>Uygulamalar</glossterm>"
+
+#. Tag: para
+#: index.docbook:45
+#, no-c-format
+msgid ""
+"Applications are based on the core libraries projects by the KDE community, "
+"currently &kde; Frameworks and previously &kde; Platform.&newpara; More info:"
+"&newpara; &linkstart;\"https://community.kde.org/Promo/Guidance/Branding/"
+"Quick_Guide/\"&linkmid;KDE Branding&linkend;"
+msgstr ""
+"Uygulamalar, KDE topluluğu tarafından geliştirilen çekirdek kitaplıklar "
+"temellidir. Şu anki adı &kde; Frameworks olup eskiden &kde; Platform olarak "
+"biliniyordur.&newpara; Daha fazla bilgi:&newpara; &linkstart;\"https://"
+"community.kde.org/Promo/Guidance/Branding/Quick_Guide/\"&linkmid;KDE "
+"Branding&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:47
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> "
+"<glossseealso otherterm=\"gloss-frameworks\">Frameworks</glossseealso> "
+"<glossseealso otherterm=\"gloss-platform\">Platform</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> "
+"<glossseealso otherterm=\"gloss-frameworks\">Frameworks</glossseealso> "
+"<glossseealso otherterm=\"gloss-platform\">Platform</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:54
+#, no-c-format
+msgid "aRts"
+msgstr "aRts"
+
+#. Tag: para
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"The sound framework in &kde; 2 and 3. Its single-tasking nature caused "
+"problems when two sources of sound were encountered. In the &plasma; desktop "
+"it is replaced by Phonon.&newpara; More info:&newpara; &linkstart;\"https://"
+"en.wikipedia.org/wiki/ARts\"&linkmid; Wikipedia: ARts&linkend;"
+msgstr ""
+"&kde; 2 ve 3 sürümlerinde kullanılan ses altyapısıdır. Tek görev odaklı "
+"olduğu için iki ses işlemi sırasında sorunlar çıkarıyordu. &plasma; "
+"masaüstünde bunun yerine artık Phonon kullanılıyor.&newpara;Daha fazla bilgi:"
+"&newpara; &linkstart;\"http://en.wikipedia.org/wiki/ARts\"&linkmid; "
+"Wikipedia: ARts&linkend;&newpara; &linkstart;\"https://www.arts-project.org"
+"\"&linkmid;ARts ana sayfası&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:57
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-phonon\">Phonon</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-phonon\">Phonon</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:64
+#, no-c-format
+msgid "D-Bus"
+msgstr "D-Bus"
+
+#. Tag: para
+#: index.docbook:65
+#, no-c-format
+msgid ""
+"D-Bus or Desktop Bus is an inter-service messaging system. Developed by "
+"&RedHat;, it was heavily influenced by &kde; 3 DCOP, which it supersedes. "
+"Most POSIX operating systems support D-Bus, and a port for Windows exists. "
+"It is used by Qt 4 and GNOME.&newpara; More info:&newpara; &linkstart;"
+"\"https://freedesktop.org/wiki/Software/dbus/\"&linkmid;FreeDesktop.org: "
+"What is D-Bus?&linkend;&newpara; &linkstart;\"https://en.wikipedia.org/wiki/"
+"D-Bus\"&linkmid;Wikipedia: D-Bus&linkend;"
+msgstr ""
+"D-Bus veya Masaüstü Veri Yolu, hizmetler arası iletişim sistemidir. &RedHat; "
+"tarafından geliştirilmiştir; ancak genel olarak &kde;’nin DCOP "
+"uygulamasından esinlenmiştir ve onun yerini almıştır. Birçok POSIX işletim "
+"sisteminin D-Bus desteği vardır, ayrıca Windows’a uygun sürümü de "
+"oluşturulmuştur. D-Bus Qt 4 ve GNOME tarafından kullanılır.&newpara; Daha "
+"fazla bilgi:&newpara; &linkstart;\"https://freedesktop.org/wiki/Software/"
+"dbus/\"&linkmid;FreeDesktop.org: What is D-Bus?&linkend;&newpara; &linkstart;"
+"\"http://en.wikipedia.org/wiki/D-Bus\"&linkmid;Wikipedia: D-Bus&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:68
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-dcop\">DCOP</glossseealso> <glossseealso "
+"otherterm=\"gloss-gnome\">GNOME</glossseealso> <glossseealso otherterm="
+"\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-qt\">&Qt;"
+"</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-dcop\">DCOP</glossseealso> <glossseealso "
+"otherterm=\"gloss-gnome\">GNOME</glossseealso> <glossseealso otherterm="
+"\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-qt\">&Qt;"
+"</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:76
+#, no-c-format
+msgid "DCOP"
+msgstr "DCOP"
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"<acronym>DCOP</acronym>, which stands for Desktop COmmunication Protocol, is "
+"a light-weight interprocess and software componentry communication system "
+"used in &kde; 3. Replaced with &DBus; in &kde; SC 4.&newpara; More info:"
+"&newpara; &linkstart;\"https://en.wikipedia.org/wiki/DCOP\"&linkmid;"
+"Wikipedia: DCOP&linkend;"
+msgstr ""
+"Masaüstü İletişim Protokolü’nün (Desktop COmmunication Protocol) bir "
+"kısaltması olan <acronym>DCOP</acronym>, &kde; 3’te kullanılan hafif bir "
+"süreçler arası yazılım bileşenleri iletişim sistemidir. &kde; SC 4’te bunun "
+"yerine artık &DBus; kullanılmaktadır.&newpara; Daha fazla bilgi:&newpara; "
+"&linkstart;\"https://en.wikipedia.org/wiki/DCOP\"&linkmid;Wikipedia: "
+"DCOP&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:79
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-dbus\">D-Bus</glossseealso> <glossseealso "
+"otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-dbus\">D-Bus</glossseealso> <glossseealso "
+"otherterm=\"gloss-kde\">&kde;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:85
+#, no-c-format
+msgid "Flake"
+msgstr "Flake"
+
+#. Tag: para
+#: index.docbook:86
+#, no-c-format
+msgid ""
+"Flake is a programming library to be used in &calligra;. Functionally, it "
+"provides Shapes to display content and Tools to manipulate content. Shapes "
+"can be zoomed or rotated and can be grouped to work as a single Shape, "
+"around which text flow is possible.&newpara; More info:&newpara; &linkstart;"
+"\"https://community.kde.org/Calligra/Libs/Flake\"&linkmid;&kde; Community "
+"Wiki: Flake&linkend;"
+msgstr ""
+"Flake, &calligra;’da kullanılan bir programlama kitaplığıdır. İşlev olarak, "
+"içerik görüntülemek için şekiller ve onları manipüle etmek için araçlar "
+"sağlar. Şekillere yakınlaştırılabilir, onlar döndürülebilir ve tek bir şekil "
+"olarak çalışmaları için birleştirilebilirler. Şekiller arası metin akışı "
+"olanaklıdır.&newpara; Daha fazla bilgi:&newpara; &linkstart;\"https://"
+"community.kde.org/Calligra/Libs/Flake\"&linkmid;&kde; Topluluğu vikisi: "
+"Flake&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:88
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">KParts</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">KParts</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:94
+#, no-c-format
+msgid "Frameworks"
+msgstr "Frameworks"
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid ""
+"&kde; Frameworks 5 is the next generation of &kde; libraries, modularized "
+"and optimized for easy integration in &Qt; applications. The Frameworks "
+"offer a wide variety of commonly needed functionality in mature, peer "
+"reviewed and well tested libraries with friendly licensing terms. There are "
+"over 70 different Frameworks providing solutions including hardware "
+"integration, file format support, additional widgets, plotting functions, "
+"spell checking and more. Many of the Frameworks are cross platform and have "
+"minimal or no extra dependencies making them easy to build and add to any "
+"&Qt; application.&newpara; More info:&newpara; &linkstart;\"https://"
+"community.kde.org/Frameworks\"&linkmid;&kde; Community Wiki: "
+"Frameworks&linkend;"
+msgstr ""
+"&kde; Frameworks 5, &Qt; uygulamalarında kolay tümleştime için modülerize "
+"edilmiş ve eniyilenmiş sonraki nesil &kde; kitaplıklarına verilen addır. "
+"Frameworks, uygun lisans koşullarıyla olgun, hakemli ve iyi sınanmış "
+"kitaplıklarda yaygın olarak gereksinim duyulan çok çeşitli işlevler sunar. "
+"Donanım tümleştirmesi, dosya biçimleri desteği, ek araç takımları, çizim "
+"işlevleri, yazım denetimi ve daha fazlasını içeren çözümler sunan 70’in "
+"üzerinde farklı kitaplık vardır. Kitaplıkların pek çoğu çapraz platformdur "
+"ve ya çok az ya da hiç bağımlıklık içermez, bu da onları herhangi bir &Qt; "
+"uygulamasına eklemeyi pek kolay kılar.&newpara; Daha fazla bilgi:&newpara; "
+"&linkstart;\"https://community.kde.org/Frameworks\"&linkmid;&kde; Topluluk "
+"vikisi: Frameworks&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:98
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm="
+"\"gloss-applications\">Applications</glossseealso> <glossseealso otherterm="
+"\"gloss-platform\">Platform</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm="
+"\"gloss-applications\">Uygulamalar</glossseealso> <glossseealso otherterm="
+"\"gloss-platform\">Platform</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:106
+#, no-c-format
+msgid "<glossterm>Get Hot New Stuff</glossterm>"
+msgstr "<glossterm>Yeni Çıkanlar</glossterm>"
+
+#. Tag: para
+#: index.docbook:107
+#, no-c-format
+msgid ""
+"&emstart;G&emend;et &emstart;H&emend;ot &emstart;N&emend;ew &emstart;S&emend;"
+"tuff (GHNS) is an open standard that makes it easy for users to download and "
+"install various extensions for their applications. Our implementation of "
+"GHNS is used by &plasma; (for example to get new desktop themes), and by "
+"many applications and widgets."
+msgstr ""
+"&emstart;G&emend;et &emstart;H&emend;ot &emstart;N&emend;ew &emstart;S&emend;"
+"tuff (Yeni Çıkanlar — GHNS), kullanıcıların uygulamalarıyla ilgili çeşitli "
+"uzantıları indirmesini ve kurmasını kolaylaştıran özgür bir standarttır. "
+"Bizim GHNS gerçeklememiz &plasma; tarafından (örneğin yeni masaüstü temaları "
+"almak için) ve birçok uygulama ve araç takımı tarafından kullanılır."
+
+#. Tag: glossdef
+#: index.docbook:107 index.docbook:294
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:113
+#, no-c-format
+msgid "GHNS"
+msgstr "GHNS"
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid "<acronym>GHNS</acronym> is the acronym of Get Hot New Stuff."
+msgstr ""
+"<acronym>GHNS</acronym> (Get Hot New Stuff) kısaltmasıdır. KDE için duvar "
+"kağıdı, tema gibi yeni şeyler indirmenizi sağlar."
+
+#. Tag: glossseealso
+#: index.docbook:115
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-ghns\">Get Hot New Stuff</glossseealso>"
+msgstr "<glossseealso otherterm=\"gloss-ghns\">Yeni Çıkanlar</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:119
+#, no-c-format
+msgid "<glossterm><acronym>IO</acronym> Worker</glossterm>"
+msgstr "<glossterm><acronym>GÇ</acronym> İşçisi</glossterm>"
+
+#. Tag: para
+#: index.docbook:120
+#, no-c-format
+msgid ""
+"<acronym>IO</acronym> Workers enable &kde; applications to access remote "
+"resources as easily as local resources (making them \"network transparent"
+"\"). Remote resources (&eg; files) might be stored on <acronym>SMB</acronym> "
+"shares or similar."
+msgstr ""
+"<acronym>GÇ</acronym> İşçileri, &kde; uygulamalarının uzak özkaynaklara "
+"sanki yerelmişler gibi erişebilmelerine (onları \"ağda saydam\" yaparak) "
+"olanak tanır. Uzak özkaynaklar, (&eg; dosyalar) <acronym>SMB</acronym> veya "
+"buna benzer paylaşımlarda depolanabilirler."
+
+#. Tag: glossdef
+#: index.docbook:123
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-smb\"><acronym>SMB</acronym></glossseealso> "
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-smb\"><acronym>SMB</acronym></glossseealso> "
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:129
+#, no-c-format
+msgid "KHTML"
+msgstr "KHTML"
+
+#. Tag: para
+#: index.docbook:130
+#, no-c-format
+msgid ""
+"KHTML is the &HTML; rendering engine for the &kde; &plasma; desktop, as used "
+"by the &konqueror; browser. It also provides a KPart that enables all &kde; "
+"applications to display web content. A new introduction, &Qt; WebKit is also "
+"for Plasma and other application development."
+msgstr ""
+"KHTML, &konqueror; gibi uygulamaların kullandığı, &kde; &plasma; masaüstü "
+"için üretilmiş bir &HTML; sunum işletkesidir. Ayrıca sağladığı KPart "
+"biçimiyle tüm &kde; uygulamalarının web içeriğini göstermesini sağlar. &Qt; "
+"WebKit de Plasma ve diğer uygulamalar için aynı işlevi sağlar."
+
+#. Tag: glossdef
+#: index.docbook:130
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-konqueror\">&konqueror;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-"
+"webkit\">WebKit</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-konqueror\">&konqueror;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-"
+"webkit\">WebKit</glossseealso>"
+
+#. Tag: acronym
+#: index.docbook:139
+#, no-c-format
+msgid "<acronym>KIO</acronym>"
+msgstr "<acronym>KIO</acronym>"
+
+#. Tag: para
+#: index.docbook:140
+#, no-c-format
+msgid ""
+"The &kde; Input/Output system which makes use of so-called \"<acronym>IO</"
+"acronym> Workers\"."
+msgstr ""
+"\"<acronym>GÇ</acronym> İşçileri\"nden yararlanan &kde; Girdi/Çıktı sistemi."
+
+#. Tag: glossdef
+#: index.docbook:141
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-ioworker\"><acronym>IO</acronym> Worker</"
+"glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-ioworker\"><acronym>GÇ</acronym> İşçisi</"
+"glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:148
+#, no-c-format
+msgid "Kiosk"
+msgstr "Kiosk"
+
+#. Tag: para
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"Kiosk is a framework for restricting user capabilities on a &kde; platform "
+"system, ideal for use in locked-down environments such as Internet cafés. It "
+"is present in &kde; 3 and &kde; 4, but the administration tool, "
+"<application>Kiosktool</application> is &kde; 3 only. It can be used to "
+"configure &kde; 4 applications, or kiosk configurations can be maintained by "
+"editing config files manually."
+msgstr ""
+"Kiosk, &kde; üzerindeki kullanıcı yeteneklerini kısıtlamaya yönelik bir "
+"kitaplıktır. İnternet kafeler gibi kilitli ortamlarda kullanım için ideal "
+"bir platform sistemidir. &kde; 3 ve 4’te vardır; ancak yönetim aracı "
+"<application>Kiosktool</application> yalnızca &kde; 3’te bulunur. &kde; 4 "
+"uygulamalarını yapılandırmak için kullanılabilir. Kiosk yapılandırmaları, "
+"yapılandırma dosyaları elle düzenlenerek de kullanılabilir."
+
+#. Tag: glossseealso
+#: index.docbook:150 index.docbook:199 index.docbook:207 index.docbook:287
+#: index.docbook:395 index.docbook:531
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:154
+#, no-c-format
+msgid "KParts"
+msgstr "KParts"
+
+#. Tag: para
+#: index.docbook:155
+#, no-c-format
+msgid ""
+"KParts is an embedding technology which allows &kde; applications to embed "
+"other &kde; applications. For example, the text view used by &konqueror; is "
+"a KPart."
+msgstr ""
+"KParts, &kde; uygulamalarının başka &kde; uygulamalarını gömülü olarak "
+"kullanabilmesini sağlayan bir teknolojidir. Örneğin, &konqueror; tarafından "
+"kullanılan metin görünümü bir KPart’tır."
+
+#. Tag: glossseealso
+#: index.docbook:158 index.docbook:376
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-konqueror\">&konqueror;</glossseealso>"
+msgstr "<glossseealso otherterm=\"gloss-konqueror\">&konqueror;</glossseealso>"
+
+#. Tag: acronym
+#: index.docbook:162
+#, no-c-format
+msgid "KSycoca"
+msgstr "KSycoca"
+
+#. Tag: para
+#: index.docbook:163
+#, no-c-format
+msgid ""
+"<acronym>KSycoca</acronym> (&kde; &emstart;Sy&emend;stem &emstart;Co&emend;"
+"nfiguration &emstart;Ca&emend;che) is a configuration cache which, for "
+"example, guarantees fast access to the menu entries."
+msgstr ""
+"<acronym>KSycoca</acronym> (&kde; &emstart;Sy&emend;stem &emstart;Co&emend;"
+"nfiguration &emstart;Ca&emend;che); örneğin menü girişlerine hızlı erişimi "
+"garanti eden bir yapılandırma önbelleğidir."
+
+#. Tag: application
+#: index.docbook:168 index.docbook:261
+#, no-c-format
+msgid "KBuildSycoca"
+msgstr "KBuildSycoca"
+
+#. Tag: glossterm
+#: index.docbook:172
+#, no-c-format
+msgid "Platform"
+msgstr "Platform"
+
+#. Tag: para
+#: index.docbook:173
+#, no-c-format
+msgid ""
+"Previously the base of libraries and services needed to run &kde; "
+"applications. It is used by core and third-party developers to create &kde; "
+"software. Especially when including development frameworks and tools it may "
+"be referred to as &kde; Development Platform. &kde; Platform is built on a "
+"number of Pillars, for example Akonadi, Solid, Phonon."
+msgstr ""
+"Önceden &kde; uygulamalarını çalıştırmak için gereken kitaplıkların ve "
+"hizmetlerin temeliydi. Çekirdek ve üçüncü taraf geliştiriciler tarafından "
+"&kde; yazılımları oluşturmak için kullanılır. Özellikle geliştirme "
+"kitaplıkları ve araçları dahil edildiğinde &kde; Geliştirme Platformu olarak "
+"anılabilir. &kde; Platformu bir dizi sütun üzerine yapılmıştır; örneğin "
+"Akonadi, Solid, Phonon gibi."
+
+#. Tag: glossdef
+#: index.docbook:173
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm="
+"\"gloss-applications\">Applications</glossseealso> <glossseealso otherterm="
+"\"gloss-frameworks\">Frameworks</glossseealso> <glossseealso otherterm="
+"\"gloss-akonadi\">Akonadi</glossseealso> <glossseealso otherterm=\"gloss-"
+"solid\">Solid</glossseealso> <glossseealso otherterm=\"gloss-phonon"
+"\">Phonon</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm="
+"\"gloss-applications\">Uygulamalar</glossseealso> <glossseealso otherterm="
+"\"gloss-frameworks\">Frameworks</glossseealso> <glossseealso otherterm="
+"\"gloss-akonadi\">Akonadi</glossseealso> <glossseealso otherterm=\"gloss-"
+"solid\">Solid</glossseealso> <glossseealso otherterm=\"gloss-phonon"
+"\">Phonon</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:185
+#, no-c-format
+msgid "Phonon"
+msgstr "Phonon"
+
+#. Tag: para
+#: index.docbook:186
+#, no-c-format
+msgid ""
+"A cross-platform multimedia API, interfacing with existing frameworks, such "
+"as gstreamer and xine engines. &kde; 2 and 3 depended on aRts for sound. "
+"Phonon replaces it.&newpara; More info:&newpara; &linkstart;\"https://en."
+"wikipedia.org/wiki/Phonon_(software)\"&linkmid; Wikipedia: Phonon "
+"(software)&linkend;&newpara; &linkstart;\"https://phonon.kde.org/\"&linkmid;"
+"Phonon website&linkend;"
+msgstr ""
+"Gstreamer ve xine işletkeleri gibi var olan kitaplıklarla arayüz oluşturan, "
+"platformlar arası birçoklu ortam API’si. &kde; 2 ve 3 ses için ARTS’ye "
+"bağlıydı. Phonon onların yerini aldı.&newpara; Daha fazla bilgi:&newpara; "
+"&linkstart;\"https://en.wikipedia.org/wiki/Phonon_(software)\"&linkmid; "
+"Vikipedi: Phonon (yazılım)&linkend;&newpara; &linkstart;\"https://phonon.kde."
+"org/\"&linkmid;Phonon web sitesi&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:189
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-arts\">aRts</glossseealso> <glossseealso "
+"otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-arts\">aRts</glossseealso> <glossseealso "
+"otherterm=\"gloss-kde\">&kde;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:195
+#, no-c-format
+msgid "Solid"
+msgstr "Solid"
+
+#. Tag: para
+#: index.docbook:196
+#, no-c-format
+msgid ""
+"Solid provides a single API for hardware management. Hardware is grouped "
+"into 'domains'. Since the backends for Solid are pluggable, Solid helps "
+"application developers write less code, and have it platform independent."
+"&newpara; More info:&newpara; &linkstart;\"https://solid.kde.org/\"&linkmid;"
+"Discover Solid&linkend;"
+msgstr ""
+"Solid, donanım yönetimi için tek bir API sağlar. Donanım ’etki alanları’ "
+"halinde gruplandırılmıştır. Solid’in arka uçları takılabilir olduğundan "
+"Solid, uygulama geliştiricilerin daha az kod yazmasına ve platformdan "
+"bağımsız olmasına yardımcı olur.&newpara; Daha fazla bilgi:&newpara; "
+"&linkstart;\"https://solid.kde.org/\"&linkmid;Solid’i Keşfet&linkend;"
+
+#. Tag: glossterm
+#: index.docbook:203
+#, no-c-format
+msgid "Threadweaver"
+msgstr "Threadweaver"
+
+#. Tag: para
+#: index.docbook:204
+#, no-c-format
+msgid ""
+"This thread programming library spreads work among multiple-core processors "
+"where available, prioritizing them before queuing them for execution. "
+"ThreadWeaver provides a high-level job interface for multithreaded "
+"programming.&newpara; More info:&newpara; &linkstart;\"https://api.kde.org/"
+"frameworks/threadweaver/html/index.html\"&linkmid;API Documentation – "
+"ThreadWeaver&linkend;"
+msgstr ""
+"Bu iş parçacığı programlama kitaplığı, işi olabildiğince çok çekirdekli "
+"işlemciler arasında dağıtır ve bunları yürütme için sıraya koymadan önce "
+"önceliklendirir. ThreadWeaver, çok iş parçacıklı programlama için üst düzey "
+"bir iş arayüzü sağlar.&newpara; Daha fazla bilgi:&newpara; &linkstart;"
+"\"https://api.kde.org/frameworks/threadweaver/html/index.html\"&linkmid;API "
+"Belgelendirmesi – ThreadWeaver&linkend;"
+
+#. Tag: glossterm
+#: index.docbook:211
+#, no-c-format
+msgid "WebKit"
+msgstr "WebKit"
+
+#. Tag: para
+#: index.docbook:212
+#, no-c-format
+msgid ""
+"HTML rendering engine, originating from a fork of KHTML. Adopted by "
+"<trademark>Apple</trademark> and developed for <trademark>Safari</"
+"trademark>. Webkit brings the whole functionality back to &kde; SC 4, where "
+"it is available through &Qt;.&newpara; More info:&newpara; &linkstart;"
+"\"https://webkit.org/\"&linkmid;WebKit home page&linkend;&newpara; "
+"&linkstart;\"https://en.wikipedia.org/wiki/WebKit\"&linkmid;Wikipedia: "
+"WebKit&linkend;"
+msgstr ""
+"KHTML’in bir çatalından kaynaklanan HTML sunum işletkesi. <trademark>Apple</"
+"trademark> tarafından sahiplenilmiş ve <trademark>Safari</trademark> için "
+"geliştirilmiştir. &Qt; ile uygun olduğu yerlerde Webkit tüm işlevselliği "
+"&kde; SC 4’e taşır.&newpara; Daha fazla bilgi:&newpara; &linkstart;\"https://"
+"webkit.org/\"&linkmid;WebKit Ana Sayfası&linkend;&newpara; &linkstart;"
+"\"https://en.wikipedia.org/wiki/WebKit\"&linkmid;Vikipedi: WebKit&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:215
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-khtml\">KHTML</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-khtml\">KHTML</glossseealso>"
+
+#. Tag: title
+#: index.docbook:223
+#, no-c-format
+msgid "X.Org"
+msgstr "X.Org"
+
+#. Tag: glossterm
+#: index.docbook:225
+#, no-c-format
+msgid "Antialiasing"
+msgstr "Kenar Yumuşatma"
+
+#. Tag: para
+#: index.docbook:226
+#, no-c-format
+msgid ""
+"If mentioned in context with &kde;, anti-aliasing often means the smoothing "
+"of the fonts visible on the screen. &Qt; version 3.3 or higher used together "
+"with X.Org server makes this possible under &kde; as well."
+msgstr ""
+"&kde; ile birlikte söz edilirse kenar yumuşatma, genellikle ekranda görünen "
+"yazıtiplerinin yumuşatılması anlamına gelir. &Qt; X.Org sunucusuyla birlikte "
+"kullanılan sürüm 3.3 veya üzeri, bunu &kde; altında da olanaklı kılar."
+
+#. Tag: glossdef
+#: index.docbook:229
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-qt\">&Qt;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-qt\">&Qt;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:235
+#, no-c-format
+msgid "&X-Server;"
+msgstr "&X-Server;"
+
+#. Tag: para
+#: index.docbook:236
+#, no-c-format
+msgid ""
+"The &X-Server; represents a basic layer upon which the various &GUI;s like "
+"&kde; are built. It manages the basic mouse and keyboard input (from the "
+"local host as well as from remote hosts) and provides elementary graphic "
+"routines to draw rectangles and other primitives."
+msgstr ""
+"&X-Server;, &kde; gibi birçok grafik kullanıcı arayüzünün üzerine yapıldığı "
+"temel katmanı temsil eder. Temel fare ve klavye girişini (yerel veya uzak "
+"makinelerden) işler ve dörtgenleri ve diğer şekilleri çizmek için yalın "
+"grafik rutinleri sağlar."
+
+#. Tag: glossdef
+#: index.docbook:240
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+
+#. Tag: title
+#: index.docbook:248
+#, no-c-format
+msgid "<title>Applications</title>"
+msgstr "<title>Uygulamalar</title>"
+
+#. Tag: glossterm
+#: index.docbook:250
+#, no-c-format
+msgid "Dolphin"
+msgstr "Dolphin"
+
+#. Tag: para
+#: index.docbook:251
+#, no-c-format
+msgid ""
+"The default file manager in &kde; Applications. It has a side panel "
+"(Places), but navigation is mainly by the 'breadcrumb' trail above the main "
+"window. Split windows are possible, and views can be applied to individual "
+"windows. Mounting and unmounting <acronym>USB</acronym> devices can be done "
+"in the side panel. Other directories can be added to the Places panel. A "
+"Tree view is also possible.&newpara; More info:&newpara; &linkstart;"
+"\"https://www.kde.org/applications/system/dolphin/\"&linkmid;Dolphin&linkend;"
+"&newpara; &linkstart;\"https://en.wikipedia.org/wiki/"
+"Dolphin_(file_manager)\"&linkmid;Wikipedia: Dolphin&linkend;&newpara; "
+"&linkstart;\"https://userbase.kde.org/Dolphin/File_Management\"&linkmid;"
+"Userbase: File Management Tutorial&linkend;"
+msgstr ""
+"&kde; uygulamalarındaki öntanımlı dosya yöneticisi. Bir kenar çubuğu içerir; "
+"ancak dolaşım genellikle ana pencerenin üst kısmındaki zincirli yol çubuğu "
+"ile yapılır. Bölünmüş görünümler vardır ve görünümler bireysel pencerelere "
+"atanabilir. <acronym>USB</acronym> aygıtlarının bağlantısı ve "
+"bağlantılarının kesilmesi kenar çubuğundan yapılabilir. Yerler paneline "
+"başka klasörler de eklenebilir. Bir ağaç görünümü de olanaklıdır.&newpara; "
+"Daha fazla bilgi:&newpara; &linkstart;\"https://www.kde.org/applications/"
+"system/dolphin/\"&linkmid;Dolphin&linkend;&newpara; &linkstart;\"https://en."
+"wikipedia.org/wiki/Dolphin_(file_manager)\"&linkmid;Vikipedi: "
+"Dolphin&linkend;&newpara; &linkstart;\"https://userbase.kde.org/Dolphin/"
+"File_Management\"&linkmid;Userbase: Dosya Yönetimi&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:255
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-konqueror\">&konqueror;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-konqueror\">&konqueror;</glossseealso>"
+
+#. Tag: para
+#: index.docbook:262
+#, no-c-format
+msgid ""
+"<application>KBuildSycoca4</application> is a command line program and "
+"regenerates the so-called <acronym>KSycoca</acronym>. This is useful, for "
+"example, if some or all modules in &systemsettings; are missing."
+msgstr ""
+"<application>KBuildSycoca4</application> bir komut satırı programıdır ve "
+"<acronym>KSycoca</acronym>’yı yeniden üretir. Bu; örneğin, &systemsettings; "
+"içindeki bazı veya tüm modüller kayıpsa yararlıdır."
+
+#. Tag: glossdef
+#: index.docbook:266
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-ksycoca\"><acronym>KSycoca</acronym></"
+"glossseealso> <glossseealso otherterm=\"gloss-systemsettings"
+"\">&systemsettings;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-ksycoca\"><acronym>KSycoca</acronym></"
+"glossseealso> <glossseealso otherterm=\"gloss-systemsettings"
+"\">&systemsettings;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:272
+#, no-c-format
+msgid "KInfoCenter"
+msgstr "K Bilgi Merkezi"
+
+#. Tag: para
+#: index.docbook:273
+#, no-c-format
+msgid ""
+"Kinfocenter originated as part of Kcontrol standing alone from KDE 3.1. In "
+"&kde; SC 4 it was replaced by modules configured in &systemsettings;, "
+"notably Solid, and is being reintroduced as an application in &plasma;."
+"&newpara; More info:&newpara; &linkstart;\"https://www.kde.org/applications/"
+"system/kinfocenter/\"&linkmid;KInfoCenter&linkend;&newpara; &linkstart;"
+"\"https://en.wikipedia.org/wiki/Kinfocenter\"&linkmid;Wikipedia: "
+"KInfoCenter&linkend;"
+msgstr ""
+"K Bilgi Merkezi, KDE 3.1’deki Kcontrol’dan türetildi. &kde; SC 4’te, "
+"&systemsettings; içinde yapılandırılan modüllerle değiştirildi ve "
+"&plasma;’da yeni bir uygulama olarak sunuldu. &newpara; Daha fazla bilgi:"
+"&newpara; &linkstart;\"https://www.kde.org/applications/system/kinfocenter/"
+"\"&linkmid;KInfoCenter&linkend;&newpara; &linkstart;\"https://en.wikipedia."
+"org/wiki/Kinfocenter\"&linkmid;Vikipedi: K Bilgi Merkezi&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:276
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-solid\">Solid</glossseealso> <glossseealso otherterm="
+"\"gloss-systemsettings\">&systemsettings;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-solid\">Solid</glossseealso> <glossseealso otherterm="
+"\"gloss-systemsettings\">&systemsettings;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:283
+#, no-c-format
+msgid "<glossterm>&konqueror;</glossterm>"
+msgstr "<glossterm>&konqueror;</glossterm>"
+
+#. Tag: para
+#: index.docbook:284
+#, no-c-format
+msgid ""
+"&konqueror; is a web browser, picture viewer, file manager and more, and a "
+"core part of the &kde; project. You can find more information about "
+"&konqueror; at &linkstart;\"https://konqueror.org/\"&linkmid;www.konqueror."
+"org&linkend;."
+msgstr ""
+"&konqueror;, bir web tarayıcısı, resim görüntüleyicisi, dosya yöneticisi ve "
+"daha da önemlisi, &kde; projesinin temel bir parçasıdır. &konqueror; üzerine "
+"daha fazla bilgiyi &linkstart;\"https://konqueror.org/\"&linkmid;www."
+"konqueror.org&linkend; adresinde bulabilirsiniz."
+
+#. Tag: glossterm
+#: index.docbook:291
+#, no-c-format
+msgid "<glossterm>KRunner</glossterm>"
+msgstr "<glossterm>K Çalıştır</glossterm>"
+
+#. Tag: para
+#: index.docbook:292
+#, no-c-format
+msgid ""
+"The mini-command-line that is accessed from the Classic menu, the keyboard "
+"shortcut &Alt;+<keycap>F2</keycap>, or a right-click on the desktop. In "
+"&kde; SC 4 a partial name will display all possible matches.&newpara; More "
+"info:&newpara; &linkstart;\"https://userbase.kde.org/Plasma/Krunner"
+"\"&linkmid;UserBase: KRunner Usage&linkend;"
+msgstr ""
+"Klasik menüden, &Alt;+<keycap>F2</keycap> klavye kısayolundan veya "
+"masaüstüne sağ tıklayarak erişilebilen mini komut satırı. &kde; SC 4’te kısa "
+"bir ad girişi tüm olası eşleşmeleri listeler.&newpara; Daha fazla bilgi:"
+"&newpara; &linkstart;\"https://userbase.kde.org/Plasma/Krunner\"&linkmid;"
+"UserBase: K Çalıştır Kullanımı&linkend;"
+
+#. Tag: glossterm
+#: index.docbook:300
+#, no-c-format
+msgid "KWin"
+msgstr "KWin"
+
+#. Tag: para
+#: index.docbook:301
+#, no-c-format
+msgid ""
+"KWin is the window manager. This is where window decorations can be changed "
+"and themes applied. &kde; SC 4 extends KWin to provide support for 3D "
+"Compositing effects on the desktop.&newpara; More info:&newpara; &linkstart;"
+"\"https://userbase.kde.org/KWin\"&linkmid;UserBase: KWin&linkend;"
+msgstr ""
+"KWin, KDE’nin pencere yöneticisidir. Bu pencere dekorasyonunun "
+"değiştirilebileceği ve temaların uygulanacağı yerdir. &kde; SC 4, "
+"masaüstünde 3B bileşikleştirme efektlerine destek sağlamak için KWin’i "
+"genişletir.&newpara; Daha fazla bilgi:&newpara; &linkstart;\"http://userbase."
+"kde.org/KWin\"&linkmid;UserBase: KWin&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:303
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-xserver\">&X-Server;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-xserver\">&X-Server;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:309
+#, no-c-format
+msgid "Mini-CLI"
+msgstr "Mini Komut Satırı"
+
+#. Tag: para
+#: index.docbook:310
+#, no-c-format
+msgid ""
+"Mini &emstart;C&emend;ommand &emstart;L&emend;ine &emstart;I&emend;nterface. "
+"Synonym to KRunner."
+msgstr ""
+"Mini &emstart;C&emend;ommand &emstart;L&emend;ine &emstart;I&emend;nterface "
+"(Mini Komut Satırı). K Çalıştır’ın eşanlamlısıdır."
+
+#. Tag: glossseealso
+#: index.docbook:311
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-krunner\">KRunner</glossseealso>"
+msgstr "<glossseealso otherterm=\"gloss-krunner\">K Çalıştır</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:315
+#, no-c-format
+msgid "Pager"
+msgstr "Sayfalayıcı"
+
+#. Tag: para
+#: index.docbook:316
+#, no-c-format
+msgid ""
+"A pager is a small program or panel applet which shows the position of "
+"windows on your desktop and usually if you have several Virtual Desktops "
+"gives an overview over all."
+msgstr ""
+"Sayfalayıcı, masaüstünüzdeki pencerelerin konumunu gösteren ve genellikle "
+"birden fazla Sanal Masaüstünüz varsa genel bir bakış sağlayan küçük bir "
+"program veya panel uygulamacığıdır."
+
+#. Tag: glossdef
+#: index.docbook:316
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-application-starter\">Application Starter</glossseealso> "
+"<glossseealso otherterm=\"gloss-kicker\">Kicker</glossseealso> <glossseealso "
+"otherterm=\"gloss-panel\">Panel</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-"
+"virtualdesktops\">Virtual Desktops</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-application-starter\">Uygulama Başlatıcısı</glossseealso> "
+"<glossseealso otherterm=\"gloss-kicker\">Kicker</glossseealso> <glossseealso "
+"otherterm=\"gloss-panel\">Panel</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-"
+"virtualdesktops\">Sanal Masaüstleri</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:326
+#, no-c-format
+msgid "&systemsettings;"
+msgstr "&systemsettings;"
+
+#. Tag: para
+#: index.docbook:327
+#, no-c-format
+msgid ""
+"This is the project and filename of the &kde; control center. "
+"&systemsettings; allows you to customize virtually every configuration "
+"option of &kde;."
+msgstr ""
+"Bu, &kde; denetim merkezinin proje ve dosya adıdır. &systemsettings; "
+"&kde;’nin tüm yapılandırma seçeneklerini özelleştirmenize olanak tanır."
+
+#. Tag: glossdef
+#: index.docbook:329
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kinfocenter\">KInfoCenter</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kinfocenter\">K Bilgi Merkezi</glossseealso>"
+
+#. Tag: title
+#: index.docbook:337
+#, no-c-format
+msgid "Desktop Terminology"
+msgstr "Masaüstü Terminolojisi"
+
+#. Tag: glossterm
+#: index.docbook:339
+#, no-c-format
+msgid "Activities"
+msgstr "Etkinlikler"
+
+#. Tag: para
+#: index.docbook:340
+#, no-c-format
+msgid ""
+"Activities are sets of &plasma; widgets that have their own "
+"wallpaper&newpara; A bit like Virtual Desktops, but not quite. For example "
+"you have a \"work activity\" with commit rss feeds, a note with your TODO, a "
+"Folder View with your work related files, and a subtle wallpaper.&newpara; "
+"Next to it, you have your freetime activity, with previews of family photos "
+"and dogs, rss feeds from your favorite blogs, a Folder View showing your "
+"movie collection, a twitter applet and of course that Iron Maiden wallpaper "
+"you have been loving since the early 80s.&newpara; At 17:00 hours sharp you "
+"switch from the work activity to your freetime activity.&newpara; More info:"
+"&newpara; &linkstart;\"https://userbase.kde.org/Plasma\"&linkmid;Plasma "
+"FAQ&linkend;"
+msgstr ""
+"Etkinlikler, kendi duvar kâğıtlarına iye &plasma; araç takımı kümelerine "
+"verilen addır.&newpara; Biraz sanal masaüstlerine benzerler; ancak tam "
+"aynısı değillerdir. Örneğin, Git işlemelerinin RSS beslemeleri, "
+"yapılacaklarınız, işle ilgili klasörlerinizi gösteren bir klasör görünümü ve "
+"daha sade bir duvar kağıdı içeren bir \"iş etkinliğiniz\" olabilir.&newpara; "
+"Onun yanında; boş zaman etkinlikleriniz, aile fotoğraflarınız, köpeğinizin "
+"bir resmi, sıkça ziyaret ettiğiniz blogların RSS beslemeleri, bir X "
+"uygulamacığı ve ta 80’lerden bu yana hastası olduğunuz Iron Maiden içeren "
+"bir duvar kağıdı olan bir \"kişisel etkinlik\".&newpara; Saat öğleden sonra "
+"5’i vurduğunda hemen iş etkinliğinden kişisel etkinliğinize geçebilirsiniz."
+"&newpara; Daha fazla bilgi:&newpara; &linkstart;\"https://userbase.kde.org/"
+"Plasma\"&linkmid;Plasma SSS&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:345
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-virtualdesktops\">Virtual Desktops</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-virtualdesktops\">Sanal Masaüstleri</glossseealso>"
+
+#. Tag: acronym
+#: index.docbook:351
+#, no-c-format
+msgid "Breeze"
+msgstr "Esinti"
+
+#. Tag: para
+#: index.docbook:352
+#, no-c-format
+msgid ""
+"Breeze is the default theme for &plasma;. The new theme is a high-contrast, "
+"flat theme for the workspace. It is available in light and dark variants. "
+"Simpler and more monochromatic graphics assets and typography-centered "
+"layouts offer a clean and visually clear user experience."
+msgstr ""
+"Esinti, &plasma;’nın öntanımlı temasıdır. Yeni tema, çalışma alanı için "
+"yüksek karşıtlıklı düz bir temadır. Açık ve koyu çeşitleri vardır. Daha "
+"basit ve daha tek renkli grafik varlıkları ve tipografi merkezli "
+"yerleşimler, temiz ve görsel olarak net bir kullanıcı deneyimi sunar."
+
+#. Tag: glossdef
+#: index.docbook:352
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm=\"gloss-"
+"plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-oxygen"
+"\">Oxygen</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm=\"gloss-"
+"plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-oxygen"
+"\">Oksijen</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:360
+#, no-c-format
+msgid "Containment"
+msgstr "Kapsama"
+
+#. Tag: para
+#: index.docbook:361
+#, no-c-format
+msgid ""
+"A Containment is a top level grouping of widgets. Each Containment manages "
+"the layout and configuration data of its set of widgets independently from "
+"other Containments.&newpara; The end result is that you can group widgets "
+"within a Containment according to the significance to your working pattern, "
+"rather than by directory grouping.&newpara; More info:&newpara; &linkstart;"
+"\"https://userbase.kde.org/Plasma\"&linkmid;Plasma FAQ&linkend;"
+msgstr ""
+"Kapsama, araç takımlarının üst düzey bir gruplandırmasıdır. Her kapsama, "
+"kendi araç takımı kümesinin yerleşimini ve yapılandırma verisini diğer "
+"kapsamlardan bağımsız olarak yönetir.&newpara; Sonuç olarak, bir kapsama "
+"dahilindeki araç takımlarını dizin gruplaması yerine, çalışma düzeniniz için "
+"olan öneme göre gruplandırabilirsiniz."
+
+#. Tag: glossdef
+#: index.docbook:364
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-widget\">Widget</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-widget\">Araç Takımı</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:370
+#, no-c-format
+msgid "Drag and Drop"
+msgstr "Sürükle ve Bırak"
+
+#. Tag: para
+#: index.docbook:371
+#, no-c-format
+msgid ""
+"This concept tries to replace many actions like copying files from one place "
+"to another by a certain mouse movement, &eg; clicking on an icon in a "
+"&konqueror; window, moving the mouse to another window while keeping the "
+"mouse button pressed, and releasing the mouse button (\"dropping\" the "
+"object) copies files."
+msgstr ""
+"Bu kavram, dosyaları bir yerden başka bir yere kopyalamak gibi birçok eylemi "
+"belirli bir fare hareketiyle değiştirmeye çalışır. Örneğin, &konqueror; "
+"içindeki bir simgeye tıklamak, fare düğmesini basılı tutarken fareyi başka "
+"bir pencereye taşımak ve fare düğmesini bırakmak (\"nesneyi bırakmak\") "
+"dosyaları kopyalar."
+
+#. Tag: acronym
+#: index.docbook:380
+#, no-c-format
+msgid "GNOME"
+msgstr "GNOME"
+
+#. Tag: para
+#: index.docbook:382
+#, no-c-format
+msgid ""
+"&emstart;G&emend;NU &emstart;N&emend;etwork &emstart;O&emend;bject &emstart;"
+"M&emend;odel &emstart;E&emend;nvironment, one of the leading &UNIX; &GUI;s."
+msgstr ""
+"&emstart;G&emend;NU &emstart;N&emend;etwork &emstart;O&emend;bject &emstart;"
+"M&emend;odel &emstart;E&emend;nvironment, önde gelen &UNIX; grafik kullanıcı "
+"arayüzlerinden birisidir."
+
+#. Tag: glossseealso
+#: index.docbook:385 index.docbook:415
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+msgstr "<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:389
+#, no-c-format
+msgid "<glossterm>&GUI;</glossterm>"
+msgstr "<glossterm>&GUI;</glossterm>"
+
+#. Tag: para
+#: index.docbook:390
+#, no-c-format
+msgid ""
+"Abbreviation for &emstart;G&emend;raphical &emstart;U&emend;ser &emstart;"
+"I&emend;nterface. Every desktop environment (like &kde;) is a &GUI;. Most "
+"&GUI;s feature mouse support and/or windows to manage the programs."
+msgstr ""
+"&emstart;G&emend;raphical &emstart;U&emend;ser &emstart;I&emend;nterface "
+"(Grafiksel Kullanıcı Arayüzü) sözcüklerinin kısaltmasıdır. Tüm masaüstü "
+"ortamları (&kde; gibi) bir &GUI; olarak geçer. Birçok &GUI;, temel özellik "
+"olarak fare ve uygulamaları yönetmek için pencereler desteği sunar."
+
+#. Tag: glossterm
+#: index.docbook:399
+#, no-c-format
+msgid "Home Directory"
+msgstr "Ana Klasör"
+
+#. Tag: para
+#: index.docbook:400
+#, no-c-format
+msgid ""
+"That's the place in system, where all your files are kept. You can write "
+"your files outside of this folder, but all applications are configured to "
+"propose this folder as place to write your files to. And this is easier, "
+"when you are keeping your things here.&newpara; More info:&newpara; "
+"&linkstart;\"https://en.wikipedia.org/wiki/Home_directory\"&linkmid;"
+"Wikipedia: Home Directory&linkend;"
+msgstr ""
+"Sistemdeki tüm dosyalarınızın saklandığı yer burasıdır. Dosyalarınızı bu "
+"klasörün dışına yazabilirsiniz; ancak tüm uygulamalar, dosyalarınızı "
+"yazacağınız yer olarak bu klasörü önerecek şekilde yapılandırılmıştır. "
+"Ögelerinizi burada tutmak daha kolaydır.&newpara; Daha fazla bilgi:&newpara; "
+"&linkstart;\"https://en.wikipedia.org/wiki/Home_directory\"&linkmid;"
+"Vikipedi: Ana Klasör&linkend;"
+
+#. Tag: glossseealso
+#: index.docbook:403
+#, no-c-format
+msgid "&dolphin;"
+msgstr "&dolphin;"
+
+#. Tag: glossterm
+#: index.docbook:407
+#, no-c-format
+msgid "<glossterm>&kde;</glossterm>"
+msgstr "<glossterm>&kde;</glossterm>"
+
+#. Tag: para
+#: index.docbook:408
+#, no-c-format
+msgid ""
+"&kde; is more than just software. It is a community made up of programmers, "
+"translators, contributors, artists, writers, distributors, and users from "
+"all over the world. Our international technology team is committed to "
+"creating the best free software for the desktop. And not only contributors, "
+"but users and fans of &kde; software can be found throughout the entire "
+"globe, giving help to other users, spreading the news, or just simply "
+"enjoying the experience. You can find more detailed information at "
+"&linkstart;\"https://www.kde.org\"&linkmid;www.kde.org&linkend;.&newpara; "
+"The name changed its meaning over time. You can discover more about its "
+"history over &linkstart;\"https://www.kde.org/community/history/\"&linkmid;"
+"the KDE history webpage&linkend;."
+msgstr ""
+"&kde;, bir yazılımdan daha fazlasıdır. Dünyanın her yerinden programcılar, "
+"çevirmenler, katkıcılar, sanatçılar, yazarlar, dağıtımcılar ve "
+"kullanıcılardan oluşan bir topluluktur. Uluslararası teknoloji takımımız "
+"masaüstü için en iyi ücretsiz yazılımları yaratmaya kendini adamıştır. "
+"Yalnızca katkıda bulunanlar değil, aynı zamanda &kde; kullanıcıları ve "
+"hayranları da; yazılım dünyanın her yerinde bulunabilir, diğer kullanıcılara "
+"yardım edebilir, haberleri yayabilir veya yalnızca bu deneyimin tadını "
+"çıkarabilir. Daha ayrıntılı bilgiyi &linkstart;\"https://www.kde.org"
+"\"&linkmid;www.kde.org&linkend; adresinde bulabilirsiniz.&newpara; Zaman "
+"içinde bu adın anlamı değişmiştir. &linkstart;\"https://www.kde.org/"
+"community/history/\"&linkmid;KDE tarihçesi web sayfasında&linkend; KDE’nin "
+"geçmişi hakkında daha fazla bilgi alabilirsiniz."
+
+#. Tag: acronym
+#: index.docbook:419
+#, no-c-format
+msgid "&kicker;"
+msgstr "&kicker;"
+
+#. Tag: para
+#: index.docbook:421
+#, no-c-format
+msgid ""
+"In &kde; 3, the relocatable bar, usually at the bottom of the screen "
+"(sometimes called the Panel), on which application launchers, the Pager, and "
+"buttons for running applications reside."
+msgstr ""
+"&kde; 3’te, genellikle ekranın alt kısmında bulunan (bazen Panel olarak da "
+"adlandırılır), üzerinde uygulama başlatıcılarının, sayfalayıcının ve "
+"uygulamaları çalıştırmak için düğmelerin bulunduğu, yeri değiştirilebilen "
+"çubuk."
+
+#. Tag: glossdef
+#: index.docbook:421
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-panel\">Panel</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-panel\">Panel</glossseealso> <glossseealso "
+"otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+
+#. Tag: acronym
+#: index.docbook:427
+#, no-c-format
+msgid "Application Starter"
+msgstr "Uygulama Başlatıcısı"
+
+#. Tag: para
+#: index.docbook:429
+#, no-c-format
+msgid ""
+"In &plasma; an application launcher in which apps are sorted by functional "
+"group. 'Favorites' replaces the 'Most used applications' in Classic Menu, "
+"and applications can be added to it. Right-click also offers the possibility "
+"of adding applications to the desktop or panel. Rapid access to a less-used "
+"application can be by the search box. Alternatives like the classic "
+"Application Menu with cascading popup menus and the Application Dashboard, a "
+"fullscreen launcher are available. &plasma; can be used with more than one "
+"launcher, should that be required.&newpara;"
+msgstr ""
+"&plasma;’da uygulamaların işlevsel gruba göre sıralandığı bir uygulama "
+"başlatıcısı. ’Sık Kullanılanlar’, Klasik Menü’deki ’En Çok Kullanılan "
+"Uygulamalar’ın yerini alır ve buraya ek uygulamalar eklenebilir. Sağ tıklama "
+"aynı zamanda masaüstüne veya panele uygulama ekleme olanağı da sunar. Daha "
+"az kullanılan bir uygulamaya hızlı erişim, arama kutusu aracılığıyla "
+"yapılabilir. Basamaklı açılır menülere sahip klasik Uygulama Menüsü ve tam "
+"ekran başlatıcı olan Uygulama Denetim Paneli gibi alternatifler "
+"kullanılabilirdir. &plasma;, istenildiği takdirde birden fazla başlatıcı ile "
+"kullanılabilir.&newpara;"
+
+#. Tag: glossdef
+#: index.docbook:430
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-pager\">Pager</glossseealso> <glossseealso otherterm="
+"\"gloss-panel\">Panel</glossseealso> <glossseealso otherterm=\"gloss-plasma"
+"\">&plasma;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-pager\">Sayfalayıcı</glossseealso> <glossseealso otherterm="
+"\"gloss-panel\">Panel</glossseealso> <glossseealso otherterm=\"gloss-plasma"
+"\">&plasma;</glossseealso>"
+
+#. Tag: acronym
+#: index.docbook:438
+#, no-c-format
+msgid "Oxygen"
+msgstr "Oksijen"
+
+#. Tag: para
+#: index.docbook:440
+#, no-c-format
+msgid ""
+"Oxygen was the default theme of &kde; SC 4. Designed to bring 'a breath of "
+"fresh air' to the desktop by removing the simplistic, cartoonish icons, and "
+"replacing them with a clean theme and photo-realistic icons. Oxygen uses a "
+"desaturated palette to avoid the icons becoming a distraction and uses "
+"detailed scalable graphics (SVG).&newpara; More info:&newpara; &linkstart;"
+"\"https://en.wikipedia.org/wiki/Oxygen_Project\"&linkmid;Wikipedia: Oxygen "
+"Project&linkend;"
+msgstr ""
+"Oksijen, &kde; SC 4’ün öntanımlı temasıydı. Basit, karikatürize simgeleri "
+"kaldırarak ve bunları temiz bir tema ve fotogerçekçi simgelerle değiştirerek "
+"masaüstüne “yeni bir soluk” getirmek üzere tasarlanmıştı. Oksijen, "
+"simgelerin dikkat dağıtıcı olmasını önlemek için doygunluğu azaltılmış bir "
+"palet ve ayrıntılı ölçeklenebilir grafikler (SVG) kullanır.&newpara; Daha "
+"fazla bilgi:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/"
+"Oxygen_Project\"&linkmid;Vikipedi: Oksijen Projesi&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:442
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm=\"gloss-"
+"plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-breeze"
+"\">Breeze</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm=\"gloss-"
+"plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-breeze"
+"\">Esinti</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:450
+#, no-c-format
+msgid "Panel"
+msgstr "Panel"
+
+#. Tag: para
+#: index.docbook:451
+#, no-c-format
+msgid "Refers to the panel which often resides at the bottom of the screen."
+msgstr "Genellikle ekranın alt kısmında bulunan paneli ifade eder."
+
+#. Tag: glossdef
+#: index.docbook:452
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kicker\">&kicker;</glossseealso> <glossseealso otherterm="
+"\"gloss-application-starter\">Application Starter</glossseealso> "
+"<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kicker\">&kicker;</glossseealso> <glossseealso otherterm="
+"\"gloss-application-starter\">Uygulama Başlatıcısı</glossseealso> "
+"<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:460
+#, no-c-format
+msgid "Plasma"
+msgstr "Plasma"
+
+#. Tag: para
+#: index.docbook:461
+#, no-c-format
+msgid ""
+"&plasma; replaces KDesktop, &kicker; and the SuperKaramba widget engine. The "
+"applets are called Widgets, and range from informational widgets to mini-"
+"apps such as a calculator or dictionary.&newpara; More info:&newpara; "
+"&linkstart;\"https://en.wikipedia.org/wiki/KDE_Plasma_5\"&linkmid;Wikipedia: "
+"KDE Plasma 5&linkend;&newpara; &linkstart;\"https://www.kde.org/workspaces/"
+"\"&linkmid;Plasma Workspaces&linkend;&newpara; &linkstart;\"https://userbase."
+"kde.org/Plasma\"&linkmid;Plasma&linkend;"
+msgstr ""
+"&plasma;; KDesktop, &kicker; ve SuperKaramba araç takımı işletkesinin yerini "
+"alır. Uygulamacıklara \"Araç Takımları\" adı verilir ve bunlar bilgi veren "
+"araç takımlarından hesap makinesi gibi ufak uygulamalara kadar gider."
+"&newpara; Daha fazla bilgi:&newpara; &linkstart;\"https://en.wikipedia.org/"
+"wiki/KDE_Plasma_5\"&linkmid;Vikipedi: KDE Plasma 5&linkend;&newpara; "
+"&linkstart;\"https://www.kde.org/workspaces/\"&linkmid;Plasma Çalışma "
+"Alanları&linkend;&newpara; &linkstart;\"https://userbase.kde.org/Plasma"
+"\"&linkmid;Plasma&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:465
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kicker\">&kicker;</glossseealso> <glossseealso otherterm="
+"\"gloss-widget\">Widget</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kicker\">&kicker;</glossseealso> <glossseealso otherterm="
+"\"gloss-widget\">Araç Takımı</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:472
+#, no-c-format
+msgid "Ripping"
+msgstr "CD Aktarma"
+
+#. Tag: para
+#: index.docbook:473
+#, no-c-format
+msgid ""
+"The process of reading audio and video data from a &cdrom; or DVD and "
+"storing it on the hard disk."
+msgstr ""
+"Bir &cdrom; veya DVD’den ses ve video verisini okuyup bunu sabit diskte "
+"depolama işlemi."
+
+#. Tag: glossterm
+#: index.docbook:478
+#, no-c-format
+msgid "Virtual Desktops"
+msgstr "Sanal Masaüstleri"
+
+#. Tag: para
+#: index.docbook:479
+#, no-c-format
+msgid ""
+"A popular concept of &UNIX; based window managers is the one of virtual "
+"desktops. This means you have not only one screen where you can place your "
+"windows on but several. When you switch to a different desktop (usually with "
+"a pager) you will only see the windows which you started on your new desktop "
+"or moved to it. A window can also be made \"sticky\" which means it appears "
+"on all virtual desktops.&newpara; More info:&newpara; &linkstart;\"https://"
+"userbase.kde.org/Plasma\"&linkmid;Plasma FAQ&linkend;"
+msgstr ""
+"&UNIX; tabanlı pencere yöneticilerinin popüler bir kavramı sanal "
+"masaüstleridir. Bu, pencerelerinizi ancak birkaç tane yerleştirebileceğiniz "
+"birden fazla ekranınız olduğu anlamına gelir. Farklı bir masaüstüne "
+"geçtiğinizde (genellikle bir sayfalayıcı ile), yalnızca yeni masaüstünüzde "
+"başlattığınız veya ona taşıdığınız pencereleri görürsünüz. Ayrıca, tüm sanal "
+"masaüstlerinde görünen bir \"yapışkan\" pencere yapılabilir.&newpara; Daha "
+"fazla bilgi:&newpara; &linkstart;\"https://userbase.kde.org/Plasma\"&linkmid;"
+"Plasma SSS&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:481
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-application-starter\">Application Starter</glossseealso> "
+"<glossseealso otherterm=\"gloss-pager\">Pager</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-application-starter\">Uygulama Başlatıcısı</glossseealso> "
+"<glossseealso otherterm=\"gloss-pager\">Sayfalayıcı</glossseealso>"
+
+#. Tag: title
+#: index.docbook:490
+#, no-c-format
+msgid "&kde; Development"
+msgstr "&kde; Geliştirmesi"
+
+#. Tag: glossterm
+#: index.docbook:492
+#, no-c-format
+msgid "&Qt;"
+msgstr "&Qt;"
+
+#. Tag: para
+#: index.docbook:493
+#, no-c-format
+msgid ""
+"The &GUI; of &kde; is built on top of the &Qt; toolkit, which provides many "
+"graphical elements (so-called \"Widgets\") which are used to construct the "
+"desktop. You can find more information about &Qt; at &linkstart; \"https://"
+"www.qt.io/developers/\"&linkmid;https://www.qt.io/developers/&linkend;."
+msgstr ""
+"&kde;’nin grafiksel kullanıcı arayüzü, &Qt; araç kitinin üzerine "
+"yapılmıştır. Bu kit, adına araç takımı denilen birçok grafiksel öge sunar; "
+"bu ögeler masaüstünü yapmada kullanılır. &Qt; hakkında daha fazla bilgiyi "
+"&linkstart; \"https://www.qt.io/developers/\"&linkmid;https://www.qt.io/"
+"developers/&linkend; adresinde bulabilirsiniz."
+
+#. Tag: glossdef
+#: index.docbook:497
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-"
+"widget\">Widget</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-"
+"widget\">Araç Takımı</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:504
+#, no-c-format
+msgid "<glossterm>Git</glossterm>"
+msgstr "<glossterm>Git</glossterm>"
+
+#. Tag: para
+#: index.docbook:505
+#, no-c-format
+msgid ""
+"Git is a free and open source, distributed version control system designed "
+"to handle everything from small to very large projects with speed and "
+"efficiency.&newpara; Every Git clone is a full-fledged repository with "
+"complete history and full revision tracking capabilities, not dependent on "
+"network access or a central server. Branching and merging are fast and easy "
+"to do.&newpara; Git is used for version control of files, much like tools "
+"such as Mercurial, Bazaar, Subversion, CVS, Perforce, and Visual SourceSafe."
+"&newpara; It was decided that Git will be the main version control system of "
+"&kde;, replacement of SVN. It has been already used for some &kde; projects "
+"like Konversation and Amarok.&newpara; More info:&newpara; &linkstart;"
+"\"https://git-scm.com/\"&linkmid;Git Homepage&linkend;"
+msgstr ""
+"Git, küçükten çok büyük projelere kadar her şeyi hızlı ve verimli bir "
+"şekilde ele almak için tasarlanmış ücretsiz ve açık kaynaklı, dağıtılmış bir "
+"sürüm denetim sistemidir.&newpara; Her bir Git klonu, ağ erişimine veya "
+"merkezi bir sunucuya bağlı olmayan, eksiksiz geçmişe ve tam revizyon izleme "
+"özelliklerine sahip tam teşekküllü bir depodur. Dallama ve birleştirme "
+"işlemleri hızlı ve kolaydır.&newpara; Git; Mercurial, Bazaar, Subversion, "
+"CVS, Perforce ve Visual SourceSafe gibi, dosyaların sürüm denetimi için "
+"kullanılır.&newpara; Git’in, SVN’nin yerine &kde;’nin ana sürüm denetim "
+"sistemi olmasına karar verildi. Konversation ve Amarok gibi bazı &kde; "
+"projeleri için halihazırda kullanıldı.&newpara; Daha fazla bilgi:&newpara; "
+"&linkstart;\"https://git-scm.com/\"&linkmid;Git Ana Sayfası&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:510
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-svn\">SVN</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-svn\">SVN</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:516
+#, no-c-format
+msgid "<glossterm>i18n</glossterm>"
+msgstr "<glossterm>i18n</glossterm>"
+
+#. Tag: para
+#: index.docbook:517
+#, no-c-format
+msgid ""
+"Abbreviation for \"internationalization\". &kde; supports many different "
+"languages, and several i18n techniques make it easy to translate the &GUI; "
+"as well as the accompanying documents of &kde; into all these languages. "
+"More information about the i18n process is available at &linkstart; "
+"\"https://l10n.kde.org/\"&linkmid;l10n.kde.org&linkend;."
+msgstr ""
+"\"Uluslararasılaşma\"nın kısaltması. &kde; birçok farklı dili destekler ve "
+"çeşitli i18n teknikleri grafik kullanıcı arayüzünü ve &kde; ilgili tüm "
+"belgeleri çevirmeyi kolaylaştırır. i18n süreci hakkında daha fazla bilgi "
+"&linkstart; \"https://l10n.kde.org/\"&linkmid;l10n.kde.org&linkend; "
+"adresinde bulunabilir."
+
+#. Tag: glossdef
+#: index.docbook:522
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-"
+"l10n\">l10n</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-"
+"l10n\">l10n</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:529
+#, no-c-format
+msgid "Kross"
+msgstr "Kross"
+
+#. Tag: para
+#: index.docbook:530
+#, no-c-format
+msgid ""
+"Kross is a scripting framework, enabling support for multiple scripting "
+"languages. A plugin system allows for the support of further languages in "
+"the future."
+msgstr ""
+"Kross, birden çok betik yazım dilini destekleyen bir kodlama kitaplığıdır. "
+"Bir eklenti sistemi gelecekte daha fazla dilin desteklenmesine olanak tanır."
+
+#. Tag: glossterm
+#: index.docbook:535
+#, no-c-format
+msgid "KDOM"
+msgstr "KDOM"
+
+#. Tag: para
+#: index.docbook:536
+#, no-c-format
+msgid ""
+"A KPart module making KHTML <acronym>DOM</acronym> (&emstart;D&emend;ocument "
+"&emstart;O&emend;bject &emstart;M&emend;odel) rendering capabilities "
+"available to all applications. KSVG2 is built on KDOM for &kde; SC 4."
+msgstr ""
+"KHTML <acronym>DOM</acronym> (&emstart;D&emend;ocument &emstart;O&emend;"
+"bject &emstart;M&emend;odel — Belge Nesnesi Modeli) sunum yeteneklerini tüm "
+"uygulamalara açan bir KPart modülü. KSVG2, &kde; SC 4 için KDOM üzerine "
+"yapılmıştır."
+
+#. Tag: glossdef
+#: index.docbook:536
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-khtml\">KHTML</glossseealso> <glossseealso otherterm="
+"\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm=\"gloss-khtml"
+"\">KSVG</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-khtml\">KHTML</glossseealso> <glossseealso otherterm="
+"\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm=\"gloss-khtml"
+"\">KSVG</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:544
+#, no-c-format
+msgid "<glossterm>KJS</glossterm>"
+msgstr "<glossterm>KJS</glossterm>"
+
+#. Tag: para
+#: index.docbook:545
+#, no-c-format
+msgid "&kde; platform's JavaScript engine."
+msgstr "&kde; platformunun JavaScript işletkesi."
+
+#. Tag: glossdef
+#: index.docbook:545
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm="
+"\"gloss-plasma\">&plasma;</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:552
+#, no-c-format
+msgid "KSVG"
+msgstr "KSVG"
+
+#. Tag: para
+#: index.docbook:553
+#, no-c-format
+msgid ""
+"KSVG enables support for scalable vector graphics in a KHTML browser. KSVG2 "
+"extends this for &kde; SC 4."
+msgstr ""
+"KSVG, bir KHTML tarayıcısında ölçeklenebilir vektör grafiklerinin "
+"desteklenmesini sağlar. KSVG2 bunu &kde; SC 4 için genişletir."
+
+#. Tag: glossdef
+#: index.docbook:553
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-khtml\">KHTML</glossseealso> <glossseealso otherterm="
+"\"gloss-kparts\">KParts</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-khtml\">KHTML</glossseealso> <glossseealso otherterm="
+"\"gloss-kparts\">KParts</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:560
+#, no-c-format
+msgid "l10n"
+msgstr "l10n"
+
+#. Tag: para
+#: index.docbook:561
+#, no-c-format
+msgid ""
+"Abbreviation for \"localization\", the process of adapting a program to the "
+"local environment. This includes &eg; the currency used for monetary values "
+"or the time format and translating text.&newpara; More info:&newpara; "
+"&linkstart;\"https://l10n.kde.org/\"&linkmid;l10n.kde.org&linkend;"
+msgstr ""
+"Bir programın yerel ortama uyarlanması süreci olan \"yerelleştirme\"nin "
+"kısaltması. Bunda; &eg;, parasal değerler için kullanılan para birimleri, "
+"zaman biçimleri ve uygulamaların çeviri metinleri içerilir.&newpara; Daha "
+"fazla bilgi:&newpara; &linkstart;\"https://l10n.kde.org/\"&linkmid;l10n.kde."
+"org&linkend;"
+
+#. Tag: glossseealso
+#: index.docbook:566
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-i18n\">i18n</glossseealso>"
+msgstr "<glossseealso otherterm=\"gloss-i18n\">i18n</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:570
+#, no-c-format
+msgid "Widget"
+msgstr "Araç Takımı"
+
+#. Tag: para
+#: index.docbook:571
+#, no-c-format
+msgid ""
+"In general Widgets are graphical elements like scrollbars, buttons or input "
+"fields which are used to construct the &GUI;.&newpara; In &plasma; Widgets "
+"are the main components and take on a variety of functions, ranging from "
+"displaying the desktop and associated wallpaper, showing the laptop's "
+"battery level, displaying the plugged in devices, and drawing the taskbar: "
+"basically, they are small applications that live on the desktop. "
+"Additionally, widgets can be grouped together in \"Containers\", like the "
+"panel and even the desktop itself."
+msgstr ""
+"Genel olarak araç takımları, grafik kullanıcı arayüzünü oluşturmak için "
+"kullanılan sarma çubukları, düğmeler veya giriş alanları gibi grafik "
+"ögelerdir.&newpara; &plasma;’da araç takımları ana bileşenlerdir ve "
+"masaüstünü ve ilgili duvar kağıdını görüntülemek, dizüstü bilgisayarın pil "
+"düzeyini göstermek, takılı aygıtları görüntülemek ve görev çubuğunu çizmek "
+"gibi çeşitli işlevleri üstlenirler: Temel olarak masaüstünde yaşayan küçük "
+"uygulamalardır. Ek olarak araç takımları, panel ve hatta masaüstünün kendisi "
+"gibi \"Kapsayıcılar\" altında birlikte gruplandırılabilir."
+
+#. Tag: glossdef
+#: index.docbook:573
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> "
+"<glossseealso otherterm=\"gloss-containment\">Containment</glossseealso> "
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> "
+"<glossseealso otherterm=\"gloss-containment\">Kapsama</glossseealso> "
+"<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+"otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+
+#. Tag: acronym
+#: index.docbook:581
+#, no-c-format
+msgid "<acronym>SVN</acronym>"
+msgstr "<acronym>SVN</acronym>"
+
+#. Tag: para
+#: index.docbook:582
+#, no-c-format
+msgid ""
+"Abbreviation for &emstart;Subversion&emend;, a version control system. The "
+"<acronym>SVN</acronym> is a very elegant way of managing file versions that "
+"allow more than one developer to easily work on the same project. You can "
+"find a description of how to get the latest (developer) version of the &kde; "
+"sources via anonymous <acronym>SVN</acronym> on &linkstart;\"http://"
+"developer.kde.org/source/anonsvn.html\"&linkmid;http://developer.kde.org/"
+"source/anonsvn.html&linkend;.&newpara; More about <acronym>SVN</acronym> is "
+"available at &linkstart;\"http://subversion.tigris.org/\"&linkmid;http://"
+"subversion.tigris.org/&linkend;."
+msgstr ""
+"&emstart;Subversion&emend;’un kısaltması olan bir sürüm denetim sistemidir. "
+"<acronym>SVN</acronym>, birden çok geliştiricinin aynı projede çalışmasını "
+"çok daha kolay kılan elegant bir sistemdir. &kde; kaynaklarının güncel "
+"kaynaklarını anonim bir <acronym>SVN</acronym> örneğini alma konusunda "
+"bilgiyi &linkstart;\"http://developer.kde.org/source/anonsvn.html\"&linkmid;"
+"http://developer.kde.org/source/anonsvn.html&linkend; adresinde "
+"bulabilirsiniz.&newpara; <acronym>SVN</acronym> hakkında daha fazla bilgi "
+"ise &linkstart;\"http://subversion.tigris.org/\"&linkmid;http://subversion."
+"tigris.org/&linkend; adresindedir."
+
+#. Tag: glossseealso
+#: index.docbook:583
+#, no-c-format
+msgid "<glossseealso>Git</glossseealso>"
+msgstr "<glossseealso>Git</glossseealso>"
+
+#. Tag: glossterm
+#: index.docbook:587
+#, no-c-format
+msgid "XMLGUI"
+msgstr "XMLGUI"
+
+#. Tag: para
+#: index.docbook:588
+#, no-c-format
+msgid ""
+"A programmers' framework for designing the user interface. It is extensively "
+"used by KParts.&newpara; More info:&newpara; &linkstart;\"https://en."
+"wikipedia.org/wiki/XMLGUI\"&linkmid;Wikipedia: XMLGUI&linkend;&newpara; "
+"&linkstart;\"http://en.wikipedia.org/wiki/Qt_Style_Sheets\"&linkmid;"
+"Wikipedia: Qt Style Sheets&linkend;"
+msgstr ""
+"Kullanıcı arayüzü tasarlamak için programcı kitaplığı. KParts tarafından "
+"yaygın olarak kullanılmaktadır.&newpara; Daha fazla bilgi:&newpara; "
+"&linkstart;\"https://en.wikipedia.org/wiki/XMLGUI\"&linkmid;Wikipedia: "
+"XMLGUI&linkend;&newpara; &linkstart;\"http://en.wikipedia.org/wiki/"
+"Qt_Style_Sheets\"&linkmid;Wikipedia: Qt Style Sheets&linkend;"
+
+#. Tag: glossdef
+#: index.docbook:591
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">Kparts</glossseealso> <glossseealso otherterm="
+"\"gloss-qt\">&Qt;</glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso "
+"otherterm=\"gloss-kparts\">Kparts</glossseealso> <glossseealso otherterm="
+"\"gloss-qt\">&Qt;</glossseealso>"
+
+#. Tag: title
+#: index.docbook:600
+#, no-c-format
+msgid "Miscellaneous"
+msgstr "Çeşitli"
+
+#. Tag: acronym
+#: index.docbook:602 index.docbook:629
+#, no-c-format
+msgid "<acronym>RFC</acronym>"
+msgstr "<acronym>RFC</acronym>"
+
+#. Tag: para
+#: index.docbook:603
+#, no-c-format
+msgid ""
+"&emstart;R&emend;equest &emstart;F&emend;or &emstart;C&emend;omment. A "
+"common way to publish new protocol ideas or procedures for evaluation of the "
+"Internet community. Though <acronym>RFC</acronym>s are not mandatory, many "
+"applications try to adhere to them, once they have been approved by the "
+"community.&newpara; More information about <acronym>RFC</acronym>s can be "
+"found at the &linkstart;\"https://www.rfc-editor.org/\"&linkmid;RFC "
+"Homepage&linkend;."
+msgstr ""
+"&emstart;R&emend;equest &emstart;F&emend;or &emstart;C&emend;omment (Yorum "
+"İsteği). İnternet topluluğunun değerlendirilmesi için yeni protokol "
+"fikirlerini veya prosedürlerini yayınlamanın yaygın bir yolu. <acronym>RFC</"
+"acronym>’ler zorunlu olmasa da, birçok uygulama topluluk tarafından "
+"onaylandıktan sonra bunlara uymaya çalışır.&newpara; <acronym>RFC</"
+"acronym>’ler hakkında daha fazla bilgi &linkstart;\"https://www.rfc-editor."
+"org/\"&linkmid;RFC Ana Sayfasında&linkend; bulunabilir."
+
+#. Tag: title
+#: index.docbook:615
+#, no-c-format
+msgid "Various protocols"
+msgstr "Çeşitli protokoller"
+
+#. Tag: acronym
+#: index.docbook:617
+#, no-c-format
+msgid "<acronym>SMB</acronym>"
+msgstr "<acronym>SMB</acronym>"
+
+#. Tag: para
+#: index.docbook:618
+#, no-c-format
+msgid ""
+"&emstart;S&emend;erver &emstart;M&emend;essage &emstart;B&emend;lock. A "
+"network protocol used in &Microsoft; &Windows; networks to access the file "
+"systems of other computers."
+msgstr ""
+"&emstart;S&emend;erver &emstart;M&emend;essage &emstart;B&emend;lock (Sunucu "
+"İletisi Bloku). &Microsoft; &Windows; ağları tarafından diğer "
+"bilgisayarların dosya sistemlerine ulaşmak için kullanılan bir ağ "
+"protokolüdür."
+
+#. Tag: glossseealso
+#: index.docbook:621
+#, no-c-format
+msgid ""
+"<glossseealso otherterm=\"gloss-ioworker\"><acronym>IO</acronym> Worker</"
+"glossseealso>"
+msgstr ""
+"<glossseealso otherterm=\"gloss-ioworker\"><acronym>GÇ</acronym> İşçisi</"
+"glossseealso>"
+
+#. Tag: acronym
+#: index.docbook:625
+#, no-c-format
+msgid "<acronym>IRC</acronym>"
+msgstr "<acronym>IRC</acronym>"
+
+#. Tag: para
+#: index.docbook:626
+#, no-c-format
+msgid ""
+"&emstart;I&emend;nternet &emstart;R&emend;elay &emstart;C&emend;hat. A "
+"protocol defined in <acronym>RFC</acronym> 1459, which handles the "
+"specification to enable real-time text chat."
+msgstr ""
+"&emstart;I&emend;nternet &emstart;R&emend;elay &emstart;C&emend;hat "
+"(İnternet üzerinden Canlı Sohbet). <acronym>RFC</acronym> 1459’da tanımlanan "
+"ve gerçek zamanlı metin sohbetini etkinleştirme belirtimini işleyen bir "
+"protokol."
+
+#. Tag: glossterm
+#: index.docbook:633
+#, no-c-format
+msgid "Host"
+msgstr "Makine"
+
+#. Tag: para
+#: index.docbook:634
+#, no-c-format
+msgid ""
+"This can either be a name from your <filename>/etc/hosts</filename> file "
+"(<systemitem class=\"systemname\">mycomputer</systemitem>), an Internet name "
+"(<systemitem class=\"systemname\">www.kde.org</systemitem>) or an IP-Address "
+"(<systemitem>192.168.0.10</systemitem>)."
+msgstr ""
+"Bu, ya <filename>/etc/hosts</filename> dosyanızdaki bir ad (<systemitem "
+"class=\"systemname\">bilgisayarım</systemitem>) ya bir İnternet adı "
+"(<systemitem class=\"systemname\">www.kde.org</systemitem>) ya da bir IP "
+"adresi (<systemitem>192.168.0.10</systemitem>) olabilir."
+
+#. Tag: glossary
+#: index.docbook:642
+#, no-c-format
+msgid "&glossary-kdeprinting;"
+msgstr "&glossary-kdeprinting;"
+
+#~ msgid "ARts"
+#~ msgstr "ARts"
+
+#~ msgid "Extender"
+#~ msgstr "Genişletici"
+
+#~ msgid "&kickoff;"
+#~ msgstr "&kickoff;"
+
+#~ msgid ""
+#~ "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm="
+#~ "\"gloss-plasma\">&plasma;</glossseealso>"
+#~ msgstr ""
+#~ "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm="
+#~ "\"gloss-plasma\">&plasma;</glossseealso>"
+
+#~ msgid "Strigi"
+#~ msgstr "Strigi"
+
+#~ msgid ""
+#~ "Graphical elements like scrollbars, buttons or input fields which are "
+#~ "used by &kde; to construct the &GUI;."
+#~ msgstr ""
+#~ "&GUI;'yi oluşturmak için, &kde; tarafından kullanılan kaydırma çubukları, "
+#~ "düğmeler veya girdi alanları gibi grafiksel elemanlardır."
+
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk"
+
+#~ msgid "Soprano"
+#~ msgstr "Soprano"
+
+#~ msgid ""
+#~ "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-nepomuk\">Nepomuk</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-strigi\">Strigi</glossseealso>"
+#~ msgstr ""
+#~ "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-nepomuk\">Nepomuk</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-strigi\">Strigi</glossseealso>"
+
+#~ msgid ""
+#~ "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-nepomuk\">Nepomuk</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-soprano\">Soprano</glossseealso>"
+#~ msgstr ""
+#~ "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-nepomuk\">Nepomuk</glossseealso> <glossseealso "
+#~ "otherterm=\"gloss-soprano\">Soprano</glossseealso>"
+
+#, fuzzy
+#~| msgid "<acronym>KIO</acronym>"
+#~ msgid "<acronym>ZUI</acronym>"
+#~ msgstr "<acronym>KIO</acronym>"
+
+#, fuzzy
+#~| msgid "<acronym>KIO</acronym>"
+#~ msgid "<acronym>Git</acronym>"
+#~ msgstr "<acronym>KIO</acronym>"
+
+#~ msgid "XFree86"
+#~ msgstr "XFree86"
+
+#, fuzzy
+#~ msgid ""
+#~ "Abbreviation for <quote>K Desktop Environment</quote>, a leading &GUI; "
+#~ "for &UNIX;-based systems. You can find more detailed information at "
+#~ "<ulink url=\"http://www.kde.org\">www.kde.org</ulink>."
+#~ msgstr ""
+#~ "<quote>K Desktop Environment</quote> (K Masaüstü Ortamı) kelimelerinin "
+#~ "kısaltılmışıdır. Bu sistem, &UNIX; tabanlı sistemler için lider bir "
+#~ "&GUI;'dir. Daha fazla bilgiye <ulink url=\"http://www.kde.org\">www.kde."
+#~ "org</ulink> adresinde ulaşabilirsiniz."
+
+#~ msgid ""
+#~ "<emphasis>G</emphasis>NU <emphasis>N</emphasis>etwork <emphasis>O</"
+#~ "emphasis>bject <emphasis>M</emphasis>odel <emphasis>E</"
+#~ "emphasis>nvironment, one of the leading &UNIX; &GUI;s."
+#~ msgstr ""
+#~ "<emphasis>G</emphasis>NU <emphasis>N</emphasis>etwork <emphasis>O</"
+#~ "emphasis>bject <emphasis>M</emphasis>odel <emphasis>E</"
+#~ "emphasis>nvironment, lider &UNIX; &GUI;lerinden biri daha."
+
+#~ msgid "&kcontrol;"
+#~ msgstr "&kcontrol;"
+
+#~ msgid "&kicker; is the nickname as well as project name of the &kde; panel."
+#~ msgstr "&kicker;, &kde; paneline verilen isimdir."
+
+#~ msgid "&ksirc;"
+#~ msgstr "&ksirc;"
+
+#~ msgid ""
+#~ "&ksirc; is the default <acronym>IRC</acronym> client, which is shipped "
+#~ "with &kde;. You can use &ksirc; to chat with anyone on an <acronym>IRC</"
+#~ "acronym> network."
+#~ msgstr ""
+#~ "&ksirc;, &kde; ile dağıtılan öntanımlı <acronym>IRC</acronym> "
+#~ "istemcisidir. &ksirc;'yi <acronym>IRC</acronym> ağında herhangi birisiyle "
+#~ "sohbet etmek için kullanabilirsiniz."
+
+#~ msgid "<acronym>CVS</acronym>"
+#~ msgstr "<acronym>CVS</acronym>"
+
+#~ msgid "&konqueror;"
+#~ msgstr "&konqueror;"
+
+#~ msgid "&kde;"
+#~ msgstr "&kde;"

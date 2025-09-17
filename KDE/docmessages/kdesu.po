@@ -1,0 +1,707 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
+"PO-Revision-Date: 2025-03-08 00:40+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.03.70\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: index.docbook:13
+#, no-c-format
+msgid "The &kdesu; handbook"
+msgstr "&kdesu; El Kitabı"
+
+#. Tag: author
+#: index.docbook:16
+#, no-c-format
+msgid "&Geert.Jansen; &Geert.Jansen.mail;"
+msgstr "&Geert.Jansen; &Geert.Jansen.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:17
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: holder
+#: index.docbook:22
+#, no-c-format
+msgid "&Geert.Jansen;"
+msgstr "&Geert.Jansen;"
+
+#. Tag: date
+#: index.docbook:27
+#, no-c-format
+msgid "2010-09-21"
+msgstr "2010-09-21"
+
+#. Tag: releaseinfo
+#: index.docbook:28
+#, no-c-format
+msgid "KDE 4.5"
+msgstr "KDE 4.5"
+
+#. Tag: para
+#: index.docbook:31
+#, no-c-format
+msgid ""
+"&kdesu; is a graphical front end for the &UNIX; <command>su</command> "
+"command."
+msgstr ""
+"&kdesu; &UNIX; <command>su</command> komutu için bir grafiksel ön yüzdür."
+
+#. Tag: keyword
+#: index.docbook:35
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:36
+#, no-c-format
+msgid "<keyword>su</keyword>"
+msgstr "<keyword>su</keyword>"
+
+#. Tag: keyword
+#: index.docbook:37
+#, no-c-format
+msgid "password"
+msgstr "parola"
+
+#. Tag: keyword
+#: index.docbook:38
+#, no-c-format
+msgid "root"
+msgstr "kök"
+
+#. Tag: title
+#: index.docbook:44
+#, no-c-format
+msgid "Introduction"
+msgstr "Giriş"
+
+#. Tag: para
+#: index.docbook:60
+#, no-c-format
+msgid ""
+"Welcome to &kdesu;! &kdesu; is a graphical front end for the &UNIX; "
+"<command>su</command> command for the K Desktop Environment. It allows you "
+"to run a program as different user by supplying the password for that user. "
+"&kdesu; is an unprivileged program; it uses the system's <command>su</"
+"command>."
+msgstr ""
+"&kdesu;’ya hoş geldiniz! &kdesu;, &UNIX; <command>su</command> komutunun K "
+"Masaüstü Ortamı için hazırlanmış bir grafiksel ön yüzüdür. Bir programı, "
+"başka bir kullanıcının parolasını sağlayarak o kullanıcıymış gibi "
+"çalıştırmaya izin verir. &kdesu; ayrıcalıksız bir programdır, sistemin "
+"<command>su</command> komutunu kullanır."
+
+#. Tag: para
+#: index.docbook:66
+#, no-c-format
+msgid ""
+"&kdesu; has one additional feature: it can remember passwords for you. If "
+"you are using this feature, you only need to enter the password once for "
+"each command. See <xref linkend=\"sec-password-keeping\"/> for more "
+"information on this and a security analysis."
+msgstr ""
+"&kdesu; programının bir ek özelliği vardır: Sizin için parolaları "
+"anımsayabilir. Bu özelliği kullanıyorsanız her bir komut için parolanızı "
+"yalnızca bir kez girmeniz gerekir. Bunun ve bir güvenlik çözümlemesi üzerine "
+"daha fazla bilgi için <xref linkend=\"sec-password-keeping\"/> bölümüne "
+"bakın."
+
+#. Tag: para
+#: index.docbook:72
+#, no-c-format
+msgid ""
+"This program is meant to be started from the command line or from <filename>."
+"desktop</filename> files. Although it asks for the <systemitem class="
+"\"username\">root</systemitem> password using a &GUI; dialog, I consider it "
+"to be more of a command line &lt;-&gt; &GUI; glue instead of a pure &GUI; "
+"program."
+msgstr ""
+"Bu program, komut satırından veya <filename>.desktop</filename> "
+"dosyalarından başlatılmak üzere tasarlanmıştır. Bir &GUI; iletişim kutusu "
+"kullanarak <systemitem class=\"username\">root</systemitem> parolasını sorsa "
+"da, bir &GUI; programından daha çok bir &lt;-&gt; &GUI; yapıştırıcısıdır."
+
+#. Tag: para
+#: index.docbook:78
+#, no-c-format
+msgid ""
+"Since <command>kdesu</command> is no longer installed in <userinput> $(kf5-"
+"config --prefix)</userinput>/bin but in <userinput>kf5-config --path "
+"libexec</userinput> and therefore not in your <envar>Path</envar>, you have "
+"to use <userinput>$(kf5-config --path libexec)<command>kdesu</command></"
+"userinput> to launch <command>kdesu</command>."
+msgstr ""
+"<command>kdesu</command> komutu, artık <userinput> $(kf5-config --prefix)</"
+"userinput>/bin değil de <userinput>kf5-config --path libexec</userinput> "
+"konumunda kurulu olduğundan ve dolayısıyla <envar>PATH</envar>’inizde "
+"olmadığından, <command>kdesu</command> komutunu başlatmak için <userinput>"
+"$(kf5-config --path libexec)<command>kdesu</command></userinput> "
+"kullanmalısınız."
+
+#. Tag: title
+#: index.docbook:85
+#, no-c-format
+msgid "Using &kdesu;"
+msgstr "&kdesu; Kullanımı"
+
+#. Tag: para
+#: index.docbook:87
+#, no-c-format
+msgid "Usage of &kdesu; is easy. The syntax is like this:"
+msgstr "&kdesu; kullanımı çok kolaydır. Sözdizim şöyledir:"
+
+#. Tag: cmdsynopsis
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"<command>kdesu</command> <group choice=\"opt\"><option>-c</option> "
+"<replaceable> command</replaceable></group> <group choice=\"opt\"><option>-"
+"d</option></group> <group choice=\"opt\"><option>-f</option> <replaceable> "
+"file</replaceable></group> <group choice=\"opt\"><option>-i</option> "
+"<replaceable> icon name</replaceable></group> <group choice=\"opt\"><option>-"
+"n</option></group> <group choice=\"opt\"><option>-p</option> <replaceable> "
+"priority</replaceable></group> <group choice=\"opt\"><option>-r</option></"
+"group> <group choice=\"opt\"><option>-s</option></group> <group choice=\"opt"
+"\"><option>-t</option></group> <group choice=\"opt\"><option>-u</option> "
+"<replaceable> user</replaceable></group> <group choice=\"opt\"><option>--"
+"noignorebutton</option></group> <group choice=\"opt\"><option>--attach</"
+"option> <replaceable> winid</replaceable></group>"
+msgstr ""
+"<command>kdesu</command> <group choice=\"opt\"><option>-c</option> "
+"<replaceable> komut</replaceable></group> <group choice=\"opt\"><option>-d</"
+"option></group> <group choice=\"opt\"><option>-f</option> <replaceable> "
+"dosya</replaceable></group> <group choice=\"opt\"><option>-i</option> "
+"<replaceable> simge adı</replaceable></group> <group choice=\"opt\"><option>-"
+"n</option></group> <group choice=\"opt\"><option>-p</option> <replaceable> "
+"öncelik</replaceable></group> <group choice=\"opt\"><option>-r</option></"
+"group> <group choice=\"opt\"><option>-s</option></group> <group choice=\"opt"
+"\"><option>-t</option></group> <group choice=\"opt\"><option>-u</option> "
+"<replaceable> kullanıcı</replaceable></group> <group choice=\"opt"
+"\"><option>--noignorebutton</option></group> <group choice=\"opt\"><option>--"
+"attach</option> <replaceable> winid</replaceable></group>"
+
+#. Tag: cmdsynopsis
+#: index.docbook:110
+#, no-c-format
+msgid ""
+"<command>kdesu</command> <arg choice=\"opt\">&kde; Generic Options</arg> "
+"<arg choice=\"opt\">&Qt; Generic Options</arg>"
+msgstr ""
+"<command>kdesu</command> <arg choice=\"opt\">&kde; Genel Seçenekleri</arg> "
+"<arg choice=\"opt\">&Qt; Genel Seçenekleri</arg>"
+
+#. Tag: para
+#: index.docbook:116
+#, no-c-format
+msgid "The command line options are explained below."
+msgstr "Komut satırı seçenekleri aşağıda açıklanmıştır."
+
+#. Tag: option
+#: index.docbook:120
+#, no-c-format
+msgid "-c <replaceable>command</replaceable>"
+msgstr "-c <replaceable>komut</replaceable>"
+
+#. Tag: para
+#: index.docbook:121
+#, no-c-format
+msgid ""
+"This specifies the command to run as root. It has to be passed in one "
+"argument. So if, for example, you want to start a new file manager, you "
+"would enter at the prompt: <userinput>$(kf5-config --path "
+"libexec)<command>kdesu <option>-c <replaceable> &dolphin;</replaceable></"
+"option></command></userinput>"
+msgstr ""
+"Bu, komutun yönetici olarak çalışacağını belirtir. Bir argüman ile "
+"geçirilmelidir. Örneğin, yeni bir dosya yöneticisi başlatmak istiyorsanız "
+"komut isteminde şunu girerdiniz: <userinput>$(kf5-config --path "
+"libexec)<command>kdesu <option>-c <replaceable> &dolphin;</replaceable></"
+"option></command></userinput>"
+
+#. Tag: option
+#: index.docbook:127
+#, no-c-format
+msgid "<option>-d</option>"
+msgstr "<option>-d</option>"
+
+#. Tag: para
+#: index.docbook:128
+#, no-c-format
+msgid "Show debug information."
+msgstr "Hata ayıklama bilgisini gösterin."
+
+#. Tag: option
+#: index.docbook:131
+#, no-c-format
+msgid "-f <replaceable>file</replaceable>"
+msgstr "-f <replaceable>dosya</replaceable>"
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid ""
+"This option allow efficient use of &kdesu; in <filename>.desktop</filename> "
+"files. It tells &kdesu; to examine the file specified by <parameter>file</"
+"parameter>. If this file is writable by the current user, &kdesu; will "
+"execute the command as the current user. If it is not writable, the command "
+"is executed as user <parameter>user</parameter> (defaults to root)."
+msgstr ""
+"Bu seçenek, &kdesu;’nun <filename>.desktop</filename> dosyalarında etkili "
+"kullanımını sağlar. &kdesu;’ya <parameter>dosya</parameter> parametresiyle "
+"verilen dosyayı incelemesini söyler. Dosyaya geçerli kullanıcı tarafından "
+"yazılabiliyorsa &kdesu; komutu geçerli kullanıcı olarak yürütür. Aksi "
+"durumda, komut <parameter>kullanıcı</parameter> olarak yürütülür (öntanımlı "
+"olarak yönetici)."
+
+#. Tag: para
+#: index.docbook:138
+#, no-c-format
+msgid ""
+"<parameter>file</parameter> is evaluated like this: if <parameter>file</"
+"parameter> starts with a <literal>/</literal>, it is taken as an absolute "
+"filename. Otherwise, it is taken as the name of a global &kde; configuration "
+"file."
+msgstr ""
+"<parameter>dosya</parameter> parametresi şöyle değerlendirilir: Eğer "
+"<parameter>dosya</parameter> bir <literal>/</literal> ile başlıyorsa mutlak "
+"bir dosya adı olarak alınır. Aksi takdirde global bir &kde; yapılandırma "
+"dosyası olarak kabul edilir."
+
+#. Tag: term
+#: index.docbook:144
+#, no-c-format
+msgid "<option>-i</option> <replaceable>icon name</replaceable>"
+msgstr "<option>-i</option> <replaceable>simge adı</replaceable>"
+
+#. Tag: para
+#: index.docbook:145
+#, no-c-format
+msgid ""
+"Specify icon to use in the password dialog. You may specify just the name, "
+"without any extension."
+msgstr ""
+"Parola iletişim kutusunda kullanılmak üzere bir simge belirtin. Herhangi bir "
+"uzantı olmadan yalnızca adı belirtebilirsiniz."
+
+#. Tag: para
+#: index.docbook:147
+#, no-c-format
+msgid ""
+"For instance to run &konqueror; in filemanager mode and show the &konqueror; "
+"icon in the password dialog:"
+msgstr ""
+"Örneğin &konqueror; uygulamasını dosya yöneticisi kipinde çalıştırmak ve "
+"&konqueror; simgesini parola iletişim kutusunda göstermek için:"
+
+#. Tag: screen
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"<userinput>$(kf5-config --path libexec)<command>kdesu</command>  <option>-i "
+"konqueror</option>\n"
+"<option>-c \"konqueror --profile filemanagement\"</option></userinput>"
+msgstr ""
+"<userinput>$(kf5-config --path libexec)<command>kdesu</command>  <option>-i "
+"konqueror</option>\n"
+"<option>-c \"konqueror --profile filemanagement\"</option></userinput>"
+
+#. Tag: option
+#: index.docbook:154
+#, no-c-format
+msgid "<option>-n</option>"
+msgstr "<option>-n</option>"
+
+#. Tag: para
+#: index.docbook:155
+#, no-c-format
+msgid ""
+"Do not keep the password. This disables the <guilabel>keep password</"
+"guilabel> checkbox in the password dialog."
+msgstr ""
+"Parolayı tutmayın. Bu seçenek, parola iletişim kutusundaki "
+"<guilabel>parolayı tut</guilabel> onay kutusunu devre dışı bırakır."
+
+#. Tag: term
+#: index.docbook:159
+#, no-c-format
+msgid "<option>-p</option> <replaceable>priority</replaceable>"
+msgstr "<option>-p</option> <replaceable>öncelik</replaceable>"
+
+#. Tag: para
+#: index.docbook:161
+#, no-c-format
+msgid ""
+"Set priority value. The priority is an arbitrary number between 0 and 100, "
+"where 100 means highest priority, and 0 means lowest. The default is 50."
+msgstr ""
+"Öncelik değerini ayarlayın. Öncelik, 1–100 arasında herhangi bir numaradır; "
+"100 en yüksek önceliği ve 0 ise en düşük önceliği belirtir. Öntanımlı değer "
+"50’dir."
+
+#. Tag: option
+#: index.docbook:167
+#, no-c-format
+msgid "<option>-r</option>"
+msgstr "<option>-r</option>"
+
+#. Tag: para
+#: index.docbook:168
+#, no-c-format
+msgid "Use realtime scheduling."
+msgstr "Gerçek zamanlı zamanlama kullanın."
+
+#. Tag: option
+#: index.docbook:173
+#, no-c-format
+msgid "<option>-s</option>"
+msgstr "<option>-s</option>"
+
+#. Tag: para
+#: index.docbook:174
+#, no-c-format
+msgid "Stop the kdesu daemon. See <xref linkend=\"sec-password-keeping\"/>."
+msgstr ""
+"kdesu ardalan sürecini durdurun. Bkz. <xref linkend=\"sec-password-keeping\"/"
+">."
+
+#. Tag: option
+#: index.docbook:178
+#, no-c-format
+msgid "<option>-t</option>"
+msgstr "<option>-t</option>"
+
+#. Tag: para
+#: index.docbook:179
+#, no-c-format
+msgid ""
+"Enable terminal output. This disables password keeping. This is largely for "
+"debugging purposes; if you want to run a console mode app, use the standard "
+"<command>su</command> instead."
+msgstr ""
+"Uçbirim çıktısını etkinleştirin. Bu, parola tutmayı devre dışı bırakır. Bu "
+"genelde hata ayıklama amaçlı kullanılır; bir konsol kipli uygulama "
+"çalıştırmak istiyorsanız bunun yerine standart olan <command>su</command> "
+"komutunu kullanın."
+
+#. Tag: term
+#: index.docbook:184
+#, no-c-format
+msgid "<option>-u</option> <replaceable> user</replaceable>"
+msgstr "<option>-u</option> <replaceable> kullanıcı</replaceable>"
+
+#. Tag: para
+#: index.docbook:185
+#, no-c-format
+msgid ""
+"While the most common use for &kdesu; is to run a command as the superuser, "
+"you can supply any user name and the appropriate password."
+msgstr ""
+"&kdesu;’nun en yaygın kullanımı bir komutu yönetici kullanıcı olarak "
+"çalıştırmak olsa da, herhangi bir kullanıcı adını ve parolayı da "
+"verebilirsiniz."
+
+#. Tag: title
+#: index.docbook:196
+#, no-c-format
+msgid "Internals"
+msgstr "İç Yapılar"
+
+#. Tag: title
+#: index.docbook:199
+#, no-c-format
+msgid "X authentication"
+msgstr "X kimlik doğrulaması"
+
+#. Tag: para
+#: index.docbook:201
+#, no-c-format
+msgid ""
+"The program you execute will run under the root user id and will generally "
+"have no authority to access your X display. &kdesu; gets around this by "
+"adding an authentication cookie for your display to a temporary <filename>."
+"Xauthority</filename> file. After the command exits, this file is removed."
+msgstr ""
+"Yürüttüğünüz program yönetici kimliği altında çalışır ve genelde X "
+"ekranınıza ulaşmak için yetkisi yoktur. &kdesu;, geçici bir <filename>."
+"Xauthority</filename> dosyasına bir kimlik doğrulama çerezi ekleyerek bunun "
+"tarafından dolaşır. Komut çıktığında dosya kaldırılır."
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid ""
+"If you don't use X cookies, you are on your own. &kdesu; will detect this "
+"and will not add a cookie but you will have to make sure that root is "
+"allowed to access to your display."
+msgstr ""
+"X çerezleri kullanmıyorsanız kendi başınızasınız. &kdesu; bunu algılar ve "
+"bir tanımlama bilgisi eklemez; ancak yöneticinin ekranınıza erişmesine izin "
+"verildiğinden emin olmanız gerekir."
+
+#. Tag: title
+#: index.docbook:214
+#, no-c-format
+msgid "Interface to <command>su</command>"
+msgstr "<command>su</command> Komutuyla Etkileşim"
+
+#. Tag: para
+#: index.docbook:216
+#, no-c-format
+msgid ""
+"&kdesu; uses the sytem's <command>su</command> for acquiring priviliges. In "
+"this section, I explain the details of how &kdesu; does this."
+msgstr ""
+"&kdesu;, yetki almak için sistemin <command>su</command> komutunu kullanır. "
+"Bu bölümde, &kdesu;’nun bunu nice yaptığı anlatılır."
+
+#. Tag: para
+#: index.docbook:220
+#, no-c-format
+msgid ""
+"Because some <command>su</command> implementations (&ie; the one from "
+"&RedHat;) don't want to read the password from <literal>stdin</literal>, "
+"&kdesu; creates a pty/tty pair and executes <command>su</command> with its "
+"standard filedescriptors connected to the tty."
+msgstr ""
+"Bazı <command>su</command> uygulamaları (örn. &RedHat;), parolaları "
+"<literal>stdin</literal>’den okumak istemez; &kdesu; bir pty/tty çifti "
+"oluşturur ve <command>su</command> komutunu kendi dosya tanımlayıcıları "
+"tty’ye iliştirilmiş bir biçimde yürütür."
+
+#. Tag: para
+#: index.docbook:226
+#, no-c-format
+msgid ""
+"To execute the command the user selected, rather than an interactive shell, "
+"&kdesu; uses the <option>-c</option> argument with <command>su</command>. "
+"This argument is understood by every shell that I know of so it should work "
+"portably. <command>su</command> passes this <option>-c</option> argument to "
+"the target user's shell, and the shell executes the program. Example "
+"command: <command>su <option>root -c <replaceable>the_program</replaceable></"
+"option></command>."
+msgstr ""
+"Etkileşimli bir kabuk yerine kullanıcının seçtiği komutu yürütmek için "
+"&kdesu;, <command>su</command> komutunu <option>-c</option> argümanıyla "
+"kullanır. Bu argüman bilinen her kabukla çalışır, bu yüzden sıkıntı "
+"çıkarmaması gerekir. <command>su</command>, bu <option>-c</option> "
+"argümanını hedef kullanıcının kabuğuna geçiriri ve kabuk programı yürütür. "
+"Örnek komut: <command>su <option>root -c <replaceable>program</replaceable></"
+"option></command>."
+
+#. Tag: para
+#: index.docbook:234
+#, no-c-format
+msgid ""
+"Instead of executing the user command directly with <command>su</command>, "
+"&kdesu; executes a little stub program called <application>kdesu_stub</"
+"application>. This stub (running as the target user), requests some "
+"information from &kdesu; over the pty/tty channel (the stub's stdin and "
+"stdout) and then executes the user's program. The information passed over "
+"is: the X display, an X authentication cookie (if available), the "
+"<envar>PATH</envar> and the command to run. The reason why a stub program is "
+"used is that the X cookie is private information and therefore cannot be "
+"passed on the command line."
+msgstr ""
+"Kullanıcı komutunu doğrudan <command>su</command> ile yürütmek yerine, "
+"&kdesu; <application>kdesu_stub</application> denen ufak bir yalancı program "
+"yürütür. Bu program (hedef kullanıcı olarak çalışır), &kdesu;’dan pty/tty "
+"kanalı üzerine bilgi ister (programcığın stdin’i ve stdout’u) ve sonrasında "
+"kullanıcının programını yürütür. Diğer yana geçirilen bilgi X ekranı, bir X "
+"kimlik doğrulama çerezi (varsa), <envar>PATH</envar> ve çalıştırılacak "
+"komuttur. Yalancı bir programın kullanılma nedeni, X çerezinin gizli bilgi "
+"olması ve komut satırında geçirilememesidir."
+
+#. Tag: title
+#: index.docbook:248
+#, no-c-format
+msgid "Password Checking"
+msgstr "Parola Denetimi"
+
+#. Tag: para
+#: index.docbook:250
+#, no-c-format
+msgid ""
+"&kdesu; will check the password you entered and gives an error message if it "
+"is not correct. The checking is done by executing a test program: <filename>/"
+"bin/true</filename>. If this succeeds, the password is assumed to be correct."
+msgstr ""
+"&kdesu; girdiğiniz parolaları denetler ve yanlışsa bir hata iletisi verir. "
+"Denetim, bir sınama programı yürütülerek yapılır: <filename>/bin/true</"
+"filename>. Bu başarılı olursa parola doğru varsayılır."
+
+#. Tag: title
+#: index.docbook:258
+#, no-c-format
+msgid "Password Keeping"
+msgstr "Parolayı Tutmak"
+
+#. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"For your comfort, &kdesu; implements a <quote>keep password</quote> feature. "
+"If you are interested in security, you should read this paragraph."
+msgstr ""
+"Konforunuz için &kdesu; bir <quote>parolayı tut</quote> özelliği içerir. "
+"Güvenlik konusunda ilgiliyseniz bu paragrafı okumalısınız."
+
+#. Tag: para
+#: index.docbook:264
+#, no-c-format
+msgid ""
+"Allowing &kdesu; to remember passwords opens up a (small) security hole in "
+"your system. Obviously, &kdesu; does not allow anybody but your user id to "
+"use the passwords, but, if done without caution, this would lowers "
+"<systemitem class=\"username\">root</systemitem>'s security level to that of "
+"a normal user (you). A hacker who breaks into your account, would get "
+"<systemitem class=\"username\">root</systemitem> access. &kdesu; tries to "
+"prevent this. The security scheme it uses is, in my opinion at least, "
+"reasonably safe and is explained here."
+msgstr ""
+"&kdesu;’nun parolaları anımsamasına izin vermek sisteminizde (ufak) bir "
+"güvenlik açığı doğurur. Tabii ki &kdesu; sizin kullanıcı kimliğiniz "
+"dışındaki kimsenin parolanızı kullanmasına izin vermez; ancak dikkatli "
+"kullanılmazsa bu <systemitem class=\"username\">yönetici</systemitem>’nin "
+"güvenlik düzeyini normal bir kullanıcının düzeyine (sen) düşürür. Hesabınızı "
+"kıran bir deşici, <systemitem class=\"username\">yönetici</systemitem> "
+"erişimi alabilir. &kdesu; bunu engellemeye çalışır. Kullandığı güvenlik "
+"şeması görece güvenlidir ve burada açıklanmıştır."
+
+#. Tag: para
+#: index.docbook:274
+#, no-c-format
+msgid ""
+"&kdesu; uses a daemon, called <application>kdesud</application>. The daemon "
+"listens to a &UNIX; socket in <filename>/tmp</filename> for commands. The "
+"mode of the socket is 0600 so that only your user id can connect to it. If "
+"password keeping is enabled, &kdesu; executes commands through this daemon. "
+"It writes the command and <systemitem class=\"username\">root</systemitem>'s "
+"password to the socket and the daemon executes the command using "
+"<command>su</command>, as describe before. After this, the command and the "
+"password are not thrown away. Instead, they are kept for a specified amount "
+"of time. This is the timeout value from in the control module. If another "
+"request for the same command is coming within this time period, the client "
+"does not have to supply the password. To keep hackers who broke into your "
+"account from stealing passwords from the daemon (for example, by attaching a "
+"debugger), the daemon is installed set-group-id nogroup. This should prevent "
+"all normal users (including you) from getting passwords from the "
+"<application>kdesud</application> process. Also, the daemon sets the "
+"<envar>DISPLAY</envar> environment variable to the value it had when it was "
+"started. The only thing a hacker can do is execute an application on your "
+"display."
+msgstr ""
+"&kdesu;, <application>kdesud</application> denen bir ardalan süreci "
+"kullanır. Süreç, komutlar için <filename>/tmp</filename> içindeki bir &UNIX; "
+"yuvasını dinler. Yuvanın kipi 0600’dır; böylece yalnızca sizin kullanıcı "
+"kimliğiniz ona bağlanabilir. Parolayı tutma etkinleştirilmişse &kdesu; "
+"komutları bu ardalan süreci üzerinden yürütür. Komutu ve <systemitem class="
+"\"username\">yönetici</systemitem>’nin parolasını yuvaya yazar ve ardalan "
+"komutu daha önce açıklandığı üzere <command>su</command> ile yürütür. "
+"Sonrasında komut ve parola atılmaz. Bunun yerine belirli bir süre "
+"tutulurlar. Bu, denetim modülündeki zaman aşımı değeridir. Bu süre içinde "
+"aynı komut için bir istek gelirse istemcinin parolayı sağlamasına gerek "
+"kalmaz. Deşicilerin ardalan sürecinden parolaları çıkarmasına engel olmak "
+"için (örneğin bir hata ayıklayıcı iliştirerek) ardalan süreci set-group-id "
+"nogroup olarak kurulmuştur. Bu, tüm normal kullanıcıların (sen de dahil "
+"olmak üzere) parolaları <application>kdesud</application> sürecinden "
+"almasına engel olmalıdır. Ayrıca, ardalan süreci <envar>DISPLAY</envar> "
+"çevre değişkenini başlatıldığındaki değere geri ayarlar. Bir deşicinin "
+"yapabileceği tek şey ekranınızda bir program yürütmek olabilir."
+
+#. Tag: para
+#: index.docbook:295
+#, no-c-format
+msgid ""
+"One weak spot in this scheme is that the programs you execute are probably "
+"not written with security in mind (like setuid <systemitem class=\"username"
+"\">root</systemitem> programs). This means that they might have buffer "
+"overruns or other problems and a hacker could exploit those."
+msgstr ""
+"Bu şemadaki bir olası zayıf nokta ise yürüttüğünüz programların güvenlik "
+"temel alınarak yazılmamış olmasıdır (setuid <systemitem class=\"username"
+"\">yönetici</systemitem> programları gibi). Bu, önbellek taşmaları veya "
+"başka sorunların olabileceği ve bir deşicinin bunları kullanabileceği "
+"anlamına gelir."
+
+#. Tag: para
+#: index.docbook:301
+#, no-c-format
+msgid ""
+"The use of the password keeping feature is a tradeoff between security and "
+"comfort. I encourage you to think it over and decide for yourself if you "
+"want to use it or not."
+msgstr ""
+"Parola tutma özelliği güvenlik ve konfor arasında bir feragattir. Buna göre "
+"kullanmak isteyip istemediğinizi bir düşünün."
+
+#. Tag: title
+#: index.docbook:309
+#, no-c-format
+msgid "Author"
+msgstr "Yazar"
+
+#. Tag: para
+#: index.docbook:311
+#, no-c-format
+msgid "&kdesu;"
+msgstr "&kdesu;"
+
+#. Tag: para
+#: index.docbook:313
+#, no-c-format
+msgid "Copyright 2000 &Geert.Jansen;"
+msgstr "Telif hakkı 2000 &Geert.Jansen;"
+
+#. Tag: para
+#: index.docbook:315
+#, no-c-format
+msgid ""
+"&kdesu; is written by &Geert.Jansen;. It is somewhat based on Pietro Iglio's "
+"&kdesu;, version 0.3. Pietro and I agreed that I will maintain this program "
+"in the future."
+msgstr ""
+"&kdesu;, &Geert.Jansen; tarafından yazılmıştır. Pietro Iglio’nun &kdesu; 0.3 "
+"sürümü temellidir. Pietro ve ben, bu programın bakımını bundan sonra benim "
+"yapacağım konusunda anlaştık."
+
+#. Tag: para
+#: index.docbook:319
+#, no-c-format
+msgid ""
+"The author can be reached through email at &Geert.Jansen.mail;. Please "
+"report any bugs you find to me so that I can fix them. If you have a "
+"suggestion, feel free to contact me."
+msgstr ""
+"Yazara &Geert.Jansen.mail; üzerinden ulaşabilirsiniz. Bulduğunuz tüm "
+"hataları bana bildirin ki onları düzeltebileyim. Sorunuz varsa sormaktan "
+"çekinmeyin."
+
+#. Tag: trans_comment
+#: index.docbook:323
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr "<para>Çeviri: Emir SARI <email>emir_sari@icloud.com</email></para>"
+
+#. Tag: chapter
+#: index.docbook:323
+#, no-c-format
+msgid "&underFDL; &underArtisticLicense;"
+msgstr "&underFDL; &underArtisticLicense;"

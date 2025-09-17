@@ -1,0 +1,322 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: symmy_man-symmy.1\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
+"PO-Revision-Date: 2024-02-09 17:59+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 24.01.95\n"
+
+#. Tag: title
+#: man-symmy.1.docbook:11
+#, no-c-format
+msgid "Symmy User's Manual"
+msgstr "Symmy Kullanıcı El Kitabı"
+
+#. Tag: author
+#: man-symmy.1.docbook:12
+#, no-c-format
+msgid ""
+"&Elvis.Angelaccio; &Elvis.Angelaccio.mail; <personblurb><para>Authored this "
+"program and this man page</para></personblurb>"
+msgstr ""
+"&Elvis.Angelaccio; &Elvis.Angelaccio.mail; <personblurb><para>Bu programı ve "
+"man sayfasını düzenleyen</para></personblurb>"
+
+#. Tag: date
+#: man-symmy.1.docbook:17
+#, no-c-format
+msgid "2017-11-25"
+msgstr "2017-11-25"
+
+#. Tag: releaseinfo
+#: man-symmy.1.docbook:18
+#, no-c-format
+msgid "symmy 0.70"
+msgstr "symmy 0.70"
+
+#. Tag: manvolnum
+#: man-symmy.1.docbook:23
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr "<manvolnum>1</manvolnum>"
+
+#. Tag: refpurpose
+#: man-symmy.1.docbook:28
+#, no-c-format
+msgid "Frontend for the symmetric encryption functionality of GPG."
+msgstr "GPG’nin simetrik şifreleme işlevi için ön yüz."
+
+#. Tag: cmdsynopsis
+#: man-symmy.1.docbook:32
+#, no-c-format
+msgid ""
+"<command>symmy</command> <arg rep=\"repeat\"><replaceable>OPTIONS</"
+"replaceable></arg> <arg rep=\"repeat\"><replaceable>FILES</replaceable></arg>"
+msgstr ""
+"<command>symmy</command> <arg rep=\"repeat\"><replaceable>SEÇENEKLER</"
+"replaceable></arg> <arg rep=\"repeat\"><replaceable>DOSYALAR</replaceable></"
+"arg>"
+
+#. Tag: title
+#: man-symmy.1.docbook:40
+#, no-c-format
+msgid "DESCRIPTION"
+msgstr "AÇIKLAMA"
+
+#. Tag: para
+#: man-symmy.1.docbook:41
+#, no-c-format
+msgid ""
+"<command>symmy</command> is a simple application that can be used to encrypt "
+"or decrypt one or more files using the symmetric encryption functionality of "
+"GPG. A file encrypted by <command>symmy</command> can be decrypted by anyone "
+"who has access to the GPG program and the encryption key."
+msgstr ""
+"<command>symmy</command> GPG’nin simetrik şifreleme işlevini kullanarak bir "
+"ya da daha fazla dosyayı şifreleme veya dosya şifresini çözmek için "
+"kullanılan basit bir uygulamadır. <command>symmy</command> tarafından "
+"şifrelenen bir dosya GPG programına ve şifreleme anahtarına sahip herkes "
+"tarafından çözülebilir."
+
+#. Tag: para
+#: man-symmy.1.docbook:45
+#, no-c-format
+msgid ""
+"<command>symmy</command> can also be used from &dolphin; or &plasma; Folder "
+"View thanks to the <guimenuitem>Encrypt</guimenuitem> and "
+"<guimenuitem>Decrypt</guimenuitem> items in the context menu."
+msgstr ""
+"<command>symmy</command> &dolphin; veya &plasma; Klasör Görünümü içinden de "
+"içerik menüsündeki <guimenuitem>Şifrele</guimenuitem> ve <guimenuitem>Şifre "
+"Aç</guimenuitem> ögeleri sayesinden kullanılabilir."
+
+#. Tag: title
+#: man-symmy.1.docbook:51
+#, no-c-format
+msgid "ENCRYPTION"
+msgstr "ŞİFRELEME"
+
+#. Tag: para
+#: man-symmy.1.docbook:52
+#, no-c-format
+msgid ""
+"You can encrypt one or more files by writing their paths after the "
+"<option>encrypt</option> option. You can also select them in &dolphin; or "
+"&plasma; Folder View and click the <guimenuitem>Encrypt</guimenuitem> entry "
+"in the context menu."
+msgstr ""
+"<option>encrypt</option> seçeneğinden sonra yollarını yazarak bir ya da daha "
+"fazla dosyayı şifreleyebilirsiniz. Ayrıca bunları &dolphin; veya &plasma; "
+"Klasör Görünümünde seçerek içerik menüsündeki <guimenuitem>Şifrele</"
+"guimenuitem>ye tıklayarak seçebilirsiniz."
+
+#. Tag: para
+#: man-symmy.1.docbook:56
+#, no-c-format
+msgid ""
+"Note that you cannot encrypt a folder. If you need to do that, you should "
+"compress the folder and then encrypt the resulting archive. It's also not "
+"possible to encrypt remote files or files that are already encrypted."
+msgstr ""
+"Bir klasörü şifreleyemeyeceğinizi unutmayın. Bunu yapmanız gerekirse klasörü "
+"sıkıştırmalı ve ortaya çıkan arşivi şifrelemelisiniz. Uzak dosyaları ve "
+"zaten şifrelenmiş dosyaları da şifreleyemezsiniz."
+
+#. Tag: title
+#: man-symmy.1.docbook:62
+#, no-c-format
+msgid "Choosing an Encryption Key"
+msgstr "Bir Şifreleme Anahtarı Seçmek"
+
+#. Tag: para
+#: man-symmy.1.docbook:63
+#, no-c-format
+msgid ""
+"<command>symmy</command> will ask you a password (or passphrase) that will "
+"be used as encryption key for <emphasis>all</emphasis> the selected files. "
+"You should choose a strong encryption key and you should store it in a "
+"secure place (such as a password manager). If you need to send the key to "
+"another person, you should do so over a secure channel (for example, by "
+"meeting in person)."
+msgstr ""
+"<command>symmy</command> <emphasis>tüm</emphasis> seçilen dosyalarda "
+"şifreleme anahtarı olarak kullanılmak üzere bir parola soracaktır. Güçlü bir "
+"şifreleme anahtarı seçmeli ve bunu güvenli bir yerde saklamalısınız (bir "
+"parola yönetici gibi). Anahtarı başka birine göndermeniz gerekirse bunu "
+"güvenli bir kanal üzerinde yapmalısınız (örneğin gerçekten buluşarak)."
+
+#. Tag: title
+#: man-symmy.1.docbook:71
+#, no-c-format
+msgid "GPG Requirement"
+msgstr "GPG Gereksinimi"
+
+#. Tag: para
+#: man-symmy.1.docbook:72
+#, no-c-format
+msgid ""
+"<command>symmy</command> uses GPG to perform the actual encryption, so it "
+"assumes that the <command>gpg-agent</command> process is running and "
+"properly configured."
+msgstr ""
+"<command>symmy</command> asıl şifrelemeyi yapmak için GPG kullanır, yani "
+"<command>gpg-agent</command> sürecinin çalıştığını ve düzgün "
+"yapılandırıldığını varsayar."
+
+#. Tag: title
+#: man-symmy.1.docbook:78
+#, no-c-format
+msgid "Managing an Encryption Operation"
+msgstr "Bir Şifreleme İşlemini Yönetmek"
+
+#. Tag: para
+#: man-symmy.1.docbook:79
+#, no-c-format
+msgid ""
+"The encryption operation will take some time depending on the number of "
+"files and on their size. You can track the progress of the operation from "
+"the notification applet provided by &plasma;. From the notification plasmoid "
+"you can also abort the encryption operation if necessary."
+msgstr ""
+"Şifreleme işlevi dosya sayısı ve boyutuna bağlı olarak biraz zaman alır. "
+"İşlemin ilerleyişini &plasma; tarafından sağlanan bir bilgilendirme "
+"uygulamacığı ile izleyebilirsiniz. Bilgilendirme Plasmoid’inden şifreleme "
+"işlemini de gerektiğinde iptal edebilirsiniz."
+
+#. Tag: title
+#: man-symmy.1.docbook:88
+#, no-c-format
+msgid "DECRYPTION"
+msgstr "ŞİFRE ÇÖZME"
+
+#. Tag: para
+#: man-symmy.1.docbook:89
+#, no-c-format
+msgid ""
+"You can decrypt one or more encrypted files by writing their paths after the "
+"<option>decrypt</option> option. You can also select them in &dolphin; or "
+"&plasma; Folder View and click the <guimenuitem>Decrypt</guimenuitem> entry "
+"in the context menu. Note that this entry will be visible only when "
+"selecting encrypted files."
+msgstr ""
+"Bir ya da daha fazla dosyayı <option>decrypt</option> seçeneğinden sonra "
+"vererek şifresini çözebilirsiniz. Ayrıca dosyaları &dolphin; veya &plasma; "
+"Klasör Görünümü’nde seçerek içerik menüsündeki <guimenuitem>Şifre Aç</"
+"guimenuitem>a tıklayabilirsiniz. Bu girdinin yalnızca şifreli dosyaları "
+"seçtiğinizde görüneceğini unutmayın."
+
+#. Tag: title
+#: man-symmy.1.docbook:96
+#, no-c-format
+msgid "Managing a Decryption Operation"
+msgstr "Bir Şifre Çözme İşleminin Yönetilmesi"
+
+#. Tag: para
+#: man-symmy.1.docbook:97
+#, no-c-format
+msgid ""
+"The decryption operation will take some time depending on the number of "
+"files and on their size. You can track the progress of the operation from "
+"the notification applet provided by &plasma;. From the notification plasmoid "
+"you can also abort the decryption operation if necessary."
+msgstr ""
+"Şifre çözme işlemi dosya sayısı ve boyutuna göre belirli bir zaman alır. "
+"İşlemin ilerleyişini &plasma; tarafından sağlanan bilgilendirme "
+"uygulamacığıyla takip edebilirsiniz. Bilgilendirme Plasmoid’inden gerekirse "
+"şifre çözme işlemini iptal edebilirsiniz."
+
+#. Tag: title
+#: man-symmy.1.docbook:107
+#, no-c-format
+msgid "OPTIONS"
+msgstr "SEÇENEKLER"
+
+#. Tag: option
+#: man-symmy.1.docbook:112
+#, no-c-format
+msgid "-e, --encrypt"
+msgstr "-e, --encrypt"
+
+#. Tag: para
+#: man-symmy.1.docbook:115
+#, no-c-format
+msgid ""
+"Encrypts the given list of files after asking a passphrase. This option is "
+"implicitly set if there are no other options."
+msgstr ""
+"Bir parola sorduktan sonra verilen dosya listesini şifreler. Bu seçenek "
+"başka bir seçenek verilmemişse seçilir."
+
+#. Tag: option
+#: man-symmy.1.docbook:123
+#, no-c-format
+msgid "-d, --decrypt"
+msgstr "-d, --decrypt"
+
+#. Tag: para
+#: man-symmy.1.docbook:126
+#, no-c-format
+msgid ""
+"Decrypts the given list of files after asking the decryption key. Note that "
+"<option>encrypt</option> and <option>decrypt</option> are mutually exclusive."
+msgstr ""
+"Şifre çözme  anahtarını sorduktan sonra verilen dosya listesinin şifresini "
+"açar. <option>encrypt</option> ve <option>decrypt</option> seçeneklerinin "
+"karşılıklı olarak özel olduklarını unutmayın."
+
+#. Tag: option
+#: man-symmy.1.docbook:134
+#, no-c-format
+msgid "-h, --help"
+msgstr "-h, --help"
+
+#. Tag: para
+#: man-symmy.1.docbook:137
+#, no-c-format
+msgid "Shows a brief synopsis and description of the command line options."
+msgstr "Komut satırı seçeneklerin kısa bir özetini ve açıklamasını gösterir."
+
+#. Tag: option
+#: man-symmy.1.docbook:145
+#, no-c-format
+msgid "-v, --version"
+msgstr "-v, --version"
+
+#. Tag: para
+#: man-symmy.1.docbook:148
+#, no-c-format
+msgid "Shows the version of this program."
+msgstr "Bu programın sürümünü gösterir."
+
+#. Tag: option
+#: man-symmy.1.docbook:156
+#, no-c-format
+msgid "--author"
+msgstr "--author"
+
+#. Tag: para
+#: man-symmy.1.docbook:159
+#, no-c-format
+msgid "Shows information about the author of this program."
+msgstr "Program yazarıyla ilgili bilgi gösterir."
+
+#. Tag: option
+#: man-symmy.1.docbook:167
+#, no-c-format
+msgid "--license"
+msgstr "--license"
+
+#. Tag: para
+#: man-symmy.1.docbook:170
+#, no-c-format
+msgid "Shows information about the license of this program."
+msgstr "Programın lisans bilgisini gösterir."

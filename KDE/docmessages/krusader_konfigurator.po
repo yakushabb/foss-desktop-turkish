@@ -1,0 +1,3079 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: krusader_konfigurator\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-06-23 00:53+0000\n"
+"PO-Revision-Date: 2025-03-13 15:54+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.07.70\n"
+
+#. Tag: title
+#: konfigurator.docbook:8
+#, no-c-format
+msgid "Konfigurator: &krusader;'s Configuration Center"
+msgstr "Konfigurator: &krusader;'in Yapılandırma Merkezi"
+
+#. Tag: primary
+#: konfigurator.docbook:11
+#, no-c-format
+msgid "Configure"
+msgstr "Yapılandır"
+
+#. Tag: secondary
+#: konfigurator.docbook:12
+#, no-c-format
+msgid "Krusader"
+msgstr "Krusader"
+
+#. Tag: para
+#: konfigurator.docbook:14
+#, fuzzy, no-c-format
+#| msgid ""
+#| "Konfigurator is &krusader;s configuration center. When running "
+#| "&krusader;, use <menuchoice> <guimenu>Settings</guimenu> "
+#| "<guimenuitem>Configure &krusader;</guimenuitem> </menuchoice>, and it "
+#| "will start Konfigurator. There you can modify the way &krusader; works "
+#| "and customize it to your own needs. At any time, pressing the "
+#| "<guibutton>Apply</guibutton> button applies the changes, pressing "
+#| "<guibutton>Close</guibutton> closes Konfigurator, and pressing "
+#| "<guibutton>Defaults</guibutton> re-applies &krusader;'s \"factory\" "
+#| "settings. Konfigurator is divided into pages, each containing items "
+#| "related to that page. For some changes to the &GUI;, you have to close "
+#| "and restart &krusader;."
+msgid ""
+"Konfigurator is &krusader;s configuration center. When running &krusader;, "
+"use <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure "
+"&krusader;...</guimenuitem> </menuchoice>, and it will start Konfigurator. "
+"There you can modify the way &krusader; works and customize it to your own "
+"needs. At any time, pressing the <guibutton>Apply</guibutton> button applies "
+"the changes, pressing <guibutton>Close</guibutton> closes Konfigurator, and "
+"pressing <guibutton>Defaults</guibutton> re-applies &krusader;'s "
+"<quote>factory</quote> settings. Konfigurator is divided into pages, each "
+"containing items related to that page. For some changes to the &GUI;, you "
+"have to close and restart &krusader;."
+msgstr ""
+"Konfigurator &krusader;’in yapılandırma merkezidir. &krusader;’i "
+"çalıştırırken, <menuchoice><guimenu>Ayarlar</"
+"guimenu><guimenuitem>&krusader;’i Yapılandır</guimenuitem></menuchoice> "
+"kullanırsanız, Konfigurator’u başlatır. Burada &krusader;’in çalışma şeklini "
+"değiştirebilir ve kendi ihtiyaçlarınıza göre özelleştirebilirsiniz. "
+"İstediğiniz anda, <guibutton>Uygula</guibutton> düğmesine tıklayarak "
+"değişiklikleri uygulayabilirsiniz, <guibutton>Kapat</guibutton> düğmesi "
+"Konfigurator’u kapatır, <guibutton>Öntanımlılar</guibutton> &krusader;’i "
+"\"fabrika\" ayarlarına getirir. Konfigurator sayfalara bölünmüştür, her bir "
+"sayfa bu sayfayla ilgili ögeleri içerir. &GU;’ye yapılacak bazı "
+"değişiklikler için &krusader;’i kapatıp açmanız gerekir."
+
+#. Tag: para
+#: konfigurator.docbook:31
+#, no-c-format
+msgid ""
+"Since &krusader;-1.80.0 the <link linkend=\"key_bindings\">Key-Bindings</"
+"link> and <link linkend=\"mainwindow\">Main Toolbar</link>-<link linkend="
+"\"actions_toolbar\">Actions Toolbar</link> have received their own "
+"configuration windows and so they are not a part anymore of Konfigurator, "
+"you can configure them now via the <link linkend=\"settings-menu"
+"\"><guimenu>Settings</guimenu> menu</link>."
+msgstr ""
+"&krusader;-1.80.0 itibariyle <link linkend=\"key_bindings\">Tuş-Bağları</"
+"link> ve <link linkend=\"mainwindow\">Ana Araç Çubuğu</link>-<link linkend="
+"\"actions_toolbar\">Eylemler Araç çubuğu</link>  kendi yapılandırma "
+"pencerelerine sahip oldular, böylece Konfigurator’un bir parçası olmaktan "
+"çıktılar, onları artık <link linkend=\"settings-menu\"><guimenu>Ayarlar</"
+"guimenu> menüsü</link> ile yapılandırabilirsiniz."
+
+#. Tag: title
+#: konfigurator.docbook:37
+#, no-c-format
+msgid "Startup"
+msgstr "Başlangıç"
+
+#. Tag: title
+#: konfigurator.docbook:39
+#, no-c-format
+msgid "<title>Startup configuration</title>"
+msgstr "<title>Başlatma yapılandırması</title>"
+
+#. Tag: phrase
+#: konfigurator.docbook:45
+#, no-c-format
+msgid "<phrase>Startup configuration</phrase>"
+msgstr "<phrase>Başlatma yapılandırması</phrase>"
+
+#. Tag: para
+#: konfigurator.docbook:49
+#, no-c-format
+msgid ""
+"The startup page determines the way that &krusader; looks (and works) when "
+"it is launched. It is divided into two main parts:"
+msgstr ""
+"Başlatma sayfası &krusader;'in başladığında nasıl görüneceğini (ve "
+"çalışacağını) belirler. İki ana parçaya bölünmüştür:"
+
+#. Tag: guilabel
+#: konfigurator.docbook:55 konfigurator.docbook:356 konfigurator.docbook:616
+#: konfigurator.docbook:804 konfigurator.docbook:1193
+#, no-c-format
+msgid "<guilabel>General</guilabel>"
+msgstr "<guilabel>Genel</guilabel>"
+
+#. Tag: para
+#: konfigurator.docbook:60
+#, no-c-format
+msgid ""
+"<guilabel>Startup Profile</guilabel>: Starts the selected <link linkend="
+"\"panel_profiles\">Panel profile</link> at startup. <guilabel>&lt;Last "
+"session&gt;</guilabel> is a special Panel Profile, it is saved automatically "
+"when closing &krusader;."
+msgstr ""
+"<guilabel>Başlangıç Profili</guilabel>: Başlangıçta seçili <link linkend="
+"\"panel_profiles\">pano profilini</link> başlatır. <guilabel>&lt;Son "
+"oturum&gt;</guilabel> özel bir Pano Profilidir, &krusader; kapatıldığında "
+"otomatik olarak kaydedilir."
+
+#. Tag: para
+#: konfigurator.docbook:71
+#, no-c-format
+msgid ""
+"<guilabel>Show splashscreen</guilabel>: Displays a splash screen when "
+"starting &krusader;."
+msgstr ""
+"<guilabel>Açılış ekranını göster</guilabel>: &krusader; başlatılırken bir "
+"açılış ekranı görüntüler."
+
+#. Tag: para
+#: konfigurator.docbook:77
+#, no-c-format
+msgid ""
+"<guilabel>Single Instance Mode</guilabel>: Allows only one &krusader; "
+"instance to run."
+msgstr ""
+"<guilabel>Tek Örnek Kipi</guilabel>: Tek bir &krusader;'in çalışmasını "
+"sağlar."
+
+#. Tag: para
+#: konfigurator.docbook:82
+#, no-c-format
+msgid ""
+"<guilabel>Fallback Icon Theme</guilabel>: Allows you to configure a fallback "
+"icon theme for &krusader;. Whenever icon is not found in system icon theme, "
+"this theme will be used as a fallback. If the fallback theme does not "
+"contain the icon, Breeze or Oxygen will be used if any of these are present."
+msgstr ""
+
+#. Tag: guilabel
+#: konfigurator.docbook:95
+#, no-c-format
+msgid "User Interface"
+msgstr "Kullanıcı Arayüzü"
+
+#. Tag: para
+#: konfigurator.docbook:98
+#, no-c-format
+msgid ""
+"Determines which parts of the user interface are visible after start-up."
+msgstr ""
+"Başlangıçtan sonra hangi kullanıcı arayüzü kısımlarının görünür olduğunu "
+"belirler."
+
+#. Tag: para
+#: konfigurator.docbook:102
+#, no-c-format
+msgid ""
+"<guilabel>Save last position, size and panel settings</guilabel>: When "
+"launched, &krusader; resizes itself to the size it was when last shut-down. "
+"&krusader; also appears in the same location on the screen, having panels "
+"sorted and aligned as they were. If this option is unchecked, you can use "
+"the menu <menuchoice> <guimenu>Window</guimenu> <guimenuitem>Save Position</"
+"guimenuitem> </menuchoice> option to manually set &krusader; size and "
+"position at start-up."
+msgstr ""
+"<guilabel>Son konumu, boyutu ve pano ayarlarını kaydet</guilabel>: "
+"Başlatıldığında, &krusader; kendini kapatıldığında olduğu boyuta yeniden "
+"boyutlandırır. &krusader; ayrıca ekranda aynı konumda bulunur, panolar da "
+"olduğu gibi sıralanmış ve konumlanmış olur. Bu seçenek işaretlenmezse, "
+"<menuchoice> <guimenu>Pencere</guimenu> <guimenuitem>Konumu Kaydet</"
+"guimenuitem> </menuchoice> seçeneğiyle &krusader;'in başlangıçta olacağı "
+"boyutu ve konumu ayarlayabilirsiniz."
+
+#. Tag: para
+#: konfigurator.docbook:119
+#, no-c-format
+msgid ""
+"<guilabel>Update default panel settings</guilabel>: If checked, the default "
+"panel settings will be updated after start-up."
+msgstr ""
+"<guilabel>Öntanımlı pano ayarlarını güncelle</guilabel>: İşaretliyse, "
+"öntanımlı pano ayarları başlangıçtan sonra güncellenir."
+
+#. Tag: para
+#: konfigurator.docbook:125
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Start to tray</guilabel>: if checked, &krusader; starts to tray "
+#| "(if minimize to tray is set), without showing the main window."
+msgid ""
+"<guilabel>Start to system tray</guilabel>: if checked, &krusader; starts to "
+"tray (if minimize to tray is set), without showing the main window."
+msgstr ""
+"<guilabel>Çekmecede başla</guilabel>: İşaretliyse, &krusader; (çekmeceye "
+"küçült ayarlıysa) çekmecede başlar, ana pencere gösterilmez."
+
+#. Tag: para
+#: konfigurator.docbook:131
+#, no-c-format
+msgid ""
+"<guilabel>Save component settings on exit</guilabel>: If checked, restores "
+"the user interface components to their condition when last shut-down."
+msgstr ""
+"<guilabel>Çıkışta bileşen ayarlarını kaydet</guilabel>: İşaretliyse, "
+"kullanıcı arayüzü bileşenlerini son kapanıştaki durumlarına geri yükler."
+
+#. Tag: para
+#: konfigurator.docbook:137
+#, no-c-format
+msgid ""
+"<guilabel>Show function keys</guilabel>: If checked, the <link linkend="
+"\"fnkeys\">FN Keys Bar</link> is visible after start-up."
+msgstr ""
+"<guilabel>İşlev tuşlarını göster</guilabel>: İşaretliyse, <link linkend="
+"\"fnkeys\">FN Tuşları Çubuğu</link> başlangıçtan sonra görünür olur."
+
+#. Tag: para
+#: konfigurator.docbook:143
+#, no-c-format
+msgid ""
+"<guilabel>Show statusbar</guilabel>: If checked, the <link linkend="
+"\"mainwindow\">Statusbar</link> is visible after start-up. Available only if "
+"the <guilabel>Save component settings on exit</guilabel> item is unchecked."
+msgstr ""
+"<guilabel>Durum çubuğunu göster</guilabel>: İşaretliyse, <link linkend="
+"\"mainwindow\">Durumçubuğu</link> görünür olur. Yalnızca <guilabel>Çıkışta "
+"bileşen ayarlarını kaydet</guilabel> ögesi işaretli değilse uygulanabilir."
+
+#. Tag: para
+#: konfigurator.docbook:149
+#, no-c-format
+msgid ""
+"<guilabel>Show command line</guilabel>: If checked, the <link linkend="
+"\"cmdline\">Command Line</link> is visible after start-up. Available only if "
+"the <guilabel>Save component settings on exit</guilabel> item is unchecked."
+msgstr ""
+"<guilabel>Komut satırını göster</guilabel>: İşaretliyse, <link linkend="
+"\"cmdline\">Komut Satırı</link> başlangıçtan sonra görünürdür. Yalnızca "
+"<guilabel>Çıkışta bileşen ayarlarını kaydet</guilabel> ögesi işaretli "
+"değilse uygulanabilir."
+
+#. Tag: para
+#: konfigurator.docbook:155
+#, no-c-format
+msgid ""
+"<guilabel>Show embedded terminal</guilabel>: If checked, the <link linkend="
+"\"termemu\">Terminal emulator</link> is visible after start-up. Available "
+"only if the <guilabel>Save component settings on exit</guilabel> item is "
+"unchecked."
+msgstr ""
+"<guilabel>Gömülü uçbirimi göster</guilabel>: İşaretliyse <link linkend="
+"\"termemu\">Uçbirim öykünücü</link> başlangıçta görünürdür. Yalnızca "
+"<guilabel>Bileşen ayarlarını çıkışta kaydet</guilabel> işaretli değilse "
+"kullanılabilir."
+
+#. Tag: title
+#: konfigurator.docbook:166
+#, no-c-format
+msgid "Panel"
+msgstr "Pano"
+
+#. Tag: para
+#: konfigurator.docbook:167
+#, no-c-format
+msgid ""
+"Here you can determine the look and feel of panel - which means finetuning "
+"the application to your needs. The page is divided into six tabs: "
+"<guilabel>General</guilabel>, <guilabel>View</guilabel>, <guilabel>Buttons</"
+"guilabel>, <guilabel>Selection Mode</guilabel>, <guilabel>Media Menu</"
+"guilabel>, and <guilabel>Layout</guilabel>:"
+msgstr ""
+"Burda panonunu görünüş ve davranışını belirleyebilirsiniz - bunun anlamı "
+"uygulamanın ihtiyaçlarınza göre ince ayarının yapılmasıdır. Sayfa altı "
+"sekmeye bölünmüştür: <guilabel>Genel</guilabel>, <guilabel>Görünüm</"
+"guilabel>, <guilabel>Düğmeler</guilabel>, <guilabel>Seçim Kipi</guilabel>, "
+"<guilabel>Ortam Menüsü</guilabel>, ve <guilabel>Düzen</guilabel>:"
+
+#. Tag: title
+#: konfigurator.docbook:178 konfigurator.docbook:1026 konfigurator.docbook:1032
+#, no-c-format
+msgid "<title>General</title>"
+msgstr "<title>Genel</title>"
+
+#. Tag: guilabel
+#: konfigurator.docbook:181
+#, no-c-format
+msgid "Navigator bar"
+msgstr "Gezinti çubuğu"
+
+#. Tag: para
+#: konfigurator.docbook:184
+#, no-c-format
+msgid ""
+"<guilabel>Edit Mode by default</guilabel>: If checked, show editable path in "
+"Navigator bar by default."
+msgstr ""
+"<guilabel>Öntanımlı olarak düzenleme kipi</guilabel>: İşaretliyse, Gezinti "
+"çubuğunda öntanımlı olarak düzenlenebilir yolu göster."
+
+#. Tag: para
+#: konfigurator.docbook:188
+#, no-c-format
+msgid ""
+"<guilabel>Show full path by default</guilabel>: If checked, always show full "
+"path in Navigator bar by default."
+msgstr ""
+"<guilabel>Öntanımlı olarak tam yolu göster</guilabel>: İşaretliyse, Gezinti "
+"çubuğunda öntanımlı olarak her zaman tam yolu göster."
+
+#. Tag: guilabel
+#: konfigurator.docbook:194
+#, no-c-format
+msgid "Operation"
+msgstr "İşlem"
+
+#. Tag: para
+#: konfigurator.docbook:197
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Autoselect Directories</guilabel>: When <link linkend=\"edit-"
+#| "menu\">you select a group of files</link> (either by using "
+#| "<guilabel>Select Group</guilabel> or by using <guilabel>Select All</"
+#| "guilabel>), &krusader; checks this option. If checked, the directories "
+#| "matching the select criteria are also selected. Otherwise, only files are "
+#| "selected."
+msgid ""
+"<guilabel>Autoselect Folders</guilabel>: When <link linkend=\"edit-menu"
+"\">you select a group of files</link> (either by using <guilabel>Select "
+"Group</guilabel> or by using <guilabel>Select All</guilabel>), &krusader; "
+"checks this option. If checked, the folders matching the select criteria are "
+"also selected. Otherwise, only files are selected."
+msgstr ""
+"<guilabel>Dizinleri Otomatik Seç</guilabel>: <link linkend=\"edit-menu\">Bir "
+"grup dosyayı seçtiğinizde</link> (<guilabel>Grup Seç </guilabel> veya "
+"<guilabel>Tümünü Seç</guilabel> kullanarak), &krusader; bu seçeneği "
+"işaretler. İşaretliyse, seçim kriteriyle eşleşen dizinler de seçilir. Aksi "
+"halde, yalnızca dosyalar seçilir."
+
+#. Tag: para
+#: konfigurator.docbook:206
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Rename selects extension</guilabel>: When <link linkend="
+#| "\"renaming\">you rename a file</link>, the whole text is selected. If you "
+#| "want total commanderlike renaming of just the name, without extension, "
+#| "deselect this item."
+msgid ""
+"<guilabel>Rename selects extension</guilabel>: When <link linkend=\"renaming"
+"\">you rename a file</link>, the whole text is selected. If you want "
+"<trademark class=\"copyright\">Total Commander</trademark> like renaming of "
+"just the name, without extension, deselect this item."
+msgstr ""
+"<guilabel>Yeniden adlandırma uzantıları da seçer</guilabel>: <link linkend="
+"\"renaming\">Bir dosyayı yeniden adlandırdığınızda</link>, tüm metin "
+"seçilir. Commander gibi yalnızca ismin yeniden adlandırılmasını isterseniz, "
+"bu ögeyi seçmeyin."
+
+#. Tag: para
+#: konfigurator.docbook:213
+#, no-c-format
+msgid ""
+"<guilabel>Unselect files before copy/move</guilabel>: If checked, &krusader; "
+"remove the selection marks from files or folders before <link linkend="
+"\"copying\">copying or moving</link> them to the new location."
+msgstr ""
+"<guilabel>Kopyalamadan/taşımadan önce dosya seçimlerini kaldır</guilabel>: "
+"İşaretliyse, &krusader; dosyaları veya dizinleri <link linkend=\"copying"
+"\">kopyalamadan ya da taşımadan</link> önce seçim işaretlerini kaldırır."
+
+#. Tag: para
+#: konfigurator.docbook:220
+#, no-c-format
+msgid ""
+"<guilabel>Filter dialog remembers settings</guilabel>: If checked, the "
+"filter dialog will be opened with the last filter settings that where "
+"applied to the panel."
+msgstr ""
+"<guilabel>Süzgeç iletişim penceresi ayarları hatırlar</guilabel>: "
+"İşaretliyse süzgeç iletişim penceresi panoya uygulanan son süzgeç "
+"ayarlarıyla birlikte açılacaktır."
+
+#. Tag: guilabel
+#: konfigurator.docbook:228
+#, no-c-format
+msgid "Tabs"
+msgstr "Sekmeler"
+
+#. Tag: para
+#: konfigurator.docbook:231
+#, no-c-format
+msgid ""
+"<guilabel>Use fullpath tab names</guilabel>: If checked, display the full "
+"path in the <link linkend=\"folder-tabs\">Folder tabs</link>; otherwise only "
+"the last part of the path is displayed."
+msgstr ""
+"<guilabel>Tam yol sekme isimlerini kullan</guilabel>: İşaretliyse, <link "
+"linkend=\"folder-tabs\">Dizin sekmelerinde</link> tam yolu göster, aksi "
+"halde yalnızca yolun bir kısmı görüntülenir."
+
+#. Tag: para
+#: konfigurator.docbook:238
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show Tab Bar on single tab</guilabel>: If checked, &krusader; "
+#| "displays the Tab Bar even if there is only one <link linkend=\"folder-tabs"
+#| "\">tab</link> on the panel."
+msgid ""
+"<guilabel>Expanding tabs</guilabel>: If checked, &krusader; expands the "
+"<link linkend=\"folder-tabs\">folder tabs</link> to fill the whole bar."
+msgstr ""
+"<guilabel>Tek sekmede Sekme Çubuğunu göster</guilabel>: İşaretliyse, "
+"&krusader; Sekme Çubuğunu panoda tek bir <link linkend=\"folder-tabs"
+"\">sekme</link> olsa bile gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:243
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show new/close tab buttons</guilabel>: If checked, &krusader; "
+#| "displays new and close buttons on <link linkend=\"folder-tabs\">tabs</"
+#| "link>."
+msgid ""
+"<guilabel>Close tab by double click</guilabel>: If checked, &krusader; "
+"allows closing the <link linkend=\"folder-tabs\">folder tabs</link> by "
+"double-clicking on them."
+msgstr ""
+"<guilabel>Yeni/kapat sekme düğmelerini göster</guilabel>: İşaretliyse, "
+"&krusader; yeni ve kapat düğmelerini <link linkend=\"folder-tabs\">sekmeler</"
+"link>de gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:248
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show new/close tab buttons</guilabel>: If checked, &krusader; "
+#| "displays new and close buttons on <link linkend=\"folder-tabs\">tabs</"
+#| "link>."
+msgid ""
+"<guilabel>Insert tabs after current</guilabel>: If checked, &krusader; "
+"inserts new tabs to the right of the current one instead of placing them "
+"into the end of the <link linkend=\"folder-tabs\">Tab bar</link>."
+msgstr ""
+"<guilabel>Yeni/kapat sekme düğmelerini göster</guilabel>: İşaretliyse, "
+"&krusader; yeni ve kapat düğmelerini <link linkend=\"folder-tabs\">sekmeler</"
+"link>de gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:253
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Layout:</guilabel> allows to define layout. The default options "
+#| "are <guimenuitem>Default</guimenuitem>, <guimenuitem>Compact</"
+#| "guimenuitem>, and <guimenuitem>Classic</guimenuitem>."
+msgid ""
+"<guilabel>Duplicate active tab by click</guilabel>: Lets you select the "
+"active tab duplication mode (<guimenuitem>Disabled</guimenuitem> (no "
+"clicking association), <guimenuitem>Alt+Click</guimenuitem> or "
+"<guimenuitem>Ctrl+Click</guimenuitem>)."
+msgstr ""
+"<guilabel>Düzen:</guilabel> düzen tanımlamak için kullanılır. Öntanımlı "
+"seçenekler <guimenuitem>Öntanımlı</guimenuitem>, <guimenuitem>Sıkışık</"
+"guimenuitem>, ve <guimenuitem>Klasik</guimenuitem>."
+
+#. Tag: para
+#: konfigurator.docbook:257
+#, no-c-format
+msgid ""
+"<guilabel>Tab Bar position</guilabel>: Lets you choose <link linkend="
+"\"folder-tabs\">Tab bar</link> position (<guimenuitem>Bottom</guimenuitem> "
+"or <guimenuitem>Top</guimenuitem>)."
+msgstr ""
+"<guilabel>Sekme Çubuğu konumu</guilabel>: <link linkend=\"folder-tabs"
+"\">Sekme çubuğu</link> konumunu seçmenizi sağlar (<guimenuitem>Altta</"
+"guimenuitem> ya da  <guimenuitem>Üstte</guimenuitem>)."
+
+#. Tag: para
+#: konfigurator.docbook:261
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show new/close tab buttons</guilabel>: If checked, &krusader; "
+#| "displays new and close buttons on <link linkend=\"folder-tabs\">tabs</"
+#| "link>."
+msgid ""
+"<guilabel>Show close tab buttons</guilabel>: If checked, &krusader; displays "
+"close buttons on <link linkend=\"folder-tabs\">tabs</link>."
+msgstr ""
+"<guilabel>Yeni/kapat sekme düğmelerini göster</guilabel>: İşaretliyse, "
+"&krusader; yeni ve kapat düğmelerini <link linkend=\"folder-tabs\">sekmeler</"
+"link>de gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:266
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show new/close tab buttons</guilabel>: If checked, &krusader; "
+#| "displays new and close buttons on <link linkend=\"folder-tabs\">tabs</"
+#| "link>."
+msgid ""
+"<guilabel>Show new tab button</guilabel>: If checked, &krusader; displays "
+"new tab button on the <link linkend=\"folder-tabs\">Tab bar</link>."
+msgstr ""
+"<guilabel>Yeni/kapat sekme düğmelerini göster</guilabel>: İşaretliyse, "
+"&krusader; yeni ve kapat düğmelerini <link linkend=\"folder-tabs\">sekmeler</"
+"link>de gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:271
+#, no-c-format
+msgid ""
+"<guilabel>Show Tab Bar on single tab</guilabel>: If checked, &krusader; "
+"displays the Tab Bar even if there is only one <link linkend=\"folder-tabs"
+"\">tab</link> on the panel."
+msgstr ""
+"<guilabel>Tek sekmede Sekme Çubuğunu göster</guilabel>: İşaretliyse, "
+"&krusader; Sekme Çubuğunu panoda tek bir <link linkend=\"folder-tabs"
+"\">sekme</link> olsa bile gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:276
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show new/close tab buttons</guilabel>: If checked, &krusader; "
+#| "displays new and close buttons on <link linkend=\"folder-tabs\">tabs</"
+#| "link>."
+msgid ""
+"<guilabel>New tab button duplicates a tab</guilabel>: If checked, new tab "
+"button duplicates a <link linkend=\"folder-tabs\">tab</link>, otherwise it "
+"opens a tab in home folder."
+msgstr ""
+"<guilabel>Yeni/kapat sekme düğmelerini göster</guilabel>: İşaretliyse, "
+"&krusader; yeni ve kapat düğmelerini <link linkend=\"folder-tabs\">sekmeler</"
+"link>de gösterir."
+
+#. Tag: guilabel
+#: konfigurator.docbook:283
+#, no-c-format
+msgid "Search bar"
+msgstr "Arama çubuğu"
+
+#. Tag: para
+#: konfigurator.docbook:286
+#, no-c-format
+msgid ""
+"<guilabel>Start by typing</guilabel>: allows to select if <link linkend="
+"\"quicksearch\">quick search</link> feature is used. When checked, you can "
+"open search bar and start searching by typing something while viewing folder "
+"contents in the active panel."
+msgstr ""
+"<guilabel>Yazarken başlat</guilabel>: <link linkend=\"quicksearch\">hızlı "
+"arama</link> özelliğinin kullanılıp kullanılmayacağını seçer. İşaretliyken, "
+"arama çubuğunu açabilir ve etkin panoda dizin içeriğini görüntülerken bir "
+"şeyler yazarak aramayı başlatabilirsiniz."
+
+#. Tag: para
+#: konfigurator.docbook:293
+#, no-c-format
+msgid ""
+"<guilabel>Case sensitive</guilabel>: When you use the <link linkend="
+"\"quicksearch\">search</link> or <link linkend=\"quickfilter\">filter</link> "
+"feature: If checked (the &UNIX; default), all files beginning with capital "
+"letters appear before files beginning with lower case letters; otherwise, "
+"all files beginning with a specified letter (capital or otherwise) will be "
+"displayed together."
+msgstr ""
+"<guilabel>Büyük küçük harf duyarlı</guilabel>: <link linkend=\"quicksearch"
+"\">arama</link> veya <link linkend=\"quickfilter\">süzme</link> özelliğini "
+"kullanırken: işaretliyse (&UNIX; öntanımlı), büyük harfle başlayan tüm "
+"dosyalar daha önce görünür; aksi halde, büyük ya da küçük harfle belirtilen "
+"dosyalar birlikte görüntülenir."
+
+#. Tag: para
+#: konfigurator.docbook:304
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Up/Down cancels search</guilabel>: Pressing <keycap>Arrow Up</"
+#| "keycap> or <keycap>Arrow Down</keycap> cancels <link linkend=\"quicksearch"
+#| "\">search</link> bar."
+msgid ""
+"<guilabel>Up/Down cancels search</guilabel>: Pressing &Up; or &Down; key "
+"cancels <link linkend=\"quicksearch\">search</link> bar."
+msgstr ""
+"<guilabel>Yukarı/Aşağı aramayı iptal eder</guilabel>: <keycap>Yukarı</"
+"keycap> ya da <keycap>Aşağı</keycap> basmak <link linkend=\"quicksearch"
+"\">arama</link> çubuğunu iptal eder."
+
+#. Tag: para
+#: konfigurator.docbook:308
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Directory navigation with Right Arrow</guilabel>: If checked, "
+#| "pressing the <keycap>Right arrow</keycap> key enters directory if no "
+#| "search text editing intention is captured."
+msgid ""
+"<guilabel>Folder navigation with Right Arrow</guilabel>: If checked, "
+"pressing the &Right; key enters folder if no search text editing intention "
+"is captured."
+msgstr ""
+"<guilabel>Sağ Okla dizinde gezinme</guilabel>: İşaretliyse, <keycap>Sağ oka</"
+"keycap> basmak bir metin düzenleme isteği saptanamazsa dizine girer."
+
+#. Tag: para
+#: konfigurator.docbook:313
+#, no-c-format
+msgid ""
+"<guilabel>Position</guilabel>: Lets you choose <link linkend=\"quicksearch"
+"\">search</link> and <link linkend=\"quickfilter\">filter</link> bar "
+"position (<guimenuitem>Bottom</guimenuitem> or <guimenuitem>Top</"
+"guimenuitem>)."
+msgstr ""
+"<guilabel>Konum</guilabel>: <link linkend=\"quicksearch\">Arama</link> ve "
+"<link linkend=\"quickfilter\">süzme</link> çubuğu konumlarını seçmenizi "
+"sağlar (<guimenuitem>Aşağıda</guimenuitem> veya <guimenuitem>Yukarda</"
+"guimenuitem>)."
+
+#. Tag: para
+#: konfigurator.docbook:318
+#, no-c-format
+msgid ""
+"<guilabel>Default mode</guilabel>: Lets you choose the search bar default "
+"mode between <link linkend=\"quicksearch\">Search</link>, <guilabel>Select</"
+"guilabel> and <link linkend=\"quickfilter\">Filter</link>. You can change "
+"the mode later using the search bar itself."
+msgstr ""
+"<guilabel>Öntanımlı kip</guilabel>: Arama çubuğu öntanımlı kipini <link "
+"linkend=\"quicksearch\">Arama</link>, <guilabel>Seçme</guilabel> veya <link "
+"linkend=\"quickfilter\">Süzme</link> arasından seçmenizi sağlar. Arama "
+"çubuğunu kullanarak kipi sonradan değiştirebilirsiniz."
+
+#. Tag: guilabel
+#: konfigurator.docbook:325
+#, no-c-format
+msgid "Bookmark Search"
+msgstr ""
+
+#. Tag: para
+#: konfigurator.docbook:328
+#, no-c-format
+msgid ""
+"<guilabel>Always show search bar</guilabel>: If checked, make <link linkend="
+"\"bookman\">bookmark search bar</link> always visible."
+msgstr ""
+
+#. Tag: para
+#: konfigurator.docbook:332
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Layout:</guilabel> allows to define layout. The default options "
+#| "are <guimenuitem>Default</guimenuitem>, <guimenuitem>Compact</"
+#| "guimenuitem>, and <guimenuitem>Classic</guimenuitem>."
+msgid ""
+"<guilabel>Search in special items</guilabel>: If checked, <link linkend="
+"\"bookman\">bookmark search</link> is also applied to special items in "
+"bookmark menu like <guimenuitem>Trash</guimenuitem>, <guimenuitem>Popular "
+"&URL;s</guimenuitem>, <guimenuitem>Jump Back</guimenuitem>, &etc;"
+msgstr ""
+"<guilabel>Düzen:</guilabel> düzen tanımlamak için kullanılır. Öntanımlı "
+"seçenekler <guimenuitem>Öntanımlı</guimenuitem>, <guimenuitem>Sıkışık</"
+"guimenuitem>, ve <guimenuitem>Klasik</guimenuitem>."
+
+#. Tag: guilabel
+#: konfigurator.docbook:338
+#, no-c-format
+msgid "Status/Totalsbar"
+msgstr "Durum/Toplam çubukları"
+
+#. Tag: para
+#: konfigurator.docbook:341
+#, no-c-format
+msgid ""
+"<guilabel>Show size in bytes too</guilabel>: If checked, &krusader; displays "
+"size in bytes on statusbar or totalsbar."
+msgstr ""
+"<guilabel>Boyutu bayt olarak da göster</guilabel>: İşaretliyse, &krusader; "
+"boyutu durum ya da araç çubuğunda bayt olarak gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:346
+#, no-c-format
+msgid ""
+"<guilabel>Show space information</guilabel>: If checked, &krusader; displays "
+"free/total disk space in the Status-/Totalsbar."
+msgstr ""
+"<guilabel>Boluk bilgisini göster</guilabel>: İşaretliyse, &krusader; boş/"
+"toplam disk alanını Durum-/Araç çubuğunda gösterir."
+
+#. Tag: title
+#: konfigurator.docbook:353
+#, no-c-format
+msgid "View"
+msgstr "Görünüm"
+
+#. Tag: para
+#: konfigurator.docbook:359
+#, no-c-format
+msgid ""
+"<guilabel>View font</guilabel>: Allows you to change the font used inside "
+"the file lists."
+msgstr ""
+"<guilabel>Yazıtipini göster</guilabel>: Dosya listesi içindeki yazıtipini "
+"değiştirmenizi sağlar."
+
+#. Tag: para
+#: konfigurator.docbook:364
+#, no-c-format
+msgid ""
+"<guilabel>Tooltip delay (msec)</guilabel>: Allows you to configure the delay "
+"in milliseconds between the moment you have stopped mouse pointer above an "
+"item in a file list and the moment when the tooltip will be shown."
+msgstr ""
+"<guilabel>İpucu gecikmesi (msn)</guilabel>: Fare imlecini dosyadaki bir öge "
+"üstünde durdurmanızla ipucunun gösterileceği zaman arasındaki gecikmeyi "
+"milisaniye olarak yapılandırmanızı sağlar."
+
+#. Tag: para
+#: konfigurator.docbook:369
+#, no-c-format
+msgid ""
+"<guilabel>Use human readable file size</guilabel>: If checked, the file size "
+"appears in kB, Mb &etc;, and not in bytes (default)."
+msgstr ""
+"<guilabel>Dosya boyutunu insan canlısı göster</guilabel>: İşaretliyse, dosya "
+"boyutu kB, MB &vs; görüntülenir, bayt olarak (öntanımlı) değil."
+
+#. Tag: para
+#: konfigurator.docbook:375
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Numeric permissions</guilabel>: Permission column "
+#| "(<guilabel>Panel</guilabel> <guilabel>View</guilabel> tab) shows octal "
+#| "numbers '0755' instead of 'rwxr-xr-x'."
+msgid ""
+"<guilabel>Numeric permissions</guilabel>: <guilabel>Permission</guilabel> "
+"column shows octal numbers '<literal>0755</literal>' instead of "
+"'<literal>rwxr-xr-x</literal>'."
+msgstr ""
+"<guilabel>Sayısal izinler</guilabel>: İzin sütunu (<guilabel>Pano</guilabel> "
+"<guilabel>Görünüm</guilabel> sekmesi) 'rwxr-xr-x' yerine '0755' gibi "
+"sekizlik sayılar gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:380
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show hidden files</guilabel>: If checked, &krusader; displays "
+#| "the \"dot-files\" which are otherwise hidden."
+msgid ""
+"<guilabel>Show hidden files</guilabel>: If checked, &krusader; displays the "
+"<quote>dot-files</quote> which are otherwise hidden."
+msgstr ""
+"<guilabel>Gizli dosyaları göster</guilabel>: İşaretliyse, &krusader; "
+"normalde gizli olan \"nokta-dosyaları\" gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:386
+#, no-c-format
+msgid ""
+"<guilabel>Load the user defined folder icons</guilabel>: If checked, "
+"&krusader; loads the user defined folder icons."
+msgstr ""
+"<guilabel>Kullanıcı tanımlı dizin simgelerini yükle</guilabel>: İşaretliyse, "
+"&krusader; kullanıcı tanımlı dizin simgelerini yükler."
+
+#. Tag: para
+#: konfigurator.docbook:391
+#, no-c-format
+msgid ""
+"<guilabel>Always show current item</guilabel>: If checked, &krusader; shows "
+"current item border decoration in inactive panel."
+msgstr ""
+"<guilabel>Her zaman mevcut ögeyi göster</guilabel>: İşaretliyse, &krusader; "
+"mevcut öge kenar döşemesini etkin olmayan panoda gösterir."
+
+#. Tag: guilabel
+#: konfigurator.docbook:397
+#, no-c-format
+msgid "Sort method"
+msgstr "Sıralama yöntemi"
+
+#. Tag: para
+#: konfigurator.docbook:400
+#, no-c-format
+msgid ""
+"<guilabel>Krusader (default)</guilabel>: the comparison used so far. Uses "
+"comparison using locale rules (even context rules)."
+msgstr ""
+"<guilabel>Krusader (öntanımlı)</guilabel>: şimdiye kadar kullanılan "
+"karşılaştırma. Karşılaştırmayı yerel kurallara göre kullanır (hatta bileşen "
+"kuralları)."
+
+#. Tag: para
+#: konfigurator.docbook:406
+#, no-c-format
+msgid ""
+"<guilabel>Alphabetical</guilabel>: strings are compared character by "
+"character (no context rules from locale applied). Alphabet characters are "
+"compared using locale rules, special characters are compared by the "
+"character code."
+msgstr ""
+"<guilabel>Alfabetik</guilabel>: karakter dizileri karakter karakter "
+"karşılaştırılır (yerelden gelen içerik kuralları uygulanmaz). Alfabe "
+"karakterleri yerel kuralları kullanılarak karşılaştırılır, özel karakterler "
+"karakter koduna göre karşılaştırılır."
+
+#. Tag: para
+#: konfigurator.docbook:414
+#, no-c-format
+msgid ""
+"<guilabel>Alphabetical and numbers</guilabel>: the same as above, but if the "
+"names contains numbers, the numbers are compared numerically instead of "
+"alphabetically."
+msgstr ""
+"<guilabel>Alfabetki ve sayılar</guilabel>: yukardakinin aynısı, ama isimler "
+"sayı içeriyorsa, sayılar alfabetik olarak değil sayısal olarak "
+"karşılaştırılır."
+
+#. Tag: para
+#: konfigurator.docbook:421
+#, no-c-format
+msgid ""
+"<guilabel>Character code</guilabel>: comparison by character code (quick)."
+msgstr ""
+"<guilabel>Karakter kodu</guilabel>: karakter koduna göre karşılaştırma "
+"(hızlı)."
+
+#. Tag: para
+#: konfigurator.docbook:427
+#, no-c-format
+msgid ""
+"<guilabel>Character code and numbers</guilabel>: the same as above, but with "
+"numerical comparison of numbers."
+msgstr ""
+"<guilabel>Karakter kodu ve sayılar</guilabel>: yukardakinin aynısı, ama "
+"sayılar için sayısal karşılaştırma yapılır."
+
+#. Tag: para
+#: konfigurator.docbook:436
+#, no-c-format
+msgid ""
+"<guilabel>Case sensitive sorting</guilabel>: If checked (the &UNIX; "
+"default), all files beginning with capital letters appear before files "
+"beginning with non-capital letters; otherwise, all files beginning with a "
+"specified letter (capital or otherwise) appear together."
+msgstr ""
+"<guilabel>Büyük küçük harf duyarlı sıralama</guilabel>: İşaretliyse (&UNIX; "
+"öntanımlı), büyük harfle başlayan tüm dosyalar küçük harfle başlayanlardan "
+"önce görünür; aksi halde, belirli bir harfla başlayan tüm dosyalar (büyük ya "
+"da küçük harf) birlikte görünür."
+
+#. Tag: para
+#: konfigurator.docbook:445
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Always sort dirs by name</guilabel>: Sorts directories by name, "
+#| "regardless of the sort column."
+msgid ""
+"<guilabel>Always sort dirs by name</guilabel>: Sorts folders by name, "
+"regardless of the sort column."
+msgstr ""
+"<guilabel>Dizinleri her zaman isme göre sırala</guilabel>: Dizinleri "
+"sıralama sütunundan bağımsız olarak isimle sıralar."
+
+#. Tag: para
+#: konfigurator.docbook:451
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Show directories first</guilabel>: If checked directories have "
+#| "precedence in folder lists."
+msgid ""
+"<guilabel>Show folders first</guilabel>: If checked folders have precedence "
+"in folder lists."
+msgstr ""
+"<guilabel>Dizinleri önce göster</guilabel>: işaretliyse dizinlerin dizin "
+"listesinde önceliği bulunur."
+
+#. Tag: para
+#: konfigurator.docbook:456
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Locale aware sorting</guilabel>: Sorts files and directories "
+#| "according to the current locale settings."
+msgid ""
+"<guilabel>Locale aware sorting</guilabel>: Sorts files and folders according "
+"to the current locale settings."
+msgstr ""
+"<guilabel>Yerel bağımlı sıralama</guilabel>: Dosyaları ve dizinleri mevcut "
+"yerel ayarlarına göre sıralar."
+
+#. Tag: guilabel
+#: konfigurator.docbook:463
+#, no-c-format
+msgid "View modes"
+msgstr "Görünüm kipleri"
+
+#. Tag: para
+#: konfigurator.docbook:466
+#, no-c-format
+msgid ""
+"<guilabel>Default view mode</guilabel>: Allows you to change the default "
+"view mode. You can choose <guimenuitem>Detailed View</guimenuitem> or "
+"<guimenuitem>Brief View</guimenuitem>. On tabs of both view modes you can "
+"define the following options."
+msgstr ""
+"<guilabel>Öntanımlı görünüm kipi</guilabel>: Öntanımlı görünüm kipini "
+"değiştirmenizi sağlar. <guimenuitem>Ayrıntılı Görünüm</guimenuitem> veya "
+"<guimenuitem>Özet Görünüm</guimenuitem> seçebilirsiniz. Her iki görünüm kipi "
+"sekmesinde de aşağıdaki seçenekleri belirtebilirsiniz."
+
+#. Tag: para
+#: konfigurator.docbook:471
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Default icon size</guilabel>: Allows you to change the size of "
+#| "the icons in the file lists. The available sizes are 16x16, 22x22, 32x32 "
+#| "and 48x48 pixels."
+msgid ""
+"<guilabel>Default icon size</guilabel>: Allows you to change the size of the "
+"icons in the file lists. The available sizes are 12x12, 16x16, 22x22, 32x32, "
+"48x48, 64x64, 128x128 and 256x256 pixels."
+msgstr ""
+"<guilabel>Öntanımlı simge boyutu</guilabel>: Dosya listelerindeki simgelerin "
+"boyutlarını değiştirmenizi sağlar. Kullanılabilir boyutlar 16x16, 22x22, "
+"32x32 ve 48x48 pikseldir."
+
+#. Tag: para
+#: konfigurator.docbook:478
+#, no-c-format
+msgid ""
+"<guilabel>Use icons in the filenames</guilabel>: If checked, show the icons "
+"in file names and folders."
+msgstr ""
+"<guilabel>Dosya adlarında simgeler kullan</guilabel>: İşaretliyse, dosya ve "
+"dizin isimlerinde simgeler göster."
+
+#. Tag: para
+#: konfigurator.docbook:483
+#, no-c-format
+msgid ""
+"<guilabel>Show previews by default</guilabel>: If checked, show the previews "
+"of file contents."
+msgstr ""
+"<guilabel>Öntanımlı olarak önizlemeleri göster</guilabel>: İşaretliyse, "
+"dosya içeriklerinin önizlemelerini göster."
+
+#. Tag: para
+#: konfigurator.docbook:488
+#, no-c-format
+msgid ""
+"To configure the columns use the right click menu in the panel when viewing "
+"files. The left and right panel use their own columns independently. The "
+"following columns are available:"
+msgstr ""
+"Sütunları yapılandırmak için dosyaları görüntülerken panodaki sağ tıklama "
+"menüsünü kullanın. Sol ve sağ pano bağımsız olarak kendi sütunlarını "
+"kullanırlar. Şu sütunlar kullanılabilirdir."
+
+#. Tag: para
+#: konfigurator.docbook:493
+#, no-c-format
+msgid ""
+"<guilabel>Name</guilabel>: Shows the filename without the part after the "
+"last dot, this latter part is displayed in the <guilabel>Ext</guilabel> "
+"column. When the <guilabel>Ext</guilabel> column is made hidden, the "
+"complete filename is shown in the <guilabel>Name</guilabel> column like &eg; "
+"&konqueror; does."
+msgstr ""
+"<guilabel>İsim</guilabel>: Son noktadan sonraki kısım olmadan dosya adını "
+"gösterir, bu son kısım <guilabel>Uzantı</guilabel> sütununda görüntülenir. "
+"<guilabel>Uzantı</guilabel> sütunu gizlendiğinde, <guilabel>İsim</guilabel> "
+"sütununda &örn; &konqueror;'in yaptığı gibi tam dosya ismi gösterilir."
+
+#. Tag: para
+#: konfigurator.docbook:500
+#, no-c-format
+msgid ""
+"<guilabel>Ext</guilabel>: Shows the last part of the filename (the part "
+"after the last dot) in the <guilabel>Ext</guilabel> column, and not as a "
+"complete filename in the <guilabel>Name</guilabel> column like &eg; "
+"&konqueror; does."
+msgstr ""
+"<guilabel>Uzantı</guilabel>: <guilabel>Uzantı</guilabel> sütununda dosya "
+"adının son kısmını gösterir (son noktadan sonraki kısım), <guilabel>İsim</"
+"guilabel> sütununda &örn; &konqueror;'in yaptığı gibi tam dosya adını "
+"göstermez."
+
+#. Tag: para
+#: konfigurator.docbook:508
+#, fuzzy, no-c-format
+#| msgid "<guilabel>Type</guilabel>: Shows the MIME type field."
+msgid "<guilabel>Type</guilabel>: Shows the &MIME; type field."
+msgstr "<guilabel>Tür</guilabel>: MIME türü alanını gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:513
+#, no-c-format
+msgid "<guilabel>Size</guilabel>: Shows the size field."
+msgstr "<guilabel>Boyut</guilabel>: Boyut alanını gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:518
+#, no-c-format
+msgid "<guilabel>Modified</guilabel>: Shows the modified date and time field."
+msgstr ""
+"<guilabel>Değiştirilme</guilabel>: Değiştirilme tarihi ve zamanı alanını "
+"gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:523
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Perms</guilabel>: Shows the full permissions &eg; \"rwxr-xr-x\" "
+#| "or as octal numbers '0755' instead with enable/disable <guilabel>Numeric "
+#| "Permissions</guilabel> in <guilabel>Panel</guilabel> <guilabel>View</"
+#| "guilabel> Tab."
+msgid ""
+"<guilabel>Perms</guilabel>: Shows the full permissions, &eg;, '<literal>rwxr-"
+"xr-x</literal>' or as octal numbers '<literal>0755</literal>' instead with "
+"enable/disable <guilabel>Numeric Permissions</guilabel> in <guilabel>Panel "
+"View</guilabel> Tab."
+msgstr ""
+"<guilabel>İzinler</guilabel>: &örn; \"rwxr-xr-x\" gibi tam izinleri veya "
+"<guilabel>Pano</guilabel> <guilabel>Görünüm</guilabel> Sekmesindeki "
+"<guilabel>Sayısal İzinler</guilabel> ile açılıp kapanabilen sekizlik "
+"sayıları '0755' gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:531
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>rwx</guilabel>: Shows only the rights of the current user &eg; "
+#| "\"-rw\"."
+msgid ""
+"<guilabel>rwx</guilabel>: Shows only the rights of the current user, &eg;, "
+"<quote>-rw</quote>."
+msgstr ""
+"<guilabel>rwx</guilabel>: Yalnızca mevcut kullanıcının haklarını gösterir "
+"&örn; \"-rw\"."
+
+#. Tag: para
+#: konfigurator.docbook:536
+#, no-c-format
+msgid "<guilabel>Owner</guilabel>: Shows the owner field."
+msgstr "<guilabel>Sahip</guilabel>: Sahip alanını gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:541
+#, no-c-format
+msgid "<guilabel>Group</guilabel>: Shows the group field."
+msgstr "<guilabel>Grup</guilabel>: Grup alanını gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:549
+#, no-c-format
+msgid ""
+"Uncheck the columns not in use. This allows more space for columns in use."
+msgstr ""
+"Kullanımda olmayan sütunların işaretini kaldır. Bu kullanımdaki sütunlar "
+"için daha çok alan açar."
+
+#. Tag: title
+#: konfigurator.docbook:554
+#, no-c-format
+msgid "Buttons"
+msgstr "Düğmeler"
+
+#. Tag: para
+#: konfigurator.docbook:555
+#, no-c-format
+msgid ""
+"<guilabel>Toolbar buttons have icons</guilabel>: If checked, &krusader; "
+"displays icons on toolbar buttons."
+msgstr ""
+"<guilabel>Simgeli araç çubuğu düğmeleri</guilabel>: İşaretliyse, &krusader; "
+"araç çubuğu düğmeleri üstünde simgeler gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:558
+#, no-c-format
+msgid ""
+"<guilabel>Show Media Button</guilabel>: If checked, &krusader; displays "
+"media button."
+msgstr ""
+"<guilabel>Ortam Düğmesini Göster</guilabel>: İşaretliyse, &krusader; ortam "
+"düğmesini görüntüler."
+
+#. Tag: para
+#: konfigurator.docbook:561
+#, no-c-format
+msgid ""
+"<guilabel>Show Back Button</guilabel>: If checked, &krusader; displays back "
+"button."
+msgstr ""
+"<guilabel>Geri Düğmesini Göster</guilabel>: İşaretliyse, &krusader; geri "
+"düğmesini görüntüler."
+
+#. Tag: para
+#: konfigurator.docbook:564
+#, no-c-format
+msgid ""
+"<guilabel>Show Forward Button</guilabel>: If checked, &krusader; displays "
+"forward button."
+msgstr ""
+"<guilabel>İleri Düğmesini Göster</guilabel>: İşaretliyse, &krusader; ileri "
+"düğmesini görüntüler."
+
+#. Tag: para
+#: konfigurator.docbook:567
+#, no-c-format
+msgid ""
+"<guilabel>Show History Button</guilabel>: If checked, &krusader; displays "
+"history button."
+msgstr ""
+"<guilabel>Geçmiş Düğmesini Göster</guilabel>: İşaretliyse, &krusader; geçmiş "
+"düğmesini gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:570
+#, no-c-format
+msgid ""
+"<guilabel>Show Bookmarks Button</guilabel>: If checked, &krusader; displays "
+"bookmarks button."
+msgstr ""
+"<guilabel>Yerimleri Düğmesini Göster</guilabel>: İşaretliyse, &krusader; "
+"yerimleri düğmesini görüntüler."
+
+#. Tag: para
+#: konfigurator.docbook:573
+#, no-c-format
+msgid ""
+"<guilabel>Show Panel Toolbar</guilabel>: If checked, &krusader; displays the "
+"Panel Toolbar."
+msgstr ""
+"<guilabel>Pano Araç Çubuğunu Göster</guilabel>: İşaretliyse, &krusader; Pano "
+"Araç Çubuğunu gösterir."
+
+#. Tag: para
+#: konfigurator.docbook:576
+#, no-c-format
+msgid ""
+"You can make the buttons on the <guilabel>Panel Toolbar</guilabel> visible "
+"or hidden:"
+msgstr ""
+"<guilabel>Pano Araç Çubuğundaki</guilabel> düğmeleri görünür yapabilir ya da "
+"gizleyebilirsiniz:"
+
+#. Tag: guilabel
+#: konfigurator.docbook:580
+#, no-c-format
+msgid "Visible Panel Toolbar buttons"
+msgstr "Görünür Pano Araç çubuğu düğmeleri"
+
+#. Tag: guilabel
+#: konfigurator.docbook:589
+#, no-c-format
+msgid "Equal button (=)"
+msgstr "Eşittir düğmesi (=)"
+
+#. Tag: guilabel
+#: konfigurator.docbook:593
+#, no-c-format
+msgid "Up button (..)"
+msgstr "Yukarı düğmesi (..)"
+
+#. Tag: guilabel
+#: konfigurator.docbook:597
+#, no-c-format
+msgid "Home button (~)"
+msgstr "Ev düğmesi (~)"
+
+#. Tag: guilabel
+#: konfigurator.docbook:601
+#, no-c-format
+msgid "Root button (/)"
+msgstr "Kök düğmesi (/)"
+
+#. Tag: para
+#: konfigurator.docbook:604
+#, no-c-format
+msgid ""
+"<guilabel>Toggle-button for sync-browsing</guilabel>: If checked, shows the "
+"<link linkend=\"panel_toolbar\">Sync-browsing</link> button."
+msgstr ""
+"<guilabel>Eş-gezinti için açma kapama düğmesi</guilabel>: İşaretliyse, <link "
+"linkend=\"panel_toolbar\">Eş-gezinti</link> düğmesini gösterir."
+
+#. Tag: title
+#: konfigurator.docbook:612
+#, no-c-format
+msgid "Selection Mode"
+msgstr "Seçim Kipi"
+
+#. Tag: para
+#: konfigurator.docbook:613
+#, no-c-format
+msgid "Here you can configure the selection modes."
+msgstr "Burda seçim kiplerini yapılandırabilirsiniz."
+
+#. Tag: para
+#: konfigurator.docbook:619
+#, no-c-format
+msgid ""
+"<guilabel>&krusader; Mode</guilabel>: The way &krusader; has worked from day "
+"one. Both mouse keys allow selecting files. To select more than one file, "
+"hold the &Ctrl; key and click the &LMB;. Right-click menu appears with a "
+"short click on the &RMB;."
+msgstr ""
+"<guilabel>&krusader; Kipi</guilabel>: &krusader;'in ilk günden beri çalışma "
+"şekli. İki fare tuşu da dosya seçmeyi sağlar. Birden fazla dosya seçmek için "
+"&Ctrl; tuşuna basılı tutarak &SOL; fareye tıklayın. &SAĞ; tıka kısaca basmak "
+"sağ tıklama menüsünün belirmesini sağlar."
+
+#. Tag: para
+#: konfigurator.docbook:628
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Konqueror Mode</guilabel>: pressing the &LMB; selects files -- "
+#| "you can click and select multiple files. Right-click menu appears with a "
+#| "short click on the &RMB;."
+msgid ""
+"<guilabel>&konqueror; Mode</guilabel>: pressing the &LMB; selects files -- "
+"you can click and select multiple files. Right-click menu appears with a "
+"short click on the &RMB;."
+msgstr ""
+"<guilabel>Konqueror Kipi</guilabel>: &SOL; tıklamak dosyaları seçer -- "
+"birden fazla dosyayı tıklayarak seçebilirsiniz. Sağ tık menüsü &SAĞ; tıkla "
+"açılabilir."
+
+#. Tag: para
+#: konfigurator.docbook:637
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Total commander Mode</guilabel>: Pressing the &RMB; selects "
+#| "multiple files and the right-click menu appears with <guilabel>pressing "
+#| "and holding</guilabel> the &RMB;. The Left Mouse Button does not select, "
+#| "but sets the current file without affecting the current selection."
+msgid ""
+"<guilabel>Total commander Mode</guilabel>: Pressing the &RMB; selects "
+"multiple files and the right-click menu appears with <guilabel>pressing and "
+"holding</guilabel> the &RMB;. The &LMB; does not select, but sets the "
+"current file without affecting the current selection."
+msgstr ""
+"<guilabel>Tam commander Kipi</guilabel>: &SAĞ; tıklamak birden çok dosya "
+"seçer ve sağ tık menüsü &SAĞ; tık <guilabel>basılı tutulursa</guilabel> "
+"belirir. Sol Fare Düğmesi seçim yapmaz, ama mevcut seçimi etkilemeden mevcut "
+"dosyayı ayarlar."
+
+#. Tag: para
+#: konfigurator.docbook:648
+#, no-c-format
+msgid ""
+"<guilabel>Ergonomic Mode</guilabel>: The &LMB; does not select, but sets the "
+"current file without affecting the current selection. The &RMB; invokes the "
+"context-menu. You can select with &Ctrl; key and the left button."
+msgstr ""
+"<guilabel>Ergonomik Kip</guilabel>: &SOL; tık seçim yapmaz, ama mevcut "
+"seçimi etkilemeden mevcut dosyayı ayarlar. &SAĞ; tık içerik-menüsünü açar. "
+"&Ctrl; tuşu ve sol düğmeyle seçim yapabilirsiniz."
+
+#. Tag: para
+#: konfigurator.docbook:654
+#, no-c-format
+msgid ""
+"<guilabel>Custom Selection Mode</guilabel>: Create your own selection style!"
+msgstr "<guilabel>Özel Seçim Kipi</guilabel> Kendi seçim biçeminizi oluşturun!"
+
+#. Tag: guilabel
+#: konfigurator.docbook:661
+#, no-c-format
+msgid "Details"
+msgstr "Ayrıntılar"
+
+#. Tag: para
+#: konfigurator.docbook:664
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Double-click selects (classic)</guilabel>: A single click on a "
+#| "file will select and focus, a double click opens the file or steps into "
+#| "the directory."
+msgid ""
+"<guilabel>Double-click selects (classic)</guilabel>: A single click on a "
+"file will select and focus, a double click opens the file or steps into the "
+"folder."
+msgstr ""
+"<guilabel>Çift-tık seçim yapar (klasik)</guilabel>: Bir dosyaya yapılan "
+"tekli tık seçim yapar ve odaklar, çift tık dosyayı açar veya dizin içine "
+"girer."
+
+#. Tag: para
+#: konfigurator.docbook:670
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Obey global selection policy</guilabel>: Pressing the &LMB; "
+#| "selects files -- Use global setting: &plasma; System Settings -&gt; Input "
+#| "Devices -&gt; Mouse."
+msgid ""
+"<guilabel>Obey global selection policy</guilabel>: Pressing the &LMB; "
+"selects files -- Use global setting: <menuchoice><guimenu>Input Devices</"
+"guimenu> <guimenuitem>Mouse </guimenuitem></menuchoice> module in the "
+"&plasma; &systemsettings;."
+msgstr ""
+"<guilabel>Genel seçim ilkelerine uy</guilabel>: &SOL; tık dosyaları seçer -- "
+"Genel ayarları kullan: &plasma; Sistem Ayarları -&gt; Giriş Aygıtları -&gt; "
+"Fare."
+
+#. Tag: para
+#: konfigurator.docbook:677
+#, no-c-format
+msgid "Custom Selection Mode items:"
+msgstr "Özel Seçim Kipi ögeleri:"
+
+#. Tag: guilabel
+#: konfigurator.docbook:681
+#, no-c-format
+msgid "Based on &plasma;'s selection mode"
+msgstr "&plasma;'nın seçim kipi tabanlıdır"
+
+#. Tag: guilabel
+#: konfigurator.docbook:686
+#, no-c-format
+msgid "&LMB; selects"
+msgstr ""
+
+#. Tag: guilabel
+#: konfigurator.docbook:691
+#, fuzzy, no-c-format
+#| msgid "Left mouse button preserves selection"
+msgid "&LMB; preserves selection"
+msgstr "Sol fare düğmesi seçimi korur"
+
+#. Tag: guilabel
+#: konfigurator.docbook:696
+#, fuzzy, no-c-format
+#| msgid "&Shift;/&Ctrl;-Left mouse button selects"
+msgid "&Shift;/&Ctrl; + left clicking selects"
+msgstr "&Shift;/&Ctrl;-Sol fare düğmesi seçim yapar"
+
+#. Tag: guilabel
+#: konfigurator.docbook:701
+#, no-c-format
+msgid "&RMB; selects"
+msgstr ""
+
+#. Tag: guilabel
+#: konfigurator.docbook:706
+#, fuzzy, no-c-format
+#| msgid "Right mouse button preserves selection"
+msgid "&RMB; preserves selection"
+msgstr "Sağ fare düğmesi seçimi korur"
+
+#. Tag: guilabel
+#: konfigurator.docbook:711
+#, fuzzy, no-c-format
+#| msgid "&Shift;/&Ctrl;-Right mouse button selects"
+msgid "&Shift;/&Ctrl; + right clicking selects"
+msgstr "&Shift;/&Ctrl;-Sağ fare düğmesi seçim yapar"
+
+#. Tag: guilabel
+#: konfigurator.docbook:716
+#, no-c-format
+msgid "Spacebar moves down"
+msgstr "Boşluk düğmesi aşağı hareket ettirir"
+
+#. Tag: guilabel
+#: konfigurator.docbook:721
+#, no-c-format
+msgid "Insert moves down"
+msgstr "Ekle düğmesi aşağı hareket ettirir"
+
+#. Tag: guilabel
+#: konfigurator.docbook:726
+#, no-c-format
+msgid "Right-clicking pops context menu immediately"
+msgstr "Sağ tıklama anında içerik menüsünü açar"
+
+#. Tag: para
+#: konfigurator.docbook:731
+#, no-c-format
+msgid ""
+"<guilabel>A plain mouse button resets selection</guilabel> - resets "
+"selection on a mouse click without modifiers (&ie; &Shift; or &Ctrl;). "
+"Selection with &Shift;/&Ctrl; for the mouse button has to be enabled for "
+"this setting to work."
+msgstr ""
+
+#. Tag: title
+#: konfigurator.docbook:740
+#, no-c-format
+msgid "Media Menu"
+msgstr "Ortam Menüsü"
+
+#. Tag: para
+#: konfigurator.docbook:741
+#, no-c-format
+msgid ""
+"Using this tab you can select the <link linkend=\"media_button\">Media "
+"button</link> menu contents:"
+msgstr ""
+"Bu sekmeyi kullanarak <link linkend=\"media_button\">ORtam düğmesi</link> "
+"menü içeriklerini seçebilirsiniz:"
+
+#. Tag: para
+#: konfigurator.docbook:744
+#, no-c-format
+msgid ""
+"<guilabel>Show Mount Path</guilabel>: show the mount path of partition if "
+"checked."
+msgstr ""
+"<guilabel>Bağlama Yolunu Göster</guilabel>: İşaretliyse bölüntünün bağlama "
+"yolunu gösterin."
+
+#. Tag: para
+#: konfigurator.docbook:748
+#, no-c-format
+msgid ""
+"<guilabel>Show File System Type</guilabel>: show the file system type of "
+"partition if checked."
+msgstr ""
+"<guilabel>Dosya Sistemi Türünü Göster</guilabel>: İşaretliyse bölüntünün "
+"dosya sistemi türünü gösterin."
+
+#. Tag: para
+#: konfigurator.docbook:752
+#, no-c-format
+msgid ""
+"<guilabel>Hide SquashFS entries</guilabel>: <ulink url=\"https://snapcraft."
+"io/\">Snap</ulink> creates many <ulink url=\"https://en.wikipedia.org/wiki/"
+"SquashFS\">SquashFS</ulink>-mounted partitions, which are almost useless in "
+"the <link linkend=\"list_panel\">Media Menu</link>, because "
+"<application>snap</application> manages them. It is possible to hide "
+"SquashFS mounts by checking this item."
+msgstr ""
+
+#. Tag: para
+#: konfigurator.docbook:756
+#, no-c-format
+msgid ""
+"<guilabel>Hide unknown File System entries</guilabel>: Several unknown File "
+"System entries may appear in the <link linkend=\"list_panel\">Media Menu</"
+"link>, which are almost useless there. It is possible to hide unknown File "
+"System entries by checking this item."
+msgstr ""
+
+#. Tag: para
+#: konfigurator.docbook:760
+#, no-c-format
+msgid ""
+"<guilabel>Hide following mountpoints</guilabel>: this list allows to exclude "
+"unwanted items from <link linkend=\"list_panel\">Media Menu</link>. Press "
+"the <guibutton>+</guibutton> button above the list to add some mount point "
+"you want to ignore. Should you decide to remove the added mount point from "
+"the list just click on it and press the <guibutton>-</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: konfigurator.docbook:765
+#, no-c-format
+msgid ""
+"<guilabel>Show Size:</guilabel> allows selection of the size representation "
+"in media menu. Can be <guimenuitem>Always</guimenuitem> (default, always "
+"show the size of partition), <guimenuitem>When Device has no Label</"
+"guimenuitem> (show the size for partitions with no label only) or "
+"<guimenuitem>Never</guimenuitem> (never show the size in media menu)."
+msgstr ""
+"<guilabel>Boyutu Göster:</guilabel>, ortam menüsünde boyut sunumunun "
+"seçimine izin verir. <guimenuitem>Her Zaman</guimenuitem> (öntanımlı, her "
+"zaman bölüntü boyutunu göster), <guimenuitem>Aygıtın etiketi olmadığında</"
+"guimenuitem> (etiketi olmayan bölüntülerin boyutunu göster) veya "
+"<guimenuitem>Asla</guimenuitem> (ortam menüsünde asla boyut gösterme) "
+"olabilir."
+
+#. Tag: title
+#: konfigurator.docbook:771
+#, no-c-format
+msgid "Layout"
+msgstr "Yerleşim"
+
+#. Tag: para
+#: konfigurator.docbook:772
+#, no-c-format
+msgid "You can choose the layout and frame settings:"
+msgstr "Yerleşim ve çerçeve ayarlarını seçebilirsiniz:"
+
+#. Tag: para
+#: konfigurator.docbook:775
+#, no-c-format
+msgid ""
+"<guilabel>Layout:</guilabel> allows to define layout. The default options "
+"are <guimenuitem>Default</guimenuitem>, <guimenuitem>Compact</guimenuitem>, "
+"and <guimenuitem>Classic</guimenuitem>."
+msgstr ""
+"<guilabel>Düzen:</guilabel> düzen tanımlamak için kullanılır. Öntanımlı "
+"seçenekler <guimenuitem>Öntanımlı</guimenuitem>, <guimenuitem>Sıkışık</"
+"guimenuitem>, ve <guimenuitem>Klasik</guimenuitem>."
+
+#. Tag: para
+#: konfigurator.docbook:779
+#, no-c-format
+msgid ""
+"<guilabel>Frame Color:</guilabel> defines frame color. Can be "
+"<guimenuitem>Defined by Layout</guimenuitem>, <guimenuitem>None</"
+"guimenuitem>, or <guimenuitem>Statusbar</guimenuitem>."
+msgstr ""
+"<guilabel>Çerçeve Rengi:</guilabel> çerçeve rengini belirler. "
+"<guimenuitem>Düzen ile Tanımlanmış</guimenuitem>, <guimenuitem>Hiçbiri</"
+"guimenuitem>, veya <guimenuitem>Durum çubuğu</guimenuitem> olabilir."
+
+#. Tag: para
+#: konfigurator.docbook:783
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Frame Shape:</guilabel> defines frame color. Can be "
+#| "<guimenuitem>Defined by Layout</guimenuitem>, <guimenuitem>None</"
+#| "guimenuitem>, or <guimenuitem>Statusbar</guimenuitem>."
+msgid ""
+"<guilabel>Frame Shape:</guilabel> defines frame color. Can be "
+"<guimenuitem>Defined by Layout</guimenuitem>, <guimenuitem>None</"
+"guimenuitem>, <guimenuitem>Box</guimenuitem>, or <guimenuitem>Panel</"
+"guimenuitem>."
+msgstr ""
+"<guilabel>Çerçeve Şekli:</guilabel> çerçeve şeklini tnaımlar. "
+"<guimenuitem>Düzen ile Tanımlanmış</guimenuitem>, <guimenuitem>Hiçbiri</"
+"guimenuitem>, veya <guimenuitem>Durum çubuğu</guimenuitem> olabilir."
+
+#. Tag: para
+#: konfigurator.docbook:787
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Frame Shadow:</guilabel> defines frame color. Can be "
+#| "<guimenuitem>Defined by Layout</guimenuitem>, <guimenuitem>None</"
+#| "guimenuitem>, or <guimenuitem>Statusbar</guimenuitem>."
+msgid ""
+"<guilabel>Frame Shadow:</guilabel> defines frame color. Can be "
+"<guimenuitem>Defined by Layout</guimenuitem>, <guimenuitem>None</"
+"guimenuitem>, <guimenuitem>Raised</guimenuitem>, or <guimenuitem>Sunken</"
+"guimenuitem>."
+msgstr ""
+"<guilabel>Çerçeve Gölgesi:</guilabel> çerçeve gölgesini tanımlar. "
+"<guimenuitem>Düzen ile Tanımlanmış</guimenuitem>, <guimenuitem>Hiçbiri</"
+"guimenuitem>, veya <guimenuitem>Durum çubuğu</guimenuitem> olabilir."
+
+#. Tag: title
+#: konfigurator.docbook:794
+#, no-c-format
+msgid "<title>Colors</title>"
+msgstr "<title>Renkler</title>"
+
+#. Tag: para
+#: konfigurator.docbook:795
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This page configures the colors of the <link linkend=\"list_panel\">List "
+#| "Panel</link> and the <link linkend=\"synchronizer\">Synchronizer</link> "
+#| "(disabled at the compilation time by default). The <guilabel>KDE default "
+#| "colors</guilabel> is the default color configuration."
+msgid ""
+"This page configures the colors of the <link linkend=\"list_panel\">List "
+"Panel</link> and the <link linkend=\"synchronizer\">Synchronizer</link>. The "
+"<guilabel>&kde; default colors</guilabel> is the default color configuration."
+msgstr ""
+"Bu sayfa <link linkend=\"list_panel\">Liste Panosu</link> ve <link linkend="
+"\"synchronizer\">Eş zamanlayıcı</link> renklerini yapılandırır (derleme "
+"zamanında öntanımlı olarak kapalıdır). <guilabel>KDE öntanımlı renkleri</"
+"guilabel> öntanımlı renk yapılandırmasıdır."
+
+#. Tag: para
+#: konfigurator.docbook:809
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Use the default KDE colors</guilabel>: this is the default, it "
+#| "uses &plasma; color defined in the &systemsettings;."
+msgid ""
+"<guilabel>Use the default &kde; colors</guilabel>: this is the default, it "
+"uses &plasma; color defined in the &systemsettings;."
+msgstr ""
+"<guilabel>Öntanımlı KDE renklerini kullan</guilabel>: bu öntanımlıdır, "
+"&systemsettings; ile tanımlanan &plasma; rengini kullanır."
+
+#. Tag: para
+#: konfigurator.docbook:815
+#, no-c-format
+msgid ""
+"<guilabel>Use Alternate Background color</guilabel>: If checked, the "
+"<guilabel>Background</guilabel> color and the <guilabel>Alternate "
+"background</guilabel> color alternates line by line. When you do not use the "
+"&plasma; default colors, you can configure the alternate colors in the "
+"<guilabel>Colors</guilabel> box."
+msgstr ""
+"<guilabel>Değişimli Arkaplan rengi kullan</guilabel>: İşaretliyse, "
+"<guilabel>Arkaplan</guilabel> rengi ve <guilabel>Değişimli arkaplan</"
+"guilabel> rengi satır satır değişir. &plasma; öntanımlı renklerini "
+"kullanmadığınızda, <guilabel>Renkler</guilabel> kutusundan değişimli "
+"renkleri yapılandırabilirsiniz."
+
+#. Tag: para
+#: konfigurator.docbook:826
+#, no-c-format
+msgid ""
+"<guilabel>Show current item even if not focused</guilabel>: If checked, "
+"shows the last cursor position in the non active list panel. This option is "
+"only available when you do not use the &plasma; default colors."
+msgstr ""
+"<guilabel>Odaklanmamışsa bile mevcut öğeyi göster</guilabel>: İşaretliyse, "
+"etkin olmayanlar listesi panosunda son imleç konumunu gösterir. Bu seçenek "
+"yalnızca &plasma; renklerini kullanmadığınızda kullanılabilir."
+
+#. Tag: para
+#: konfigurator.docbook:834
+#, no-c-format
+msgid ""
+"<guilabel>Dim the colors of the inactive panel</guilabel>: If checked, the "
+"colors of the inactive panel are dimmed. These settings can be configured in "
+"the <guilabel>Inactive</guilabel> tab of the <guilabel>Colors</guilabel> "
+"box. This option is only available when you do not use the &plasma; default "
+"colors."
+msgstr ""
+"<guilabel>Etkin olmayan panonun renklerini söndür</guilabel>: İşaretliyse, "
+"etkin olmayan pano renkleri söndürülür. Bu ayarlar <guilabel>Renkler</"
+"guilabel> kutusunun <guilabel>Etkin olmayan</guilabel> sekmesinde "
+"yapılandırılabilir. Bu seçenek yalnızca &plasma; öntanımlı renklerini "
+"kullanmadığınızda kullanılabilir."
+
+#. Tag: guilabel
+#: konfigurator.docbook:849
+#, no-c-format
+msgid "<guilabel>Colors</guilabel>"
+msgstr "<guilabel>Renkler</guilabel>"
+
+#. Tag: para
+#: konfigurator.docbook:852
+#, no-c-format
+msgid ""
+"Configure the colors the way you like, you can see the result in the "
+"<guilabel>Preview</guilabel> section. The following items of the active and "
+"inactive panel can be configured:"
+msgstr ""
+"Renkleri istediğiniz biçimde yapılandırın, sonuçları <guilabel>Önizleme</"
+"guilabel> kısmında görebilirsiniz. Etkin ve etkin olmayan panonun aşağıdaki "
+"ögeleri yapılandırılabilir:"
+
+#. Tag: guilabel
+#: konfigurator.docbook:860
+#, no-c-format
+msgid "Foreground"
+msgstr "Önplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:865
+#, fuzzy, no-c-format
+#| msgid "Delete foreground"
+msgid "Folder foreground"
+msgstr "Önplanı sil"
+
+#. Tag: guilabel
+#: konfigurator.docbook:870
+#, no-c-format
+msgid "Executable foreground"
+msgstr "Çalıştırılabilir önplanı"
+
+#. Tag: guilabel
+#: konfigurator.docbook:875
+#, no-c-format
+msgid "Symbolic link foreground"
+msgstr "Sembolik bağ önplanı"
+
+#. Tag: guilabel
+#: konfigurator.docbook:880
+#, no-c-format
+msgid "Invalid symlink foreground"
+msgstr "Geçersiz sembolik bağ önplanı"
+
+#. Tag: guilabel
+#: konfigurator.docbook:885
+#, no-c-format
+msgid "Background"
+msgstr "Arkaplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:890
+#, no-c-format
+msgid "Alternate background"
+msgstr "Değişken arkaplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:895
+#, no-c-format
+msgid "Selected foreground"
+msgstr "Seçili önplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:900
+#, no-c-format
+msgid "Selected background"
+msgstr "Seçili arkaplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:905
+#, no-c-format
+msgid "Alternate selected background"
+msgstr "Değişken seçili arkaplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:910
+#, no-c-format
+msgid "Current foreground"
+msgstr "Mevcut önplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:915
+#, no-c-format
+msgid "Selected current foreground"
+msgstr "Seçili mevcut önplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:920
+#, no-c-format
+msgid "Current background"
+msgstr "Mevcut arkaplan"
+
+#. Tag: guilabel
+#: konfigurator.docbook:925
+#, fuzzy, no-c-format
+#| msgid "Delete foreground"
+msgid "Rename foreground"
+msgstr "Önplanı sil"
+
+#. Tag: guilabel
+#: konfigurator.docbook:930
+#, fuzzy, no-c-format
+#| msgid "Alternate background"
+msgid "Rename background"
+msgstr "Değişken arkaplan"
+
+#. Tag: para
+#: konfigurator.docbook:934
+#, fuzzy, no-c-format
+#| msgid ""
+#| "The following items of the <link linkend=\"synchronizer\">Synchronizer</"
+#| "link> (disabled at the compilation time by default) can be configured:"
+msgid ""
+"The following items of the <link linkend=\"synchronizer\">Synchronizer</"
+"link> can be configured:"
+msgstr ""
+"<link linkend=\"synchronizer\">Eş zamanlayıcının</link> aşağıdaki ögeleri "
+"(öntanımlı olarak derleme zamanında kapalıdır) yapılandırılabilir:"
+
+#. Tag: guilabel
+#: konfigurator.docbook:939
+#, no-c-format
+msgid "Equals foreground"
+msgstr "Önplana eşittir"
+
+#. Tag: guilabel
+#: konfigurator.docbook:944
+#, no-c-format
+msgid "Equals background"
+msgstr "Eşittir arkaplanı"
+
+#. Tag: guilabel
+#: konfigurator.docbook:949
+#, no-c-format
+msgid "Differing foreground"
+msgstr "Farklılık önplanı"
+
+#. Tag: guilabel
+#: konfigurator.docbook:954
+#, no-c-format
+msgid "Differing background"
+msgstr "Farklılık arkaplanı"
+
+#. Tag: guilabel
+#: konfigurator.docbook:959
+#, no-c-format
+msgid "Copy to left foreground"
+msgstr "Sol önplana kopyala"
+
+#. Tag: guilabel
+#: konfigurator.docbook:964 konfigurator.docbook:974
+#, no-c-format
+msgid "Copy to left background"
+msgstr "Sol arkaplana kopyala"
+
+#. Tag: guilabel
+#: konfigurator.docbook:969
+#, no-c-format
+msgid "Copy to right foreground"
+msgstr "Sağ önplana kopyala"
+
+#. Tag: guilabel
+#: konfigurator.docbook:979
+#, no-c-format
+msgid "Delete foreground"
+msgstr "Önplanı sil"
+
+#. Tag: guilabel
+#: konfigurator.docbook:984
+#, no-c-format
+msgid "Delete background"
+msgstr "Arkaplanı sil"
+
+#. Tag: guilabel
+#: konfigurator.docbook:992
+#, no-c-format
+msgid "Preview"
+msgstr "Önizleme"
+
+#. Tag: para
+#: konfigurator.docbook:995
+#, no-c-format
+msgid "Here you see a preview of the configured colors."
+msgstr "Burda yapılandırılan renklerin bir önizlemesini görebilirsiniz."
+
+#. Tag: guilabel
+#: konfigurator.docbook:1001
+#, no-c-format
+msgid "Color schemes"
+msgstr "Renk şemaları"
+
+#. Tag: para
+#: konfigurator.docbook:1004
+#, no-c-format
+msgid ""
+"With the <guibutton>Import Color Scheme</guibutton> and <guibutton>Export "
+"Color Scheme</guibutton> buttons you can load and save a Color Scheme "
+"profile. This allows &krusader; to use <trademark class=\"copyright\">Total "
+"Commander</trademark>, <application>Midnight Commander</application>, foo-"
+"commander or your own custom color profile. The Color Schemes are stored in "
+"<filename>/usr/share/krusader</filename>, the <filename>foo.color</filename> "
+"is a binary file that holds the color scheme."
+msgstr ""
+"<guibutton>Renk Şemasını İçe Aktar</guibutton> ve <guibutton>Renk Şemasını "
+"Aktar</guibutton> düğmeleriyle bir Renk Şeması profilini yükleyebilir ve "
+"kaydedebilirsiniz. Bu &krusader;'in <trademark class=\"copyright\">Total "
+"Commander</trademark>, <application>Midnight Commander</application>, "
+"herhangi-commander veya kendi renk şeması profilinizi kullanmasını sağlar. "
+"Renk Şemaları <filename>/usr/share/krusader</filename> altında saklanır, "
+"<filename>foo.color</filename> renk şemasını tutan ikilik bir dosyadır."
+
+#. Tag: para
+#: konfigurator.docbook:1015
+#, no-c-format
+msgid ""
+"<application>Midnight Commander</application> and <trademark class="
+"\"copyright\">Total Commander</trademark> Color scheme files are provided. "
+"Please <link linkend=\"help_krusader\">upload your favorite Color schemes</"
+"link> so that they become available for the &krusader; community. Thanks!"
+msgstr ""
+"<application>Midnight Commander</application> ve <trademark class=\"copyright"
+"\">Total Commander</trademark> Renk şeması dosyaları sağlanır. Lütfen siz de "
+"<link linkend=\"help_krusader\">beğendiğiniz Renk şemalarınızı</link> "
+"yükleyerek &krusader; topluluğuyla paylaşın. Teşekkürler!"
+
+#. Tag: para
+#: konfigurator.docbook:1027
+#, no-c-format
+msgid ""
+"Here you configure the basic operations. The page is divided into three "
+"tabs: <guilabel>General</guilabel>, <guilabel>Viewer/Editor</guilabel>, and "
+"<guilabel>Atomic extensions</guilabel>."
+msgstr ""
+"Burda temel işlemleri yapılandırabilirsiniz. Sayfa üç sekmeye bölünmüştür: "
+"<guilabel>Genel</guilabel>, <guilabel>Görüntüleyici/Düzenleyici</guilabel>, "
+"ve <guilabel>Atomik uzantılar</guilabel>."
+
+#. Tag: para
+#: konfigurator.docbook:1033
+#, no-c-format
+msgid "The following options determine basic aspects of operation:"
+msgstr "Aşağıdaki seçenekler işlemin temel yönlerini belirler:"
+
+#. Tag: para
+#: konfigurator.docbook:1036
+#, no-c-format
+msgid ""
+"<guilabel>Warn on exit</guilabel>: if checked, &krusader; warns you every "
+"time when exit action is triggered."
+msgstr ""
+"<guilabel>Çıkışta uyar</guilabel>: İşaretliyse, &krusader; çıkış eylemi "
+"tetiklendiğinde sizi uyarır."
+
+#. Tag: para
+#: konfigurator.docbook:1042
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Minimize to tray</guilabel>: If checked, the &krusader; icon "
+#| "will appear in the system tray. When you minimize &krusader;, it will not "
+#| "appear in the taskbar. It also will not exit if you close the main "
+#| "window. Instead you can quit &krusader; by selecting <guimenuitem>Quit</"
+#| "guimenuitem> from the <guimenu>File</guimenu> menu or the context menu of "
+#| "the tray icon."
+msgid ""
+"<guilabel>Show and close to tray</guilabel>: If checked, the &krusader; icon "
+"will appear in the system tray. When you minimize &krusader;, it will not "
+"appear in the taskbar. It also will not exit if you close the main window. "
+"Instead you can quit &krusader; by selecting <menuchoice><guimenu>File</"
+"guimenu> <guimenuitem>Quit</guimenuitem></menuchoice> menu item or the "
+"context menu of the tray icon."
+msgstr ""
+"<guilabel>Sistem çekmecesine küçült</guilabel>: İşaretliyse, &krusader; "
+"simgesi sistem çekmecesinde belirir. &krusader;'i küçülttüğünüzde, görev "
+"çubuğunda görünmez. Ayrıca ana pencereyi kapattığınızda da kapanmayacaktır. "
+"Bunun yerine &krusader;'den çıkmak için <guimenu>Dosya</guimenu> menüsünden "
+"<guimenuitem>Çık</guimenuitem> seçmeniz veya sistem çekmecesi simgesindeki "
+"bileşen menüsünden çıkmanız gerekir."
+
+#. Tag: para
+#: konfigurator.docbook:1052
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Use MIME type magic</guilabel>: MIME type magic is a mechanism "
+#| "which allows &krusader; to inspect the files in the panels and determine "
+#| "their type even if the file has no identifying extension. For example, if "
+#| "you take an image file - <filename>image1.jpg</filename> - and rename it "
+#| "to <filename>image1</filename>, &krusader; will still know it is an image "
+#| "file and work with it accordingly. However, this mode of operation is "
+#| "slower (while refreshing the panel, or changing directories), so try "
+#| "&krusader; with and without MIME type magic and decide what is best for "
+#| "you."
+msgid ""
+"<guilabel>Use &MIME; type magic</guilabel>: &MIME; type magic is a mechanism "
+"which allows &krusader; to inspect the files in the panels and determine "
+"their type even if the file has no identifying extension. For example, if "
+"you take an image file - <filename>image1.jpg</filename> - and rename it to "
+"<filename>image1</filename>, &krusader; will still know it is an image file "
+"and work with it accordingly. However, this mode of operation is slower "
+"(while refreshing the panel, or changing folders), so try &krusader; with "
+"and without &MIME; type magic and decide what is best for you."
+msgstr ""
+"<guilabel>MIME türü kullan</guilabel>: MIME türü &krusader;'in panodaki "
+"dosyaları inceleyerek belirleyici bir uzantıları olmasa da türlerine karar "
+"vermesini sağlayan bir mekanizmadır. Örneğin bir resim dosyasını - "
+"<filename>image1.jpg</filename> - yerine <filename>image1</filename> olarak "
+"adlandırırsanız, &krusader; hala bunun bir resim dosyası olduğunu bilir ve "
+"buna göre çalışır. Ancak,bu işlem kipi daha yavaştır (panoyu yenilerken, "
+"veya dizin değiştirirken), yani &krusader;'i MIME türü sihri varken ve "
+"yokken kullanıp kendiniz için en iyisini seçin."
+
+#. Tag: para
+#: konfigurator.docbook:1066
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Temp Directory</guilabel>: this option selects the base "
+#| "directory for &krusader;'s temporary files. The actual files will be "
+#| "created in separate directories under the 'Temp directory', so that each "
+#| "user running &krusader; will have their own temporary subdirectories "
+#| "under the chosen directory."
+msgid ""
+"<guilabel>Temp Folder</guilabel>: this option selects the base folder for "
+"&krusader;'s temporary files. The actual files will be created in separate "
+"folders under the 'Temp folder', so that each user running &krusader; will "
+"have their own temporary subfolders under the chosen folder."
+msgstr ""
+"<guilabel>Geçici Dizin</guilabel>: bu seçenek &krusader; geçici dosyaları "
+"için temel dizini seçer. Asıl dosyalar 'Geçici dizin' altında ayrı "
+"dizinlerde oluşturulur, böylecek &krusader; çalıştıran her kullanıcı kendine "
+"ait geçici dizinlerine sahip olmuş olur."
+
+#. Tag: para
+#: konfigurator.docbook:1074
+#, fuzzy, no-c-format
+#| msgid ""
+#| "You must choose a temporary directory to which all users running "
+#| "&krusader; have full permissions!"
+msgid ""
+"You must choose a temporary folder to which all users running &krusader; "
+"have full permissions!"
+msgstr ""
+"&krusader; kullanan tüm kullanıcıların tam izne sahip olduğu bir geçici "
+"dizin seçmelisiniz!"
+
+#. Tag: para
+#: konfigurator.docbook:1081
+#, no-c-format
+msgid ""
+"<guilabel>Delete mode</guilabel> (<guilabel>Delete files/Move to trash</"
+"guilabel>): when &krusader; deletes files it can either <emphasis>really</"
+"emphasis> delete them or move them to the trash folder, thereby making them "
+"available via &plasma;'s trash."
+msgstr ""
+"<guilabel>Silme kipi</guilabel> (<guilabel>Dosyaları sil/Çöpe taşı</"
+"guilabel>): &krusader; dosyaları sildiğinde onları ya <emphasis>gerçekten</"
+"emphasis> silebilir ya da çöp dizinine taşıyabilir, böylece &plasma;'nın "
+"çöpünden kullanılabilirler."
+
+#. Tag: para
+#: konfigurator.docbook:1087
+#, no-c-format
+msgid ""
+"<guilabel>External Terminal</guilabel>: choose which terminal emulator will "
+"be used when &krusader; opens a console window (via <keycap>F9</keycap>, or "
+"<menuchoice><guimenu>Tools</guimenu> <guimenuitem>Start Terminal</"
+"guimenuitem></menuchoice> menu option)."
+msgstr ""
+"<guilabel>Harici Uçbirim</guilabel>: &krusader; bir konsol penceresi "
+"(<keycap>F9</keycap> tuşu, veya <menuchoice><guimenu>Araçlar</guimenu> "
+"<guimenuitem>Uçbirim Başlat</guimenuitem></menuchoice> menü seçeneğiyle) "
+"açtığında hangi uçbirim öykünücünün kullanılacağını seçin."
+
+#. Tag: para
+#: konfigurator.docbook:1094
+#, no-c-format
+msgid ""
+"<guilabel>Embedded Terminal sends Chdir on panel change</guilabel>: if "
+"unchecked, there will be no <command>cd</command> command sent to the "
+"Terminal Emulator if the panel folder changes."
+msgstr ""
+"<guilabel>Gömülü Uçbirim pano değişiminde Chdir gönderir</guilabel>: "
+"İşaretli değilse, pano dizini değiştiğinde Uçbirim Öykünücüye <command>cd</"
+"command> komutu gönderilmez."
+
+#. Tag: para
+#: konfigurator.docbook:1099
+#, no-c-format
+msgid ""
+"<guilabel>Active panel follows Embedded Terminal working directory</"
+"guilabel>: if unchecked, active panel stays unchanged while the user "
+"navigates in the embedded terminal (using cd, popd, etc)."
+msgstr ""
+
+#. Tag: para
+#: konfigurator.docbook:1103
+#, no-c-format
+msgid ""
+"<guilabel>Toggle Fullscreen Embedded Terminal</guilabel>: if checked, "
+"&krusader; shows fullscreen terminal in <application>Midnight Commander</"
+"application> style (Terminal is shown instead of &krusader; window)."
+msgstr ""
+"<guilabel>Tam Ekran Gömülü Uçbirimi Tetikle</guilabel>: İşaretliyse, "
+"&krusader; tam ekran uçbirimi <application>Midnight Commander</application> "
+"biçiminde gösterir (&krusader; penceresi yerine uçbirim gösterilir)."
+
+#. Tag: title
+#: konfigurator.docbook:1111
+#, no-c-format
+msgid "Viewer/Editor"
+msgstr "Görüntüleyici/Düzenleyici"
+
+#. Tag: para
+#: konfigurator.docbook:1112
+#, no-c-format
+msgid "Here you can change the viewer and editor settings:"
+msgstr "Burda görüntüleyici ve düzenleyici ayarlarını değiştirebilirsiniz:"
+
+#. Tag: para
+#: konfigurator.docbook:1116
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Internal editor and viewer opens each file in separate window</"
+#| "guilabel>: check this item if you want each file to be opened in separate "
+#| "window."
+msgid ""
+"<guilabel>Internal editor and viewer opens each file in separate window</"
+"guilabel>: check this item if you want each file to be opened in a separate "
+"window. If unchecked, each file will be opened in a tab in the same Viewer/"
+"Editor window. Every tab in such a window can be closed, among other common "
+"methods, by clicking on the tab with the &MMB;."
+msgstr ""
+"<guilabel>Dahili düzenleyici ve görüntüleyici her dosyayı ayrı pencerede "
+"açar</guilabel>: her dosyanın ayrı bir pencerede açılmasını istiyorsanız bu "
+"ögeyi işaretleyin."
+
+#. Tag: para
+#: konfigurator.docbook:1124
+#, no-c-format
+msgid ""
+"<guilabel>Hide the tab bar when only one tab is opened</guilabel>: check "
+"this item if you want the Viewer/Editor tab bar to be hidden if only one tab "
+"is open."
+msgstr ""
+
+#. Tag: para
+#: konfigurator.docbook:1130
+#, no-c-format
+msgid "<guilabel>Default viewer mode</guilabel>:"
+msgstr "<guilabel>Öntanımlı görüntüleyici kipi</guilabel>:"
+
+#. Tag: para
+#: konfigurator.docbook:1134
+#, no-c-format
+msgid "<guilabel>Generic mode</guilabel>: use the systems default viewer."
+msgstr ""
+"<guilabel>Genel kip</guilabel>: Sistemin öntanımlı görüntüleyicisini kullan."
+
+#. Tag: para
+#: konfigurator.docbook:1138
+#, no-c-format
+msgid "<guilabel>Text mode</guilabel>: view the file in text-only mode."
+msgstr "<guilabel>Metin kipi</guilabel>: dosyayı salt metin kipinde görüntüle."
+
+#. Tag: para
+#: konfigurator.docbook:1142
+#, no-c-format
+msgid "<guilabel>Hex mode</guilabel>: view the file in hex-only mode."
+msgstr "<guilabel>Hex kipi</guilabel>: Dosyayı salt hex kipinde görüntüle."
+
+#. Tag: para
+#: konfigurator.docbook:1146
+#, no-c-format
+msgid ""
+"<guilabel>Lister mode</guilabel>: Fast text/hexadecimal viewer for huge "
+"filesizes. &krusader; lister never loads the whole file into memory, just a "
+"little part of it, and uses caching for faster scrolling. Remote files are "
+"downloaded, but during the download, viewing the downloaded part is "
+"possible. If a file constantly changes, then it can also be viewed, lister "
+"will always see its current state."
+msgstr ""
+"<guilabel>Listeleyici kipi</guilabel>: Büyük dosya boyutları için hızlı "
+"metin/onaltılık görüntüleyici. &krusader; listeleyici asla tüm dosyayı "
+"belleğe yüklemez, yalnızca bir kısmını yükler, ve daha hızlı kaydırma için "
+"önbellekleme kullanır. Uzak dosyalar indirilir, ama indirme sırasında, "
+"indirilen kısmın görüntülenmesi mümkündür. Bir dosya sürekli değişirse de "
+"görüntülenebilir, listeleyici her zaman mevcut durumunu görecektir."
+
+#. Tag: para
+#: konfigurator.docbook:1153
+#, no-c-format
+msgid ""
+"<guilabel>Use lister if the text file is bigger than: 10 MB (default value)</"
+"guilabel>: checks whether a text file is bigger than 10 MB (configurable), "
+"and if yes, then &krusader; Lister is used instead of &plasma;'s default "
+"viewer."
+msgstr ""
+"<guilabel>Metin dosyası şundan büyükse listeleyici kullan: 10 MB (öntanımlı "
+"değer)</guilabel>: bir metin dosyasının 10 MB’dan (yapılandırılabilir) büyük "
+"olup olmadığına bakar, ve büyükse, &krusader; &plasma;’nın öntanımlı "
+"görüntüleyicisi yerine listeleyici kullanır."
+
+#. Tag: para
+#: konfigurator.docbook:1159
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Use Okteta as Hex viewer</guilabel>: if checked (default "
+#| "option), use &plasma; hex editor <ulink url=\"http://docs.kde.org/stable/"
+#| "en/kdesdk/okteta/index.html\">Okteta</ulink> to view raw data. To use "
+#| "this option you should install <application>Okteta</application> package "
+#| "first."
+msgid ""
+"<guilabel>Use Okteta as Hex viewer</guilabel>: if checked, use &plasma; hex "
+"editor <ulink url=\"https://docs.kde.org/index.php?application=okteta"
+"\">Okteta</ulink> to view raw data. To use this option you should install "
+"<application>Okteta</application> package first."
+msgstr ""
+"<guilabel>Hex görüntüleme için Okteta kullan</guilabel>: İşaretliyse "
+"(öntanımlı seçenek), ham veriyi görüntülemek için &plasma;'nın hex "
+"düzenleyicisi <ulink url=\"http://docs.kde.org/stable/en/kdesdk/okteta/index."
+"html\">Okteta</ulink>'yı kullan. Bu seçeneği kullanmak için önce "
+"<application>Okteta</application> kurmalısınız."
+
+#. Tag: para
+#: konfigurator.docbook:1168
+#, no-c-format
+msgid ""
+"<guilabel>Editor</guilabel>: choose what editor will be used when editing a "
+"file (via <keycap>F4</keycap>). Default the internal viewer is used, this is "
+"the &plasma;'s default viewer."
+msgstr ""
+"<guilabel>Düzenleyici</guilabel>: bir dosya düzenlerken hangi düzenleyicinin "
+"kullanılacağını seçin (<keycap>F4</keycap> ile). Öntanımlı dahili "
+"görüntüleyici kullanılır, bu &plasma;'nın öntanımlı görüntüleyicisidir."
+
+#. Tag: title
+#: konfigurator.docbook:1176
+#, no-c-format
+msgid "Atomic extensions"
+msgstr "Atomik uzantılar"
+
+#. Tag: para
+#: konfigurator.docbook:1177
+#, no-c-format
+msgid ""
+"<guilabel>Atomic extensions</guilabel>: predefined atomic extensions like "
+"<literal role=\"extension\">.tar.gz</literal> are shown as one part in the "
+"<guilabel>Ext</guilabel> Column of the <link linkend=\"list_panel\">List "
+"Panel</link>."
+msgstr ""
+"<guilabel>Atomik uzantılar</guilabel>: <literal role=\"extension\">.tar.gz</"
+"literal> gibi öntanımlı atomik uzantılar <link linkend=\"list_panel\">Liste "
+"Panosunun</link> <guilabel>Uzantı</guilabel> Sütununda tek kısım olarak "
+"gösterilirler."
+
+#. Tag: title
+#: konfigurator.docbook:1183
+#, no-c-format
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#. Tag: para
+#: konfigurator.docbook:1184
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This page handles more advanced issues, so you should double-check your "
+#| "actions here: modifying settings here"
+msgid ""
+"This page handles more advanced issues, so you should double-check your "
+"actions here: modifying settings here <emphasis>makes &krusader; a more "
+"powerful and dangerous tool.</emphasis>"
+msgstr ""
+"Bu sayfa daha gelişmiş konuları ele alır, burdaki eylemlerinizi iki kere "
+"gözden geçiriniz: burda ayarlar değiştiriliyor"
+
+#. Tag: para
+#: konfigurator.docbook:1189
+#, no-c-format
+msgid "The page is divided into three parts:"
+msgstr "Sayfa üç kısma bölünmüştür:"
+
+#. Tag: para
+#: konfigurator.docbook:1207
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Automount filesystems</guilabel>: this makes &krusader; try to "
+#| "mount a file system before entering it. For example, if you click on "
+#| "<filename class=\"directory\">/mnt/cdrom</filename> (and <filename class="
+#| "\"directory\"> /mnt/cdrom</filename> appears in <filename class="
+#| "\"directory\">/etc/fstab</filename> as a mount point), &krusader; will "
+#| "check if it is mounted. If not, it will try and mount it for you and then "
+#| "enter, so that you would see the contents of your cdrom. Note, however, "
+#| "that &krusader; will NOT unmount when exiting <filename class=\"directory"
+#| "\"> /mnt/cdrom</filename>."
+msgid ""
+"<guilabel>Automount filesystems</guilabel>: this makes &krusader; try to "
+"mount a file system before entering it. For example, if you click on "
+"<filename class=\"directory\">/mnt/cdrom</filename> (and <filename class="
+"\"directory\"> /mnt/cdrom</filename> appears in <filename class=\"directory"
+"\">/etc/fstab</filename> as a mount point), &krusader; will check if it is "
+"mounted. If not, it will try and mount it for you and then enter, so that "
+"you would see the contents of your &CD-ROM;. Note, however, that &krusader; "
+"will NOT unmount when exiting <filename class=\"directory\"> /mnt/cdrom</"
+"filename>."
+msgstr ""
+"<guilabel>Dosya sistemlerini otomatik bağla</guilabel>: bu &krusader;'in "
+"girmeden önce dosya sistemini bağlamasını sağlar. Örneğin, <filename class="
+"\"directory\">/mnt/cdrom</filename>'a tıklarsanız (ve <filename class="
+"\"directory\">/mnt/cdrom</filename> <filename class=\"directory\">/etc/"
+"fstab</filename> içinde bir bağlanma noktası olarak görünüyorsa), &krusader; "
+"bağlı olup olmadığını kontrol eder. Değilse sizin için bağlamaya çalışır ve "
+"dizine girer, böylece cdrom içeriğini görebilirsiniz. Ancak &krusader;'in "
+"<filename class=\"directory\">/mnt/cdrom</filename>'dan çıkarken bağı "
+"kaldırmayacağını unutmayın."
+
+#. Tag: para
+#: konfigurator.docbook:1235
+#, no-c-format
+msgid ""
+"<guilabel>MountMan will not (un)mount the following mount points</guilabel>: "
+"If you have file systems that you do not want to accidentally unmount (or "
+"mount) then enter a list of mount points separated by commas (&eg; "
+"<literal>/, /boot, /tmp</literal>) and <link linkend=\"mount-man\">MountMan</"
+"link> will not try to (un)mount them."
+msgstr ""
+"<guilabel>MountMan şu bağlama noktalarını ayırmayacaktır</guilabel>: Kazayla "
+"bağlamak ya da ayırmak istemediğiniz dosya sistemleriniz varsa virgülle "
+"ayırarak listeleyin (&örn; <literal>/, /boot, /tmp</literal>) böylece <link "
+"linkend=\"mount-man\">MountMan</link> bağlamaya ya da ayırmaya çalışmaz."
+
+#. Tag: guilabel
+#: konfigurator.docbook:1250
+#, no-c-format
+msgid "Confirmations"
+msgstr "Onaylar"
+
+#. Tag: para
+#: konfigurator.docbook:1253
+#, no-c-format
+msgid ""
+"By checking the options in this section, &krusader; will ask for "
+"confirmation before doing a specific action; otherwise, the following "
+"actions will be done without warning:"
+msgstr ""
+"Bu kısımdaki seçenekleri işaretleyerek &krusader;'in belirli eylemklerden "
+"sonra onay sormasını sağlarsınız, aksi halde bu eylemler uyarı olmadan "
+"yapılır:"
+
+#. Tag: para
+#: konfigurator.docbook:1259
+#, fuzzy, no-c-format
+#| msgid "deleting non empty directories"
+msgid "Deleting non-empty folders"
+msgstr "boş dizinlerin silinmesi"
+
+#. Tag: para
+#: konfigurator.docbook:1262
+#, fuzzy, no-c-format
+#| msgid "deleting file(s)"
+msgid "Deleting files"
+msgstr "dosya(lar)ın silinmesi"
+
+#. Tag: para
+#: konfigurator.docbook:1265
+#, fuzzy, no-c-format
+#| msgid "copying file(s)"
+msgid "Copying files"
+msgstr "dosya(lar)ın kopyalanması"
+
+#. Tag: para
+#: konfigurator.docbook:1268
+#, fuzzy, no-c-format
+#| msgid "moving file(s)"
+msgid "Moving files"
+msgstr "dosya(lar)ın taşınması"
+
+#. Tag: guilabel
+#: konfigurator.docbook:1275 konfigurator.docbook:1339
+#, no-c-format
+msgid "Fine-Tuning"
+msgstr "İnce-Ayar"
+
+#. Tag: para
+#: konfigurator.docbook:1280
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Icon Cache Size</guilabel>: &krusader; uses an icon cache, so "
+#| "it will not have to reload icons that have been used before. Of course, "
+#| "as the cache grows bigger, it can store more icons and further speed "
+#| "operations, but the memory footprint of &krusader; will become bigger."
+msgid ""
+"<guilabel>Icon cache size (KB)</guilabel>: &krusader; uses an icon cache, so "
+"it will not have to reload icons that have been used before. Of course, as "
+"the cache grows bigger, it can store more icons and further speed "
+"operations, but the memory footprint of &krusader; will become bigger."
+msgstr ""
+"<guilabel>Simge Önbellek Boyutu</guilabel>: &krusader; bir simge önbelleği "
+"kullanır, böylece daha önce kullanılan simgeleri tekrar yüklemez. Tabi "
+"önbellek büyüdükçe, daha fazla simge depolayıp işlemleri hızlandırabilir, "
+"ama &krusader;'in bellek ayak izi de büyüyecektir."
+
+#. Tag: para
+#: konfigurator.docbook:1290
+#, no-c-format
+msgid ""
+"<guilabel>Arguments of updatedb</guilabel>: sets additional arguments for "
+"<command>updatedb</command>, please read the manpages for more information."
+msgstr ""
+"<guilabel>Updatedb değişkenleri</guilabel>: <command>Updatedb</command> için "
+"ek bağımsız değişkenler ayarlar, lütfen daha fazla bilgi için man "
+"sayfalarını okuyun."
+
+#. Tag: title
+#: konfigurator.docbook:1302
+#, no-c-format
+msgid "Archives"
+msgstr "Arşivler"
+
+#. Tag: para
+#: konfigurator.docbook:1303
+#, no-c-format
+msgid "This page configures some aspects of archive handling in &krusader;."
+msgstr "Bu sayfa &krusader; arşiv ele almayı bazı yönleriyle ele alır."
+
+#. Tag: guilabel
+#: konfigurator.docbook:1309
+#, no-c-format
+msgid "krarc ioslave"
+msgstr "krarc ioslave"
+
+#. Tag: para
+#: konfigurator.docbook:1312
+#, no-c-format
+msgid ""
+"<guilabel>Enable Write Support</guilabel>: this option allows you to enable "
+"writing files into an archive."
+msgstr ""
+"<guilabel>Yazma Desteğini Etkileştir</guilabel>: bu seçenek dosyaları bir "
+"arşive yazmanızı sağlar."
+
+#. Tag: para
+#: konfigurator.docbook:1316
+#, no-c-format
+msgid ""
+"The down side is that if a power failure occurs during the process, the "
+"files that were moved might already be deleted, but not yet packed into the "
+"archive. Moving archives into themselves will delete them."
+msgstr ""
+"Kötü yanı süreç halindeyken güç kesintisi olursa, taşınan dosyalar hali "
+"hazırda silinmiş, ama henüz arşive alınmamış olabilir. Arşivleri kendilerine "
+"taşımak onları silecektir."
+
+#. Tag: guilabel
+#: konfigurator.docbook:1327
+#, no-c-format
+msgid "Archive handling"
+msgstr "Arşiv işleme"
+
+#. Tag: para
+#: konfigurator.docbook:1330
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Browse Archives As Directories</guilabel>: if checked, "
+#| "&krusader; will handle the archives transparently and let you open them "
+#| "as folders; otherwise, &krusader; will attempt to invoke an application "
+#| "which opens archives of that type."
+msgid ""
+"<guilabel>Browse Archives As Folders</guilabel>: if checked, &krusader; will "
+"handle the archives transparently and let you open them as folders; "
+"otherwise, &krusader; will attempt to invoke an application which opens "
+"archives of that type."
+msgstr ""
+"<guilabel>Arşivleri Dizinler olarak Tara</guilabel>: İşaretliyse, &krusader; "
+"arşivleri saydam şekilde ele alır ve dizinler halinde açmanızı sağlar, aksi "
+"halde, &krusader; bu türde uygulamaları açan uygulamayı başlatacaktır."
+
+#. Tag: para
+#: konfigurator.docbook:1361
+#, fuzzy, no-c-format
+#| msgid ""
+#| "<guilabel>Test archives after packing</guilabel>: this option "
+#| "automatically runs a test on a newly packed archive. It is safer, but "
+#| "takes longer."
+msgid ""
+"<guilabel>Test archive after packing</guilabel>: this option automatically "
+"runs a test on a newly packed archive. It is safer, but takes longer."
+msgstr ""
+"<guilabel>Paketledikten sonra arşivleri dene</guilabel>: bu seçenek otomatik "
+"olarak yeni paketlenmiş arişivi dener. Daha güvenlidir ama zaman alır."
+
+#. Tag: para
+#: konfigurator.docbook:1367
+#, no-c-format
+msgid ""
+"<guilabel>Test archives before unpacking</guilabel>: this option "
+"automatically runs a test before unpacking. Some corrupted archives might "
+"cause a crash; therefore, it is better to test archives before unpacking."
+msgstr ""
+"<guilabel>Paketi açmadan önce arşivleri dene</guilabel>: bu seçenek paket "
+"açmadan önce otomatik olarak dener. Bazı bozuk arşivler çökmeye sebep "
+"olabilir, yani paketi açmadan önce arşivleri denemek daha iyidir."
+
+#. Tag: title
+#: konfigurator.docbook:1379
+#, no-c-format
+msgid "Dependencies page"
+msgstr "Bağımlılıklar sayfası"
+
+#. Tag: para
+#: konfigurator.docbook:1380
+#, no-c-format
+msgid ""
+"This page configures the full path of the external applications. It is even "
+"possible to configure the full path of &krusader;!"
+msgstr ""
+"Bu sayfa harici uygulamaların tam yolunu yapılandırır. &krusader;'in tam "
+"yolunu yapılandırmak bile mümkündür!"
+
+#. Tag: emphasis
+#: konfigurator.docbook:1384
+#, no-c-format
+msgid "General tab"
+msgstr "Genel sekmesi"
+
+#. Tag: para
+#: konfigurator.docbook:1386
+#, no-c-format
+msgid ""
+"Here you can configure the full path of the following external applications:"
+msgstr "Burda aşağıdaki harici uygulamaların tam yolunu yapılandırabilirsiniz:"
+
+#. Tag: entry
+#: konfigurator.docbook:1391
+#, no-c-format
+msgid "application"
+msgstr "uygulama"
+
+#. Tag: entry
+#: konfigurator.docbook:1392 konfigurator.docbook:1561
+#: konfigurator.docbook:1813
+#, no-c-format
+msgid "configurable full path"
+msgstr "yapılandırılabilir tam yol"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1403
+#, no-c-format
+msgid "/usr/bin/kdesu"
+msgstr "/usr/bin/kdesu"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1417
+#, no-c-format
+msgid "/usr/bin/kget"
+msgstr "/usr/bin/kget"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1431
+#, no-c-format
+msgid "/usr/bin/kmail"
+msgstr "/usr/bin/kmail"
+
+#. Tag: para
+#: konfigurator.docbook:1438
+#, no-c-format
+msgid "diff utility"
+msgstr "fark aracı"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1443
+#, no-c-format
+msgid "/usr/bin/kompare"
+msgstr "/usr/bin/kompare"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1455
+#, no-c-format
+msgid "/usr/bin/krename"
+msgstr "/usr/bin/krename"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1469
+#, no-c-format
+msgid "/usr/bin/krusader"
+msgstr "/usr/bin/krusader"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1483
+#, no-c-format
+msgid "/usr/bin/locate"
+msgstr "/usr/bin/locate"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1497
+#, no-c-format
+msgid "/bin/mount"
+msgstr "/bin/mount"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1511
+#, no-c-format
+msgid "/bin/umount"
+msgstr "/bin/umount"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1525
+#, no-c-format
+msgid "/usr/bin/updatedb"
+msgstr "/usr/bin/updatedb"
+
+#. Tag: para
+#: konfigurator.docbook:1534
+#, fuzzy, no-c-format
+#| msgid ""
+#| "By default &kompare; (part of the kdesdk package) is used as external "
+#| "diff utility but you can also use your favorite diff utility &eg; <ulink "
+#| "url=\"http://furius.ca/xxdiff/\"><application>xxdiff</application></"
+#| "ulink> or <ulink url=\"http://kdiff3.sourceforge.net"
+#| "\"><application>KDiff3</application></ulink>, just fill in the full path "
+#| "and enjoy."
+msgid ""
+"By default &kompare; is used as external diff utility but you can also use "
+"your favorite diff utility &eg; <ulink url=\"http://furius.ca/xxdiff/"
+"\"><application>xxdiff</application></ulink> or <ulink url=\"https://www.kde."
+"org/applications/development/kdiff3/\"><application>KDiff3</application></"
+"ulink>, just fill in the full path and enjoy."
+msgstr ""
+"Öntanımlı olarak &kompare; (kdesdk paketinin parçası) harici fark uygulaması "
+"olarak kullanılır, ama aynı zamanda kendi fark uygulamanızı "
+"kullanabilirsiniz &örn; <ulink url=\"http://furius.ca/xxdiff/"
+"\"><application>xxdiff</application></ulink> veya <ulink url=\"http://kdiff3."
+"sourceforge.net\"><application>KDiff3</application></ulink>, tam yolu "
+"girmeniz yeterli."
+
+#. Tag: emphasis
+#: konfigurator.docbook:1540
+#, no-c-format
+msgid "Packers tab"
+msgstr "Paketleyiciler sekmesi"
+
+#. Tag: para
+#: konfigurator.docbook:1542
+#, fuzzy, no-c-format
+#| msgid ""
+#| "In the <guilabel>Packers</guilabel> tab you will see a list of archive "
+#| "formats. Some are filled and some are empty. The ones that are available "
+#| "(filled) are supported by &krusader;. For them, &krusader; will handle "
+#| "the archives transparently and let you open them as folders (provided you "
+#| "have checked the <guilabel>Browse Archives As Directories</guilabel> item "
+#| "in the <link linkend=\"konfig-archives\">Archives</link> section); "
+#| "otherwise, &krusader; will attempt to invoke an application which opens "
+#| "archives of that type. If a certain archive item is empty, it means that "
+#| "&krusader; could not find the appropriate executables in the configured "
+#| "path. The next archives are supported: ace, arj, bzip2, deb, gzip, iso, "
+#| "lha, lzma, rar, rpm, tar, xz, zip and 7z."
+msgid ""
+"In the <guilabel>Packers</guilabel> tab you will see a list of archive "
+"formats. Some are filled and some are empty. The ones that are available "
+"(filled) are supported by &krusader;. For them, &krusader; will handle the "
+"archives transparently and let you open them as folders (provided you have "
+"checked the <guilabel>Browse Archives As Folders</guilabel> item in the "
+"<link linkend=\"konfig-archives\">Archives</link> section); otherwise, "
+"&krusader; will attempt to invoke an application which opens archives of "
+"that type. If a certain archive item is empty, it means that &krusader; "
+"could not find the appropriate executables in the configured path. The next "
+"archives are supported: ace, arj, bzip2, deb, gzip, iso, lha, lzma, rar, "
+"rpm, tar, xz, zip and 7z."
+msgstr ""
+"<guilabel>Paketleyiciler</guilabel> sekmesinde arşiv biçimlerinin listesini "
+"göreceksiniz. Bazıları dolu bazıları boltur. Kullanılabilir (dolu) olanlar "
+"&krusader; tarafından desteklenir. Onlar için &krusader; arşivleri saydam "
+"olarak ele alır ve dizin olarak açmanızı sağlar (<link linkend=\"konfig-"
+"archives\">Arşivler</link> kısmındaki <guilabel>Arşivleri Dizin olarak Tara</"
+"guilabel> seçeneğini işaretlediyseniz); aksi halde &krusader; bu türde "
+"arşivleri açan uygulamayı başlatmaya çalışır. Bir arşiv ögesi boşsa, "
+"&krusader; yapılandırılabilir yolda uygun çalıştırılabiliri bulamadı "
+"demektir. Şu arşivler desteklenir: ace, arj, bzip2, deb, gzip, iso, lha, "
+"lzma, rar, rpm, tar, xz, zip and 7z."
+
+#. Tag: entry
+#: konfigurator.docbook:1560
+#, no-c-format
+msgid "packer"
+msgstr "paketleyici"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1572
+#, no-c-format
+msgid "usr/bin/7z"
+msgstr "usr/bin/7z"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1586
+#, no-c-format
+msgid "usr/bin/arj"
+msgstr "usr/bin/arj"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1600
+#, no-c-format
+msgid "usr/bin/bzip2"
+msgstr "usr/bin/bzip2"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1614
+#, no-c-format
+msgid "/bin/cpio"
+msgstr "/bin/cpio"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1628
+#, no-c-format
+msgid "/bin/dpkg"
+msgstr "/bin/dpkg"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1642
+#, no-c-format
+msgid "/usr/bin/gzip"
+msgstr "/usr/bin/gzip"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1656
+#, no-c-format
+msgid "/usr/bin/lha"
+msgstr "/usr/bin/lha"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1670
+#, no-c-format
+msgid "/usr/bin/lzma"
+msgstr "/usr/bin/lzma"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1684
+#, no-c-format
+msgid "/usr/bin/rar"
+msgstr "/usr/bin/rar"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1698
+#, no-c-format
+msgid "/bin/tar"
+msgstr "/bin/tar"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1712
+#, no-c-format
+msgid "/usr/bin/unace"
+msgstr "/usr/bin/unace"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1726
+#, no-c-format
+msgid "/usr/bin/unarj"
+msgstr "/usr/bin/unarj"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1740
+#, no-c-format
+msgid "/usr/bin/unrar"
+msgstr "/usr/bin/unrar"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1754
+#, no-c-format
+msgid "/usr/bin/unzip"
+msgstr "/usr/bin/unzip"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1768
+#, no-c-format
+msgid "/usr/bin/zip"
+msgstr "/usr/bin/zip"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1782
+#, no-c-format
+msgid "/usr/bin/xz"
+msgstr "/usr/bin/xz"
+
+#. Tag: para
+#: konfigurator.docbook:1791
+#, no-c-format
+msgid ""
+"&krusader; may not be compatible with ACE despite our best efforts. Unace "
+"uses closed source and contains additional lines that make Unace get into "
+"infinite loop if the stdin is redirected to somewhere else. It works in the "
+"same manner as 'su', where you cannot enter the password only from the "
+"stdin. &krusader; &gt;= 1-51 emulates the command line environment to enable "
+"co-operation with Unace, but we have noticed that Unace always changes its "
+"output format from release to release, making co-operation almost impossible."
+msgstr ""
+"&krusader; ne kadar uğraşsak da ACE uyumlu olamayabilir. Unace kapalı kaynak "
+"kullanır ve stdin başka bir yere yönlendirilmişse Unace’in sonsuz döngüye "
+"girmesine sebep olan ek satırlar içerir. ’su’ ile aynı mantıkta çalışır, "
+"parolayı yalnızca stdin’den girebilirsiniz. &krusader; &gt;= 1-51 Unace ile "
+"birlikte çalışırlık için komut satırı ortamını öykünür, ama Unace’in her "
+"dağıtımda çıktı biçimini değiştirdiğini fark ettik, bu da birlikte "
+"çalışılırlığı imkansızlaştırıyor."
+
+#. Tag: emphasis
+#: konfigurator.docbook:1803
+#, no-c-format
+msgid "Checksum Utilities tab"
+msgstr "Sağlama Araçları sekmesi"
+
+#. Tag: para
+#: konfigurator.docbook:1805
+#, no-c-format
+msgid ""
+"Here you can configure the full path of the following external <link linkend="
+"\"checksum\">Checksum Utilities</link>:"
+msgstr ""
+"Burda aşağıdaki harici <link linkend=\"checksum\">Sağlama Araçlarının</link> "
+"tam yolunu yapılandırabilirsiniz:"
+
+#. Tag: entry
+#: konfigurator.docbook:1812
+#, no-c-format
+msgid "Checksum Utilities"
+msgstr "Sağlama Araçları"
+
+#. Tag: entry
+#: konfigurator.docbook:1814
+#, no-c-format
+msgid "supported checksums"
+msgstr "desteklenen sağlama araçları"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1825
+#, no-c-format
+msgid "/usr/bin/md5sum"
+msgstr "/usr/bin/md5sum"
+
+#. Tag: para
+#: konfigurator.docbook:1830 konfigurator.docbook:1864
+#, no-c-format
+msgid "<para>md5</para>"
+msgstr "<para>md5</para>"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1842
+#, no-c-format
+msgid "/usr/bin/sha1sum"
+msgstr "/usr/bin/sha1sum"
+
+#. Tag: para
+#: konfigurator.docbook:1847 konfigurator.docbook:1881
+#, no-c-format
+msgid "sha1"
+msgstr "sha1"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1859
+#, no-c-format
+msgid "/usr/bin/md5deep"
+msgstr "/usr/bin/md5deep"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1876
+#, no-c-format
+msgid "/usr/bin/sha1deep"
+msgstr "/usr/bin/sha1deep"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1893
+#, no-c-format
+msgid "/usr/bin/sha224sum"
+msgstr "/usr/bin/sha224sum"
+
+#. Tag: para
+#: konfigurator.docbook:1898
+#, no-c-format
+msgid "sha224"
+msgstr "sha224"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1910
+#, no-c-format
+msgid "/usr/bin/sha256sum"
+msgstr "/usr/bin/sha256sum"
+
+#. Tag: para
+#: konfigurator.docbook:1915 konfigurator.docbook:1932
+#, no-c-format
+msgid "sha256"
+msgstr "sha256"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1927
+#, no-c-format
+msgid "/usr/bin/sha256deep"
+msgstr "/usr/bin/sha256deep"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1944
+#, no-c-format
+msgid "/usr/bin/sha384sum"
+msgstr "/usr/bin/sha384sum"
+
+#. Tag: para
+#: konfigurator.docbook:1949
+#, no-c-format
+msgid "sha384"
+msgstr "sha384"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1961
+#, no-c-format
+msgid "/usr/bin/sha512sum"
+msgstr "/usr/bin/sha512sum"
+
+#. Tag: para
+#: konfigurator.docbook:1966
+#, no-c-format
+msgid "sha512"
+msgstr "sha512"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1978
+#, no-c-format
+msgid "/usr/bin/tigerdeep"
+msgstr "/usr/bin/tigerdeep"
+
+#. Tag: para
+#: konfigurator.docbook:1983
+#, no-c-format
+msgid "tiger"
+msgstr "tiger"
+
+#. Tag: replaceable
+#: konfigurator.docbook:1995
+#, no-c-format
+msgid "/usr/bin/whirlpooldeep"
+msgstr "/usr/bin/whirlpooldeep"
+
+#. Tag: para
+#: konfigurator.docbook:2000
+#, no-c-format
+msgid "whirlpool"
+msgstr "whirlpool"
+
+#. Tag: replaceable
+#: konfigurator.docbook:2012
+#, no-c-format
+msgid "/usr/bin/cfv"
+msgstr "whirlpool"
+
+#. Tag: para
+#: konfigurator.docbook:2017
+#, no-c-format
+msgid "md5, sha1, sfv, crc"
+msgstr "md5, sha1, sfv, crc"
+
+#. Tag: title
+#: konfigurator.docbook:2025
+#, no-c-format
+msgid "UserActions"
+msgstr "KullanıcıEylemleri"
+
+#. Tag: para
+#: konfigurator.docbook:2026
+#, no-c-format
+msgid ""
+"Here you can configure the terminal for UserActions and the font for the "
+"output-collection. The default terminal is <command>konsole --noclose -e</"
+"command>. To set up, configure and manage your UserActions use ActionMan "
+"(<link linkend=\"useractions\">UserActions</link> &URL;)."
+msgstr ""
+"Burda çıktı koleksiyonu için yazı tipini ve KullanıcıEylemleri için uçbirimi "
+"yapılandırabilirsiniz. Öntanımlı uçbirim <command>konsole --noclose -e</"
+"command> dur. KullanıcıEylemlerinizi ayarlamak, yapılandırmak ve yönetmek "
+"için ActionMan kullanın (<link linkend=\"useractions\">UserActions</link> "
+"&URL;)."
+
+#. Tag: title
+#: konfigurator.docbook:2034
+#, no-c-format
+msgid "Protocols"
+msgstr "İletişim Kuralları"
+
+#. Tag: para
+#: konfigurator.docbook:2035
+#, fuzzy, no-c-format
+#| msgid ""
+#| "This page links the MIMEs to protocols. &eg; protocol \"tar\" is linked "
+#| "to MIME \"application/x-tar\"."
+msgid ""
+"This page links the &MIME;s to protocols. &eg; protocol <quote>tar</quote> "
+"is linked to &MIME; <quote>application/x-tar</quote>."
+msgstr ""
+"Bu sayfa MIME’lerin iletişim kurallarına bağlantı verir, &örn; \"tar\" "
+"iletişim kuralı MIME \"application/x-tar\" ile bağlıdır."
+
+#. Tag: para
+#: konfigurator.docbook:2038
+#, no-c-format
+msgid "In the <guilabel>Links</guilabel> you will see &eg;"
+msgstr "<guilabel>Bağlantılar</guilabel>da &örn; şunu görürsünüz"
+
+#. Tag: para
+#: konfigurator.docbook:2042
+#, no-c-format
+msgid "<para>Iso</para>"
+msgstr "<para>Iso</para>"
+
+#. Tag: para
+#: konfigurator.docbook:2045
+#, no-c-format
+msgid "application/x-iso"
+msgstr "application/x-iso"
+
+#. Tag: para
+#: konfigurator.docbook:2050
+#, no-c-format
+msgid "krarc"
+msgstr "krarc"
+
+#. Tag: para
+#: konfigurator.docbook:2053
+#, no-c-format
+msgid "application/x-ace"
+msgstr "application/x-ace"
+
+#. Tag: para
+#: konfigurator.docbook:2056
+#, no-c-format
+msgid "application/x-arj"
+msgstr "application/x-arj"
+
+#. Tag: para
+#: konfigurator.docbook:2059
+#, no-c-format
+msgid "application/x-bzip2"
+msgstr "application/x-bzip2"
+
+#. Tag: para
+#: konfigurator.docbook:2062
+#, no-c-format
+msgid "application/x-cpio"
+msgstr "application/x-cpio"
+
+#. Tag: para
+#: konfigurator.docbook:2065
+#, no-c-format
+msgid "application/x-deb"
+msgstr "application/x-deb"
+
+#. Tag: para
+#: konfigurator.docbook:2068
+#, no-c-format
+msgid "application/x-debian-package"
+msgstr "application/x-debian-package"
+
+#. Tag: para
+#: konfigurator.docbook:2071
+#, no-c-format
+msgid "application/x-gzip"
+msgstr "application/x-gzip"
+
+#. Tag: para
+#: konfigurator.docbook:2074
+#, no-c-format
+msgid "application/x-jar"
+msgstr "application/x-jar"
+
+#. Tag: para
+#: konfigurator.docbook:2077
+#, no-c-format
+msgid "application/x-lha"
+msgstr "application/x-lha"
+
+#. Tag: para
+#: konfigurator.docbook:2080
+#, no-c-format
+msgid "application/x-rar"
+msgstr "application/x-rar"
+
+#. Tag: para
+#: konfigurator.docbook:2083
+#, no-c-format
+msgid "application/x-rpm"
+msgstr "application/x-rpm"
+
+#. Tag: para
+#: konfigurator.docbook:2086
+#, no-c-format
+msgid "application/x-zip"
+msgstr "application/x-zip"
+
+#. Tag: para
+#: konfigurator.docbook:2091
+#, no-c-format
+msgid "<para>tar</para>"
+msgstr "<para>tar</para>"
+
+#. Tag: para
+#: konfigurator.docbook:2094
+#, no-c-format
+msgid "application/x-tar"
+msgstr "application/x-tar"
+
+#. Tag: para
+#: konfigurator.docbook:2097
+#, no-c-format
+msgid "application/x-tarz"
+msgstr "application/x-tarz"
+
+#. Tag: para
+#: konfigurator.docbook:2100
+#, no-c-format
+msgid "application/x-tbz"
+msgstr "application/x-tbz"
+
+#. Tag: para
+#: konfigurator.docbook:2103
+#, no-c-format
+msgid "application/x-tgz"
+msgstr "application/x-tgz"
+
+#~ msgid "makes &krusader; a more powerful and dangerous tool."
+#~ msgstr "&krusader; daha güçlü ve tehlikeli hale gelir."

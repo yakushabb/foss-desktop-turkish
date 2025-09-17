@@ -1,0 +1,2239 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: katepart_vi\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-28 00:35+0000\n"
+"PO-Revision-Date: 2025-03-08 00:23+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: author
+#: vi.docbook:4
+#, no-c-format
+msgid "&Erlend.Hamberg; &Erlend.Hamberg.mail;"
+msgstr "&Erlend.Hamberg; &Erlend.Hamberg.mail;"
+
+#. Tag: trans_comment
+#: vi.docbook:7
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: title
+#: vi.docbook:11
+#, no-c-format
+msgid "The VI Input Mode"
+msgstr "Vi Giriş Kipi"
+
+#. Tag: title
+#: vi.docbook:14
+#, no-c-format
+msgid "VI Input Mode"
+msgstr "Vi Giriş Kipi"
+
+#. Tag: para
+#: vi.docbook:16
+#, no-c-format
+msgid ""
+"The goal of the VI mode is not to be a complete replacement for Vim and "
+"support all Vim’s features. Its aim is to make the <quote>Vim way</quote> of "
+"text editing - and the Vim habits learned - available for programs using the "
+"&kappname; text editor as their internal editor."
+msgstr ""
+"Vi kipinin amacı, Vim’in tam yerini almak ve Vim’in tüm özelliklerini "
+"desteklemek değildir. Amacı, metin düzenlemenin <quote>Vim yöntemini</quote> "
+"- ve öğrenilen Vim alışkanlıklarını — içsel düzenleyici olarak &kappname; "
+"metin düzenleyicisini kullanan programlar için kullanılabilir hale "
+"getirmektir."
+
+#. Tag: para
+#: vi.docbook:21
+#, no-c-format
+msgid ""
+"The VI mode aims to integrate nicely with the program and deviate from Vim’s "
+"behavior where it makes sense. For example, <userinput><command>:w</"
+"command></userinput> will open a save dialog in &kappname;’s VI mode."
+msgstr ""
+"Vi kipi, programla güzel bir şekilde bütünleşmeyi ve Vim’in davranışından "
+"mantıklı olduğu yerde sapmayı amaçlamaktadır. Örneğin, <userinput><command>:"
+"w</command></userinput>, &kappname;’in Vi kipinde bir kaydetme iletişim "
+"kutusu açacaktır."
+
+#. Tag: para
+#: vi.docbook:25
+#, no-c-format
+msgid ""
+"To enable the VI Input Mode for all new views, go to "
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kappname;...</"
+"guimenuitem> <guimenu>Editing</guimenu><guimenuitem>VI Input Mode</"
+"guimenuitem></menuchoice>. On this tab you can set options for the VI Input "
+"Mode and define and edit the key mapping in this mode. VI Input Mode can "
+"also be toggled with the <guimenuitem>VI Input Mode</guimenuitem> setting in "
+"the <guimenu>Edit</guimenu> menu. (The default shortcut key is <keycombo "
+"action=\"simul\">&Meta;&Ctrl;<keycap>V</keycap></keycombo> - where &Meta; "
+"usually is the <keysym>Windows</keysym> key)."
+msgstr ""
+"Vi Giriş Kipi’ni tüm yeni görünümler için etkinleştirmek üzere "
+"<menuchoice><guimenu>Ayarlar</guimenu><guimenuitem>&kappname; Uygulamasını "
+"Yapılandır…</guimenuitem> <guimenu>Düzenleme</guimenu><guimenuitem>Vi Giriş "
+"Kipi</guimenuitem></menuchoice> bölümüne gidin. Bu sekmede Vi Giriş Kipi "
+"için seçenekler koyabilir ve düğme eşlemlerini düzenleyebilirsiniz. Vi Giriş "
+"Kipi, aynı zamanda <guimenu>Edit</guimenu> menüsündeki <guimenuitem>Vi Giriş "
+"Kipi</guimenuitem> ögesinden de açılabilir/kapatılabilir. (Öntanımlı kısayol "
+"düğmesi: <keycombo action=\"simul\">&Meta;&Ctrl;<keycap>V</keycap></"
+"keycombo> — &Meta;, genelde <keysym>Windows</keysym> düğmesidir)."
+
+#. Tag: para
+#: vi.docbook:36
+#, no-c-format
+msgid ""
+"Many Vi Mode keyboard commands are case-sensitive, unlike most &kde; "
+"keyboard shortcuts. That means that <userinput>y</userinput> and "
+"<userinput>Y</userinput> are different commands. To enter the <userinput>y</"
+"userinput> (yank) command, make sure <keysym>Caps Lock</keysym> is disabled "
+"and press <keycap>Y</keycap>. To enter the <userinput>Y</userinput> (yank to "
+"end of line) command, <keycombo action=\"simul\">&Shift;<keycap>Y</keycap></"
+"keycombo>."
+msgstr ""
+"Birçok Vi Kipi klavye kısayolu, çoğu &kde; uygulamasını aksine BÜYÜK/küçük "
+"harf duyarlıdır. Bu; örneğin, <userinput>y</userinput> ve <userinput>Y</"
+"userinput> girişlerinin farklı komutlara karşılık geldiği anlamına gelir. "
+"<userinput>y</userinput> (yank-kopyala) komutunu girmek için <keysym>Büyük "
+"Harf</keysym> düğmesinin kapalı olduğundan emin olun ve <keycap>Y</keycap> "
+"düğmesine basın. <userinput>Y</userinput> (tüm satırı kopyala) komutunu "
+"girmek içinse <keycombo action=\"simul\">&Shift;<keycap>Y</keycap></"
+"keycombo> düğmelerine basın."
+
+#. Tag: para
+#: vi.docbook:44
+#, no-c-format
+msgid ""
+"This does not apply to commands that use the &Ctrl; key, which may be "
+"entered regardless of <keycap>Caps Lock</keycap> mode and without pressing "
+"&Shift;. However, some commands require the use of a &Ctrl;-key combination "
+"followed by another key which is case sensitive. For instance, to input "
+"<quote><keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo>, "
+"<userinput>h</userinput></quote> (switch to split view right) make sure "
+"<keycap>Caps Lock</keycap> is disabled, press <keycombo action=\"simul"
+"\">&Ctrl;<keycap>W</keycap></keycombo>, release, and then press <keycap>H</"
+"keycap>."
+msgstr ""
+"Bu, <keycap>Büyük Harf</keycap> ve &Shift; düğmelerinin durumundan bağımsız "
+"olarak girilebilen &Ctrl; düğmesini kullanan komutlar için geçerli değildir. "
+"Ancak bazı komutlar, &Ctrl; düğmesinin yanı sıra BÜYÜK/küçük harf duyarlı "
+"başka bir düğmenin kullanımını gerektiren bir düğme kombinasyonu "
+"gerektirebilir. Örneğin, <quote><keycombo action=\"simul\">&Ctrl;<keycap>W</"
+"keycap></keycombo>, <userinput>h</userinput></quote> (sağdaki bölünmüş "
+"görünüme geç) kısayolunu kullanmak için <keycap>Büyük Harf</keycap> "
+"düğmesinin kapalı olduğundan emin olun, <keycombo action=\"simul\">&Ctrl;"
+"<keycap>W</keycap></keycombo> düğmelerine basın, bırakın ve sonrasında "
+"<keycap>H</keycap> düğmesine basın."
+
+#. Tag: title
+#: vi.docbook:56
+#, no-c-format
+msgid "Incompatibilities with Vim"
+msgstr "Vim ile uyumsuzluklar"
+
+#. Tag: para
+#: vi.docbook:58
+#, no-c-format
+msgid ""
+"There are only a few features of &kappname;’s VI mode which are incompatible "
+"with Vim (not counting things missing). They are listed below together with "
+"the respective reasons."
+msgstr ""
+"&kappname;’in Vi kipinin Vim ile uyumsuz olan yalnızca birkaç özelliği "
+"vardır (eksik şeyleri saymazsak). Aşağıda nedenleri ile birlikte "
+"sıralanmışlardır."
+
+#. Tag: para
+#: vi.docbook:63
+#, no-c-format
+msgid ""
+"&kappname;: <userinput>U</userinput> and <keycombo action=\"simul\">&Ctrl;"
+"<keycap>R</keycap></keycombo> is redo."
+msgstr ""
+"&kappname;: <userinput>U</userinput> ve <keycombo action=\"simul\">&Ctrl;"
+"<keycap>R</keycap></keycombo>, yinele komutudur."
+
+#. Tag: para
+#: vi.docbook:65
+#, no-c-format
+msgid ""
+"Vim: <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> is "
+"normal redo, <keycap>U</keycap> is used to undo all latest changes on one "
+"line."
+msgstr ""
+"Vim: <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> normal "
+"yinele komutudur; <keycap>U</keycap>, bir satırdaki tüm güncel "
+"değişiklikleri geri almak için kullanılır."
+
+#. Tag: para
+#: vi.docbook:67
+#, no-c-format
+msgid ""
+"The reason for having <keycap>U</keycap> act as redo in &kappname;’s VI mode "
+"is that the shortcut <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></"
+"keycombo> by default is taken by &kappname;’s replace function (search and "
+"replace). By default, the VI mode won’t override &kappname;’s shortcuts "
+"(this can be configured in <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Configure &kappname;...</guimenuitem> <guimenu>Editing</"
+"guimenu><guimenuitem>Vi Input Mode</guimenuitem></menuchoice>), therefore a "
+"redo-action needs to be available as a <quote>regular</quote> key press, "
+"too. Besides, the behavior of the <userinput>U</userinput> command in Vim "
+"does not map well to &kappname;’s internal undo system, so it would be non-"
+"trivial to support anyway."
+msgstr ""
+"&kappname;’in Vi kipinde <keycap>U</keycap> düğmesini yinele olarak "
+"kullanmanın nedeni, <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></"
+"keycombo> kısayolu öntanımlı olarak &kappname;’in değiştir işlevi için "
+"ayrılmıştır (ara ve değiştir). Öntanımlı olarak Vi kipi, &kappname;’in "
+"kısayollarını geçersiz kılmaz (bu, <menuchoice><guimenu>Ayarlar</"
+"guimenu><guimenuitem>&kappname; Uygulamasını Yapılandır…</guimenuitem> "
+"<guimenu>Düzenleme</guimenu><guimenuitem>Vi Giriş Kipi</guimenuitem></"
+"menuchoice> bölümünde yapılandırılabilir), bundan dolayı bir yinele "
+"eyleminin <quote>düzenli</quote> bir düğme basımı olarak kullanılabilir "
+"olması gereklidir. Ek olarak, Vim’deki <userinput>U</userinput> komutu, "
+"&kappname;’in içsel geri al sistemiyle düzgün bir biçimde tümleşmez, o "
+"yüzden desteklemek kolay değildir."
+
+#. Tag: para
+#: vi.docbook:78
+#, no-c-format
+msgid ""
+"&kappname;: <userinput><command>print</command></userinput> shows the "
+"<guilabel>Print</guilabel> dialog."
+msgstr ""
+"&kappname;: <userinput><command>print</command></userinput>, "
+"<guilabel>Yazdır</guilabel> iletişim kutusunu gösterir."
+
+#. Tag: para
+#: vi.docbook:79
+#, no-c-format
+msgid ""
+"Vim: <userinput><command>print</command></userinput> prints the lines of the "
+"given range like its grandfather ed."
+msgstr ""
+"Vim: <userinput><command>print</command></userinput>, verilen erimdeki "
+"satırları yazdırır, tıpkı dedesi ed gibi."
+
+#. Tag: para
+#: vi.docbook:81
+#, no-c-format
+msgid ""
+"Commands like <userinput><command>:print</command></userinput> are available "
+"not only in the VI mode but for users using <quote>regular</quote> "
+"&kappname;, too - therefore the <userinput><command>:print</command></"
+"userinput> command opens the print dialog - following the principle of least "
+"surprise instead of mimicking Vim’s behavior."
+msgstr ""
+"<userinput><command>:print</command></userinput> gibi komutlar yalnızca Vi "
+"kipinde değil <quote>düzenli</quote> &kappname; kullanıcıları için de "
+"kullanılabilirdir; bu demektir ki <userinput><command>:print</command></"
+"userinput> komutu Vim’in davranışını taklit etmek yerine yazdırma iletişim "
+"kutusunu açar."
+
+#. Tag: para
+#: vi.docbook:88
+#, no-c-format
+msgid "&kappname;: <userinput>Y</userinput> yanks to end of line."
+msgstr "&kappname;: <userinput>Y</userinput>, satırın sonuna kadar kopyalar."
+
+#. Tag: para
+#: vi.docbook:89
+#, no-c-format
+msgid ""
+"Vim: <userinput>Y</userinput> yanks whole line, just like <userinput>y</"
+"userinput><userinput>y</userinput>."
+msgstr ""
+"Vim: <userinput>Y</userinput> tüm satırı kopyalar, tıpkı <userinput>y</"
+"userinput><userinput>y</userinput> gibi."
+
+#. Tag: para
+#: vi.docbook:91
+#, no-c-format
+msgid ""
+"VI’s behavior for the <userinput>Y</userinput> command is in practice a bug. "
+"For both change and delete commands, <userinput>c</userinput><userinput>c</"
+"userinput>/ <userinput>d</userinput><userinput>d</userinput> will do its "
+"action on the current line and <userinput>C</userinput>/<userinput>D</"
+"userinput> will work from the cursor column to the end of the line. However, "
+"both <userinput>y</userinput><userinput>y</userinput> and <userinput>Y</"
+"userinput> yanks the current line. In &kappname;’s VI Mode <userinput>Y</"
+"userinput> will yank to the end of the line. This is described as "
+"<quote>more logical</quote> in the Vim <ulink url=\"http://vimdoc."
+"sourceforge.net/htmldoc/change.html#Y\">documentation</ulink>."
+msgstr ""
+"Vi’nin <userinput>Y</userinput> komutu davranışı aslında bir hatadır. "
+"Değiştir ve sil komutları için <userinput>c</userinput><userinput>c</"
+"userinput>/ <userinput>d</userinput><userinput>d</userinput> girişleri "
+"eylemini geçerli satırda yapar ve <userinput>C</userinput>/<userinput>D</"
+"userinput> geçerli imleç sütunundan satırın sonuna kadar çalışır. Ancak hem "
+"<userinput>y</userinput><userinput>y</userinput> ve <userinput>Y</"
+"userinput>, geçerli satırı kopyalar. &kappname;’in Vi Kipi’nde <userinput>Y</"
+"userinput>, satırın sonuna kadar kopyalar. Bu, Vim <ulink url=\"http://"
+"vimdoc.sourceforge.net/htmldoc/change.html#Y\">belgelendirmesinde</ulink> "
+"<quote>daha mantıklı bir davranış</quote> olarak açıklanmıştır."
+
+#. Tag: para
+#: vi.docbook:104
+#, no-c-format
+msgid ""
+"&kappname;: <userinput>O</userinput> and <userinput>o</userinput> opens "
+"[<replaceable>count</replaceable>] new lines and puts you in insert mode."
+msgstr ""
+"&kappname;: <userinput>O</userinput> ve <userinput>o</userinput>, yeni "
+"satırlar [<replaceable>sayı</replaceable>] açar ve sizi ekle kipine koyar."
+
+#. Tag: para
+#: vi.docbook:106
+#, no-c-format
+msgid ""
+"Vim: <userinput>O</userinput> and <userinput>o</userinput> opens a new line "
+"and inserts text [<replaceable>count</replaceable>] times when leaving "
+"insert mode."
+msgstr ""
+"Vim: <userinput>O</userinput> ve <userinput>o</userinput> yeni bir satır "
+"açar ve ekle kipinden çıkarken [<replaceable>sayı</replaceable>] kadar metin "
+"koyar."
+
+#. Tag: para
+#: vi.docbook:108
+#, no-c-format
+msgid ""
+"This is mostly done as a consequence of witnessing many people being "
+"confused by this behavior on a vim &irc; channel (#vim on Libera Chat)."
+msgstr ""
+"Bu çoğunlukla, Vim IRC kanalında (Libera Chat üzerinde #vim) bu davranış "
+"nedeniyle birçok kişinin kafasının karışmasına tanık olmanın bir sonucu "
+"olarak yapılmıştır."
+
+#. Tag: title
+#: vi.docbook:116
+#, no-c-format
+msgid "Switching Modes"
+msgstr "Kip Değiştirmek"
+
+#. Tag: para
+#: vi.docbook:120
+#, no-c-format
+msgid ""
+"<emphasis>Normal Mode</emphasis> permits you to enter commands to navigate "
+"or edit a document, and is the default mode. You can return to it from any "
+"other mode by pressing &Esc;."
+msgstr ""
+"<emphasis>Normal Kip</emphasis>, bir belgede gezinmek veya belgeyi "
+"düzenlemek için komutlar girmenize olanak tanır ve öntanımlı kiptir. &Esc; "
+"düğmesine basarak başka herhangi bir kipten bu kipe geri dönebilirsiniz."
+
+#. Tag: para
+#: vi.docbook:125
+#, no-c-format
+msgid ""
+"<emphasis>Visual Mode</emphasis> permits you to highlight text in a "
+"document. Most Normal Mode commands are also valid in this mode. You can "
+"enter it by pressing <userinput>v</userinput> to select characters or "
+"<userinput>V</userinput> to select lines."
+msgstr ""
+"<emphasis>Görsel Kip</emphasis>, bir belgedeki metni vurgulamanıza olanak "
+"tanır. Normal Kip komutlarının çoğu bu kipte de geçerlidir. Karakterleri "
+"seçmek için <userinput>v</userinput> düğmesine veya satırları seçmek için "
+"<userinput>V</userinput> düğmesine basabilirsiniz."
+
+#. Tag: para
+#: vi.docbook:130
+#, no-c-format
+msgid ""
+"<emphasis>Insert Mode</emphasis> permits you to edit the document directly. "
+"You can enter it by pressing <userinput>i</userinput> or one of several "
+"other commands listed below."
+msgstr ""
+"<emphasis>Ekle Kipi</emphasis>, belgeyi doğrudan düzenlemenize olanak tanır. "
+"<userinput>i</userinput> düğmesine veya aşağıda listelenen diğer birkaç "
+"komuttan birine basarak girebilirsiniz."
+
+#. Tag: para
+#: vi.docbook:135
+#, no-c-format
+msgid ""
+"<emphasis>Command Mode</emphasis> invokes &kappname;'s command line, "
+"permitting you to run many commands available in Vi implementations as well "
+"as some specific to &kappname;. For more information on these commands, see "
+"<xref linkend=\"advanced-editing-tools-commandline\"/>. To use it, press "
+"<keycap>:</keycap>, enter the command, and press &Enter;."
+msgstr ""
+"<emphasis>Komut Kipi</emphasis>, &kappname;’in komut satırını çağırarak, Vi "
+"uygulamalarında bulunan birçok komutun yanı sıra &kappname;’e özgü bazı "
+"komutları çalıştırmanıza olanak tanır. Bu komutlar hakkında daha fazla bilgi "
+"için <xref linkend=\"advanced-editing-tools-commandline\"/> bölümüne bakın. "
+"Kullanmak için <keycap>:</keycap> düğmesine basın, komutu girin ve &Enter; "
+"ile sürdürün."
+
+#. Tag: title
+#: vi.docbook:146
+#, no-c-format
+msgid "Integration with &kate; features"
+msgstr "&kate; özellikleriyle tümleştirme"
+
+#. Tag: para
+#: vi.docbook:150
+#, no-c-format
+msgid ""
+"Visual Mode is entered automatically when text is selected with the mouse. "
+"It is also entered when using functions of &kate; that select text, such as "
+"Select All (either from the menu or via <keycombo action=\"simul\">&Ctrl;"
+"<keycap>A</keycap> </keycombo>.)"
+msgstr ""
+"Fare ile metin seçildiğinde Görsel Kip’e kendiliğinden girilir. Ayrıca "
+"Tümünü Seç gibi metni seçen &kate; işlevleri kullanılırken de girilebilir "
+"(menüden veya <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap> </"
+"keycombo> aracılığıyla.)"
+
+#. Tag: para
+#: vi.docbook:157
+#, no-c-format
+msgid ""
+"Vi marks and <link linkend=\"kate-part-bookmarks\">&kate; bookmarks</link> "
+"are integrated. When a mark is created in Vi Mode, a corresponding &kate; "
+"bookmark is created and appears in the <guimenu>Bookmarks</guimenu> menu. "
+"Conversely, when a &kate; bookmark is created, a corresponding Vi mark at "
+"the 0 column is also created."
+msgstr ""
+"Vi imleri ve <link linkend=\"kate-part-bookmarks\">&kate; yer imleri</link> "
+"birbirleriyle tümleşiktir. Vi Kipi’nde bir im oluşturulduğunda, onunla "
+"eşleşen bir &kate; yer imi de oluşturulur ve <guimenu>Yer İmleri</guimenu> "
+"menüsünde görünür. Tam tersi olarak bir &kate; yer imi de oluşturulduğunda "
+"eşleşen bir Vi imi, 0. sütünda yerini alır."
+
+#. Tag: title
+#: vi.docbook:168
+#, no-c-format
+msgid "Supported normal/visual mode commands"
+msgstr "Desteklenen normal/görsel kip komutları"
+
+#. Tag: userinput
+#: vi.docbook:179
+#, no-c-format
+msgid "<userinput>a</userinput>"
+msgstr "<userinput>a</userinput>"
+
+#. Tag: para
+#: vi.docbook:180
+#, no-c-format
+msgid "Enter Insert Mode; append after cursor"
+msgstr "Ekle Kipi’ne gir, imleçten sonra iliştir"
+
+#. Tag: userinput
+#: vi.docbook:182
+#, no-c-format
+msgid "<userinput>A</userinput>"
+msgstr "<userinput>A</userinput>"
+
+#. Tag: para
+#: vi.docbook:183
+#, no-c-format
+msgid "Enter Insert Mode; append after line"
+msgstr "Ekle Kipi’ne gir, satırdan sonra iliştir"
+
+#. Tag: userinput
+#: vi.docbook:185
+#, no-c-format
+msgid "<userinput>i</userinput>"
+msgstr "<userinput>i</userinput>"
+
+#. Tag: para
+#: vi.docbook:186 vi.docbook:189
+#, no-c-format
+msgid "Enter Insert Mode; insert before cursor"
+msgstr "Ekle Kipi’ne gir, imleçten önce ekle"
+
+#. Tag: para
+#: vi.docbook:188
+#, no-c-format
+msgid "&Ins;"
+msgstr "&Ins;"
+
+#. Tag: userinput
+#: vi.docbook:191
+#, no-c-format
+msgid "<userinput>I</userinput>"
+msgstr "<userinput>I</userinput>"
+
+#. Tag: para
+#: vi.docbook:192
+#, no-c-format
+msgid "Enter Insert Mode; insert before first non-blank char on line"
+msgstr "Ekle Kipi’ne gir, satırdaki ilk boş olmayan karakterden önce ekle"
+
+#. Tag: userinput
+#: vi.docbook:194
+#, no-c-format
+msgid "<userinput>gi</userinput>"
+msgstr "<userinput>gi</userinput>"
+
+#. Tag: para
+#: vi.docbook:195
+#, no-c-format
+msgid ""
+"Enter Insert Mode; insert before place, where leaving the last insert mode"
+msgstr ""
+"Ekle Kipi’ne gir, son Ekle Kipi’nden çıkış sırasında bırakılan yerden önce "
+"ekle"
+
+#. Tag: userinput
+#: vi.docbook:197
+#, no-c-format
+msgid "<userinput>v</userinput>"
+msgstr "<userinput>v</userinput>"
+
+#. Tag: para
+#: vi.docbook:198
+#, no-c-format
+msgid "Enter Visual Mode; select characters"
+msgstr "Görsel Kip’e gir, karakterler seç"
+
+#. Tag: userinput
+#: vi.docbook:200
+#, no-c-format
+msgid "<userinput>V</userinput>"
+msgstr "<userinput>V</userinput>"
+
+#. Tag: para
+#: vi.docbook:201
+#, no-c-format
+msgid "Enter Visual Mode; select lines"
+msgstr "Görsel Kip’e gir, satırlar seç"
+
+#. Tag: keycombo
+#: vi.docbook:203
+#, no-c-format
+msgid "&Ctrl;<keycap>v</keycap>"
+msgstr "&Ctrl;<keycap>v</keycap>"
+
+#. Tag: para
+#: vi.docbook:204
+#, no-c-format
+msgid "Enter Visual Mode; select blocks"
+msgstr "Görsel Kip’e gir, bloklar seç"
+
+#. Tag: userinput
+#: vi.docbook:206
+#, no-c-format
+msgid "<userinput>gb</userinput>"
+msgstr "<userinput>gb</userinput>"
+
+#. Tag: para
+#: vi.docbook:207
+#, no-c-format
+msgid "Enter Visual Mode; reselect the last selection"
+msgstr "Görsel Kip’e gir, son seçimi yeniden seç"
+
+#. Tag: userinput
+#: vi.docbook:209
+#, no-c-format
+msgid "<userinput>o</userinput>"
+msgstr "<userinput>o</userinput>"
+
+#. Tag: para
+#: vi.docbook:210
+#, no-c-format
+msgid "Open a new line below current line"
+msgstr "Geçerli satırın altında yeni bir satır aç"
+
+#. Tag: userinput
+#: vi.docbook:212
+#, no-c-format
+msgid "<userinput>O</userinput>"
+msgstr "<userinput>O</userinput>"
+
+#. Tag: para
+#: vi.docbook:213
+#, no-c-format
+msgid "Open a new line above current line"
+msgstr "Geçerli satırın üstünde yeni bir satır aç"
+
+#. Tag: userinput
+#: vi.docbook:215
+#, no-c-format
+msgid "<userinput>J</userinput>"
+msgstr "<userinput>J</userinput>"
+
+#. Tag: para
+#: vi.docbook:216
+#, no-c-format
+msgid "Join lines"
+msgstr "Satırları birbirlerine kat"
+
+#. Tag: userinput
+#: vi.docbook:218
+#, no-c-format
+msgid "<userinput>c</userinput>"
+msgstr "<userinput>c</userinput>"
+
+#. Tag: para
+#: vi.docbook:219
+#, no-c-format
+msgid "Change: follow by a motion to delete and enter Insert mode"
+msgstr "Değiştir: Ardına bir hareket ekle ve Ekle Kipi’ne gir"
+
+#. Tag: userinput
+#: vi.docbook:221
+#, no-c-format
+msgid "<userinput>C</userinput>"
+msgstr "<userinput>C</userinput>"
+
+#. Tag: para
+#: vi.docbook:222
+#, no-c-format
+msgid "Change to end of line: Delete to end of line and enter Insert Mode"
+msgstr ""
+"Satır sonuna kadar değiştir: Satırın sonuna kadar sil ve Ekle Kipi’ne gir"
+
+#. Tag: userinput
+#: vi.docbook:224
+#, no-c-format
+msgid "<userinput>cc</userinput>"
+msgstr "<userinput>cc</userinput>"
+
+#. Tag: para
+#: vi.docbook:225
+#, no-c-format
+msgid "Change line: Delete line and enter Insert Mode"
+msgstr "Satırı değiştir: Satırı sil ve Ekle Kipi’ne gir"
+
+#. Tag: userinput
+#: vi.docbook:227
+#, no-c-format
+msgid "<userinput>s</userinput>"
+msgstr "<userinput>s</userinput>"
+
+#. Tag: para
+#: vi.docbook:228
+#, no-c-format
+msgid "Substitute character"
+msgstr "Karakteri başkasıyla değiştir"
+
+#. Tag: userinput
+#: vi.docbook:230
+#, no-c-format
+msgid "<userinput>S</userinput>"
+msgstr "<userinput>S</userinput>"
+
+#. Tag: para
+#: vi.docbook:231
+#, no-c-format
+msgid "Substitute line"
+msgstr "Satırı başkasıyla değiştir"
+
+#. Tag: userinput
+#: vi.docbook:233
+#, no-c-format
+msgid "<userinput>dd</userinput>"
+msgstr "<userinput>dd</userinput>"
+
+#. Tag: para
+#: vi.docbook:234 vi.docbook:649
+#, no-c-format
+msgid "Delete line"
+msgstr "Satırı sil"
+
+#. Tag: userinput
+#: vi.docbook:236
+#, no-c-format
+msgid "<userinput>d</userinput>"
+msgstr "<userinput>d</userinput>"
+
+#. Tag: para
+#: vi.docbook:237
+#, no-c-format
+msgid "Follow by a motion to delete"
+msgstr "Silmek için ardına bir hareket ekle"
+
+#. Tag: userinput
+#: vi.docbook:239
+#, no-c-format
+msgid "<userinput>D</userinput>"
+msgstr "<userinput>D</userinput>"
+
+#. Tag: para
+#: vi.docbook:240
+#, no-c-format
+msgid "Delete to end of line"
+msgstr "Satır sonuna kadar sil"
+
+#. Tag: userinput
+#: vi.docbook:242
+#, no-c-format
+msgid "<userinput>x</userinput>"
+msgstr "<userinput>x</userinput>"
+
+#. Tag: para
+#: vi.docbook:243 vi.docbook:246
+#, no-c-format
+msgid "Delete character to right of cursor"
+msgstr "İmlecin sağındaki karakteri sil"
+
+#. Tag: para
+#: vi.docbook:245
+#, no-c-format
+msgid "&Del;"
+msgstr "&Del;"
+
+#. Tag: userinput
+#: vi.docbook:248
+#, no-c-format
+msgid "<userinput>X</userinput>"
+msgstr "<userinput>X</userinput>"
+
+#. Tag: para
+#: vi.docbook:249
+#, no-c-format
+msgid "Delete character to left of cursor"
+msgstr "İmlecin solundaki karakteri sil"
+
+#. Tag: userinput
+#: vi.docbook:251
+#, no-c-format
+msgid "<userinput>gu</userinput>"
+msgstr "<userinput>gu</userinput>"
+
+#. Tag: para
+#: vi.docbook:252
+#, no-c-format
+msgid "Follow with a motion to make lowercase"
+msgstr "Küçük harf yapmak için ardına bir hareket ekle"
+
+#. Tag: userinput
+#: vi.docbook:254
+#, no-c-format
+msgid "<userinput>guu</userinput>"
+msgstr "<userinput>guu</userinput>"
+
+#. Tag: para
+#: vi.docbook:255
+#, no-c-format
+msgid "Make the current line lowercase"
+msgstr "Geçerli satırı küçük harf yap"
+
+#. Tag: userinput
+#: vi.docbook:257
+#, no-c-format
+msgid "<userinput>gU</userinput>"
+msgstr "<userinput>gU</userinput>"
+
+#. Tag: para
+#: vi.docbook:258
+#, no-c-format
+msgid "Follow with a motion to make uppercase"
+msgstr "BÜYÜK harf yapmak için ardına bir hareket ekle"
+
+#. Tag: userinput
+#: vi.docbook:260
+#, no-c-format
+msgid "<userinput>gUU</userinput>"
+msgstr "<userinput>gUU</userinput>"
+
+#. Tag: para
+#: vi.docbook:261
+#, no-c-format
+msgid "Make the current line uppercase"
+msgstr "Geçerli satırı büyük harf yap"
+
+#. Tag: userinput
+#: vi.docbook:263
+#, no-c-format
+msgid "<userinput>y</userinput>"
+msgstr "<userinput>y</userinput>"
+
+#. Tag: para
+#: vi.docbook:264
+#, no-c-format
+msgid "Follow by a motion to <quote>yank</quote> (copy)"
+msgstr "<quote>Kopyalamak</quote> için ardına bir hareket ekle"
+
+#. Tag: userinput
+#: vi.docbook:266
+#, no-c-format
+msgid "<userinput>yy</userinput>"
+msgstr "<userinput>yy</userinput>"
+
+#. Tag: para
+#: vi.docbook:267 vi.docbook:270
+#, no-c-format
+msgid "Yank (copy) line"
+msgstr "Satırı kopyala"
+
+#. Tag: userinput
+#: vi.docbook:269
+#, no-c-format
+msgid "<userinput>Y</userinput>"
+msgstr "<userinput>Y</userinput>"
+
+#. Tag: userinput
+#: vi.docbook:272
+#, no-c-format
+msgid "<userinput>p</userinput>"
+msgstr "<userinput>p</userinput>"
+
+#. Tag: para
+#: vi.docbook:273
+#, no-c-format
+msgid "Paste after cursor"
+msgstr "İmleçten sonra yapıştır"
+
+#. Tag: userinput
+#: vi.docbook:275
+#, no-c-format
+msgid "<userinput>P</userinput>"
+msgstr "<userinput>P</userinput>"
+
+#. Tag: para
+#: vi.docbook:276
+#, no-c-format
+msgid "Paste before cursor"
+msgstr "İmleçten önce yapıştır"
+
+#. Tag: userinput
+#: vi.docbook:278
+#, no-c-format
+msgid "<userinput>]p</userinput>"
+msgstr "<userinput>]p</userinput>"
+
+#. Tag: para
+#: vi.docbook:279
+#, no-c-format
+msgid "Paste after cursor indented"
+msgstr "İmleç girintilendikten sonra yapıştır"
+
+#. Tag: userinput
+#: vi.docbook:281
+#, no-c-format
+msgid "<userinput>[p</userinput>"
+msgstr "<userinput>[p</userinput>"
+
+#. Tag: para
+#: vi.docbook:282
+#, no-c-format
+msgid "Paste before cursor indented"
+msgstr "İmleç girintilendikten önce yapıştır"
+
+#. Tag: userinput
+#: vi.docbook:284
+#, no-c-format
+msgid "<userinput>r</userinput>"
+msgstr "<userinput>r</userinput>"
+
+#. Tag: para
+#: vi.docbook:285
+#, no-c-format
+msgid "Follow with a character to replace the character after the cursor"
+msgstr "İmleçten sonraki karakteri değiştirmek için ardına bir karakter ekle"
+
+#. Tag: userinput
+#: vi.docbook:287
+#, no-c-format
+msgid "<userinput>R</userinput>"
+msgstr "<userinput>R</userinput>"
+
+#. Tag: para
+#: vi.docbook:288
+#, no-c-format
+msgid "Enter Replace Mode"
+msgstr "Değiştir Kipi’ne gir"
+
+#. Tag: userinput
+#: vi.docbook:290
+#, no-c-format
+msgid "<userinput>:</userinput>"
+msgstr "<userinput>:</userinput>"
+
+#. Tag: para
+#: vi.docbook:291
+#, no-c-format
+msgid "Enter Command Mode"
+msgstr "Komut Kipi’ne gir"
+
+#. Tag: userinput
+#: vi.docbook:293
+#, no-c-format
+msgid "<userinput>/</userinput>"
+msgstr "<userinput>/</userinput>"
+
+#. Tag: para
+#: vi.docbook:294
+#, no-c-format
+msgid "Search"
+msgstr "Ara"
+
+#. Tag: userinput
+#: vi.docbook:296
+#, no-c-format
+msgid "<userinput>u</userinput>"
+msgstr "<userinput>u</userinput>"
+
+#. Tag: para
+#: vi.docbook:297
+#, no-c-format
+msgid "Undo"
+msgstr "Geri al"
+
+#. Tag: keycombo
+#: vi.docbook:299
+#, no-c-format
+msgid "&Ctrl;<keycap>R</keycap>"
+msgstr "&Ctrl;<keycap>R</keycap>"
+
+#. Tag: para
+#: vi.docbook:300 vi.docbook:303
+#, no-c-format
+msgid "Redo"
+msgstr "Yinele"
+
+#. Tag: userinput
+#: vi.docbook:302
+#, no-c-format
+msgid "<userinput>U</userinput>"
+msgstr "<userinput>U</userinput>"
+
+#. Tag: userinput
+#: vi.docbook:305
+#, no-c-format
+msgid "<userinput>m</userinput>"
+msgstr "<userinput>m</userinput>"
+
+#. Tag: para
+#: vi.docbook:306
+#, no-c-format
+msgid "Set mark (can be used by motions later)"
+msgstr "İm koy (sonrasında hareketler tarafından kullanılabilir)"
+
+#. Tag: userinput
+#: vi.docbook:308
+#, no-c-format
+msgid "<userinput>n</userinput>"
+msgstr "<userinput>n</userinput>"
+
+#. Tag: para
+#: vi.docbook:309
+#, no-c-format
+msgid "Find next"
+msgstr "Sonrakini bul"
+
+#. Tag: userinput
+#: vi.docbook:311
+#, no-c-format
+msgid "<userinput>N</userinput>"
+msgstr "<userinput>N</userinput>"
+
+#. Tag: para
+#: vi.docbook:312
+#, no-c-format
+msgid "Find previous"
+msgstr "Öncekini bul"
+
+#. Tag: userinput
+#: vi.docbook:314
+#, no-c-format
+msgid "&gt;&gt;"
+msgstr "&gt;&gt;"
+
+#. Tag: para
+#: vi.docbook:315
+#, no-c-format
+msgid "Indent line"
+msgstr "Satırı girintile"
+
+#. Tag: userinput
+#: vi.docbook:317
+#, no-c-format
+msgid "&lt;&lt;"
+msgstr "&lt;&lt;"
+
+#. Tag: para
+#: vi.docbook:318
+#, no-c-format
+msgid "Unindent line"
+msgstr "Satır girintisini kaldır"
+
+#. Tag: userinput
+#: vi.docbook:320
+#, no-c-format
+msgid "&gt;"
+msgstr "&gt;"
+
+#. Tag: para
+#: vi.docbook:321
+#, no-c-format
+msgid "Indent lines"
+msgstr "Satırları girintile"
+
+#. Tag: userinput
+#: vi.docbook:323
+#, no-c-format
+msgid "&lt;"
+msgstr "&lt;"
+
+#. Tag: para
+#: vi.docbook:324
+#, no-c-format
+msgid "Unindent lines"
+msgstr "Satır girintilerini kaldır"
+
+#. Tag: keycombo
+#: vi.docbook:326
+#, no-c-format
+msgid "&Ctrl;<keycap>F</keycap>"
+msgstr "&Ctrl;<keycap>F</keycap>"
+
+#. Tag: para
+#: vi.docbook:327
+#, no-c-format
+msgid "Page down"
+msgstr "Sayfa aşağı"
+
+#. Tag: keycombo
+#: vi.docbook:329
+#, no-c-format
+msgid "&Ctrl;<keycap>B</keycap>"
+msgstr "&Ctrl;<keycap>F</keycap>"
+
+#. Tag: para
+#: vi.docbook:330
+#, no-c-format
+msgid "Page up"
+msgstr "Sayfa yukarı"
+
+#. Tag: userinput
+#: vi.docbook:332
+#, no-c-format
+msgid "<userinput>ga</userinput>"
+msgstr "<userinput>ga</userinput>"
+
+#. Tag: para
+#: vi.docbook:333
+#, no-c-format
+msgid "Print the &ASCII; value of the character"
+msgstr "Karakterin &ASCII; değerini yazdır"
+
+#. Tag: userinput
+#: vi.docbook:335
+#, no-c-format
+msgid "<userinput>.</userinput>"
+msgstr "<userinput>.</userinput>"
+
+#. Tag: para
+#: vi.docbook:336
+#, no-c-format
+msgid "Repeat last change"
+msgstr "Son değişikliği yinele"
+
+#. Tag: userinput
+#: vi.docbook:338
+#, no-c-format
+msgid "<userinput>==</userinput>"
+msgstr "<userinput>==</userinput>"
+
+#. Tag: para
+#: vi.docbook:339
+#, no-c-format
+msgid "commandAlignLine"
+msgstr "Satırı hizala"
+
+#. Tag: userinput
+#: vi.docbook:341
+#, no-c-format
+msgid "<userinput>=</userinput>"
+msgstr "<userinput>=</userinput>"
+
+#. Tag: para
+#: vi.docbook:342
+#, no-c-format
+msgid "commandAlignLines"
+msgstr "Satırları hizala"
+
+#. Tag: userinput
+#: vi.docbook:344
+#, no-c-format
+msgid "<userinput>~</userinput>"
+msgstr "<userinput>~</userinput>"
+
+#. Tag: para
+#: vi.docbook:345
+#, no-c-format
+msgid "Change case of current character"
+msgstr "Geçerli karakterin BÜYÜK/küçük harf durumunu değiştir"
+
+#. Tag: keycombo
+#: vi.docbook:347
+#, no-c-format
+msgid "&Ctrl;<keycap>S</keycap>"
+msgstr "&Ctrl;<keycap>S</keycap>"
+
+#. Tag: para
+#: vi.docbook:348
+#, no-c-format
+msgid "Split view horizontally"
+msgstr "Görünümü yatay böl"
+
+#. Tag: keycombo
+#: vi.docbook:350
+#, no-c-format
+msgid "&Ctrl;<keycap>V</keycap>"
+msgstr "&Ctrl;<keycap>V</keycap>"
+
+#. Tag: para
+#: vi.docbook:351
+#, no-c-format
+msgid "Split view vertically"
+msgstr "Görünümü dikey böl"
+
+#. Tag: para
+#: vi.docbook:353
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>w</userinput>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>w</userinput>"
+
+#. Tag: para
+#: vi.docbook:355
+#, no-c-format
+msgid "Cycle to next split window"
+msgstr "Sonraki bölünmüş pencereye geç"
+
+#. Tag: para
+#: vi.docbook:357
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>h</userinput>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>h</userinput>"
+
+#. Tag: keycombo
+#: vi.docbook:359
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Left;"
+msgstr "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Left;"
+
+#. Tag: para
+#: vi.docbook:361
+#, no-c-format
+msgid "Go to left split window"
+msgstr "Soldaki bölünmüş pencereye geç"
+
+#. Tag: para
+#: vi.docbook:363
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>l</userinput>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>l</userinput>"
+
+#. Tag: keycombo
+#: vi.docbook:365
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Right;"
+msgstr "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Right;"
+
+#. Tag: para
+#: vi.docbook:367
+#, no-c-format
+msgid "Go to right split window"
+msgstr "Sağdaki bölünmüş pencereye geç"
+
+#. Tag: para
+#: vi.docbook:369
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>k</userinput>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>k</userinput>"
+
+#. Tag: keycombo
+#: vi.docbook:371
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Up;"
+msgstr "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Up;"
+
+#. Tag: para
+#: vi.docbook:373
+#, no-c-format
+msgid "Go to above split window"
+msgstr "Yukarıdaki bölünmüş pencereye geç"
+
+#. Tag: para
+#: vi.docbook:375
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>j</userinput>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, "
+"<userinput>j</userinput>"
+
+#. Tag: keycombo
+#: vi.docbook:377
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Down;"
+msgstr "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Down;"
+
+#. Tag: para
+#: vi.docbook:379
+#, no-c-format
+msgid "Go to below split window"
+msgstr "Aşağıdaki bölünmüş pencereye geç"
+
+#. Tag: title
+#: vi.docbook:387
+#, no-c-format
+msgid "Supported motions"
+msgstr "Desteklenen hareketler"
+
+#. Tag: para
+#: vi.docbook:389
+#, no-c-format
+msgid ""
+"These may be used to move around a document in Normal or Visual mode, or in "
+"conjunction with one of the above commands. They may be preceded by a count, "
+"which indicates how many of the appropriate movements to make."
+msgstr ""
+"Bunlar, Normal veya Görsel kipte bir belgede gezinmek için veya yukarıdaki "
+"komutlardan biriyle birlikte kullanılabilir. Bunların önüne, uygun "
+"hareketlerden kaç tanesinin yapılacağını gösteren bir sayı gelebilir."
+
+#. Tag: userinput
+#: vi.docbook:402
+#, no-c-format
+msgid "<userinput>h</userinput>"
+msgstr "<userinput>h</userinput>"
+
+#. Tag: para
+#: vi.docbook:403 vi.docbook:406 vi.docbook:409
+#, no-c-format
+msgid "Left"
+msgstr "Sol"
+
+#. Tag: para
+#: vi.docbook:405
+#, no-c-format
+msgid "&Left;"
+msgstr "&Left;"
+
+#. Tag: para
+#: vi.docbook:408
+#, no-c-format
+msgid "&Backspace;"
+msgstr "&Backspace;"
+
+#. Tag: userinput
+#: vi.docbook:411
+#, no-c-format
+msgid "<userinput>j</userinput>"
+msgstr "<userinput>j</userinput>"
+
+#. Tag: para
+#: vi.docbook:412 vi.docbook:415
+#, no-c-format
+msgid "Down"
+msgstr "Aşağı"
+
+#. Tag: para
+#: vi.docbook:414
+#, no-c-format
+msgid "&Down;"
+msgstr "&Down;"
+
+#. Tag: userinput
+#: vi.docbook:417
+#, no-c-format
+msgid "<userinput>k</userinput>"
+msgstr "<userinput>k</userinput>"
+
+#. Tag: para
+#: vi.docbook:418 vi.docbook:421
+#, no-c-format
+msgid "<para>Up</para>"
+msgstr "<para>Yukarı</para>"
+
+#. Tag: para
+#: vi.docbook:420
+#, no-c-format
+msgid "&Up;"
+msgstr "&Up;"
+
+#. Tag: userinput
+#: vi.docbook:423
+#, no-c-format
+msgid "<userinput>l</userinput>"
+msgstr "<userinput>l</userinput>"
+
+#. Tag: para
+#: vi.docbook:424 vi.docbook:427 vi.docbook:430
+#, no-c-format
+msgid "Right"
+msgstr "Sağ"
+
+#. Tag: para
+#: vi.docbook:426
+#, no-c-format
+msgid "&Right;"
+msgstr "&Right;"
+
+#. Tag: para
+#: vi.docbook:429
+#, no-c-format
+msgid "&Space;"
+msgstr "&Space;"
+
+#. Tag: userinput
+#: vi.docbook:432
+#, no-c-format
+msgid "<userinput>$</userinput>"
+msgstr "<userinput>$</userinput>"
+
+#. Tag: para
+#: vi.docbook:433 vi.docbook:436
+#, no-c-format
+msgid "End of line"
+msgstr "Satır sonu"
+
+#. Tag: para
+#: vi.docbook:435
+#, no-c-format
+msgid "&End;"
+msgstr "&End;"
+
+#. Tag: userinput
+#: vi.docbook:438
+#, no-c-format
+msgid "<userinput>0</userinput>"
+msgstr "<userinput>0</userinput>"
+
+#. Tag: para
+#: vi.docbook:439
+#, no-c-format
+msgid "First character of line (Column 0)"
+msgstr "Satırın ilk karakteri (0. sütun)"
+
+#. Tag: para
+#: vi.docbook:441
+#, no-c-format
+msgid "&Home;"
+msgstr "&Home;"
+
+#. Tag: para
+#: vi.docbook:442
+#, no-c-format
+msgid "First character of line"
+msgstr "Satırın ilk karakteri"
+
+#. Tag: userinput
+#: vi.docbook:444
+#, no-c-format
+msgid "<userinput>^</userinput>"
+msgstr "<userinput>^</userinput>"
+
+#. Tag: para
+#: vi.docbook:445
+#, no-c-format
+msgid "First non-blank character of line"
+msgstr "Satırın ilk boşluk olmayan karakteri"
+
+#. Tag: userinput
+#: vi.docbook:447
+#, no-c-format
+msgid "<userinput>f</userinput>"
+msgstr "<userinput>f</userinput>"
+
+#. Tag: para
+#: vi.docbook:448
+#, no-c-format
+msgid "Follow by character to move to right of cursor"
+msgstr "İmlecin sağına gitmek için ardına bir karakter ekle"
+
+#. Tag: userinput
+#: vi.docbook:450
+#, no-c-format
+msgid "<userinput>F</userinput>"
+msgstr "<userinput>F</userinput>"
+
+#. Tag: para
+#: vi.docbook:451
+#, no-c-format
+msgid "Follow by character to move to left of cursor"
+msgstr "İmlecin soluna gitmek için ardına bir karakter ekle"
+
+#. Tag: userinput
+#: vi.docbook:453
+#, no-c-format
+msgid "<userinput>t</userinput>"
+msgstr "<userinput>t</userinput>"
+
+#. Tag: para
+#: vi.docbook:454
+#, no-c-format
+msgid ""
+"Follow by character to move to right of cursor, placing the cursor on "
+"character before it"
+msgstr ""
+"İmleci önceki karaktere yerleştirerek imlecin sağına gitmek için ardına bir "
+"karakter ekle"
+
+#. Tag: userinput
+#: vi.docbook:456
+#, no-c-format
+msgid "<userinput>T</userinput>"
+msgstr "<userinput>T</userinput>"
+
+#. Tag: para
+#: vi.docbook:457
+#, no-c-format
+msgid ""
+"Follow by character to move to left of cursor, placing the cursor on "
+"character before it"
+msgstr ""
+"İmleci önceki karaktere yerleştirerek imlecin soluna gitmek için ardına bir "
+"karakter ekle"
+
+#. Tag: userinput
+#: vi.docbook:459
+#, no-c-format
+msgid "<userinput>gg</userinput>"
+msgstr "<userinput>gg</userinput>"
+
+#. Tag: para
+#: vi.docbook:460
+#, no-c-format
+msgid "First line"
+msgstr "İlk satır"
+
+#. Tag: userinput
+#: vi.docbook:462
+#, no-c-format
+msgid "<userinput>G</userinput>"
+msgstr "<userinput>G</userinput>"
+
+#. Tag: para
+#: vi.docbook:463
+#, no-c-format
+msgid "Last line"
+msgstr "Son satır"
+
+#. Tag: userinput
+#: vi.docbook:465
+#, no-c-format
+msgid "<userinput>w</userinput>"
+msgstr "<userinput>w</userinput>"
+
+#. Tag: para
+#: vi.docbook:466
+#, no-c-format
+msgid "Next Word"
+msgstr "Sonraki sözcük"
+
+#. Tag: userinput
+#: vi.docbook:468
+#, no-c-format
+msgid "<userinput>W</userinput>"
+msgstr "<userinput>W</userinput>"
+
+#. Tag: para
+#: vi.docbook:469
+#, no-c-format
+msgid "Next word separated by whitespace"
+msgstr "Boşlukla ayrılan sonraki sözcük"
+
+#. Tag: userinput
+#: vi.docbook:471
+#, no-c-format
+msgid "<userinput>b</userinput>"
+msgstr "<userinput>b</userinput>"
+
+#. Tag: para
+#: vi.docbook:472
+#, no-c-format
+msgid "Previous word"
+msgstr "Önceki sözcük"
+
+#. Tag: userinput
+#: vi.docbook:474
+#, no-c-format
+msgid "<userinput>B</userinput>"
+msgstr "<userinput>B</userinput>"
+
+#. Tag: para
+#: vi.docbook:475
+#, no-c-format
+msgid "Previous word separated by whitespace"
+msgstr "Boşlukla ayrılan önceki sözcük"
+
+#. Tag: userinput
+#: vi.docbook:477
+#, no-c-format
+msgid "<userinput>e</userinput>"
+msgstr "<userinput>e</userinput>"
+
+#. Tag: para
+#: vi.docbook:478
+#, no-c-format
+msgid "End of word"
+msgstr "Sözcüğün sonu"
+
+#. Tag: userinput
+#: vi.docbook:480
+#, no-c-format
+msgid "<userinput>E</userinput>"
+msgstr "<userinput>E</userinput>"
+
+#. Tag: para
+#: vi.docbook:481
+#, no-c-format
+msgid "End of word separated by whitespace"
+msgstr "Boşlukla ayrılan sözcük sonu"
+
+#. Tag: userinput
+#: vi.docbook:483
+#, no-c-format
+msgid "<userinput>ge</userinput>"
+msgstr "<userinput>ge</userinput>"
+
+#. Tag: para
+#: vi.docbook:484
+#, no-c-format
+msgid "End of previous word"
+msgstr "Önceki sözcüğün sonu"
+
+#. Tag: userinput
+#: vi.docbook:486
+#, no-c-format
+msgid "<userinput>gE</userinput>"
+msgstr "<userinput>gE</userinput>"
+
+#. Tag: para
+#: vi.docbook:487
+#, no-c-format
+msgid "End of previous word separated by whitespace"
+msgstr "Boşlukla ayrılan önceki sözcüğün sonu"
+
+#. Tag: userinput
+#: vi.docbook:489
+#, no-c-format
+msgid "<userinput>|</userinput>"
+msgstr "<userinput>|</userinput>"
+
+#. Tag: para
+#: vi.docbook:490
+#, no-c-format
+msgid "Follow by a column number to move to that column"
+msgstr "Bu sütuna gitmek için ardına bir sütun numarası ekle"
+
+#. Tag: userinput
+#: vi.docbook:492
+#, no-c-format
+msgid "<userinput>%</userinput>"
+msgstr "<userinput>%</userinput>"
+
+#. Tag: para
+#: vi.docbook:493
+#, no-c-format
+msgid "Follow by an item to move to that item"
+msgstr "O ögeye gitmek için ardına bir öge ekle"
+
+#. Tag: userinput
+#: vi.docbook:495
+#, no-c-format
+msgid "<userinput>`</userinput>"
+msgstr "<userinput>`</userinput>"
+
+#. Tag: para
+#: vi.docbook:496
+#, no-c-format
+msgid "Mark"
+msgstr "İm"
+
+#. Tag: userinput
+#: vi.docbook:498
+#, no-c-format
+msgid "<userinput>‘</userinput>"
+msgstr "<userinput>‘</userinput>"
+
+#. Tag: para
+#: vi.docbook:499
+#, no-c-format
+msgid "First non-whitespace character of the line the mark is on"
+msgstr "İmin bulunduğu satırın boşluk olmayan ilk karakteri"
+
+#. Tag: userinput
+#: vi.docbook:501
+#, no-c-format
+msgid "<userinput>[[</userinput>"
+msgstr "<userinput>[[</userinput>"
+
+#. Tag: para
+#: vi.docbook:502
+#, no-c-format
+msgid "Previous opening bracket"
+msgstr "Önceki açılış ayracı"
+
+#. Tag: userinput
+#: vi.docbook:504
+#, no-c-format
+msgid "<userinput>]]</userinput>"
+msgstr "<userinput>]]</userinput>"
+
+#. Tag: para
+#: vi.docbook:505
+#, no-c-format
+msgid "Next opening bracket"
+msgstr "Sonraki açılış braketi"
+
+#. Tag: userinput
+#: vi.docbook:507
+#, no-c-format
+msgid "<userinput>[]</userinput>"
+msgstr "<userinput>[]</userinput>"
+
+#. Tag: para
+#: vi.docbook:508
+#, no-c-format
+msgid "Previous closing bracket"
+msgstr "Önceki kapanış ayracı"
+
+#. Tag: userinput
+#: vi.docbook:510
+#, no-c-format
+msgid "<userinput>][</userinput>"
+msgstr "<userinput>][</userinput>"
+
+#. Tag: para
+#: vi.docbook:511
+#, no-c-format
+msgid "Next closing bracket"
+msgstr "Sonraki kapanış ayracı"
+
+#. Tag: keycombo
+#: vi.docbook:513
+#, no-c-format
+msgid "&Ctrl;<keycap>I</keycap>"
+msgstr "&Ctrl;<keycap>I</keycap>"
+
+#. Tag: para
+#: vi.docbook:514
+#, no-c-format
+msgid "Jump to next location"
+msgstr "Sonraki konuma atla"
+
+#. Tag: keycombo
+#: vi.docbook:515
+#, no-c-format
+msgid "&Ctrl;<keycap>O</keycap>"
+msgstr "&Ctrl;<keycap>O</keycap>"
+
+#. Tag: para
+#: vi.docbook:516
+#, no-c-format
+msgid "Jump to previous location"
+msgstr "Önceki konuma atla"
+
+#. Tag: userinput
+#: vi.docbook:517
+#, no-c-format
+msgid "<userinput>H</userinput>"
+msgstr "<userinput>H</userinput>"
+
+#. Tag: entry
+#: vi.docbook:518
+#, no-c-format
+msgid "Go to first line of screen"
+msgstr "Ekranın ilk satırına git"
+
+#. Tag: userinput
+#: vi.docbook:519
+#, no-c-format
+msgid "<userinput>M</userinput>"
+msgstr "<userinput>M</userinput>"
+
+#. Tag: entry
+#: vi.docbook:520
+#, no-c-format
+msgid "Go to middle line of screen"
+msgstr "Ekranın orta satırına git"
+
+#. Tag: userinput
+#: vi.docbook:521
+#, no-c-format
+msgid "<userinput>L</userinput>"
+msgstr "<userinput>L</userinput>"
+
+#. Tag: entry
+#: vi.docbook:522
+#, no-c-format
+msgid "Go to last line of screen"
+msgstr "Ekranın son satırına git"
+
+#. Tag: userinput
+#: vi.docbook:523
+#, no-c-format
+msgid "%<replaceable>percentage</replaceable>"
+msgstr "%<replaceable>yüzde</replaceable>"
+
+#. Tag: para
+#: vi.docbook:524
+#, no-c-format
+msgid "Go to specified percentage of the document"
+msgstr "Belgenin belirtilen yüzdesine git"
+
+#. Tag: userinput
+#: vi.docbook:525
+#, no-c-format
+msgid "<userinput>gk</userinput>"
+msgstr "<userinput>gk</userinput>"
+
+#. Tag: para
+#: vi.docbook:526
+#, no-c-format
+msgid "Go one line up visually (when using dynamic word wrap)"
+msgstr ""
+"Görsel olarak bir satır yukarı git (devingen sözcük kaydırma kullanılırken)"
+
+#. Tag: userinput
+#: vi.docbook:527
+#, no-c-format
+msgid "<userinput>gj</userinput>"
+msgstr "<userinput>gj</userinput>"
+
+#. Tag: para
+#: vi.docbook:528
+#, no-c-format
+msgid "Go one line down visually (when using dynamic word wrap)"
+msgstr ""
+"Görsel olarak bir satır aşağı git (devingen sözcük kaydırma kullanılırken)"
+
+#. Tag: keycombo
+#: vi.docbook:529
+#, no-c-format
+msgid "&Ctrl;&Left;"
+msgstr "&Ctrl;&Left;"
+
+#. Tag: para
+#: vi.docbook:530
+#, no-c-format
+msgid "Move one word left"
+msgstr "Bir sözcük sola git"
+
+#. Tag: keycombo
+#: vi.docbook:532
+#, no-c-format
+msgid "&Ctrl;&Right;"
+msgstr "&Ctrl;&Right;"
+
+#. Tag: para
+#: vi.docbook:533
+#, no-c-format
+msgid "Move one word right"
+msgstr "Bir sözcük sağa git"
+
+#. Tag: title
+#: vi.docbook:541
+#, no-c-format
+msgid "Supported text objects"
+msgstr "Desteklenen metin nesneleri"
+
+#. Tag: para
+#: vi.docbook:543
+#, no-c-format
+msgid "These may be used to select certain portions of a document."
+msgstr "Bunlar, bir belgenin belirli bölümlerini seçmek için kullanılabilir."
+
+#. Tag: userinput
+#: vi.docbook:554
+#, no-c-format
+msgid "<userinput>iw</userinput>"
+msgstr "<userinput>iw</userinput>"
+
+#. Tag: para
+#: vi.docbook:555
+#, no-c-format
+msgid "Inner word: word including whitespace"
+msgstr "İçteki sözcük: Boşlukla birlikte sözcük"
+
+#. Tag: userinput
+#: vi.docbook:557
+#, no-c-format
+msgid "<userinput>aw</userinput>"
+msgstr "<userinput>aw</userinput>"
+
+#. Tag: para
+#: vi.docbook:558
+#, no-c-format
+msgid "A word: word excluding whitespace"
+msgstr "Bir sözcük: Boşluk içermeyen sözcük"
+
+#. Tag: userinput
+#: vi.docbook:560
+#, no-c-format
+msgid "<userinput>i\"</userinput>"
+msgstr "<userinput>i\"</userinput>"
+
+#. Tag: para
+#: vi.docbook:561
+#, no-c-format
+msgid ""
+"Previous double-quote (<userinput>\"</userinput>) to next double-quote, "
+"including quotation marks"
+msgstr ""
+"Önceki çift tırnaktan (<userinput>\"</userinput>) sonraki çift tırnağa, "
+"tırnak işaretleri içerilir"
+
+#. Tag: userinput
+#: vi.docbook:564
+#, no-c-format
+msgid "<userinput>a”</userinput>"
+msgstr "<userinput>a”</userinput>"
+
+#. Tag: para
+#: vi.docbook:565
+#, no-c-format
+msgid ""
+"Previous double-quote (<userinput>\"</userinput>) to next double-quote, "
+"excluding quotation marks"
+msgstr ""
+"Önceki çift tırnaktan (<userinput>\"</userinput>) sonraki çift tırnağa, "
+"tırnak işaretleri içerilmez"
+
+#. Tag: userinput
+#: vi.docbook:568
+#, no-c-format
+msgid "<userinput>i'</userinput>"
+msgstr "<userinput>i'</userinput>"
+
+#. Tag: para
+#: vi.docbook:569
+#, no-c-format
+msgid ""
+"Previous single-quote (<userinput>'</userinput>) to next single-quote, "
+"including quotation marks"
+msgstr ""
+"Önceki tek tırnaktan (<userinput>\"</userinput>) sonraki tek tırnağa, tırnak "
+"işaretleri içerilir"
+
+#. Tag: userinput
+#: vi.docbook:572
+#, no-c-format
+msgid "<userinput>a'</userinput>"
+msgstr "<userinput>a'</userinput>"
+
+#. Tag: para
+#: vi.docbook:573
+#, no-c-format
+msgid ""
+"Previous single-quote (<userinput>'</userinput>) to next single-quote, "
+"excluding quotation marks"
+msgstr ""
+"Önceki tek tırnaktan (<userinput>\"</userinput>) sonraki tek tırnağa, tırnak "
+"işaretleri içerilmez"
+
+#. Tag: userinput
+#: vi.docbook:576
+#, no-c-format
+msgid "<userinput>i(</userinput>"
+msgstr "<userinput>i(</userinput>"
+
+#. Tag: para
+#: vi.docbook:577
+#, no-c-format
+msgid ""
+"Previous opening parenthesis [<userinput>(</userinput>] to next closing "
+"parenthesis [<userinput>)</userinput>], including the parenthesis"
+msgstr ""
+"Önceki açılış parantezinden [<userinput>(</userinput>] sonraki kapanış "
+"parantezine [<userinput>)</userinput>], parantez içerilir"
+
+#. Tag: userinput
+#: vi.docbook:580
+#, no-c-format
+msgid "<userinput>a(</userinput>"
+msgstr "<userinput>a(</userinput>"
+
+#. Tag: para
+#: vi.docbook:581
+#, no-c-format
+msgid ""
+"Previous opening parenthesis [<userinput>(</userinput>] to next closing "
+"parenthesis [<userinput>)</userinput>], excluding the parenthesis"
+msgstr ""
+"Önceki açılış parantezinden [<userinput>(</userinput>] sonraki kapanış "
+"parantezine [<userinput>)</userinput>], parantez içerilmez"
+
+#. Tag: userinput
+#: vi.docbook:584
+#, no-c-format
+msgid "<userinput>i[</userinput>"
+msgstr "<userinput>i[</userinput>"
+
+#. Tag: para
+#: vi.docbook:585
+#, no-c-format
+msgid ""
+"Previous opening square bracket (<userinput>[</userinput>) to next closing "
+"square bracket (<userinput>]</userinput>), including the brackets"
+msgstr ""
+"Önceki açılış köşeli ayracından (<userinput>[</userinput>) sonraki kapanış "
+"köşeli ayracına (<userinput>]</userinput>), ayraçlar içerilir"
+
+#. Tag: userinput
+#: vi.docbook:588
+#, no-c-format
+msgid "<userinput>a[</userinput>"
+msgstr "<userinput>a[</userinput>"
+
+#. Tag: para
+#: vi.docbook:589
+#, no-c-format
+msgid ""
+"Previous opening square bracket (<userinput>[</userinput>) to next closing "
+"square bracket (<userinput>]</userinput>), excluding the brackets"
+msgstr ""
+"Önceki açılış köşeli ayracından (<userinput>[</userinput>) sonraki kapanış "
+"köşeli ayracına (<userinput>]</userinput>), ayraçlar içerilmez"
+
+#. Tag: userinput
+#: vi.docbook:592
+#, no-c-format
+msgid "<userinput>i{</userinput>"
+msgstr "<userinput>i{</userinput>"
+
+#. Tag: para
+#: vi.docbook:593
+#, no-c-format
+msgid ""
+"Previous opening curly bracket (<userinput>{</userinput>) to next closing "
+"curly bracket (<userinput>}</userinput>), including the brackets"
+msgstr ""
+"Önceki açılış süslü ayracından (<userinput>{</userinput>) sonraki kapanış "
+"süslü ayracına (<userinput>}</userinput>), ayraçlar içerilir"
+
+#. Tag: userinput
+#: vi.docbook:596
+#, no-c-format
+msgid "<userinput>a{</userinput>"
+msgstr "<userinput>a{</userinput>"
+
+#. Tag: para
+#: vi.docbook:597
+#, no-c-format
+msgid ""
+"Previous opening curly bracket (<userinput>{</userinput>) to next closing "
+"curly bracket (<userinput>}</userinput>), excluding the brackets"
+msgstr ""
+"Önceki açılış süslü ayracından (<userinput>{</userinput>) sonraki kapanış "
+"süslü ayracına (<userinput>}</userinput>), ayraçlar içerilmez"
+
+#. Tag: userinput
+#: vi.docbook:600
+#, no-c-format
+msgid "i&lt;"
+msgstr "i&lt;"
+
+#. Tag: para
+#: vi.docbook:601
+#, no-c-format
+msgid ""
+"Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing "
+"angle bracket (<userinput>&gt;</userinput>), including the brackets"
+msgstr ""
+"Önceki açılış açılı ayracından (<userinput>&lt;</userinput>) sonraki kapanış "
+"açılı ayracına (<userinput>&gt;</userinput>), ayraçlar içerilir"
+
+#. Tag: userinput
+#: vi.docbook:604
+#, no-c-format
+msgid "a&lt;"
+msgstr "a&lt;"
+
+#. Tag: para
+#: vi.docbook:605
+#, no-c-format
+msgid ""
+"Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing "
+"square bracket (<userinput>&gt;</userinput>), excluding the brackets"
+msgstr ""
+"Önceki açılış açılı ayracından (<userinput>&lt;</userinput>) sonraki kapanış "
+"açılı ayracına (<userinput>&gt;</userinput>), ayraçlar içerilmez"
+
+#. Tag: userinput
+#: vi.docbook:608
+#, no-c-format
+msgid "<userinput>i`</userinput>"
+msgstr "<userinput>i`</userinput>"
+
+#. Tag: para
+#: vi.docbook:609
+#, no-c-format
+msgid ""
+"Previous backtick (<userinput>`</userinput>) to next backtick, including the "
+"backticks"
+msgstr ""
+"Önceki ters tırnaktan (<userinput>`</userinput>) sonraki ters tırnağa, "
+"tırnaklar içerilir"
+
+#. Tag: userinput
+#: vi.docbook:612
+#, no-c-format
+msgid "<userinput>a`</userinput>"
+msgstr "<userinput>a`</userinput>"
+
+#. Tag: para
+#: vi.docbook:613
+#, no-c-format
+msgid ""
+"Previous backtick (<userinput>`</userinput>) to next backtick, excluding the "
+"backticks"
+msgstr ""
+"Önceki ters tırnaktan (<userinput>`</userinput>) sonraki ters tırnağa, "
+"tırnaklar içerilmez"
+
+#. Tag: title
+#: vi.docbook:622
+#, no-c-format
+msgid "Supported insert mode commands"
+msgstr "Desteklenen Ekle Kipi komutları"
+
+#. Tag: keycombo
+#: vi.docbook:633
+#, no-c-format
+msgid "&Ctrl;<keycap>D</keycap>"
+msgstr "&Ctrl;<keycap>D</keycap>"
+
+#. Tag: para
+#: vi.docbook:634
+#, no-c-format
+msgid "Unindent"
+msgstr "Girintilemeyi kaldır"
+
+#. Tag: keycombo
+#: vi.docbook:636
+#, no-c-format
+msgid "&Ctrl;<keycap>T</keycap>"
+msgstr "&Ctrl;<keycap>T</keycap>"
+
+#. Tag: para
+#: vi.docbook:637
+#, no-c-format
+msgid "Indent"
+msgstr "Girintile"
+
+#. Tag: keycombo
+#: vi.docbook:639
+#, no-c-format
+msgid "&Ctrl;<keycap>E</keycap>"
+msgstr "&Ctrl;<keycap>E</keycap>"
+
+#. Tag: para
+#: vi.docbook:640
+#, no-c-format
+msgid "Insert from below"
+msgstr "Aşağıdan ekle"
+
+#. Tag: keycombo
+#: vi.docbook:642
+#, no-c-format
+msgid "&Ctrl;<keycap>Y</keycap>"
+msgstr "&Ctrl;<keycap>Y</keycap>"
+
+#. Tag: para
+#: vi.docbook:643 vi.docbook:646
+#, no-c-format
+msgid "Delete word"
+msgstr "Sözcük sil"
+
+#. Tag: keycombo
+#: vi.docbook:645
+#, no-c-format
+msgid "&Ctrl;<keycap>W</keycap>"
+msgstr "&Ctrl;<keycap>W</keycap>"
+
+#. Tag: keycombo
+#: vi.docbook:648
+#, no-c-format
+msgid "&Ctrl;<keycap>U</keycap>"
+msgstr "&Ctrl;<keycap>U</keycap>"
+
+#. Tag: keycombo
+#: vi.docbook:651
+#, no-c-format
+msgid "&Ctrl;<keycap>J</keycap>"
+msgstr "&Ctrl;<keycap>J</keycap>"
+
+#. Tag: para
+#: vi.docbook:652
+#, no-c-format
+msgid "New line"
+msgstr "Yeni satır"
+
+#. Tag: keycombo
+#: vi.docbook:654
+#, no-c-format
+msgid "&Ctrl;<keycap>H</keycap>"
+msgstr "&Ctrl;<keycap>H</keycap>"
+
+#. Tag: para
+#: vi.docbook:655
+#, no-c-format
+msgid "Delete char backward"
+msgstr "Karakteri geriye doğru sil"
+
+#. Tag: keycombo
+#: vi.docbook:657
+#, no-c-format
+msgid "&Ctrl;&Home;"
+msgstr "&Ctrl;&Home;"
+
+#. Tag: para
+#: vi.docbook:658
+#, no-c-format
+msgid "Move to first character in the document"
+msgstr "Belgedeki ilk karaktere git"
+
+#. Tag: para
+#: vi.docbook:660
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> <userinput>n</"
+"userinput>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> <userinput>n</"
+"userinput>"
+
+#. Tag: entry
+#: vi.docbook:662
+#, no-c-format
+msgid "Insert the contents of register <literal>n</literal>"
+msgstr "<literal>n</literal> yazmacının içeriğini ekle"
+
+#. Tag: para
+#: vi.docbook:663
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>, "
+"<replaceable>command</replaceable>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>, "
+"<replaceable>komut</replaceable>"
+
+#. Tag: para
+#: vi.docbook:665
+#, no-c-format
+msgid "Enter normal mode for one command only"
+msgstr "Yalnızca bir komut için Normal Kip’e gir"
+
+#. Tag: keycombo
+#: vi.docbook:666
+#, no-c-format
+msgid "&Ctrl;<keycap>A</keycap>"
+msgstr "&Ctrl;<keycap>A</keycap>"
+
+#. Tag: para
+#: vi.docbook:667
+#, no-c-format
+msgid "Increment currently selected number"
+msgstr "Geçerli seçili sayıyı artır"
+
+#. Tag: keycombo
+#: vi.docbook:668
+#, no-c-format
+msgid "&Ctrl;<keycap>X</keycap>"
+msgstr "&Ctrl;<keycap>X</keycap>"
+
+#. Tag: para
+#: vi.docbook:669
+#, no-c-format
+msgid "Decrement currently selected number"
+msgstr "Geçerli seçili sayıyı azalt"
+
+#. Tag: title
+#: vi.docbook:676
+#, no-c-format
+msgid "The Comma Text Object"
+msgstr "Virgül Metin Nesnesi"
+
+#. Tag: para
+#: vi.docbook:678
+#, no-c-format
+msgid ""
+"This object is missing in Vim. The comma text object makes it easy to modify "
+"parameter lists in C-like languages and other comma separated lists. It is "
+"basically the area between two commas or between a comma and a bracket. In "
+"the line shown in the illustration, the three ranges this text object can "
+"span are highlighted."
+msgstr ""
+"Bu nesne Vim’de yoktur. Virgül Metin Nesnesi, C benzeri dillerdeki ve diğer "
+"virgülle ayrılmış listelerdeki parametre listelerini değiştirmeyi "
+"kolaylaştırır. Temel olarak iki virgül veya virgül ile parantez arasındaki "
+"alandır. Çizimde gösterilen satırda, bu metin nesnesinin yayılabileceği üç "
+"erim vurgulanmıştır."
+
+#. Tag: screeninfo
+#: vi.docbook:685
+#, no-c-format
+msgid "<screeninfo>An example of Comma Text Object</screeninfo>"
+msgstr "<screeninfo>Bir Virgül Metin Nesnesi örneği</screeninfo>"
+
+#. Tag: phrase
+#: vi.docbook:688
+#, no-c-format
+msgid "<phrase>An example of Comma Text Object</phrase>"
+msgstr "<phrase>Bir Virgül Metin Nesnesi örneği</phrase>"
+
+#. Tag: para
+#: vi.docbook:689
+#, no-c-format
+msgid ""
+"Comma text object ranges. If the cursor is over &eg; <replaceable>arg2</"
+"replaceable>, pressing <userinput>ci</userinput>, (<quote>change inner "
+"comma</quote>) would delete <replaceable>double arg2</replaceable> and place "
+"the cursor between the two commas in insert mode. A very convenient way to "
+"change a function's parameters."
+msgstr ""
+"Virgül metin nesnesi erimleri. Örneğin, imleç <replaceable>arg2</"
+"replaceable> üzerindeyse <userinput>ci</userinput> komutunu girmek "
+"(<quote>içteki virgülü değiştir</quote>), <replaceable>double arg2</"
+"replaceable> ögesini siler ve imleci iki virgülün arasına yerleştirir ve "
+"Ekle Kipi’ne geçer. Bir işlevin parametrelerini değiştirmenin pek kolay bir "
+"yoludur."
+
+#. Tag: title
+#: vi.docbook:701
+#, no-c-format
+msgid "Missing Features"
+msgstr "Eksik Özellikler"
+
+#. Tag: para
+#: vi.docbook:703
+#, no-c-format
+msgid ""
+"As stated earlier, the goal of &kappname;’s VI Mode is not to support 100% "
+"of Vim’s features."
+msgstr ""
+"Daha önce de belirtildiği üzere, &kappname; Vi Kipi’nin amacı Vim’in "
+"özelliklerinin %​100’ünü desteklemek değildir."

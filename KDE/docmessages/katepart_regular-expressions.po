@@ -1,0 +1,1677 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: katepart_regular-expressions\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
+"PO-Revision-Date: 2025-03-13 15:54+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.07.70\n"
+
+#. Tag: author
+#: regular-expressions.docbook:4
+#, no-c-format
+msgid "&Anders.Lund; &Anders.Lund.mail;"
+msgstr "&Anders.Lund; &Anders.Lund.mail;"
+
+#. Tag: trans_comment
+#: regular-expressions.docbook:5
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>İşbaran</"
+"firstname><surname>Akçayır</"
+"surname><affiliation><address><email>isbaran@gmail.com</email></address></"
+"affiliation><contrib>-</contrib></othercredit> <othercredit role=\"translator"
+"\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>-</contrib></othercredit>"
+
+#. Tag: title
+#: regular-expressions.docbook:9
+#, no-c-format
+msgid "Regular Expressions"
+msgstr "Düzenli İfadeler"
+
+#. Tag: synopsis
+#: regular-expressions.docbook:11
+#, no-c-format
+msgid ""
+"This Appendix contains a brief but hopefully sufficient and\n"
+"covering introduction to the world of <emphasis>regular\n"
+"expressions</emphasis>. It documents regular expressions in the form\n"
+"available within &kappname;, which is not compatible with the regular\n"
+"expressions of perl, nor with those of for example\n"
+"<command>grep</command>."
+msgstr ""
+"Bu Ek, <emphasis>düzenli ifadeler</emphasis> dünyasına kısa;\n"
+"ancak umarım yeterli ve kapsamlı bir giriş içerir. Bu belgede,\n"
+"&kappname; içinde kullanılabilir olan düzenli ifadeler anlatılır.\n"
+"Bu düzenli ifade biçimi, ne perl düzenli ifadeleriyle ne de\n"
+"<command>grep</command> ile kullanılabilir düzenli ifadelerle\n"
+"doğrudan uyumlu değildir."
+
+#. Tag: title
+#: regular-expressions.docbook:15
+#, no-c-format
+msgid "Introduction"
+msgstr "Giriş"
+
+#. Tag: para
+#: regular-expressions.docbook:17
+#, no-c-format
+msgid ""
+"<emphasis>Regular Expressions</emphasis> provides us with a way to describe "
+"some possible contents of a text string in a way understood by a small piece "
+"of software, so that it can investigate if a text matches, and also in the "
+"case of advanced applications with the means of saving pieces or the "
+"matching text."
+msgstr ""
+"<emphasis>Düzenli İfadeler</emphasis>, bize bir metin dizisinin kimi olası "
+"içeriğini küçük bir yazılım parçası tarafından anlaşılacak şekilde "
+"tanımlamanın bir yolunu sağlar, böylece bir metnin eşleşip eşleşmediğini "
+"görebilir ve bazı gelişmiş durumlarda belirli parçaları veya eşleşen metni "
+"kaydedebiliriz."
+
+#. Tag: para
+#: regular-expressions.docbook:23
+#, no-c-format
+msgid ""
+"An example: Say you want to search a text for paragraphs that starts with "
+"either of the names <quote>Henrik</quote> or <quote>Pernille</quote> "
+"followed by some form of the verb <quote>say</quote>."
+msgstr ""
+"Örnek: Bir metni, içinde <quote>Henrik</quote> veya <quote>Pernille</quote> "
+"adlarından biriyle başlayan ve sonrasında <quote>say</quote> gelen "
+"paragraflar için aramak istiyoruz."
+
+#. Tag: para
+#: regular-expressions.docbook:28
+#, no-c-format
+msgid ""
+"With a normal search, you would start out searching for the first name, "
+"<quote>Henrik</quote> maybe followed by <quote>sa</quote> like this: "
+"<userinput>Henrik sa</userinput>, and while looking for matches, you would "
+"have to discard those not being the beginning of a paragraph, as well as "
+"those in which the word starting with the letters <quote>sa</quote> was not "
+"either <quote>says</quote>, <quote>said</quote> or so. And then of course "
+"repeat all of that with the next name..."
+msgstr ""
+"Normal bir aramada, öncelikle adla aramaya başlardık; <quote>Henrik</quote>, "
+"belki sonrasında <quote>sa</quote> getirirdik: <userinput>Henrik sa</"
+"userinput>; eşleşmeleri ararken paragraf başı olmayan varyantları ve "
+"<quote>sa</quote> ile başlayan sözcükleri yok saymamız gerekirdi; örneğin "
+"<quote>says</quote>, <quote>said</quote> vb. Sonrasında bunların hepsini "
+"diğer adla da yinelememiz gerekecekti…"
+
+#. Tag: para
+#: regular-expressions.docbook:37
+#, no-c-format
+msgid ""
+"With Regular Expressions, that task could be accomplished with a single "
+"search, and with a larger degree of preciseness."
+msgstr ""
+"Düzenli İfadeler sayesinde bu görev tek bir aramayla ve daha büyük bir "
+"doğrulukla gerçekleştirilebilir."
+
+#. Tag: para
+#: regular-expressions.docbook:40
+#, no-c-format
+msgid ""
+"To achieve this, Regular Expressions defines rules for expressing in details "
+"a generalization of a string to match. Our example, which we might literally "
+"express like this: <quote>A line starting with either <quote>Henrik</quote> "
+"or <quote>Pernille</quote> (possibly following up to 4 blanks or tab "
+"characters) followed by a whitespace followed by <quote>sa</quote> and then "
+"either <quote>ys</quote> or <quote>id</quote></quote> could be expressed "
+"with the following regular expression:"
+msgstr ""
+"Bunu başarmak için Düzenli İfadeler, eşleşecek bir dizinin "
+"genelleştirilmesini ayrıntılı olarak ifade etmeye yönelik kuralları "
+"tanımlar. Sözcüğü tam anlamıyla şu şekilde ifade edebiliriz: <quote>Ya "
+"<quote>Henrik</quote> ya da <quote>Pernille</quote> ile başlayan bir satır "
+"(büyük olasılıkla öncesinde bir sekme karakteri veya 4 adet boşluk "
+"olabilir), sonrasında bir boşluk ve <quote>sa</quote> ve sonrasında ya "
+"<quote>ys</quote> veya <quote>id</quote></quote> şu düzenli ifadeyle "
+"gösterilebilirdi:"
+
+#. Tag: userinput
+#: regular-expressions.docbook:47
+#, no-c-format
+msgid "^[ \\t]{0,4}(Henrik|Pernille) sa(ys|id)"
+msgstr "^[ \\t]{0,4}(Henrik|Pernille) sa(ys|id)"
+
+#. Tag: para
+#: regular-expressions.docbook:50
+#, no-c-format
+msgid ""
+"The above example demonstrates all four major concepts of modern Regular "
+"Expressions, namely:"
+msgstr ""
+"Yukarıdaki örnek, çağdaş Düzenli İfadelerin dört ana konseptinin tümünü "
+"göstermektedir:"
+
+#. Tag: para
+#: regular-expressions.docbook:54
+#, no-c-format
+msgid "<para>Patterns</para>"
+msgstr "<para>Dizgiler</para>"
+
+#. Tag: para
+#: regular-expressions.docbook:55
+#, no-c-format
+msgid "<para>Assertions</para>"
+msgstr "<para>Savlar</para>"
+
+#. Tag: para
+#: regular-expressions.docbook:56
+#, no-c-format
+msgid "<para>Quantifiers</para>"
+msgstr "<para>Niceleyiciler</para>"
+
+#. Tag: para
+#: regular-expressions.docbook:57
+#, no-c-format
+msgid "Back references"
+msgstr "Geriye başvurular"
+
+#. Tag: para
+#: regular-expressions.docbook:60
+#, no-c-format
+msgid ""
+"The caret (<literal>^</literal>) starting the expression is an assertion, "
+"being true only if the following matching string is at the start of a line."
+msgstr ""
+"İfadeyi başlatan şapka (<literal>^</literal>) bir savdır ve yalnızca "
+"aşağıdaki eşleşen dizi bir satırın başındaysa doğrudur."
+
+#. Tag: para
+#: regular-expressions.docbook:64
+#, no-c-format
+msgid ""
+"The strings <literal>[ \\t]</literal> and <literal>(Henrik|Pernille) sa(ys|"
+"id)</literal> are patterns. The first one is a <emphasis>character class</"
+"emphasis> that matches either a blank or a (horizontal) tab character; the "
+"other pattern contains first a subpattern matching either <literal>Henrik</"
+"literal> <emphasis>or</emphasis> <literal>Pernille</literal>, then a piece "
+"matching the exact string <literal> sa</literal> and finally a subpattern "
+"matching either <literal>ys</literal> <emphasis>or</emphasis> <literal>id</"
+"literal>"
+msgstr ""
+"<literal>[ \\t]</literal> ve <literal>(Henrik|Pernille) sa(ys|id)</literal> "
+"dizgilerdir. İlki, ya bir boş ya da (yatay) sekme karakteriyle eşleşen bir "
+"<emphasis>karakter sınıfıdır</emphasis>; diğer dizgi ise ya <literal>Henrik</"
+"literal> <emphasis>ya da</emphasis> <literal>Pernille</literal> ile eşleşen "
+"bir alt dizgi ve <literal> sa</literal> dizisiyle tam olarak eşleşen bir "
+"parçadır ve son olarak ya <literal>ys</literal> <emphasis>ya da</emphasis> "
+"<literal>id</literal> ile eşleşen bir alt dizgidir"
+
+#. Tag: para
+#: regular-expressions.docbook:74
+#, no-c-format
+msgid ""
+"The string <literal>{0,4}</literal> is a quantifier saying <quote>anywhere "
+"from 0 up to 4 of the previous</quote>."
+msgstr ""
+"<literal>{0,4}</literal> dizisi, <quote>öncekinin 0’dan 4’e kadar herhangi "
+"bir yer</quote> olan bir niceleyicidir."
+
+#. Tag: para
+#: regular-expressions.docbook:77
+#, no-c-format
+msgid ""
+"Because regular expression software supporting the concept of <emphasis>back "
+"references</emphasis> saves the entire matching part of the string as well "
+"as sub-patterns enclosed in parentheses, given some means of access to those "
+"references, we could get our hands on either the whole match (when searching "
+"a text document in an editor with a regular expression, that is often marked "
+"as selected) or either the name found, or the last part of the verb."
+msgstr ""
+"<emphasis>Geriye başvurular</emphasis> kavramını destekleyen düzenli ifade "
+"yazılımı, dizinin eşleşen kısmının tümünü ve parantez içine alınmış alt "
+"dizgileri kaydettiği için bu başvurulara bazı erişim araçları verildiğinde, "
+"ya eşleşmenin tümünü (düzenli bir ifadeyle bir düzenleyicide bir metin "
+"belgesi aranırken, bu genellikle seçilmiş olarak işaretlenir) ya da bulunan "
+"ad ya da yüklemin son kısmını ele alabiliriz."
+
+#. Tag: para
+#: regular-expressions.docbook:85
+#, no-c-format
+msgid ""
+"All together, the expression will match where we wanted it to, and only "
+"there."
+msgstr ""
+"Tümü birlikte, ifade nerede eşleşmesini istiyorsak yalnızca orada eşleşir."
+
+#. Tag: para
+#: regular-expressions.docbook:88
+#, no-c-format
+msgid ""
+"The following sections will describe in details how to construct and use "
+"patterns, character classes, assertions, quantifiers and back references, "
+"and the final section will give a few useful examples."
+msgstr ""
+"Aşağıdaki bölümlerde dizgilerin, karakter sınıflarının, savların, "
+"niceleyicilerin ve geriye başvuruların nasıl oluşturulacağı ve kullanılacağı "
+"ayrıntılı olarak açıklanacak ve son bölümde birkaç yararlı örnek "
+"verilecektir."
+
+#. Tag: title
+#: regular-expressions.docbook:97
+#, no-c-format
+msgid "<title>Patterns</title>"
+msgstr "<title>Dizgiler</title>"
+
+#. Tag: para
+#: regular-expressions.docbook:99
+#, no-c-format
+msgid ""
+"Patterns consists of literal strings and character classes. Patterns may "
+"contain sub-patterns, which are patterns enclosed in parentheses."
+msgstr ""
+"Dizgiler, değişmez dizilerden ve karakter sınıflarından oluşur. Dizgiler, "
+"parantez içine alınmış dizgiler olan alt dizgiler içerebilir."
+
+#. Tag: title
+#: regular-expressions.docbook:104
+#, no-c-format
+msgid "Escaping characters"
+msgstr "Karakterleri kaçırmak"
+
+#. Tag: para
+#: regular-expressions.docbook:106
+#, no-c-format
+msgid ""
+"In patterns as well as in character classes, some characters have a special "
+"meaning. To literally match any of those characters, they must be marked or "
+"<emphasis>escaped</emphasis> to let the regular expression software know "
+"that it should interpret such characters in their literal meaning."
+msgstr ""
+"Dizgilerde olduğu gibi karakter sınıflarında da bazı karakterlerin özel bir "
+"anlamı vardır. Bu karakterlerden herhangi birini tam anlamıyla eşleştirmek "
+"için düzenli ifade yazılımının bu tür karakterleri gerçek anlamlarında "
+"yorumlaması gerektiğini bilmesini sağlamak amacıyla bunların imlenmesi veya "
+"<emphasis>kaçırılması</emphasis> gerekir."
+
+#. Tag: para
+#: regular-expressions.docbook:112
+#, no-c-format
+msgid ""
+"This is done by prepending the character with a backslash (<literal>\\</"
+"literal>)."
+msgstr ""
+"Bu, karakterin başına ters eğik çizgi (<literal>\\</literal>) getirilerek "
+"yapılır."
+
+#. Tag: para
+#: regular-expressions.docbook:116
+#, no-c-format
+msgid ""
+"The regular expression software will silently ignore escaping a character "
+"that does not have any special meaning in the context, so escaping for "
+"example a <quote>j</quote> (<userinput>\\j</userinput>) is safe. If you are "
+"in doubt whether a character could have a special meaning, you can therefore "
+"escape it safely."
+msgstr ""
+"Düzenli ifade yazılımı, bağlamda herhangi bir özel anlamı olmayan bir "
+"karakterden kaçmayı sessizce yok sayar; bu nedenle, örneğin bir <quote>j</"
+"quote> (<userinput>\\j</userinput>) karakterinden kaçmak güvenlidir. Bir "
+"karakterin özel bir anlamı olup olmadığından kuşkunuz varsa onu güvenle "
+"kaçırabilirsiniz."
+
+#. Tag: para
+#: regular-expressions.docbook:122
+#, no-c-format
+msgid ""
+"Escaping of course includes the backslash character itself, to literally "
+"match a such, you would write <userinput>\\\\</userinput>."
+msgstr ""
+"Kaçış, elbette ters eğik çizgi karakterinin kendisini de içerir, böyle bir "
+"dizinin tam anlamıyla eşleşmesi için <userinput>\\\\</userinput> yazarsınız."
+
+#. Tag: title
+#: regular-expressions.docbook:129
+#, no-c-format
+msgid "Character Classes and abbreviations"
+msgstr "Karakter sınıfları ve kısaltmalar"
+
+#. Tag: para
+#: regular-expressions.docbook:131
+#, no-c-format
+msgid ""
+"A <emphasis>character class</emphasis> is an expression that matches one of "
+"a defined set of characters. In Regular Expressions, character classes are "
+"defined by putting the legal characters for the class in square brackets, "
+"<literal>[]</literal>, or by using one of the abbreviated classes described "
+"below."
+msgstr ""
+"Bir <emphasis>karakter sınıfı</emphasis>, tanımlanmış bir karakter "
+"kümesinden biriyle eşleşen bir ifadedir. Düzenli ifadelerde karakter "
+"sınıfları, sınıfın yasal karakterlerini <literal>[]</literal> köşeli "
+"parantez içine alarak veya aşağıda açıklanan kısaltılmış sınıflardan birini "
+"kullanarak tanımlanır."
+
+#. Tag: para
+#: regular-expressions.docbook:137
+#, no-c-format
+msgid ""
+"Simple character classes just contains one or more literal characters, for "
+"example <userinput>[abc]</userinput> (matching either of the letters "
+"<quote>a</quote>, <quote>b</quote> or <quote>c</quote>) or "
+"<userinput>[0123456789]</userinput> (matching any digit)."
+msgstr ""
+"Basit karakter sınıfları yalnızca bir veya daha çok düz karakter içerir; "
+"örneğin, <userinput>[abc]</userinput> (<quote>a</quote>, <quote>b</quote> "
+"veya <quote>c</quote> harflerinden biriyle eşleşir) veya "
+"<userinput>[0123456789]</userinput> (herhangi bir rakamla eşleşir)."
+
+#. Tag: para
+#: regular-expressions.docbook:142
+#, no-c-format
+msgid ""
+"Because letters and digits have a logical order, you can abbreviate those by "
+"specifying ranges of them: <userinput>[a-c]</userinput> is equal to "
+"<userinput>[abc]</userinput> and <userinput>[0-9]</userinput> is equal to "
+"<userinput>[0123456789]</userinput>. Combining these constructs, for example "
+"<userinput>[a-fynot1-38]</userinput> is completely legal (the last one would "
+"match, of course, either of <quote>a</quote>,<quote>b</quote>,<quote>c</"
+"quote>,<quote>d</quote>, <quote>e</quote>,<quote>f</quote>,<quote>y</quote>,"
+"<quote>n</quote>,<quote>o</quote>,<quote>t</quote>, <quote>1</quote>,"
+"<quote>2</quote>,<quote>3</quote> or <quote>8</quote>)."
+msgstr ""
+"Harfler ve rakamlar mantıksal bir sıraya sahip olduğundan, erimlerini "
+"belirterek bunları kısaltabilirsiniz: <userinput>[a-c]</userinput>, "
+"<userinput>[abc]</userinput>’ye ve <userinput>[0-9]</userinput> ise "
+"<userinput>[0123456789]</userinput>’a eşittir. Bu yapıları birleştirerek; "
+"örneğin <userinput>[a-fynot1-38]</userinput> gibi tümüyle geçerli bir yapı "
+"oluşturabilirsiniz (sonuncusu, elbette <quote>a</quote>,<quote>b</quote>,"
+"<quote>c</quote>,<quote>d</quote>, <quote>e</quote>,<quote>f</quote>,"
+"<quote>y</quote>,<quote>n</quote>,<quote>o</quote>,<quote>t</quote>, "
+"<quote>1</quote>,<quote>2</quote>,<quote>3</quote> veya <quote>8</quote> "
+"ögelerinden biriyle eşleşecektir)."
+
+#. Tag: para
+#: regular-expressions.docbook:154
+#, no-c-format
+msgid ""
+"As capital letters are different characters from their non-capital "
+"equivalents, to create a caseless character class matching <quote>a</quote> "
+"or <quote>b</quote>, in any case, you need to write it <userinput>[aAbB]</"
+"userinput>."
+msgstr ""
+"BÜYÜK harfler, BÜYÜK harf olmayan karşılıklarından farklı karakterler "
+"olduğundan, <quote>a</quote> veya <quote>b</quote> ile eşleşen ve BÜYÜK/"
+"küçük harf duyarsız bir karakter sınıfı oluşturmak için her durumda, onu "
+"<userinput>[aAbB]</userinput> olarak yazmanız gerekir."
+
+#. Tag: para
+#: regular-expressions.docbook:159
+#, no-c-format
+msgid ""
+"It is of course possible to create a <quote>negative</quote> class matching "
+"as <quote>anything but</quote> To do so put a caret (<literal>^</literal>) "
+"at the beginning of the class:"
+msgstr ""
+"Elbette <quote>herhangi bir şeyin dışındaki her şeyle</quote> eşleşen bir "
+"<quote>negatif</quote> sınıf oluşturmak olanaklıdır. Bunu yapmak için "
+"sınıfın başına bir şapka (<literal>^</literal>) koyun:"
+
+#. Tag: para
+#: regular-expressions.docbook:163
+#, no-c-format
+msgid ""
+"<userinput>[^abc]</userinput> will match any character <emphasis>but</"
+"emphasis> <quote>a</quote>, <quote>b</quote> or <quote>c</quote>."
+msgstr ""
+"<userinput>[^abc]</userinput>, <quote>a</quote>, <quote>b</quote> veya "
+"<quote>c</quote> <emphasis>dışındaki</emphasis> herhangi bir karakterler "
+"eşleşir."
+
+#. Tag: para
+#: regular-expressions.docbook:167
+#, no-c-format
+msgid ""
+"In addition to literal characters, some abbreviations are defined, making "
+"life still a bit easier:"
+msgstr ""
+"Gerçek karakterlerin yanı sıra bazı kısaltmalar da tanımlanmış olup bu da "
+"işimizi biraz daha kolaylaştırmaktadır:"
+
+#. Tag: userinput
+#: regular-expressions.docbook:173
+#, no-c-format
+msgid "<userinput>\\a</userinput>"
+msgstr "<userinput>\\a</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:174
+#, no-c-format
+msgid "This matches the &ASCII; bell character (BEL, 0x07)."
+msgstr "Bu, &ASCII; zil karakteriyle (BEL, 0x07) eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:178
+#, no-c-format
+msgid "<userinput>\\f</userinput>"
+msgstr "<userinput>\\f</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:179
+#, no-c-format
+msgid "This matches the &ASCII; form feed character (FF, 0x0C)."
+msgstr "Bu, &ASCII; form besleme karakteriyle (FF, 0x0C) eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:183
+#, no-c-format
+msgid "<userinput>\\n</userinput>"
+msgstr "<userinput>\\n</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:184
+#, no-c-format
+msgid "This matches the &ASCII; line feed character (LF, 0x0A, Unix newline)."
+msgstr ""
+"Bu, &ASCII; satır besleme karakteriyle (LF, 0x0A, Unix yenisatır) eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:188
+#, no-c-format
+msgid "<userinput>\\r</userinput>"
+msgstr "<userinput>\\r</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:189
+#, no-c-format
+msgid "This matches the &ASCII; carriage return character (CR, 0x0D)."
+msgstr "Bu, &ASCII; satır başı karakteriyle (CR, 0x0D) eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:193
+#, no-c-format
+msgid "<userinput>\\t</userinput>"
+msgstr "<userinput>\\t</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:194
+#, no-c-format
+msgid "This matches the &ASCII; horizontal tab character (HT, 0x09)."
+msgstr "Bu, &ASCII; yatay sekme karakteriyle (HT, 0x09) eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:198
+#, no-c-format
+msgid "<userinput>\\v</userinput>"
+msgstr "<userinput>\\v</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:199
+#, no-c-format
+msgid "This matches the &ASCII; vertical tab character (VT, 0x0B)."
+msgstr "Bu, &ASCII; dikey sekme karakteriyle (VT, 0x0B) eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:202
+#, no-c-format
+msgid "\\xhhhh"
+msgstr "\\xhhhh"
+
+#. Tag: para
+#: regular-expressions.docbook:204
+#, no-c-format
+msgid ""
+"This matches the Unicode character corresponding to the hexadecimal number "
+"hhhh (between 0x0000 and 0xFFFF). \\0ooo (&ie;, \\zero ooo) matches the "
+"&ASCII;/Latin-1 character corresponding to the octal number ooo (between 0 "
+"and 0377)."
+msgstr ""
+"Bu, onaltılık hhhh Unicode karakteriyle eşleşir (0x0000 ve 0xFFFF arasında). "
+"\\0ooo (&ie;, \\zero ooo), ooo sekizlik &ASCII;/Latin-1 karakteriyle eşleşir "
+"(0 ve 0377)."
+
+#. Tag: term
+#: regular-expressions.docbook:212
+#, no-c-format
+msgid "<userinput>.</userinput> (dot)"
+msgstr "<userinput>.</userinput> (nokta)"
+
+#. Tag: para
+#: regular-expressions.docbook:213
+#, no-c-format
+msgid "This matches any character (including newline)."
+msgstr "Bu, herhangi bir karakterle eşleşir (yenisatır içerilir)."
+
+#. Tag: userinput
+#: regular-expressions.docbook:217
+#, no-c-format
+msgid "<userinput>\\d</userinput>"
+msgstr "<userinput>\\d</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:218
+#, no-c-format
+msgid "This matches a digit. Equal to <literal>[0-9]</literal>"
+msgstr "Bu, bir rakamla eşleşir. <literal>[0-9]</literal> ile aynıdır"
+
+#. Tag: userinput
+#: regular-expressions.docbook:222
+#, no-c-format
+msgid "<userinput>\\D</userinput>"
+msgstr "<userinput>\\D</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:223
+#, no-c-format
+msgid ""
+"This matches a non-digit. Equal to <literal>[^0-9]</literal> or <literal>[^"
+"\\d]</literal>"
+msgstr ""
+"Bu, rakam olmayan bir şeyle eşleşir. <literal>[^0-9]</literal> veya "
+"<literal>[^\\d]</literal> ile aynıdır"
+
+#. Tag: userinput
+#: regular-expressions.docbook:227
+#, no-c-format
+msgid "<userinput>\\s</userinput>"
+msgstr "<userinput>\\s</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:228
+#, no-c-format
+msgid ""
+"This matches a whitespace character. Practically equal to <literal>[ \\t\\n"
+"\\r]</literal>"
+msgstr ""
+"Bu, boşluk karakteriyle eşleşir. <literal>[ \\t\\n\\r]</literal> ile aynı "
+"şeydir"
+
+#. Tag: userinput
+#: regular-expressions.docbook:232
+#, no-c-format
+msgid "<userinput>\\S</userinput>"
+msgstr "<userinput>\\S</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:233
+#, no-c-format
+msgid ""
+"This matches a non-whitespace. Practically equal to <literal>[^ \\t\\r\\n]</"
+"literal>, and equal to <literal>[^\\s]</literal>"
+msgstr ""
+"Bu, boşluk olmayan bir karakterle eşleşir. <literal>[^ \\t\\r\\n]</literal> "
+"ve <literal>[^\\s]</literal> ile aynıdır"
+
+#. Tag: userinput
+#: regular-expressions.docbook:237
+#, no-c-format
+msgid "<userinput>\\w</userinput>"
+msgstr "<userinput>\\w</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:238
+#, no-c-format
+msgid ""
+"Matches any <quote>word character</quote> - in this case any letter, digit "
+"or underscore. Equal to <literal>[a-zA-Z0-9_]</literal>"
+msgstr ""
+"Herhangi bir <quote>sözcük karakteriyle</quote> eşleşir; bu durumda bu bir "
+"harf, rakam veya alt çizgi olabilir. <literal>[a-zA-Z0-9_]</literal> ile "
+"aynıdır"
+
+#. Tag: userinput
+#: regular-expressions.docbook:243
+#, no-c-format
+msgid "<userinput>\\W</userinput>"
+msgstr "<userinput>\\W</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:244
+#, no-c-format
+msgid ""
+"Matches any non-word character - anything but letters, numbers or "
+"underscore. Equal to <literal>[^a-zA-Z0-9_]</literal> or <literal>[^\\w]</"
+"literal>"
+msgstr ""
+"Bu, sözcük karakteri olmayan herhangi bir karakterler eşleşir; bu durumda bu "
+"harfler, sayılar ve alt çizgi dışındaki her şey olabilir. <literal>[^a-zA-"
+"Z0-9_]</literal> veya <literal>[^\\w]</literal> ile aynıdır"
+
+#. Tag: para
+#: regular-expressions.docbook:253
+#, no-c-format
+msgid ""
+"The <emphasis>POSIX notation of classes</emphasis>, <userinput>[:&lt;class "
+"name&gt;:]</userinput> are also supported. For example, <userinput>[:"
+"digit:]</userinput> is equivalent to <userinput>\\d</userinput>, and "
+"<userinput>[:space:]</userinput> to <userinput>\\s</userinput>. See the full "
+"list of POSIX character classes <ulink url=\"https://www.regular-expressions."
+"info/posixbrackets.html\">here</ulink>."
+msgstr ""
+"<emphasis>Sınıfların POSIX biçimine simgelemi</emphasis>, <userinput>[:&lt;"
+"class name&gt;:]</userinput> de ayrıca desteklenir. Örneğin, <userinput>[:"
+"digit:]</userinput>, <userinput>\\d</userinput>’e ve <userinput>[:space:]</"
+"userinput> de <userinput>\\s</userinput>’e eşittir. POSIX karakter "
+"sınıflarının tam listesine <ulink url=\"https://www.regular-expressions.info/"
+"posixbrackets.html\">buradan</ulink> bakabilirsiniz."
+
+#. Tag: para
+#: regular-expressions.docbook:260
+#, no-c-format
+msgid ""
+"The abbreviated classes can be put inside a custom class, for example to "
+"match a word character, a blank or a dot, you could write <userinput>[\\w "
+"\\.]</userinput>"
+msgstr ""
+"Kısaltılmış sınıflar özel bir sınıfın içine yerleştirilebilir; örneğin bir "
+"sözcük karakteriyle, bir boşlukla veya bir noktayla eşleştirmek için "
+"<userinput>[\\w \\.]</userinput> yazabilirsiniz"
+
+#. Tag: title
+#: regular-expressions.docbook:265
+#, no-c-format
+msgid "Characters with special meanings inside character classes"
+msgstr "Karakter sınıflarındaki özel anlamlara sahip karakterler"
+
+#. Tag: para
+#: regular-expressions.docbook:267
+#, no-c-format
+msgid ""
+"The following characters has a special meaning inside the <quote>[]</quote> "
+"character class construct, and must be escaped to be literally included in a "
+"class:"
+msgstr ""
+"Aşağıdaki karakterlerin <quote>[]</quote> karakter sınıfı yapısında özel bir "
+"anlamı vardır ve bir sınıfa sözcüğün tam anlamıyla içerilebilmesi için kaçış "
+"karakterlerinin kullanılması gerekir:"
+
+#. Tag: userinput
+#: regular-expressions.docbook:273
+#, no-c-format
+msgid "<userinput>]</userinput>"
+msgstr "<userinput>]</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:274
+#, no-c-format
+msgid ""
+"Ends the character class. Must be escaped unless it is the very first "
+"character in the class (may follow an unescaped caret)."
+msgstr ""
+"Karakter sınıfını sonlandırır. Sınıftaki ilk karakter olmadığı sürece "
+"kaçırılmalıdır (kaçırılmamış bir şapka işaretinden sonra gelebilir)."
+
+#. Tag: term
+#: regular-expressions.docbook:278 regular-expressions.docbook:415
+#, no-c-format
+msgid "<userinput>^</userinput> (caret)"
+msgstr "<userinput>^</userinput> (şapka)"
+
+#. Tag: para
+#: regular-expressions.docbook:279
+#, no-c-format
+msgid ""
+"Denotes a negative class, if it is the first character. Must be escaped to "
+"match literally if it is the first character in the class."
+msgstr ""
+"İlk karakter ise negatif sınıfı belirtir. Sınıfın ilk karakteri ise sözcüğün "
+"tam anlamıyla eşleşecek biçimde kaçırılmalıdır."
+
+#. Tag: term
+#: regular-expressions.docbook:282
+#, no-c-format
+msgid "<userinput>-</userinput> (dash)"
+msgstr "<userinput>-</userinput> (tire)"
+
+#. Tag: para
+#: regular-expressions.docbook:283
+#, no-c-format
+msgid ""
+"Denotes a logical range. Must always be escaped within a character class."
+msgstr ""
+"Mantıksal bir erimi belirtir. Bir karakter sınıfı içinde her zaman "
+"kaçırılmalıdır."
+
+#. Tag: term
+#: regular-expressions.docbook:286 regular-expressions.docbook:410
+#, no-c-format
+msgid "<userinput>\\</userinput> (backslash)"
+msgstr "<userinput>\\</userinput> (ters eğik çizgi)"
+
+#. Tag: para
+#: regular-expressions.docbook:287
+#, no-c-format
+msgid "The escape character. Must always be escaped."
+msgstr "Kaçış karakteri. Her zaman kaçırılmalıdır."
+
+#. Tag: title
+#: regular-expressions.docbook:298
+#, no-c-format
+msgid "Alternatives: matching <quote>one of</quote>"
+msgstr "Alternatifler: Bunlardan <quote>biriyle</quote> eşleştirmek"
+
+#. Tag: para
+#: regular-expressions.docbook:300
+#, no-c-format
+msgid ""
+"If you want to match one of a set of alternative patterns, you can separate "
+"those with <literal>|</literal> (vertical bar character)."
+msgstr ""
+"Bir dizi alternatif dizgiden birini eşleştirmek istiyorsanız bunları "
+"<literal>|</literal> (dikey çubuk karakteri) ile ayırabilirsiniz."
+
+#. Tag: para
+#: regular-expressions.docbook:303
+#, no-c-format
+msgid ""
+"For example to find either <quote>John</quote> or <quote>Harry</quote> you "
+"would use an expression <userinput>John|Harry</userinput>."
+msgstr ""
+"Örneğin <quote>John</quote> veya <quote>Harry</quote> bulmak istediğinizde "
+"<userinput>John|Harry</userinput> düzenli ifadesini kullanırsınız."
+
+#. Tag: title
+#: regular-expressions.docbook:309
+#, no-c-format
+msgid "Sub Patterns"
+msgstr "Alt Dizgiler"
+
+#. Tag: para
+#: regular-expressions.docbook:311
+#, no-c-format
+msgid ""
+"<emphasis>Sub patterns</emphasis> are patterns enclosed in parentheses, and "
+"they have several uses in the world of regular expressions."
+msgstr ""
+"<emphasis>Alt dizgiler</emphasis>, parantez içine alınmış dizgilerdir ve "
+"düzenli ifadeler dünyasında çeşitli kullanımları vardır."
+
+#. Tag: title
+#: regular-expressions.docbook:317
+#, no-c-format
+msgid "Specifying alternatives"
+msgstr "Alternatifleri belirtmek"
+
+#. Tag: para
+#: regular-expressions.docbook:319
+#, no-c-format
+msgid ""
+"You may use a sub pattern to group a set of alternatives within a larger "
+"pattern. The alternatives are separated by the character <quote>|</quote> "
+"(vertical bar)."
+msgstr ""
+"Bir dizi alternatifi daha büyük bir dizgi içinde gruplandırmak için bir alt "
+"dizgi kullanabilirsiniz. Alternatifler <quote>|</quote> (dikey çubuk) "
+"karakteriyle ayrılır."
+
+#. Tag: para
+#: regular-expressions.docbook:323
+#, no-c-format
+msgid ""
+"For example to match either of the words <quote>int</quote>, <quote>float</"
+"quote> or <quote>double</quote>, you could use the pattern <userinput>int|"
+"float|double</userinput>. If you only want to find one if it is followed by "
+"some whitespace and then some letters, put the alternatives inside a "
+"subpattern: <userinput>(int|float|double)\\s+\\w+</userinput>."
+msgstr ""
+"Örneğin, <quote>int</quote>, <quote>float</quote> veya <quote>double</quote> "
+"sözcüklerinden biriyle eşleşmek için <userinput>int|float|double</userinput> "
+"dizgisini kullanabilirsiniz. Yalnızca bir boşluk ve ardından birkaç harf "
+"gelen bir tanesini bulmak istiyorsanız alternatifleri bir alt dizginin içine "
+"yerleştirin: <userinput>(int|float|double)\\s+\\w+</userinput>."
+
+#. Tag: title
+#: regular-expressions.docbook:334
+#, no-c-format
+msgid "Capturing matching text (back references)"
+msgstr "Eşleşen metni yakalamak (geriye başvurular)"
+
+#. Tag: para
+#: regular-expressions.docbook:336
+#, no-c-format
+msgid ""
+"If you want to use a back reference, use a sub pattern <userinput>(PATTERN)</"
+"userinput> to have the desired part of the pattern remembered. To prevent "
+"the sub pattern from being remembered, use a non-capturing group "
+"<userinput>(?:PATTERN)</userinput>."
+msgstr ""
+"Geriye başvuru kullanmak istiyorsanız dizginin istenilen kısmının "
+"anımsanması için <userinput>(DİZGİ)</userinput> alt dizgisini kullanın. Alt "
+"dizginin anımsanmasını önlemek için yakalamayan bir <userinput>(?:DİZGİ)</"
+"userinput> grubu kullanın."
+
+#. Tag: para
+#: regular-expressions.docbook:341
+#, no-c-format
+msgid ""
+"For example, if you want to find two occurrences of the same word separated "
+"by a comma and possibly some whitespace, you could write <userinput>(\\w+),"
+"\\s*\\1</userinput>. The sub pattern <literal>\\w+</literal> would find a "
+"chunk of word characters, and the entire expression would match if those "
+"were followed by a comma, 0 or more whitespace and then an equal chunk of "
+"word characters. (The string <literal>\\1</literal> references <emphasis>the "
+"first sub pattern enclosed in parentheses</emphasis>.)"
+msgstr ""
+"Örneğin, aynı sözcüğün virgülle ve büyük olasılıkla bir miktar boşlukla "
+"ayrılmış iki örneğini bulmak istiyorsanız <userinput>(\\w+),\\s*\\1</"
+"userinput> yazabilirsiniz. <literal>\\w+</literal> alt dizgisi bir sözcük "
+"karakterleri parçası bulur ve ifadenin tümü onlardan sonra bir virgül, 0 "
+"veya birden çok boşluk ve aynı miktarda sözcük karakteri geliyorsa eşleşir. "
+"(<literal>\\1</literal> dizisi, <emphasis>paranteze alınmış ilk alt dizgiye</"
+"emphasis> başvurur.)"
+
+#. Tag: para
+#: regular-expressions.docbook:351
+#, no-c-format
+msgid ""
+"To avoid ambiguities with usage of <userinput>\\1</userinput> with some "
+"digits behind it (&eg; <userinput>\\12</userinput> can be 12th subpattern or "
+"just the first subpattern with <userinput>2</userinput>) we use <userinput>"
+"\\{12}</userinput> as syntax for multi-digit subpatterns."
+msgstr ""
+"<userinput>\\1</userinput> kullanımı ile ilgili anlatım bozukluklarını "
+"önlemek için ardına birkaç rakam koyun (&eg; <userinput>\\12</userinput>, "
+"12. alt dizgi veya <userinput>2</userinput> içeren ilk alt dizgi olabilir); "
+"birden çok rakamlı alt dizgiler için biz <userinput>\\{12}</userinput> "
+"kullanıyoruz."
+
+#. Tag: para
+#: regular-expressions.docbook:352
+#, no-c-format
+msgid "Examples:"
+msgstr "Örnekler:"
+
+#. Tag: para
+#: regular-expressions.docbook:354
+#, no-c-format
+msgid "<userinput>\\{12}1</userinput> is <quote>use subpattern 12</quote>"
+msgstr ""
+"<userinput>\\{12}1</userinput>, <quote>12 alt dizgisini kullan</quote> "
+"anlamına gelir"
+
+#. Tag: para
+#: regular-expressions.docbook:355
+#, no-c-format
+msgid ""
+"<userinput>\\123</userinput> is <quote>use capture 1 then 23 as the normal "
+"text</quote>"
+msgstr ""
+"<userinput>\\123</userinput>, <quote>yakalama 1’i kullan, sonrasında 23’ü "
+"normal metin olarak kullan</quote> anlamına gelir"
+
+#. Tag: title
+#: regular-expressions.docbook:365
+#, no-c-format
+msgid "Lookahead Assertions"
+msgstr "İleri Savlar"
+
+#. Tag: para
+#: regular-expressions.docbook:367
+#, no-c-format
+msgid ""
+"A lookahead assertion is a sub pattern, starting with either <literal>?=</"
+"literal> or <literal>?!</literal>."
+msgstr ""
+"Bir ileri sav, ya <literal>?=</literal> ya da <literal>?!</literal> ile "
+"başlayan bir alt dizgidir."
+
+#. Tag: para
+#: regular-expressions.docbook:370
+#, no-c-format
+msgid ""
+"For example to match the literal string <quote>Bill</quote> but only if not "
+"followed by <quote> Gates</quote>, you could use this expression: "
+"<userinput>Bill(?! Gates)</userinput>. (This would find <quote>Bill Clinton</"
+"quote> as well as <quote>Billy the kid</quote>, but silently ignore the "
+"other matches.)"
+msgstr ""
+"<quote>Bill</quote> dizisi ile yalnızca ardından <quote> Gates</quote> "
+"gelmiyorsa eşleşmek istiyorsanız şu ifadeyi kullanabilirsiniz: "
+"<userinput>Bill(?! Gates)</userinput>. (Bu, hem <quote>Bill Clinton</"
+"quote>’u hem de <quote>Billy the kid</quote>’i bulur; ancak diğer "
+"eşleşmeleri sessizce yok sayar.)"
+
+#. Tag: para
+#: regular-expressions.docbook:376 regular-expressions.docbook:393
+#, no-c-format
+msgid "Sub patterns used for assertions are not captured."
+msgstr "Savlar için kullanılan alt dizgiler yakalanmaz."
+
+#. Tag: para
+#: regular-expressions.docbook:378
+#, no-c-format
+msgid "See also <link linkend=\"assertions\">Assertions</link>."
+msgstr "Ayrıca <link linkend=\"assertions\">Savlar</link> bölümüne bakın."
+
+#. Tag: title
+#: regular-expressions.docbook:383
+#, no-c-format
+msgid "Lookbehind Assertions"
+msgstr "Arkaya Savlar"
+
+#. Tag: para
+#: regular-expressions.docbook:385
+#, no-c-format
+msgid ""
+"A lookbehind assertion is a sub pattern, starting with either <literal>?&lt;"
+"=</literal> or <literal>?&lt;!</literal>."
+msgstr ""
+"Bir arkaya sav, ya <literal>?&lt;=</literal> ya da <literal>?&lt;!</literal> "
+"ile başlayan bir alt dizgidir."
+
+#. Tag: para
+#: regular-expressions.docbook:388
+#, no-c-format
+msgid ""
+"Lookbehind has the same effect as the lookahead, but works backwards. For "
+"example to match the literal string <quote>fruit</quote> but only if not "
+"preceded by <quote>grape</quote>, you could use this expression: "
+"<userinput>(?&lt;!grape)fruit</userinput>."
+msgstr ""
+"Arka sav, ileri sav ile aynı etkiye sahiptir; ancak geriye doğru çalışır. "
+"Örneğin, <quote>fruit</quote> gerçek dizisiyle yalnızca önünde <quote>grape</"
+"quote> yoksa eşleşmek istiyorsanız <userinput>(?&lt;!grape)fruit</userinput> "
+"ifadesini kullanabilirsiniz."
+
+#. Tag: para
+#: regular-expressions.docbook:395
+#, no-c-format
+msgid "See also <link linkend=\"assertions\">Assertions</link>"
+msgstr "Ayrıca <link linkend=\"assertions\">Savlar</link> bölümüne bakın"
+
+#. Tag: title
+#: regular-expressions.docbook:402
+#, no-c-format
+msgid "Characters with a special meaning inside patterns"
+msgstr "Dizgiler içinde özel anlam taşıyan karakterler"
+
+#. Tag: para
+#: regular-expressions.docbook:404
+#, no-c-format
+msgid ""
+"The following characters have meaning inside a pattern, and must be escaped "
+"if you want to literally match them:"
+msgstr ""
+"Aşağıdaki karakterlerin bir dizgi içinde anlamı vardır ve bunları tam "
+"anlamıyla eşleştirmek istiyorsanız kaçış karakterlerinin kullanılması "
+"gerekir:"
+
+#. Tag: para
+#: regular-expressions.docbook:411
+#, no-c-format
+msgid "The escape character."
+msgstr "Kaçış karakteri."
+
+#. Tag: para
+#: regular-expressions.docbook:416
+#, no-c-format
+msgid "Asserts the beginning of the string."
+msgstr "Dizinin başını bildirir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:420
+#, no-c-format
+msgid "<userinput>$</userinput>"
+msgstr "<userinput>$</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:421
+#, no-c-format
+msgid "Asserts the end of string."
+msgstr "Dizinin sonunu bildirir."
+
+#. Tag: term
+#: regular-expressions.docbook:425
+#, no-c-format
+msgid "<userinput>()</userinput> (left and right parentheses)"
+msgstr "<userinput>()</userinput> (sol ve sağ parantez)"
+
+#. Tag: para
+#: regular-expressions.docbook:426
+#, no-c-format
+msgid "Denotes sub patterns."
+msgstr "Alt dizgileri bildirir."
+
+#. Tag: term
+#: regular-expressions.docbook:430
+#, no-c-format
+msgid "<userinput>{}</userinput> (left and right curly braces)"
+msgstr "<userinput>{}</userinput> (sol ve sağ süslü ayraçlar)"
+
+#. Tag: para
+#: regular-expressions.docbook:431
+#, no-c-format
+msgid "Denotes numeric quantifiers."
+msgstr "Sayısal niceleyicileri bildirir."
+
+#. Tag: term
+#: regular-expressions.docbook:435
+#, no-c-format
+msgid "<userinput>[]</userinput> (left and right square brackets)"
+msgstr "<userinput>[]</userinput> (sol ve sağ köşeli ayraçlar)"
+
+#. Tag: para
+#: regular-expressions.docbook:436
+#, no-c-format
+msgid "Denotes character classes."
+msgstr "Karakter sınıflarını bildirir."
+
+#. Tag: term
+#: regular-expressions.docbook:440
+#, no-c-format
+msgid "<userinput>|</userinput> (vertical bar)"
+msgstr "<userinput>|</userinput> (dikey çubuk)"
+
+#. Tag: para
+#: regular-expressions.docbook:441
+#, no-c-format
+msgid "logical OR. Separates alternatives."
+msgstr "Mantıksal OR. Alternatifleri ayırır."
+
+#. Tag: term
+#: regular-expressions.docbook:445 regular-expressions.docbook:522
+#, no-c-format
+msgid "<userinput>+</userinput> (plus sign)"
+msgstr "<userinput>+</userinput> (artı işareti)"
+
+#. Tag: para
+#: regular-expressions.docbook:446
+#, no-c-format
+msgid "Quantifier, 1 or more."
+msgstr "Niceleyici, 1 veya daha çok."
+
+#. Tag: term
+#: regular-expressions.docbook:450 regular-expressions.docbook:517
+#, no-c-format
+msgid "<userinput>*</userinput> (asterisk)"
+msgstr "<userinput>*</userinput> (yıldız işareti)"
+
+#. Tag: para
+#: regular-expressions.docbook:451
+#, no-c-format
+msgid "Quantifier, 0 or more."
+msgstr "Niceleyici, 0 veya daha çok."
+
+#. Tag: term
+#: regular-expressions.docbook:455 regular-expressions.docbook:527
+#, no-c-format
+msgid "<userinput>?</userinput> (question mark)"
+msgstr "<userinput>?</userinput> (soru işareti)"
+
+#. Tag: para
+#: regular-expressions.docbook:456
+#, no-c-format
+msgid "An optional character. Can be interpreted as a quantifier, 0 or 1."
+msgstr ""
+"İsteğe bağlı bir karakter. Bir niceleyici olarak yorumlanabilir, 0 veya 1."
+
+#. Tag: title
+#: regular-expressions.docbook:468
+#, no-c-format
+msgid "<title>Quantifiers</title>"
+msgstr "<title>Niceleyiciler</title>"
+
+#. Tag: para
+#: regular-expressions.docbook:470
+#, no-c-format
+msgid ""
+"<emphasis>Quantifiers</emphasis> allows a regular expression to match a "
+"specified number or range of numbers of either a character, character class "
+"or sub pattern."
+msgstr ""
+"<emphasis>Niceleyiciler</emphasis>, düzenli bir ifadenin bir karakterin, "
+"karakter sınıfının veya alt dizginin belirli bir sayısı veya sayı erimiyle "
+"eşleşmesine olanak tanır."
+
+#. Tag: para
+#: regular-expressions.docbook:474
+#, no-c-format
+msgid ""
+"Quantifiers are enclosed in curly brackets (<literal>{</literal> and "
+"<literal>}</literal>) and have the general form <literal>{[minimum-"
+"occurrences][,[maximum-occurrences]]}</literal>"
+msgstr ""
+"Niceleyiciler süslü ayraçlar içine alınır (<literal>{</literal> ve <literal>}"
+"</literal>) ve genellikle <literal>{[en-az-oluş][,[en-çok-oluş]]}</literal> "
+"biçimindedirler"
+
+#. Tag: para
+#: regular-expressions.docbook:479
+#, no-c-format
+msgid "The usage is best explained by example:"
+msgstr "Kullanımları en iyi örnekle açıklanabilir:"
+
+#. Tag: userinput
+#: regular-expressions.docbook:484
+#, no-c-format
+msgid "<userinput>{1}</userinput>"
+msgstr "<userinput>{1}</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:485
+#, no-c-format
+msgid "Exactly 1 occurrence"
+msgstr "Tam 1 oluş"
+
+#. Tag: userinput
+#: regular-expressions.docbook:489
+#, no-c-format
+msgid "{0,1}"
+msgstr "{0,1}"
+
+#. Tag: para
+#: regular-expressions.docbook:490
+#, no-c-format
+msgid "Zero or 1 occurrences"
+msgstr "Sıfır veya 1 oluş"
+
+#. Tag: userinput
+#: regular-expressions.docbook:494
+#, no-c-format
+msgid "{,1}"
+msgstr "{,1}"
+
+#. Tag: para
+#: regular-expressions.docbook:495
+#, no-c-format
+msgid "The same, with less work;)"
+msgstr "Aynısı, daha kısası ;)"
+
+#. Tag: userinput
+#: regular-expressions.docbook:499
+#, no-c-format
+msgid "{5,10}"
+msgstr "{5,10}"
+
+#. Tag: para
+#: regular-expressions.docbook:500
+#, no-c-format
+msgid "At least 5 but maximum 10 occurrences."
+msgstr "En az 5; ancak en çok 10 oluş."
+
+#. Tag: userinput
+#: regular-expressions.docbook:504
+#, no-c-format
+msgid "{5,}"
+msgstr "{5,}"
+
+#. Tag: para
+#: regular-expressions.docbook:505
+#, no-c-format
+msgid "At least 5 occurrences, no maximum."
+msgstr "En az 5 oluş, sınırsız."
+
+#. Tag: para
+#: regular-expressions.docbook:512
+#, no-c-format
+msgid "Additionally, there are some abbreviations:"
+msgstr "Ek olarak, bazı kısaltmalar vardır:"
+
+#. Tag: para
+#: regular-expressions.docbook:518
+#, no-c-format
+msgid "similar to <literal>{0,}</literal>, find any number of occurrences."
+msgstr "<literal>{0,}</literal> gibi, herhangi bir sayıda oluş bul."
+
+#. Tag: para
+#: regular-expressions.docbook:523
+#, no-c-format
+msgid "similar to <literal>{1,}</literal>, at least 1 occurrence."
+msgstr "<literal>{1,}</literal> gibi, en az 1 oluş."
+
+#. Tag: para
+#: regular-expressions.docbook:528
+#, no-c-format
+msgid "similar to <literal>{0,1}</literal>, zero or 1 occurrence."
+msgstr "<literal>{0,1}</literal> gibi, sıfır veya 1 oluş."
+
+#. Tag: title
+#: regular-expressions.docbook:537
+#, no-c-format
+msgid "Greed"
+msgstr "Açgözlülük"
+
+#. Tag: para
+#: regular-expressions.docbook:539
+#, no-c-format
+msgid ""
+"When using quantifiers with no maximum, regular expressions defaults to "
+"match as much of the searched string as possible, commonly known as "
+"<emphasis>greedy</emphasis> behavior."
+msgstr ""
+"En çok değere sahip olmayan niceleyiciler kullanılırken, düzenli ifadeler "
+"aranan dizinin olabildiğince büyük bölümüyle eşleşmeye öntanımlıdır, buna "
+"genellikle <emphasis>açgözlü</emphasis> davranış denir."
+
+#. Tag: para
+#: regular-expressions.docbook:543
+#, no-c-format
+msgid ""
+"Modern regular expression software provides the means of <quote>turning off "
+"greediness</quote>, though in a graphical environment it is up to the "
+"interface to provide you with access to this feature. For example a search "
+"dialog providing a regular expression search could have a check box labeled "
+"<quote>Minimal matching</quote> as well as it ought to indicate if "
+"greediness is the default behavior."
+msgstr ""
+"Çağdaş düzenli ifade yazılımları, <quote>açgözlülüğü kapatmanın</quote> "
+"yollarını sağlar; ancak grafiksel bir ortamda bu özelliğe erişmenizi "
+"sağlamak arayüzün sorumluluğundadır. Örneğin, düzenli ifade araması sağlayan "
+"bir arama iletişim kutusunda <quote>En az eşleşme</quote> etiketli bir onay "
+"kutusu bulunabilir ve ayrıca açgözlülüğün öntanımlı davranış olup "
+"olmadığının belirtilmesi gerekir."
+
+#. Tag: title
+#: regular-expressions.docbook:554
+#, no-c-format
+msgid "In context examples"
+msgstr "Bağlamsal örnekler"
+
+#. Tag: para
+#: regular-expressions.docbook:556
+#, no-c-format
+msgid "Here are a few examples of using quantifiers:"
+msgstr "Niceleyicilerin kullanımına ilişkin birkaç örnek:"
+
+#. Tag: userinput
+#: regular-expressions.docbook:561
+#, no-c-format
+msgid "^\\d{4,5}\\s"
+msgstr "^\\d{4,5}\\s"
+
+#. Tag: para
+#: regular-expressions.docbook:562
+#, no-c-format
+msgid ""
+"Matches the digits in <quote>1234 go</quote> and <quote>12345 now</quote>, "
+"but neither in <quote>567 eleven</quote> nor in <quote>223459 somewhere</"
+"quote>."
+msgstr ""
+"<quote>1234 go</quote> ve <quote>12345 now</quote> içindeki rakamlarla "
+"eşleşir; ancak <quote>567 eleven</quote> veya <quote>223459 somewhere</"
+"quote> içindekilerle eşleşmez."
+
+#. Tag: userinput
+#: regular-expressions.docbook:567
+#, no-c-format
+msgid "<userinput>\\s+</userinput>"
+msgstr "<userinput>\\s+</userinput>"
+
+#. Tag: para
+#: regular-expressions.docbook:568
+#, no-c-format
+msgid "Matches one or more whitespace characters."
+msgstr "Bir veya daha çok boşluk karakteriyle eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:572
+#, no-c-format
+msgid "(bla){1,}"
+msgstr "(bla){1,}"
+
+#. Tag: para
+#: regular-expressions.docbook:573
+#, no-c-format
+msgid ""
+"Matches all of <quote>blablabla</quote> and the <quote>bla</quote> in "
+"<quote>blackbird</quote> or <quote>tabla</quote>."
+msgstr ""
+"<quote>blablabla</quote> dizisinin tümüyle ve <quote>blackbird</quote> veya "
+"<quote>tabla</quote> içindeki <quote>bla</quote> ile eşleşir."
+
+#. Tag: userinput
+#: regular-expressions.docbook:577
+#, no-c-format
+msgid "/?&gt;"
+msgstr "/?&gt;"
+
+#. Tag: para
+#: regular-expressions.docbook:578
+#, no-c-format
+msgid ""
+"Matches <quote>/&gt;</quote> in <quote>&lt;closeditem/&gt;</quote> as well "
+"as <quote>&gt;</quote> in <quote>&lt;openitem&gt;</quote>."
+msgstr ""
+"<quote>&lt;closeditem/&gt;</quote> içindeki <quote>/&gt;</quote> ile ve "
+"<quote>&lt;openitem&gt;</quote> içindeki <quote>&gt;</quote> ile eşleşir."
+
+#. Tag: title
+#: regular-expressions.docbook:589
+#, no-c-format
+msgid "<title>Assertions</title>"
+msgstr "<title>Savlar</title>"
+
+#. Tag: para
+#: regular-expressions.docbook:591
+#, no-c-format
+msgid ""
+"<emphasis>Assertions</emphasis> allows a regular expression to match only "
+"under certain controlled conditions."
+msgstr ""
+"<emphasis>Savlar</emphasis>, düzenli bir ifadenin yalnızca belirli denetimli "
+"koşullar altında eşleşmesine olanak tanır."
+
+#. Tag: para
+#: regular-expressions.docbook:594
+#, no-c-format
+msgid ""
+"An assertion does not need a character to match, it rather investigates the "
+"surroundings of a possible match before acknowledging it. For example the "
+"<emphasis>word boundary</emphasis> assertion does not try to find a non word "
+"character opposite a word one at its position, instead it makes sure that "
+"there is not a word character. This means that the assertion can match where "
+"there is no character, &ie; at the ends of a searched string."
+msgstr ""
+"Bir savın eşleşecek bir karaktere gereksinimi yoktur; olası bir eşleşmeyi "
+"onaylamadan önce çevreyi araştırır. Örneğin, <emphasis>sözcük sınırı</"
+"emphasis> savı, konumunda bir sözcüğün karşısında sözcük olmayan bir "
+"karakter bulmaya çalışmaz, bunun yerine bir sözcük karakterinin "
+"bulunmadığından emin olur. Bu, hiçbir karakterin olmadığı durumda iddianın "
+"eşleşebileceği anlamına gelir; örneğin aranan bir dizinin sonunda."
+
+#. Tag: para
+#: regular-expressions.docbook:602
+#, no-c-format
+msgid ""
+"Some assertions actually do have a pattern to match, but the part of the "
+"string matching that will not be a part of the result of the match of the "
+"full expression."
+msgstr ""
+"Bazı savların aslında eşleşecek bir dizgisi vardır; ancak dizi eşleşmesinin "
+"parçası, tam ifade eşleşmesinin sonucunun bir parçası olmayacaktır."
+
+#. Tag: para
+#: regular-expressions.docbook:606
+#, no-c-format
+msgid ""
+"Regular Expressions as documented here supports the following assertions:"
+msgstr "Burada belgelenen düzenli ifadeler aşağıdaki savları destekler:"
+
+#. Tag: term
+#: regular-expressions.docbook:612
+#, no-c-format
+msgid "<userinput>^</userinput> (caret: beginning of string)"
+msgstr "<userinput>^</userinput> (şapka: dizinin başı)"
+
+#. Tag: para
+#: regular-expressions.docbook:614
+#, no-c-format
+msgid "Matches the beginning of the searched string."
+msgstr "Aranan dizinin başlangıcıyla eşleşir."
+
+#. Tag: para
+#: regular-expressions.docbook:615
+#, no-c-format
+msgid ""
+"The expression <userinput>^Peter</userinput> will match at <quote>Peter</"
+"quote> in the string <quote>Peter, hey!</quote> but not in <quote>Hey, Peter!"
+"</quote>"
+msgstr ""
+"<userinput>^Peter</userinput> ifadesi, <quote>Peter, hey!</quote> "
+"dizisindeki <quote>Peter</quote> ile eşleşir; ancak <quote>Hey, Peter!</"
+"quote> ile eşleşmez"
+
+#. Tag: term
+#: regular-expressions.docbook:621
+#, no-c-format
+msgid "<userinput>$</userinput> (end of string)"
+msgstr "<userinput>$</userinput> (dizi sonu)"
+
+#. Tag: para
+#: regular-expressions.docbook:622
+#, no-c-format
+msgid "Matches the end of the searched string."
+msgstr "Aranan dizinin sonuyla eşleşir."
+
+#. Tag: para
+#: regular-expressions.docbook:624
+#, no-c-format
+msgid ""
+"The expression <userinput>you\\?$</userinput> will match at the last you in "
+"the string <quote>You didn't do that, did you?</quote> but nowhere in "
+"<quote>You didn't do that, right?</quote>"
+msgstr ""
+"<userinput>you\\?$</userinput> ifadesi, <quote>You didn’t do that, did you?</"
+"quote> dizisindeki son you ile eşleşir; ancak <quote>You didn’t do that, "
+"right?</quote> ile eşleşmez"
+
+#. Tag: term
+#: regular-expressions.docbook:632
+#, no-c-format
+msgid "<userinput>\\b</userinput> (word boundary)"
+msgstr "<userinput>\\b</userinput> (sözcük sınırı)"
+
+#. Tag: para
+#: regular-expressions.docbook:633
+#, no-c-format
+msgid ""
+"Matches if there is a word character at one side and not a word character at "
+"the other."
+msgstr "Bir tarafta sözcük karakteri varken diğer tarafta yoksa eşleşir."
+
+#. Tag: para
+#: regular-expressions.docbook:635
+#, no-c-format
+msgid ""
+"This is useful to find word ends, for example both ends to find a whole "
+"word. The expression <userinput>\\bin\\b</userinput> will match at the "
+"separate <quote>in</quote> in the string <quote>He came in through the "
+"window</quote>, but not at the <quote>in</quote> in <quote>window</quote>."
+msgstr ""
+"Bu, sözcük sonlarını bulmak için kullanışlıdır; örneğin, bir sözcüğün "
+"tamamını bulmak için her iki uç da kullanılabilir. <userinput>\\bin\\b</"
+"userinput> ifadesi, <quote>He came in through the window</quote> dizisindeki "
+"<quote>in</quote> ile eşleşir; ancak <quote>window</quote> içindeki "
+"<quote>in</quote> ile eşleşmez."
+
+#. Tag: term
+#: regular-expressions.docbook:644
+#, no-c-format
+msgid "<userinput>\\B</userinput> (non word boundary)"
+msgstr "<userinput>\\B</userinput> (sözcük sınırı olmayan)"
+
+#. Tag: para
+#: regular-expressions.docbook:645
+#, no-c-format
+msgid "Matches wherever <quote>\\b</quote> does not."
+msgstr "<quote>\\b</quote> ifadesinin eşleşmediği her yerde eşleşir."
+
+#. Tag: para
+#: regular-expressions.docbook:646
+#, no-c-format
+msgid ""
+"That means that it will match for example within words: The expression "
+"<userinput>\\Bin\\B</userinput> will match at in <quote>window</quote> but "
+"not in <quote>integer</quote> or <quote>I'm in love</quote>."
+msgstr ""
+"Bu, örneğin sözcüğün içinde eşleşeceği anlamına gelir: <userinput>\\Bin\\B</"
+"userinput> ifadesi, <quote>window</quote> ile eşleşir; ancak <quote>integer</"
+"quote> veya <quote>I’m in love</quote> ile eşleşmez."
+
+#. Tag: term
+#: regular-expressions.docbook:652
+#, no-c-format
+msgid "<userinput>(?=PATTERN)</userinput> (Positive lookahead)"
+msgstr "<userinput>(?=DİZGİ)</userinput> (pozitif ileri bakış)"
+
+#. Tag: para
+#: regular-expressions.docbook:653
+#, no-c-format
+msgid ""
+"A lookahead assertion looks at the part of the string following a possible "
+"match. The positive lookahead will prevent the string from matching if the "
+"text following the possible match does not match the <emphasis>PATTERN</"
+"emphasis> of the assertion, but the text matched by that will not be "
+"included in the result."
+msgstr ""
+"İleriye bakan bir sav, dizinin olası bir eşleşmeyi takip eden kısmına bakar. "
+"Olası eşleşmeyi takip eden metin savın <emphasis>DİZGİ</emphasis>’siyle "
+"eşleşmezse pozitif bakış dizinin eşleşmesini engeller; ancak bununla eşleşen "
+"metin sonuçta içerilmez."
+
+#. Tag: para
+#: regular-expressions.docbook:657
+#, no-c-format
+msgid ""
+"The expression <userinput>handy(?=\\w)</userinput> will match at "
+"<quote>handy</quote> in <quote>handyman</quote> but not in <quote>That came "
+"in handy!</quote>"
+msgstr ""
+"<userinput>handy(?=\\w)</userinput> ifadesi <quote>handyman</quote> içindeki "
+"<quote>handy</quote> ile eşleşir; ancak <quote>That came in handy!</quote> "
+"içindekiyle eşleşmez"
+
+#. Tag: term
+#: regular-expressions.docbook:663
+#, no-c-format
+msgid "<userinput>(?!PATTERN)</userinput> (Negative lookahead)"
+msgstr "<userinput>(?!DİZGİ)</userinput> (negatif ileri bakış)"
+
+#. Tag: para
+#: regular-expressions.docbook:665
+#, no-c-format
+msgid ""
+"The negative lookahead prevents a possible match to be acknowledged if the "
+"following part of the searched string does match its <emphasis>PATTERN</"
+"emphasis>."
+msgstr ""
+"Negatif bakış, aranan dizinin aşağıdaki bölümünün <emphasis>DİZGİ</emphasis> "
+"ile eşleşmesi durumunda olası bir eşleşmenin onaylanmasını önler."
+
+#. Tag: para
+#: regular-expressions.docbook:668
+#, no-c-format
+msgid ""
+"The expression <userinput>const \\w+\\b(?!\\s*&amp;)</userinput> will match "
+"at <quote>const char</quote> in the string <quote>const char* foo</quote> "
+"while it can not match <quote>const QString</quote> in <quote>const "
+"QString&amp; bar</quote> because the <quote>&amp;</quote> matches the "
+"negative lookahead assertion pattern."
+msgstr ""
+"<userinput>const \\w+\\b(?!\\s*&amp;)</userinput> ifadesi, <quote>const "
+"char* foo</quote> içindeki <quote>const char</quote> ile eşleşir; ancak "
+"<quote>const QString&amp; bar</quote> içindeki <quote>const QString</quote> "
+"ile eşleşmez; çünkü <quote>&amp;</quote> negatif ileriye bakan sav dizgisi "
+"ile eşleşir."
+
+#. Tag: term
+#: regular-expressions.docbook:678
+#, no-c-format
+msgid "<userinput>(?&lt;=PATTERN)</userinput> (Positive lookbehind)"
+msgstr "<userinput>(?&lt;=DİZGİ)</userinput> (pozitif geri bakış)"
+
+#. Tag: para
+#: regular-expressions.docbook:679
+#, no-c-format
+msgid ""
+"Lookbehind has the same effect as the lookahead, but works backwards. A "
+"lookbehind looks at the part of the string previous a possible match. The "
+"positive lookbehind will match a string only if it is preceded by the "
+"<emphasis>PATTERN</emphasis> of the assertion, but the text matched by that "
+"will not be included in the result."
+msgstr ""
+"Arkaya bakma, ileriye bakmayla aynı etkiye sahiptir; ancak geriye doğru "
+"çalışır. Geriye doğru bir bakış, dizinin olası bir eşleşmeden önceki kısmına "
+"bakar. Pozitif geriye bakış, yalnızca savın <emphasis>DİZGİ</"
+"emphasis>’sinden önce geliyorsa bir diziyle eşleşir; ancak bununla eşleşen "
+"metin sonuçta içerilmez."
+
+#. Tag: para
+#: regular-expressions.docbook:683
+#, no-c-format
+msgid ""
+"The expression <userinput>(?&lt;=cup)cake</userinput> will match at "
+"<quote>cake</quote> if it is succeeded by <quote>cup</quote> (in "
+"<quote>cupcake</quote> but not in <quote>cheesecake</quote> or in "
+"<quote>cake</quote> alone)."
+msgstr ""
+"<userinput>(?&lt;=cup)cake</userinput> ifadesi,<quote>cake</quote> ile "
+"yalnızca önünde <quote>cup</quote> geliyorsa eşleşir (<quote>cupcake</quote> "
+"gibi; ancak <quote>cheesecake</quote> veya tek başına <quote>cake</quote> "
+"değilse)."
+
+#. Tag: term
+#: regular-expressions.docbook:690
+#, no-c-format
+msgid "<userinput>(?&lt;!PATTERN)</userinput> (Negative lookbehind)"
+msgstr "<userinput>(?&lt;!DİZGİ)</userinput> (negatif geri bakış)"
+
+#. Tag: para
+#: regular-expressions.docbook:691
+#, no-c-format
+msgid ""
+"The negative lookbehind prevents a possible match to be acknowledged if the "
+"previous part of the searched string does match its <emphasis>PATTERN</"
+"emphasis>."
+msgstr ""
+"Negatif geriye bakış, aranan dizinin önceki kısmı <emphasis>DİZGİ</emphasis> "
+"ile eşleşmiyorsa olası bir eşleşmenin onaylanmasını önler."
+
+#. Tag: para
+#: regular-expressions.docbook:693
+#, no-c-format
+msgid ""
+"The expression <userinput>(?&lt;![\\w\\.])[0-9]+</userinput> will match at "
+"<quote>123</quote> in the strings <quote>=123</quote> and <quote>-123</"
+"quote> while it can not match <quote>123</quote> in <quote>.123</quote> or "
+"<quote>word123</quote>."
+msgstr ""
+"<userinput>(?&lt;![\\w\\.])[0-9]+</userinput> ifadesi, <quote>=123</quote> "
+"ve <quote>-123</quote> dizilerindeki <quote>123</quote> ile eşleşir; ancak "
+"<quote>.123</quote> veya <quote>word123</quote> içindeki <quote>123</quote> "
+"ile eşleşemez."
+
+#. Tag: term
+#: regular-expressions.docbook:700
+#, no-c-format
+msgid "<userinput>(PATTERN)</userinput> (Capturing group)"
+msgstr "<userinput>(DİZGİ)</userinput> (yakalayan grup)"
+
+#. Tag: para
+#: regular-expressions.docbook:702
+#, no-c-format
+msgid ""
+"The sub pattern within the parentheses is captured and remembered, so that "
+"it can be used in back references. For example, the expression "
+"<userinput>(&amp;quot;+)[^&amp;quot;]*\\1</userinput> matches "
+"<userinput>&quot;&quot;&quot;&quot;text&quot;&quot;&quot;&quot;</userinput> "
+"and <userinput>&quot;text&quot;</userinput>."
+msgstr ""
+"Parantez içindeki alt dizgi yakalanır ve anımsanır; böylece geriye "
+"başvurularda kullanılabilir. Örneğin, <userinput>(&amp;quot;+)[^&amp;quot;]*"
+"\\1</userinput> ifadesi, <userinput>&quot;&quot;&quot;&quot;text&quot;&quot;"
+"&quot;&quot;</userinput> ve <userinput>&quot;text&quot;</userinput> ile "
+"eşleşir."
+
+#. Tag: para
+#: regular-expressions.docbook:707
+#, no-c-format
+msgid ""
+"See the section <link linkend=\"regex-capturing\">Capturing matching text "
+"(back references)</link> for more information."
+msgstr ""
+"Daha fazla bilgi için <link linkend=\"regex-capturing\">Eşleşen metni "
+"yakalamak (geriye başvurular)</link> bölümüne bakın."
+
+#. Tag: term
+#: regular-expressions.docbook:713
+#, no-c-format
+msgid "<userinput>(?:PATTERN)</userinput> (Non-capturing group)"
+msgstr "<userinput>(?:DİZGİ)</userinput> (yakalamayan grup)"
+
+#. Tag: para
+#: regular-expressions.docbook:715
+#, no-c-format
+msgid ""
+"The sub pattern within the parentheses is not captured and is not "
+"remembered. It is preferable to always use non-capturing groups if the "
+"captures will not be used."
+msgstr ""
+"Parantez içindeki alt dizgi yakalanmaz ve anımsanmaz. Yakalamalar "
+"kullanılmayacaksa her zaman yakalamayan grupların kullanılması tercih edilir."

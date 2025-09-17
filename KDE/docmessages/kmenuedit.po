@@ -1,0 +1,1502 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:22+0000\n"
+"PO-Revision-Date: 2025-03-08 00:29+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.03.70\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: index.docbook:15
+#, no-c-format
+msgid "The &kde; Menu Editor Handbook"
+msgstr "&kde; Menü Düzenleyicisi El Kitabı"
+
+#. Tag: author
+#: index.docbook:18
+#, no-c-format
+msgid "&Milos.Prudek; &Milos.Prudek.mail;"
+msgstr "&Milos.Prudek; &Milos.Prudek.mail;"
+
+#. Tag: author
+#: index.docbook:19
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;"
+msgstr "&Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;"
+
+#. Tag: othercredit
+#: index.docbook:20
+#, no-c-format
+msgid "&Lauri.Watts; &Lauri.Watts.mail;"
+msgstr "&Lauri.Watts; &Lauri.Watts.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:24
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: holder
+#: index.docbook:29
+#, no-c-format
+msgid "&Milos.Prudek;"
+msgstr "&Milos.Prudek;"
+
+#. Tag: holder
+#: index.docbook:33
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf;"
+msgstr "&Anne-Marie.Mahfouf;"
+
+#. Tag: date
+#: index.docbook:38
+#, no-c-format
+msgid "2015-04-27"
+msgstr "2015-04-27"
+
+#. Tag: releaseinfo
+#: index.docbook:39
+#, no-c-format
+msgid "Plasma 5.3"
+msgstr "Plasma 5.3"
+
+#. Tag: para
+#: index.docbook:41
+#, no-c-format
+msgid "&kmenuedit; allows editing one of the &kde; application launchers."
+msgstr ""
+"&kmenuedit;, &kde; uygulama başlatıcılarından birini düzenlemenize olanak "
+"verir."
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "KDE Menu Editor"
+msgstr "KDE Menü Düzenleyicisi"
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "kmenuedit"
+msgstr "kmenuedit"
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "application"
+msgstr "uygulama"
+
+#. Tag: keyword
+#: index.docbook:49
+#, no-c-format
+msgid "program"
+msgstr "program"
+
+#. Tag: keyword
+#: index.docbook:50
+#, no-c-format
+msgid "menu"
+msgstr "menü"
+
+#. Tag: keyword
+#: index.docbook:51
+#, no-c-format
+msgid "kickoff"
+msgstr "kickoff"
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "Lancelot"
+msgstr "Lancelot"
+
+#. Tag: title
+#: index.docbook:57
+#, no-c-format
+msgid "Introduction"
+msgstr "Giriş"
+
+#. Tag: para
+#: index.docbook:59
+#, no-c-format
+msgid "&kmenuedit; allows editing the menu of &kde; application launchers."
+msgstr ""
+"&kmenuedit; &kde; uygulama başlatıcılarının menülerini düzenlemeye izin "
+"verir."
+
+#. Tag: para
+#: index.docbook:61
+#, no-c-format
+msgid ""
+"&kmenuedit; can be started either by &RMB; clicking the application launcher "
+"button on the panel and choosing <guimenuitem>Edit Applications...</"
+"guimenuitem>, or by typing <userinput>kmenuedit</userinput> in the &krunner; "
+"line."
+msgstr ""
+"&kmenuedit;, paneldeki uygulama başlatıcısı düğmesine &RMB; ile tıklayıp "
+"<guimenuitem>Uygulamaları Düzenle…</guimenuitem>’yi seçerek veya &krunner; "
+"satırına <userinput>kmenuedit</userinput> yazarak başlatılabilir."
+
+#. Tag: para
+#: index.docbook:66
+#, no-c-format
+msgid "&kmenuedit; allows you to:"
+msgstr "&kmenuedit;, şunları yapmanıza izin verir:"
+
+#. Tag: para
+#: index.docbook:69
+#, no-c-format
+msgid "View and edit the menu used by the current application launcher"
+msgstr ""
+"Geçerli uygulama başlatıcısı tarafından kullanılan menüyü görüntülemek ve "
+"düzenlemek"
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid ""
+"<guimenuitem>Cut</guimenuitem>, <guimenuitem>Copy</guimenuitem> and "
+"<guimenuitem>Paste</guimenuitem> submenus and items"
+msgstr ""
+"Ögeleri ve alt menüleri <guimenuitem>Kes</guimenuitem>, "
+"<guimenuitem>Kopyala</guimenuitem> ve <guimenuitem>Yapıştır</guimenuitem> "
+"yapmak"
+
+#. Tag: para
+#: index.docbook:72
+#, no-c-format
+msgid "Create and delete submenus and items"
+msgstr "Ögeler ve alt menüler oluşturmak ve onları silmek"
+
+#. Tag: para
+#: index.docbook:73
+#, no-c-format
+msgid "Change the order of submenus and items"
+msgstr "Ögelerin ve alt menülerin sıralamasını değiştirmek"
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid "Hide items and add new submenus and items"
+msgstr "Yeni ögeler ve alt menüler eklemek ve ögeleri gizlemek"
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"By default all applications installed on the computer appear in the "
+"application launchers menu of all users. Applications may appear more than "
+"once in several different menus. Empty submenu categories defined in the "
+"desktop menu specification will show up as well, but are not visible in "
+"application launchers unless you install applications belonging to these "
+"categories."
+msgstr ""
+"Bilgisayarda kurulu olan tüm uygulamalar öntanımlı olarak tüm kullanıcıların "
+"uygulama başlatıcıları menüsünde görünür. Uygulamalar birkaç farklı menüde "
+"birden çok kez görünebilir. Masaüstü menü belirtiminde tanımlanan boş alt "
+"menü kategorileri de görünür; ancak bu kategorilere ait uygulamaları "
+"kurmadığınız sürece başlatıcılar bu menüde görünmez."
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid "The tree view has two different entry types:"
+msgstr "Ağaç görünümünün iki farklı girdi türü vardır:"
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid ""
+"Submenu: Only <guilabel>Name</guilabel>, <guilabel>Comment</guilabel> and "
+"<guilabel>Description</guilabel> fields and the button to select an icon are "
+"enabled, the <guilabel>Advanced</guilabel> tab is disabled. Any submenu can "
+"hold additional submenus and/or items."
+msgstr ""
+"Alt menü: Yalnızca <guilabel>Ad</guilabel>, <guilabel>Yorum</guilabel> ve "
+"<guilabel>Açıklama</guilabel> alanları ve bir simge seçme düğmesi etkindir; "
+"<guilabel>Gelişmiş</guilabel> sekmesi devre dışıdır. Herhangi bir alt menü "
+"ek ögeler veya alt menüler içerebilir."
+
+#. Tag: para
+#: index.docbook:90
+#, no-c-format
+msgid ""
+"Items: Use this entry to enter the data for the application you want to add. "
+"For detailed information see <link linkend=\"using-kmenuedit\">Using "
+"&kmenuedit;</link>."
+msgstr ""
+"Ögeler: Eklemek istediğiniz uygulama için veri girişinde bu girdiyi "
+"kullanın. Ayrıntılı bilgi için <link linkend=\"using-kmenuedit\">&kmenuedit; "
+"Kullanımı</link> bölümüne bakın."
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid ""
+"&kmenuedit; has two tree view modes - normal and with hidden entries. To see "
+"the latter check the option <guilabel>Show hidden entries</guilabel> in the "
+"configuration dialog on the <guilabel>General options</guilabel> page."
+msgstr ""
+"&kmenuedit;’in iki ağaç görünümü kipi vardır — normal ve gizli girdiler. "
+"İkincisini görmek için <guilabel>Genel Seçenekler</guilabel> sayfasındaki "
+"<guilabel>Gizli girdileri göster</guilabel> yapılandırma seçeneğini "
+"işaretleyin."
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid ""
+"Many additional entries appear in hidden view mode in the tree. Several "
+"hidden entries seem to be just duplicates but have different command "
+"options. Usually you should never change these hidden entries or you risk to "
+"break some functionality of the system."
+msgstr ""
+"Ağaçtaki gizli görünüm kipinde birçok ek girdi görünür. Birkaç gizli girdi, "
+"yalnızca başka girdilerin kopyası gibi görünür; ancak farklı komut "
+"seçeneklerine sahiptir. Genellikle bu gizli girdileri asla "
+"değiştirmemelisiniz; aksi takdirde sistemin bazı işlevlerini bozma riskiniz "
+"vardır."
+
+#. Tag: para
+#: index.docbook:102
+#, no-c-format
+msgid ""
+"In hidden mode you will have a special submenu <guilabel>.hidden [Hidden]</"
+"guilabel> as top level item in the tree. This special submenu is not "
+"editable. In this submenu all deleted items will be shown at the next start "
+"of &kmenuedit;."
+msgstr ""
+"Gizli kipte, ağaçtaki üst düzey öge olarak özel bir <guilabel>.hidden "
+"[Gizli]</guilabel> alt menüsü görünür. Bu özel alt menü düzenlenemez. Bu alt "
+"menüde, silinen tüm ögeler bir sonraki &kmenuedit; başlatımında gösterilir."
+
+#. Tag: para
+#: index.docbook:105
+#, no-c-format
+msgid ""
+"It is not possible to delete entries using the &GUI; in this special "
+"submenu. They will reappear at the next start of &kmenuedit;."
+msgstr ""
+"Grafik arayüz kullanarak bu özel menüdeki girdileri silmek olanaklı "
+"değildir. &kmenuedit;’in her bir sonraki başlatımında bu girdiler yeniden "
+"ortaya çıkarlar."
+
+#. Tag: title
+#: index.docbook:110
+#, no-c-format
+msgid "Use Cases"
+msgstr "Kullanım Senaryoları"
+
+#. Tag: title
+#: index.docbook:113
+#, no-c-format
+msgid "Adapt the Menu for a User"
+msgstr "Menüyü Bir Kullanıcıya Adapte Etmek"
+
+#. Tag: title
+#: index.docbook:116
+#, no-c-format
+msgid "Reorder Items"
+msgstr "Ögeleri Sıralamak"
+
+#. Tag: para
+#: index.docbook:118
+#, no-c-format
+msgid ""
+"This should be done in hidden view mode where only the submenus and items "
+"visible in the application launcher menu are displayed."
+msgstr ""
+"Bu, yalnızca uygulama başlatıcısı menüsünde görünen alt menülerin ve "
+"ögelerin görüntülendiği gizli görünüm kipinde yapılmalıdır."
+
+#. Tag: para
+#: index.docbook:121
+#, no-c-format
+msgid ""
+"By default the menu is sorted alphabetically using the English names or "
+"descriptions. Using another language than English some submenus and items "
+"therefore will appear in an unsorted order."
+msgstr ""
+"Öntanımlı olarak menü, İngilizce adlar veya açıklamalar kullanılarak "
+"abecesel olarak sıralanmıştır. Bu nedenle, İngilizceden başka bir dil "
+"kullanıldığında bazı alt menüler ve ögeler sıralanmamış olarak görünecektir."
+
+#. Tag: para
+#: index.docbook:124
+#, no-c-format
+msgid ""
+"Use the options in <menuchoice><guimenu>Edit</guimenu><guimenuitem>Sort</"
+"guimenuitem></menuchoice> to sort either by name or description. If you use "
+"the classic application launcher you have to select the corresponding "
+"<guilabel>Format</guilabel> option in the settings dialog. In the &kickoff; "
+"launcher check <guilabel>Show applications by name</guilabel> if you sort "
+"them by name here."
+msgstr ""
+"Ada veya açıklamaya göre sıralamak için <menuchoice><guimenu>Düzen</"
+"guimenu><guimenuitem>Sırala</guimenuitem></menuchoice> menü ögesini "
+"kullanın. Klasik uygulama başlatıcısını kullanıyorsanız ayarlar iletişim "
+"kutusundaki ilgili <guilabel>Biçim</guilabel> seçeneğini seçmelisiniz. "
+"Onları burada ada göre sıralıyorsanız &kickoff; başlatıcısındaki "
+"<guilabel>Uygulamaları ada göre göster</guilabel> seçeneğini işaretleyin."
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"Grouping your frequently used submenus or items together &eg; at the top of "
+"the menu makes selecting them easier. To change the order of particular "
+"items or submenus in the tree use the <guibutton>Move Up</guibutton> or "
+"<guibutton>Move Down</guibutton> button in the toolbar or these actions in "
+"the menu."
+msgstr ""
+"Sık kullandığınız ögelerinizi veya alt menülerinizi; &eg;, gruplamak, onları "
+"daha kolay seçmenizi sağlar. Ağaçtaki belirli ögelerin veya alt menülerin "
+"sıralamasını değiştirmek için araç çubuğundaki <guibutton>Yukarı Taşı</"
+"guibutton> veya <guibutton>Aşağı Taşı</guibutton> düğmelerini kullanın veya "
+"bu eylemleri menüden seçin."
+
+#. Tag: para
+#: index.docbook:133
+#, no-c-format
+msgid ""
+"All application launchers will use the order of submenus defined in "
+"&kmenuedit;."
+msgstr ""
+"Tüm uygulama başlatıcıları, &kmenuedit; içinde tanımlı alt menü sıralamasını "
+"kullanır."
+
+#. Tag: title
+#: index.docbook:138
+#, no-c-format
+msgid "Remove Items from the Menu View"
+msgstr "Menü Görünümünden Ögeleri Kaldırmak"
+
+#. Tag: para
+#: index.docbook:140
+#, no-c-format
+msgid ""
+"Having shown all applications installed on a computer may be confusing for "
+"some users so you may want to hide some less frequently used items or "
+"submenus. There are two different ways to do that:"
+msgstr ""
+"Bilgisayarda kurulu tüm uygulamaları göstermek bazı kullanıcılar için kafa "
+"karıştırıcı olabilir, bu nedenle daha az kullanılan bazı ögeleri veya alt "
+"menüleri gizlemek isteyebilirsiniz. Bunu yapmanın iki farklı yolu vardır:"
+
+#. Tag: para
+#: index.docbook:144
+#, no-c-format
+msgid ""
+"Switch to normal view mode without hidden entries. If you delete items they "
+"are moved to the <guilabel>.hidden [Hidden]</guilabel> submenu. You can move "
+"them back into the tree to have them in the menu again."
+msgstr ""
+"Gizli girdiler olmayan normal görünüm kipine geçin. Ögeleri silerseniz onlar "
+"<guilabel>.hidden [Gizli]</guilabel> alt menüsüne taşınırlar. Yeniden menüde "
+"görüntülemek için onları ağaca geri taşıyabilirsiniz."
+
+#. Tag: para
+#: index.docbook:147
+#, no-c-format
+msgid ""
+"If you delete a submenu it will be really deleted with all its submenus and "
+"items. To recreate them you can use <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Restore to System Menu</guimenuitem></menuchoice>, but "
+"this will remove all your custom submenus and items and the corresponding "
+"<filename class=\"extension\">.desktop</filename> files are deleted too. "
+"This action cannot be reverted."
+msgstr ""
+"Bir alt menüyü silerseniz tüm ögeleri ve alt menüleriyle birlikte gerçekten "
+"silinecektir. Onları yeniden oluşturmak için <menuchoice><guimenu>Düzen</"
+"guimenu><guimenuitem>Menü Sistemini Geri Yükle</guimenuitem></menuchoice> "
+"ögesini kullanabilirsiniz; ancak bu tüm özelleştirilmiş ögelerinizi, alt "
+"menülerinizi ve ilgili <filename class=\"extension\">.desktop</filename> "
+"dosyalarınızı kaldıracaktır."
+
+#. Tag: para
+#: index.docbook:153
+#, no-c-format
+msgid ""
+"The preferred way to remove submenus and items in the menu of an application "
+"launcher is to check <guilabel>Hidden entry</guilabel> on the "
+"<guilabel>General</guilabel> tab and switch to the hidden view mode. In this "
+"mode it is easy to revert changes without destroying the menu structure. The "
+"only drawback is that you have to hide all entries in a submenu manually to "
+"hide the whole submenu from the view."
+msgstr ""
+"Bir uygulama başlatıcısının menüsündeki ögeleri ve alt menüleri kaldırmanın "
+"yeğlenen yöntemi <guilabel>Genel</guilabel> sekmesindeki <guilabel>Gizli "
+"girdi</guilabel> kutusunu işaretlemek ve gizli görünüm kipine geçmektir. Bu "
+"kipte menü yapısını yok etmeden değişikliklerinizi geri alabilirsiniz. Tek "
+"dezavantajı, tüm alt menüyü görünümden gizlemek için bir alt menüdeki tüm "
+"girişleri elle gizlemeniz gerekmesidir."
+
+#. Tag: title
+#: index.docbook:164
+#, no-c-format
+msgid "Adding Custom Items"
+msgstr "Özel Ögeler Eklemek"
+
+#. Tag: para
+#: index.docbook:166
+#, no-c-format
+msgid ""
+"To add custom items (submenu or item) use the actions in the menu or "
+"toolbar. Items need a Name and a Command, without a command entry an item "
+"will not be saved and your addition gets lost."
+msgstr ""
+"Özel ögeler (alt menü veya öge) eklemek için menüdeki veya araç çubuğundaki "
+"eylemleri kullanın. Ögelerin bir Ad ve Komut’a gereksinimi vardır, komut "
+"girişi olmadan hiçbir öge kaydedilmez ve ekleme işleminiz kaybolur."
+
+#. Tag: para
+#: index.docbook:169
+#, no-c-format
+msgid ""
+"If you add an entry it is inserted as sub entry at the actual highlighted "
+"position in the tree. Move an entry by dragging it with the mouse or using "
+"the <guibutton>Move Down</guibutton> button to the bottom of the tree to "
+"make it a top level entry."
+msgstr ""
+"Bir girdi eklerseniz ağaçta asıl vurgulanan konuma alt girdi olarak eklenir. "
+"Bir girdiyi üst düzey bir girdi yapmak için fareyle sürükleyerek veya "
+"<guibutton>Aşağı Taşı</guibutton> düğmesini kullanarak ağacın altına taşıyın."
+
+#. Tag: title
+#: index.docbook:177
+#, no-c-format
+msgid "Transfer application launcher settings"
+msgstr "Uygulama başlatıcısı ayarlarını aktar"
+
+#. Tag: para
+#: index.docbook:179
+#, no-c-format
+msgid ""
+"There is no way to transfer menu settings using the &GUI;, you have to do "
+"that manually and copy the following files to the target user:"
+msgstr ""
+"Menü ayarlarını grafik arayüz kullanarak aktarmanın bir yolu yoktur; bunu "
+"elle aşağıdaki dosyaları hedef kullanıcıya kopyalayarak yapmalısınız:"
+
+#. Tag: para
+#: index.docbook:181
+#, no-c-format
+msgid ""
+"&kmenuedit; stores the menu hierarchy in <filename>menus/applications-"
+"kmenuedit.menu</filename> in the folder <filename class=\"directory\">"
+"$(qtpaths --paths GenericConfigLocation)</filename> and <filename class="
+"\"directory\">desktop-directories</filename> in the folder <filename class="
+"\"directory\">$(qtpaths --paths GenericDataLocation)</filename> contains "
+"desktop files for submenus you created. In <filename class=\"directory"
+"\">applications/</filename> in the folder <filename class=\"directory\">"
+"$(qtpaths --paths GenericDataLocation)</filename> you find the desktop files "
+"for the custom items you created."
+msgstr ""
+"&kmenuedit; menü hiyerarşisini <filename class=\"directory\">$(qtpaths --"
+"paths GenericConfigLocation)</filename> klasöründeki <filename>menus/"
+"applications-kmenuedit.menu</filename> dosyasında depolar; <filename class="
+"\"directory\">$(qtpaths --paths GenericDataLocation)</filename> klasöründeki "
+"<filename class=\"directory\">desktop-directories</filename> dosyasında "
+"oluşturduğunuz alt menü dosyaları için desktop dosyaları bulunur. <filename "
+"class=\"directory\">$(qtpaths --paths GenericDataLocation)</filename> "
+"klasöründeki <filename class=\"directory\">applications/</filename> "
+"dosyasında oluşturduğunuz özel ögeler için desktop dosyalarını bulursunuz."
+
+#. Tag: para
+#: index.docbook:189
+#, no-c-format
+msgid ""
+"The shortcuts for each application are stored in "
+"<filename>kglobalshortcutsrc</filename> in the folder <filename class="
+"\"directory\">$(qtpaths --paths GenericConfigLocation)</filename>, but "
+"export/import does not work because the UUIDs of the shortcuts do not match "
+"up between systems, even though the <filename class=\"extension\">.desktop</"
+"filename> files are the same. You have to assign all shortcuts manually "
+"again."
+msgstr ""
+"Her bir uygulama için kısayollar <filename class=\"directory\">$(qtpaths --"
+"paths GenericConfigLocation)</filename> klasöründeki "
+"<filename>kglobalshortcutsrc</filename> dosyasında depolanır; ancak içe/dışa "
+"aktarma çalışmaz; çünkü kısayolların UUID’leri, <filename class=\"extension"
+"\">.desktop</filename> dosyaları aynı olsa bile sistemler arasında eşleşmez. "
+"Tüm kısayolları elle yeniden atamanız gerekir."
+
+#. Tag: author
+#: index.docbook:203
+#, no-c-format
+msgid "&Virgil.J.Nisly; &Virgil.J.Nisly.mail;"
+msgstr "&Virgil.J.Nisly; &Virgil.J.Nisly.mail;"
+
+#. Tag: title
+#: index.docbook:206
+#, no-c-format
+msgid "Adding a Menu Entry"
+msgstr "Bir Menü Girdisi Eklemek"
+
+#. Tag: para
+#: index.docbook:208
+#, no-c-format
+msgid ""
+"In this example, we will add &firefox; to the <guisubmenu>Internet</"
+"guisubmenu> submenu."
+msgstr ""
+"Bu örnekte, &firefox;’u <guisubmenu>İnternet</guisubmenu> alt menüsüne "
+"ekleyeceğiz."
+
+#. Tag: para
+#: index.docbook:209
+#, no-c-format
+msgid ""
+"To start off, we need to open &kmenuedit;, so &RMB; on the application "
+"launcher menu, click <guimenuitem>Edit Applications...</guimenuitem> to "
+"start &kmenuedit;. After &kmenuedit; has started, select "
+"<guisubmenu>Internet</guisubmenu> as shown in picture below."
+msgstr ""
+"Başlamak için önce &kmenuedit; uygulamasını açmamız gerekiyor; bu yüzden "
+"&kmenuedit; uygulamasını başlatmak için uygulama menüsüne &RMB; ile tıklayıp "
+"<guimenuitem>Uygulamaları Düzenle…</guimenuitem>’ye tıklayın. &kmenuedit; "
+"başladıktan sonra, aşağıdaki görselde gösterildiği üzere "
+"<guisubmenu>İnternet</guisubmenu> alt menüsünü seçin."
+
+#. Tag: screeninfo
+#: index.docbook:213
+#, no-c-format
+msgid "<screeninfo>Select <guisubmenu>Internet</guisubmenu></screeninfo>"
+msgstr "<screeninfo><guisubmenu>İnternet</guisubmenu>’i Seç</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:219
+#, no-c-format
+msgid "<phrase>Select <guisubmenu>Internet</guisubmenu></phrase>"
+msgstr "<phrase><guisubmenu>İnternet</guisubmenu>’i Seç</phrase>"
+
+#. Tag: para
+#: index.docbook:223
+#, no-c-format
+msgid ""
+"Once you have selected <guisubmenu>Internet</guisubmenu>, click on "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>New Item...</guimenuitem></"
+"menuchoice>, opening the <guilabel>New Item</guilabel> dialog, as shown "
+"below. Type the name of the program you want to add, in this case, type "
+"<userinput>firefox</userinput>."
+msgstr ""
+"<guisubmenu>İnternet</guisubmenu>’i seçtikten sonra, "
+"<menuchoice><guimenu>Dosya</guimenu><guimenuitem>Yeni Öge…</guimenuitem></"
+"menuchoice> menü ögesini seçmek, aşağıda gösterildiği üzere <guilabel>Yeni "
+"Öge</guilabel> iletişim kutusunu açar. Eklemek istediğiniz uygulamanın adını "
+"girin; bu örnek için <userinput>firefox</userinput>."
+
+#. Tag: screeninfo
+#: index.docbook:226
+#, no-c-format
+msgid "<guilabel>New Item</guilabel> dialog"
+msgstr "<guilabel>Yeni Öge</guilabel> iletişim kutusu"
+
+#. Tag: phrase
+#: index.docbook:232
+#, no-c-format
+msgid "The <guilabel>New Item</guilabel> dialog."
+msgstr "<guilabel>Yeni Öge</guilabel> iletişim kutusu."
+
+#. Tag: para
+#: index.docbook:237
+#, no-c-format
+msgid ""
+"Press return, and you should see something like the picture below in the "
+"main window."
+msgstr ""
+"Dönüş’e basın ve ana pencerede aşağıdaki resme benzer bir şeyler "
+"görmelisiniz."
+
+#. Tag: screeninfo
+#: index.docbook:240
+#, no-c-format
+msgid "New Item"
+msgstr "Yeni Öge"
+
+#. Tag: phrase
+#: index.docbook:246
+#, no-c-format
+msgid "The new item created."
+msgstr "Oluşturulan yeni öge."
+
+#. Tag: para
+#: index.docbook:251
+#, no-c-format
+msgid ""
+"Now lets fill in the <guilabel>Description:</guilabel>, in this case type "
+"<userinput>Web Browser</userinput>. <note><para>The appearance how "
+"description and name will be displayed depends on the settings in the "
+"application launcher &eg; <quote>Web Browser (Firefox)</quote> or "
+"<quote>Firefox (Web Browser)</quote>.</para></note> We will need to fill in "
+"the executable name in the <guilabel>Command:</guilabel> field, in this "
+"instance we will type <userinput><command>firefox</command></userinput>."
+msgstr ""
+"Şimdi <guilabel>Açıklama:</guilabel> alanını dolduralım; bu örnekte "
+"<userinput>Web Tarayıcı</userinput> yazıyoruz. <note><para>Açıklamanın ve "
+"adın nice görüntüleneceği uygulama başlatıcısının ayarlarına bağlıdır; &eg;, "
+"<quote>Web Tarayıcı (Firefox)</quote> veya <quote>Firefox (Web Tarayıcı)</"
+"quote>.</para></note> <guilabel>Komut:</guilabel> alanında yürütülebilirin "
+"adını girmemiz gerekecek. Buraya <userinput><command>firefox</command></"
+"userinput> yazmalıyız."
+
+#. Tag: para
+#: index.docbook:256
+#, no-c-format
+msgid ""
+"The command has to be in your <envar>PATH</envar> variable or you have to "
+"specify the full path to the executable. If you do not know the executable "
+"name of an application use the <userinput><command>locate</command></"
+"userinput> command to search for the desktop file and enter the string from "
+"the Exec line as command here."
+msgstr ""
+"Komut, <envar>PATH</envar> değişkeninizde olmalıdır veya yürütülebilire olan "
+"tam yolu belirtmelisiniz. Bir uygulamanın yürütülebilirinin adını "
+"bilmiyorsanız desktop dosyasını aramak ve Exec alanındaki diziyi buraya "
+"komut olarak girmek için <userinput><command>locate</command></userinput> "
+"komutunu kullanın."
+
+#. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"Following the command, you can have several place holders which will be "
+"replaced with actual values when the program is run:"
+msgstr ""
+"Komuttan sonra, program çalıştığında gerçek değerlerle değiştirebileceğiniz "
+"birkaç yer tutucu koyabilirsiniz:"
+
+#. Tag: member
+#: index.docbook:262
+#, no-c-format
+msgid "%f - a single file name"
+msgstr "%f — bir tek dosya adı"
+
+#. Tag: member
+#: index.docbook:263
+#, no-c-format
+msgid ""
+"%F - a list of files; use for applications that can open several local files "
+"at once"
+msgstr ""
+"%F — bir dosyalar listesi; birden çok dosyayı aynı anda açabilen "
+"uygulamalarda kullanın"
+
+#. Tag: member
+#: index.docbook:264
+#, no-c-format
+msgid "%u - a single &URL;"
+msgstr "%u — tek bir &URL;"
+
+#. Tag: member
+#: index.docbook:265
+#, no-c-format
+msgid "%U - a list of &URL;s"
+msgstr "%U — bir &URL;’ler listesi"
+
+#. Tag: member
+#: index.docbook:266
+#, no-c-format
+msgid "%d - the folder of a file to open"
+msgstr "%d — açılacak bir dosyanın klasörü"
+
+#. Tag: member
+#: index.docbook:267
+#, no-c-format
+msgid "%D - a list of folders"
+msgstr "%D — bir klasörler listesi"
+
+#. Tag: member
+#: index.docbook:268
+#, no-c-format
+msgid "%i - the icon"
+msgstr "%i — simge"
+
+#. Tag: member
+#: index.docbook:269
+#, no-c-format
+msgid "%m - the mini icon"
+msgstr "%m — ufak simge"
+
+#. Tag: member
+#: index.docbook:270
+#, no-c-format
+msgid "%c - the caption"
+msgstr "%c — alt yazı"
+
+#. Tag: para
+#: index.docbook:272
+#, no-c-format
+msgid ""
+"For example: if you want to firefox to start your web browsing at www.kde."
+"org - instead of <command>firefox</command> you would type <command>firefox "
+"%u www.kde.org</command>."
+msgstr ""
+"Örneğin: Firefox’un web taramaya <command>firefox</command> komutu yerine "
+"www.kde.org ile başlamasını istiyorsanız <command>firefox %u www.kde.org</"
+"command> yazın."
+
+#. Tag: para
+#: index.docbook:273
+#, no-c-format
+msgid ""
+"Most applications accept additional options &eg; the name of a defined "
+"profile like &konqueror; or &konsole;. To see all options for an application "
+"launch <userinput><command><replaceable>applicationname</replaceable></"
+"command> <option>--help</option></userinput> in &konsole;."
+msgstr ""
+"Çoğu uygulamalar ek seçenekler kabul ederler; &eg;, &konqueror; veya "
+"&konsole; gibi tanımlı bir profil. Bir uygulama başlangıcı için tüm "
+"seçenekleri görmek üzere &konsole;’da "
+"<userinput><command><replaceable>uygulamaadı</replaceable></command> "
+"<option>--help</option></userinput> yazın."
+
+#. Tag: para
+#: index.docbook:275
+#, no-c-format
+msgid ""
+"We would like to have a more creative icon, so we will click the generic "
+"icon sitting beside <guilabel>Name:</guilabel> (note, the default icon may "
+"be blank, in which case click in the area to the right of the name entry "
+"box.) It will bring the <guilabel>Select Icon</guilabel> dialog which will "
+"let us choose the new icon, as shown below."
+msgstr ""
+"Daha yaratıcı bir simge koyalım derseniz <guilabel>Ad:</guilabel> alanının "
+"yanındaki düz simgeye tıklayın (not; öntanımlı simge boş olabilir, öyleyse "
+"ad giriş alanının sağındaki alana tıklayın). Bu, yeni simgemizi aşağıda "
+"gösterildiği üzere seçmemize izin verecek olan <guilabel>Simge Seç</"
+"guilabel> iletişim kutusunu getirir."
+
+#. Tag: screeninfo
+#: index.docbook:277
+#, no-c-format
+msgid "<guilabel>Select Icon</guilabel> dialog"
+msgstr "<guilabel>Simge Seç</guilabel> iletişim kutusu"
+
+#. Tag: phrase
+#: index.docbook:283
+#, no-c-format
+msgid "The <guilabel>Select Icon</guilabel> dialog."
+msgstr "<guilabel>Simge Seç</guilabel> iletişim kutusu."
+
+#. Tag: para
+#: index.docbook:288
+#, no-c-format
+msgid ""
+"We choose the firefox icon from the list, and press &Enter;. Your finished "
+"screen should probably look something like the screenshot below."
+msgstr ""
+"Listeden Firefox simgesini seçip &Enter;’e basıyoruz. Bitmiş ekranınız aşağı "
+"yukarı aşağıdaki gibi görünür."
+
+#. Tag: screeninfo
+#: index.docbook:290
+#, no-c-format
+msgid "Done screenshot"
+msgstr "Bitmiş ekran görüntüsü"
+
+#. Tag: phrase
+#: index.docbook:296
+#, no-c-format
+msgid "This is what the completed menu item should looks like."
+msgstr "Bu, bitmiş menü ögesinin nasıl görünmesi gerektiğidir."
+
+#. Tag: para
+#: index.docbook:301
+#, no-c-format
+msgid ""
+"The place of the new menu item can now be changed using <guibutton>Move Up</"
+"guibutton> and <guibutton>Move Down</guibutton> buttons on the &kmenuedit; "
+"toolbar or by dragging with the mouse."
+msgstr ""
+"Yeni menü ögesinin yeri artık &kmenuedit; araç çubuğundaki <guibutton>Yukarı "
+"Taşı</guibutton> ve <guibutton>Aşağı Taşı</guibutton> düğmeleri kullanılarak "
+"veya fare ile sürüklenerek değiştirilebilir."
+
+#. Tag: para
+#: index.docbook:302
+#, no-c-format
+msgid ""
+"The submenu items can be sorted using <guibutton>Sort</guibutton> button on "
+"the &kmenuedit; toolbar or <menuchoice><guimenu>Edit</"
+"guimenu><guisubmenu>Sort</guisubmenu></menuchoice> submenu items."
+msgstr ""
+"Alt menü ögeleri, &kmenuedit; içindeki <guibutton>Sırala</guibutton> "
+"düğmesiyle veya <menuchoice><guimenu>Düzen</guimenu><guisubmenu>Sırala</"
+"guisubmenu></menuchoice> menü ögesiyle sıralanabilir."
+
+#. Tag: para
+#: index.docbook:304
+#, no-c-format
+msgid ""
+"Click <menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></"
+"menuchoice>, wait for the <guilabel>Updating System Configuration</guilabel> "
+"dialog to get finished, you should find &firefox; in the application "
+"launcher <guisubmenu>Internet</guisubmenu> submenu."
+msgstr ""
+"<menuchoice><guimenu>Dosya</guimenu><guimenuitem>Kaydet</guimenuitem></"
+"menuchoice> menü ögesine tıklayın, <guilabel>Sistem Yapılandırması "
+"Güncelleniyor</guilabel> iletişim kutusunun bitmesini bekleyin. &firefox; "
+"uygulamasını başlatıcısındaki <guisubmenu>İnternet</guisubmenu> alt "
+"menüsünde bulabilirsiniz."
+
+#. Tag: title
+#: index.docbook:309
+#, no-c-format
+msgid "Using &kmenuedit;"
+msgstr "&kmenuedit; Kullanımı"
+
+#. Tag: para
+#: index.docbook:311
+#, no-c-format
+msgid ""
+"The left application panel shows the application launcher structure. When "
+"you browse items in the left panel, the right panel shows detailed "
+"information for the highlighted menu item."
+msgstr ""
+"Sol uygulama paneli, uygulama başlatıcısı yapısını gösterir. Sol paneldeki "
+"ögelere göz attığınızda, sağ panel, vurgulanan menü ögesi için ayrıntılı "
+"bilgileri gösterir."
+
+#. Tag: title
+#: index.docbook:316
+#, no-c-format
+msgid "General tab"
+msgstr "Genel sekmesi"
+
+#. Tag: guilabel
+#: index.docbook:320
+#, no-c-format
+msgid "Name:"
+msgstr "Ad:"
+
+#. Tag: para
+#: index.docbook:321
+#, no-c-format
+msgid ""
+"This is the name of your program as it appears in the application launcher "
+"menu. It can be different from the real executable name. For instance the "
+"name of <command>mc</command> executable is \"<application>Midnight "
+"Commander</application>\"."
+msgstr ""
+"Bu, uygulama başlatıcısı menüsünde göründüğü şekliyle programınızın adıdır. "
+"Gerçek yürütülebilir dosya adından farklı olabilir. Örneğin, <command>mc</"
+"command> yürütülebilirinin adı \"<application>Midnight Commander</"
+"application>\"dır."
+
+#. Tag: guilabel
+#: index.docbook:327
+#, no-c-format
+msgid "Description:"
+msgstr "Açıklama:"
+
+#. Tag: para
+#: index.docbook:328
+#, no-c-format
+msgid ""
+"The description will be displayed together with the name in the application "
+"launcher. This is entirely optional."
+msgstr ""
+"Açıklama, uygulama başlatıcısındaki adla birlikte görüntülenecektir. Bu "
+"tümüyle isteğe bağlıdır."
+
+#. Tag: guilabel
+#: index.docbook:331
+#, no-c-format
+msgid "Comment:"
+msgstr "Yorum:"
+
+#. Tag: para
+#: index.docbook:332
+#, no-c-format
+msgid ""
+"Describe the program in greater detail in this field. This is entirely "
+"optional."
+msgstr ""
+"Programı bu alanda daha ayrıntılı olarak açıklayın. Bu tümüyle isteğe "
+"bağlıdır."
+
+#. Tag: guilabel
+#: index.docbook:336
+#, no-c-format
+msgid "Command:"
+msgstr "Komut:"
+
+#. Tag: para
+#: index.docbook:337
+#, no-c-format
+msgid ""
+"This is the name of the executable program. Make sure that you have "
+"permission to run the program."
+msgstr ""
+"Bu, yürütülebilir programın adıdır. Programı çalıştırma izniniz olduğundan "
+"emin olun."
+
+#. Tag: guilabel
+#: index.docbook:341
+#, no-c-format
+msgid "Enable launch feedback"
+msgstr "Başlatma geri bildirimini etkinleştir"
+
+#. Tag: para
+#: index.docbook:342
+#, no-c-format
+msgid ""
+"If this box is checked, this will display feedback when an application is "
+"started."
+msgstr ""
+"Bu kutu işaretlenirse bir uygulama başlatıldığında geri bildirim "
+"görüntülenir."
+
+#. Tag: guilabel
+#: index.docbook:346
+#, no-c-format
+msgid "Only show in &kde;"
+msgstr "Yalnızca &kde;’de göster"
+
+#. Tag: para
+#: index.docbook:347
+#, no-c-format
+msgid ""
+"When checked, the application entry will only be visible in all &kde; "
+"application launchers but not in other desktops environments."
+msgstr ""
+"İşaretlendiğinde, uygulama girdisi yalnızca tüm &kde; uygulama "
+"başlatıcılarında görünür, diğer masaüstü ortamlarında görünmez."
+
+#. Tag: guilabel
+#: index.docbook:351
+#, no-c-format
+msgid "Hidden entry"
+msgstr "Gizli girdi"
+
+#. Tag: para
+#: index.docbook:352
+#, no-c-format
+msgid "Remove an entry from the menu view in the application launcher."
+msgstr "Uygulama başlatıcısındaki menü görünümünden bir girdiyi kaldırın."
+
+#. Tag: title
+#: index.docbook:358
+#, no-c-format
+msgid "Advanced tab"
+msgstr "Gelişmiş sekmesi"
+
+#. Tag: guilabel
+#: index.docbook:362
+#, no-c-format
+msgid "Work path:"
+msgstr "Çalışma dizini:"
+
+#. Tag: para
+#: index.docbook:363
+#, no-c-format
+msgid ""
+"Specify the work path of the program. This will be the current path when the "
+"program launches. It does not need to be the same as the executable location."
+msgstr ""
+"Programın çalışma yolunu belirtin. Bu, program başladığındaki geçerli yol "
+"olur. Yürütülebilir konumuyla aynı olması gerekmez."
+
+#. Tag: guilabel
+#: index.docbook:368
+#, no-c-format
+msgid "Run in terminal"
+msgstr "Uçbirimde çalıştır"
+
+#. Tag: para
+#: index.docbook:369
+#, no-c-format
+msgid ""
+"You must check this if your program requires terminal emulator in order to "
+"run. This mainly applies to <link linkend=\"gloss-console-application"
+"\">console applications</link>."
+msgstr ""
+"Programınızın çalışması için bir uçbirim öykünücüsü gerekiyorsa bunu "
+"işaretlemelisiniz. Bu temel olarak <link linkend=\"gloss-console-application"
+"\">konsol uygulamaları</link> için geçerlidir."
+
+#. Tag: guilabel
+#: index.docbook:375
+#, no-c-format
+msgid "Terminal options:"
+msgstr "Uçbirim seçenekleri:"
+
+#. Tag: para
+#: index.docbook:376
+#, no-c-format
+msgid "Put all terminal options in this field."
+msgstr "Tüm uçbirim seçeneklerini bu alana koyun."
+
+#. Tag: guilabel
+#: index.docbook:379
+#, no-c-format
+msgid "Run as a different user"
+msgstr "Farklı kullanıcı altında çalıştır"
+
+#. Tag: para
+#: index.docbook:380
+#, no-c-format
+msgid ""
+"If you want to run this program as a different user (not you), check this "
+"checkbox, and provide the username in the <guilabel>Username:</guilabel> "
+"field."
+msgstr ""
+"Bu programı farklı bir kullanıcı olarak (sizden başka) çalıştırmak "
+"istiyorsanız bu onay kutusunu işaretleyin ve kullanıcı adını "
+"<guilabel>Kullanıcı adı:</guilabel> alanına girin."
+
+#. Tag: guilabel
+#: index.docbook:386
+#, no-c-format
+msgid "Current shortcut key:"
+msgstr "Geçerli kısayol düğmesi:"
+
+#. Tag: para
+#: index.docbook:387
+#, no-c-format
+msgid "You can assign a special keyboard shortcut to launch your program."
+msgstr "Programınızı başlatmak için özel bir klavye kısayolu atayabilirsiniz."
+
+#. Tag: para
+#: index.docbook:389
+#, no-c-format
+msgid ""
+"Click the <guibutton>None</guibutton> button to the right of the "
+"<guilabel>Current shortcut key:</guilabel> checkbox."
+msgstr ""
+"<guibutton>Geçerli kısayol düğmesi:</guibutton> onay kutusunun sağındaki "
+"<guilabel>Yok:</guilabel> düğmesine tıklayın."
+
+#. Tag: para
+#: index.docbook:392
+#, no-c-format
+msgid ""
+"The button text will change to <guilabel>Input...</guilabel> and you can "
+"press the key combination on your keyboard that you want to be assigned to "
+"your program."
+msgstr ""
+"Düğme metni <guilabel>Giriş…</guilabel> olarak değişir ve programınıza "
+"atamak istediğiniz düğme kombinasyonunu girebilirsiniz."
+
+#. Tag: para
+#: index.docbook:395
+#, no-c-format
+msgid ""
+"You can reset the shortcut to <guilabel>None</guilabel> by using this "
+"button: <inlinemediaobject><imageobject> <imagedata fileref=\"reset.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject>."
+msgstr ""
+"Kısayolu, bu düğmeyi kullanarak yine <guilabel>Yok</guilabel> "
+"yapabilirsiniz: <inlinemediaobject><imageobject> <imagedata fileref=\"reset."
+"png\" format=\"PNG\"/></imageobject></inlinemediaobject>."
+
+#. Tag: para
+#: index.docbook:399
+#, no-c-format
+msgid ""
+"Don't forget to save your setting by clicking the toolbar <guiicon>Save</"
+"guiicon> icon or using the <menuchoice> <guimenu>File</"
+"guimenu><guimenuitem>Save</guimenuitem> </menuchoice> menu item."
+msgstr ""
+"<guiicon>Save</guiicon> simgesini veya <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Kaydet</guimenuitem></menuchoice> menü ögesini "
+"kullanarak ayarlarınızı kaydetmeyi unutmayın."
+
+#. Tag: title
+#: index.docbook:411
+#, no-c-format
+msgid "Menu Reference"
+msgstr "Menü Başvurusu"
+
+#. Tag: para
+#: index.docbook:413
+#, no-c-format
+msgid ""
+"Most actions in the menubar are also available in the context menu opened "
+"with a &RMB; click on an item in the tree view."
+msgstr ""
+"Menü çubuğundaki çoğu eylem, bir ögeye ağaç görünümündeyken &RMB; ile sağ "
+"tıklandığında açılan bağlam menüsünde de kullanılabilir."
+
+#. Tag: menuchoice
+#: index.docbook:418
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>New Item...</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>Dosya</guimenu> <guimenuitem>Yeni Öge…</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:422
+#, no-c-format
+msgid "Adds new menu item."
+msgstr "Yeni menü ögesi ekler."
+
+#. Tag: menuchoice
+#: index.docbook:427
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>New Submenu...</guimenuitem>"
+msgstr "<guimenu>Dosya</guimenu> <guimenuitem>Yeni Alt Menü…</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:431
+#, no-c-format
+msgid "Adds new submenu."
+msgstr "Yeni alt menü ekler."
+
+#. Tag: menuchoice
+#: index.docbook:435
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo></"
+"shortcut> <guimenu>File</guimenu><guimenuitem>Save</guimenuitem>"
+msgstr ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo></"
+"shortcut> <guimenu>Dosya</guimenu><guimenuitem>Kaydet</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:441
+#, no-c-format
+msgid "Saves the menu"
+msgstr "Menüyü kaydeder."
+
+#. Tag: menuchoice
+#: index.docbook:446
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>Dosya</guimenu> <guimenuitem>Çık</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:453
+#, no-c-format
+msgid "<action>Quits</action> &kmenuedit;."
+msgstr "&kmenuedit; uygulamasından <action>çıkar</action>."
+
+#. Tag: menuchoice
+#: index.docbook:457
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Move Up</guimenuitem>"
+msgstr "<guimenu>Düzen</guimenu> <guimenuitem>Yukarı Taşı</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:461
+#, no-c-format
+msgid "<action>Moves</action> the selected item up in its submenu."
+msgstr "Seçili ögeyi alt menüsünde <action>yukarı taşır</action>."
+
+#. Tag: menuchoice
+#: index.docbook:465
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Move Down</guimenuitem>"
+msgstr "<guimenu>Düzen</guimenu> <guimenuitem>Aşağı Taşı</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:469
+#, no-c-format
+msgid "<action>Moves</action> the selected item down in its submenu."
+msgstr "Seçili ögeyi alt menüsünde <action>aşağı taşır</action>."
+
+#. Tag: menuchoice
+#: index.docbook:474
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo> </"
+"shortcut> <guimenu> Edit</guimenu> <guimenuitem>Cut</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo> </"
+"shortcut> <guimenu> Düzen</guimenu> <guimenuitem>Kes</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:481
+#, no-c-format
+msgid ""
+"<action>Cuts the current menu item to the clipboard.</action> If you want to "
+"move menu item, you should first cut it to the clipboard, move to the "
+"destination place using the left panel, and use the <guimenuitem>Paste</"
+"guimenuitem> function to paste the menu item from the clipboard."
+msgstr ""
+"<action>Geçerli menü ögesini panoya keser</action>. Menü ögesini taşımak "
+"istiyorsanız onu önce panoya kesmeli, sol paneli kullanarak hedef konuma "
+"taşımalı ve panodan yapıştırmak için <guimenuitem>Yapıştır</guimenuitem> "
+"işlevini kullanmalısınız."
+
+#. Tag: menuchoice
+#: index.docbook:489
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> </"
+"shortcut> <guimenu> Edit</guimenu> <guimenuitem>Copy</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> </"
+"shortcut> <guimenu> Düzen</guimenu> <guimenuitem>Kopyala</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:496
+#, no-c-format
+msgid ""
+"<action>Copies the current menu item to the clipboard</action>. You can "
+"later use the <guimenuitem>Paste</guimenuitem> function to paste the copied "
+"menu item from the clipboard to its destination. You can paste the same item "
+"many times."
+msgstr ""
+"<action>Geçerli menü ögesini panoya kopyalar</action>. Sonrasında, "
+"kopyalanan menü ögesini panodan hedef konumuna yapıştırmak için "
+"<guimenuitem>Yapıştır</guimenuitem> işlevini kullanabilirsiniz. Aynı ögeyi "
+"birden çok kez yapıştırabilirsiniz."
+
+#. Tag: menuchoice
+#: index.docbook:503
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo> </"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Paste</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo> </"
+"shortcut> <guimenu>Düzen</guimenu> <guimenuitem>Yapıştır</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:509
+#, no-c-format
+msgid ""
+"<action>Paste menu item from the clipboard</action> to currently selected "
+"place in the main menu. You must first use <guimenuitem>Cut</guimenuitem> or "
+"<guimenuitem>Copy</guimenuitem> before you can <guimenuitem>Paste</"
+"guimenuitem>."
+msgstr ""
+"Panodaki menü ögesini ana menüdeki <action>geçerli seçili konuma yapıştırın</"
+"action>. <guimenuitem>Yapıştır</guimenuitem> yapabilmeniz için önce "
+"<guimenuitem>Kes</guimenuitem> veya <guimenuitem>Kopyala</guimenuitem> "
+"yapmalısınız."
+
+#. Tag: menuchoice
+#: index.docbook:516
+#, no-c-format
+msgid ""
+"<shortcut><keycap>Del</keycap></shortcut> <guimenu>Edit</guimenu> "
+"<guimenuitem>Delete</guimenuitem>"
+msgstr ""
+"<shortcut><keycap>Sil</keycap></shortcut> <guimenu>Düzen</guimenu> "
+"<guimenuitem>Sil</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:520
+#, no-c-format
+msgid "Deletes currently selected menu item."
+msgstr "Geçerli seçili menü ögesini siler."
+
+#. Tag: menuchoice
+#: index.docbook:525
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guisubmenu>Sort</guisubmenu>"
+msgstr "<guimenu>Düzen</guimenu> <guisubmenu>Sırala</guisubmenu>"
+
+#. Tag: para
+#: index.docbook:529
+#, no-c-format
+msgid ""
+"<action>Opens</action> submenu to sort selected submenu or all menu tree. "
+"There are two sorting methods implemented, namely, by the name and by the "
+"description."
+msgstr ""
+"Seçili alt menüyü veya tüm menü ağacını sıralamak için alt menüyü "
+"<action>açar</action>. Ada veya açıklamaya göre sıralayabilirsiniz."
+
+#. Tag: menuchoice
+#: index.docbook:533
+#, no-c-format
+msgid ""
+"<guimenu>Edit</guimenu> <guimenuitem>Restore to System Menu</guimenuitem>"
+msgstr ""
+"<guimenu>Düzen</guimenu> <guimenuitem>Sistem Menüsünü Geri Yükle</"
+"guimenuitem>"
+
+#. Tag: action
+#: index.docbook:536
+#, no-c-format
+msgid ""
+"This will restore the application launcher as it was as default and remove "
+"all your custom settings. A message box will ask you if you really want to "
+"do that."
+msgstr ""
+"Bu, uygulama başlatıcısını öntanımlı durumuna geri yükler ve tüm özel "
+"ayarlarınızı kaldırır. Bunu gerçekten yapmak isteyip istemediğinizi soran "
+"bir ileti kutusu çıkacaktır."
+
+#. Tag: para
+#: index.docbook:541
+#, no-c-format
+msgid ""
+"&kmenuedit; has the common &kde; <guimenu>Settings</guimenu> and "
+"<guimenu>Help</guimenu> menu items, for more information read the sections "
+"about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+"&kmenuedit; yazılımında ortak &kde; <guimenu>Ayarlar</guimenu> ve "
+"<guimenu>Yardım</guimenu> menü ögeleri vardır; daha fazla bilgi için &kde; "
+"Temelleri’nde <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Ayarlar Menüsü</ulink> ve <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Yardım Menüsü</ulink> ile ilgili bölüme bakın."
+
+#. Tag: title
+#: index.docbook:551
+#, no-c-format
+msgid "Credits and License"
+msgstr "Emeği Geçenler ve Lisans"
+
+#. Tag: para
+#: index.docbook:553
+#, no-c-format
+msgid "&kmenuedit;"
+msgstr "&kmenuedit;"
+
+#. Tag: para
+#: index.docbook:556
+#, no-c-format
+msgid "Program copyright &copy; 2002, &Raffaele.Sandrini;"
+msgstr "Program telif hakkı &copy; 2002, &Raffaele.Sandrini;"
+
+#. Tag: para
+#: index.docbook:558
+#, no-c-format
+msgid "Contributors:"
+msgstr "Katkıcılar:"
+
+#. Tag: para
+#: index.docbook:560
+#, no-c-format
+msgid "&Matthias.Elter; &Matthias.Elter.mail; - Original Author"
+msgstr "&Matthias.Elter; &Matthias.Elter.mail; — Özgün Yazar"
+
+#. Tag: para
+#: index.docbook:563
+#, no-c-format
+msgid "&Matthias.Ettrich; &Matthias.Ettrich.mail;"
+msgstr "&Matthias.Ettrich; &Matthias.Ettrich.mail;"
+
+#. Tag: para
+#: index.docbook:565
+#, no-c-format
+msgid "&Daniel.M.Duley; &Daniel.M.Duley.mail;"
+msgstr "&Daniel.M.Duley; &Daniel.M.Duley.mail;"
+
+#. Tag: para
+#: index.docbook:567
+#, no-c-format
+msgid "&Preston.Brown; &Preston.Brown.mail;"
+msgstr "&Preston.Brown; &Preston.Brown.mail;"
+
+#. Tag: para
+#: index.docbook:571
+#, no-c-format
+msgid "Documentation copyright &copy; 2000 &Milos.Prudek;"
+msgstr "Belgelendirme telif hakkı &copy; 2000 &Milos.Prudek;"
+
+#. Tag: para
+#: index.docbook:572
+#, no-c-format
+msgid "Documentation copyright &copy; 2008 &Anne-Marie.Mahfouf;"
+msgstr "Belgelendirme telif hakkı &copy; 2008 &Anne-Marie.Mahfouf;"
+
+#. Tag: para
+#: index.docbook:573
+#, no-c-format
+msgid "Updated for &kde; 3.0 by &Lauri.Watts; &Lauri.Watts.mail; 2002"
+msgstr ""
+"&kde; 3.0 için &Lauri.Watts; &Lauri.Watts.mail; (2002) tarafından "
+"güncellenmiştir"
+
+#. Tag: trans_comment
+#: index.docbook:576
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr "<para>Çeviri: Emir SARI <email>emir_sari@icloud.com</email></para>"
+
+#. Tag: chapter
+#: index.docbook:576
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr "&underFDL; &underGPL;"
+
+#. Tag: title
+#: index.docbook:584
+#, no-c-format
+msgid "Glossary"
+msgstr "Kavram Dizini"
+
+#. Tag: glossterm
+#: index.docbook:587
+#, no-c-format
+msgid "Console Application"
+msgstr "Konsol Uygulaması"
+
+#. Tag: para
+#: index.docbook:590
+#, no-c-format
+msgid ""
+"Application originally written for non-graphic, text oriented environment. "
+"Such applications run fine in &kde;. They must run within console emulator, "
+"like &konsole;. They are not warned automatically when you shut down your "
+"&kde; session. You therefore must not forget to save documents open in these "
+"applications before you log out from the &kde;."
+msgstr ""
+"Uygulama, ilk olarak grafik olmayan, metin odaklı ortamlar için yazılmıştır. "
+"Bu tür uygulamalar &kde; ile uyumludur; &konsole; gibi konsol "
+"öykünücülerinde çalışırlar. Ancak, &kde; oturumunuzu kapattığınızda otomatik "
+"olarak uyarılmazlar. Bu nedenle, &kde; oturumunu kapatmadan önce bu "
+"uygulamalarda açık olan belgeleri kaydetmeyi unutmamalısınız."
+
+#. Tag: para
+#: index.docbook:597
+#, no-c-format
+msgid ""
+"Console applications support copying and pasting from &kde;-compliant "
+"applications.Simply mark the text in the console application with your "
+"mouse, switch to the &kde;-compliant application and press <keycombo action="
+"\"simul\">&Ctrl; <keycap>V</keycap></keycombo> to paste the text. If you "
+"want to copy from &kde; application to a console application, first mark the "
+"text with your mouse, press <keycombo action=\"simul\">&Ctrl; <keycap>C</"
+"keycap></keycombo>, switch to the console application and press the middle "
+"button on your mouse<footnote><para>If your mouse does not have a middle "
+"button, you must press <mousebutton>left</mousebutton> and "
+"<mousebutton>right</mousebutton> button at the same time. This is called "
+"<quote>middle button emulation</quote> and it must be supported by your "
+"operating system to work.</para></footnote>."
+msgstr ""
+"Konsol uygulamaları, &kde; uyumlu uygulamalardan kopyalamayı ve yapıştırmayı "
+"desteklerler. Yalnızca farenizle konsol uygulamanızda metni imleyin, &kde; "
+"uyumlu uygulamanıza geçin ve metni yapıştırmak için <keycombo action=\"simul"
+"\">&Ctrl; <keycap>V</keycap></keycombo> kısayoluna basın. Bir &kde; "
+"uygulamasından bir konsol uygulamasına yapıştırmak istiyorsanız önce metni "
+"farenizle imleyin, <keycombo action=\"simul\">&Ctrl; <keycap>C</keycap></"
+"keycombo> kısayoluna basın, konsol uygulamasına geçin ve farenizin orta "
+"düğmesine basın. <footnote><para>Farenizin bir orta düğmesi yoksa "
+"<mousebutton>sol</mousebutton> ve <mousebutton>sağ</mousebutton> fare "
+"düğmelerine aynı anda basabilirsiniz. Buna, <quote>orta düğme öykünmesi</"
+"quote> denir ve işletim sisteminiz tarafından genelde desteklenir.</para></"
+"footnote>."

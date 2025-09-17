@@ -1,0 +1,262 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: keditbookmarks_man-kbookmarkmerger.1\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-04 00:47+0000\n"
+"PO-Revision-Date: 2025-03-08 00:26+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: man-kbookmarkmerger.1.docbook:10
+#, no-c-format
+msgid "kbookmarkmerger User's Manual"
+msgstr "kbookmarkmerger Kullanıcı Kılavuzu"
+
+#. Tag: author
+#: man-kbookmarkmerger.1.docbook:11
+#, no-c-format
+msgid "<author>&Frerich.Raabe; &Frerich.Raabe.mail;</author>"
+msgstr "<author>&Frerich.Raabe; &Frerich.Raabe.mail;</author>"
+
+#. Tag: date
+#: man-kbookmarkmerger.1.docbook:15
+#, no-c-format
+msgid "2016-11-07"
+msgstr "2016-11-07"
+
+#. Tag: releaseinfo
+#: man-kbookmarkmerger.1.docbook:16
+#, no-c-format
+msgid "Applications 16.12"
+msgstr "Uygulamalar 16.12"
+
+#. Tag: productname
+#: man-kbookmarkmerger.1.docbook:17
+#, no-c-format
+msgid "KDE Applications"
+msgstr "KDE Uygulamaları"
+
+#. Tag: refentrytitle
+#: man-kbookmarkmerger.1.docbook:21
+#, no-c-format
+msgid "<refentrytitle>&kbookmarkmerger;</refentrytitle>"
+msgstr "<refentrytitle>&kbookmarkmerger;</refentrytitle>"
+
+#. Tag: manvolnum
+#: man-kbookmarkmerger.1.docbook:22
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr "<manvolnum>1</manvolnum>"
+
+#. Tag: refname
+#: man-kbookmarkmerger.1.docbook:26
+#, no-c-format
+msgid "<refname>&kbookmarkmerger;</refname>"
+msgstr "<refname>&kbookmarkmerger;</refname>"
+
+#. Tag: refpurpose
+#: man-kbookmarkmerger.1.docbook:27
+#, no-c-format
+msgid ""
+"A program for merging a given set of bookmarks into the user's list of "
+"bookmarks."
+msgstr ""
+"Belirli bir yer imi kümesini kullanıcının yer imi listesinde birleştiren bir "
+"program."
+
+#. Tag: cmdsynopsis
+#: man-kbookmarkmerger.1.docbook:32
+#, no-c-format
+msgid "&kbookmarkmerger; <arg choice=\"req\">directory</arg>"
+msgstr "&kbookmarkmerger; <arg choice=\"req\">dizini</arg>"
+
+#. Tag: title
+#: man-kbookmarkmerger.1.docbook:39
+#, no-c-format
+msgid "Description"
+msgstr "Açıklama"
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:40
+#, no-c-format
+msgid ""
+"&kbookmarkmerger; is a program for merging a given set of bookmarks into the "
+"user's set of bookmarks; if the user doesn't have any bookmarks created yet, "
+"a new bookmark list is created and the given bookmarks are inserted into it. "
+"While doing this, &kbookmarkmerger; keeps track of which files were merged "
+"in a previous run already, so no bookmark will get installed to the user's "
+"bookmarks more than once."
+msgstr ""
+"&kbookmarkmerger; belirli bir yer işareti kümesini, kullanıcının yer imi "
+"kümesinde birleştirmek için kullanılan bir programdır; kullanıcı henüz "
+"oluşturulmuş yer imlerine sahip değilse yeni bir yer imi listesi oluşturulur "
+"ve yer imlerine eklenir. Bunu yaparken &kbookmarkmerger;, hangi dosyaların "
+"bir önceki çalışmada zaten birleştirildiğini izler; dolayısıyla hiç yer imi, "
+"kullanıcının yer imlerine birden fazla kez eklenmez."
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:50
+#, no-c-format
+msgid ""
+"The traditionally used approach to achieve something like this was to use "
+"carefully crafted skeleton home directories when creating a new user "
+"account, to provide the user with a standard set of bookmarks. The problem "
+"with this approach is that after the user account has been created, no new "
+"bookmarks can be propagated."
+msgstr ""
+"Böyle bir şeye ulaşmak için geleneksel olarak kullanılan yaklaşım, "
+"kullanıcıya yeni bir kullanıcı hesabı oluştururken, kullanıcıya standart yer "
+"imi takımı sağlamak için dikkatle hazırlanmış ev dizinleri kullanmaktır. Bu "
+"yaklaşımla ilgili sorun, kullanıcı hesabı oluşturulduktan sonra hiçbir yeni "
+"yer iminin çoğaltılamaz olmasıdır."
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:56
+#, no-c-format
+msgid ""
+"This mechanism is useful for system administrators who want to propagate a "
+"bookmark pointing to a certain document (for instance, important notes about "
+"the system) to all users. Distributors might find it useful as well, for "
+"instance by augmenting the software packages they supply with bookmark files "
+"which &kbookmarkmerger; merges into the user's bookmark list when the "
+"package is installed. That way, documentation shipped with a software "
+"package is easily and visibly accessible right after the package has been "
+"installed."
+msgstr ""
+"Bu mekanizma, belirli bir belgeye işaret eden bir yer imi (örneğin, sistemle "
+"ilgili önemli notlar) yaymak isteyen sistem yöneticileri için ve tüm "
+"kullanıcılar için yararlıdır. Dağıtıcılar, örneğin, paketin kurulu olduğu "
+"sırada &kbookmarkmerger;’ın kullanıcının yer imi listesine eklediği yer imi "
+"dosyasıyla sağladıkları yazılım paketlerini genişleterek de kullanabilirler. "
+"Bu yolla, bir yazılım paketiyle gönderilen belgeler, paket kurulduktan hemen "
+"sonra kolayca ve gözle görülür şekilde erişilebilir olacaktır."
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:65
+#, no-c-format
+msgid ""
+"The only parameter required by &kbookmarkmerger; is the name of a directory "
+"which shall be scanned for bookmark files. All files in the given directory "
+"will be considered for being merged into the user's setup. The files in the "
+"given directory should be valid <acronym>XBEL</acronym> files."
+msgstr ""
+"&kbookmarkmerger; tarafından gereken tek parametre, yer imi dosyaları için "
+"taranacak bir dizinin adıdır. Verilen dizindeki tüm dosyalar, kullanıcının "
+"kurulumunda birleştirilmek üzere değerlendirilecektir. Verilen dizindeki "
+"dosyalar geçerli <acronym>XBEL</acronym> dosyaları olmalıdır."
+
+#. Tag: title
+#: man-kbookmarkmerger.1.docbook:73
+#, no-c-format
+msgid "See Also"
+msgstr "Ayrıca Bakınız"
+
+#. Tag: ulink
+#: man-kbookmarkmerger.1.docbook:75
+#, no-c-format
+msgid "&konqueror; manual"
+msgstr "&konqueror; kılavuzu"
+
+#. Tag: member
+#: man-kbookmarkmerger.1.docbook:76
+#, no-c-format
+msgid "kf6options(7)"
+msgstr "kf6options(7)"
+
+#. Tag: member
+#: man-kbookmarkmerger.1.docbook:77
+#, no-c-format
+msgid "qt6options(7)"
+msgstr "kf6options(7)"
+
+#. Tag: title
+#: man-kbookmarkmerger.1.docbook:82
+#, no-c-format
+msgid "Examples"
+msgstr "Örnekler"
+
+#. Tag: screen
+#: man-kbookmarkmerger.1.docbook:83
+#, no-c-format
+msgid ""
+"joe@hal9000:~> <command>kbookmarkmerger <filename>/usr/local/extra-"
+"bookmarks</filename></command>"
+msgstr ""
+"yamtar@kde9000:~> <command>kbookmarkmerger <filename>/usr/local/extra-"
+"bookmarks</filename></command>"
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:84
+#, no-c-format
+msgid ""
+"Merges all bookmark files stored in <filename>/usr/local/extra-bookmarks</"
+"filename> into joe's list of bookmarks."
+msgstr ""
+"<filename>/usr/local/extra-bookmarks</filename> içinde depolanmış tüm yer "
+"imi dosyalarını Yamtar’ın yer imleri listesiyle birleştirir."
+
+#. Tag: title
+#: man-kbookmarkmerger.1.docbook:90
+#, no-c-format
+msgid "Standards"
+msgstr "Standartlar"
+
+#. Tag: ulink
+#: man-kbookmarkmerger.1.docbook:93
+#, no-c-format
+msgid "<acronym>XBEL</acronym> specification"
+msgstr "<acronym>XBEL</acronym> belirtimi"
+
+#. Tag: title
+#: man-kbookmarkmerger.1.docbook:99
+#, no-c-format
+msgid "Restrictions"
+msgstr "Kısıtlamalar"
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:100
+#, no-c-format
+msgid ""
+"When determining whether a given bookmark file has been merged into the "
+"user's bookmarks already or not, &kbookmarkmerger; merely looks at the "
+"filename of the bookmark file - the contents are not checked at all. This "
+"means that changing a bookmark file which was already merged into a user's "
+"bookmarks will not trigger merging it once again."
+msgstr ""
+"Belirli bir yer imi dosyasının kullanıcının yer imlerine zaten birleştirilip "
+"birleştirilmediğini belirlerken &kbookmarkmerger;, yalnızca yer imi "
+"dosyasının adına bakar — içerikler hiç denetlenmez. Bu, zaten bir "
+"kullanıcının yer imlerine birleştirilen bir yer imi dosyasını "
+"değiştirmesinin, onu bir kez daha birleştirmeye başlamayacağı anlamına "
+"gelmektedir."
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:106
+#, no-c-format
+msgid ""
+"Also note that in case a user modifies a bookmark which was merged into his "
+"setup, the original bookmark file will be left unmodified."
+msgstr ""
+"Ayrıca bir kullanıcının kurulumunda birleştirilen bir yer imini değiştirmesi "
+"durumunda, özgün yer imi dosyasının değiştirilmeyeceğini unutmayın."
+
+#. Tag: title
+#: man-kbookmarkmerger.1.docbook:111
+#, no-c-format
+msgid "Author"
+msgstr "Yazar"
+
+#. Tag: para
+#: man-kbookmarkmerger.1.docbook:112
+#, no-c-format
+msgid "<para>&Frerich.Raabe; &Frerich.Raabe.mail;</para>"
+msgstr "<para>&Frerich.Raabe; &Frerich.Raabe.mail;</para>"

@@ -1,0 +1,213 @@
+#
+# Volkan Gezer <volkangezer@gmail.com>, 2015.
+# SPDX-FileCopyrightText: 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-03-07 00:53+0000\n"
+"PO-Revision-Date: 2025-03-07 15:23+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "AdBlocK Filters"
+msgstr "AdBlock Süzgeçleri"
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Krishna.Tateneni; &Krishna.Tateneni.mail;"
+msgstr "&Krishna.Tateneni; &Krishna.Tateneni.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Turgay</"
+"firstname><surname>GÜLMEZ</"
+"surname><affiliation><address><email>turgaygulmez@windowslive.com</email></"
+"address></affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: date
+#: index.docbook:16
+#, no-c-format
+msgid "2016-11-08"
+msgstr "2016-11-08"
+
+#. Tag: releaseinfo
+#: index.docbook:17
+#, no-c-format
+msgid "Applications 16.12"
+msgstr "Uygulamalar 16.12"
+
+#. Tag: para
+#: index.docbook:20
+#, no-c-format
+msgid ""
+"&konqueror; AdBlocK can be configured to replace or remove images or frames "
+"from web pages that match a series of filters."
+msgstr ""
+"&konqueror; AdBlock, bir dizi süzgeçle eşleşen web sayfalarındaki görselleri "
+"veya kareleri değiştirmek/kaldırmak üzere yapılandırılabilir."
+
+#. Tag: para
+#: index.docbook:23
+#, no-c-format
+msgid ""
+"The setting <guilabel>Enable filters</guilabel> enables or disables the use "
+"of list of URL filters."
+msgstr ""
+"<guilabel>Süzgeçleri etkinleştir</guilabel> ayarı, URL süzgeçleri listesinin "
+"kullanımını etkinleştirir veya devre dışı bırakır."
+
+#. Tag: para
+#: index.docbook:25
+#, no-c-format
+msgid ""
+"If <guilabel>Hide filtered images</guilabel> is enabled then blocked images "
+"are completely removed from the page and the space they occupied is "
+"reclaimed. If the option is disabled then a placeholder image is used in "
+"place of filtered images."
+msgstr ""
+"<guilabel>Süzülen görselleri gizle</guilabel> etkinleştirilirse engellenen "
+"görseller sayfadan tümüyle kaldırılır ve kapladıkları alan geri alınır. "
+"Seçenek devre dışı bırakılırsa süzülmüş görsellerin yerine bir yer tutucu "
+"görsel kullanılır."
+
+#. Tag: guilabel
+#: index.docbook:32
+#, no-c-format
+msgid "Manual Filter"
+msgstr "Elle Süzgeç"
+
+#. Tag: para
+#: index.docbook:34
+#, no-c-format
+msgid ""
+"The main part of this tab is a list of URLs that will be compared against "
+"image and frame names to decide on fitlering actions. The wildcards can be "
+"given as filename style regular expressions."
+msgstr ""
+"Bu sekmenin ana kısmı, süzme eylemlerine karar vermek için görsel ve çerçeve "
+"adlarıyla karşılaştırılacak URL’lerin bir listesidir. Joker karakterler, "
+"dosya adı biçemli düzenli ifadeler olarak verilebilir."
+
+#. Tag: para
+#: index.docbook:39
+#, no-c-format
+msgid ""
+"Each filter can either be expressed as a file style wildcard string (e.g. "
+"http://www.site.com/ads/*) or as a full regular expression by enclosing the "
+"filter with forward slashes (e.g. //(ads|dclk)\\./)."
+msgstr ""
+"Her süzme, dosya biçemi joker karakter dizisi olarak (örneğin, http://www."
+"site.com/ads/*)veya süzgeci eğik çizgilerle çevreleyerek tam bir düzenli "
+"ifade (örneğin, //(ads|dclk)\\./) olarak ifade edilebilir."
+
+#. Tag: para
+#: index.docbook:43
+#, no-c-format
+msgid ""
+"Any filter string can be preceded by <literal>@@</literal> to whitelist "
+"(allow) any matching &URL;, which takes priority over any blacklist "
+"(blocking) filter."
+msgstr ""
+"Herhangi bir süzgeç dizisinin önüne <literal>@@</literal> eklenerek eşleşen "
+"herhangi bir &URL;’nin beyaz listeye alınması (izin verilmesi) sağlanabilir; "
+"bu, herhangi bir kara liste (engelleme) süzgecine göre önceliklidir."
+
+#. Tag: para
+#: index.docbook:47
+#, no-c-format
+msgid ""
+"<guilabel>Import</guilabel> and <guilabel>Export</guilabel> will save or "
+"read the current filter list to a plain text file. The file begins with a "
+"header line <userinput>[AdBlock]</userinput>, then all of the filters follow "
+"each on a separate line. Lines prefixed with an exclamation mark "
+"(<userinput>!</userinput>) and the header line are treated as comments and "
+"can be used to clarify or label a set of filters."
+msgstr ""
+"<guilabel>İçe Aktar</guilabel> ve <guilabel>Dışa Aktar</guilabel>, geçerli "
+"süzgeç listesini düz metin dosyasına kaydeder veya okur. Dosya bir başlık "
+"satırı <userinput>[AdBlock]</userinput> ile başlar, ardından tüm süzgeçler "
+"her birini ayrı bir satırda takip eder. Ünlem işareti (<userinput>!</"
+"userinput>) öneki olan satırlar ve başlık satırı yorum olarak ele alınır ve "
+"bir süzgeç kümesini açıklamak veya etiketlemek için kullanılabilir."
+
+#. Tag: para
+#: index.docbook:54
+#, no-c-format
+msgid ""
+"Highlight an entry from the list to change it in the edit box or remove this "
+"item. Enter a new filter string here and add it to the list using the "
+"<guibutton> Insert</guibutton> button."
+msgstr ""
+"Düzenleme kutusunda değiştirmek veya bu ögeyi kaldırmak için listeden bir "
+"girdiyi vurgulayın. Buraya yeni bir süzgeç dizisi girin ve <guibutton> Ekle</"
+"guibutton> düğmesini kullanarak listeye ekleyin."
+
+#. Tag: guilabel
+#: index.docbook:61
+#, no-c-format
+msgid "Automatic Filter"
+msgstr "Kendiliğinden Süzgeç"
+
+#. Tag: para
+#: index.docbook:63
+#, no-c-format
+msgid ""
+"This tab shows a list of names and &URL;’s with predefined AdBlock filter "
+"entries. To enable an entry tick the checkbox beside the filter name and "
+"adjust the <guilabel>Automatic update interval</guilabel> (default 7 days)."
+msgstr ""
+"Bu sekme, önceden tanımlanmış AdBlock süzgeç girişlerine sahip adların ve "
+"&URL;’lerin bir listesini gösterir. Bir girişi etkinleştirmek için süzgeç "
+"adının yanındaki onay kutusunu işaretleyin ve <guilabel>Kendiliğinden "
+"güncelleme aralığı</guilabel>’nı ayarlayın (öntanımlı olarak 7 gün)."
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"If AdBlock filters are enabled, an icon at the right side of status bar is "
+"shown. Use a &RMB; click on this icon to open the context menu with actions "
+"to show all blockable elements on a web page, open this &systemsettings; "
+"module and disable blocking for a site or page temporarily."
+msgstr ""
+"AdBlock süzgeçleri etkinleştirilirse durum çubuğunun sağ tarafında bir simge "
+"gösterilir. Bu simgeye &RMB; ile tıklayarak, bir web sayfasındaki tüm "
+"engellenebilir ögeleri göstermek için eylemler içeren bağlam menüsünü "
+"kullanıp &systemsettings; modülünü açın ve bir site veya sayfa için "
+"engellemeyi geçici olarak devre dışı bırakın."
+
+#. Tag: para
+#: index.docbook:82
+#, no-c-format
+msgid ""
+"A click with the &LMB; shows the dialog with all blockable elements on the "
+"opened web page as well. From this dialog you can add new filters directly "
+"without opening this &systemsettings; module."
+msgstr ""
+"&LMB; ile tıklamak, açılan web sayfasındaki tüm engellenebilir ögelerin "
+"bulunduğu iletişim kutusunu da gösterir. Bu iletişim kutusundan, bu "
+"&systemsettings; modülünü açmadan doğrudan yeni süzgeçler ekleyebilirsiniz."
+
+#~ msgid "&kde; 4.8"
+#~ msgstr "&kde; 4.8"
+
+#~ msgid ""
+#~ "Use the <guilabel>Search</guilabel> edit box above the list box to filter "
+#~ "matching entries an the fly."
+#~ msgstr ""
+#~ "Liste kutusunun üzerindeki düzenleme kutusunda ki <guilabel>Ara</"
+#~ "guilabel>'yı eşleştirilmiş girdileri filtrelemek için kullanın."

@@ -1,0 +1,1426 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+# Emir SARI <emir_sari@icloud.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: kate_fundamentals\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-19 00:46+0000\n"
+"PO-Revision-Date: 2025-03-08 00:23+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: trans_comment
+#: fundamentals.docbook:5
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Kaan</"
+"firstname><surname>Özdinçer</"
+"surname><affiliation><address><email>kaanozdincer@gmail.com</email></"
+"address></affiliation><contrib>Çeviri</contrib></othercredit><othercredit "
+"role=\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: title
+#: fundamentals.docbook:8
+#, no-c-format
+msgid "The Fundamentals"
+msgstr "Temel Bilgiler"
+
+#. Tag: para
+#: fundamentals.docbook:10
+#, no-c-format
+msgid ""
+"If you have ever used a text editor, you will have no problem using &kate;. "
+"In the next two sections, <link linkend=\"starting-kate\">Starting &kate; </"
+"link> and in <link linkend=\"working-with-kate\">Working with &kate;</link>, "
+"we will show you everything you need to get up and running quickly."
+msgstr ""
+"Daha önce bir metin düzenleyicisi kullandıysanız &kate; kullanırken hiçbir "
+"sorun yaşamazsınız. Sonraki iki bölümde (<link linkend=\"starting-kate"
+"\">&kate;’i Başlatmak</link> ve <link linkend=\"working-with-kate\">&kate; "
+"ile Çalışmak</link>), hemen alışmanızı sağlamak için gereksiniminiz olacak "
+"her şeyi göstereceğiz."
+
+#. Tag: title
+#: fundamentals.docbook:19
+#, no-c-format
+msgid "Starting &kate;"
+msgstr "&kate;’i Başlatmak"
+
+#. Tag: para
+#: fundamentals.docbook:21
+#, no-c-format
+msgid ""
+"You can start &kate; from the application launcher or from the command line."
+msgstr ""
+"&kate; uygulamasını, uygulama başlatıcısından veya komut satırından "
+"başlatabilirsiniz."
+
+#. Tag: title
+#: fundamentals.docbook:27
+#, no-c-format
+msgid "From the Menu"
+msgstr "Menüden"
+
+#. Tag: para
+#: fundamentals.docbook:28
+#, no-c-format
+msgid ""
+"Open the &kde; program menu by clicking on the application launcher icon on "
+"the toolbar at the bottom left of your screen. This will raise a menu. Move "
+"your cursor up the menu to the <menuchoice><guimenu>Applications</"
+"guimenu><guisubmenu>Utilities</guisubmenu> <guimenuitem>Advanced Text Editor "
+"&kate;</guimenuitem></menuchoice> menu item."
+msgstr ""
+"Ekranınızın sol altındaki araç çubuğundaki uygulama başlatıcısı simgesine "
+"tıklayarak &kde; programları menüsünü açın. İmleci "
+"<menuchoice><guimenu>Uygulamalar</guimenu><guisubmenu>İzlenceler</"
+"guisubmenu><guimenuitem>&kate; Gelişmiş Metin Düzenleyicisi</guimenuitem></"
+"menuchoice> ögesine getirin."
+
+#. Tag: title
+#: fundamentals.docbook:39
+#, no-c-format
+msgid "From the Command Line"
+msgstr "Komut Satırından"
+
+#. Tag: para
+#: fundamentals.docbook:41
+#, no-c-format
+msgid ""
+"You can start &kate; by typing its name on the command line. If you give it "
+"a file name, as in the example below, it will open or create that file."
+msgstr ""
+"Komut satırına adını yazarak &kate;’i başlatabilirsiniz. Aşağıdaki örnekte "
+"olduğu gibi bir dosya adı verirseniz o dosyayı açar veya oluşturur."
+
+#. Tag: screen
+#: fundamentals.docbook:48
+#, no-c-format
+msgid ""
+"<prompt>%</prompt><userinput><command>kate</command> "
+"<option><replaceable>myfile.txt</replaceable></option></userinput>"
+msgstr ""
+"<prompt>%</prompt><userinput><command>kate</command> "
+"<option><replaceable>dosyam.txt</replaceable></option></userinput>"
+
+#. Tag: para
+#: fundamentals.docbook:51
+#, no-c-format
+msgid ""
+"If you have an active connection, and permission, you can take advantage of "
+"&kde;'s network transparency to open files on the internet."
+msgstr ""
+"Etkin bir bağlantınız ve izinleriniz varsa &kde;’nin ağ saydamlığından "
+"yararlanarak internetteki dosyaları da açabilirsiniz."
+
+#. Tag: screen
+#: fundamentals.docbook:57
+#, no-c-format
+msgid ""
+"<prompt>%</prompt><userinput><command>kate</command> "
+"<option><replaceable>&kde-ftp;README</replaceable></option></userinput>"
+msgstr ""
+"<prompt>%</prompt><userinput><command>kate</command> "
+"<option><replaceable>dosyam.txt</replaceable></option></userinput>"
+
+#. Tag: para
+#: fundamentals.docbook:60
+#, no-c-format
+msgid ""
+"To change the directory for temporary files, which defaults to <filename "
+"class=\"directory\">/tmp</filename> set the <envar>TMPDIR</envar> "
+"environment variable before starting &kate;, &eg;"
+msgstr ""
+"Geçici dosyalar dizinini değiştirmek için (öntanımlı olarak <filename class="
+"\"directory\">/tmp</filename>) &kate;’i başlatmadan önce <envar>TMPDIR</"
+"envar> çevre değişkenini ayarlayın; &eg;"
+
+#. Tag: screen
+#: fundamentals.docbook:63
+#, no-c-format
+msgid ""
+"<prompt>%</prompt><userinput><command>mkdir</command> /tmp/kate -p &amp;"
+"&amp; export TMPDIR=/tmp/kate &amp;&amp; kate</userinput>"
+msgstr ""
+"<prompt>%</prompt><userinput><command>mkdir</command> /tmp/kate -p &amp;"
+"&amp; export TMPDIR=/tmp/kate &amp;&amp; kate</userinput>"
+
+#. Tag: title
+#: fundamentals.docbook:68
+#, no-c-format
+msgid "Command Line Options"
+msgstr "Komut Satırı Seçenekleri"
+
+#. Tag: para
+#: fundamentals.docbook:69
+#, no-c-format
+msgid "&kate; accepts following command line options:"
+msgstr "&kate;, aşağıdaki komut satırı seçeneklerini kabul eder:"
+
+#. Tag: userinput
+#: fundamentals.docbook:73
+#, no-c-format
+msgid "<command>kate</command> <option>--help</option>"
+msgstr "<command>kate</command> <option>--help</option>"
+
+#. Tag: para
+#: fundamentals.docbook:75
+#, no-c-format
+msgid "This lists the options available at the command line."
+msgstr "Bu, komut satırındaki kullanılabilir seçenekleri listeler."
+
+#. Tag: userinput
+#: fundamentals.docbook:82
+#, no-c-format
+msgid ""
+"<command>kate</command> <option>-s</option> <option>--start</option> "
+"<parameter>name</parameter>"
+msgstr ""
+"<command>kate</command> <option>-s</option> <option>--start</option> "
+"<parameter>ad</parameter>"
+
+#. Tag: para
+#: fundamentals.docbook:85
+#, no-c-format
+msgid ""
+"Starts &kate; with the session <parameter>name</parameter>. The session is "
+"created if it does not exist already. If a &kate; instance running the "
+"specified session exists, the specified files are loaded in that instance."
+msgstr ""
+"&kate;’i <parameter>ad</parameter> oturumuyla başlatır. Oturum halihazırda "
+"yoksa oluşturulur. Belirtilen oturumu çalıştıran bir &kate; örneği varsa "
+"belirtilen dosyalar bu örneğe yüklenir."
+
+#. Tag: userinput
+#: fundamentals.docbook:94
+#, no-c-format
+msgid ""
+"<command>kate</command> <option>-p</option> <option>--pid</option> "
+"<parameter>PID</parameter>"
+msgstr ""
+"<command>kate</command> <option>-p</option> <option>--pid</option> "
+"<parameter>PID</parameter>"
+
+#. Tag: para
+#: fundamentals.docbook:97
+#, no-c-format
+msgid "Only reuses an instance with the specified PID (Process ID)."
+msgstr ""
+"Yalnızca belirtilen PID’ye (Süreç Kimliği) sahip bir örneği yeniden kullanır."
+
+#. Tag: userinput
+#: fundamentals.docbook:104
+#, no-c-format
+msgid ""
+"<command>kate</command> <option>-e</option> <option>--encoding</option> "
+"<parameter>encoding</parameter> <parameter>URL</parameter>"
+msgstr ""
+"<command>kate</command> <option>-e</option> <option>--encoding</option> "
+"<parameter>kodlama</parameter> <parameter>URL</parameter>"
+
+#. Tag: para
+#: fundamentals.docbook:107
+#, no-c-format
+msgid "Uses the specified encoding for the document."
+msgstr "Belge için belirtilen kodlamayı kullanır."
+
+#. Tag: userinput
+#: fundamentals.docbook:112
+#, no-c-format
+msgid ""
+"<command>kate</command> <option>-l</option> <option>--line</option> "
+"<parameter>line</parameter> <parameter>URL</parameter>"
+msgstr ""
+"<command>kate</command> <option>-l</option> <option>--line</option> "
+"<parameter>satır</parameter> <parameter>URL</parameter>"
+
+#. Tag: para
+#: fundamentals.docbook:115
+#, no-c-format
+msgid "Navigates to the specified line after opening the document."
+msgstr "Belgeyi açtıktan sonra belirtilen satıra gider."
+
+#. Tag: userinput
+#: fundamentals.docbook:120
+#, no-c-format
+msgid ""
+"<command>kate</command> <option>-c</option> <option>--column</option> "
+"<parameter>column</parameter> <parameter>URL</parameter>"
+msgstr ""
+"<command>kate</command> <option>-c</option> <option>--column</option> "
+"<parameter>sütun</parameter> <parameter>URL</parameter>"
+
+#. Tag: para
+#: fundamentals.docbook:123
+#, no-c-format
+msgid "Navigates to the specified column after opening the document."
+msgstr "Belgeyi açtıktan sonra belirtilen sütuna gider."
+
+#. Tag: userinput
+#: fundamentals.docbook:128
+#, no-c-format
+msgid "<command>kate</command> <option>-i</option> <option>--stdin</option>"
+msgstr "<command>kate</command> <option>-i</option> <option>--stdin</option>"
+
+#. Tag: para
+#: fundamentals.docbook:130
+#, no-c-format
+msgid ""
+"Reads the document content from STDIN. This is similar to the common option "
+"<option>-</option> used in many command line programs, and allows you to "
+"pipe command output into &kate;."
+msgstr ""
+"Belgeyi standart girdi’den okur. Bu, çoğu komut satırı programında bulunan "
+"<option>-</option> seçeneğine benzerdir ve komut çıktısını &kate;’e veriyolu "
+"yapmanıza olanak tanır."
+
+#. Tag: userinput
+#: fundamentals.docbook:136
+#, no-c-format
+msgid "<command>kate</command> <option>--startanon</option>"
+msgstr "<command>kate</command> <option>--startanon</option>"
+
+#. Tag: para
+#: fundamentals.docbook:138
+#, no-c-format
+msgid "Start &kate; with a new anonymous session, implies <option>-n</option>."
+msgstr ""
+"&kate;’i yeni bir anonim oturum ile başlat, <option>-n</option> ima eder."
+
+#. Tag: userinput
+#: fundamentals.docbook:143
+#, no-c-format
+msgid "<command>kate</command> <option>-n</option> <option>--new</option>"
+msgstr "<command>kate</command> <option>-n</option> <option>--new</option>"
+
+#. Tag: para
+#: fundamentals.docbook:145
+#, no-c-format
+msgid ""
+"Force start of a new &kate; instance (is ignored if <option>start</option> "
+"is used and another &kate; instance already has the given session opened), "
+"forced if no parameters and no URLs are given at all."
+msgstr ""
+"Yeni bir &kate; örneğinin başlatılmasını zorla (<option>start</option> "
+"kullanılırsa ve verilen oturum başka bir &kate; örneğinde halihazırda açıksa "
+"yok sayılır), hiçbir parametre ve hiçbir URL belirtilmemişse zorlanır."
+
+#. Tag: userinput
+#: fundamentals.docbook:151
+#, no-c-format
+msgid "<command>kate</command> <option>-b</option> <option>--block</option>"
+msgstr "<command>kate</command> <option>-b</option> <option>--block</option>"
+
+#. Tag: para
+#: fundamentals.docbook:153
+#, no-c-format
+msgid ""
+"If using an already running &kate; instance, block until it exits, if URLs "
+"given to open."
+msgstr ""
+"Halihazırda çalışan bir &kate; örneği kullanıyorsanız URL’ler açılmaları "
+"için verilmişse çıkana kadar engelleyin."
+
+#. Tag: para
+#: fundamentals.docbook:155
+#, no-c-format
+msgid ""
+"You can use &kate; with this option as editor for typing in commit messages "
+"for version control systems like &git; or <application>Subversion</"
+"application>. These systems expect to block the editor till you have entered "
+"your message, because they then open the temporary file, which would be "
+"empty if &kate; immediately returned to the caller."
+msgstr ""
+"Bu seçenekle, &git; veya <application>Subversion</application> gibi sürüm "
+"denetim sistemleri için işleme iletileri yazmak amacıyla düzenleyici olarak "
+"&kate;’i kullanabilirsiniz. Bu sistemler, siz iletinizi girene kadar "
+"düzenleyiciyi engellerler; çünkü o zaman &kate; çağırana hemen geri dönerse "
+"boş olacak olan geçici dosyayı açarlar."
+
+#. Tag: para
+#: fundamentals.docbook:162
+#, no-c-format
+msgid ""
+"This option is also needed with KIO (&kde; Input/Output), if you open a "
+"remote file (which has been downloaded to a temporary) and should be "
+"reuploaded, after you saved it."
+msgstr ""
+"Bu seçenek, uzak bir dosyayı (geçici olarak indirilmiş olan) açarsanız ve "
+"kaydettikten sonra yeniden karşıya yüklenmesi gerekiyorsa KIO (&kde; Giriş/"
+"Çıkış) için de gereklidir."
+
+#. Tag: userinput
+#: fundamentals.docbook:168
+#, no-c-format
+msgid "<command>kate</command> <option>--tempfile</option>"
+msgstr "<command>kate</command> <option>--tempfile</option>"
+
+#. Tag: para
+#: fundamentals.docbook:170
+#, no-c-format
+msgid ""
+"When used, the specified files are treated as temporary files and deleted "
+"(if they are local files and you have sufficient permissions) when closed, "
+"unless they were modified since they were opened."
+msgstr ""
+"Kullanıldığında, belirtilen dosyalar geçici dosyalar olarak kabul edilir ve "
+"açıldıktan sonra değiştirilmedikleri sürece kapatıldığında (yerel dosyalarsa "
+"ve yeterli izinleriniz varsa) silinir."
+
+#. Tag: userinput
+#: fundamentals.docbook:176
+#, no-c-format
+msgid ""
+"<command>kate</command> <option>--desktopfile</option> <parameter>filename</"
+"parameter>"
+msgstr ""
+"<command>kate</command> <option>--desktopfile</option> <parameter>dosya-adı</"
+"parameter>"
+
+#. Tag: para
+#: fundamentals.docbook:178
+#, no-c-format
+msgid "The base file name of the desktop entry for this application."
+msgstr "Bu uygulamanın masaüstü girdisinin temel dosya adı."
+
+#. Tag: para
+#: fundamentals.docbook:179
+#, no-c-format
+msgid ""
+"This is in particular useful for wrapper applications and applications "
+"having in general multiple desktop files. Thus each desktop file can have "
+"its own command line for the <option>Exec</option> entry."
+msgstr ""
+"Bu özellikle sarmalayıcı uygulamalar ve genel olarak birden fazla masaüstü "
+"dosyasına sahip uygulamalar için kullanışlıdır. Böylece her masaüstü dosyası "
+"<option>Exec</option> girdisi için kendi komut satırına sahip olabilir."
+
+#. Tag: userinput
+#: fundamentals.docbook:186
+#, no-c-format
+msgid "<command>kate</command> <option>--author</option>"
+msgstr "<command>kate</command> <option>--author</option>"
+
+#. Tag: para
+#: fundamentals.docbook:189
+#, no-c-format
+msgid "Lists &kate;'s authors in the terminal window."
+msgstr "&kate;’in yazarlarını uçbirim penceresinde listeler."
+
+#. Tag: userinput
+#: fundamentals.docbook:196
+#, no-c-format
+msgid "<command>kate</command> <option>-v</option> <option>--version</option>"
+msgstr "<command>kate</command> <option>-v</option> <option>--version</option>"
+
+#. Tag: para
+#: fundamentals.docbook:199
+#, no-c-format
+msgid "Lists version information for &kate;."
+msgstr "&kate;’in sürüm bilgisini listeler."
+
+#. Tag: userinput
+#: fundamentals.docbook:206
+#, no-c-format
+msgid "<command>kate</command> <option>--license</option>"
+msgstr "<command>kate</command> <option>--license</option>"
+
+#. Tag: para
+#: fundamentals.docbook:209
+#, no-c-format
+msgid "Shows license information."
+msgstr "Lisans bilgisini gösterir."
+
+#. Tag: title
+#: fundamentals.docbook:220
+#, no-c-format
+msgid "Drag and Drop"
+msgstr "Sürükle ve Bırak"
+
+#. Tag: para
+#: fundamentals.docbook:221
+#, no-c-format
+msgid ""
+"&kate; uses the &kde; Drag and Drop protocol. Files may be dragged and "
+"dropped onto &kate; from the Desktop, the filemanager &dolphin; or some "
+"remote &FTP; site opened in one of &dolphin;'s windows."
+msgstr ""
+"&kate;, &kde;’nin Sürükle ve Bırak protokolünü kullanır. Dosyalar &kate; "
+"üzerine Masaüstü’nden, &dolphin; dosya yöneticisinden veya &dolphin; "
+"pencerelerinde açılmış kimi FTP sitelerinden sürüklenip bırakılabilir."
+
+#. Tag: title
+#: fundamentals.docbook:230
+#, no-c-format
+msgid "Working with &kate;"
+msgstr "&kate; ile Çalışmak"
+
+#. Tag: para
+#: fundamentals.docbook:231
+#, no-c-format
+msgid ""
+"<link linkend=\"quick-start\">Quick Start</link> will show you how to toggle "
+"four simple options that will let you configure some of &kate;'s more "
+"powerful features right away. <link linkend=\"keystroke-commands\"> "
+"Shortcuts</link> lays out some of the default keystroke shortcuts for those "
+"who can't or don't want to use a mouse."
+msgstr ""
+"<link linkend=\"quick-start\">Tez Başlat</link>, &kate;’in daha güçlü "
+"özelliklerini yapılandırmanızı sağlayan dört basit seçeneği nasıl "
+"değiştireceğinizi gösterir. <link linkend=\"keystroke-commands\"> "
+"Kısayollar</link>, fare kullanmak istemeyen ve kullanmayanlar için öntanımlı "
+"klavye kısayollarını gösterir."
+
+#. Tag: title
+#: fundamentals.docbook:240
+#, no-c-format
+msgid "Quick Start"
+msgstr "Tez Başlangıç"
+
+#. Tag: para
+#: fundamentals.docbook:242
+#, no-c-format
+msgid ""
+"This section will describe some of the items on the <guimenu>View</guimenu> "
+"menu so that you can quickly configure &kate; to work the way you want it."
+msgstr ""
+"Bu bölüm, &kate;’i, onunla çalışmak isteyebileceğiniz biçimde tez "
+"yapılandırabilmeniz için <guimenu>Görünüm</guimenu> menüsündeki bazı ögeleri "
+"açıklar."
+
+#. Tag: para
+#: fundamentals.docbook:248
+#, no-c-format
+msgid ""
+"When you start &kate; for the first time you will see two windows with white "
+"backgrounds. Above the two windows is a toolbar with the usual labeled "
+"icons. And above that, a menubar."
+msgstr ""
+"&kate;’i ilk başlattığınızda, beyaz arka planlı iki pencere göreceksiniz. "
+"İki pencerenin üstünde, her zamanki etiketli simgelerin yer aldığı bir araç "
+"çubuğu bulunur. Onun üstünde de bir menü çubuğu vardır."
+
+#. Tag: para
+#: fundamentals.docbook:253
+#, no-c-format
+msgid ""
+"The left-hand window is a side bar. It combines the <guilabel>Documents</"
+"guilabel> and <guilabel>Filesystem Browser</guilabel> windows. Switch "
+"between the two by clicking on the tabs to the left of the window."
+msgstr ""
+"Soldaki pencere bir kenar çubuğudur. <guilabel>Belgeler</guilabel> ve "
+"<guilabel>Dosya Sistemi Tarayıcısı</guilabel> pencerelerini birleştirir. "
+"Pencerenin solundaki sekmelere tıklayarak ikisi arasında geçiş yapın."
+
+#. Tag: para
+#: fundamentals.docbook:258
+#, no-c-format
+msgid ""
+"If you've started &kate; with a file, the right-hand window will show the "
+"file you are editing and the <guilabel>Documents</guilabel> on the side bar "
+"will show the name of the file. Use the <guilabel>Filesystem Browser</"
+"guilabel> window to open files."
+msgstr ""
+"&kate;’i bir dosya ile başlatırsanız sağdaki pencere düzenlediğiniz dosyayı "
+"ve kenar çubuğundaki <guilabel>Belgeler</guilabel> dosyanın adını gösterir. "
+"Dosyaları açmak için <guilabel>Dosya Sistemi Tarayıcısı</guilabel>’nı "
+"kullanın."
+
+#. Tag: para
+#: fundamentals.docbook:264
+#, no-c-format
+msgid ""
+"You can toggle all sidebar windows on and off in <menuchoice><guimenu>View</"
+"guimenu><guisubmenu>Tool Views</guisubmenu></menuchoice> menu or use "
+"<keycombo action=\"simul\">&Ctrl;&Alt;&Shift;<keycap>F</keycap></keycombo>. "
+"This menu offers you your first glimpse into &kate;'s power and flexibility."
+msgstr ""
+"<menuchoice><guimenu>Görünüm</guimenu><guisubmenu>Araç Görünümleri</"
+"guisubmenu></menuchoice> menüsünü veya <keycombo action=\"simul\">&Ctrl;&Alt;"
+"&Shift;<keycap>F</keycap></keycombo> kısayolunu kullanarak tüm kenar çubuğu "
+"pencerelerini açıp kapatabilirsiniz. Bu menü, &kate;’in gücüne ve "
+"esnekliğine bir giriş niteliğindedir."
+
+#. Tag: para
+#: fundamentals.docbook:272
+#, no-c-format
+msgid ""
+"In <guisubmenu>Tool Views</guisubmenu> you have a list of all enabled "
+"plugins. Click the checkbox in front of each item or click with the &LMB; on "
+"the tool buttons in the sidebar to toggle this tool view on and off."
+msgstr ""
+"<guisubmenu>Araç Görünümü</guisubmenu> bölümünde tüm etkin eklentilerin bir "
+"listesi vardır. Bu araç görünümünü açıp kapatmak için her bir ögenin "
+"önündeki onay kutularına veya kenar çubuğundaki araç düğmelerine &LMB; ile "
+"tıklayın."
+
+#. Tag: title
+#: fundamentals.docbook:280
+#, no-c-format
+msgid "Shortcuts"
+msgstr "Kısayollar"
+
+#. Tag: para
+#: fundamentals.docbook:282
+#, no-c-format
+msgid ""
+"Many of &kate;'s keystroke commands (shortcuts) are configurable by way of "
+"the <link linkend=\"settings-help-menu\">Settings</link> menu. By default "
+"&kate; honors the following key bindings."
+msgstr ""
+"&kate;’in düğme vuruşu komutlarının (kısayollarının) çoğu <link linkend="
+"\"settings-help-menu\">Ayarlar</link> menüsü ile yapılandırılabilirdir. "
+"Öntanımlı olarak &kate; aşağıdaki düğme bağıntılarını izler."
+
+#. Tag: keycap
+#: fundamentals.docbook:293
+#, no-c-format
+msgid "<keycap>F1</keycap>"
+msgstr "<keycap>F1</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:294
+#, no-c-format
+msgid "Help"
+msgstr "Yardım"
+
+#. Tag: keycombo
+#: fundamentals.docbook:297
+#, no-c-format
+msgid "&Shift;<keycap>F1</keycap>"
+msgstr "&Shift;<keycap>F1</keycap>"
+
+#. Tag: link
+#: fundamentals.docbook:298
+#, no-c-format
+msgid "What's this?"
+msgstr "Bu Nedir?"
+
+#. Tag: keycombo
+#: fundamentals.docbook:301
+#, no-c-format
+msgid "&Ctrl;<keycap>N</keycap>"
+msgstr "&Ctrl;<keycap>N</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:302
+#, no-c-format
+msgid "<link linkend=\"file-new\">New</link> document"
+msgstr "<link linkend=\"file-new\">Yeni</link> Belge"
+
+#. Tag: keycombo
+#: fundamentals.docbook:305
+#, no-c-format
+msgid "&Ctrl;<keycap>L</keycap>"
+msgstr "&Ctrl;<keycap>L</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:306
+#, no-c-format
+msgid "Save All"
+msgstr "Tümünü Kaydet"
+
+#. Tag: keycombo
+#: fundamentals.docbook:310
+#, no-c-format
+msgid "&Ctrl;<keycap>O</keycap>"
+msgstr "&Ctrl;<keycap>O</keycap>"
+
+#. Tag: link
+#: fundamentals.docbook:311
+#, no-c-format
+msgid "Open a document"
+msgstr "Belge Aç"
+
+#. Tag: keycombo
+#: fundamentals.docbook:314
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>O</keycap>"
+msgstr "&Ctrl;&Alt;<keycap>O</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:315
+#, no-c-format
+msgid "<para>Quick Open</para>"
+msgstr "<para>Tez Aç</para>"
+
+#. Tag: keycombo
+#: fundamentals.docbook:318
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>F</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>F</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:319
+#, no-c-format
+msgid "Full Screen Mode"
+msgstr "Tam Ekran Kipi"
+
+#. Tag: keycombo
+#: fundamentals.docbook:322
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>,</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>,</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:323
+#, no-c-format
+msgid "Configure &kate;"
+msgstr "&kate; Uygulamasını Yapılandır"
+
+#. Tag: para
+#: fundamentals.docbook:326
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo> / <keycombo "
+"action=\"simul\">&Ctrl;&Esc;</keycombo>"
+msgstr ""
+"<keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo> / <keycombo "
+"action=\"simul\">&Ctrl;&Esc;</keycombo>"
+
+#. Tag: link
+#: fundamentals.docbook:329
+#, no-c-format
+msgid "Close"
+msgstr "Kapat"
+
+#. Tag: keycombo
+#: fundamentals.docbook:332
+#, no-c-format
+msgid "&Ctrl;<keycap>Q</keycap>"
+msgstr "&Ctrl;<keycap>Q</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:333
+#, no-c-format
+msgid "Quit - close active copy of editor"
+msgstr "Çık — Düzenleyicinin etkin kopyasını kapat"
+
+#. Tag: keycombo
+#: fundamentals.docbook:336
+#, no-c-format
+msgid "&Ctrl;&Alt;&Shift;<keycap>F</keycap>"
+msgstr "&Ctrl;&Alt;&Shift;<keycap>F</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:337
+#, no-c-format
+msgid "Show Sidebars"
+msgstr "Kenar Çubuklarını Göster"
+
+#. Tag: keycombo
+#: fundamentals.docbook:340 fundamentals.docbook:369
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>T</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>T</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:341
+#, no-c-format
+msgid "Split Horizontal"
+msgstr "Yatay Böl"
+
+#. Tag: keycombo
+#: fundamentals.docbook:344
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>L</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>L</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:345
+#, no-c-format
+msgid "Split Vertical"
+msgstr "Dikey Böl"
+
+#. Tag: keycap
+#: fundamentals.docbook:348
+#, no-c-format
+msgid "<keycap>F8</keycap>"
+msgstr "<keycap>F8</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:349
+#, no-c-format
+msgid "Next Split View"
+msgstr "Sonraki Bölünmüş Görünüm"
+
+#. Tag: para
+#: fundamentals.docbook:352
+#, no-c-format
+msgid ""
+"<keycombo action=\"simul\">&Shift;<keycap>F8</keycap></keycombo> / <keycombo "
+"action=\"simul\">&Ctrl;&Esc;</keycombo>"
+msgstr ""
+"<keycombo action=\"simul\">&Shift;<keycap>F8</keycap></keycombo> / <keycombo "
+"action=\"simul\">&Ctrl;&Esc;</keycombo>"
+
+#. Tag: para
+#: fundamentals.docbook:354
+#, no-c-format
+msgid "Previous Split View"
+msgstr "Önceki Bölünmüş Görünüm"
+
+#. Tag: keycombo
+#: fundamentals.docbook:357
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>R</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>R</keycap>"
+
+#. Tag: para
+#: fundamentals.docbook:358
+#, no-c-format
+msgid "Close Current View"
+msgstr "Geçerli Görünümü Kapat"
+
+#. Tag: keycombo
+#: fundamentals.docbook:361
+#, no-c-format
+msgid "&Alt;&Right;"
+msgstr "&Alt;&Right;"
+
+#. Tag: para
+#: fundamentals.docbook:362
+#, no-c-format
+msgid "Next Tab"
+msgstr "Sonraki Sekme"
+
+#. Tag: keycombo
+#: fundamentals.docbook:365
+#, no-c-format
+msgid "&Alt;&Left;"
+msgstr "&Alt;&Left;"
+
+#. Tag: para
+#: fundamentals.docbook:366
+#, no-c-format
+msgid "Previous Tab"
+msgstr "Önceki Sekme"
+
+#. Tag: para
+#: fundamentals.docbook:370
+#, no-c-format
+msgid "Reopen Latest Closed Document(s)"
+msgstr "Son Kapatılan Belgeleri Yeniden Aç"
+
+#. Tag: para
+#: fundamentals.docbook:377
+#, no-c-format
+msgid ""
+"Additionally you can use the shortcuts provided by the <ulink url=\"help:/"
+"katepart/keybindings.html\">&katepart;</ulink> component and by all "
+"activated <link linkend=\"plugins\">&kate; plugins</link>."
+msgstr ""
+"Ek olarak, <ulink url=\"help:/katepart/keybindings.html\">&katepart;</ulink> "
+"bileşeni ve tüm etkin <link linkend=\"plugins\">&kate; eklentileri</link> "
+"tarafından sağlanan klavye kısayollarını da kullanabilirsiniz."
+
+#. Tag: title
+#: fundamentals.docbook:385
+#, no-c-format
+msgid "Working With the &kate; <acronym>MDI</acronym>"
+msgstr "&kate; <acronym>MDI</acronym> ile Çalışmak"
+
+#. Tag: title
+#: fundamentals.docbook:388
+#, no-c-format
+msgid "Overview"
+msgstr "Genel Görünüm"
+
+#. Tag: para
+#: fundamentals.docbook:390
+#, no-c-format
+msgid ""
+"Window, View, Document, Frame, Editor... What are they all in the "
+"terminology of &kate;, and how do you get the most out of it? This chapter "
+"will explain all of that, and even more."
+msgstr ""
+"Pencere, Görünüm, Belge, Çerçeve, Düzenleyici …; &kate; terminolojisinde "
+"bunlar nedir ve bunların çoğunu nasıl anlarsınız? Bu bölüm, bunların tümünü "
+"ve çok daha fazlasını anlatacaktır."
+
+#. Tag: title
+#: fundamentals.docbook:396
+#, no-c-format
+msgid "The Main Window"
+msgstr "Ana Pencere"
+
+#. Tag: primary
+#: fundamentals.docbook:398
+#, no-c-format
+msgid "Main window"
+msgstr "Ana pencere"
+
+#. Tag: para
+#: fundamentals.docbook:398
+#, no-c-format
+msgid ""
+"The &kate; Main Window is a standard &kde; application window, with the "
+"addition of side bars containing tool views. It has a menubar with all the "
+"common menus, and some more, and a toolbar providing access to commonly used "
+"commands."
+msgstr ""
+"&kate; Ana Penceresi, araç görünümlerini içeren kenar çubuklarının eklendiği "
+"standart bir &kde; uygulaması penceresidir. Tüm ortak menüleri ve daha "
+"fazlasını içeren bir menü çubuğuna ve yaygın olarak kullanılan komutlara "
+"erişim sağlayan bir araç çubuğuna sahiptir."
+
+#. Tag: para
+#: fundamentals.docbook:404
+#, no-c-format
+msgid ""
+"The most important part of the window is the editing area, by default "
+"displaying a single text editor component, in which you can work with your "
+"documents."
+msgstr ""
+"Pencerenin en önemli kısmı; belgelerinizle çalışabileceğiniz, öntanımlı "
+"olarak tek bir metin düzenleyicisi bileşeninin görüntülendiği düzenleme "
+"alanıdır."
+
+#. Tag: para
+#: fundamentals.docbook:408
+#, no-c-format
+msgid ""
+"The docking capabilities of the window is used for the tool windows of any "
+"plugin enabled in the settings dialog."
+msgstr ""
+"Pencerenin yerleştirilebilme yetenekleri, ayarlar iletişim kutusunda "
+"etkinleştirilen herhangi bir eklentinin araç pencereleri için kullanılır."
+
+#. Tag: para
+#: fundamentals.docbook:411
+#, no-c-format
+msgid ""
+"Tool views can be positioned in any sidebar, to move a tool right click its "
+"sidebar button and select from the &RMB; menu"
+msgstr ""
+"Araç görünümleri herhangi bir kenar çubuğuna yerleştirilebilir; bir aracı "
+"taşımak için kenar çubuğu düğmesine sağ tıklayın ve &RMB; menüsünden seçim "
+"yapın."
+
+#. Tag: para
+#: fundamentals.docbook:414
+#, no-c-format
+msgid ""
+"A tool view can be marked as <emphasis>persistent</emphasis> in the &RMB; "
+"menu for its sidebar button. The sidebar can contain more tools at one time "
+"so that when a tool is persistent other tools can be shown simultaneously."
+msgstr ""
+"Bir araç görünümü, kendi &RMB; menüsünde <emphasis>kalıcı</emphasis> olarak "
+"imlenebilir. Kenar çubuğu herhangi bir anda birden çok araç içerebilir, "
+"böylece bir araç kalıcı olduğunda diğer araçlar da onunla aynı anda "
+"gösterilebilir."
+
+#. Tag: para
+#: fundamentals.docbook:419
+#, no-c-format
+msgid ""
+"If a plugin has configuration options you can use the first item in the "
+"context menu to open the corresponding page in &kate;'s settings dialog."
+msgstr ""
+"Bir eklentinin yapılandırma seçenekleri varsa &kate;’in ayarlar iletişim "
+"kutusunda ilgili sayfayı açmak için bağlam menüsündeki ilk ögeyi "
+"kullanabilirsiniz."
+
+#. Tag: title
+#: fundamentals.docbook:429
+#, no-c-format
+msgid "The Editor area"
+msgstr "Düzenleyici alanı"
+
+#. Tag: primary
+#: fundamentals.docbook:431
+#, no-c-format
+msgid "Editing Area"
+msgstr "Düzenleme Alanı"
+
+#. Tag: para
+#: fundamentals.docbook:431
+#, no-c-format
+msgid ""
+"&kate; is capable of having more than one document open at the same time, "
+"and also of splitting the editing area into any number of frames, similar to "
+"how for example &konqueror; or the popular <application>emacs</application> "
+"text editor works. This way you can view several documents at the same time, "
+"or more instances of the same document, handy for example if your document "
+"contains definitions in the top that you want to see often for reference. Or "
+"you could view a program source header in one frame, while editing the "
+"implementation file in another."
+msgstr ""
+"&kate;, &konqueror;’un veya popüler metin düzenleyicisi <application>emacs</"
+"application>’in çalışma biçimine benzer olarak, aynı anda birden çok belgeyi "
+"açabilir ve düzenleme alanını istediğiniz sayıda çerçeveye bölebilir. "
+"Böylece, aynı anda birden çok belgeyi veya aynı belgenin birden çok örneğini "
+"görüntüleyebilirsiniz. Bu örneğin, belgeniz en üstte tanımlar ve altta da "
+"tanımlara başvurular içeriyorsa ikisini aynı anda görebilmek için "
+"yararlıdır. Başka bir örnek olarak, bir program kaynağı üstbilgisini bir "
+"çerçevede görebilir, uygulanmasını da başka bir çerçevede "
+"düzenleyebilirsiniz."
+
+#. Tag: para
+#: fundamentals.docbook:442
+#, no-c-format
+msgid ""
+"When a document is available in more than one editor, changes made in one "
+"editor will immediately be reflected in the others as well. This includes "
+"changing the text as well as selecting text. Search operations or cursor "
+"movement is only reflected in the current editor."
+msgstr ""
+"Bir belge birden fazla düzenleyicide kullanıldığında, bir düzenleyicide "
+"yapılan değişiklikler anında diğerlerine de yansıtılacaktır. Bunda metin "
+"değiştirmenin yanı sıra metin seçme de içerilir. Arama işlemleri veya imleç "
+"hareketi yalnızca geçerli düzenleyiciye yansıtılır. "
+
+#. Tag: para
+#: fundamentals.docbook:448
+#, no-c-format
+msgid ""
+"It is currently not possible to have more instances of the same document "
+"open in the sense that one instance will be edited while the other will not."
+msgstr ""
+"Bir örneğin düzenlenirken diğerinin düzenlenmeyeceği anlamında aynı belgenin "
+"daha fazla örneğinin açık olması şu anda olanaklı değildir."
+
+#. Tag: para
+#: fundamentals.docbook:452
+#, no-c-format
+msgid ""
+"When splitting an editor into two frames, it is divided into two equally "
+"sized frames, both displaying the current document of that editor. The new "
+"frame will be at the bottom (in the case of a horizontal split) or at the "
+"right (for a vertical split). The new frame gets the focus, which is "
+"visualized by the blinking cursor bar in the focused frame."
+msgstr ""
+"Bir düzenleyiciyi iki çerçeveye böldüğünüzde, her ikisi de o düzenleyicinin "
+"geçerli belgesini görüntüleyen eşit boyutlu iki çerçeveye bölünür. Yeni "
+"çerçeve altta (yatay bölme durumunda) veya sağda (dikey bölme durumunda) "
+"olacaktır. Yeni kare, odaklanılan karedeki yanıp sönen imleç çubuğuyla "
+"görselleştirilen odağı alır."
+
+#. Tag: title
+#: fundamentals.docbook:464
+#, no-c-format
+msgid "Using Sessions"
+msgstr "Oturumları Kullanmak"
+
+#. Tag: para
+#: fundamentals.docbook:466
+#, no-c-format
+msgid ""
+"Sessions is how &kate; lets you keep more than one list of files and &GUI; "
+"configuration around. You can have as many named sessions as you want, and "
+"you can use unnamed or anonymous sessions for files you want to use only "
+"once. Currently &kate; can save the list of open files, and the general "
+"window configuration in the session; future versions of &kate; may add more "
+"features that can be saved in sessions. With the introduction of sessions, "
+"&kate; also allows you to open any number of instances of the application "
+"instead of just one as it used to do as the default behavior."
+msgstr ""
+"Oturumlar, &kate;’in birden çok dosya listesini ve &GUI; yapılandırmasını "
+"saklamanıza olanak sağlamasıdır. İstediğiniz sayıda adlı oturuma sahip "
+"olabilirsiniz ve yalnızca bir kez kullanmak istediğiniz dosyalar için adsız "
+"veya anonim oturumlar kullanabilirsiniz. Şu anda &kate;, açık dosyaların "
+"listesini ve oturumdaki genel pencere yapılandırmasını kaydedebilir; "
+"&kate;’in gelecekteki sürümleri, oturumlara kaydedilebilecek daha fazla "
+"özellik ekleyebilir. Oturumların kullanılmaya başlanmasıyla &kate; ayrıca, "
+"öntanımlı davranış olarak eskiden olduğu gibi uygulamanın yalnızca bir "
+"örneğini açmak yerine istediğiniz sayıda örneğini açmanıza da olanak tanır."
+
+#. Tag: para
+#: fundamentals.docbook:475
+#, no-c-format
+msgid "Sessions are supported in three areas:"
+msgstr "Oturumlar üç alanda desteklenir:"
+
+#. Tag: para
+#: fundamentals.docbook:478
+#, no-c-format
+msgid ""
+"<link linkend=\"command-line-options\"><emphasis>Command line options</"
+"emphasis></link> that lets you select and start sessions when launching "
+"&kate; from the command line."
+msgstr ""
+"&kate;’i komut satırından başlatırken oturumları seçmenizi ve onları "
+"başlatmanızı sağlayan <link linkend=\"command-line-options\"><emphasis>komut "
+"satırı seçeneklerinde</emphasis></link>."
+
+#. Tag: para
+#: fundamentals.docbook:482
+#, no-c-format
+msgid ""
+"<link linkend=\"sessions-menu\"><emphasis>The Sessions menu</emphasis></"
+"link> that lets you switch, save, start and manage your sessions."
+msgstr ""
+"Oturumlar arasında geçiş yapmanızı, onları kaydetmenizi, başlatmanızı ve "
+"yönetmenizi sağlayan <link linkend=\"sessions-menu\"><emphasis>oturumlar "
+"menüsü</emphasis></link>."
+
+#. Tag: para
+#: fundamentals.docbook:485
+#, no-c-format
+msgid ""
+"<link linkend=\"config-dialog-sessions\"><emphasis>Configuration options</"
+"emphasis></link> that lets you decide how sessions generally should behave."
+msgstr ""
+"Oturumların genel olarak nasıl davranması gerektiğini belirleyebileceğiniz "
+"<link linkend=\"config-dialog-sessions\"><emphasis>yapılandırma seçenekleri</"
+"emphasis></link>."
+
+#. Tag: para
+#: fundamentals.docbook:492
+#, no-c-format
+msgid ""
+"When starting a new session, the &GUI; configuration of <guilabel>Default "
+"Session</guilabel> is loaded. To save window configuration in the default "
+"session, you need to enable saving window configuration in the sessions "
+"configuration page of the configuration dialog and then load the default "
+"session, set up the window as desired and save the session again."
+msgstr ""
+"Yeni bir oturum başlatılırken, <guilabel>Öntanımlı Oturum</guilabel>’un "
+"&GUI; yapılandırması yüklenir. Pencere yapılandırmasını öntanımlı oturuma "
+"kaydetmek için yapılandırma iletişim kutusunun oturum yapılandırma "
+"sayfasında pencere yapılandırmasını kaydetmeyi etkinleştirmeniz ve ardından "
+"öntanımlı oturumu yüklemeniz, pencereyi istediğiniz gibi ayarlamanız ve "
+"oturumu yeniden kaydetmeniz gerekir."
+
+#. Tag: para
+#: fundamentals.docbook:498
+#, no-c-format
+msgid ""
+"When a named session is loaded, &kate; will display the session name at the "
+"start of the window title, which then has the form "
+"<quote><replaceable>Session Name</replaceable>: <replaceable>Document name "
+"or &URL;</replaceable> - &kate;</quote>."
+msgstr ""
+"Ad verilmiş bir oturum yüklendiğinde &kate;, oturum adını pencere başlığının "
+"başlangıcında görüntüleyecektir. Bu dizi, <quote><replaceable>Oturum adı</"
+"replaceable>: <replaceable>Belge adı veya &URL;’si</replaceable> — &kate;</"
+"quote> biçimindedir."
+
+#. Tag: para
+#: fundamentals.docbook:503
+#, no-c-format
+msgid ""
+"When opening files on the command line with <option>--start "
+"<replaceable>name</replaceable></option> or if a session is selected using "
+"the session chooser, the specified session is loaded prior to the files "
+"specified on the command line. To open files from the command line in a new, "
+"unnamed session, configure &kate; to start a new session as default in the "
+"session page of the configuration dialog or use <option>--start</option> "
+"with an empty string: <replaceable>''</replaceable>."
+msgstr ""
+"Dosyaları komut satırında <option>--start <replaceable>ad</replaceable></"
+"option> seçeneği ile açarken veya bir oturum, oturum seçicisinden seçilmişse "
+"belirtilen oturum, komut satırında belirtilen dosyaların yüklenmesinden önce "
+"yüklenir. Komut satırından dosyaları yeni, adsız bir oturum ile açmak için "
+"yapılandırma iletişim kutusunun oturum sayfasında &kate;’i öntanımlı olarak "
+"yeni bir oturum başlatması için yapılandırın veya <option>--start</option> "
+"seçeneğini boş bir diziyle kullanın: <replaceable>''</replaceable>."
+
+#. Tag: para
+#: fundamentals.docbook:511
+#, no-c-format
+msgid ""
+"Since &kate; 2.5.1 the <acronym>PID</acronym> of the current instance is "
+"exported to the environment variable <envar>KATE_PID</envar>. When opening "
+"files from the built in terminal Kate will automatically select the current "
+"instance if nothing else is indicated on the command line."
+msgstr ""
+"&kate; 2.5.1 sürümünden bu yana, geçerli örneğin <acronym>PID</acronym>’si "
+"<envar>KATE_PID</envar> çevre değişkenine dışa aktarılır. Yerleşik "
+"uçbirimden dosyalar açarken Kate, komut satırında başka bir şey "
+"belirtilmemişse kendiliğinden geçerli örneği seçer."
+
+#. Tag: title
+#: fundamentals.docbook:519
+#, no-c-format
+msgid "<title>Quick Open</title>"
+msgstr "<title>Tez Aç</title>"
+
+#. Tag: para
+#: fundamentals.docbook:521
+#, no-c-format
+msgid ""
+"To be able to quickly open/switch between files, Kate comes with a built-in "
+"quick open dialog. You can open it with <keycombo action=\"simul\">&Ctrl;"
+"&Alt;<keycap>O</keycap></keycombo>."
+msgstr ""
+"Tez dosyalar açmak/aralarında geçiş yapmak için Kate, yerleşik bir tez aç "
+"iletişim kutusuyla gelir. Bunu, <keycombo action=\"simul\">&Ctrl;&Alt;"
+"<keycap>O</keycap></keycombo> kısayoluyla açabilirsiniz."
+
+#. Tag: para
+#: fundamentals.docbook:525
+#, no-c-format
+msgid ""
+"Quick open can show all open documents in Kate as well as all files in open "
+"projects. To be able to see project files, you need to enable <link linkend="
+"\"kate-application-plugin-projects\">Project Plugin</link>."
+msgstr ""
+"Tez Aç, Kate’de açık olan tüm açık belgeleri ve projeleri gösterebilir. "
+"Proje dosyalarını görebilmek için <link linkend=\"kate-application-plugin-"
+"projects\">Proje Eklentisi</link>’ni etkinleştirmeniz gerekir."
+
+#. Tag: title
+#: fundamentals.docbook:531
+#, no-c-format
+msgid "Using Quick Open"
+msgstr "Tez Aç’ı Kullanmak"
+
+#. Tag: para
+#: fundamentals.docbook:533
+#, no-c-format
+msgid ""
+"Using quick open is very simple. Once you open it, just type the name or "
+"portions of the name of the file you want to open and quick open will filter "
+"the list based on what you typed. Hitting &Enter; opens the selected file, "
+"while &Esc; hides the quick open."
+msgstr ""
+"Tez Aç’ı kullanmak çok basittir. Açtığınızda, açmak istediğiniz dosyanın "
+"adını veya adının bir kısmını yazmanız yeterlidir; Tez Aç, yazdıklarınıza "
+"göre listeyi süzer. &Enter; düğmesine basmak seçili dosyayı açar, &Esc; ise "
+"Tez Aç’ı gizler."
+
+#. Tag: para
+#: fundamentals.docbook:538
+#, no-c-format
+msgid ""
+"By default, only the file name is matched while filtering. If you want to "
+"match path, you need to have a \"/\" in the typed text. For example: \"doc/"
+"index\" will match all the files that contain \"index\" inside the folder "
+"\"doc\"."
+msgstr ""
+"Öntanımlı olarak, süzme sırasında yalnızca dosya adı eşleştirilir. Yolu "
+"eşleştirmek isterseniz yazılan metinde bir \"/\" olmalıdır. Örneğin: \"belge/"
+"indeks\", \"belge\" klasöründe \"indeks\" içeren tüm belgelerle eşleşecektir."
+
+#. Tag: para
+#: fundamentals.docbook:543
+#, no-c-format
+msgid ""
+"The documents which are already open are highlighted in bold and are listed "
+"at the top when the dialog opens. Also, when quick open shows up the "
+"previous open document is already selected so you can just press &Enter; and "
+"it will take you to that document."
+msgstr ""
+"Halihazırda açık olan belgeler kalın harflerle vurgulanır ve iletişim kutusu "
+"açıldığında en üstte listelenir. Ayrıca, Tez Aç görüntülendiğinde önceki "
+"açık belge halihazırda seçilidir, böylece yalnızca &Enter; düğmesine "
+"basabilirsiniz ve bu sizi o belgeye götürecektir."
+
+#. Tag: title
+#: fundamentals.docbook:552
+#, no-c-format
+msgid "Configuring Quick Open"
+msgstr "Tez Aç Yapılandırması"
+
+#. Tag: screeninfo
+#: fundamentals.docbook:554
+#, no-c-format
+msgid "<screeninfo>Quick Open</screeninfo>"
+msgstr "<screeninfo>Tez Aç</screeninfo>"
+
+#. Tag: para
+#: fundamentals.docbook:559
+#, no-c-format
+msgid ""
+"Quick open provides a couple of config options. To access these options, "
+"right-click in the input line edit."
+msgstr ""
+"Tez Aç, birkaç yapılandırma seçeneği sağlar. Bu seçeneklere ulaşmak için "
+"giriş satırında sağ tıklayın."
+
+#. Tag: term
+#: fundamentals.docbook:564
+#, no-c-format
+msgid "Currently available options are:"
+msgstr "Şu anda kullanılabilir seçenekler şunlardır:"
+
+#. Tag: para
+#: fundamentals.docbook:566
+#, no-c-format
+msgid ""
+"<userinput>Current Project</userinput> - Show files from current project only"
+msgstr ""
+"<userinput>Geçerli Proje</userinput> — Yalnızca geçerli projeden olan "
+"dosyaları göster"
+
+#. Tag: para
+#: fundamentals.docbook:567
+#, no-c-format
+msgid "<userinput>All Projects</userinput> - Show files from all open projects"
+msgstr ""
+"<userinput>Tüm Projeler</userinput> — Tüm projelerden olan dosyaları göster"
+
+#. Tag: para
+#: fundamentals.docbook:568
+#, no-c-format
+msgid ""
+"<userinput>Fuzzy Filtering</userinput> - Use fuzzy matching algorithm to "
+"filter files"
+msgstr ""
+"<userinput>Belirsiz Süzme</userinput> — Dosyaları süzmek için belirsiz "
+"eşleştirme algoritmasını kullan"
+
+#. Tag: para
+#: fundamentals.docbook:569
+#, no-c-format
+msgid ""
+"<userinput>Wildcard Filtering</userinput>- Use wildcard matching to filter "
+"files"
+msgstr ""
+"<userinput>Jokerle Süzme</userinput>- Dosyaları süzmek için joker "
+"eşleştirmesi algoritmasını kullan"
+
+#. Tag: title
+#: fundamentals.docbook:579
+#, no-c-format
+msgid "Getting Help"
+msgstr "Yardım Almak"
+
+#. Tag: title
+#: fundamentals.docbook:583
+#, no-c-format
+msgid "With &kate;"
+msgstr "&kate; ile"
+
+#. Tag: term
+#: fundamentals.docbook:587
+#, no-c-format
+msgid "This manual"
+msgstr "Bu kılavuz"
+
+#. Tag: para
+#: fundamentals.docbook:590
+#, no-c-format
+msgid ""
+"Offers detailed documentation on all menu commands, configuration options, "
+"tools, dialogs, plugins &etc; as well as descriptions of the &kate; window, "
+"the editor and various concepts used in the application."
+msgstr ""
+"Tüm menü komutları, yapılandırma seçenekleri, araçlar, iletişim kutuları, "
+"eklentiler vb. hakkında ayrıntılı belgeler sunar; ayrıca &kate; "
+"penceresinin, düzenleyicisinin ve uygulamada kullanılan çeşitli kavramların "
+"açıklamalarını verir."
+
+#. Tag: para
+#: fundamentals.docbook:595
+#, no-c-format
+msgid ""
+"Press <keycap>F1</keycap> or use the <menuchoice><guimenu>Help</guimenu> "
+"<guimenuitem>&kate; Handbook</guimenuitem></menuchoice> menu topic to view "
+"this manual."
+msgstr ""
+"Bu kılavuzu görüntülemek için <keycap>F1</keycap> düğmesine basın veya "
+"<menuchoice><guimenu>Yardım</guimenu> <guimenuitem>&kate; El Kitabı</"
+"guimenuitem></menuchoice> menü başlığını kullanın."
+
+#. Tag: term
+#: fundamentals.docbook:603
+#, no-c-format
+msgid "What's This Help"
+msgstr "Bu Nedir Yardımı"
+
+#. Tag: para
+#: fundamentals.docbook:605
+#, no-c-format
+msgid ""
+"What's This help offers immediate help with single elements of graphical "
+"windows, such as buttons or other window areas."
+msgstr ""
+"Bu Nedir Yardımı, düğmeler veya diğer pencere alanları gibi grafik "
+"pencerelerin tekil ögeleriyle ilgili anında yardım sunar."
+
+#. Tag: para
+#: fundamentals.docbook:608
+#, no-c-format
+msgid ""
+"We strive to provide What's This help for any elements for which it makes "
+"sense. It is available throughout the configuration dialog, and in many "
+"other dialogs as well."
+msgstr ""
+"Mantıklı olan tüm ögeler için Bu Nedir yardımını sağlamaya çalışıyoruz. "
+"Yapılandırma iletişim kutusunda ve diğer birçok iletişim kutusunda da "
+"kullanılabilirdir."
+
+#. Tag: para
+#: fundamentals.docbook:612
+#, no-c-format
+msgid ""
+"To employ What's This help, press <keycombo action=\"simul\">&Shift;"
+"<keycap>F1</keycap></keycombo> or use the <menuchoice><guimenu>Help</"
+"guimenu><guimenuitem>What's This</guimenuitem></menuchoice> menu item to "
+"enable What's This mode. The cursor will turn into an arrow with a question "
+"mark, and you can now click any element in the window to read the What's "
+"This help for that element, if it is available."
+msgstr ""
+"Bu Nedir yardımını açmak için <keycombo action=\"simul\">&Shift;<keycap>F1</"
+"keycap></keycombo> düğmelerine basın veya <menuchoice><guimenu>Yardım</"
+"guimenu><guimenuitem>Bu Nedir?</guimenuitem></menuchoice> menü ögesini "
+"seçin. İmleç, soru işareti ile birlikte bir oka dönüşecektir ve artık "
+"herhangi bir ögenin, eğer varsa Bu Nedir yardımı içeriğini okuyabilirsiniz."
+
+#. Tag: term
+#: fundamentals.docbook:623
+#, no-c-format
+msgid "Help Buttons in Dialogs"
+msgstr "İletişim Kutularındaki Yardım Düğmeleri"
+
+#. Tag: para
+#: fundamentals.docbook:625
+#, no-c-format
+msgid ""
+"Some dialogs have a <guibutton>Help</guibutton> Button. Pressing it will "
+"start the &khelpcenter; and open the relevant documentation."
+msgstr ""
+"Bazı iletişim kutularında bir <guibutton>Yardım</guibutton> düğmesi vardır. "
+"Ona tıklamak &khelpcenter;’ni başlatır ve ilgili belgelendirmeyi açar."
+
+#. Tag: title
+#: fundamentals.docbook:635
+#, no-c-format
+msgid "With Your Text Files"
+msgstr "Metin Dosyalarınızla"
+
+#. Tag: para
+#: fundamentals.docbook:637
+#, no-c-format
+msgid ""
+"&kate; does not (yet!) provide any means for reading document related "
+"documentation. Depending on the file you are editing, you may find the <link "
+"linkend=\"kate-application-plugin-konsole\">Built in Terminal Emulator</"
+"link> helpful for viewing related &UNIX; manual pages or info documentation, "
+"or you can use &konqueror;."
+msgstr ""
+"&kate;, henüz düzenlediğiniz projelere ilişik belgelendirmeleri (örneğin kod "
+"veya API belgelendirmesi) okumak için henüz bir yordam sağlamıyor. "
+"Düzenlediğiniz dosyaya bağlı olarak, &UNIX; kılavuz sayfalarını görüntülemek "
+"için <link linkend=\"kate-application-plugin-konsole\">Yerleşik Uçbirim "
+"Öykünücüsü</link>’nü veya &konqueror;’ı kullanabilirsiniz."
+
+#. Tag: title
+#: fundamentals.docbook:646
+#, no-c-format
+msgid "Articles on &kate;"
+msgstr "&kate; ile İlgili Yazılar"
+
+#. Tag: para
+#: fundamentals.docbook:648
+#, no-c-format
+msgid ""
+"&kate;'s homepage provides some <ulink url=\"https://kate-editor.org/"
+"featured-articles\"> Articles and Howtos</ulink> with further information "
+"beyond the scope of this handbook."
+msgstr ""
+"&kate;’in ana sayfası, bu el kitabının kapsamı dışında olan bazı <ulink url="
+"\"https://kate-editor.org/featured-articles\">Yazılar ve Nasıl Yapılırlar</"
+"ulink> girdileri sağlar."

@@ -1,0 +1,475 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-04-29 00:32+0000\n"
+"PO-Revision-Date: 2025-03-05 23:34+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.03.70\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "Autostart"
+msgstr "Otomatik Başlatma"
+
+#. Tag: author
+#: index.docbook:11
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf;"
+msgstr "&Anne-Marie.Mahfouf;"
+
+#. Tag: trans_comment
+#: index.docbook:12
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: date
+#: index.docbook:15
+#, no-c-format
+msgid "2021-04-05"
+msgstr "2021-04-05"
+
+#. Tag: releaseinfo
+#: index.docbook:16
+#, no-c-format
+msgid "&plasma; 5.20"
+msgstr "&plasma; 5.20"
+
+#. Tag: keyword
+#: index.docbook:19
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:20
+#, no-c-format
+msgid "System Settings"
+msgstr "sistem ayarları"
+
+#. Tag: keyword
+#: index.docbook:21
+#, no-c-format
+msgid "autostart"
+msgstr "kendiliğinden başlat"
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "desktop file"
+msgstr "masaüstü dosyası"
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "script file"
+msgstr "betik dosyası"
+
+#. Tag: title
+#: index.docbook:28
+#, no-c-format
+msgid "Autostart Manager"
+msgstr "Otomatik Başlatma Yöneticisi"
+
+#. Tag: para
+#: index.docbook:30
+#, no-c-format
+msgid ""
+"This module is a configuration tool for managing what programs start up with "
+"your personal &plasma;. It allows you to add programs or scripts so they "
+"automatically run during startup or shutdown of your &plasma; session and to "
+"manage them."
+msgstr ""
+"Bu modül, kişisel &plasma;’nız ile hangi programların başlatılacağını "
+"yönetmek için bir yapılandırma aracıdır. Programları veya betikleri "
+"eklemenize izin verir, böylece &plasma; oturumunuz başlatılırken veya "
+"kapatılırken kendiliğinden çalıştırılır ve onları ayrıca yönetebilirsiniz."
+
+#. Tag: para
+#: index.docbook:32
+#, no-c-format
+msgid "Please note that in this module all changes are immediately applied."
+msgstr "Lütfen bu modülde tüm değişikliklerin anında uygulandığını unutmayın."
+
+#. Tag: para
+#: index.docbook:34
+#, no-c-format
+msgid ""
+"The program scans <filename>$HOME/.config/autostart/</filename> for "
+"applications and login scripts, <filename class=\"directory\">$HOME/.config/"
+"plasma-workspace/env</filename> for pre-startup scripts and <filename class="
+"\"directory\">$HOME/.config/plasma-workspace/shutdown</filename> for logout "
+"scripts to check what programs and scripts are already there and displays "
+"them. It allows you to manage them easily."
+msgstr ""
+"Program; <filename>$HOME/.config/autostart/</filename> dosyasını uygulamalar "
+"ve otorum açma betikleri, <filename class=\"directory\">$HOME/.config/plasma-"
+"workspace/env</filename> dosyasını başlangıç öncesi betikleri ve <filename "
+"class=\"directory\">$HOME/.config/plasma-workspace/shutdown</filename> "
+"dosyasını oturumu kapatma betikleri için; hangi programların ve betiklerin "
+"halihazırda orada olduğunu denetler ve onları görüntüler. Bu araçla ile, "
+"bunları kolayca yönetebilirsiniz."
+
+#. Tag: para
+#: index.docbook:37
+#, no-c-format
+msgid ""
+"Login scripts are <filename class=\"extension\">.desktop</filename> files "
+"with a <literal>X-KDE-AutostartScript=true</literal> key. Pre-startup "
+"scripts are run earlier and can be used to set environment variables."
+msgstr ""
+"Oturum açma betikleri, bir <literal>X-KDE-AutostartScript=true</literal> "
+"anahtarı içeren <filename class=\"extension\">.desktop</filename> "
+"dosyalarıdır. Başlangıç öncesi betikleri daha önceden çalıştırılır ve çevre "
+"değişkenlerini ayarlamak için kullanılabilir."
+
+#. Tag: para
+#: index.docbook:40
+#, no-c-format
+msgid ""
+"Note that you can change the location of your <filename class=\"directory"
+"\">Autostart</filename> folder in <menuchoice><guimenu>Applications</"
+"guimenu> <guimenuitem>Locations</guimenuitem></menuchoice> in the "
+"<guilabel>Personalization</guilabel> category of the &systemsettings; and "
+"set a different folder than <filename class=\"directory\">$HOME/.config/"
+"autostart</filename>."
+msgstr ""
+"<filename class=\"directory\">autostart</filename> klasörünüzün konumunu, "
+"&systemsettings;’nın <guilabel>Kişiselleştirme</guilabel>kategorisinde "
+"<menuchoice><guimenu>Uygulamalar</guimenu> <guimenuitem>Konumlar</"
+"guimenuitem></menuchoice> bölümünden değiştirebilir ve <filename class="
+"\"directory\">$HOME/.config/autostart</filename> klasöründen başkasına "
+"ayarlayabilirsiniz."
+
+#. Tag: para
+#: index.docbook:45
+#, no-c-format
+msgid ""
+"Please read also <ulink url=\"help:/kcontrol/kcmsmserver\">Desktop Session</"
+"ulink> and <ulink url=\"help:/kcontrol/kded\">Background Services</ulink> "
+"for information how to configure the startup behavior of your &plasma; "
+"session."
+msgstr ""
+"&plasma; oturumunuzun başiangıç davranışını yapılandırma hakkında daha fazla "
+"bilgi için lütfen <ulink url=\"help:/kcontrol/kcmsmserver\">Masaüstü "
+"Oturumu</ulink> ve <ulink url=\"help:/kcontrol/kded\">Arka Plan Hizmetleri</"
+"ulink> bölümlerine bakın."
+
+#. Tag: para
+#: index.docbook:47
+#, no-c-format
+msgid ""
+"Some &kde; applications handle the autostart behavior on their own, &eg; you "
+"can enable or disable autostart of an application in the settings dialog "
+"(&kalarm;) or you have to use <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Quit</guimenuitem></menuchoice> (&konversation;, "
+"&kopete;), otherwise the application is still running in the systemtray and "
+"will be restarted on next login."
+msgstr ""
+"Bazı &kde; uygulamaları, kendiliğinden başlatma davranışını kendileri "
+"yapılandırırlar; &eg;, bir uygulamanın otomatik başlatmasını onun ayarlar "
+"iletişim kutusunda etkinleştirebilir veya devre dışı bırakabilirsiniz "
+"(&kalarm;) veya <menuchoice><guimenu>Dosya</guimenu><guimenuitem>Çık</"
+"guimenuitem></menuchoice> seçeneğini kullanmalısınız (&konversation;, "
+"&kopete;), yoksa uygulama sistem tepsisinde çalışmayı sürdürür ve bir "
+"sonraki oturum açmada yeniden başlatılır."
+
+#. Tag: title
+#: index.docbook:51
+#, no-c-format
+msgid "Migration from &kde; Workspaces 4"
+msgstr "&kde; Çalışma Alanları 4’den göç"
+
+#. Tag: para
+#: index.docbook:52
+#, no-c-format
+msgid "To migrate your personal autostart setting from &kde; Workspaces 4:"
+msgstr ""
+"Kişisel otomatik başlatma ayarlarınızı &kde; Çalışma Alanları 4’ten aktarmak "
+"için:"
+
+#. Tag: member
+#: index.docbook:54
+#, no-c-format
+msgid ""
+"Copy desktop files from <filename class=\"directory\">$HOME/.kde/Autostart</"
+"filename> to <filename class=\"directory\">$HOME/.config/autostart</filename>"
+msgstr ""
+"Masaüstü dosyalarını <filename class=\"directory\">$HOME/.kde/Autostart</"
+"filename> konumundan <filename class=\"directory\">$HOME/.config/autostart</"
+"filename> konumuna taşı"
+
+#. Tag: member
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"Copy pre startup script files from <filename class=\"directory\">$HOME/.kde/"
+"Autostart</filename> to <filename class=\"directory\">$HOME/.config/plasma-"
+"workspace/env</filename>"
+msgstr ""
+"Başlangıç öncesi betikleri dosyalarını <filename class=\"directory\">$HOME/."
+"kde/Autostart</filename> konumundan <filename class=\"directory\">$HOME/."
+"config/plasma-workspace/env</filename> konumuna taşı"
+
+#. Tag: member
+#: index.docbook:56
+#, no-c-format
+msgid ""
+"Copy shutdown script files from <filename class=\"directory\">$HOME/.kde/"
+"Autostart</filename> to <filename class=\"directory\">$HOME/.config/plasma-"
+"workspace/shutdown</filename>"
+msgstr ""
+"Kapatma betikleri dosyalarını <filename class=\"directory\">$HOME/.kde/"
+"Autostart</filename> konumundan <filename class=\"directory\">$HOME/.config/"
+"plasma-workspace/shutdown</filename> konumuna taşı"
+
+#. Tag: title
+#: index.docbook:61
+#, no-c-format
+msgid "Disabling Autostart Files Provided by Your Distribution"
+msgstr ""
+"Dağıtımınız Tarafından Sağlanan Otomatik Başlatma Dosyalarını Devre Dışı "
+"Bırakma"
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid ""
+"The correct way to disable an autostart item, for example the printer-applet "
+"if you use printer from time to time, is to copy its <filename class="
+"\"extension\">.desktop</filename> file to your personal autostart folder. "
+"Anything of the same name in <filename class=\"directory\">$HOME/.config/"
+"autostart</filename> overrides the <filename class=\"extension\">.desktop</"
+"filename> file in the default package. Add the following line to the copied "
+"<filename class=\"extension\">.desktop</filename> file:"
+msgstr ""
+"Bir otomatik başlatma ögesini; örneğin arada sırada yazıcınızı "
+"kullanıyorsanız bir yazıcı uygulamacığını, devre dışı bırakmanın doğru yolu, "
+"onun <filename class=\"extension\">.desktop</filename> dosyasını kendi "
+"otomatik başlatma klasörünüze taşımaktır. <filename class=\"directory\">"
+"$HOME/.config/autostart</filename> konumundaki aynı adlı herhangi bir şey, "
+"öntanımlı paketteki <filename class=\"extension\">.desktop</filename> "
+"dosyasını geçersiz kılar. Kopyalanan <filename class=\"extension\">.desktop</"
+"filename> dosyasına şu satırı ekleyin:"
+
+#. Tag: programlisting
+#: index.docbook:63
+#, no-c-format
+msgid "Hidden=true"
+msgstr "Hidden=true"
+
+#. Tag: title
+#: index.docbook:67
+#, no-c-format
+msgid "Files display"
+msgstr "Dosyalar görüntüsü"
+
+#. Tag: para
+#: index.docbook:68
+#, no-c-format
+msgid ""
+"The main part of the module displays the programs that are loaded when "
+"&plasma; starts and scripts that are run when &plasma; starts or shutdowns."
+msgstr ""
+"Modülün ana kısmı, &plasma; başlatıldığında yüklenen programları ve &plasma; "
+"başlatıldığında veya kapatıldığında çalışan betikleri görüntüler."
+
+#. Tag: guilabel
+#: index.docbook:71
+#, no-c-format
+msgid "Icon"
+msgstr "Simge"
+
+#. Tag: para
+#: index.docbook:73
+#, no-c-format
+msgid ""
+"This column shows the icon of the program or script you want to start with "
+"&plasma;. The icon is extracted from the Desktop file from the Icon key for "
+"a program and is the default icon for a script."
+msgstr ""
+"Bu sütun, &plasma; ile başlatmak istediğiniz programın veya betiğin "
+"simgesini gösterir. Simge, bir programın .desktop dosyasının Icon "
+"anahtarından çıkarılır ve betiğin öntanımlı simgesidir."
+
+#. Tag: guilabel
+#: index.docbook:79
+#, no-c-format
+msgid "Name"
+msgstr "Ad"
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid ""
+"This column shows the name of the program or script you want to start with "
+"&plasma;. The name is extracted from the <filename class=\"extension\">."
+"desktop</filename> file from the <literal>Name</literal> key for a program "
+"and is the filename for a script."
+msgstr ""
+"Bu sütun, &plasma; ile başlatmak istediğiniz programın veya betiğin adını "
+"gösterir. Ad, bir programın <filename class=\"extension\">.desktop</"
+"filename> dosyasının <literal>Name</literal> anahtarından çıkarılır ve "
+"betiğin dosya adıdır."
+
+#. Tag: guilabel
+#: index.docbook:87
+#, no-c-format
+msgid "Properties"
+msgstr "Özellikler"
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"This button is only shown when you hover the item with the mouse pointer. "
+"The button (only enabled for programs and login scripts &ie; <filename class="
+"\"extension\">.desktop</filename> files) allows you to change the properties "
+"of the program or script. You have general properties, permissions "
+"properties, a preview when applicable, and properties related to the "
+"application or login script. The default command is extracted from the "
+"<filename class=\"extension\">.desktop</filename> file from the "
+"<literal>Exec</literal> key."
+msgstr ""
+"Bu düğme yalnızca ögenin üzerine fare imleciyle geldiğinizde gösterilir. "
+"Düğme (yalnızca programlar ve oturum açma betikleri; &ie;, <filename class="
+"\"extension\">.desktop</filename> dosyaları için etkindir), programın veya "
+"betiğin özelliklerini değiştirmenize olanak tanır. Genel özelliklere, izin "
+"özelliklerine, uygun olduğunda bir önizlemeye ve uygulama veya oturum açma "
+"betiğiyle ilgili özelliklere sahipsiniz. Öntanımlı komut, <filename class="
+"\"extension\">.desktop</filename> dosyasının <literal>Exec</literal> "
+"anahtarından çıkarılır."
+
+#. Tag: para
+#: index.docbook:92
+#, no-c-format
+msgid ""
+"For a logout script, the command is the path to the script and can not be "
+"modified."
+msgstr ""
+"Oturum kapatma betiği için komut, betiğe giden yoldur ve değiştirilemez."
+
+#. Tag: guilabel
+#: index.docbook:98
+#, no-c-format
+msgid "Remove"
+msgstr "Kaldır"
+
+#. Tag: para
+#: index.docbook:100
+#, no-c-format
+msgid ""
+"This button is only shown when you hover the item with the mouse pointer. "
+"Pressing the <guibutton>&minus;</guibutton> button will immediately remove "
+"the Desktop file for the program or the script or symbolic link in the "
+"<filename class=\"directory\">Autostart</filename> folder."
+msgstr ""
+"Bu düğme yalnızca ögenin üzerine fare imleciyle geldiğinizde gösterilir. "
+"<guibutton>&minus;</guibutton> düğmesine basmak, programın Desktop dosyasını "
+"veya <filename class=\"directory\">Autostart</filename> klasöründeki betiği "
+"veya sembolik bağlantıyı hemen kaldıracaktır."
+
+#. Tag: title
+#: index.docbook:109
+#, no-c-format
+msgid "Actions"
+msgstr "Eylemler"
+
+#. Tag: para
+#: index.docbook:110
+#, no-c-format
+msgid ""
+"On the bottom, you have the combined <guibutton>Add...</guibutton> button to "
+"choose the type of item you want to add. You can add programs and login or "
+"logout scripts."
+msgstr ""
+"Altta, eklemek istediğiniz öge türünü seçmek için birleştirilmiş "
+"<guibutton>Ekle…</guibutton> düğmesi vardır. Programlar ve oturum açma veya "
+"oturum kapatma betikleri ekleyebilirsiniz."
+
+#. Tag: guimenuitem
+#: index.docbook:115
+#, no-c-format
+msgid "Add Program"
+msgstr "Program Ekle"
+
+#. Tag: para
+#: index.docbook:117
+#, no-c-format
+msgid ""
+"Clicking this item displays the standard &plasma; <guilabel>Choose "
+"Application</guilabel> dialog and allows you to choose which program you "
+"want to start. After choosing the program, clicking <guibutton>OK</"
+"guibutton> brings you the properties for this program."
+msgstr ""
+"Bu ögeye tıklandığında standart &plasma; <guilabel>Uygulama Seç</guilabel> "
+"iletişim kutusu açılır ve hangi programı başlatmak istediğinizi seçmenize "
+"olanak tanır. Programı seçtikten sonra, <guibutton>Tamam</guibutton>’a "
+"tıklayarak bu programa ait özellikleri görebilirsiniz."
+
+#. Tag: para
+#: index.docbook:120
+#, no-c-format
+msgid ""
+"This will copy the program <filename class=\"extension\">.desktop</filename> "
+"file in your <filename class=\"directory\">Autostart</filename> folder."
+msgstr ""
+"Bu, programın <filename class=\"extension\">.desktop</filename> dosyasını "
+"<filename class=\"directory\">autostart</filename> klasörünüze kopyalar."
+
+#. Tag: guimenuitem
+#: index.docbook:126
+#, no-c-format
+msgid "Add Login Script..."
+msgstr "Oturum Açma Betiği Ekle…"
+
+#. Tag: para
+#: index.docbook:128
+#, no-c-format
+msgid ""
+"This item opens a dialog that asks you for the location of the script you "
+"want to add. Scripts set to run on login will have a corresponding <filename "
+"class=\"extension\">.desktop</filename> file created in your <filename class="
+"\"directory\">Autostart</filename> folder and will be run during Plasma "
+"startup."
+msgstr ""
+"Bu, eklemek istediğiniz betiğin konumunu soran bir iletişim kutusu açar. "
+"Oturum açılışında çalıştırılmak üzere ayarlanmış betiklerin <filename class="
+"\"directory\">autostart</filename> klasörünüzde oluşturulmuş ilişkili bir "
+"<filename class=\"extension\">.desktop</filename> dosyası vardır ve Plasma "
+"başlangıcında çalıştırılacaktır."
+
+#. Tag: guimenuitem
+#: index.docbook:133
+#, no-c-format
+msgid "Add Logout Script..."
+msgstr "Oturum Kapatma Betiği Ekle…"
+
+#. Tag: para
+#: index.docbook:135
+#, no-c-format
+msgid ""
+"This item opens a dialog that asks you for the location of the script you "
+"want to add. Scripts set on to be run on logout are copied or symlinked in "
+"the <filename class=\"directory\">$HOME/.config/plasma-workspace/shutdown</"
+"filename> directory and will be automatically run during &plasma; shutdown "
+"after the user has logged out."
+msgstr ""
+"Bu, eklemek istediğiniz betiğin konumunu soran bir iletişim kutusu açar. "
+"Oturumu kapanışında çalıştırılmak üzere ayarlanmış betikler <filename class="
+"\"directory\">$HOME/.config/plasma-workspace/shutdown</filename> dizinine "
+"kopyalanır veya sembolik bağlantı oluşturulur ve kullanıcı oturumu "
+"kapattıktan sonta &plasma; kapanışında kendiliğinden çalıştırılacaktır."

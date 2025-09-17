@@ -1,0 +1,154 @@
+# Copyright (C) 2012 Free Software Foundation, Inc.
+#
+# Ömer Fadıl USTA <omer_fad@hotmail.com>,2002.
+# Serdar Soytetir <tulliana@gmail.com>, 2012.
+# Volkan Gezer <volkangezer@gmail.com>, 2013.
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kioslave_smb\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-05 00:58+0000\n"
+"PO-Revision-Date: 2025-03-05 23:51+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "<title>SMB</title>"
+msgstr "<title>SMB</title>"
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Alexander.Neundorf; &Alexander.Neundorf.mail;"
+msgstr "&Alexander.Neundorf; &Alexander.Neundorf.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Serdar</"
+"firstname><surname>Soytetir</"
+"surname><affiliation><address><email>tulliana@gmail.com</email></address></"
+"affiliation><contrib>Çeviri</contrib><firstname>Volkan</"
+"firstname><surname>Gezer</"
+"surname><affiliation><address><email>volkangezer@gmail.com</email></"
+"address></affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: date
+#: index.docbook:15
+#, no-c-format
+msgid "2016-12-11"
+msgstr "2016-12-11"
+
+#. Tag: releaseinfo
+#: index.docbook:16
+#, no-c-format
+msgid "Applications 16.12"
+msgstr "Uygulamalar 16.12"
+
+#. Tag: para
+#: index.docbook:18
+#, no-c-format
+msgid ""
+"The smb worker enables you to browse the shares of a &Windows; (or Samba) "
+"network."
+msgstr ""
+"smb işçisi, bir &Windows; (veya Samba) ağındaki paylaşımları tarayabilmenizi "
+"sağlar."
+
+#. Tag: para
+#: index.docbook:23
+#, no-c-format
+msgid ""
+"To see the workgroups, enter <userinput><command>smb:/</command></userinput>."
+msgstr ""
+"Çalışma gruplarını görmek için <userinput><command>smb:/</command></"
+"userinput> yazın."
+
+#. Tag: para
+#: index.docbook:27
+#, no-c-format
+msgid ""
+"<userinput><command>smb://</command><replaceable>a_workgroup</replaceable></"
+"userinput> will list the hosts in this workgroup."
+msgstr ""
+"<userinput><command>smb://</command><replaceable>bir_çalışmagrubu</"
+"replaceable></userinput>, bu çalışma grubundaki makineleri listeler."
+
+#. Tag: para
+#: index.docbook:31
+#, no-c-format
+msgid ""
+"To see the shares of a host, enter <userinput><command>smb://</"
+"command><replaceable>the_host</replaceable></userinput> or "
+"<userinput><command>smb:/</command><replaceable>a_workgroup</replaceable>/"
+"<replaceable>the_host</replaceable></userinput>."
+msgstr ""
+"Bir makinenin paylaşımlarını görmek için <userinput><command>smb://</"
+"command><replaceable>makine</replaceable></userinput> veya "
+"<userinput><command>smb:/</command><replaceable>bir_çalışmagrubu</"
+"replaceable>/<replaceable>makine</replaceable></userinput> yazın."
+
+#. Tag: para
+#: index.docbook:37
+#, no-c-format
+msgid ""
+"To access a share directly enter <userinput><command>smb://</"
+"command><replaceable>the_host/the_share</replaceable></userinput> or "
+"<userinput><command>smb:/</command><replaceable>a_workgroup</replaceable>/"
+"<replaceable>the_host</replaceable>/<replaceable>the_share</replaceable></"
+"userinput>"
+msgstr ""
+"Bir paylaşıma doğrudan erişmek için <userinput><command>smb://</"
+"command><replaceable>makine/paylaşım</replaceable></userinput> veya "
+"<userinput><command>smb:/</command><replaceable>bir_çalışmagrubu</"
+"replaceable>/<replaceable>makine</replaceable>/<replaceable>paylaşım</"
+"replaceable></userinput> yazın."
+
+#. Tag: para
+#: index.docbook:44
+#, no-c-format
+msgid "The smb worker requires that you have libsmbclient to use this worker."
+msgstr ""
+"smb işçisi, bu işçiyi kullanmak için libsmbclient’e sahip olmanızı "
+"gerektirir."
+
+#. Tag: para
+#: index.docbook:48
+#, no-c-format
+msgid ""
+"You can set your default user name and password in the &systemsettings; "
+"category <guilabel>Network</guilabel> in "
+"<menuchoice><guisubmenu>Connectivity</guisubmenu><guimenuitem> Windows "
+"Shares</guimenuitem></menuchoice>. This is especially useful if you are a "
+"member of a &Windows; <acronym>NT</acronym> domain. There you can also set "
+"your workgroup name, but in most cases this is not required. The worker will "
+"ask for your username and password if a default is not set."
+msgstr ""
+"&systemsettings;’nın <guilabel>Ağ</guilabel> "
+"<menuchoice><guisubmenu>Ayarlar</guisubmenu><guimenuitem> Windows "
+"Paylaşımları</guimenuitem></menuchoice> bölümünde öntanımlı kullanıcı adı ve "
+"parolanızı ayarlayabilirsiniz. Bu özellikle bir &Windows; <acronym>NT</"
+"acronym> alan adının üyesiyseniz yararlıdır. Buradan ayrıca çalışma grubu "
+"adınızı ayarlayabilirsiniz; ancak çoğu durumda bu gerekli değildir. İşçi, "
+"bir öntanımlı kullanıcı adı ve parola ayarlanmamışsa size soracaktır."
+
+#~ msgid ""
+#~ "This ioslave is tested and developed using mainly Samba 2.0.7, but other "
+#~ "versions of Samba should work too."
+#~ msgstr ""
+#~ "ioslave çoğunlukla Samba 2.0.7 kullanılarak test edildi ve geliştirildi, "
+#~ "ancak diğer Samba sürümleri de sorunsuz çalışmalıdır."
+
+#~ msgid "Author: Alexander Neundorf <email>neundorf@kde.org</email>"
+#~ msgstr "Yazan: Alexander Neundorf <email>neundorf@kde.org</email>"

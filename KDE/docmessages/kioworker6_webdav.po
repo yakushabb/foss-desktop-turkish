@@ -1,0 +1,160 @@
+#
+# Serdar Soytetir <tulliana@gmail.com>, 2012.
+# SPDX-FileCopyrightText: 2023, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-12-04 01:02+0000\n"
+"PO-Revision-Date: 2025-03-05 23:51+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "webdav / webdavs"
+msgstr "webdav / webdavs"
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Hamish.Rodda; &Hamish.Rodda.mail;"
+msgstr "&Hamish.Rodda; &Hamish.Rodda.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Serdar</"
+"firstname><surname>Soytetir</"
+"surname><affiliation><address><email>tulliana@gmail.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: date
+#: index.docbook:16
+#, no-c-format
+msgid "2002-01-21"
+msgstr "2002-01-21"
+
+#. Tag: para
+#: index.docbook:18
+#, no-c-format
+msgid ""
+"<acronym>WebDAV</acronym> is a <emphasis>D</emphasis>istributed <emphasis>A</"
+"emphasis>uthoring and <emphasis>V</emphasis>ersioning protocol for the World "
+"Wide Web. It allows for easy management of documents and scripts on a &HTTP; "
+"server, and has additional features designed to simplify version management "
+"amongst multiple authors."
+msgstr ""
+"<acronym>WebDAV</acronym>, World Wide Web (WWW) için bir <emphasis>D</"
+"emphasis>istributed <emphasis>A</emphasis>uthoring and <emphasis>V</"
+"emphasis>ersioning (Dağıtılmış Yazma ve Sürümleme) protokolü anlamına gelir. "
+"Bir &HTTP; sunucusundaki belgelerin ve betiklerin kolay yönetimine izin "
+"verir ve sürüm yönetimini birden çok yazar arasında kolaylaştırmak için ek "
+"özelliklere iyedir."
+
+#. Tag: para
+#: index.docbook:25
+#, no-c-format
+msgid ""
+"Usage of this protocol is simple. Type the location you want to view, "
+"similar to a &HTTP; &URL; except for the webdav:// protocol name at the "
+"start. An example is <userinput>webdav://<replaceable>www.hostname.com/path/"
+"</replaceable></userinput>. If you specify a folder name, a list of files "
+"and folders will be displayed, and you can manipulate these folders and "
+"files just as you would with any other filesystem."
+msgstr ""
+"Bu protokolün kullanımı pek basittir. Görüntülemek istediğiniz konumu bir "
+"&HTTP; &URL;’sine benzer biçimde, yalnızca başında webdav:// protokolü adı "
+"ile girin. Örnek olarak, <userinput>webdav://<replaceable>www.alanadı.com/"
+"yol/</replaceable></userinput> kullanılabilir. Bir klasör adı belirtirseniz "
+"bir dosyalar ve klasörler listesi görüntülenir ve herhangi başka bir dosya "
+"sisteminde olduğu gibi bunları manipüle edebilirsiniz."
+
+#. Tag: title
+#: index.docbook:34
+#, no-c-format
+msgid "WebDAV Features"
+msgstr "WebDAV Özellikleri"
+
+#. Tag: term
+#: index.docbook:36
+#, no-c-format
+msgid "Locking"
+msgstr "Kilitleme"
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"File locking allows users to lock a file, informing others that they are "
+"currently working on this file. This way, editing can be done without fear "
+"that the changes may be overwritten by another person who is also editing "
+"the same document."
+msgstr ""
+"Dosya kilitleme, kullanıcıların dosyaları kilitleyerek, diğer kullanıcılara "
+"bu dosya üzerinde çalıştığı bilgisini vermelerini sağlar. Bu şekilde, dosya "
+"düzenleme sırasında bir başka kullanıcının aynı dosyayı düzenlemesi "
+"engelenerek yapılan işin boşa gitmesi olasılığı ortadan kaldırılmış olur."
+
+#. Tag: term
+#: index.docbook:48
+#, no-c-format
+msgid "Source file access"
+msgstr "Kaynak dosya erişimi"
+
+#. Tag: para
+#: index.docbook:50
+#, no-c-format
+msgid ""
+"<acronym>WebDAV</acronym> allows access to the script which is called to "
+"produce a specific page, so changes can be made to the script itself."
+msgstr ""
+"<acronym>WebDAV</acronym>, belirli bir sayfayı üretmek için betiklerin "
+"çağrılmasına ve betiklerin kendilerinin de düzenlenmesine izin verir."
+
+#. Tag: term
+#: index.docbook:56
+#, no-c-format
+msgid "Per-document property support"
+msgstr "Belge başına özellik desteği"
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid ""
+"Arbitrary properties may be set to assist identification of a document, such "
+"as the author."
+msgstr ""
+"Örneğin, belgenin yazarı gibi özellikler isteğe bağlı biçimde kimlik "
+"tanımlamaya yardımcı olmak için ayarlanabilirler."
+
+#. Tag: para
+#: index.docbook:65
+#, no-c-format
+msgid ""
+"To take advantage of these additional capabilities, you will need an "
+"application which supports them. No application currently supports them "
+"through this KIO worker."
+msgstr ""
+"Bu ek yeteneklerden yararlanmak için bunları destekleyen bir uygulamaya "
+"gereksiniminiz vardır. Şu anda hiçbir uygulama onları bu KIO işçisi "
+"aracılığıyla desteklemez."
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid ""
+"<acronym>WebDAVS</acronym> is the <acronym>WebDAV</acronym> protocol "
+"encrypted via SSL."
+msgstr ""
+"<acronym>WebDAVS</acronym>, <acronym>WebDAV</acronym> protokolünün SSL ile "
+"şifrelenmiş halidir."

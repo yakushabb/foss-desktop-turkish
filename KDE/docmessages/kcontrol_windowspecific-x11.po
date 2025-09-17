@@ -1,0 +1,2248 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-05-06 02:14+0000\n"
+"PO-Revision-Date: 2025-03-13 15:54+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.07.70\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: index.docbook:8
+#, no-c-format
+msgid "Window Rules"
+msgstr "Pencere Kuralları"
+
+#. Tag: author
+#: index.docbook:10
+#, no-c-format
+msgid "&Lauri.Watts; &Lauri.Watts.mail;"
+msgstr "&Lauri.Watts; &Lauri.Watts.mail;"
+
+#. Tag: personname
+#: index.docbook:12
+#, no-c-format
+msgid ""
+"<firstname>Parts of this documentation was converted from the KDE UserBase "
+"<ulink url=\"https://userbase.kde.org/KWin Rules\">KWin Rules</ulink> page "
+"and updated by the &kde; Documentation team to Plasma 5.8.</firstname> "
+"<surname></surname>"
+msgstr ""
+"<firstname>Bu belgelendirmenin bir kısmı KDE Kullanıcı Tabanı<ulink url="
+"\"https://userbase.kde.org/KWin Rules\">KWin Kuralları</ulink> sayfasından "
+"dönüştürülmüş ve &kde; Belgelendirme Takımı tarafından Plasma 5.8 için "
+"uyarlanmıştır.</firstname> <surname></surname>"
+
+#. Tag: trans_comment
+#: index.docbook:17
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: date
+#: index.docbook:20
+#, no-c-format
+msgid "2016-06-23"
+msgstr "2016-06-23"
+
+#. Tag: releaseinfo
+#: index.docbook:21
+#, no-c-format
+msgid "Plasma 5.8"
+msgstr "Plasma 5.8"
+
+#. Tag: para
+#: index.docbook:23 index.docbook:37
+#, no-c-format
+msgid ""
+"Here you can customize window settings specifically only for some windows."
+msgstr ""
+"Buradan pencere ayarlarını yalnızca belirli pencereler için "
+"özelleştirebilirsiniz."
+
+#. Tag: keyword
+#: index.docbook:27
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:28
+#, no-c-format
+msgid "KControl"
+msgstr "KControl"
+
+#. Tag: keyword
+#: index.docbook:29
+#, no-c-format
+msgid "window settings"
+msgstr "pencere ayarları"
+
+#. Tag: keyword
+#: index.docbook:30
+#, no-c-format
+msgid "window placement"
+msgstr "pencere konumlandırması"
+
+#. Tag: keyword
+#: index.docbook:31
+#, no-c-format
+msgid "window size"
+msgstr "pencere boyutu"
+
+#. Tag: title
+#: index.docbook:35
+#, no-c-format
+msgid "Window Specific Settings: Quick Start"
+msgstr "Pencereye Özgü Ayarlar: Tez Başlangıç"
+
+#. Tag: para
+#: index.docbook:41
+#, no-c-format
+msgid ""
+"Please note that this configuration will not take effect if you do not use "
+"&kwin; as your window manager. If you do use a different window manager, "
+"please refer to its documentation for how to customize window behavior."
+msgstr ""
+"&plasma;’nın yerel pencere yöneticisi &kwin;’i kullanmazsanız bu modüldeki "
+"yapılandırmanın etkili olmayacağını lütfen unutmayın. Farklı bir pencere "
+"yöneticisi kullanıyorsanız lütfen pencere davranışını nasıl "
+"özelleştireceğinizle ilgili belgelere bakın."
+
+#. Tag: para
+#: index.docbook:47
+#, no-c-format
+msgid ""
+"Many of the settings you can configure here are those you can configure on a "
+"global basis in the <guilabel>Window Behavior</guilabel> &systemsettings; "
+"module, however some of them are even more detailed."
+msgstr ""
+"Burada yapılandırabileceğiniz ayarların çoğu, genel olarak <guilabel>Pencere "
+"Davranışı</guilabel> &systemsettings; modülünde yapılandırabileceğiniz "
+"ayarlardır; ancak burada bazıları daha ayrıntılıdır."
+
+#. Tag: para
+#: index.docbook:51
+#, no-c-format
+msgid ""
+"They encompass geometry, placement, whether a window should be kept above or "
+"below others, focus stealing prevention, and translucency settings."
+msgstr ""
+"Geometriyi, yerleşimi, bir pencerenin diğerlerinin üzerinde mi yoksa altında "
+"mı tutulması gerektiğini, odak çalmayı önlemeyi ve saydamlık ayarlarını "
+"kapsar."
+
+#. Tag: para
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"You can access this module in two ways: from the titlebar of the application "
+"you wish to configure, or from the &systemsettings;. If you start it from "
+"within &systemsettings; you can use the <guibutton>New...</guibutton> to "
+"create a window profile, and the <guibutton>Detect Window Properties</"
+"guibutton> button on the resulting dialog to partially fill in the required "
+"information for the application you wish to configure."
+msgstr ""
+"Bu modüle iki şekilde erişebilirsiniz: Yapılandırmak istediğiniz uygulamanın "
+"başlık çubuğundan veya &systemsettings;’ndan. &systemsettings; içinden "
+"başlatırsanız bir pencere profili oluşturmak için <guibutton>Yeni..</"
+"guibutton>’yi ve ortaya çıkan iletişim kutusundaki <guibutton>Pencere "
+"Özelliklerini Algıla</guibutton> düğmesini kullanarak yapılandırmak "
+"istediğiniz uygulama için gerekli bilgileri kısmen doldurabilirsiniz."
+
+#. Tag: para
+#: index.docbook:63
+#, no-c-format
+msgid ""
+"You can also at any time <guibutton>Modify...</guibutton> or "
+"<guibutton>Delete</guibutton> any stored settings profile, and reorder the "
+"list. Reordering the list using the <guibutton>Move Up</guibutton> and "
+"<guibutton>Move Down</guibutton> buttons effects on how they are applied."
+msgstr ""
+"Ayrıca istediğiniz bir zamanda herhangi bir depolanan ayarlar profilini "
+"<guibutton>Değiştir…</guibutton> veya <guibutton>Sil</guibutton> yapabilir "
+"ve listeyi yeniden sıralayabilirsiniz. <guibutton>Yukarı Taşı</guibutton> ve "
+"<guibutton>Aşağı Taşı</guibutton> düğmelerinin nasıl uygulandıklarına etkisi "
+"olur."
+
+#. Tag: title
+#: index.docbook:72
+#, no-c-format
+msgid "Overview"
+msgstr "Genel Görünüm"
+
+#. Tag: para
+#: index.docbook:73
+#, no-c-format
+msgid ""
+"&kwin; allows the end-user to define rules to alter an application's window "
+"attributes."
+msgstr ""
+"&kwin;, kullanıcının bir uygulamanın pencere özniteliklerini değiştirmek "
+"için kurallar tanımlamasına izin verir."
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid ""
+"For example, when an application is started, it can be forced to always run "
+"on <emphasis>Virtual Desktop 2</emphasis>. Or a defect in an application can "
+"be worked-around to force the window above others."
+msgstr ""
+"Örneğin, bir uygulama başlatıldığında, her zaman <emphasis>Sanal Masaüstü 2</"
+"emphasis> üzerinde çalışmaya zorlanabilir. Veya bir uygulamadaki bir kusur, "
+"pencereyi diğerlerinin üzerinde zorlayarak çözülebilir."
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"Step-by-step <link linkend=\"examples\">examples</link> are provided along "
+"with detailed information on using the <link linkend=\"kwin-rule-editor"
+"\">&kwin; Rule Editor</link> to specify <link linkend=\"window-matching"
+"\">Window Matching</link> and <link linkend=\"window-attributes\">Window "
+"Attributes</link>."
+msgstr ""
+"<link linkend=\"kwin-rule-editor\">&kwin; Kural Düzenleyicisi</link>’ni "
+"kullanma ve <link linkend=\"window-matching\">Pencere Eşleştirme</link>’yi "
+"ve <link linkend=\"window-attributes\">Pencere Öznitelikleri</link>’ni "
+"belirtmek üzerine adım adım <link linkend=\"examples\">örnekler</link> "
+"sağlanır."
+
+#. Tag: title
+#: index.docbook:80
+#, no-c-format
+msgid "Examples and Application Workaround"
+msgstr "Örnekler ve Uygulama Geçici Çözümü"
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid ""
+"To see what's possible, detailed <link linkend=\"examples\">examples</link> "
+"are provided which can also be used to model your own rules."
+msgstr ""
+"Neyin olanaklı olduğunu görmek ve kendi kurallarınızı modellemek için de "
+"kullanılabilecek ayrıntılı <link linkend=\"examples\">örnekler</link> "
+"sağlanmıştır."
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid ""
+"A special page is to dedicated to address <link linkend=\"application-"
+"workarounds\">Application Workaround</link>."
+msgstr ""
+"<link linkend=\"application-workarounds\">Uygulama Geçici Çözümü</link>’nü "
+"ele almak için özel bir sayfa ayrılmıştır."
+
+#. Tag: title
+#: index.docbook:86
+#, no-c-format
+msgid "KWin Rule Editor"
+msgstr "KWin Kural Düzenleyicisi"
+
+#. Tag: title
+#: index.docbook:87
+#, no-c-format
+msgid "Invoking the KWin Rule Editor"
+msgstr "KWin Kural Düzenleyicisi’ni Çağırmak"
+
+#. Tag: para
+#: index.docbook:101
+#, no-c-format
+msgid "There are several ways to invoke the &kwin; Rule Editor. Below are two:"
+msgstr ""
+"&kwin; kural düzenleyicisini çağırmanın birkaç yolu vardır. Aşağıda ikisini "
+"bulabilirsiniz:"
+
+#. Tag: para
+#: index.docbook:104
+#, no-c-format
+msgid ""
+"Right-click on the title-bar of any window, choose <menuchoice><guimenu>More "
+"Actions</guimenu><guimenuitem>Window Manager Settings...</guimenuitem></"
+"menuchoice> and in the <guilabel>Configure</guilabel> window, select "
+"<guilabel>Window Rules</guilabel> or"
+msgstr ""
+"Herhangi bir pencerenin başlık çubuğuna sağ tıklayın ve "
+"<menuchoice><guimenu>Daha Fazla Eylem</guimenu><guimenuitem>Pencere "
+"Yöneticisi Ayarları…</guimenuitem></menuchoice> ve <guilabel>Yapılandır</"
+"guilabel> penceresinde <guilabel>Pencere Kuralları</guilabel>’nı seçin veya "
+"şu yolu izleyin:"
+
+#. Tag: menuchoice
+#: index.docbook:107
+#, no-c-format
+msgid ""
+"<guimenu>System Settings</guimenu><guisubmenu>Window Behavior</"
+"guisubmenu><guimenuitem>Window Rules</guimenuitem>"
+msgstr ""
+"<guimenu>Sistem Ayarları</guimenu><guisubmenu>Pencere Davranışı</"
+"guisubmenu><guimenuitem>Pencere Kuralları</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid "The main window is used to:"
+msgstr "Ana pencere şunun için kullanılır:"
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid ""
+"Affect rules with <guilabel>New...</guilabel>, <guilabel>Modify...</"
+"guilabel> and <guilabel>Delete</guilabel>"
+msgstr ""
+"Kuralları, <guilabel>Yeni…</guilabel>, <guilabel>Değiştir…</guilabel> ve "
+"<guilabel>Sil</guilabel> ile etkilemek"
+
+#. Tag: para
+#: index.docbook:113
+#, no-c-format
+msgid ""
+"Share rules with others via <guilabel>Import</guilabel> and "
+"<guilabel>Export</guilabel>"
+msgstr ""
+"Kuralları, <guilabel>İçe Aktar</guilabel> ve <guilabel>Dışa Aktar</guilabel> "
+"ile başkalarıyla paylaşmak"
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"Ensure desired <link linkend=\"rule-evaluation\">rule evaluation</link> "
+"using <guilabel>Move Up</guilabel> and <guilabel>Move Down</guilabel>"
+msgstr ""
+"<guilabel>Yukarı Taşı</guilabel> ve <guilabel>Aşağı Taşı</guilabel> ile "
+"istenen <link linkend=\"rule-evaluation\">kural değerlendirmesinin</link> "
+"yapıldığından emin olmak"
+
+#. Tag: title
+#: index.docbook:116
+#, no-c-format
+msgid "Rule Evaluation"
+msgstr "Kural Değerlendirmesi"
+
+#. Tag: para
+#: index.docbook:117
+#, no-c-format
+msgid ""
+"When an application starts (or the rules are modified), &kwin; evaluates the "
+"rules from the top of the list to the bottom. For all rules which match a "
+"window, the collective set of attributes are applied to the window, then the "
+"window is displayed."
+msgstr ""
+"Bir uygulama başlatıldığında (veya kurallar değiştirildiğinde), &kwin; "
+"kuralları listenin başından sonuna kadar değerlendirir. Bir pencereyle "
+"eşleşen tüm kurallar için toplu öznitelikler pencereye uygulanır, ardından "
+"pencere görüntülenir."
+
+#. Tag: para
+#: index.docbook:119
+#, no-c-format
+msgid ""
+"Should two or more matching rules enable the same attribute, the setting in "
+"the <emphasis>first</emphasis> rule in the list is used."
+msgstr ""
+"İki veya daha fazla eşleşen kuralın aynı özniteliği etkinleştirmesi "
+"durumunda, listedeki <emphasis>ilk</emphasis> kuralın ayarı kullanılır."
+
+#. Tag: para
+#: index.docbook:121
+#, no-c-format
+msgid ""
+"You can tailor children windows for the application by placing the more "
+"restrictive rules first - see the <link linkend=\"application-on-all-"
+"desktops-and-handle-one-child-window-uniquely\">Kopete and Kopete Chat "
+"Window</link> example."
+msgstr ""
+"Önce daha kısıtlayıcı kurallar koyarak alt pencereleri uygulama için "
+"uyarlayabilirsiniz — örnek olarak <link linkend=\"application-on-all-"
+"desktops-and-handle-one-child-window-uniquely\">Kopete ve Kopete Sohbet "
+"Penceresi</link> verilebilir."
+
+#. Tag: title
+#: index.docbook:125
+#, no-c-format
+msgid "Rule Editor"
+msgstr "Kural Düzenleyicisi"
+
+#. Tag: para
+#: index.docbook:139
+#, no-c-format
+msgid "The editor is composed of four tabs:"
+msgstr "Düzenleyici, dört sekmeden oluşur:"
+
+#. Tag: guilabel
+#: index.docbook:142
+#, no-c-format
+msgid "Window matching"
+msgstr "Pencere eşleştirme"
+
+#. Tag: guilabel
+#: index.docbook:143 index.docbook:256
+#, no-c-format
+msgid "<guilabel>Size &amp; Position</guilabel>"
+msgstr "<guilabel>Boyut ve Konum</guilabel>"
+
+#. Tag: guilabel
+#: index.docbook:144 index.docbook:257
+#, no-c-format
+msgid "<guilabel>Arrangement &amp; Access</guilabel>"
+msgstr "<guilabel>Düzenleme ve Erişim</guilabel>"
+
+#. Tag: guilabel
+#: index.docbook:145 index.docbook:258
+#, no-c-format
+msgid "<guilabel>Appearance &amp; Fixes</guilabel>"
+msgstr "<guilabel>Görünüş ve Düzeltmeler</guilabel>"
+
+#. Tag: para
+#: index.docbook:147
+#, no-c-format
+msgid ""
+"As the name implies, <guilabel>Window matching</guilabel> is used to specify "
+"criteria to match one or more windows. The other three tabs are used to "
+"alter the attributes of the matching windows."
+msgstr ""
+"Adından da anlaşılacağı gibi <guilabel>Pencere eşleştirme</guilabel>, bir "
+"veya daha fazla pencereyi eşleştirmek için kriter belirtmek için kullanılır. "
+"Diğer üç sekme, eşleşen pencerelerin özniteliklerini değiştirmek için "
+"kullanılır."
+
+#. Tag: para
+#: index.docbook:149
+#, no-c-format
+msgid "Panels can also be affected."
+msgstr "Paneller de etkilenebilir."
+
+#. Tag: title
+#: index.docbook:151 index.docbook:162
+#, no-c-format
+msgid "Window Matching"
+msgstr "Pencere Eşleştirme"
+
+#. Tag: para
+#: index.docbook:152
+#, no-c-format
+msgid ""
+"Each window rule has user specified <link linkend=\"window-matching\">Window "
+"Matching</link> criteria. &kwin; uses the criteria to determine whether the "
+"rule is applicable for an application."
+msgstr ""
+"Her pencere kuralı, kullanıcı tarafından belirlenen <link linkend=\"window-"
+"matching\">Pencere Eşleştirme</link> kriterine sahiptir. &kwin; kuralın bir "
+"uygulama için geçerli olup olmadığını belirlemek için ölçütleri kullanır."
+
+#. Tag: title
+#: index.docbook:155 index.docbook:239
+#, no-c-format
+msgid "Window Attributes"
+msgstr "Pencere Öznitelikleri"
+
+#. Tag: para
+#: index.docbook:156
+#, no-c-format
+msgid ""
+"Along with Window Matching criteria, each window rule has a set of <link "
+"linkend=\"window-attributes\">Window Attributes</link>. The attributes "
+"override the corresponding application's settings and are applied before the "
+"window is displayed by &kwin;."
+msgstr ""
+"Pencere Eşleştirme ölçütlerinin yanı sıra, her pencere kuralının bir dizi "
+"<link linkend=\"window-attributes\">Pencere Öznitelikleri</link> vardır. "
+"Öznitelikler ilgili uygulamanın ayarlarını geçersiz kılar ve pencere &kwin; "
+"tarafından görüntülenmeden önce uygulanır."
+
+#. Tag: para
+#: index.docbook:176
+#, no-c-format
+msgid ""
+"The <guilabel>Window Matching</guilabel> tab is used to specify the criteria "
+"&kwin; uses to evaluate whether the rule is applicable for a given window."
+msgstr ""
+"<guilabel>Pencere Eşleştirme</guilabel> sekmesi ,&kwin; tarafından kuralın "
+"belirli bir pencere için geçerli olup olmadığını değerlendirmek için "
+"kullanılır."
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid "Zero (match any window) or more of the following may be specified:"
+msgstr ""
+"Sıfır (herhangi bir pencereyle eşleşir) veya aşağıdakilerden daha fazlası "
+"belirtilebilir:"
+
+#. Tag: para
+#: index.docbook:181
+#, no-c-format
+msgid "<guilabel>Window class (application)</guilabel> - match the class."
+msgstr "<guilabel>Pencere sınıfı (uygulama)</guilabel> — sınıfı eşleştirin."
+
+#. Tag: para
+#: index.docbook:182
+#, no-c-format
+msgid ""
+"<guilabel>Match whole window class</guilabel> - include matching the "
+"secondary class."
+msgstr ""
+"<guilabel>Tüm pencere sınıfını eşleştir</guilabel> — ikincil sınıfı "
+"eşleştirmeyi içerir."
+
+#. Tag: para
+#: index.docbook:185
+#, no-c-format
+msgid ""
+"<guilabel>Window role</guilabel> - restrict the match to the function of the "
+"window (&eg; a <emphasis>main window</emphasis>, a <emphasis>chat window</"
+"emphasis>, &etc;)"
+msgstr ""
+"<guilabel>Pencere rolü</guilabel> — eşleşmeyi pencerenin işleviyle "
+"sınırlayın (&eg;, bir <emphasis>ana pencere</emphasis>, bir <emphasis>sohbet "
+"penceresi</emphasis>, &etc;)"
+
+#. Tag: para
+#: index.docbook:186
+#, no-c-format
+msgid ""
+"<guilabel>Window types</guilabel> - restrict the match to the type of "
+"window: <guilabel>Normal Window</guilabel>, <guilabel>Dialog Window</"
+"guilabel>, &etc;"
+msgstr ""
+"<guilabel>Pencere türleri</guilabel> — eşleşmeyi pencere türüyle sınırlayın: "
+"<guilabel>Normal Pencere</guilabel>, <guilabel>İletişim Kutusu</guilabel>, "
+"&etc;"
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid ""
+"<guilabel>Window title</guilabel> - restrict the match to the title of the "
+"window."
+msgstr ""
+"<guilabel>Pencere başlığı</guilabel> — eşleşmeyi pencerenin başlığıyla "
+"sınırlayın."
+
+#. Tag: para
+#: index.docbook:188
+#, no-c-format
+msgid ""
+"<guilabel>Machine (hostname)</guilabel> - restrict the match to the host "
+"name associated with the window."
+msgstr ""
+"<guilabel>Makine (makine adı)</guilabel> — eşleşmeyi, pencereyle ilişkili "
+"makine adıyla kısıtlayın."
+
+#. Tag: para
+#: index.docbook:190
+#, no-c-format
+msgid ""
+"While it's possible to manually enter the above information, the preferred "
+"method is to use the <guilabel>Detect Window Properties</guilabel> button."
+msgstr ""
+"Yukarıdaki bilgileri elle girmek olanaklı olsa da, tercih edilen yöntem "
+"<guilabel>Pencere Özelliklerini Algıla</guilabel> düğmesini kullanmaktır."
+
+#. Tag: para
+#: index.docbook:192
+#, no-c-format
+msgid ""
+"For each field, the following operators can be applied against the field "
+"value:"
+msgstr "Her alan için alan değerine karşı aşağıdaki işleçler uygulanabilir:"
+
+#. Tag: para
+#: index.docbook:195
+#, no-c-format
+msgid "<guilabel>Unimportant</guilabel> - ignore the field."
+msgstr "<guilabel>Önemsiz</guilabel> — alanı yok sayın."
+
+#. Tag: guilabel
+#: index.docbook:196
+#, no-c-format
+msgid "Exact Match"
+msgstr "Tam Eşleşme"
+
+#. Tag: guilabel
+#: index.docbook:197
+#, no-c-format
+msgid "Substring Match"
+msgstr "Altdizi Eşleşmesi"
+
+#. Tag: para
+#: index.docbook:199
+#, no-c-format
+msgid ""
+"Both <guilabel>Exact Match</guilabel> and <guilabel>Substring Match</"
+"guilabel> implement case insensitive matching. For example, <emphasis>AB</"
+"emphasis> matches the string <emphasis>AB</emphasis>, <emphasis>ab</"
+"emphasis>, <emphasis>Ab</emphasis> and <emphasis>aB</emphasis>."
+msgstr ""
+"Hem <guilabel>Tam Eşleşme</guilabel> ve <guilabel>Altdizi Eşleşmesi</"
+"guilabel> BÜYÜK/küçük harf duyarlı eşleşmeyi uygulayabilir. Örneğin, "
+"<emphasis>AB</emphasis>, <emphasis>AB</emphasis> dizisiyle; <emphasis>ab</"
+"emphasis>, <emphasis>Ab</emphasis> ve <emphasis>aB</emphasis> ile "
+"eşleşebilir."
+
+#. Tag: para
+#: index.docbook:202
+#, no-c-format
+msgid ""
+"<guilabel>Regular Expression</guilabel> - Qt's regular expressions are "
+"implemented - see <ulink url=\"https://doc.qt.io/qt-5/qregexp.html\">pattern "
+"matching using regular expressions</ulink>."
+msgstr ""
+"<guilabel>Düzenli İfade</guilabel> — Qt’nin düzenli ifadeleri uygulanır — "
+"bkz. <ulink url=\"https://doc.qt.io/qt-5/qregexp.html\">düzenli ifadeler "
+"kullanarak model eşleştirme</ulink>."
+
+#. Tag: title
+#: index.docbook:204
+#, no-c-format
+msgid "Detect Window Properties"
+msgstr "Pencere Özelliklerini Algıla"
+
+#. Tag: para
+#: index.docbook:218
+#, no-c-format
+msgid ""
+"The <guilabel>Detect Window Properties</guilabel> function simplifies the "
+"process of entering the matching-criteria."
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel> işlevi, eşleştirme "
+"kriterlerini girme sürecini basitleştirir."
+
+#. Tag: para
+#: index.docbook:221
+#, no-c-format
+msgid "For the application you'd like to create a rule, start the application."
+msgstr "Kural oluşturmak istediğiniz uygulama için uygulamayı başlatın."
+
+#. Tag: para
+#: index.docbook:222
+#, no-c-format
+msgid ""
+"Next, in the <guilabel>Window matching</guilabel> tab, set the number of "
+"seconds of delay before the <guilabel>Detect Window Properties</guilabel> "
+"function starts. The default is zero seconds."
+msgstr ""
+"Ardından, <guilabel>Pencere eşleştirme</guilabel> sekmesinde, "
+"<guilabel>Pencere Özelliklerini Algıla</guilabel> işlevi başlamadan önceki "
+"gecikme saniyesini ayarlayın. Öntanımlı değer sıfır saniyedir."
+
+#. Tag: para
+#: index.docbook:223
+#, no-c-format
+msgid "Click on <guilabel>Detect Window Properties</guilabel> and"
+msgstr "<guilabel>Pencere Özelliklerini Algıla</guilabel>’ya tıklayın ve"
+
+#. Tag: para
+#: index.docbook:224
+#, no-c-format
+msgid ""
+"When the mouse-cursor turns to cross-hairs, place it inside the application "
+"window (not the title bar) and left-click."
+msgstr ""
+"Fare imleci artı işaretine döndüğünde, onu uygulama penceresinin içine "
+"(başlık çubuğuna değil) yerleştirin ve sol tıklayın."
+
+#. Tag: para
+#: index.docbook:225
+#, no-c-format
+msgid ""
+"A new window is presented with information about the selected window. Select "
+"the desired fields:"
+msgstr ""
+"Seçilen pencere üzerine bilgi içeren yeni bir pencere sunulur. İstediğiniz "
+"alanları seçin:"
+
+#. Tag: para
+#: index.docbook:226
+#, no-c-format
+msgid ""
+"<guilabel>Secondary class name</guilabel> - some applications have a "
+"secondary class name. This value can be used to restrict windows by this "
+"value."
+msgstr ""
+"<guilabel>İkincil sınıf adı</guilabel> — bazı uygulamaların ikincil bir "
+"sınıf adı vardır. Bu değer, pencereleri bu değere göre kısıtlamak için "
+"kullanılabilir."
+
+#. Tag: guilabel
+#: index.docbook:227
+#, no-c-format
+msgid "Window role"
+msgstr "Pencere rolü"
+
+#. Tag: guilabel
+#: index.docbook:228
+#, no-c-format
+msgid "<guilabel>Window type</guilabel>"
+msgstr "<guilabel>Pencere türü</guilabel>"
+
+#. Tag: guilabel
+#: index.docbook:229
+#, no-c-format
+msgid "Window title"
+msgstr "Pencere başlığı"
+
+#. Tag: para
+#: index.docbook:233
+#, no-c-format
+msgid ""
+"Click the <guilabel>OK</guilabel> button to back-fill the <guilabel>Window "
+"Matching</guilabel> criteria."
+msgstr ""
+"<guilabel>Pencere Eşleştirme</guilabel> kriterlerini yeniden doldurmak için "
+"<guilabel>Tamam</guilabel> düğmesine tıklayın."
+
+#. Tag: para
+#: index.docbook:235
+#, no-c-format
+msgid ""
+"By using a combination of the information, a rule can apply to an entire "
+"application (by <guilabel>Class</guilabel>) or a to a specific window "
+"<guilabel>Type</guilabel> within the <guilabel>Class</guilabel> - say a "
+"<guilabel>Toolbar</guilabel>."
+msgstr ""
+"Bilgilerin kombinasyonunu kullanarak bir kural, tüm uygulamaya "
+"(<guilabel>Sınıf</guilabel> tarafından) veya <guilabel>Sınıf</guilabel> "
+"içindeki belirli bir pencere <guilabel>Tür</guilabel>’üne uygulanabilir; "
+"örneğin, bir <guilabel>Araç Çubuğu</guilabel>."
+
+#. Tag: para
+#: index.docbook:253
+#, no-c-format
+msgid "The attributes which can be set are grouped by function in three tabs:"
+msgstr "Ayarlanabilen öznitelikler, işleve göre üç sekmede gruplandırılmıştır:"
+
+#. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"Each attribute has a set of parameters which determines its disposition."
+msgstr "Her özniteliğin, yerini belirleyen bir dizi parametresi vardır."
+
+#. Tag: title
+#: index.docbook:262
+#, no-c-format
+msgid "Parameters"
+msgstr "Parametreler"
+
+#. Tag: para
+#: index.docbook:263
+#, no-c-format
+msgid ""
+"Each attribute, minimally, accepts one of the following parameters. "
+"Additional, attribute-specific arguments are listed within each <link "
+"linkend=\"attributes\">attribute</link> definition."
+msgstr ""
+"Her öznitelik en az olarak aşağıdaki parametrelerden birini kabul eder. Her "
+"bir <link linkend=\"attributes\">öznitelik</link> tanımında ek, özniteliğe "
+"özgü bağımsız değişkenler listelenir."
+
+#. Tag: emphasis
+#: index.docbook:266
+#, no-c-format
+msgid "Do Not Affect"
+msgstr "Etkileme"
+
+#. Tag: para
+#: index.docbook:268
+#, no-c-format
+msgid ""
+"Ensure a subsequent rule, which matches the window, does not affect the "
+"attribute."
+msgstr ""
+"Pencereyle eşleşen bir sonraki kuralın özniteliği etkilemediğinden emin olun."
+
+#. Tag: emphasis
+#: index.docbook:271
+#, no-c-format
+msgid "Apply Initially"
+msgstr "Başlangıçta Uygula"
+
+#. Tag: para
+#: index.docbook:273
+#, no-c-format
+msgid ""
+"Start the window with the attribute and allow it to be changed at run-time."
+msgstr ""
+"Pencereyi öznitelikle başlatın ve çalışma zamanında değiştirilmesine izin "
+"verin."
+
+#. Tag: emphasis
+#: index.docbook:276
+#, no-c-format
+msgid "Remember"
+msgstr "Anımsa"
+
+#. Tag: para
+#: index.docbook:278
+#, no-c-format
+msgid ""
+"Use the attribute setting as defined in the rule and if changed at run-time, "
+"save and use the new value instead."
+msgstr ""
+"Öznitelik ayarını kuralda tanımlandığı şekilde kullanın ve çalışma zamanında "
+"değiştirilirse bunun yerine yeni değeri kaydedin ve kullanın."
+
+#. Tag: emphasis
+#: index.docbook:281
+#, no-c-format
+msgid "Force"
+msgstr "Zorla"
+
+#. Tag: para
+#: index.docbook:283
+#, no-c-format
+msgid "The setting cannot be changed at run-time."
+msgstr "Ayar çalışma zamanında değiştirilemez."
+
+#. Tag: emphasis
+#: index.docbook:286
+#, no-c-format
+msgid "Apply Now, Force Temporarily"
+msgstr "Şimdi Uygula, Geçici Olarak Zorla"
+
+#. Tag: para
+#: index.docbook:288
+#, no-c-format
+msgid ""
+"Apply/Force the setting once and unset the attribute.The difference between "
+"the two is at run-time, <guilabel>Apply Now</guilabel> allows the attribute "
+"to be changed and <guilabel>Force Temporarily</guilabel> prohibits it to be "
+"altered until all affected windows exit."
+msgstr ""
+"Ayarı bir kez Uygula/Zorla ve özniteliğin ayarını kaldır. İkisi arasındaki "
+"fark çalışma zamanındadır, <guilabel>Şimdi Uygula</guilabel> özniteliğin "
+"değiştirilmesine izin verir ve <guilabel>Geçici Olarak Zorla</guilabel> bunu "
+"yasaklar etkilenen tüm pencereler çıkana kadar değiştirilmelidir."
+
+#. Tag: para
+#: index.docbook:292
+#, no-c-format
+msgid ""
+"For <guilabel>Apply Now</guilabel>, if the rule has no other attributes set, "
+"the rule is deleted after evaluation whereas <guilabel>Force Temporarily</"
+"guilabel>, the rule is deleted after the last affected window terminates."
+msgstr ""
+"<guilabel>Şimdi Uygula</guilabel> için kuralın ayarlanmış başka bir "
+"özniteliği yoksa kural değerlendirmeden sonra silinir; ancak "
+"<guilabel>Geçici Olarak Zorla</guilabel> ile, etkilenen son pencere sona "
+"erdikten sonra kural silinir."
+
+#. Tag: title
+#: index.docbook:295
+#, no-c-format
+msgid "Attributes"
+msgstr "Öznitelikler"
+
+#. Tag: para
+#: index.docbook:296
+#, no-c-format
+msgid ""
+"The <guilabel>Detect Window Properties</guilabel> button back-fills "
+"attribute-specific values - for more information see <link linkend=\"window-"
+"matching\">Window Matching</link>. For example the height and width values "
+"of the <guilabel>Size</guilabel> attribute is set to the height and width of "
+"the detected window."
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel> düğmesi özniteliğe özgü "
+"değerleri geri doldurur — daha fazla bilgi için <link linkend=\"window-"
+"matching\">Pencere Eşleştirme</link> bölümüne bakın. Örneğin, "
+"<guilabel>Boyut</guilabel> özniteliğinin yükseklik ve genişlik değerleri, "
+"algılanan pencerenin yükseklik ve genişliğine ayarlanır."
+
+#. Tag: para
+#: index.docbook:298
+#, no-c-format
+msgid ""
+"<guilabel>Yes/No</guilabel> arguments are used to toggle on or off "
+"attributes. Leniency with grammar helps one understand how a setting will be "
+"processed. <inlinemediaobject> <imageobject> <imagedata fileref=\"Face-smile."
+"png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> For example, the "
+"attribute <guilabel>Skip taskbar</guilabel>, when set to <guilabel>No</"
+"guilabel> means do not skip the taskbar. In other words, show the window in "
+"the taskbar."
+msgstr ""
+"<guilabel>Evet/Hayır</guilabel> argümanları, öznitelikleri açıp kapatmak "
+"için kullanılır. Dilbilgisi ile hoşgörü, bir ayarın nasıl işleneceğini "
+"anlamanıza yardımcı olur. <inlinemediaobject> <imageobject> <imagedata "
+"fileref=\"Face-smile.png\" format=\"PNG\"/> </imageobject> </"
+"inlinemediaobject> Örneğin, <guilabel>Görev çubuğunu atla</guilabel> "
+"özelliği <guilabel>Hayır</guilabel> olarak ayarlandığında, görev çubuğunu "
+"atlamayın anlamına gelir. Başka bir deyişle, pencereyi görev çubuğunda "
+"gösterin."
+
+#. Tag: title
+#: index.docbook:300
+#, no-c-format
+msgid "<title>Size &amp; Position</title>"
+msgstr "<title>Boyut ve Konum</title>"
+
+#. Tag: emphasis
+#: index.docbook:302
+#, no-c-format
+msgid "Position"
+msgstr "Konum"
+
+#. Tag: para
+#: index.docbook:304
+#, no-c-format
+msgid ""
+"Position the window's upper left corner at the specified x,y coordinate."
+msgstr "Pencerenin sol üst köşesini belirtilen x,y koordinatına konumlandırın."
+
+#. Tag: para
+#: index.docbook:308
+#, no-c-format
+msgid "&kwin;'s origin, (0,0), is the upper left of the desktop."
+msgstr "&kwin;’in başlangıç noktası (0,0), masaüstünün sol üst köşesidir."
+
+#. Tag: emphasis
+#: index.docbook:311
+#, no-c-format
+msgid "Size"
+msgstr "Boyut"
+
+#. Tag: para
+#: index.docbook:313
+#, no-c-format
+msgid "The width and height of the window."
+msgstr "Pencerenin genişliği ve yüksekliği."
+
+#. Tag: emphasis
+#: index.docbook:316
+#, no-c-format
+msgid "Maximized horizontally, Maximized vertically"
+msgstr "Yatay/dikey olarak ekranı kaplamış"
+
+#. Tag: para
+#: index.docbook:318
+#, no-c-format
+msgid ""
+"These attributes are used to toggle the maximum horizontal/minimum "
+"horizontal window attribute."
+msgstr ""
+"Bu öznitelikler, en büyük yatay/en küçük yatay pencere özniteliği arasında "
+"geçiş yapmak için kullanılır."
+
+#. Tag: emphasis
+#: index.docbook:321
+#, no-c-format
+msgid "Desktop, Activity, Screen"
+msgstr "Masaüstü, Etkinlik, Ekran"
+
+#. Tag: para
+#: index.docbook:323
+#, no-c-format
+msgid ""
+"Place the window on the specified <emphasis>(Virtual) Desktop</emphasis>, "
+"<emphasis>Activity</emphasis> or <emphasis>Screen</emphasis>. Use "
+"<guilabel>All Desktops</guilabel> to place the window on all "
+"<emphasis>Virtual Desktops</emphasis>."
+msgstr ""
+"Pencereyi belirtilen <emphasis>(Sanal) Masaüstü</emphasis>, "
+"<emphasis>Etkinlik</emphasis> veya <emphasis>Ekran</emphasis> üzerine "
+"yerleştirin. Pencereyi tüm <emphasis>Sanal Masaüstlerine</emphasis> "
+"yerleştirmek için <guilabel>Tüm Masaüstleri</guilabel>’ni kullanın."
+
+#. Tag: emphasis
+#: index.docbook:326
+#, no-c-format
+msgid "Fullscreen, Minimized, Shaded"
+msgstr "Tam ekran, Simge durumuna küçültülmüş, Panjuru kapatılmış"
+
+#. Tag: para
+#: index.docbook:328
+#, no-c-format
+msgid ""
+"Toggle the Fullscreen, Minimize and Shading window attribute. For example, a "
+"window can be started Minimized or if it is started Minimized, it can be "
+"forced to not."
+msgstr ""
+"Tam Ekran, Simge Durumuna Küçült ve Panjuru Kapat pencere özniteliğini "
+"değiştirin. Örneğin, bir pencere küçültülmüş olarak başlatılabilir veya "
+"küçültülmüş olarak başlatılırsa açılmamaya zorlanabilir."
+
+#. Tag: para
+#: index.docbook:332
+#, no-c-format
+msgid ""
+"Maximized attribute is emulated by using both <guilabel>Maximized "
+"horizontally</guilabel> and <guilabel>Maximized vertically</guilabel> or "
+"<guilabel>Initial placement</guilabel> with the <guilabel>Maximizing</"
+"guilabel> argument."
+msgstr ""
+"Ekranı kaplamış özniteliği, <guilabel>Ekranı Kaplama</guilabel> "
+"özniteliğiyle hem <guilabel>Ekranı yatay olarak kaplamış</guilabel> hem de "
+"<guilabel>Ekranı dikey olarak kaplamış</guilabel> veya <guilabel>Başlangıç "
+"yerleşimi</guilabel> kullanılarak öykünülür."
+
+#. Tag: emphasis
+#: index.docbook:335
+#, no-c-format
+msgid "Initial placement"
+msgstr "Başlangıç yerleşimi"
+
+#. Tag: para
+#: index.docbook:337
+#, no-c-format
+msgid ""
+"Override the global window placement strategy with one of the following:"
+msgstr ""
+"Global pencere yerleştirme stratejisini aşağıdakilerden biriyle geçersiz "
+"kılın:"
+
+#. Tag: para
+#: index.docbook:339
+#, no-c-format
+msgid ""
+"<guilabel>Default</guilabel> - use the global window placement strategy."
+msgstr ""
+"<guilabel>Öntanımlı</guilabel> — genel pencere yerleştirme stratejisini "
+"kullanın."
+
+#. Tag: para
+#: index.docbook:340
+#, no-c-format
+msgid "<guilabel>No Placement</guilabel> - top-left corner."
+msgstr "<guilabel>Yerleştirme yok</guilabel> — sol üst köşe."
+
+#. Tag: para
+#: index.docbook:341
+#, no-c-format
+msgid ""
+"<guilabel>Minimal Overlapping</guilabel> - place where no other window "
+"exists."
+msgstr "<guilabel>En az çakışan</guilabel> — başka pencerenin olmadığı yerdir."
+
+#. Tag: para
+#: index.docbook:342
+#, no-c-format
+msgid "<guilabel>Maximized</guilabel> - start the window maximized."
+msgstr ""
+"<guilabel>Ekranı kaplamış</guilabel> — pencereyi ekranı kaplamış olarak "
+"başlatın."
+
+#. Tag: para
+#: index.docbook:343
+#, no-c-format
+msgid "<guilabel>Centered</guilabel> - center of the desktop."
+msgstr "<guilabel>Ortalanmış</guilabel> — masaüstünün merkezi."
+
+#. Tag: guilabel
+#: index.docbook:344
+#, no-c-format
+msgid "Random"
+msgstr "Rastgele"
+
+#. Tag: guilabel
+#: index.docbook:345
+#, no-c-format
+msgid "In Top-Left Corner"
+msgstr "Sol üst köşede"
+
+#. Tag: guilabel
+#: index.docbook:346
+#, no-c-format
+msgid "Under Mouse"
+msgstr "Farenin altında"
+
+#. Tag: para
+#: index.docbook:347
+#, no-c-format
+msgid ""
+"<guilabel>On Main Window</guilabel> - restrict placement of a child window "
+"to the boundaries of the parent window."
+msgstr ""
+"<guilabel>Ana pencerede</guilabel> — bir alt pencerenin yerleşimini ana "
+"pencerenin sınırlarıyla sınırlayın."
+
+#. Tag: emphasis
+#: index.docbook:352
+#, no-c-format
+msgid "Ignore requested geometry"
+msgstr "İstenen geometriyi yok say"
+
+#. Tag: para
+#: index.docbook:354
+#, no-c-format
+msgid ""
+"Toggle whether to accept or ignore the window's requested geometry position. "
+"To avoid conflicts between the default placement strategy and the window's "
+"request, the placement strategy is ignored when the window's request is "
+"accepted."
+msgstr ""
+"Pencerenin istenen geometri konumunu kabul etmek veya yok saymak arasında "
+"geçiş yapın. Öntanımlı yerleştirme stratejisi ile pencerenin isteği "
+"arasındaki çakışmaları önlemek için pencerenin isteği kabul edildiğinde "
+"yerleştirme stratejisi yok sayılır."
+
+#. Tag: emphasis
+#: index.docbook:357
+#, no-c-format
+msgid "Minimum size, Maximum size"
+msgstr "En küçük boyut, En büyük boyut"
+
+#. Tag: para
+#: index.docbook:359
+#, no-c-format
+msgid "The minimum and maximum size allowed for the window."
+msgstr "Pencere için izin verilen en küçük ve en büyük boyut."
+
+#. Tag: emphasis
+#: index.docbook:362
+#, no-c-format
+msgid "Obey geometry restrictions"
+msgstr "Geometri kısıtlamalarına uy"
+
+#. Tag: para
+#: index.docbook:364
+#, no-c-format
+msgid ""
+"Toggle whether to adhere to the window's requested aspect ratio or "
+"<emphasis>base increment</emphasis>.In order to understand this attribute, "
+"some background is required. Briefly, windows must request from the Window "
+"Manager, a base increment: the minimum number of <emphasis>height</emphasis> "
+"X <emphasis>width</emphasis> pixels per re-size request. Typically, it's "
+"1x1. Other windows though, for example terminal emulators or editors, use "
+"fixed-fonts and request their base-increment according to the size of one "
+"character."
+msgstr ""
+"Pencerenin istenen en boy oranına mı yoksa <emphasis>temel artışa</emphasis> "
+"mı bağlı kalacağınızı açın/kapatın. Bu özniteliği anlamak için biraz arka "
+"plan gereklidir. Kısaca, pencereler, Pencere Yöneticisi’nden bir temel artış "
+"talep etmelidir: Yeniden boyutlandırma isteği başına en az "
+"<emphasis>yükseklik</emphasis> X <emphasis>genişlik</emphasis> piksel sayısı "
+"olmalıdır. Genellikle 1 × 1’dir. Diğer pencereler, örneğin uçbirim "
+"öykünücüleri veya düzenleyicileri, eş aralıklı yazıtiplerini kullanır ve bir "
+"karakterin boyutuna göre taban artışlarını ister."
+
+#. Tag: title
+#: index.docbook:369
+#, no-c-format
+msgid "<title>Arrangement &amp; Access</title>"
+msgstr "<title>Düzenleme ve Erişim</title>"
+
+#. Tag: emphasis
+#: index.docbook:371
+#, no-c-format
+msgid "Keep above, Keep below"
+msgstr "Üzerinde tut, Altında tut"
+
+#. Tag: para
+#: index.docbook:373
+#, no-c-format
+msgid "Toggle whether to keep the window above/below all others."
+msgstr ""
+"Pencerenin diğerlerinin üstünde/altında tutulup tutulmayacağını açın/kapatın."
+
+#. Tag: emphasis
+#: index.docbook:376
+#, no-c-format
+msgid "Autogroup with identical"
+msgstr "Eşdeğeriyle otomatik grupla"
+
+#. Tag: para
+#: index.docbook:378
+#, no-c-format
+msgid ""
+"Toggle the grouping (commonly known as <emphasis>tabbing</emphasis>) of "
+"windows."
+msgstr ""
+"Pencerelerin gruplandırmasını (genellikle <emphasis>sekmeleme</emphasis> "
+"olarak bilinir) açın/kapatın."
+
+#. Tag: emphasis
+#: index.docbook:381
+#, no-c-format
+msgid "Autogroup in foreground"
+msgstr "Ön planda otomatik grupla"
+
+#. Tag: para
+#: index.docbook:383
+#, no-c-format
+msgid ""
+"Toggle whether to make the window active when it is added to the current "
+"Autogroup."
+msgstr ""
+"Geçerli otomatik gruba eklendiğinde pencerenin etkin olup olmayacağını açın/"
+"kapatın."
+
+#. Tag: emphasis
+#: index.docbook:386
+#, no-c-format
+msgid "Autogroup by ID"
+msgstr "Kimliğe göre otomatik grupla"
+
+#. Tag: para
+#: index.docbook:388
+#, no-c-format
+msgid ""
+"Create a group via a user-defined ID. More than one rule can share the same "
+"ID to allow for seemingly unrelated windows to be grouped."
+msgstr ""
+"Kullanıcı tanımlı bir kimlik aracılığıyla bir grup oluşturun. Görünüşte "
+"ilgisiz pencerelerin gruplandırılmasına izin vermek için birden fazla kural "
+"aynı kimliği paylaşabilir."
+
+#. Tag: emphasis
+#: index.docbook:392
+#, no-c-format
+msgid "Skip taskbar"
+msgstr "Görev çubuğunu atla"
+
+#. Tag: para
+#: index.docbook:394
+#, no-c-format
+msgid "Toggle whether to display the window in the taskbar."
+msgstr ""
+"Pencerenin görev çubuğunda görüntülenip görüntülenmeyeceğini açın/kapatın."
+
+#. Tag: emphasis
+#: index.docbook:397
+#, no-c-format
+msgid "Skip pager"
+msgstr "Sayfalayıcıyı atla"
+
+#. Tag: para
+#: index.docbook:399
+#, no-c-format
+msgid "Toggle whether to display the window in pager."
+msgstr ""
+"Pencerenin sayfalayıcıda görüntülenip görüntülenmeyeceğini açın/kapatın."
+
+#. Tag: emphasis
+#: index.docbook:417
+#, no-c-format
+msgid "Skip switcher"
+msgstr "Değiştiriciyi atla"
+
+#. Tag: para
+#: index.docbook:419
+#, no-c-format
+msgid ""
+"Toggle whether to display the window in the <guilabel>ALT+TAB</guilabel> "
+"list."
+msgstr ""
+"Pencerenin <guilabel>SEÇENEK+SEKME</guilabel> listesinde görüntülenip "
+"görüntülenmeyeceğini açın/kapatın."
+
+#. Tag: emphasis
+#: index.docbook:422
+#, no-c-format
+msgid "Shortcut"
+msgstr "Kısayol"
+
+#. Tag: para
+#: index.docbook:424
+#, no-c-format
+msgid ""
+"Assign a shortcut to the window. When <guilabel>Edit...</guilabel> is "
+"clicked, additional instructions are presented."
+msgstr ""
+"Pencereye bir kısayol atayın. <guilabel>Düzenle…</guilabel> tıklandığında, "
+"ek yönergeler sunulur."
+
+#. Tag: title
+#: index.docbook:429
+#, no-c-format
+msgid "<title>Appearance &amp; Fixes</title>"
+msgstr "<title>Görünüş ve Düzeltmeler</title>"
+
+#. Tag: emphasis
+#: index.docbook:431
+#, no-c-format
+msgid "No titlebar and frame"
+msgstr "Başlık çubuğu ve çerçeve yok"
+
+#. Tag: para
+#: index.docbook:433
+#, no-c-format
+msgid "Toggle whether to display the titlebar and frame around the window."
+msgstr ""
+"Başlık çubuğunun ve pencerenin etrafındaki çerçevenin görüntülenip "
+"görüntülenmemesini açın/kapatın."
+
+#. Tag: emphasis
+#: index.docbook:436
+#, no-c-format
+msgid "Titlebar color scheme"
+msgstr "Başlık çubuğu renk şeması"
+
+#. Tag: para
+#: index.docbook:438
+#, no-c-format
+msgid "Select a color scheme for the titlebar of the window."
+msgstr "Pencerenin başlık çubuğu için bir renk şeması seçin."
+
+#. Tag: emphasis
+#: index.docbook:441
+#, no-c-format
+msgid "Active/Inactive opacity"
+msgstr "Etkin/Etkin olmayan matlık"
+
+#. Tag: para
+#: index.docbook:443
+#, no-c-format
+msgid ""
+"When the window is active/inactive, set its opacity to the percentage "
+"specified."
+msgstr "Pencere etkin/etkin değilken, matlığını belirtilen yüzdeye ayarlayın."
+
+#. Tag: para
+#: index.docbook:447
+#, no-c-format
+msgid ""
+"<guilabel>Active/Inactive opacity</guilabel> can only be affected when "
+"<guilabel>Desktop Effects</guilabel> are enabled."
+msgstr ""
+"<guilabel>Etkin/Etkin olmayan matlık</guilabel>, yalnızca <guilabel>Masaüstü "
+"Efektleri</guilabel> etkinleştirildiğinde etkilenir."
+
+#. Tag: emphasis
+#: index.docbook:450
+#, no-c-format
+msgid "Focus stealing prevention"
+msgstr "Odak çalma koruması"
+
+#. Tag: para
+#: index.docbook:452
+#, no-c-format
+msgid ""
+"When a window wants focus, control on a scale (from <guilabel>None</"
+"guilabel> to <guilabel>Extreme</guilabel>) whether to honor the request and "
+"place above all other windows, or ignore its request (potentially leaving "
+"the window behind other windows):"
+msgstr ""
+"Bir pencere odağı istediğinde, isteği yerine getirip diğer tüm pencerelerin "
+"üstüne yerleştirip yerleştirmeyeceğinizi (<guilabel>Yok</guilabel> ile "
+"<guilabel>Çok Yüksek</guilabel> arasında) bir ölçekte denetleyin veya "
+"isteğini yok sayın (potansiyel olarak diğer pencerelerin arkasındaki "
+"pencere):"
+
+#. Tag: para
+#: index.docbook:454
+#, no-c-format
+msgid "None - Always grant focus to the window."
+msgstr "Yok — Odağı her zaman pencereye verin."
+
+#. Tag: para
+#: index.docbook:455
+#, no-c-format
+msgid "<para>Low</para>"
+msgstr "<para>Düşük</para>"
+
+#. Tag: para
+#: index.docbook:456
+#, no-c-format
+msgid "Normal"
+msgstr "Normal"
+
+#. Tag: para
+#: index.docbook:457
+#, no-c-format
+msgid "High"
+msgstr "Yüksek"
+
+#. Tag: para
+#: index.docbook:458
+#, no-c-format
+msgid ""
+"Extreme - The window's focus request is denied. Focus is only granted by "
+"explicitly requesting via the mousing."
+msgstr ""
+"Çok Yüksek — Pencerenin odak isteği reddedildi. Odak, yalnızca fare "
+"aracılığıyla açıkça istendiğinde verilir."
+
+#. Tag: para
+#: index.docbook:464
+#, no-c-format
+msgid ""
+"See <guilabel>Accept focus</guilabel> to make a window read-only - not "
+"accept any keyboard input."
+msgstr ""
+"Bir pencereyi saltokunur yapmak ve herhangi bir klavye girişini kabul "
+"etmemesi için <guilabel>Odağı kabul et</guilabel>’e bakın."
+
+#. Tag: emphasis
+#: index.docbook:467
+#, no-c-format
+msgid "Accept focus"
+msgstr "Odağı kabul et"
+
+#. Tag: para
+#: index.docbook:469
+#, no-c-format
+msgid ""
+"Toggle whether the window accepts keyboard input. Make the window read-only."
+msgstr ""
+"Pencerenin klavye girişini kabul edip etmemesini açın/kapatın. Pencereyi "
+"saltokunur yapın."
+
+#. Tag: emphasis
+#: index.docbook:472
+#, no-c-format
+msgid "Ignore global shortcuts"
+msgstr "Global kısayolları yok say"
+
+#. Tag: para
+#: index.docbook:474
+#, no-c-format
+msgid ""
+"Toggle whether to ignore global shortcuts (as defined by "
+"<menuchoice><guimenu>System Settings</guimenu><guisubmenu>Shortcuts and "
+"Gestures</guisubmenu><guimenuitem>Global Shortcuts</guimenuitem></"
+"menuchoice> or by running <varname>kcmshell6 keys</varname> in "
+"<guilabel>konsole</guilabel>) while the window is active."
+msgstr ""
+"Pencere etkinken global kısayolları yok saymayı açın/kapatın "
+"(<menuchoice><guimenu>Sistem Ayarları</guimenu><guisubmenu>Kısayollar ve "
+"Hareketler</guisubmenu><guimenuitem>Global Kısayollar</guimenuitem></"
+"menuchoice>’da tanımlandığı üzere veya <guilabel>konsole</guilabel>’da "
+"<varname>kcmshell6 keys</varname> yazarak)."
+
+#. Tag: emphasis
+#: index.docbook:477
+#, no-c-format
+msgid "Closeable"
+msgstr "Kapatılabilir"
+
+#. Tag: para
+#: index.docbook:479
+#, no-c-format
+msgid ""
+"Toggle whether to display the <guilabel>Close</guilabel> button on the title "
+"bar."
+msgstr ""
+"Başlık çubuğunda <guilabel>Kapat</guilabel> düğmesinin görüntülenip "
+"görüntülenmemesini açın/kapatın."
+
+#. Tag: para
+#: index.docbook:483
+#, no-c-format
+msgid ""
+"A terminal window may still be closed by the end user by ending the shell "
+"session however using <guilabel>Accept focus</guilabel> to disable keyboard "
+"input will make it more difficult to close the window."
+msgstr ""
+"Bir uçbirim penceresi, kabuk oturumunu sonlandırarak son kullanıcı "
+"tarafından yine de kapatılabilir; ancak klavye girişini devre dışı bırakmak "
+"için <guilabel>Odağı kabul et</guilabel> öğesinin kullanılması, pencerenin "
+"kapatılmasını daha zor hale getirecektir."
+
+#. Tag: emphasis
+#: index.docbook:486
+#, no-c-format
+msgid "<emphasis role=\"bold\">Window type</emphasis>"
+msgstr "<emphasis role=\"bold\">Pencere türü</emphasis>"
+
+#. Tag: para
+#: index.docbook:488
+#, no-c-format
+msgid ""
+"Change the window to another type and inherit the characteristics of that "
+"window:"
+msgstr ""
+"Pencereyi başka bir türe değiştirin ve o pencerenin özelliklerini devralın:"
+
+#. Tag: para
+#: index.docbook:490
+#, no-c-format
+msgid "Normal Window"
+msgstr "Normal Pencere"
+
+#. Tag: para
+#: index.docbook:491
+#, no-c-format
+msgid "Dialog Window"
+msgstr "İletişim Kutusu"
+
+#. Tag: para
+#: index.docbook:492
+#, no-c-format
+msgid "Utility Window"
+msgstr "İzlence Penceresi"
+
+#. Tag: para
+#: index.docbook:493
+#, no-c-format
+msgid "Dock (panel)"
+msgstr "Rıhtım (Panel)"
+
+#. Tag: para
+#: index.docbook:494
+#, no-c-format
+msgid "Toolbar"
+msgstr "Araç Çubuğu"
+
+#. Tag: para
+#: index.docbook:495
+#, no-c-format
+msgid "Torn-Off Menu"
+msgstr "Ayrılmış Menü"
+
+#. Tag: para
+#: index.docbook:496
+#, no-c-format
+msgid "Splash Screen"
+msgstr "Açılış Ekranı"
+
+#. Tag: para
+#: index.docbook:497
+#, no-c-format
+msgid "Desktop"
+msgstr "Masaüstü"
+
+#. Tag: para
+#: index.docbook:498
+#, no-c-format
+msgid "Standalone Menubar"
+msgstr "Bağımsız Menü Çubuğu"
+
+#. Tag: para
+#: index.docbook:499
+#, no-c-format
+msgid "On Screen Display"
+msgstr "Ekran Üzeri Görüntü"
+
+#. Tag: para
+#: index.docbook:505
+#, no-c-format
+msgid ""
+"Use with care because unwanted results may be introduced. For example, a "
+"<guilabel>Splash Screen</guilabel> is a automatically closed by &kwin; when "
+"clicked."
+msgstr ""
+"Dikkatli kullanın; çünkü istenmeyen sonuçlar ortaya çıkabilir. Örneğin bir "
+"<guilabel>Açılış Ekranı</guilabel>, tıklandığında &kwin; tarafından otomatik "
+"olarak kapatılır."
+
+#. Tag: emphasis
+#: index.docbook:508
+#, no-c-format
+msgid "Block compositing"
+msgstr "Bileşikleştirmeyi engelle"
+
+#. Tag: para
+#: index.docbook:510
+#, no-c-format
+msgid ""
+"Toggle whether to disable compositing while the window <emphasis>exists</"
+"emphasis>. If compositing is enabled and the rule specifies to disable "
+"compositing, while <emphasis>any</emphasis> matching window exists, "
+"compositing will be disabled. Compositing is re-enabled when the last "
+"matching window terminates."
+msgstr ""
+"Pencere <emphasis>varken</emphasis> bileşikleştirmenin devre dışı bırakılıp "
+"bırakılmayacağını değiştirin. Bileşikleştirme etkinleştirilirse ve kural "
+"bileşikleştirmenin devre dışı bırakılacağını belirtirse <emphasis>herhangi "
+"bir</emphasis> eşleştirme penceresi varken bileşikleştirme devre dışı "
+"bırakılır. Bileşikleştirme, son eşleşen pencere sona erdiğinde yeniden "
+"etkinleştirilir."
+
+#. Tag: title
+#: index.docbook:517
+#, no-c-format
+msgid "Examples"
+msgstr "Örnekler"
+
+#. Tag: para
+#: index.docbook:518
+#, no-c-format
+msgid ""
+"The first example details all the necessary steps to create the rules. In "
+"order to keep this page a manageable size, subsequent examples only list "
+"steps specific to the example."
+msgstr ""
+"İlk örnek, kuralları oluşturmak için gerekli tüm adımları ayrıntılandırır. "
+"Bu sayfayı yönetilebilir bir boyutta tutmak için sonraki örneklerde yalnızca "
+"örneğe özgü adımlar listelenmiştir."
+
+#. Tag: para
+#: index.docbook:520
+#, no-c-format
+msgid ""
+"The <guilabel>Pager</guilabel> attribute refers to the <guilabel>Virtual "
+"Desktop Manager</guilabel>:"
+msgstr ""
+"<guilabel>Sayfalayıcı</guilabel> özniteliği, <guilabel>Sanal Masaüstü "
+"Yöneticisi</guilabel> ile ilgilidir:"
+
+#. Tag: title
+#: index.docbook:533
+#, no-c-format
+msgid "Pin a Window to a Desktop and set other Attributes"
+msgstr "Bir Pencereyi Masaüstüne Sabitleyin ve Diğer Öznitelikleri Ayarlayın"
+
+#. Tag: para
+#: index.docbook:534
+#, no-c-format
+msgid ""
+"Pin &akregator; to <emphasis>Virtual Desktop 2</emphasis>. Additionally, "
+"start the application with a preferred size and position. For each "
+"attribute, use the <guilabel>Apply Initially</guilabel> <link linkend="
+"\"parameters\">parameter</link> so it can be overridden at run-time."
+msgstr ""
+"&akregator;’ü <emphasis>Sanal Masaüstü 2</emphasis>’ye sabitleyin. Ek "
+"olarak, uygulamayı yeğlenen bir boyutla ve konumda başlatın. Her bir "
+"öznitelik için <guilabel>Başlangıçta Uygula</guilabel> <link linkend="
+"\"parameters\">parametresini</link> kullanın ki çalışma zamanında geçersiz "
+"kılınabilsin."
+
+#. Tag: para
+#: index.docbook:536
+#, no-c-format
+msgid "The &kwin; rule is created as follows:"
+msgstr "&kwin; kuralı şöyle oluşturulur:"
+
+#. Tag: para
+#: index.docbook:539
+#, no-c-format
+msgid ""
+"Start &akregator; on <emphasis>desktop two</emphasis>, size and position it "
+"to suit:"
+msgstr ""
+"&akregator;’ü <emphasis>ikinci masaüstünde</emphasis> başlatın ve "
+"istediğiniz gibi konumlandırıp boyutlandırın:"
+
+#. Tag: para
+#: index.docbook:551
+#, no-c-format
+msgid ""
+"Right-click on the titlebar and select <menuchoice><guimenu>More Actions</"
+"guimenu><guimenuitem>Window Manager Settings...</guimenuitem></menuchoice>:"
+msgstr ""
+"Başlık çubuğunda sağ tıklayıp <menuchoice><guimenu>Daha Fazla Eylem</"
+"guimenu><guimenuitem>Pencere Yöneticisi Ayarları…</guimenuitem></"
+"menuchoice>’nı seçin:"
+
+#. Tag: para
+#: index.docbook:563
+#, no-c-format
+msgid ""
+"Select the <guilabel>Window Rules</guilabel> in the left column and click on "
+"<guilabel>New...</guilabel>:"
+msgstr ""
+"Sol sütunda <guilabel>Pencere Kuralları</guilabel>’nı seçin ve "
+"<guilabel>Yeni…</guilabel>’ye tıklayın:"
+
+#. Tag: para
+#: index.docbook:575
+#, no-c-format
+msgid ""
+"The <guilabel>Edit Window-Specific Settings</guilabel> window is displayed. "
+"<guilabel>Window matching</guilabel> is the default tab:"
+msgstr ""
+"<guilabel>Pencereye Özgü Ayarları Düzenle</guilabel> penceresi görüntülenir. "
+"<guilabel>Pencere eşleştirme</guilabel> öntanımlı sekmedir:"
+
+#. Tag: para
+#: index.docbook:587
+#, no-c-format
+msgid ""
+"Click <guilabel>Detect Window Properties</guilabel> with <guilabel>0s delay</"
+"guilabel> the cursor immediately turns into cross-hairs. Click (anywhere) "
+"inside the &akregator; window (but not the title bar). The window criteria "
+"are presented. Match only by primary class name so leave the check boxes "
+"unchecked - for additional information see <link linkend=\"window-matching"
+"\">window matching</link>:"
+msgstr ""
+"<guilabel>0 sn gecikme</guilabel> ile <guilabel>Pencere Özelliklerini "
+"Algıla</guilabel>’ya tıklayın, imleç hemen artı işaretine dönüşür. "
+"&akregator; penceresi içinde (herhangi bir yere) tıklayın; (ancak başlık "
+"çubuğuna değil). Pencere kriterleri sunulur. Yalnızca birincil sınıf adına "
+"göre eşleştirin, bu nedenle onay kutularını işaretlemeyin — ek bilgi için "
+"<link linkend=\"window-matching\">pencere eşleştirme</link> bölümüne bakın:"
+
+#. Tag: para
+#: index.docbook:599
+#, no-c-format
+msgid ""
+"Clicking <guilabel>OK</guilabel> the previous window back-fills the results "
+"in the <guilabel>Window Matching</guilabel> tab. Enter a meaningful text in "
+"the <guilabel>Description</guilabel> field (which is displayed in the "
+"<guilabel>KWin Rule</guilabel> window):"
+msgstr ""
+"Önceki pencerede <guilabel>Tamam</guilabel>’a tıklamak, <guilabel>Pencere "
+"Eşleştirme</guilabel> sekmesindeki sonuçları geri doldurur. "
+"<guilabel>Açıklama</guilabel> alanına (<guilabel>KWin Kuralı</guilabel> "
+"penceresindeki) anlamlı bir metin girin:"
+
+#. Tag: para
+#: index.docbook:611
+#, no-c-format
+msgid ""
+"Enable the window attributes: <guilabel>Position</guilabel>, <guilabel>Size</"
+"guilabel> and <guilabel>Desktop</guilabel>. The initial values are set by "
+"<guilabel>Detect Window Properties</guilabel> and can be overridden:"
+msgstr ""
+"Pencere özniteliklerini etkinleştirin: <guilabel>Konum</guilabel>,"
+"<guilabel>Boyut</guilabel> ve <guilabel>Masaüstü</guilabel>. Başlangıç "
+"değerleri <guilabel>Pencere Özelliklerini Algıla</guilabel> tarafından "
+"ayarlanır ve geçersiz kılınabilir:"
+
+#. Tag: para
+#: index.docbook:623
+#, no-c-format
+msgid ""
+"Clicking <guilabel>OK</guilabel> in the previous window returns to the main "
+"<guilabel>KWin Rules</guilabel>. The new rule with its description is listed:"
+msgstr ""
+"Önceki pencerede <guilabel>Tamam</guilabel>’a tıklandığında ana "
+"<guilabel>KWin Kuralları</guilabel>’na geri dönülür. Açıklamasıyla birlikte "
+"yeni kural listelenmiştir:"
+
+#. Tag: para
+#: index.docbook:635
+#, no-c-format
+msgid "Click <guilabel>OK</guilabel> to close the window."
+msgstr "Pencereyi kapatmak için <guilabel>Tamam</guilabel>’a tıklayın."
+
+#. Tag: para
+#: index.docbook:636
+#, no-c-format
+msgid "Done."
+msgstr "Bitti."
+
+#. Tag: title
+#: index.docbook:639
+#, no-c-format
+msgid "Application on all Desktops and Handle One Child Window Uniquely"
+msgstr "Tüm Masaüstlerinde Uygulamayı ve Bir Alt Pencereyi Benzersizce İşleyin"
+
+#. Tag: para
+#: index.docbook:640
+#, no-c-format
+msgid ""
+"Except for conversation windows, display &kopete; and its children windows "
+"on all desktops and skip the systray and pager. For children conversation "
+"windows, treat them as the parent window except show them in systray."
+msgstr ""
+"Konuşma pencereleri dışında, &kopete; ve alt pencereleri tüm masaüstlerinde "
+"açılır ve sistem tepsisi ile sayfalayıcıyı atlar. Alt konuşma pencereleri "
+"için bunları sistem tepsisinde gösterme dışında ana pencere olarak ele alın."
+
+#. Tag: para
+#: index.docbook:642
+#, no-c-format
+msgid ""
+"For each attribute, use the <guilabel>Force</guilabel> <link linkend="
+"\"parameters\">parameter</link> so it can not be overridden."
+msgstr ""
+"Her bir öznitelik için <guilabel>Zorla</guilabel> <link linkend=\"parameters"
+"\">parametresini</link> kullanın, böylece geçersiz kılınamaz."
+
+#. Tag: para
+#: index.docbook:644
+#, no-c-format
+msgid "In order to implement the above, two rules need to be created:"
+msgstr "Yukarıdakileri uygulamak için iki kuralın oluşturulması gerekir:"
+
+#. Tag: para
+#: index.docbook:647
+#, no-c-format
+msgid "A rule for <guilabel>Kopete Chat</guilabel> and"
+msgstr "<guilabel>Kopete Sohbeti</guilabel> için bir kural ve"
+
+#. Tag: para
+#: index.docbook:648
+#, no-c-format
+msgid "A rule for &kopete;"
+msgstr "&kopete; için bir kural"
+
+#. Tag: para
+#: index.docbook:650
+#, no-c-format
+msgid ""
+"The <guilabel>Kopete Chat</guilabel> rule's matching-criteria is more "
+"restrictive than the <emphasis>Kopete</emphasis> rule as it needs to match a "
+"specific Window Role: the chat window. Due to <link linkend=\"rule-evaluation"
+"\">rule evaluation</link> processing, the <guilabel>Kopete Chat</guilabel> "
+"rule must precede the &kopete; rule in the <link linkend=\"kopete-kwin-rule-"
+"list\">KWin Rule list for Kopete</link>."
+msgstr ""
+"<guilabel>Kopete Sohbeti</guilabel> kuralının eşleştirme kriteri, belirli "
+"bir pencere rolüyle, yani sohbet penceresiyle eşleşmesi gerektiğinden, "
+"<emphasis>Kopete</emphasis> kuralından daha kısıtlayıcıdır. <link linkend="
+"\"rule-evaluation\">Kural değerlendirmesi</link> işlemesi nedeniyle, <link "
+"linkend=\"kopete-kwin-rule-list\">KWin Rule list for Kopete için KWin Kuralı "
+"listesi</link> içindeki &kopete; kuralından önce gelmelidir."
+
+#. Tag: title
+#: index.docbook:652
+#, no-c-format
+msgid "Kopete Chat Rule"
+msgstr "Kopete Sohbeti Kuralı"
+
+#. Tag: para
+#: index.docbook:653
+#, no-c-format
+msgid "Assuming a <guilabel>Kopete Chat</guilabel> window is open:"
+msgstr ""
+"Bir <guilabel>Kopete Sohbeti</guilabel> penceresinin açık olduğunu "
+"varsayarsak:"
+
+#. Tag: para
+#: index.docbook:656
+#, no-c-format
+msgid ""
+"Use <guilabel>Detect Window Properties</guilabel> and select the "
+"<guilabel>Kopete Chat</guilabel> window. Check the <guilabel>Window role</"
+"guilabel> box to restrict the criteria to chat windows - for additional "
+"information see <link linkend=\"window-matching\">window matching</link>:"
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel>’yı kullanın ve "
+"<guilabel>Kopete Sohbeti</guilabel> penceresini seçin. Kriterleri sohbet "
+"pencereleriyle sınırlamak için <guilabel>Pencere rolü</guilabel> kutusunu "
+"işaretleyin — ek bilgi için <link linkend=\"window-matching\">pencere "
+"eşleştirme</link>bölümüne bakın:"
+
+#. Tag: para
+#: index.docbook:668 index.docbook:713 index.docbook:774 index.docbook:842
+#: index.docbook:885 index.docbook:928
+#, no-c-format
+msgid ""
+"Clicking <guilabel>OK</guilabel> in the previous window back-fills the "
+"results in the <guilabel>Window Matching</guilabel> tab. Enter a meaningful "
+"text in the <guilabel>Description</guilabel> box:"
+msgstr ""
+"Önceki pencerede <guilabel>Tamam</guilabel>’a tıklandığında "
+"<guilabel>Pencere Eşleştirme</guilabel> sekmesindeki sonuçlar geri "
+"doldurulur. <guilabel>Açıklama</guilabel> kutusuna anlamlı bir metin girin:"
+
+#. Tag: para
+#: index.docbook:680 index.docbook:725 index.docbook:854 index.docbook:897
+#: index.docbook:940
+#, no-c-format
+msgid "Enable the following attributes:"
+msgstr "Aşağıdaki öznitelikleri etkinleştirin:"
+
+#. Tag: para
+#: index.docbook:692 index.docbook:737 index.docbook:798 index.docbook:866
+#: index.docbook:909 index.docbook:952 index.docbook:1005
+#, no-c-format
+msgid "Click through to complete entry of the rule."
+msgstr "Kuralın girişini tamamlamak için tıklayın."
+
+#. Tag: para
+#: index.docbook:694
+#, no-c-format
+msgid ""
+"The <guilabel>Skip taskbar</guilabel> attribute is set to <guilabel>No</"
+"guilabel> to display the window in the taskbar which loosely translates to: "
+"<emphasis>no</emphasis> <emphasis>do not</emphasis> <emphasis>skip taskbar</"
+"emphasis> <inlinemediaobject> <imageobject> <imagedata fileref=\"Face-smile."
+"png\" format=\"PNG\"/> </imageobject> </inlinemediaobject>."
+msgstr ""
+"Pencereyi görev çubuğunda görüntülemek için <guilabel>Görev çubuğunu atla</"
+"guilabel> özniteliği <guilabel>Hayır</guilabel> olarak ayarlanmıştır. Bu da "
+"şu anlama gelir: <emphasis>Hayır</emphasis>, <emphasis>görev çubuğunu</"
+"emphasis> <emphasis>atlama</emphasis> <inlinemediaobject> <imageobject> "
+"<imagedata fileref=\"Face-smile.png\" format=\"PNG\"/> </imageobject> </"
+"inlinemediaobject>."
+
+#. Tag: title
+#: index.docbook:697
+#, no-c-format
+msgid "Kopete Rule"
+msgstr "Kopete Kuralı"
+
+#. Tag: para
+#: index.docbook:698
+#, no-c-format
+msgid "Assuming &kopete; is open:"
+msgstr "&kopete;’nin açık olduğunu varsayarsak:"
+
+#. Tag: para
+#: index.docbook:701
+#, no-c-format
+msgid ""
+"Use <guilabel>Detect Window Properties</guilabel> and select the &kopete; "
+"window. Match only by primary class name so leave the check boxes unchecked "
+"- for additional information see <link linkend=\"window-matching\">window "
+"matching</link>:"
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel>’yı kullanın ve &kopete; "
+"penceresini seçin. Yalnızca birincil sınıf adına göre eşleştirin, bu nedenle "
+"onay kutularını işaretlemeyin — ek bilgi için <link linkend=\"window-matching"
+"\">pencere eşleştirme</link> bölümüne bakın:"
+
+#. Tag: title
+#: index.docbook:740
+#, no-c-format
+msgid "Kopete KWin Rule List"
+msgstr "Kopete KWin Kuralı Listesi"
+
+#. Tag: para
+#: index.docbook:741
+#, no-c-format
+msgid ""
+"As mentioned, due to <link linkend=\"rule-evaluation\">rule evaluation</"
+"link> processing, the <guilabel>Kopete Chat</guilabel> rule must precede the "
+"&kopete; rule:"
+msgstr ""
+"Söz edildiği üzere, <link linkend=\"rule-evaluation\">kural değerlendirmesi</"
+"link> nedeniyle, <guilabel>Kopete Sohbeti</guilabel> kuralı &kopete; "
+"kuralından önce gelmelidir:"
+
+#. Tag: title
+#: index.docbook:756
+#, no-c-format
+msgid "Suppress a Window from showing on Pager"
+msgstr "Bir Pencerenin Sayfalayıcıda Gösterilmesini Engelleyin"
+
+#. Tag: para
+#: index.docbook:757
+#, no-c-format
+msgid ""
+"<guilabel>KNotes</guilabel> currently does not allow for its notes to skip "
+"the pager however a rule easily solves this shortcoming."
+msgstr ""
+"<guilabel>K Notlar</guilabel> şu anda notlarının sayfalayıcıyı atlamasına "
+"izin vermiyor; ancak bir kural bu eksikliği kolayca çözer."
+
+#. Tag: para
+#: index.docbook:759
+#, no-c-format
+msgid "Assuming a <emphasis>sticky note</emphasis>' window is available:"
+msgstr ""
+"Bir <emphasis>yapışkan not</emphasis> penceresinin var olduğunu varsayarsak:"
+
+#. Tag: para
+#: index.docbook:762
+#, no-c-format
+msgid ""
+"Use <guilabel>Detect Window Properties</guilabel> and select any "
+"<emphasis>sticky note</emphasis> window. Match only by primary class name so "
+"leave the check boxes unchecked - for additional information see <link "
+"linkend=\"window-matching\">window matching</link>:"
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel>’yı kullanın ve herhangi "
+"bir <emphasis>yapışkan not</emphasis> penceresini seçin. Yalnızca birincil "
+"sınıf adına göre eşleştirin, bu nedenle onay kutularını işaretlemeyin — ek "
+"bilgi için <link linkend=\"window-matching\">pencere eşleştirme</link> "
+"bölümüne bakın:"
+
+#. Tag: para
+#: index.docbook:786
+#, no-c-format
+msgid ""
+"Enable the <guilabel>Skip Pager</guilabel> attribute with the "
+"<guilabel>Force</guilabel> <link linkend=\"parameters\">parameter</link>:"
+msgstr ""
+"<guilabel>Sayfalayıcıyı Atla</guilabel> özniteliğini <guilabel>Zorla</"
+"guilabel> <link linkend=\"parameters\">parametresiyle</link> etkinleştirin:"
+
+#. Tag: title
+#: index.docbook:801
+#, no-c-format
+msgid "Force a Window to the Top"
+msgstr "Bir Pencereyi En Üste Zorla"
+
+#. Tag: para
+#: index.docbook:802
+#, no-c-format
+msgid ""
+"To pop an active window to the top, set its <guilabel>Focus stealing "
+"prevention</guilabel> attribute to <guilabel>None</guilabel>, typically, in "
+"conjunction with the <guilabel>Force</guilabel> <link linkend=\"parameters"
+"\">parameter</link>:"
+msgstr ""
+"Etkin bir pencereyi en yukarıda açmak için onun <guilabel>Odak çalma "
+"koruması</guilabel> özniteliğini <guilabel>Yok</guilabel> olarak ayarlayın; "
+"genellikle <guilabel>Zorla</guilabel> <link linkend=\"parameters"
+"\">parametresiyle</link> birlikte kullanılır:"
+
+#. Tag: title
+#: index.docbook:816
+#, no-c-format
+msgid "Multiple Rules per Application"
+msgstr "Uygulama Başına Birden Çok Kural"
+
+#. Tag: para
+#: index.docbook:817
+#, no-c-format
+msgid ""
+"<application>Thunderbird</application> has several different child windows. "
+"This example:"
+msgstr ""
+"<application>Thunderbird</application> birkaç farklı alt pencereye sahiptir. "
+"Bu örnekte:"
+
+#. Tag: para
+#: index.docbook:820
+#, no-c-format
+msgid ""
+"Pin <application>Thunderbird</application>'s main window on "
+"<emphasis>Virtual Desktop 1</emphasis> with a specific size and location on "
+"the desktop."
+msgstr ""
+"<application>Thunderbird</application>’ün ana penceresini <emphasis>Sanal "
+"Masaüstü 1</emphasis>’e masaüstünde belirli bir boyut ve konumla sabitleyin."
+
+#. Tag: para
+#: index.docbook:821
+#, no-c-format
+msgid ""
+"Allow the <application>Thunderbird</application> composer window to reside "
+"on any desktop and when activated, force focus and pop it to the top of all "
+"windows."
+msgstr ""
+"<application>Thunderbird</application> oluşturucu penceresinin herhangi bir "
+"masaüstünde kalmasına izin verin ve etkinleştirildiğinde, odaklanmaya "
+"zorlayın ve onu tüm pencerelerin üzerine yerleştirin."
+
+#. Tag: para
+#: index.docbook:822
+#, no-c-format
+msgid ""
+"Pop the <application>Thunderbird</application> reminder to the top and do "
+"not give it focus so it isn't inadvertently dismissed."
+msgstr ""
+"<application>Thunderbird</application> anımsatıcısını en üste getirin ve "
+"istemeden yok sayılmaması için ona odaklanmayın."
+
+#. Tag: para
+#: index.docbook:824
+#, no-c-format
+msgid ""
+"Each rule's matching criteria is sufficiently restrictive so their order "
+"within the main &kwin; window is not important to affect <link linkend="
+"\"rule-evaluation\">rule evaluation</link>."
+msgstr ""
+"Her bir kuralın eşleştirme kriterleri yeterince kısıtlayıcıdır; bu nedenle "
+"onların ana &kwin; penceresi içindeki sıraları <link linkend=\"rule-"
+"evaluation\">kural değerlendirmesini</link> etkileyecek kadar önemli "
+"değildir."
+
+#. Tag: title
+#: index.docbook:826
+#, no-c-format
+msgid "Thunderbird - Main"
+msgstr "Thunderbird — Ana"
+
+#. Tag: para
+#: index.docbook:827
+#, no-c-format
+msgid ""
+"Assuming the <guilabel>Thunderbird Main</guilabel> window is open, sized and "
+"position to suit:"
+msgstr ""
+"<guilabel>Thunderbird Ana</guilabel> penceresinin açık, boyutlandırılmış ve "
+"uygun konumda olduğunu varsayarsak:"
+
+#. Tag: para
+#: index.docbook:830
+#, no-c-format
+msgid ""
+"Use <guilabel>Detect Window Properties</guilabel> and select the "
+"<guilabel>Thunderbird Main</guilabel> window. Check the <guilabel>Window "
+"role</guilabel> box to restrict the criteria to the main window - for "
+"additional information see <link linkend=\"window-matching\">window "
+"matching</link>:"
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel>’yı kullanın ve "
+"<guilabel>Thunderbird Ana</guilabel> penceresini seçin. Kriterleri ana "
+"pencereyle sınırlamak için <guilabel>Pencere rolü</guilabel> kutusunu "
+"işaretleyin — ek bilgi için <link linkend=\"window-matching\">pencere "
+"eşleştirme</link> bölümüne bakın:"
+
+#. Tag: title
+#: index.docbook:869
+#, no-c-format
+msgid "Thunderbird - Composer"
+msgstr "Thunderbird — Oluşturucu"
+
+#. Tag: para
+#: index.docbook:870
+#, no-c-format
+msgid "Assuming a <guilabel>Thunderbird Composer</guilabel> window is open:"
+msgstr ""
+"Bir <guilabel>Thunderbird Oluşturucu</guilabel> penceresinin açık olduğunu "
+"varsayarsak:"
+
+#. Tag: para
+#: index.docbook:873
+#, no-c-format
+msgid ""
+"Use <guilabel>Detect Window Properties</guilabel> and select the "
+"<guilabel>Thunderbird Compose</guilabel> window. Check the <guilabel>Window "
+"role</guilabel> and <guilabel>Window type</guilabel> boxes to restrict the "
+"criteria to composition windows - for additional information see <link "
+"linkend=\"window-matching\">window matching</link>:"
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel>’yı kullanın ve "
+"<guilabel>Thunderbird Oluşturucu</guilabel> penceresini seçin. Kriterleri "
+"oluşturucu pencereleriyle sınırlamak için <guilabel>Pencere rolü</guilabel> "
+"ve <guilabel>Pencere türü</guilabel> kutularını işaretleyin — ek bilgi için "
+"<link linkend=\"window-matching\">pencere eşleştirme</link> bölümüne bakın:"
+
+#. Tag: title
+#: index.docbook:912
+#, no-c-format
+msgid "Thunderbird - Reminder"
+msgstr "Thunderbird — Anımsatıcı"
+
+#. Tag: para
+#: index.docbook:913
+#, no-c-format
+msgid "Assuming a <guilabel>Thunderbird Reminder</guilabel> window is open:"
+msgstr ""
+"Bir <guilabel>Thunderbird Anımsatıcı</guilabel> penceresinin açık olduğunu "
+"varsayarsak:"
+
+#. Tag: para
+#: index.docbook:916
+#, no-c-format
+msgid ""
+"Use <guilabel>Detect Window Properties</guilabel> and select the "
+"<guilabel>Thunderbird Reminder</guilabel> window. Check the "
+"<guilabel>Secondary class name</guilabel> and <guilabel>Window Type</"
+"guilabel> boxes to restrict the criteria to reminder windows - for "
+"additional information see <link linkend=\"window-matching\">window "
+"matching</link>:"
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel>’yı kullanın ve "
+"<guilabel>Thunderbird Anımsatıcı</guilabel> penceresini seçin. Kriterleri "
+"anımsatma pencereleriyle sınırlamak için <guilabel>İkincil sınıf adı</"
+"guilabel> ve <guilabel>Pencere Türü</guilabel> kutularını işaretleyin — ek "
+"bilgi için <link linkend=\"window-matching\">pencere eşleştirme</link > "
+"bölümüne bakın:"
+
+#. Tag: title
+#: index.docbook:958
+#, no-c-format
+msgid "Application Workarounds"
+msgstr "Uygulama Geçici Çözümleri"
+
+#. Tag: para
+#: index.docbook:959
+#, no-c-format
+msgid "Below are Workarounds for misbehaving applications."
+msgstr ""
+"Yanlış davranan uygulamalar için geçici çözümleri aşağıda bulabilirsiniz."
+
+#. Tag: para
+#: index.docbook:961
+#, no-c-format
+msgid ""
+"If you are unfamiliar with creating &kwin; Rules, see this <link linkend="
+"\"pin-a-window-to-a-desktop-and-set-other-attributes\">detailed example</"
+"link> to base your new rule."
+msgstr ""
+"&kwin; Kuralları oluşturma konusunda bilginiz yoksa yeni kuralınızı "
+"temellendirmek için bu <link linkend=\"pin-a-window-to-a-desktop-and-set-"
+"other-attributes\">ayrıntılı örneğe</link> bakın."
+
+#. Tag: title
+#: index.docbook:963
+#, no-c-format
+msgid "Full-screen Re-size Error"
+msgstr "Tam Ekran Yeniden Boyutlandırma Hatası"
+
+#. Tag: para
+#: index.docbook:964
+#, no-c-format
+msgid ""
+"&Emacs; and <guilabel>gVim</guilabel>, when maximized (full-screen mode) and "
+"under certain conditions may encounter window re-sizing issues - see <ulink "
+"url=\"https://bugs.kde.org/show_bug.cgi?id=252314\">Emacs window resizes ..."
+"</ulink> A &kwin; Rule will work-around the issue."
+msgstr ""
+"&Emacs; ve <guilabel>gVim</guilabel>, büyütüldüğünde (tam ekran kipi) ve "
+"belirli koşullar altında pencere yeniden boyutlandırma sorunlarıyla "
+"karşılaşabilir — bkz. <ulink url=\"https://bugs.kde.org/show_bug.cgi? "
+"id=252314\">Emacs window resizes…</ulink>. Bir &kwin; Kuralı, soruna geçici "
+"bir çözüm getiriyor."
+
+#. Tag: para
+#: index.docbook:966
+#, no-c-format
+msgid "Assuming an &Emacs; window is open:"
+msgstr "Bir &Emacs; penceresinin açık olduğunu varsayarsak:"
+
+#. Tag: para
+#: index.docbook:969
+#, no-c-format
+msgid ""
+"Use <guilabel>Detect Window Properties</guilabel> and select the &Emacs; "
+"window. Match only by <guilabel>primary class name</guilabel> so leave the "
+"check boxes unchecked - for additional information see <link linkend="
+"\"window-matching\">window matching</link>"
+msgstr ""
+"<guilabel>Pencere Özelliklerini Algıla</guilabel>’yı kullanın ve &Emacs; "
+"penceresini seçin. Yalnızca <guilabel>birincil sınıf adına</guilabel> göre "
+"eşleştirin, bu nedenle onay kutularını işaretlemeyin — ek bilgi için <link "
+"linkend=\"window-matching\">pencere eşleştirme</link> bölümüne bakın."
+
+#. Tag: para
+#: index.docbook:981
+#, no-c-format
+msgid ""
+"Clicking <guilabel>OK</guilabel> in the previous window back-fills the "
+"results in the <guilabel>Window Matching</guilabel> tab. Enter a meaningful "
+"text in the <guilabel>Description</guilabel> text box:"
+msgstr ""
+"Önceki pencerede <guilabel>Tamam</guilabel>’a tıklandığında "
+"<guilabel>Pencere Eşleştirme</guilabel> sekmesindeki sonuçlar geri "
+"doldurulur. <guilabel>Açıklama</guilabel> metin kutusuna anlamlı bir metin "
+"girin:"
+
+#. Tag: para
+#: index.docbook:993
+#, no-c-format
+msgid ""
+"Ignore &Emacs;'s full-screen request by enabling the <guilabel>Obey geometry "
+"restrictions</guilabel> attribute, toggling it to off (<guilabel>No</"
+"guilabel>) to ignore and selecting the <guilabel>Force</guilabel> <link "
+"linkend=\"parameters\">parameter</link>:"
+msgstr ""
+"<guilabel>Geometry kısıtlamalarına uy</guilabel> özniteliğini, yok saymak "
+"için onu kapalı yaparak (<guilabel>Hayır</guilabel>) ve <guilabel>Zorla</"
+"guilabel> <link linkend=\"parameters\">parametresini</link> seçerek "
+"etkinleştirin:"
+
+#. Tag: title
+#: index.docbook:1012
+#, no-c-format
+msgid "Credits and License"
+msgstr "Emeği Geçenler ve Lisans"
+
+#. Tag: para
+#: index.docbook:1013
+#, no-c-format
+msgid ""
+"Documentation Copyright see the UserBase <ulink url=\"https://userbase.kde."
+"org/index.php?title=KWin Rules&amp;action=history\">KWin Rules page history</"
+"ulink>"
+msgstr ""
+"Belgelendirme telif hakkı için Kullanıcı Tabanı <ulink url=\"https://"
+"userbase.kde.org/index.php?title=KWin Rules&amp;action=history\">KWin "
+"Kuralları sayfa geçmişine</ulink> bakın"
+
+#. Tag: trans_comment
+#: index.docbook:1016
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr "<para>Çeviri: Emir SARI <email>emir_sari@icloud.com</email></para>"
+
+#. Tag: chapter
+#: index.docbook:1016
+#, no-c-format
+msgid "&underFDL;"
+msgstr "&underFDL;"

@@ -1,0 +1,491 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: krusader_search\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-09-20 00:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: search.docbook:8
+#, no-c-format
+msgid "KruSearcher: find what you are looking for"
+msgstr ""
+
+#. Tag: primary
+#: search.docbook:10
+#, no-c-format
+msgid "Search"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:12
+#, no-c-format
+msgid ""
+"Welcome to &krusader;'s powerful search module - nicknamed KruSearcher. It "
+"is the most able tool (that we know of) for &Linux;, since it allows so many "
+"different ways to quickly find the file you are looking for. The search "
+"function is also available on remote file systems. It is divided into two "
+"levels, the general and the advanced. Let's take a look at the general page."
+msgstr ""
+
+#. Tag: title
+#: search.docbook:20
+#, no-c-format
+msgid "<title>General Search</title>"
+msgstr ""
+
+#. Tag: phrase
+#: search.docbook:26
+#, no-c-format
+msgid "<phrase>General Search</phrase>"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:30
+#, no-c-format
+msgid ""
+"The page is divided into four parts: top (search for) part, bottom part - "
+"titled <guilabel>Containing text</guilabel>, left part - titled "
+"<guilabel>Search in</guilabel> and right part which is called <guilabel>Do "
+"not search in</guilabel>. Obviously, each part handles different aspects of "
+"the search. Let's look at them closely."
+msgstr ""
+
+#. Tag: title
+#: search.docbook:37
+#, no-c-format
+msgid "Top Part:"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:39
+#, no-c-format
+msgid ""
+"<guilabel>Search for</guilabel>: here you enter the main search criteria. "
+"You can enter a file name, a wildcard ( <literal role=\"extension\">*.o.*</"
+"literal>, <literal role=\"extension\">*.c</literal> &etc;) or both - "
+"separated by a space. If you type <literal>'text'</literal> the results is "
+"the same as <literal>'*text*'</literal>. You can exclude files from the "
+"search with '|' (&eg; <literal role=\"extension\">'*.cpp *.h | *.moc.cpp'</"
+"literal>). You can use quotation marks for names that contain spaces. Filter "
+"<quote>Program Files</quote> searches out those files/folders the name of "
+"which is <filename>Program Files</filename>. A drop-down list that is shown "
+"after clicking down arrow on the right allows you to pick some of your "
+"previously entered criteria."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:54
+#, no-c-format
+msgid ""
+"It is possible to edit the list of suggestions for the <guilabel>Search for</"
+"guilabel> field. If you do not like some of its items just select it and "
+"press <keycombo action=\"simul\">&Shift;<keycap>Del</keycap></keycombo> and "
+"that useless suggestion gets deleted. You can also use the arrow keys in "
+"order to see all the history in the <guilabel>Search for</guilabel> field, "
+"and delete the entries that are needless."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:60
+#, no-c-format
+msgid ""
+"<guilabel>Case sensitive</guilabel>: unchecking it will allow lower and "
+"upper case search (&ie;: <literal role=\"extension\">*.c</literal> "
+"interprets as <literal role=\"extension\">*.c</literal> AND <literal role="
+"\"extension\">*.C</literal>)."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:68
+#, no-c-format
+msgid ""
+"<guilabel>Of type</guilabel>: this box lets you search for a file not only "
+"by its name, but also by its &MIME; type. For example, you can search for "
+"all the audio files whose name begins with B. Usually this option defaults "
+"to 'all files', but you can choose to search for archives, folders, images, "
+"text files, videos and audio files."
+msgstr ""
+
+#. Tag: title
+#: search.docbook:78
+#, no-c-format
+msgid "Left and Right Part:"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:80
+#, no-c-format
+msgid ""
+"<guilabel>Search in</guilabel> and <guilabel>Do not search in</guilabel>: "
+"Using those two parts, you can specify a search exactly the way you want it. "
+"For example, you might want to search for a file in the whole file system "
+"(beginning with <filename>/</filename>), but do not want to search inside "
+"<filename>/mnt</filename>. All you need to do is write <filename>/</"
+"filename> in the <guilabel>Search in</guilabel> box, and write <filename>/"
+"mnt</filename> in the <guilabel>Do not search in</guilabel> box. If you want "
+"to enter more than one folder in one of the list boxes, just type the first "
+"name and press &Enter;. The folder name will be copied to the bigger list "
+"box and you will be able to enter another name."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:97
+#, no-c-format
+msgid ""
+"The input line has an auto-completion feature, corresponding to &plasma; "
+"global settings. If you wish, you can click on the <guiicon>folder icon</"
+"guiicon>, and browse to the folder you wish to add."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:104
+#, no-c-format
+msgid ""
+"It is possible to define files and folders which will be filtered out from "
+"the search results using the <guilabel>Exclude Folder Names</guilabel> input "
+"field at the bottom of the <guilabel>Do not search in</guilabel> box."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:105
+#, no-c-format
+msgid "Items in the filtering list should be space-separated."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:106
+#, no-c-format
+msgid ""
+"Spaces in the filtering list items can be escaped or quoted. Example: "
+"<userinput>.git \"target build\" build\\ krusader</userinput>"
+msgstr ""
+
+#. Tag: title
+#: search.docbook:111
+#, no-c-format
+msgid "Bottom Part:"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:113
+#, no-c-format
+msgid ""
+"<guilabel>Text</guilabel>: entering text here makes &krusader; search for it "
+"inside the files ( <command>grep</command>). This way you can search for all "
+"header files ( <literal role=\"extension\">*.h</literal>) which include the "
+"word <literal>'testing 123'</literal>."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:123
+#, no-c-format
+msgid ""
+"<guilabel>RegExp</guilabel> switch: toggle the regular expressions mode. A "
+"drop-down list that is shown after clicking down arrow on the right allows "
+"you to enter special symbols of regular expressions."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:128
+#, no-c-format
+msgid "<guilabel>Encoding</guilabel>: allows you to choose the text encoding."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:133
+#, no-c-format
+msgid ""
+"<guilabel>Match whole word only</guilabel>: allows you to specify that a "
+"complete match (letters and length) must be found."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:138
+#, no-c-format
+msgid ""
+"<guilabel>Case sensitive</guilabel>: refers to your text being searched for "
+"in upper and lower case or the exact phrase you entered."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:144
+#, no-c-format
+msgid ""
+"<guilabel>Search in sub folders</guilabel>: perform a recursive search and "
+"dive into every folder on the way."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:150
+#, no-c-format
+msgid ""
+"<guilabel>Search in archives</guilabel>: &krusader; will search for your "
+"files inside every supported archive. This, however, takes longer to perform."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:155
+#, no-c-format
+msgid ""
+"If you check this checkbox, you will notice you cannot <command>grep</"
+"command> inside files anymore. This is done, since looking inside archived "
+"files forces &krusader; to extract them, which results in an extremely time-"
+"consuming search."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:163
+#, no-c-format
+msgid ""
+"<guilabel>Follow links</guilabel>: if checked, &krusader; will follow soft-"
+"links during the search."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:169
+#, no-c-format
+msgid ""
+"<guilabel>Profiles</guilabel>: if you have to regularly perform the same "
+"search operation, you can save the search settings &eg; include files, "
+"exclude files, &etc;... Press the 'profile' button, and you can add/load/"
+"save/remove search profiles."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:177
+#, no-c-format
+msgid ""
+"<guilabel>Query to clipboard</guilabel>: if checked, &krusader; will place "
+"search text to clipboard when a found file is opened."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:182
+#, no-c-format
+msgid ""
+"The above screen shot shows a search for all the files which end with "
+"<literal role=\"extension\">c, cpp</literal> or <literal role=\"extension"
+"\">h</literal> and include the string <literal>'testing 123'</literal>. "
+"&krusader; will search in <filename class=\"directory\">/root, /opt, /bin</"
+"filename> and <filename class=\"directory\">/usr</filename>, but not in "
+"<filename class=\"directory\">/usr/lib</filename> and <filename class="
+"\"directory\">/usr/share</filename>."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:192
+#, no-c-format
+msgid ""
+"Clicking the <guibutton>Search</guibutton> button starts the search and "
+"displays the results page. During the search, you may press the "
+"<guibutton>Stop</guibutton> button to stop the search. The <guibutton>Close</"
+"guibutton> button is not operational during a search, so you must first stop "
+"the search and then <guibutton>Close</guibutton> the window. When a result "
+"is found, double-clicking on it will take &krusader;'s active panel point to "
+"the found files - but will not close the search window, so you will be able "
+"to click on a different result."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:202
+#, no-c-format
+msgid ""
+"Sometimes, you need to narrow your search even more. KruSearcher allows a "
+"much finer search, and for that, let's look at the <guilabel>Advanced Page</"
+"guilabel>..."
+msgstr ""
+
+#. Tag: title
+#: search.docbook:207
+#, no-c-format
+msgid "<title>Advanced Search</title>"
+msgstr ""
+
+#. Tag: phrase
+#: search.docbook:213
+#, no-c-format
+msgid "<phrase>Advanced Search</phrase>"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:217
+#, no-c-format
+msgid ""
+"This screen shot shows a search for files whose size is between 10KiB and "
+"150KiB, which were modified between October 10th and November 1st, which "
+"belong to any user in the 'nobody' group, and are readable and writable by "
+"anyone in the 'nobody' group, but only readable to the rest of the world."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:222
+#, no-c-format
+msgid ""
+"The advanced page is divided into three parts: size, date and ownership."
+msgstr ""
+
+#. Tag: emphasis
+#: search.docbook:225
+#, no-c-format
+msgid "Size"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:227
+#, no-c-format
+msgid ""
+"Allows you to choose the size range of the file you are looking for. By "
+"checking the check boxes, you can search for a file which is bigger than XXX "
+"bytes (or KB, MB), smaller than XXX bytes or, by checking both search for a "
+"file which size is bigger than XXX but smaller than YYY."
+msgstr ""
+
+#. Tag: emphasis
+#: search.docbook:233
+#, no-c-format
+msgid "Date"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:235
+#, no-c-format
+msgid "This part offers three different ways of defining a date criteria:"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:239
+#, no-c-format
+msgid ""
+"<guilabel>Modified between</guilabel>: allows you to enter two dates. "
+"&krusader; will search for files with a modification date between the first "
+"date and the second one, inclusive."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:245
+#, no-c-format
+msgid ""
+"You can click on the date icon (near the input boxes) to open a standard "
+"date window - which allows you to easily browse through the calendar and "
+"search for the desired date. Clicking on a date will close the window and "
+"the date will appear in the input box."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:253
+#, no-c-format
+msgid ""
+"<guilabel>Not modified after</guilabel>: choosing this option makes "
+"&krusader; search for files that were NOT modified after a given date, which "
+"is the same as searching for files older than that date."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:260
+#, no-c-format
+msgid ""
+"<guilabel>Modified in the last/not modified in the last</guilabel>: in these "
+"input boxes, you do not enter a date but a number. This number represents "
+"days/weeks/months (as chosen in the near drop box). Entering the number 5 in "
+"the upper input box, makes &krusader; search for files that were modified in "
+"the last 5 days. Entering the number 2 in the lower input box makes "
+"&krusader; search for files that did NOT change in the last 2 days. The "
+"combination of both results in a search for files that were changed in the "
+"last 5 days, but NOT in the last 2 days."
+msgstr ""
+
+#. Tag: emphasis
+#: search.docbook:274
+#, no-c-format
+msgid "Ownership"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:278
+#, no-c-format
+msgid ""
+"<guilabel>Belongs to user/group</guilabel>: by checking each of the "
+"corresponding check boxes, you can search for files which belong to a "
+"certain user and/or group. The drop box lists all the user names and group "
+"names in the system, just choose one and go ahead."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:286
+#, no-c-format
+msgid ""
+"<guilabel>Permissions</guilabel>: divided into owner, group and all - it "
+"allows you to choose certain permissions for the file. You can choose to "
+"specify permissions for the owner, group, all or any combination. The "
+"question mark (?) is a wildcard - which means that any permission is valid."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:295
+#, no-c-format
+msgid ""
+"To clarify, the screen shot above (the ownership part) describes a search "
+"for files that belong to any user in group 'users', are readable, writable "
+"but not executable to any user in the group, are readable but not writable "
+"or executable to the rest of the world and have unknown permissions to its "
+"owner."
+msgstr ""
+
+#. Tag: emphasis
+#: search.docbook:303
+#, no-c-format
+msgid "Results"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:305
+#, no-c-format
+msgid ""
+"Clicking on the <guibutton>Search</guibutton> button to start the search and "
+"open the Results window. Here you can see the progress and the results of "
+"the search action. If you want you can stop the current search action with "
+"the <guibutton>Stop</guibutton> button. In the result list select the file "
+"and use <keycap>F3</keycap>/ <keycap>F4</keycap> to view/edit or use the "
+"right-click menu. When you click on a found item, the folder of the active "
+"panel will change if the selected item is not in the current panel folder. "
+"The results window supports dragging items to other windows and copy to "
+"clipboard (<keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo>). "
+"When you close the KruSearcher window, the selected item is selected in the "
+"active panel."
+msgstr ""
+
+#. Tag: emphasis
+#: search.docbook:321
+#, no-c-format
+msgid "Feed to listbox"
+msgstr ""
+
+#. Tag: para
+#: search.docbook:323
+#, no-c-format
+msgid ""
+"When you click the <guibutton>Feed to listbox</guibutton> button after the "
+"results are displayed, then &krusader; ask for a Query Name, this name will "
+"be used in the Results-Tab in the List Panel that holds the search results. "
+"You can do whatever you want on the files in the new tab. The location "
+"toolbar will display &eg; <filename>virt:/Search results 1</filename>."
+msgstr ""
+
+#. Tag: para
+#: search.docbook:332
+#, no-c-format
+msgid ""
+"The files in the Results-Tab are actually the original files. if you delete "
+"a file - it is removed!"
+msgstr ""

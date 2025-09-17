@@ -1,0 +1,443 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
+"PO-Revision-Date: 2025-03-08 00:40+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.03.70\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: man-kdesu.1.docbook:8
+#, no-c-format
+msgid "KDE User's Manual"
+msgstr "KDE Kullanıcı Kılavuzu"
+
+#. Tag: author
+#: man-kdesu.1.docbook:9
+#, no-c-format
+msgid "&Lauri.Watts; &Lauri.Watts.mail;"
+msgstr "&Lauri.Watts; &Lauri.Watts.mail;"
+
+#. Tag: date
+#: man-kdesu.1.docbook:10
+#, no-c-format
+msgid "2010-09-18"
+msgstr "2010-09-18"
+
+#. Tag: productname
+#: man-kdesu.1.docbook:11
+#, no-c-format
+msgid "K Desktop Environment"
+msgstr "K Masaüstü Ortamı"
+
+#. Tag: manvolnum
+#: man-kdesu.1.docbook:16
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr "<manvolnum>1</manvolnum>"
+
+#. Tag: refpurpose
+#: man-kdesu.1.docbook:21
+#, no-c-format
+msgid "Runs a program with elevated privileges"
+msgstr "Bir programı yükseltilmiş ayrıcalıklarla çalıştırır"
+
+#. Tag: cmdsynopsis
+#: man-kdesu.1.docbook:25
+#, no-c-format
+msgid ""
+"<command>kdesu</command> <group choice=\"opt\"><option>-c</option> "
+"<replaceable> command</replaceable></group> <group choice=\"opt\"><option>-"
+"d</option></group> <group choice=\"opt\"><option>-f</option> <replaceable> "
+"file</replaceable></group> <group choice=\"opt\"><option>-i</option> "
+"<replaceable> icon name</replaceable></group> <group choice=\"opt\"><option>-"
+"n</option></group> <group choice=\"opt\"><option>-p</option> <replaceable> "
+"priority</replaceable></group> <group choice=\"opt\"><option>-r</option></"
+"group> <group choice=\"opt\"><option>-s</option></group> <group choice=\"opt"
+"\"><option>-t</option></group> <group choice=\"opt\"><option>-u</option> "
+"<replaceable> user</replaceable></group> <group choice=\"opt\"><option>--"
+"noignorebutton</option></group> <group choice=\"opt\"><option>--attach</"
+"option> <replaceable> winid</replaceable></group>"
+msgstr ""
+"<command>kdesu</command> <group choice=\"opt\"><option>-c</option> "
+"<replaceable> komut</replaceable></group> <group choice=\"opt\"><option>-d</"
+"option></group> <group choice=\"opt\"><option>-f</option> <replaceable> "
+"dosya</replaceable></group> <group choice=\"opt\"><option>-i</option> "
+"<replaceable> simge adı</replaceable></group> <group choice=\"opt\"><option>-"
+"n</option></group> <group choice=\"opt\"><option>-p</option> <replaceable> "
+"öncelik</replaceable></group> <group choice=\"opt\"><option>-r</option></"
+"group> <group choice=\"opt\"><option>-s</option></group> <group choice=\"opt"
+"\"><option>-t</option></group> <group choice=\"opt\"><option>-u</option> "
+"<replaceable> kullanıcı</replaceable></group> <group choice=\"opt"
+"\"><option>--noignorebutton</option></group> <group choice=\"opt\"><option>--"
+"attach</option> <replaceable> winid</replaceable></group>"
+
+#. Tag: cmdsynopsis
+#: man-kdesu.1.docbook:46
+#, no-c-format
+msgid ""
+"<command>kdesu</command> <arg choice=\"opt\">&kde; Generic Options</arg> "
+"<arg choice=\"opt\">&Qt; Generic Options</arg>"
+msgstr ""
+"<command>kdesu</command> <arg choice=\"opt\">&kde; Genel Seçenekleri</arg> "
+"<arg choice=\"opt\">&Qt; Genel Seçenekleri</arg>"
+
+#. Tag: title
+#: man-kdesu.1.docbook:54
+#, no-c-format
+msgid "Description"
+msgstr "Açıklama"
+
+#. Tag: para
+#: man-kdesu.1.docbook:55
+#, no-c-format
+msgid ""
+"&kdesu; is a graphical front end for the &UNIX; <command>su</command> "
+"command for the K Desktop Environment. It allows you to run a program as "
+"different user by supplying the password for that user. &kdesu; is an "
+"unprivileged program; it uses the system's <command>su</command>."
+msgstr ""
+"&kdesu;, &UNIX; <command>su</command> komutunun K Masaüstü Ortamı için "
+"hazırlanmış bir grafiksel ön yüzüdür. Bir programı, başka bir kullanıcının "
+"parolasını sağlayarak o kullanıcıymış gibi çalıştırmaya izin verir. &kdesu; "
+"ayrıcalıksız bir programdır, sistemin <command>su</command> komutunu "
+"kullanır."
+
+#. Tag: para
+#: man-kdesu.1.docbook:61
+#, no-c-format
+msgid ""
+"&kdesu; has one additional feature: it can optionally remember passwords for "
+"you. If you are using this feature, you only need to enter the password once "
+"for each command."
+msgstr ""
+"&kdesu; programının bir ek özelliği vardır: Sizin için parolaları "
+"anımsayabilir. Bu özelliği kullanıyorsanız her bir komut için parolanızı "
+"yalnızca bir kez girmeniz gerekir."
+
+#. Tag: para
+#: man-kdesu.1.docbook:65
+#, no-c-format
+msgid ""
+"This program is meant to be started from the command line or from <filename>."
+"desktop</filename> files."
+msgstr ""
+"Bu program, komut satırından veya <filename>.desktop</filename> "
+"dosyalarından başlatılmak üzere tasarlanmıştır."
+
+#. Tag: para
+#: man-kdesu.1.docbook:68
+#, no-c-format
+msgid ""
+"Since <command>kdesu</command> is no longer installed in <userinput> $(kf5-"
+"config --prefix)</userinput>/bin but in <userinput>kf5-config --path "
+"libexec</userinput> and therefore not in your <envar>Path</envar>, you have "
+"to use <userinput>$(kf5-config --path libexec)<command>kdesu</command></"
+"userinput> to launch <command>kdesu</command>."
+msgstr ""
+"<command>kdesu</command> komutu, artık <userinput> $(kf5-config --prefix)</"
+"userinput>/bin değil de <userinput>kf5-config --path libexec</userinput> "
+"konumunda kurulu olduğundan ve dolayısıyla <envar>PATH</envar>’inizde "
+"olmadığından, <command>kdesu</command> komutunu başlatmak için <userinput>"
+"$(kf5-config --path libexec)<command>kdesu</command></userinput> "
+"kullanmalısınız."
+
+#. Tag: title
+#: man-kdesu.1.docbook:75
+#, no-c-format
+msgid "Options"
+msgstr "Seçenekler"
+
+#. Tag: option
+#: man-kdesu.1.docbook:79
+#, no-c-format
+msgid "-c <replaceable>command</replaceable>"
+msgstr "-c <replaceable>komut</replaceable>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:80
+#, no-c-format
+msgid ""
+"This specifies the command to run as root. It has to be passed in one "
+"argument. So if, for example, you want to start a new file manager, you "
+"would enter at the prompt: <userinput>$(kf5-config --path "
+"libexec)<command>kdesu <option>-c <replaceable> &dolphin;</replaceable></"
+"option></command></userinput>"
+msgstr ""
+"Bu, komutun yönetici olarak çalışacağını belirtir. Bir argüman ile "
+"geçirilmelidir. Örneğin, yeni bir dosya yöneticisi başlatmak istiyorsanız "
+"komut isteminde şunu girerdiniz: <userinput>$(kf5-config --path "
+"libexec)<command>kdesu <option>-c <replaceable> &dolphin;</replaceable></"
+"option></command></userinput>"
+
+#. Tag: option
+#: man-kdesu.1.docbook:86
+#, no-c-format
+msgid "<option>-d</option>"
+msgstr "<option>-d</option>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:87
+#, no-c-format
+msgid "Show debug information."
+msgstr "Hata ayıklama bilgisini gösterin."
+
+#. Tag: option
+#: man-kdesu.1.docbook:90
+#, no-c-format
+msgid "-f <replaceable>file</replaceable>"
+msgstr "-f <replaceable>dosya</replaceable>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:91
+#, no-c-format
+msgid ""
+"This option allow efficient use of &kdesu; in <filename>.desktop</filename> "
+"files. It tells &kdesu; to examine the file specified by <parameter>file</"
+"parameter>. If this file is writable by the current user, &kdesu; will "
+"execute the command as the current user. If it is not writable, the command "
+"is executed as user <parameter>user</parameter> (defaults to root)."
+msgstr ""
+"Bu seçenek, &kdesu;’nun <filename>.desktop</filename> dosyalarında etkili "
+"kullanımını sağlar. &kdesu;’ya <parameter>dosya</parameter> parametresiyle "
+"verilen dosyayı incelemesini söyler. Dosyaya geçerli kullanıcı tarafından "
+"yazılabiliyorsa &kdesu; komutu geçerli kullanıcı olarak yürütür. Aksi "
+"durumda, komut <parameter>kullanıcı</parameter> olarak yürütülür (öntanımlı "
+"olarak yönetici)."
+
+#. Tag: para
+#: man-kdesu.1.docbook:97
+#, no-c-format
+msgid ""
+"<parameter>file</parameter> is evaluated like this: if <parameter>file</"
+"parameter> starts with a <literal>/</literal>, it is taken as an absolute "
+"filename. Otherwise, it is taken as the name of a global &kde; configuration "
+"file."
+msgstr ""
+"<parameter>dosya</parameter> parametresi şöyle değerlendirilir: Eğer "
+"<parameter>dosya</parameter> bir <literal>/</literal> ile başlıyorsa mutlak "
+"bir dosya adı olarak alınır. Aksi takdirde global bir &kde; yapılandırma "
+"dosyası olarak kabul edilir."
+
+#. Tag: term
+#: man-kdesu.1.docbook:103
+#, no-c-format
+msgid "<option>-i</option> <replaceable>icon name</replaceable>"
+msgstr "<option>-i</option> <replaceable>simge adı</replaceable>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:104
+#, no-c-format
+msgid ""
+"Specify icon to use in the password dialog. You may specify just the name, "
+"without any extension."
+msgstr ""
+"Parola iletişim kutusunda kullanılmak üzere bir simge belirtin. Herhangi bir "
+"uzantı olmadan yalnızca adı belirtebilirsiniz."
+
+#. Tag: option
+#: man-kdesu.1.docbook:110
+#, no-c-format
+msgid "<option>-n</option>"
+msgstr "<option>-n</option>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:111
+#, no-c-format
+msgid ""
+"Do not keep the password. This disables the <guilabel>keep password</"
+"guilabel> checkbox in the password dialog."
+msgstr ""
+"Parolayı tutmayın. Bu seçenek, parola iletişim kutusundaki "
+"<guilabel>parolayı tut</guilabel> onay kutusunu devre dışı bırakır."
+
+#. Tag: term
+#: man-kdesu.1.docbook:115
+#, no-c-format
+msgid "<option>-p</option> <replaceable>priority</replaceable>"
+msgstr "<option>-p</option> <replaceable>öncelik</replaceable>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:117
+#, no-c-format
+msgid ""
+"Set priority value. The priority is an arbitrary number between 0 and 100, "
+"where 100 means highest priority, and 0 means lowest. The default is 50."
+msgstr ""
+"Öncelik değerini ayarlayın. Öncelik, 1–100 arasında herhangi bir numaradır; "
+"100 en yüksek önceliği ve 0 ise en düşük önceliği belirtir. Öntanımlı değer "
+"50’dir."
+
+#. Tag: option
+#: man-kdesu.1.docbook:123
+#, no-c-format
+msgid "<option>-r</option>"
+msgstr "<option>-r</option>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:124
+#, no-c-format
+msgid "Use realtime scheduling."
+msgstr "Gerçek zamanlı zamanlama kullanın."
+
+#. Tag: option
+#: man-kdesu.1.docbook:129
+#, no-c-format
+msgid "<option>-s</option>"
+msgstr "<option>-s</option>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:130
+#, no-c-format
+msgid ""
+"Stop the kdesu daemon. This is the daemon that caches successful passwords "
+"in the background. This feature may also be disabled with <option>-n</"
+"option> when &kdesu; is initially run."
+msgstr ""
+"kdesu ardalan sürecini durdurun. Bu, başarılı parolaları arka planda "
+"önbellekleyen ardalan sürecidir. Bu özellik aynı zamanda &kdesu;’nun ilk "
+"başlatılmasında <option>-n</option> ile de devre dışı bırakılabilir."
+
+#. Tag: option
+#: man-kdesu.1.docbook:135
+#, no-c-format
+msgid "<option>-t</option>"
+msgstr "<option>-t</option>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:136
+#, no-c-format
+msgid ""
+"Enable terminal output. This disables password keeping. This is largely for "
+"debugging purposes; if you want to run a console mode app, use the standard "
+"<command>su</command> instead."
+msgstr ""
+"Uçbirim çıktısını etkinleştirin. Bu, parola tutmayı devre dışı bırakır. Bu "
+"genelde hata ayıklama amaçlı kullanılır; bir konsol kipli uygulama "
+"çalıştırmak istiyorsanız bunun yerine standart olan <command>su</command> "
+"komutunu kullanın."
+
+#. Tag: term
+#: man-kdesu.1.docbook:141
+#, no-c-format
+msgid "<option>-u</option> <replaceable> user</replaceable>"
+msgstr "<option>-u</option> <replaceable> kullanıcı</replaceable>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:142
+#, no-c-format
+msgid ""
+"While the most common use for &kdesu; is to run a command as the superuser, "
+"you can supply any user name and the appropriate password."
+msgstr ""
+"&kdesu;’nun en yaygın kullanımı bir komutu yönetici kullanıcı olarak "
+"çalıştırmak olsa da, herhangi bir kullanıcı adını ve parolayı da "
+"verebilirsiniz."
+
+#. Tag: option
+#: man-kdesu.1.docbook:149
+#, no-c-format
+msgid "--noignorebutton"
+msgstr "--noignorebutton"
+
+#. Tag: para
+#: man-kdesu.1.docbook:150
+#, no-c-format
+msgid "Do not display an ignore button."
+msgstr "Bir yok say düğmesi görüntülemeyin."
+
+#. Tag: term
+#: man-kdesu.1.docbook:155
+#, no-c-format
+msgid "<option>--attach</option> <replaceable> winid</replaceable>"
+msgstr "<option>--attach</option> <replaceable> winid</replaceable>"
+
+#. Tag: para
+#: man-kdesu.1.docbook:156
+#, no-c-format
+msgid "Makes the dialog transient for an X app specified by winid."
+msgstr ""
+"winid tarafından belirtilen bir X uygulaması için iletişim kutusunu geçici "
+"hale getirir."
+
+#. Tag: title
+#: man-kdesu.1.docbook:165
+#, no-c-format
+msgid "See Also"
+msgstr "Ayrıca Bakınız"
+
+#. Tag: para
+#: man-kdesu.1.docbook:166
+#, no-c-format
+msgid "su(1)"
+msgstr "su(1)"
+
+#. Tag: para
+#: man-kdesu.1.docbook:168
+#, no-c-format
+msgid ""
+"More detailed user documentation is available from <ulink url=\"help:/kdesu"
+"\">help:/kdesu</ulink> (either enter this &URL; into &konqueror;, or run "
+"<userinput><command>khelpcenter</command> <parameter>help:/kdesu</"
+"parameter></userinput>)."
+msgstr ""
+"Daha ayrıntılı kullanıcı belgelendirmesi <ulink url=\"help:/kdesu\">help:/"
+"kdesu</ulink> (ya bu &URL;’yi &konqueror;’a girin ya da "
+"<userinput><command>khelpcenter</command> <parameter>help:/kdesu</"
+"parameter></userinput> çalıştırın)."
+
+#. Tag: title
+#: man-kdesu.1.docbook:177
+#, no-c-format
+msgid "Examples"
+msgstr "Örnekler"
+
+#. Tag: para
+#: man-kdesu.1.docbook:178
+#, no-c-format
+msgid ""
+"Run <command>kfmclient</command> as user <systemitem class=\"username\">jim</"
+"systemitem>, and show the &konqueror; icon in the password dialog:"
+msgstr ""
+"<command>kfmclient</command> komutunu <systemitem class=\"username\">hakan</"
+"systemitem> kullanıcısı olarak çalıştırın ve &konqueror; simgesini parola "
+"iletişim kutusunda gösterin:"
+
+#. Tag: screen
+#: man-kdesu.1.docbook:181
+#, no-c-format
+msgid ""
+"<userinput>$(kf5-config --path libexec)<command>kdesu</command> <option>-u "
+"jim</option> <option>-i konqueror</option> <command>kfmclient</command></"
+"userinput>"
+msgstr ""
+"<userinput>$(kf5-config --path libexec)<command>kdesu</command> <option>-u "
+"jim</option> <option>-i konqueror</option> <command>kfmclient</command></"
+"userinput>"
+
+#. Tag: title
+#: man-kdesu.1.docbook:186
+#, no-c-format
+msgid "Authors"
+msgstr "Yazarlar"
+
+#. Tag: para
+#: man-kdesu.1.docbook:187
+#, no-c-format
+msgid ""
+"&kdesu; was written by &Geert.Jansen; &Geert.Jansen.mail; and "
+"<personname><firstname>Pietro</firstname><surname>Iglio</surname></"
+"personname> <email>iglio@fub.it</email>."
+msgstr ""
+"&kdesu;, &Geert.Jansen; &Geert.Jansen.mail; ve "
+"<personname><firstname>Pietro</firstname><surname>Iglio</surname></"
+"personname> <email>iglio@fub.it</email> tarafından yazılmıştır."

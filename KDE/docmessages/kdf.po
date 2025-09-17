@@ -1,0 +1,517 @@
+#
+# SPDX-FileCopyrightText: 2023, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kdf\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
+"PO-Revision-Date: 2025-03-08 00:43+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 25.03.70\n"
+
+#. Tag: title
+#: index.docbook:11
+#, no-c-format
+msgid "The &kdiskfree; Handbook"
+msgstr "&kdiskfree; El Kitabı"
+
+#. Tag: author
+#: index.docbook:14
+#, no-c-format
+msgid "&Jonathan.Singer; &Jonathan.Singer.mail;"
+msgstr "&Jonathan.Singer; &Jonathan.Singer.mail;"
+
+#. Tag: author
+#: index.docbook:18
+#, no-c-format
+msgid "&Michael.Kropfberger; &Michael.Kropfberger.mail;"
+msgstr "&Michael.Kropfberger; &Michael.Kropfberger.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:22
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Kaan</"
+"firstname><surname>Özdinçer</"
+"surname><affiliation><address><email>kaanozdincer@gmail.com</email></"
+"address></affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: holder
+#: index.docbook:28
+#, no-c-format
+msgid "&Jonathan.Singer;"
+msgstr "&Jonathan.Singer;"
+
+#. Tag: date
+#: index.docbook:33
+#, no-c-format
+msgid "2016-04-13"
+msgstr "2016-04-13"
+
+#. Tag: releaseinfo
+#: index.docbook:34
+#, no-c-format
+msgid "Applications 16.08"
+msgstr "Uygulamalar 16.08"
+
+#. Tag: para
+#: index.docbook:36
+#, no-c-format
+msgid ""
+"&kdiskfree; displays available file devices, along with information about "
+"them."
+msgstr "&kdiskfree;, kullanılabilir aygıtları ve onların bilgilerini gösterir."
+
+#. Tag: keyword
+#: index.docbook:42
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:43
+#, no-c-format
+msgid "<keyword>kdf</keyword>"
+msgstr "<keyword>kdf</keyword>"
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "kdeutils"
+msgstr "kdeutils"
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "disks"
+msgstr "diskler"
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "devices"
+msgstr "aygıtlar"
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "mount"
+msgstr "bağla"
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "unmount"
+msgstr "ayır"
+
+#. Tag: title
+#: index.docbook:54
+#, no-c-format
+msgid "Introduction"
+msgstr "Giriş"
+
+#. Tag: para
+#: index.docbook:56
+#, no-c-format
+msgid ""
+"&kdiskfree; displays the available file devices (hard drive partitions, "
+"floppy and &CD; drives, USB sticks &etc;) along with information on their "
+"capacity, free space, type and mount point. It also allows you to mount and "
+"unmount drives and view them in a file manager."
+msgstr ""
+"&kdiskfree; kullanılabilir dosya aygıtlarını (sabit sürücü bölüntüleri, "
+"disket ve &CD; sürücüleri, USB bellekler &etc;) sığa, boş alan, tür ve "
+"bağlama noktası hakkında bilgileriyle birlikte görüntüler. Ayrıca sürücüleri "
+"bağlamanıza ve çıkarmanıza; bir dosya yöneticisinde görüntülemenize olanak "
+"tanır."
+
+#. Tag: para
+#: index.docbook:61
+#, no-c-format
+msgid ""
+"&kdiskfree; is similar to the &systemsettings; Storage Devices module, but "
+"takes up less screen space. It is useful if you want to keep a &kdiskfree; "
+"window available at all times."
+msgstr ""
+"&kdiskfree;, &systemsettings;’nın Depolama Aygıtları modülüne benzerdir, "
+"ancak daha az ekran alanı kullanır. &kdiskfree; penceresini hep açık tutmak "
+"istediğinizde oldukça kullanışlıdır."
+
+#. Tag: title
+#: index.docbook:69
+#, no-c-format
+msgid "Using &kdiskfree;"
+msgstr "&kdiskfree; Kullanımı"
+
+#. Tag: title
+#: index.docbook:72
+#, no-c-format
+msgid "Starting &kdiskfree;"
+msgstr "&kdiskfree;’ı Başlatmak"
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"Type <userinput><command>kdf</command></userinput> at a command prompt or "
+"select <guimenuitem>KDiskFree</guimenuitem> from the <guisubmenu>System</"
+"guisubmenu> group in the application launcher. The standard &Qt; and &kde; "
+"command options are available, and can be listed by entering "
+"<userinput><command>kdf</command> <option>--help</option></userinput> at the "
+"command prompt."
+msgstr ""
+"Bir komut isteminde <userinput><command>kdf</command></userinput> yazın veya "
+"uygulama başlatıcısındaki <guisubmenu>Sistem</guisubmenu> alt grubundan "
+"<guimenuitem>K Boş Alan</guimenuitem>’ı seçin. Standart &Qt; ve &kde; komut "
+"seçenekleri kullanılabilirdir ve komut isteminde <userinput><command>kdf</"
+"command> <option>--help</option></userinput> yazarak listelenebilirler."
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid ""
+"To run the application as an applet in the systemtray, use "
+"<menuchoice><guisubmenu>System</guisubmenu><guimenuitem>KwikDisk</"
+"guimenuitem></menuchoice> in application launcher."
+msgstr ""
+"Uygulamayı sistem tepsisindeki bir uygulamacık olarak çalıştırmak için "
+"uygulama başlatıcısındaki <menuchoice><guisubmenu>Sistem</"
+"guisubmenu><guimenuitem>KwikDisk</guimenuitem></menuchoice> ögesini kullanın."
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid ""
+"The features of &kdiskfree; are also available in the &systemsettings; "
+"module <guilabel>Storage Devices</guilabel>."
+msgstr ""
+"&kdiskfree; özelliklerine aynı zamanda <guilabel>Depolama Aygıtları</"
+"guilabel> &systemsettings; modülünden de erişilebilir."
+
+#. Tag: title
+#: index.docbook:90
+#, no-c-format
+msgid "The Main window"
+msgstr "Ana pencere"
+
+#. Tag: para
+#: index.docbook:92
+#, no-c-format
+msgid "The main &kdiskfree; window displays the available file devices."
+msgstr "&kdiskfree; ana penceresi, kullanılabilir aygıtları görüntüler."
+
+#. Tag: para
+#: index.docbook:94
+#, no-c-format
+msgid "Normally, the following pieces of information are included:"
+msgstr "Normalde, aşağıdaki bilgileri içerilir:"
+
+#. Tag: screeninfo
+#: index.docbook:96
+#, no-c-format
+msgid "<screeninfo>&kdiskfree; Screen</screeninfo>"
+msgstr "<screeninfo>&kdiskfree; Ekranı</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:102
+#, no-c-format
+msgid "<phrase>&kdiskfree; Screen</phrase>"
+msgstr "<phrase>&kdiskfree; Ekranı</phrase>"
+
+#. Tag: para
+#: index.docbook:108
+#, no-c-format
+msgid "an icon depicting the type of storage"
+msgstr "depolama türünü gösteren bir simge"
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid "device name"
+msgstr "aygıt adı"
+
+#. Tag: para
+#: index.docbook:110
+#, no-c-format
+msgid "filesystem type"
+msgstr "dosya sistemi türü"
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid "total size"
+msgstr "toplam boyut"
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid "mount point"
+msgstr "bağlama noktası"
+
+#. Tag: para
+#: index.docbook:113
+#, no-c-format
+msgid "free disk space"
+msgstr "boş disk alanı"
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid "the percentage of space used as a number and as a graph."
+msgstr "kullanılan alanın yüzdesinin sayısı ve grafiği."
+
+#. Tag: para
+#: index.docbook:118
+#, no-c-format
+msgid ""
+"<mousebutton>Left</mousebutton> clicking on the header of a particular "
+"column sorts the devices according to that variable. A second "
+"<mousebutton>left</mousebutton> click sorts in the opposite order."
+msgstr ""
+"Belirli bir sütunun başlığına <mousebutton>sol</mousebutton> fare düğmesi "
+"ile tıklamak, aygıtları o değişkene göre sıralır. İkinci bir "
+"<mousebutton>sol</mousebutton> tıklama, tersi sırada sıralar."
+
+#. Tag: para
+#: index.docbook:123
+#, no-c-format
+msgid ""
+"Clicking with the &RMB; on a row pops up a menu. If that device is not "
+"currently mounted, the <guimenuitem>Mount Device</guimenuitem> option is "
+"available. If the device is mounted, it can be unmounted by choosing "
+"<guimenuitem>Unmount Device</guimenuitem>. Selecting <guimenuitem>Open in "
+"File Manager</guimenuitem> opens a new window with a graphical view of the "
+"files on that device."
+msgstr ""
+"Bir satıra &RMB; ile tıklamak bir menü açar. Belirtilen aygıt şu anda bağlı "
+"değilse <guimenuitem>Aygıtı Bağla</guimenuitem> seçeneği kullanılabilirdir. "
+"Aygıt bağlıysa <guimenuitem>Aygıtın Bağlantısını Kes</guimenuitem> "
+"seçeneğiyle bağlantı kesilebilir. <guimenuitem>Dosya Yöneticisinde Aç</"
+"guimenuitem> seçeneği, o aygıttaki dosyaların grafiksel bir görünümünü sunan "
+"yeni bir pencere açar."
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"The setting for the file manager used by &kdiskfree; is independent from the "
+"choice in the &systemsettings; module <guilabel>Default Applications</"
+"guilabel>."
+msgstr ""
+"&kdiskfree; tarafından kullanılan dosya yöneticisi ayarı, "
+"<guilabel>Öntanımlı Uygulamalar</guilabel> &systemsettings; modülündeki "
+"seçenekten bağımsızdır."
+
+#. Tag: title
+#: index.docbook:134
+#, no-c-format
+msgid "Menu Bar and Configuration"
+msgstr "Menü Çubuğu ve Yapılandırma"
+
+#. Tag: title
+#: index.docbook:137
+#, no-c-format
+msgid "The File Menu"
+msgstr "Dosya Menüsü"
+
+#. Tag: menuchoice
+#: index.docbook:142
+#, no-c-format
+msgid ""
+"<shortcut><keycap>F5</keycap></shortcut> <guimenu>File</guimenu> "
+"<guimenuitem>Update</guimenuitem>"
+msgstr ""
+"<shortcut><keycap>F5</keycap></shortcut> <guimenu>Dosya</guimenu> "
+"<guimenuitem>Güncelle</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:147
+#, no-c-format
+msgid "Immediately updates the display to reflect the current status"
+msgstr "Güncel durumu yansıtacak biçimde görüntüyü anında günceller"
+
+#. Tag: menuchoice
+#: index.docbook:153
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>Dosya</guimenu> <guimenuitem>Çık</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:160
+#, no-c-format
+msgid "<action>Closes</action> &kdiskfree;"
+msgstr "&kdiskfree;’ı <action>kapatır</action>"
+
+#. Tag: para
+#: index.docbook:164
+#, no-c-format
+msgid ""
+"Additionally &kdiskfree; has some common &kde; <guimenu>Settings</guimenu> "
+"and <guimenu>Help</guimenu> menu items, for more information read the "
+"sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+"Ek olarak &kdiskfree;, bazı &kde; <guimenu>Ayarlar</guimenu> ve "
+"<guimenu>Yardım</guimenu> menü ögelerine sahiptir; daha fazla bilgi için "
+"&kde; Temelleri\"nin <ulink url=\"help:/fundamentals/menus.html#menus-"
+"settings\">Ayarlar Menüsü</ulink> ve <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Yardım Menüsü</ulink> bölümlerini okuyun."
+
+#. Tag: title
+#: index.docbook:173
+#, no-c-format
+msgid "The Settings Dialog"
+msgstr "Ayarlar İletişim Kutusu"
+
+#. Tag: screeninfo
+#: index.docbook:176
+#, no-c-format
+msgid "<screeninfo>Configure &kdiskfree; Screen</screeninfo>"
+msgstr "<screeninfo>&kdiskfree; Ekranını Yapılandır</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:182
+#, no-c-format
+msgid "<phrase>Configure &kdiskfree; Screen</phrase>"
+msgstr "<phrase>&kdiskfree; Ekranını Yapılandır</phrase>"
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid ""
+"This dialog has two tabbed windows, <guilabel>General Settings</guilabel> "
+"and <guilabel>Mount Commands</guilabel>"
+msgstr ""
+"Bu iletişim kutusunun iki adet sekmeli penceresi vardır, <guilabel>Genel "
+"Ayarlar</guilabel> ve <guilabel>Bağlama Komutları</guilabel>"
+
+#. Tag: term
+#: index.docbook:191
+#, no-c-format
+msgid "General Settings"
+msgstr "Genel Ayarlar"
+
+#. Tag: para
+#: index.docbook:191
+#, no-c-format
+msgid ""
+"Click on the word <guilabel>visible</guilabel> or <guilabel>hidden</"
+"guilabel> to turn display of an data field on or off."
+msgstr ""
+"Bir veri alanının görünümünü açıp kapatmak için <guilabel>görünür</guilabel> "
+"veya <guilabel>gizli</guilabel> sözcüklerine tıklayın."
+
+#. Tag: para
+#: index.docbook:193
+#, no-c-format
+msgid ""
+"Change the update frequency by editing the value. The value in the box is "
+"the interval (in seconds) between updates of the &kdiskfree; display to "
+"reflect the current status."
+msgstr ""
+"Değeri düzenleyerek güncelleme sıklığını değiştirin. Kutudaki değer, geçerli "
+"durumu yansıtacak biçimde &kdiskfree; ekranın güncellemeleri arasındaki "
+"aralıktır (saniye olarak)."
+
+#. Tag: para
+#: index.docbook:196
+#, no-c-format
+msgid ""
+"The <guilabel>File Manager</guilabel> setting controls the command executed "
+"when the <guimenuitem>Open Filemanager</guimenuitem> popup menu item is "
+"selected."
+msgstr ""
+"<guilabel>Dosya Yöneticisi</guilabel> ayarı, <guimenuitem>Dosya Yöneticisini "
+"Aç</guimenuitem> açılır menüsü seçildiğinde, çalıştırılacak olan komutu "
+"denetler."
+
+#. Tag: para
+#: index.docbook:199
+#, no-c-format
+msgid ""
+"There are also two check boxes. One controls if a file manager window will "
+"be automatically opened when a device is mounted. The other causes an alert "
+"window to pop up if a disk gets critically full."
+msgstr ""
+"İki onay kutusu vardır. Bir aygıt bağlandığında, bir dosya yöneticisi "
+"penceresinin kendiliğinden açılıp açılmayacağını denetler. Diğeriyse bir "
+"disk kritik bir biçimde dolduğunda bir uyarı penceresinin açılmasına neden "
+"olur."
+
+#. Tag: guilabel
+#: index.docbook:206
+#, no-c-format
+msgid "Mount Commands"
+msgstr "Bağlama Komutları"
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid ""
+"Allows the user to specify the mount and unmount commands for a given "
+"device, as well as the icon used to represent it. More information on these "
+"commands can be found on the man page for <application>mount</application> "
+"(type <userinput><command>man</command> <option>mount</option></userinput> "
+"at the command prompt)."
+msgstr ""
+"Kullanıcının, belirli bir aygıta ait bağlama ve kaldırma komutlarını ve onu "
+"temsil etmek için kullanılan simgeyi belirtmesine izin verir. Bu komutlarla "
+"ilgili daha fazla bilgiyi <application>mount</application> için man "
+"sayfasında bulabilirsiniz. (komut isteminde <userinput><command>man</"
+"command> <option>mount</option></userinput> yazın)."
+
+#. Tag: title
+#: index.docbook:221
+#, no-c-format
+msgid "Credits and License"
+msgstr "Emeği Geçenler ve Lisans"
+
+#. Tag: para
+#: index.docbook:223
+#, no-c-format
+msgid "&kdiskfree;"
+msgstr "&kdiskfree;"
+
+#. Tag: para
+#: index.docbook:225
+#, no-c-format
+msgid ""
+"Program Copyright &copy; 1998-2000 &Michael.Kropfberger; &Michael."
+"Kropfberger.mail;"
+msgstr ""
+"Program Telif Hakkı &copy; 1998–2000 &Michael.Kropfberger; &Michael."
+"Kropfberger.mail;"
+
+#. Tag: para
+#: index.docbook:227
+#, no-c-format
+msgid ""
+"Documentation Copyright &copy; 2000 &Jonathan.Singer; &Jonathan.Singer.mail;"
+msgstr ""
+"Belgelendirme Telif Hakkı &copy; 2000 &Jonathan.Singer; &Jonathan.Singer."
+"mail;"
+
+#. Tag: trans_comment
+#: index.docbook:229
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+"<para>Çeviren Kaan Özdinçer <email>kaanozdincer@gmail.com</email></para>"
+
+#. Tag: chapter
+#: index.docbook:229
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr "&underFDL; &underGPL;"

@@ -1,0 +1,209 @@
+#
+# SPDX-FileCopyrightText: 2024, 2025 Emir SARI <emir_sari@icloud.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-12 00:52+0000\n"
+"PO-Revision-Date: 2025-03-06 00:06+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.03.70\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: man-kqml.1.docbook:13
+#, no-c-format
+msgid "kqml User's Manual"
+msgstr "kqml Kullanıcı Kılavuzu"
+
+#. Tag: date
+#: man-kqml.1.docbook:14
+#, no-c-format
+msgid "2023-06-10"
+msgstr "2023-06-10"
+
+#. Tag: releaseinfo
+#: man-kqml.1.docbook:15
+#, no-c-format
+msgid "Plasma 6.0"
+msgstr "Plasma 6.0"
+
+#. Tag: productname
+#: man-kqml.1.docbook:16
+#, no-c-format
+msgid "KDE Plasma"
+msgstr "KDE Plasma"
+
+#. Tag: manvolnum
+#: man-kqml.1.docbook:21
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr "<manvolnum>1</manvolnum>"
+
+#. Tag: refpurpose
+#: man-kqml.1.docbook:26
+#, no-c-format
+msgid "QML Runtime with KLocalizedContext"
+msgstr "KLocalizedContext ile QML Çalışma Zamanı"
+
+#. Tag: cmdsynopsis
+#: man-kqml.1.docbook:30
+#, no-c-format
+msgid ""
+"<command>kqml</command> <group choice=\"opt\"><option>-v, --version</"
+"option></group> <group choice=\"opt\"><option>-h, --help</option></group> "
+"<group choice=\"opt\"><option>-d, --domain</option> <replaceable>domain</"
+"replaceable></group> <arg choice=\"opt\"><replaceable>files</replaceable>..."
+"</arg> <arg choice=\"opt\"><option>--</option> <replaceable>args</"
+"replaceable>...</arg>"
+msgstr ""
+"<command>kqml</command> <group choice=\"opt\"><option>-v, --version</"
+"option></group> <group choice=\"opt\"><option>-h, --help</option></group> "
+"<group choice=\"opt\"><option>-d, --domain</option> <replaceable>etki alanı</"
+"replaceable></group> <arg choice=\"opt\"><replaceable>dosyalar</replaceable>…"
+"</arg> <arg choice=\"opt\"><option>--</option> <replaceable>argümanlar</"
+"replaceable>…</arg>"
+
+#. Tag: title
+#: man-kqml.1.docbook:42
+#, no-c-format
+msgid "Description"
+msgstr "Açıklama"
+
+#. Tag: para
+#: man-kqml.1.docbook:43
+#, no-c-format
+msgid ""
+"<command>kqml</command> is a QML runtime with initialized KLocalizedContext."
+msgstr ""
+"<command>kqml</command>, KLocalizedContext ile ilklendirilen bir QML çalışma "
+"zamanıdır."
+
+#. Tag: para
+#: man-kqml.1.docbook:45
+#, no-c-format
+msgid ""
+"Unlike the qml tool that comes with qt-declarative package, kqml initializes "
+"KLocalizedContext that allows testing real-world applications and scratch "
+"files with i18n calls throughout their code and imported libraries."
+msgstr ""
+"qt-declarative paketiyle birlikte gelen qml aracının aksine kqml, kod ve içe "
+"aktarılan kitaplıklar boyunca i18n çağrılarıyla gerçek dünya uygulamalarını "
+"ve eskiz dosyalarını sınamaya izin veren KLocalizedContext’i başlatır."
+
+#. Tag: title
+#: man-kqml.1.docbook:51
+#, no-c-format
+msgid "Options"
+msgstr "Seçenekler"
+
+#. Tag: term
+#: man-kqml.1.docbook:55
+#, no-c-format
+msgid "<option>-v</option>, <option>--version</option>"
+msgstr "<option>-v</option>, <option>--version</option>"
+
+#. Tag: para
+#: man-kqml.1.docbook:56
+#, no-c-format
+msgid "Displays version information."
+msgstr "Sürüm bilgisini görüntüler."
+
+#. Tag: term
+#: man-kqml.1.docbook:59
+#, no-c-format
+msgid ""
+"<option>-d</option>, <option>--domain</option> <replaceable>domain</"
+"replaceable>"
+msgstr ""
+"<option>-d</option>, <option>--domain</option> <replaceable>etki alanı</"
+"replaceable>"
+
+#. Tag: para
+#: man-kqml.1.docbook:60
+#, no-c-format
+msgid "The main localization domain."
+msgstr "Ana yerelleştirme etki alanı."
+
+#. Tag: term
+#: man-kqml.1.docbook:63
+#, no-c-format
+msgid "<option>-h</option>, <option>--help</option>"
+msgstr "<option>-h</option>, <option>--help</option>"
+
+#. Tag: para
+#: man-kqml.1.docbook:64
+#, no-c-format
+msgid "Displays this help."
+msgstr "Bu yardımı görüntüler."
+
+#. Tag: term
+#: man-kqml.1.docbook:67
+#, no-c-format
+msgid "<replaceable>files</replaceable>..."
+msgstr "<replaceable>files</replaceable>…"
+
+#. Tag: para
+#: man-kqml.1.docbook:68
+#, no-c-format
+msgid "Any number of QML files can be loaded. They will share the same engine."
+msgstr "Aynı işletkeyi paylaşan herhangi bir sayıda QML dosyası yüklenebilir."
+
+#. Tag: term
+#: man-kqml.1.docbook:72
+#, no-c-format
+msgid "<replaceable>args</replaceable>..."
+msgstr "<replaceable>argümanlar</replaceable>…"
+
+#. Tag: para
+#: man-kqml.1.docbook:73
+#, no-c-format
+msgid ""
+"Arguments after '<option>--</option>' are ignored, but passed through to the "
+"application.arguments variable in QML."
+msgstr ""
+"“<option>--</option>” sonrası argümanlar yok sayılır; ancak QML’deki "
+"application.arguments değişkenine geçirilirler."
+
+#. Tag: title
+#: man-kqml.1.docbook:82
+#, no-c-format
+msgid "See Also"
+msgstr "Ayrıca"
+
+#. Tag: para
+#: man-kqml.1.docbook:84
+#, no-c-format
+msgid ""
+"More detailed user documentation is available from <ulink url=\"help:/plasma-"
+"desktop\">help:/plasma-desktop</ulink> (either enter this <acronym>URL</"
+"acronym> into &konqueror;, or run <userinput><command>khelpcenter</command> "
+"<parameter>help:/plasma-desktop</parameter></userinput>)."
+msgstr ""
+"Ayrıntılı kullanıcı belgelendirmesine <ulink url=\"help:/plasma-desktop"
+"\">help:/plasma-desktop</ulink> üzerinden ulaşılabilir (ya bu <acronym>URL</"
+"acronym>’yi &konqueror;’a girin ya da <userinput><command>khelpcenter</"
+"command> <parameter>help:/plasma-desktop</parameter></userinput> çalıştırın)."
+
+#. Tag: title
+#: man-kqml.1.docbook:93
+#, no-c-format
+msgid "Authors"
+msgstr "Yazarlar"
+
+#. Tag: para
+#: man-kqml.1.docbook:94
+#, no-c-format
+msgid ""
+"<command>kqml</command> was written by <personname><firstname>ivan</"
+"firstname><surname>tkachenko</surname></personname> <email>me@raitjas.tk</"
+"email>."
+msgstr ""
+"<command>kqml</command>, <personname><firstname>İvan</"
+"firstname><surname>Tkaçenko</surname></personname> <email>me@raitjas.tk</"
+"email> tarafından yazılmıştır."

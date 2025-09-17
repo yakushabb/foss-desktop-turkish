@@ -1,0 +1,1171 @@
+#
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
+# Emir SARI <emir_sari@icloud.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-06-30 00:53+0000\n"
+"PO-Revision-Date: 2025-07-02 16:49+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.04.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Tag: title
+#: index.docbook:12
+#, no-c-format
+msgid "The &kbackup; Handbook"
+msgstr "&kbackup; El Kitabı"
+
+#. Tag: author
+#: index.docbook:15
+#, no-c-format
+msgid ""
+"<personname> <firstname>Martin</firstname> <surname>Koller</surname> </"
+"personname> <email>martin@kollix.at</email>"
+msgstr ""
+"<personname> <firstname>Martin</firstname> <surname>Koller</surname> </"
+"personname> <email>martin@kollix.at</email>"
+
+#. Tag: trans_comment
+#: index.docbook:24
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+"<othercredit role=\"translator\"><firstname>Emir</firstname><surname>SARI</"
+"surname><affiliation><address><email>emir_sari@icloud.com</email></address></"
+"affiliation><contrib>Çeviri</contrib></othercredit>"
+
+#. Tag: holder
+#: index.docbook:28
+#, no-c-format
+msgid "Martin Koller"
+msgstr "Martin Koller"
+
+#. Tag: date
+#: index.docbook:32
+#, no-c-format
+msgid "2018-01-05"
+msgstr "2018-01-05"
+
+#. Tag: releaseinfo
+#: index.docbook:33
+#, no-c-format
+msgid "Applications 18.04"
+msgstr "Uygulamalar 18.04"
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"&kbackup; is an application which lets you back up your data in a simple, "
+"user friendly way."
+msgstr ""
+"&kbackup;, verilerinizi basit, kullanıcı dostu bir şekilde yedeklemenizi "
+"sağlayan bir uygulamadır."
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "system"
+msgstr "sistem"
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "KBackup"
+msgstr "K Yedek"
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "backup"
+msgstr "yedek"
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "storage"
+msgstr "depolama"
+
+#. Tag: keyword
+#: index.docbook:49
+#, no-c-format
+msgid "archive"
+msgstr "arşiv"
+
+#. Tag: keyword
+#: index.docbook:50
+#, no-c-format
+msgid "<keyword>zip</keyword>"
+msgstr "<keyword>zip</keyword>"
+
+#. Tag: keyword
+#: index.docbook:51
+#, no-c-format
+msgid "gzip"
+msgstr "gzip"
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "bzip2"
+msgstr "bzip2"
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
+msgid "<keyword>xz</keyword>"
+msgstr "<keyword>xz</keyword>"
+
+#. Tag: title
+#: index.docbook:59
+#, no-c-format
+msgid "Introduction"
+msgstr "Giriş"
+
+#. Tag: para
+#: index.docbook:61
+#, no-c-format
+msgid ""
+"&kbackup; is a program that lets you back up any folders or files, whereby "
+"it uses an easy to use folder tree to select the things to back up. It lets "
+"you save your settings in so-called <quote>profile</quote> files, where a "
+"profile is a simple text file containing definitions for folders and files "
+"to be included or excluded from the backup process. Also, it lets you define "
+"where the backup shall be saved to. The target can be either a local folder "
+"(&eg; a locally mounted device like a ZIP drive, USB stick, &etc;) but it "
+"can also be any remote &URL; (&eg; smb://remote/some_path) to back up your "
+"data to some central server, &etc;"
+msgstr ""
+"&kbackup;, herhangi bir klasörü veya dosyayı yedeklemenizi sağlayan bir "
+"programdır; bu sayede, yedeklenecek şeyleri seçmek için kullanımı kolay bir "
+"klasör ağacı kullanır. Ayarlarınızı <quote>profil</quote> adı verilen "
+"dosyalara kaydetmenize olanak tanır; burada profil, yedekleme işlemine dahil "
+"edilecek veya yedekleme işleminden dışlanacak klasörler ve dosyalar için "
+"tanımları içeren basit bir metin dosyasıdır. Ayrıca yedeğin nereye "
+"kaydedileceğini tanımlamanıza da olanak tanır. Bu, bir yerel klasör "
+"olabileceği gibi (örn. yerel olarak bağlanmış bir ZIP sürücüsü, USB bellek "
+"vb.) verinizi herhangi merkezi bir sunucuya yedeklemek için uzak bir &URL; "
+"de olabilir (&eg; smb://uzak/yol)."
+
+#. Tag: para
+#: index.docbook:73
+#, no-c-format
+msgid ""
+"The program can also run an automated backup without using a graphical user "
+"interface. One can simply create a profile and use these settings to tell "
+"&kbackup; what to do when running in non-interactive mode, &eg; by starting "
+"it from a cron job."
+msgstr ""
+"Program ayrıca grafiksel bir kullanıcı arayüzü kullanmadan otomatik bir "
+"yedekleme çalıştırabilir. Bir profil oluşturulup bu ayarları kullanarak "
+"&kbackup;’e etkileşimli olmayan kipte kullanılırken ne yapacağını "
+"söyleyebilir; örneğin, bir cron işinden başlatılarak."
+
+#. Tag: para
+#: index.docbook:79
+#, no-c-format
+msgid ""
+"The program was designed to be very simple in its use so that it can be used "
+"by non-computer experts."
+msgstr ""
+"Program, bilgisayar uzmanı olmayan kişilerin de kullanabileceği şekilde "
+"kullanımı oldukça basit olacak şekilde tasarlandı."
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"The storage format is the well known TAR format, whereby the data can still "
+"be stored in compressed format (xz, bzip2 or gzip)."
+msgstr ""
+"Depolama biçimi, iyi bilinen TAR biçimidir, bu sayede veriler hâlâ "
+"sıkıştırılmış biçimde (xz, bzip2 veya gzip) saklanabilir."
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"The current implementation features only the backup step. To restore data "
+"back into your system, you currently have to use, &eg;, &dolphin; to open "
+"the TAR backup files and drag/drop the files back to your file system. This "
+"is also an advantage of the usage of the well known and well supported TAR "
+"file format."
+msgstr ""
+"Geçerli uygulama şekli yalnızca yedekleme adımını içerir. Veriyi sisteminize "
+"geri yüklemek için şu anda; örneğin, TAR yedekleme dosyalarını açmak ve "
+"dosyaları dosya sisteminize geri sürükleyip bırakmak için &dolphin; "
+"kullanmanız gerekir. Bu aynı zamanda iyi bilinen ve iyi desteklenen TAR "
+"dosya biçimini kullanmanın da bir avantajıdır."
+
+#. Tag: para
+#: index.docbook:96
+#, no-c-format
+msgid ""
+"If the files are compressed, you can uncompress all files from the current "
+"folder recursively down with the following command:"
+msgstr ""
+"Dosyalar sıkıştırılmışsa aşağıdaki komutu kullanarak geçerli klasördeki tüm "
+"dosyaları özyineli olarak açabilirsiniz:"
+
+#. Tag: programlisting
+#: index.docbook:101
+#, no-c-format
+msgid "find . -name \\*bz2 -print0 | xargs -0 bunzip2"
+msgstr "find . -name \\*bz2 -print0 | xargs -0 bunzip2"
+
+#. Tag: para
+#: index.docbook:103
+#, no-c-format
+msgid ""
+"Alternatively you can use &ark; to extract a full backup or just a few files "
+"from a backup."
+msgstr ""
+"Alternatif olarak, tam bir yedeklemeyi çıkarmak veya yedek içinden birkaç "
+"dosya seçmek için &ark; kullanabilirsiniz."
+
+#. Tag: title
+#: index.docbook:107
+#, no-c-format
+msgid "Using &kbackup;"
+msgstr "&kbackup; Kullanımı"
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid ""
+"All you need to do is to select which folders you want to store. This is "
+"done by selecting all the folders in the tree view on the left side of the "
+"main window."
+msgstr ""
+"Tek yapmanız gereken hangi klasörleri depolamak istediğinizi seçmektir. Bu, "
+"ana pencerenin sol tarafındaki ağaç görünümündeki tüm klasörlerin "
+"seçilmesiyle yapılır."
+
+#. Tag: para
+#: index.docbook:115
+#, no-c-format
+msgid ""
+"If you select a folder, &kbackup; will automatically store all files and "
+"subfolders below it. If you want to exclude parts of a selected folder, "
+"simply deselect that files/folders inside the still selected folder."
+msgstr ""
+"Bir klasör seçerseniz &kbackup;, altındaki tüm dosyaları ve alt klasörleri "
+"kendiliğinden depolayacaktır. Seçilen bir klasörün bazı kısımlarını dışlamak "
+"istiyorsanız hâlâ seçili olan klasördeki dosyaların/klasörlerin seçimini "
+"kaldırmanız yeterlidir."
+
+#. Tag: para
+#: index.docbook:122
+#, no-c-format
+msgid ""
+"In general, this means: A selected folder will store everything in it and "
+"below it, except the deselected parts in it. This also means, whenever you "
+"reuse a profile (see below) later on and new files have been added to a "
+"folder already selected for backup, all the new files will also be stored."
+msgstr ""
+"Genel olarak bu şu anlama gelir: Seçili bir klasör, içindeki seçili olmayan "
+"parçalar dışında, içindeki ve altındaki her şeyi depolar. Bu aynı zamanda, "
+"bir profili daha sonra yeniden kullandığınızda (aşağıya bakın) ve yedekleme "
+"için önceden seçilmiş bir klasöre yeni dosyalar eklendiğinde, tüm yeni "
+"dosyaların da depolanacağı anlamına gelir."
+
+#. Tag: screeninfo
+#: index.docbook:133
+#, no-c-format
+msgid "Here's a screenshot of &kbackup;"
+msgstr "İşte bir &kbackup; ekran görüntüsü"
+
+#. Tag: phrase
+#: index.docbook:139
+#, no-c-format
+msgid "Screenshot of the Main Window"
+msgstr "Ana Pencerenin Ekran Görüntüsü"
+
+#. Tag: title
+#: index.docbook:147
+#, no-c-format
+msgid "Using profiles"
+msgstr "Profilleri kullanmak"
+
+#. Tag: para
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"To keep a selection for later use, simply save it into a &kbackup; profile "
+"file. Use the <guimenu>File</guimenu> menu and select <guimenuitem>Save "
+"Profile</guimenuitem>."
+msgstr ""
+"Bir seçimi daha sonrası için kaydetmek isterseniz onu bir &kbackup; profil "
+"dosyasına kaydedin. <guimenu>Dosya</guimenu> menüsünden <guimenuitem>Profili "
+"Kaydet</guimenuitem> seçeneğini kullanın."
+
+#. Tag: para
+#: index.docbook:154
+#, no-c-format
+msgid ""
+"To reload a selection into &kbackup;, use the <menuchoice><guimenu>File</"
+"guimenu> <guimenuitem>Load Profile...</guimenuitem></menuchoice> menu item."
+msgstr ""
+"Bir seçimi &kbackup;’e yeniden yüklemek için <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Profil Yükle…</guimenuitem></menuchoice> seçeneğini "
+"kullanın."
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid ""
+"&kbackup; saves in a profile the selections for all included folders/files, "
+"excluded folders/files, the target folder/&URL;, defined archive prefix, the "
+"defined maximum slice file size, &etc;"
+msgstr ""
+"&kbackup; bir profil içine şunları kaydeder: İçerilen dosyalar/klasörler, "
+"dışlanan dosyalar/klasörler, hedef klasör/&URL;, tanımlı arşiv öneki, "
+"tanımlı en büyük dilim boyutu &etc;"
+
+#. Tag: para
+#: index.docbook:164
+#, no-c-format
+msgid ""
+"If you want to ease the usage of backing up every day the same set of files, "
+"simply store your settings into a &kbackup; profile (a <filename class="
+"\"extension\">.kbp</filename> file) and pass that file on the command line."
+msgstr ""
+"Aynı dosyalar kümesini kullanan yedeğinizin yürütülmesini daha kolay kılmak "
+"için ayarlarınızı bir &kbackup; dosyasına (bir <filename class=\"extension"
+"\">.kbp</filename> dosyası) kaydedin ve bunu komut satırına geçirin."
+
+#. Tag: para
+#: index.docbook:170 index.docbook:295
+#, no-c-format
+msgid "&eg;:"
+msgstr "&eg;:"
+
+#. Tag: programlisting
+#: index.docbook:175
+#, no-c-format
+msgid "kbackup myData.kbp"
+msgstr "kbackup verim.kbp"
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid ""
+"Hint: you can also create a shortcut on your desktop to a <filename class="
+"\"extension\">.kbp</filename> file as the file type is registered to start "
+"&kbackup; on double click."
+msgstr ""
+"İpucu: Bir <filename class=\"extension\">.kbp</filename> dosyasına kısayol "
+"oluşturabilir ve o kısayola çift tıklayarak da çalıştırabilirsiniz. Bu dosya "
+"türü, çift tıklanıldığında &kbackup;’i çalıştıracak biçimde kaydedilmiştir."
+
+#. Tag: title
+#: index.docbook:186
+#, no-c-format
+msgid "Archive slices"
+msgstr "Arşiv dilimleri"
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid ""
+"As a medium has normally limited capacity (&eg; 100MB ZIP disc), &kbackup; "
+"will create several archive slices."
+msgstr ""
+"Bir ortamın genelde sığası sınırlı olduğundan (&eg; 100 MB ZIP diski), "
+"&kbackup; birkaç arşiv dilimleri oluşturur."
+
+#. Tag: para
+#: index.docbook:191
+#, no-c-format
+msgid "Each archive slice will get its own name, which looks like this:"
+msgstr "Her arşiv dilimi şu şekilde görünen kendi adını alacaktır:"
+
+#. Tag: para
+#: index.docbook:194 index.docbook:298
+#, no-c-format
+msgid "backup_2006.08.26-13.04.44_1.tar"
+msgstr "backup_2006.08.26-13.04.44_1.tar"
+
+#. Tag: para
+#: index.docbook:197
+#, no-c-format
+msgid ""
+"The name contains the creation date and time (which will be the same for all "
+"slices of one backup) and a trailing slice sequence number (_1 in this "
+"example)."
+msgstr ""
+"Ad, oluşturma tarihini ve saatini (bir yedeklemenin tüm dilimleri için aynı "
+"olacaktır) ve sondaki dilim sıra numarasını (bu örnekte _1) içerir."
+
+#. Tag: para
+#: index.docbook:201
+#, no-c-format
+msgid ""
+"In the menu <menuchoice><guimenu>File</guimenu> <guimenuitem>Profile "
+"Settings...</guimenuitem></menuchoice>, you can define a different archive "
+"prefix than the default <quote>backup</quote>."
+msgstr ""
+"<menuchoice><guimenu>Dosya</guimenu> <guimenuitem>Profil Ayarları…</"
+"guimenuitem></menuchoice> menüsünden, öntanımlı <quote>backup</quote> yerine "
+"başka bir yedek öneki tanımlayabilirsiniz."
+
+#. Tag: para
+#: index.docbook:206
+#, no-c-format
+msgid ""
+"In the <guilabel>Profile Settings</guilabel> dialog, you can also define a "
+"maximum archive slice size, which limits the slice size even if there would "
+"be more space left on the target device. This helps to create archive slices "
+"which can then be later burned on a &CD;/&DVD;, &etc; If you explicitly "
+"limit the size of an archive slice, the available size will be marked with "
+"(*) in the main window."
+msgstr ""
+"<guilabel>Profil Ayarları</guilabel> iletişim kutusunda, hedef aygıtta daha "
+"çok alan kalsa bile dilim boyutunu sınırlayan en büyük arşiv dilim boyutunu "
+"da tanımlayabilirsiniz. Bu, daha sonra &CD;/&DVD;, &etc;. üzerine "
+"yazılabilecek arşiv dilimleri oluşturmaya yardımcı olur. Bir arşiv diliminin "
+"boyutunu açıkça sınırlandırırsanız kullanılabilir boyut ana pencerede (*) "
+"ile işaretlenecektir."
+
+#. Tag: para
+#: index.docbook:214
+#, no-c-format
+msgid ""
+"But even if you define a slice to be of <quote>unlimited</quote> size, there "
+"are other constraints which limit the size of a slice:"
+msgstr ""
+"Ancak bir dilimi <quote>sınırsız</quote> boyutta tanımlasanız bile dilimin "
+"boyutunu sınırlayan başka kısıtlamalar da vardır:"
+
+#. Tag: para
+#: index.docbook:218
+#, no-c-format
+msgid "limited by the target folder (when stored directly into a local folder)"
+msgstr "hedef klasörle sınırlıdır (doğrudan yerel bir klasöre depolandığında)"
+
+#. Tag: para
+#: index.docbook:219
+#, no-c-format
+msgid ""
+"limited by the <filename class=\"directory\">/tmp</filename> folder when we "
+"create a tmp file for later upload to a remote &URL;"
+msgstr ""
+"daha sonra uzak bir &URL;’ye yüklemek üzere bir tmp dosyası oluşturduğumuzda "
+"<filename class=\"directory\">/tmp</filename> klasörüyle sınırlıdır"
+
+#. Tag: para
+#: index.docbook:223
+#, no-c-format
+msgid ""
+"In the <guilabel>Profile Settings</guilabel>, you can also define a maximum "
+"number of full backups being kept in the target folder, and therefore "
+"automatically deleting all older backups there. &eg; if you set it to 3, "
+"&kbackup; will keep the last 3 backups and delete all older ones."
+msgstr ""
+"<guilabel>Profil Ayarları</guilabel> bölümünde, hedef klasörde saklanacak en "
+"çok tam yedekleme sayısını da tanımlayabilir ve dolayısıyla oradaki tüm eski "
+"yedeklemelerin kendiliğinden silinmesini sağlayabilirsiniz. Örneğin, 3’e "
+"ayarlarsanız &kbackup; son 3 yedeği saklar ve eskilerin tümünü siler."
+
+#. Tag: title
+#: index.docbook:233
+#, no-c-format
+msgid "Incremental Backup"
+msgstr "Artımlı Yedek"
+
+#. Tag: para
+#: index.docbook:234
+#, no-c-format
+msgid ""
+"With an incremental backup not all files will be saved every time the backup "
+"runs, but only the files which have changed since the last backup. This has "
+"the great advantage that the incremental backup will usually include much "
+"fewer files than a full backup and therefore will be finished in a much "
+"shorter time."
+msgstr ""
+"Artımlı yedeklemede, yedekleme her çalıştırıldığında tüm dosyalar "
+"kaydedilmez, yalnızca son yedeklemeden bu yana değişen dosyalar kaydedilir. "
+"Bunun büyük avantajı, artımlı yedeklemenin genellikle tam yedeklemeden çok "
+"daha az dosya içermesi ve dolayısıyla çok daha kısa sürede tamamlanmasıdır."
+
+#. Tag: para
+#: index.docbook:240
+#, no-c-format
+msgid ""
+"This works as follows: In the profile, you define an interval (in days) for "
+"the full backup. &eg; when you define 5 days, then &kbackup; will do a full "
+"backup of all files every 5 days. Whenever you start &kbackup; before the "
+"interval expires with this profile - regardless how often you run a backup - "
+"only the files which have changed since the last backup will be saved. "
+"&kbackup; stores the time stamp of the last backup into the profile and "
+"knows therefore what to do when running the next time."
+msgstr ""
+"Bu şöyle çalışır: Profilde tam yedekleme için bir aralık (gün olarak) "
+"tanımlarsınız. Örneğin, 5 gün tanımladığınızda, &kbackup; tüm dosyaların her "
+"5 günde bir tam yedeğini alır. Bu profille aralık dolmadan önce &kbackup;’i "
+"başlattığınızda —ne sıklıkta yedekleme yaptığınıza bakılmaksızın— yalnızca "
+"son yedeklemeden bu yana değişen dosyalar kaydedilecektir. &kbackup;, son "
+"yedeklemenin zaman damgasını profile kaydeder ve bu nedenle bir dahaki kez "
+"çalıştırıldığında ne yapacağını bilir."
+
+#. Tag: para
+#: index.docbook:248
+#, no-c-format
+msgid ""
+"The archive slice files created during an incremental backup will contain "
+"the text <quote>_inc</quote>, &eg;:"
+msgstr ""
+"Artımlı yedek sırasında oluşturulan arşiv dilimi dosyaları, <quote>_inc</"
+"quote> metnini içerir; örneğin:"
+
+#. Tag: para
+#: index.docbook:251
+#, no-c-format
+msgid "backup_2010.06.14-18.50.26_1_inc.tar"
+msgstr "backup_2010.06.14-18.50.26_1_inc.tar"
+
+#. Tag: para
+#: index.docbook:254
+#, no-c-format
+msgid ""
+"Full backup slice files will not include <quote>_inc</quote> in the name, "
+"&eg;:"
+msgstr ""
+"Tam yedek dilimi dosyaları adlarında <quote>_inc</quote> içermez; örneğin:"
+
+#. Tag: para
+#: index.docbook:257
+#, no-c-format
+msgid "backup_2010.06.13-20.58.14_1.tar"
+msgstr "backup_2010.06.13-20.58.14_1.tar"
+
+#. Tag: para
+#: index.docbook:260
+#, no-c-format
+msgid ""
+"When one wants to restore files from an incremental backup, it's important "
+"to look for the most recent version of a file to be restored in all "
+"<quote>_inc</quote> files and finally also the last full backup slice file. "
+"This exactly is also the disadvantage of the incremental backup (but no "
+"advantage without disadvantage ;-) )"
+msgstr ""
+"Dosyaları artımlı bir yedeklemeden geri yüklemek istediğinizde, tüm "
+"<quote>_inc</quote> dosyalarında ve son olarak son tam yedek dilim "
+"dosyasında geri yüklenecek dosyanın en son sürümünü aramak önemlidir. Bu tam "
+"olarak artımlı yedeklemenin dezavantajıdır (ancak dezavantaj olmadan avantaj "
+"yoktur ;-))"
+
+#. Tag: para
+#: index.docbook:266
+#, no-c-format
+msgid ""
+"If you want to do a full backup earlier than the defined incremental cycle "
+"time defined in a profile, you can do so by checking the <guilabel>Force "
+"Full Backup</guilabel> option in the user interface. When &kbackup; is "
+"started via the command line, this can be achieved by using the option "
+"<option>--forceFull</option>"
+msgstr ""
+"Bir profilde tanımlanan tanımlı artımlı döngü süresinden daha erken bir tam "
+"yedekleme yapmak istiyorsanız bunu kullanıcı arayüzündeki <guilabel>Tam "
+"Yedeklemeyi Zorla</guilabel> seçeneğini işaretleyerek yapabilirsiniz. "
+"&kbackup; komut satırı aracılığıyla başlatıldığında bu, <option>--forceFull</"
+"option> seçeneği kullanılarak gerçekleştirilebilir."
+
+#. Tag: para
+#: index.docbook:271
+#, no-c-format
+msgid ""
+"A forced full backup will restart the backup cycle, &ie; &kbackup; counts "
+"the days to the next full backup from the time of the last full backup."
+msgstr ""
+"Zorlanan tam bir yedekleme, yedek döngüsünü yeniden başlatır; örneğin, "
+"&kbackup; son tam yedekleme zamanından itibaren bir sonraki tam yedeklemeye "
+"kadar geçen günleri sayar."
+
+#. Tag: title
+#: index.docbook:279
+#, no-c-format
+msgid "Archive Compression"
+msgstr "Arşiv Sıkıştırma"
+
+#. Tag: para
+#: index.docbook:280
+#, no-c-format
+msgid ""
+"&kbackup; will compress the files stored if you activate this in the profile "
+"settings. Depending on the availability on your system it chooses "
+"<command>xz</command>, <command>bzip2</command> or <command>gzip</command> "
+"compression. &kbackup; will compress every single file and store all files "
+"with an added file extension (<filename class=\"extension\">.xz</filename>, "
+"<filename class=\"extension\">.bzip2</filename> or <filename class="
+"\"extension\">.gz</filename>) into the then not-compressed <filename class="
+"\"extension\">.tar</filename> archive."
+msgstr ""
+"Profil ayarlarında bunu etkinleştirirseniz &kbackup;, depolanan dosyaları "
+"sıkıştırır. Sisteminizde neyin kullanılabilir olduğuna bağlı olarak "
+"<command>xz</command>, <command>bzip2</command> veya <command>gzip</command> "
+"sıkıştırmalarından birini kullanır. &kbackup;, her bir dosyayı sıkıştırıp "
+"depolar ve henüz sıkıştırılmamış <filename class=\"extension\">.tar</"
+"filename> dosyasının sonuna bir uzantı ekler (<filename class=\"extension\">."
+"xz</filename>, <filename class=\"extension\">.bzip2</filename> veya "
+"<filename class=\"extension\">.gz</filename>)."
+
+#. Tag: para
+#: index.docbook:289
+#, no-c-format
+msgid ""
+"When you have selected to create the backup on some local filesystem (&eg; "
+"your extra disc, ZIP drive, &etc;) - which means you did not enter a remote "
+"target &URL; - &kbackup; might split the whole backup into several archive "
+"slices due to media capacity limitations."
+msgstr ""
+"Yedeklemeyi bazı yerel dosya sistemlerinde (&eg; ek diskiniz, ZIP sürücünüz "
+"vb.) oluşturmayı seçtiğinizde; bu, uzak bir hedef &URL; girmediğiniz "
+"anlamına gelir; — &kbackup; ortam sığası sınırlamaları nedeniyle tüm yedeği "
+"birkaç arşiv dilimine bölebilir."
+
+#. Tag: para
+#: index.docbook:301
+#, no-c-format
+msgid "backup_2006.08.26-13.04.44_2.tar"
+msgstr "backup_2006.08.26-13.04.44_2.tar"
+
+#. Tag: title
+#: index.docbook:308
+#, no-c-format
+msgid "Automating Backup"
+msgstr "Yedeği Otomatikleştirmek"
+
+#. Tag: para
+#: index.docbook:310
+#, no-c-format
+msgid ""
+"If you want to automate the process of the backup, &kbackup; offers "
+"different command line options to help with this:"
+msgstr ""
+"Yedekleme işlemini otomatikleştirmek istiyorsanız &kbackup; bu konuda "
+"yardımcı olacak farklı komut satırı seçenekleri sunar:"
+
+#. Tag: option
+#: index.docbook:314
+#, no-c-format
+msgid "--auto"
+msgstr "--auto"
+
+#. Tag: para
+#: index.docbook:315
+#, no-c-format
+msgid ""
+"When you run &kbackup; with this option and a given <filename class="
+"\"extension\">.kbp</filename> profile, it will start, load the given "
+"profile, run the backup and terminate when done. All this is done with a "
+"visible &kbackup; user interface."
+msgstr ""
+"&kbackup;’i bu seçenekle çalıştırıp bir <filename class=\"extension\">.kbp</"
+"filename> profili verirseniz başlar, verilen profili yükler, yedeklemeyi "
+"çalıştırır ve işi bitince sonlanır. Bunların tümü yapılırken bir &kbackup; "
+"arayüzü görünür."
+
+#. Tag: option
+#: index.docbook:322
+#, no-c-format
+msgid "--autobg"
+msgstr "--autobg"
+
+#. Tag: para
+#: index.docbook:323
+#, no-c-format
+msgid ""
+"When you run &kbackup; with this option and a given <filename class="
+"\"extension\">.kbp</filename> profile, it will run the same process as with "
+"<option>--auto</option> but <emphasis>without</emphasis> showing any "
+"graphical user interface. Therefore the suffix <quote>bg</quote> which "
+"stands for <quote>background</quote> - everything is done in the background "
+"so this is the right option to be used when you do your backups, &eg;, "
+"started by a cron job."
+msgstr ""
+"&kbackup;’i bu seçenekle çalıştırıp bir <filename class=\"extension\">.kbp</"
+"filename> profili verirseniz <option>--auto</option> seçeneğiyle aynı işlemi "
+"yapar; ancak bir grafiksel kullanıcı arayüzü <emphasis>olmadan</emphasis> "
+"süreci tamamlar. <quote>bg</quote> eki burada <quote>background</quote> "
+"(arka plan) anlamına gelir — her şey arka planda yapılır. Bu nedenle, "
+"yedeklerinizi genelde bir cron işiyle yapıyorsanız en uygun seçenektir."
+
+#. Tag: para
+#: index.docbook:329
+#, no-c-format
+msgid ""
+"When using <option>--autobg</option> the output from &kbackup; - showing the "
+"progress of the backup - is written to stderr. By default, the output "
+"includes just a few important messages and a summary at the end. If you pass "
+"<option>--verbose</option> in addition, then you will also see each file "
+"name currently being backed up."
+msgstr ""
+"<option>--autobg</option> seçeneği kullanılırken, yedeklemenin ilerlemesini "
+"gösteren &kbackup; çıktısı stderr’e yazılır. Öntanımlı olarak, çıktı genelde "
+"birkaç önemli ileti ve sonunda bir özet içerir. Ek olarak <option>--verbose</"
+"option> seçeneğini eklerseniz yedeklenen her bir dosyanın adını görürsünüz."
+
+#. Tag: title
+#: index.docbook:343
+#, no-c-format
+msgid "Command Reference"
+msgstr "Komut Başvurusu"
+
+#. Tag: title
+#: index.docbook:346
+#, no-c-format
+msgid "The main &kbackup; window"
+msgstr "Ana &kbackup; penceresi"
+
+#. Tag: title
+#: index.docbook:352
+#, no-c-format
+msgid "The File Menu"
+msgstr "Dosya Menüsü"
+
+#. Tag: menuchoice
+#: index.docbook:357
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Open Recent</guimenuitem>"
+msgstr "<guimenu>Dosya</guimenu> <guimenuitem>Son Kullanılanı Aç</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:361
+#, no-c-format
+msgid "Shows a submenu with the recently used profiles for easy selection."
+msgstr ""
+"Kolay seçim için son kullanılan profilleri içeren bir alt menüyü gösterir."
+
+#. Tag: menuchoice
+#: index.docbook:366
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>New Profile</guimenuitem>"
+msgstr "<guimenu>Dosya</guimenu> <guimenuitem>Yeni Profil</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:370
+#, no-c-format
+msgid ""
+"Clears the selection and the target input field, to be able to define a new "
+"profile."
+msgstr ""
+"Yeni bir profil tanımlayabilmek için seçimi ve hedef giriş alanını temizler."
+
+#. Tag: menuchoice
+#: index.docbook:375
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Load Profile...</guimenuitem>"
+msgstr "<guimenu>Dosya</guimenu> <guimenuitem>Profil Yükle…</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:379
+#, no-c-format
+msgid "Loads a profile."
+msgstr "Bir profil yükler."
+
+#. Tag: menuchoice
+#: index.docbook:383
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Save Profile</guimenuitem>"
+msgstr "<guimenu>Dosya</guimenu> <guimenuitem>Profili Kaydet</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:387
+#, no-c-format
+msgid "Saves all settings into the currently loaded profile."
+msgstr "Tüm ayarları o anda yüklü olan profile kaydeder."
+
+#. Tag: menuchoice
+#: index.docbook:391
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Save Profile As...</guimenuitem>"
+msgstr ""
+"<guimenu>Dosya</guimenu> <guimenuitem>Profili Farklı Kaydet…</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:395
+#, no-c-format
+msgid "Saves all settings into a profile with a new name."
+msgstr "Tüm ayarları yeni bir adla bir profile kaydeder."
+
+#. Tag: menuchoice
+#: index.docbook:399
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Profile Settings...</guimenuitem>"
+msgstr "<guimenu>Dosya</guimenu> <guimenuitem>Profil Ayarları…</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:403
+#, no-c-format
+msgid ""
+"In the settings, you can define whether the archive-slice files start with "
+"the default name <quote>backup</quote> or with an alternative name. Also you "
+"can limit the archive slice size. See chapter <link linkend=\"archive-slices"
+"\">Archive Slices</link>. These settings are also stored into the profile."
+msgstr ""
+"Ayarlarda, arşiv dilimi dosyalarının <quote>backup</quote> öntanımlı adıyla "
+"mı yoksa alternatif bir adla mı başlayacağını tanımlayabilirsiniz. Ayrıca "
+"arşiv dilim boyutunu da sınırlayabilirsiniz. <link linkend=\"archive-slices"
+"\">Arşiv Dilimleri</link> bölümüne bakın. Bu ayarlar ayrıca profile de "
+"kaydedilirler."
+
+#. Tag: menuchoice
+#: index.docbook:411
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>Dosya</guimenu> <guimenuitem>Çık</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:418
+#, no-c-format
+msgid "<action>Quits</action> &kbackup;."
+msgstr "&kbackup; uygulamasından <action>çıkar</action>."
+
+#. Tag: title
+#: index.docbook:426
+#, no-c-format
+msgid "The Settings Menu"
+msgstr "Ayarlar Menüsü"
+
+#. Tag: menuchoice
+#: index.docbook:431
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Dock in System Tray</guimenuitem>"
+msgstr ""
+"<guimenu>Ayarlar</guimenu> <guimenuitem>Sistem Tepsisine Rıhtımla</"
+"guimenuitem>"
+
+#. Tag: action
+#: index.docbook:435
+#, no-c-format
+msgid ""
+"When this option is activated, an icon is shown in the system tray, which "
+"reflects the current status of a backup operation. An animation is shown "
+"when a backup is in progress, else you see a static icon. If this option is "
+"selected, the closing of the main window will not terminate &kbackup;. The "
+"application must be explicitly terminated by selecting the "
+"<guimenuitem>Quit</guimenuitem> action. Via the context menu of the "
+"&kbackup; system tray icon you can start and cancel a backup operation - "
+"which is the same as you can do in the main window. The tooltip on this icon "
+"also gives progress information (Number of saved files, size of the backup "
+"and the last saved file)."
+msgstr ""
+"Bu seçenek etkinleştirildiğinde sistem tepsisinde yedekleme işleminin "
+"geçerli durumunu yansıtan bir simge gösterilir. Yedekleme sürerken bir "
+"canlandırma gösterilir, aksi takdirde statik bir simge görürsünüz."
+
+#. Tag: menuchoice
+#: index.docbook:449
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Enable All Messages</guimenuitem>"
+msgstr ""
+"<guimenu>Ayarlar</guimenu> <guimenuitem>Tüm İletileri Etkinleştir</"
+"guimenuitem>"
+
+#. Tag: action
+#: index.docbook:453
+#, no-c-format
+msgid ""
+"Activating this entry clears all internally stored <guilabel>Do not ask "
+"again</guilabel> flags for the dialogs shown in &kbackup;."
+msgstr ""
+"Bu girdiyi etkinleştirmek, &kbackup; içinde gösterilen tüm <guilabel>Bir kez "
+"daha sorma</guilabel> iletilerinin temizlenmesine neden olur."
+
+#. Tag: menuchoice
+#: index.docbook:460
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Show Hidden Files</guimenuitem>"
+msgstr ""
+"<guimenu>Ayarlar</guimenu> <guimenuitem>Gizli Dosyaları Göster</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:464
+#, no-c-format
+msgid ""
+"<action>Enable or disable</action> the display of hidden files (preceded by "
+"a dot character) in the tree view. Use this option if you want to exclude "
+"some hidden files from the backup. If you want to exclude all hidden files, "
+"use a filename filter in the profile settings."
+msgstr ""
+"Ağaç görünümünde gizli dosyaların (öncesinde nokta karakteri olan) "
+"görüntülenmesini <action>etkinleştirin veya devre dışı bırakın</action>. "
+"Bazı gizli dosyaları yedekten dışlamak istiyorsanız bu seçeneği kullanın. "
+"Tüm gizli dosyaları dışlamak istiyorsanız profil ayarlarında bir dosya adı "
+"süzgeci kullanın."
+
+#. Tag: title
+#: index.docbook:476
+#, no-c-format
+msgid "The Help Menu"
+msgstr "Yardım Menüsü"
+
+#. Tag: para
+#: index.docbook:477
+#, no-c-format
+msgid ""
+"&kbackup; has the common &kde; <guimenu>Help</guimenu> menu item, for more "
+"information read the section about the <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+"&kbackup;, ortak &kde; <guimenu>Yardım</guimenu> menüsüne sahiptir; daha "
+"fazla bilgi için &kde; Temelleri’nin <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Yardım Menüsü</ulink> bölümünü okuyun."
+
+#. Tag: title
+#: index.docbook:487
+#, no-c-format
+msgid "Developer's Guide to &kbackup;"
+msgstr "&kbackup; Geliştirici Kılavuzu"
+
+#. Tag: para
+#: index.docbook:489
+#, no-c-format
+msgid ""
+"&kbackup; can be extended by using a shell script (or any other executable) "
+"which will be started at three different points during the backup process. "
+"The idea behind it is to allow to mount, unmount, eject media in a system "
+"specific way, or do other things with the produced archive files."
+msgstr ""
+"&kbackup; yedekleme işlemi sırasında üç farklı noktada başlatılacak olan bir "
+"kabuk betiği (veya başka bir yürütülebilir dosya) kullanılarak "
+"genişletilebilir. Bunun arkasındaki düşünce, ortamı sisteme özel bir şekilde "
+"bağlamaya, bağlantısını kesmeye, çıkarmaya veya üretilen arşiv dosyalarıyla "
+"başka şeyler yapmaya izin vermektir."
+
+#. Tag: para
+#: index.docbook:496
+#, no-c-format
+msgid ""
+"The script to execute must be given with the <option>--script</option> "
+"command line option."
+msgstr ""
+"Yürütülecek betik <option>--script</option> komut satırı seçeneğiyle "
+"verilmelidir."
+
+#. Tag: para
+#: index.docbook:500
+#, no-c-format
+msgid "Here is a sample script:"
+msgstr "İşte örnek bir betik:"
+
+#. Tag: title
+#: index.docbook:502
+#, no-c-format
+msgid "sliceScript.sh"
+msgstr "dilimBetiği.sh"
+
+#. Tag: programlisting
+#: index.docbook:503
+#, no-c-format
+msgid ""
+"#!/bin/sh\n"
+"\n"
+"mode=$1\n"
+"archive=$2\n"
+"target=$3\n"
+"mountPoint=$4\n"
+"\n"
+"case \"$mode\" in\n"
+" \"slice_init\" )\n"
+"    if [ \"$mountPoint\" != \"\" ]\n"
+"    then\n"
+"      mount /media/zip\n"
+"      rm -f /media/zip/backup_2*.tar*\n"
+"    fi\n"
+" ;;\n"
+"\n"
+" \"slice_closed\" )\n"
+" ;;\n"
+"\n"
+" \"slice_finished\" )\n"
+"    if [ \"$mountPoint\" != \"\" ]\n"
+"    then\n"
+"      umount /media/zip\n"
+"      eject /media/zip\n"
+"    fi\n"
+" ;;\n"
+"esac"
+msgstr ""
+"#!/bin/sh\n"
+"\n"
+"mode=$1\n"
+"archive=$2\n"
+"target=$3\n"
+"mountPoint=$4\n"
+"\n"
+"case \"$mode\" in\n"
+" \"slice_init\" )\n"
+"    if [ \"$mountPoint\" != \"\" ]\n"
+"    then\n"
+"      mount /media/zip\n"
+"      rm -f /media/zip/backup_2*.tar*\n"
+"    fi\n"
+" ;;\n"
+"\n"
+" \"slice_closed\" )\n"
+" ;;\n"
+"\n"
+" \"slice_finished\" )\n"
+"    if [ \"$mountPoint\" != \"\" ]\n"
+"    then\n"
+"      umount /media/zip\n"
+"      eject /media/zip\n"
+"    fi\n"
+" ;;\n"
+"esac"
+
+#. Tag: para
+#: index.docbook:506
+#, no-c-format
+msgid "The script is always invoked with four command line arguments:"
+msgstr "Betik her zaman dört komut satırı argümanıyla çağrılır:"
+
+#. Tag: para
+#: index.docbook:510
+#, no-c-format
+msgid "invocation mode"
+msgstr "çağırma kipi"
+
+#. Tag: para
+#: index.docbook:511
+#, no-c-format
+msgid "archive (slice) file name"
+msgstr "arşiv (dilim) dosya adı"
+
+#. Tag: para
+#: index.docbook:512
+#, no-c-format
+msgid "target directory/&URL;"
+msgstr "hedef dizin/&URL;"
+
+#. Tag: para
+#: index.docbook:513
+#, no-c-format
+msgid ""
+"mountpoint of the target directory if it's a local directory, else an empty "
+"string"
+msgstr ""
+"hedef dizinin bağlanma noktası, eğer yerel bir dizinse aksi takdirde boş bir "
+"dizi"
+
+#. Tag: para
+#: index.docbook:516
+#, no-c-format
+msgid "There are three possible invocation modes:"
+msgstr "Üç olası çağırma kipi vardır:"
+
+#. Tag: para
+#: index.docbook:523
+#, no-c-format
+msgid "slice_init"
+msgstr "slice_init"
+
+#. Tag: para
+#: index.docbook:524
+#, no-c-format
+msgid "called before a new archive slice is being created on disc"
+msgstr "diskte yeni bir arşiv dilimi oluşturulmadan önce çağrılır"
+
+#. Tag: para
+#: index.docbook:527
+#, no-c-format
+msgid "slice_closed"
+msgstr "slice_closed"
+
+#. Tag: para
+#: index.docbook:528
+#, no-c-format
+msgid ""
+"called after an archive slice has been created, but before it has been put "
+"into the target directory"
+msgstr ""
+"bir arşiv dilimi oluşturulduktan sonra; ancak hedef dizine yerleştirilmeden "
+"önce çağrılır"
+
+#. Tag: para
+#: index.docbook:530
+#, no-c-format
+msgid ""
+"This can be used if you want to copy the archive slice to some additional "
+"place, &eg; the archive is sent to the main server (via a target &URL;), but "
+"you want to keep the last backup also onto the local disc."
+msgstr ""
+"Arşiv dilimini ek bir yere kopyalamak istiyorsanız bu kullanılabilir; "
+"örneğin, arşiv ana sunucuya gönderildiğinde (bir hedef &URL; aracılığıyla); "
+"ancak son yedeği de yerel diskte tutmak istediğinizde."
+
+#. Tag: para
+#: index.docbook:537
+#, no-c-format
+msgid "slice_finished"
+msgstr "slice_finished"
+
+#. Tag: para
+#: index.docbook:538
+#, no-c-format
+msgid ""
+"called after an archive slice has been successfully transferred into the "
+"target directory"
+msgstr "bir arşiv dilimi başarıyla hedef dizine aktarıldıktan sonra çağrılır"
+
+#. Tag: title
+#: index.docbook:549
+#, no-c-format
+msgid "Credits and License"
+msgstr "Emeği Geçenler ve Lisans"
+
+#. Tag: para
+#: index.docbook:551
+#, no-c-format
+msgid "&kbackup;"
+msgstr "&kbackup;"
+
+#. Tag: para
+#: index.docbook:554
+#, no-c-format
+msgid ""
+"Program copyright &copy; 2006 - 2009 Martin Koller <email>martin@kollix.at</"
+"email>"
+msgstr ""
+"Program telif hakkı &copy; 2006–2009 Martin Koller <email>martin@kollix.at</"
+"email>"
+
+#. Tag: para
+#: index.docbook:558
+#, no-c-format
+msgid "Documentation Copyright &copy; 2006 - 2009 Martin Koller"
+msgstr "Belgelendirme telif hakkı &copy; 2006–2009 Martin Koller"
+
+#. Tag: trans_comment
+#: index.docbook:562
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr "<para>Çeviri: Emir SARI <email>emir_sari@icloud.com</email></para>"
+
+#. Tag: chapter
+#: index.docbook:562
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr "&underFDL; &underGPL;"
