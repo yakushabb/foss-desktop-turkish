@@ -4,35 +4,35 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Serdar Soytetir <tulliana@gmail.com>, 2007, 2008.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: processcore\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-03 00:39+0000\n"
-"PO-Revision-Date: 2024-02-03 16:02+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-08-13 00:44+0000\n"
+"PO-Revision-Date: 2025-05-03 20:55+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 25.04.0\n"
 
-#: cgroup_data_model.cpp:52
+#: cgroup_data_model.cpp:50
 #, kde-format
 msgctxt "@title"
 msgid "Desktop ID"
 msgstr "Masaüstü Kimliği"
 
-#: cgroup_data_model.cpp:66
+#: cgroup_data_model.cpp:64
 #, kde-format
 msgctxt "@title"
 msgid "Icon"
 msgstr "Simge"
 
-#: cgroup_data_model.cpp:80
+#: cgroup_data_model.cpp:78
 #, kde-format
 msgctxt "@title"
 msgid "Name"
@@ -243,8 +243,8 @@ msgid ""
 "The priority with which this process is being run. For the normal scheduler, "
 "this ranges from 19 (very nice, least priority) to -19 (top priority)."
 msgstr ""
-"Bu sürecin çalıştırılmakta olduğu öncelik düzeyi. Normal zamanlayıcı için, "
-"bu 19 (en az öncelik) ve -19 (en yüksek öncelik) arasında değişir."
+"Bu sürecin çalıştırılmakta olduğu öncelik düzeyi. Normal zamanlayıcı için bu "
+"19 (en az öncelik) ve −19 (en yüksek öncelik) arasında değişir."
 
 #: extended_process_list.cpp:308
 #, kde-format
@@ -254,12 +254,12 @@ msgstr "Zamanlayıcı"
 #: extended_process_list.cpp:313
 #, kde-format
 msgid "IO Priority Class"
-msgstr "Girdi-Çıktı Öncelik Sınıfı"
+msgstr "Girdi–Çıktı Öncelik Sınıfı"
 
 #: extended_process_list.cpp:319
 #, kde-format
 msgid "IO Nice Level"
-msgstr "Girdi-Çıktı Öncelik Düzeyi"
+msgstr "Girdi–Çıktı Öncelik Düzeyi"
 
 #: extended_process_list.cpp:323
 #, kde-format
@@ -278,10 +278,15 @@ msgstr ""
 
 #: extended_process_list.cpp:333
 #, kde-format
-msgid "RSS Memory Usage"
-msgstr "RSS Bellek Kullanımı"
+msgid "Resident Memory Usage"
+msgstr "Yerleşik Bellek Kullanımı"
 
-#: extended_process_list.cpp:338
+#: extended_process_list.cpp:335
+#, kde-format
+msgid "Resident"
+msgstr "Yerleşik"
+
+#: extended_process_list.cpp:339
 #, kde-format
 msgid ""
 "This is the amount of physical memory that this process is using and "
@@ -290,17 +295,17 @@ msgstr ""
 "Bu, sürecin kullandığı ve paylaşılan kitaplıkların da kullandığı belleğin "
 "içerildiği fiziksel bellek miktarıdır."
 
-#: extended_process_list.cpp:341
+#: extended_process_list.cpp:343
 #, kde-format
 msgid "Private Memory Usage"
 msgstr "Özel Bellek Kullanımı"
 
-#: extended_process_list.cpp:343
+#: extended_process_list.cpp:345
 #, kde-format
 msgid "Private"
 msgstr "Özel"
 
-#: extended_process_list.cpp:347
+#: extended_process_list.cpp:349
 #, kde-format
 msgid ""
 "This is the amount of physical memory that this process is using by itself, "
@@ -311,17 +316,17 @@ msgstr ""
 "özel bellek kullanımına yakındır. Takas edilen belleği veya paylaşılan "
 "kitaplıklarının kod boyutunu içermez."
 
-#: extended_process_list.cpp:354
+#: extended_process_list.cpp:356
 #, kde-format
 msgid "Shared Memory Usage"
 msgstr "Paylaşılan Bellek Kullanımı"
 
-#: extended_process_list.cpp:363
+#: extended_process_list.cpp:365
 #, kde-format
 msgid "Shared"
 msgstr "Paylaşılan"
 
-#: extended_process_list.cpp:365
+#: extended_process_list.cpp:367
 #, kde-format
 msgid ""
 "This is approximately the amount of real physical memory that this process's "
@@ -332,150 +337,225 @@ msgstr ""
 "fiziksel bellek miktarıdır. >Bu bellek, bu kitaplığı kullanan tüm süreçler "
 "arasında paylaşılır."
 
-#: extended_process_list.cpp:371
+#: extended_process_list.cpp:375
 #, kde-format
-msgid "Memory Usage"
-msgstr "Bellek Kullanımı"
-
-#: extended_process_list.cpp:372
-#, kde-format
-msgid "Memory"
-msgstr "Bellek"
+msgctxt "@title:column"
+msgid "Proportional Memory Usage"
+msgstr "Oransal Bellek Kullanımı"
 
 #: extended_process_list.cpp:378
 #, kde-format
+msgctxt "@title:column"
+msgid "Proportional"
+msgstr "Oransal"
+
+#: extended_process_list.cpp:385
+#, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "This is an approximation of the real amount of physical memory that this "
-"process is using. It is calculated by dividing the process' shared memory "
-"usage by the amount of processes sharing that memory, then adding the "
-"process' private memory."
+"process is using. It is calculated by dividing this process' shared memory "
+"usage by the number of processes sharing that memory, then adding this "
+"process' private memory. This value may not be available for certain "
+"processes."
 msgstr ""
-"Bu, bu sürecin kullandığı gerçek fiziksel bellek miktarının bir tahminidir. "
-"Sürecin paylaşılan bellek kullanımını, bu belleği paylaşan süreç miktarına "
-"bölerek ve ardından sürecin özel belleğini ekleyerek hesaplanır."
+"Bu, bu sürecin kullandığı gerçek fiziksel bellek tutarının bir yaklaşımıdır. "
+"Bu sürecin paylaşılan bellek kullanımını, o belleği paylaşan süreç sayısına "
+"bölerek, ardından bu sürecin özel belleğini ekleyerek hesaplanır. Bu değer "
+"belirli süreçler için kullanılabilir olmayabilir."
 
-#: extended_process_list.cpp:383
+#: extended_process_list.cpp:392
+#, kde-format
+msgctxt "@title:column"
+msgid "Memory Usage"
+msgstr "Bellek Kullanımı"
+
+#: extended_process_list.cpp:395
+#, kde-format
+msgctxt "@title:column"
+msgid "Memory"
+msgstr "Bellek"
+
+#: extended_process_list.cpp:402
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"This is an approximation of the real amount of physical memory that this "
+"process is using. It will use the Proportional Memory Usage if available, "
+"the Private Memory Usage if that has a value, and the Resident Memory Usage "
+"otherwise."
+msgstr ""
+"Bu, bu sürecin kullandığı gerçek fiziksel bellek tutarının bir yaklaşımıdır. "
+"Varsa oransal bellek kullanımını, eğer bir değeri varsa özel bellek "
+"kullanımını ve başka türlü yerleşik bellek Kullanımını kullanır."
+
+#: extended_process_list.cpp:407
+#, kde-format
+msgctxt "@title:column"
+msgid "Swap Usage"
+msgstr "Takas Kullanımı"
+
+#: extended_process_list.cpp:408
+#, kde-format
+msgctxt "@title:column"
+msgid "Swap"
+msgstr "Takas"
+
+#: extended_process_list.cpp:412
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"This is an approximation of the amount of swap memory this process is using."
+msgstr "Bu, bu sürecin kullandığı takas belleğin bir yaklaşımıdır."
+
+#: extended_process_list.cpp:416
 #, kde-format
 msgid "Name"
 msgstr "Ad"
 
-#: extended_process_list.cpp:384
+#: extended_process_list.cpp:417
 #, kde-format
 msgid "The process name."
 msgstr "Süreç adı."
 
-#: extended_process_list.cpp:389
+#: extended_process_list.cpp:422
 #, kde-format
 msgid "Command"
 msgstr "Komut"
 
-#: extended_process_list.cpp:393
+#: extended_process_list.cpp:426
 #, kde-format
 msgid "The command with which this process was launched."
 msgstr "Bu sürecin başlatıldığı komut."
 
-#: extended_process_list.cpp:397
+#: extended_process_list.cpp:430
 #, kde-format
 msgid "Status"
 msgstr "Durum"
 
-#: extended_process_list.cpp:402
+#: extended_process_list.cpp:435
 #, kde-format
 msgid "IO Characters Read"
-msgstr "Okunan Girdi-Çıktı Karakterleri"
+msgstr "Okunan Girdi–Çıktı Karakterleri"
 
-#: extended_process_list.cpp:411
+#: extended_process_list.cpp:444
 #, kde-format
 msgid "IO Characters Written"
-msgstr "Yazılan Girdi-Çıktı Karakterleri"
+msgstr "Yazılan Girdi–Çıktı Karakterleri"
 
-#: extended_process_list.cpp:420
+#: extended_process_list.cpp:453
 #, kde-format
 msgid "IO Read Syscalls"
-msgstr "Girdi-Çıktı Okuma Sistem Çağrıları"
+msgstr "Girdi–Çıktı’nın Okuduğu Sistem Çağrıları"
 
-#: extended_process_list.cpp:429
+#: extended_process_list.cpp:462
 #, kde-format
 msgid "IO Read Syscalls Rate"
-msgstr "Girdi-Çıktı Okuma Sistem Çağrıları Hızı"
+msgstr "Girdi–Çıktı Okuma Sistem Çağrıları Hızı"
 
-#: extended_process_list.cpp:438
+#: extended_process_list.cpp:471
 #, kde-format
 msgid "IO Write Syscalls"
-msgstr "Girdi-Çıktı Yazma Sistem Çağrıları"
+msgstr "Girdi–Çıktı’nın Yazdığı Sistem Çağrıları"
 
-#: extended_process_list.cpp:447
+#: extended_process_list.cpp:480
 #, kde-format
 msgid "IO Write Syscalls Rate"
-msgstr "Girdi-Çıktı Yazma Sistem Çağrıları Hızı"
+msgstr "Girdi–Çıktı Yazma Sistem Çağrıları Hızı"
 
-#: extended_process_list.cpp:456
+#: extended_process_list.cpp:489
 #, kde-format
 msgid "IO Characters Actually Read"
-msgstr "Gerçekte Okunan Girdi-Çıktı Karakterleri"
+msgstr "Gerçekte Okunan Girdi–Çıktı Karakterleri"
 
-#: extended_process_list.cpp:465
+#: extended_process_list.cpp:498
 #, kde-format
 msgid "IO Characters Read Rate"
-msgstr "Girdi-Çıktı Karakterleri Okuma Hızı"
+msgstr "Girdi–Çıktı Karakterleri Okuma Hızı"
 
-#: extended_process_list.cpp:468
+#: extended_process_list.cpp:501
 #, kde-format
 msgid ""
 "The read rate for all of a process' IO, including disk cache and other "
 "nonphysical IO."
 msgstr ""
-"Disk önbelleğii ve diğer fiziksel olmayan girdi-çıktıyı içeren, bir sürecin "
-"tüm girdi-çıktı okuma hızı."
+"Disk önbelleğini ve diğer fiziksel olmayan girdiyi–çıktıyı içeren, bir "
+"sürecin tüm girdi-çıktı okuma hızı."
 
-#: extended_process_list.cpp:475
+#: extended_process_list.cpp:508
 #, kde-format
 msgid "IO Characters Written Rate"
-msgstr "Girdi-Çıktı Karakterleri Yazılma Hızı"
+msgstr "Girdi–Çıktı Karakterleri Yazma Hızı"
 
-#: extended_process_list.cpp:478
+#: extended_process_list.cpp:511
 #, kde-format
 msgid ""
 "The write rate for all of a process' IO, including disk cache and other "
 "nonphysical IO."
 msgstr ""
-"Disk önbelleğii ve diğer fiziksel olmayan girdi-çıktıyı içeren, bir sürecin "
-"tüm girdi-çıktı yazma hızı."
+"Disk önbelleğini ve diğer fiziksel olmayan girdiyi–çıktıyı içeren, bir "
+"sürecin tüm girdi-çıktı yazma hızı."
 
-#: extended_process_list.cpp:485
+#: extended_process_list.cpp:518
 #, kde-format
 msgid "Disk Read Rate"
 msgstr "Disk Okuma"
 
-#: extended_process_list.cpp:489
+#: extended_process_list.cpp:522
 #, kde-format
 msgid "Read"
 msgstr "Okuma"
 
-#: extended_process_list.cpp:490
+#: extended_process_list.cpp:523
 #, kde-format
 msgid "The rate of data being read from disk."
 msgstr "Diskten okunan veri okuma hızı."
 
-#: extended_process_list.cpp:496
+#: extended_process_list.cpp:529
 #, kde-format
 msgid "Disk Write Rate"
 msgstr "Disk Yazma Hızı"
 
-#: extended_process_list.cpp:500
+#: extended_process_list.cpp:533
 #, kde-format
 msgid "Write"
 msgstr "Yazma"
 
-#: extended_process_list.cpp:501
+#: extended_process_list.cpp:534
 #, kde-format
 msgid "The rate of data being written to the disk."
 msgstr "Diske veri yazılma hızı."
 
-#: extended_process_list.cpp:507
+#: extended_process_list.cpp:540
 #, kde-format
 msgid "Threads"
 msgstr "İş Parçacıkları"
+
+#: plugins/gpu/gpu.cpp:97
+#, kde-format
+msgid "GPU Usage"
+msgstr "GPU Kullanımı"
+
+#: plugins/gpu/gpu.cpp:99
+#, kde-format
+msgid "GPU Memory"
+msgstr "GPU Belleği"
+
+#: plugins/gpu/gpu.cpp:101
+#, kde-format
+msgid "GPU"
+msgstr "GPU"
+
+#: plugins/gpu/gpu.cpp:102
+#, kde-format
+msgid "Displays which GPU the process is using"
+msgstr "Sürecin hangi GPU’yu kullandığını görüntüler"
+
+#: plugins/gpu/gpu.cpp:343
+#, kde-format
+msgctxt "%1 is a number"
+msgid "GPU %1"
+msgstr "GPU %1"
 
 #: plugins/network/network.cpp:36
 #, kde-format
@@ -501,149 +581,139 @@ msgctxt "@title"
 msgid "Upload"
 msgstr "Yükleme"
 
-#: plugins/nvidia/nvidia.cpp:28
-#, kde-format
-msgid "GPU Usage"
-msgstr "GPU Kullanımı"
-
-#: plugins/nvidia/nvidia.cpp:30
-#, kde-format
-msgid "GPU Memory"
-msgstr "GPU Belleği"
-
-#: process.cpp:101 process.cpp:122
+#: process.cpp:96 process.cpp:117
 #, kde-format
 msgctxt "Process Niceness"
 msgid "Normal"
 msgstr "Normal"
 
-#: process.cpp:104 process.cpp:125
+#: process.cpp:99 process.cpp:120
 #, kde-format
 msgctxt "Process Niceness"
 msgid "Very low priority"
 msgstr "Çok düşük öncelik"
 
-#: process.cpp:107 process.cpp:128
+#: process.cpp:102 process.cpp:123
 #, kde-format
 msgctxt "Process Niceness"
 msgid "Low priority"
 msgstr "Düşük öncelik"
 
-#: process.cpp:110 process.cpp:131
+#: process.cpp:105 process.cpp:126
 #, kde-format
 msgctxt "Process Niceness"
 msgid "Very high priority"
 msgstr "Çok yüksek öncelik"
 
-#: process.cpp:113 process.cpp:134
+#: process.cpp:108 process.cpp:129
 #, kde-format
 msgctxt "Process Niceness"
 msgid "High priority"
 msgstr "Yüksek öncelik"
 
-#: process.cpp:143
+#: process.cpp:138
 #, kde-format
 msgctxt "Priority Class"
 msgid "None"
 msgstr "Yok"
 
-#: process.cpp:145
+#: process.cpp:140
 #, kde-format
 msgctxt "Priority Class"
 msgid "Real Time"
 msgstr "Gerçek Zaman"
 
-#: process.cpp:147
+#: process.cpp:142
 #, kde-format
 msgctxt "Priority Class"
 msgid "Best Effort"
 msgstr "En İyi Başarım"
 
-#: process.cpp:149
+#: process.cpp:144
 #, kde-format
 msgctxt "Priority Class"
 msgid "Idle"
 msgstr "Boşta"
 
-#: process.cpp:151
+#: process.cpp:146
 #, kde-format
 msgctxt "Priority Class"
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: process.cpp:159
+#: process.cpp:154
 #, kde-format
 msgctxt "process status"
 msgid "running"
 msgstr "çalışan"
 
-#: process.cpp:161
+#: process.cpp:156
 #, kde-format
 msgctxt "process status"
 msgid "sleeping"
 msgstr "uyuyan"
 
-#: process.cpp:163
+#: process.cpp:158
 #, kde-format
 msgctxt "process status"
 msgid "disk sleep"
 msgstr "sabit disk uyuyan"
 
-#: process.cpp:165
+#: process.cpp:160
 #, kde-format
 msgctxt "process status"
 msgid "zombie"
 msgstr "yaşayan ölü"
 
-#: process.cpp:167
+#: process.cpp:162
 #, kde-format
 msgctxt "process status"
 msgid "stopped"
 msgstr "durdurulmuş"
 
-#: process.cpp:169
+#: process.cpp:164
 #, kde-format
 msgctxt "process status"
 msgid "paging"
 msgstr "sayfalama"
 
-#: process.cpp:171
+#: process.cpp:166
 #, kde-format
 msgctxt "process status"
 msgid "finished"
 msgstr "bitti"
 
-#: process.cpp:173
+#: process.cpp:168
 #, kde-format
 msgctxt "process status"
 msgid "unknown"
 msgstr "bilinmeyen"
 
-#: process.cpp:181
+#: process.cpp:176
 #, kde-format
 msgctxt "Scheduler"
 msgid "FIFO"
 msgstr "FIFO"
 
-#: process.cpp:183
+#: process.cpp:178
 #, kde-format
 msgctxt "Scheduler"
 msgid "Round Robin"
 msgstr "Round Robin"
 
-#: process.cpp:185
+#: process.cpp:180
 #, kde-format
 msgctxt "Scheduler"
 msgid "Interactive"
 msgstr "Etkileşimli"
 
-#: process.cpp:187
+#: process.cpp:182
 #, kde-format
 msgctxt "Scheduler"
 msgid "Batch"
 msgstr "Yığın"
 
-#: process.cpp:189
+#: process.cpp:184
 #, kde-format
 msgctxt "Scheduler"
 msgid "Idle"

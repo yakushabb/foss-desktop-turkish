@@ -1,7 +1,7 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# SPDX-FileCopyrightText: 2022, 2023 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 # Serdar Soytetir, 2008.
 # Serdar Soytetir <tulliana@gmail.com>, 2008, 2010, 2013.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2021, 2022.
@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_autostart\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-18 00:39+0000\n"
-"PO-Revision-Date: 2023-11-11 23:26+0300\n"
+"POT-Creation-Date: 2025-01-31 00:43+0000\n"
+"PO-Revision-Date: 2024-07-30 19:10+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20,36 +20,48 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 24.07.70\n"
 
-#: autostartmodel.cpp:376
+#: autostartmodel.cpp:383
 #, kde-format
 msgid "\"%1\" is not an absolute url."
-msgstr "\"%1\" mutlak bir URL değil."
+msgstr "“%1” mutlak bir URL değil."
 
-#: autostartmodel.cpp:379
+#: autostartmodel.cpp:386
 #, kde-format
 msgid "\"%1\" does not exist."
-msgstr "\"%1\" yok."
+msgstr "“%1” yok."
 
-#: autostartmodel.cpp:382
+#: autostartmodel.cpp:389
 #, kde-format
 msgid "\"%1\" is not a file."
-msgstr "\"%1\" bir dosya değil."
+msgstr "“%1” bir dosya değil."
 
-#: autostartmodel.cpp:385
+#: autostartmodel.cpp:392
 #, kde-format
 msgid "\"%1\" is not readable."
-msgstr "\"%1\" okunabilir değil."
+msgstr "“%1” okunabilir değil."
 
-#: ui/entry.qml:52
+#: ui/entry.qml:30
+#, kde-format
+msgctxt "@label Stop the Systemd unit for a running process"
+msgid "Stop"
+msgstr "Durdur"
+
+#: ui/entry.qml:31
+#, kde-format
+msgctxt "@label Start the Systemd unit for a currently inactive process"
+msgid "Start"
+msgstr "Başlat"
+
+#: ui/entry.qml:71
 #, kde-format
 msgctxt ""
 "@label The name of a Systemd unit for an app or script that will autostart"
 msgid "Name:"
 msgstr "Ad:"
 
-#: ui/entry.qml:58
+#: ui/entry.qml:77
 #, kde-format
 msgctxt ""
 "@label The current status (e.g. active or inactive) of a Systemd unit for an "
@@ -57,7 +69,7 @@ msgctxt ""
 msgid "Status:"
 msgstr "Durum:"
 
-#: ui/entry.qml:64
+#: ui/entry.qml:83
 #, kde-format
 msgctxt ""
 "@label A date and time follows this text, making a sentence like 'Last "
@@ -65,73 +77,61 @@ msgctxt ""
 msgid "Last activated on:"
 msgstr "Son etkinleştirme:"
 
-#: ui/entry.qml:74
-#, kde-format
-msgctxt "@label Stop the Systemd unit for a running process"
-msgid "Stop"
-msgstr "Durdur"
-
-#: ui/entry.qml:74
-#, kde-format
-msgctxt "@label Start the Systemd unit for a currently inactive process"
-msgid "Start"
-msgstr "Başlat"
-
-#: ui/entry.qml:109
+#: ui/entry.qml:114
 #, kde-format
 msgid "Unable to load logs. Try refreshing."
 msgstr "Günlükler yüklenemiyor. Yenilemeyi deneyin."
 
-#: ui/entry.qml:113
+#: ui/entry.qml:118
 #, kde-format
 msgctxt "@action:button Refresh entry logs when it failed to load"
 msgid "Refresh"
 msgstr "Yenile"
 
-#: ui/main.qml:33
+#: ui/main.qml:35
 #, kde-format
 msgid "Make Executable"
 msgstr "Yürütülebilir Yap"
 
-#: ui/main.qml:53
+#: ui/main.qml:55
 #, kde-format
 msgid "The file '%1' must be executable to run at logout."
 msgstr ""
-"\"%1\" dosyası, oturum kapanışında çalıştırılabilmesi için yürütülebilir "
+"“%1” dosyası, oturum kapanışında çalıştırılabilmesi için yürütülebilir "
 "olmalıdır."
 
-#: ui/main.qml:55
+#: ui/main.qml:57
 #, kde-format
 msgid "The file '%1' must be executable to run at login."
 msgstr ""
-"\"%1\" dosyası, oturum açılışında çalıştırılabilmesi için yürütülebilir "
+"“%1” dosyası, oturum açılışında çalıştırılabilmesi için yürütülebilir "
 "olmalıdır."
 
-#: ui/main.qml:66
+#: ui/main.qml:68
 #, kde-format
-msgctxt "@action:button"
-msgid "Add…"
-msgstr "Ekle…"
+msgctxt "@action:button menu button; add new application etc"
+msgid "Add New"
+msgstr "Yeni Ekle"
 
-#: ui/main.qml:69
+#: ui/main.qml:75
 #, kde-format
-msgctxt "@action:button"
-msgid "Add Application…"
-msgstr "Uygulama Ekle…"
+msgctxt "@action:inmenu completes: add new application"
+msgid "Application…"
+msgstr "Uygulama…"
 
-#: ui/main.qml:74
+#: ui/main.qml:82
 #, kde-format
-msgctxt "@action:button"
-msgid "Add Login Script…"
-msgstr "Oturum Açma Betiği Ekle…"
+msgctxt "@action:inmenu completes: add new login script"
+msgid "Login Script…"
+msgstr "Oturum Açma Betiği…"
 
-#: ui/main.qml:79
+#: ui/main.qml:89
 #, kde-format
-msgctxt "@action:button"
-msgid "Add Logout Script…"
-msgstr "Oturum Kapatma Betiği Ekle…"
+msgctxt "@action:inmenu completes: add new logout script"
+msgid "Logout Script…"
+msgstr "Oturum Kapatma Betiği…"
 
-#: ui/main.qml:114
+#: ui/main.qml:126
 #, kde-format
 msgid ""
 "%1 has not been autostarted yet. Details will be available after the system "
@@ -140,63 +140,63 @@ msgstr ""
 "%1 henüz kendiliğinden başlatılmadı. Ayrıntılar sistem yeniden "
 "başlatıldıktan sonra kullanılabilir olacak."
 
-#: ui/main.qml:137
+#: ui/main.qml:149
 #, kde-format
 msgctxt ""
 "@label Entry hasn't been autostarted because system hasn't been restarted"
 msgid "Not autostarted yet"
 msgstr "Henüz kendiliğinden başlatılmadı"
 
-#: ui/main.qml:146
+#: ui/main.qml:158
 #, kde-format
 msgctxt "@action:button"
 msgid "See properties"
 msgstr "Özellikleri Gör"
 
-#: ui/main.qml:157
+#: ui/main.qml:169
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove entry"
 msgstr "Girdiyi Kaldır"
 
-#: ui/main.qml:173
+#: ui/main.qml:185
 #, kde-format
 msgid "Applications"
 msgstr "Uygulamalar"
 
-#: ui/main.qml:176
+#: ui/main.qml:188
 #, kde-format
 msgid "Login Scripts"
 msgstr "Oturum Açma Betikleri"
 
-#: ui/main.qml:179
+#: ui/main.qml:191
 #, kde-format
 msgid "Pre-startup Scripts"
 msgstr "Başlangıç Öncesi Betikleri"
 
-#: ui/main.qml:182
+#: ui/main.qml:194
 #, kde-format
 msgid "Logout Scripts"
 msgstr "Oturum Kapatma Betikleri"
 
-#: ui/main.qml:191
+#: ui/main.qml:203
 #, kde-format
 msgid "No user-specified autostart items"
 msgstr "Kullanıcı tanımlı kendiliğinden başlat ögesi yok"
 
-#: ui/main.qml:192
+#: ui/main.qml:204
 #, kde-kuit-format
 msgctxt "@info 'some' refers to autostart items"
-msgid "Click the <interface>Add…</interface> button to add some"
+msgid "Click the <interface>Add New</interface> button to add some"
 msgstr ""
-"Birkaç tane eklemek için <interface>Ekle…</interface> düğmesine tıklayın"
+"Birkaç tane eklemek için <interface>Yeni Ekle</interface> düğmesine tıklayın"
 
-#: ui/main.qml:207
+#: ui/main.qml:219
 #, kde-format
 msgid "Choose Login Script"
 msgstr "Oturum Açma Betiği Seç"
 
-#: ui/main.qml:227
+#: ui/main.qml:239
 #, kde-format
 msgid "Choose Logout Script"
 msgstr "Oturum Kapatma Betiği Seç"
@@ -240,3 +240,7 @@ msgstr "%1 GetAll çağrısının yanıtı alınırken bir hata oluştu"
 #, kde-format
 msgid "Failed to open journal"
 msgstr "Günce açılamadı"
+
+#~ msgctxt "@action:button"
+#~ msgid "Add…"
+#~ msgstr "Ekle…"

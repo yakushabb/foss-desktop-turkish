@@ -1,68 +1,158 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kontrast package.
 #
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kontrast\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-24 00:35+0000\n"
-"PO-Revision-Date: 2023-12-09 22:19+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-09-15 00:38+0000\n"
+"PO-Revision-Date: 2025-09-04 15:01+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.80\n"
+"X-Generator: Lokalize 25.08.0\n"
 
-#: contents/ui/FavoritePage.qml:16
+#: kontrast.cpp:351
 #, kde-format
-msgid "Favorite colors"
-msgstr "Sık kullanılan renkler"
+msgid "Font size %1px is bad with the current contrast"
+msgstr "Geçerli karşıtlığa %1 piksellik yazıtipi puntosu pek uymadı."
 
-#: contents/ui/FavoritePage.qml:53
+#: kontrast.cpp:354
 #, kde-format
-msgid "Text: %1"
-msgstr "Metin: %1"
+msgid "Font size %1px is good with the current contrast"
+msgstr "Geçerlik karşıtlıkla %1 piksellik yazıtipi puntosu iyi gidiyor."
 
-#: contents/ui/FavoritePage.qml:73
+#: kontrast.cpp:357
 #, kde-format
-msgid "Background: %1"
-msgstr "Arka plan: %1"
+msgid "Font size %1px is perfect with the current contrast"
+msgstr "Geçerli karşıtlığa %1 piksellik yazıtipi puntosu tam uydu."
 
-#: contents/ui/FavoritePage.qml:94
+#: main.cpp:42
 #, kde-format
+msgctxt "@title"
+msgid "Kontrast"
+msgstr "Kontrast"
+
+#: main.cpp:44
+#, kde-format
+msgctxt "@title"
+msgid "A contrast checker application"
+msgstr "Bir karşıtlık denetimcisi uygulaması"
+
+#: main.cpp:47
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer and creator"
+msgstr "Yaratan ve bakımcı"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Wikipedia"
+msgstr "Vikipedi"
+
+#: main.cpp:52
+#, kde-format
+msgctxt "@info:credit"
+msgid "Text on the main page CC-BY-SA-4.0"
+msgstr "Ana sayfadaki metin CC-BY-SA-4.0 ile lisanslanmıştır"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carson Black"
+msgstr "Carson Black"
+
+#: main.cpp:53
+#, kde-format
+msgctxt "@info:credit"
+msgid "SQLite backend for favorite colors"
+msgstr "Sık kullanılan renkler için SQLite arka ucu"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Emir SARI"
+
+#: main.cpp:54
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "emir_sari@icloud.com"
+
+#: qml/FavoritePage.qml:22 qml/Main.qml:41
+#, kde-format
+msgctxt "@title:menu"
+msgid "Favorite Colors"
+msgstr "Sık Kullanılan Renkler"
+
+#: qml/FavoritePage.qml:63
+#, kde-format
+msgctxt "@action:tooltip"
 msgid "Remove"
 msgstr "Kaldır"
 
-#: contents/ui/FavoritePage.qml:106
+#: qml/FavoritePage.qml:79
 #, kde-format
+msgctxt "@action:button"
+msgid "Text: %1"
+msgstr "Metin: %1"
+
+#: qml/FavoritePage.qml:84
+#, kde-format
+msgctxt "@action:button"
+msgid "Background: %1"
+msgstr "Arka plan: %1"
+
+#: qml/FavoritePage.qml:91
+#, kde-format
+msgctxt "@action:button"
+msgid "Apply"
+msgstr "Uygula"
+
+#: qml/FavoritePage.qml:121
+#, kde-format
+msgctxt "@info:inline"
 msgid "Background color copied to clipboard"
 msgstr "Arka plan rengi panoya kopyalandı"
 
-#: contents/ui/FavoritePage.qml:114
+#: qml/FavoritePage.qml:125
 #, kde-format
+msgctxt "@info:inline"
 msgid "Text color copied to clipboard"
 msgstr "Metin rengi panoya kopyalandı"
 
-#: contents/ui/FavoritePage.qml:124
+#: qml/FavoritePage.qml:132
 #, kde-format
+msgctxt "@info:inline"
 msgid "Color copied to clipboard"
 msgstr "Renk panoya kopyalandı"
 
-#: contents/ui/HelpPage.qml:13 contents/ui/main.qml:40
+#: qml/HelpPage.qml:13 qml/Main.qml:47
 #, kde-format
+msgctxt "@title:menu"
 msgid "Help"
 msgstr "Yardım"
 
-#: contents/ui/HelpPage.qml:19
+#: qml/HelpPage.qml:19
 #, kde-format
+msgctxt "@title:heading"
 msgid "Contrast"
 msgstr "Karşıtlık"
 
-#: contents/ui/HelpPage.qml:24
+#: qml/HelpPage.qml:24
 #, kde-format
 msgid ""
 "Contrast is the difference in color between two objects that allows them to "
@@ -75,16 +165,16 @@ msgstr ""
 "nesnenin ve aynı görüş alanındaki diğer nesnelerin renk ve parlaklığındaki "
 "ayrım ile algılanır."
 
-#: contents/ui/HelpPage.qml:29
+#: qml/HelpPage.qml:29
 #, kde-format
 msgid ""
 "A contrast value of 21 indicates a perfect contrast (usually black on "
 "white), and a value of 0 indicate that the two colors are the same."
 msgstr ""
-"21'lik bir karşıtlık değeri, genelde mükemmel bir karşıtlığı belirtirken "
-"(siyah ve beyaz), 0'lık bir değer ise iki rengin aynı olduğunu belirtir."
+"21’lik bir karşıtlık değeri, genelde mükemmel bir karşıtlığı belirtirken "
+"(siyah ve beyaz), 0’lık bir değer ise iki rengin aynı olduğunu belirtir."
 
-#: contents/ui/HelpPage.qml:34
+#: qml/HelpPage.qml:34
 #, kde-format
 msgid ""
 "For normal text, the contrast ratio should be at least of 4.5 to conform to "
@@ -95,68 +185,66 @@ msgstr ""
 "4,5 olmalıdır ve WCAG AAA standartı içinse karşıtlık değeri en az 7 veya "
 "daha çok olmalıdır."
 
-#: contents/ui/HelpPage.qml:39
+#: qml/HelpPage.qml:39
 #, kde-format
 msgid ""
 "For large text, the contrast ratio should be at least of 3 to conform to the "
 "WCAG AA standard and a contrast ratio of 4.5 or more is required to conform "
 "with the WCAG AAA standard."
 msgstr ""
-"Büyük metinler için, WCAG AA standartına uyulabilmesi için karşıtlık oranı "
-"en az 3 olmalıdır ve WCAG AAA standartı içinse karşıtlık değeri en az 4,5 "
-"veya daha çok olmalıdır."
+"Büyük metinler için WCAG AA standartına uyulabilmesi için karşıtlık oranı en "
+"az 3 olmalıdır ve WCAG AAA standartı içinse karşıtlık değeri en az 4,5 veya "
+"daha çok olmalıdır."
 
-#: contents/ui/main.qml:23
+#: qml/Main.qml:26
 #, kde-format
-msgid "kontrast"
-msgstr "karşıtlık"
+msgid "Kontrast"
+msgstr "Kontrast"
 
-#: contents/ui/main.qml:28 contents/ui/MainPage.qml:20
+#: qml/Main.qml:32 qml/MainPage.qml:24
 #, kde-format
+msgctxt "@title:menu"
 msgid "Contrast Checker"
 msgstr "Karşıtlık Denetimcisi"
 
-#: contents/ui/main.qml:34
+#: qml/Main.qml:53
 #, kde-format
-msgid "Favorite Colors"
-msgstr "Sık Kullanılan Renkler"
-
-#: contents/ui/main.qml:46
-#, kde-format
+msgctxt "@title:menu"
 msgid "About"
 msgstr "Hakkında"
 
-#: contents/ui/MainPage.qml:42
+#: qml/MainPage.qml:46
 #, kde-format
+msgctxt "@label"
 msgid "Contrast ratio: %1"
 msgstr "Karşıtlık oranı: %1"
 
-#: contents/ui/MainPage.qml:50
+#: qml/MainPage.qml:54
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: contents/ui/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for normal and large text"
 msgstr "Normal ve büyük metin için mükemmel"
 
-#: contents/ui/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Perfect for large text and good for normal text"
 msgstr "Büyük metin için mükemmel ve normal metin için iyi"
 
-#: contents/ui/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Good for large text and bad for normal text"
 msgstr "Büyük metin için iyi ve normal metin için kötü"
 
-#: contents/ui/MainPage.qml:62
+#: qml/MainPage.qml:66
 #, kde-format
 msgid "Bad for large and normal text"
 msgstr "Büyük ve normal metin için kötü"
 
-#: contents/ui/MainPage.qml:69
+#: qml/MainPage.qml:73
 #, kde-format
 msgid ""
 "Contrast is the difference in luminance or color that makes an object (or "
@@ -170,125 +258,65 @@ msgstr ""
 "görsel algılamasında, karşıtlık, nesnenin ve aynı görüş alanındaki diğer "
 "nesnelerin renk ve parlaklığındaki ayrım ile algılanır."
 
-#: contents/ui/MainPage.qml:84
+#: qml/MainPage.qml:90
 #, kde-format
+msgctxt "@label"
 msgid "Text"
 msgstr "Metin"
 
-#: contents/ui/MainPage.qml:113 contents/ui/MainPage.qml:193
+#: qml/MainPage.qml:119 qml/MainPage.qml:201
 #, kde-format
-msgid "Hue %1°"
-msgstr "Renk tonu %1°"
+msgctxt "@label"
+msgid "Hue: %1°"
+msgstr "Renk tonu: %1°"
 
-#: contents/ui/MainPage.qml:127 contents/ui/MainPage.qml:207
+#: qml/MainPage.qml:133 qml/MainPage.qml:215
 #, kde-format
-msgid "Saturation %1"
-msgstr "Doygunluk %1"
+msgctxt "@label"
+msgid "Saturation: %1"
+msgstr "Doygunluk: %1"
 
-#: contents/ui/MainPage.qml:141 contents/ui/MainPage.qml:221
+#: qml/MainPage.qml:147 qml/MainPage.qml:229
 #, kde-format
-msgid "Lightness %1"
-msgstr "Açıklık %1"
+msgctxt "@label"
+msgid "Lightness: %1"
+msgstr "Açıklık: %1"
 
-#: contents/ui/MainPage.qml:165
+#: qml/MainPage.qml:173
 #, kde-format
+msgctxt "@label"
 msgid "Background"
 msgstr "Arka plan"
 
-#: contents/ui/MainPage.qml:238
+#: qml/MainPage.qml:246
 #, kde-format
-msgid "Font Size %1px"
-msgstr "Yazıtipi Boyutu %1 pks"
+msgctxt "@label"
+msgid "Font size: %1px"
+msgstr "Yazıtipi puntosu: %1 pks"
 
-#: contents/ui/MainPage.qml:255
+#: qml/MainPage.qml:263
 #, kde-format
+msgctxt "@action:button"
 msgid "Invert"
-msgstr "Tersine çevir"
+msgstr "Tersine Çevir"
 
-#: contents/ui/MainPage.qml:261
+#: qml/MainPage.qml:269
 #, kde-format
+msgctxt "@action:button"
 msgid "Randomize"
 msgstr "Rastgeleleştir"
 
-#: contents/ui/MainPage.qml:267
+#: qml/MainPage.qml:275
 #, kde-format
-msgid "Mark as favorite"
-msgstr "Sık kullanılan olarak imle"
+msgctxt "@action:button"
+msgid "Mark as Favorite"
+msgstr "Sık Kullanılanlara Ekle"
 
-#: kontrast.cpp:349
-#, kde-format
-msgid "Font size %1px is bad with the current contrast"
-msgstr "%1 piksellik yazıtipi boyutu, geçerli karşıtlıkla iyi görünmüyor"
+#~ msgid "Favorite colors"
+#~ msgstr "Sık Kullanılan Renkler"
 
-#: kontrast.cpp:352
-#, kde-format
-msgid "Font size %1px is good with the current contrast"
-msgstr "%1 piksellik yazıtipi boyutu, geçerli karşıtlıkla iyi görünüyor"
-
-#: kontrast.cpp:355
-#, kde-format
-msgid "Font size %1px is perfect with the current contrast"
-msgstr "%1 piksellik yazıtipi boyutu, geçerli karşıtlıkla mükemmel görünüyor"
-
-#: main.cpp:40
-#, kde-format
-msgctxt "@title"
-msgid "Kontrast"
-msgstr "Kontrast"
-
-#: main.cpp:42
-#, kde-format
-msgctxt "@title"
-msgid "A contrast checker application"
-msgstr "Bir karşıtlık denetimcisi uygulaması"
-
-#: main.cpp:45
-#, kde-format
-msgctxt "@info:credit"
-msgid "Carl Schwan"
-msgstr "Carl Schwan"
-
-#: main.cpp:46
-#, kde-format
-msgctxt "@info:credit"
-msgid "Maintainer and creator"
-msgstr "Projeyi oluşturan ve sürdüren"
-
-#: main.cpp:50
-#, kde-format
-msgctxt "@info:credit"
-msgid "Wikipedia"
-msgstr "Vikipedi"
-
-#: main.cpp:50
-#, kde-format
-msgctxt "@info:credit"
-msgid "Text on the main page CC-BY-SA-4.0"
-msgstr "Ana sayfadaki metin CC-BY-SA-4.0 ile lisanslanmıştır"
-
-#: main.cpp:51
-#, kde-format
-msgctxt "@info:credit"
-msgid "Carson Black"
-msgstr "Carson Black"
-
-#: main.cpp:51
-#, kde-format
-msgctxt "@info:credit"
-msgid "SQLite backend for favorite colors"
-msgstr "Sık kullanılan renkler için SQLite arka ucu"
-
-#: main.cpp:52
-#, kde-format
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "Emir SARI"
-
-#: main.cpp:52
-#, kde-format
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "emir_sari@icloud.com"
+#~ msgid "kontrast"
+#~ msgstr "Karşıtlık"
 
 #~ msgid "Failed to save color"
 #~ msgstr "Renk kaydedilemedi"

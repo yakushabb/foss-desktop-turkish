@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 # Osman Tosun <rainman.neu@gmail.com>, 2008.
 # obsoleteman <tulliana@gmail.com>, 2009.
 # Serhat Demirkol <serhat_demirkol@yahoo.com>, 2009.
@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdegames-kde4\n"
 "Report-Msgid-Bugs-To: wolfgang@rohdewald.de\n"
-"POT-Creation-Date: 2023-09-17 00:42+0000\n"
-"PO-Revision-Date: 2024-03-08 19:34+0300\n"
+"POT-Creation-Date: 2025-03-07 00:39+0000\n"
+"PO-Revision-Date: 2025-02-15 21:26+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -21,22 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
-
-msgid "Preview"
-msgstr "Önizleme"
-
-msgid "Properties"
-msgstr "Özellikler"
-
-msgid "Author:"
-msgstr "Yazar:"
-
-msgid "Contact:"
-msgstr "İletişim:"
-
-msgid "Description:"
-msgstr "Açıklama:"
+"X-Generator: Lokalize 25.03.70\n"
 
 msgctxt "kajongg"
 msgid "Game"
@@ -48,96 +33,121 @@ msgstr "Görünüm"
 msgid "Toolbar"
 msgstr "Araç Çubuğu"
 
-#: src/background.py:68 src/tileset.py:81
+#: src/background.py:71 src/tileset.py:48
 msgid "file <filename>%1</filename> contains no valid SVG"
 msgstr "<filename>%1</filename> dosyası geçerli SVG içermiyor"
 
-#: src/board.py:301
+#: src/backgroundselector.py:107
+msgctxt "BackgroundSelector"
+msgid "Preview"
+msgstr "Önizleme"
+
+#: src/backgroundselector.py:108
+msgctxt "BackgroundSelector"
+msgid "Properties"
+msgstr "Özellikler"
+
+#: src/backgroundselector.py:109
+msgctxt "BackgroundSelector"
+msgid "Author:"
+msgstr "Yazar:"
+
+#: src/backgroundselector.py:110
+msgctxt "BackgroundSelector"
+msgid "Contact:"
+msgstr "İletişim:"
+
+#: src/backgroundselector.py:111
+msgctxt "BackgroundSelector"
+msgid "Description:"
+msgstr "Açıklama:"
+
+#: src/board.py:335
 msgctxt "kajongg:arrow keys hjkl like in konqueror"
 msgid "hjklHJKL"
 msgstr "hjklHJKL"
 
-#: src/board.py:350
+#: src/board.py:385
 msgid "Choose from"
 msgstr "Buradan seç"
 
-#: src/chat.py:42
+#: src/chat.py:51
 msgid "Time"
 msgstr "Zaman"
 
-#: src/chat.py:42 src/playerlist.py:81
+#: src/chat.py:51 src/playerlist.py:90
 msgid "Player"
 msgstr "Oyuncu"
 
-#: src/chat.py:42
+#: src/chat.py:51
 msgid "Message"
 msgstr "İleti"
 
-#: src/chat.py:122
+#: src/chat.py:125
 msgid "Chat on table %1 at %2"
 msgstr "Masa %1 %2 konumunda sohbet"
 
-#: src/client.py:55
+#: src/client.py:69
 msgctxt "table status"
 msgid "Suspended"
 msgstr "Askıya alındı"
 
-#: src/client.py:60
+#: src/client.py:74
 msgctxt "table status"
 msgid "Running"
 msgstr "Çalışıyor"
 
-#: src/client.py:61
+#: src/client.py:75
 msgctxt "table status"
 msgid "New"
 msgstr "Yeni"
 
-#: src/configdialog.py:42
+#: src/configdialog.py:47
 msgid "Show tile shadows"
 msgstr "Taş gölgelerini göster"
 
-#: src/configdialog.py:45
+#: src/configdialog.py:50
 msgid "Rearrange undisclosed tiles to melds"
 msgstr "Gizli tutulmuş taşları birleşimlere yeniden düzenle"
 
-#: src/configdialog.py:48
+#: src/configdialog.py:53
 msgid "Show only possible actions"
 msgstr "Yalnızca olası eylemleri göster"
 
-#: src/configdialog.py:51
+#: src/configdialog.py:56
 msgid "Propose what to do"
 msgstr "Ne yapılacağını teklif et"
 
-#: src/configdialog.py:57
+#: src/configdialog.py:62
 msgid "Animation speed:"
 msgstr "Canlandırma hızı:"
 
-#: src/configdialog.py:61
+#: src/configdialog.py:66
 msgid "Use sounds if available"
 msgstr "Varsa sesleri kullan"
 
-#: src/configdialog.py:64
+#: src/configdialog.py:69
 msgid "Let others hear my voice"
 msgstr "Diğerleri sesimi duysun"
 
-#: src/configdialog.py:98
+#: src/configdialog.py:103
 msgctxt "kajongg"
 msgid "Play"
 msgstr "Oyna"
 
-#: src/configdialog.py:101
+#: src/configdialog.py:106
 msgid "Tiles"
 msgstr "Taşlar"
 
-#: src/configdialog.py:104
+#: src/configdialog.py:109
 msgid "Backgrounds"
 msgstr "Zeminler"
 
-#: src/deferredutil.py:262 src/deferredutil.py:421
+#: src/deferredutil.py:272 src/deferredutil.py:436
 msgid "The game server lost connection to player %1"
 msgstr "Oyun sunucu %1 oyuncusuyla bağlantıyı kaybetti"
 
-#: src/deferredutil.py:265
+#: src/deferredutil.py:275
 msgid ""
 "Error for player %1: %2\n"
 "%3"
@@ -145,64 +155,64 @@ msgstr ""
 "%1 oyuncusu için hata: %2\n"
 "%3"
 
-#: src/differ.py:65
+#: src/differ.py:72
 msgctxt "Kajongg"
 msgid "Rule"
 msgstr "Kural"
 
-#: src/differ.py:123
+#: src/differ.py:127
 msgctxt "@title:window"
 msgid "Compare"
 msgstr "Karşılaştır"
 
-#: src/differ.py:166 src/differ.py:168
+#: src/differ.py:170 src/differ.py:172
 msgctxt "Kajongg-Rule"
 msgid "not defined"
 msgstr "belirtilmemiş"
 
-#: src/game.py:535
+#: src/game.py:404
 msgid "Score computed manually"
 msgstr "Skor elle hesaplandı"
 
-#: src/game.py:631
+#: src/game.py:502
 msgid "Player %1 not known"
 msgstr "%1 oyuncusu bilinmiyor"
 
-#: src/game.py:1059
+#: src/game.py:925
 msgid "Short living wall: Tile is invisible, hence dangerous"
 msgstr "Kısa ömürlü duvar: Taş görünmez, yani tehlikeli"
 
-#: src/games.py:91 src/playerlist.py:58 src/tables.py:58
+#: src/games.py:95 src/playerlist.py:67 src/tables.py:67
 msgid "Players"
 msgstr "Oyuncular"
 
-#: src/games.py:91
+#: src/games.py:95
 msgid "Started"
 msgstr "Başlatıldı"
 
-#: src/games.py:103
+#: src/games.py:107
 msgctxt "@title:window"
 msgid "Games"
 msgstr "Oyunlar"
 
-#: src/games.py:120
+#: src/games.py:124
 msgctxt "start a new game"
 msgid "&New"
 msgstr "&Yeni"
 
-#: src/games.py:124
+#: src/games.py:129
 msgid "&Load"
 msgstr "Yük&le"
 
-#: src/games.py:128 src/playerlist.py:48
+#: src/games.py:134 src/playerlist.py:56
 msgid "&Delete"
 msgstr "&Sil"
 
-#: src/games.py:132
+#: src/games.py:139
 msgid "Show only pending games"
 msgstr "Yalnızca bekleyen oyunları göster"
 
-#: src/games.py:235
+#: src/games.py:247
 msgid ""
 "Do you really want to delete <numid>%1</numid> games?<br>This will be final, "
 "you cannot cancel it with the cancel button"
@@ -210,48 +220,47 @@ msgstr ""
 "<numid>%1</numid> oyunu silmek istediğinizden emin misiniz?<br>Bu son "
 "olacak, iptal düğmesiyle iptal edemezsiniz"
 
-#: src/guiutil.py:146 src/guiutil.py:148 src/kdestub.py:113 src/kdestub.py:114
-#: src/kdestub.py:116
+#: src/guiutil.py:134 src/kdestub.py:120 src/kdestub.py:123
 msgid "Kajongg"
 msgstr "Kajongg"
 
-#: src/humanclient.py:50
+#: src/humanclient.py:66
 msgid "Which chow do you want to expose?"
 msgstr "Hangi chow’u açık etmek istiyorsunuz?"
 
-#: src/humanclient.py:88
+#: src/humanclient.py:104
 msgid "Which kong do you want to declare?"
 msgstr "Hangi kong’u ilan etmek istersiniz?"
 
-#: src/humanclient.py:155
+#: src/humanclient.py:172
 msgid "Choose"
 msgstr "Seç"
 
-#: src/humanclient.py:347
+#: src/humanclient.py:383
 msgid "You cannot say %1"
 msgstr "%1 diyemezsiniz"
 
-#: src/humanclient.py:569
+#: src/humanclient.py:608
 msgid "Player %1 has left the table"
 msgstr "Oyuncu %1 masayı terk etti"
 
-#: src/humanclient.py:632
+#: src/humanclient.py:671
 msgid ""
 "The game on table <numid>%1</numid> can begin. Are you ready to play now?"
 msgstr ""
 "<numid>%1</numid> masasındaki oyun başlayabilir. Oynamaya hazır mısınız?"
 
-#: src/humanclient.py:650
+#: src/humanclient.py:691
 msgid "Ready for next hand?"
 msgstr "Sonraki el için hazır mısınız?"
 
-#: src/humanclient.py:907
+#: src/humanclient.py:967
 msgid "The connection to the server %1 broke, please try again later."
 msgstr "%1 sunucusuna bağlantı koptu, lütfen daha sonra yeniden deneyin."
 
-#: src/kajongg.py:81 src/kdestub.py:1055
+#: src/kajongg.py:81 src/kdestub.py:1092
 msgid "Mah Jongg - the ancient Chinese board game for 4 players"
-msgstr "Mah Jongg - 4 kişilik tarihi Çin masa oyunu"
+msgstr "Mah Jongg — 4 kişilik tarihi Çin masa oyunu"
 
 #: src/kajongg.py:85
 msgid "all robots play with visible concealed tiles"
@@ -278,172 +287,176 @@ msgid "use RULESET without asking"
 msgstr "KURALKÜMESİ’ni sormadan kullan"
 
 #: src/kajongg.py:91
-msgid "play only ROUNDS rounds per game. Only for debugging!"
-msgstr "oyun başına yalnızca EL el oyna. Yalnızca hata ayıklama için!"
-
-#: src/kajongg.py:92
 msgid "prefer PLAYER for next login"
 msgstr "sonraki oturum açma için OYUNCU’yu tercih et"
 
-#: src/kajongg.py:93
+#: src/kajongg.py:92
 msgid "use AI variant for human player in demo mode"
 msgstr "tanıtım kipinde insan oyuncu için AI türevini kullan"
 
-#: src/kajongg.py:94
+#: src/kajongg.py:93
 msgid "write statistics to CSV"
 msgstr "istatistikleri CSV’ye yaz"
 
-#: src/kajongg.py:95
+#: src/kajongg.py:94
 msgid "show all available rulesets"
 msgstr "kullanılabilir tüm kural kümelerini göster"
 
-#: src/kajongg.py:96
+#: src/kajongg.py:95
 msgid "for testing purposes: Initializes the random generator"
 msgstr "test amaçlı: Rasgele üretecini başlatır"
 
-#: src/kajongg.py:98
+#: src/kajongg.py:97
 msgid "show no graphical user interface. Intended only for testing"
 msgstr "grafik arayüz gösterme. Yalnızca test için"
 
 #: src/kajongg.py:99
-msgid "use a dedicated server listening on SOCKET. Intended only for testing"
-msgstr "SOCKET’de dinleme yapan adanmış sunucu kullan. Yalnızca test için"
+msgid ""
+"use a dedicated server already running and listening on SOCKET. Intended "
+"only for testing"
+msgstr ""
+"YUVA üzerinde halihazırda çalışan ve dinleyen özel bir sunucu kullanın. "
+"Yalnızca sınama amaçlıdır"
 
-#: src/kajongg.py:100
-msgid "use a dedicated server listening on PORT. Intended only for testing"
-msgstr "PORT üzerinde dinleme yapan adanmış sunucu kullan. Yalnızca test için"
+#: src/kajongg.py:101
+msgid ""
+"use a dedicated server already running and listening on PORT. Intended only "
+"for testing"
+msgstr ""
+"KAPI üzerinde halihazırda çalışan ve dinleyen özel bir sunucu kullanın. "
+"Yalnızca sınama amaçlıdır"
 
-#: src/kdestub.py:261
+#: src/kdestub.py:278
 msgid "&OK"
 msgstr "&Tamam"
 
-#: src/kdestub.py:263
+#: src/kdestub.py:279
 msgid "&Apply"
 msgstr "&Uygula"
 
-#: src/kdestub.py:265
+#: src/kdestub.py:280
 msgid "&Cancel"
 msgstr "İ&ptal"
 
-#: src/kdestub.py:267 src/kdestub.py:457
+#: src/kdestub.py:281 src/kdestub.py:469
 msgid "&Help"
 msgstr "&Yardım"
 
-#: src/kdestub.py:270
+#: src/kdestub.py:282
 msgid "&Defaults"
 msgstr "&Öntanımlılar"
 
-#: src/kdestub.py:343
+#: src/kdestub.py:352
 msgctxt "@action:inmenu"
 msgid "Show St&atusbar"
 msgstr "Araç Ç&ubuğunu Göster"
 
-#: src/kdestub.py:349
+#: src/kdestub.py:358
 msgctxt "@action:inmenu"
 msgid "Show &Toolbar"
 msgstr "Araç Çubuğunu &Göster"
 
-#: src/kdestub.py:355
+#: src/kdestub.py:364
 msgid "Configure Tool&bars..."
-msgstr "&Araç Çubuklarını Yapılandır..."
+msgstr "&Araç Çubuklarını Yapılandır…"
 
-#: src/kdestub.py:357
+#: src/kdestub.py:366
 msgid "Configure toolbars"
 msgstr "Araç çubuklarını yapılandır"
 
-#: src/kdestub.py:364
+#: src/kdestub.py:373
 msgid "Configure &Kajongg..."
-msgstr "&Kajongg’u Yapılandır..."
+msgstr "&Kajongg’u Yapılandır…"
 
-#: src/kdestub.py:366 src/kdestub.py:1166
+#: src/kdestub.py:375 src/kdestub.py:1153
 msgid "Configure"
 msgstr "Yapılandır"
 
-#: src/kdestub.py:453
+#: src/kdestub.py:465
 msgid "&Game"
 msgstr "&Oyun"
 
-#: src/kdestub.py:454
+#: src/kdestub.py:466
 msgid "&View"
 msgstr "&Görünüm"
 
-#: src/kdestub.py:455
+#: src/kdestub.py:467
 msgid "&Settings"
 msgstr "Ayar&lar"
 
-#: src/kdestub.py:463
+#: src/kdestub.py:477
 msgctxt "@action:inmenu"
 msgid "&Help"
 msgstr "&Yardım"
 
-#: src/kdestub.py:466 src/kdestub.py:819
+#: src/kdestub.py:480 src/kdestub.py:857
 msgid "Switch Application Language"
 msgstr "Uygulama Dilini Değiştir"
 
-#: src/kdestub.py:470
+#: src/kdestub.py:484
 msgctxt "@action:inmenu"
 msgid "About &Kajongg"
 msgstr "&Kajongg Hakkında"
 
-#: src/kdestub.py:824
+#: src/kdestub.py:862
 msgid "Please choose the language which should be used for this application:"
 msgstr "Lütfen bu uygulama için kullanılacak dili seçin:"
 
-#: src/kdestub.py:843
+#: src/kdestub.py:881
 msgid "Add Fallback Language"
 msgstr "Yedek Dil Ekleyin"
 
-#: src/kdestub.py:855
+#: src/kdestub.py:893
 msgid "Primary language:"
 msgstr "Birincil dil:"
 
-#: src/kdestub.py:855
+#: src/kdestub.py:893
 msgid "Fallback language:"
 msgstr "Yedek dil:"
 
-#: src/kdestub.py:861
+#: src/kdestub.py:899
 msgid "Remove"
 msgstr "Kaldır"
 
-#: src/kdestub.py:865
+#: src/kdestub.py:903
 msgid ""
 "This is the main application language which will be used first, before any "
 "other languages."
 msgstr "Bu, diğer dillerden önce ilk kullanılacak ana uygulama dilidir."
 
-#: src/kdestub.py:867
+#: src/kdestub.py:905
 msgid ""
 "This is the language which will be used if any previous languages do not "
 "contain a proper translation."
 msgstr ""
 "Bu önceki dillerden hiçbiri düzgün çeviri içermiyorsa kullanılacak dildir."
 
-#: src/kdestub.py:993
+#: src/kdestub.py:1035
 msgid "About Kajongg"
 msgstr "Kajongg Hakkında"
 
-#: src/kdestub.py:1017
+#: src/kdestub.py:1055
 msgid "Version: %1"
 msgstr "Sürüm: %1"
 
-#: src/kdestub.py:1018
+#: src/kdestub.py:1056
 msgid "Protocol version %1"
 msgstr "Protokol sürümü %1"
 
-#: src/kdestub.py:1021
+#: src/kdestub.py:1059
 msgid "Original author"
 msgstr "Asıl yazar"
 
-#: src/kdestub.py:1028
+#: src/kdestub.py:1066
 msgid "KDE Frameworks (not installed or not usable)"
 msgstr "KDE Çatıları (kurulu ya da kullanılabilir değil)"
 
-#: src/kdestub.py:1035
+#: src/kdestub.py:1072
 msgctxt "kajongg"
 msgid "Using versions %1"
 msgstr "%1 sürümleri kullanılıyor"
 
-#: src/kdestub.py:1056
+#: src/kdestub.py:1093
 msgid ""
 "This is the classical Mah Jongg for four players. If you are looking for Mah "
 "Jongg solitaire please use the application kmahjongg."
@@ -451,7 +464,7 @@ msgstr ""
 "Bu dört kişi için klasik Mah Jongg oyunudur. Eğer Mah Jongg solitaire’i "
 "arıyorsanız, lütfen kmahjongg uygulamasını kullanın."
 
-#: src/kdestub.py:1075
+#: src/kdestub.py:1110
 msgid ""
 "Please use <a href=\"https://bugs.kde.org\">https://bugs.kde.org</a> to "
 "report bugs."
@@ -459,377 +472,317 @@ msgstr ""
 "Hata ayıklamak için <a href=\"https://bugs.kde.org\">https://bugs.kde.org</"
 "a> adresini kullanın."
 
-#: src/kdestub.py:1080
+#: src/kdestub.py:1115
 msgid "Authors:"
 msgstr "Yazarlar:"
 
-#: src/kdestub.py:1126
-msgid "License Agreement"
-msgstr "Lisans Antlaşması"
-
-#: src/kdestub.py:1366
+#: src/kdestub.py:1356
 msgid "Configure Toolbars"
 msgstr "Araç Çubuklarını Yapılandır"
 
-#: src/kdestub.py:1368
+#: src/kdestub.py:1358
 msgid "A&vailable actions:"
 msgstr "Kullanılabilir &eylemler:"
 
-#: src/kdestub.py:1379
+#: src/kdestub.py:1369
 msgid "Curr&ent actions:"
-msgstr "&Mevcut eylemler:"
+msgstr "&Geçerli eylemler:"
 
-#: src/login.py:166
+#: src/login.py:177
 msgid "trying to start local server %1"
 msgstr "%1 yerel sunucusu çalıştırılmaya çalışılıyor"
 
-#: src/login.py:177 src/login.py:621
+#: src/login.py:188 src/login.py:637
 msgid "removed stale socket <filename>%1</filename>"
 msgstr "eskimiş <filename>%1</filename> soketini kaldır"
 
-#: src/login.py:198
+#: src/login.py:208
 msgid "started the local kajongg server: pid=<numid>%1</numid> %2"
 msgstr "yerel kajongg sunucu başlatıldı: pid=<numid>%1</numid> %2"
 
-#: src/login.py:238
+#: src/login.py:251
 msgctxt "kajongg"
 msgid "Login"
 msgstr "Oturum Aç"
 
-#: src/login.py:286 src/login.py:394
+#: src/login.py:300 src/login.py:406
 msgid "Game server:"
 msgstr "Oyun sunucu:"
 
-#: src/login.py:289 src/login.py:396
+#: src/login.py:303 src/login.py:408
 msgid "Username:"
 msgstr "Kullanıcı adı:"
 
-#: src/login.py:292 src/login.py:399
+#: src/login.py:306 src/login.py:411
 msgid "Password:"
 msgstr "Parola:"
 
-#: src/login.py:294
+#: src/login.py:308
 msgctxt "kajongg"
 msgid "Ruleset:"
 msgstr "Kural kümesi:"
 
-#: src/login.py:388
+#: src/login.py:400
 msgctxt "@title:window"
 msgid "Create User Account"
 msgstr "Kullanıcı Hesabı Oluştur"
 
-#: src/login.py:402
+#: src/login.py:414
 msgid "Repeat password:"
 msgstr "Parolayı yeniden gir:"
 
-#: src/login.py:552
+#: src/login.py:565
 msgid "You are already connected to server %1"
 msgstr "Zaten %1 sunucusuna bağlısınız"
 
-#: src/login.py:589
+#: src/login.py:605
 msgctxt "USER is not known on SERVER"
 msgid "%1 is not known on %2, do you want to open an account?"
 msgstr "%1 %2 üzerinde tanınmıyor, bir hesap açmak ister misiniz?"
 
-#: src/login.py:601
+#: src/login.py:618
 msgid "Server %1 did not answer"
 msgstr "Sunucu %1 cevap vermedi"
 
-#: src/login.py:603
+#: src/login.py:620
 msgid "Server %1 refused connection"
 msgstr "Sunucu %1 bağlantıyı reddetti"
 
-#: src/login.py:605
+#: src/login.py:622
 msgid "Server %1 does not run a kajongg server"
 msgstr "Sunucu %1 kajongg sunucusu çalıştırmıyor"
 
-#: src/login.py:607
+#: src/login.py:624
 msgid "Address for server %1 cannot be found"
 msgstr "Sunucu %1 için adres bulunamadı"
 
-#: src/login.py:610
+#: src/login.py:627
 msgid "Login to server %1 failed: You have no network connection"
 msgstr "%1 sunucusuna oturum açma başarısız. Ağ bağlantınız yok"
 
-#: src/login.py:622
+#: src/login.py:638
 msgid "Please try again"
 msgstr "Lütfen yeniden deneyin"
 
-#: src/mainwindow.py:498
+#: src/mainwindow.py:486
 msgctxt "@action:inmenu"
 msgid "&Score Manual Game"
 msgstr "&Elden Oyun Puanla"
 
-#: src/mainwindow.py:500
+#: src/mainwindow.py:488
 msgctxt "@action:intoolbar"
 msgid "Manual Game"
 msgstr "Elle Oyun"
 
-#: src/mainwindow.py:503
+#: src/mainwindow.py:491
 msgctxt "kajongg @info:tooltip"
 msgid "&Score a manual game."
 msgstr "&Elle oyun puanla"
 
-#: src/mainwindow.py:505
+#: src/mainwindow.py:493
 msgctxt "@action:intoolbar"
 msgid "&Play"
 msgstr "&Oyna"
 
-#: src/mainwindow.py:508
+#: src/mainwindow.py:496
 msgctxt "kajongg @info:tooltip"
 msgid "Start a new game."
-msgstr "Yeni bir oyun başlat."
+msgstr "Yeni bir oyun başlatın."
 
-#: src/mainwindow.py:510
+#: src/mainwindow.py:498
 msgctxt "@action:inmenu"
 msgid "&Abort Game"
 msgstr "Oyunu &İptal Et"
 
-#: src/mainwindow.py:514
+#: src/mainwindow.py:502
 msgctxt "kajongg @info:tooltip"
 msgid "Abort the current game."
 msgstr "Mevcut oyun hakkında."
 
-#: src/mainwindow.py:516
+#: src/mainwindow.py:504
 msgctxt "@action:inmenu"
 msgid "&Quit Kajongg"
 msgstr "Kajongg’dan &Çık"
 
-#: src/mainwindow.py:519
+#: src/mainwindow.py:507
 msgctxt "@action:intoolbar"
 msgid "&Players"
 msgstr "&Oyuncular"
 
-#: src/mainwindow.py:522
+#: src/mainwindow.py:510
 msgctxt "kajongg @info:tooltip"
 msgid "define your players."
 msgstr "oyuncularınız tanımlayın."
 
-#: src/mainwindow.py:524
+#: src/mainwindow.py:512
 msgctxt "@action:intoolbar"
 msgid "&Rulesets"
 msgstr "&Kural kümeleri"
 
-#: src/mainwindow.py:527
+#: src/mainwindow.py:515
 msgctxt "kajongg @info:tooltip"
 msgid "customize rulesets."
 msgstr "kural kümelerini özelleştir."
 
-#: src/mainwindow.py:531
+#: src/mainwindow.py:519
 msgctxt "@action:inmenu"
 msgid "&Change Visual Angle"
 msgstr "&Görsel Açıyı Değiştir"
 
-#: src/mainwindow.py:532
+#: src/mainwindow.py:520
 msgctxt "@action:intoolbar"
 msgid "Angle"
 msgstr "Açı"
 
-#: src/mainwindow.py:535
+#: src/mainwindow.py:523
 msgctxt "kajongg @info:tooltip"
 msgid "Change the visual appearance of the tiles."
 msgstr "Taşların görsel görünüşünü değiştir."
 
-#: src/mainwindow.py:539
+#: src/mainwindow.py:527
 msgctxt "@action:inmenu"
 msgid "F&ull Screen Mode"
 msgstr "T&am Ekran Kipi"
 
-#: src/mainwindow.py:542
+#: src/mainwindow.py:530
 msgctxt "kajongg @action:inmenu"
 msgid "&Score Table"
 msgstr "&Skor Tablosu"
 
-#: src/mainwindow.py:544
+#: src/mainwindow.py:532
 msgctxt "kajongg @action:intoolbar"
 msgid "&Scores"
 msgstr "&Puanlar"
 
-#: src/mainwindow.py:546
+#: src/mainwindow.py:534
 msgctxt "kajongg @info:tooltip"
 msgid "Show or hide the score table for the current game."
 msgstr "Mevcut oyun için puan tablosunu göster ya da gizle."
 
-#: src/mainwindow.py:548
+#: src/mainwindow.py:536
 msgctxt "@action:inmenu"
 msgid "&Explain Scores"
 msgstr "&Puanları Açıkla"
 
-#: src/mainwindow.py:549
+#: src/mainwindow.py:537
 msgctxt "@action:intoolbar"
 msgid "&Explain"
 msgstr "&Açıkla"
 
-#: src/mainwindow.py:551
+#: src/mainwindow.py:539
 msgctxt "kajongg @info:tooltip"
 msgid "Explain the scoring for all players in the current game."
 msgstr "Mevcut oyunda tüm oyuncular için puanları açıkla."
 
-#: src/mainwindow.py:553
+#: src/mainwindow.py:541
 msgctxt "@action:inmenu"
 msgid "&Demo Mode"
 msgstr "&Tanıtım Kipi"
 
-#: src/mainwindow.py:556
+#: src/mainwindow.py:544
 msgctxt "kajongg @info:tooltip"
 msgid "Let the computer take over for you. Start a new local game if needed."
 msgstr ""
 "Bilgisayarın sizin yerinize geçmesine izin verin. Gerekirse yeni bir yerel "
 "oyun başlatın."
 
-#: src/mainwindow.py:558
+#: src/mainwindow.py:546
 msgid "C&hat"
 msgstr "&Sohbet"
 
-#: src/mainwindow.py:561
+#: src/mainwindow.py:549
 msgctxt "kajongg @info:tooltip"
 msgid "Chat with the other players."
 msgstr "Diğer oyuncularla sohbet edin."
 
-#: src/meld.py:318
-msgctxt "kajongg meld type"
-msgid "Bonus"
-msgstr "Bonus"
-
-#: src/meld.py:320
-msgctxt "kajongg meld type"
-msgid "&single"
-msgstr "&tekil"
-
-#: src/meld.py:322
-msgctxt "kajongg meld type"
-msgid "&pair"
-msgstr "&çift"
-
-#: src/meld.py:324
-msgctxt "kajongg meld type"
-msgid "&chow"
-msgstr "&chow"
-
-#: src/meld.py:326
-msgctxt "kajongg meld type"
-msgid "p&ung"
-msgstr "p&ung"
-
-#: src/meld.py:328
-msgctxt "kajongg meld type"
-msgid "c&laimed kong"
-msgstr "kong &ilan edildi"
-
-#: src/meld.py:330
-msgctxt "kajongg meld type"
-msgid "k&ong"
-msgstr "k&ong"
-
-#: src/meld.py:331
-msgctxt "kajongg meld type"
-msgid "rest of tiles"
-msgstr "geri kalan taşlar"
-
-#: src/meld.py:338
-msgctxt "kajongg meld state"
-msgid "Exposed"
-msgstr "Açıkta"
-
-#: src/meld.py:339
-msgctxt "kajongg meld state"
-msgid "Concealed"
-msgstr "Kapalı"
-
-#: src/meld.py:345
-#, python-brace-format
-msgctxt "kajongg meld name, do not translate parameter names"
-msgid "{state} {meldType} {name}"
-msgstr "{state} {meldType} {name}"
-
-#: src/message.py:203
+#: src/message.py:250
 msgid "saying %1 violates Original Call"
 msgstr "%1 demek Asıl Çağrıyı ihlal eder"
 
-#: src/message.py:215
+#: src/message.py:263
 msgid ""
 "claiming %1 is dangerous because you will have to discard a dangerous tile"
 msgstr "%1 talep etmek tehlikelidir çünkü tehlikeli bir taşı atmanız gerekir"
 
-#: src/message.py:220
+#: src/message.py:268
 msgid ""
 "claiming %1 for %2 is dangerous because you will have to discard a dangerous "
 "tile"
 msgstr ""
 "%2 için %1 talep etmek tehlikelidir çünkü tehlikeli bir taşı atmanız gerekir"
 
-#: src/message.py:223
+#: src/message.py:271
 msgid "You may say %1"
 msgstr "%1 diyebilirsiniz"
 
-#: src/message.py:233
+#: src/message.py:280
 msgctxt "kajongg"
 msgid "Pung"
 msgstr "Pung"
 
-#: src/message.py:234
+#: src/message.py:281
 msgctxt "kajongg game dialog:Key for Pung"
 msgid "P"
 msgstr "P"
 
-#: src/message.py:251
+#: src/message.py:299
 msgctxt "kajongg"
 msgid "Kong"
 msgstr "Kong"
 
-#: src/message.py:252
+#: src/message.py:300
 msgctxt "kajongg game dialog:Key for Kong"
 msgid "K"
 msgstr "K"
 
-#: src/message.py:272
+#: src/message.py:326
 msgid "saying Kong for %1 violates Original Call"
 msgstr "%1 için Kong demek Asıl Çağrıyı ihlal eder"
 
-#: src/message.py:275
+#: src/message.py:330
 msgid "You may say Kong for %1"
 msgstr "%1 için Kong diyebilirsiniz"
 
-#: src/message.py:289
+#: src/message.py:344
 msgctxt "kajongg"
 msgid "Chow"
 msgstr "Chow"
 
-#: src/message.py:290
+#: src/message.py:345
 msgctxt "kajongg game dialog:Key for Chow"
 msgid "C"
 msgstr "C"
 
-#: src/message.py:323
+#: src/message.py:378
 msgctxt "kajongg"
 msgid "Mah Jongg"
 msgstr "Mah Jongg"
 
-#: src/message.py:324
+#: src/message.py:379
 msgctxt "kajongg game dialog:Key for Mah Jongg"
 msgid "M"
 msgstr "M"
 
-#: src/message.py:332
+#: src/message.py:387
 msgid "Press here and you win"
 msgstr "Buraya basın ve kazanın"
 
-#: src/message.py:346
+#: src/message.py:401
 msgctxt "kajongg"
 msgid "Original Call"
 msgstr "Asıl Çağrı"
 
-#: src/message.py:347
+#: src/message.py:402
 msgctxt "kajongg game dialog:Key for Original Call"
 msgid "O"
 msgstr "O"
 
-#: src/message.py:360
+#: src/message.py:418
 msgid "discarding %1 and declaring Original Call makes this hand unwinnable"
 msgstr ""
 "%1 ögesini atmak ve Asıl Çağrı ilan etmek bu eli kazanılamaz hale getirir"
 
-#: src/message.py:364
+#: src/message.py:422
 msgid ""
 "Discard a tile, declaring Original Call meaning you need only one tile to "
 "complete the hand and will not alter the hand in any way (except bonus tiles)"
@@ -838,147 +791,147 @@ msgstr ""
 "gereksiniminiz olduğunu ve eli artık değiştirmeyeceğinizi belirtir (bonus "
 "taşlar hariç)"
 
-#: src/message.py:389
+#: src/message.py:447
 msgctxt "kajongg"
 msgid "Discard"
 msgstr "Çıkar"
 
-#: src/message.py:390
+#: src/message.py:448
 msgctxt "kajongg game dialog:Key for Discard"
 msgid "D"
 msgstr "D"
 
-#: src/message.py:405
+#: src/message.py:465
 msgid "discarding %1 violates Original Call"
 msgstr "%1 ögesini çıkarmak Asıl Çağrıyı ihlal eder"
 
-#: src/message.py:408
+#: src/message.py:468
 msgid "discarding %1 is Dangerous Game"
 msgstr "%1 çıkarmak Tehlikeli Oyundur"
 
-#: src/message.py:411
+#: src/message.py:471
 msgid "discard the least useful tile"
 msgstr "en işe yaramaz taşı çıkar"
 
-#: src/message.py:483
+#: src/message.py:551
 msgid "%1 is not ready to start the game"
 msgstr "%1 oyunu başlatmak için hazır değil"
 
-#: src/message.py:519
+#: src/message.py:590
 msgid "Kajongg <numid>%1</numid>"
 msgstr "Kajongg <numid>%1</numid>"
 
-#: src/message.py:595
+#: src/message.py:676
 msgctxt "kajongg"
 msgid "Violates Original Call"
 msgstr "Asıl Çağrıyı İhlal Eder"
 
-#: src/message.py:723
+#: src/message.py:819
 msgctxt "kajongg"
 msgid "Dangerous Game"
 msgstr "Tehlikeli Oyun"
 
-#: src/message.py:737
+#: src/message.py:834
 msgctxt "kajongg"
 msgid "No Choice"
 msgstr "Seçenek Yok"
 
-#: src/message.py:796
+#: src/message.py:896
 msgctxt "kajongg"
 msgid "OK"
 msgstr "Tamam"
 
-#: src/message.py:797
+#: src/message.py:897
 msgctxt "kajongg game dialog:Key for OK"
 msgid "O"
 msgstr "O"
 
-#: src/message.py:801
+#: src/message.py:901
 msgid "Confirm that you saw the message"
 msgstr "İletiyi gördüğünüzü onaylayın"
 
-#: src/message.py:810
+#: src/message.py:909
 msgctxt "kajongg"
 msgid "No Claim"
 msgstr "Talep Yok"
 
-#: src/message.py:811
+#: src/message.py:910
 msgctxt "kajongg game dialog:Key for No claim"
 msgid "N"
 msgstr "N"
 
-#: src/message.py:815
+#: src/message.py:914
 msgid "You cannot or do not want to claim this tile"
 msgstr "Bu taşta hak iddia edemez ya da etmek istemezsiniz"
 
-#: src/mjresource.py:80
+#: src/mjresource.py:92
 msgid ""
 "cannot find any %1 in the following directories, is libkmahjongg installed?"
 msgstr "bu dizinlerde %1 bulunamadı, libmahjongg kurulu mu?"
 
-#: src/mjresource.py:104
+#: src/mjresource.py:116
 msgid "cannot find %1, using default"
 msgstr "%1 bulunamadı, öntanımlı kullanılıyor"
 
-#: src/mjresource.py:114
+#: src/mjresource.py:131
 msgid "unknown name"
 msgstr "bilinmeyen isim"
 
-#: src/mjresource.py:115
+#: src/mjresource.py:132
 msgid "unknown author"
 msgstr "bilinmeyen yazar"
 
-#: src/mjresource.py:118
+#: src/mjresource.py:135
 msgid "no description available"
 msgstr "açıklama yok"
 
-#: src/mjresource.py:121
+#: src/mjresource.py:138
 msgid "no E-Mail address available"
 msgstr "E-posta adresi yok"
 
-#: src/player.py:687
+#: src/player.py:725
 msgid "%1 claiming MahJongg: She does not really have tile %2"
 msgstr "%1 MahJongg dedi: %2 taşına gerçekten sahip değil"
 
-#: src/player.py:696
+#: src/player.py:734
 msgid ""
 "%1 claiming MahJongg: She did not pass all concealed tiles to the server"
 msgstr "%1 MahJongg dedi: Tüm kapalı taşları sunucuya aktarmadı"
 
-#: src/player.py:807
+#: src/player.py:855
 msgid "Player %1 has 3 or 4 exposed melds, all are green"
 msgstr "%1 oyuncusunun 3 ya da 4 açıkta birleşimi var, hepsi yeşil"
 
-#: src/player.py:816
+#: src/player.py:863
 msgid "Player %1 may try a True Color Game"
 msgstr "%1 oyuncusu Gerçek Renk Oyunu deneyebilir"
 
-#: src/player.py:819
+#: src/player.py:866
 msgid "Player %1 may try an All Terminals Game"
 msgstr "%1 oyuncusu Tüm Uçlar Oyunu deneyebilir"
 
-#: src/player.py:832
+#: src/player.py:879
 msgid "Player %1 exposed many winds"
-msgstr "%1 oyuncusu bir çok rüzgar açık etti"
+msgstr "%1 oyuncusu birçok rüzgâr açık etti"
 
-#: src/player.py:836
+#: src/player.py:883
 msgid "Player %1 exposed many dragons"
-msgstr "%1 oyuncusu bir çok ejderha açık etti"
+msgstr "%1 oyuncusu birçok ejderha açık etti"
 
-#: src/playerlist.py:43
+#: src/playerlist.py:50
 msgctxt "define a new player"
 msgid "&New"
 msgstr "&Yeni"
 
-#: src/playerlist.py:101
+#: src/playerlist.py:110
 msgid "Player %1 already exists"
 msgstr "%1 oyuncusu zaten mevcut"
 
-#: src/playerlist.py:110
+#: src/playerlist.py:121
 msgid "Error while adding player %1: %2"
 msgstr "Oyuncu eklerken hata %1: %2"
 
-#: src/playerlist.py:165
+#: src/playerlist.py:176
 msgid ""
 "There are %1 finished and %2 unfinished games for %3, delete %3 anyway?  "
 "This will also delete all games played by %3!"
@@ -986,19 +939,19 @@ msgstr ""
 "%3 için %1 bitmiş, %2 bitmemiş oyun var; %3 yine de silinsin mi? Bu aynı "
 "zamanda %3 tarafından oynanan tüm oyunları silecektir!"
 
-#: src/predefined.py:27
+#: src/predefined.py:29
 msgid "Classical Chinese standard"
 msgstr "Klasik Çin standardı"
 
-#: src/predefined.py:31
+#: src/predefined.py:35
 msgid "Classical Chinese"
 msgstr "Klasik Çin"
 
-#: src/predefined.py:37
+#: src/predefined.py:41
 msgid "Last Tile Taken from Dead Wall"
 msgstr "Son Taş Ölü Duvardan alındı"
 
-#: src/predefined.py:39
+#: src/predefined.py:43
 msgid ""
 "The dead wall is also called kong box: The last 16 tiles of the wall used as "
 "source of replacement tiles"
@@ -1006,20 +959,20 @@ msgstr ""
 "Ölü duvara aynı zamanda kong kutusu denir: Yerdeğiştirilen taşlar için "
 "duvarın son 16 taşı kullanılır"
 
-#: src/predefined.py:42
+#: src/predefined.py:46
 msgid "Last Tile is Last Tile of Wall"
 msgstr "Son Taş Duvarın Son Taşıdır"
 
-#: src/predefined.py:44
+#: src/predefined.py:48
 msgid ""
 "Winner said Mah Jong with the last tile taken from the living end of the wall"
 msgstr "Kazanan, duvarın canlı ucundan aldığı son taş ile Mah Jong dedi"
 
-#: src/predefined.py:46
+#: src/predefined.py:50
 msgid "Last Tile is Last Tile of Wall Discarded"
 msgstr "Son Taş Çıkarılan Duvarın son Taşı"
 
-#: src/predefined.py:48
+#: src/predefined.py:52
 msgid ""
 "Winner said Mah Jong by claiming the last tile taken from the living end of "
 "the wall, discarded by another player"
@@ -1027,11 +980,11 @@ msgstr ""
 "Kazanan başka bir oyuncu tarafından çıkarılan son taşı duvarın canlı ucundan "
 "alarak Mah Jong dedi"
 
-#: src/predefined.py:51
+#: src/predefined.py:55
 msgid "Robbing the Kong"
 msgstr "Kong’u Soymak"
 
-#: src/predefined.py:52
+#: src/predefined.py:56
 msgid ""
 "Winner said Mah Jong by claiming the 4th tile of a kong another player just "
 "declared"
@@ -1039,11 +992,11 @@ msgstr ""
 "Kazanan, başka bir oyuncunun ilan ettiği bir kong’un 4. taşını alarak Mah "
 "Jong dedi"
 
-#: src/predefined.py:55
+#: src/predefined.py:59
 msgid "Mah Jongg with Original Call"
 msgstr "Asıl Çağrı ile Mah Jongg"
 
-#: src/predefined.py:58
+#: src/predefined.py:62
 msgid ""
 "Just before the first discard, a player can declare Original Call meaning "
 "she needs only one tile to complete the hand and announces she will not "
@@ -1053,11 +1006,11 @@ msgstr ""
 "bitirmesine tek taşın kaldığıdır ve eli hiçbir şekilde değiştirmeyecektir "
 "(bonus taşlar hariç)"
 
-#: src/predefined.py:61
+#: src/predefined.py:65
 msgid "Dangerous Game"
 msgstr "Tehlikeli Oyun"
 
-#: src/predefined.py:62
+#: src/predefined.py:66
 msgid ""
 "In some situations discarding a tile that has a high chance to help somebody "
 "to win is declared to be dangerous, and if that tile actually makes somebody "
@@ -1067,11 +1020,11 @@ msgstr ""
 "taşın atılması tehlikelidir ve bu taş gerçekten başkasının kazanmasını "
 "sağlarsa, atan kazanana herşey için ödeme yapar"
 
-#: src/predefined.py:66
+#: src/predefined.py:70
 msgid "Twofold Fortune"
 msgstr "İki Katı Şans"
 
-#: src/predefined.py:67
+#: src/predefined.py:71
 msgid ""
 "Kong after Kong: Declare Kong and a second Kong with the replacement tile "
 "and Mah Jong with the second replacement tile"
@@ -1079,284 +1032,308 @@ msgstr ""
 "Kong ardından Kong: Kong ilan et, değiştirilen taş ile yeniden Kong ilan et, "
 "ikinci değiştirilen taş ile Mah Jong ilan et"
 
-#: src/predefined.py:71
+#: src/predefined.py:75
 msgid "Blessing of Heaven"
 msgstr "Cennet Kutsaması"
 
-#: src/predefined.py:72
+#: src/predefined.py:76
 msgid "East says Mah Jong with the unmodified dealt tiles"
 msgstr "Doğu, değiştirilmeden ele alınmış taşlarla Mah Jong dedi"
 
-#: src/predefined.py:74
+#: src/predefined.py:78
 msgid "Blessing of Earth"
 msgstr "Dünya Kutsaması"
 
-#: src/predefined.py:75
+#: src/predefined.py:79
 msgid ""
 "South, West or North says Mah Jong with the first tile discarded by East"
 msgstr ""
 "Güney, Batı veya Kuzey, Doğu tarafından çıkarılan ilk taşla Mah Jong der"
 
-#: src/predefined.py:77
+#: src/predefined.py:81
 msgid "East won nine times in a row"
 msgstr "Doğu dokuz kere üst üste kazandı"
 
-#: src/predefined.py:78
+#: src/predefined.py:82
 msgid "If that happens, East gets a limit score and the winds rotate"
-msgstr "Bu gerçekleşirse, Doğu sınır skoru alır ve rüzgarlar döner"
+msgstr "Bu gerçekleşirse, Doğu sınır skoru alır ve rüzgârlar döner"
 
-#: src/predefined.py:83
+#: src/predefined.py:87
 msgid ""
 "False Naming of Discard, Claimed for Mah Jongg and False Declaration of Mah "
 "Jongg"
 msgstr ""
 "Yanlış İsimlendirilen Çıkarma, Mah Jongg ilanı ve Yanlış Mah Jongg İlanı"
 
-#: src/predefined.py:89
+#: src/predefined.py:93
 msgid "Own Flower and Own Season"
 msgstr "Kendi Çiçeği ve Kendi Sezonu"
 
-#: src/predefined.py:92
+#: src/predefined.py:96
 msgid "All Flowers"
 msgstr "Tüm Çiçekler"
 
-#: src/predefined.py:93
+#: src/predefined.py:97
 msgid "All Seasons"
 msgstr "Tüm Mevsimler"
 
-#: src/predefined.py:95
+#: src/predefined.py:99
 msgid "Three Concealed Pongs"
 msgstr "Üç Kapalı Pong"
 
-#: src/predefined.py:99
+#: src/predefined.py:103
 msgid "Long Hand"
 msgstr "Uzun El"
 
-#: src/predefined.py:100
+#: src/predefined.py:104
 msgid "The hand contains too many tiles"
 msgstr "Elde çok fazla taş var"
 
-#: src/predefined.py:105
+#: src/predefined.py:109
+msgid "Tiles in Hand"
+msgstr "Eldeki Taşlar"
+
+#: src/predefined.py:114
 msgid "Points Needed for Mah Jongg"
 msgstr "Mah Jongg için Gerekli Puanlar"
 
-#: src/predefined.py:109
+#: src/predefined.py:118
 msgid "Minimum number of doubles needed for Mah Jongg"
 msgstr "Mah Jongg için gerekli asgari çiftler"
 
-#: src/predefined.py:112
+#: src/predefined.py:121
 msgid "Points for a Limit Hand"
 msgstr "Sınır Eli için gerekli Puanlar"
 
-#: src/predefined.py:116
+#: src/predefined.py:125
 msgid "Play with the roof off"
 msgstr "Çatı olmadan oyna"
 
-#: src/predefined.py:117
+#: src/predefined.py:126
 msgid "Play with no upper scoring limit"
 msgstr "Üst puan sınırı olmadan oyna"
 
-#: src/predefined.py:119
+#: src/predefined.py:128
 msgid "Claim Timeout"
 msgstr "Zaman Aşımı İste"
 
-#: src/predefined.py:123
+#: src/predefined.py:132
 msgid "Size of Kong Box"
 msgstr "Kong Kutusu Boyutu"
 
-#: src/predefined.py:124
+#: src/predefined.py:133
 msgid "The Kong Box is used for replacement tiles when declaring kongs"
 msgstr "Kong Kutusu kong ilan ederken değiştirilen taşlar için kullanılır"
 
-#: src/predefined.py:126
+#: src/predefined.py:135
 msgid "Play with Bonus Tiles"
 msgstr "Bonus Taşlarla Oyna"
 
-#: src/predefined.py:127
+#: src/predefined.py:136
 msgid "Bonus tiles increase the luck factor"
 msgstr "Bonus taşlar şans etkenini artırır"
 
-#: src/predefined.py:129
+#: src/predefined.py:138
 msgid "Minimum number of rounds in game"
 msgstr "Oyundaki asgari el sayısı"
 
-#: src/predefined.py:133
+#: src/predefined.py:142
 msgid "number of allowed chows"
 msgstr "izin verilen nevale sayısı"
 
-#: src/predefined.py:134
+#: src/predefined.py:143
 msgid "The number of chows a player may build"
 msgstr "Oyuncunun inşa edebileceği nevale sayısı"
 
-#: src/predefined.py:136
+#: src/predefined.py:145
 msgid "must declare calling hand"
 msgstr "çağrı eli ilan edilmeli"
 
-#: src/predefined.py:138
+#: src/predefined.py:147
 msgid "Mah Jongg is only allowed after having declared to have a calling hand"
 msgstr "Mah Jongg’a çağrı eli ilan edildikten sonra izin verilir"
 
-#: src/predefined.py:140
+#: src/predefined.py:149
 msgid "Standard Rotation"
 msgstr "Standart Dönüş"
 
-#: src/predefined.py:150
+#: src/predefined.py:152
+msgid "Discard tiles ordered"
+msgstr "Sıralı taşları at"
+
+#: src/predefined.py:154
+msgid "Discard tiles ordered from top left"
+msgstr "Sol üstten sıralı taşları at"
+
+#: src/predefined.py:156
+msgid "Leave holes for claimed discards"
+msgstr "Talep edilen atıklar için delikler bırak"
+
+#: src/predefined.py:159
+msgid ""
+"Only when discarding tiles ordered: Do not place the next discard where the "
+"claimed discard was"
+msgstr ""
+"Yalnızca sıralı taşları atarken: Bir sonraki atılan parçayı, atıldığı talep "
+"edilen yere koymayın."
+
+#: src/predefined.py:168
 msgid "Last Tile Completes Pair of 2..8"
 msgstr "Son Taş 2..8 Çiftini Tamamlar"
 
-#: src/predefined.py:154
+#: src/predefined.py:172
 msgid "Last Tile Completes Pair of Terminals or Honors"
 msgstr "Son Taş Uç Çiftlerini veya Onur Taşlarını Tamamlar"
 
-#: src/predefined.py:157
+#: src/predefined.py:175
 msgid "Last Tile is Only Possible Tile"
 msgstr "Son Taş Tek Muhtemel Taş"
 
-#: src/predefined.py:161
+#: src/predefined.py:179
 msgid "Won with Last Tile Taken from Wall"
 msgstr "Duvardan Alınan Son Döşeme ile Kazandı"
 
-#: src/predefined.py:166
+#: src/predefined.py:184
 msgid "Zero Point Hand"
 msgstr "Sıfır Puan Eli"
 
-#: src/predefined.py:167
+#: src/predefined.py:185
 msgid "The hand has 0 basis points excluding bonus tiles"
 msgstr "Elde bonus döşemeler hariç 0 esas puan var"
 
-#: src/predefined.py:168
+#: src/predefined.py:186
 msgid "No Chow"
 msgstr "Chow yok"
 
-#: src/predefined.py:170
+#: src/predefined.py:188
 msgid "Only Concealed Melds"
 msgstr "Yalnızca Kapalı Birleşimler"
 
-#: src/predefined.py:174
+#: src/predefined.py:192
 msgid "False Color Game"
 msgstr "Yanlış Renk Oyun"
 
-#: src/predefined.py:175
+#: src/predefined.py:193
 msgid ""
 "Only same-colored tiles (only bamboo/stone/character) plus any number of "
 "winds and dragons"
 msgstr ""
 "Yalnızca aynı renkli taşlar (yalnızca bambu/taş/karakter) artı herhangi "
-"sayıda rüzgar ve ejderler"
+"sayıda rüzgâr ve ejderler"
 
-#: src/predefined.py:178
+#: src/predefined.py:196
 msgid "True Color Game"
 msgstr "Gerçek Renkli Oyun"
 
-#: src/predefined.py:179
+#: src/predefined.py:197
 msgid "Only same-colored tiles (only bamboo/stone/character)"
 msgstr "Yalnızca aynı renkli taşlar (yalnızca bambu/taş/karakter)"
 
-#: src/predefined.py:181
+#: src/predefined.py:199
 msgid "Concealed True Color Game"
 msgstr "Kapalı Gerçek Renk Oyunu"
 
-#: src/predefined.py:182
+#: src/predefined.py:200
 msgid "All tiles concealed and of the same suit, no honors"
 msgstr "Tüm taşlar kapalı ve aynı takımda, onur taşı yok"
 
-#: src/predefined.py:184
+#: src/predefined.py:202
 msgid "Only Terminals and Honors"
 msgstr "Yalnızca Uçlar ve Onur Taşları"
 
-#: src/predefined.py:185
+#: src/predefined.py:203
 msgid "Only winds, dragons, 1 and 9"
-msgstr "Yalnızca rüzgarlar, ejderler, 1 ve 9"
+msgstr "Yalnızca rüzgârlar, ejderler, 1 ve 9"
 
-#: src/predefined.py:186
+#: src/predefined.py:204
 msgid "Only Honors"
 msgstr "Yalnızca Onur Taşları"
 
-#: src/predefined.py:187
+#: src/predefined.py:205
 msgid "Only winds and dragons"
-msgstr "Yalnızca rüzgarlar ve ejderhalar"
+msgstr "Yalnızca rüzgârlar ve ejderhalar"
 
-#: src/predefined.py:189
+#: src/predefined.py:207
 msgid "Hidden Treasure"
 msgstr "Gizli Hazine"
 
-#: src/predefined.py:190
+#: src/predefined.py:208
 msgid "Only hidden Pungs or Kongs, last tile from wall"
 msgstr "Yalnızca gizli Pung veya Kong’lar, son taş duvardan"
 
-#: src/predefined.py:192
+#: src/predefined.py:210
 msgid "Heads and Tails"
 msgstr "Başlar ve Kuyruklar"
 
-#: src/predefined.py:193
+#: src/predefined.py:211
 msgid "Only 1 and 9"
 msgstr "Yalnızca 1 ve 9"
 
-#: src/predefined.py:195
+#: src/predefined.py:213
 msgid "Fourfold Plenty"
 msgstr "Dört Katı Bolluk"
 
-#: src/predefined.py:196
+#: src/predefined.py:214
 msgid "4 Kongs"
 msgstr "4 Kong"
 
-#: src/predefined.py:198 src/predefined.py:416
+#: src/predefined.py:216 src/predefined.py:430
 msgid "Three Great Scholars"
 msgstr "Üç Büyük Bilgin"
 
-#: src/predefined.py:199 src/predefined.py:321
+#: src/predefined.py:217 src/predefined.py:337
 msgid "3 Pungs or Kongs of dragons"
 msgstr "3 Pung veya ejderha Kong’ları"
 
-#: src/predefined.py:200
+#: src/predefined.py:218
 msgid "Four Blessings Hovering over the Door"
 msgstr "Dört Kutsama Kapının üstünde Geziniyor"
 
-#: src/predefined.py:202 src/predefined.py:326
+#: src/predefined.py:220 src/predefined.py:342
 msgid "4 Pungs or Kongs of winds"
-msgstr "4 Pung veya rüzgar Kong’ları"
+msgstr "4 Pung veya rüzgâr Kong’ları"
 
-#: src/predefined.py:203
+#: src/predefined.py:221
 msgid "Imperial Jade"
 msgstr "İmparatorluk Şıllığı"
 
-#: src/predefined.py:204
+#: src/predefined.py:222
 msgid "Only green tiles: Green dragon and Bamboo 2,3,4,6,8"
 msgstr "Yalnızca yeşil döşemeler: Yeşil ejder ve Bambu 2,3,4,6,8"
 
-#: src/predefined.py:205
+#: src/predefined.py:223
 msgid "Gathering the Plum Blossom from the Roof"
 msgstr "Çatıdan Erik Çiçeği Toplanıyor"
 
-#: src/predefined.py:207
+#: src/predefined.py:225
 msgid "Mah Jong with stone 5 from the dead wall"
 msgstr "Ölü duvardan 5 taşı ile Mah Jong"
 
-#: src/predefined.py:209
+#: src/predefined.py:227
 msgid "Plucking the Moon from the Bottom of the Sea"
 msgstr "Ay Denizin Dibinden Çekiliyor"
 
-#: src/predefined.py:210
+#: src/predefined.py:228
 msgid "Mah Jong with the last tile from the wall being a stone 1"
 msgstr "Duvardan alınan son taşın taş 1 olması ile Mah Jong"
 
-#: src/predefined.py:212
+#: src/predefined.py:230
 msgid "Scratching a Carrying Pole"
 msgstr "Taşıma Direği Kazınıyor"
 
-#: src/predefined.py:213
+#: src/predefined.py:231
 msgid "Robbing the Kong of bamboo 2"
 msgstr "Bambu 2 Kong’u çalınıyor"
 
-#: src/predefined.py:219
+#: src/predefined.py:237 src/predefined.py:526
 msgid "Standard Mah Jongg"
 msgstr "Standart Mah Jongg"
 
-#: src/predefined.py:224
+#: src/predefined.py:242
 msgid "Nine Gates"
 msgstr "Dokuz Kapı"
 
-#: src/predefined.py:226
+#: src/predefined.py:244
 msgid ""
 "A concealed hand in one color 1112345678999 plus last tile of this suit "
 "(from wall or discarded)"
@@ -1364,111 +1341,111 @@ msgstr ""
 "Tek renk 1112345678999 kapalı eli artı bu takımın son taşı (duvardan ya da "
 "atılanlardan)"
 
-#: src/predefined.py:228
+#: src/predefined.py:246
 msgid "Thirteen Orphans"
 msgstr "Onüç Yetim"
 
-#: src/predefined.py:229
+#: src/predefined.py:247
 msgid ""
 "13 single tiles: All dragons, winds, 1, 9 and a 14th tile building a pair "
 "with one of them"
 msgstr ""
-"13 tekli taş: Hepsi ejder, rüzgarlar, 1, 9 ve 14. taş bunlardan biriyle çift "
+"13 tekli taş: Hepsi ejder, rüzgârlar, 1, 9 ve 14. taş bunlardan biriyle çift "
 "oluşturuyor"
 
-#: src/predefined.py:233
+#: src/predefined.py:251
 msgid "Pung/Kong of Dragons"
 msgstr "Ejderha Pung/Kong’ları"
 
-#: src/predefined.py:235
+#: src/predefined.py:253
 msgid "Pung/Kong of Own Wind"
-msgstr "Kendi Rüzgarının Pung/Kong’ları"
+msgstr "Kendi Rüzgârının Pung/Kong’ları"
 
-#: src/predefined.py:238
+#: src/predefined.py:256
 msgid "Pung/Kong of Round Wind"
-msgstr "Halka Rüzgarın Pung/Kong’u"
+msgstr "Halka Rüzgârın Pung/Kong’u"
 
-#: src/predefined.py:242
+#: src/predefined.py:260
 msgid "Exposed Kong"
 msgstr "Açık Kong"
 
-#: src/predefined.py:245
+#: src/predefined.py:263
 msgid "Exposed Kong of Terminals"
 msgstr "Uçların Açık Kong’u"
 
-#: src/predefined.py:248
+#: src/predefined.py:266
 msgid "Exposed Kong of Honors"
 msgstr "Açık Onur Taşı Kong’u"
 
-#: src/predefined.py:251
+#: src/predefined.py:269
 msgid "Exposed Pung"
 msgstr "Açık Pung"
 
-#: src/predefined.py:254
+#: src/predefined.py:272
 msgid "Exposed Pung of Terminals"
 msgstr "Uçların Açık Pung’u"
 
-#: src/predefined.py:257
+#: src/predefined.py:275
 msgid "Exposed Pung of Honors"
 msgstr "Açık Onur Taşı Pung’u"
 
-#: src/predefined.py:261
+#: src/predefined.py:279
 msgid "Concealed Kong"
 msgstr "Kapalı Kong"
 
-#: src/predefined.py:264
+#: src/predefined.py:282
 msgid "Concealed Kong of Terminals"
 msgstr "Uçların Kapalı Kong’u"
 
-#: src/predefined.py:267
+#: src/predefined.py:285
 msgid "Concealed Kong of Honors"
 msgstr "Kapalı Onur Taşı Kong’u"
 
-#: src/predefined.py:270
+#: src/predefined.py:288
 msgid "Concealed Pung"
 msgstr "Kapalı Pung"
 
-#: src/predefined.py:273
+#: src/predefined.py:291
 msgid "Concealed Pung of Terminals"
 msgstr "Uçların Kapalı Pung’u"
 
-#: src/predefined.py:276
+#: src/predefined.py:294
 msgid "Concealed Pung of Honors"
 msgstr "Kapalı Onur Taşı Pung’u"
 
-#: src/predefined.py:279
+#: src/predefined.py:297
 msgid "Pair of Own Wind"
-msgstr "Kendi Rüzgarının Çifti"
+msgstr "Kendi Rüzgârının Çifti"
 
-#: src/predefined.py:281
+#: src/predefined.py:299
 msgid "Pair of Round Wind"
-msgstr "Halka Rüzgar Çifti"
+msgstr "Halka Rüzgâr Çifti"
 
-#: src/predefined.py:283
+#: src/predefined.py:301
 msgid "Pair of Dragons"
 msgstr "Ejderha Çifti"
 
-#: src/predefined.py:287
+#: src/predefined.py:305
 msgid "Flower"
 msgstr "Çiçek"
 
-#: src/predefined.py:289
+#: src/predefined.py:307
 msgid "Season"
 msgstr "Sezon"
 
-#: src/predefined.py:300
+#: src/predefined.py:316
 msgid "Classical Chinese DMJL"
 msgstr "Klasik Çin DMJL"
 
-#: src/predefined.py:306
+#: src/predefined.py:322
 msgid "Classical Chinese as defined by the Deutsche Mah Jongg Liga (DMJL) e.V."
 msgstr "Alman Mah-Jongg Ligince tanımlanan şekilde Klasik Çince (DMJL) e.V."
 
-#: src/predefined.py:313
+#: src/predefined.py:329
 msgid "Squirming Snake"
 msgstr "Kıvranan Yılan"
 
-#: src/predefined.py:314
+#: src/predefined.py:330
 msgid ""
 "All tiles of same color. Pung or Kong of 1 and 9, pair of 2, 5 or 8 and two "
 "Chows of the remaining values"
@@ -1476,71 +1453,71 @@ msgstr ""
 "Tüm taşlar aynı renkte. 1 ve 9 pung veya kong’u, 2, 5 veya 8 çifti ve kalan "
 "değerlerden iki Chow"
 
-#: src/predefined.py:317
+#: src/predefined.py:333
 msgid "Little Three Dragons"
 msgstr "Üç Küçük Ejderha"
 
-#: src/predefined.py:318
+#: src/predefined.py:334
 msgid "2 Pungs or Kongs of dragons and 1 pair of dragons"
 msgstr "2 ejderha Pung veya Kong’u ve 1 çift ejderha"
 
-#: src/predefined.py:320
+#: src/predefined.py:336
 msgid "Big Three Dragons"
 msgstr "Üç Büyük Ejderha"
 
-#: src/predefined.py:323
+#: src/predefined.py:339
 msgid "Little Four Joys"
 msgstr "Dört Küçük Neşe"
 
-#: src/predefined.py:324
+#: src/predefined.py:340
 msgid "3 Pungs or Kongs of winds and 1 pair of winds"
-msgstr "3 Pung veya rüzgar Kong’ları ve 1 çift rüzgar"
+msgstr "3 Pung veya rüzgâr Kong’ları ve 1 çift rüzgâr"
 
-#: src/predefined.py:325
+#: src/predefined.py:341
 msgid "Big Four Joys"
 msgstr "Büyük Dört Neşe"
 
-#: src/predefined.py:331
+#: src/predefined.py:347
 msgid "False Naming of Discard, Claimed for Chow"
 msgstr "Yanlış Çıkarma İsimlendirmesi, Chow talep edildi"
 
-#: src/predefined.py:334
+#: src/predefined.py:350
 msgid "False Naming of Discard, Claimed for Pung/Kong"
 msgstr "Yanlış Çıkarma İsimlendirmesi, Pung/Kong talep edildi"
 
-#: src/predefined.py:337 src/predefined.py:430
+#: src/predefined.py:353 src/predefined.py:444 src/predefined.py:556
 msgid "False Declaration of Mah Jongg by One Player"
 msgstr "Bir Oyuncu tarafından yanlış Mah Jongg ilan edildi"
 
-#: src/predefined.py:340
+#: src/predefined.py:356
 msgid "False Declaration of Mah Jongg by Two Players"
 msgstr "İki Oyuncu tarafından yanlış Mah Jongg ilan edildi"
 
-#: src/predefined.py:343
+#: src/predefined.py:359
 msgid "False Declaration of Mah Jongg by Three Players"
 msgstr "Üç Oyuncu tarafından yanlış Mah Jongg ilan edildi"
 
-#: src/predefined.py:346 src/predefined.py:433
+#: src/predefined.py:362 src/predefined.py:447 src/predefined.py:559
 msgid "False Naming of Discard, Claimed for Mah Jongg"
 msgstr "Yanlış Çıkarma İsimlendirme, Mah Jongg için talep edildi"
 
-#: src/predefined.py:357
+#: src/predefined.py:371
 msgid "Classical Chinese BMJA"
 msgstr "Klasik Çin BMJA"
 
-#: src/predefined.py:363
+#: src/predefined.py:377
 msgid "Classical Chinese as defined by the British Mah-Jong Association"
 msgstr "İngiliz Mah-Jong Birliğiyle tanımlanan şekliyle Klasik Çince"
 
-#: src/predefined.py:378
+#: src/predefined.py:392 src/predefined.py:532
 msgid "Original Call"
 msgstr "Asıl Çağrı"
 
-#: src/predefined.py:382
+#: src/predefined.py:396
 msgid "Gates of Heaven"
 msgstr "Cennet Kapıları"
 
-#: src/predefined.py:383
+#: src/predefined.py:397
 msgid ""
 "All tiles concealed of same color: Values 1112345678999 with one pair from 2 "
 "to 8 (last tile from wall or discarded)"
@@ -1548,230 +1525,242 @@ msgstr ""
 "Tüm taşlar aynı renkte kapalı: Değerler 1112345678999 bir çift 2’den 8’e "
 "(duvardaki son taş veya çıkarılır)"
 
-#: src/predefined.py:386
+#: src/predefined.py:400
 msgid "Wriggling Snake"
 msgstr "Kıvrılan Yılan"
 
-#: src/predefined.py:387
+#: src/predefined.py:401
 msgid ""
 "Pair of 1s and a run from 2 to 9 in the same suit with each of the winds"
-msgstr "1ler çifti ve rüzgarların her biriyle aynı takımda 2’den 9’a koşu"
+msgstr "1’ler çifti ve rüzgârların her biriyle aynı takımda 2’den 9’a koşu"
 
-#: src/predefined.py:389
+#: src/predefined.py:403
 msgid "Triple Knitting"
 msgstr "Üçlü Örgü"
 
-#: src/predefined.py:390
+#: src/predefined.py:404
 msgid ""
 "Four sets of three tiles in the different suits and a pair: No Winds or "
 "Dragons"
 msgstr ""
-"4 tane Farklı takımlarda üçlü taş ve bir çift: Rüzgarlar veya Ejderhalar yok"
+"4 tane Farklı takımlarda üçlü taş ve bir çift: Rüzgârlar veya Ejderhalar yok"
 
-#: src/predefined.py:391
+#: src/predefined.py:405
 msgid "Knitting"
 msgstr "Örgü"
 
-#: src/predefined.py:392
+#: src/predefined.py:406
 msgid "7 pairs of tiles in any 2 out of 3 suits; no Winds or Dragons"
 msgstr ""
-"3 takımdan 2’sinin herhangi birinde 7 çift taş; Rüzgarlar ya da Ejderhalar "
+"3 takımdan 2’sinin herhangi birinde 7 çift taş; Rüzgârlar ya da Ejderhalar "
 "yok"
 
-#: src/predefined.py:394
+#: src/predefined.py:408
 msgid "All pair honors"
 msgstr "Tüm onur taşı çiftleri"
 
-#: src/predefined.py:395
+#: src/predefined.py:409
 msgid "7 pairs of 1s/9s/Winds/Dragons"
 msgstr "7 çift 1ler/9lar/Rüzglar/Ejderhalar"
 
-#: src/predefined.py:398
+#: src/predefined.py:412 src/predefined.py:536
 msgid "Own Flower"
 msgstr "Kendi Çiçeği"
 
-#: src/predefined.py:399
+#: src/predefined.py:413 src/predefined.py:537
 msgid "Own Season"
 msgstr "Kendi Sezonu"
 
-#: src/predefined.py:411
+#: src/predefined.py:425
 msgid "Buried Treasure"
 msgstr "Gömülü Hazine"
 
-#: src/predefined.py:412
+#: src/predefined.py:426
 msgid "Concealed pungs of one suit with winds/dragons and a pair"
-msgstr "Rüzgarlı/ejderli bir takımın kapalı pung’ları ve bir çift"
+msgstr "Rüzgârlı/ejderli bir takımın kapalı pung’ları ve bir çift"
 
-#: src/predefined.py:413
+#: src/predefined.py:427 src/predefined.py:548
 msgid "Purity"
 msgstr "Saflık"
 
-#: src/predefined.py:414
+#: src/predefined.py:428 src/predefined.py:549
 msgid "Only same-colored tiles (no chows, dragons or winds)"
-msgstr "Yalnızca aynı renk taşlar (chow, ejderha veya rüzgar yok)"
+msgstr "Yalnızca aynı renk taşlar (chow, ejderha veya rüzgâr yok)"
 
-#: src/predefined.py:417
+#: src/predefined.py:431
 msgid "3 Pungs or Kongs of dragons plus any pung/kong and a pair"
 msgstr "3 Pung veya Kong ejderhası artı herhangi pung/kong ve bir çift"
 
-#: src/predefined.py:420
+#: src/predefined.py:434
 msgid "The 13 Unique Wonders"
 msgstr "13 Benzersiz Harika"
 
-#: src/predefined.py:427
+#: src/predefined.py:441 src/predefined.py:553
 msgid "False Naming of Discard, Claimed for Chow/Pung/Kong"
 msgstr "Çıkarmanın Yanlış İsimlendirilmesi, Chow/Pung/Kong için talep edildi"
 
-#: src/predefined.py:437
+#: src/predefined.py:451
 msgid "Calling for Only Honors"
 msgstr "Yalnızca Onur Taşları Çağrısı"
 
-#: src/predefined.py:441
+#: src/predefined.py:455
 msgid "Calling for Wriggling Snake"
 msgstr "Kıvrılan YIlan Çağrısı"
 
-#: src/predefined.py:445
+#: src/predefined.py:459
 msgid "Calling for Triple Knitting"
 msgstr "Üçlü Örgü Çağrısı"
 
-#: src/predefined.py:449
+#: src/predefined.py:463
 msgid "Calling for Gates of Heaven"
 msgstr "Cennet Kapıları Çağrısı"
 
-#: src/predefined.py:452
+#: src/predefined.py:466
 msgid "Calling for Knitting"
 msgstr "Örgü Çağrısı"
 
-#: src/predefined.py:456
+#: src/predefined.py:470
 msgid "Calling for Imperial Jade"
 msgstr "İmparatorluk Atı Çağrısı"
 
-#: src/predefined.py:460
+#: src/predefined.py:474
 msgid "Calling for The 13 Unique Wonders"
 msgstr "13 Benzersiz Harika Çağrısı"
 
-#: src/predefined.py:463
+#: src/predefined.py:477
 msgid "Calling for Three Great Scholars"
 msgstr "Üç Büyük Bilgin Çağrısı"
 
-#: src/predefined.py:466
+#: src/predefined.py:480
 msgid "Calling for All pair honors"
 msgstr "Tüm onur taşı çiftleri için çağrı"
 
-#: src/predefined.py:470
+#: src/predefined.py:484
 msgid "Calling for Heads and Tails"
 msgstr "Başlar ve Kuyruklar Çağrılıyor"
 
-#: src/predefined.py:474
+#: src/predefined.py:488
 msgid "Calling for Four Blessings Hovering over the Door"
 msgstr "Kapı üstünde gezinen Dört Kutsama çağrılıyor"
 
-#: src/predefined.py:477
+#: src/predefined.py:491
 msgid "Calling for Buried Treasure"
 msgstr "Gömülü Hazine çağrılıyor"
 
-#: src/predefined.py:481
+#: src/predefined.py:495
 msgid "Calling for Fourfold Plenty"
 msgstr "Dört Kat Bolluk çağrılıyor"
 
-#: src/predefined.py:485
+#: src/predefined.py:499
 msgid "Calling for Purity"
 msgstr "Saflık Çağrılıyor"
 
-#: src/query.py:219
+#: src/predefined.py:509
+msgid "Taiwanese 16-tile game, FOR DEVELOPERS"
+msgstr "16 taşlı Tayvan oyunu, GELİŞTİRİCİLER İÇİN"
+
+#: src/predefined.py:515
+msgid ""
+"Taiwanese 16-Tiles Mah Jongg, early alpha. See https://bugs.kde.org/show_bug."
+"cgi?id=298821"
+msgstr ""
+"16 taşlı Tayvan Mah Jongg oyunu, erken alfa sürüm. https://bugs.kde.org/"
+"show_bug.cgi?id=298821 adresine bakın."
+
+#: src/query.py:197
 msgctxt "kajongg name for local game server"
 msgid "Local Game"
 msgstr "Yerel Oyun"
 
-#: src/query.py:397
+#: src/query.py:430
 msgid "Database %1 updated from schema %2 to %3"
 msgstr "%1 veritabanı %2 şemasından %3 şemasına güncellendi"
 
-#: src/rule.py:40 src/scoringdialog.py:677 src/scoringdialog.py:760
+#: src/rule.py:49 src/scoringdialog.py:703 src/scoringdialog.py:782
 msgid "points"
 msgstr "puanlar"
 
-#: src/rule.py:41
+#: src/rule.py:50
 msgctxt "kajongg"
 msgid "doubles"
 msgstr "çiftler"
 
-#: src/rule.py:42
+#: src/rule.py:51
 msgctxt "kajongg"
 msgid "limits"
 msgstr "sınırlar"
 
-#: src/rule.py:79
+#: src/rule.py:91
 msgctxt "Kajongg"
 msgid "%1 points"
 msgstr "%1 puan"
 
-#: src/rule.py:81
+#: src/rule.py:93
 msgctxt "Kajongg"
 msgid "%1 doubles"
 msgstr "%1 çiftler"
 
-#: src/rule.py:86
+#: src/rule.py:98
 msgctxt "Kajongg"
 msgid "%1 limits"
 msgstr "%1 sınırlar"
 
-#: src/rule.py:325
+#: src/rule.py:366
 msgid "Meld Rules"
 msgstr "Birleşim Kuralları"
 
-#: src/rule.py:326
+#: src/rule.py:367
 msgid ""
 "Meld rules are applied to single melds independent of the rest of the hand"
 msgstr ""
 "Birleşim kuralları elin geri kalanından bağımsız tekli birleşimlere uygulanır"
 
-#: src/rule.py:327
+#: src/rule.py:368
 msgid "Hand Rules"
 msgstr "El Kuralları"
 
-#: src/rule.py:328
+#: src/rule.py:369
 msgid "Hand rules are applied to the entire hand, for all players"
 msgstr "El kuralları tüm oyuncular için tüm el boyunca uygulanır"
 
-#: src/rule.py:329
+#: src/rule.py:370
 msgid "Winner Rules"
 msgstr "Kazanan Kuralları"
 
-#: src/rule.py:330
+#: src/rule.py:371
 msgid "Winner rules are applied to the entire hand but only for the winner"
 msgstr "Kazanan kuralları tüm ele ama yalnızca kazanan için uygulanır"
 
-#: src/rule.py:331
+#: src/rule.py:372
 msgid "Loser Rules"
 msgstr "Kaybeden Kuralları"
 
-#: src/rule.py:332
+#: src/rule.py:373
 msgid "Loser rules are applied to the entire hand but only for non-winners"
 msgstr "Kaybeden kuralları tüm ele ama yalnızca kazanamayanlar için uygulanır"
 
-#: src/rule.py:333
+#: src/rule.py:374
 msgid "Mah Jongg Rules"
 msgstr "Mah Jongg Kuralları"
 
-#: src/rule.py:334
+#: src/rule.py:375
 msgid "Only hands matching a Mah Jongg rule can win"
 msgstr "Yalnızca Mah Jongg kuralıyla eşleşen eller kazanabilir"
 
-#: src/rule.py:335
+#: src/rule.py:376
 msgctxt "kajongg"
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/rule.py:336
+#: src/rule.py:377
 msgid "Here we have several special game related options"
 msgstr "Burda oyunla ilgili çeşitli seçenekler mevcut"
 
-#: src/rule.py:337
+#: src/rule.py:378
 msgid "Penalties"
 msgstr "Cezalar"
 
-#: src/rule.py:338
+#: src/rule.py:379
 msgid ""
 "Penalties are applied manually by the user. They are only used for scoring "
 "games.\n"
@@ -1785,526 +1774,611 @@ msgstr ""
 "ödemenizi gerektirecek\n"
 "durumda bırakmaz"
 
-#: src/rule.py:534
+#: src/rule.py:579
 msgctxt "Ruleset._newKey:%1 is empty or space plus number"
 msgid "Copy%1 of %2"
 msgstr "%1/%2 Kopyası"
 
-#: src/rule.py:896
+#: src/rule.py:935
 msgctxt "%1 can be a sentence"
 msgid "%4 have impossible values %2/%3 in rule \"%1\""
-msgstr "%4 \"%1\" kuralında imkansız değerlere sahip %2/%3"
+msgstr "%4, “%1” kuralında olanaksız değerlere sahip %2/%3"
 
-#: src/rule.py:992
+#: src/rule.py:1023
 msgctxt "wrong value for rule"
 msgid "%1: %2 is too small, minimal value is %3"
 msgstr "%1: %2 çok küçük, asgari değer %3"
 
-#: src/rulesetselector.py:477
+#: src/rulesetselector.py:511
 msgctxt "@title:window"
 msgid "Customize rulesets"
 msgstr "Kural kümelerini özelleştir"
 
-#: src/rulesetselector.py:495
+#: src/rulesetselector.py:530
 msgctxt "kajongg"
 msgid "Rule"
 msgstr "Kural"
 
-#: src/rulesetselector.py:552
+#: src/rulesetselector.py:592
 msgid "C&opy"
 msgstr "Ko&pyala"
 
-#: src/rulesetselector.py:553
+#: src/rulesetselector.py:593
 msgctxt "Kajongg ruleset comparer"
 msgid "Co&mpare"
 msgstr "K&arşılaştır"
 
-#: src/rulesetselector.py:554
+#: src/rulesetselector.py:594
 msgid "&Remove"
 msgstr "&Kaldır"
 
-#: src/rulesetselector.py:555
+#: src/rulesetselector.py:595
 msgid "&Close"
 msgstr "&Kapat"
 
-#: src/scene.py:365 src/scene.py:498
+#: src/scene.py:389 src/scene.py:517
 msgid "Do you really want to abort this game?"
-msgstr "Bu oyundan çıkmak istediğinize emin misiniz?"
+msgstr "Bu oyundan çıkmak istediğinizden emin misiniz?"
 
-#: src/scoring.py:43
+#: src/scoring.py:60
 msgctxt "@title:window"
 msgid "Swap Seats"
 msgstr "Koltukları Değiştir"
 
-#: src/scoring.py:45
+#: src/scoring.py:62
 msgid "By the rules, %1 and %2 should now exchange their seats. "
 msgstr "Kurallar gereği, %1 ve %2 koltuklarını değişmeli. "
 
-#: src/scoring.py:47
+#: src/scoring.py:64
 msgid "&Exchange"
 msgstr "&Değiştir"
 
-#: src/scoring.py:49
+#: src/scoring.py:66
 msgid "&Keep seat"
 msgstr "&Koltukta kal"
 
-#: src/scoring.py:60
+#: src/scoring.py:85
 msgctxt "@title:window"
 msgid "Select four players"
 msgstr "Dört oyuncu seç"
 
-#: src/scoring.py:288
+#: src/scoring.py:360
 msgid "Move Exposed Tiles Here"
 msgstr "Açıktaki Taşları Buraya Taşı"
 
-#: src/scoring.py:289
+#: src/scoring.py:361
 msgid "Move Concealed Tiles Here"
 msgstr "Kapalı Taşları Buraya Taşı"
 
-#: src/scoring.py:599
+#: src/scoring.py:673
 msgid "Please define four players in <interface>Settings|Players</interface>"
 msgstr ""
 "Lütfen <interface>Ayarlar|Oyuncular</interface> menüsünden dört oyuncu "
 "belirleyin"
 
-#: src/scoringdialog.py:234
+#: src/scoringdialog.py:258
 msgid "Round/Hand"
 msgstr "Tur/El"
 
-#: src/scoringdialog.py:262 src/scoringdialog.py:813
+#: src/scoringdialog.py:299 src/scoringdialog.py:834
 msgctxt "kajongg"
 msgid "Score"
 msgstr "Puan"
 
-#: src/scoringdialog.py:262
+#: src/scoringdialog.py:299
 msgctxt "kajongg"
 msgid "Payments"
 msgstr "Ödemeler"
 
-#: src/scoringdialog.py:263
+#: src/scoringdialog.py:300
 msgctxt "kajongg"
 msgid "Balance"
 msgstr "Denge"
 
-#: src/scoringdialog.py:263
+#: src/scoringdialog.py:300
 msgctxt "kajongg"
 msgid "Chart"
 msgstr "Çizelge"
 
-#: src/scoringdialog.py:409
+#: src/scoringdialog.py:410
 msgctxt "kajongg"
 msgid "Scores"
 msgstr "Puanlar"
 
-#: src/scoringdialog.py:451
+#: src/scoringdialog.py:452
 msgctxt "kajongg"
 msgid "Used Rules"
 msgstr "Kullanılan Kurallar"
 
-#: src/scoringdialog.py:485
+#: src/scoringdialog.py:487
 msgid "Final scores for game <numid>%1</numid>"
 msgstr "Oyun sonu puanları <numid>%1</numid>"
 
-#: src/scoringdialog.py:487
+#: src/scoringdialog.py:489
 msgid "Scores for game <numid>%1</numid>"
 msgstr "<numid>%1</numid> oyunu için puanlar"
 
-#: src/scoringdialog.py:559
+#: src/scoringdialog.py:569
 msgctxt "@title:window"
 msgid "Explain Scores"
 msgstr "Puanları Açıkla"
 
-#: src/scoringdialog.py:575
+#: src/scoringdialog.py:585
 msgid "There is no active game"
 msgstr "Etkin oyun yok"
 
-#: src/scoringdialog.py:578
+#: src/scoringdialog.py:588
 msgid "%1"
 msgstr "%1"
 
-#: src/scoringdialog.py:592
+#: src/scoringdialog.py:602
 msgid "Manual score for %1: %2 points"
 msgstr "%1 için elle puan: %2 puan"
 
-#: src/scoringdialog.py:663
+#: src/scoringdialog.py:689
 msgid "Penalty"
 msgstr "Ceza"
 
-#: src/scoringdialog.py:666
+#: src/scoringdialog.py:692
 msgid "Offense:"
 msgstr "Saldırı:"
 
-#: src/scoringdialog.py:673
+#: src/scoringdialog.py:699
 msgid "Total Penalty"
 msgstr "Toplam Ceza"
 
-#: src/scoringdialog.py:706
+#: src/scoringdialog.py:727
 msgid "&Execute"
 msgstr "Ç&alıştır"
 
-#: src/scoringdialog.py:783
+#: src/scoringdialog.py:805
 msgctxt "penalty dialog, appears behind paying player combobox"
 msgid "pays %1 points"
 msgstr "%1 puan öder"
 
-#: src/scoringdialog.py:788
+#: src/scoringdialog.py:810
 msgctxt "penalty dialog, appears behind profiting player combobox"
 msgid "gets %1 points"
 msgstr "%1 puan alır"
 
-#: src/scoringdialog.py:799
+#: src/scoringdialog.py:821
 msgctxt "@title:window"
 msgid "Scoring for this Hand"
 msgstr "Bu El için Puanlama"
 
-#: src/scoringdialog.py:811
+#: src/scoringdialog.py:832
 msgctxt "kajongg"
 msgid "Player"
 msgstr "Oyuncu"
 
-#: src/scoringdialog.py:812
+#: src/scoringdialog.py:833
 msgctxt "kajongg"
 msgid "Wind"
-msgstr "Rüzgar"
+msgstr "Rüzgâr"
 
-#: src/scoringdialog.py:814
+#: src/scoringdialog.py:835
 msgid "Winner"
 msgstr "Kazanan"
 
-#: src/scoringdialog.py:820
+#: src/scoringdialog.py:841
 msgctxt "kajongg"
 msgid "Draw"
 msgstr "Çiz"
 
-#: src/scoringdialog.py:822
+#: src/scoringdialog.py:843
 msgid "&Penalties"
 msgstr "&Cezalar"
 
-#: src/scoringdialog.py:824
+#: src/scoringdialog.py:845
 msgid "&Save Hand"
 msgstr "&Eli Kaydet"
 
-#: src/scoringdialog.py:846
+#: src/scoringdialog.py:867
 msgid "&Last Tile:"
-msgstr "&Son Taş:"
+msgstr "&Son taş:"
 
-#: src/scoringdialog.py:855
+#: src/scoringdialog.py:876
 msgid "L&ast Meld:"
-msgstr "S&on Birleşme:"
+msgstr "S&on birleşme:"
 
-#: src/server.py:113
+#: src/server.py:122
 msgid "Wrong password"
 msgstr "Yanlış parola"
 
-#: src/server.py:212
+#: src/server.py:218
 msgid "table with id <numid>%1</numid> not found"
 msgstr "<numid>%1</numid> kimliğine sahip masa bulunamadı"
 
-#: src/server.py:358
+#: src/server.py:366
 msgid "Player %1 has logged out"
 msgstr "%1 oyuncusu çıktı"
 
-#: src/server.py:429
-#, python-format
-msgid "the server will listen on PORT (%d)"
-msgstr "sunucu PORT (%d) üstünde dinleme yapacak"
+#: src/server.py:436
+msgid "the server will listen on PORT ({int(defaultPort)})"
+msgstr "sunucu, KAPI üzerinde dinleme yapacak ({int(öntanımlıKapı)})"
 
-#: src/server.py:433
+#: src/server.py:439
 msgid "the server will listen on SOCKET"
-msgstr "sunucu SOCKET üstünde dinleme yapacak"
+msgstr "sunucu YUVA üstünde dinleme yapacak"
 
-#: src/server.py:438
+#: src/server.py:443
 msgid "name of the database"
 msgstr "veritabanı adı"
 
-#: src/server.py:442
+#: src/server.py:447
 msgid "do not terminate local game server after last client disconnects"
 msgstr "son istemci bağlantıyı kestikten sonra oyun sunucusunu sonlandırma"
 
-#: src/server.py:447
-msgid "unrecognized arguments:%1"
-msgstr "tanınmayan değişkenler:%1"
-
-#: src/servertable.py:157
+#: src/servertable.py:181
 msgid "You already joined this table"
 msgstr "Bu masaya zaten katıldınız"
 
-#: src/servertable.py:159
+#: src/servertable.py:183
 msgid "All seats are already taken"
 msgstr "Tüm koltuklar alınmış"
 
-#: src/servertable.py:164
+#: src/servertable.py:188
 msgid "takes a seat"
 msgstr "bir koltuk alır"
 
-#: src/servertable.py:172
+#: src/servertable.py:196
 msgid "leaves the table"
 msgstr "masayı terk eder"
 
-#: src/servertable.py:221
+#: src/servertable.py:242
 msgctxt "kajongg, name of robot player, to be translated"
 msgid "Robot 1"
 msgstr "Robot 1"
 
-#: src/servertable.py:224
+#: src/servertable.py:245
 msgctxt "kajongg, name of robot player, to be translated"
 msgid "Robot 2"
 msgstr "Robot 2"
 
-#: src/servertable.py:225
+#: src/servertable.py:246
 msgctxt "kajongg, name of robot player, to be translated"
 msgid "Robot 3"
 msgstr "Robot 3"
 
-#: src/servertable.py:279
+#: src/servertable.py:302
 msgid "Only the initiator %1 can start this game, you are %2"
 msgstr "Bu oyunu yalnızca %1 başlatabilir, siz %2 olarak varsınız"
 
-#: src/servertable.py:648
+#: src/servertable.py:701
 msgid "Game <numid>%1</numid> is over!"
 msgstr "<numid>%1</numid> oyunu bitti!"
 
-#: src/servertable.py:677
+#: src/servertable.py:730
 msgid "%1 wrongly said %2 for meld %3"
 msgstr "%1 %3 birleşimi için yanlışlıkla %2 dedi"
 
-#: src/servertable.py:682
+#: src/servertable.py:735
 msgid "%1 wrongly said %2: claims to have concealed tiles %3 but only has %4"
 msgstr ""
 "%1 yanlışlıkla %2 dedi: %3 kapalı taşlarına sahip olduğunu söyledi ama "
 "yalnızca %4 var"
 
-#: src/servertable.py:720
+#: src/servertable.py:772
 msgid "declareKong:%1 wrongly said Kong for meld %2"
 msgstr "Kongilanı:%1 %2 birleşimi için yanlışlıkla Kong dedi"
 
-#: src/servertable.py:768
+#: src/servertable.py:821
 msgid "%1 claiming MahJongg: This is not a winning hand: %2"
 msgstr "%1 MahJongg dedi: Bu kazanan bir el değil: %2"
 
-#: src/sound.py:58
+#: src/sound.py:70
 msgid "No voices will be heard because the program %1 is missing"
 msgstr "Hiçbir ses duyulmayacak çünkü %1 programı eksik"
 
-#: src/sound.py:358
+#: src/sound.py:375
 msgid "cannot write <filename>%1</filename>: %2"
 msgstr "<filename>%1</filename> yazılamıyor: %2"
 
-#: src/sound.py:361
+#: src/sound.py:378
 msgid "The voice files have changed, their checksum has changed."
 msgstr "Ses dosyaları değişti, sağlama toplamları değişmiş."
 
-#: src/sound.py:362
+#: src/sound.py:379
 msgid "Please reinstall kajongg or do, with sufficient permissions:"
 msgstr "Lütfen kajongg’u yeniden kurun veya yeterli izinlerle şunu yapın:"
 
-#: src/tables.py:56
+#: src/tables.py:65
 msgid "Table"
 msgstr "Tablo"
 
-#: src/tables.py:60
+#: src/tables.py:69
 msgctxt "table status"
 msgid "Status"
 msgstr "Durum"
 
-#: src/tables.py:61
+#: src/tables.py:70
 msgid "Ruleset"
 msgstr "Kural Kümesi"
 
-#: src/tables.py:145
+#: src/tables.py:149
 msgid "Select a ruleset"
 msgstr "Bir kural kümesi seçin"
 
-#: src/tables.py:183
+#: src/tables.py:186
 msgctxt "allocate a new table"
 msgid "&New"
 msgstr "&Yeni"
 
-#: src/tables.py:186 src/tables.py:326
+#: src/tables.py:187 src/tables.py:331 src/tables.py:363
 msgid "Allocate a new table"
 msgstr "Yeni bir masa aç"
 
-#: src/tables.py:189 src/tables.py:327
+#: src/tables.py:193 src/tables.py:332 src/tables.py:364
 msgid "&Join"
 msgstr "&Katıl"
 
-#: src/tables.py:193 src/tables.py:328
+#: src/tables.py:194 src/tables.py:333 src/tables.py:365
 msgid "Join a table"
 msgstr "Masaya katıl"
 
-#: src/tables.py:195
+#: src/tables.py:200
 msgid "&Leave"
 msgstr "&Ayrıl"
 
-#: src/tables.py:199
+#: src/tables.py:201
 msgid "Leave a table"
 msgstr "Masayı terk et"
 
-#: src/tables.py:202
+#: src/tables.py:207
 msgctxt "Kajongg-Ruleset"
 msgid "Compare"
 msgstr "Karşılaştır"
 
-#: src/tables.py:207
+#: src/tables.py:208
 msgid "Compare the rules of this table with my own rulesets"
 msgstr "Bu masanın kurallarını kendi kural kümemle karşılaştır"
 
-#: src/tables.py:209
+#: src/tables.py:214
 msgid "&Chat"
 msgstr "&Sohbet"
 
-#: src/tables.py:214
+#: src/tables.py:221
 msgid "&Start"
 msgstr "&Başlat"
 
-#: src/tables.py:219
+#: src/tables.py:222
 msgid "Start playing on a table. Empty seats will be taken by robot players."
 msgstr ""
 "Bir masada oynamaya başla. Boş koltuklar robot oyuncular tarafından alınacak."
 
-#: src/tables.py:261
+#: src/tables.py:281
 msgid "opens a chat window"
 msgstr "bir sohbet penceresi açar"
 
-#: src/tables.py:280
+#: src/tables.py:300
 msgid "Local Games with Ruleset %1"
 msgstr "%1 Kuralkümeli Yerel Oyunlar"
 
-#: src/tables.py:283
+#: src/tables.py:304
 msgid "Tables at %1"
 msgstr "%1 konumundaki masalar"
 
-#: src/tables.py:320
+#: src/tables.py:357
 msgid "Start a new game"
 msgstr "Yeni bir oyun başlat"
 
-#: src/tables.py:322
+#: src/tables.py:359
 msgctxt "resuming a local suspended game"
 msgid "&Resume"
 msgstr "&Sürdür"
 
-#: src/tables.py:324
+#: src/tables.py:361
 msgid "Resume the selected suspended game"
 msgstr "Seçili bekletilen oyunu sürdür"
 
-#: src/tables.py:342
+#: src/tables.py:379
 msgid "Chat with others on this table"
 msgstr "Bu masadaki diğerleriyle sohbet et"
 
-#: src/tables.py:345
+#: src/tables.py:382
 msgid "For chatting with others on this table, please first take a seat"
 msgstr "Bu masadakilerle sohbet etmek için lütfen önce bir koltuğa geçin"
 
-#: src/tile.py:192
+#: src/tile.py:277
 msgctxt "kajongg"
 msgid "hidden"
 msgstr "gizli"
 
-#: src/tile.py:193
+#: src/tile.py:278
 msgctxt "kajongg"
 msgid "stone"
 msgstr "taş"
 
-#: src/tile.py:194
+#: src/tile.py:279
 msgctxt "kajongg"
 msgid "bamboo"
 msgstr "bambu"
 
-#: src/tile.py:195
+#: src/tile.py:280
 msgctxt "kajongg"
 msgid "character"
 msgstr "karakter"
 
-#: src/tile.py:196
+#: src/tile.py:281
 msgctxt "kajongg"
 msgid "wind"
-msgstr "rüzgar"
+msgstr "rüzgâr"
 
-#: src/tile.py:197
+#: src/tile.py:282
 msgctxt "kajongg"
 msgid "dragon"
 msgstr "ejderha"
 
-#: src/tile.py:198
+#: src/tile.py:283
 msgctxt "kajongg"
 msgid "flower"
 msgstr "çiçek"
 
-#: src/tile.py:199
+#: src/tile.py:284
 msgctxt "kajongg"
 msgid "season"
 msgstr "sezon"
 
-#: src/tile.py:205
+#: src/tile.py:290
 msgctxt "kajongg"
 msgid "tile"
 msgstr "taş"
 
-#: src/tile.py:206
+#: src/tile.py:291
 msgctxt "kajongg"
 msgid "white"
 msgstr "Beyaz"
 
-#: src/tile.py:207
+#: src/tile.py:292
 msgctxt "kajongg"
 msgid "red"
 msgstr "kırmızı"
 
-#: src/tile.py:208
+#: src/tile.py:293
 msgctxt "kajongg"
 msgid "green"
 msgstr "yeşil"
 
-#: src/tile.py:209
+#: src/tile.py:294
 msgctxt "kajongg"
 msgid "East"
 msgstr "Doğu"
 
-#: src/tile.py:210
+#: src/tile.py:295
 msgctxt "kajongg"
 msgid "South"
 msgstr "Güney"
 
-#: src/tile.py:211
+#: src/tile.py:296
 msgctxt "kajongg"
 msgid "West"
 msgstr "Batı"
 
-#: src/tile.py:212
+#: src/tile.py:297
 msgctxt "kajongg"
 msgid "North"
 msgstr "Kuzey"
 
-#: src/tile.py:221
+#: src/tile.py:306
 msgid "East Wind"
-msgstr "Doğu Rüzgarı"
+msgstr "Doğu Rüzgârı"
 
-#: src/tile.py:222
+#: src/tile.py:307
 msgid "South Wind"
-msgstr "Güney Rüzgarı"
+msgstr "Güney Rüzgârı"
 
-#: src/tile.py:223
+#: src/tile.py:308
 msgid "West Wind"
-msgstr "Batı Rüzgarı"
+msgstr "Batı Rüzgârı"
 
-#: src/tile.py:224
+#: src/tile.py:309
 msgid "North Wind"
-msgstr "Kuzey Rüzgarı"
+msgstr "Kuzey Rüzgârı"
 
-#: src/tile.py:226
+#: src/tile.py:311
 #, python-brace-format
 msgctxt "kajongg tile name"
 msgid "{group} {value}"
 msgstr "{group} {value}"
 
-#: src/user.py:84
+#: src/tile.py:880
+msgctxt "kajongg meld type"
+msgid "Bonus"
+msgstr "Bonus"
+
+#: src/tile.py:882
+msgctxt "kajongg meld type"
+msgid "&single"
+msgstr "&tekil"
+
+#: src/tile.py:884
+msgctxt "kajongg meld type"
+msgid "&pair"
+msgstr "&çift"
+
+#: src/tile.py:886
+msgctxt "kajongg meld type"
+msgid "&chow"
+msgstr "&chow"
+
+#: src/tile.py:888
+msgctxt "kajongg meld type"
+msgid "p&ung"
+msgstr "p&ung"
+
+#: src/tile.py:890
+msgctxt "kajongg meld type"
+msgid "c&laimed kong"
+msgstr "kong &ilan edildi"
+
+#: src/tile.py:892
+msgctxt "kajongg meld type"
+msgid "k&ong"
+msgstr "k&ong"
+
+#: src/tile.py:893
+msgctxt "kajongg meld type"
+msgid "rest of tiles"
+msgstr "geri kalan taşlar"
+
+#: src/tile.py:900
+msgctxt "kajongg meld state"
+msgid "Exposed"
+msgstr "Açıkta"
+
+#: src/tile.py:901
+msgctxt "kajongg meld state"
+msgid "Concealed"
+msgstr "Kapalı"
+
+#: src/tile.py:907
+#, python-brace-format
+msgctxt "kajongg meld name, do not translate parameter names"
+msgid "{state} {meldType} {name}"
+msgstr "{state} {meldType} {name}"
+
+#: src/tilesetselector.py:141
+msgctxt "TilesetSelector"
+msgid "Preview"
+msgstr "Önizleme"
+
+#: src/tilesetselector.py:142
+msgctxt "TilesetSelector"
+msgid "Properties"
+msgstr "Özellikler"
+
+#: src/tilesetselector.py:143
+msgctxt "TilesetSelector"
+msgid "Author:"
+msgstr "Yazar:"
+
+#: src/tilesetselector.py:144
+msgctxt "TilesetSelector"
+msgid "Contact:"
+msgstr "İletişim:"
+
+#: src/tilesetselector.py:145
+msgctxt "TilesetSelector"
+msgid "Description:"
+msgstr "Açıklama:"
+
+#: src/user.py:94
 msgid ""
 "Your client has a version older than 4.9.0 but you need %1 for this server"
 msgstr "İstemci sürümünüz 4.9.0’dan daha eski, bu sunucu için %1 gerekiyor"
 
-#: src/user.py:93
+#: src/user.py:98
 msgid "Your client has version %1 but you need %2 for this server"
 msgstr "İstemci sürümünüz %1, bu sunucu için %2 gerekiyor"
+
+#~ msgid "License Agreement"
+#~ msgstr "Lisans Antlaşması"
+
+#~ msgid "play only ROUNDS rounds per game. Only for debugging!"
+#~ msgstr "oyun başına yalnızca EL el oyna. Yalnızca hata ayıklama için!"
+
+#~ msgid "unrecognized arguments:%1"
+#~ msgstr "tanınmayan değişkenler:%1"
 
 #~ msgid "Not using broken Python KDE bindings"
 #~ msgstr "Python KDE bağıntıları kullanılmıyor"

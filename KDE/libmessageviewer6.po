@@ -1,6 +1,6 @@
 # translation of kmail.po to Turkish
 # Copyright (C) 2000,2003, 2004, 2005, 2008 Free Software Foundation, Inc.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 # Mehmet TARIMCI <mehmet@gelecek.com.tr>, 2000.
 # Görkem Çetin <gorkem@kde.org>, 2003, 2004.
 # Barış Metin <baris@uludag.org.tr>, 2004.
@@ -16,16 +16,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-22 00:38+0000\n"
-"PO-Revision-Date: 2024-03-08 20:00+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-09-03 00:44+0000\n"
+"PO-Revision-Date: 2025-09-04 15:07+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 25.08.0\n"
 "X-POOTLE-MTIME: 1413111326.000000\n"
 
 #: messagepartthemes/default/templates/certmessagepart.html:2
@@ -106,15 +106,13 @@ msgstr "İletinin Şifresini Çöz"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:14
 msgid "Please wait while the message is being decrypted..."
-msgstr "Lütfen iletinin şifresi çözülürken bekleyin..."
+msgstr "Lütfen iletinin şifresi çözülürken bekleyin…"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:18
 msgid "The message is encrypted for the following keys:"
 msgstr "İleti, aşağıdaki anahtarlar için şifreli:"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:20
-#: messagepartthemes/default/templates/signedmessagepart.html:72
-#: messagepartthemes/default/templates/signedmessagepart.html:146
 msgid "Hide Details"
 msgstr "Ayrıntıları Gizle"
 
@@ -140,7 +138,6 @@ msgid "Encrypted message"
 msgstr "Şifreli ileti"
 
 #: messagepartthemes/default/templates/encryptedmessagepart.html:43
-#: messagepartthemes/default/templates/signedmessagepart.html:174
 msgid "Show Details"
 msgstr "Ayrıntıları Göster"
 
@@ -175,9 +172,10 @@ msgid ""
 "activate formatted HTML display for this message <a href='kmail:showHTML'>by "
 "clicking here</a>."
 msgstr ""
-"<b>Not:</b> Bu bir HTML iletisidir. Güvenlik nedenleriyle yalnızca ham HTML "
-"gösterilecektir. Gönderene güveniyorsanız HTML biçimli gösterimi <a "
-"href='kmail:showHTML'>buraya</a> tıklayarak etkin hale getirebilirsiniz."
+"<b>Not:</b> Bu bir HTML iletisidir. Güvenlik nedenlerinden dolayı yalnızca "
+"ham HTML kodu gösterilir. Bu iletinin göndericisine güveniyorsanız <a "
+"href='kmail:showHTML'>buraya</a> tıklayarak HTML biçimli gösterimi "
+"etkinleştirebilirsiniz."
 
 #: messagepartthemes/default/templates/htmlmessagepart.html:12
 msgid ""
@@ -186,138 +184,17 @@ msgid ""
 "trust the sender of this message then you can load the external references "
 "for this message <a href='kmail:loadExternal'>by clicking here</a>."
 msgstr ""
-"<b>Not:</b> Bu bir HTML iletisidir. Güvenlik nedenleriyle dış kaynaklar "
-"(örn. görseller) gösterilmeyecektir. Bu iletiyi gönderen kişi ya da kuruma "
-"güveniyorsanız <a href='kmail:loadExternal'>buraya</a> tıklayarak dış "
-"kaynakların gösterimini etkin hale getirebilirsiniz."
+"<b>Not:</b> Bu HTML iletisi görsellere veya benzer ögelere dış başvurular "
+"içerebilir. Güvenlik ve gizlilik nedenlerinden dolayı dış başvurular "
+"yüklenmezler. Bu iletinin göndericisine güveniyorsanız <a href='kmail:"
+"loadExternal'>buraya</a> tıklayarak dış başvuruları yüklemeyi "
+"etkinleştirebilirsiniz."
 
 #: messagepartthemes/default/templates/signedmessagepart.html:5
 msgid "Please wait while the signature is being verified..."
-msgstr "Lütfen imza doğrulanırken bekleyin..."
+msgstr "Lütfen imza doğrulanırken bekleyin…"
 
-#: messagepartthemes/default/templates/signedmessagepart.html:15
-#, kde-format
-msgid "Not enough information to check signature. %1"
-msgstr "İmzalamayı denetlemek için yeterli bilgi yok. %1"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:20
-#: messagepartthemes/default/templates/signedmessagepart.html:88
-#: messagepartthemes/default/templates/signedmessagepart.html:115
-#: messagepartthemes/default/templates/signedmessagepart.html:134
-#, kde-format
-msgid "Message was signed by %1."
-msgstr "İleti, %1 tarafından imzalandı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:22
-#: messagepartthemes/default/templates/signedmessagepart.html:99
-msgid "Message was signed with unknown key."
-msgstr "İleti, bilinmeyen anahtarla imzalandı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:28
-#: messagepartthemes/default/templates/signedmessagepart.html:36
-#: messagepartthemes/default/templates/signedmessagepart.html:48
-#, kde-format
-msgid "Message was signed with key %1."
-msgstr "İleti, %1 anahtarı ile imzalandı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:31
-#, kde-format
-msgid "Message was signed by %3 on %1 with key %2"
-msgstr "İleti, %3 tarafından %2 anahtarı ile %1 tarihinde imzalandı"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:39
-#, kde-format
-msgid "Message was signed on %1 with key %2."
-msgstr "İleti, %2 anahtarı ile %1 tarihinde imzalandı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:45
-#, kde-format
-msgid "Message was signed by %2 with key %1."
-msgstr "İleti, %2 tarafından %1 anahtarı ile imzalandı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:57
-#: messagepartthemes/default/templates/signedmessagepart.html:105
-msgid "Status: "
-msgstr "Durum: "
-
-#: messagepartthemes/default/templates/signedmessagepart.html:85
-#: messagepartthemes/default/templates/signedmessagepart.html:112
-#: messagepartthemes/default/templates/signedmessagepart.html:131
-#, kde-format
-msgid "Message was signed by %2 (Key ID: %1)."
-msgstr "İleti, %2 tarafından imzalandı (Anahtar kimliği: %1)."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:92
-#, kde-format
-msgid "Message was signed on %1 with unknown key %2."
-msgstr "İleti, bilinmeyen %2 anahtarıyla %1 tarihinde imzalandı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:95
-#, kde-format
-msgid "Message was signed with unknown key %1."
-msgstr "İleti, bilinmeyen %1 anahtarıyla imzalandı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:102
-msgid "The validity of the signature cannot be verified."
-msgstr "İmzanın geçerliliği doğrulanamadı."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:119
-msgid "The signature is valid, but the key's validity is unknown."
-msgstr "İmza geçerli; ancak anahtarın geçerliliği bilinmiyor."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:121
-msgid "The signature is valid and the key is marginally trusted."
-msgstr "İmza geçerli; ancak anahtara pek az güveniliyor."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:123
-msgid "The signature is valid and the key is fully trusted."
-msgstr "İmza geçerli ve anahtara güveniliyor."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:125
-msgid "The signature is valid and the key is ultimately trusted."
-msgstr "İmza geçerli ve anahtara en yüksek düzeyde güveniliyor."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:127
-msgid "The signature is valid, but the key is untrusted."
-msgstr "İmza geçerli; ancak anahtara güvenilmiyor."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:137
-msgid "Warning: The signature is bad."
-msgstr "Uyarı: Bozuk imza."
-
-#: messagepartthemes/default/templates/signedmessagepart.html:142
-#, kde-format
-msgid "Compliance: %1"
-msgstr "Uygunluk: %1"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:154
-msgid "Invalid signature"
-msgstr "Geçersiz imza"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:156
-msgid "Not enough information to check signature validity"
-msgstr "İmzanın geçerliliğini denetlemek için yeterli bilgi yok"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:159
-#, kde-format
-msgid "Signed by <a href='mailto:%1'>%1</a>"
-msgstr "<a href='mailto:%1'>%1</a> tarafından imzalandı"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:161
-msgid "Signature is valid"
-msgstr "İmza geçerli"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:164
-msgid "Unknown signature state"
-msgstr "Bilinmeyen imza durumu"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:167
-#, kde-format
-msgctxt "Status of signature (status/type of compliance)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: messagepartthemes/default/templates/signedmessagepart.html:186
+#: messagepartthemes/default/templates/signedmessagepart.html:17
 msgid "End of signed message"
 msgstr "İmzalı iletinin sonu"
 
@@ -342,38 +219,38 @@ msgctxt "@action:button"
 msgid "Store"
 msgstr "Depola"
 
-#: dkim-verify/dkimmanagerkeymodel.cpp:77
+#: dkim-verify/dkimmanagerkeymodel.cpp:81
 #, kde-format
 msgid "DKIM Key"
 msgstr "DKIM Anahtarı"
 
-#: dkim-verify/dkimmanagerkeymodel.cpp:79
+#: dkim-verify/dkimmanagerkeymodel.cpp:83
 #, kde-format
 msgid "Selector"
 msgstr "Seçici"
 
-#: dkim-verify/dkimmanagerkeymodel.cpp:81
-#: dkim-verify/dkimmanageruleswidget.cpp:73
+#: dkim-verify/dkimmanagerkeymodel.cpp:85
+#: dkim-verify/dkimmanageruleswidget.cpp:75
 #, kde-format
 msgid "SDID"
 msgstr "SDID"
 
-#: dkim-verify/dkimmanagerkeymodel.cpp:83
+#: dkim-verify/dkimmanagerkeymodel.cpp:87
 #, kde-format
 msgid "Inserted"
 msgstr "Eklendi"
 
-#: dkim-verify/dkimmanagerkeymodel.cpp:85
+#: dkim-verify/dkimmanagerkeymodel.cpp:89
 #, kde-format
 msgid "Last Used"
 msgstr "Son Kullanım"
 
-#: dkim-verify/dkimmanagerkeytreeview.cpp:69
+#: dkim-verify/dkimmanagerkeytreeview.cpp:73
 #, kde-format
 msgid "Copy Key"
 msgstr "Anahtarı Kopyala"
 
-#: dkim-verify/dkimmanagerkeytreeview.cpp:76
+#: dkim-verify/dkimmanagerkeytreeview.cpp:79
 #, kde-format
 msgid "Remove Key"
 msgid_plural "Remove Keys"
@@ -395,7 +272,7 @@ msgstr[0] "Anahtarı Sil"
 msgstr[1] "Anahtarları Sil"
 
 #: dkim-verify/dkimmanagerkeytreeview.cpp:92
-#: dkim-verify/dkimmanageruleswidget.cpp:223
+#: dkim-verify/dkimmanageruleswidget.cpp:225
 #, kde-format
 msgid "Delete All"
 msgstr "Tümünü Sil"
@@ -410,6 +287,12 @@ msgstr "Tüm anahtarları silmek istiyor musunuz?"
 msgctxt "@title:window"
 msgid "Delete Keys"
 msgstr "Anahtarları Sil"
+
+#: dkim-verify/dkimmanagerkeywidget.cpp:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr "Ara…"
 
 #: dkim-verify/dkimmanagerulescombobox.cpp:20
 #, kde-format
@@ -428,8 +311,9 @@ msgstr "İmzalanmadıysa yok say"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:29
 #, kde-format
+msgctxt "@action:button"
 msgid "Export..."
-msgstr "Dışa Aktar..."
+msgstr "Dışa Aktar…"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:31
 #, kde-format
@@ -439,13 +323,15 @@ msgstr "Kuralı Yapılandır"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:42
 #, kde-format
+msgctxt "@action:button"
 msgid "Add Rule..."
-msgstr "Kural Ekle..."
+msgstr "Kural Ekle…"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:47
 #, kde-format
+msgctxt "@action:button"
 msgid "Import..."
-msgstr "İçe Aktar..."
+msgstr "İçe Aktar…"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:79
 #, kde-format
@@ -453,18 +339,16 @@ msgid "No rules found"
 msgstr "Kural bulunamadı"
 
 #: dkim-verify/dkimmanagerulesdialog.cpp:79
+#: dkim-verify/dkimmanagerulesdialog.cpp:82
 #, kde-format
 msgctxt "@title:window"
 msgid "Export Rules"
 msgstr "Kuralları Dışa Aktar"
 
-#: dkim-verify/dkimmanagerulesdialog.cpp:82
-#, kde-format
-msgid "Export Rules"
-msgstr "Kuralları Dışa Aktar"
-
 #: dkim-verify/dkimmanagerulesdialog.cpp:90
+#: dkim-verify/dkimmanagerulesdialog.cpp:93
 #, kde-format
+msgctxt "@title:window"
 msgid "Import Rules"
 msgstr "Kurallar İçe Aktar"
 
@@ -473,84 +357,78 @@ msgstr "Kurallar İçe Aktar"
 msgid "No rules imported."
 msgstr "Hiçbir kural içe aktarılmadı."
 
-#: dkim-verify/dkimmanagerulesdialog.cpp:93
-#, kde-format
-msgctxt "@title:window"
-msgid "Import Rules"
-msgstr "Kurallar İçe Aktar"
-
-#: dkim-verify/dkimmanageruleswidget.cpp:73
-#: remote-content/remotecontentconfigurewidget.cpp:52
+#: dkim-verify/dkimmanageruleswidget.cpp:75
+#: remote-content/remotecontentconfigurewidget.cpp:54
 #, kde-format
 msgid "Domain"
 msgstr "Alan Adı"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:73
+#: dkim-verify/dkimmanageruleswidget.cpp:75
 #, kde-format
 msgid "Active"
 msgstr "Etkin"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:73
+#: dkim-verify/dkimmanageruleswidget.cpp:75
 #, kde-format
 msgid "List-ID"
 msgstr "Liste Kimliği"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:73
+#: dkim-verify/dkimmanageruleswidget.cpp:75
 #, kde-format
 msgid "From"
 msgstr "Kimden"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:73
+#: dkim-verify/dkimmanageruleswidget.cpp:75
 #, kde-format
 msgid "Rule type"
 msgstr "Kural türü"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:73
+#: dkim-verify/dkimmanageruleswidget.cpp:75
 #, kde-format
 msgid "Priority"
 msgstr "Öncelik"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:196
-#: remote-content/remotecontentconfigurewidget.cpp:80
+#: dkim-verify/dkimmanageruleswidget.cpp:198
+#: remote-content/remotecontentconfigurewidget.cpp:82
 #, kde-format
 msgid "Add..."
-msgstr "Ekle..."
+msgstr "Ekle…"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:201
-#: remote-content/remotecontentconfigurewidget.cpp:83
+#: dkim-verify/dkimmanageruleswidget.cpp:203
+#: remote-content/remotecontentconfigurewidget.cpp:85
 #, kde-format
 msgid "Modify..."
-msgstr "Değiştir..."
+msgstr "Değiştir…"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:205
+#: dkim-verify/dkimmanageruleswidget.cpp:207
 #, kde-format
 msgid "Duplicate Rule"
 msgstr "Kuralı Çoğalt"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:209
-#: remote-content/remotecontentconfigurewidget.cpp:87
+#: dkim-verify/dkimmanageruleswidget.cpp:211
+#: remote-content/remotecontentconfigurewidget.cpp:89
 #, kde-format
 msgid "Remove Rule"
 msgstr "Kuralı Kaldır"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:211
+#: dkim-verify/dkimmanageruleswidget.cpp:213
 #, kde-format
 msgid "Do you want to delete this rule?"
 msgstr "Bu kuralı silmek istiyor musunuz?"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:212
-#: remote-content/remotecontentconfigurewidget.cpp:90
+#: dkim-verify/dkimmanageruleswidget.cpp:214
+#: remote-content/remotecontentconfigurewidget.cpp:92
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Rule"
 msgstr "Kuralı Sil"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:225
+#: dkim-verify/dkimmanageruleswidget.cpp:227
 #, kde-format
 msgid "Do you want to delete all the rules?"
 msgstr "Tüm kuralları silmek istiyor musunuz?"
 
-#: dkim-verify/dkimmanageruleswidget.cpp:226
+#: dkim-verify/dkimmanageruleswidget.cpp:228
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Rules"
@@ -568,42 +446,44 @@ msgctxt "@title:window"
 msgid "Modify Rule"
 msgstr "Kuralı Değiştir"
 
-#: dkim-verify/dkimrulewidget.cpp:18
+#: dkim-verify/dkimrulewidget.cpp:20
 #, kde-format
+msgctxt "@option:check"
 msgid "Enabled"
 msgstr "Etkin"
 
-#: dkim-verify/dkimrulewidget.cpp:36 remote-content/remotecontentwidget.cpp:28
+#: dkim-verify/dkimrulewidget.cpp:38
 #, kde-format
 msgid "Domain:"
 msgstr "Alan adı:"
 
-#: dkim-verify/dkimrulewidget.cpp:41 header/grantleeheaderformatter.cpp:183
+#: dkim-verify/dkimrulewidget.cpp:43 header/grantleeheaderformatter.cpp:184
 #, kde-format
 msgid "List-Id:"
 msgstr "Liste kimliği:"
 
-#: dkim-verify/dkimrulewidget.cpp:45 header/grantleeheaderformatter.cpp:272
+#: dkim-verify/dkimrulewidget.cpp:47 header/grantleeheaderformatter.cpp:273
 #, kde-format
 msgid "From:"
 msgstr "Kimden:"
 
-#: dkim-verify/dkimrulewidget.cpp:46
+#: dkim-verify/dkimrulewidget.cpp:48
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "Use '*' to specify all emails from domain"
-msgstr "Alan adındaki tüm e-postaları belirtmek için '*' kullanın"
+msgstr "Alan adındaki tüm e-postaları belirtmek için “*” kullanın"
 
-#: dkim-verify/dkimrulewidget.cpp:51
+#: dkim-verify/dkimrulewidget.cpp:53
 #, kde-format
 msgid "SDID:"
 msgstr "SDID:"
 
-#: dkim-verify/dkimrulewidget.cpp:54
+#: dkim-verify/dkimrulewidget.cpp:56
 #, kde-format
 msgid "Rule:"
 msgstr "Kural:"
 
-#: dkim-verify/dkimrulewidget.cpp:60
+#: dkim-verify/dkimrulewidget.cpp:62
 #, kde-format
 msgid "Priority:"
 msgstr "Öncelik:"
@@ -626,273 +506,273 @@ msgstr "DKIM Anahtarını Güncelle"
 #: dkim-verify/dkimviewermenu.cpp:43
 #, kde-format
 msgid "Rules..."
-msgstr "Kurallar..."
+msgstr "Kurallar…"
 
-#: dkim-verify/dkimwidgetinfo.cpp:94
+#: dkim-verify/dkimwidgetinfo.cpp:96
 #, kde-format
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: dkim-verify/dkimwidgetinfo.cpp:100
+#: dkim-verify/dkimwidgetinfo.cpp:102
 #, kde-format
 msgid "DKIM: valid (signed by %1)"
 msgstr "DKIM: Geçerli (%1 tarafından imzalandı)"
 
-#: dkim-verify/dkimwidgetinfo.cpp:107
+#: dkim-verify/dkimwidgetinfo.cpp:109
 #, kde-format
 msgid "DKIM: invalid"
 msgstr "DKIM: Geçersiz"
 
-#: dkim-verify/dkimwidgetinfo.cpp:110
+#: dkim-verify/dkimwidgetinfo.cpp:112
 #, kde-format
 msgid "DKIM: Not signed"
 msgstr "DKIM: İmzalanmadı"
 
-#: dkim-verify/dkimwidgetinfo.cpp:115
+#: dkim-verify/dkimwidgetinfo.cpp:117
 #, kde-format
 msgid "DKIM: Should Be Signed by %1"
 msgstr "DKIM: %1 tarafından imzalanmalı"
 
-#: dkim-verify/dkimwidgetinfo.cpp:131
+#: dkim-verify/dkimwidgetinfo.cpp:133
 #, kde-format
 msgid "Body Hash was corrupted."
 msgstr "Gövde sağlaması hasar görmüş."
 
-#: dkim-verify/dkimwidgetinfo.cpp:134
+#: dkim-verify/dkimwidgetinfo.cpp:136
 #, kde-format
 msgid "The domain doesn't exist."
 msgstr "Alan adı yok."
 
-#: dkim-verify/dkimwidgetinfo.cpp:137
+#: dkim-verify/dkimwidgetinfo.cpp:139
 #, kde-format
 msgid "Missing header From."
 msgstr "Kimden üstbilgisi eksik."
 
-#: dkim-verify/dkimwidgetinfo.cpp:140
+#: dkim-verify/dkimwidgetinfo.cpp:142
 #, kde-format
 msgid "Missing signature."
 msgstr "Eksik imza."
 
-#: dkim-verify/dkimwidgetinfo.cpp:143
+#: dkim-verify/dkimwidgetinfo.cpp:145
 #, kde-format
 msgid "Invalid query method."
 msgstr "Geçersiz sorgu yöntemi."
 
-#: dkim-verify/dkimwidgetinfo.cpp:146
+#: dkim-verify/dkimwidgetinfo.cpp:148
 #, kde-format
 msgid "Invalid header canonicalization."
 msgstr "Geçersiz üstbilgi kurallaştırması."
 
-#: dkim-verify/dkimwidgetinfo.cpp:149
+#: dkim-verify/dkimwidgetinfo.cpp:151
 #, kde-format
 msgid "Invalid body canonicalization."
 msgstr "Geçersiz gövde kurallaştırması."
 
-#: dkim-verify/dkimwidgetinfo.cpp:152
+#: dkim-verify/dkimwidgetinfo.cpp:154
 #, kde-format
 msgid "Unknown Body Hash Algorithm."
 msgstr "Bilinmeyen Gövde Sağlama Algoritması"
 
-#: dkim-verify/dkimwidgetinfo.cpp:155
+#: dkim-verify/dkimwidgetinfo.cpp:157
 #, kde-format
 msgid "Signature algorithm is invalid."
 msgstr "İmza algoritması geçersiz."
 
-#: dkim-verify/dkimwidgetinfo.cpp:158
+#: dkim-verify/dkimwidgetinfo.cpp:160
 #, kde-format
 msgid "The public key was revoked."
 msgstr "Genel anahtar yürürlükten kaldırıldı."
 
-#: dkim-verify/dkimwidgetinfo.cpp:161
+#: dkim-verify/dkimwidgetinfo.cpp:163
 #, kde-format
 msgid "Signature is too large."
 msgstr "İmza pek büyük."
 
-#: dkim-verify/dkimwidgetinfo.cpp:164
+#: dkim-verify/dkimwidgetinfo.cpp:166
 #, kde-format
 msgid "Hash Algorithm is unsupported."
 msgstr "Sağlama algoritması desteklenmiyor."
 
-#: dkim-verify/dkimwidgetinfo.cpp:167
+#: dkim-verify/dkimwidgetinfo.cpp:169
 #, kde-format
 msgid "Public key is too small."
 msgstr "Genel anahtar pek küçük."
 
-#: dkim-verify/dkimwidgetinfo.cpp:170
+#: dkim-verify/dkimwidgetinfo.cpp:172
 #, kde-format
 msgid "Impossible to verify signature."
 msgstr "İmzayı doğrulama olanaksız."
 
-#: dkim-verify/dkimwidgetinfo.cpp:173
+#: dkim-verify/dkimwidgetinfo.cpp:175
 #, kde-format
 msgid "AUID must be in the same domain as SDID (s-flag set in key record)."
 msgstr ""
 "AUID, SDID ile aynı alan adında olmalı (anahtar kaydında s-bayrağı ayarlı)."
 
-#: dkim-verify/dkimwidgetinfo.cpp:176
+#: dkim-verify/dkimwidgetinfo.cpp:178
 #, kde-format
 msgid "The signing domain is only testing DKIM."
-msgstr "İmzalama alan adı yalnızca DKIM'i sınıyor."
+msgstr "İmzalama alan adı yalnızca DKIM’ini sınıyor."
 
-#: dkim-verify/dkimwidgetinfo.cpp:179
+#: dkim-verify/dkimwidgetinfo.cpp:181
 #, kde-format
 msgid "Impossible to download key."
 msgstr "İmza indirimi olanaksız."
 
-#: dkim-verify/dkimwidgetinfo.cpp:182 dkim-verify/dkimwidgetinfo.cpp:206
+#: dkim-verify/dkimwidgetinfo.cpp:184 dkim-verify/dkimwidgetinfo.cpp:208
 #, kde-format
 msgid "Hash Algorithm unsafe (sha1)"
 msgstr "Sağlama algoritması güvenli değil (sha1)"
 
-#: dkim-verify/dkimwidgetinfo.cpp:185
+#: dkim-verify/dkimwidgetinfo.cpp:187
 #, kde-format
 msgid "AUID is not in a subdomain of SDID"
-msgstr "AUID, SDID'nin bir alt alan adı değil"
+msgstr "AUID, SDID’nin bir alt alan adı değil"
 
-#: dkim-verify/dkimwidgetinfo.cpp:188
+#: dkim-verify/dkimwidgetinfo.cpp:190
 #, kde-format
 msgid "Problem during converting public key"
 msgstr "Genel anahtarı dönüştürürken sorun oluştu"
 
-#: dkim-verify/dkimwidgetinfo.cpp:197
+#: dkim-verify/dkimwidgetinfo.cpp:199
 #, kde-format
 msgid "Signature expired"
 msgstr "İmzanın süresi oldu"
 
-#: dkim-verify/dkimwidgetinfo.cpp:200
+#: dkim-verify/dkimwidgetinfo.cpp:202
 #, kde-format
 msgid "Signature created in the future"
 msgstr "İmza, gelecekte oluşturulmuş"
 
-#: dkim-verify/dkimwidgetinfo.cpp:203
+#: dkim-verify/dkimwidgetinfo.cpp:205
 #, kde-format
 msgid "Signature too small"
 msgstr "İmza pek küçük"
 
-#: dkim-verify/dkimwidgetinfo.cpp:209
+#: dkim-verify/dkimwidgetinfo.cpp:211
 #, kde-format
 msgid "Public Key too small"
 msgstr "Genel Anahtar pek küçük"
 
-#: dkim-verify/dkimwidgetinfo.cpp:230 dkim-verify/dkimwidgetinfo.cpp:276
+#: dkim-verify/dkimwidgetinfo.cpp:234 dkim-verify/dkimwidgetinfo.cpp:282
 #, kde-format
 msgctxt "method name: info about it from parsing"
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: dkim-verify/dkimwidgetinfo.cpp:253
+#: dkim-verify/dkimwidgetinfo.cpp:259
 #, kde-format
 msgid "%1: None"
-msgstr "%1: Hiçbiri"
+msgstr "%1: Yok"
 
-#: dkim-verify/dkimwidgetinfo.cpp:268
+#: dkim-verify/dkimwidgetinfo.cpp:274
 #, kde-format
 msgid "%1: Valid (Signed by %2)"
 msgstr "%1: Geçerli (%2 tarafından imzalandı)"
 
-#: dkim-verify/dkimwidgetinfo.cpp:288
+#: dkim-verify/dkimwidgetinfo.cpp:296
 #, kde-format
 msgid "%1: Valid"
 msgstr "%1: Geçerli"
 
-#: dkim-verify/dkimwidgetinfo.cpp:303
+#: dkim-verify/dkimwidgetinfo.cpp:310
 #, kde-format
 msgid "Not Signed"
 msgstr "İmzalanmadı"
 
-#: header/grantleeheaderformatter.cpp:204
+#: header/grantleeheaderformatter.cpp:205
 #, kde-format
 msgid "Subject:"
 msgstr "Konu:"
 
-#: header/grantleeheaderformatter.cpp:224
+#: header/grantleeheaderformatter.cpp:225
 #, kde-format
 msgid "Date:"
 msgstr "Tarih:"
 
-#: header/grantleeheaderformatter.cpp:240
+#: header/grantleeheaderformatter.cpp:241
 #, kde-format
 msgid "Message-Id:"
 msgstr "İleti kimliği:"
 
-#: header/grantleeheaderformatter.cpp:264
+#: header/grantleeheaderformatter.cpp:265
 #, kde-format
 msgid "To:"
 msgstr "Kime:"
 
-#: header/grantleeheaderformatter.cpp:266
+#: header/grantleeheaderformatter.cpp:267
 #, kde-format
 msgid "Reply To:"
 msgstr "Yanıt adresi:"
 
-#: header/grantleeheaderformatter.cpp:268
+#: header/grantleeheaderformatter.cpp:269
 #, kde-format
 msgid "CC:"
 msgstr "Kopya:"
 
-#: header/grantleeheaderformatter.cpp:270
+#: header/grantleeheaderformatter.cpp:271
 #, kde-format
 msgid "BCC:"
 msgstr "Gizli kopya:"
 
-#: header/grantleeheaderformatter.cpp:274
+#: header/grantleeheaderformatter.cpp:275
 #, kde-format
 msgid "Sender:"
 msgstr "Gönderen:"
 
-#: header/grantleeheaderformatter.cpp:276
+#: header/grantleeheaderformatter.cpp:277
 #, kde-format
 msgid "resent from:"
 msgstr "şuradan yeniden gönderildi:"
 
-#: header/grantleeheaderformatter.cpp:278
+#: header/grantleeheaderformatter.cpp:279
 #, kde-format
 msgid "resent to:"
 msgstr "şuraya yeniden gönderildi:"
 
-#: header/grantleeheaderformatter.cpp:359
+#: header/grantleeheaderformatter.cpp:360
 #, kde-format
 msgid "Grantlee theme \"%1\" is not valid."
-msgstr "Grantlee teması \"%1\" geçerli değil."
+msgstr "“%1” Grantlee teması geçerli değil."
 
-#: header/grantleeheaderformatter.cpp:449 header/headerstyle_util.cpp:80
-#: header/headerstyle_util.cpp:85 header/headerstyle_util.cpp:96
+#: header/grantleeheaderformatter.cpp:450 header/headerstyle_util.cpp:82
+#: header/headerstyle_util.cpp:87 header/headerstyle_util.cpp:98
 #, kde-format
 msgid "No Subject"
 msgstr "Konusuz"
 
-#: header/grantleeheaderformatter.cpp:454
+#: header/grantleeheaderformatter.cpp:455
 #, kde-format
 msgid "Spam Status:"
 msgstr "İstenmeyen Posta Durumu:"
 
-#: header/grantleeheaderformatter.cpp:466
+#: header/grantleeheaderformatter.cpp:467
 #, kde-format
 msgid "Printing mode"
 msgstr "Yazdırma kipi"
 
-#: header/grantleeheaderformatter.cpp:508
+#: header/grantleeheaderformatter.cpp:509
 #, kde-format
 msgid "[vcard]"
 msgstr "[vcard]"
 
-#: header/grantleeheaderformatter.cpp:515
+#: header/grantleeheaderformatter.cpp:516
 #, kde-format
 msgid "Attachments:"
 msgstr "Ekler:"
 
-#: header/grantleeheaderformatter.cpp:544
+#: header/grantleeheaderformatter.cpp:542
 #, kde-format
 msgid "Security:"
 msgstr "Güvenlik:"
 
-#: header/headerstyle_util.cpp:55
+#: header/headerstyle_util.cpp:57
 #, kde-format
 msgctxt "Unknown date"
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
-#: header/headerstyle_util.cpp:145
+#: header/headerstyle_util.cpp:146
 #, kde-format
 msgid ""
 "%1% probability of being spam with confidence %3%.\n"
@@ -907,7 +787,7 @@ msgstr ""
 "Olasılık=%2\n"
 "Güvenilirlik=%4"
 
-#: header/headerstyle_util.cpp:154
+#: header/headerstyle_util.cpp:155
 #, kde-format
 msgid ""
 "%1% probability of being spam.\n"
@@ -920,37 +800,37 @@ msgstr ""
 "Ayrıntılı rapor:\n"
 "Olasılık=%2"
 
-#: header/headerstyle_util.cpp:163
+#: header/headerstyle_util.cpp:164
 #, kde-format
 msgid "No Spam agent"
 msgstr "İstenmeyen Posta Aracı Yok"
 
-#: header/headerstyle_util.cpp:166
+#: header/headerstyle_util.cpp:167
 #, kde-format
 msgid "Spam filter score not a number"
 msgstr "İstenmeyen ileti puanı bir sayı değil"
 
-#: header/headerstyle_util.cpp:169
+#: header/headerstyle_util.cpp:170
 #, kde-format
 msgid "Threshold not a valid number"
 msgstr "Eşik geçerli bir sayı değil"
 
-#: header/headerstyle_util.cpp:172
+#: header/headerstyle_util.cpp:173
 #, kde-format
 msgid "Spam filter score could not be extracted from header"
 msgstr "İstenmeyen ileti puanı başlıktan alınamadı"
 
-#: header/headerstyle_util.cpp:175
+#: header/headerstyle_util.cpp:176
 #, kde-format
 msgid "Threshold could not be extracted from header"
 msgstr "Eşik başlıktan alınamadı"
 
-#: header/headerstyle_util.cpp:178
+#: header/headerstyle_util.cpp:179
 #, kde-format
 msgid "Error evaluating spam score"
 msgstr "İstenmeyen ileti puanı değerlendirilemedi"
 
-#: header/headerstyle_util.cpp:183
+#: header/headerstyle_util.cpp:184
 #, kde-format
 msgid ""
 "%1.\n"
@@ -963,49 +843,49 @@ msgstr ""
 "Tam rapor:\n"
 "%2"
 
-#: header/headerstylemenumanager.cpp:105
+#: header/headerstylemenumanager.cpp:107
 #, kde-format
 msgctxt "View->"
 msgid "&Headers"
 msgstr "&Başlıklar"
 
-#: header/headerstylemenumanager.cpp:109
+#: header/headerstylemenumanager.cpp:111
 #, kde-format
 msgid "Choose display style of message headers"
 msgstr "İleti başlıklarının görünümünü seçin"
 
-#: header/plainheaderstyle.cpp:103
+#: header/plainheaderstyle.cpp:104
 #, kde-format
 msgid "Date: "
 msgstr "Tarih: "
 
-#: header/plainheaderstyle.cpp:107
+#: header/plainheaderstyle.cpp:108
 #, kde-format
 msgid "From: "
 msgstr "Kimden: "
 
-#: header/plainheaderstyle.cpp:109
+#: header/plainheaderstyle.cpp:110
 #, kde-format
 msgid "[vCard]"
 msgstr "[Kartvizit]"
 
-#: header/plainheaderstyle.cpp:120
+#: header/plainheaderstyle.cpp:121
 #, kde-format
 msgctxt "To-field of the mailheader."
 msgid "To: "
 msgstr "Alıcı: "
 
-#: header/plainheaderstyle.cpp:127
+#: header/plainheaderstyle.cpp:128
 #, kde-format
 msgid "CC: "
 msgstr "Kopya: "
 
-#: header/plainheaderstyle.cpp:134
+#: header/plainheaderstyle.cpp:135
 #, kde-format
 msgid "BCC: "
 msgstr "Gizli kopya: "
 
-#: header/plainheaderstyle.cpp:139
+#: header/plainheaderstyle.cpp:140
 #, kde-format
 msgid "Reply to: "
 msgstr "Yanıt adresi:"
@@ -1028,193 +908,65 @@ msgctxt "@action"
 msgid "Send Deny"
 msgstr "Reddedildi Gönder"
 
-#: messagepartthemes/default/defaultrenderer.cpp:67
-#, kde-format
-msgid "Error: Signature not verified"
-msgstr "Hata: İmza doğrulanamadı"
-
-#: messagepartthemes/default/defaultrenderer.cpp:71
-#, kde-format
-msgid "Good signature"
-msgstr "Geçerli imza"
-
-#: messagepartthemes/default/defaultrenderer.cpp:75
-#, kde-format
-msgid "Bad signature"
-msgstr "Bozuk imza"
-
-#: messagepartthemes/default/defaultrenderer.cpp:79
-#, kde-format
-msgid "No public key to verify the signature"
-msgstr "İmzayı doğrulayacak genel anahtar yok"
-
-#: messagepartthemes/default/defaultrenderer.cpp:83
-#, kde-format
-msgid "No signature found"
-msgstr "İmza bulunamadı"
-
-#: messagepartthemes/default/defaultrenderer.cpp:87
-#, kde-format
-msgid "Error verifying the signature"
-msgstr "İmzayı doğrulamada hata"
-
-#: messagepartthemes/default/defaultrenderer.cpp:91
-#, kde-format
-msgid "Different results for signatures"
-msgstr "İmzalama için farklı sonuçlar"
-
-#: messagepartthemes/default/defaultrenderer.cpp:111
-#, kde-format
-msgid "No status information available."
-msgstr "Üzgünüm, durum bilgisi yok."
-
-#: messagepartthemes/default/defaultrenderer.cpp:118
-#: messagepartthemes/default/defaultrenderer.cpp:203
-#, kde-format
-msgid "Good signature."
-msgstr "Geçerli imza."
-
-#: messagepartthemes/default/defaultrenderer.cpp:139
-#, kde-format
-msgid "One key has expired."
-msgstr "Bir anahtarın kullanım süresi dolmuş."
-
-#: messagepartthemes/default/defaultrenderer.cpp:143
-#, kde-format
-msgid "The signature has expired."
-msgstr "İmzanın zamanı doldu."
-
-#: messagepartthemes/default/defaultrenderer.cpp:148
-#, kde-format
-msgid "Unable to verify: key missing."
-msgstr "Doğrulanamıyor: Anahtar kayıp."
-
-#: messagepartthemes/default/defaultrenderer.cpp:155
-#, kde-format
-msgid "CRL not available."
-msgstr "CRL hazır değil."
-
-#: messagepartthemes/default/defaultrenderer.cpp:159
-#, kde-format
-msgid "Available CRL is too old."
-msgstr "Kullanılabilir CRL'ler pek eski."
-
-#: messagepartthemes/default/defaultrenderer.cpp:163
-#, kde-format
-msgid "A policy was not met."
-msgstr "İzinler uygun değil."
-
-#: messagepartthemes/default/defaultrenderer.cpp:167
-#, kde-format
-msgid "A system error occurred."
-msgstr "Bir sistem hatası meydana geldi."
-
-#: messagepartthemes/default/defaultrenderer.cpp:178
-#, kde-format
-msgid "One key has been revoked."
-msgstr "Bir anahtar yürürlükten kaldırıldı."
-
-#: messagepartthemes/default/defaultrenderer.cpp:205
-#, kde-format
-msgid "Bad signature."
-msgstr "Bozuk imza."
-
-#: messagepartthemes/default/defaultrenderer.cpp:525
-#: messagepartthemes/default/defaultrenderer.cpp:527
-#, kde-format
-msgid "certificate"
-msgstr "sertifika"
-
-#: messagepartthemes/default/defaultrenderer.cpp:537
-#: messagepartthemes/default/defaultrenderer.cpp:556
-#, kde-format
-msgctxt "Start of warning message."
-msgid "Warning:"
-msgstr "Uyarı:"
-
-#: messagepartthemes/default/defaultrenderer.cpp:538
-#, kde-format
-msgid "Sender's mail address is not stored in the %1 used for signing."
-msgstr "Gönderenin adresi imzama için kullanılan %1 içinde saklanmıyor."
-
-#: messagepartthemes/default/defaultrenderer.cpp:538
-#, kde-format
-msgid "sender: "
-msgstr "gönderen: "
-
-#: messagepartthemes/default/defaultrenderer.cpp:539
-#, kde-format
-msgid "stored: "
-msgstr "kayıtlı: "
-
-#: messagepartthemes/default/defaultrenderer.cpp:557
-#, kde-format
-msgid ""
-"No mail address is stored in the %1 used for signing, so we cannot compare "
-"it to the sender's address %2."
-msgstr ""
-"%1 de imzalamak için hiç posta adresi yok, dolayısıyla gönderenin %2 "
-"adresiyle karşılaştıramıyoruz."
-
 #: remote-content/remotecontentconfiguredialog.cpp:27
 #, kde-format
 msgctxt "@title:window"
 msgid "Configure Remote Content"
 msgstr "Uzak İçeriği Yapılandır"
 
-#: remote-content/remotecontentconfigurewidget.cpp:52
+#: remote-content/remotecontentconfigurewidget.cpp:54
 #, kde-format
 msgid "Status"
 msgstr "Durum"
 
-#: remote-content/remotecontentconfigurewidget.cpp:89
+#: remote-content/remotecontentconfigurewidget.cpp:91
 #, kde-format
 msgid "Do you want to delete this rule '%1'?"
-msgstr "\"%1\" kuralını silmek istiyor musunuz?"
+msgstr "Bu “%1” kuralını silmek istiyor musunuz?"
 
-#: remote-content/remotecontentconfigurewidget.cpp:107
+#: remote-content/remotecontentconfigurewidget.cpp:109
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Remote Content"
 msgstr "Uzak İçeriği Düzenle"
 
-#: remote-content/remotecontentconfigurewidget.cpp:123
+#: remote-content/remotecontentconfigurewidget.cpp:125
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Remote Content"
 msgstr "Uzak İçerik Ekle"
 
-#: remote-content/remotecontentconfigurewidget.cpp:132
+#: remote-content/remotecontentconfigurewidget.cpp:134
 #, kde-format
 msgid "An entry already defines this url. Please modify it."
 msgstr ""
-"Bu URL'yi başka bir girdi halihazırda tanımlıyor. Lütfen onu değiştirin."
+"Bu URL’yi başka bir girdi halihazırda tanımlıyor. Lütfen onu değiştirin."
 
-#: remote-content/remotecontentconfigurewidget.cpp:132
+#: remote-content/remotecontentconfigurewidget.cpp:134
 #, kde-format
 msgctxt "@title:window"
 msgid "Add new Url"
 msgstr "Yeni URL Ekle"
 
-#: remote-content/remotecontentmenu.cpp:17
+#: remote-content/remotecontentmenu.cpp:19
 #, kde-format
 msgid "Configure"
 msgstr "Yapılandır"
 
-#: remote-content/remotecontentmenu.cpp:19
+#: remote-content/remotecontentmenu.cpp:21
 #, kde-format
 msgid "Remote Content"
 msgstr "Uzak İçerik"
 
-#: remote-content/remotecontentmenu.cpp:50
+#: remote-content/remotecontentmenu.cpp:52
 #, kde-format
 msgid "Authorize %1"
 msgstr "%1 Kimliğini Doğrula"
 
-#: remote-content/remotecontentmenu.cpp:58
+#: remote-content/remotecontentmenu.cpp:60
 #, kde-format
 msgid "Authorize all Urls"
-msgstr "Tüm URL'lerin Kimliğini Doğrula"
+msgstr "Tüm URL’lerin Kimliğini Doğrula"
 
 #: remote-content/remotecontentstatustypecombobox.cpp:12
 #, kde-format
@@ -1226,52 +978,62 @@ msgstr "Kimlik Doğrulandı"
 msgid "Blocked"
 msgstr "Engelli"
 
-#: scamdetection/scamdetectiondetailsdialog.cpp:40
+#: remote-content/remotecontentwidget.cpp:28
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Domain:"
+msgstr "Alan adı:"
+
+#: scamdetection/scamdetectiondetailsdialog.cpp:42
 #, kde-format
 msgctxt "@title:window"
 msgid "Details"
 msgstr "Ayrıntılar"
 
-#: scamdetection/scamdetectionwarningwidget.cpp:34
+#: scamdetection/scamdetectionwarningwidget.cpp:36
 #, kde-format
 msgid "This message may be a scam. <a href=\"scamdetails\">(Details...)</a>"
 msgstr ""
-"Bu ileti bir dolandırıcılık olabilir. <a href=\"scamdetails"
-"\">(Ayrıntılar...)</a>"
+"Bu ileti bir dolandırıcılık girişimi olabilir. <a href=\"scamdetails"
+"\">(Ayrıntılar…)</a>"
 
-#: scamdetection/scamdetectionwarningwidget.cpp:39
+#: scamdetection/scamdetectionwarningwidget.cpp:41
 #, kde-format
+msgctxt "@action"
 msgid "Move to Trash"
 msgstr "Çöp Kutusuna Taşı"
 
-#: scamdetection/scamdetectionwarningwidget.cpp:44
+#: scamdetection/scamdetectionwarningwidget.cpp:46
 #, kde-format
+msgctxt "@action"
 msgid "I confirm it's not a scam"
-msgstr "Bunun dolandırıcılık olmadığını onaylıyorum"
+msgstr "Bu Dolandırıcılık Değil"
 
-#: scamdetection/scamdetectionwarningwidget.cpp:48
+#: scamdetection/scamdetectionwarningwidget.cpp:50
 #, kde-format
+msgctxt "@action"
 msgid "Add email to whitelist"
-msgstr "E-postayı beyaz listeye ekle"
+msgstr "E-postayı Beyaz Listeye Ekle"
 
-#: scamdetection/scamdetectionwarningwidget.cpp:52
+#: scamdetection/scamdetectionwarningwidget.cpp:54
 #, kde-format
+msgctxt "@action"
 msgid "Disable scam detection for all messages"
-msgstr "Tüm iletilerde dolandırıcılık denetimini devre dışı bırak"
+msgstr "Tüm İletiler için Dolandırıcılık Denetimini Kapat"
 
-#: scamdetection/scamdetectionwebengine.cpp:115
-#: scamdetection/scamdetectionwebengine.cpp:202
+#: scamdetection/scamdetectionwebengine.cpp:117
+#: scamdetection/scamdetectionwebengine.cpp:215
 #, kde-format
 msgid ""
 "This email contains a link which reads as '%1' in the text, but actually "
 "points to '%2'. This is often the case in scam emails to mislead the "
 "recipient"
 msgstr ""
-"Bu e-posta metinde '%1' olarak görülen ancak '%2' ye götüren bir bağlantı "
-"içeriyor. Bu genellikle alıcıyı aldatmaya yönelik dolandırıcı e-"
+"Bu e-posta, metinde “%1” olarak görülen; ancak “%2” adresine işaret eden bir "
+"bağlantı içeriyor. Bu genellikle alıcıyı aldatmaya yönelik dolandırıcı e-"
 "postalarındaki durumdur."
 
-#: scamdetection/scamdetectionwebengine.cpp:128
+#: scamdetection/scamdetectionwebengine.cpp:130
 #, kde-format
 msgid ""
 "This email contains a link which points to a numerical IP address (%1) "
@@ -1282,7 +1044,7 @@ msgstr ""
 "(%1) götüren bir bağlantı içeriyor. Bu genellikle dolandırıcı e-"
 "postalarındaki durumdur.."
 
-#: scamdetection/scamdetectionwebengine.cpp:135
+#: scamdetection/scamdetectionwebengine.cpp:137
 #, kde-format
 msgid ""
 "This email contains a link which points to a hexadecimal IP address (%1) "
@@ -1293,12 +1055,12 @@ msgstr ""
 "(%1) götüren bir bağlantı içeriyor. Bu genellikle dolandırıcı e-"
 "postalarındaki durumdur.."
 
-#: scamdetection/scamdetectionwebengine.cpp:141
+#: scamdetection/scamdetectionwebengine.cpp:143
 #, kde-format
 msgid "This email contains a link (%1) which has a redirection"
 msgstr "Bu e-posta yönlendirme bulunduran bir bağlantı (%1) içeriyor"
 
-#: scamdetection/scamdetectionwebengine.cpp:148
+#: scamdetection/scamdetectionwebengine.cpp:149
 #, kde-format
 msgid ""
 "This email contains a link (%1) which contains multiple http://. This is "
@@ -1307,44 +1069,362 @@ msgstr ""
 "Bu e-posta çok sayıda http:// içeren bir bağlantı (%1) içeriyor. Bu "
 "genellikle dolandırıcı e-postalarındaki durumdur."
 
-#: scamdetection/scamdetectionwebengine.cpp:159
+#: scamdetection/scamdetectionwebengine.cpp:160
 #, kde-format
 msgid "This email contains a shorturl (%1). It can redirect to another server."
 msgstr ""
 "BU e-posta bir kısa URL (%1) içeriyor. Farklı bir sunucuya yönlendirebilir."
 
-#: scamdetection/scamdetectionwebengine.cpp:222
+#: scamdetection/scamdetectionwebengine.cpp:234
 #, kde-format
 msgid "Message contains form element. This is often the case in scam emails."
 msgstr ""
 "İleti form ögesi içeriyor. Bu genellikle dolandırıcı e-postalarındaki "
 "durumdur."
 
-#: scamdetection/scamdetectionwebengine.cpp:226
+#: scamdetection/scamdetectionwebengine.cpp:238
 #, kde-format
 msgid "Details:"
 msgstr "Ayrıntılar:"
 
-#: scamdetection/scamexpandurljob.cpp:47
+#: scamdetection/scamexpandurljob.cpp:49
 #, kde-format
 msgid "No network connection detected, we cannot expand url."
-msgstr "Ağ bağlantısı tespit edilemedi, URL'yi açamıyoruz."
+msgstr "Algılanan ağ bağlantısı yok, URL’yi açamıyoruz."
 
-#: scamdetection/scamexpandurljob.cpp:77 scamdetection/scamexpandurljob.cpp:83
+#: scamdetection/scamexpandurljob.cpp:79 scamdetection/scamexpandurljob.cpp:85
 #, kde-format
 msgid "Impossible to expand '%1'."
-msgstr "'%1' genişletmesi olanaklı değil."
+msgstr "“%1” genişletilemez."
 
-#: scamdetection/scamexpandurljob.cpp:81
+#: scamdetection/scamexpandurljob.cpp:83
 #, kde-format
 msgid "Short url '%1' redirects to '%2'."
-msgstr "'%1' kısa URL'si '%2' yönlendirmesini yapıyor."
+msgstr "“%1” kısa URL’si, “%2” adresine yönlendiriyor."
+
+#. i18n: ectx: label, entry (PrintSelectedText), group (Print)
+#: settings/messageviewer.kcfg.in:11
+#, kde-format
+msgid "Only print selected text in viewer"
+msgstr "Görüntüleyicide yalnızca seçili metni yazdır"
+
+#. i18n: ectx: label, entry (RespectExpandCollapseSettings), group (Print)
+#: settings/messageviewer.kcfg.in:15
+#, kde-format
+msgid ""
+"Respect expand/collapse quote mark which is defined in settings during "
+"printing."
+msgstr ""
+"Yazdırma sırasında, ayarlarda belirtilen genişlet/daralt tırnak işaretlerine "
+"uy."
+
+#. i18n: ectx: label, entry (PrintBackgroundColorImages), group (Print)
+#: settings/messageviewer.kcfg.in:19
+#, kde-format
+msgid ""
+"Specifies whether the background color and images are also drawn when the "
+"page is printed."
+msgstr ""
+"Sayfa yazdırıldığında arka plan rengi ve görsellerin de çizilip "
+"çizilmeyeceğini belirtir."
+
+#. i18n: ectx: label, entry (AlwaysShowEncryptionSignatureDetails), group (Print)
+#: settings/messageviewer.kcfg.in:23
+#, kde-format
+msgid "Always show encryption/signature details when we print message"
+msgstr "İleti yazdırılırken her zaman şifreleme/imza ayrıntılarını göster"
+
+#. i18n: ectx: label, entry (MinimumFontSize), group (Fonts)
+#: settings/messageviewer.kcfg.in:34
+#, kde-format
+msgid "When we render html do not use font size inferior to minimum size."
+msgstr "HTML sunarken, en küçük boyuttan küçük yazıtipi puntosu kullanma"
+
+#. i18n: ectx: label, entry (BodyFont), group (Fonts)
+#: settings/messageviewer.kcfg.in:38
+#, kde-format
+msgid "Specifies the font to use for the message body"
+msgstr "İleti gövdesi için kullanılacak yazıtipini belirtir"
+
+#. i18n: ectx: label, entry (PrintFont), group (Fonts)
+#: settings/messageviewer.kcfg.in:42
+#, kde-format
+msgid "Specifies the font to use for printing"
+msgstr "Yazdırma için kullanılacak yazıtipini belirtir"
+
+#. i18n: ectx: label, entry (CheckPhishingUrl), group (Security)
+#: settings/messageviewer.kcfg.in:49
+#, kde-format
+msgid "Check if url can be a phishing"
+msgstr "URL’nin kimlik avı olma olasılığını denetle"
+
+#. i18n: ectx: label, entry (CloseAfterReplyOrForward), group (Reader)
+#: settings/messageviewer.kcfg.in:55
+#, kde-format
+msgid "Close message window after replying or forwarding"
+msgstr "Yanıtlama ve iletme sonrası ileti penceresini kapat"
+
+#. i18n: ectx: label, entry (ShowExpandQuotesMark), group (Reader)
+#: settings/messageviewer.kcfg.in:72
+#, kde-format
+msgid "Show expand/collapse quote marks"
+msgstr "Aktarılan metni genişlet/daralt"
+
+#. i18n: ectx: whatsthis, entry (ShowExpandQuotesMark), group (Reader)
+#: settings/messageviewer.kcfg.in:73
+#, kde-format
+msgid ""
+"Enable this option to show different levels of quoted text. Disable to hide "
+"the levels of quoted text."
+msgstr ""
+"Bu seçeneği etkinleştirerek farklı düzeylerde alıntılanmış metinler "
+"gösterebilirsiniz. Alıntılanmış metin düzeylerini gizlemek için bu seçeneği "
+"devre dışı yapın."
+
+#. i18n: ectx: label, entry (CollapseQuoteLevelSpin), group (Reader)
+#: settings/messageviewer.kcfg.in:76
+#, kde-format
+msgid "Automatic collapse level:"
+msgstr "Otomatik genişletme düzeyi:"
+
+#. i18n: ectx: label, entry (ShrinkQuotes), group (Reader)
+#: settings/messageviewer.kcfg.in:83
+#, kde-format
+msgid "Reduce font size for quoted text"
+msgstr "Alıntılanan metnin yazıtipi puntosunu azalt"
+
+#. i18n: ectx: whatsthis, entry (ShrinkQuotes), group (Reader)
+#: settings/messageviewer.kcfg.in:84
+#, kde-format
+msgid "Enable this option to show quoted text with a smaller font."
+msgstr ""
+"Alıntılanan metni daha küçük bir yazıtipi ile göstermek için bu seçeneği "
+"etkinleştirin."
+
+#. i18n: ectx: label, entry (AlwaysDecrypt), group (Reader)
+#: settings/messageviewer.kcfg.in:88
+#, kde-format
+msgid "Always decrypt messages when viewing or ask before decrypting"
+msgstr "İletileri görüntülerken şifresini her zaman çöz veya çözmeden önce sor"
+
+#. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
+#: settings/messageviewer.kcfg.in:91
+#, kde-format
+msgid "Message Structure Viewer"
+msgstr "İleti Yapısı Görüntüleyicisi"
+
+#. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
+#: settings/messageviewer.kcfg.in:94
+#, kde-format
+msgid "Show never"
+msgstr "Daha yeni olanı göster"
+
+#. i18n: ectx: label, entry (MimeTreeMode2), group (Reader)
+#: settings/messageviewer.kcfg.in:97
+#, kde-format
+msgid "Show always"
+msgstr "Her zaman göster"
+
+#. i18n: ectx: label, entry (headerPluginStyleName), group (Reader)
+#. i18n: ectx: label, entry (headerStyle), group (Reader)
+#: settings/messageviewer.kcfg.in:109 settings/messageviewer.kcfg.in:115
+#, kde-format
+msgid "What style of headers should be displayed"
+msgstr "Başlıkların hangi biçimde gösterileceği"
+
+#. i18n: ectx: label, entry (headerSetDisplayed), group (Reader)
+#: settings/messageviewer.kcfg.in:119
+#, kde-format
+msgid "How much of headers should be displayed"
+msgstr "Başlıkların ne kadarının gösterileceği"
+
+#. i18n: ectx: label, entry (htmlMail), group (Reader)
+#: settings/messageviewer.kcfg.in:123
+#, kde-format
+msgid "Prefer HTML to plain text"
+msgstr "Düz metin yerine HTML’yi tercih et"
+
+#. i18n: ectx: label, entry (htmlLoadExternal), group (Reader)
+#: settings/messageviewer.kcfg.in:127
+#, kde-format
+msgid "Allow messages to load external references from the Internet"
+msgstr "Dış kaynakların İnternet’ten yüklenmesine izin ver"
+
+#. i18n: ectx: label, entry (attachmentStrategy), group (Reader)
+#: settings/messageviewer.kcfg.in:131
+#, kde-format
+msgid "How attachments are shown"
+msgstr "Eklerin nasıl gösterileceği"
+
+#. i18n: ectx: label, entry (RecycleQuoteColors), group (Reader)
+#: settings/messageviewer.kcfg.in:135
+#, kde-format
+msgid "Specifies whether to reuse the quote color, beyond the 3rd level"
+msgstr ""
+"Alıntılanan rengin, 3. düzey ötesinde yeniden kullanılıp kullanılmayacağını "
+"belirtir"
+
+#. i18n: ectx: label, entry (AccessKeyEnabled), group (Reader)
+#: settings/messageviewer.kcfg.in:139
+#, kde-format
+msgid "Activate Access Key"
+msgstr "Erişim Düğmesini Etkinleştir"
+
+#. i18n: ectx: label, entry (ScamDetectionEnabled), group (Reader)
+#: settings/messageviewer.kcfg.in:143
+#, kde-format
+msgid ""
+"KMail can analyze messages for suspected email scams by looking for common "
+"techniques used to deceive you"
+msgstr ""
+"K Posta, sizi aldatmaya yönelik ortak yöntemleri arayarak kuşkulu e-posta "
+"dolandırıcılarına karşı iletileri inceleyebilir"
+
+#. i18n: ectx: label, entry (ScamDetectionWhiteList), group (Reader)
+#: settings/messageviewer.kcfg.in:147
+#, kde-format
+msgid "List of emails in scam white list"
+msgstr "Dolandırıcı olmayan e-posta listesi"
+
+#. i18n: ectx: label, entry (MailTrackingUrlEnabled), group (Reader)
+#: settings/messageviewer.kcfg.in:151
+#, kde-format
+msgid "Scan emails for tracking URLs"
+msgstr "E-postaları, izleyen URL’ler için tara"
+
+#. i18n: ectx: label, entry (notSendWhenEncrypted), group (MDN)
+#: settings/messageviewer.kcfg.in:157
+#, kde-format
+msgid "Do not send MDNs in response to encrypted messages"
+msgstr "Şifreli bir ileti için herhangi bir okundu yanıtı gönderme"
+
+#. i18n: ectx: label, entry (LegacyMangleFromToHeaders), group (Invitations)
+#: settings/messageviewer.kcfg.in:179
+#, kde-format
+msgid "Mangle From:/To: headers in replies to replies"
+msgstr "Yanıtlar yanıtlanırken Kimden:/Kime: başlıklarını parçala"
+
+#. i18n: ectx: whatsthis, entry (LegacyMangleFromToHeaders), group (Invitations)
+#: settings/messageviewer.kcfg.in:180
+#, kde-format
+msgid ""
+"Microsoft Outlook has a number of shortcomings in its implementation of the "
+"iCalendar standard; this option works around one of them. If you have "
+"problems with Outlook users not being able to get your replies, try setting "
+"this option."
+msgstr ""
+"Microsoft Outlook, iCalendar standardının uygulamasında birkaç kusur içerir; "
+"bu seçenek bunlardan birini gidermeye yarar. Outlook kullanıcılarınızın "
+"yanıtlarınızı alamadığı şikâyetini alıyorsanız, bu seçeneği deneyin."
+
+#. i18n: ectx: label, entry (LegacyBodyInvites), group (Invitations)
+#: settings/messageviewer.kcfg.in:185
+#, kde-format
+msgid "Send groupware invitations in the mail body"
+msgstr "Posta gövdesinde grup yazılımı daveti gönder"
+
+#. i18n: ectx: whatsthis, entry (LegacyBodyInvites), group (Invitations)
+#: settings/messageviewer.kcfg.in:186
+#, kde-format
+msgid ""
+"Microsoft Outlook has a number of shortcomings in its implementation of the "
+"iCalendar standard; this option works around one of them. If you have "
+"problems with Outlook users not being able to get your invitations, try "
+"setting this option."
+msgstr ""
+"Microsoft Outlook, iCalendar standardının uygulamasında birkaç kusur içerir; "
+"bu seçenek bunlardan birini gidermeye yarar. Outlook kullanıcılarınızın "
+"davetlerinizi alamama sorunu ile karşı karşıya kalıyorsanız, bu seçeneği "
+"deneyin."
+
+#. i18n: ectx: label, entry (ExchangeCompatibleInvitations), group (Invitations)
+#: settings/messageviewer.kcfg.in:191
+#, kde-format
+msgid "Exchange-compatible invitation naming"
+msgstr "Exchange uyumlu davet isimlendirmesi"
+
+#. i18n: ectx: whatsthis, entry (ExchangeCompatibleInvitations), group (Invitations)
+#: settings/messageviewer.kcfg.in:192
+#, kde-format
+msgid ""
+"Microsoft Outlook, when used in combination with a Microsoft Exchange "
+"server, has a problem understanding standards-compliant groupware email. "
+"Turn this option on to send groupware invitations in a way that Microsoft "
+"Exchange understands."
+msgstr ""
+"Microsoft Outlook bir Microsoft Exchange sunucusuyla birlikte "
+"kullanıldığında, standarda uygun grup e-postalarını anlamakta sorun "
+"yaşamaktadır. Bu seçeneği açarak, Microsof Exchange’in anlayacağı biçimde "
+"grup yazılımı davetlerini gönderebilirsiniz."
+
+#. i18n: ectx: label, entry (AutomaticSending), group (Invitations)
+#: settings/messageviewer.kcfg.in:197
+#, kde-format
+msgid "Automatic invitation sending"
+msgstr "Otomatik davet gönderimi"
+
+#. i18n: ectx: whatsthis, entry (AutomaticSending), group (Invitations)
+#: settings/messageviewer.kcfg.in:198
+#, kde-format
+msgid ""
+"When this is checked, you will not see the mail composer window. Instead, "
+"all invitation mails are sent automatically. If you want to see the mail "
+"before sending it, you can uncheck this option. However, be aware that the "
+"text in the composer window is in iCalendar syntax, and you should not try "
+"modifying it by hand."
+msgstr ""
+"Bu seçenek işaretlenirse, posta düzenleme penceresini görmeyeceksiniz, bunun "
+"yerine bütün davet postaları otomatik olarak gönderilecektir. Göndermeden "
+"önce postayı görmek istiyorsanız, bu seçeneği işaretlemeyin. Ancak, pencere "
+"içindeki metnin iCalendar sözdizimine uygun olduğuna dikkat edin ve elle "
+"değiştirmemeye çalışın."
+
+#. i18n: ectx: label, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
+#. i18n: ectx: property (text), widget (QCheckBox, mDeleteInvitations)
+#: settings/messageviewer.kcfg.in:203 ui/invitationsettings.ui:74
+#, kde-format
+msgid "Delete invitation emails after the reply to them has been sent"
+msgstr "Yanıt gönderildikten sonra davet e-postalarını sil"
+
+#. i18n: ectx: whatsthis, entry (DeleteInvitationEmailsAfterSendingReply), group (Invitations)
+#: settings/messageviewer.kcfg.in:204
+#, kde-format
+msgid ""
+"When this is checked, received invitation emails that have been replied to "
+"will be moved to the Trash folder, once the reply has been successfully sent."
+msgstr ""
+"Bu seçenek işaretlendiğinde, yanıtlanan ve alınan davet e-postaları, yanıt "
+"başarı ile gönderildiği zaman Çöp klasörüne taşınır."
+
+#. i18n: ectx: label, entry (UseFixedFont), group (Composer)
+#: settings/messageviewer.kcfg.in:228 viewer/viewer_p.cpp:1559
+#, kde-format
+msgid "Use Fi&xed Font"
+msgstr "Eş A&ralıklı Yazıtipi Kullan"
+
+#. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (Todo)
+#: settings/messageviewer.kcfg.in:235
+#, kde-format
+msgid "The most recent selected folder used for Todo."
+msgstr "Yapılacaklar için kullanılan son seçilen klasör."
+
+#. i18n: ectx: whatsthis, entry (LastEventSelectedFolder), group (Event)
+#: settings/messageviewer.kcfg.in:241
+#, kde-format
+msgid "The most recent selected folder used for Event."
+msgstr "Etkinlik için kullanılan son seçilen klasör."
+
+#. i18n: ectx: whatsthis, entry (LastNoteSelectedFolder), group (Note)
+#: settings/messageviewer.kcfg.in:247
+#, kde-format
+msgid "The most recent selected folder used for Notes."
+msgstr "Notlar için kullanılan son seçilen klasör."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: ui/invitationsettings.ui:17
 #, kde-format
 msgid "Groupware Compatibility && Legacy Options"
-msgstr "Grup Çalışması Uyumluluğu ve Diğer Seçenekler"
+msgstr "Grup Yazılımı Uyumluluğu ve Diğer Seçenekler"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, mLegacyMangleFromTo)
 #: ui/invitationsettings.ui:23
@@ -1352,8 +1432,7 @@ msgstr "Grup Çalışması Uyumluluğu ve Diğer Seçenekler"
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitation replies"
-msgstr ""
-"Outlook'un gönderdiğiniz davetleri anlayabilmesi için bu seçeneği imleyin"
+msgstr "Outlook’un gönderdiğiniz davetleri anlayabilmesi için bu seçeneği açın"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mLegacyMangleFromTo)
 #: ui/invitationsettings.ui:26
@@ -1367,8 +1446,7 @@ msgstr "Davetlere yanıt verirken Kimden:/Kime: başlıklarını &Parçala"
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitations"
-msgstr ""
-"Outlook'un gönderdiğiniz davetleri anlayabilmesi için bu seçeneği imleyin"
+msgstr "Outlook’un gönderdiğiniz davetleri anlayabilmesi için bu seçeneği açın"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mLegacyBodyInvites)
 #: ui/invitationsettings.ui:36
@@ -1386,11 +1464,10 @@ msgid ""
 "Turn this option on to send groupware invitations in a way that Microsoft "
 "Exchange understands."
 msgstr ""
-"Microsoft Outlook, bir Microsoft Exchange sunucusuyla birlikte "
-"kullanıldığında,\n"
-"standarda uygun grup e-postalarını anlamakta sorun yaşamaktadır.\n"
-"Bu seçeneği açık duruma getirerek, Microsof Exchange'nin anlayacağı biçimde "
-"grup davetlerini gönderebilirsiniz."
+"Microsoft Outlook bir Microsoft Exchange sunucusuyla birlikte\n"
+"kullanıldığında, standarda uygun grup e-postalarını anlamakta\n"
+"sorun yaşamaktadır. Bu seçeneği açarak, Microsof Exchange’in\n"
+"anlayacağı biçimde grup yazılımı davetlerini gönderebilirsiniz."
 
 #. i18n: ectx: property (text), widget (QCheckBox, mExchangeCompatibleInvitations)
 #: ui/invitationsettings.ui:48
@@ -1419,12 +1496,6 @@ msgstr "&Otomatik davet gönderimi"
 #, kde-format
 msgid "Options"
 msgstr "Seçenekler"
-
-#. i18n: ectx: property (text), widget (QCheckBox, mDeleteInvitations)
-#: ui/invitationsettings.ui:74
-#, kde-format
-msgid "Delete invitation emails after the reply to them has been sent"
-msgstr "Yanıt gönderildikten sonra davet e-postalarını sil"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mPrintEmptySelectedText)
 #: ui/printingsettings.ui:17
@@ -1472,7 +1543,7 @@ msgstr "Erişim düğmesini etkinleştir"
 #: ui/settings.ui:86
 #, kde-format
 msgid "Reduce font size for &quoted text"
-msgstr "&Alıntılanan metnin yazıtipini küçült"
+msgstr "&Alıntılanan metnin yazıtipi puntosunu azalt"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandQuotesMark)
 #: ui/settings.ui:93
@@ -1484,49 +1555,52 @@ msgstr "&Aktarılan metni genişlet/daralt işaretlerini göster"
 #: ui/settings.ui:121
 #, kde-format
 msgid "Automatic collapse &level:"
-msgstr "Otomatik genişletme &düzeyi:"
+msgstr "Kendiliğinden genişletme &düzeyi:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: ui/settings.ui:190
 #, kde-format
 msgid "&Minimum font size:"
-msgstr "&En küçük yazıtipi boyutu:"
+msgstr "&En küçük yazıtipi puntosu:"
 
-#: utils/messageviewerutil.cpp:124
+#: utils/messageviewerutil.cpp:123
 #, kde-format
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr "%1 adında bir dosya mevcut. Üzerine yazılsın mı?"
+msgstr ""
+"%1 adında bir dosya halihazırda var. Üzerine yazmak istediğinizden emin "
+"misiniz?"
 
-#: utils/messageviewerutil.cpp:127
+#: utils/messageviewerutil.cpp:126
 #, kde-format
 msgctxt "@title:window"
 msgid "Overwrite File?"
 msgstr "Dosyanın Üzerine Yaz?"
 
-#: utils/messageviewerutil.cpp:177
+#: utils/messageviewerutil.cpp:159
 #, kde-format
 msgid "Save Attachments To"
 msgstr "Ekleri Farklı Kaydet"
 
-#: utils/messageviewerutil.cpp:194
+#: utils/messageviewerutil.cpp:176
 #, kde-format
 msgctxt "filename for an unnamed attachment"
 msgid "attachment.1"
 msgstr "ek.1"
 
-#: utils/messageviewerutil.cpp:200
+#: utils/messageviewerutil.cpp:182
 #, kde-format
+msgctxt "@title:window"
 msgid "Save Attachment"
 msgstr "Eki Kaydet"
 
-#: utils/messageviewerutil.cpp:224
+#: utils/messageviewerutil.cpp:206
 #, kde-format
 msgctxt "filename for the %1-th unnamed attachment"
 msgid "attachment.%1"
 msgstr "ek.%1"
 
-#: utils/messageviewerutil.cpp:322
+#: utils/messageviewerutil.cpp:304
 #, kde-format
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
@@ -1535,22 +1609,24 @@ msgstr ""
 "İletinin %1 kısmı şifrelendi. Kaydederken şifrelemeyi korumak istiyor "
 "musunuz?"
 
-#: utils/messageviewerutil.cpp:324 utils/messageviewerutil.cpp:337
+#: utils/messageviewerutil.cpp:306 utils/messageviewerutil.cpp:319
 #, kde-format
 msgid "KMail Question"
 msgstr "K Posta Sorusu"
 
-#: utils/messageviewerutil.cpp:324
+#: utils/messageviewerutil.cpp:306
 #, kde-format
+msgctxt "@action:button"
 msgid "Keep Encryption"
-msgstr "Şifrelemeyi Koru"
+msgstr "Şifrelemeyi Tut"
 
-#: utils/messageviewerutil.cpp:325 utils/messageviewerutil.cpp:338
+#: utils/messageviewerutil.cpp:307 utils/messageviewerutil.cpp:320
 #, kde-format
+msgctxt "@action:button"
 msgid "Do Not Keep"
-msgstr "Koruma"
+msgstr "Tutma"
 
-#: utils/messageviewerutil.cpp:335
+#: utils/messageviewerutil.cpp:317
 #, kde-format
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
@@ -1559,13 +1635,14 @@ msgstr ""
 "İletinin %1 kısmı imzalanmış. Kaydederken imzayı muhafaza etmek istiyor "
 "musunuz?"
 
-#: utils/messageviewerutil.cpp:337
+#: utils/messageviewerutil.cpp:319
 #, kde-format
+msgctxt "@action:button"
 msgid "Keep Signature"
-msgstr "İmzayı Koru"
+msgstr "İmzayı Tut"
 
-#: utils/messageviewerutil.cpp:401 utils/messageviewerutil.cpp:419
-#: utils/messageviewerutil.cpp:437 utils/messageviewerutil.cpp:556
+#: utils/messageviewerutil.cpp:383 utils/messageviewerutil.cpp:401
+#: utils/messageviewerutil.cpp:419 utils/messageviewerutil.cpp:538
 #, kde-kuit-format
 msgctxt "1 = file name, 2 = error string"
 msgid ""
@@ -1574,78 +1651,78 @@ msgid ""
 msgstr ""
 "<qt>Dosyaya yazılamadı:<br /><filename>%1</filename><br /><br />%2</qt>"
 
-#: utils/messageviewerutil.cpp:404
+#: utils/messageviewerutil.cpp:386
 #, kde-format
 msgctxt "@title:window"
 msgid "Error saving attachment"
 msgstr "Eki Kaydederken Hata"
 
-#: utils/messageviewerutil.cpp:422 utils/messageviewerutil.cpp:440
+#: utils/messageviewerutil.cpp:404 utils/messageviewerutil.cpp:422
 #, kde-format
 msgid "Error saving attachment"
 msgstr "Eki kaydederken hata oluştu"
 
-#: utils/messageviewerutil.cpp:453
+#: utils/messageviewerutil.cpp:435
 #, kde-format
 msgid "Found no attachments to save."
 msgstr "Kaydedilecek ek yok."
 
-#: utils/messageviewerutil.cpp:468
+#: utils/messageviewerutil.cpp:450
 #, kde-format
 msgid "message"
 msgstr "ileti"
 
-#: utils/messageviewerutil.cpp:490
+#: utils/messageviewerutil.cpp:472
 #, kde-format
-msgid "email messages (*.mbox);;all files (*)"
-msgstr "eposta iletileri (*.mbox);;tüm dosyalar (*)"
+msgid "Mailbox file (*.mbox);;All Files (*)"
+msgstr "Mailbox dosyası (*.mbox);;Tüm dosyalar (*)"
 
-#: utils/messageviewerutil.cpp:501
+#: utils/messageviewerutil.cpp:483
 #, kde-format
 msgid "Save Message"
 msgid_plural "Save Messages"
 msgstr[0] "İletiyi Kaydet"
 msgstr[1] "İletileri Kaydet"
 
-#: utils/messageviewerutil.cpp:526
+#: utils/messageviewerutil.cpp:508
 #, kde-format
 msgid "File %1 could not be loaded."
 msgstr "%1 dosyası yüklenemedi."
 
-#: utils/messageviewerutil.cpp:526
+#: utils/messageviewerutil.cpp:508
 #, kde-format
 msgctxt "@title:window"
 msgid "Error loading message"
 msgstr "İleti Yüklenirken Hata"
 
-#: utils/messageviewerutil.cpp:528
+#: utils/messageviewerutil.cpp:510
 #, kde-format
 msgid "File %1 could not be created."
 msgstr "%1 dosyası oluşturulamadı."
 
-#: utils/messageviewerutil.cpp:528 utils/messageviewerutil.cpp:559
+#: utils/messageviewerutil.cpp:510 utils/messageviewerutil.cpp:541
 #, kde-format
 msgctxt "@title:window"
 msgid "Error saving message"
 msgstr "İleti Kaydedilirken Hata"
 
-#: utils/messageviewerutil.cpp:539
+#: utils/messageviewerutil.cpp:521
 #, kde-format
 msgid "We cannot save message."
 msgstr "İletiyi kaydedemiyoruz."
 
-#: utils/messageviewerutil.cpp:539
+#: utils/messageviewerutil.cpp:521
 #, kde-format
 msgid "Error saving message"
 msgstr "İleti kaydedilirken hata"
 
-#: utils/messageviewerutil.cpp:603
+#: utils/messageviewerutil.cpp:585
 #, kde-format
 msgctxt "Argument is the original name of the deleted attachment"
 msgid "Deleted: %1"
 msgstr "Silindi: %1"
 
-#: utils/messageviewerutil.cpp:614
+#: utils/messageviewerutil.cpp:596
 #, kde-format
 msgid ""
 "You deleted an attachment from this message. The original MIME headers for "
@@ -1653,554 +1730,557 @@ msgid ""
 msgstr ""
 "Bu iletiden bir eki sildiniz. Bu ek için olan özgün MIME üstbilgisi şuydu:"
 
-#: utils/messageviewerutil.cpp:641
+#: utils/messageviewerutil.cpp:623
 #, kde-format
 msgid "Open &with %1"
 msgstr "%1 &ile Aç"
 
-#: utils/messageviewerutil.cpp:643
+#: utils/messageviewerutil.cpp:625
 #, kde-format
 msgctxt "@item:inmenu Open With, %1 is application name"
 msgid "%1"
 msgstr "%1"
 
-#: viewer/mimeparttree/mimetreemodel.cpp:59
+#: viewer/mimeparttree/mimetreemodel.cpp:61
 #, kde-format
 msgid "body part"
 msgstr "gövde bölümü"
 
-#: viewer/mimeparttree/mimetreemodel.cpp:262
+#: viewer/mimeparttree/mimetreemodel.cpp:264
 #, kde-format
 msgid "Description"
 msgstr "Açıklama"
 
-#: viewer/mimeparttree/mimetreemodel.cpp:264
+#: viewer/mimeparttree/mimetreemodel.cpp:266
 #, kde-format
 msgid "Type"
 msgstr "Tür"
 
-#: viewer/mimeparttree/mimetreemodel.cpp:266
+#: viewer/mimeparttree/mimetreemodel.cpp:268
 #, kde-format
 msgid "Size"
 msgstr "Boyut"
 
-#: viewer/printmessage.cpp:61
+#: viewer/printmessage.cpp:68
 #, kde-format
 msgid "Could not generate print preview."
 msgstr "Yazdırma önizlemesi üretilemedi."
 
-#: viewer/printmessage.cpp:97
+#: viewer/printmessage.cpp:104
 #, kde-format
 msgctxt "@title:window"
 msgid "Print Document"
 msgstr "Belgeyi Yazdır"
 
-#: viewer/urlhandlermanager.cpp:406
+#: viewer/urlhandlermanager.cpp:409
 #, kde-format
 msgid "Turn on HTML rendering for this message."
 msgstr "Bu ileti için HTML sunumunu açın."
 
-#: viewer/urlhandlermanager.cpp:408 viewer/viewer_p.cpp:1626
+#: viewer/urlhandlermanager.cpp:411 viewer/viewer_p.cpp:1628
 #, kde-format
 msgid "Load external references from the Internet for this message."
-msgstr "Bu e-posta için dış başvuruların Internet'ten yüklenmesine izin verin."
+msgstr "Bu e-posta için dış başvuruların İnternet’ten yüklenmesine izin verin."
 
-#: viewer/urlhandlermanager.cpp:410
+#: viewer/urlhandlermanager.cpp:413
 #, kde-format
 msgid "Work online."
 msgstr "Çevrimiçi çalışın."
 
-#: viewer/urlhandlermanager.cpp:412
+#: viewer/urlhandlermanager.cpp:415
 #, kde-format
 msgid "Make account online."
 msgstr "Hesabı çevrimiçi yapın."
 
-#: viewer/urlhandlermanager.cpp:414
+#: viewer/urlhandlermanager.cpp:417
 #, kde-format
 msgid "Decrypt message."
 msgstr "İletinin şifresini çözün."
 
-#: viewer/urlhandlermanager.cpp:416
+#: viewer/urlhandlermanager.cpp:419
 #, kde-format
 msgid "Show signature details."
 msgstr "İmza ayrıntılarını gösterin."
 
-#: viewer/urlhandlermanager.cpp:418
+#: viewer/urlhandlermanager.cpp:421
 #, kde-format
 msgid "Hide signature details."
 msgstr "İmza ayrıntılarını gizleyin."
 
-#: viewer/urlhandlermanager.cpp:420
+#: viewer/urlhandlermanager.cpp:423
 #, kde-format
 msgid "Show encryption details."
 msgstr "Şifreleme ayrıntılarını gösterin."
 
-#: viewer/urlhandlermanager.cpp:422
+#: viewer/urlhandlermanager.cpp:425
 #, kde-format
 msgid "Hide encryption details."
 msgstr "Şifreleme ayrıntılarını gizleyin."
 
-#: viewer/urlhandlermanager.cpp:427
+#: viewer/urlhandlermanager.cpp:430
 #, kde-format
 msgid "Open Documentation"
 msgstr "Belgelendirmeyi Aç"
 
-#: viewer/urlhandlermanager.cpp:461
+#: viewer/urlhandlermanager.cpp:464
 #, kde-format
 msgid "Expand all quoted text."
 msgstr "Alıntılanan metni genişletin."
 
-#: viewer/urlhandlermanager.cpp:463
+#: viewer/urlhandlermanager.cpp:466
 #, kde-format
 msgid "Collapse quoted text."
 msgstr "Alıntılanan metni daraltın."
 
-#: viewer/urlhandlermanager.cpp:532
+#: viewer/urlhandlermanager.cpp:492
 #, kde-format
 msgid "Could not start certificate manager. Please check your installation."
 msgstr "Sertifika yöneticisi başlatılamıyor. Kurulumunuzu denetleyin."
 
-#: viewer/urlhandlermanager.cpp:534
+#: viewer/urlhandlermanager.cpp:494
 #, kde-format
 msgid "KMail Error"
 msgstr "K Posta Hatası"
 
-#: viewer/urlhandlermanager.cpp:549
+#: viewer/urlhandlermanager.cpp:511
 #, kde-format
 msgid "Show certificate 0x%1"
 msgstr "Sertifika göster 0x%1"
 
-#: viewer/urlhandlermanager.cpp:608
+#: viewer/urlhandlermanager.cpp:570
 #, kde-format
 msgid "&Open in Address Book"
 msgstr "&Adres Defterinden Aç"
 
-#: viewer/urlhandlermanager.cpp:610
+#: viewer/urlhandlermanager.cpp:572
 #, kde-format
 msgid "&Copy Email Address"
 msgstr "E-posta Adresini Ko&pyala"
 
-#: viewer/urlhandlermanager.cpp:623 viewer/viewer_p.cpp:2705
+#: viewer/urlhandlermanager.cpp:585 viewer/viewer_p.cpp:2719
 #, kde-format
 msgid "Address copied to clipboard."
 msgstr "Adres panoya kopyalandı."
 
-#: viewer/urlhandlermanager.cpp:634
+#: viewer/urlhandlermanager.cpp:596
 #, kde-format
 msgid "Lookup the contact in KAddressbook"
 msgstr "Kişiye Adres Defterinden Bak"
 
-#: viewer/urlhandlermanager.cpp:810
+#: viewer/urlhandlermanager.cpp:772
 #, kde-format
 msgid "Attachment: %1"
 msgstr "Ek: %1"
 
-#: viewer/urlhandlermanager.cpp:813
+#: viewer/urlhandlermanager.cpp:775
 #, kde-format
 msgid "Encapsulated Message (Subject: %1)"
 msgstr "Kapsüllenmiş ileti (Konu: %1)"
 
-#: viewer/urlhandlermanager.cpp:815
+#: viewer/urlhandlermanager.cpp:777
 #, kde-format
 msgid "Encapsulated Message"
 msgstr "Kapsüllenmiş ileti"
 
-#: viewer/urlhandlermanager.cpp:818
+#: viewer/urlhandlermanager.cpp:780
 #, kde-format
 msgid "Unnamed attachment"
 msgstr "Adsız ek"
 
-#: viewer/urlhandlermanager.cpp:853
+#: viewer/urlhandlermanager.cpp:815
 #, kde-format
 msgid "Show GnuPG Audit Log for this operation"
 msgstr "Bu işlem için GnuPG Audit Günlük Kaydını göster"
 
-#: viewer/urlhandlermanager.cpp:894
+#: viewer/urlhandlermanager.cpp:855
 #, kde-format
 msgid "Opening URL..."
-msgstr "URL açılıyor..."
+msgstr "URL açılıyor…"
 
-#: viewer/urlhandlermanager.cpp:903
+#: viewer/urlhandlermanager.cpp:864
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to execute <filename>%1</filename>?"
 msgstr ""
 "<filename>%1</filename> uygulamasını çalıştırmayı gerçekten istiyor musunuz?"
 
-#: viewer/urlhandlermanager.cpp:905
+#: viewer/urlhandlermanager.cpp:866
 #, kde-format
+msgctxt "@action:button"
 msgid "Execute"
-msgstr "Komut Çalıştır"
+msgstr "Yürüt"
 
-#: viewer/viewer.cpp:135
+#: viewer/viewer.cpp:146
 #, kde-format
 msgid "Loading message..."
-msgstr "İleti yükleniyor..."
+msgstr "İleti yükleniyor…"
 
-#: viewer/viewer_p.cpp:343
+#: viewer/viewer_p.cpp:346
 #, kde-format
 msgid ""
 "Deleting an attachment might invalidate any digital signature on this "
 "message."
 msgstr "Bir eki silmek, o iletide kullanılan tüm imzaları geçersiz kılabilir."
 
-#: viewer/viewer_p.cpp:344 viewer/viewer_p.cpp:379
+#: viewer/viewer_p.cpp:347 viewer/viewer_p.cpp:382
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Attachment"
 msgstr "Eki Sil"
 
-#: viewer/viewer_p.cpp:378
+#: viewer/viewer_p.cpp:381
 #, kde-format
 msgid ""
 "Deleting an attachment from an encrypted or old-style mailman message is not "
 "supported."
 msgstr "Şifreli veya eski tarz iletiden bir ek silmek desteklenmemektedir."
 
-#: viewer/viewer_p.cpp:427
+#: viewer/viewer_p.cpp:430
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Birlikte Aç"
 
-#: viewer/viewer_p.cpp:445
+#: viewer/viewer_p.cpp:448
 #, kde-format
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
-msgstr "&Diğer..."
+msgstr "&Diğer…"
 
-#: viewer/viewer_p.cpp:447 viewer/viewer_p.cpp:460
+#: viewer/viewer_p.cpp:450 viewer/viewer_p.cpp:463
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With..."
-msgstr "&Birlikte Aç..."
+msgstr "&Birlikte Aç…"
 
-#: viewer/viewer_p.cpp:524 viewer/viewer_p.cpp:1736
+#: viewer/viewer_p.cpp:527 viewer/viewer_p.cpp:1738
 #, kde-format
 msgctxt "to open"
 msgid "Open"
 msgstr "Aç"
 
-#: viewer/viewer_p.cpp:538 viewer/viewer_p.cpp:1743
+#: viewer/viewer_p.cpp:541 viewer/viewer_p.cpp:1745
 #, kde-format
 msgctxt "to view something"
 msgid "View"
 msgstr "Görünüm"
 
-#: viewer/viewer_p.cpp:546
+#: viewer/viewer_p.cpp:549
 #, kde-format
 msgid "Scroll To"
 msgstr "Şuraya Sar"
 
-#: viewer/viewer_p.cpp:551
+#: viewer/viewer_p.cpp:554
 #, kde-format
 msgid "Save As..."
-msgstr "Farklı Kaydet..."
+msgstr "Farklı Kaydet…"
 
-#: viewer/viewer_p.cpp:557 viewer/viewer_p.cpp:1753
+#: viewer/viewer_p.cpp:560 viewer/viewer_p.cpp:1755
 #, kde-format
 msgid "Copy"
 msgstr "Kopyala"
 
-#: viewer/viewer_p.cpp:568 viewer/viewer_p.cpp:1758
+#: viewer/viewer_p.cpp:571 viewer/viewer_p.cpp:1759
 #, kde-format
 msgid "Delete Attachment"
 msgstr "Eki Sil"
 
-#: viewer/viewer_p.cpp:579
+#: viewer/viewer_p.cpp:582
 #, kde-format
 msgid "Reply To Author"
 msgstr "Yazanı Yanıtla"
 
-#: viewer/viewer_p.cpp:587
+#: viewer/viewer_p.cpp:590
 #, kde-format
 msgid "Reply To All"
 msgstr "Tümüne Gönder"
 
-#: viewer/viewer_p.cpp:593 viewer/viewer_p.cpp:1763
+#: viewer/viewer_p.cpp:596 viewer/viewer_p.cpp:1764
 #, kde-format
 msgid "Properties"
 msgstr "Özellikler"
 
-#: viewer/viewer_p.cpp:730
+#: viewer/viewer_p.cpp:733
 #, kde-format
 msgid "KMail"
 msgstr "K Posta"
 
-#: viewer/viewer_p.cpp:731
+#: viewer/viewer_p.cpp:733
 #, kde-format
 msgid "The KDE Mail Client"
 msgstr "KDE E-posta İstemcisi"
 
-#: viewer/viewer_p.cpp:1276
+#: viewer/viewer_p.cpp:1279
 #, kde-format
 msgctxt "@title:window"
 msgid "View Attachment: %1"
 msgstr "Eki Görüntüle: %1"
 
-#: viewer/viewer_p.cpp:1478
+#: viewer/viewer_p.cpp:1481
 #, kde-format
 msgctxt "View->"
 msgid "&Attachments"
 msgstr "&Ekler"
 
-#: viewer/viewer_p.cpp:1480
+#: viewer/viewer_p.cpp:1483
 #, kde-format
 msgid "Choose display style of attachments"
 msgstr "Eklerin görüntülenme biçimini seç"
 
-#: viewer/viewer_p.cpp:1483
+#: viewer/viewer_p.cpp:1486
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&As Icons"
 msgstr "Simge olar&ak görüntüle"
 
-#: viewer/viewer_p.cpp:1486
+#: viewer/viewer_p.cpp:1489
 #, kde-format
 msgid "Show all attachments as icons. Click to see them."
-msgstr "Bütün ekleri simge olarak göster. Görmek için tıklayın."
+msgstr "Bütün ekleri simgeler olarak gösterin. Onları görmek için tıklayın."
 
-#: viewer/viewer_p.cpp:1490
+#: viewer/viewer_p.cpp:1493
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Smart"
 msgstr "&Akıllı görüntüleme"
 
-#: viewer/viewer_p.cpp:1493
+#: viewer/viewer_p.cpp:1496
 #, kde-format
 msgid "Show attachments as suggested by sender."
 msgstr "Gönderen tarafından bildirilen ekleri göster."
 
-#: viewer/viewer_p.cpp:1497
+#: viewer/viewer_p.cpp:1500
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Inline"
 msgstr "&Dosyanın içinde"
 
-#: viewer/viewer_p.cpp:1500
+#: viewer/viewer_p.cpp:1503
 #, kde-format
 msgid "Show all attachments inline (if possible)"
 msgstr "Bütün ekleri gövde göster (mümkünse)"
 
-#: viewer/viewer_p.cpp:1504
+#: viewer/viewer_p.cpp:1507
 #, kde-format
 msgctxt "View->attachments->"
 msgid "&Hide"
 msgstr "&Gizle"
 
-#: viewer/viewer_p.cpp:1507
+#: viewer/viewer_p.cpp:1510
 #, kde-format
 msgid "Do not show attachments in the message viewer"
 msgstr "İleti görüntüleyicide ekleri gösterme"
 
-#: viewer/viewer_p.cpp:1511
+#: viewer/viewer_p.cpp:1514
 #, kde-format
 msgctxt "View->attachments->"
 msgid "In Header Only"
 msgstr "Yalnızca Başlıkta"
 
-#: viewer/viewer_p.cpp:1514
+#: viewer/viewer_p.cpp:1517
 #, kde-format
 msgid "Show Attachments only in the header of the mail"
 msgstr "Ekleri yalnızca postanın başlığında göster"
 
-#: viewer/viewer_p.cpp:1519
+#: viewer/viewer_p.cpp:1522
 #, kde-format
 msgid "&Set Encoding"
 msgstr "&Kodlamayı Ayarla"
 
-#: viewer/viewer_p.cpp:1524 widgets/configurewidget.cpp:43
-#: widgets/configurewidget.cpp:77
+#: viewer/viewer_p.cpp:1527 widgets/configurewidget.cpp:45
+#: widgets/configurewidget.cpp:79
 #, kde-format
 msgid "Auto"
 msgstr "Otomatik"
 
-#: viewer/viewer_p.cpp:1534
+#: viewer/viewer_p.cpp:1537
 #, kde-format
 msgid "Copy Text"
 msgstr "Metni Kopyala"
 
-#: viewer/viewer_p.cpp:1541
+#: viewer/viewer_p.cpp:1543
 #, kde-format
+msgctxt "@action"
 msgid "Select All Text"
-msgstr "&Tüm Metinleri Seç"
+msgstr "Tüm Metni Seç"
 
-#: viewer/viewer_p.cpp:1547 viewer/viewer_p.cpp:2060
+#: viewer/viewer_p.cpp:1549 viewer/viewer_p.cpp:2073
 #, kde-format
 msgid "Copy Link Address"
 msgstr "Bağlantı Adresini Kopyala"
 
-#: viewer/viewer_p.cpp:1552
+#: viewer/viewer_p.cpp:1554
 #, kde-format
 msgid "Open URL"
-msgstr "URL Aç"
+msgstr "URL’yi Aç"
 
-#: viewer/viewer_p.cpp:1557
-#, kde-format
-msgid "Use Fi&xed Font"
-msgstr "Eş A&ralıklı Yazıtipi Kullan"
-
-#: viewer/viewer_p.cpp:1563
+#: viewer/viewer_p.cpp:1565
 #, kde-format
 msgid "Show Message Structure"
 msgstr "İleti Yapısını Göster"
 
-#: viewer/viewer_p.cpp:1568
+#: viewer/viewer_p.cpp:1570
 #, kde-format
+msgctxt "@action"
 msgid "&View Source"
-msgstr "&Kaynağı Göster"
+msgstr "Kaynağı Görüntüle"
 
-#: viewer/viewer_p.cpp:1573
+#: viewer/viewer_p.cpp:1575
 #, kde-format
 msgid "&Save Message..."
-msgstr "&İletiyi Kaydet..."
+msgstr "&İletiyi Kaydet…"
 
-#: viewer/viewer_p.cpp:1579
+#: viewer/viewer_p.cpp:1581
 #, kde-format
+msgctxt "@action"
 msgid "&Save Display Format"
-msgstr "&Görüntü Biçimini Kaydet"
+msgstr "Görüntü Biçimini &Kaydet"
 
-#: viewer/viewer_p.cpp:1583
+#: viewer/viewer_p.cpp:1585
 #, kde-format
+msgctxt "@action"
 msgid "&Reset Display Format"
-msgstr "&Gösterim Biçimini Sıfırla"
+msgstr "Görüntü Biçimini &Sıfırla"
 
-#: viewer/viewer_p.cpp:1590
+#: viewer/viewer_p.cpp:1592
 #, kde-format
+msgctxt "@action"
 msgid "Scroll Message Up"
 msgstr "İletiyi Yukarı Sar"
 
-#: viewer/viewer_p.cpp:1595
+#: viewer/viewer_p.cpp:1597
 #, kde-format
+msgctxt "@action"
 msgid "Scroll Message Down"
 msgstr "İletiyi Aşağı Sar"
 
-#: viewer/viewer_p.cpp:1600
+#: viewer/viewer_p.cpp:1602
 #, kde-format
+msgctxt "@action"
 msgid "Scroll Message Up (More)"
 msgstr "İletiyi Yukarı Sar (Daha Fazla)"
 
-#: viewer/viewer_p.cpp:1605
+#: viewer/viewer_p.cpp:1607
 #, kde-format
+msgctxt "@action"
 msgid "Scroll Message Down (More)"
 msgstr "İletiyi Aşağı Sar (Daha Fazla)"
 
-#: viewer/viewer_p.cpp:1615
+#: viewer/viewer_p.cpp:1617
 #, kde-format
 msgid "Toggle HTML Display Mode"
 msgstr "HTML Görünüm Kipini Aç/Kapa"
 
-#: viewer/viewer_p.cpp:1619
+#: viewer/viewer_p.cpp:1621
 #, kde-format
 msgid "Toggle display mode between HTML and plain text"
 msgstr "Görünüm Kipini HTML ve düz metin arasında değiştir"
 
-#: viewer/viewer_p.cpp:1622
+#: viewer/viewer_p.cpp:1624
 #, kde-format
+msgctxt "@action"
 msgid "Load external references"
-msgstr "Dış referansları yükle"
+msgstr "Dış Başvuruları Yükle"
 
-#: viewer/viewer_p.cpp:1628 widgets/mailsourceviewtextbrowserwidget.cpp:133
+#: viewer/viewer_p.cpp:1630
 #, kde-format
+msgctxt "@action"
 msgid "Speak Text"
-msgstr "Metni Oku"
+msgstr "Metni Konuş"
 
-#: viewer/viewer_p.cpp:1634
+#: viewer/viewer_p.cpp:1636
 #, kde-format
+msgctxt "@action"
 msgid "Share Text..."
-msgstr "Metni Paylaş..."
+msgstr "Metni Paylaş…"
 
-#: viewer/viewer_p.cpp:1652
+#: viewer/viewer_p.cpp:1654
 #, kde-format
+msgctxt "@action"
 msgid "Copy Image Location"
 msgstr "Görsel Konumunu Kopyala"
 
-#: viewer/viewer_p.cpp:1658
+#: viewer/viewer_p.cpp:1660
 #, kde-format
 msgid "&Find in Message..."
-msgstr "İletide &Bul..."
+msgstr "İletide &Bul…"
 
-#: viewer/viewer_p.cpp:1667
+#: viewer/viewer_p.cpp:1669
 #, kde-format
 msgid "Disable Emoticon"
-msgstr "Yüz İfadelerini Devre Dışı Bırak"
+msgstr "Emojileri Devre Dışı Bırak"
 
-#: viewer/viewer_p.cpp:1733
+#: viewer/viewer_p.cpp:1735
 #, kde-format
 msgid "Save &As..."
-msgstr "&Farklı Kaydet..."
+msgstr "&Farklı Kaydet…"
 
-#: viewer/viewer_p.cpp:1741
+#: viewer/viewer_p.cpp:1743
 #, kde-format
 msgid "Open With..."
-msgstr "Birlikte Aç..."
+msgstr "Birlikte Aç…"
 
-#: viewer/viewer_p.cpp:1748
+#: viewer/viewer_p.cpp:1750
 #, kde-format
 msgid "Save All Attachments..."
-msgstr "Tüm Ekleri Kaydet..."
+msgstr "Tüm Ekleri Kaydet…"
 
-#: viewer/viewer_p.cpp:1980
+#: viewer/viewer_p.cpp:1993
 #, kde-format
 msgid "The network is broken."
 msgstr "Ağ bozuk."
 
-#: viewer/viewer_p.cpp:1980
-#, kde-format
-msgid "Check Phishing URL"
-msgstr "Kimlik Avı URL'si Denetle"
-
-#: viewer/viewer_p.cpp:1983
-#, kde-format
-msgid "The URL %1 is not valid."
-msgstr "%1 URL'si geçerli değil."
-
-#: viewer/viewer_p.cpp:1983
+#: viewer/viewer_p.cpp:1993 viewer/viewer_p.cpp:1996
 #, kde-format
 msgctxt "@title:window"
 msgid "Check Phishing URL"
-msgstr "Kimlik Avı URL'si Denetle"
+msgstr "Kimlik Avı URL’si Denetle"
 
-#: viewer/viewer_p.cpp:2003
+#: viewer/viewer_p.cpp:1996
+#, kde-format
+msgid "The URL %1 is not valid."
+msgstr "%1 URL’si geçerli değil."
+
+#: viewer/viewer_p.cpp:2016
 #, kde-format
 msgid "This web site is a malware, do you want to continue to show it?"
 msgstr ""
 "Bu web sitesi bir zararlı yazılım içeriyor, bunu göstermeyi sürdürmek "
 "istiyor musunuz?"
 
-#: viewer/viewer_p.cpp:2004
+#: viewer/viewer_p.cpp:2017
 #, kde-format
 msgctxt "@title:window"
 msgid "Malware"
 msgstr "Zararlı Yazılım"
 
-#: viewer/viewer_p.cpp:2058
+#: viewer/viewer_p.cpp:2071
 #, kde-format
 msgid "Copy Email Address"
 msgstr "E-posta Adresini Kopyala"
 
-#: viewer/viewer_p.cpp:2141
+#: viewer/viewer_p.cpp:2154
 #, kde-format
 msgctxt "@title:window"
 msgid "Message as Plain Text"
 msgstr "Düz Metin İleti"
 
-#: viewer/viewer_p.cpp:2711
+#: viewer/viewer_p.cpp:2725
 #, kde-format
 msgid "URL copied to clipboard."
 msgstr "URL panoya kopyalandı."
 
-#: viewer/viewer_p.cpp:2863
+#: viewer/viewer_p.cpp:2887
 #, kde-format
 msgid "Message loading failed: %1."
 msgstr "İleti yükleme başarısız: %1."
 
-#: viewer/viewer_p.cpp:2868
+#: viewer/viewer_p.cpp:2892
 #, kde-format
 msgid "Message not found."
 msgstr "İleti bulunamadı."
 
-#: widgets/attachmentdialog.cpp:27
+#: widgets/attachmentdialog.cpp:28
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2210,26 +2290,26 @@ msgstr ""
 "<filename>%1</filename> eki açılsın mı?<nl/>Bir ekin açılmasının sistem "
 "güvenliğini tehlikeye atabileceğini unutmayın."
 
-#: widgets/attachmentdialog.cpp:32
+#: widgets/attachmentdialog.cpp:33
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Attachment?"
 msgstr "Ek Açılsın mı?"
 
-#: widgets/attachmentdialog.cpp:39
+#: widgets/attachmentdialog.cpp:40
 #, kde-format
 msgid "&Open With '%1'"
-msgstr "'%1' ile &Aç"
+msgstr "“%1” ile &Aç"
 
-#: widgets/attachmentdialog.cpp:46
+#: widgets/attachmentdialog.cpp:47
 #, kde-format
 msgid "Open &With..."
-msgstr "&Birlikte Aç..."
+msgstr "&Birlikte Aç…"
 
-#: widgets/attachmentdialog.cpp:68
+#: widgets/attachmentdialog.cpp:69
 #, kde-format
 msgid "Do not ask again"
-msgstr "Yeniden sorma"
+msgstr "Bir daha sorma"
 
 #: widgets/htmlstatusbar.cpp:108
 #, kde-format
@@ -2277,7 +2357,7 @@ msgstr ""
 msgid "Click to toggle between HTML, plain text and calendar."
 msgstr "HTML, düz metin ve takvim arasında geçiş yapmak için tıklayın."
 
-#: widgets/invitationsettings.cpp:70
+#: widgets/invitationsettings.cpp:72
 #, kde-format
 msgid ""
 "<qt>Invitations are normally sent as attachments to a mail. This switch "
@@ -2297,32 +2377,37 @@ msgstr ""
 "gösterimlere neden olacaktır.<br />Davetleri okuyabilen e-posta programlar "
 "kullanan kişiler bu seçenek ile sorun yaşamayacaktır.</qt>"
 
-#: widgets/mailsourcewebengineviewer.cpp:53
+#: widgets/mailsourceviewtextbrowserwidget.cpp:134
+#, kde-format
+msgid "Speak Text"
+msgstr "Metni Oku"
+
+#: widgets/mailsourcewebengineviewer.cpp:54
 #, kde-format
 msgctxt "Unchanged mail message"
 msgid "Raw Source"
 msgstr "Ham Kaynak"
 
-#: widgets/mailsourcewebengineviewer.cpp:54
+#: widgets/mailsourcewebengineviewer.cpp:55
 #, kde-format
 msgid "Raw, unmodified mail as it is stored on the filesystem or on the server"
 msgstr ""
 "Dosya sistemi veya sunucuda depolandığı biçimde ham değiştirilmemiş posta"
 
-#: widgets/mailsourcewebengineviewer.cpp:57
+#: widgets/mailsourcewebengineviewer.cpp:58
 #, kde-format
 msgctxt "Mail message as shown, in HTML format"
 msgid "HTML Source"
 msgstr "HTML Kaynağı"
 
-#: widgets/mailsourcewebengineviewer.cpp:58
+#: widgets/mailsourcewebengineviewer.cpp:59
 #, kde-format
 msgid "HTML code for displaying the message to the user"
 msgstr "Kullanıcıya ileti görüntülemek için HTML kodu"
 
 #: widgets/opensavedfilefolderwidget.cpp:26
 #, kde-format
-msgctxt "@action"
+msgctxt "@action - For we don't know if it's one or many attachments"
 msgid "Open folder where attachment was saved"
 msgstr "Ekin kaydedildiği klasörü aç"
 
@@ -2330,143 +2415,200 @@ msgstr "Ekin kaydedildiği klasörü aç"
 #, kde-format
 msgctxt "@action"
 msgid "Open File"
-msgstr "Dosya Aç"
+msgstr "Dosyayı Aç"
 
 #: widgets/opensavedfilefolderwidget.cpp:62
 #, kde-format
+msgctxt "@action"
 msgid "Open folder where attachment was saved"
 msgid_plural "Open folder where attachments were saved"
-msgstr[0] "Ekin kaydedildiği klasörü aç"
-msgstr[1] "Eklerin kaydedildiği klasörü aç"
+msgstr[0] "Ekin Kaydedildiği Klasörü Aç"
+msgstr[1] "Eklerin Kaydedildiği Klasörü Aç"
 
 #: widgets/opensavedfilefolderwidget.cpp:65
 #, kde-format
+msgctxt "@action"
 msgid "Open folder where PDF file was saved"
-msgstr "PDF dosyasının kaydedildiği klasörü aç"
+msgstr "PDF’nin Kaydedildiği Klasörü Aç"
 
 #: widgets/opensavedfilefolderwidget.cpp:78
 #, kde-format
 msgid "KMail was unable to open the attachment."
-msgstr "K Posta, eki açamadı."
+msgstr "K Posta eki açamadı."
 
-#: widgets/shownextmessagewidget.cpp:15
+#: widgets/shownextmessagewidget.cpp:17
 #, kde-format
+msgctxt "@action:button"
 msgid "Next Message"
 msgstr "Sonraki İleti"
 
-#: widgets/shownextmessagewidget.cpp:16
+#: widgets/shownextmessagewidget.cpp:18
 #, kde-format
+msgctxt "@action:button"
 msgid "Previous Message"
 msgstr "Önceki İleti"
 
-#~ msgid "Only print selected text in viewer"
-#~ msgstr "Görüntüleyicide yalnızca seçili metni yazdır"
+#~ msgid "Error: Signature not verified"
+#~ msgstr "Hata: İmza doğrulanamadı"
+
+#~ msgid "Good signature"
+#~ msgstr "Geçerli imza"
+
+#~ msgid "Bad signature"
+#~ msgstr "Bozuk imza"
+
+#~ msgid "No public key to verify the signature"
+#~ msgstr "İmzayı doğrulayacak genel anahtar yok"
+
+#~ msgid "No signature found"
+#~ msgstr "İmza bulunamadı"
+
+#~ msgid "Error verifying the signature"
+#~ msgstr "İmzayı doğrulamada hata"
+
+#~ msgid "Different results for signatures"
+#~ msgstr "İmzalama için farklı sonuçlar"
+
+#~ msgid "No status information available."
+#~ msgstr "Üzgünüm, durum bilgisi yok."
+
+#~ msgid "Good signature."
+#~ msgstr "Geçerli imza."
+
+#~ msgid "One key has expired."
+#~ msgstr "Bir anahtarın kullanım süresi dolmuş."
+
+#~ msgid "The signature has expired."
+#~ msgstr "İmzanın zamanı doldu."
+
+#~ msgid "Unable to verify: key missing."
+#~ msgstr "Doğrulanamıyor: Anahtar kayıp."
+
+#~ msgid "CRL not available."
+#~ msgstr "CRL hazır değil."
+
+#~ msgid "Available CRL is too old."
+#~ msgstr "Kullanılabilir CRL’ler pek eski."
+
+#~ msgid "A policy was not met."
+#~ msgstr "İzinler uygun değil."
+
+#~ msgid "A system error occurred."
+#~ msgstr "Bir sistem hatası meydana geldi."
+
+#~ msgid "One key has been revoked."
+#~ msgstr "Bir anahtar yürürlükten kaldırıldı."
+
+#~ msgid "Bad signature."
+#~ msgstr "Bozuk imza."
+
+#~ msgid "Not enough information to check signature. %1"
+#~ msgstr "İmzalamayı denetlemek için yeterli bilgi yok. %1"
+
+#~ msgid "Message was signed by %1."
+#~ msgstr "İleti, %1 tarafından imzalandı."
+
+#~ msgid "Message was signed with unknown key."
+#~ msgstr "İleti, bilinmeyen anahtarla imzalandı."
+
+#~ msgid "Message was signed with key %1."
+#~ msgstr "İleti, %1 anahtarı ile imzalandı."
+
+#~ msgid "Message was signed by %3 on %1 with key %2"
+#~ msgstr "İleti, %3 tarafından %2 anahtarı ile %1 tarihinde imzalandı"
+
+#~ msgid "Message was signed on %1 with key %2."
+#~ msgstr "İleti, %2 anahtarı ile %1 tarihinde imzalandı."
+
+#~ msgid "Message was signed by %2 with key %1."
+#~ msgstr "İleti, %2 tarafından %1 anahtarı ile imzalandı."
+
+#~ msgid "Status: "
+#~ msgstr "Durum: "
+
+#~ msgid "Message was signed by %2 (Key ID: %1)."
+#~ msgstr "İleti, %2 tarafından imzalandı (Anahtar kimliği: %1)."
+
+#~ msgid "Message was signed on %1 with unknown key %2."
+#~ msgstr "İleti, bilinmeyen %2 anahtarıyla %1 tarihinde imzalandı."
+
+#~ msgid "Message was signed with unknown key %1."
+#~ msgstr "İleti, bilinmeyen %1 anahtarıyla imzalandı."
+
+#~ msgid "The validity of the signature cannot be verified."
+#~ msgstr "İmzanın geçerliliği doğrulanamadı."
+
+#~ msgid "The signature is valid, but the key's validity is unknown."
+#~ msgstr "İmza geçerli; ancak anahtarın geçerliliği bilinmiyor."
+
+#~ msgid "The signature is valid and the key is marginally trusted."
+#~ msgstr "İmza geçerli; ancak anahtara pek az güveniliyor."
+
+#~ msgid "The signature is valid and the key is fully trusted."
+#~ msgstr "İmza geçerli ve anahtara güveniliyor."
+
+#~ msgid "The signature is valid and the key is ultimately trusted."
+#~ msgstr "İmza geçerli ve anahtara en yüksek düzeyde güveniliyor."
+
+#~ msgid "The signature is valid, but the key is untrusted."
+#~ msgstr "İmza geçerli; ancak anahtara güvenilmiyor."
+
+#~ msgid "Warning: The signature is bad."
+#~ msgstr "Uyarı: Bozuk imza."
+
+#~ msgid "Compliance: %1"
+#~ msgstr "Uygunluk: %1"
+
+#~ msgid "Invalid signature"
+#~ msgstr "Geçersiz imza"
+
+#~ msgid "Not enough information to check signature validity"
+#~ msgstr "İmzanın geçerliliğini denetlemek için yeterli bilgi yok"
+
+#~ msgid "Signed by <a href='mailto:%1'>%1</a>"
+#~ msgstr "<a href='mailto:%1'>%1</a> tarafından imzalandı"
+
+#~ msgid "Signature is valid"
+#~ msgstr "İmza geçerli"
+
+#~ msgid "Unknown signature state"
+#~ msgstr "Bilinmeyen imza durumu"
+
+#~ msgctxt "Status of signature (status/type of compliance)"
+#~ msgid "%1 (%2)"
+#~ msgstr "%1 (%2)"
+
+#~ msgid "certificate"
+#~ msgstr "sertifika"
+
+#~ msgctxt "Start of warning message."
+#~ msgid "Warning:"
+#~ msgstr "Uyarı:"
+
+#~ msgid "Sender's mail address is not stored in the %1 used for signing."
+#~ msgstr "Gönderenin adresi imzama için kullanılan %1 içinde saklanmıyor."
+
+#~ msgid "sender: "
+#~ msgstr "gönderen: "
+
+#~ msgid "stored: "
+#~ msgstr "kayıtlı: "
 
 #~ msgid ""
-#~ "Respect expand/collapse quote mark which is defined in settings during "
-#~ "printing."
+#~ "No mail address is stored in the %1 used for signing, so we cannot "
+#~ "compare it to the sender's address %2."
 #~ msgstr ""
-#~ "Yazdırma sırasında, ayarlarda belirtilen genişlet/daralt tırnak "
-#~ "işaretlerine uy."
+#~ "İmzalama için kullanılan %1 içinde hiçbir e-posta adresi kayıtlı "
+#~ "olmadığından bunu gönderenin %2 adresiyle karşılaştıramıyoruz."
 
-#~ msgid ""
-#~ "Specifies whether the background color and images are also drawn when the "
-#~ "page is printed."
-#~ msgstr ""
-#~ "Sayfa yazdırıldığında arka plan rengi ve görsellerin de çizilip "
-#~ "çizilmeyeceğini belirtir."
+#~ msgid "Export Rules"
+#~ msgstr "Kuralları Dışa Aktar"
 
-#~ msgid "Always show encryption/signature details when we print message"
-#~ msgstr "İleti yazdırılırken her zaman şifreleme/imza ayrıntılarını göster"
+#~ msgid "Import Rules"
+#~ msgstr "Kurallar İçe Aktar"
 
-#~ msgid "When we render html do not use font size inferior to minimum size."
-#~ msgstr "HTML sunarken, asgari boyuttan küçük yazıtipi boyutu kullanma."
-
-#~ msgid "Specifies the font to use for the message body"
-#~ msgstr "İleti gövdesi için kullanılacak yazıtipini belirtir"
-
-#~ msgid "Specifies the font to use for printing"
-#~ msgstr "Yazdırma için kullanılacak yazıtipini belirtir"
-
-#~ msgid "Check if url can be a phishing"
-#~ msgstr "URL'nin oltalama olma olasılığını denetle"
-
-#~ msgid "Close message window after replying or forwarding"
-#~ msgstr "Yanıtlama ve iletme sonrası ileti penceresini kapat"
-
-#~ msgid "Show expand/collapse quote marks"
-#~ msgstr "Aktarılan metni genişlet/daralt"
-
-#~ msgid ""
-#~ "Enable this option to show different levels of quoted text. Disable to "
-#~ "hide the levels of quoted text."
-#~ msgstr ""
-#~ "Bu seçeneği etkinleştirerek farklı düzeylerde alıntılanmış metinler "
-#~ "gösterebilirsiniz. Alıntılanmış metin düzeylerini gizlemek için bu "
-#~ "seçeneği devre dışı yapın."
-
-#~ msgid "Automatic collapse level:"
-#~ msgstr "Otomatik genişletme düzeyi:"
-
-#~ msgid "Reduce font size for quoted text"
-#~ msgstr "Alıntılanan metnin yazıtipini küçült"
-
-#~ msgid "Enable this option to show quoted text with a smaller font."
-#~ msgstr ""
-#~ "Alıntılanan metni daha küçük yazıtipi ile göstermek için bu seçeneği "
-#~ "işaretleyin."
-
-#~ msgid "Always decrypt messages when viewing or ask before decrypting"
-#~ msgstr ""
-#~ "İletileri görüntülerken şifresini her zaman çöz veya çözmeden önce sor"
-
-#~ msgid "Message Structure Viewer"
-#~ msgstr "İleti Yapısı Görüntüleyicisi"
-
-#~ msgid "Show never"
-#~ msgstr "Daha yeni olanı göster"
-
-#~ msgid "Show always"
-#~ msgstr "Her zaman göster"
-
-#~ msgid "What style of headers should be displayed"
-#~ msgstr "Başlıkların hangi biçimde gösterileceği"
-
-#~ msgid "How much of headers should be displayed"
-#~ msgstr "Başlıkların ne kadarının gösterileceği"
-
-#~ msgid "Prefer HTML to plain text"
-#~ msgstr "HTML iletileri düz metne tercih et"
-
-#~ msgid "Allow messages to load external references from the Internet"
-#~ msgstr "Dış kaynakların Internet'ten yüklenmesine izin ver"
-
-#~ msgid "How attachments are shown"
-#~ msgstr "Eklerin nasıl gösterileceği"
-
-#~ msgid "Specifies whether to reuse the quote color, beyond the 3rd level"
-#~ msgstr ""
-#~ "Alıntılanan rengin, 3. düzey ötesinde yeniden kullanılıp "
-#~ "kullanılmayacağını belirtir"
-
-#~ msgid "Activate Access Key"
-#~ msgstr "Erişim Düğmesini Etkinleştir"
-
-#~ msgid ""
-#~ "KMail can analyze messages for suspected email scams by looking for "
-#~ "common techniques used to deceive you"
-#~ msgstr ""
-#~ "K Posta, sizi aldatmaya yönelik ortak yöntemleri arayarak kuşkulu e-posta "
-#~ "dolandırıcılarına karşı iletileri inceleyebilir"
-
-#~ msgid "List of emails in scam white list"
-#~ msgstr "Dolandırıcı olmayan e-posta listesi"
-
-#~ msgid "Scan emails for tracking URLs"
-#~ msgstr "E-postaları, izleyen URL'ler için tara"
-
-#~ msgid "Do not send MDNs in response to encrypted messages"
-#~ msgstr "Şifreli bir ileti için herhangi bir okundu yanıtı gönderme"
+#~ msgid "Check Phishing URL"
+#~ msgstr "Kimlik Avı URL’si Denetle"
 
 #~ msgid ""
 #~ "Specifies the default policy to use, for the Message Disposition "
@@ -2481,78 +2623,3 @@ msgstr "Önceki İleti"
 #~ msgstr ""
 #~ "Bir ileti yanıtlanırken alınacak öntanımlı alıntılama eylemini belirtir "
 #~ "(yalnızca dahili kullanım için)"
-
-#~ msgid "Mangle From:/To: headers in replies to replies"
-#~ msgstr "Yanıtlar yanıtlanırken Kimden:/Kime: başlıklarını parçala"
-
-#~ msgid ""
-#~ "Microsoft Outlook has a number of shortcomings in its implementation of "
-#~ "the iCalendar standard; this option works around one of them. If you have "
-#~ "problems with Outlook users not being able to get your replies, try "
-#~ "setting this option."
-#~ msgstr ""
-#~ "Microsoft Outlook, iCalendar standardının uygulamasında birkaç kusur "
-#~ "içerir; bu seçenek bunlardan birini gidermeye yarar. Outlook "
-#~ "kullanıcılarınızın yanıtlarınızı alamadığı şikâyetini alıyorsanız, bu "
-#~ "seçeneği deneyin."
-
-#~ msgid "Send groupware invitations in the mail body"
-#~ msgstr "Posta gövdesinde grup çalışması daveti gönder"
-
-#~ msgid ""
-#~ "Microsoft Outlook has a number of shortcomings in its implementation of "
-#~ "the iCalendar standard; this option works around one of them. If you have "
-#~ "problems with Outlook users not being able to get your invitations, try "
-#~ "setting this option."
-#~ msgstr ""
-#~ "Microsoft Outlook, iCalendar standardının uygulamasında birkaç kusur "
-#~ "içerir; bu seçenek bunlardan birini gidermeye yarar. Outlook "
-#~ "kullanıcılarınızın davetlerinizi alamama sorunu ile karşı karşıya "
-#~ "kalıyorsanız, bu seçeneği deneyin."
-
-#~ msgid "Exchange-compatible invitation naming"
-#~ msgstr "Exchange uyumlu davet isimlendirmesi"
-
-#~ msgid ""
-#~ "Microsoft Outlook, when used in combination with a Microsoft Exchange "
-#~ "server, has a problem understanding standards-compliant groupware email. "
-#~ "Turn this option on to send groupware invitations in a way that Microsoft "
-#~ "Exchange understands."
-#~ msgstr ""
-#~ "Microsoft Outlook, bir Microsoft Exchange sunucusuyla birlikte "
-#~ "kullanıldığında, standarda uygun grup e-postalarını anlamakta sorun "
-#~ "yaşamaktadır. Bu seçeneği açık duruma getirerek, Microsof Exchange'nin "
-#~ "anlayacağı biçimde grup davetlerini gönderebilirsiniz."
-
-#~ msgid "Automatic invitation sending"
-#~ msgstr "Otomatik davet gönderimi"
-
-#~ msgid ""
-#~ "When this is checked, you will not see the mail composer window. Instead, "
-#~ "all invitation mails are sent automatically. If you want to see the mail "
-#~ "before sending it, you can uncheck this option. However, be aware that "
-#~ "the text in the composer window is in iCalendar syntax, and you should "
-#~ "not try modifying it by hand."
-#~ msgstr ""
-#~ "Bu seçenek işaretlenirse, posta düzenleme penceresini görmeyeceksiniz, "
-#~ "bunun yerine bütün davet postaları otomatik olarak gönderilecektir. "
-#~ "Göndermeden önce postayı görmek istiyorsanız, bu seçeneği işaretlemeyin. "
-#~ "Ancak, pencere içindeki metnin iCalendar sözdizimine uygun olduğuna "
-#~ "dikkat edin ve elle değiştirmemeye çalışın."
-
-#~ msgid ""
-#~ "When this is checked, received invitation emails that have been replied "
-#~ "to will be moved to the Trash folder, once the reply has been "
-#~ "successfully sent."
-#~ msgstr ""
-#~ "Bu seçenek işaretlendiğinde, yanıtlanan ve alınan davet e-postaları, "
-#~ "yanıt başarı ile gönderildiği zaman Çöp klasörüne taşınır."
-
-#~ msgid "The most recent selected folder using for Todo."
-#~ msgstr "Yapılacaklar için son seçilen klasör."
-
-#~ msgid "The most recent selected folder using for Event."
-#~ msgstr "Event için son seçilen klasör."
-
-#~ msgid "The most recent selected folder using for Notes."
-#~ msgstr "Notlar için son seçilen klasör."

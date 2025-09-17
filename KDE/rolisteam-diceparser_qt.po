@@ -1,8 +1,8 @@
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2022-07-23 12:15+0300\n"
+"PO-Revision-Date: 2025-02-11 10:35+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 22.04.2\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #: src/bin/cli/main.cpp:130
 #, qt-format
@@ -39,13 +39,13 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Result: e[0;%4;1m%1e[0m - details:[%3 (%2)]"
-msgstr "Sonuç: e[0;%4;1m%1e[0m - ayrıntılar: [%3 (%2)]"
+msgstr "Sonuç: e[0;%4;1m%1e[0m — ayrıntılar: [%3 (%2)]"
 
 #: src/bin/cli/main.cpp:283
 #, qt-format
 msgctxt "QObject|"
 msgid "Result: %1 - details:[%3 (%2)]"
-msgstr "Sonuç: %1 - ayrıntılar: [%3 (%2)]"
+msgstr "Sonuç: %1 — ayrıntılar: [%3 (%2)]"
 
 #: src/libparser/diceparser.cpp:79
 msgctxt "QObject|"
@@ -54,7 +54,7 @@ msgid ""
 "\"https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md\">https://"
 "github.com/Rolisteam/DiceParser/blob/master/HelpMe.md</a>"
 msgstr ""
-"Bir şey anlaşılmadı. Zar atmak için: !1d6 - tam belgelendirme: <a href="
+"Bir şey anlaşılmadı. Zar atmak için: !1d6 — tam belgelendirme: <a href="
 "\"https://github.com/Rolisteam/DiceParser/blob/master/HelpMe.md\">https://"
 "github.com/Rolisteam/DiceParser/blob/master/HelpMe.md</a>"
 
@@ -62,7 +62,7 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Unexpected character at %1 - end of command was ignored \"%2\""
-msgstr "%1 konumunda beklenmedik karakter - komut bitişi yok sayıldı \"%2\""
+msgstr "%1 konumunda beklenmedik karakter — komut bitişi yok sayıldı “%2”"
 
 #: src/libparser/diceroller.cpp:61
 #, qt-format
@@ -78,7 +78,27 @@ msgstr ""
 "Uyarılar:\n"
 "%2"
 
-#: src/libparser/node/dicerollernode.cpp:25
+#: src/libparser/node/allsamenode.cpp:11
+msgctxt "AllSameNode|"
+msgid "No valid previous node"
+msgstr "Geçerli önceki düğüm yok"
+
+#: src/libparser/node/allsamenode.cpp:15
+msgctxt "AllSameNode|"
+msgid "No dice result"
+msgstr "Zar sonucu yok"
+
+#: src/libparser/node/dicerollernode.cpp:17
+msgctxt "QObject|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/dicerollernode.cpp:22
+msgctxt "QObject|"
+msgid "No result from previous node"
+msgstr "Önceki düğümden bir sonuç yok"
+
+#: src/libparser/node/dicerollernode.cpp:27
 msgctxt "QObject|"
 msgid "No dice to roll"
 msgstr "Atılacak zar yok"
@@ -88,14 +108,44 @@ msgctxt "QObject|"
 msgid "More unique values asked than possible values (D operator)"
 msgstr "Olası değerlerden daha çok benzersiz değer istendi (D işleç)"
 
-#: src/libparser/node/explodedicenode.cpp:49
-#: src/libparser/node/rerolldicenode.cpp:49
+#: src/libparser/node/explodedicenode.cpp:82
 #, qt-format
 msgctxt "QObject|"
 msgid "Condition (%1) cause an endless loop with this dice: %2"
 msgstr "Koşul (%1), bu zarlarla sonsuz bir döngüye neden oldu: %2"
 
-#: src/libparser/node/helpnode.cpp:34
+#: src/libparser/node/explodedicenode.cpp:89
+#, qt-format
+msgctxt "QObject|"
+msgid "Condition (%1) cause an endless loop with dice: %2"
+msgstr "Koşul (%1), zarlarla sonsuz bir döngüye neden oldu: %2"
+
+#: src/libparser/node/filternode.cpp:22
+msgctxt "FilterNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/filternode.cpp:29
+msgctxt "FilterNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/groupnode.cpp:77
+msgctxt "GroupNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/groupnode.cpp:83
+msgctxt "GroupNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/groupnode.cpp:88
+msgctxt "GroupNode|"
+msgid "No Valid Dice result"
+msgstr "Geçerli zar sonucu yok"
+
+#: src/libparser/node/helpnode.cpp:35
 #, qt-format
 msgctxt "QObject|"
 msgid ""
@@ -117,7 +167,7 @@ msgstr ""
 "\n"
 "Tam belgelendirme için: %1"
 
-#: src/libparser/node/helpnode.cpp:61
+#: src/libparser/node/helpnode.cpp:56
 msgctxt "HelpNode|"
 msgid ""
 "Rolisteam Dice Parser:\n"
@@ -126,8 +176,28 @@ msgstr ""
 "Rolisteam Zar Ayrıştırıcısı:\n"
 "Tam belgelendirme için"
 
-#: src/libparser/node/jumpbackwardnode.cpp:123
-msgctxt "QObject|"
+#: src/libparser/node/ifnode.cpp:97
+msgctxt "IfNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/ifnode.cpp:103
+msgctxt "IfNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/ifnode.cpp:108
+msgctxt "IfNode|"
+msgid "No Valid copy of result"
+msgstr "Geçerli sonuç kopyası yok"
+
+#: src/libparser/node/ifnode.cpp:112
+msgctxt "IfNode|"
+msgid "No validator list"
+msgstr "Doğrulayıcı listesi yok"
+
+#: src/libparser/node/jumpbackwardnode.cpp:125
+msgctxt "JumpBackwardNode|"
 msgid ""
 " The @ operator expects dice result. Please check the documentation to fix "
 "your command."
@@ -135,39 +205,100 @@ msgstr ""
 " @ işleci, zar sonucu bekliyor. Komutunuzu düzeltmek için belgelendimeye bir "
 "bakın."
 
-#: src/libparser/node/keepdiceexecnode.cpp:75
+#: src/libparser/node/keepdiceexecnode.cpp:34
+#: src/libparser/node/keepdiceexecnode.cpp:52
+msgctxt "KeepDiceExecNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/keepdiceexecnode.cpp:77
 #, qt-format
 msgctxt "QObject|"
 msgid " You ask to keep %1 dice but the result only has %2"
 msgstr " %1 zarı tutmak istiyorsunuz; ancak sonuçta yalnızca %2 var"
 
-#: src/libparser/node/listaliasnode.cpp:48
+#: src/libparser/node/listaliasnode.cpp:41
 msgctxt "QObject|"
 msgid "List of Alias:\n"
 msgstr "Arma Listesi:\n"
 
-#: src/libparser/node/listsetrollnode.cpp:71
+#: src/libparser/node/listsetrollnode.cpp:62
+msgctxt "ListSetRollNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/listsetrollnode.cpp:66
+msgctxt "ListSetRollNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/listsetrollnode.cpp:72
 msgctxt "ListSetRollNode|"
 msgid "More unique values asked than possible values (L operator)"
 msgstr "Olası değerlerden daha çok benzersiz değer istendi (L işleci)"
 
-#: src/libparser/node/mergenode.cpp:34
-msgctxt "QObject|"
+#: src/libparser/node/mergenode.cpp:49
+msgctxt "MergeNode|"
 msgid "No previous node before Merge operator"
 msgstr "Birleştirme işlecinden önce düğüm yok"
 
-#: src/libparser/node/occurencecountnode.cpp:149
+#: src/libparser/node/mergenode.cpp:55
+msgctxt "MergeNode|"
+msgid "No several instruction"
+msgstr "Çeşitli yönerge yok"
+
+#: src/libparser/node/occurencecountnode.cpp:30
+msgctxt "OccurenceCountNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/occurencecountnode.cpp:37
+msgctxt "OccurenceCountNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/occurencecountnode.cpp:146
 msgctxt "QObject|"
 msgid "No matching result"
 msgstr "Eşleşen sonuç yok"
 
-#: src/libparser/node/paintnode.cpp:63
-msgctxt "QObject|"
-msgid "No previous node before Paint operator"
-msgstr "Boyama işlecinden önce düğüm yok"
+#: src/libparser/node/paintnode.cpp:60
+msgctxt "PainterNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
 
-#: src/libparser/node/rerolldicenode.cpp:98
-msgctxt "QObject|"
+#: src/libparser/node/paintnode.cpp:65
+msgctxt "PainterNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/paintnode.cpp:69
+msgctxt "PainterNode|"
+msgid "No Valid Dice result"
+msgstr "Geçerli zar sonucu yok"
+
+#: src/libparser/node/replacevaluenode.cpp:38
+msgctxt "ReplaceValueNode|"
+msgid "No previous node before Switch/Case operator"
+msgstr "switch/case işlecinden önce düğüm yok"
+
+#: src/libparser/node/replacevaluenode.cpp:48
+msgctxt "ReplaceValueNode|"
+msgid "No scalar or dice result before Switch/Case operator"
+msgstr "switch/case işlecinden önce sayıl veya zar sonucu yok"
+
+#: src/libparser/node/rerolldicenode.cpp:25
+msgctxt "RerollDiceNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/rerolldicenode.cpp:31
+msgctxt "RerollDiceNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/rerolldicenode.cpp:36
+msgctxt "RerollDiceNode|"
 msgid ""
 " The a operator expects dice result. Please check the documentation and fix "
 "your command."
@@ -175,40 +306,121 @@ msgstr ""
 " a işleci, zar sonucu bekliyor. Komutunuzu düzeltmek için belgelendimeye bir "
 "bakın."
 
-#: src/libparser/node/scalaroperatornode.cpp:72
+#: src/libparser/node/scalaroperatornode.cpp:43
+#: src/libparser/node/scalaroperatornode.cpp:48
+msgctxt "ScalarOperatorNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/scalaroperatornode.cpp:51
+msgctxt "ScalarOperatorNode|"
+msgid "No internal node to run"
+msgstr "Çalıştırılacak içsel düğüm yok"
+
+#: src/libparser/node/scalaroperatornode.cpp:57
+msgctxt "ScalarOperatorNode|"
+msgid "No valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/scalaroperatornode.cpp:75
 #, qt-format
-msgctxt "QObject|"
+msgctxt "ScalarOperatorNode|"
 msgid "No Valid result in arithmetic operation: %1"
 msgstr "Aritmetik işlemde geçerli sonuç yok: %1"
 
-#: src/libparser/node/scalaroperatornode.cpp:139
+#: src/libparser/node/scalaroperatornode.cpp:133
 msgctxt "QObject|"
 msgid "Division by zero"
 msgstr "Sıfırla bölme"
 
-#: src/libparser/node/variablenode.cpp:39
+#: src/libparser/node/sortresult.cpp:33
+msgctxt "SortResultNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/sortresult.cpp:39
+msgctxt "SortResultNode|"
+msgid "No Valid dice result"
+msgstr "Geçerli zar sonucu yok"
+
+#: src/libparser/node/splitnode.cpp:30
+msgctxt "SplitNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/splitnode.cpp:37
+msgctxt "SplitNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/splitnode.cpp:41
+msgctxt "SplitNode|"
+msgid "No Valid dice result"
+msgstr "Geçerli zar sonucu yok"
+
+#: src/libparser/node/switchcasenode.cpp:39
+msgctxt "SwitchCaseNode|"
+msgid "No previous node before Switch/Case operator"
+msgstr "switch/case işlecinden önce düğüm yok"
+
+#: src/libparser/node/switchcasenode.cpp:50
+msgctxt "SwitchCaseNode|"
+msgid "No scalar or dice result before Switch/Case operator"
+msgstr "switch/case işlecinden önce sayıl veya zar sonucu yok"
+
+#: src/libparser/node/switchcasenode.cpp:130
+msgctxt "SwitchCaseNode|"
+msgid "No value fits the Switch/Case operator"
+msgstr "switch/case işlecine herhangi bir değer uymuyor"
+
+#: src/libparser/node/uniquenode.cpp:30
+msgctxt "UniqueNode|"
+msgid "No Previous node"
+msgstr "Önceki düğüm yok"
+
+#: src/libparser/node/uniquenode.cpp:36
+msgctxt "UniqueNode|"
+msgid "No Valid result"
+msgstr "Geçerli sonuç yok"
+
+#: src/libparser/node/uniquenode.cpp:40
+msgctxt "UniqueNode|"
+msgid "No Valid dice result"
+msgstr "Geçerli zar sonucu yok"
+
+#: src/libparser/node/variablenode.cpp:12
 #, qt-format
-msgctxt "QObject|"
+msgctxt "VariableNode|"
 msgid "No variable at index:%1"
 msgstr "İndekste değişken yok: %1"
 
-#: src/libparser/parsingtoolbox.cpp:1446
+#: src/libparser/node/variablenode.cpp:26
+msgctxt "VariableNode|"
+msgid "No Valid dice result"
+msgstr "Geçerli zar sonucu yok"
+
+#: src/libparser/parsingtoolbox.cpp:1495
+msgctxt "QObject|"
+msgid "Can read the parameter for Round Function."
+msgstr "Yuvarla işlevi için olan parametreyi okuyabilir."
+
+#: src/libparser/parsingtoolbox.cpp:1546
 msgctxt "QObject|"
 msgid "Expected closing parenthesis - can't validate the inside."
-msgstr "Kapatma ayracı bekleniyordu - içindeki doğrulanamıyor."
+msgstr "Kapatma ayracı bekleniyordu — içindeki doğrulanamıyor."
 
-#: src/libparser/parsingtoolbox.cpp:1683
+#: src/libparser/parsingtoolbox.cpp:1784
 msgctxt "QObject|"
 msgid "Validator is missing after the c operator. Please, change it"
 msgstr "c işlecinden sonra doğrulayıcı eksik. Lütfen değiştirin"
 
-#: src/libparser/parsingtoolbox.cpp:1703
+#: src/libparser/parsingtoolbox.cpp:1804
 #, qt-format
 msgctxt "QObject|"
 msgid "Validator is always true for the %1 operator. Please, change it"
 msgstr "%1 işleci için doğrulayıcı her zaman doğru. Lütfen değiştirin"
 
-#: src/libparser/parsingtoolbox.cpp:1712
+#: src/libparser/parsingtoolbox.cpp:1813
 #, qt-format
 msgctxt "QObject|"
 msgid ""
@@ -218,35 +430,35 @@ msgstr ""
 "Koşul erişilemediğinden sonsuz döngüye neden oluyor. Lütfen %1 seçeneği "
 "koşulunu değiştirin"
 
-#: src/libparser/parsingtoolbox.cpp:1738
+#: src/libparser/parsingtoolbox.cpp:1839
 #, qt-format
 msgctxt "QObject|"
 msgid "Validator is missing after the %1 operator. Please, change it"
 msgstr "%1 işlecinden sonra doğrulayıcı eksik. Lütfen değiştirin"
 
-#: src/libparser/parsingtoolbox.cpp:1753
+#: src/libparser/parsingtoolbox.cpp:1854
 #, qt-format
 msgctxt "QObject|"
 msgid "This condition %1 introduces an endless loop. Please, change it"
 msgstr "%1 koşulu, sonsuz bir döngüye neden oluyor. Lütfen değiştirin"
 
-#: src/libparser/parsingtoolbox.cpp:1769
+#: src/libparser/parsingtoolbox.cpp:1870
 msgctxt "QObject|"
 msgid "Validator is missing after the e operator. Please, change it"
 msgstr "e işlecinden sonra doğrulayıcı eksik. Lütfen değiştirin"
 
-#: src/libparser/parsingtoolbox.cpp:1847
+#: src/libparser/parsingtoolbox.cpp:1949
 msgctxt "QObject|"
 msgid "Missing parameter for Painter node (p)"
 msgstr "Boyama düğümü için eksik parametre (p)"
 
-#: src/libparser/parsingtoolbox.cpp:2065
+#: src/libparser/parsingtoolbox.cpp:2194
 #, qt-format
 msgctxt "QObject|"
 msgid "Dice with %1 face(s) does not exist. Please, put a value higher than 0"
-msgstr "%1 yüzlü bir zar yok. Lütfen 0'dan büyük bir değer girin"
+msgstr "%1 yüzlü bir zar yok. Lütfen 0’dan büyük bir değer girin"
 
-#: src/libparser/parsingtoolbox.cpp:2124
+#: src/libparser/parsingtoolbox.cpp:2253
 msgctxt "QObject|"
 msgid ""
 "List is missing after the L operator. Please, add it (e.g : 1L[sword,spear,"

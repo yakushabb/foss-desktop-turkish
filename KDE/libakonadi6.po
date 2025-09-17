@@ -2,7 +2,7 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 # Serdar Soytetir <tulliana@gmail.com>, 2008, 2009, 2012.
 # Serhat Demirkol <serhat_demirkol@yahoo.com>, 2009.
 # H. İbrahim Güngör <ibrahim@pardus.org.tr>, 2010, 2011.
@@ -14,16 +14,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libakonadi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-09 00:38+0000\n"
-"PO-Revision-Date: 2024-03-09 10:18+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-09-13 00:49+0000\n"
+"PO-Revision-Date: 2025-07-24 20:11+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -45,126 +45,127 @@ msgstr "Şu anda yapılandırılmış bir hesap yok."
 msgid "Accounts integration is not supported"
 msgstr "Hesap tümleştirmesi desteklenmiyor"
 
-#: agentbase/agentbase.cpp:348 agentbase/preprocessorbase_p.cpp:26
+#: agentbase/agentbase.cpp:307 agentbase/preprocessorbase_p.cpp:26
 #, kde-format
 msgid "Unable to register object at dbus: %1"
 msgstr "Nesne D-Bus’ta kaydedilemedi: %1"
 
-#: agentbase/agentbase.cpp:437
+#: agentbase/agentbase.cpp:398
 #, kde-format
 msgctxt "Name and type of Akonadi resource"
 msgid "%1 of type %2"
 msgstr "%2 türündeki %1"
 
-#: agentbase/agentbase.cpp:883
+#: agentbase/agentbase.cpp:816
 #, kde-format
+msgctxt "@info:shell"
 msgid "Agent identifier"
 msgstr "Aracı tanımlayıcısı"
 
-#: agentbase/agentbase.cpp:889
+#: agentbase/agentbase.cpp:822
 #, kde-format
 msgid "Akonadi Agent"
 msgstr "Akonadi Aracısı"
 
-#: agentbase/agentbase_p.h:49 agentbase/resourcescheduler.cpp:281
+#: agentbase/agentbase_p.h:50 agentbase/resourcescheduler.cpp:268
 #, kde-format
 msgctxt "@info:status Application ready for work"
 msgid "Ready"
 msgstr "Hazır"
 
-#: agentbase/agentbase_p.h:51
+#: agentbase/agentbase_p.h:52
 #, kde-format
 msgctxt "@info:status"
 msgid "Offline"
 msgstr "Çevrimdışı"
 
-#: agentbase/agentbase_p.h:56
+#: agentbase/agentbase_p.h:57
 #, kde-format
 msgctxt "@info:status"
 msgid "Syncing..."
 msgstr "Eşzamanlanıyor…"
 
-#: agentbase/agentbase_p.h:61
+#: agentbase/agentbase_p.h:62
 #, kde-format
 msgctxt "@info:status"
 msgid "Error."
 msgstr "Hata."
 
-#: agentbase/agentbase_p.h:66
+#: agentbase/agentbase_p.h:67
 #, kde-format
 msgctxt "@info:status"
 msgid "Not configured"
 msgstr "Yapılandırılmamış"
 
-#: agentbase/resourcebase.cpp:518
+#: agentbase/resourcebase.cpp:533
 #, kde-format
 msgctxt "@label command line option"
 msgid "Resource identifier"
 msgstr "Özkaynak tanımlayıcı"
 
-#: agentbase/resourcebase.cpp:524
+#: agentbase/resourcebase.cpp:539
 #, kde-format
 msgid "Akonadi Resource"
 msgstr "Akonadi Özkaynağı"
 
-#: agentbase/resourcebase.cpp:572
+#: agentbase/resourcebase.cpp:581
 #, kde-format
 msgctxt "@info"
 msgid "Invalid item retrieved"
 msgstr "Geçersiz öge alındı"
 
-#: agentbase/resourcebase.cpp:595
+#: agentbase/resourcebase.cpp:604
 #, kde-format
 msgctxt "@info"
 msgid "Error while creating item: %1"
 msgstr "Öge oluştururken hata: %1"
 
-#: agentbase/resourcebase.cpp:619
+#: agentbase/resourcebase.cpp:628
 #, kde-format
 msgctxt "@info"
 msgid "Error while updating collection: %1"
 msgstr "Yerel koleksiyon güncellenirken hata: %1"
 
-#: agentbase/resourcebase.cpp:706
+#: agentbase/resourcebase.cpp:715
 #, kde-format
 msgctxt "@info"
 msgid "Updating local collection failed: %1."
 msgstr "Yerel koleksiyon güncellenemedi: %1."
 
-#: agentbase/resourcebase.cpp:711
+#: agentbase/resourcebase.cpp:720
 #, kde-format
 msgctxt "@info"
 msgid "Updating local items failed: %1."
 msgstr "Yerel ögeler güncellenemedi: %1."
 
-#: agentbase/resourcebase.cpp:730
+#: agentbase/resourcebase.cpp:739
 #, kde-format
 msgctxt "@info"
 msgid "Cannot fetch item in offline mode."
 msgstr "Çevrimdışı kipte ögeler alınamaz."
 
-#: agentbase/resourcebase.cpp:911
+#: agentbase/resourcebase.cpp:921
 #, kde-format
 msgctxt "@info:status"
 msgid "Syncing folder '%1'"
 msgstr "“%1” klasörü eşzamanlanıyor"
 
-#: agentbase/resourcebase.cpp:931 agentbase/resourcebase.cpp:938
+#: agentbase/resourcebase.cpp:941 agentbase/resourcebase.cpp:948
 #, kde-format
 msgid "Failed to retrieve collection for sync."
 msgstr "Eşleme için koleksiyon alınamadı."
 
-#: agentbase/resourcebase.cpp:979
+#: agentbase/resourcebase.cpp:989
 #, kde-format
 msgid "Failed to retrieve collection for attribute sync."
 msgstr "Öznitelik eşzamanlaması için koleksiyon alınamadı."
 
-#: agentbase/resourcebase.cpp:1033
+#: agentbase/resourcebase.cpp:1035
 #, kde-format
 msgid "The requested item no longer exists"
 msgstr "İstenilen öge artık yok"
 
-#: agentbase/resourcescheduler.cpp:500 agentbase/resourcescheduler.cpp:506
+#: agentbase/resourcescheduler.cpp:484 agentbase/resourcescheduler.cpp:490
 #, kde-format
 msgctxt "@info"
 msgid "Job canceled."
@@ -175,7 +176,7 @@ msgstr "Görev iptal edildi."
 msgid "Akonadi Control"
 msgstr "Akonadi Denetimi"
 
-#: akonadictl/main.cpp:211
+#: akonadictl/main.cpp:220
 #, kde-format
 msgid ""
 "Akonadi server manipulation tool\n"
@@ -206,10 +207,45 @@ msgstr ""
 "  fsck           İç depolamanın tutarlılığını denetle ve gerekiyorsa onar\n"
 "                   (biraz vakit alabilir)"
 
-#: akonadictl/main.cpp:231
+#: akonadictl/main.cpp:239
+#, kde-format
+msgid "Wait for server shutdown to complete."
+msgstr "Tamamlanması için sunucu kapatımının gerçekleşmesini bekleyin."
+
+#: akonadictl/main.cpp:241
 #, kde-format
 msgid "Command to execute"
 msgstr "Yürütülecek komut"
+
+#: configdialog/main.cpp:23
+#, kde-format
+msgid "Configuration Dialog"
+msgstr "Yapılandırma İletişim Kutusu"
+
+#: configdialog/main.cpp:25
+#, kde-format
+msgid "Allows to configure an agent or resource"
+msgstr "Bir aracıyı veya özkaynağı yapılandırmaya izin verir"
+
+#: configdialog/main.cpp:27
+#, kde-format
+msgid "© 2025 Carl Schwan <carl@carlschwan.eu>"
+msgstr "© 2025 Carl Schwan <carl@carlschwan.eu>"
+
+#: configdialog/main.cpp:30
+#, kde-format
+msgid "The agent identifier"
+msgstr "Aracı tanımlayıcısı"
+
+#: configdialog/main.cpp:36
+#, kde-format
+msgid "Required identifier argument missing."
+msgstr "Gerekli tanımlayıcı argümanı eksik."
+
+#: configdialog/main.cpp:51
+#, kde-format
+msgid "No such agent found \"%1\""
+msgstr "“%1” adında bir aracı bulunamadı."
 
 #: core/collectionpathresolver.cpp:98 core/collectionpathresolver.cpp:117
 #, kde-format
@@ -226,22 +262,17 @@ msgstr "Çözümlenemeyen öksüz koleksiyonlar bulundu"
 msgid "Did not find other item for conflict handling"
 msgstr "Çakışma çözümü için gerekli diğer öge bulunamadı"
 
-#: core/jobs/agentinstancecreatejob.cpp:70
-#, kde-format
-msgid "Unable to access D-Bus interface of created agent."
-msgstr "Oluşturulan aracının D-Bus arayüzüne erişilemiyor."
-
-#: core/jobs/agentinstancecreatejob.cpp:92
+#: core/jobs/agentinstancecreatejob.cpp:58
 #, kde-format
 msgid "Agent instance creation timed out."
 msgstr "Aracı süreci oluşturma işlemi zaman aşımına uğradı."
 
-#: core/jobs/agentinstancecreatejob.cpp:150
+#: core/jobs/agentinstancecreatejob.cpp:108
 #, kde-format
 msgid "Unable to obtain agent type '%1'."
-msgstr "Aracı türü ‘%1’ alınamıyor."
+msgstr "Aracı türü “%1” alınamıyor."
 
-#: core/jobs/agentinstancecreatejob.cpp:158
+#: core/jobs/agentinstancecreatejob.cpp:116
 #, kde-format
 msgid "Unable to create agent instance."
 msgstr "Aracı süreci oluşturulamıyor."
@@ -261,7 +292,7 @@ msgstr "Geçersiz özkaynak örneği."
 #: core/jobs/resourcesynchronizationjob.cpp:113
 #, kde-format
 msgid "Unable to obtain D-Bus interface for resource '%1'"
-msgstr "‘%1’ özkaynağı için D-Bus arayüzü edinilemedi"
+msgstr "“%1” özkaynağı için D-Bus arayüzü edinilemedi"
 
 #: core/jobs/collectionattributessynchronizationjob.cpp:125
 #, kde-format
@@ -298,13 +329,13 @@ msgstr "Geçersiz koleksiyon"
 msgid "Invalid collection given."
 msgstr "Geçersiz koleksiyon girildi."
 
-#: core/jobs/collectionmovejob.cpp:52 core/jobs/itemmovejob.cpp:90
+#: core/jobs/collectionmovejob.cpp:52 core/jobs/itemmovejob.cpp:118
 #, kde-format
 msgid "No objects specified for moving"
 msgstr "Taşımak için bir öge belirtilmedi"
 
-#: core/jobs/collectionmovejob.cpp:59 core/jobs/itemmovejob.cpp:97
-#: core/jobs/linkjobimpl_p.h:39
+#: core/jobs/collectionmovejob.cpp:59 core/jobs/itemmovejob.cpp:125
+#: core/jobs/linkjobimpl_p.h:45
 #, kde-format
 msgid "No valid destination specified"
 msgstr "Geçerli bir hedef belirtilmedi"
@@ -348,11 +379,6 @@ msgstr "Bilinmeyen hata."
 msgid "Unexpected response"
 msgstr "Beklenmedik yanıt"
 
-#: core/jobs/relationcreatejob.cpp:42 core/jobs/relationdeletejob.cpp:42
-#, kde-format
-msgid "Failed to create relation."
-msgstr "İlişki oluşturma başarısız oldu."
-
 #: core/jobs/resourcesynchronizationjob.cpp:139
 #, kde-format
 msgid "Resource synchronization timed out."
@@ -371,7 +397,7 @@ msgstr "Bir özkaynak kimliği belirtilmedi."
 #: core/jobs/specialcollectionshelperjobs.cpp:326
 #, kde-format
 msgid "Invalid resource identifier '%1'"
-msgstr "Geçersiz özkaynak tanımlayıcısı ‘%1’"
+msgstr "Geçersiz özkaynak tanımlayıcısı “%1”"
 
 #: core/jobs/specialcollectionshelperjobs.cpp:342
 #: core/jobs/specialcollectionshelperjobs.cpp:350
@@ -392,7 +418,7 @@ msgstr "Kilitleme işlemi zaman aşımına uğradı."
 #: core/jobs/tagcreatejob.cpp:49
 #, kde-format
 msgid "Failed to create tag."
-msgstr "Etiket oluşturma başarısız."
+msgstr "Künye oluşturulamadı."
 
 #: core/jobs/trashjob.cpp:155
 #, kde-format
@@ -420,118 +446,107 @@ msgid "Could not find restore collection and restore resource is not available"
 msgstr ""
 "Geri yükleme koleksiyonu bulunamadı ve geri yükleme kaynağı kullanılamıyor"
 
-#: core/models/agentinstancemodel.cpp:188
+#: core/models/agentinstancemodel.cpp:192
 #, kde-format
 msgctxt "@title:column, name of a thing"
 msgid "Name"
 msgstr "Ad"
 
-#: core/models/entitytreemodel.cpp:207
+#: core/models/entitytreemodel.cpp:206
 #, kde-format
 msgctxt "@info:status"
 msgid "Loading..."
 msgstr "Yükleniyor…"
 
-#: core/models/entitytreemodel.cpp:499
-#, kde-format
-msgctxt "@window:title"
-msgid "Error"
-msgstr "Hata"
-
-#: core/models/entitytreemodel.cpp:500
+#: core/models/entitytreemodel.cpp:497
 #, kde-format
 msgid ""
 "The target collection '%1' contains already\n"
 "a collection with name '%2'."
 msgstr ""
-"‘%1’ hedef koleksiyonu\n"
+"“%1” hedef koleksiyonu\n"
 "“%2” adıyla halihazırda var."
 
-#: core/models/entitytreemodel.cpp:669
+#: core/models/entitytreemodel.cpp:666
 #, kde-format
 msgctxt "@title:column Name of a thing"
 msgid "Name"
 msgstr "Ad"
 
-#: core/models/entitytreemodel_p.cpp:1331
+#: core/models/entitytreemodel_p.cpp:1330
 #, kde-format
 msgctxt "@info"
 msgid "Could not copy item: <message>%1</message>"
 msgstr "Öge kopyalanamadı: <message>%1</message>"
 
-#: core/models/entitytreemodel_p.cpp:1333
+#: core/models/entitytreemodel_p.cpp:1332
 #, kde-format
 msgctxt "@info"
 msgid "Could not copy collection: <message>%1</message>"
 msgstr "Koleksiyon kopyalanamadı: <message>%1</message>"
 
-#: core/models/entitytreemodel_p.cpp:1335
+#: core/models/entitytreemodel_p.cpp:1334
 #, kde-format
 msgctxt "@info"
 msgid "Could not move item: <message>%1</message>"
 msgstr "Öge taşınamadı: <message>%1</message>"
 
-#: core/models/entitytreemodel_p.cpp:1337
+#: core/models/entitytreemodel_p.cpp:1336
 #, kde-format
 msgctxt "@info"
 msgid "Could not move collection: <message>%1</message>"
 msgstr "Koleksiyon taşınamadı: <message>%1</message>"
 
-#: core/models/entitytreemodel_p.cpp:1339
+#: core/models/entitytreemodel_p.cpp:1338
 #, kde-format
 msgctxt "@info"
 msgid "Could not link entity: <message>%1</message>"
 msgstr "Varlık bağlanamadı: <message>%1</message>"
-
-#: core/models/entitytreemodel_p.cpp:1341 widgets/selftestdialog.cpp:650
-#, kde-format
-msgctxt "@title:window"
-msgid "Error"
-msgstr "Hata"
 
 #: core/models/favoritecollectionsmodel.cpp:398
 #, kde-format
 msgid "Favorite Folders"
 msgstr "Yer İmi Klasörleri"
 
-#: core/models/statisticsproxymodel.cpp:86
+#: core/models/statisticsproxymodel.cpp:84
 #, kde-format
 msgid "Total Messages"
 msgstr "Toplam ileti sayısı"
 
-#: core/models/statisticsproxymodel.cpp:88
+#: core/models/statisticsproxymodel.cpp:86
 #, kde-format
 msgid "Unread Messages"
 msgstr "Okunmamış iletiler"
 
-#: core/models/statisticsproxymodel.cpp:98
+#: core/models/statisticsproxymodel.cpp:95
 #, kde-format
-msgid "<strong>Quota</strong>: %1%<br>\n"
-msgstr "<strong>Quota</strong>: %​%1<br>\n"
+msgctxt "@info:tooltip Quota: 10% (300 MiB/3 GiB)"
+msgid "<strong>Quota</strong>: %1% (%2/%3)<br>\n"
+msgstr "<strong>Kota</strong>: %​%1 (%2/%3)<br>\n"
 
-#: core/models/statisticsproxymodel.cpp:104
+#: core/models/statisticsproxymodel.cpp:103
 #, kde-format
 msgid "Storage Size"
 msgstr "Depolama boyutu"
 
-#: core/models/statisticsproxymodel.cpp:110
+#: core/models/statisticsproxymodel.cpp:109
 #, kde-format
 msgid "Subfolder Storage Size"
 msgstr "Alt klasör depolama boyutu"
 
-#: core/models/statisticsproxymodel.cpp:224
+#: core/models/statisticsproxymodel.cpp:220
 #, kde-format
 msgctxt "number of unread entities in the collection"
 msgid "Unread"
 msgstr "Okunmamış"
 
-#: core/models/statisticsproxymodel.cpp:225
+#: core/models/statisticsproxymodel.cpp:221
 #, kde-format
 msgctxt "number of entities in the collection"
 msgid "Total"
 msgstr "Toplam"
 
-#: core/models/statisticsproxymodel.cpp:226
+#: core/models/statisticsproxymodel.cpp:222
 #, kde-format
 msgctxt "collection size"
 msgid "Size"
@@ -540,7 +555,7 @@ msgstr "Boyut"
 #: core/models/tagmodel.cpp:64
 #, kde-format
 msgid "Tag"
-msgstr "Etiket"
+msgstr "Künye"
 
 #: core/partfetcher.cpp:49
 #, kde-format
@@ -555,7 +570,7 @@ msgstr "İndeks artık kullanılabilir değil"
 #: core/partfetcher.cpp:114
 #, kde-format
 msgid "Payload part '%1' is not available for this index"
-msgstr "Bu indeks için  ‘%1’ veri kısmı kullanılabilir değil"
+msgstr "Bu indeks için  “%1” veri kısmı kullanılabilir değil"
 
 #: core/partfetcher.cpp:123
 #, kde-format
@@ -577,7 +592,7 @@ msgstr "Adsız eklenti"
 msgid "No description available"
 msgstr "Açıklama yok"
 
-#: core/servermanager.cpp:263
+#: core/servermanager.cpp:265
 #, kde-format
 msgid ""
 "The Akonadi server protocol version differs from the protocol version used "
@@ -590,7 +605,7 @@ msgstr ""
 "Sisteminizi yeni güncellediyseniz tüm uygulamaların doğru protokol sürümünü "
 "kullandığından emin olmak için oturumunuzu kapatıp yeniden açın."
 
-#: core/servermanager.cpp:280
+#: core/servermanager.cpp:282
 #, kde-format
 msgid ""
 "There are no Akonadi Agents available. Please verify your KDE PIM "
@@ -617,6 +632,83 @@ msgstr ""
 "Sisteminizi yeni güncellediyseniz tüm KDE PIM uygulamalarını yeniden "
 "başlatın."
 
+#: quick/colorproxymodel.cpp:83
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Offline)"
+msgstr "%1 (Çevrimdışı)"
+
+#: quick/colorproxymodel.cpp:86
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Default)"
+msgstr "%1 (Öntanımlı)"
+
+#: quick/qml/AgentConfigurationForm.qml:30
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Configure %1"
+msgstr "Yapılandır: %1"
+
+#: quick/qml/AgentConfigurationForm.qml:36
+#, kde-format
+msgctxt "@info"
+msgid "Modify or delete this account agent."
+msgstr "Bu hesap aracısında değişiklik yapın veya onu silin."
+
+#: quick/qml/AgentConfigurationForm.qml:52
+#, kde-format
+msgctxt "@action:button"
+msgid "Modify"
+msgstr "Değişiklik Yap"
+
+#: quick/qml/AgentConfigurationForm.qml:61
+#, kde-format
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Sil"
+
+#: quick/qml/AgentConfigurationForm.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Account"
+msgstr "Hesap Ekle"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TagManagementDialog)
+#: quick/qml/TagManagerPage.qml:17 widgets/tagmanagementdialog.ui:14
+#, kde-format
+msgid "Manage Tags"
+msgstr "Künyeleri Yönet"
+
+#: quick/qml/TagManagerPage.qml:27
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Confirm Tag Deletion"
+msgstr "Künye Silmeyi Onayla"
+
+#: quick/qml/TagManagerPage.qml:31
+#, kde-format
+msgctxt "@info"
+msgid "Are you sure you want to delete tag <b>%1</b>?"
+msgstr "<b>%1</b> künyesini silmeyi gerçekten istediğinizden emin misiniz?"
+
+#: quick/qml/TagManagerPage.qml:31
+#, kde-format
+msgid "You won't be able to revert this action."
+msgstr "Bu eylemi geri alamazsınız."
+
+#: quick/qml/TagManagerPage.qml:132
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Create a New Tag…"
+msgstr "Yeni Künye Oluştur…"
+
+#: quick/qml/TagManagerPage.qml:143
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Tag"
+msgstr "Künye Ekle"
+
 #: selftest/main.cpp:19
 #, kde-format
 msgid "Akonadi Self Test"
@@ -630,7 +722,7 @@ msgstr "Akonadi sunucusunu denetler ve durumunu raporlar"
 #: selftest/main.cpp:23
 #, kde-format
 msgid "(c) 2008 Volker Krause <vkrause@kde.org>"
-msgstr "(c) 2008 Volker Krause <vkrause@kde.org>"
+msgstr "© 2008 Volker Krause <vkrause@kde.org>"
 
 #: shared/akapplication.cpp:70
 #, kde-format
@@ -639,42 +731,42 @@ msgid ""
 msgstr ""
 "Aynı kullanıcı oturumunda birden çok Akonadi örneğini başlatmak için ad alanı"
 
-#: widgets/agentactionmanager.cpp:35
+#: widgets/agentactionmanager.cpp:36
 msgid "&New Agent Instance..."
 msgstr "&Yeni Aracı Örneği…"
 
-#: widgets/agentactionmanager.cpp:36
+#: widgets/agentactionmanager.cpp:37
 msgid "&Delete Agent Instance"
 msgstr "A&racı Örneğini Sil"
 
-#: widgets/agentactionmanager.cpp:37
+#: widgets/agentactionmanager.cpp:38
 msgid "&Configure Agent Instance"
 msgstr "Ara&cı Örneğini Yapılandır"
 
-#: widgets/agentactionmanager.cpp:53
+#: widgets/agentactionmanager.cpp:54
 #, kde-format
 msgctxt "@title:window"
 msgid "New Agent Instance"
 msgstr "Yeni Aracı Örneği"
 
-#: widgets/agentactionmanager.cpp:55
+#: widgets/agentactionmanager.cpp:56
 #, kde-format
 msgid "Could not create agent instance: %1"
 msgstr "Aracı örneği oluşturulamadı: %1"
 
-#: widgets/agentactionmanager.cpp:59
+#: widgets/agentactionmanager.cpp:60
 #, kde-format
 msgctxt "@title:window"
 msgid "Agent Instance Creation Failed"
 msgstr "Aracı Örneği Oluşturulamadı"
 
-#: widgets/agentactionmanager.cpp:61
+#: widgets/agentactionmanager.cpp:62
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Agent Instance?"
 msgstr "Aracı Örneği Silinsin mi?"
 
-#: widgets/agentactionmanager.cpp:65
+#: widgets/agentactionmanager.cpp:66
 #, kde-format
 msgid "Do you really want to delete the selected agent instance?"
 msgstr "Seçili aracı örneğini silmeyi gerçekten istiyor musunuz?"
@@ -685,32 +777,37 @@ msgctxt "@title:window, %1 = agent name"
 msgid "%1 Configuration"
 msgstr "%1 Yapılandırması"
 
-#: widgets/agentconfigurationdialog.cpp:81
+#: widgets/agentconfigurationdialog.cpp:87
 #, kde-format
 msgid "%1 Handbook"
 msgstr "%1 El Kitabı"
 
-#: widgets/agentconfigurationdialog.cpp:82
+#: widgets/agentconfigurationdialog.cpp:88
 #, kde-format
 msgid "About %1"
 msgstr "%1 Hakkında"
 
-#: widgets/agentconfigurationwidget.cpp:95
+#: widgets/agentconfigurationwidget.cpp:94
+#, kde-format
+msgid "Unable to access D-Bus interface of created agent."
+msgstr "Oluşturulan aracının D-Bus arayüzüne erişilemiyor."
+
+#: widgets/agentconfigurationwidget.cpp:116
 #, kde-format
 msgid "The configuration dialog has been opened in another window"
 msgstr "Yapılandırma penceresi başka bir pencerede açıldı"
 
-#: widgets/agentconfigurationwidget.cpp:102
+#: widgets/agentconfigurationwidget.cpp:123
 #, kde-format
 msgid "Configuration for %1 is already opened elsewhere."
 msgstr "%1 yapılandırması başka bir yerde halihazırda açık."
 
-#: widgets/agentconfigurationwidget.cpp:104
+#: widgets/agentconfigurationwidget.cpp:125
 #, kde-format
 msgid "Failed to register %1 configuration dialog."
 msgstr "%1 yapılandırma penceresi kaydedilemedi."
 
-#: widgets/agentinstancewidget.cpp:240
+#: widgets/agentinstancewidget.cpp:259
 #, kde-format
 msgctxt "Status percent value"
 msgid "(%1%)"
@@ -722,14 +819,20 @@ msgctxt "@title:window"
 msgid "Configure Account"
 msgstr "Hesabı Yapılandır"
 
-#: widgets/cachepolicypage.cpp:42 widgets/cachepolicypage.cpp:47
+#: widgets/agenttypedialog.cpp:74
+#, kde-format
+msgctxt "@item:textbox"
+msgid "Search types"
+msgstr "Arama türleri"
+
+#: widgets/cachepolicypage.cpp:43 widgets/cachepolicypage.cpp:48
 #, kde-format
 msgid "minute"
 msgid_plural "minutes"
 msgstr[0] "dakika"
 msgstr[1] "dakika"
 
-#: widgets/cachepolicypage.cpp:69
+#: widgets/cachepolicypage.cpp:70
 #, kde-format
 msgid "Retrieval"
 msgstr "Alım"
@@ -822,7 +925,7 @@ msgid ""
 "likely never uploaded to the destination server, so clearing this collection "
 "means that those <b>data will be lost</b>. Are you sure you want to proceed?"
 msgstr ""
-"‘%1’ koleksiyonu, uzak kimliksiz %2 öge içeriyor. Bu ögeler, büyük "
+"“%1” koleksiyonu, uzak kimliksiz %2 öge içeriyor. Bu ögeler, büyük "
 "olasılıkla uzak sunucuya hiçbir zaman yüklenmedi; bundan dolayı bunları "
 "temizlemek <b>bu verinin kaybolacağı</b> anlamına gelir. Sürdürmek "
 "istediğinizden emin misiniz?"
@@ -835,20 +938,23 @@ msgstr "Ara"
 
 #: widgets/collectiondialog.cpp:66
 #, kde-format
+msgctxt "@option:check"
 msgid "Use folder by default"
-msgstr "Klasörü öntanımlı olarak kullan"
+msgstr "Öntanımlı olarak klasör kullan"
 
 #: widgets/collectiondialog.cpp:226
 #, kde-format
+msgctxt "@action:button"
 msgid "&New Subfolder..."
 msgstr "&Yeni Alt Klasör…"
 
 #: widgets/collectiondialog.cpp:228
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Create a new subfolder under the currently selected folder"
 msgstr "Seçili klasörün altına yeni bir alt klasör oluştur"
 
-#: widgets/collectiondialog.cpp:266 widgets/standardactionmanager.cpp:348
+#: widgets/collectiondialog.cpp:266 widgets/standardactionmanager.cpp:419
 #, kde-format
 msgctxt "@title:window"
 msgid "New Folder"
@@ -860,12 +966,12 @@ msgctxt "@label:textbox, name of a thing"
 msgid "Name"
 msgstr "Ad"
 
-#: widgets/collectiondialog.cpp:287 widgets/standardactionmanager.cpp:350
+#: widgets/collectiondialog.cpp:287 widgets/standardactionmanager.cpp:421
 #, kde-format
 msgid "Could not create folder: %1"
 msgstr "Klasör oluşturulamadı: %1"
 
-#: widgets/collectiondialog.cpp:287 widgets/standardactionmanager.cpp:351
+#: widgets/collectiondialog.cpp:287 widgets/standardactionmanager.cpp:422
 #, kde-format
 msgctxt "@title:window"
 msgid "Folder Creation Failed"
@@ -939,24 +1045,24 @@ msgstr "0 Bayt"
 msgid "Remember that indexing can take some minutes."
 msgstr "İndekslemenin biraz zaman alacağını unutmayın."
 
-#: widgets/collectionmaintenancepage.cpp:71
+#: widgets/collectionmaintenancepage.cpp:72
 #, kde-format
 msgid "Maintenance"
 msgstr "Bakım"
 
-#: widgets/collectionmaintenancepage.cpp:130
+#: widgets/collectionmaintenancepage.cpp:131
 #, kde-format
 msgid "Error while retrieving indexed items count"
 msgstr "İndekslenmiş ögelerin sayısı alınırken hata oluştu"
 
-#: widgets/collectionmaintenancepage.cpp:133
+#: widgets/collectionmaintenancepage.cpp:134
 #, kde-format
 msgid "Indexed %1 item in this folder"
 msgid_plural "Indexed %1 items in this folder"
 msgstr[0] "Bu klasörde %1 indekslenmiş öge var"
 msgstr[1] "Bu klasörde %1 indekslenmiş öge var"
 
-#: widgets/collectionmaintenancepage.cpp:137
+#: widgets/collectionmaintenancepage.cpp:138
 #, kde-format
 msgid "Calculating indexed items..."
 msgstr "İndekslenen ögeler hesaplanıyor…"
@@ -1023,13 +1129,15 @@ msgstr "Klasörü yeniden indeksle"
 
 #: widgets/collectionrequester.cpp:113
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "No Folder"
-msgstr "Klasör Yok"
+msgstr "Klasör yok"
 
 #: widgets/collectionrequester.cpp:122
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Open collection dialog"
-msgstr "Koleksiyon penceresini aç"
+msgstr "Koleksiyon iletişim kutusunu aç"
 
 #: widgets/collectionrequester.cpp:143
 #, kde-format
@@ -1077,8 +1185,9 @@ msgctxt "@action:button"
 msgid "Keep both versions"
 msgstr "İki sürümü de tut"
 
-#: widgets/conflictresolvedialog.cpp:216
+#: widgets/conflictresolvedialog.cpp:217
 #, kde-format
+msgctxt "@label:textbox"
 msgid ""
 "<qt>Your changes conflict with those made by someone else meanwhile."
 "<br>Unless one version can just be thrown away, you will have to integrate "
@@ -1088,11 +1197,11 @@ msgid ""
 msgstr ""
 "<qt>Değişiklikleriniz başka birisinin değişiklikleriyle çakışıyor.<br>Ya "
 "birinin değişiklikleri atılacak ya da değişiklikleri elle tümleştirmeniz "
-"gerekecek.<br>Metinlerin bir kopyasını tutmak için ‘<a href=\"opentexteditor"
+"gerekecek.<br>Metinlerin bir kopyasını tutmak için <a href=\"opentexteditor"
 "\">Metin Düzenleyicisini Aç</a>’a tıklayın, doğru sürümü seçin ve yeniden "
 "açıp eksikleri eklemek için değiştirin."
 
-#: widgets/conflictresolvedialog.cpp:265
+#: widgets/conflictresolvedialog.cpp:266
 #, kde-format
 msgid "Data"
 msgstr "Veri"
@@ -1120,7 +1229,7 @@ msgstr "Buraya Ko&pyala"
 #: widgets/dragdropmanager.cpp:224
 #, kde-format
 msgid "&Link Here"
-msgstr "Bu&raya Bağ Koy"
+msgstr "Bu&raya Bağlantıla"
 
 #: widgets/dragdropmanager.cpp:229
 #, kde-format
@@ -1139,18 +1248,31 @@ msgstr ""
 "\n"
 "%1"
 
-#: widgets/erroroverlay.cpp:228 widgets/erroroverlay.cpp:229
+#: widgets/erroroverlay.cpp:228
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Personal information management service is starting..."
+msgstr "Kişisel bilgi yönetim hizmeti başlatılıyor…"
+
+#: widgets/erroroverlay.cpp:229
 #, kde-format
 msgid "Personal information management service is starting..."
 msgstr "Kişisel bilgi yönetim hizmeti başlatılıyor…"
 
-#: widgets/erroroverlay.cpp:233 widgets/erroroverlay.cpp:234
+#: widgets/erroroverlay.cpp:233
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Personal information management service is shutting down..."
+msgstr "Kişisel bilgi yönetim hizmeti kapatılıyor…"
+
+#: widgets/erroroverlay.cpp:234
 #, kde-format
 msgid "Personal information management service is shutting down..."
 msgstr "Kişisel bilgi yönetim hizmeti kapatılıyor…"
 
 #: widgets/erroroverlay.cpp:238
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "Personal information management service is performing a database upgrade."
 msgstr "Kişisel bilgi yönetim hizmeti, bir veritabanı yükseltmesi yapıyor."
@@ -1174,11 +1296,11 @@ msgstr ""
 #: widgets/erroroverlay.ui:21 widgets/erroroverlay.ui:71
 #, kde-format
 msgid ""
-"The Akonadi personal information management service is not running. This "
-"application cannot be used without it."
+"A required background service is not running. This application cannot be "
+"used without it."
 msgstr ""
-"Akonadi kişisel bilgi yönetim hizmeti çalışmıyor. Bu uygulama, Akonadi "
-"olmadan kullanılamaz."
+"Gerekli bir arka plan hizmeti çalışmıyor. Bu uygulama, bu hizmet olmadan "
+"kullanılamaz."
 
 #. i18n: ectx: property (text), widget (QPushButton, startButton)
 #: widgets/erroroverlay.ui:116
@@ -1191,17 +1313,25 @@ msgstr "Başlat"
 #: widgets/erroroverlay.ui:158
 #, kde-format
 msgid ""
-"The Akonadi personal information management framework is not operational.\n"
+"A required background service is not operational.\n"
 "Click on \"Details...\" to obtain detailed information on this problem."
 msgstr ""
-"Akonadi kişisel bilgi yönetimi çalışma ortamı kullanıma hazır değil.\n"
-"Sorun hakkında ayrıntılı bilgi almak için ‘Ayrıntılar…’ düğmesine tıklayın."
+"Gerekli bir arka plan hizmeti kullanılamıyor.\n"
+"Sorun hakkında ayrıntılı bilgi almak için “Ayrıntılar…” düğmesine tıklayın."
 
 #. i18n: ectx: property (text), widget (QLabel, brokenDescription)
 #: widgets/erroroverlay.ui:208
 #, kde-format
-msgid "The Akonadi personal information management service is not operational."
-msgstr "Akonadi kişisel bilgi yönetimi hizmeti işlevsel değil."
+msgid ""
+"<html><head/><body><p>A required background service is not operational.</"
+"p><p>See <a href=\"https://userbase.kde.org/"
+"Akonadi#If_Akonadi_Reports_Broken_or_Non-operational\">FAQ</a> for "
+"troubleshooting tips.</p></body></html>"
+msgstr ""
+"<html><head/><body><p>Gerekli bir arka plan hizmeti işlevsel değil.</"
+"p><p>Sorun tanılama ipuçları için <a href=\"https://userbase.kde.org/"
+"Akonadi#If_Akonadi_Reports_Broken_or_Non-operational\">SSS</a> sayfasına "
+"bakın.</p></body></html>"
 
 #. i18n: ectx: property (text), widget (QPushButton, selfTestButton)
 #: widgets/erroroverlay.ui:259
@@ -1209,49 +1339,55 @@ msgstr "Akonadi kişisel bilgi yönetimi hizmeti işlevsel değil."
 msgid "Details..."
 msgstr "Ayrıntılar…"
 
-#: widgets/manageaccountwidget.cpp:198
+#: widgets/manageaccountwidget.cpp:232
 #, kde-format
 msgid "Do you want to remove account '%1'?"
 msgstr "“%1” hesabını kaldırmak istiyor musunuz?"
 
-#: widgets/manageaccountwidget.cpp:199
+#: widgets/manageaccountwidget.cpp:233
 #, kde-format
 msgctxt "@title:window"
 msgid "Remove account?"
 msgstr "Hesabı Kaldır?"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QCheckBox, accountOnCurrentActivity)
 #: widgets/manageaccountwidget.ui:19
+#, kde-format
+msgid "Show only account on current activity"
+msgstr "Yalnızca geçerli etkinlikteki hesabı göster"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/manageaccountwidget.ui:26
 #, kde-format
 msgid "Incoming accounts (add at least one):"
 msgstr "Gelen hesaplar (en az bir tane ekleyin):"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, mFilterAccount)
-#: widgets/manageaccountwidget.ui:26
+#: widgets/manageaccountwidget.ui:33
 #, kde-format
 msgid "Filter…"
 msgstr "Süz…"
 
 #. i18n: ectx: property (text), widget (QPushButton, mAddAccountButton)
-#: widgets/manageaccountwidget.ui:40
+#: widgets/manageaccountwidget.ui:47
 #, kde-format
 msgid "A&dd..."
 msgstr "E&kle…"
 
 #. i18n: ectx: property (text), widget (QPushButton, mModifyAccountButton)
-#: widgets/manageaccountwidget.ui:50
+#: widgets/manageaccountwidget.ui:57
 #, kde-format
 msgid "&Modify..."
 msgstr "&Değiştir…"
 
 #. i18n: ectx: property (text), widget (QPushButton, mRemoveAccountButton)
-#: widgets/manageaccountwidget.ui:60
+#: widgets/manageaccountwidget.ui:67
 #, kde-format
 msgid "R&emove"
 msgstr "K&aldır"
 
 #. i18n: ectx: property (text), widget (QPushButton, mRestartAccountButton)
-#: widgets/manageaccountwidget.ui:77
+#: widgets/manageaccountwidget.ui:84
 #, kde-format
 msgid "Restart"
 msgstr "Yeniden Başlat"
@@ -1259,7 +1395,7 @@ msgstr "Yeniden Başlat"
 #: widgets/recentcollectionaction.cpp:43
 #, kde-format
 msgid "Recent Folder"
-msgstr "Yakın Zamandaki Klasör"
+msgstr "Son Kullanılan Klasör"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, RenameFavoriteDialog)
 #: widgets/renamefavoritedialog.ui:26
@@ -1295,7 +1431,7 @@ msgid ""
 "The QtSQL driver '%1' is required by your current Akonadi server "
 "configuration and was found on your system."
 msgstr ""
-"QtSQL sürücüsü ‘%1’, geçerli Akonadi sunucu yapılandırması için gerekiyor "
+"QtSQL sürücüsü “%1”, geçerli Akonadi sunucu yapılandırması için gerekiyor "
 "ancak sisteminizde bulunamadı."
 
 #: widgets/selftestdialog.cpp:191
@@ -1306,7 +1442,7 @@ msgid ""
 "The following drivers are installed: %2.\n"
 "Make sure the required driver is installed."
 msgstr ""
-"QtSQL sürücüsü ‘%1’, geçerli Akonadi sunucu yapılandırması için gerekiyor.\n"
+"QtSQL sürücüsü “%1”, geçerli Akonadi sunucu yapılandırması için gerekiyor.\n"
 "Şu sürücüler kurulu: %2.\n"
 "Gerekli sürücünün kurulmuş olduğundan emin olun."
 
@@ -1340,10 +1476,10 @@ msgid ""
 "executable. The server executable is typically called 'mysqld'; its location "
 "varies depending on the distribution."
 msgstr ""
-"Geçerli olarak Akonadi’yi MySQL sunucusu ‘%1’ ile yapılandırmışsınız.\n"
+"Geçerli olarak Akonadi’yi MySQL sunucusu “%1” ile yapılandırmışsınız.\n"
 "MySQL sunucusunun kurulu olduğundan, doğru yolun ayarlandığından ve sunucu "
 "yürütülebiliri üzerinde gerekli okuma ve yürütme izinlerine sahip "
-"olduğunuzdan emin olun. Sunucu yürütülebiliri genel olarak ‘mysqld’ olarak "
+"olduğunuzdan emin olun. Sunucu yürütülebiliri genel olarak “mysqld” olarak "
 "adlandırılmıştır; konumu dağıtıma göre değişiklik göstermektedir."
 
 #: widgets/selftestdialog.cpp:224
@@ -1385,7 +1521,7 @@ msgstr "MySQL sunucusu yürütülebilir durumda."
 #, kde-format
 msgid ""
 "Executing the MySQL server '%1' failed with the following error message: '%2'"
-msgstr "‘%1’ MySQL sunucusu şu hata iletisini vererek başarısız oldu: “%2”"
+msgstr "“%1” MySQL sunucusu şu hata iletisini vererek başarısız oldu: “%2”"
 
 #: widgets/selftestdialog.cpp:242
 #, kde-format
@@ -1408,7 +1544,7 @@ msgid ""
 "The MySQL server did not report any errors during this startup. The log can "
 "be found in '%1'."
 msgstr ""
-"MySQL sunucusu bu başlangıçta bir hata bildirmedi. Günlük, ‘%1’ içinde "
+"MySQL sunucusu bu başlangıçta bir hata bildirmedi. Günlük, “%1” içinde "
 "bulunabilir."
 
 #: widgets/selftestdialog.cpp:264
@@ -1429,7 +1565,7 @@ msgstr "MySQL sunucu hata günlük kaydı hatalar içeriyor."
 #: widgets/selftestdialog.cpp:275
 #, kde-format
 msgid "The MySQL server error log file '%1' contains errors."
-msgstr "MySQL sunucu hata günlük kaydı dosyası ‘%1’ hatalar içeriyor."
+msgstr "MySQL sunucu hata günlük kaydı dosyası “%1” hatalar içeriyor."
 
 #: widgets/selftestdialog.cpp:285
 #, kde-format
@@ -1439,7 +1575,7 @@ msgstr "MySQL sunucusu günlük kaydı içerisinde uyarılar var."
 #: widgets/selftestdialog.cpp:286
 #, kde-format
 msgid "The MySQL server log file '%1' contains warnings."
-msgstr "MySQL sunucusu günlük kaydı ‘%1’ içinde uyarılar var."
+msgstr "MySQL sunucusu günlük kaydı “%1” içinde uyarılar var."
 
 #: widgets/selftestdialog.cpp:289
 #, kde-format
@@ -1449,7 +1585,7 @@ msgstr "MySQL sunucusu günlük kaydı hiç hata içermiyor."
 #: widgets/selftestdialog.cpp:290
 #, kde-format
 msgid "The MySQL server log file '%1' does not contain any errors or warnings."
-msgstr "MySQL sunucusu günlük kaydı ‘%1’, hata veya uyarı içermiyor."
+msgstr "MySQL sunucusu günlük kaydı “%1”, hata veya uyarı içermiyor."
 
 #: widgets/selftestdialog.cpp:300
 #, kde-format
@@ -1570,7 +1706,7 @@ msgid ""
 "The program 'akonadictl' needs to be accessible in $PATH. Make sure you have "
 "the Akonadi server installed."
 msgstr ""
-"‘akonadictl’ uygulamasının $PATH içerisinden erişilebilir olması gerekiyor. "
+"“akonadictl” uygulamasının $PATH içerisinden erişilebilir olması gerekiyor. "
 "Akonadi sunucusunu kurduğunuzdan emin olun."
 
 #: widgets/selftestdialog.cpp:396
@@ -1586,7 +1722,7 @@ msgid ""
 "Result:\n"
 "%2"
 msgstr ""
-"Akonadi sunucusunu denetlemek için ‘%1’ programı bulundu ve başarılı bir "
+"Akonadi sunucusunu denetlemek için “%1” programı bulundu ve başarılı bir "
 "şekilde yürütülebildi.\n"
 "Sonuç:\n"
 "%2"
@@ -1605,7 +1741,7 @@ msgid ""
 "%2\n"
 "Make sure the Akonadi server is installed correctly."
 msgstr ""
-"Akonadi sunucusunu denetlemek için ‘%1’ programı bulundu; ancak başarılı bir "
+"Akonadi sunucusunu denetlemek için “%1” programı bulundu; ancak başarılı bir "
 "biçimde yürütülemedi.\n"
 "Sonuç:\n"
 "%2\n"
@@ -1737,8 +1873,8 @@ msgid ""
 msgstr ""
 "Özkaynak aracısı bulunamadı. Akonadi en az bir tanesi olmadan kullanılabilir "
 "değildir. Bu, hiçbir özkaynak aracısının olmadığını veya bir kurulum sorunu "
-"olduğunu belirtir. Şu yollarda arama yapıldı: ‘%1’. XDG_DATA_DIRS çevre "
-"değişkeni ‘%2’ olarak ayarlanmış, bu değişkenin Akonadi araçlarının kurulu "
+"olduğunu belirtir. Şu yollarda arama yapıldı: “%1”. XDG_DATA_DIRS çevre "
+"değişkeni “%2” olarak ayarlanmış, bu değişkenin Akonadi araçlarının kurulu "
 "olduğu tüm yolları içerdiğinden emin olun."
 
 #: widgets/selftestdialog.cpp:499
@@ -1881,6 +2017,12 @@ msgstr "Deneme Raporunu Kaydet"
 
 #: widgets/selftestdialog.cpp:650
 #, kde-format
+msgctxt "@title:window"
+msgid "Error"
+msgstr "Hata"
+
+#: widgets/selftestdialog.cpp:650
+#, kde-format
 msgid "Could not open file '%1'"
 msgstr "“%1” dosyası açılamadı"
 
@@ -1913,214 +2055,214 @@ msgstr ""
 "<p>Sorun giderme ile ilgili daha fazla ipucu için lütfen <a href=\"https://"
 "userbase.kde.org/Akonadi\">userbase.kde.org/Akonadi</a> adresine bakın.</p>"
 
-#: widgets/standardactionmanager.cpp:78
+#: widgets/standardactionmanager.cpp:79
 msgid "&New Folder..."
 msgstr "&Yeni Klasör…"
 
-#: widgets/standardactionmanager.cpp:78
+#: widgets/standardactionmanager.cpp:79
 msgid "New"
 msgstr "Yeni"
 
-#: widgets/standardactionmanager.cpp:80
+#: widgets/standardactionmanager.cpp:89
 msgid "&Delete Folder"
 msgstr "Klasörü &Sil"
 
-#: widgets/standardactionmanager.cpp:80
+#: widgets/standardactionmanager.cpp:90
 msgid "Delete"
 msgstr "Sil"
 
-#: widgets/standardactionmanager.cpp:82
+#: widgets/standardactionmanager.cpp:97
 msgid "&Synchronize Folder"
 msgstr "&Klasörü Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:83 widgets/standardactionmanager.cpp:157
-#: widgets/standardactionmanager.cpp:243
+#: widgets/standardactionmanager.cpp:98 widgets/standardactionmanager.cpp:207
+#: widgets/standardactionmanager.cpp:314
 msgid "Synchronize"
 msgstr "Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:90
+#: widgets/standardactionmanager.cpp:105
 msgid "Folder &Properties"
 msgstr "Klasör &Özellikleri"
 
-#: widgets/standardactionmanager.cpp:91 widgets/standardactionmanager.cpp:149
+#: widgets/standardactionmanager.cpp:106 widgets/standardactionmanager.cpp:199
 msgid "Properties"
 msgstr "Özellikler"
 
-#: widgets/standardactionmanager.cpp:98
+#: widgets/standardactionmanager.cpp:113
 msgid "&Paste"
 msgstr "&Yapıştır"
 
-#: widgets/standardactionmanager.cpp:98
+#: widgets/standardactionmanager.cpp:113
 msgid "Paste"
 msgstr "Yapıştır"
 
-#: widgets/standardactionmanager.cpp:101
+#: widgets/standardactionmanager.cpp:116
 msgid "Manage Local &Subscriptions..."
 msgstr "Yerel &Abonelikleri Yönet…"
 
-#: widgets/standardactionmanager.cpp:102
+#: widgets/standardactionmanager.cpp:117
 msgid "Manage Local Subscriptions"
 msgstr "Yerel Üyelikleri Yönet"
 
-#: widgets/standardactionmanager.cpp:109
+#: widgets/standardactionmanager.cpp:124
 msgid "Add to Favorite Folders"
 msgstr "Yer İmi Klasörlerine Ekle"
 
-#: widgets/standardactionmanager.cpp:110
+#: widgets/standardactionmanager.cpp:125
 msgid "Add to Favorite"
 msgstr "Yer İmlerine Ekle"
 
-#: widgets/standardactionmanager.cpp:117
+#: widgets/standardactionmanager.cpp:132
 msgid "Remove from Favorite Folders"
 msgstr "Yer İmi Klasörlerinden Kaldır"
 
-#: widgets/standardactionmanager.cpp:118
+#: widgets/standardactionmanager.cpp:133
 msgid "Remove from Favorite"
 msgstr "Yer İmlerinden Kaldır"
 
-#: widgets/standardactionmanager.cpp:124
+#: widgets/standardactionmanager.cpp:140
 msgid "Rename Favorite..."
 msgstr "Sık Kullanılanı Yeniden Adlandır…"
 
-#: widgets/standardactionmanager.cpp:124
+#: widgets/standardactionmanager.cpp:141
 msgid "Rename"
 msgstr "Yeniden Adlandır"
 
-#: widgets/standardactionmanager.cpp:126 widgets/standardactionmanager.cpp:164
+#: widgets/standardactionmanager.cpp:148 widgets/standardactionmanager.cpp:222
 msgid "Copy Folder To..."
 msgstr "Klasörü Kopyala…"
 
-#: widgets/standardactionmanager.cpp:127 widgets/standardactionmanager.cpp:133
-#: widgets/standardactionmanager.cpp:164 widgets/standardactionmanager.cpp:173
+#: widgets/standardactionmanager.cpp:149 widgets/standardactionmanager.cpp:157
+#: widgets/standardactionmanager.cpp:223 widgets/standardactionmanager.cpp:237
 msgid "Copy To"
 msgstr "Kopyala"
 
-#: widgets/standardactionmanager.cpp:133 widgets/standardactionmanager.cpp:173
+#: widgets/standardactionmanager.cpp:156 widgets/standardactionmanager.cpp:237
 msgid "Copy Item To..."
 msgstr "Ögeyi Kopyala…"
 
-#: widgets/standardactionmanager.cpp:134 widgets/standardactionmanager.cpp:174
+#: widgets/standardactionmanager.cpp:164 widgets/standardactionmanager.cpp:238
 msgid "Move Item To..."
 msgstr "Ögeyi Taşı…"
 
-#: widgets/standardactionmanager.cpp:134 widgets/standardactionmanager.cpp:137
-#: widgets/standardactionmanager.cpp:167 widgets/standardactionmanager.cpp:174
+#: widgets/standardactionmanager.cpp:165 widgets/standardactionmanager.cpp:173
+#: widgets/standardactionmanager.cpp:231 widgets/standardactionmanager.cpp:238
 msgid "Move To"
 msgstr "Taşı"
 
-#: widgets/standardactionmanager.cpp:136 widgets/standardactionmanager.cpp:166
+#: widgets/standardactionmanager.cpp:172 widgets/standardactionmanager.cpp:230
 msgid "Move Folder To..."
 msgstr "Klasörü Taşı…"
 
-#: widgets/standardactionmanager.cpp:143
+#: widgets/standardactionmanager.cpp:179
 msgid "&Cut Item"
 msgstr "Ögeyi &Kes"
 
-#: widgets/standardactionmanager.cpp:143 widgets/standardactionmanager.cpp:144
+#: widgets/standardactionmanager.cpp:179 widgets/standardactionmanager.cpp:180
 msgid "Cut"
 msgstr "Kes"
 
-#: widgets/standardactionmanager.cpp:144
+#: widgets/standardactionmanager.cpp:180
 msgid "&Cut Folder"
 msgstr "Klasörü &Kes"
 
-#: widgets/standardactionmanager.cpp:145
+#: widgets/standardactionmanager.cpp:182
 msgid "Create Resource"
 msgstr "Özkaynak Oluştur"
 
-#: widgets/standardactionmanager.cpp:146
+#: widgets/standardactionmanager.cpp:190
 msgid "Delete Resource"
 msgstr "Özkaynağı Sil"
 
-#: widgets/standardactionmanager.cpp:148
+#: widgets/standardactionmanager.cpp:198
 msgid "&Resource Properties"
 msgstr "Öz&kaynak Özellikleri"
 
-#: widgets/standardactionmanager.cpp:156
+#: widgets/standardactionmanager.cpp:206
 msgid "Synchronize Resource"
 msgstr "Özkaynağı Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:163
+#: widgets/standardactionmanager.cpp:214
 msgid "Work Offline"
 msgstr "Çevrimdışı Çalış"
 
-#: widgets/standardactionmanager.cpp:176
+#: widgets/standardactionmanager.cpp:240
 msgid "&Synchronize Folder Recursively"
 msgstr "&Klasörü Özyineli Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:177
+#: widgets/standardactionmanager.cpp:241
 msgid "Synchronize Recursively"
 msgstr "Özyinelemeli Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:184
+#: widgets/standardactionmanager.cpp:248
 msgid "&Move Folder To Trash"
 msgstr "Klasörü &Çöp Kutusuna Taşı"
 
-#: widgets/standardactionmanager.cpp:185
+#: widgets/standardactionmanager.cpp:249
 msgid "Move Folder To Trash"
 msgstr "Klasörü Çöp Kutusuna Taşı"
 
-#: widgets/standardactionmanager.cpp:192
+#: widgets/standardactionmanager.cpp:256
 msgid "&Move Item To Trash"
 msgstr "Ögeyi &Çöp Kutusuna Taşı"
 
-#: widgets/standardactionmanager.cpp:193
+#: widgets/standardactionmanager.cpp:257
 msgid "Move Item To Trash"
 msgstr "Ögeyi Çöp Kutusuna Taşı"
 
-#: widgets/standardactionmanager.cpp:200 widgets/standardactionmanager.cpp:216
+#: widgets/standardactionmanager.cpp:264 widgets/standardactionmanager.cpp:280
 msgid "&Restore Folder From Trash"
 msgstr "Klasörü Çöpten &Geri Yükle"
 
-#: widgets/standardactionmanager.cpp:201 widgets/standardactionmanager.cpp:217
+#: widgets/standardactionmanager.cpp:265 widgets/standardactionmanager.cpp:281
 msgid "Restore Folder From Trash"
 msgstr "Klasörü Çöpten Geri Yükle"
 
-#: widgets/standardactionmanager.cpp:208 widgets/standardactionmanager.cpp:225
-#: widgets/standardactionmanager.cpp:232
+#: widgets/standardactionmanager.cpp:272 widgets/standardactionmanager.cpp:296
+#: widgets/standardactionmanager.cpp:303
 msgid "&Restore Item From Trash"
 msgstr "Ögeyi Çöpten &Geri Yükle"
 
-#: widgets/standardactionmanager.cpp:209 widgets/standardactionmanager.cpp:226
-#: widgets/standardactionmanager.cpp:232
+#: widgets/standardactionmanager.cpp:273 widgets/standardactionmanager.cpp:297
+#: widgets/standardactionmanager.cpp:303
 msgid "Restore Item From Trash"
 msgstr "Ögeyi Çöpten Geri Yükle"
 
-#: widgets/standardactionmanager.cpp:223
+#: widgets/standardactionmanager.cpp:288
 msgid "&Restore Collection From Trash"
 msgstr "Koleksiyonu Çöpten &Geri Yükle"
 
-#: widgets/standardactionmanager.cpp:223
+#: widgets/standardactionmanager.cpp:289
 msgid "Restore Collection From Trash"
 msgstr "Koleksiyonu Çöpten Geri Yükle"
 
-#: widgets/standardactionmanager.cpp:234
+#: widgets/standardactionmanager.cpp:305
 msgid "&Synchronize Favorite Folders"
 msgstr "&Yer İmi Klasörlerini Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:235
+#: widgets/standardactionmanager.cpp:306
 msgid "Synchronize Favorite Folders"
 msgstr "Yer İmi Klasörlerini Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:242
+#: widgets/standardactionmanager.cpp:313
 msgid "Synchronize Folder Tree"
 msgstr "Klasör Ağacını Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:328
+#: widgets/standardactionmanager.cpp:399
 #, kde-format
 msgid "&Copy Folder"
 msgid_plural "&Copy %1 Folders"
 msgstr[0] "Klasörü Ko&pyala"
 msgstr[1] "%1 Klasörü Ko&pyala"
 
-#: widgets/standardactionmanager.cpp:329
+#: widgets/standardactionmanager.cpp:400
 #, kde-format
 msgid "&Copy Item"
 msgid_plural "&Copy %1 Items"
 msgstr[0] "Öge Ko&pyala"
 msgstr[1] "%1 Öge Ko&pyala"
 
-#: widgets/standardactionmanager.cpp:330
+#: widgets/standardactionmanager.cpp:401
 #, kde-format
 msgctxt "@action"
 msgid "&Cut Item"
@@ -2128,7 +2270,7 @@ msgid_plural "&Cut %1 Items"
 msgstr[0] "Ögeyi &Kes"
 msgstr[1] "%1 Ögeyi &Kes"
 
-#: widgets/standardactionmanager.cpp:331
+#: widgets/standardactionmanager.cpp:402
 #, kde-format
 msgctxt "@action"
 msgid "&Cut Folder"
@@ -2136,14 +2278,14 @@ msgid_plural "&Cut %1 Folders"
 msgstr[0] "Klasörü &Kes"
 msgstr[1] "%1 Klasörü &Kes"
 
-#: widgets/standardactionmanager.cpp:332
+#: widgets/standardactionmanager.cpp:403
 #, kde-format
 msgid "&Delete Item"
 msgid_plural "&Delete %1 Items"
 msgstr[0] "Öge &Sil"
 msgstr[1] "%1 Öge &Sil"
 
-#: widgets/standardactionmanager.cpp:333
+#: widgets/standardactionmanager.cpp:404
 #, kde-format
 msgctxt "@action"
 msgid "&Delete Folder"
@@ -2151,7 +2293,7 @@ msgid_plural "&Delete %1 Folders"
 msgstr[0] "Klasörü &Sil"
 msgstr[1] "%1 Klasörü &Sil"
 
-#: widgets/standardactionmanager.cpp:334
+#: widgets/standardactionmanager.cpp:405
 #, kde-format
 msgctxt "@action"
 msgid "&Synchronize Folder"
@@ -2159,70 +2301,70 @@ msgid_plural "&Synchronize %1 Folders"
 msgstr[0] "K&lasörü Eşzamanla"
 msgstr[1] "%1 K&lasörü Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:335
+#: widgets/standardactionmanager.cpp:406
 #, kde-format
 msgid "&Delete Resource"
 msgid_plural "&Delete %1 Resources"
 msgstr[0] "Özkaynağı &Sil"
 msgstr[1] "%1 Özkaynağı &Sil"
 
-#: widgets/standardactionmanager.cpp:336
+#: widgets/standardactionmanager.cpp:407
 #, kde-format
 msgid "&Synchronize Resource"
 msgid_plural "&Synchronize %1 Resources"
 msgstr[0] "Özkaynağı &Eşzamanla"
 msgstr[1] "%1 Özkaynağı &Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:338
+#: widgets/standardactionmanager.cpp:409
 #, kde-format
 msgid "Copy Folder"
 msgid_plural "Copy %1 Folders"
 msgstr[0] "Klasörü Kopyala"
 msgstr[1] "%1 Klasörü Kopyala"
 
-#: widgets/standardactionmanager.cpp:339
+#: widgets/standardactionmanager.cpp:410
 #, kde-format
 msgid "Copy Item"
 msgid_plural "Copy %1 Items"
 msgstr[0] "Ögeyi Kopyala"
 msgstr[1] "%1 Ögeyi Kopyala"
 
-#: widgets/standardactionmanager.cpp:340
+#: widgets/standardactionmanager.cpp:411
 #, kde-format
 msgid "Cut Item"
 msgid_plural "Cut %1 Items"
 msgstr[0] "Ögeyi Kes"
 msgstr[1] "%1 Ögeyi Kes"
 
-#: widgets/standardactionmanager.cpp:341
+#: widgets/standardactionmanager.cpp:412
 #, kde-format
 msgid "Cut Folder"
 msgid_plural "Cut %1 Folders"
 msgstr[0] "Klasörü Kes"
 msgstr[1] "%1 Klasörü Kes"
 
-#: widgets/standardactionmanager.cpp:342
+#: widgets/standardactionmanager.cpp:413
 #, kde-format
 msgid "Delete Item"
 msgid_plural "Delete %1 Items"
 msgstr[0] "Ögeyi Sil"
 msgstr[1] "%1 Ögeyi Sil"
 
-#: widgets/standardactionmanager.cpp:343
+#: widgets/standardactionmanager.cpp:414
 #, kde-format
 msgid "Delete Folder"
 msgid_plural "Delete %1 Folders"
 msgstr[0] "Klasörü Sil"
 msgstr[1] "%1 Klasörü Sil"
 
-#: widgets/standardactionmanager.cpp:344
+#: widgets/standardactionmanager.cpp:415
 #, kde-format
 msgid "Synchronize Folder"
 msgid_plural "Synchronize %1 Folders"
 msgstr[0] "Klasörü Eşzamanla"
 msgstr[1] "%1 Klasörü Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:345
+#: widgets/standardactionmanager.cpp:416
 #, kde-format
 msgctxt "@action"
 msgid "Delete Resource"
@@ -2230,7 +2372,7 @@ msgid_plural "Delete %1 Resources"
 msgstr[0] "Özkaynağı Sil"
 msgstr[1] "%1 Özkaynağı Sil"
 
-#: widgets/standardactionmanager.cpp:346
+#: widgets/standardactionmanager.cpp:417
 #, kde-format
 msgctxt "@action"
 msgid "Synchronize Resource"
@@ -2238,13 +2380,13 @@ msgid_plural "Synchronize %1 Resources"
 msgstr[0] "Özkaynağı Eşzamanla"
 msgstr[1] "%1 Özkaynağı Eşzamanla"
 
-#: widgets/standardactionmanager.cpp:349
+#: widgets/standardactionmanager.cpp:420
 #, kde-format
 msgctxt "@label:textbox name of Akonadi folder"
 msgid "Name"
 msgstr "Ad"
 
-#: widgets/standardactionmanager.cpp:356
+#: widgets/standardactionmanager.cpp:427
 #, kde-format
 msgid "Do you really want to delete this folder and all its sub-folders?"
 msgid_plural ""
@@ -2254,7 +2396,7 @@ msgstr[0] ""
 msgstr[1] ""
 "%1 klasörü ve tüm alt klasörlerini silmek istediğinizden emin misiniz?"
 
-#: widgets/standardactionmanager.cpp:359
+#: widgets/standardactionmanager.cpp:430
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Folder?"
@@ -2262,31 +2404,31 @@ msgid_plural "Delete Folders?"
 msgstr[0] "Klasör Silinsin Mi?"
 msgstr[1] "Klasörler Silinsin mi?"
 
-#: widgets/standardactionmanager.cpp:360
+#: widgets/standardactionmanager.cpp:431
 #, kde-format
 msgid "Could not delete folder: %1"
 msgstr "Klasör silinemedi: %1"
 
-#: widgets/standardactionmanager.cpp:361
+#: widgets/standardactionmanager.cpp:432
 #, kde-format
 msgctxt "@title:window"
 msgid "Folder Deletion Failed"
 msgstr "Klasör Silme Başarısız"
 
-#: widgets/standardactionmanager.cpp:363
+#: widgets/standardactionmanager.cpp:434
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties of Folder %1"
 msgstr "%1 Klasörünün Özellikleri"
 
-#: widgets/standardactionmanager.cpp:367
+#: widgets/standardactionmanager.cpp:438
 #, kde-format
 msgid "Do you really want to delete the selected item?"
 msgid_plural "Do you really want to delete %1 items?"
-msgstr[0] "Seçili ögeyi gerçekten silmek istediğinize emin misiniz?"
-msgstr[1] "%1 ögeyi gerçekten silmek istediğinize emin misiniz?"
+msgstr[0] "Seçili ögeyi gerçekten silmek istediğinizden emin misiniz?"
+msgstr[1] "%1 ögeyi gerçekten silmek istediğinizden emin misiniz?"
 
-#: widgets/standardactionmanager.cpp:368
+#: widgets/standardactionmanager.cpp:439
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Item?"
@@ -2294,54 +2436,54 @@ msgid_plural "Delete Items?"
 msgstr[0] "Öge Silinsin mi?"
 msgstr[1] "Ögelin Silinsin mi?"
 
-#: widgets/standardactionmanager.cpp:369
+#: widgets/standardactionmanager.cpp:440
 #, kde-format
 msgid "Could not delete item: %1"
 msgstr "Öge silinemedi: %1"
 
-#: widgets/standardactionmanager.cpp:370
+#: widgets/standardactionmanager.cpp:441
 #, kde-format
 msgctxt "@title:window"
 msgid "Item Deletion Failed"
 msgstr "Öge Silme Başarısız"
 
-#: widgets/standardactionmanager.cpp:372
+#: widgets/standardactionmanager.cpp:443
 #, kde-format
 msgctxt "@title:window"
 msgid "Rename Favorite"
 msgstr "Yer İmini Yeniden Adlandır"
 
-#: widgets/standardactionmanager.cpp:373
+#: widgets/standardactionmanager.cpp:444
 #, kde-format
 msgctxt "@label:textbox name of the folder"
 msgid "Name:"
 msgstr "Ad:"
 
-#: widgets/standardactionmanager.cpp:375
+#: widgets/standardactionmanager.cpp:446
 #, kde-format
 msgctxt "@title:window"
 msgid "New Resource"
 msgstr "Yeni Özkaynak"
 
-#: widgets/standardactionmanager.cpp:376
+#: widgets/standardactionmanager.cpp:447
 #, kde-format
 msgid "Could not create resource: %1"
 msgstr "Özkaynak oluşturulamadı: %1"
 
-#: widgets/standardactionmanager.cpp:377
+#: widgets/standardactionmanager.cpp:448
 #, kde-format
 msgctxt "@title:window"
 msgid "Resource Creation Failed"
 msgstr "Özkaynak Oluşturma Başarısız"
 
-#: widgets/standardactionmanager.cpp:381
+#: widgets/standardactionmanager.cpp:452
 #, kde-format
 msgid "Do you really want to delete this resource?"
 msgid_plural "Do you really want to delete %1 resources?"
 msgstr[0] "Bu özkaynağı silmek istediğinizden emin misiniz?"
 msgstr[1] "%1 özkaynağı silmek istediğinizden emin misiniz?"
 
-#: widgets/standardactionmanager.cpp:384
+#: widgets/standardactionmanager.cpp:455
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Resource?"
@@ -2349,34 +2491,34 @@ msgid_plural "Delete Resources?"
 msgstr[0] "Özkaynak Silinsin mi?"
 msgstr[1] "Özkaynaklar Silinsin mi?"
 
-#: widgets/standardactionmanager.cpp:386
+#: widgets/standardactionmanager.cpp:457
 #, kde-format
 msgid "Could not paste data: %1"
 msgstr "Veri yapıştırılamadı: %1"
 
-#: widgets/standardactionmanager.cpp:387
+#: widgets/standardactionmanager.cpp:458
 #, kde-format
 msgctxt "@title:window"
 msgid "Paste Failed"
 msgstr "Yapıştırma Başarısız"
 
-#: widgets/standardactionmanager.cpp:739
+#: widgets/standardactionmanager.cpp:822
 #, kde-format
 msgid "We can not add \"/\" in folder name."
-msgstr "Klasörü adına ‘/’ ekleyemeyiz."
+msgstr "Klasör adına “/” ekleyemeyiz."
 
-#: widgets/standardactionmanager.cpp:739 widgets/standardactionmanager.cpp:743
+#: widgets/standardactionmanager.cpp:822 widgets/standardactionmanager.cpp:826
 #, kde-format
 msgctxt "@title:window"
 msgid "Create New Folder Error"
 msgstr "Yeni Klasör Oluşturma Hatası"
 
-#: widgets/standardactionmanager.cpp:743
+#: widgets/standardactionmanager.cpp:826
 #, kde-format
 msgid "We can not add \".\" at begin or end of folder name."
-msgstr "Klasör adının başına veya sonuna ‘.’ ekleyemeyiz."
+msgstr "Klasör adının başına veya sonuna “.” ekleyemeyiz."
 
-#: widgets/standardactionmanager.cpp:982
+#: widgets/standardactionmanager.cpp:1065
 #, kde-format
 msgid ""
 "Before syncing folder \"%1\" it is necessary to have the resource online. Do "
@@ -2385,33 +2527,33 @@ msgstr ""
 "“%1” klasörünü eşzamanlamadan önce özkaynakların çevrimiçi olması "
 "gereklidir. Çevrimiçi yapmak istiyor musunuz?"
 
-#: widgets/standardactionmanager.cpp:983
+#: widgets/standardactionmanager.cpp:1066
 #, kde-format
 msgid "Account \"%1\" is offline"
 msgstr "“%1” hesabı çevrimdışı"
 
-#: widgets/standardactionmanager.cpp:984
+#: widgets/standardactionmanager.cpp:1067
 #, kde-format
 msgctxt "@action:button"
 msgid "Go Online"
 msgstr "Çevrimiçi Ol"
 
-#: widgets/standardactionmanager.cpp:1585
+#: widgets/standardactionmanager.cpp:1681
 #, kde-format
 msgid "Move to This Folder"
 msgstr "Bu Klasöre Taşı"
 
-#: widgets/standardactionmanager.cpp:1585
+#: widgets/standardactionmanager.cpp:1681
 #, kde-format
 msgid "Copy to This Folder"
 msgstr "Bu Klasöre Kopyala"
 
-#: widgets/subscriptiondialog.cpp:97
+#: widgets/subscriptiondialog.cpp:99
 #, kde-format
 msgid "Failed to update subscription: %1"
 msgstr "Abonelik güncellenemedi: %1"
 
-#: widgets/subscriptiondialog.cpp:97
+#: widgets/subscriptiondialog.cpp:99
 #, kde-format
 msgctxt "@title:window"
 msgid "Subscription Error"
@@ -2447,66 +2589,58 @@ msgstr "A&bone ol"
 msgid "&Unsubscribe"
 msgstr "Abonelik&ten Ayrıl"
 
-#: widgets/tageditwidget.cpp:116
+#: widgets/tageditwidget.cpp:117
 #, kde-format
 msgid "Failed to create a new tag"
-msgstr "Yeni etiket oluşturma başarısız"
+msgstr "Yeni künye oluşturulamadı"
 
-#: widgets/tageditwidget.cpp:116
+#: widgets/tageditwidget.cpp:117
 #, kde-format
 msgctxt "@title:window"
 msgid "An Error Occurred while Creating a New Tag"
-msgstr "Etiket Oluşturulurken Bir Hata Oluştu"
+msgstr "Yeni Künye Oluşturulurken Hata"
 
-#: widgets/tageditwidget.cpp:164
+#: widgets/tageditwidget.cpp:165
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to remove the tag <resource>%1</resource>?"
-msgstr ""
-"<resource>%1</resource> etiketini gerçekten silmek istediğinizden emin "
-"misiniz?"
+msgstr "<resource>%1</resource> künyesini silmeyi gerçekten istiyor musunuz?"
 
-#: widgets/tageditwidget.cpp:165
+#: widgets/tageditwidget.cpp:166
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Tag"
-msgstr "Etiketi Sil"
+msgstr "Künyeyi Sil"
 
-#: widgets/tageditwidget.cpp:189
+#: widgets/tageditwidget.cpp:191
 #, kde-format
 msgctxt "@info"
 msgid "Delete tag"
-msgstr "Etiketi sil"
+msgstr "Künyeyi sil"
 
 #. i18n: ectx: property (text), widget (QLabel, selectLabel)
 #: widgets/tageditwidget.ui:29
 #, kde-format
 msgid "Select tags that should be applied."
-msgstr "Uygulanacak etiketleri seçin."
+msgstr "Uygulanacak künyeleri seçin."
 
 #. i18n: ectx: property (text), widget (QPushButton, newTagButton)
 #: widgets/tageditwidget.ui:54
 #, kde-format
 msgid "Create new tag"
-msgstr "Yeni Etiket Oluştur"
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, TagManagementDialog)
-#: widgets/tagmanagementdialog.ui:14
-#, kde-format
-msgid "Manage Tags"
-msgstr "Etiketleri Yönet"
+msgstr "Yeni Künye Oluştur"
 
 #: widgets/tagselectioncombobox.cpp:126
 #, kde-format
 msgctxt "@label Placeholder text in tag selection combobox"
 msgid "Select tags..."
-msgstr "Etiketler seç…"
+msgstr "Künyeler seç…"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, TagSelectionDialog)
 #: widgets/tagselectiondialog.ui:14
 #, kde-format
 msgid "Select Tags"
-msgstr "Etiketleri Seç"
+msgstr "Künyeler Seç"
 
 #: widgets/tagwidget.cpp:45
 #, kde-format
@@ -2517,7 +2651,7 @@ msgstr "Temizle"
 #: widgets/tagwidget.ui:32
 #, kde-format
 msgid "Click to add tags"
-msgstr "Etiket eklemek için tıkla"
+msgstr "Künye eklemek için tıkla…"
 
 #. i18n: ectx: property (text), widget (QToolButton, editButton)
 #: widgets/tagwidget.ui:39
@@ -2538,7 +2672,7 @@ msgstr "Akonadi alt ağaç koleksiyonunu XML dosyasına dönüştürün."
 #: xml/akonadi2xml.cpp:29
 #, kde-format
 msgid "(c) 2009 Volker Krause <vkrause@kde.org>"
-msgstr "(c) 2009 Volker Krause <vkrause@kde.org>"
+msgstr "© 2009 Volker Krause <vkrause@kde.org>"
 
 #: xml/xmldocument.cpp:83
 #, kde-format
@@ -2590,15 +2724,25 @@ msgstr "Şema geçerleme bağlamı oluşturulamıyor."
 msgid "Invalid file format."
 msgstr "Geçersiz dosya biçimi."
 
-#: xml/xmldocument.cpp:178
+#: xml/xmldocument.cpp:177
 #, kde-format
 msgid "Unable to parse data file: %1"
 msgstr "Veri dosyası ayrıştırılamadı: %1"
 
-#: xml/xmldocument.cpp:303
+#: xml/xmldocument.cpp:302
 #, kde-format
 msgid "Unable to find collection %1"
 msgstr "%1 koleksiyonu bulunamıyor"
+
+#~ msgctxt "@window:title"
+#~ msgid "Error"
+#~ msgstr "Hata"
+
+#~ msgid "A required background service is not operational."
+#~ msgstr "Gerekli bir arka plan hizmeti kullanılamıyor."
+
+#~ msgid "Failed to create relation."
+#~ msgstr "İlişki oluşturma başarısız oldu."
 
 #~ msgid "Quota"
 #~ msgstr "Kota"

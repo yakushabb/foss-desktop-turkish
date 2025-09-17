@@ -1,21 +1,21 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the ktrip package.
 #
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: ktrip\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-11 00:40+0000\n"
-"PO-Revision-Date: 2024-02-24 22:00+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-08-18 00:45+0000\n"
+"PO-Revision-Date: 2025-07-04 16:04+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -27,56 +27,54 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
 
-#: main.cpp:73
+#: localizer.cpp:94
+#, kde-format
+msgctxt "time"
+msgid "Now"
+msgstr "Şimdi"
+
+#: localizer.cpp:98
+#, kde-format
+msgctxt "time"
+msgid "%1 min ago"
+msgid_plural "%1 min ago"
+msgstr[0] "%1 dakika önce"
+msgstr[1] "%1 dakika önce"
+
+#: main.cpp:77
 #, kde-format
 msgid "KTrip"
 msgstr "K Gezi"
 
-#: main.cpp:75
+#: main.cpp:79
 #, kde-format
 msgid "Public transport assistant"
-msgstr "Toplu taşıma asistanı"
+msgstr "Toplu taşıma yardımcısı"
 
-#: main.cpp:77
+#: main.cpp:81
 #, kde-format
 msgid "© 2019 KDE Community"
 msgstr "© 2019 KDE Community"
 
-#: main.cpp:78
+#: main.cpp:82
 #, kde-format
 msgid "Nicolas Fella"
 msgstr "Nicolas Fella"
 
-#: qml/BackendPage.qml:20 qml/Main.qml:54
+#: qml/BackendPage.qml:15 qml/Main.qml:59
 #, kde-format
 msgid "Providers"
 msgstr "Sağlayıcılar"
 
-#: qml/BackendPage.qml:23
+#: qml/BackendPage.qml:18
 #, kde-format
 msgid "Select the providers relevant for your area"
 msgstr "Yaşadığınız bölge için olan sağlayıcıları seçin"
 
-#: qml/BackendPage.qml:29
+#: qml/BackendPage.qml:25
 #, kde-format
 msgid "Save"
 msgstr "Kaydet"
-
-#: qml/BackendPage.qml:106
-#, kde-format
-msgid "Global"
-msgstr "Global"
-
-#: qml/BackendPage.qml:108
-#, kde-format
-msgid "🇪🇺 European Union"
-msgstr "🇪🇺 Avrupa Birliği"
-
-#: qml/BackendPage.qml:111
-#, kde-format
-msgctxt "emoji flag, country name"
-msgid "%1 %2"
-msgstr "%1 %2"
 
 #: qml/ConnectionDetailsPage.qml:16
 #, kde-format
@@ -121,127 +119,343 @@ msgctxt "@title"
 msgid "Connections"
 msgstr "Bağlantılar"
 
-#: qml/ConnectionsPage.qml:59 qml/ConnectionsPage.qml:85
+#: qml/ConnectionsPage.qml:61 qml/ConnectionsPage.qml:87
 #, kde-format
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: qml/ConnectionsPage.qml:65 qml/ConnectionsPage.qml:91
+#: qml/ConnectionsPage.qml:67 qml/ConnectionsPage.qml:93
 #, kde-format
 msgid "+%1"
 msgstr "+%1"
 
-#: qml/ConnectionsPage.qml:75
+#: qml/ConnectionsPage.qml:77
 #, kde-format
 msgid "%1 change"
 msgid_plural "%1 changes"
 msgstr[0] "%1 değişiklik"
 msgstr[1] "%1 değişiklik"
 
-#: qml/ConnectionsPage.qml:107
+#: qml/ConnectionsPage.qml:109
 #, kde-format
 msgid "No connections found"
-msgstr "Bağlantı bulunamadı"
+msgstr "Bulunan aktarma yok."
 
-#: qml/DeparturesPage.qml:15
+#: qml/DeparturesPage.qml:23
+#, kde-format
+msgctxt "@title"
+msgid "Arrivals"
+msgstr "Varışlar"
+
+#: qml/DeparturesPage.qml:23
 #, kde-format
 msgctxt "@title"
 msgid "Departures"
 msgstr "Kalkışlar"
 
-#: qml/DeparturesPage.qml:37
+#: qml/DeparturesPage.qml:90
 #, kde-format
-msgid "%3 %1 (%2)"
-msgstr "%3 %1 (%2)"
+msgctxt "@info"
+msgid "Platform %1"
+msgstr "Peron %1"
 
-#: qml/LocationQueryPage.qml:53
+#: qml/DeparturesPage.qml:145
 #, kde-format
-msgid "No locations found"
-msgstr "Konum bulunamadı"
+msgid "No arrivals found."
+msgstr "Bulunan varış yok."
 
-#: qml/LocationQueryPage.qml:60
+#: qml/DeparturesPage.qml:145
 #, kde-format
-msgid "No providers enabled"
-msgstr "Etkin sağlayıcı yok"
+msgid "No departures found."
+msgstr "Bulunan kalkış yok."
 
-#: qml/LocationQueryPage.qml:63
-#, kde-format
-msgid "Configure providers"
-msgstr "Sağlayıcıları yapılandır"
-
-#: qml/Main.qml:31
+#: qml/Main.qml:36
 #, kde-format
 msgid "Journey"
 msgstr "Yolculuk"
 
-#: qml/Main.qml:41
+#: qml/Main.qml:46
 #, kde-format
 msgid "Departures"
 msgstr "Kalkışlar"
 
-#: qml/Main.qml:59
+#: qml/Main.qml:64
 #, kde-format
 msgid "About KTrip"
 msgstr "K Gezi Hakkında"
 
-#: qml/QueryPage.qml:16
+#: qml/QueryPage.qml:33
 #, kde-format
 msgctxt "@title"
 msgid "Query Departures"
 msgstr "Kalkışları Sorgula"
 
-#: qml/QueryPage.qml:16
+#: qml/QueryPage.qml:33
 #, kde-format
 msgctxt "@title"
 msgid "Start Journey"
 msgstr "Yolculuğu Başlat"
 
-#: qml/QueryPage.qml:23
+#: qml/QueryPage.qml:37
 #, kde-format
-msgctxt "@action"
-msgid "Search"
-msgstr "Ara"
+msgid "No providers enabled"
+msgstr "Etkin sağlayıcı yok"
 
 #: qml/QueryPage.qml:42
 #, kde-format
+msgid "Configure providers"
+msgstr "Sağlayıcıları yapılandır"
+
+#: qml/QueryPage.qml:62 qml/QueryPage.qml:93
+#, kde-format
+msgctxt "departure train station"
+msgid "Select Departure Stop"
+msgstr "Kalkış Durağını Seç"
+
+#: qml/QueryPage.qml:75 qml/QueryPage.qml:108
+#, kde-format
+msgctxt "arrival train station"
+msgid "Select Arrival Stop"
+msgstr "Varış Durağını Seç"
+
+#: qml/QueryPage.qml:92
+#, kde-format
+msgctxt "departure train station"
 msgid "From:"
 msgstr "Nereden:"
 
-#: qml/QueryPage.qml:46
+#: qml/QueryPage.qml:107
 #, kde-format
-msgctxt "@action:button"
-msgid "Pick Start"
-msgstr "Başlangıç Seç"
-
-#: qml/QueryPage.qml:48
-#, kde-format
-msgctxt "@title"
-msgid "Search for Start Location"
-msgstr "Başlangıç Konumu Ara"
-
-#: qml/QueryPage.qml:54
-#, kde-format
+msgctxt "arrival train station"
 msgid "To:"
 msgstr "Nereye:"
 
-#: qml/QueryPage.qml:60
+#: qml/QueryPage.qml:129
+#, kde-format
+msgctxt "departure and arrival stops"
+msgid "Swap departure and arrival"
+msgstr "Kalkış ve varış duraklarını birbiriyle değiştir"
+
+#: qml/QueryPage.qml:144
+#, kde-format
+msgctxt "train or bus departure"
+msgid "Departure"
+msgstr "Kalkış"
+
+#: qml/QueryPage.qml:147
+#, kde-format
+msgctxt "train or bus arrival"
+msgid "Arrival"
+msgstr "Varış"
+
+#: qml/QueryPage.qml:160
+#, kde-format
+msgctxt "train or bus departure"
+msgid "Departure time"
+msgstr "Kalkış zamanı"
+
+#: qml/QueryPage.qml:160
+#, kde-format
+msgctxt "train or bus arrival"
+msgid "Arrival time"
+msgstr "Varış zamanı"
+
+#: qml/QueryPage.qml:171
 #, kde-format
 msgctxt "@action:button"
-msgid "Pick Destination"
-msgstr "Hedef Konum Seç"
+msgid "Search Departures"
+msgstr "Kalkışları Ara"
 
-#: qml/QueryPage.qml:62
+#: qml/QueryPage.qml:171
 #, kde-format
-msgctxt "@title"
-msgid "Search for Destination Location"
-msgstr "Hedef Konum Ara"
+msgctxt "@action:button"
+msgid "Search Journey"
+msgstr "Yolculuk Ara"
 
-#: qml/QueryPage.qml:68
+#: qml/QueryPage.qml:217
 #, kde-format
-msgid "Departure date:"
-msgstr "Kalkış tarihi:"
+msgid "Mode of transportation"
+msgstr "Ulaşım biçimi"
 
-#: qml/QueryPage.qml:82
+#: qml/QueryPage.qml:223
 #, kde-format
-msgid "Departure time:"
-msgstr "Kalkış zamanı:"
+msgctxt "journey query search constraint, title"
+msgid "Long distance trains"
+msgstr "Uzun yol trenleri"
+
+#: qml/QueryPage.qml:224
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "High speed or intercity trains"
+msgstr "Yüksek hızlı veya şehirler arası trenler"
+
+#: qml/QueryPage.qml:233
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Local trains"
+msgstr "Yerel trenler"
+
+#: qml/QueryPage.qml:234
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Regional or local trains"
+msgstr "Bölgesel veya yerel trenler"
+
+#: qml/QueryPage.qml:243
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Rapid transit"
+msgstr "Hızlı taşıma"
+
+#: qml/QueryPage.qml:244
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Rapid transit, metro, trams"
+msgstr "Hızlı taşıma, metro, tramvay"
+
+#: qml/QueryPage.qml:253
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Bus"
+msgstr "Otobüs"
+
+#: qml/QueryPage.qml:254
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Local or regional bus services"
+msgstr "Yerel veya bölgesel otobüs hizmetleri"
+
+#: qml/QueryPage.qml:263
+#, kde-format
+msgctxt "journey query search constraint, title"
+msgid "Ferry"
+msgstr "Feribot"
+
+#: qml/QueryPage.qml:264
+#, kde-format
+msgctxt "journey query search constraint, description"
+msgid "Boats or ferries"
+msgstr "Tekneler veya feribotlar"
+
+#~ msgctxt "a train/bus journey canceled by its operator"
+#~ msgid "Canceled"
+#~ msgstr "İptal edildi"
+
+#~ msgctxt "duration of the delay"
+#~ msgid "Delayed %1"
+#~ msgstr "%1 kadar gecikti"
+
+#~ msgctxt "@info"
+#~ msgid "On time"
+#~ msgstr "Zamanında"
+
+#~ msgid "Earlier"
+#~ msgstr "Daha önce"
+
+#~ msgid "Later"
+#~ msgstr "Sonra"
+
+#~ msgid "Select"
+#~ msgstr "Seç"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load earlier connections"
+#~ msgstr "Önceki Aktarmaları Yükle"
+
+#~ msgctxt "@action:button"
+#~ msgid "Load later connections"
+#~ msgstr "Sonraki Aktarmaları Yükle"
+
+#~ msgid "Data providers:"
+#~ msgstr "Veri sağlayıcıları:"
+
+#~ msgid "Still fetching results…"
+#~ msgstr "Hâlâ sonuçlar getiriliyor…"
+
+#~ msgid "%3 %1 (%2)"
+#~ msgstr "%3 %1 (%2)"
+
+#~ msgid "Global"
+#~ msgstr "Global"
+
+#~ msgid "🇪🇺 European Union"
+#~ msgstr "🇪🇺 Avrupa Birliği"
+
+#~ msgctxt "emoji flag, country name"
+#~ msgid "%1 %2"
+#~ msgstr "%1 %2"
+
+#~ msgid "European Union"
+#~ msgstr "Avrupa Birliği"
+
+#~ msgid "Select country"
+#~ msgstr "Ülke seç"
+
+#~ msgid "Clear History"
+#~ msgstr "Geçmişi Temizle"
+
+#~ msgid "Do you really want to remove all previously searched locations?"
+#~ msgstr ""
+#~ "Daha önceden aranmış tüm konumları kaldırmayı gerçekten istiyor musunuz?"
+
+#~ msgid "Remove"
+#~ msgstr "Kaldır"
+
+#~ msgid "Clear history"
+#~ msgstr "Geçmişi Temizle"
+
+#~ msgid "Sort by name"
+#~ msgstr "Ada Göre Sırala"
+
+#~ msgid "Most recently used"
+#~ msgstr "Son Kullanılan"
+
+#~ msgid "Most often used"
+#~ msgstr "En Sık Kullanılan"
+
+#~ msgctxt "location name, locality, region, country"
+#~ msgid "%1, %2, %3, %4"
+#~ msgstr "%1, %2, %3, %4"
+
+#~ msgctxt "location name, locality, country"
+#~ msgid "%1, %2, %3"
+#~ msgstr "%1, %2, %3"
+
+#~ msgctxt "location name, region, country"
+#~ msgid "%1, %2, %3"
+#~ msgstr "%1, %2, %3"
+
+#~ msgctxt "locality, region, country"
+#~ msgid "%1, %2, %3"
+#~ msgstr "%1, %2, %3"
+
+#~ msgctxt "locality, country"
+#~ msgid "%1, %2"
+#~ msgstr "%1, %2"
+
+#~ msgctxt "region, country"
+#~ msgid "%1, %2"
+#~ msgstr "%1, %2"
+
+#~ msgid "Remove history entry"
+#~ msgstr "Geçmiş girdisini kaldır"
+
+#~ msgctxt "@action"
+#~ msgid "Search"
+#~ msgstr "Ara"
+
+#~ msgctxt "@action:button"
+#~ msgid "Pick Start"
+#~ msgstr "Başlangıç Seç"
+
+#~ msgctxt "@title"
+#~ msgid "Search for Start Location"
+#~ msgstr "Başlangıç Konumu Ara"
+
+#~ msgctxt "@action:button"
+#~ msgid "Pick Destination"
+#~ msgstr "Hedef Konum Seç"
+
+#~ msgctxt "@title"
+#~ msgid "Search for Destination Location"
+#~ msgstr "Hedef Konum Ara"

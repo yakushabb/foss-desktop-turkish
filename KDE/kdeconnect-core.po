@@ -2,13 +2,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2017, 2021.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-05 12:32+0000\n"
-"PO-Revision-Date: 2023-07-30 21:41+0300\n"
+"POT-Creation-Date: 2025-02-24 00:41+0000\n"
+"PO-Revision-Date: 2025-02-24 09:05+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -16,59 +16,64 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 25.03.70\n"
 
-#: backends/lan/compositeuploadjob.cpp:77
+#: backends/lan/compositeuploadjob.cpp:78
 #, kde-format
 msgid "Couldn't find an available port"
 msgstr "Kullanılabilir bir kapı bulunamadı"
 
-#: backends/lan/compositeuploadjob.cpp:115
+#: backends/lan/compositeuploadjob.cpp:110
 #, kde-format
 msgid "Failed to send packet to %1"
 msgstr "Paket, %1 alıcısına gönderilemedi"
 
-#: backends/lan/compositeuploadjob.cpp:271
+#: backends/lan/compositeuploadjob.cpp:256
 #, kde-format
 msgid "Sending to %1"
 msgstr "%1 adresine gönderiliyor"
 
-#: backends/lan/compositeuploadjob.cpp:271
+#: backends/lan/compositeuploadjob.cpp:256
 #, kde-format
 msgid "File"
 msgstr "Dosya"
 
-#: backends/pairinghandler.cpp:59
+#: backends/pairinghandler.cpp:61
+#, kde-format
+msgid "Device clocks are out of sync"
+msgstr "Aygıt saatleri eşzamanlı değil"
+
+#: backends/pairinghandler.cpp:80
 #, kde-format
 msgid "Canceled by other peer"
 msgstr "Diğer eş tarafından iptal edildi"
 
-#: backends/pairinghandler.cpp:75
+#: backends/pairinghandler.cpp:96
 #, kde-format
 msgid "%1: Already paired"
 msgstr "%1: Zaten eşlenmiş"
 
-#: backends/pairinghandler.cpp:84 backends/pairinghandler.cpp:98
+#: backends/pairinghandler.cpp:105 backends/pairinghandler.cpp:124
 #, kde-format
 msgid "%1: Device not reachable"
 msgstr "%1: Aygıt erişilebilir değil"
 
-#: backends/pairinghandler.cpp:113
+#: backends/pairinghandler.cpp:139
 #, kde-format
 msgid "Device not reachable"
 msgstr "Aygıt erişilebilir değil"
 
-#: backends/pairinghandler.cpp:124
+#: backends/pairinghandler.cpp:150
 #, kde-format
 msgid "Cancelled by user"
 msgstr "Kullanıcı tarafından iptal edildi"
 
-#: backends/pairinghandler.cpp:140
+#: backends/pairinghandler.cpp:166
 #, kde-format
 msgid "Timed out"
 msgstr "Zaman aşımına uğradı"
 
-#: compositefiletransferjob.cpp:45
+#: compositefiletransferjob.cpp:47
 #, kde-format
 msgctxt "@title job"
 msgid "Receiving file"
@@ -76,67 +81,70 @@ msgid_plural "Receiving files"
 msgstr[0] "Dosya alınıyor"
 msgstr[1] "Dosyalar alınıyor"
 
-#: compositefiletransferjob.cpp:46
+#: compositefiletransferjob.cpp:48
 #, kde-format
 msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "Kaynak"
 
-#: compositefiletransferjob.cpp:47
+#: compositefiletransferjob.cpp:49
 #, kde-format
 msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "Hedef"
 
-#: device.cpp:455
+#: device.cpp:461
 #, kde-format
 msgid "SHA256 fingerprint of your device certificate is: %1\n"
 msgstr "Aygıt sertifikanızın SHA256 parmak izi: %1\n"
 
-#: device.cpp:461
+#: device.cpp:467
 #, kde-format
 msgid "SHA256 fingerprint of remote device certificate is: %1\n"
 msgstr "Uzak aygıt sertifikasının SHA256 parmak izi: %1\n"
 
-#: filetransferjob.cpp:59
+#: device.cpp:469
+#, kde-format
+msgid "Protocol version: %1\n"
+msgstr "Prokotol sürümü: %1\n"
+
+#: filetransferjob.cpp:53
 #, kde-format
 msgid "Filename already present"
 msgstr "Dosya adı halihazırda var"
 
-#: filetransferjob.cpp:105
-#, kde-format
-msgid "Received incomplete file: %1"
-msgstr "Tamamlanmamış dosya alındı: %1"
-
-#: filetransferjob.cpp:123
+#: filetransferjob.cpp:116
 #, kde-format
 msgid "Received incomplete file from: %1"
 msgstr "Eksik dosya şuradan alındı: %1"
 
-#: kdeconnectconfig.cpp:301 kdeconnectconfig.cpp:332
+#: kdeconnectconfig.cpp:348 kdeconnectconfig.cpp:382
 #, kde-format
 msgid "KDE Connect failed to start"
 msgstr "KDE Bağlan başlatılamadı"
 
-#: kdeconnectconfig.cpp:301
+#: kdeconnectconfig.cpp:348
 #, kde-format
 msgid "Could not generate the private key."
 msgstr "Özel anahtar üretilemedi."
 
-#: kdeconnectconfig.cpp:317
+#: kdeconnectconfig.cpp:367
 #, kde-format
 msgid "Could not store private key file: %1"
 msgstr "Özel anahtar dosyası depolanamadı: %1"
 
-#: kdeconnectconfig.cpp:332
+#: kdeconnectconfig.cpp:382
 #, kde-format
 msgid "Could not generate the device certificate."
 msgstr "Aygıt sertifikası üretilemedi."
 
-#: kdeconnectconfig.cpp:348
+#: kdeconnectconfig.cpp:398
 #, kde-format
 msgid "Could not store certificate file: %1"
 msgstr "Sertifika dosyası depolanamadı: %1"
+
+#~ msgid "Received incomplete file: %1"
+#~ msgstr "Tamamlanmamış dosya alındı: %1"
 
 #~ msgid ""
 #~ "Could not find support for RSA in your QCA installation. If your "

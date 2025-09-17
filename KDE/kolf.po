@@ -8,13 +8,13 @@
 # obsoleteman <tulliana@gmail.com>, 2008-2009.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2015.
 # Yıldız Kardeşler <turkishprogram@xposta.com>, 2004.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-28 01:32+0000\n"
-"PO-Revision-Date: 2023-06-25 12:25+0300\n"
+"POT-Creation-Date: 2024-11-22 00:38+0000\n"
+"PO-Revision-Date: 2025-01-11 17:22+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.07.70\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,46 +41,55 @@ msgstr "Yapılandırma seçeneği yok"
 
 #: editor.cpp:37
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Add object:"
 msgstr "Nesne ekle:"
 
 #: game.cpp:263
 #, kde-format
-msgid "Course name: "
-msgstr "Saha adı: "
+msgctxt "@label:textbox"
+msgid "Course name:"
+msgstr "Saha adı:"
 
 #: game.cpp:270
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Course author: "
-msgstr "Saha yazarı: "
+msgstr "Saha yazarı:"
 
 #: game.cpp:279
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Par:"
-msgstr "Vuruş:"
+msgstr "En az vuruş:"
 
 #: game.cpp:289
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Maximum:"
 msgstr "En çok:"
 
 #: game.cpp:293
 #, kde-format
+msgctxt "@info:whatsthis"
 msgid "Maximum number of strokes player can take on this hole."
 msgstr "Bu delik üzerinde oyuncunun yapabileceği en çok vuruş sayısı."
 
 #: game.cpp:294
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Maximum number of strokes"
 msgstr "En çok vuruş sayısı"
 
 #: game.cpp:295
 #, kde-format
+msgctxt "@item number of strokes"
 msgid "Unlimited"
 msgstr "Sınırsız"
 
 #: game.cpp:301
 #, kde-format
+msgctxt "@option:check"
 msgid "Show border walls"
 msgstr "Sınır duvarlarını göster"
 
@@ -96,11 +105,13 @@ msgstr "Saha Adı"
 
 #: game.cpp:1423
 #, kde-format
+msgctxt "@item harzard action"
 msgid "Drop Outside of Hazard"
 msgstr "Tehlikesiz Yere Düşür"
 
 #: game.cpp:1424
 #, kde-format
+msgctxt "@item harzard action"
 msgid "Rehit From Last Location"
 msgstr "Son Konumdan İtibaren Yeniden Vur"
 
@@ -111,8 +122,9 @@ msgstr "Sonraki atışınızda ne yapmak istiyorsunuz?"
 
 #: game.cpp:1426
 #, kde-format
-msgid "%1 is in a Hazard"
-msgstr "%1 tehlikeli yerde"
+msgctxt "@title:window"
+msgid "%1 in a Hazard"
+msgstr "%1 Tehlikeli Yerde"
 
 #: game.cpp:1594
 #, kde-format
@@ -121,6 +133,7 @@ msgstr "%1 başlayacak."
 
 #: game.cpp:1594
 #, kde-format
+msgctxt "@title:window"
 msgid "New Hole"
 msgstr "Yeni Delik"
 
@@ -159,15 +172,17 @@ msgstr "Geçerli delik için kaydedilmemiş değişiklikler var. Kaydedilsin mi?
 
 #: game.cpp:1990
 #, kde-format
+msgctxt "@title:window"
 msgid "Unsaved Changes"
 msgstr "Kaydedilmemiş Değişiklikler"
 
 #: game.cpp:1992
 #, kde-format
+msgctxt "@action:button"
 msgid "Save &Later"
 msgstr "Sonra &Kaydet"
 
-#: game.cpp:2165 kolf.cpp:551
+#: game.cpp:2165 kolf.cpp:552
 #, kde-format
 msgctxt "@title:window"
 msgid "Pick Kolf Course to Save To"
@@ -175,8 +190,9 @@ msgstr "Kaydedilecek Kolf Sahasını Seç"
 
 #: kcomboboxdialog.cpp:60
 #, kde-format
+msgctxt "@option:check"
 msgid "&Do not ask again"
-msgstr "&Yeniden sorma"
+msgstr "&Bir daha sorma"
 
 #: kolf.cpp:63
 #, kde-format
@@ -206,7 +222,7 @@ msgstr "Kum"
 #: kolf.cpp:68
 #, kde-format
 msgid "Windmill"
-msgstr "Değirmen"
+msgstr "Yel Değirmeni"
 
 #: kolf.cpp:69
 #, kde-format
@@ -235,160 +251,183 @@ msgstr "Tümsek"
 
 #: kolf.cpp:96
 #, kde-format
+msgctxt "@action"
 msgid "Save &Course"
 msgstr "&Sahayı Kaydet"
 
 #: kolf.cpp:98
 #, kde-format
-msgid "Save &Course As..."
-msgstr "Sahayı &Farklı Kaydet..."
+msgctxt "@action"
+msgid "Save &Course As…"
+msgstr "Sahayı &Farklı Kaydet…"
 
 #: kolf.cpp:101
 #, kde-format
+msgctxt "@action"
 msgid "&Save Game"
 msgstr "&Oyunu Kaydet"
 
 #: kolf.cpp:104
 #, kde-format
-msgid "&Save Game As..."
-msgstr "Oyunu &Farklı Kaydet..."
+msgctxt "@action"
+msgid "&Save Game As…"
+msgstr "Oyunu &Farklı Kaydet…"
 
 #: kolf.cpp:111
 #, kde-format
+msgctxt "@option:check"
 msgid "&Edit"
 msgstr "Dü&zen"
 
 #: kolf.cpp:117
 #, kde-format
+msgctxt "@action"
 msgid "&New"
 msgstr "&Yeni"
 
 #: kolf.cpp:126
 #, kde-format
+msgctxt "@action"
 msgid "&Reset"
 msgstr "&Sıfırla"
 
 #: kolf.cpp:131
 #, kde-format
+msgctxt "@action"
 msgid "&Undo Shot"
 msgstr "&Atışı Geri Al"
 
-#. i18n("&Replay Shot"), 0, this, SLOT(emptySlot()), actionCollection(), "replay");
+#. i18nc("@action", "&Replay Shot"), 0, this, SLOT(emptySlot()), actionCollection(), "replay");
 #. Go
 #: kolf.cpp:135
 #, kde-format
+msgctxt "@title:menu"
 msgid "Switch to Hole"
 msgstr "Deliğe Çevir"
 
 #: kolf.cpp:140
 #, kde-format
+msgctxt "@action"
 msgid "&Next Hole"
 msgstr "Sonraki &Delik"
 
 #: kolf.cpp:145
 #, kde-format
+msgctxt "@action"
 msgid "&Previous Hole"
 msgstr "Ön&ceki Delik"
 
 #: kolf.cpp:150
 #, kde-format
+msgctxt "@action"
 msgid "&First Hole"
 msgstr "İlk De&lik"
 
 #: kolf.cpp:154
 #, kde-format
+msgctxt "@action"
 msgid "&Last Hole"
 msgstr "So&n Delik"
 
 #: kolf.cpp:159
 #, kde-format
+msgctxt "@action"
 msgid "&Random Hole"
-msgstr "Rasg&ele Delik"
+msgstr "Rastg&ele Delik"
 
 #: kolf.cpp:163
 #, kde-format
+msgctxt "@option:check"
 msgid "Enable &Mouse for Moving Putter"
-msgstr "Sopayı Hareket Ettir&mek için Fareyi Etkinleştir"
+msgstr "Sopayı hareket ettir&mek için fareyi etkinleştir"
 
 #: kolf.cpp:170
 #, kde-format
+msgctxt "@option:check"
 msgid "Enable &Advanced Putting"
-msgstr "&Gelişmiş Vuruşu Etkinleştir"
+msgstr "&Gelişmiş vuruşu etkinleştir"
 
 #: kolf.cpp:176
 #, kde-format
+msgctxt "@option:check"
 msgid "Show &Info"
-msgstr "&Bilgi Göster"
+msgstr "&Bilgi göster"
 
 #: kolf.cpp:183
 #, kde-format
+msgctxt "@option:check"
 msgid "Show Putter &Guideline"
-msgstr "Koyucu Göstergesini &Her Zaman Göster"
+msgstr "Koyucu göstergesini &her zaman göster"
 
 #: kolf.cpp:189
 #, kde-format
+msgctxt "@option:check"
 msgid "Enable All Dialog Boxes"
-msgstr "Tüm Bilgi Pencerelerini Etkinleştir"
+msgstr "Tüm iletişim kutularını etkinleştir"
 
-#: kolf.cpp:193
+#: kolf.cpp:194
 #, kde-format
-msgid "Play &Sounds"
-msgstr "&Müzikleri Çal"
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "Sesleri çal"
 
-#: kolf.cpp:200
+#: kolf.cpp:201
 #, kde-format
-msgid "&About Course..."
-msgstr "&Saha Hakkında..."
+msgctxt "@action"
+msgid "&About Course"
+msgstr "&Saha Hakkında"
 
-#: kolf.cpp:203
+#: kolf.cpp:204
 #, kde-format
+msgctxt "@action"
 msgid "&Tutorial"
-msgstr "Öğ&retmen"
+msgstr "Öğ&retici"
 
-#: kolf.cpp:453 kolf.cpp:497 kolf.cpp:524 newgame.cpp:250 scoreboard.cpp:27
+#: kolf.cpp:454 kolf.cpp:498 kolf.cpp:525 newgame.cpp:250
 #, kde-format
 msgid "Par"
-msgstr "Gerekli vuruş sayısı"
+msgstr "En Az Vuruş"
 
-#: kolf.cpp:484
+#: kolf.cpp:485
 #, kde-format
+msgctxt "@item:intext winners"
 msgid " and "
 msgstr " ve "
 
-#: kolf.cpp:485
+#: kolf.cpp:486
 #, kde-format
 msgid "%1 tied"
 msgstr "%1 berabere kaldı"
 
-#: kolf.cpp:488
+#: kolf.cpp:489
 #, kde-format
 msgid "%1 won!"
 msgstr "%1 kazandı!"
 
-#: kolf.cpp:502 kolf.cpp:514 kolf.cpp:529 kolf.cpp:530 newgame.cpp:251
+#: kolf.cpp:503 kolf.cpp:515 kolf.cpp:530 kolf.cpp:531 newgame.cpp:251
 #: newgame.cpp:252
 #, kde-format
 msgid "High Scores for %1"
 msgstr "%1 Yüksek Puanları"
 
-#: kolf.cpp:569
+#: kolf.cpp:570
 #, kde-format
 msgctxt "@title:window"
 msgid "Pick Saved Game to Save To"
 msgstr "İçine Kaydedilecek Kaydedilmiş Oyunu Seçin"
 
-#: kolf.cpp:607
+#: kolf.cpp:608
 #, kde-format
 msgctxt "@title:window"
 msgid "Pick Kolf Saved Game"
 msgstr "Kaydedilmiş Kolf Oyununu Seç"
 
-#: kolf.cpp:655
+#: kolf.cpp:656
 #, kde-format
 msgid "%1's turn"
 msgstr "%1 sırası"
 
-#: kolf.cpp:727
+#: kolf.cpp:728
 #, kde-format
 msgid "%1's score has reached the maximum for this hole."
 msgstr "%1 bu delik için en çok vuruş sayısına ulaştı."
@@ -407,16 +446,19 @@ msgstr "G&it"
 
 #: landscape.cpp:146
 #, kde-format
+msgctxt "@option:check"
 msgid "Enable show/hide"
-msgstr "Etkinleştir göster/gizle"
+msgstr "Göstermeyi/gizlemeyi etkinleştir"
 
-#: landscape.cpp:151 obstacles.cpp:446 obstacles.cpp:464
+#: landscape.cpp:151 obstacles.cpp:450 obstacles.cpp:468
 #, kde-format
+msgctxt "@item:inrange"
 msgid "Slow"
 msgstr "Yavaş"
 
-#: landscape.cpp:155 obstacles.cpp:450 obstacles.cpp:468
+#: landscape.cpp:155 obstacles.cpp:454 obstacles.cpp:472
 #, kde-format
+msgctxt "@item:inrange"
 msgid "Fast"
 msgstr "Hızlı"
 
@@ -447,167 +489,171 @@ msgstr "Eliptik"
 
 #: landscape.cpp:571
 #, kde-format
+msgctxt "@option:check"
 msgid "Reverse direction"
 msgstr "Ters yön"
 
 #: landscape.cpp:576
 #, kde-format
+msgctxt "@option:check"
 msgid "Unmovable"
 msgstr "Hareket edemez"
 
 #: landscape.cpp:578
 #, kde-format
+msgctxt "@info:whatsthis"
 msgid "Whether or not this slope can be moved by other objects, like floaters."
 msgstr ""
-"Diğer nesnelerin yerlerinin değiştirilmesi ile çıkan artış gibi mesela "
+"Diğer nesnelerin yerlerinin değiştirilmesi ile çıkan artış; örneğin, "
 "kaydırıcı gibi."
 
 #: landscape.cpp:582
 #, kde-format
+msgctxt "@lable:spinbox"
 msgid "Grade:"
 msgstr "Puan:"
 
-#: main.cpp:45
+#: main.cpp:62
 #, kde-format
 msgid "Kolf"
 msgstr "Kolf"
 
-#: main.cpp:47
+#: main.cpp:64
 #, kde-format
 msgid "KDE Minigolf Game"
 msgstr "KDE Minigolf Oyunu"
 
-#: main.cpp:49
+#: main.cpp:66
 #, kde-format
 msgid "(c) 2002-2010, Kolf developers"
-msgstr "(c) 2002-2010, Kolf geliştiricileri"
+msgstr "© 2002–2010, Kolf geliştiricileri"
 
-#: main.cpp:53
+#: main.cpp:70
 #, kde-format
 msgid "Stefan Majewsky"
 msgstr "Stefan Majewsky"
 
-#: main.cpp:53
+#: main.cpp:70
 #, kde-format
 msgid "Current maintainer"
 msgstr "Şu anki bakımcı"
 
-#: main.cpp:54
+#: main.cpp:71
 #, kde-format
 msgid "Jason Katz-Brown"
-msgstr "Jason Katz-Brown"
+msgstr "Jason Katz–Brown"
 
-#: main.cpp:54
+#: main.cpp:71
 #, kde-format
 msgid "Former main author"
 msgstr "Eski ana yazar"
 
-#: main.cpp:55
+#: main.cpp:72
 #, kde-format
 msgid "Niklas Knutsson"
 msgstr "Niklas Knutsson"
 
-#: main.cpp:55
+#: main.cpp:72
 #, kde-format
 msgid "Advanced putting mode"
 msgstr "Gelişmiş koyma kipi"
 
-#: main.cpp:56
+#: main.cpp:73
 #, kde-format
 msgid "Rik Hemsley"
 msgstr "Rik Hemsley"
 
-#: main.cpp:56
+#: main.cpp:73
 #, kde-format
 msgid "Border around course"
 msgstr "Saha etrafında çizgi"
 
-#: main.cpp:57
+#: main.cpp:74
 #, kde-format
 msgid "Timo A. Hummel"
 msgstr "Timo A. Hummel"
 
-#: main.cpp:57
+#: main.cpp:74
 #, kde-format
 msgid "Some good sound effects"
 msgstr "Bazı güzel ses efektleri"
 
-#: main.cpp:59
+#: main.cpp:76
 #, kde-format
 msgid "Rob Renaud"
 msgstr "Rob Renaud"
 
-#: main.cpp:59
+#: main.cpp:76
 #, kde-format
 msgid "Wall-bouncing help"
 msgstr "Duvar zıplama yardımı"
 
-#: main.cpp:60
+#: main.cpp:77
 #, kde-format
 msgid "Aaron Seigo"
 msgstr "Aaron Seigo"
 
-#: main.cpp:60
+#: main.cpp:77
 #, kde-format
 msgid "Suggestions, bug reports"
 msgstr "Öneriler, hata raporları"
 
-#: main.cpp:61
+#: main.cpp:78
 #, kde-format
 msgid "Erin Catto"
 msgstr "Erin Catto"
 
-#: main.cpp:61
+#: main.cpp:78
 #, kde-format
 msgid "Developer of Box2D physics engine"
 msgstr "Box2D fizik motorunun geliştiricisi"
 
-#: main.cpp:62
+#: main.cpp:79
 #, kde-format
 msgid "Ryan Cumming"
 msgstr "Ryan Cumming"
 
-#: main.cpp:62
+#: main.cpp:79
 #, kde-format
 msgid "Vector class (Kolf 1)"
 msgstr "Vector sınıfı (Kolf 1)"
 
-#: main.cpp:63
+#: main.cpp:80
 #, kde-format
 msgid "Daniel Matza-Brown"
-msgstr "Daniel Matza-Brown"
+msgstr "Daniel Matza–Brown"
 
-#: main.cpp:63
+#: main.cpp:80
 #, kde-format
 msgid "Working wall-bouncing algorithm (Kolf 1)"
-msgstr "duvar-sallanma algoritması çalışması (Kolf 1)"
+msgstr "Duvardan zıplatma algoritması çalışması (Kolf 1)"
 
-#: main.cpp:71
+#: main.cpp:88
 #, kde-format
 msgid "File"
 msgstr "Dosya"
 
-#: main.cpp:72
+#: main.cpp:89
 #, kde-format
 msgid "Print course information and exit"
 msgstr "Saha bilgilerini yaz ve çık"
 
-#: main.cpp:90 newgame.cpp:242
+#: main.cpp:107
 #, kde-format
 msgid "By %1"
 msgstr "%1 tarafından"
 
-#: main.cpp:91
+#: main.cpp:108
 #, kde-format
 msgid "%1 holes"
 msgstr "%1 delik"
 
-#: main.cpp:92
+#: main.cpp:109
 #, kde-format
 msgid "par %1"
-msgstr "Gerekli vuruş sayısı %1"
+msgstr "En az vuruş %1"
 
-#: main.cpp:99
+#: main.cpp:116
 #, kde-format
 msgid "Course %1 does not exist."
 msgstr "Saha %1 yok."
@@ -620,28 +666,33 @@ msgstr "Yeni Oyun"
 
 #: newgame.cpp:56
 #, kde-format
+msgctxt "@title:tab"
 msgid "Players"
 msgstr "Oyuncular"
 
 #: newgame.cpp:60
 #, kde-format
+msgctxt "@action:button"
 msgid "&New Player"
 msgstr "&Yeni Oyuncu"
 
 #: newgame.cpp:95
 #, kde-format
+msgctxt "@title:tab"
 msgid "Course"
 msgstr "Saha"
 
 #: newgame.cpp:96
 #, kde-format
+msgctxt "@title"
 msgid "Choose Course to Play"
-msgstr "Oynamak için saha seçin"
+msgstr "Saha Seç"
 
 #: newgame.cpp:135
 #, kde-format
-msgid "Create New"
-msgstr "Yeni Oluştur"
+msgctxt "@item"
+msgid "<Create New>"
+msgstr "<Yeni Oluştur>"
 
 #: newgame.cpp:136
 #, kde-format
@@ -650,33 +701,39 @@ msgstr "Sen"
 
 #: newgame.cpp:162
 #, kde-format
+msgctxt "@action:button"
 msgid "Highscores"
-msgstr "Yüksek puanlar"
+msgstr "Yüksek Puanlar"
 
 #: newgame.cpp:172
 #, kde-format
-msgid "Add..."
-msgstr "Ekle..."
+msgctxt "@action:button"
+msgid "Add…"
+msgstr "Ekle…"
 
 #: newgame.cpp:176 newgame.cpp:365
 #, kde-format
+msgctxt "@action:button"
 msgid "Remove"
 msgstr "Kaldır"
 
 #: newgame.cpp:186
 #, kde-format
+msgctxt "@title:tab"
 msgid "Options"
 msgstr "Seçenekler"
 
 #: newgame.cpp:187
 #, kde-format
+msgctxt "@title"
 msgid "Game Options"
 msgstr "Oyun Seçenekleri"
 
 #: newgame.cpp:192
 #, kde-format
+msgctxt "@option:check"
 msgid "&Strict mode"
-msgstr "Sert &Biçim"
+msgstr "Katı &kip"
 
 #: newgame.cpp:196
 #, kde-format
@@ -687,15 +744,25 @@ msgstr ""
 "Deliklerin düzenlenmesi veya değiştirilmesine izin verilmez. Bu durum "
 "genellikle yarışmalar içindir."
 
+#: newgame.cpp:242
+#, kde-format
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr "%1 tarafından"
+
 #: newgame.cpp:243
 #, kde-format
+msgctxt "@info"
 msgid "Par %1"
-msgstr "Gerekli vuruş sayısı %1"
+msgstr "En az vuruş %1"
 
 #: newgame.cpp:244
 #, kde-format
-msgid "%1 Holes"
-msgstr "%1 Delik"
+msgctxt "@info"
+msgid "1 Hole"
+msgid_plural "%1 Holes"
+msgstr[0] "1 Delik"
+msgstr[1] "%1 Delik"
 
 #: newgame.cpp:282
 #, kde-format
@@ -715,6 +782,7 @@ msgstr "Oyuncu %1"
 
 #: objects.cpp:244
 #, kde-format
+msgctxt "@item:valuesuffix"
 msgid " degree"
 msgid_plural " degrees"
 msgstr[0] " derece"
@@ -722,61 +790,82 @@ msgstr[1] " derece"
 
 #: objects.cpp:247
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Exiting ball angle:"
 msgstr "Top açısından çıkılıyor:"
 
 #: objects.cpp:267
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Minimum exit speed:"
 msgstr "En düşük çıkış hızı:"
 
 #: objects.cpp:288
 #, kde-format
+msgctxt "@label:spinbox"
 msgid "Maximum exit speed:"
 msgstr "En yüksek çıkış hızı:"
 
 #: obstacles.cpp:412
+msgctxt "@option:check wall on"
 msgid "&Top"
 msgstr "&Üst"
 
-#: obstacles.cpp:412
+#: obstacles.cpp:413
+msgctxt "@option:check wall on"
 msgid "&Left"
 msgstr "&Sol"
 
-#: obstacles.cpp:412
+#: obstacles.cpp:414
+msgctxt "@option:check wall on"
 msgid "&Right"
 msgstr "S&ağ"
 
-#: obstacles.cpp:412
+#: obstacles.cpp:415
+msgctxt "@option:check wall on"
 msgid "&Bottom"
 msgstr "&Alt"
 
-#: obstacles.cpp:421
+#: obstacles.cpp:425
 #, kde-format
+msgctxt "@label:chooser"
 msgid "Walls on:"
 msgstr "Duvarlar açık:"
 
-#: obstacles.cpp:431
+#: obstacles.cpp:435
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Sign HTML:"
 msgstr "HTML imzala:"
 
-#: obstacles.cpp:440
+#: obstacles.cpp:444
 #, kde-format
+msgctxt "@option:check"
 msgid "Windmill on top"
-msgstr "Rüzgar mili en üstte"
+msgstr "Yel değirmeni en üstte"
 
-#: obstacles.cpp:461
+#: obstacles.cpp:465
 #, kde-format
+msgctxt "@label:slider"
 msgid "Moving speed"
 msgstr "Hareket hızı"
 
-#: obstacles.cpp:681
+#: obstacles.cpp:685
 #, kde-format
 msgid "New Text"
 msgstr "Yeni Metin"
 
+#: scoreboard.cpp:27
+#, kde-format
+msgctxt "@title:row"
+msgid "Par"
+msgstr "En Az Vuruş"
+
 #: scoreboard.cpp:28
 #, kde-format
+msgctxt "@title:column"
 msgid "Total"
 msgstr "Toplam"
+
+#~ msgid "Add..."
+#~ msgstr "Ekle..."

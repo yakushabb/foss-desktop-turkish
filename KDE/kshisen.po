@@ -12,13 +12,13 @@
 # Volkan Gezer <volkangezer@gmail.com>, 2013.
 # Yıldız Kardeşler <turkishprogram@xposta.com>, 2004.
 # Y. Kürşat Tuncel <kursat@linux.org.tr>, 1999.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-09-25 01:40+0000\n"
-"PO-Revision-Date: 2023-11-26 00:58+0300\n"
+"POT-Creation-Date: 2024-11-22 00:38+0000\n"
+"PO-Revision-Date: 2025-03-13 15:54+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -40,7 +40,7 @@ msgstr ""
 "tulliana@gmail.com, omer_fad@hotmail.com, serdar@pardus.org.tr, "
 "emir_sari@icloud.com"
 
-#: src/app.cpp:81 src/app.cpp:317
+#: src/app.cpp:81 src/app.cpp:318
 #, kde-format
 msgid "Select a tile"
 msgstr "Bir karo seçin"
@@ -60,34 +60,35 @@ msgstr "Kaldırılan: 0/0"
 msgid "Cheat mode"
 msgstr "Hile kipi"
 
-#: src/app.cpp:109
+#: src/app.cpp:110
 #, kde-format
+msgctxt "@option:check"
 msgid "Play Sounds"
-msgstr "Sesleri Çal"
+msgstr "Sesleri çal"
 
-#: src/app.cpp:239
+#: src/app.cpp:240
 #, kde-format
 msgctxt "time string: hh:mm:ss"
 msgid "%1:%2:%3"
 msgstr "%1:%2:%3"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_Gravity)
-#: src/app.cpp:248 src/app.cpp:349 src/settings.ui:26
+#: src/app.cpp:249 src/app.cpp:350 src/settings.ui:26
 #, kde-format
 msgid "Gravity"
 msgstr "Yerçekimi"
 
-#: src/app.cpp:251
+#: src/app.cpp:252
 #, kde-format
 msgid "Yes"
 msgstr "Evet"
 
-#: src/app.cpp:253
+#: src/app.cpp:254
 #, kde-format
 msgid "No"
 msgstr "Hayır"
 
-#: src/app.cpp:259
+#: src/app.cpp:260
 #, kde-format
 msgid ""
 "\n"
@@ -100,12 +101,13 @@ msgstr ""
 "Puan tablosunda yer alabilirdiniz.\n"
 "Bir sonraki oyunda bunları kullanmadan deneyin."
 
-#: src/app.cpp:260 src/app.cpp:268
+#: src/app.cpp:261 src/app.cpp:269
 #, kde-format
+msgctxt "@title:window"
 msgid "End of Game"
 msgstr "Oyunun Sonu"
 
-#: src/app.cpp:263
+#: src/app.cpp:264
 #, kde-format
 msgid ""
 "Congratulations!\n"
@@ -114,49 +116,50 @@ msgstr ""
 "Tebrikler!\n"
 "Oyunu bitirip puan tablosunda yerinizi aldınız."
 
-#: src/app.cpp:267
+#: src/app.cpp:268
 #, kde-format
 msgctxt "%1 - time string like hh:mm:ss"
 msgid "You made it in %1"
 msgstr "%1. sırada tamamladınız"
 
-#: src/app.cpp:283
+#: src/app.cpp:284
 #, kde-format
 msgid "Your time: %1:%2:%3 %4"
 msgstr "Süreniz: %1:%2:%3 %4"
 
-#: src/app.cpp:287
+#: src/app.cpp:288
 #, kde-format
 msgid "(Paused) "
 msgstr "(Duraklatıldı) "
 
-#: src/app.cpp:295
+#: src/app.cpp:296
 #, kde-format
 msgid "Removed: %1/%2 "
 msgstr "Kaldırılan: %1/%2 "
 
-#: src/app.cpp:322
+#: src/app.cpp:323
 #, kde-format
 msgid "Select a matching tile"
 msgstr "Eşleşen bir karo seçin"
 
-#: src/app.cpp:327
+#: src/app.cpp:328
 #, kde-format
 msgid "Select the move you want by clicking on the blue line"
 msgstr "Mavi satıra tıklayarak istediğiniz hareketi seçin"
 
-#: src/app.cpp:332
+#: src/app.cpp:333
 #, kde-format
 msgid "This tile did not match the one you selected"
 msgstr "Bu karo, sizin seçtiğinizle aynı değil"
 
-#: src/app.cpp:337
+#: src/app.cpp:338
 #, kde-format
 msgid "You cannot make this move"
 msgstr "Bu hareketi yapamazsınız"
 
-#: src/app.cpp:368
+#: src/app.cpp:369
 #, kde-format
+msgctxt "@title:tab"
 msgid "General"
 msgstr "Genel"
 
@@ -173,6 +176,7 @@ msgstr ""
 #: src/board.cpp:70 src/board.cpp:79 src/board.cpp:85 src/board.cpp:102
 #: src/board.cpp:111 src/board.cpp:117
 #, kde-format
+msgctxt "@title:window"
 msgid "Error Loading Tiles"
 msgstr "Karolar Yüklenirken Hata"
 
@@ -273,75 +277,75 @@ msgstr "Kullanılacak arka plan."
 msgid "Main Toolbar"
 msgstr "Ana Araç Çubuğu"
 
-#: src/main.cpp:34
+#: src/main.cpp:52
 #, kde-format
 msgid "Shisen-Sho"
-msgstr "Shisen-Sho"
+msgstr "Shisen–Sho"
 
-#: src/main.cpp:36
+#: src/main.cpp:54
 #, kde-format
 msgid "A game similar to Mahjongg"
 msgstr "Mahjongg benzeri bir oyun"
 
-#: src/main.cpp:38
+#: src/main.cpp:56
 #, kde-format
 msgid "Copyright 1997 Mario Weilguni"
 msgstr "Telif hakkı 1997, Mario Weilguni"
 
-#: src/main.cpp:41
+#: src/main.cpp:59
 #, kde-format
 msgid "Frederik Schwarzer"
 msgstr "Frederik Schwarzer"
 
-#: src/main.cpp:41
+#: src/main.cpp:59
 #, kde-format
 msgid "Current Maintainer"
-msgstr "Şu Anki Projeyi Sürdüren"
+msgstr "Şu anki bakımcı"
 
-#: src/main.cpp:42
+#: src/main.cpp:60
 #, kde-format
 msgid "Dave Corrie"
 msgstr "Dave Corrie"
 
-#: src/main.cpp:42
+#: src/main.cpp:60
 #, kde-format
 msgid "Former Maintainer"
-msgstr "Asıl Geliştirici"
+msgstr "Önceki bakımcı"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgid "Mario Weilguni"
 msgstr "Mario Weilguni"
 
-#: src/main.cpp:43
+#: src/main.cpp:61
 #, kde-format
 msgid "Original Author"
 msgstr "Özgün Yazar"
 
-#: src/main.cpp:44
+#: src/main.cpp:62
 #, kde-format
 msgid "Mauricio Piacentini"
 msgstr "Mauricio Piacentini"
 
-#: src/main.cpp:44
+#: src/main.cpp:62
 #, kde-format
 msgid "KMahjonggLib integration for KDE4"
 msgstr "K MahjonggLib KDE4 tümleştirmesi"
 
-#: src/main.cpp:45
+#: src/main.cpp:63
 #, kde-format
 msgid "Jason Lane"
 msgstr "Jason Lane"
 
-#: src/main.cpp:45
+#: src/main.cpp:63
 #, kde-format
 msgid ""
 "Added 'tiles removed' counter<br/>Tile smooth-scaling and window resizing"
 msgstr ""
-"'Çıkarılan karolar' sayacı eklendi<br/>Karo düz-ölçeklemesi ve pencere "
+"“Çıkarılan karolar” sayacı eklendi<br/>Karo pürüzsüz ölçeklemesi ve pencere "
 "boyutlandırması"
 
-#: src/main.cpp:46
+#: src/main.cpp:64
 #, kde-format
 msgid "Thanks also to everyone who should be listed here but is not!"
 msgstr "Bu listede olması gereken; ancak olmayan herkese teşekkürler!"
@@ -353,7 +357,7 @@ msgid ""
 "<b>Gravity</b><p>Checking this makes the game even harder: If a tile is "
 "removed, all tiles lying above it will fall down one step.</p>"
 msgstr ""
-"<b>Yer çekimi</b><p>Bunu seçmek oyunu daha da zorlaştırır: Bir karo "
+"<b>Yerçekimi</b><p>Bunu seçmek oyunu daha da zorlaştırır: Bir karo "
 "kaybolduğunda, onun altında yer alan bütün karolar bir adım aşağı düşecektir."
 "</p>"
 
@@ -407,7 +411,7 @@ msgstr ""
 "<b>Çin Biçemi Kullan: herhangi bir çiçek herhangi bir çiçeğe, herhangi bir "
 "sezon herhangi bir sezona</b><p> Karoları eşleştirmek için geleneksel "
 "kuralları kullan. Oyunun önceki sürümü, yalnızca tam eşleşen karolara izin "
-"veriyordu, bu da Mah-jongg kurallarına aykırıydı. Bu seçeneğin seçili "
+"veriyordu, bu da Mah–jongg kurallarına aykırıydı. Bu seçeneğin seçili "
 "tutulması önerilir.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ChineseStyle)
@@ -416,7 +420,7 @@ msgstr ""
 msgid ""
 "Use Chinese style: any flower match any flower, any season match any season"
 msgstr ""
-"Çin Biçemi kullan: Herhangi bir çiçek herhangi bir çiçeğe, herhangi bir "
+"Çin stilini kullan: Herhangi bir çiçek herhangi bir çiçeğe, herhangi bir "
 "sezon herhangi bir sezona"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_TilesCanSlide)
@@ -439,7 +443,7 @@ msgstr ""
 "olduğunda, karoları, geleneksel üçlü yerine yalnızca iki parçadan oluşan bir "
 "satırla birleştiklerinde kaldırabilirsiniz. Yine de, eğer bulundukları satır "
 "ya da sütunun boşlukları varsa karoları bu boşluklara kaydırabilirsiniz. "
-"Kayma hareketi yapmak için, önce kayabilecek satır veya sütunun bulunduğu "
+"Kayma hareketi yapmak için önce kayabilecek satır veya sütunun bulunduğu "
 "karoya, sonra da eşleşen karoya tıklamalısınız. Eğer iki adet kayma hareketi "
 "olanaklıysa tercih ettiğiniz hareketi seçmek için bitişik iki satırdan "
 "birine tıklamalısınız.</p>"
@@ -456,8 +460,7 @@ msgstr "Karolar kayabilir; ancak 3 yerine 2 satırla bitişik olmalısınız"
 msgid ""
 "<b>Board Difficulty</b><p>The slider controls the difficulty of the board "
 "from Easy to Hard.</p>"
-msgstr ""
-"<b>Oyun Zorluğu</b><p>Kaydırıcı, oyunun zorluk derecesini denetler.</p>"
+msgstr "<b>Oyun Zorluğu</b><p>Sürgü, oyunun zorluk derecesini denetler.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, difficulty_groupBox)
 #: src/settings.ui:76
@@ -484,7 +487,7 @@ msgid ""
 "<b>Piece Removal Speed</b><p>Adjusting this slider alters the speed at which "
 "the pieces are removed from the screen after a match has been made.</p>"
 msgstr ""
-"<b>Parça Kaybolma Hızı</b><p>Kaydırıcıyı sürmek, eşleşen parçaların ekrandan "
+"<b>Parça Kaybolma Hızı</b><p>Sürgüyü sürmek, eşleşen parçaların ekrandan "
 "kaybolma hızını değiştirir.</p>"
 
 #. i18n: ectx: property (title), widget (QGroupBox, speed_groupBox)
@@ -513,7 +516,7 @@ msgid ""
 "the board. The more tiles you have, the harder (and longer) the game will be."
 "</p>"
 msgstr ""
-"<b>Tahta Boyutu</b><p>Bu kaydırıcı, tahta üzerindeki karo sayısını "
+"<b>Tahta Boyutu</b><p>Bu sürgü, tahta üzerindeki karo sayısını "
 "değiştirmenize izin verir. Ne kadar çok karo varsa oyun o kadar zor (ve "
 "uzun) olacaktır.</p>"
 

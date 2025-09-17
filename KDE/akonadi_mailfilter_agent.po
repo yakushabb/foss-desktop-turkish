@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: akonadi_mailfilter_agent\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-08 01:35+0000\n"
-"PO-Revision-Date: 2024-03-01 16:02+0300\n"
+"POT-Creation-Date: 2025-08-30 00:43+0000\n"
+"PO-Revision-Date: 2024-07-30 18:46+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,47 +15,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 24.07.70\n"
 
-#: filterlogdialog.cpp:45
+#: filterlogdialog.cpp:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Share…"
+msgstr "Paylaş…"
+
+#: filterlogdialog.cpp:46
 #, kde-format
 msgctxt "@title:window"
 msgid "Filter Log Viewer"
-msgstr "Süzgeç Günlüğü Görüntüleyicisi"
+msgstr "Günlük Görüntüleyicisini Süz"
 
-#: filterlogdialog.cpp:79
+#: filterlogdialog.cpp:68
 #, kde-format
-msgid "Share..."
-msgstr "Paylaş..."
-
-#: filterlogdialog.cpp:85
-#, kde-format
+msgctxt "@option:check"
 msgid "&Log filter activities"
-msgstr "Süzgeç eylemlerinin gün&lükle"
+msgstr "Süzme eylemlerini gün&lükle"
 
-#: filterlogdialog.cpp:90
+#: filterlogdialog.cpp:73
 #, kde-format
 msgid ""
 "You can turn logging of filter activities on and off here. Of course, log "
 "data is collected and shown only when logging is turned on. "
 msgstr ""
-"Süzgeç eylemlerinin günlüklenmesi seçeneğini buradan düzenleyebilirsiniz. "
+"Süzme eylemlerinin günlüklenmesi seçeneğini buradan düzenleyebilirsiniz. "
 "Günlük verisi yalnızca günlük tutma seçeneği etkinse toplanacaktır. "
 
 #: filterlogdialog.cpp:94
 #, kde-format
 msgid "Logging Details"
-msgstr "Günlük Ayrıntıları"
+msgstr "Günlükleme Ayrıntıları"
 
 #: filterlogdialog.cpp:101
 #, kde-format
+msgctxt "@option:check"
 msgid "Log pattern description"
 msgstr "Günlük dizgisi açıklaması"
 
 #: filterlogdialog.cpp:106
 #, kde-format
+msgctxt "@option:check"
 msgid "Log filter &rule evaluation"
-msgstr "Günlük süzgeci kural değerlendirmesi"
+msgstr "Günlük süzgeci kuralı değerlendirmesi"
 
 #: filterlogdialog.cpp:111
 #, kde-format
@@ -74,16 +78,19 @@ msgstr ""
 
 #: filterlogdialog.cpp:118
 #, kde-format
+msgctxt "@option:check"
 msgid "Log filter pattern evaluation"
 msgstr "Günlük süzgeci dizgisi değerlendirmesi"
 
 #: filterlogdialog.cpp:123
 #, kde-format
+msgctxt "@option:check"
 msgid "Log filter actions"
-msgstr "Günlük süzgeç eylemleri"
+msgstr "Günlük süzgeci eylemleri"
 
 #: filterlogdialog.cpp:133
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Log size limit:"
 msgstr "Günlük boyutu sınırı:"
 
@@ -107,78 +114,78 @@ msgid ""
 "until the limit is no longer exceeded. "
 msgstr ""
 "Günlük verisi toplamak, veriyi geçici olarak bellekte tutmayı gerektirir; "
-"buradan kullanılacak en fazla bellek boyutunu seçebilirsiniz: eğer toplanan "
-"günlük verisi miktarı seçtiğiniz değerden daha büyük olursa, en eski veriler "
-"sınır aşımı nedeni ile silinecektir. "
+"buradan kullanılacak en fazla bellek boyutunu seçebilirsiniz; eğer toplanan "
+"günlük verisi miktarı seçtiğiniz değerden daha büyük olursa en eski veriler "
+"sınır aşımı nedeniyle silinecektir. "
 
-#: filterlogdialog.cpp:326
+#: filterlogdialog.cpp:327
 #, kde-format
 msgid ""
 "Could not write the file %1:\n"
 "\"%2\" is the detailed error description."
 msgstr ""
-"%1 dosyasına yazılamıyor:\n"
-"detaylı hata tanımı şöyle \"%2\"."
+"%1 dosyası yazılamadı:\n"
+"Ayrıntılı hata tanımı: “%2”."
 
-#: filterlogdialog.cpp:330
+#: filterlogdialog.cpp:331
 #, kde-format
 msgctxt "@title:window"
 msgid "KMail Error"
 msgstr "K Posta Hatası"
 
-#: filtermanager.cpp:100
+#: filtermanager.cpp:102
 #, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "%1/%2 ileti süzülüyor"
 
-#: filtermanager.cpp:187
+#: filtermanager.cpp:189
 #, kde-format
 msgid "Error applying mail filter move"
-msgstr "Posta süzgeç hareketi ekleme hatası"
+msgstr "Posta süzgeci taşıma hatası"
 
-#: filtermanager.cpp:195
+#: filtermanager.cpp:197
 #, kde-format
 msgid "Error applying mail filter delete"
-msgstr "Posta süzgeç silme hatası"
+msgstr "Posta süzgeci silme hatası"
 
-#: filtermanager.cpp:203
+#: filtermanager.cpp:205
 #, kde-format
 msgid "Error applying mail filter modifications"
-msgstr "Posta süzgeç değiştirme hatası"
+msgstr "Posta süzgeci değiştirme hatası"
 
-#: filtermanager.cpp:220
+#: filtermanager.cpp:222
 #, kde-format
 msgid "<b>Evaluating filter rules:</b> "
 msgstr "<b>Süzgeç kuralları değerlendiriliyor:</b> "
 
-#: filtermanager.cpp:227
+#: filtermanager.cpp:229
 #, kde-format
 msgid "<b>Filter rules have matched.</b>"
 msgstr "<b>Süzgeç kuralları eşleşti.</b>"
 
-#: filtermanager.cpp:255
+#: filtermanager.cpp:257
 #, kde-format
 msgid "<b>Begin filtering on message \"%1\" from \"%2\" at \"%3\" :</b>"
 msgstr ""
-"<b>\"%3\" konumundaki, \"%1\" iletisine, \"%2\" üzerinden süzmeye başla :</b>"
+"<b>“%3” tarihinde “%2” kişisinden gelen “%1” iletisinde süzmeye başla:</b>"
 
-#: filtermanager.cpp:589 filtermanager.cpp:617
+#: filtermanager.cpp:592
 #, kde-format
 msgid "Filtering messages"
 msgstr "İletiler süzülüyor"
 
-#: mailfilteragent.cpp:101
+#: mailfilteragent.cpp:114
 #, kde-format
 msgctxt "Notification when the filter log was enabled"
 msgid "Mail Filter Log Enabled"
 msgstr "Posta Süzgeç Günlüğü Etkin"
 
-#: mailfilteragent.cpp:165
+#: mailfilteragent.cpp:178
 #, kde-format
 msgid "Ready"
 msgstr "Hazır"
 
-#: mailfilteragent.cpp:251
+#: mailfilteragent.cpp:264
 #, kde-format
 msgid "Filtering in %1"
 msgstr "%1 içinde süzülüyor"

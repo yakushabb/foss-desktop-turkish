@@ -1,187 +1,901 @@
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the marknote package.
 #
-# Emir SARI <emir_sari@icloud.com>, 2023.
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: marknote\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-07 00:37+0000\n"
-"PO-Revision-Date: 2023-11-18 14:03+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-05-25 00:43+0000\n"
+"PO-Revision-Date: 2025-09-04 14:59+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 25.08.0\n"
 
-#: contents/ui/AddNotebookDialog.qml:15 contents/ui/main.qml:79
+#: application.cpp:34
 #, kde-format
+msgctxt "@action:inmenu"
 msgid "New Notebook"
 msgstr "Yeni Defter"
 
-#: contents/ui/AddNotebookDialog.qml:53
+#: application.cpp:43
 #, kde-format
-msgid "Notebook name"
-msgstr "Defter adı"
-
-#: contents/ui/AddNotebookDialog.qml:72 contents/ui/NotesPage.qml:167
-#: contents/ui/NotesPage.qml:353
-#, kde-format
-msgid "Add"
-msgstr "Ekle"
-
-#: contents/ui/EditPage.qml:86
-#, kde-format
-msgctxt "@action:button"
-msgid "Bold"
-msgstr "Kalın"
-
-#: contents/ui/EditPage.qml:101
-#, kde-format
-msgctxt "@action:button"
-msgid "Italic"
-msgstr "Yatık"
-
-#: contents/ui/EditPage.qml:116
-#, kde-format
-msgctxt "@action:button"
-msgid "Underline"
-msgstr "Altı Çizili"
-
-#: contents/ui/EditPage.qml:127
-#, kde-format
-msgctxt "@action:button"
-msgid "Strikethrough"
-msgstr "Üzeri Çizili"
-
-#: contents/ui/EditPage.qml:134
-#, kde-format
-msgctxt "@action:button"
-msgid "highlight"
-msgstr "Vurgulu"
-
-#: contents/ui/EditPage.qml:145
-#, kde-format
-msgid "Add list"
-msgstr "Liste ekle"
-
-#: contents/ui/EditPage.qml:152
-#, kde-format
-msgid "Add numbered list"
-msgstr "Numaralandırılmış liste ekle"
-
-#: contents/ui/EditPage.qml:162
-#, kde-format
-msgid "Heading %1"
-msgstr "Başlık %1"
-
-#: contents/ui/main.qml:90 contents/ui/main.qml:192
-#, kde-format
-msgid "Delete Notebook"
-msgstr "Defteri Sil"
-
-#: contents/ui/main.qml:156
-#, kde-format
-msgid "Your Notebooks"
-msgstr "Defterleriniz"
-
-#: contents/ui/NotesPage.qml:42
-#, kde-format
-msgid "Add note"
-msgstr "Not ekle"
-
-#: contents/ui/NotesPage.qml:53
-#, kde-format
-msgid "New Note (%1)"
-msgstr "Yeni Not (%1)"
-
-#: contents/ui/NotesPage.qml:119
-#, kde-format
-msgid "Exit Search (%1)"
-msgstr "Aramadan Çık (%1)"
-
-#: contents/ui/NotesPage.qml:119
-#, kde-format
-msgid "Search notes (%1)"
-msgstr "Notları ara (%1)"
-
-#: contents/ui/NotesPage.qml:153
-#, kde-format
+msgctxt "@action:inmenu"
 msgid "New Note"
 msgstr "Yeni Not"
 
-#: contents/ui/NotesPage.qml:158
+#: application.cpp:59
 #, kde-format
-msgid "Note name:"
-msgstr "Not adı:"
+msgctxt "@action:inmenu"
+msgid "Import from KNotes"
+msgstr "K Notlar’dan İçe Aktar"
 
-#: contents/ui/NotesPage.qml:183 contents/ui/NotesPage.qml:294
-#: contents/ui/NotesPage.qml:322
+#: application.cpp:66
 #, kde-format
-msgid "Delete Note"
-msgstr "Notu Sil"
+msgctxt "@action:inmenu"
+msgid "Import from Maildir"
+msgstr "Maildir’den İçe Aktar"
 
-#: contents/ui/NotesPage.qml:197
+#: maildirimport.cpp:91
 #, kde-format
-msgid "Are you sure you want to delete the note <b> %1 </b>?"
-msgstr "<b> %1 </b> notunu silmek istediğinizden emin misiniz?"
+msgctxt "@status"
+msgid "An error occurred while writing to '%1'"
+msgstr "“%1” dosyasına yazarken bir hata oluştu"
 
-#: contents/ui/NotesPage.qml:279 contents/ui/NotesPage.qml:311
+#: main.cpp:70 qml/Main.qml:346
 #, kde-format
-msgid "Rename Note"
-msgstr "Notu Yeniden Adlandır"
-
-#: contents/ui/NotesPage.qml:350
-#, kde-format
-msgid "Add a note!"
-msgstr "Bir not ekle!"
-
-#: contents/ui/WelcomePage.qml:26
-#, kde-format
-msgid "Start by creating your first notebook!"
-msgstr "İlk defterini oluşturarak başla!"
-
-#: contents/ui/WelcomePage.qml:29
-#, kde-format
-msgid "Add Notebook"
-msgstr "Defter Ekle"
-
-#: main.cpp:50
-#, kde-format
+msgctxt "Application name"
 msgid "Marknote"
-msgstr "MarkNot"
+msgstr "Marknot"
 
-#: main.cpp:52
+#: main.cpp:72
 #, kde-format
 msgid "Note taking application"
 msgstr "Not alma uygulaması"
 
-#: main.cpp:54
+#: main.cpp:74
 #, kde-format
-msgid "© 2023 Mathis Brüchert"
-msgstr "© 2023 Mathis Brüchert"
+msgid "© 2023-2024 Mathis Brüchert"
+msgstr "© 2023–2024 Mathis Brüchert"
 
-#: main.cpp:55
+#: main.cpp:75
 #, kde-format
 msgid "Mathis Brüchert"
 msgstr "Mathis Brüchert"
 
-#: main.cpp:55
+#: main.cpp:76 main.cpp:81
 #, kde-format
 msgid "Maintainer"
 msgstr "Bakımcı"
 
-#: main.cpp:56
+#: main.cpp:80
+#, kde-format
+msgid "Carl Schwan"
+msgstr "Carl Schwan"
+
+#: main.cpp:85
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Emir SARI"
 
-#: main.cpp:56
+#: main.cpp:85
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
+
+#: notesmodel.cpp:112
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to rename note. A note already exists with the same name."
+msgstr "Not yeniden adlandırılamıyor. Aynı adlı bir not halihazırda var."
+
+#: qml/EditPage.qml:77 qml/EditPage.qml:550
+#, kde-format
+msgid "Undo"
+msgstr "Geri Al"
+
+#: qml/EditPage.qml:90 qml/EditPage.qml:563
+#, kde-format
+msgid "Redo"
+msgstr "Yinele"
+
+#: qml/EditPage.qml:146
+#, kde-format
+msgid "Focus Mode"
+msgstr "Odak Kipi"
+
+#: qml/EditPage.qml:161 qml/NativeWindowMenu.qml:21 qml/NotesPage.qml:157
+#: qml/WelcomePage.qml:29
+#, kde-format
+msgctxt "@action:menu"
+msgid "Exit Full Screen"
+msgstr "Tam Ekrandan Çık"
+
+#: qml/EditPage.qml:212
+#, kde-format
+msgctxt "@action:button"
+msgid "Bold"
+msgstr "Kalın"
+
+#: qml/EditPage.qml:231
+#, kde-format
+msgctxt "@action:button"
+msgid "Italic"
+msgstr "Yatık"
+
+#: qml/EditPage.qml:250
+#, kde-format
+msgctxt "@action:button"
+msgid "Underline"
+msgstr "Altı çizili"
+
+#: qml/EditPage.qml:264
+#, kde-format
+msgctxt "@action:button"
+msgid "Strikethrough"
+msgstr "Üzeri çizili"
+
+#: qml/EditPage.qml:282
+#, kde-format
+msgctxt "@action:button"
+msgid "Increase List Level"
+msgstr "Liste düzeyini artır"
+
+#: qml/EditPage.qml:293
+#, kde-format
+msgctxt "@action:button"
+msgid "Decrease List Level"
+msgstr "Liste düzeyini azalt"
+
+#: qml/EditPage.qml:335
+#, kde-format
+msgctxt "@item:inmenu no list style"
+msgid "No list"
+msgstr "Liste yok"
+
+#: qml/EditPage.qml:336
+#, kde-format
+msgctxt "@item:inmenu unordered style"
+msgid "Unordered list"
+msgstr "Sırasız liste"
+
+#: qml/EditPage.qml:337
+#, kde-format
+msgctxt "@item:inmenu ordered style"
+msgid "Ordered list"
+msgstr "Sıralı liste"
+
+#: qml/EditPage.qml:347
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert checkbox"
+msgstr "İşaret kutusu ekle"
+
+#: qml/EditPage.qml:362
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert link"
+msgstr "Bağlantı ekle"
+
+#: qml/EditPage.qml:378
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert image"
+msgstr "Görsel ekle"
+
+#: qml/EditPage.qml:391
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert table"
+msgstr "Tablo ekle"
+
+#: qml/EditPage.qml:411
+#, kde-format
+msgctxt "@item:inmenu no heading"
+msgid "Basic text"
+msgstr "Basit metin"
+
+#: qml/EditPage.qml:412
+#, kde-format
+msgctxt "@item:inmenu heading level 1 (largest)"
+msgid "Title"
+msgstr "Başlık"
+
+#: qml/EditPage.qml:413
+#, kde-format
+msgctxt "@item:inmenu heading level 2"
+msgid "Subtitle"
+msgstr "Alt başlık"
+
+#: qml/EditPage.qml:414
+#, kde-format
+msgctxt "@item:inmenu heading level 3"
+msgid "Section"
+msgstr "Bölüm"
+
+#: qml/EditPage.qml:415
+#, kde-format
+msgctxt "@item:inmenu heading level 4"
+msgid "Subsection"
+msgstr "Alt bölüm"
+
+#: qml/EditPage.qml:416
+#, kde-format
+msgctxt "@item:inmenu heading level 5"
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: qml/EditPage.qml:417
+#, kde-format
+msgctxt "@item:inmenu heading level 6 (smallest)"
+msgid "Subparagraph"
+msgstr "Alt paragraf"
+
+#: qml/EditPage.qml:596
+#, kde-format
+msgid "Format"
+msgstr "Biçim"
+
+#: qml/EditPage.qml:600
+#, kde-format
+msgid "Lists"
+msgstr "Listeler"
+
+#: qml/EditPage.qml:604
+#, kde-format
+msgid "Insert"
+msgstr "Ekle"
+
+#: qml/FormIconDelegate.qml:17
+#, kde-format
+msgctxt "@action:button"
+msgid "Icon"
+msgstr "Simge"
+
+#: qml/GlobalMenuBar.qml:18
+#, kde-format
+msgctxt "@action:menu"
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: qml/ImageDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Image"
+msgstr "Görsel Ekle"
+
+#: qml/ImageDialog.qml:24
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image"
+msgstr "Bir Görsel Seç"
+
+#: qml/ImageDialog.qml:27
+#, kde-format
+msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
+msgstr "Görsel dosyaları (*.jpg *.jpeg *.png *.svg *.webp)"
+
+#: qml/ImageDialog.qml:27
+#, kde-format
+msgid "All files (*)"
+msgstr "Tüm dosyalar (*)"
+
+#: qml/ImageDialog.qml:42
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Image Location:"
+msgstr "Görsel konumu:"
+
+#: qml/ImageDialog.qml:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Quick Sketch"
+msgstr "Tez Eskiz"
+
+#: qml/ImportMaildirDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Import from Maildir"
+msgstr "Maildir’den İçe Aktar"
+
+#: qml/ImportMaildirDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Import from KNotes"
+msgstr "K Notlar’dan İçe Aktar"
+
+#: qml/ImportMaildirDialog.qml:37 qml/NotebookMetadataDialog.qml:39
+#, kde-format
+msgctxt "@label:textbox Notebook name"
+msgid "Name:"
+msgstr "Ad:"
+
+#: qml/ImportMaildirDialog.qml:50
+#, kde-format
+msgctxt "@label:textbox Notebook name"
+msgid "Maildir location:"
+msgstr "Maildir konumu:"
+
+#: qml/ImportMaildirDialog.qml:57
+#, kde-format
+msgctxt "@title:window"
+msgid "Select a Maildir location"
+msgstr "Maildir Konumu Seç"
+
+#: qml/ImportMaildirDialog.qml:103
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: qml/LinkDialog.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Link"
+msgstr "Bağlantı Ekle"
+
+#: qml/LinkDialog.qml:23
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Link Text:"
+msgstr "Bağlantı metni:"
+
+#: qml/LinkDialog.qml:31
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Link URL:"
+msgstr "Bağlantı URL’si:"
+
+#: qml/Main.qml:105
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to create a new note, you need to create a notebook first."
+msgstr "Yeni bir not oluşturulamıyor. Öncelikle bir defter oluşturmalısınız."
+
+#: qml/Main.qml:105
+#, kde-format
+msgctxt "@action:button"
+msgid "Create Notebook"
+msgstr "Defter Oluştur"
+
+#: qml/Main.qml:272
+#, kde-format
+msgctxt "@title:menu"
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: qml/Main.qml:286
+#, kde-format
+msgctxt "@title:menu"
+msgid "Sort Notes List"
+msgstr "Notlar Listesini Sırala"
+
+#: qml/Main.qml:292
+#, kde-format
+msgid "by Name"
+msgstr "Ada Göre"
+
+#: qml/Main.qml:306
+#, kde-format
+msgid "by Date"
+msgstr "Tarihe Göre"
+
+#: qml/Main.qml:331
+#, kde-format
+msgid "Collapse Sidebar"
+msgstr "Kenar Çubuğunu Daralt"
+
+#: qml/Main.qml:331
+#, kde-format
+msgid "Expand Sidebar"
+msgstr "Kenar Çubuğunu Genişlet"
+
+#: qml/Main.qml:400
+#, kde-format
+msgid "Your Notebooks"
+msgstr "Defterleriniz"
+
+#: qml/NativeEditMenu.qml:10
+#, kde-format
+msgctxt "@action:menu"
+msgid "Edit"
+msgstr "Düzen"
+
+#: qml/NativeEditMenu.qml:39
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Undo"
+msgstr "Geri Al"
+
+#: qml/NativeEditMenu.qml:49
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Redo"
+msgstr "Yinele"
+
+#: qml/NativeEditMenu.qml:62
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Cut"
+msgstr "Kes"
+
+#: qml/NativeEditMenu.qml:72
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Copy"
+msgstr "Kopyala"
+
+#: qml/NativeEditMenu.qml:82
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: qml/NativeEditMenu.qml:92
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Delete"
+msgstr "Sil"
+
+#: qml/NativeEditMenu.qml:105
+#, kde-format
+msgctxt "text editing menu action"
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: qml/NativeFileMenu.qml:11
+#, kde-format
+msgctxt "@action:menu"
+msgid "File"
+msgstr "Dosya"
+
+#: qml/NativeHelpMenu.qml:11
+#, kde-format
+msgctxt "@action:menu"
+msgid "Help"
+msgstr "Yardım"
+
+#: qml/NativeWindowMenu.qml:13
+#, kde-format
+msgctxt "@action:menu"
+msgid "Window"
+msgstr "Pencere"
+
+#: qml/NativeWindowMenu.qml:21
+#, kde-format
+msgctxt "@action:menu"
+msgid "Enter Full Screen"
+msgstr "Tam Ekrana Gir"
+
+#: qml/NotebookContextMenu.qml:16
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit Notebook"
+msgstr "Defteri Düzenle"
+
+#: qml/NotebookContextMenu.qml:33 qml/NotebookDeleteAction.qml:15
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete Notebook"
+msgstr "Defteri Sil"
+
+#: qml/NotebookDeleteDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Notebook"
+msgstr "Defteri Sil"
+
+#: qml/NotebookDeleteDialog.qml:46 qml/NotesPage.qml:199
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Do not show again"
+msgstr "Bir daha gösterme"
+
+#: qml/NotebookDeleteDialog.qml:88
+#, kde-format
+msgid ""
+"Are you sure you want to delete the Notebook <b> %1 </b>? This will delete "
+"the content of <b>%2</b> definitively."
+msgstr ""
+"<b>%1</b> defterini silmek istediğinizden emin misiniz? Bu, <b>%2</b> "
+"içeriğini kalıcı olarak siler."
+
+#: qml/NotebookMetadataDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "New Notebook"
+msgstr "Yeni Defter"
+
+#: qml/NotebookMetadataDialog.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Notebook"
+msgstr "Defteri Düzenle"
+
+#: qml/NoteMetadataDialog.qml:27
+#, kde-format
+msgctxt "@title:window"
+msgid "New Note"
+msgstr "Yeni Not"
+
+#: qml/NoteMetadataDialog.qml:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Note"
+msgstr "Notu Düzenle"
+
+#: qml/NoteMetadataDialog.qml:58
+#, kde-format
+msgctxt "@label:textbox Note name"
+msgid "Name:"
+msgstr "Ad:"
+
+#: qml/NotesPage.qml:36
+#, kde-format
+msgid "Add note"
+msgstr "Not ekle"
+
+#: qml/NotesPage.qml:120
+#, kde-format
+msgid "Exit Search (%1)"
+msgstr "Aramadan çık (%1)"
+
+#: qml/NotesPage.qml:120
+#, kde-format
+msgid "Search notes (%1)"
+msgstr "Notları ara (%1)"
+
+#: qml/NotesPage.qml:179
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Note"
+msgstr "Notu Sil"
+
+#: qml/NotesPage.qml:241
+#, kde-format
+msgid ""
+"Are you sure you want to delete the note <b> %1 </b>? This will delete the "
+"file <b>%2</b> definitively."
+msgstr ""
+"<b>%1</b> notunu silmek istediğinizden emin misiniz? Bu, <b>%2</b> dosyasını "
+"kalıcı olarak siler."
+
+#: qml/NotesPage.qml:353
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename Note"
+msgstr "Notu Yeniden Adlandır"
+
+#: qml/NotesPage.qml:359
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete Note"
+msgstr "Notu Sil"
+
+#: qml/NotesPage.qml:370
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to HTML"
+msgstr "HTML Olarak Dışa Aktar"
+
+#: qml/NotesPage.qml:376
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to HTML"
+msgstr "HTML Olarak Dışa Aktar"
+
+#: qml/NotesPage.qml:377
+#, kde-format
+msgid "HTML file (*.html)"
+msgstr "HTML dosyası (*.html)"
+
+#: qml/NotesPage.qml:383
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to PDF"
+msgstr "PDF Olarak Dışa Aktar"
+
+#: qml/NotesPage.qml:389
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to PDF"
+msgstr "PDF Olarak Dışa Aktar"
+
+#: qml/NotesPage.qml:390
+#, kde-format
+msgid "PDF file (*.pdf)"
+msgstr "PDF dosyası (*.pdf)"
+
+#: qml/NotesPage.qml:396
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Export to ODT"
+msgstr "ODT Olarak Dışa Aktar"
+
+#: qml/NotesPage.qml:402
+#, kde-format
+msgctxt "@title:window"
+msgid "Export to ODT"
+msgstr "ODT Olarak Dışa Aktar"
+
+#: qml/NotesPage.qml:403
+#, kde-format
+msgid "ODF Text Document (*.odt)"
+msgstr "ODF metin belgesi (*.odt)"
+
+#: qml/NotesPage.qml:535
+#, kde-format
+msgid "Add a note!"
+msgstr "Bir not ekle!"
+
+#: qml/TableDialog.qml:18
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Table"
+msgstr "Tablo Ekle"
+
+#: qml/TextFieldContextMenu.qml:226
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Ignore"
+msgstr "Yok Say"
+
+#: qml/TextFieldContextMenu.qml:241
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Spell Check"
+msgstr "Yazım Denetimi"
+
+#: qml/TextFieldContextMenu.qml:258
+#, kde-format
+msgctxt "@inmenu"
+msgid "Open Link"
+msgstr "Bağlantıyı Aç"
+
+#: qml/TextFieldContextMenu.qml:268
+#, kde-format
+msgctxt "@inmenu"
+msgid "Insert"
+msgstr "Ekle"
+
+#: qml/TextFieldContextMenu.qml:290
+#, kde-format
+msgctxt "@inmenu"
+msgid "Remove"
+msgstr "Kaldır"
+
+#: qml/TextFieldContextMenu.qml:310
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Undo"
+msgstr "Geri Al"
+
+#: qml/TextFieldContextMenu.qml:325
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Redo"
+msgstr "Yinele"
+
+#: qml/TextFieldContextMenu.qml:343
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "Kes"
+
+#: qml/TextFieldContextMenu.qml:358
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "Kopyala"
+
+#: qml/TextFieldContextMenu.qml:373
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: qml/TextFieldContextMenu.qml:388
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "Sil"
+
+#: qml/TextFieldContextMenu.qml:407
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Select All"
+msgstr "Tümünü Seç"
+
+#: qml/WelcomePage.qml:22
+#, kde-format
+msgid "Start by creating your first notebook!"
+msgstr "İlk defterini oluşturarak başla!"
+
+#: settings/MarkNoteGeneralPage.qml:16
+#, kde-format
+msgctxt "@title:window"
+msgid "General"
+msgstr "Genel"
+
+#: settings/MarkNoteGeneralPage.qml:19
+#, kde-format
+msgid "General theme"
+msgstr "Genel tema"
+
+#: settings/MarkNoteGeneralPage.qml:26
+#, kde-format
+msgid "Color theme"
+msgstr "Renk teması"
+
+#: settings/MarkNoteGeneralPage.qml:40
+#, kde-format
+msgid "Editor Settings"
+msgstr "Düzenleyici Ayarları"
+
+#: settings/MarkNoteGeneralPage.qml:45
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Notes Directory:"
+msgstr "Notlar dizini:"
+
+#: settings/MarkNoteGeneralPage.qml:54
+#, kde-format
+msgctxt "@title:window"
+msgid "Select the notes directory"
+msgstr "Notlar Dizinini Seç"
+
+#: settings/MarkNoteGeneralPage.qml:69
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Font family:"
+msgstr "Yazıtipi ailesi:"
+
+#: settings/MarkNoteGeneralPage.qml:110
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Font size:"
+msgstr "Yazıtipi puntosu:"
+
+#: settings/MarkNoteSettings.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "General"
+msgstr "Genel"
+
+#: settings/MarkNoteSettings.qml:21
+#, kde-format
+msgctxt "@action:button"
+msgid "About Marknote"
+msgstr "Marknot Hakkında"
+
+#: settings/MarkNoteSettings.qml:27
+#, kde-format
+msgctxt "@action:button"
+msgid "About KDE"
+msgstr "KDE Hakkında"
+
+#: tableactionhelper.cpp:118
+#, kde-format
+msgid "Row Below"
+msgstr "Alttaki Satır"
+
+#: tableactionhelper.cpp:124
+#, kde-format
+msgid "Row Above"
+msgstr "Üstteki Satır"
+
+#: tableactionhelper.cpp:130
+#, kde-format
+msgid "Column Before"
+msgstr "Önceki Sütun"
+
+#: tableactionhelper.cpp:137
+#, kde-format
+msgid "Column After"
+msgstr "Sonraki Sütun"
+
+#: tableactionhelper.cpp:143
+#, kde-format
+msgid "Row"
+msgstr "Satır"
+
+#: tableactionhelper.cpp:149
+#, kde-format
+msgid "Column"
+msgstr "Sütun"
+
+#: tableactionhelper.cpp:155
+#, kde-format
+msgid "Cell Contents"
+msgstr "Hücre İçeriği"
+
+#~ msgid "undo"
+#~ msgstr "Geri Al"
+
+#~ msgid "redo"
+#~ msgstr "Yinele"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Number of Rows:"
+#~ msgstr "Satır sayısı:"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "Number of Columns:"
+#~ msgstr "Sütun sayısı:"
+
+#~ msgid "Open Command Bar"
+#~ msgstr "Komut Çubuğunu Aç"
+
+#~ msgid "About %1"
+#~ msgstr "%1 Hakkında"
+
+#~ msgid "About KDE"
+#~ msgstr "KDE Hakkında"
+
+#~ msgid "No results found"
+#~ msgstr "Sonuç bulunamadı"
+
+#~ msgctxt "@action:menu"
+#~ msgid "Quit Marknote"
+#~ msgstr "Marknot’tan Çık"
+
+#~ msgid "Reset"
+#~ msgstr "Sıfırla"
+
+#~ msgid "New Note (%1)"
+#~ msgstr "Yeni Not (%1)"
+
+#~ msgid "Add"
+#~ msgstr "Ekle"
+
+#~ msgid "Add Notebook"
+#~ msgstr "Defter Ekle"
+
+#~ msgid "Notebook name"
+#~ msgstr "Defter adı"
+
+#~ msgctxt "@action:button"
+#~ msgid "highlight"
+#~ msgstr "Vurgulu"
+
+#~ msgctxt "@item:inmenu disc list style"
+#~ msgid "Disc"
+#~ msgstr "Disk"
+
+#~ msgctxt "@item:inmenu circle list style"
+#~ msgid "Circle"
+#~ msgstr "Daire"
+
+#~ msgctxt "@item:inmenu square list style"
+#~ msgid "Square"
+#~ msgstr "Kare"
+
+#~ msgctxt "@item:inmenu numbered lists"
+#~ msgid "123"
+#~ msgstr "123"
+
+#~ msgctxt "@item:inmenu lowercase abc lists"
+#~ msgid "abc"
+#~ msgstr "abc"
+
+#~ msgctxt "@item:inmenu uppercase abc lists"
+#~ msgid "ABC"
+#~ msgstr "ABC"
+
+#~ msgctxt "@item:inmenu lower case roman numerals"
+#~ msgid "i ii iii"
+#~ msgstr "i ii iii"
+
+#~ msgctxt "@item:inmenu upper case roman numerals"
+#~ msgid "I II III"
+#~ msgstr "I II III"
+
+#~ msgid "Heading %1"
+#~ msgstr "Başlık %1"

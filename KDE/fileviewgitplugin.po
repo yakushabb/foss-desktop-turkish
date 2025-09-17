@@ -3,13 +3,13 @@
 #
 # obsoleteman <tulliana@gmail.com>, 2012, 2013.
 # Volkan Gezer <volkangezer@gmail.com>, 2014.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: dolphin-plugins\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-11 00:39+0000\n"
-"PO-Revision-Date: 2023-05-15 21:50+0300\n"
+"POT-Creation-Date: 2025-03-03 00:43+0000\n"
+"PO-Revision-Date: 2025-03-03 13:40+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -17,111 +17,177 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.03.70\n"
+"X-Generator: Lokalize 25.03.70\n"
 
-#: checkoutdialog.cpp:30
+#: checkoutdialog.cpp:34
 #, kde-kuit-format
 msgctxt "@title:window"
 msgid "<application>Git</application> Checkout"
 msgstr "<application>Git</application> Çıkış Yap"
 
-#: checkoutdialog.cpp:41
+#: checkoutdialog.cpp:45
 #, kde-format
 msgctxt "@action:button"
 msgid "Checkout"
 msgstr "Çıkış Yap"
 
-#: checkoutdialog.cpp:54
+#: checkoutdialog.cpp:58
 #, kde-format
 msgctxt "@option:radio Git Checkout"
 msgid "Branch:"
 msgstr "Dal:"
 
-#: checkoutdialog.cpp:61
+#: checkoutdialog.cpp:65
 #, kde-format
 msgctxt "@option:radio Git Checkout"
 msgid "Tag:"
 msgstr "Etiket:"
 
-#: checkoutdialog.cpp:71 pushdialog.cpp:80
+#: checkoutdialog.cpp:71
+#, kde-format
+msgctxt "@option:radio Git Checkout"
+msgid "Commit:"
+msgstr "İşle:"
+
+#: checkoutdialog.cpp:82 pushdialog.cpp:80
 #, kde-format
 msgctxt "@title:group"
 msgid "Options"
 msgstr "Seçenekler"
 
-#: checkoutdialog.cpp:76
+#: checkoutdialog.cpp:87
 #, kde-format
 msgctxt "@option:check"
 msgid "Create New Branch: "
-msgstr "Yeni Dal Oluştur: "
+msgstr "Yeni dal oluştur: "
 
-#: checkoutdialog.cpp:77
+#: checkoutdialog.cpp:88
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Create a new branch based on a selected branch or tag."
-msgstr "Seçilen dal veya etikete göre yeni bir dal oluştur."
+msgstr "Seçilen dal veya etikete göre yeni bir dal oluşturun."
 
-#: checkoutdialog.cpp:92 pushdialog.cpp:83
+#: checkoutdialog.cpp:103
 #, kde-format
 msgctxt "@option:check"
 msgid "Force"
 msgstr "Zorla"
 
-#: checkoutdialog.cpp:93
+#: checkoutdialog.cpp:104
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Discard local changes."
 msgstr "Yerel değişiklikleri yok say"
 
-#: checkoutdialog.cpp:125
+#: checkoutdialog.cpp:136
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "There are no tags in this repository."
 msgstr "Bu depoda bir etiket bulunmuyor."
 
-#: checkoutdialog.cpp:185
+#: checkoutdialog.cpp:206
 #, kde-format
 msgctxt "@title:group"
 msgid "Branch Base"
 msgstr "Dal Tabanı"
 
-#: checkoutdialog.cpp:186
+#: checkoutdialog.cpp:206
 #, kde-format
 msgctxt "@title:group"
 msgid "Checkout"
 msgstr "Çıkış Yap"
 
-#: checkoutdialog.cpp:206
+#: checkoutdialog.cpp:228
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "You must enter a valid name for the new branch first."
 msgstr "Yeni dal için önce bir geçerli ad girmelisiniz."
 
-#: checkoutdialog.cpp:213
+#: checkoutdialog.cpp:235
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "A branch with the name '%1' already exists."
-msgstr "'%1' adlı bir dal zaten var."
+msgstr "“%1” adlı bir dal halihazırda var."
 
-#: checkoutdialog.cpp:220
+#: checkoutdialog.cpp:242
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Branch names may not contain any whitespace."
 msgstr "Dal adları boşluk içeremez."
 
-#: checkoutdialog.cpp:227
+#: checkoutdialog.cpp:249
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "You must select a valid branch first."
 msgstr "Öncelikle geçerli bir dal seçmelisiniz."
 
-#: checkoutdialog.cpp:248
+#: checkoutdialog.cpp:255
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "You must enter a valid commit Id (Sha signature)."
+msgstr "Geçerli bir işleme kimliği (SHA imzası) girmelisiniz."
+
+#: checkoutdialog.cpp:288
 #, kde-format
 msgctxt ""
 "@item:intext Prepended to the current branch name to get the default name "
 "for a newly created branch"
 msgid "branch"
 msgstr "dal"
+
+#: clonedialog.cpp:36
+#, kde-format
+msgctxt "a placeholder"
+msgid "a git repository url or path"
+msgstr "Bir Git deposu URL’si veya yolu"
+
+#: clonedialog.cpp:46
+#, kde-format
+msgctxt "@info:tooltip submodules as in git submodules"
+msgid "Recursively clone submodules"
+msgstr "Altmodülleri özyineli olarak klonla"
+
+#: clonedialog.cpp:49
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Url:"
+msgstr "URL:"
+
+#: clonedialog.cpp:50
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Directory:"
+msgstr "Dizin:"
+
+#: clonedialog.cpp:52
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Branch:"
+msgstr "Dal:"
+
+#: clonedialog.cpp:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Recursive"
+msgstr "Özyineli"
+
+#: clonedialog.cpp:58
+#, kde-format
+msgctxt "@action:button"
+msgid "Clone"
+msgstr "Klonla"
+
+#: clonedialog.cpp:76
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose a clone directory"
+msgstr "Klonlama Dizini Seç"
+
+#: clonedialog.cpp:93
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Git</application> Clone"
+msgstr "<application>Git</application> Klonla"
 
 #: commitdialog.cpp:24
 #, kde-kuit-format
@@ -153,175 +219,228 @@ msgctxt "@info:tooltip"
 msgid "There is nothing to amend."
 msgstr "Değiştirilecek bir şey yok."
 
-#: commitdialog.cpp:74
+#: commitdialog.cpp:72
 #, kde-format
 msgctxt "@action:button Add Signed-Off line to the message widget"
 msgid "Sign off"
 msgstr "İmzala"
 
-#: commitdialog.cpp:75
+#: commitdialog.cpp:73
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Add Signed-off-by line at the end of the commit message."
-msgstr "İşleme iletisinin sonuna Signed-off-by satırı ekle."
+msgstr "İşleme iletisinin sonuna Signed-off-by satırı ekleyin."
 
-#: commitdialog.cpp:132
+#: commitdialog.cpp:129
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "You must enter a commit message first."
 msgstr "Öncelikle bir işleme iletisi girmelisiniz."
 
-#: fileviewgitplugin.cpp:48
+#: fileviewgitplugin.cpp:54
 #, kde-kuit-format
 msgid "<application>Git</application> Revert"
 msgstr "<application>Git</application> Geri Al"
 
-#: fileviewgitplugin.cpp:54
+#: fileviewgitplugin.cpp:59
 #, kde-kuit-format
 msgid "<application>Git</application> Add"
 msgstr "<application>Git</application> Ekle"
 
-#: fileviewgitplugin.cpp:60
+#: fileviewgitplugin.cpp:64
 #, kde-kuit-format
 msgid "Show Local <application>Git</application> Changes"
 msgstr "Yerel Değişiklikleri <application>Git</application> Göster"
 
-#: fileviewgitplugin.cpp:66
+#: fileviewgitplugin.cpp:69
+#, kde-kuit-format
+msgid "<application>Git</application> Restore staged"
+msgstr "<application>Git</application> Hazırlığı Geri Yükle"
+
+#: fileviewgitplugin.cpp:74
 #, kde-kuit-format
 msgid "<application>Git</application> Remove"
 msgstr "<application>Git</application> Kaldır"
 
-#: fileviewgitplugin.cpp:72
+#: fileviewgitplugin.cpp:79
 #, kde-kuit-format
 msgid "<application>Git</application> Checkout..."
-msgstr "<application>Git</application> Çıkış Yap..."
-
-#: fileviewgitplugin.cpp:78
-#, kde-kuit-format
-msgid "<application>Git</application> Commit..."
-msgstr "<application>Git</application> İşle..."
+msgstr "<application>Git</application> Çıkış Yap…"
 
 #: fileviewgitplugin.cpp:84
 #, kde-kuit-format
-msgid "<application>Git</application> Create Tag..."
-msgstr "<application>Git</application> Etiket Oluştur..."
+msgid "<application>Git</application> Commit..."
+msgstr "<application>Git</application> İşle…"
 
 #: fileviewgitplugin.cpp:89
 #, kde-kuit-format
-msgid "<application>Git</application> Push..."
-msgstr "<application>Git</application> İt..."
+msgid "<application>Git</application> Create Tag..."
+msgstr "<application>Git</application> Etiket Oluştur…"
 
-#: fileviewgitplugin.cpp:94
+#: fileviewgitplugin.cpp:93
+#, kde-kuit-format
+msgid "<application>Git</application> Push..."
+msgstr "<application>Git</application> İt…"
+
+#: fileviewgitplugin.cpp:97
 #, kde-kuit-format
 msgid "<application>Git</application> Pull..."
-msgstr "<application>Git</application> Çek..."
+msgstr "<application>Git</application> Çek…"
 
-#: fileviewgitplugin.cpp:99
+#: fileviewgitplugin.cpp:101
 #, kde-kuit-format
 msgid "<application>Git</application> Merge..."
-msgstr "<application>Git</application> Birleştir..."
+msgstr "<application>Git</application> Birleştir…"
 
-#: fileviewgitplugin.cpp:103
+#: fileviewgitplugin.cpp:105
+#, kde-kuit-format
+msgid "<application>Git</application> Clone..."
+msgstr "<application>Git</application> Klonla…"
+
+#: fileviewgitplugin.cpp:109
 #, kde-kuit-format
 msgid "<application>Git</application> Log..."
-msgstr "<application>Git</application> Günlük..."
+msgstr "<application>Git</application> Günlük…"
 
-#: fileviewgitplugin.cpp:413
+#: fileviewgitplugin.cpp:438
 #, kde-kuit-format
 msgid "Adding files to <application>Git</application> repository..."
-msgstr "Dosyalar <application>Git</application> deposuna ekleniyor..."
+msgstr "Dosyalar <application>Git</application> deposuna ekleniyor…"
 
-#: fileviewgitplugin.cpp:414
+#: fileviewgitplugin.cpp:439
 #, kde-kuit-format
 msgid "Adding files to <application>Git</application> repository failed."
 msgstr "Dosyalar <application>Git</application> deposuna eklenemedi."
 
-#: fileviewgitplugin.cpp:415
+#: fileviewgitplugin.cpp:440
 #, kde-kuit-format
 msgid "Added files to <application>Git</application> repository."
 msgstr "Dosyalar <application>Git</application> deposuna eklendi."
 
-#: fileviewgitplugin.cpp:425
+#: fileviewgitplugin.cpp:451
 #, kde-kuit-format
 msgid "Removing files from <application>Git</application> repository..."
-msgstr "Dosyalar <application>Git</application> deposundan kaldırılıyor..."
+msgstr "Dosyalar <application>Git</application> deposundan kaldırılıyor…"
 
-#: fileviewgitplugin.cpp:426
+#: fileviewgitplugin.cpp:452
 #, kde-kuit-format
 msgid "Removing files from <application>Git</application> repository failed."
-msgstr "Dosyalar <application>Git</application> deposundan silinemedi."
+msgstr "Dosyalar <application>Git</application> deposundan kaldırılamadı."
 
-#: fileviewgitplugin.cpp:427
+#: fileviewgitplugin.cpp:453
 #, kde-kuit-format
 msgid "Removed files from <application>Git</application> repository."
-msgstr "Dosyalar <application>Git</application> deposundan silindi."
+msgstr "Dosyalar <application>Git</application> deposundan kaldırıldı."
 
-#: fileviewgitplugin.cpp:433
+#: fileviewgitplugin.cpp:460
 #, kde-kuit-format
 msgid "Reverting files from <application>Git</application> repository..."
-msgstr "Dosyalar <application>Git</application> deposundan geri alınıyor..."
+msgstr "Dosyalar <application>Git</application> deposundan geri alınıyor…"
 
-#: fileviewgitplugin.cpp:434
+#: fileviewgitplugin.cpp:461
 #, kde-kuit-format
 msgid "Reverting files from <application>Git</application> repository failed."
 msgstr "dosyalar <application>Git</application> deposunda geri alınamadı."
 
-#: fileviewgitplugin.cpp:435
+#: fileviewgitplugin.cpp:462
 #, kde-kuit-format
 msgid "Reverted files from <application>Git</application> repository."
 msgstr ""
 "Dosyalar <application>Git</application> deposundan eski hallerine döndürüldü."
 
-#: fileviewgitplugin.cpp:477
+#: fileviewgitplugin.cpp:501
 #, kde-kuit-format
 msgid "<application>Git</application> Log failed."
 msgstr "<application>Git</application> Günlük başarısız oldu."
 
-#: fileviewgitplugin.cpp:500
+#: fileviewgitplugin.cpp:522
 #, kde-kuit-format
 msgid "<application>Git</application> Log"
 msgstr "<application>Git</application> Günlük"
 
-#: fileviewgitplugin.cpp:516
+#: fileviewgitplugin.cpp:537
 #, kde-format
 msgctxt "Git commit hash"
 msgid "Commit"
 msgstr "İşle"
 
-#: fileviewgitplugin.cpp:517
+#: fileviewgitplugin.cpp:538
 #, kde-format
 msgctxt "Git commit date"
 msgid "Date"
 msgstr "Tarih"
 
-#: fileviewgitplugin.cpp:518
+#: fileviewgitplugin.cpp:539
 #, kde-format
 msgctxt "Git commit message"
 msgid "Message"
 msgstr "İleti"
 
-#: fileviewgitplugin.cpp:519
+#: fileviewgitplugin.cpp:540
 #, kde-format
 msgctxt "Git commit author"
 msgid "Author"
 msgstr "Yazar"
 
+#: fileviewgitplugin.cpp:561
+#, kde-kuit-format
+msgid ""
+"Restoring staged files from <application>Git</application> repository..."
+msgstr ""
+"Hazırlanmış dosyalar <application>Git</application> deposundan geri "
+"yükleniyor…"
+
+#: fileviewgitplugin.cpp:562
+#, kde-kuit-format
+msgid ""
+"Restoring staged files from <application>Git</application> repository failed."
+msgstr ""
+"Hazırlanmış dosyalar <application>Git</application> deposundan geri "
+"yüklenemedi."
+
 #: fileviewgitplugin.cpp:563
 #, kde-kuit-format
-msgid "Switched to branch '%1'"
-msgstr "'%1' dalına geçildi"
+msgid "Restoring staged files from <application>Git</application> repository."
+msgstr ""
+"Hazırlanmış dosyalar <application>Git</application> deposundan geri "
+"yükleniyor."
 
-#: fileviewgitplugin.cpp:569
+#: fileviewgitplugin.cpp:589
+#, kde-kuit-format
+msgid "<application>Git</application> error starting: %1"
+msgstr "<application>Git</application> başlatılırken hata: %1"
+
+#: fileviewgitplugin.cpp:593
+#, kde-kuit-format
+msgid "<application>Git</application> clone failed: %1"
+msgstr "<application>Git</application> clone başarısız oldu: %1"
+
+#: fileviewgitplugin.cpp:595
+#, kde-kuit-format
+msgid "<application>Git</application> clone complete."
+msgstr "<application>Git</application> clone tamamlandı."
+
+#: fileviewgitplugin.cpp:603
+#, kde-kuit-format
+msgid "<application>Git</application> cloning repository..."
+msgstr "<application>Git</application> deposu klonlanıyor…"
+
+#: fileviewgitplugin.cpp:637
+#, kde-kuit-format
+msgid "Switched to branch '%1'"
+msgstr "“%1” dalına geçildi"
+
+#: fileviewgitplugin.cpp:644
 #, kde-kuit-format
 msgid "HEAD is now at %1"
 msgstr "HEAD, %1 konumunda"
 
-#: fileviewgitplugin.cpp:573
+#: fileviewgitplugin.cpp:649
 #, kde-kuit-format
 msgid "Switched to a new branch '%1'"
-msgstr "Yeni '%1' dalına geçildi"
+msgstr "Yeni “%1” dalına geçildi"
 
-#: fileviewgitplugin.cpp:584
+#: fileviewgitplugin.cpp:660
 #, kde-kuit-format
 msgid ""
 "<application>Git</application> Checkout failed. Maybe your working directory "
@@ -330,61 +449,61 @@ msgstr ""
 "<application>Git</application> Çıkış başarısız oldu. Çalışma dizininiz kirli "
 "olabilir."
 
-#: fileviewgitplugin.cpp:648
+#: fileviewgitplugin.cpp:726
 #, kde-kuit-format
 msgid "Successfully created tag '%1'"
-msgstr "'%1' etiketi başarıyla oluşturuldu"
+msgstr "“%1” etiketi başarıyla oluşturuldu"
 
-#: fileviewgitplugin.cpp:653
+#: fileviewgitplugin.cpp:731
 #, kde-kuit-format
 msgid ""
 "<application>Git</application> tag creation failed. A tag with the name '%1' "
 "already exists."
 msgstr ""
-"<application>Git</application> etiket oluşturması başarısız oldu. '%1' adlı "
+"<application>Git</application> etiket oluşturması başarısız oldu. “%1” adlı "
 "bir etiket zaten var."
 
-#: fileviewgitplugin.cpp:655
+#: fileviewgitplugin.cpp:734
 #, kde-kuit-format
 msgid "<application>Git</application> tag creation failed."
 msgstr "<application>Git</application> etiket oluşturması başarısız oldu."
 
-#: fileviewgitplugin.cpp:667
+#: fileviewgitplugin.cpp:745
 #, kde-kuit-format
 msgid "Pushing branch %1 to %2:%3 failed."
 msgstr "%1 dalı %2:%3 konumuna itilemedi."
 
-#: fileviewgitplugin.cpp:669
+#: fileviewgitplugin.cpp:746
 #, kde-kuit-format
 msgid "Pushed branch %1 to %2:%3."
 msgstr "%1 dalı %2:%3 konumuna itildi."
 
-#: fileviewgitplugin.cpp:671
+#: fileviewgitplugin.cpp:747
 #, kde-kuit-format
 msgid "Pushing branch %1 to %2:%3..."
-msgstr "%1 dalı %2:%3 konumuna itiliyor..."
+msgstr "%1 dalı %2:%3 konumuna itiliyor…"
 
-#: fileviewgitplugin.cpp:693
+#: fileviewgitplugin.cpp:768
 #, kde-kuit-format
 msgid "Pulling branch %1 from %2 failed."
 msgstr "%1 dalı %2 konumundan çekilemedi."
 
-#: fileviewgitplugin.cpp:695
+#: fileviewgitplugin.cpp:769
 #, kde-kuit-format
 msgid "Pulled branch %1 from %2 successfully."
 msgstr "%1 dalı %2 konumundan başarıyla çekildi."
 
-#: fileviewgitplugin.cpp:697
+#: fileviewgitplugin.cpp:770
 #, kde-kuit-format
 msgid "Pulling branch %1 from %2..."
-msgstr "%1 dalı %2 konumundan çekiliyor..."
+msgstr "%1 dalı %2 konumundan çekiliyor…"
 
-#: fileviewgitplugin.cpp:750 fileviewgitplugin.cpp:762
+#: fileviewgitplugin.cpp:822 fileviewgitplugin.cpp:834
 #, kde-kuit-format
 msgid "Branch is already up-to-date."
-msgstr "Dal zaten güncel."
+msgstr "Dal halihazırda güncel."
 
-#: fileviewgitplugin.cpp:766
+#: fileviewgitplugin.cpp:838
 #, kde-kuit-format
 msgid "Merge conflicts occurred. Fix them and commit the result."
 msgstr "Birleştirme çakışmaları oluştu. Bunları düzeltip sonucu işleyin."
@@ -423,7 +542,7 @@ msgstr "Kaynak"
 #, kde-format
 msgctxt "@label:listbox a git remote"
 msgid "Remote:"
-msgstr "Uzak Konum:"
+msgstr "Uzak konum:"
 
 #: pulldialog.cpp:55
 #, kde-format
@@ -437,7 +556,7 @@ msgctxt "@title:window"
 msgid "<application>Git</application> Push"
 msgstr "<application>Git</application> İt"
 
-#: pushdialog.cpp:37
+#: pushdialog.cpp:37 pushdialog.cpp:164
 #, kde-format
 msgctxt "@action:button"
 msgid "Push"
@@ -459,20 +578,41 @@ msgstr "Dallar"
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Local Branch:"
-msgstr "Yerel Dal:"
+msgstr "Yerel dal:"
 
 #: pushdialog.cpp:72
 #, kde-format
 msgctxt "@label:listbox"
 msgid "Remote Branch:"
-msgstr "Uzak Dal:"
+msgstr "Uzak dal:"
 
-#: pushdialog.cpp:84
+#: pushdialog.cpp:83
+#, kde-format
+msgctxt "@option:check"
+msgid "Force with lease"
+msgstr "Gecikmeyle zorla"
+
+#: pushdialog.cpp:86
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Proceed even if the remote branch is not an ancestor of the local branch."
-msgstr "Uzak dal yerel dalın bir türevi değilse bile sürdür."
+"Proceed even if the remote branch is not an ancestor of the local branch "
+"provided there were no changes in the remote branch since the last fetch."
+msgstr ""
+"Son getirme işleminden bu yana uzak dalda herhangi bir değişiklik olmadığı "
+"sürece uzak dal yerel dalın atası olmasa bile sürdürün."
+
+#: pushdialog.cpp:89
+#, kde-format
+msgctxt "@info no remote code repositories"
+msgid "No remotes defined."
+msgstr "Tanımlı uzak konum yok."
+
+#: pushdialog.cpp:166
+#, kde-format
+msgctxt "@action:button"
+msgid "Push New Branch"
+msgstr "Yeni Dal İt"
 
 #: tagdialog.cpp:28
 #, kde-kuit-format
@@ -496,13 +636,13 @@ msgstr "Etiket Bilgisi"
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Tag Name:"
-msgstr "Etiket Adı:"
+msgstr "Etiket adı:"
 
 #: tagdialog.cpp:61
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Tag Message:"
-msgstr "Etiket İletisi:"
+msgstr "Etiket iletisi:"
 
 #: tagdialog.cpp:72
 #, kde-format
@@ -522,14 +662,34 @@ msgctxt "@info:tooltip"
 msgid "You must enter a tag name first."
 msgstr "Öncelikle bir etiket adı girmelisiniz."
 
-#: tagdialog.cpp:128
+#: tagdialog.cpp:127
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Tag names may not contain any whitespace."
 msgstr "Etiket adları boşluk içeremez."
 
-#: tagdialog.cpp:131
+#: tagdialog.cpp:129
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "A tag named '%1' already exists."
-msgstr "'%1' adlı bir etiket zaten var."
+msgstr "“%1” adlı bir etiket halihazırda var."
+
+#~ msgctxt "@option:check"
+#~ msgid "Depth:"
+#~ msgstr "Derinlik:"
+
+#~ msgctxt "@option:check"
+#~ msgid "Branch:"
+#~ msgstr "Dal:"
+
+#~ msgctxt "@option:check"
+#~ msgid "No Checkout"
+#~ msgstr "Çıkış yok"
+
+#~ msgctxt "@option:check"
+#~ msgid "Clone Into Bare Repo"
+#~ msgstr "Çıplak depoya klonla"
+
+#~ msgctxt "@label:textbox"
+#~ msgid "URL:"
+#~ msgstr "URL:"

@@ -3,21 +3,21 @@
 #
 # Serdar Soytetir <tulliana@gmail.com>, 2007, 2008, 2009.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2017, 2021, 2022.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-04 00:39+0000\n"
-"PO-Revision-Date: 2023-11-11 23:31+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-08-28 00:45+0000\n"
+"PO-Revision-Date: 2025-08-07 22:27+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -29,7 +29,25 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "tulliana@gmail.com, a_developer_2002@outlook.com, emir_sari@icloud.com"
 
-#: app/main.cpp:54 app/SettingsBase.cpp:51
+#: app/ExternalAppModule.cpp:26
+#, kde-format
+msgid "%1 is an external application and has been automatically launched"
+msgstr ""
+"%1, bir dış uygulamadır ve kendiliğinden açılır. Bir sorun durumunda "
+"aşağıdaki düğmeyi kullanarak yeniden açabilirsiniz."
+
+#: app/ExternalAppModule.cpp:27
+#, kde-format
+msgid "Relaunch %1"
+msgstr "Yeniden Aç: %1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
+#: app/externalModule.ui:14
+#, kde-format
+msgid "Dialog"
+msgstr "Pencere"
+
+#: app/main.cpp:54 app/SettingsBase.cpp:53
 #, kde-format
 msgid "Info Center"
 msgstr "Bilgi Merkezi"
@@ -42,9 +60,9 @@ msgstr "Merkezi ve kullanışlı sistem bilgilerine genel bakış."
 #: app/main.cpp:58 app/main.cpp:69
 #, kde-format
 msgid "(c) 2009, Ben Cooksley"
-msgstr "(c) 2009, Ben Cooksley"
+msgstr "© 2009, Ben Cooksley"
 
-#: app/main.cpp:65 app/SettingsBase.cpp:54 app/sidebar/qml/IntroPage.qml:51
+#: app/main.cpp:65 app/qml/IntroPage.qml:51 app/SettingsBase.cpp:56
 #: runner/systemsettingsrunner.cpp:112
 #, kde-format
 msgid "System Settings"
@@ -63,7 +81,7 @@ msgstr "Ben Cooksley"
 #: app/main.cpp:80
 #, kde-format
 msgid "Maintainer"
-msgstr "Projeyi Sürdüren"
+msgstr "Bakımcı"
 
 #: app/main.cpp:81
 #, kde-format
@@ -120,101 +138,73 @@ msgstr "Aşağıdaki modüller kullanılabilir:"
 msgid "No description available"
 msgstr "Kullanılabilir açıklama yok"
 
-#: app/SettingsBase.cpp:136
+#: app/ModuleView.cpp:186
 #, kde-format
-msgid "Highlight Changed Settings"
-msgstr "Değişen Ayarları Vurgula"
+msgid "Reset all current changes to previous values"
+msgstr "Yapılan tüm değişiklikleri önceki değerlere döndür"
 
-#: app/SettingsBase.cpp:147
+#: app/ModuleView.cpp:279
 #, kde-format
-msgid "Report a Bug in the Current Page…"
-msgstr "Geçerli Sayfada Bir Hata Bildir…"
+msgctxt "@info:whatsthis"
+msgid "Scrollable area"
+msgstr "Sarılabilir alan"
 
-#: app/SettingsBase.cpp:169
+#: app/ModuleView.cpp:368
 #, kde-format
-msgid "Help"
-msgstr "Yardım"
+msgid ""
+"The current page has unsaved changes.\n"
+"Apply the changes or discard them?"
+msgstr ""
+"Geçerli sayfada kaydedilmemiş değişiklikler var.\n"
+"Kaydetmek mi yoksa atmak mı istiyorsunuz?"
 
-#: app/sidebar/qml/CategoriesPage.qml:62
+#: app/ModuleView.cpp:373
 #, kde-format
-msgid "Show intro page"
-msgstr "Giriş sayfasını göster"
+msgid "Apply Settings"
+msgstr "Ayarları Uygula"
 
-#: app/sidebar/qml/CategoriesPage.qml:130
+#: app/qml/CategoriesPage.qml:111
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
 msgstr "Aramanızla eşleşen bir öge yok"
 
-#: app/sidebar/qml/HamburgerMenuButton.qml:25
+#: app/qml/HamburgerMenuButton.qml:25
 #, kde-format
 msgid "Show menu"
 msgstr "Menüyü göster"
 
-#: app/sidebar/qml/IntroPage.qml:44
+#: app/qml/IntroPage.qml:44
 #, kde-format
 msgid "Plasma"
 msgstr "Plasma"
 
-#: app/sidebar/SidebarMode.cpp:642
+#: app/SettingsBase.cpp:136
+#, kde-format
+msgid "Highlight Changed Settings"
+msgstr "Değişen Ayarları Vurgula"
+
+#: app/SettingsBase.cpp:144
+#, kde-format
+msgctxt ""
+"@option:check the pages being referred to here are System Settings KCMs"
+msgid "Show Inapplicable Pages"
+msgstr "Alakasız sayfaları göster"
+
+#: app/SettingsBase.cpp:155
+#, kde-format
+msgid "Report a Bug in the Current Page…"
+msgstr "Geçerli Sayfada Bir Hata Bildir…"
+
+#: app/SidebarMode.cpp:595
 #, kde-format
 msgid "Sidebar"
 msgstr "Kenar Çubuğu"
 
-#: app/sidebar/SidebarMode.cpp:712
+#: app/SidebarMode.cpp:664
 #, kde-format
 msgid "Most Used"
 msgstr "En Çok Kullanılan"
-
-#. i18n: ectx: ToolBar (mainToolBar)
-#: app/systemsettingsui.rc:15
-#, kde-format
-msgid "About System Settings"
-msgstr "Sistem Ayarları Hakkında"
-
-#: app/ToolTips/tooltipmanager.cpp:187
-#, kde-format
-msgid "Contains 1 item"
-msgid_plural "Contains %1 items"
-msgstr[0] "1 öge içerir"
-msgstr[1] "%1 öge içerir"
-
-#: core/ExternalAppModule.cpp:25
-#, kde-format
-msgid "%1 is an external application and has been automatically launched"
-msgstr ""
-"%1, bir dış uygulamadır ve kendiliğinden açılır. Bir sorun durumunda "
-"aşağıdaki düğmeyi kullanarak yeniden açabilirsiniz"
-
-#: core/ExternalAppModule.cpp:26
-#, kde-format
-msgid "Relaunch %1"
-msgstr "Yeniden Aç: %1"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, ExternalModule)
-#: core/externalModule.ui:14
-#, kde-format
-msgid "Dialog"
-msgstr "Pencere"
-
-#: core/ModuleView.cpp:186
-#, kde-format
-msgid "Reset all current changes to previous values"
-msgstr "Yapılan tüm değişiklikleri önceki değerlere döndür"
-
-#: core/ModuleView.cpp:363
-#, kde-format
-msgid ""
-"The settings of the current module have changed.\n"
-"Do you want to apply the changes or discard them?"
-msgstr ""
-"Etkin modülde kaydedilmemiş değişiklikler var.\n"
-"Değişiklikleri kaydetmek mi veya yok saymak mı istiyorsunuz?"
-
-#: core/ModuleView.cpp:368
-#, kde-format
-msgid "Apply Settings"
-msgstr "Ayarları Uygula"
 
 #: runner/systemsettingsrunner.cpp:32
 #, kde-format
@@ -226,6 +216,20 @@ msgstr ""
 #, kde-format
 msgid "System Information"
 msgstr "Sistem Bilgisi"
+
+#~ msgid "Show intro page"
+#~ msgstr "Giriş sayfasını göster"
+
+#~ msgid "Help"
+#~ msgstr "Yardım"
+
+#~ msgid "About System Settings"
+#~ msgstr "Sistem Ayarları Hakkında"
+
+#~ msgid "Contains 1 item"
+#~ msgid_plural "Contains %1 items"
+#~ msgstr[0] "1 öge içerir"
+#~ msgstr[1] "%1 öge içerir"
 
 #~ msgctxt "Search through a list of control modules"
 #~ msgid "Search"

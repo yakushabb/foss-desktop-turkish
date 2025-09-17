@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 # zeugma <sunder67@hotmail.com>, 2013.
 # H. İbrahim Güngör <ibrahim@pardus.org.tr>, 2011.
 # Volkan Gezer <volkangezer@gmail.com>, 2013-2014, 2015, 2017.
@@ -12,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-30 00:37+0000\n"
-"PO-Revision-Date: 2024-03-08 18:41+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-09-09 00:56+0000\n"
+"PO-Revision-Date: 2025-09-12 10:09+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 25.08.0\n"
 "(http: //www.transifex.com/projects/p/kdepim-k-tr/language/tr/)\n"
 "X-POOTLE-MTIME: 1413132207.000000\n"
 
@@ -35,155 +35,274 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ebru.akagunduz@gmail.com, emir_sari@îcloud.com"
 
-#: agenda/agenda.cpp:966
+#: agenda/agenda.cpp:956
 #, kde-format
+msgctxt "@info"
 msgid "Unable to lock item for modification. You cannot make any changes."
 msgstr ""
 "Öge değiştirmek için kilitlenemiyor. Herhangi bir değişiklik yapamazsınız."
 
-#: agenda/agenda.cpp:968
+#: agenda/agenda.cpp:958
 #, kde-format
 msgctxt "@title:window"
 msgid "Locking Failed"
 msgstr "Kilitleme Başarısız"
 
-#: agenda/agenda.cpp:1183
+#: agenda/agenda.cpp:1173
 #, kde-format
+msgctxt "@info/plain"
 msgid "Dissociate event from recurrence"
 msgstr "Etkinliği yinelemeden ayır"
 
-#: agenda/agenda.cpp:1205 month/monthitem.cpp:445
+#: agenda/agenda.cpp:1196 month/monthitem.cpp:450
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Unable to add the exception item to the calendar. No change will be done."
 msgstr ""
 "Olağandışı durum ögesi takvime eklenemiyor. Herhangi bir değişiklik "
 "yapılmayacak."
 
-#: agenda/agenda.cpp:1207 month/monthitem.cpp:447
+#: agenda/agenda.cpp:1198 month/monthitem.cpp:452
 #, kde-format
 msgctxt "@title:window"
 msgid "Error Occurred"
 msgstr "Hata Oluştu"
 
-#: agenda/agendaitem.cpp:82 list/listview.cpp:425
+#: agenda/agendaitem.cpp:81 list/listview.cpp:428
 #, kde-format
 msgid "%2 (1 year)"
 msgid_plural "%2 (%1 years)"
 msgstr[0] "%2 (1 yıl)"
 msgstr[1] "%2 (%1 yıl)"
 
-#: agenda/agendaitem.cpp:632
+#: agenda/agendaitem.cpp:631
 #, kde-format
 msgid "Attendee \"%1\" added to the calendar item \"%2\""
-msgstr "\"%1\" katılımcısı \"%2\" takvim ögesine eklendi"
+msgstr "“%1” katılımcısı “%2” takvim ögesine eklendi"
 
-#: agenda/agendaitem.cpp:633
+#: agenda/agendaitem.cpp:632
 #, kde-format
 msgctxt "@title:window"
 msgid "Attendee added"
 msgstr "Katılımcı Eklendi"
 
-#: agenda/agendaitem.cpp:857 agenda/agendaitem.cpp:952
+#: agenda/agendaitem.cpp:856 agenda/agendaitem.cpp:951
 #, kde-format
 msgid "%1 - %2"
-msgstr "%1 - %2"
+msgstr "%1 — %2"
 
-#: agenda/agendaitem.cpp:866
+#: agenda/agendaitem.cpp:865
 #, kde-format
 msgid "- %1"
-msgstr "- %1"
+msgstr "— %1"
 
-#: agenda/agendaview.cpp:381
+#: agenda/agendaview.cpp:421
 #, kde-format
 msgctxt "short_weekday short_monthname date (e.g. Mon Aug 13)"
 msgid "%1 %2 %3"
 msgstr "%1 %2 %3"
 
-#: agenda/agendaview.cpp:2227
+#: agenda/agendaview.cpp:2326
 #, kde-format
 msgid "Unable to modify this to-do, because it cannot be locked."
 msgstr "Bu yapılacak ögesi düzenlenemiyor; çünkü bu öge kilitlenemiyor."
 
-#: agenda/agendaview.cpp:2235
+#: agenda/agendaview.cpp:2334
 #, kde-format
 msgid "Unable to save %1 \"%2\"."
-msgstr "%1 \"%2\" kaydedilemiyor."
+msgstr "%1 “%2” kaydedilemiyor."
 
 #: agenda/timelabels.cpp:329
 #, kde-format
-msgid "&Add Timezones..."
-msgstr "Saat Dilimlerini &Ekle..."
+msgid "&Add Timezones…"
+msgstr "Zaman Dilimleri &Ekle…"
 
 #: agenda/timelabels.cpp:330
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Add a timelabel display column for a new timezone"
+msgstr "Yeni bir zaman dilimi için zaman etiketi görüntüleme sütunu ekle"
+
+#: agenda/timelabels.cpp:333
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This menu will show a timezone selection dialog allowing you to select a "
+"timezone for showing hour labels alongside your system timezone hour labels. "
+"This feature is very useful when showing calendar events for people in "
+"timezones other than your own."
+msgstr ""
+"Bu menü, sistem zaman dilimi saat etiketlerinin yanında saat etiketi "
+"göstermek için bir zaman dilimi seçmek üzere bir zaman dilimi seçim iletişim "
+"kutusu gösterecektir. Bu özellik, özellikle sizden farklı zaman dilimlerinde "
+"olan kişilerle olan takvim etkinliklerini gösterirken yararlıdır."
+
+#: agenda/timelabels.cpp:336
 #, kde-format
 msgid "&Remove Timezone %1"
 msgstr "%1 Zaman Dilimini &Kaldır"
 
-#: agenda/timelabels.cpp:370
+#: agenda/timelabels.cpp:340
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Remove the hour label column for the currently selected timezone, for non-"
+"system timezones only."
+msgstr ""
+"Yalnızca sistem zaman dilimi olmayan, seçili zaman dilimi için saat etiketi "
+"sütununu kaldır"
+
+#: agenda/timelabels.cpp:343
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"For non-system timezones, this menu selection removes the time hour labels "
+"display column for the currently selected timezone."
+msgstr ""
+"Bu menü seçimi, şu anda seçili olan zaman dilimi için saat etiketi sütununu "
+"sistem olmayan zaman dilimleri için kaldırır."
+
+#: agenda/timelabels.cpp:347
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "12 Hour Clock"
+msgstr "12 Saat Biçimi"
+
+#: agenda/timelabels.cpp:349
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "24 Hour Clock"
+msgstr "24 Saat Biçimi"
+
+#: agenda/timelabels.cpp:351
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Display the time label hours in 24-hour \"military\" format or according to "
+"your locale"
+msgstr "Saat etiketlerini 24 saatlik biçimde veya yerel ayara göre göster"
+
+#: agenda/timelabels.cpp:353
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This menu selection shows the time hour labels according to 24-hour "
+"\"military\" time or your system locale."
+msgstr ""
+"Bu menü seçimi, saat etiketlerini 24 saatlik biçimde veya sistem yerel "
+"ayarınıza göre biçimlendirir."
+
+#: agenda/timelabels.cpp:358
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Right-side Time Labels"
+msgstr "Sağdaki Zaman Etiketlerini Gizle"
+
+#: agenda/timelabels.cpp:360
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Right-side Time Labels"
+msgstr "Sağdaki Zaman Etiketlerini Göster"
+
+#: agenda/timelabels.cpp:364
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Left-side Time Labels"
+msgstr "Soldaki Zaman Etiketlerini Gizle"
+
+#: agenda/timelabels.cpp:366
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Show Left-side Time Labels"
+msgstr "Soldaki Zaman Etiketlerini Göster"
+
+#: agenda/timelabels.cpp:369
+#, kde-format
+msgctxt "@info::tooltip"
+msgid "Show or hide time labels on both sides of the agenda view"
+msgstr ""
+"Ajanda görünümünün her iki yanındaki zaman etiketlerini göster veya gizle"
+
+#: agenda/timelabels.cpp:371
+#, kde-format
+msgctxt "@info::whatsthis"
+msgid ""
+"This menu selection shows or hides the time labels on both sides of the "
+"agenda view. Only the system timezone (and no extra added timezones) is "
+"shown on the second side to save screen space. Similarly, the vertical "
+"scrollbar is removed when the time labels are shown on both sides."
+msgstr ""
+"Bu menü seçimi, ajanda görünümünün her iki yanındaki zaman etiketlerini "
+"göstermeye veya gizlemeye olanak tanır. Ekran alanından tasarruf etmek için "
+"sistem zaman dilimi yalnızca ikinci tarafta gösterilir (ek zaman dilimi "
+"koyulmaz). Benzer olarak, zaman etiketleri her iki yanda gösterildiklerinde "
+"dikey sarma çubuğu kaldırılır."
+
+#: agenda/timelabels.cpp:426
 #, kde-format
 msgctxt "title for timezone info, the timezone id and utc offset"
 msgid "<b>%1 (%2)</b>"
 msgstr "<b>%1 (%2)</b>"
 
-#: agenda/timelabels.cpp:374
+#: agenda/timelabels.cpp:430
 #, kde-format
 msgctxt "heading for timezone display name"
 msgid "<i>Name:</i> %1"
 msgstr "<i>Ad:</i> %1"
 
-#: agenda/timelabels.cpp:378
+#: agenda/timelabels.cpp:434
 #, kde-format
 msgctxt "heading for timezone country"
 msgid "<i>Country:</i> %1"
 msgstr "<i>Ülke:</i> %1"
 
-#: agenda/timelabels.cpp:390
+#: agenda/timelabels.cpp:446
 #, kde-format
 msgctxt "heading for comma-separated list of timezone abbreviations"
 msgid "<i>Abbreviations:</i>"
 msgstr "<i>Kısaltmalar:</i>"
 
-#: agenda/timelabels.cpp:396
+#: agenda/timelabels.cpp:452
 #, kde-format
 msgctxt "heading for the timezone comment"
 msgid "<i>Comment:</i> %1"
 msgstr "<i>Açıklama:</i> %1"
 
-#: agenda/timelabels.cpp:412
+#: agenda/timelabels.cpp:468
 #, kde-format
 msgctxt "[hour of the day][am/pm/00] [timezone id (timezone-offset)]"
 msgid "%1%2<br/>%3 (%4)"
 msgstr "%1%2<br/>%3 (%4)"
 
-#: agenda/timescaleconfigdialog.cpp:49
+#: agenda/timescaleconfigdialog.cpp:50
 #, kde-format
 msgctxt "@title:window"
 msgid "Timezone"
 msgstr "Zaman Dilimi"
 
-#: eventview.cpp:107
+#: eventview.cpp:109
 #, kde-format
 msgctxt "@title:window"
 msgid "Changing Recurring Item"
 msgstr "Yinelenen Öge Değiştiriliyor"
 
-#: eventview.cpp:108
+#: eventview.cpp:110
 #, kde-format
 msgid "Also &Future Items"
 msgstr "&Gelecekteki Ögeleri de"
 
-#: eventview.cpp:109
+#: eventview.cpp:111
 #, kde-format
 msgid "Only &This Item"
 msgstr "Yalnızca &Bu Öge"
 
-#: eventview.cpp:110
+#: eventview.cpp:112
 #, kde-format
 msgid "&All Occurrences"
 msgstr "&Tüm Olaylar"
 
-#: eventview.cpp:127
+#: eventview.cpp:129
 #, kde-format
 msgid ""
 "The item you are trying to change is a recurring item. Should the changes be "
@@ -194,7 +313,7 @@ msgstr ""
 "tek olay için mi uygulansın, tüm gelecek ögelerde mi yoksa yinelenen tüm "
 "ögelerde mi?"
 
-#: eventview.cpp:138
+#: eventview.cpp:140
 #, kde-format
 msgid ""
 "The item you are trying to change is a recurring item. Should the changes be "
@@ -213,14 +332,14 @@ msgstr "Öntanımlı E-posta Ek Yöntemi"
 #: eventviews.kcfg:16
 #, kde-format
 msgid "The default way of attaching dropped emails to an event"
-msgstr "Bir etkinliğe bırakılan e-postaları eklemenin öntanımlı yöntemi"
+msgstr "Bir etkinliğe bırakılan e-postaları iliştirmenin öntanımlı yöntemi"
 
 #. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (Personal Settings)
 #. i18n: ectx: label, entry (DefaultTodoAttachMethod), group (Hidden Options)
 #: eventviews.kcfg:19 eventviews.kcfg:469
 #, kde-format
 msgid "Always ask"
-msgstr "Daima sor"
+msgstr "Her zaman sor"
 
 #. i18n: ectx: label, entry (DefaultEmailAttachMethod), group (Personal Settings)
 #. i18n: ectx: label, entry (DefaultTodoAttachMethod), group (Hidden Options)
@@ -396,7 +515,7 @@ msgid ""
 "that you use for events, as it will be displayed at the top."
 msgstr ""
 "Etkinlikler için başlangıç zamanını buraya girin. Bu zaman, yukarıda "
-"gösterileceği için, etkinlikler için kullanacağınız en erken zaman olmalıdır."
+"gösterileceği için etkinlikler için kullanacağınız en erken zaman olmalıdır."
 
 #. i18n: ectx: label, entry (WorkingHoursStart), group (Time &amp; Date)
 #: eventviews.kcfg:100
@@ -471,19 +590,19 @@ msgstr ""
 #. i18n: ectx: label, entry, group (General View)
 #: eventviews.kcfg:128
 #, kde-format
-msgid "To-dos use category colors"
-msgstr "Yapılacaklar, kategori renklerini kullanır"
+msgid "To-dos use tag colors"
+msgstr "Yapılacaklar, künye renklerini kullanır"
 
 #. i18n: ectx: whatsthis, entry, group (General View)
 #: eventviews.kcfg:129
 #, kde-format
 msgid ""
-"Check this box so that to-dos will use category colors and not colors "
-"specific to their due, due today or overdue state"
+"Check this box so that to-dos will use tag colors and not colors specific to "
+"their due, due today or overdue state"
 msgstr ""
-"Yapılacakların kategori renklerini kullanmasını ve onların bitiş, bitiş "
-"tarihi bugün veya bitiş tarihi geçmiş durum renklerini kullanmamasını "
-"istiyorsanız bu kutuyu işaretleyin."
+"Yapılacakların künye renklerini kullanmasını ve onların bitiş, bitiş tarihi "
+"bugün veya bitiş tarihi geçmiş durum renklerini kullanmamasını istiyorsanız "
+"bu kutuyu işaretleyin."
 
 #. i18n: ectx: label, entry, group (General View)
 #: eventviews.kcfg:134
@@ -499,15 +618,15 @@ msgid ""
 "access the next \"x\" days view, choose the \"Next X Days\" menu item from "
 "the \"View\" menu."
 msgstr ""
-"Sonraki gün görüntüsünde gösterilecek \"x\" gün sayısını seçin. Sonraki \"x"
-"\" günlük görünüme erişmek için, \"Görünüm\" menüsünden \"Sonraki X Gün\" "
-"menü ögesini seçin."
+"Sonraki gün görüntüsünde gösterilecek “x” gün sayısını seçin. Sonraki “x” "
+"günlük görünüme erişmek için “Görünüm” menüsünden “Sonraki X Gün” menü "
+"ögesini seçin."
 
 #. i18n: ectx: tooltip, entry, group (General View)
 #: eventviews.kcfg:136
 #, kde-format
 msgid "Show this many days at a time in the Next \"x\" days view"
-msgstr "Sonraki \"x\" günlük görünümünde, bir seferde bu kadar gün gösterir"
+msgstr "Sonraki “x” günlük görünümünde, bir kerede bu kadar gün gösterir"
 
 #. i18n: ectx: label, entry (DailyRecur), group (General View)
 #: eventviews.kcfg:141
@@ -661,7 +780,7 @@ msgstr "Ajanda görünümünde yapılacakları göster"
 #: eventviews.kcfg:197 viewerapp/settings.kcfg:47
 #, kde-format
 msgid "Show current-time (Marcus Bains) line"
-msgstr "Geçerli zaman-cizelgesini göster (Marcus Bains)"
+msgstr "Geçerli zaman akışını göster (Marcus Bains)"
 
 #. i18n: ectx: whatsthis, entry (MarcusBainsEnabled), group (Agenda View)
 #: eventviews.kcfg:198 viewerapp/settings.kcfg:48
@@ -670,7 +789,7 @@ msgid ""
 "Check this box to display a line in the day or week view indicating the "
 "current-time line (Marcus Bains line)."
 msgstr ""
-"Gün veya hafta görünümünde geçerli zaman çizgisini gösteren bir çizgi "
+"Gün veya hafta görünümünde geçerli zaman akışını gösteren bir çizgi "
 "görüntülemek için (Marcus Bains çizgisi) bu kutuyu işaretleyin."
 
 #. i18n: ectx: tooltip, entry (MarcusBainsEnabled), group (Agenda View)
@@ -683,7 +802,7 @@ msgstr "Geçerli zaman çizelgesi üzerinde göster"
 #: eventviews.kcfg:204 viewerapp/settings.kcfg:54
 #, kde-format
 msgid "Show seconds on the current-time (Marcus Bains) line"
-msgstr "Geçerli zaman-çizelgesi (Marcus Bains) üzerinde saniyeleri göster"
+msgstr "Geçerli zaman akışı (Marcus Bains) üzerinde saniyeleri göster"
 
 #. i18n: ectx: whatsthis, entry (MarcusBainsShowSeconds), group (Agenda View)
 #: eventviews.kcfg:205 viewerapp/settings.kcfg:55
@@ -734,95 +853,92 @@ msgstr "Renk Kullanımı"
 
 #. i18n: ectx: label, entry, group (Agenda View)
 #. i18n: ectx: label, entry, group (Month View)
-#: eventviews.kcfg:221 eventviews.kcfg:317 viewerapp/settings.kcfg:71
-#: viewerapp/settings.kcfg:156
+#: eventviews.kcfg:221 eventviews.kcfg:317
 #, kde-format
-msgid "Category inside, calendar outside"
-msgstr "Kategori içeride, takvim dışarıda"
+msgid "Tag inside, calendar outside"
+msgstr "Künye içeride, takvim dışarıda"
 
 #. i18n: ectx: whatsthis, entry, group (Agenda View)
-#: eventviews.kcfg:222 viewerapp/settings.kcfg:72
+#: eventviews.kcfg:222
 #, kde-format
 msgid ""
-"Select the \"Category inside, calendar outside\" option if you would like to "
-"draw calendar items in their associated category color, with the item's "
-"border drawn in the color of its calendar. Please use the Colors and Fonts "
-"configuration page for setting these colors."
+"Select the \"Tag inside, calendar outside\" option if you would like to draw "
+"calendar items in their associated tag color, with the item's border drawn "
+"in the color of its calendar. Please use the Colors and Fonts configuration "
+"page for setting these colors."
 msgstr ""
-"Takvim unsurlarını ayarlanmış kategori renklerinde çizdirmek ve unsurun "
-"sınırını takvimin renginde görüntülemek istiyorsanız \"Kategori içeride, "
-"takvim dışarıda\" seçeneğini seçin. Bu renkleri ayarlamak için lütfen "
-"Renkler ve Yazıtipleri ayar sayfasını kullanın."
+"Takvim ögelerini ayarlanmış künye renklerinde çizdirmek ve ögenin sınırını "
+"takvimin renginde görüntülemek istiyorsanız “Künye içeride, takvim dışarıda” "
+"seçeneğini seçin. Bu renkleri ayarlamak için lütfen Renkler ve Yazıtipleri "
+"yapılandırma sayfasını kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Agenda View)
-#: eventviews.kcfg:223 viewerapp/settings.kcfg:73
+#: eventviews.kcfg:223
 #, kde-format
 msgid ""
-"Draw agenda items in their category color inside and calendar color for "
-"their border"
+"Draw agenda items in their tag color inside and calendar color for their "
+"border"
 msgstr ""
-"Kategori rengi içeride ve takvim rengi sınır çizgisinde olacak şekilde "
-"ajanda unsurlarını çiz"
+"Künye rengi içeride ve takvim rengi sınır çizgisinde olacak şekilde ajanda "
+"unsurlarını çiz"
 
 #. i18n: ectx: label, entry, group (Agenda View)
 #. i18n: ectx: label, entry, group (Month View)
-#: eventviews.kcfg:226 eventviews.kcfg:322 viewerapp/settings.kcfg:76
-#: viewerapp/settings.kcfg:161
+#: eventviews.kcfg:226 eventviews.kcfg:322
 #, kde-format
-msgid "Calendar inside, category outside"
-msgstr "Takvim içeride, kategori dışarıda"
+msgid "Calendar inside, tag outside"
+msgstr "Takvim içeride, künye dışarıda"
 
 #. i18n: ectx: whatsthis, entry, group (Agenda View)
-#: eventviews.kcfg:227 viewerapp/settings.kcfg:77
+#: eventviews.kcfg:227
 #, kde-format
 msgid ""
-"Select the \"Calendar inside, category outside\" option if you would like to "
-"draw calendar items in their associated calendar color, with the item's "
-"border drawn in the color of its category. Please use the Colors and Fonts "
-"configuration page for setting these colors."
+"Select the \"Calendar inside, tag outside\" option if you would like to draw "
+"calendar items in their associated calendar color, with the item's border "
+"drawn in the color of its tag. Please use the Colors and Fonts configuration "
+"page for setting these colors."
 msgstr ""
 "Takvim ögelerini, ilgili takvim renklerini kullanarak ve ögenin kenarlığı "
-"kategori rengiyle çizilmiş olarak çizmek istiyorsanız \"Takvim içeride, "
-"kategori dışarıda\" seçeneğini seçin. Bu renkleri ayarlamak için lütfen "
-"Renkler ve Yazıtipleri yapılandırma sayfasını kullanın."
+"künye rengiyle çizilmiş olarak çizmek istiyorsanız “Takvim içeride, künye "
+"dışarıda” seçeneğini seçin. Bu renkleri ayarlamak için lütfen Renkler ve "
+"Yazıtipleri yapılandırma sayfasını kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Agenda View)
-#: eventviews.kcfg:228 viewerapp/settings.kcfg:78
+#: eventviews.kcfg:228
 #, kde-format
 msgid ""
-"Draw agenda items in their calendar color inside and category color for "
-"their border"
+"Draw agenda items in their calendar color inside and tag color for their "
+"border"
 msgstr ""
-"Ajanda unsurlarını, takvim rengi içeride ve kategori rengi sınır çizgisinde "
+"Ajanda unsurlarını, takvim rengi içeride ve künye rengi sınır çizgisinde "
 "olacak şekilde çiz"
 
 #. i18n: ectx: label, entry, group (Agenda View)
 #. i18n: ectx: label, entry, group (Month View)
-#: eventviews.kcfg:231 eventviews.kcfg:327 viewerapp/settings.kcfg:81
-#: viewerapp/settings.kcfg:166
+#: eventviews.kcfg:231 eventviews.kcfg:327
 #, kde-format
-msgid "Only category"
-msgstr "Yalnızca kategori"
+msgid "Only tag"
+msgstr "Yalnızca künye"
 
 #. i18n: ectx: whatsthis, entry, group (Agenda View)
-#: eventviews.kcfg:232 viewerapp/settings.kcfg:82
+#: eventviews.kcfg:232
 #, kde-format
 msgid ""
-"Select the \"Only category\" option if you would like to draw calendar items "
-"(both inside and border) in the color of their associated category. Please "
-"use the Colors and Fonts configuration page for setting these colors."
+"Select the \"Only tag\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their associated tag. Please use "
+"the Colors and Fonts configuration page for setting these colors."
 msgstr ""
-"\"Yalnızca kategori\" seçeneğini takvim unsurlarını (hem içi, hem de sınır "
-"çizgisini) ayarlanmış kategori renginde çizdirmek istiyorsanız kullanın. Bu "
-"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri ayar sayfasını "
+"“Yalnızca künye” seçeneğini takvim ögelerini (hem içi hem de sınır "
+"çizgisini) ayarlanmış künye renginde çizdirmek istiyorsanız kullanın. Bu "
+"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri yapılandırma sayfasını "
 "kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Agenda View)
-#: eventviews.kcfg:233 viewerapp/settings.kcfg:83
+#: eventviews.kcfg:233
 #, kde-format
-msgid "Draw agenda items using their category color for the inside and border"
+msgid "Draw agenda items using their tag color for the inside and border"
 msgstr ""
-"Ajanda unsurlarını içeride ve sınır çizgisinde kategori rengi kullanarak çiz"
+"Ajanda ögelerini içeride ve sınır çizgisinde künye rengi kullanarak çiz"
 
 #. i18n: ectx: label, entry, group (Agenda View)
 #. i18n: ectx: label, entry, group (Month View)
@@ -840,9 +956,9 @@ msgid ""
 "(both inside and border) in the color of their calendar. Please use the "
 "Colors and Fonts configuration page for setting these colors."
 msgstr ""
-"\"Yalnızca takvim\" seçeneği ile takvim unsurlarını (hem içi, hem de sınır "
+"“Yalnızca takvim” seçeneği ile takvim unsurlarını (hem içi hem de sınır "
 "çizgisini) ayarlanmış takvim renginde çizdirmek istiyorsanız kullanın. Bu "
-"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri ayar sayfasını "
+"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri yapılandırma sayfasını "
 "kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Agenda View)
@@ -871,7 +987,7 @@ msgstr ""
 "Eğer en az bir tüm gün meşgul olarak işaretlediğiniz günlerin ajanda arka "
 "planının farklı bir renkte doldurulmasını istiyorsanız bu kutuyu "
 "işaretleyin. Ayrıca, bu seçenek için kullanılacak arka plan rengini, Renkler "
-"yapılandırma sayfasından değiştirebilirsiniz. \"Meşgul gün arka plan rengi\" "
+"yapılandırma sayfasından değiştirebilirsiniz. “Meşgul gün arka plan rengi” "
 "ayarını arayın."
 
 #. i18n: ectx: label, entry (AgendaViewCalendarDisplay), group (Agenda View)
@@ -894,7 +1010,7 @@ msgid ""
 "all your calendars to be shown together in one agenda view."
 msgstr ""
 "Bütün takvimlerini tek bir ajanda görünümünde hep beraber göstermek "
-"istiyorsanız, \"Bütün takvimleri bir görünümde birleştir\" seçeneğini seçin."
+"istiyorsanız, “Bütün takvimleri bir görünümde birleştir” seçeneğini seçin."
 
 #. i18n: ectx: tooltip, entry (AgendaViewCalendarDisplay), group (Agenda View)
 #: eventviews.kcfg:254 viewerapp/settings.kcfg:100
@@ -915,8 +1031,8 @@ msgid ""
 "Select the \"Show calendars side by side\" option if you would like to see "
 "two calendars at once, in a side-by-side view."
 msgstr ""
-"Yan yana görünümde iki takvimi bir kerede görmek istiyorsanız, \"Takvimleri "
-"yan yana göster\" seçeneğini seçin."
+"Yan yana görünümde iki takvimi bir kerede görmek istiyorsanız, “Takvimleri "
+"yan yana göster” seçeneğini seçin."
 
 #. i18n: ectx: tooltip, entry (AgendaViewCalendarDisplay), group (Agenda View)
 #: eventviews.kcfg:259 viewerapp/settings.kcfg:105
@@ -937,8 +1053,8 @@ msgid ""
 "Select \"Switch between views with tabs\" if you would like to alternate "
 "between calendars using the tab key."
 msgstr ""
-"Sekme tuşunu kullanarak takvimler arasında değişiklik yapmak istiyorsanız, "
-"\"Sekme ile görünümler arasında değiştir\" seçeneğini seçin."
+"Sekme düğmesini kullanarak takvimler arasında değişiklik yapmak istiyorsanız "
+"“Sekme ile görünümler arasında değiştir” seçeneğini seçin."
 
 #. i18n: ectx: tooltip, entry (AgendaViewCalendarDisplay), group (Agenda View)
 #: eventviews.kcfg:264 viewerapp/settings.kcfg:110
@@ -1052,72 +1168,71 @@ msgstr ""
 "gibi diğer özellikler görüntülenmez."
 
 #. i18n: ectx: whatsthis, entry, group (Month View)
-#: eventviews.kcfg:318 viewerapp/settings.kcfg:157
+#: eventviews.kcfg:318
 #, kde-format
 msgid ""
-"Select the \"Category inside, calendar outside\" option if you would like to "
-"draw calendar items in their associated category color, with the item's "
-"border drawn in the color of its calendar.  Please use the Colors and Fonts "
-"configuration page for setting these colors."
+"Select the \"Tag inside, calendar outside\" option if you would like to draw "
+"calendar items in their associated tag color, with the item's border drawn "
+"in the color of its calendar.  Please use the Colors and Fonts configuration "
+"page for setting these colors."
 msgstr ""
-"Takvim unsurlarını ayarlanmış kategori renklerinde çizdirmek ve unsurun "
-"sınırını takvimin renginde görüntülemek istiyorsanız \"Kategori içeride, "
-"takvim dışarıda\" seçeneğini seçin. Bu renkleri ayarlamak için lütfen "
-"Renkler ve Yazıtipleri ayar sayfasını kullanın."
+"Takvim ögelerini ayarlanmış künye renklerinde çizdirmek ve ögenin sınırını "
+"takvimin renginde görüntülemek istiyorsanız “Künye içeride, takvim dışarıda” "
+"seçeneğini seçin. Bu renkleri ayarlamak için lütfen Renkler ve Yazıtipleri "
+"yapılandırma sayfasını kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Month View)
-#: eventviews.kcfg:319 viewerapp/settings.kcfg:158
+#: eventviews.kcfg:319
 #, kde-format
 msgid ""
-"Draw month items in their category color inside and calendar color for their "
+"Draw month items in their tag color inside and calendar color for their "
 "border"
 msgstr ""
-"Kategori rengi içeride ve takvim rengi sınır çizgisinde olacak şekilde ay "
+"Künye rengi içeride ve takvim rengi sınır çizgisinde olacak şekilde ay "
 "ögelerini çiz"
 
 #. i18n: ectx: whatsthis, entry, group (Month View)
-#: eventviews.kcfg:323 viewerapp/settings.kcfg:162
+#: eventviews.kcfg:323
 #, kde-format
 msgid ""
-"Select the \"Calendar inside, category outside\" option if you would like to "
-"draw calendar items in their associated calendar color, with the item's "
-"border drawn in the color of its category.  Please use the Colors and Fonts "
+"Select the \"Calendar inside, tag outside\" option if you would like to draw "
+"calendar items in their associated calendar color, with the item's border "
+"drawn in the color of its tag.  Please use the Colors and Fonts "
 "configuration page for setting these colors."
 msgstr ""
 "Takvim ögelerini, ilgili takvim renklerini kullanarak ve ögenin kenarlığı "
-"kategori rengiyle çizilmiş olarak çizmek istiyorsanız \"Takvim içeride, "
-"kategori dışarıda\" seçeneğini seçin. Bu renkleri ayarlamak için lütfen "
-"Renkler ve Yazıtipleri yapılandırma sayfasını kullanın."
+"künye rengiyle çizilmiş olarak çizmek istiyorsanız “Takvim içeride, künye "
+"dışarıda” seçeneğini seçin. Bu renkleri ayarlamak için lütfen Renkler ve "
+"Yazıtipleri yapılandırma sayfasını kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Month View)
-#: eventviews.kcfg:324 viewerapp/settings.kcfg:163
+#: eventviews.kcfg:324
 #, kde-format
 msgid ""
-"Draw month items in their calendar color inside and category color for their "
+"Draw month items in their calendar color inside and tag color for their "
 "border"
 msgstr ""
-"Aylık ögeleri, takvim rengi içeride ve kategori rengi sınır çizgisinde "
-"olacak şekilde çiz"
+"Aylık ögeleri, takvim rengi içeride ve künye rengi sınır çizgisinde olacak "
+"şekilde çiz"
 
 #. i18n: ectx: whatsthis, entry, group (Month View)
-#: eventviews.kcfg:328 viewerapp/settings.kcfg:167
+#: eventviews.kcfg:328
 #, kde-format
 msgid ""
-"Select the \"Only category\" option if you would like to draw calendar items "
-"(both inside and border) in the color of their associated category.  Please "
-"use the Colors and Fonts configuration page for setting these colors."
+"Select the \"Only tag\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their associated tag.  Please use "
+"the Colors and Fonts configuration page for setting these colors."
 msgstr ""
-"\"Yalnızca kategori\" seçeneği ile, takvim ögelerini (hem içi, hem de sınır "
-"çizgisini) ayarlanmış kategori renginde çizdirmek istiyorsanız kullanın.  Bu "
-"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri ayar sayfasını "
+"“Yalnızca künye” seçeneği ile, takvim ögelerini (hem içi hem de sınır "
+"çizgisini) ayarlanmış kategori renginde çizdirmek istiyorsanız kullanın. Bu "
+"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri yapılandırma sayfasını "
 "kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Month View)
-#: eventviews.kcfg:329 viewerapp/settings.kcfg:168
+#: eventviews.kcfg:329
 #, kde-format
-msgid "Draw month items using their category color for the inside and border"
-msgstr ""
-"Aylık unsurları, içeride ve sınır çizgisinde kategori rengi kullanarak çizdir"
+msgid "Draw month items using their tag color for the inside and border"
+msgstr "Ay ögelerini, içeride ve sınır çizgisinde künye rengi kullanarak çiz"
 
 #. i18n: ectx: whatsthis, entry, group (Month View)
 #: eventviews.kcfg:333 viewerapp/settings.kcfg:172
@@ -1127,9 +1242,9 @@ msgid ""
 "(both inside and border) in the color of their calendar.  Please use the "
 "Colors and Fonts configuration page for setting these colors."
 msgstr ""
-"\"Yalnızca takvim\" seçeneği ile, takvim unsurlarını (hem içi, hem de sınır "
-"çizgisini) ayarlanmış takvim renginde çizdirmek istiyorsanız kullanın.  Bu "
-"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri ayar sayfasını "
+"“Yalnızca takvim” seçeneği ile, takvim unsurlarını (hem içi, hem de sınır "
+"çizgisini) ayarlanmış takvim renginde çizdirmek istiyorsanız kullanın. Bu "
+"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri yapılandırma sayfasını "
 "kullanın."
 
 #. i18n: ectx: tooltip, entry, group (Month View)
@@ -1152,8 +1267,8 @@ msgstr ""
 "Eğer en az bir tüm gün meşgul olarak işaretlediğiniz günlerin aylık "
 "görünümdeki arka planının farklı bir renkte doldurulmasını istiyorsanız bu "
 "kutuyu işaretleyin. Ayrıca, bu seçenek için kullanılacak arka plan rengini "
-"Renkler yapılandırma sayfasından değiştirebilirsiniz. \"Meşgul gün arka plan "
-"rengi\" ayarını arayın."
+"Renkler yapılandırma sayfasından değiştirebilirsiniz. “Meşgul gün arka plan "
+"rengi” ayarını arayın."
 
 #. i18n: ectx: label, entry, group (Todo View)
 #: eventviews.kcfg:350 viewerapp/settings.kcfg:183
@@ -1292,15 +1407,14 @@ msgstr "Ajanda görünümündeki şimdiki saat çizgisinin rengi"
 #: eventviews.kcfg:398 viewerapp/settings.kcfg:217
 #, kde-format
 msgid "Select a color to use for the current-time (Marcus Bains) line."
-msgstr "Geçerli zaman-çizelgesinde (Marcus Bains) kullanılacak rengi seçin."
+msgstr "Geçerli zaman akışında (Marcus Bains) kullanılacak rengi seçin."
 
 #. i18n: ectx: tooltip, entry, group (Colors)
 #: eventviews.kcfg:399 viewerapp/settings.kcfg:218
 #, kde-format
 msgid "Use this color for the Agenda View current-time (Marcus Bains) line"
 msgstr ""
-"Ajanda görünümünde geçerli zaman-çizelgesi (Marcus Bains) için bu rengi "
-"kullan"
+"Ajanda görünümünde geçerli zaman akışı (Marcus Bains) için bu rengi kullan"
 
 #. i18n: ectx: label, entry, group (Colors)
 #. i18n: ectx: label, entry, group (Theming)
@@ -1368,9 +1482,8 @@ msgid ""
 "Font\" dialog, allowing you to choose the hour font for the time bar."
 msgstr ""
 "Zaman çubuğu yazıtipini ayarlamak için bu düğmeye basın. Zaman çubuğu, "
-"ajanda görünümünde saatleri gösteren bir unsurdur. Bu düğme, \"Yazıtipi Seç"
-"\" penceresini açar ve zaman çubuğu için saat yazıtipini seçmenize izin "
-"verir."
+"ajanda görünümünde saatleri gösteren bir ögedir. Bu düğme, “Yazıtipi Seç” "
+"penceresini açar ve zaman çubuğu için saat yazıtipini seçmenize izin verir."
 
 #. i18n: ectx: label, entry, group (Fonts)
 #: eventviews.kcfg:430 viewerapp/settings.kcfg:256
@@ -1387,7 +1500,7 @@ msgid ""
 "the month view."
 msgstr ""
 "Bu düğmeye tıklayarak, aylık görünüm yazıtipini yapılandırabilirsiniz. Bu "
-"düğme, \"Yazıtipi Seç\" penceresini açar ve aylık görünümde ögeler için "
+"düğme, “Yazıtipi Seç” penceresini açar ve aylık görünümde ögeler için "
 "kullanılacak yazıtipini seçmenize izin verir."
 
 #. i18n: ectx: label, entry, group (Fonts)
@@ -1405,8 +1518,8 @@ msgid ""
 "in the agenda view."
 msgstr ""
 "Bu düğmeye tıklayarak, ajanda görünümü yazıtipini ayarlayabilirsiniz. Bu "
-"düğme ile \"Yazıtipi Seç\" penceresi açılır ve ajanda görünümünde "
-"etkinlikler için kullanılacak yazıtipini belirleyebilirsiniz."
+"düğme ile “Yazıtipi Seç” penceresi açılır ve ajanda görünümünde etkinlikler "
+"için kullanılacak yazıtipini belirleyebilirsiniz."
 
 #. i18n: ectx: label, entry, group (Fonts)
 #: eventviews.kcfg:440 viewerapp/settings.kcfg:266
@@ -1423,7 +1536,7 @@ msgid ""
 "current-time line in the agenda view."
 msgstr ""
 "Bu düğmeye tıklayarak, şu andaki zaman çizgisi yazıtipini "
-"ayarlayabilirsiniz. Bu düğme, \"Yazıtipi Seç\" penceresini açar ve ajanda "
+"ayarlayabilirsiniz. Bu düğme, “Yazıtipi Seç” penceresini açar ve ajanda "
 "görünümünde şu andaki zaman çizgisi için kullanılacak yazıtipini seçmenize "
 "izin verir."
 
@@ -1502,11 +1615,11 @@ msgstr "Öntanımlı etkinlik rengi"
 msgid ""
 "Select the default event color here. The default event color will be used "
 "for events categories in your Month. Note that you can specify a separate "
-"color for each event category below."
+"color for each event tag below."
 msgstr ""
 "Öntanımlı etkinlik rengini buradan seçin. Öntanımlı etkinlik rengi, "
 "ayınızdaki etkinlikler için kullanılacaktır. Aşağıda her bir etkinlik "
-"etiketi için ayrı bir renk belirleyebileceğinizi unutmayın."
+"künyesi için ayrı bir renk belirleyebileceğinizi unutmayın."
 
 #. i18n: ectx: label, entry, group (Theme/Month view)
 #: eventviews.kcfg:717
@@ -1521,129 +1634,156 @@ msgid "Use system color. If enabled will ignore all other color settings"
 msgstr ""
 "Sistem rengini kullan. Etkinleştirilirse diğer tüm renk ayarlarını yok sayar."
 
-#: journal/journalframe.cpp:152
+#: journal/journalframe.cpp:150
 #, kde-format
+msgctxt "@action: button"
 msgid "&Edit"
 msgstr "Dü&zenle"
 
-#: journal/journalframe.cpp:155
+#: journal/journalframe.cpp:153
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Edit this journal entry"
 msgstr "Bu günce girdisini düzenle"
 
-#: journal/journalframe.cpp:156
+#: journal/journalframe.cpp:154
 #, kde-format
+msgctxt "@info:whatsthis"
 msgid "Opens an editor dialog for this journal entry"
 msgstr "Bu günce girdisi için bir düzenleyici iletişim kutusu açar"
 
-#: journal/journalframe.cpp:162
+#: journal/journalframe.cpp:160
 #, kde-format
+msgctxt "@action: button"
 msgid "&Delete"
 msgstr "&Sil"
 
-#: journal/journalframe.cpp:165 journal/journalframe.cpp:166
+#: journal/journalframe.cpp:163
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Delete this journal entry"
 msgstr "Bu günce girdisini sil"
 
-#: journal/journalframe.cpp:171
+#: journal/journalframe.cpp:164
 #, kde-format
+msgctxt "@info:whatsthis"
+msgid "Delete this journal entry"
+msgstr "Bu günce girdisini sil"
+
+#: journal/journalframe.cpp:169
+#, kde-format
+msgctxt "@action: button"
 msgid "&Print"
 msgstr "&Yazdır"
 
-#: journal/journalframe.cpp:175
+#: journal/journalframe.cpp:173
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Print this journal entry"
 msgstr "Bu günce girdisini yazdır"
 
-#: journal/journalframe.cpp:176
+#: journal/journalframe.cpp:174
 #, kde-format
+msgctxt "@info:whatsthis"
 msgid "Opens a print dialog for this journal entry"
 msgstr "Bu günce girdisi için bir yazdırma iletişim kutusu açar"
 
-#: journal/journalframe.cpp:181
+#: journal/journalframe.cpp:179
 #, kde-format
+msgctxt "@action: button"
 msgid "Print preview"
-msgstr "Yazdırma önizleme"
+msgstr "Yazdırma Önizlemesi"
 
-#: journal/journalframe.cpp:185
+#: journal/journalframe.cpp:183
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Print preview this journal entry"
 msgstr "Bu günce girdisinin yazdırma önizlemesi"
 
-#: list/listview.cpp:56
+#: journal/journalframe.cpp:184
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Opens a print preview of this journal entry"
+msgstr "Bu günce girdisi için bir yazdırma iletişim kutusu açar"
+
+#: list/listview.cpp:57
 #, kde-format
 msgctxt "%1 is an item summary. %2 is the date when this item reoccurs"
 msgid "%1 (next: %2)"
 msgstr "%1 (sonraki: %2)"
 
-#: list/listview.cpp:290
+#: list/listview.cpp:291
 #, kde-format
 msgid "Summary"
 msgstr "Özet"
 
-#: list/listview.cpp:291
+#: list/listview.cpp:292
 #, kde-format
 msgid "Start Date/Time"
 msgstr "Başlangıç Tarihi/Saati"
 
-#: list/listview.cpp:292
+#: list/listview.cpp:293
 #, kde-format
 msgid "End Date/Time"
 msgstr "Bitiş Tarihi/Saati"
 
-#: list/listview.cpp:293
+#: list/listview.cpp:294
 #, kde-format
 msgid "Tags"
-msgstr "Etiketler"
+msgstr "Künyeler"
 
-#: list/listview.cpp:366
+#: list/listview.cpp:367
 #, kde-format
 msgid "Summary [%1 - %2]"
-msgstr "Özet [%1 - %2]"
+msgstr "Özet [%1 — %2]"
 
-#: month/monthitem.cpp:306
+#: month/monthitem.cpp:307
 #, kde-format
-msgid "Age:"
-msgstr "Yaş:"
+msgctxt "@info/plain a person's age"
+msgid "1 year old"
+msgid_plural "%1 years old"
+msgstr[0] "1 yaşında"
+msgstr[1] "%1 yaşında"
 
-#: month/monthitem.cpp:306
+#: month/monthitem.cpp:309
 #, kde-format
-msgid "%2 1 year"
-msgid_plural "%2 %1 years"
-msgstr[0] "%2 1 yıl"
-msgstr[1] "%2 %1 yıl"
+msgctxt "@info/plain number of years of marriage"
+msgid "1 year"
+msgid_plural "%1 years"
+msgstr[0] "1 yıl"
+msgstr[1] "%1 yıl"
 
-#: month/monthitem.cpp:439
+#: month/monthitem.cpp:443
 #, kde-format
+msgctxt "@info/plain"
 msgid "Move occurrence(s)"
-msgstr "Olay(lar)ı taşı"
+msgstr "Oluşları taşı"
 
-#: month/monthscene.cpp:189
+#: month/monthscene.cpp:183
 #, kde-format
 msgctxt "monthname year"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: month/monthscene.cpp:316
+#: month/monthscene.cpp:312
 #, kde-format
 msgctxt "'Month day' for month view cells"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: month/monthview.cpp:210 month/monthview.cpp:430
+#: month/monthview.cpp:207 month/monthview.cpp:477
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display calendar in a normal size"
 msgstr "Takvimi normal boyutta göster"
 
-#: month/monthview.cpp:211 month/monthview.cpp:433
+#: month/monthview.cpp:208 month/monthview.cpp:480
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display calendar in a full window"
 msgstr "Takvimi tam pencerede göster"
 
-#: month/monthview.cpp:213
+#: month/monthview.cpp:210
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1653,68 +1793,70 @@ msgstr ""
 "Bu düğmeye tıkladığınızda ay görünümü kullanılabilen en en büyük pencere "
 "alanını kaplar / veya normal boyutuna küçülür."
 
-#: month/monthview.cpp:220
+#: month/monthview.cpp:217
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go back one month"
 msgstr "Bir ay geri git"
 
-#: month/monthview.cpp:221
+#: month/monthview.cpp:218
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Click this button and the view will be scrolled back in time by 1 month."
 msgstr "Bu düğmeyi tıkladığınızda görünüm 1 ay geri sarılacaktır."
 
-#: month/monthview.cpp:227
+#: month/monthview.cpp:224
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go back one week"
 msgstr "Bir hafta geri git"
 
-#: month/monthview.cpp:228
+#: month/monthview.cpp:225
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Click this button and the view will be scrolled back in time by 1 week."
 msgstr "Bu düğmeyi tıkladığınızda görünüm 1 hafta geri sarılacaktır."
 
-#: month/monthview.cpp:234
+#: month/monthview.cpp:231
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go forward one week"
 msgstr "Bir hafta ileri git"
 
-#: month/monthview.cpp:235
+#: month/monthview.cpp:232
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Click this button and the view will be scrolled forward in time by 1 week."
 msgstr "Bu düğmeye tıkladığınızda görünüm 1 hafta ileri sarılacaktır."
 
-#: month/monthview.cpp:241
+#: month/monthview.cpp:238
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go forward one month"
 msgstr "Bir ay ileri git"
 
-#: month/monthview.cpp:242
+#: month/monthview.cpp:239
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Click this button and the view will be scrolled forward in time by 1 month."
 msgstr "Bu düğmeye tıkladığınızda görünüm 1 ay ileri sarılacaktır."
 
-#: multiagenda/multiagendaview.cpp:96
+#: multiagenda/multiagendaview.cpp:97
 #, kde-format
+msgctxt "@item:intable"
 msgid "Agenda %1"
 msgstr "Ajanda %1"
 
-#: multiagenda/multiagendaview.cpp:178
+#: multiagenda/multiagendaview.cpp:179
 #, kde-format
+msgctxt "@label:textbox"
 msgid "All Day"
 msgstr "Tüm Gün"
 
-#: timeline/timelineview.cpp:223
+#: timeline/timelineview.cpp:224
 #, kde-format
 msgid "Calendar"
 msgstr "Takvim"
@@ -1725,7 +1867,7 @@ msgctxt "@action:inmenu Unspecified priority"
 msgid "unspecified"
 msgstr "belirtilmemiş"
 
-#: todo/tododelegates.cpp:153 todo/todoview.cpp:455
+#: todo/tododelegates.cpp:153 todo/todoview.cpp:485
 #, kde-format
 msgctxt "@action:inmenu highest priority"
 msgid "1 (highest)"
@@ -1749,7 +1891,7 @@ msgctxt "@action:inmenu"
 msgid "4"
 msgstr "4"
 
-#: todo/tododelegates.cpp:157 todo/todoview.cpp:459
+#: todo/tododelegates.cpp:157 todo/todoview.cpp:489
 #, kde-format
 msgctxt "@action:inmenu medium priority"
 msgid "5 (medium)"
@@ -1773,180 +1915,234 @@ msgctxt "@action:inmenu"
 msgid "8"
 msgstr "8"
 
-#: todo/tododelegates.cpp:161 todo/todoview.cpp:463
+#: todo/tododelegates.cpp:161 todo/todoview.cpp:493
 #, kde-format
 msgctxt "@action:inmenu lowest priority"
 msgid "9 (lowest)"
 msgstr "9 (en düşük)"
 
-#: todo/todoview.cpp:233
+#: todo/todoview.cpp:256
 #, kde-format
+msgctxt "@info"
 msgid "Cannot move to-do to itself or a child of itself."
 msgstr "Bir yapılacak iş kendisine veya bir alt işine taşınamaz."
 
-#: todo/todoview.cpp:234
+#: todo/todoview.cpp:257
 #, kde-format
 msgctxt "@title:window"
 msgid "Drop To-do"
 msgstr "Yapılacak’ı Bırak"
 
-#: todo/todoview.cpp:314
+#: todo/todoview.cpp:328
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Display to-do list in a full window"
-msgstr "Yapılacaklar listesini tam bir pencerede görüntüle"
+msgid "Create an open-ended to-do"
+msgstr "Açık uçlu bir yapılacak oluştur"
 
-#: todo/todoview.cpp:315
-#, kde-format
+#: todo/todoview.cpp:331
+#, kde-kuit-format
 msgctxt "@info:whatsthis"
-msgid "Checking this option will cause the to-do view to use the full window."
+msgid ""
+"Enter the summary for a new to-do. <para><note>The new to-do will be open-"
+"ended meaning that it has no start or end times nor will it have a reminder "
+"or recurrence. Edit the newly created if you want to add more properties.</"
+"note></para>"
 msgstr ""
-"Bu seçeneği seçmek yapılacaklar listesinin tam ekran görüntülenmesine neden "
-"olacaktır."
+"Yeni yapılacak için olan özeti girin.<para><note>Yeni yapılacak işin ucu "
+"açık olacaktır; bu, ne bir başlangıç veya bitiş ne de bir anımsatıcısının "
+"veya yeniden oluşunun olacağı anlamına gelir. Bunlardan birini veya başka "
+"bir şey eklemek isterseniz yeni oluşturduğunuz yapılacağı düzenleyin.</"
+"note></para>"
 
-#: todo/todoview.cpp:320
+#: todo/todoview.cpp:341
 #, kde-format
 msgctxt "@info:tooltip"
-msgid "Display to-dos in flat list instead of a tree"
-msgstr "Yapılacakları ağaç görünümü yerine düz liste olarak görüntüle"
+msgid "Display to-dos in a full window without the sidebar"
+msgstr ""
+"Yapılacaklar listesini kenar çubuğu olmadan tam bir pencerede görüntüle"
 
-#: todo/todoview.cpp:322
+#: todo/todoview.cpp:343
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
-"Checking this option will cause the to-dos to be displayed as a flat list "
-"instead of a hierarchical tree; the parental relationships are removed in "
-"the display."
+"Checking this button will cause the to-dos to be displayed in a larger "
+"window by hiding the sidebar."
 msgstr ""
-"Bu seçeneği seçmek yapılacaklar listesinin ilişkili bir ağaç listesi "
-"şeklinde değil de düz bir liste olarak görüntülenmesine neden olacaktır; "
-"yani üstlerle olan ilişkiler görüntüde kaldırılacaktır."
+"Bu düğmenin işaretlenmesi, kenar çubuğunu gizleyerek yapılacakların daha "
+"büyük bir pencerede görüntülenmesini sağlar."
 
-#: todo/todoview.cpp:361
+#: todo/todoview.cpp:349
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Display to-dos in a flat list or a tree"
+msgstr "Yapılacakları ağaç görünümü yerine düz liste olarak görüntüle"
+
+#: todo/todoview.cpp:351
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Checking this button will cause the to-dos to be displayed either as a flat "
+"list or a hierarchical tree where the parental relationships are removed."
+msgstr ""
+"Bu düğmenin işaretlenmesi, yapılacakların ya düz bir liste ya da üst "
+"ilişkilerinin kaldırıldığı hiyerarşik bir ağaç olarak görüntülenmesine neden "
+"olur."
+
+#: todo/todoview.cpp:390
 #, kde-format
 msgctxt "@action:inmenu show the to-do"
 msgid "&Show"
 msgstr "&Göster"
 
-#: todo/todoview.cpp:366
+#: todo/todoview.cpp:395
 #, kde-format
 msgctxt "@action:inmenu edit the to-do"
-msgid "&Edit..."
-msgstr "Dü&zenle..."
+msgid "&Edit…"
+msgstr "Dü&zenle…"
 
-#: todo/todoview.cpp:373
+#: todo/todoview.cpp:402
 #, kde-format
 msgctxt "@action:inmenu delete the to-do"
 msgid "&Delete"
 msgstr "&Sil"
 
-#: todo/todoview.cpp:382
+#: todo/todoview.cpp:411
 #, kde-format
 msgctxt "@action:inmenu print the to-do"
-msgid "&Print..."
-msgstr "&Yazdır..."
+msgid "&Print…"
+msgstr "&Yazdır…"
 
-#: todo/todoview.cpp:387
+#: todo/todoview.cpp:416
 #, kde-format
 msgctxt "@action:inmenu print preview the to-do"
-msgid "Print Previe&w..."
-msgstr "&Yazdırma Önizlemesi..."
+msgid "Print Previe&w…"
+msgstr "&Yazdırma Önizlemesi…"
 
-#: todo/todoview.cpp:394
+#: todo/todoview.cpp:423
 #, kde-format
 msgctxt "@action:inmenu create a new to-do"
-msgid "New &To-do..."
-msgstr "Yeni &Yapılacak Ögesi..."
+msgid "New &To-do…"
+msgstr "Yeni &Yapılacak Ögesi…"
 
-#: todo/todoview.cpp:398
+#: todo/todoview.cpp:427
 #, kde-format
 msgctxt "@action:inmenu create a new sub-to-do"
-msgid "New Su&b-to-do..."
-msgstr "Yeni Al&t yapılacak iş..."
+msgid "New Su&b-to-do…"
+msgstr "Yeni Al&t Yapılacak İş…"
 
-#: todo/todoview.cpp:402
+#: todo/todoview.cpp:431
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Make this To-do Independent"
 msgstr "Bu Yapılacak Ögeyi Bağımsız &Yap"
 
-#: todo/todoview.cpp:404
+#: todo/todoview.cpp:433
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Make all Sub-to-dos &Independent"
-msgstr "Tüm alt-yapılacakları &bağımsız yap"
+msgstr "Tüm alt yapılacakları &bağımsız yap"
 
-#: todo/todoview.cpp:415
+#: todo/todoview.cpp:444
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Create Event from To-do"
 msgstr "Yapılacaktan Etkinlik Oluştur"
 
-#: todo/todoview.cpp:423
+#: todo/todoview.cpp:452
 #, kde-format
-msgctxt "@action:inmenu"
-msgid "Create Note for To-do"
-msgstr "Yapılacak için Not Oluştur"
+msgctxt "@action:inmenu set or unset to-do is completed"
+msgid "Togg&le To-do Completed"
+msgstr "Tamamlanmış Yapılacakları Aç/&Kapat"
 
-#: todo/todoview.cpp:433
+#: todo/todoview.cpp:456
+#, kde-format
+msgctxt "@action:inmenu enable or disable reminder"
+msgid "&Toggle Reminder"
+msgstr "&Anımsatıcıyı Aç/Kapat"
+
+#: todo/todoview.cpp:463
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Copy To"
 msgstr "Ko&pyala"
 
-#: todo/todoview.cpp:440
+#: todo/todoview.cpp:470
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Move To"
 msgstr "&Taşı"
 
-#: todo/todoview.cpp:451
+#: todo/todoview.cpp:481
 #, kde-format
 msgctxt "@action:inmenu delete completed to-dos"
 msgid "Pur&ge Completed"
-msgstr "Tamamlananları &Birleştir"
+msgstr "Tamamlanmışları &Temizle"
 
-#: todo/todoview.cpp:454
+#: todo/todoview.cpp:484
 #, kde-format
 msgctxt "@action:inmenu unspecified priority"
 msgid "unspecified"
 msgstr "belirtilmemiş"
 
-#: todo/todoview.cpp:456
+#: todo/todoview.cpp:486
 #, kde-format
 msgctxt "@action:inmenu priority value=2"
 msgid "2"
 msgstr "2"
 
-#: todo/todoview.cpp:457
+#: todo/todoview.cpp:487
 #, kde-format
 msgctxt "@action:inmenu priority value=3"
 msgid "3"
 msgstr "3"
 
-#: todo/todoview.cpp:458
+#: todo/todoview.cpp:488
 #, kde-format
 msgctxt "@action:inmenu priority value=4"
 msgid "4"
 msgstr "4"
 
-#: todo/todoview.cpp:460
+#: todo/todoview.cpp:490
 #, kde-format
 msgctxt "@action:inmenu priority value=6"
 msgid "6"
 msgstr "6"
 
-#: todo/todoview.cpp:461
+#: todo/todoview.cpp:491
 #, kde-format
 msgctxt "@action:inmenu priority value=7"
 msgid "7"
 msgstr "7"
 
-#: todo/todoview.cpp:462
+#: todo/todoview.cpp:492
 #, kde-format
 msgctxt "@action:inmenu priority value=8"
 msgid "8"
 msgstr "8"
+
+#: todo/todoview.cpp:1185
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Display the sidebar"
+msgstr "Kenar çubuğunu görüntüle"
+
+#: todo/todoview.cpp:1188
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Hide the sidebar"
+msgstr "Kenar çubuğunu gizle"
+
+#: todo/todoview.cpp:1207
+#, kde-format
+msgctxt "@info::tooltip"
+msgid "Switch to the tree list display"
+msgstr "Ağaç liste görüntüsüne geç"
+
+#: todo/todoview.cpp:1210
+#, kde-format
+msgctxt "@info::tooltip"
+msgid "Switch to the flat list display"
+msgstr "Düz liste görüntüsüne geç"
 
 #: todo/todoviewquickaddline.cpp:17
 #, kde-format
@@ -1970,14 +2166,14 @@ msgstr ""
 #: todo/todoviewquicksearch.cpp:39
 #, kde-format
 msgctxt "@label in QuickSearchLine"
-msgid "Search Summaries..."
-msgstr "Özetleri Ara..."
+msgid "Search Summaries…"
+msgstr "Özetleri Ara…"
 
 #: todo/todoviewquicksearch.cpp:46
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Filter on these tags"
-msgstr "Bu etiketlerdeki süzgeç"
+msgstr "Bu künyelerde süz"
 
 #: todo/todoviewquicksearch.cpp:48
 #, kde-format
@@ -1986,14 +2182,14 @@ msgid ""
 "Use this combobox to filter the to-dos that are shown by a list of selected "
 "tags."
 msgstr ""
-"Seçilen etiketlerin listesi tarafından görüntülenen yapılacakları süzmek "
-"için bu çoklu kutuyu kullanın."
+"Seçili künyelerin listesi tarafından görüntülenen yapılacakları süzmek için "
+"bu çoklu kutuyu kullanın."
 
 #: todo/todoviewquicksearch.cpp:50
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Select Tags"
-msgstr "Etiketler Seç"
+msgstr "Künyeler Seç"
 
 #: todo/todoviewquicksearch.cpp:73
 #, kde-format
@@ -2047,33 +2243,33 @@ msgctxt "@action:inmenu"
 msgid "%1"
 msgstr "%1"
 
-#: todo/todoviewsortfilterproxymodel.cpp:146
+#: todo/todoviewsortfilterproxymodel.cpp:161
 #, kde-format
 msgctxt "priority is unspecified"
 msgid "unspecified"
 msgstr "belirtilmemiş"
 
-#: todo/todoviewsortfilterproxymodel.cpp:147
-#: todo/todoviewsortfilterproxymodel.cpp:149
-#: todo/todoviewsortfilterproxymodel.cpp:151
-#: todo/todoviewsortfilterproxymodel.cpp:153
+#: todo/todoviewsortfilterproxymodel.cpp:162
+#: todo/todoviewsortfilterproxymodel.cpp:164
+#: todo/todoviewsortfilterproxymodel.cpp:166
+#: todo/todoviewsortfilterproxymodel.cpp:168
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: todo/todoviewsortfilterproxymodel.cpp:148
+#: todo/todoviewsortfilterproxymodel.cpp:163
 #, kde-format
 msgctxt "highest priority"
 msgid "%1 (highest)"
 msgstr "%1 (en yüksek)"
 
-#: todo/todoviewsortfilterproxymodel.cpp:150
+#: todo/todoviewsortfilterproxymodel.cpp:165
 #, kde-format
 msgctxt "medium priority"
 msgid "%1 (medium)"
 msgstr "%1 (orta)"
 
-#: todo/todoviewsortfilterproxymodel.cpp:152
+#: todo/todoviewsortfilterproxymodel.cpp:167
 #, kde-format
 msgctxt "lowest priority"
 msgid "%1 (lowest)"
@@ -2086,30 +2282,33 @@ msgstr "Sütunları Göster"
 
 #: viewerapp/main.cpp:19
 #, kde-format
+msgctxt "@label"
 msgid "ViewerApp"
-msgstr "Görüntüleyici Uygulaması"
+msgstr "Görüntüleyici uygulaması"
 
 #: viewerapp/main.cpp:21
 #, kde-format
+msgctxt "@info"
 msgid "A test app for embedding calendarviews"
-msgstr "Takvim görünümlerini gömmek için bir test uygulaması"
+msgstr "Takvim görünümlerini gömmek için bir sınama uygulaması"
 
 #: viewerapp/main.cpp:23
 #, kde-format
+msgctxt "@info"
 msgid ""
 "Copyright (C) 2010 Klarälvdalens Datakonsult AB, a KDAB Group company, "
 "info@kdab.net"
-msgstr ""
-"Telif Hakkı (C) 2010 Klarälvdalens Datakonsult AB,  KDAB Grup şirketi, "
-"info@kdab.net"
+msgstr "© 2010 Klarälvdalens Datakonsult AB, KDAB Grup şirketi, info@kdab.net"
 
 #: viewerapp/main.cpp:24
 #, kde-format
+msgctxt "@info:credit"
 msgid "Kevin Krammer"
 msgstr "Kevin Krammer"
 
 #: viewerapp/main.cpp:33
 #, kde-format
+msgctxt "@info:shell"
 msgid "Optional list of view names to instantiate"
 msgstr "Örneklendirilecek isteğe bağlı görünüm adları listesi"
 
@@ -2122,6 +2321,7 @@ msgstr "Takvim Görünümleri Görüntüleyicisi"
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: viewerapp/mainwindow.ui:55
 #, kde-format
+msgctxt "@title:tab a generic tab"
 msgid "Tab 1"
 msgstr "Sekme 1"
 
@@ -2155,12 +2355,169 @@ msgstr "Ay"
 msgid "Timeline"
 msgstr "Zaman Çizgisi"
 
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: viewerapp/settings.kcfg:71 viewerapp/settings.kcfg:156
+#, kde-format
+msgid "Category inside, calendar outside"
+msgstr "Kategori içeride, takvim dışarıda"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: viewerapp/settings.kcfg:72
+#, kde-format
+msgid ""
+"Select the \"Category inside, calendar outside\" option if you would like to "
+"draw calendar items in their associated category color, with the item's "
+"border drawn in the color of its calendar. Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"Takvim ögelerini ayarlanmış kategori renklerinde çizdirmek ve ögenin "
+"sınırını takvimin renginde görüntülemek istiyorsanız “Kategori içeride, "
+"takvim dışarıda” seçeneğini seçin. Bu renkleri ayarlamak için lütfen Renkler "
+"ve Yazıtipleri yapılandırma sayfasını kullanın."
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: viewerapp/settings.kcfg:73
+#, kde-format
+msgid ""
+"Draw agenda items in their category color inside and calendar color for "
+"their border"
+msgstr ""
+"Kategori rengi içeride ve takvim rengi sınır çizgisinde olacak şekilde "
+"ajanda unsurlarını çiz"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: viewerapp/settings.kcfg:76 viewerapp/settings.kcfg:161
+#, kde-format
+msgid "Calendar inside, category outside"
+msgstr "Takvim içeride, kategori dışarıda"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: viewerapp/settings.kcfg:77
+#, kde-format
+msgid ""
+"Select the \"Calendar inside, category outside\" option if you would like to "
+"draw calendar items in their associated calendar color, with the item's "
+"border drawn in the color of its category. Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"Takvim ögelerini, ilgili takvim renklerini kullanarak ve ögenin kenarlığı "
+"kategori rengiyle çizilmiş olarak çizmek istiyorsanız “Takvim içeride, "
+"kategori dışarıda” seçeneğini seçin. Bu renkleri ayarlamak için lütfen "
+"Renkler ve Yazıtipleri yapılandırma sayfasını kullanın."
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: viewerapp/settings.kcfg:78
+#, kde-format
+msgid ""
+"Draw agenda items in their calendar color inside and category color for "
+"their border"
+msgstr ""
+"Ajanda unsurlarını, takvim rengi içeride ve kategori rengi sınır çizgisinde "
+"olacak şekilde çiz"
+
+#. i18n: ectx: label, entry, group (Agenda View)
+#. i18n: ectx: label, entry, group (Month View)
+#: viewerapp/settings.kcfg:81 viewerapp/settings.kcfg:166
+#, kde-format
+msgid "Only category"
+msgstr "Yalnızca kategori"
+
+#. i18n: ectx: whatsthis, entry, group (Agenda View)
+#: viewerapp/settings.kcfg:82
+#, kde-format
+msgid ""
+"Select the \"Only category\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their associated category. Please "
+"use the Colors and Fonts configuration page for setting these colors."
+msgstr ""
+"“Yalnızca kategori” seçeneğini takvim ögelerini (hem içi hem de sınır "
+"çizgisini) ayarlanmış kategori renginde çizdirmek istiyorsanız kullanın. Bu "
+"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri yapılandırma sayfasını "
+"kullanın."
+
+#. i18n: ectx: tooltip, entry, group (Agenda View)
+#: viewerapp/settings.kcfg:83
+#, kde-format
+msgid "Draw agenda items using their category color for the inside and border"
+msgstr ""
+"Ajanda unsurlarını içeride ve sınır çizgisinde kategori rengi kullanarak çiz"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: viewerapp/settings.kcfg:157
+#, kde-format
+msgid ""
+"Select the \"Category inside, calendar outside\" option if you would like to "
+"draw calendar items in their associated category color, with the item's "
+"border drawn in the color of its calendar.  Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"Takvim ögelerini ayarlanmış kategori renklerinde çizdirmek ve ögenin "
+"sınırını takvimin renginde görüntülemek istiyorsanız “Kategori içeride, "
+"takvim dışarıda” seçeneğini seçin. Bu renkleri ayarlamak için lütfen Renkler "
+"ve Yazıtipleri yapılandırma sayfasını kullanın."
+
+#. i18n: ectx: tooltip, entry, group (Month View)
+#: viewerapp/settings.kcfg:158
+#, kde-format
+msgid ""
+"Draw month items in their category color inside and calendar color for their "
+"border"
+msgstr ""
+"Kategori rengi içeride ve takvim rengi sınır çizgisinde olacak şekilde ay "
+"ögelerini çiz"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: viewerapp/settings.kcfg:162
+#, kde-format
+msgid ""
+"Select the \"Calendar inside, category outside\" option if you would like to "
+"draw calendar items in their associated calendar color, with the item's "
+"border drawn in the color of its category.  Please use the Colors and Fonts "
+"configuration page for setting these colors."
+msgstr ""
+"Takvim ögelerini, ilgili takvim renklerini kullanarak ve ögenin kenarlığı "
+"kategori rengiyle çizilmiş olarak çizmek istiyorsanız “Takvim içeride, "
+"kategori dışarıda” seçeneğini seçin. Bu renkleri ayarlamak için lütfen "
+"Renkler ve Yazıtipleri yapılandırma sayfasını kullanın."
+
+#. i18n: ectx: tooltip, entry, group (Month View)
+#: viewerapp/settings.kcfg:163
+#, kde-format
+msgid ""
+"Draw month items in their calendar color inside and category color for their "
+"border"
+msgstr ""
+"Aylık ögeleri, takvim rengi içeride ve kategori rengi sınır çizgisinde "
+"olacak şekilde çiz"
+
+#. i18n: ectx: whatsthis, entry, group (Month View)
+#: viewerapp/settings.kcfg:167
+#, kde-format
+msgid ""
+"Select the \"Only category\" option if you would like to draw calendar items "
+"(both inside and border) in the color of their associated category.  Please "
+"use the Colors and Fonts configuration page for setting these colors."
+msgstr ""
+"“Yalnızca kategori” seçeneği ile, takvim ögelerini (hem içi hem de sınır "
+"çizgisini) ayarlanmış kategori renginde çizdirmek istiyorsanız kullanın. Bu "
+"renkleri ayarlamak için lütfen Renkler ve Yazıtipleri yapılandırma sayfasını "
+"kullanın."
+
+#. i18n: ectx: tooltip, entry, group (Month View)
+#: viewerapp/settings.kcfg:168
+#, kde-format
+msgid "Draw month items using their category color for the inside and border"
+msgstr ""
+"Aylık unsurları, içeride ve sınır çizgisinde kategori rengi kullanarak çizdir"
+
 #. i18n: ectx: label, entry, group (Colors)
 #: viewerapp/settings.kcfg:241
 #, kde-format
 msgid "\"No category\" color (for \"Only category\" drawing schemes)"
 msgstr ""
-"\"Sınıflandırma yok\" rengi (\"Yalnızca sınıflandırma\" çizim şemaları için)"
+"“Sınıflandırma yok” rengi (“Yalnızca sınıflandırma” çizim şemaları için)"
 
 #. i18n: ectx: whatsthis, entry, group (Colors)
 #: viewerapp/settings.kcfg:242
@@ -2171,10 +2528,10 @@ msgid ""
 "when drawing items in the agenda or month views using the \"Only category\" "
 "scheme."
 msgstr ""
-"Bir öge hiç bir kategoriye ait olmadığında kullanılacak \"kategori yok\" "
-"veya \"kategori ayarlanmamış\" durumları için kullanılacak rengi seçin. Bu "
-"renk \"Yalnızca kategori\" şeması kullanılarak ajanda veya aylık görünüm "
-"çizilirken kullanılır."
+"Bir öge hiç bir kategoriye ait olmadığında kullanılacak “kategori yok” veya "
+"“kategori ayarlanmamış” durumları için kullanılacak rengi seçin. Bu renk "
+"“Yalnızca kategori” şeması kullanılarak ajanda veya aylık görünüm çizilirken "
+"kullanılır."
 
 #. i18n: ectx: tooltip, entry, group (Colors)
 #: viewerapp/settings.kcfg:243
@@ -2186,7 +2543,7 @@ msgstr "Sınıflandırması olmayan ögeleri çizerken bu rengi kullan"
 #: viewerapp/settings.kcfg:274
 #, kde-format
 msgid "Use Groupware communication"
-msgstr "Groupware iletişimini kullan"
+msgstr "Grup yazılımı iletişimini kullan"
 
 #. i18n: ectx: whatsthis, entry, group (Group Scheduling)
 #: viewerapp/settings.kcfg:275
@@ -2197,50 +2554,72 @@ msgid ""
 "should check this box if you want to use the groupware functionality (e.g. "
 "Configuring Kontact as a KDE Kolab client)."
 msgstr ""
-"Başka katılımcıları ilgilendiren etkinlikler (veya yapılacaklar) "
-"oluştururken, güncellerken veya silerken otomatik posta oluşturmayı "
-"etkinleştirmek için bu kutuyu işaretleyin. Groupware işlevselliğini "
-"kullanmak istiyorsanız bu kutu işaretli olmalıdır (örn. Kontak’ı bir KDE "
-"Kolab istemcisi olarak ayarlamak istiyorsanız)."
+"Bu düğmeye tıklayarak, diğer katılımcıları ilgilendiren olayları (veya "
+"yapılacak işleri) oluştururken, güncellerken veya silerken kendiliğinden "
+"posta üretilmesini sağlayabilirsiniz. Grup yazılımı işlevini kullanmak "
+"istiyorsanız; örneğin, Kontak’ı KDE Kolab istemcisi olarak düzenlemek "
+"istiyorsanız, bu kutucuğu seçmeniz önerilir."
 
-#: whatsnext/whatsnextview.cpp:61
+#: whatsnext/whatsnextview.cpp:62
 #, kde-format
 msgid "To-dos:"
 msgstr "Yapılacaklar:"
 
-#: whatsnext/whatsnextview.cpp:77
+#: whatsnext/whatsnextview.cpp:78
 #, kde-format
 msgid "What's Next?"
 msgstr "Sırada ne var?"
 
-#: whatsnext/whatsnextview.cpp:84 whatsnext/whatsnextview.cpp:267
-#: whatsnext/whatsnextview.cpp:272
+#: whatsnext/whatsnextview.cpp:85 whatsnext/whatsnextview.cpp:269
+#: whatsnext/whatsnextview.cpp:274
 #, kde-format
 msgctxt "date from - to"
 msgid "%1 - %2"
-msgstr "%1 - %2"
+msgstr "%1–%2"
 
-#: whatsnext/whatsnextview.cpp:100
+#: whatsnext/whatsnextview.cpp:102
 #, kde-format
 msgid "Events:"
 msgstr "Etkinlikler:"
 
-#: whatsnext/whatsnextview.cpp:189 whatsnext/whatsnextview.cpp:213
+#: whatsnext/whatsnextview.cpp:191 whatsnext/whatsnextview.cpp:215
 #, kde-format
 msgid "Events and to-dos that need a reply:"
 msgstr "Yanıt gerektiren etkinlikler ve yapılacaklar:"
 
-#: whatsnext/whatsnextview.cpp:279
+#: whatsnext/whatsnextview.cpp:281
 #, kde-format
 msgctxt "date, from - to"
 msgid "%1, %2 - %3"
-msgstr "%1, %2 - %3"
+msgstr "%1, %2–%3"
 
-#: whatsnext/whatsnextview.cpp:308
+#: whatsnext/whatsnextview.cpp:310
 #, kde-format
 msgctxt "to-do due date"
 msgid "  (Due: %1)"
-msgstr "  (Bitiş Tarihi: %1)"
+msgstr "  (Bitiş tarihi: %1)"
+
+#~ msgctxt "@info:whatsthis"
+#~ msgid ""
+#~ "Checking this option will cause the to-do view to use the full window."
+#~ msgstr ""
+#~ "Bu seçeneği seçmek yapılacaklar listesinin tam ekran görüntülenmesine "
+#~ "neden olacaktır."
+
+#~ msgid "Age:"
+#~ msgstr "Yaş:"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Create Note for To-do"
+#~ msgstr "Yapılacak için Not Oluştur"
+
+#~ msgctxt "@action:inmenu edit the to-do"
+#~ msgid "&Edit..."
+#~ msgstr "Dü&zenle..."
+
+#~ msgctxt "@action:inmenu print the to-do"
+#~ msgid "&Print..."
+#~ msgstr "&Yazdır..."
 
 #~ msgctxt "yes, an exception to a recurring to-do"
 #~ msgid "Exception"

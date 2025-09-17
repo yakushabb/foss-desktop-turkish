@@ -6,21 +6,21 @@
 # obsoleteman <tulliana@gmail.com>, 2009.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2015, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-29 00:38+0000\n"
-"PO-Revision-Date: 2024-02-09 17:46+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-04-26 00:42+0000\n"
+"PO-Revision-Date: 2025-04-22 19:55+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 25.04.0\n"
 "X-POOTLE-MTIME: 1413102277.000000\n"
 
 #. i18n: ectx: property (toolTip), widget (QTabWidget, tabWidget)
@@ -125,13 +125,13 @@ msgstr ""
 msgid "Autosave delay:"
 msgstr "Kendiliğinden kaydetme gecikmesi:"
 
-#. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox, kcfg_AutosaveInterval)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_AutosaveInterval)
 #: settingsdialog.ui:152
 #, kde-format
 msgid "Autosave interval time (in minutes)."
 msgstr "Kendiliğinden kaydetme zaman aralığı (dakika)."
 
-#. i18n: ectx: property (whatsThis), widget (KPluralHandlingSpinBox, kcfg_AutosaveInterval)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_AutosaveInterval)
 #: settingsdialog.ui:155
 #, kde-format
 msgid "Select autosave interval time for the resource data (in minutes)."
@@ -147,8 +147,8 @@ msgstr "Seçili dosya yok."
 msgid "The resource not configured yet"
 msgstr "Özkaynak henüz yapılandırılmadı"
 
-#: singlefileresource.h:102 singlefileresource.h:131 singlefileresource.h:222
-#: singlefileresourcebase.cpp:280 singlefileresourcebase.cpp:298
+#: singlefileresource.h:102 singlefileresource.h:131 singlefileresource.h:226
+#: singlefileresourcebase.cpp:281 singlefileresourcebase.cpp:299
 #, kde-format
 msgctxt "@info:status"
 msgid "Ready"
@@ -157,66 +157,71 @@ msgstr "Hazır"
 #: singlefileresource.h:104
 #, kde-format
 msgid "Could not create file '%1'."
-msgstr "'%1' dosyası oluşturulamadı."
+msgstr "“%1” dosyası oluşturulamadı."
 
 #: singlefileresource.h:118
 #, kde-format
 msgid "Could not read file '%1'"
-msgstr "'%1' dosyası okunamadı"
+msgstr "“%1” dosyası okunamadı"
 
-#: singlefileresource.h:135
+#: singlefileresource.h:139
 #, kde-format
 msgid "Another download is still in progress."
 msgstr "Başka bir indirme işlemi sürüyor."
 
-#: singlefileresource.h:145 singlefileresource.h:236
+#: singlefileresource.h:149 singlefileresource.h:240
 #, kde-format
 msgid "Another file upload is still in progress."
 msgstr "Başka bir yükleme işlemi sürüyor."
 
-#: singlefileresource.h:163
+#: singlefileresource.h:167
 #, kde-format
 msgid "Downloading remote file."
 msgstr "Uzak dosya indiriliyor."
 
-#: singlefileresource.h:186
+#: singlefileresource.h:190
 #, kde-format
 msgid "Trying to write to a read-only file: '%1'."
-msgstr "Saltokunur bir dosyaya yazılmaya çalışılıyor: '%1'."
+msgstr "Saltokunur bir dosyaya yazılmaya çalışılıyor: “%1”."
 
-#: singlefileresource.h:198
+#: singlefileresource.h:202
 #, kde-format
 msgid "No file specified."
 msgstr "Belirtilen dosya yok."
 
-#: singlefileresource.h:226
+#: singlefileresource.h:230
 #, kde-format
 msgid "A download is still in progress."
 msgstr "Bir indirme işlemi hâlâ sürüyor."
 
-#: singlefileresource.h:266
+#: singlefileresource.h:270
 #, kde-format
 msgid "Uploading cached file to remote location."
 msgstr "Önbelleğe alınan dosya uzak konuma yükleniyor."
 
-#: singlefileresourcebase.cpp:239
+#: singlefileresourcebase.cpp:240
 #, kde-format
 msgid ""
 "The file '%1' was changed on disk. As a precaution, a backup of its previous "
 "contents has been created at '%2'."
 msgstr ""
-"'%1' dosyası diskte değişti. Veri kaybı yaşamamak için değişikliklerin bir "
-"yedeği '%2' olarak oluşturuldu."
+"“%1” dosyası diskte değişti. Veri kaybı yaşamamak için değişikliklerin bir "
+"yedeği “%2” olarak oluşturuldu."
 
-#: singlefileresourcebase.cpp:271
+#: singlefileresourcebase.cpp:272
 #, kde-format
 msgid "Could not load file '%1'."
-msgstr "'%1' dosyası yüklenemedi."
+msgstr "“%1” dosyası yüklenemedi."
 
-#: singlefileresourcebase.cpp:287
+#: singlefileresourcebase.cpp:288
 #, kde-format
 msgid "Could not save file '%1'."
-msgstr "'%1' dosyası kaydedilemedi."
+msgstr "“%1” dosyası kaydedilemedi."
+
+#: singlefileresourceconfigbase.h:30
+#, kde-format
+msgid "Activities"
+msgstr "Etkinlikler"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: singlefileresourceconfigwidget_desktop.ui:39
@@ -299,22 +304,32 @@ msgstr ""
 "Dosyayı periyodik olarak günceller. İzleme olanaklı olmadığında "
 "kullanılabilir (örneğin uzak takvimler için)."
 
-#: singlefileresourceconfigwidgetbase.cpp:129
+#: singlefileresourceconfigwidgetbase.cpp:37
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"A file path or URL containing the calendar file. Once created, this location "
+"cannot be modified."
+msgstr ""
+"Takvim dosyasını içeren bir dosya yolu veya URL. Bir kez oluşturulduktan "
+"sonra bu konum üzerinde değişiklik yapılamaz."
+
+#: singlefileresourceconfigwidgetbase.cpp:39
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter the path or URL to a file containing a valid calendar file. "
+"<para><note> Unfortunately, this path cannot be changed once the resource is "
+"created. To change the location, delete this resource and then create a new "
+"one with the updated path.</note></para>"
+msgstr ""
+"Geçerli bir takvim dosyası içeren bir dosya yolu veya URL girin. "
+"<para><note>Ne yazık ki, bir kez oluşturulduktan sonra bu konum üzerinde "
+"değişiklik yapılamaz. Konumu değiştirmek için bu özkaynağı silin ve "
+"güncellenmiş yolu içeren yeni bir tane oluşturun.</note></para>"
+
+#: singlefileresourceconfigwidgetbase.cpp:145
 #, kde-format
 msgctxt "@info:status"
-msgid "Checking file information..."
-msgstr "Dosya bilgisi denetleniyor..."
-
-#~ msgid "File Name:"
-#~ msgstr "&Dosya Adı:"
-
-#~ msgid ""
-#~ "Select a file. A new file will be created if it doesn't exist. You can "
-#~ "also use a URL, but in that case, monitoring for file changes is not "
-#~ "possible."
-#~ msgstr ""
-#~ "Bir dosya seçin. Yoksa yeni bir dosya oluşturulacaktır. Bir URL de "
-#~ "kullanabilirsiniz; ancak bu durumda dosyadaki değişiklikler izlenemez."
-
-#~ msgid "Enable file &monitoring"
-#~ msgstr "Dosya izlemeyi &etkinleştir"
+msgid "Checking file information…"
+msgstr "Dosya bilgisi denetleniyor…"

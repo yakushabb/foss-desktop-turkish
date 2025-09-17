@@ -3,21 +3,21 @@
 #
 # Translators:
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2017, 2021.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: playground-base-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-27 00:38+0000\n"
-"PO-Revision-Date: 2024-02-27 12:48+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-05-01 00:43+0000\n"
+"PO-Revision-Date: 2025-05-03 20:42+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 25.04.0\n"
 
 #: CPUEntry.cpp:17
 #, kde-format
@@ -33,10 +33,34 @@ msgctxt ""
 msgid "Unknown Type"
 msgstr "Bilinmeyen Tür"
 
-#: GPUEntry.cpp:19
+#: GPUEntry.cpp:17
+#, kde-format
+msgctxt "@label %1 is the GPU index number"
+msgid "Graphics Processor %1:"
+msgstr "Grafik işlemcisi %1:"
+
+#: GPUEntry.cpp:18
 #, kde-format
 msgid "Graphics Processor:"
 msgstr "Grafik işlemcisi:"
+
+#: GPUEntry.cpp:28
+#, kde-format
+msgctxt "@label GPU type"
+msgid "integrated"
+msgstr "tümleşik"
+
+#: GPUEntry.cpp:30
+#, kde-format
+msgctxt "@label GPU type"
+msgid "discrete"
+msgstr "ayrı"
+
+#: GPUEntry.cpp:32
+#, kde-format
+msgctxt "@label GPU type. GPU of a virtual machine"
+msgid "virtual"
+msgstr "sanal"
 
 #: GraphicsPlatformEntry.cpp:10
 #, kde-format
@@ -54,68 +78,117 @@ msgctxt "@label %1 is the kernel version, %2 CPU bit width (e.g. 32 or 64)"
 msgid "%1 (%2-bit)"
 msgstr "%1 (%2 bit)"
 
-#: main.cpp:197
+#: main.cpp:199
 #, kde-format
 msgctxt "@label"
 msgid "Manufacturer:"
 msgstr "Üretici:"
 
-#: main.cpp:200 main.cpp:217
+#: main.cpp:202 main.cpp:219
 #, kde-format
 msgctxt "@label"
 msgid "Product Name:"
 msgstr "Ürün adı:"
 
-#: main.cpp:203
+#: main.cpp:205
 #, kde-format
 msgctxt "@label"
 msgid "System Version:"
 msgstr "Sistem sürümü:"
 
-#: main.cpp:206 main.cpp:220
+#: main.cpp:208 main.cpp:222
 #, kde-format
 msgctxt "@label"
 msgid "Serial Number:"
 msgstr "Seri numarası:"
 
-#: main.cpp:210 main.cpp:227
+#: main.cpp:212 main.cpp:229
 #, kde-format
 msgctxt "@label unknown entry in table"
 msgid "Unknown:"
 msgstr "Bilinmiyor:"
 
-#: main.cpp:223
+#: main.cpp:225
 #, kde-format
 msgctxt "@label uboot is the name of a bootloader for embedded devices"
 msgid "U-Boot Version:"
 msgstr "U-Boot sürümü:"
 
-#: main.cpp:261
+#: main.cpp:263
 #, kde-format
 msgid "KDE Frameworks Version:"
 msgstr "KDE Frameworks sürümü:"
 
-#: main.cpp:262
+#: main.cpp:264
 #, kde-format
 msgid "Qt Version:"
 msgstr "Qt sürümü:"
 
-#: MemoryEntry.cpp:20
+#: MemoryEntry.cpp:23
 #, kde-format
 msgid "Memory:"
 msgstr "Bellek:"
 
-#: MemoryEntry.cpp:49
+#: MemoryEntry.cpp:111
 #, kde-format
-msgctxt "@label %1 is the formatted amount of system memory (e.g. 7,7 GiB)"
+msgctxt ""
+"@label, %1 is the total amount of installed system memory, %2 is the amount "
+"of which is usable, both expressed as 7.7 GiB"
+msgid "%1 of RAM (%2 usable)"
+msgstr "%1 RAM (%2 kullanılabilir)"
+
+#: MemoryEntry.cpp:119
+#, kde-format
+msgctxt ""
+"@label, %1 is the amount of installed system memory expressed as 7.7 GiB"
 msgid "%1 of RAM"
 msgstr "%1 RAM"
 
-#: MemoryEntry.cpp:53
+#: MemoryEntry.cpp:126
 #, kde-format
-msgctxt "Unknown amount of RAM"
+msgctxt "@label, %1 is the amount of usable system memory expressed as 7.7 GiB"
+msgid "%1 of usable RAM"
+msgstr "%1 kullanılabilir RAM"
+
+#: MemoryEntry.cpp:132
+#, kde-format
+msgctxt "@label, Unknown amount of system memory"
 msgid "Unknown"
 msgstr "Bilinmiyor"
+
+#: MemoryEntry.cpp:140
+#, kde-format
+msgctxt "@info:tooltip, referring to system memory or RAM"
+msgid ""
+"Some memory is reserved for use by the kernel or system hardware such as "
+"integrated graphics memory."
+msgstr ""
+"Bazı bellekler, çekirdek veya tümleşik grafik belleği gibi sistem donanımı "
+"tarafından kullanılmak üzere ayrılmıştır."
+
+#: MemoryEntry.cpp:148
+#, kde-format
+msgctxt "@info:tooltip, referring to system memory or RAM"
+msgid ""
+"The amount of usable memory may be lower than the displayed amount because "
+"some memory is reserved for use by the kernel or system hardware, such as "
+"integrated graphics memory."
+msgstr ""
+"Kullanılabilir bellek miktarı görüntülenen miktardan daha düşük olabilir; "
+"çünkü belleğin bir kısmı çekirdek veya tümleşik grafik belleği gibi sistem "
+"donanımı tarafından kullanılmak üzere ayrılmıştır."
+
+#: MemoryEntry.cpp:157
+#, kde-format
+msgctxt "@info:tooltip, referring to system memory or RAM"
+msgid ""
+"The amount of memory displayed may be lower than the installed amount "
+"because some memory is reserved for use by the kernel or system hardware, "
+"such as integrated graphics memory."
+msgstr ""
+"Görüntülenen bellek miktarı, takılı miktardan daha düşük olabilir; çünkü "
+"belleğin bir kısmı tümleşik grafik belleği gibi çekirdek veya sistem "
+"donanımı tarafından kullanılmak üzere ayrılmıştır."
 
 #: OSVersionEntry.cpp:9
 #, kde-format
@@ -147,61 +220,61 @@ msgctxt "Unused but needs to be : to avoid assertion in Entry constructor"
 msgid ":"
 msgstr ":"
 
-#: ui/main.qml:90
+#: ui/main.qml:96
 #, kde-format
 msgctxt "@title"
 msgid "Serial Number"
 msgstr "Seri Numarası"
 
-#: ui/main.qml:96
+#: ui/main.qml:102
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "Kopyala"
 
-#: ui/main.qml:123
+#: ui/main.qml:179
 #, kde-format
 msgctxt "@action:button show a hidden entry in an overlay"
 msgid "Show"
 msgstr "Göster"
 
-#: ui/main.qml:135
+#: ui/main.qml:191
 #, kde-format
 msgctxt "@title:group"
 msgid "Software"
 msgstr "Yazılım"
 
-#: ui/main.qml:145
+#: ui/main.qml:201
 #, kde-format
 msgctxt "@title:group"
 msgid "Hardware"
 msgstr "Donanım"
 
-#: ui/main.qml:162
+#: ui/main.qml:218
 #, kde-format
-msgctxt "@action:button launches kinfocenter from systemsettings"
-msgid "More System Information"
-msgstr "Ek Sistem Bilgisi"
+msgctxt "@action:button"
+msgid "Launch %1…"
+msgstr "Başlat: %1…"
 
-#: ui/main.qml:163
+#: ui/main.qml:219
 #, kde-format
-msgctxt "@info:tooltip"
-msgid "Launch %1"
-msgstr "Başlat: %1"
+msgctxt "@info:tooltip launches kinfocenter from systemsettings"
+msgid "See more detailed system information"
+msgstr "Ayrıntılı sistem bilgisini gör"
 
-#: ui/main.qml:171 ui/main.qml:179
+#: ui/main.qml:227 ui/main.qml:235
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Details"
 msgstr "Ayrıntıları Kopyala"
 
-#: ui/main.qml:182
+#: ui/main.qml:238
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In current language"
 msgstr "Geçerli Dilde"
 
-#: ui/main.qml:188
+#: ui/main.qml:244
 #, kde-format
 msgctxt "@action:button Copy Details..."
 msgid "In English"

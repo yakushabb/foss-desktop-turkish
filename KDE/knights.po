@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extragear-games-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-03-07 00:36+0000\n"
-"PO-Revision-Date: 2024-03-08 19:55+0300\n"
+"POT-Creation-Date: 2025-05-15 00:40+0000\n"
+"PO-Revision-Date: 2024-12-18 12:33+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -32,16 +32,17 @@ msgid "Your emails"
 msgstr ""
 "ibrahim@pardus.org.tr, ayhanyalcinsoy@pisilinux.org, emir_sari@icloud.com"
 
-#: board.cpp:577
+#: board.cpp:579
 #, kde-format
 msgctxt "@title:window"
 msgid "Promotion"
 msgstr "Terfi"
 
-#: board.cpp:581
+#: board.cpp:583
 #, kde-format
+msgctxt "@action:button"
 msgid "Promote"
-msgstr "Terfi et"
+msgstr "Terfi Ettir"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupB)
 #: clockwidget.ui:17
@@ -80,7 +81,7 @@ msgstr "Bellek &boyutu:"
 #, kde-format
 msgctxt "Megabytes"
 msgid " MB"
-msgstr "MB"
+msgstr " MB"
 
 #: difficultydialog.cpp:35
 #, kde-format
@@ -96,13 +97,13 @@ msgctxt "@title:window"
 msgid "Difficulty Level"
 msgstr "Zorluk Düzeyi"
 
-#: enginesettings.cpp:109
+#: enginesettings.cpp:111
 #, kde-format
 msgctxt "Protocol name"
 msgid "XBoard"
 msgstr "XBoard"
 
-#: enginesettings.cpp:109
+#: enginesettings.cpp:112
 #, kde-format
 msgctxt "Protocol name"
 msgid "UCI"
@@ -158,6 +159,7 @@ msgstr "Yeni Oyun"
 
 #: gamedialog.cpp:266
 #, kde-format
+msgctxt "@item:valuesuffix"
 msgid " minute"
 msgid_plural " minutes"
 msgstr[0] " dakika"
@@ -165,6 +167,7 @@ msgstr[1] " dakika"
 
 #: gamedialog.cpp:267
 #, kde-format
+msgctxt "@item:valuesuffix"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " saniye"
@@ -172,6 +175,7 @@ msgstr[1] " saniye"
 
 #: gamedialog.cpp:268
 #, kde-format
+msgctxt "@item:valuesuffix"
 msgid " move"
 msgid_plural " moves"
 msgstr[0] " hareket"
@@ -202,7 +206,7 @@ msgstr "Oyunu başlatın."
 #: gamedialog.ui:29
 #, kde-format
 msgid "Player 1"
-msgstr "Oyuncu 1"
+msgstr "1. Oyuncu"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer1Human)
 #: gamedialog.ui:35
@@ -238,7 +242,7 @@ msgstr "R&astgele seç"
 #: gamedialog.ui:129
 #, kde-format
 msgid "Player 2"
-msgstr "Oyuncu 2"
+msgstr "2. Oyuncu"
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Human)
 #: gamedialog.ui:135
@@ -355,13 +359,15 @@ msgstr "Şahmat"
 
 #: historywidget.cpp:26
 #, kde-format
-msgid "white"
-msgstr "beyaz"
+msgctxt "@title:column"
+msgid "White"
+msgstr "Beyaz"
 
 #: historywidget.cpp:27
 #, kde-format
-msgid "black"
-msgstr "siyah"
+msgctxt "@title:column"
+msgid "Black"
+msgstr "Siyah"
 
 #. i18n: ectx: property (text), widget (QTableWidget, twMoves)
 #: historywidget.ui:39 historywidget.ui:44
@@ -395,187 +401,222 @@ msgstr "Koordinat"
 
 #: knights.cpp:95
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Custom"
 msgstr "Özel"
 
-#: knights.cpp:135
+#: knights.cpp:140
 #, kde-format
-msgid "%1 is thinking..."
-msgstr "%1 düşünüyor..."
+msgid "%1 is thinking…"
+msgstr "%1 düşünüyor…"
 
-#: knights.cpp:142
+#: knights.cpp:147
 #, kde-format
+msgctxt "@title:window"
 msgid "Clock"
 msgstr "Saat"
 
-#: knights.cpp:173
+#: knights.cpp:178
 #, kde-format
 msgctxt "@title:window Title of the list of all the moves made in the game"
 msgid "Move History"
 msgstr "Hareket Geçmişi"
 
-#: knights.cpp:192 knights.cpp:481
+#: knights.cpp:197
 #, kde-format
+msgctxt "@action"
 msgid "Resign"
 msgstr "Oyunu Bırak"
 
-#: knights.cpp:193
-#, kde-format
-msgid "Admit your inevitable defeat"
-msgstr "Kaçınılmaz yenilgini kabul et"
-
 #: knights.cpp:198
 #, kde-format
+msgctxt "@info:tooltip"
+msgid "Admit your inevitable defeat"
+msgstr "Kaçınılmaz yenilgini kabullen"
+
+#: knights.cpp:203
+#, kde-format
+msgctxt "@action"
 msgid "Undo"
 msgstr "Geri Al"
 
-#: knights.cpp:199
+#: knights.cpp:204
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Take back your last move"
 msgstr "Son hareketini geri al"
 
-#: knights.cpp:205
+#: knights.cpp:210
 #, kde-format
+msgctxt "@action"
 msgid "Redo"
 msgstr "Yinele"
 
-#: knights.cpp:206
+#: knights.cpp:211
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Repeat your last move"
 msgstr "Son hareketini yinele"
 
-#: knights.cpp:213
+#: knights.cpp:218
 #, kde-format
+msgctxt "@action"
 msgid "Offer &Draw"
 msgstr "&Beraberlik Teklif Et"
 
-#: knights.cpp:214
+#: knights.cpp:219
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Offer a draw to your opponent"
 msgstr "Rakibine beraberlik teklif et"
 
-#: knights.cpp:219
+#: knights.cpp:224
 #, kde-format
+msgctxt "@action"
 msgid "Adjourn"
 msgstr "Ertele"
 
-#: knights.cpp:220
-#, kde-format
-msgid "Continue this game at a later time"
-msgstr "Bu oyuna sonra sürdür"
-
 #: knights.cpp:225
 #, kde-format
+msgctxt "@info:tooltip"
+msgid "Continue this game at a later time"
+msgstr "Bu oyunu sonra sürdür"
+
+#: knights.cpp:230
+#, kde-format
+msgctxt "@action"
 msgid "Abort"
 msgstr "İptal"
 
-#: knights.cpp:226
+#: knights.cpp:231
 #, kde-format
 msgid "End the game immediately"
 msgstr "Oyunu hemen bitir"
 
-#: knights.cpp:230
+#: knights.cpp:235
 #, kde-format
+msgctxt "@option:check"
 msgid "Show Clock"
 msgstr "Saati Göster"
 
-#: knights.cpp:236
+#: knights.cpp:241
 #, kde-format
+msgctxt "@option:check"
 msgid "Show History"
 msgstr "Geçmişi Göster"
 
-#: knights.cpp:243
+#: knights.cpp:248
 #, kde-format
+msgctxt "@option:check"
 msgid "Show White Console"
 msgstr "Beyaz Konsolu Göster"
 
-#: knights.cpp:249
+#: knights.cpp:254
 #, kde-format
+msgctxt "@option:check"
 msgid "Show Black Console"
 msgstr "Siyah Konsolu Göster"
 
-#: knights.cpp:255
+#: knights.cpp:260
 #, kde-format
+msgctxt "@option:check"
 msgid "Show Chat"
 msgstr "Sohbeti Göster"
 
-#: knights.cpp:294
+#: knights.cpp:299
 #, kde-format
+msgctxt "@title:window"
 msgid "Open File"
 msgstr "Dosya Aç"
 
-#: knights.cpp:295 knights.cpp:650 knights.cpp:673
+#: knights.cpp:300 knights.cpp:668
 #, kde-format
 msgid "Portable game notation (*.pgn)"
 msgstr "Taşınabilir oyun notasyonu (*.pgn)"
 
-#: knights.cpp:458
+#: knights.cpp:463
 #, kde-format
+msgctxt "@title:tab"
 msgid "General"
 msgstr "Genel"
 
-#: knights.cpp:462
+#: knights.cpp:467
 #, kde-format
+msgctxt "@title:tab"
 msgid "Computer Engines"
 msgstr "Bilgisayar İşletkeleri"
 
-#: knights.cpp:473
+#: knights.cpp:475
 #, kde-format
+msgctxt "@title:tab"
+msgid "Accessibility"
+msgstr "Erişilebilirlik"
+
+#: knights.cpp:480
+#, kde-format
+msgctxt "@title:tab"
 msgid "Theme"
 msgstr "Tema"
 
-#: knights.cpp:481
+#: knights.cpp:488
 #, kde-format
 msgid "Do you really want to resign?"
 msgstr "Teslim olmayı gerçekten istiyor musunuz?"
 
-#: knights.cpp:482
+#: knights.cpp:489
+#, kde-format
+msgctxt "@title:window"
+msgid "Resign"
+msgstr "Oyunu Bırak"
+
+#: knights.cpp:490
 #, kde-format
 msgctxt "@action:button"
 msgid "Resign"
 msgstr "Oyunu Bırak"
 
-#: knights.cpp:529
+#: knights.cpp:537
 #, kde-format
 msgctxt "@title:window"
-msgid "Game over"
+msgid "Game Over"
 msgstr "Oyun Bitti"
 
-#: knights.cpp:553
+#: knights.cpp:561
 #, kde-format
 msgid "The game ended in a draw"
 msgstr "Oyun beraberlikle sonlandı"
 
-#: knights.cpp:559
+#: knights.cpp:567
 #, kde-format
 msgctxt "White as in the player with white pieces"
 msgid "The game ended with a victory for <em>White</em>"
 msgstr "Oyun <em>Beyazların</em> zaferiyle sona erdi"
 
-#: knights.cpp:562
+#: knights.cpp:570
 #, kde-format
 msgctxt "Black as in the player with black pieces"
 msgid "The game ended with a victory for <em>Black</em>"
 msgstr "Oyun <em>Siyahların</em> zaferiyle sona erdi"
 
-#: knights.cpp:567
+#: knights.cpp:575
 #, kde-format
 msgctxt "Player name, then <White as in the player with white pieces"
 msgid "The game ended with a victory for <em>%1</em>, playing White"
 msgstr "Oyun beyazlarla oynayan <em>%1</em> oyuncusunun zaferiyle sona erdi"
 
-#: knights.cpp:570
+#: knights.cpp:578
 #, kde-format
 msgctxt "Player name, then Black as in the player with black pieces"
 msgid "The game ended with a victory for <em>%1</em>, playing Black"
 msgstr "Oyun siyahlarla oynayan <em>%1</em> oyuncusunun zaferiyle sona erdi"
 
-#: knights.cpp:616
+#: knights.cpp:624
 #, kde-format
+msgctxt "@title:window"
 msgid "%1 vs. %2"
-msgstr "%1 vs. %2"
+msgstr "%1, %2 karşısında"
 
-#: knights.cpp:629
+#: knights.cpp:637
 #, kde-format
 msgid ""
 "This will end your game.\n"
@@ -584,12 +625,7 @@ msgstr ""
 "Bu, oyununuzu sonlandıracak.\n"
 "Hareket geçmişini kaydetmek istiyor musunuz?"
 
-#: knights.cpp:649
-#, kde-format
-msgid "Save"
-msgstr "Kaydet"
-
-#: knights.cpp:672
+#: knights.cpp:667
 #, kde-format
 msgctxt "@title:window"
 msgid "Save As"
@@ -814,8 +850,8 @@ msgstr "işletkeye özel ayarların saklanmış yapılandırmaları"
 #. i18n: ectx: label, entry (speakOpponentsMoves), group (Accessibility)
 #: knights.kcfg:180
 #, kde-format
-msgid "whether opponents' moves are spoken by Jovie"
-msgstr "rakibin hamlelerinin Jovie tarafından seslendirip seslendirilmiyeceği"
+msgid "whether opponent's moves are spoken"
+msgstr "rakibin hamlelerinin seslendirilip seslendirilmediği"
 
 #. i18n: ectx: label, entry (allowExternalControl), group (Accessibility)
 #: knights.kcfg:184
@@ -853,76 +889,87 @@ msgid "Settings changed"
 msgstr "Ayarlar değişti"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KnightsView)
-#: knightsview_base.ui:14 main.cpp:46
+#: knightsview_base.ui:14 main.cpp:45
 #, kde-format
 msgid "Knights"
 msgstr "K Satranç"
 
-#: main.cpp:48
+#: main.cpp:47
 #, kde-format
 msgid "KDE Chess Board"
 msgstr "KDE Satranç Tahtası"
 
-#: main.cpp:49
+#: main.cpp:48
 #, kde-format
 msgid "(C) 2016-2017 Alexander Semke, 2009-2011 Miha Čančula"
-msgstr "(C) 2016-2017 Alexander Semke, 2009-2011 Miha Čančula"
+msgstr "© 2016–2017 Alexander Semke, 2009–2011 Miha Čančula"
 
-#: main.cpp:52
+#: main.cpp:51
 #, kde-format
 msgid "Alexander Semke"
 msgstr "Alexander Semke"
 
-#: main.cpp:53
+#: main.cpp:52
 #, kde-format
 msgid "Miha Čančula"
 msgstr "Miha Čančula"
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "Troy Corbin"
 msgstr "Troy Corbin"
 
-#: main.cpp:55
+#: main.cpp:54
 #, kde-format
 msgid "Original Knights for KDE3 and theme author"
 msgstr "KDE3 için özgün K Satranç ve tema yazarı"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "Dave Kaye"
 msgstr "Dave Kaye"
 
-#: main.cpp:57
+#: main.cpp:56
 #, kde-format
 msgid "Help with new theme features and rendering without KGameRenderer"
 msgstr ""
 "Yeni tema özellikleri ve KGameRenderer kullanılmadan tarama için yardım"
 
-#: main.cpp:58
+#: main.cpp:57
 #, kde-format
 msgid "Thomas Kamps"
 msgstr "Thomas Kamps"
 
-#: main.cpp:58
+#: main.cpp:57
 #, kde-format
 msgid "Clock displaying the remaining time"
 msgstr "Kalan zamanı gösteren saat"
 
-#: main.cpp:65
+#: main.cpp:66
 #, kde-format
 msgid "Document to open"
 msgstr "Açılacak belge"
 
+#: offerwidget.cpp:21
+#, kde-format
+msgctxt "@action"
+msgid "Accept"
+msgstr "Kabul Et"
+
+#: offerwidget.cpp:24
+#, kde-format
+msgctxt "@action"
+msgid "Decline"
+msgstr "Reddet"
+
 #. i18n: ectx: property (text), widget (QPushButton, acceptButton)
-#: offerwidget.cpp:21 popup.ui:37 proto/ficsprotocol.cpp:118
-#: proto/ficsprotocol.cpp:195
+#: popup.ui:37 proto/ficsprotocol.cpp:118 proto/ficsprotocol.cpp:195
 #, kde-format
 msgid "Accept"
 msgstr "Kabul Et"
 
 #. i18n: ectx: property (text), widget (QPushButton, declineButton)
-#: offerwidget.cpp:24 popup.ui:44 proto/ficsprotocol.cpp:199
+#: popup.ui:44 proto/ficsprotocol.cpp:199
 #, kde-format
 msgid "Decline"
 msgstr "Reddet"
@@ -1130,7 +1177,7 @@ msgstr "Gönder"
 #: proto/chatwidget.ui:51
 #, kde-format
 msgid "..."
-msgstr "..."
+msgstr "…"
 
 #: proto/computerprotocol.cpp:36
 #, kde-format
@@ -1146,23 +1193,23 @@ msgstr ""
 msgid "Console for %1 (%2)"
 msgstr "%1 konsolu (%2)"
 
-#: proto/ficsdialog.cpp:58
+#: proto/ficsdialog.cpp:62
 #, kde-format
 msgid "Session started"
-msgstr "Oturun başladı"
+msgstr "Oturum başladı"
 
-#: proto/ficsdialog.cpp:69
+#: proto/ficsdialog.cpp:73
 #, kde-format
-msgid "Logging in..."
-msgstr "Oturum açılıyor..."
+msgid "Logging in…"
+msgstr "Oturum açılıyor…"
 
-#: proto/ficsdialog.cpp:110
+#: proto/ficsdialog.cpp:114
 #, kde-format
 msgctxt "PlayerName (rating)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: proto/ficsdialog.cpp:168
+#: proto/ficsdialog.cpp:172
 #, kde-format
 msgid "<font color='red'>Error: %1</font>"
 msgstr "<font color='red'>Hata: %1</font>"
@@ -1395,3 +1442,13 @@ msgstr "Zaman sınırı [dakika]"
 #, kde-format
 msgid "Opponent's rating"
 msgstr "Rakibin sınıfı"
+
+#~ msgctxt "@title:window"
+#~ msgid "Save"
+#~ msgstr "Kaydet"
+
+#~ msgid "white"
+#~ msgstr "beyaz"
+
+#~ msgid "black"
+#~ msgstr "siyah"

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkldap\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-13 00:38+0000\n"
-"PO-Revision-Date: 2024-03-08 16:26+0300\n"
+"POT-Creation-Date: 2025-08-18 00:43+0000\n"
+"PO-Revision-Date: 2024-11-27 16:05+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -19,71 +19,71 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 25.03.70\n"
 
-#: core/ldapconnection.cpp:124
+#: core/ldapconnection.cpp:126
 #, kde-format
 msgid "No LDAP Support..."
-msgstr "LDAP Desteği Yok..."
+msgstr "LDAP Desteği Yok…"
 
-#: core/ldapconnection.cpp:239
+#: core/ldapconnection.cpp:243
 #, kde-format
 msgid "An error occurred during the connection initialization phase."
 msgstr "Bağlantı başlatılma evresinde bir hata oluştu."
 
-#: core/ldapconnection.cpp:246
+#: core/ldapconnection.cpp:250
 #, kde-format
 msgid "Cannot set protocol version to %1."
 msgstr "Protokol sürümü %1 olarak ayarlanamadı."
 
-#: core/ldapconnection.cpp:257
+#: core/ldapconnection.cpp:261
 #, kde-format
 msgid "Cannot set timeout to %1 second."
 msgid_plural "Cannot set timeout to %1 seconds."
 msgstr[0] "Zaman aşımı %1 saniye olarak ayarlanamadı."
 msgstr[1] "Zaman aşımı %1 saniye olarak ayarlanamadı."
 
-#: core/ldapconnection.cpp:269
+#: core/ldapconnection.cpp:273
 #, kde-format
 msgid "Could not set CA certificate file."
 msgstr "CA sertifika dosyası ayarlanamadı."
 
-#: core/ldapconnection.cpp:294
+#: core/ldapconnection.cpp:298
 #, kde-format
 msgid "Invalid TLS require certificate mode."
 msgstr "Geçersiz TLS sertifika gerektir kipi."
 
-#: core/ldapconnection.cpp:299
+#: core/ldapconnection.cpp:303
 #, kde-format
 msgid "Could not set TLS require certificate mode."
 msgstr "TLS sertifika gerektir kipi ayarlanamardı."
 
-#: core/ldapconnection.cpp:308
+#: core/ldapconnection.cpp:312
 #, kde-format
 msgid "Could not initialize new TLS context."
 msgstr "Yeni TLS bağlamı başlatılamadı."
 
-#: core/ldapconnection.cpp:325
+#: core/ldapconnection.cpp:329
 #, kde-format
 msgid "TLS support not available in the LDAP client libraries."
 msgstr "LDAP istemci kitaplıklarında TLS desteği kullanılabilir durumda değil."
 
-#: core/ldapconnection.cpp:335
+#: core/ldapconnection.cpp:339
 #, kde-format
 msgid "Cannot set size limit."
 msgstr "Boyut sınırı ayarlanamadı."
 
-#: core/ldapconnection.cpp:345
+#: core/ldapconnection.cpp:349
 #, kde-format
 msgid "Cannot set time limit."
 msgstr "Süre sınırı ayarlanamadı."
 
-#: core/ldapconnection.cpp:353
+#: core/ldapconnection.cpp:357
 #, kde-format
 msgid "Cannot initialize the SASL client."
 msgstr "SASL istemcisi başlatılamadı."
 
-#: core/ldapconnection.cpp:430
+#: core/ldapconnection.cpp:434
 #, kde-format
 msgid ""
 "LDAP support not compiled in. Please recompile libkldap with the OpenLDAP "
@@ -98,245 +98,222 @@ msgstr ""
 msgid "Cannot access to server. Please reconfigure it."
 msgstr "Sunucuya erişilemedi. Lütfen yeniden yapılandırın."
 
-#: widgets/addhostdialog.cpp:67
+#: widgets/addhostdialog.cpp:75
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Host"
 msgstr "Makine Ekle"
 
-#: widgets/ldapconfigurewidget.cpp:95
+#: widgets/addhostdialog.cpp:94
+#, kde-format
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: widgets/addhostdialog.cpp:103
+#, kde-format
+msgid "Activities"
+msgstr "Etkinlikler"
+
+#: widgets/ldapconfigurewidgetng.cpp:39
+#, kde-format
+msgid "Show only ldap servers on current activity"
+msgstr "Geçerli etkinlikte yalnızca LDAP sunucularını göster"
+
+#: widgets/ldapconfigurewidgetng.cpp:122
 #, kde-format
 msgctxt "@title:window"
 msgid "Edit Host"
 msgstr "Makineyi Düzenle"
 
-#: widgets/ldapconfigurewidget.cpp:112
+#: widgets/ldapconfigurewidgetng.cpp:139
 #, kde-format
 msgid "Do you want to remove setting for host \"%1\"?"
-msgstr "\"%1\" makinesi için ayarı kaldırmak istiyor musunuz?"
+msgstr "“%1” makinesi için ayarı kaldırmak istiyor musunuz?"
 
-#: widgets/ldapconfigurewidget.cpp:113
+#: widgets/ldapconfigurewidgetng.cpp:140
 #, kde-format
+msgctxt "@title:window"
 msgid "Remove Host"
 msgstr "Makineyi Kaldır"
 
-#: widgets/ldapconfigurewidget.cpp:270
+#: widgets/ldapconfigurewidgetng.cpp:213
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Check all servers that should be used:"
 msgstr "Kullanılması gereken tüm sunucuları denetle:"
 
-#: widgets/ldapconfigurewidget.cpp:304
+#: widgets/ldapconfigurewidgetng.cpp:261
 #, kde-format
-msgid "&Add Host..."
-msgstr "Makine &Ekle..."
+msgctxt "@action:button"
+msgid "&Add Host…"
+msgstr "Makine &Ekle…"
 
-#: widgets/ldapconfigurewidget.cpp:306
+#: widgets/ldapconfigurewidgetng.cpp:263
 #, kde-format
-msgid "&Edit Host..."
-msgstr "Makineyi Dü&zenle..."
+msgctxt "@action:button"
+msgid "&Edit Host…"
+msgstr "Makineyi &Düzenle…"
 
-#: widgets/ldapconfigurewidget.cpp:309
+#: widgets/ldapconfigurewidgetng.cpp:266
 #, kde-format
+msgctxt "@action:button"
 msgid "&Remove Host"
 msgstr "Maki&neyi Kaldır"
 
-#: widgets/ldapconfigwidget.cpp:91
+#: widgets/ldapconfigwidget.cpp:94
 #, kde-format
 msgid "User:"
 msgstr "Kullanıcı:"
 
-#: widgets/ldapconfigwidget.cpp:98
+#: widgets/ldapconfigwidget.cpp:102
 #, kde-format
 msgid "Bind DN:"
 msgstr "Bind DN:"
 
-#: widgets/ldapconfigwidget.cpp:105
+#: widgets/ldapconfigwidget.cpp:110
 #, kde-format
 msgid "Realm:"
 msgstr "Gerçeklik:"
 
-#: widgets/ldapconfigwidget.cpp:118
+#: widgets/ldapconfigwidget.cpp:119
 #, kde-format
 msgid "Password:"
 msgstr "Parola:"
 
-#: widgets/ldapconfigwidget.cpp:125
+#: widgets/ldapconfigwidget.cpp:127
 #, kde-format
 msgid "Host:"
 msgstr "Makine:"
 
-#: widgets/ldapconfigwidget.cpp:134
+#: widgets/ldapconfigwidget.cpp:136
 #, kde-format
 msgid "Port:"
 msgstr "Kapı:"
 
-#: widgets/ldapconfigwidget.cpp:142
+#: widgets/ldapconfigwidget.cpp:144
 #, kde-format
 msgid "LDAP version:"
 msgstr "LDAP sürümü:"
 
-#: widgets/ldapconfigwidget.cpp:150
+#: widgets/ldapconfigwidget.cpp:152
 #, kde-format
 msgctxt "default ldap size limit"
 msgid "Default"
 msgstr "Öntanımlı"
 
-#: widgets/ldapconfigwidget.cpp:151
+#: widgets/ldapconfigwidget.cpp:153
 #, kde-format
 msgid "Size limit:"
 msgstr "Boyut sınırı:"
 
-#: widgets/ldapconfigwidget.cpp:159
+#: widgets/ldapconfigwidget.cpp:161
 #, kde-format
 msgid " sec"
-msgstr "sn"
+msgstr " sn"
 
-#: widgets/ldapconfigwidget.cpp:160
+#: widgets/ldapconfigwidget.cpp:162
 #, kde-format
 msgctxt "default ldap time limit"
 msgid "Default"
 msgstr "Öntanımlı"
 
-#: widgets/ldapconfigwidget.cpp:161
+#: widgets/ldapconfigwidget.cpp:163
 #, kde-format
 msgid "Time limit:"
 msgstr "Zaman sınırı:"
 
-#: widgets/ldapconfigwidget.cpp:169
+#: widgets/ldapconfigwidget.cpp:171
 #, kde-format
 msgid "No paging"
 msgstr "Sayfalama yok"
 
-#: widgets/ldapconfigwidget.cpp:170
+#: widgets/ldapconfigwidget.cpp:172
 #, kde-format
 msgid "Page size:"
 msgstr "Sayfa boyutu:"
 
-#: widgets/ldapconfigwidget.cpp:181 widgets/ldapconfigwidget.cpp:259
+#: widgets/ldapconfigwidget.cpp:184 widgets/ldapconfigwidget.cpp:263
 #, kde-format
+msgctxt "@action:button"
 msgid "Query Server"
-msgstr "Sorgu Sunucusu"
+msgstr "Sunucuyu Sorgula"
 
-#: widgets/ldapconfigwidget.cpp:191
+#: widgets/ldapconfigwidget.cpp:194
 #, kde-format
 msgctxt "Distinguished Name"
 msgid "DN:"
 msgstr "DN:"
 
-#: widgets/ldapconfigwidget.cpp:198
+#: widgets/ldapconfigwidget.cpp:202
 #, kde-format
 msgid "Filter:"
 msgstr "Süz:"
 
-#: widgets/ldapconfigwidget.cpp:207
+#: widgets/ldapconfigwidget.cpp:211
 #, kde-format
 msgctxt "@option:radio set no security"
 msgid "No"
 msgstr "Hayır"
 
-#: widgets/ldapconfigwidget.cpp:210
+#: widgets/ldapconfigwidget.cpp:214
 #, kde-format
 msgctxt "@option:radio use TLS security"
 msgid "TLS"
 msgstr "TLS"
 
-#: widgets/ldapconfigwidget.cpp:213
+#: widgets/ldapconfigwidget.cpp:217
 #, kde-format
 msgctxt "@option:radio use SSL security"
 msgid "SSL"
 msgstr "SSL"
 
-#: widgets/ldapconfigwidget.cpp:228
+#: widgets/ldapconfigwidget.cpp:232
 #, kde-format
 msgid "Security:"
 msgstr "Güvenlik:"
 
-#: widgets/ldapconfigwidget.cpp:238
+#: widgets/ldapconfigwidget.cpp:242
 #, kde-format
 msgctxt "@option:radio anonymous authentication"
 msgid "Anonymous"
 msgstr "Anonim"
 
-#: widgets/ldapconfigwidget.cpp:241
+#: widgets/ldapconfigwidget.cpp:245
 #, kde-format
 msgctxt "@option:radio simple authentication"
 msgid "Simple"
-msgstr "Basit"
+msgstr "Temel"
 
-#: widgets/ldapconfigwidget.cpp:244
+#: widgets/ldapconfigwidget.cpp:248
 #, kde-format
 msgctxt "@option:radio SASL authentication"
 msgid "SASL"
 msgstr "SASL"
 
-#: widgets/ldapconfigwidget.cpp:247
+#: widgets/ldapconfigwidget.cpp:251
 #, kde-format
 msgid "Authentication:"
 msgstr "Kimlik doğrulaması:"
 
-#: widgets/ldapconfigwidget.cpp:265
+#: widgets/ldapconfigwidget.cpp:269
 #, kde-format
 msgid "SASL mechanism:"
 msgstr "SASL mekanizması:"
 
-#: widgets/ldapconfigwidget.cpp:309
+#: widgets/ldapconfigwidget.cpp:313
 #, kde-format
+msgctxt "@title:window"
 msgid "Check server"
-msgstr "Sunucuyu denetle"
+msgstr "Sunucuyu Denetle"
 
-#: widgets/ldapconfigwidget.cpp:315
+#: widgets/ldapconfigwidget.cpp:319
 #, kde-format
 msgctxt "@title:window"
 msgid "LDAP Query"
 msgstr "LDAP Sorgusu"
 
-#: widgets/ldapconfigwidget.cpp:329
+#: widgets/ldapconfigwidget.cpp:333
 #, kde-format
 msgctxt "%1 is a url to ldap server"
 msgid "Unknown error connecting %1"
 msgstr "%1 konumuna bağlanırken bilinmeyen hata"
-
-#~ msgid ""
-#~ "LDAP password is stored as clear text, do you want to store it in kwallet?"
-#~ msgstr ""
-#~ "LDAP parolası düz metin olarak depolanıyor, bunun yerine K Cüzdan'da "
-#~ "depolamak ister misiniz?"
-
-#~ msgid "Store clear text password in Wallet"
-#~ msgstr "Düz metin parolayı KWallet'ta depola"
-
-#, fuzzy
-#~| msgid "LDAP version:"
-#~ msgid "LDAP Servers"
-#~ msgstr "LDAP sürümü:"
-
-#~ msgid "Attribute"
-#~ msgstr "Özellik"
-
-#~ msgid "Value"
-#~ msgstr "Değer"
-
-#~ msgid "Distinguished Name"
-#~ msgstr "Eşsiz İsim"
-
-#~ msgid ""
-#~ "SASL support is not available. Please recompile libkldap with the Cyrus-"
-#~ "SASL (or compatible) client libraries, or complain to your distribution "
-#~ "packagers."
-#~ msgstr ""
-#~ "SASL desteği kullanılabilir değil. Lütfen libkldap uygulamasını Cyrus-"
-#~ "SASL (ya da uyumlu bir uygulama) istemci kitaplıkları ile yeniden "
-#~ "derleyin ya da kullandığınız dağıtımın paketçilerine başvurun."
-
-#~ msgid "LDAP Operations error"
-#~ msgstr "LDAP İşlem hatası"
-
-#, fuzzy
-#~| msgid "LDAP version:"
-#~ msgid "LDAP Server Settings"
-#~ msgstr "LDAP sürümü:"
-
-#, fuzzy
-#~| msgid "User:"
-#~ msgid "User ID"
-#~ msgstr "Kullanıcı:"

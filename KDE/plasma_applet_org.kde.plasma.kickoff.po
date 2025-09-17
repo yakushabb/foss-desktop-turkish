@@ -2,64 +2,64 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2014, 2017, 2021.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-17 00:39+0000\n"
-"PO-Revision-Date: 2023-12-03 00:49+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-08-07 18:31+0000\n"
+"PO-Revision-Date: 2025-08-27 09:11+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 25.08.0\n"
 
-#: package/contents/config/config.qml:13
-#, kde-format
-msgid "General"
-msgstr "Genel"
-
-#: package/contents/ui/code/tools.js:32
+#: code/tools.js:32
 #, kde-format
 msgid "Remove from Favorites"
 msgstr "Sık Kullanılanlardan Kaldır"
 
-#: package/contents/ui/code/tools.js:36
+#: code/tools.js:36
 #, kde-format
 msgid "Add to Favorites"
 msgstr "Sık Kullanılanlara Ekle"
 
-#: package/contents/ui/code/tools.js:60
+#: code/tools.js:60
 #, kde-format
 msgid "On All Activities"
 msgstr "Tüm Etkinliklerde"
 
-#: package/contents/ui/code/tools.js:110
+#: code/tools.js:110
 #, kde-format
 msgid "On the Current Activity"
 msgstr "Yalnızca Geçerli Etkinlikte"
 
-#: package/contents/ui/code/tools.js:124
+#: code/tools.js:124
 #, kde-format
 msgid "Show in Favorites"
 msgstr "Sık Kullanılanlarda Göster"
 
-#: package/contents/ui/ConfigGeneral.qml:41
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr "Genel"
+
+#: ConfigGeneral.qml:48
 #, kde-format
 msgid "Icon:"
 msgstr "Simge:"
 
-#: package/contents/ui/ConfigGeneral.qml:47
+#: ConfigGeneral.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Change Application Launcher's icon"
 msgstr "Uygulama Başlatıcısı Simgesini Değiştir"
 
-#: package/contents/ui/ConfigGeneral.qml:48
+#: ConfigGeneral.qml:55
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -69,225 +69,287 @@ msgstr ""
 "Geçerli simge %1. Menüyü açıp geçerli simgeyi değiştirmek veya öntanımlı "
 "simgeye geri dönmek için tıklayın."
 
-#: package/contents/ui/ConfigGeneral.qml:52
+#: ConfigGeneral.qml:59
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Icon name is \"%1\""
-msgstr "Simge adı \"%1\""
+msgstr "Simge adı “%1”"
 
-#: package/contents/ui/ConfigGeneral.qml:85
+#: ConfigGeneral.qml:94
 #, kde-format
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
 msgstr "Seç…"
 
-#: package/contents/ui/ConfigGeneral.qml:87
+#: ConfigGeneral.qml:96
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid "Choose an icon for Application Launcher"
 msgstr "Uygulama Başlatıcısı için bir simge seç"
 
-#: package/contents/ui/ConfigGeneral.qml:91
+#: ConfigGeneral.qml:100
 #, kde-format
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Reset to default icon"
 msgstr "Öntanımlı Simgeye Dön"
 
-#: package/contents/ui/ConfigGeneral.qml:97
+#: ConfigGeneral.qml:106
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Remove icon"
 msgstr "Simgeyi Kaldır"
 
-#: package/contents/ui/ConfigGeneral.qml:108
+#: ConfigGeneral.qml:121
+#, kde-format
+msgid "Show applications as:"
+msgstr "Uygulamayı şöyle göster:"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name only"
+msgstr "Yalnızca ad"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description only"
+msgstr "Yalnızca açıklama"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Name (Description)"
+msgstr "Ad (açıklama)"
+
+#: ConfigGeneral.qml:123
+#, kde-format
+msgid "Description (Name)"
+msgstr "Açıklama (ad)"
+
+#: ConfigGeneral.qml:133
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Text label:"
 msgstr "Metin etiketi:"
 
-#: package/contents/ui/ConfigGeneral.qml:110
+#: ConfigGeneral.qml:135
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Type here to add a text label"
 msgstr "Metin etiketi eklemek için yaz…"
 
-#: package/contents/ui/ConfigGeneral.qml:125
+#: ConfigGeneral.qml:149
 #, kde-format
 msgctxt "@action:button"
 msgid "Reset menu label"
 msgstr "Menü etiketini sıfırla"
 
-#: package/contents/ui/ConfigGeneral.qml:139
+#: ConfigGeneral.qml:162
 #, kde-format
 msgctxt "@info"
 msgid "A text label cannot be set when the Panel is vertical."
 msgstr "Panel dikeyken bir metin etiketi ayarlanamaz."
 
-#: package/contents/ui/ConfigGeneral.qml:150
+#: ConfigGeneral.qml:172
 #, kde-format
 msgctxt "General options"
 msgid "General:"
 msgstr "Genel:"
 
-#: package/contents/ui/ConfigGeneral.qml:151
+#: ConfigGeneral.qml:176
 #, kde-format
-msgid "Always sort applications alphabetically"
-msgstr "Uygulamaları her zaman abecesel sırala"
+msgctxt "@option:check"
+msgid "Sort applications alphabetically"
+msgstr "Uygulamaları abecesel olarak sırala"
 
-#: package/contents/ui/ConfigGeneral.qml:156
+#: ConfigGeneral.qml:180
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This doesn't affect how applications are sorted in either search results or "
+"the favorites page."
+msgstr ""
+"Bu, uygulamaların arama sonuçlarında veya sık kullanılanlar sayfasında nasıl "
+"sıralandığını etkilemez."
+
+#: ConfigGeneral.qml:186
 #, kde-format
 msgid "Use compact list item style"
 msgstr "Sıkışık liste ögesi biçemini kullan"
 
-#: package/contents/ui/ConfigGeneral.qml:162
+#: ConfigGeneral.qml:192
 #, kde-format
 msgctxt "@info:usagetip under a checkbox when Touch Mode is on"
 msgid "Automatically disabled when in Touch Mode"
-msgstr "Dokunma Kipi'ndeyken kendiliğinden devre dışıdır"
+msgstr "Dokunmatik Kip’teyken kendiliğinden devre dışıdır"
 
-#: package/contents/ui/ConfigGeneral.qml:171
+#: ConfigGeneral.qml:200
 #, kde-format
-msgctxt "@action:button"
-msgid "Configure Enabled Search Plugins…"
-msgstr "Etkin Arama Eklentilerini Yapılandır…"
+msgid "Highlight newly installed applications"
+msgstr "Yeni kurulan uygulamaları vurgula"
 
-#: package/contents/ui/ConfigGeneral.qml:181
+#: ConfigGeneral.qml:205
+#, kde-format
+msgid "Switch sidebar categories when hovering over them"
+msgstr "Üzerine gelindiğinde kenar çubuğu kategorisine geç"
+
+#: ConfigGeneral.qml:211
+#, kde-format
+msgctxt "@action:button opens plasmasearch kcm"
+msgid "Configure Search Plugins…"
+msgstr "Arama Eklentilerini Yapılandır…"
+
+#: ConfigGeneral.qml:221
 #, kde-format
 msgid "Sidebar position:"
 msgstr "Kenar çubuğu konumu:"
 
-#: package/contents/ui/ConfigGeneral.qml:182
-#: package/contents/ui/ConfigGeneral.qml:190
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
 #, kde-format
 msgid "Right"
 msgstr "Sağ"
 
-#: package/contents/ui/ConfigGeneral.qml:182
-#: package/contents/ui/ConfigGeneral.qml:190
+#: ConfigGeneral.qml:222 ConfigGeneral.qml:230
 #, kde-format
 msgid "Left"
 msgstr "Sol"
 
-#: package/contents/ui/ConfigGeneral.qml:198
+#: ConfigGeneral.qml:238
 #, kde-format
 msgid "Show favorites:"
 msgstr "Sık kullanılanları göster:"
 
-#: package/contents/ui/ConfigGeneral.qml:199
+#: ConfigGeneral.qml:239
 #, kde-format
 msgctxt "Part of a sentence: 'Show favorites in a grid'"
 msgid "In a grid"
 msgstr "Izgara içinde"
 
-#: package/contents/ui/ConfigGeneral.qml:207
+#: ConfigGeneral.qml:247
 #, kde-format
 msgctxt "Part of a sentence: 'Show favorites in a list'"
 msgid "In a list"
 msgstr "Liste olarak"
 
-#: package/contents/ui/ConfigGeneral.qml:215
+#: ConfigGeneral.qml:255
 #, kde-format
 msgid "Show other applications:"
 msgstr "Diğer uygulamaları göster:"
 
-#: package/contents/ui/ConfigGeneral.qml:216
+#: ConfigGeneral.qml:256
 #, kde-format
 msgctxt "Part of a sentence: 'Show other applications in a grid'"
 msgid "In a grid"
 msgstr "Izgara içinde"
 
-#: package/contents/ui/ConfigGeneral.qml:224
+#: ConfigGeneral.qml:264
 #, kde-format
 msgctxt "Part of a sentence: 'Show other applications in a list'"
 msgid "In a list"
 msgstr "Liste olarak"
 
-#: package/contents/ui/ConfigGeneral.qml:236
+#: ConfigGeneral.qml:276
 #, kde-format
 msgid "Show buttons for:"
 msgstr "Şunlar için düğmeleri göster:"
 
-#: package/contents/ui/ConfigGeneral.qml:237
-#: package/contents/ui/LeaveButtons.qml:129
+#: ConfigGeneral.qml:277 LeaveButtons.qml:169
 #, kde-format
 msgid "Power"
 msgstr "Güç"
 
-#: package/contents/ui/ConfigGeneral.qml:246
+#: ConfigGeneral.qml:286 LeaveButtons.qml:169
 #, kde-format
 msgid "Session"
 msgstr "Oturum"
 
-#: package/contents/ui/ConfigGeneral.qml:255
+#: ConfigGeneral.qml:295
 #, kde-format
 msgid "Power and session"
 msgstr "Güç ve oturum"
 
-#: package/contents/ui/ConfigGeneral.qml:264
+#: ConfigGeneral.qml:304
 #, kde-format
 msgid "Show action button captions"
 msgstr "Eylem düğmesi başlıklarını göster"
 
-#: package/contents/ui/Footer.qml:97
+#: Footer.qml:101
 #, kde-format
 msgid "Applications"
 msgstr "Uygulamalar"
 
-#: package/contents/ui/Footer.qml:113
+#: Footer.qml:117
 #, kde-format
 msgid "Places"
 msgstr "Yerler"
 
-#: package/contents/ui/FullRepresentation.qml:153
+#: FullRepresentation.qml:154
 #, kde-format
 msgctxt "@info:status"
 msgid "No matches"
 msgstr "Eşleşme yok"
 
-#: package/contents/ui/Header.qml:80
+#: Header.qml:86
 #, kde-format
 msgid "Open user settings"
 msgstr "Kullanıcı ayarlarını aç"
 
-#: package/contents/ui/Header.qml:259
+#: Header.qml:266
 #, kde-format
 msgid "Keep Open"
-msgstr "Açık Tut"
+msgstr "Açık tut"
 
-#: package/contents/ui/KickoffGridView.qml:92
+#: KickoffGridDelegate.qml:60 KickoffListDelegate.qml:119
+#, kde-format
+msgctxt "Newly installed app, badge, keep short"
+msgid "New!"
+msgstr "Yeni!"
+
+#: KickoffGridDelegate.qml:61 KickoffListDelegate.qml:121
+#, kde-format
+msgid "Newly installed application"
+msgstr "Yeni kurulmuş uygulama"
+
+#: KickoffGridView.qml:102
 #, kde-format
 msgid "Grid with %1 rows, %2 columns"
 msgstr "%1 satırlı, %2 sütunlu ızgara"
 
-#: package/contents/ui/LeaveButtons.qml:129
+#: KickoffListDelegate.qml:120
 #, kde-format
-msgid "Leave"
-msgstr "Ayrıl"
+msgid "There is a newly installed application in this category"
+msgstr "Bu kategoride yeni kurulmuş bir uygulama var"
 
-#: package/contents/ui/LeaveButtons.qml:129
+#: LeaveButtons.qml:169
 #, kde-format
 msgid "More"
 msgstr "Daha Fazla"
 
-#: package/contents/ui/main.qml:313
+#: LeaveButtons.qml:169
+#, kde-format
+msgid "Session and Power"
+msgstr "Oturum ve Güç"
+
+#: main.qml:356
 #, kde-format
 msgid "Edit Applications…"
 msgstr "Uygulamaları Düzenle…"
 
-#: package/contents/ui/PlacesPage.qml:48
+#: PlacesPage.qml:63
 #, kde-format
 msgctxt "category in Places sidebar"
 msgid "Computer"
 msgstr "Bilgisayar"
 
-#: package/contents/ui/PlacesPage.qml:49
+#: PlacesPage.qml:64
 #, kde-format
 msgctxt "category in Places sidebar"
 msgid "History"
 msgstr "Geçmiş"
 
-#: package/contents/ui/PlacesPage.qml:50
+#: PlacesPage.qml:65
 #, kde-format
 msgctxt "category in Places sidebar"
 msgid "Frequently Used"
 msgstr "Sık Kullanılan"
+
+#~ msgid "Leave"
+#~ msgstr "Ayrıl"

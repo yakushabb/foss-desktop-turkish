@@ -12,13 +12,13 @@
 # Muhammet Kara <muhammetk@gmail.com>, 2009.
 # obsoleteman <tulliana@gmail.com>, 2007-2008,2012.
 # Volkan Gezer <volkangezer@gmail.com>, 2013, 2015.
-# SPDX-FileCopyrightText: 2022, 2023 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeedu-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-19 01:40+0000\n"
-"PO-Revision-Date: 2023-10-04 13:38+0300\n"
+"POT-Creation-Date: 2025-04-25 00:38+0000\n"
+"PO-Revision-Date: 2025-03-24 22:36+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.1\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -58,15 +58,15 @@ msgstr "Soru"
 msgid "Answer"
 msgstr "Yanıt"
 
-#: main.cpp:58
+#: main.cpp:62
 #, kde-format
 msgid "Invalid goto given: %1. Allowed: flash, mc and qa"
 msgstr "Geçersiz goto verildi: %1. İzin verilenler: flash, mc ve qa"
 
 #: main.cpp:88
 #, kde-format
-msgid "KWordQuiz"
-msgstr "K Sözcük Oyunu"
+msgid "WordQuiz"
+msgstr "Sözcük Oyunu"
 
 #: main.cpp:90
 #, kde-format
@@ -76,7 +76,7 @@ msgstr "Güçlü bir bilgi kartı ve söz dağarcığı genişletme programı"
 #: main.cpp:92
 #, kde-format
 msgid "(c) 2003-2010, Peter Hedlund"
-msgstr "(c) 2003-2010, Peter Hedlund"
+msgstr "© 2003–2010, Peter Hedlund"
 
 #: main.cpp:96
 #, kde-format
@@ -99,17 +99,17 @@ msgstr "Carl Schwan"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Port to QML"
-msgstr "QML aktarımı"
+msgstr "QML geçişi"
 
 #: main.cpp:98
 #, kde-format
 msgid "Anne-Marie Mahfouf"
-msgstr "Anne-Marie Mahfouf"
+msgstr "Anne–Marie Mahfouf"
 
 #: main.cpp:98
 #, kde-format
 msgid "KDE Edutainment Maintainer"
-msgstr "KDE Bilgisayar ortamında eğlendirerek eğitim Sorumlusu"
+msgstr "KDE eğlenceli eğitim bakımcısı"
 
 #: main.cpp:99
 #, kde-format
@@ -130,9 +130,9 @@ msgid ""
 "'qa' for question and answer"
 msgstr ""
 "Başlatılacak oturumu yazın: \n"
-"bilgi kartı için 'flash', \n"
-"çoklu tercih için 'mc', \n"
-"soru-yanıt için 'qa'"
+"bilgi kartı için “flash”, \n"
+"çoklu tercih için “mc”, \n"
+"soru–yanıt için “qa”"
 
 #: main.cpp:121
 #, kde-format
@@ -197,7 +197,7 @@ msgstr "Süz"
 #: qml/DeckEditorPage.qml:42
 #, kde-format
 msgid "Filter..."
-msgstr "Süz..."
+msgstr "Süz…"
 
 #: qml/DeckEditorPage.qml:50
 #, kde-format
@@ -302,7 +302,7 @@ msgctxt "@label"
 msgid "License:"
 msgstr "Lisans:"
 
-#: qml/EditAction.qml:13 qml/WelcomePage.qml:217
+#: qml/EditAction.qml:13 qml/WelcomePage.qml:223
 #, kde-format
 msgctxt "@action:button"
 msgid "Edit"
@@ -332,13 +332,13 @@ msgstr "Doğru Değil"
 msgid "Select a language"
 msgstr "Dil seç"
 
-#: qml/main.qml:40
+#: qml/Main.qml:40
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: qml/main.qml:42
+#: qml/Main.qml:42
 #, kde-format
 msgid "Configure"
 msgstr "Yapılandır"
@@ -351,7 +351,7 @@ msgstr "Bu doğru"
 #: qml/MultipleChoicePage.qml:99 qml/QuestionAnswerPage.qml:164
 #, kde-format
 msgid "Wrong, the correct answer was \"%1\"."
-msgstr "Yanlış, doğru yanıt \"%1\" idi."
+msgstr "Yanlış, doğru yanıt “%1” idi."
 
 #: qml/MultipleChoicePage.qml:130 qml/QuestionAnswerPage.qml:195
 #, kde-format
@@ -449,7 +449,7 @@ msgstr "Yanıtları BÜYÜK/küçük harf duyarlı biçimde karşılaştır"
 msgid "About KWordQuiz"
 msgstr "K Sözcük Oyunu Hakkında"
 
-#: qml/SettingsPage.qml:127
+#: qml/SettingsPage.qml:126
 #, kde-format
 msgid "About KDE"
 msgstr "KDE Hakkında"
@@ -462,8 +462,8 @@ msgstr "Hoş Geldiniz"
 
 #: qml/WelcomePage.qml:40
 #, kde-format
-msgid "Please choose a KWordQuiz document"
-msgstr "Lütfen bir K Sözcük Oyunu belgesi seçin"
+msgid "Please choose a WordQuiz document"
+msgstr "Lütfen bir Sözcük Oyunu belgesi seçin"
 
 #: qml/WelcomePage.qml:42
 #, kde-format
@@ -487,8 +487,8 @@ msgstr "XDXF belgeleri (*.xdxf)"
 
 #: qml/WelcomePage.qml:58
 #, kde-format
-msgid "Welcome to KWordQuiz"
-msgstr "K Sözcük Oyunu'na hoş geldiniz"
+msgid "Welcome to WordQuiz"
+msgstr "Sözcük Oyunu’na hoş geldiniz"
 
 #: qml/WelcomePage.qml:70
 #, kde-format
@@ -527,14 +527,19 @@ msgstr "Çoktan seçmeli"
 #, kde-format
 msgctxt "@option:check Mode selector"
 msgid "Question-Answer"
-msgstr "Soru-Yanıt"
+msgstr "Soru–Yanıt"
 
 #: qml/WelcomePage.qml:157
 #, kde-format
 msgid "Decks"
 msgstr "Desteler"
 
-#: qml/WelcomePage.qml:203
+#: qml/WelcomePage.qml:193
+#, kde-format
+msgid "Document cannot be opened"
+msgstr "Belge açılamadı"
+
+#: qml/WelcomePage.qml:209
 #, kde-format
 msgctxt "@action:button"
 msgid "Remove"

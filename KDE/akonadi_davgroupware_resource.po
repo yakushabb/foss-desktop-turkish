@@ -5,55 +5,55 @@
 # obsoleteman <tulliana@gmail.com>, 2009,2012.
 # Volkan Gezer <volkangezer@gmail.com>, 2014, 2015, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-13 00:38+0000\n"
-"PO-Revision-Date: 2024-02-24 22:29+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-08-31 00:43+0000\n"
+"PO-Revision-Date: 2025-05-24 19:28+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 25.04.1\n"
 "X-POOTLE-MTIME: 1413102278.000000\n"
 
-#: configdialog.cpp:33
+#: configwidget.cpp:36
 #, kde-format
 msgctxt "@title:window"
 msgid "DAV Resource Configuration"
 msgstr "DAV Özkaynak Yapılandırması"
 
-#: configdialog.cpp:46
+#: configwidget.cpp:43
 #, kde-format
 msgid "Protocol"
 msgstr "Protokol"
 
-#: configdialog.cpp:46 urlconfigurationdialog.cpp:272
+#: configwidget.cpp:43 urlconfigurationdialog.cpp:267
 #, kde-format
 msgid "URL"
 msgstr "URL"
 
-#: configdialog.cpp:59
+#: configwidget.cpp:56
 #, kde-format
 msgid "Days"
 msgstr "Gün"
 
-#: configdialog.cpp:60
+#: configwidget.cpp:57
 #, kde-format
 msgid "Months"
 msgstr "Ay"
 
-#: configdialog.cpp:61
+#: configwidget.cpp:58
 #, kde-format
 msgid "Years"
 msgstr "Yıl"
 
-#: configdialog.cpp:137
+#: configwidget.cpp:169
 #, kde-format
 msgid ""
 "Another configuration entry already uses the same URL/protocol couple.\n"
@@ -63,91 +63,97 @@ msgstr ""
 "lütfen farklı bir URL kullanın"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: configdialog.ui:29
+#: configwidget.ui:29
 #, kde-format
 msgid "Display name:"
 msgstr "Görünen ad:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: configdialog.ui:39
+#: configwidget.ui:39
 #, kde-format
 msgid "Refresh every:"
 msgstr "Yineleme sıklığı:"
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_refreshInterval)
-#: configdialog.ui:48
+#: configwidget.ui:48
 #, kde-format
 msgid "Never"
 msgstr "Asla"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: configdialog.ui:58
+#: configwidget.ui:58
 #, kde-format
 msgid "minutes"
 msgstr "dakika"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: configdialog.ui:80 urlconfigurationdialog.ui:111
+#: configwidget.ui:80 urlconfigurationdialog.ui:120
 #, kde-format
 msgid "Username:"
 msgstr "Kullanıcı adı:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: configdialog.ui:108 setupwizard.cpp:225 urlconfigurationdialog.ui:127
+#: configwidget.ui:107 setupwizard.cpp:241 urlconfigurationdialog.ui:136
 #, kde-format
 msgid "Password:"
 msgstr "Parola:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_limitSyncRange)
-#: configdialog.ui:136
+#: configwidget.ui:134
+#, kde-format
+msgid "Select this to reduce the load on the server and speed-up your syncs"
+msgstr "Sunucudaki yükü azaltmak ve eşzamanlamaları hızlandımak için bunu seç"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_limitSyncRange)
+#: configwidget.ui:137
 #, kde-format
 msgid ""
-"Select this if your calendars contain a lot of events and the server cannot "
-"fulfill the requests"
+"Limiting the time span range will lessen the load on the remote server and "
+"speed-up your initial sync."
 msgstr ""
-"Bu seçeneği takviminiz çok sayıda olay içerdiği ve sunucu bu istekleri "
-"yerine getiremediği durumda seçin"
+"Zaman aralığı erimini sınırlamak uzak sunucudaki yükü azaltır ve ilk "
+"eşzamanlamanızı hızlandırır."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_limitSyncRange)
-#: configdialog.ui:139
+#: configwidget.ui:140
 #, kde-format
-msgid "Limit CalDav retrieval time range"
-msgstr "CalDav geri alma zaman aralığını sınırla"
+msgid "Limit retrieval time range"
+msgstr "Alım zaman erimini sınırla"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: configdialog.ui:151
+#: configwidget.ui:152
 #, kde-format
-msgid "Only sync events more recent than"
-msgstr "Yalnızca bundan daha yeni olayları eşle"
+msgid "Only sync data more recent than"
+msgstr "Yalnızca bundan daha yeni veriyi eşzamanla"
 
 #. i18n: ectx: property (text), widget (QLabel, label_41)
-#: configdialog.ui:190
+#: configwidget.ui:191
 #, kde-format
 msgid "Server Configuration:"
 msgstr "Sunucu Yapılandırması:"
 
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: configdialog.ui:204
+#: configwidget.ui:205
 #, kde-format
 msgid "Add"
 msgstr "Ekle"
 
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
-#: configdialog.ui:211 searchdialog.ui:151
+#: configwidget.ui:212 searchdialog.ui:151
 #, kde-format
 msgid "Search"
 msgstr "Ara"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: configdialog.ui:218
+#: configwidget.ui:219
 #, kde-format
 msgid "Remove"
 msgstr "Kaldır"
 
 #. i18n: ectx: property (text), widget (QPushButton, editButton)
-#: configdialog.ui:225
+#: configwidget.ui:226
 #, kde-format
 msgid "Edit"
 msgstr "Düzenle"
@@ -293,90 +299,95 @@ msgid ""
 "supported."
 msgstr "İstekle ilgili bir sorun oluştu. İstenen MIME türleri desteklenmiyor."
 
-#: davfreebusyhandler.cpp:58
+#: davfreebusyhandler.cpp:62
 #, kde-format
 msgid "No schedule-outbox found for %1"
 msgstr "%1 için giden kutusu programı bulunamadı"
 
-#: davfreebusyhandler.cpp:187 davfreebusyhandler.cpp:198
+#: davfreebusyhandler.cpp:194 davfreebusyhandler.cpp:205
 #, kde-format
 msgid "Invalid response from the server"
 msgstr "Sunucudan geçersiz yanıt"
 
-#: davfreebusyhandler.cpp:209
+#: davfreebusyhandler.cpp:216
 #, kde-format
 msgid "Unable to parse free-busy data received"
 msgstr "Alınan uygun-meşgul verisi ayrıştırılamıyor"
 
-#: davgroupwareresource.cpp:163
+#: davgroupwareresource.cpp:170
 #, kde-format
 msgid "Unable to retrieve free-busy info while offline"
 msgstr "Çevrimdışıyken uygun-meşgul bilgisi alınamıyor"
 
-#: davgroupwareresource.cpp:246
+#: davgroupwareresource.cpp:190
 #, kde-format
 msgid "Fetching collections"
 msgstr "Koleksiyonlar alınıyor"
 
-#: davgroupwareresource.cpp:314
+#: davgroupwareresource.cpp:258
 #, kde-format
 msgid "Asked to retrieve items for an unknown collection: %1"
 msgstr "Bilinmeyen bir koleksiyon için ögelerin alınması istendi: %1"
 
-#: davgroupwareresource.cpp:371
+#: davgroupwareresource.cpp:315
 #, kde-format
 msgid "Invalid collection for item %1."
 msgstr "%1 ögesi için geçersiz koleksiyon."
 
-#: davgroupwareresource.cpp:608
+#: davgroupwareresource.cpp:647
+#, kde-format
+msgid "Unable to modify items: %1"
+msgstr "Ögeler değiştirilemiyor: %1"
+
+#: davgroupwareresource.cpp:686
 #, kde-format
 msgid "Unable to modify collection: %1"
 msgstr "Koleksiyon değiştirilemiyor: %1"
 
-#: davgroupwareresource.cpp:677
+#: davgroupwareresource.cpp:809
 #, kde-format
 msgid "Unable to remove collection: %1"
 msgstr "Koleksiyon kaldırılamıyor: %1"
 
-#: davgroupwareresource.cpp:697
+#: davgroupwareresource.cpp:829
 #, kde-format
 msgid "Unable to retrieve collections: %1"
 msgstr "Koleksiyonlar alınamıyor: %1"
 
-#: davgroupwareresource.cpp:830 davgroupwareresource.cpp:929
+#: davgroupwareresource.cpp:962 davgroupwareresource.cpp:1061
 #, kde-format
 msgid "Unable to retrieve items: %1"
 msgstr "Ögeler alınamıyor: %1"
 
-#: davgroupwareresource.cpp:1009
+#: davgroupwareresource.cpp:1141
 #, kde-format
 msgid "Unable to retrieve item: %1"
 msgstr "Öge alınamıyor: %1"
 
-#: davgroupwareresource.cpp:1029
+#: davgroupwareresource.cpp:1161
 #, kde-format
 msgid ""
 "Unable to retrieve item: failed to parse item data. Maybe it was deleted "
 "already."
 msgstr "Öge alınamıyor: Öge verisi ayrıştırılamadı. Silinmiş olabilir."
 
-#: davgroupwareresource.cpp:1066
+#: davgroupwareresource.cpp:1198
 #, kde-format
 msgid "Unable to add item: %1"
 msgstr "Öge eklenemiyor: %1"
 
-#: davgroupwareresource.cpp:1110 davgroupwareresource.cpp:1223
-#: davgroupwareresource.cpp:1235
+#: davgroupwareresource.cpp:1242 davgroupwareresource.cpp:1355
+#: davgroupwareresource.cpp:1367
 #, kde-format
 msgid "Unable to change item: %1"
 msgstr "Öge değiştirilemiyor: %1"
 
-#: davgroupwareresource.cpp:1197 davgroupwareresource.cpp:1254
+#: davgroupwareresource.cpp:1329 davgroupwareresource.cpp:1386
 #, kde-format
 msgid "Unable to remove item: %1"
 msgstr "Öge kaldırılamıyor: %1"
 
-#: davgroupwareresource.cpp:1341 davgroupwareresource.cpp:1342
+#: davgroupwareresource.cpp:1473 davgroupwareresource.cpp:1474
 #, kde-format
 msgid "The resource is not configured yet"
 msgstr "Kaynak henüz yapılandırılmamış"
@@ -414,20 +425,20 @@ msgstr "Kullanıcı adı"
 #. i18n: ectx: label, entry (limitSyncRange), group (General)
 #: davgroupwareresource.kcfg:30
 #, kde-format
-msgid "Limit the events retrieval to the specified time range"
-msgstr "Olay alımını belirtilen zaman aralığı ile sınırla"
+msgid "Limit the data retrieval to the specified time range"
+msgstr "Veri alımını belirtilen zaman erimiyle sınırla"
 
 #. i18n: ectx: label, entry (syncRangeStartNumber), group (General)
 #: davgroupwareresource.kcfg:34
 #, kde-format
-msgid "Period for which to retrieve events, quantity"
-msgstr "Olayların alınacağı aralık, miktar"
+msgid "Period for which to retrieve data, quantity"
+msgstr "Verinin alınacağı periyot, nicelik"
 
 #. i18n: ectx: label, entry (syncRangeStartType), group (General)
 #: davgroupwareresource.kcfg:38
 #, kde-format
-msgid "Period for which to retrieve events, type"
-msgstr "Olayların alınacağı aralık, tür"
+msgid "Period for which to retrieve data, type"
+msgstr "Verinin alınacağı periyot, tür"
 
 #. i18n: ectx: label, entry (collectionsUrlsMappings), group (General)
 #: davgroupwareresource.kcfg:42
@@ -478,13 +489,13 @@ msgstr ""
 "%1"
 
 #. i18n: ectx: property (text), widget (QRadioButton, useDefaultCreds)
-#: searchdialog.ui:32 urlconfigurationdialog.ui:85
+#: searchdialog.ui:32 urlconfigurationdialog.ui:94
 #, kde-format
 msgid "Use global creden&tials"
 msgstr "Evrensel kim&lik bilgilerini kullan"
 
 #. i18n: ectx: property (text), widget (QRadioButton, useSpecificCreds)
-#: searchdialog.ui:42 urlconfigurationdialog.ui:95
+#: searchdialog.ui:42 urlconfigurationdialog.ui:104
 #, kde-format
 msgid "Use specific credentials"
 msgstr "Özel kimlik kullan"
@@ -531,53 +542,44 @@ msgstr "adlandırılmış bir kişi"
 msgid "a contact with email"
 msgstr "e-posta ile bir bağlantı"
 
-#: settings.cpp:478
-#, kde-format
-msgid "A password is required for user %1"
-msgstr "%1 kullanıcısı için bir parola gerekli"
-
-#: settings.cpp:481
-#, kde-format
-msgid "Password: "
-msgstr "Parola:"
-
-#: setupwizard.cpp:138
+#: setupwizard.cpp:142
 #, kde-format
 msgctxt "@title:window"
 msgid "DAV groupware configuration wizard"
 msgstr "DAV grup yazılımı yapılandırma sihirbazı"
 
-#: setupwizard.cpp:211
+#: setupwizard.cpp:231
 #, kde-format
 msgid "Login Credentials"
 msgstr "Oturum açma bilgileri"
 
-#: setupwizard.cpp:212
+#: setupwizard.cpp:232
 #, kde-format
 msgid "Enter your credentials to login to the groupware server"
 msgstr "Grup yazılımı sunucusuna oturum açmak için kimlik bilgilerini girin"
 
-#: setupwizard.cpp:216
+#: setupwizard.cpp:236
 #, kde-format
 msgid "User:"
 msgstr "Kullanıcı:"
 
-#: setupwizard.cpp:260
+#: setupwizard.cpp:276
 #, kde-format
+msgctxt "@option:radio"
 msgid "No, choose another server"
 msgstr "Hayır, başka bir sunucu seç"
 
-#: setupwizard.cpp:262
+#: setupwizard.cpp:278
 #, kde-format
 msgid "Predefined provider found"
 msgstr "Önceden tanımlanmış sağlayıcı bulundu"
 
-#: setupwizard.cpp:263
+#: setupwizard.cpp:279
 #, kde-format
 msgid "Select if you want to use the auto-detected provider"
 msgstr "Otomatik tespit sağlayıcıyı kullanmak istiyorsanız seçin"
 
-#: setupwizard.cpp:282
+#: setupwizard.cpp:298
 #, kde-format
 msgid ""
 "Based on the email address you used as a login, this wizard\n"
@@ -588,96 +590,108 @@ msgstr ""
 "%1 hizmetleri için kendiliğinden bir hesap yapılandırabilir.\n"
 "Böyle yapılmasını ister misiniz?"
 
-#: setupwizard.cpp:287
+#: setupwizard.cpp:303
 #, kde-format
 msgid "Yes, use %1 as provider"
 msgstr "Evet, %1 sağlayıcı olarak kullan"
 
-#: setupwizard.cpp:313
+#: setupwizard.cpp:329
 #, kde-format
 msgid "Groupware Server"
-msgstr "Groupware Sunucu"
+msgstr "Grup Yazılımı Sunucusu"
 
-#: setupwizard.cpp:314
+#: setupwizard.cpp:330
 #, kde-format
 msgid "Select the groupware server the resource shall be configured for"
-msgstr "Kaynağın yapılandırılacağı grup çalışması sunucusunu seçin"
+msgstr "Kaynağın yapılandırılacağı grup yazılımı sunucusunu seçin"
 
-#: setupwizard.cpp:343
+#: setupwizard.cpp:359
 #, kde-format
+msgctxt "@option:radio"
 msgid "Use one of those servers:"
 msgstr "Bu sunuculardan birini kullan:"
 
-#: setupwizard.cpp:352
+#: setupwizard.cpp:368
 #, kde-format
+msgctxt "@option:radio"
 msgid "Configure the resource manually"
-msgstr "Kaynakları elle yapılandır"
+msgstr "Özkaynakları elle yapılandır"
 
-#: setupwizard.cpp:386
+#: setupwizard.cpp:403
 #, kde-format
 msgid "Connection"
 msgstr "Bağlantı"
 
-#: setupwizard.cpp:387
+#: setupwizard.cpp:404
 #, kde-format
 msgid "Enter the connection information for the groupware server"
 msgstr "Grup yazılım sunucusu için bağlantı bilgileri girin"
 
-#: setupwizard.cpp:394
+#: setupwizard.cpp:411
 #, kde-format
 msgid "Host"
 msgstr "Makine"
 
-#: setupwizard.cpp:397
+#: setupwizard.cpp:414
 #, kde-format
 msgid "Installation path"
 msgstr "Kurulum yolu"
 
-#: setupwizard.cpp:400
+#: setupwizard.cpp:417
 #, kde-format
+msgctxt "@option:check"
 msgid "Use secure connection"
 msgstr "Güvenli bağlantı kullan"
 
-#: setupwizard.cpp:428
+#: setupwizard.cpp:445
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Final URL (CalDav)"
 msgstr "Son URL (CalDav)"
 
-#: setupwizard.cpp:433
+#: setupwizard.cpp:450
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Final URL (CardDav)"
 msgstr "Son URL (CardDav)"
 
-#: setupwizard.cpp:438
+#: setupwizard.cpp:455
 #, kde-format
+msgctxt "@label:textbox"
 msgid "Final URL (GroupDav)"
 msgstr "Son URL (GroupDav)"
 
-#: setupwizard.cpp:502 setupwizard.cpp:508
+#: setupwizard.cpp:519
 #, kde-format
 msgid "Test Connection"
 msgstr "Bağlantıyı Sına"
 
-#: setupwizard.cpp:503
+#: setupwizard.cpp:520
 #, kde-format
 msgid ""
 "You can test now whether the groupware server can be accessed with the "
 "current configuration"
 msgstr ""
 "Grup yazılımı sunucusuna şu anki yapılandırma dosyası ile erişebilirliğini "
-"şimdi test edebilirsiniz"
+"şimdi sınayabilirsiniz."
 
-#: setupwizard.cpp:548
+#: setupwizard.cpp:525
+#, kde-format
+msgctxt "@action:button"
+msgid "Test Connection"
+msgstr "Bağlantıyı Sına"
+
+#: setupwizard.cpp:565
 #, kde-format
 msgid "An error occurred: %1"
 msgstr "Bir hata oluştu: %1"
 
-#: setupwizard.cpp:551
+#: setupwizard.cpp:568
 #, kde-format
 msgid "Connected successfully"
 msgstr "Başarılı bir şekilde bağlanıldı"
 
-#: urlconfigurationdialog.cpp:272
+#: urlconfigurationdialog.cpp:267
 #, kde-format
 msgid "Display Name"
 msgstr "Görünen Ad"
@@ -695,37 +709,37 @@ msgid "CalDA&V"
 msgstr "CalDA&V"
 
 #. i18n: ectx: property (text), widget (QRadioButton, carddav)
-#: urlconfigurationdialog.ui:52
+#: urlconfigurationdialog.ui:55
 #, kde-format
 msgid "CardDAV"
 msgstr "CardDAV"
 
 #. i18n: ectx: property (text), widget (QRadioButton, groupdav)
-#: urlconfigurationdialog.ui:59
+#: urlconfigurationdialog.ui:65
 #, kde-format
 msgid "GroupDAV"
 msgstr "GroupDAV"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: urlconfigurationdialog.ui:66
+#: urlconfigurationdialog.ui:75
 #, kde-format
 msgid "Remote URL:"
 msgstr "Uzak URL:"
 
 #. i18n: ectx: property (text), widget (QLabel, label1)
-#: urlconfigurationdialog.ui:76
+#: urlconfigurationdialog.ui:85
 #, kde-format
 msgid "Access:"
 msgstr "Erişim:"
 
 #. i18n: ectx: property (text), widget (QLabel, collectionsLabel)
-#: urlconfigurationdialog.ui:146
+#: urlconfigurationdialog.ui:154
 #, kde-format
 msgid "Discovered collections:"
 msgstr "Keşfedilen koleksiyonlar:"
 
 #. i18n: ectx: property (text), widget (QPushButton, fetchButton)
-#: urlconfigurationdialog.ui:174
+#: urlconfigurationdialog.ui:182
 #, kde-format
 msgid "Fetch"
 msgstr "Getir"
@@ -744,3 +758,10 @@ msgstr "CardDav"
 #, kde-format
 msgid "GroupDav"
 msgstr "GroupDav"
+
+#~ msgid ""
+#~ "Select this if your calendars contain a lot of events and the server "
+#~ "cannot fulfill the requests"
+#~ msgstr ""
+#~ "Bu seçeneği takviminiz çok sayıda olay içerdiği ve sunucu bu istekleri "
+#~ "yerine getiremediği durumda seçin"

@@ -5,13 +5,13 @@
 # H. İbrahim Güngör <ibrahim@pardus.org.tr>, 2011.
 # obsoleteman <tulliana@gmail.com>, 2008-2009,2012.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdesdk-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-04 12:21+0000\n"
-"PO-Revision-Date: 2023-05-08 10:54+0300\n"
+"POT-Creation-Date: 2025-03-27 00:44+0000\n"
+"PO-Revision-Date: 2025-03-27 20:13+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -19,73 +19,141 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.03.70\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Serdar Soytetir"
+msgstr "Serdar Soytetir, Emir SARI"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "tulliana@gmail.com"
+msgstr "tulliana@gmail.com, emir_sari@icloud.com"
 
-#: src/application/apptemplatesmodel.cpp:159
+#: src/application/apptemplatesmodel.cpp:161
 #, kde-format
 msgctxt "@title:column"
 msgid "Templates Projects"
 msgstr "Şablonlar Projeleri"
 
-#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
-#: src/application/choice.ui:37
+#: src/application/ChoicePage.qml:16
 #, kde-format
-msgid "Get More Templates"
-msgstr "Daha Fazla Şablon Getir"
+msgctxt "@title"
+msgid "Choose Template"
+msgstr "Şablon Seç"
 
-#. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: src/application/choice.ui:50
+#: src/application/ChoicePage.qml:26
 #, kde-format
+msgctxt "@action:intoolbar"
 msgid "Install Template From File"
-msgstr "Şablonu Dosyadan Kur"
+msgstr "Dosyadan Şablon Kur"
 
-#. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: src/application/choice.ui:111
+#: src/application/ChoicePage.qml:33
 #, kde-format
-msgid "Project name:"
-msgstr "Projenin adı:"
+msgctxt "file dialog name filter"
+msgid "Archive Files (*.tar.bz2 *.zip)"
+msgstr "Arşiv dosyaları (*.tar.bz2 *.zip)"
 
-#: src/application/choicepage.cpp:35
+#: src/application/ChoicePage.qml:96
 #, kde-format
-msgid "Choose your project template"
-msgstr "Proje şablonunuzu seçin"
+msgctxt "@title"
+msgid "No Template Selected"
+msgstr "Seçili Şablon Yok"
 
-#: src/application/choicepage.cpp:146
+#: src/application/ChoicePage.qml:120 src/application/ConfigurePage.qml:87
+#: src/application/GeneratorPage.qml:67
 #, kde-format
-msgid "No sample picture available."
-msgstr "Kullanılabilir örnek resim yok."
+msgctxt "@action:button Go to the previous page"
+msgid "Previous"
+msgstr "Önceki"
 
-#: src/application/choicepage.cpp:159
+#: src/application/ChoicePage.qml:129 src/application/IntroductionPage.qml:39
 #, kde-format
-msgid "Template description"
-msgstr "Şablon açıklaması"
+msgctxt "@action:button Go to the next page"
+msgid "Next"
+msgstr "Sonraki"
 
-#: src/application/generatepage.cpp:29
+#: src/application/ConfigurePage.qml:15
 #, kde-format
-msgid "Generating your project"
-msgstr "Projeniz oluşturuluyor"
+msgctxt "@title"
+msgid "Configure"
+msgstr "Yapılandır"
 
-#: src/application/generatepage.cpp:45
+#: src/application/ConfigurePage.qml:25
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr "Genel"
+
+#: src/application/ConfigurePage.qml:32
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "Ad:"
+
+#: src/application/ConfigurePage.qml:44
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "Konum:"
+
+#: src/application/ConfigurePage.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No folder selected"
+msgstr "Seçili klasör yok"
+
+#: src/application/ConfigurePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Metadata"
+msgstr "Üst Veri"
+
+#: src/application/ConfigurePage.qml:62
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Version:"
+msgstr "Sürüm:"
+
+#: src/application/ConfigurePage.qml:70
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Author name:"
+msgstr "Yazar adı:"
+
+#: src/application/ConfigurePage.qml:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Author email:"
+msgstr "Yazar e-postası:"
+
+#: src/application/ConfigurePage.qml:93
+#, kde-format
+msgctxt "@action:button Generate the application"
+msgid "Generate"
+msgstr "Üret"
+
+#: src/application/generator.cpp:127
 #, kde-format
 msgid "%1 cannot be created."
-msgstr "%1 oluşturulamaz."
+msgstr "%1 oluşturulamıyor."
 
-#: src/application/generatepage.cpp:65
+#: src/application/generator.cpp:146
 #, kde-format
 msgid "Path %1 could not be created."
 msgstr "%1 yolu oluşturulamadı."
 
-#: src/application/generatepage.cpp:77
+#: src/application/generator.cpp:162
+#, kde-format
+msgid ""
+"Could not copy template file to %1, because the file is already exists. The "
+"project has not been generated and all temporary files will be removed."
+msgstr ""
+"Şablon dosyası %1 konumuna kopyalanamadı; çünkü dosya halihazırda var. Proje "
+"üretilmedi ve tüm geçici dosyalar kaldırılacak."
+
+#: src/application/generator.cpp:172
 #, kde-format
 msgid ""
 "Failed to integrate your project information into the file %1. The project "
@@ -94,37 +162,32 @@ msgstr ""
 "Proje bilgileriniz %1 dosyasıyla bütünleştirilemedi. Proje oluşturulamadı ve "
 "tüm geçici dosyalar silindi."
 
-#: src/application/generatepage.cpp:85
+#: src/application/generator.cpp:180
 #, kde-format
 msgid "Could not copy template file to %1."
 msgstr "Şablon dosyası %1 konumuna kopyalanamadı."
 
-#: src/application/generatepage.cpp:119
+#: src/application/generator.cpp:247
 #, kde-format
-msgid "Generation Progress\n"
-msgstr "Oluşturulma Süreci\n"
+msgid "Could not load template archive for %1."
+msgstr "%1 için olan şablon arşivi yüklenemedi."
 
-#: src/application/generatepage.cpp:219
+#: src/application/generator.cpp:334
 #, kde-format
-msgid "Succeeded.\n"
-msgstr "Başarılı oldu.\n"
+msgid "Your project name is: <b>%1</b>, based on the <b>%2</b> template.<br />"
+msgstr "Projenizin adı: <b>%1</b>, <b>%2</b> şablonu temelli.<br />"
 
-#: src/application/generatepage.cpp:223
-#, kde-format
-msgid "Your project name is: <b>%1</b>, based on the %2 template.<br />"
-msgstr "Projenizin adı: <b>%1</b>, %2 şablonunu temal aldı.<br />"
-
-#: src/application/generatepage.cpp:224
+#: src/application/generator.cpp:335
 #, kde-format
 msgid "Version: %1 <br /><br />"
 msgstr "Sürüm: %1 <br /><br />"
 
-#: src/application/generatepage.cpp:225
+#: src/application/generator.cpp:336
 #, kde-format
 msgid "Installed in: %1 <br /><br />"
 msgstr "Kurulduğu yer: %1 <br /><br />"
 
-#: src/application/generatepage.cpp:227
+#: src/application/generator.cpp:337
 #, kde-format
 msgid ""
 "You will find a README in your project folder <b>%1</b><br /> to help you "
@@ -133,51 +196,32 @@ msgstr ""
 "<b>%1</b> proje dizininizde, projenize başlamanıza yardım edecek<br />bir "
 "README dosyası bulacaksınız."
 
-#: src/application/generatepage.cpp:233
+#: src/application/GeneratorPage.qml:16
 #, kde-format
-msgctxt "@title:window"
-msgid "Error"
-msgstr "Hata"
+msgctxt "@title"
+msgid "Project Generation"
+msgstr "Proje Üretimi"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/application/introduction.ui:17
+#: src/application/GeneratorPage.qml:73
 #, kde-format
-msgid ""
-"This wizard will help you generate a new project.\n"
-"You will be able to start developing your own software using Qt and KDE "
-"technologies from this template."
-msgstr ""
-"Bu sihirbaz bir proje oluşturmanıza yardım edecektir.\n"
-"Bu şablon ile Qt ve KDE teknolojilerini kullanarak kendi yazılımınızı "
-"geliştirmeye başlayabileceksiniz."
+msgctxt "@action:button Close the application"
+msgid "Close"
+msgstr "Kapat"
 
-#: src/application/kapptemplate.cpp:21
+#: src/application/IntroductionPage.qml:13
 #, kde-format
-msgctxt "@title:window"
-msgid "KDE and Qt Template Generator"
-msgstr "KDE ve Qt Şablon Oluşturucu"
-
-#: src/application/kapptemplate.cpp:42
-#, kde-format
-msgctxt "@title:tab"
+msgctxt "@title"
 msgid "Introduction"
 msgstr "Giriş"
 
-#: src/application/kapptemplate.cpp:49
+#: src/application/IntroductionPage.qml:19
 #, kde-format
-msgid "Set the project properties"
-msgstr "Proje özelliklerini ayarla"
-
-#: src/application/kapptemplate.cpp:51
-#, kde-format
-msgctxt "@action:button"
-msgid "Generate"
-msgstr "Oluştur"
-
-#: src/application/kapptemplate.cpp:78
-#, kde-format
-msgid "Your project name is: %1"
-msgstr "Projenizin adı: %1"
+msgid ""
+"This wizard will help you generate a new project to get started with Qt and "
+"KDE development."
+msgstr ""
+"Bu sihirbaz, Qt ve KDE geliştirmesine başlamanıza yardımcı olmak için yeni "
+"bir proje üretecektir."
 
 #. i18n: ectx: label, entry (appName), group (Project)
 #: src/application/kapptemplate.kcfg:11
@@ -209,134 +253,163 @@ msgstr "Kullanıcının adı"
 msgid "Email of the user"
 msgstr "Kullanıcının e-posta adresi"
 
-#: src/application/main.cpp:24
+#: src/application/main.cpp:40
 #, kde-format
 msgid "KAppTemplate"
 msgstr "K Uygulama Şablonu"
 
-#: src/application/main.cpp:26
+#: src/application/main.cpp:42
 #, kde-format
 msgid "KAppTemplate is a KDE project template generator"
 msgstr "K Uygulama Şablonu, bir KDE proje şablonu oluşturucusudur"
 
-#: src/application/main.cpp:28
+#: src/application/main.cpp:44
 #, kde-format
 msgid "(C) 2008 Anne-Marie Mahfouf"
-msgstr "(C) 2008 Anne-Marie Mahfouf"
+msgstr "© 2008 Anne–Marie Mahfouf"
 
-#: src/application/main.cpp:32
+#: src/application/main.cpp:48
 #, kde-format
 msgid "Anne-Marie Mahfouf"
-msgstr "Anne-Marie Mahfouf"
+msgstr "Anne–Marie Mahfouf"
 
-#: src/application/main.cpp:33
+#: src/application/main.cpp:49
 #, kde-format
 msgid "Sean Wilson"
 msgstr "Sean Wilson"
 
-#: src/application/main.cpp:33
+#: src/application/main.cpp:49
 #, kde-format
 msgid "Icons from Oxygen Team icons"
-msgstr "Oxygen Takımından Simgeler"
+msgstr "Oksijen Takımından Simgeler"
 
-#. i18n: ectx: property (text), widget (QLabel, versionLabel)
-#: src/application/properties.ui:30
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:25
+#: src/templates/C++/kde-frameworks6/src/main.cpp:32
 #, kde-format
-msgid "&Version number:"
-msgstr "&Sürüm numarası:"
+msgid "%{APPNAME}"
+msgstr "%{APPNAME}"
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_appVersion)
-#: src/application/properties.ui:40
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:27
+#: src/templates/C++/kde-frameworks6/src/main.cpp:34
 #, kde-format
-msgid "Project's version number"
-msgstr "Projenin sürüm numarası"
+msgid "A Simple Application written with KDE Frameworks"
+msgstr "KDE Frameworks kullanılarak yazılmış yalın bir uygulama"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_appVersion)
-#: src/application/properties.ui:43
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:29
+#: src/templates/C++/kde-frameworks6/src/main.cpp:36
 #, kde-format
-msgid ""
-"Set your project version number. A first project should start with version "
-"0.1."
-msgstr ""
-"Projenizin sürüm numarasını ayarlayın. İlk proje 0.1 sürümü ile başlamalıdır."
+msgid "Copyright %{CURRENT_YEAR}, %{AUTHOR} <%{EMAIL}>"
+msgstr "Telif hakkı %{CURRENT_YEAR}, %{AUTHOR} <%{EMAIL}>"
 
-#. i18n: ectx: property (inputMask), widget (KLineEdit, kcfg_appVersion)
-#: src/application/properties.ui:46
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:31
+#: src/templates/C++/kde-frameworks6/src/main.cpp:38
 #, kde-format
-msgid "0.0"
-msgstr "0.0"
+msgid "%{AUTHOR}"
+msgstr "%{AUTHOR}"
 
-#. i18n: ectx: property (text), widget (KLineEdit, kcfg_appVersion)
-#: src/application/properties.ui:49
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:31
+#: src/templates/C++/kde-frameworks6/src/main.cpp:38
 #, kde-format
-msgid "0.1"
-msgstr "0.1"
+msgid "Author"
+msgstr "Yazar"
 
-#. i18n: ectx: property (text), widget (QLabel, installLabel)
-#: src/application/properties.ui:56
+#. i18n : internationalization
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}view.cpp:44
 #, kde-format
-msgid "In&stallation directory:"
-msgstr "Kuru&lum dizini:"
+msgid "This project is %1 days old"
+msgstr "Bu proje %1 gün önce oluşturuldu"
 
-#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_url)
-#: src/application/properties.ui:66
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}window.cpp:26
 #, kde-format
-msgid "The directory where you will build your project"
-msgstr "Projenizi yapacağınız dizin"
+msgctxt "@action"
+msgid "Switch Colors"
+msgstr "Renkleri Değiştir"
 
-#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_url)
-#: src/application/properties.ui:69
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}window.cpp:62
 #, kde-format
-msgid ""
-"Choose the directory where you will build your project. Your home /src is a "
-"good default location."
-msgstr ""
-"Projenizi yapacağınız dizini seçin. Ana dizininizdeki /src klasörü uygun bir "
-"öntanımlı konumdur."
+msgctxt "@title:tab"
+msgid "General"
+msgstr "Genel"
 
-#. i18n: ectx: property (text), widget (QLabel, authorLabel)
-#: src/application/properties.ui:76
-#, kde-format
-msgid "Author &name:"
-msgstr "Yazarın &adı:"
+#~ msgid "Project name:"
+#~ msgstr "Projenin adı:"
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_name)
-#: src/application/properties.ui:86
-#, kde-format
-msgid "Your first name and name"
-msgstr "Adınız ve soyadınız"
+#~ msgid "Choose your project template"
+#~ msgstr "Proje şablonunuzu seçin"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_name)
-#: src/application/properties.ui:89
-#, kde-format
-msgid "This will set the copyright to this name"
-msgstr "Bu seçenek, bu ad için telif haklarını ayarlar"
+#~ msgid "No sample picture available."
+#~ msgstr "Kullanılabilir örnek resim yok."
 
-#. i18n: ectx: property (text), widget (QLabel, emailLabel)
-#: src/application/properties.ui:102
-#, kde-format
-msgid "A&uthor email:"
-msgstr "Yazarın &eposta adresi:"
+#~ msgid "Template description"
+#~ msgstr "Şablon açıklaması"
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_email)
-#: src/application/properties.ui:112
-#, kde-format
-msgid "Your email address"
-msgstr "E-posta adresiniz"
+#~ msgid "Generating your project"
+#~ msgstr "Projeniz oluşturuluyor"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_email)
-#: src/application/properties.ui:115
-#, kde-format
-msgid ""
-"This email address will be next to your name in the copyright credit of the "
-"project files."
-msgstr ""
-"Bu e-posta adresi proje dosyalarına, adınızdan sonra telif hakları kısmına "
-"eklenecektir."
+#~ msgid "Generation Progress\n"
+#~ msgstr "Oluşturulma Süreci\n"
 
-#~ msgctxt "Do not translate"
-#~ msgid "Preview"
-#~ msgstr "Önizleme"
+#~ msgid "Succeeded.\n"
+#~ msgstr "Başarılı oldu.\n"
+
+#~ msgctxt "@title:window"
+#~ msgid "Error"
+#~ msgstr "Hata"
+
+#~ msgctxt "@title:window"
+#~ msgid "KDE and Qt Template Generator"
+#~ msgstr "KDE ve Qt Şablon Oluşturucu"
+
+#~ msgid "Set the project properties"
+#~ msgstr "Proje özelliklerini ayarla"
+
+#~ msgid "Your project name is: %1"
+#~ msgstr "Projenizin adı: %1"
+
+#~ msgid "Project's version number"
+#~ msgstr "Projenin sürüm numarası"
+
+#~ msgid ""
+#~ "Set your project version number. A first project should start with "
+#~ "version 0.1."
+#~ msgstr ""
+#~ "Projenizin sürüm numarasını ayarlayın. İlk proje 0.1 sürümü ile "
+#~ "başlamalıdır."
+
+#~ msgid "0.0"
+#~ msgstr "0.0"
+
+#~ msgid "0.1"
+#~ msgstr "0.1"
+
+#~ msgid "In&stallation directory:"
+#~ msgstr "Kuru&lum dizini:"
+
+#~ msgid "The directory where you will build your project"
+#~ msgstr "Projenizi yapacağınız dizin"
+
+#~ msgid ""
+#~ "Choose the directory where you will build your project. Your home /src is "
+#~ "a good default location."
+#~ msgstr ""
+#~ "Projenizi yapacağınız dizini seçin. Ana dizininizdeki /src klasörü uygun "
+#~ "bir öntanımlı konumdur."
+
+#~ msgid "Your first name and name"
+#~ msgstr "Adınız ve soyadınız"
+
+#~ msgid "This will set the copyright to this name"
+#~ msgstr "Bu seçenek, bu ad için telif haklarını ayarlar"
+
+#~ msgid "Your email address"
+#~ msgstr "E-posta adresiniz"
+
+#~ msgid ""
+#~ "This email address will be next to your name in the copyright credit of "
+#~ "the project files."
+#~ msgstr ""
+#~ "Bu e-posta adresi proje dosyalarına, adınızdan sonra telif hakları "
+#~ "kısmına eklenecektir."
 
 #~ msgctxt "Do not translate"
 #~ msgid "Description"

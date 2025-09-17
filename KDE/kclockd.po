@@ -1,13 +1,13 @@
 # Copyright (C) 2024 This file is copyright:
 # This file is distributed under the same license as the kclock package.
 #
-# SPDX-FileCopyrightText: 2022, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kclock\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-12 01:39+0000\n"
-"PO-Revision-Date: 2024-02-09 17:45+0300\n"
+"POT-Creation-Date: 2025-07-31 00:45+0000\n"
+"PO-Revision-Date: 2025-04-04 18:03+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -27,61 +27,199 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "emir_sari@icloud.com"
 
-#: alarm.cpp:73 alarm.h:51
+#: alarm.cpp:72 alarm.h:51
 #, kde-format
 msgid "Alarm"
 msgstr "Çalar Saat"
 
-#: alarm.cpp:77 timer.cpp:58
+#: alarm.cpp:76 timer.cpp:69
 #, kde-format
-msgid "View"
-msgstr "Görüntüle"
+msgctxt "@action:button"
+msgid "Dismiss"
+msgstr "Kapat"
 
-#: alarm.cpp:80
+#: alarm.cpp:79
 #, kde-format
 msgid "Dismiss"
 msgstr "Kapat"
 
-#: alarm.cpp:83
+#: alarm.cpp:82
 #, kde-format
 msgid "Snooze"
 msgstr "Ertele"
 
-#: alarmmodel.cpp:222
+#: alarmmodel.cpp:255
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Alarm: <shortcut>%1 %2</shortcut>"
 msgstr "Çalar saat: <shortcut>%1 %2</shortcut>"
 
-#: main.cpp:30
+#: kclockrunner.cpp:74
+#, kde-format
+msgctxt "@action:button Add 1 minute to timer"
+msgid "+1 Minute"
+msgstr "+1 Dakika"
+
+#: kclockrunner.cpp:75
+#, kde-format
+msgctxt "@action:button"
+msgid "Reset Timer"
+msgstr "Sayacı Sıfırla"
+
+#: kclockrunner.cpp:82
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "timer"
+msgstr "sayaç"
+
+#: kclockrunner.cpp:99
+#, kde-format
+msgctxt "Timer running or paused (remaining time)"
+msgid "%1 (%2 Remaining)"
+msgstr "%1 (%2 kalan)"
+
+#: kclockrunner.cpp:101
+#, kde-format
+msgctxt "Timer not running (timer length)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kclockrunner.cpp:112
+#, kde-format
+msgctxt "KRunner category"
+msgid "Timer"
+msgstr "Sayaç"
+
+#: kclockrunner.cpp:116
+#, kde-format
+msgctxt "@action"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: kclockrunner.cpp:118
+#, kde-format
+msgctxt "@action"
+msgid "Resume"
+msgstr "Sürdür"
+
+#: kclockrunner.cpp:120
+#, kde-format
+msgctxt "@action"
+msgid "Start Timer"
+msgstr "Sayacı Başlat"
+
+#: kclockrunner.cpp:135
+#, kde-format
+msgctxt "Note this is a KRunner keyword"
+msgid "alarm"
+msgstr "alarm"
+
+#: kclockrunner.cpp:157
+#, kde-format
+msgctxt "Alarm name (time)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kclockrunner.cpp:167
+#, kde-format
+msgctxt "KRunner category"
+msgid "Alarm"
+msgstr "Çalar Saat"
+
+#: kclockrunner.cpp:171
+#, kde-format
+msgctxt "@action Dismiss Alarm"
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: kclockrunner.cpp:174
+#, kde-format
+msgctxt "Disable timer (rings in time)"
+msgid "Disable (Rings in %1)"
+msgstr "Devre Dışı Bırak (%1 İçinde Çalacak)"
+
+#: kclockrunner.cpp:176
+#, kde-format
+msgctxt "@action Enable Alarm"
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: main.cpp:32
 #, kde-format
 msgid "Don't use PowerDevil for alarms if it is available"
 msgstr "Varsa çalar saatler için PowerDevil’ı kullanma"
 
-#: main.cpp:45
+#: main.cpp:48
 #, kde-format
 msgid "© 2020-2022 KDE Community"
-msgstr "© 2020-2022 KDE Topluluğu"
+msgstr "© 2020–2022 KDE Topluluğu"
 
-#: main.cpp:46
+#: main.cpp:49
 #, kde-format
 msgid "Devin Lin"
 msgstr "Devin Lin"
 
-#: main.cpp:47
+#: main.cpp:50
 #, kde-format
 msgid "Han Young"
 msgstr "Han Young"
 
-#: timer.cpp:53
+#: main.cpp:51
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#: main.cpp:51
+#, kde-format
+msgctxt "Author"
+msgid "Desktop Integration"
+msgstr "Masaüstü tümleştirmesi"
+
+#: timer.cpp:64
 #, kde-format
 msgid "Timer complete"
 msgstr "Sayaç bitti"
 
-#: timer.cpp:54
+#: timer.cpp:65
 #, kde-format
 msgid "Your timer %1 has finished!"
 msgstr "%1 sayacınız bitti!"
+
+#: timermodel.cpp:269
+#, kde-format
+msgctxt "@action:button Open kclock app"
+msgid "Open Clock"
+msgstr "Saati Aç"
+
+#: timermodel.cpp:274
+#, kde-format
+msgctxt "@action:button Add minute to timer"
+msgid "+1 Minute"
+msgstr "+1 Dakika"
+
+#: timermodel.cpp:277
+#, kde-format
+msgctxt "@action:button Reset timer"
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: timermodel.cpp:280 timermodel.cpp:305
+#, kde-format
+msgctxt "@action:button Pause timer"
+msgid "Pause"
+msgstr "Duraklat"
+
+#: timermodel.cpp:298
+#, kde-format
+msgctxt "@title:notification Timer name (paused)"
+msgid "%1 (Paused)"
+msgstr "%1 (Duraklatıldı)"
+
+#: timermodel.cpp:307
+#, kde-format
+msgctxt "@action:button Resume timer"
+msgid "Resume"
+msgstr "Sürdür"
 
 #: xdgportal.cpp:34
 #, kde-format

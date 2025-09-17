@@ -2,21 +2,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Volkan Gezer <volkangezer@gmail.com>, 2014, 2015, 2017, 2021.
-# SPDX-FileCopyrightText: 2022, 2023 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-11 00:38+0000\n"
-"PO-Revision-Date: 2023-11-05 11:39+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-08-15 00:48+0000\n"
+"PO-Revision-Date: 2025-07-17 23:16+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.08.2\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -28,37 +28,13 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "ongun.kanat@gmail.com, volkangezer@gmail.com, emir_sari@icloud.com"
 
-#: actions/bundled/brightnesscontrol.cpp:36 actions/bundled/dpms.cpp:73
-#: actions/bundled/handlebuttonevents.cpp:42
-#: actions/bundled/keyboardbrightnesscontrol.cpp:42
+#: actions/bundled/dpms.cpp:73 actions/bundled/handlebuttonevents.cpp:45
+#: actions/bundled/keyboardbrightnesscontrol.cpp:47
+#: actions/bundled/powerprofile.cpp:67 powerdevilscreenbrightnessagent.cpp:138
 #, kde-format
 msgctxt "Name for powerdevil shortcuts category"
 msgid "Power Management"
 msgstr "Güç Yönetimi"
-
-#: actions/bundled/brightnesscontrol.cpp:39
-#, kde-format
-msgctxt "@action:inmenu Global shortcut"
-msgid "Increase Screen Brightness"
-msgstr "Ekran Parlaklığını Artır"
-
-#: actions/bundled/brightnesscontrol.cpp:44
-#, kde-format
-msgctxt "@action:inmenu Global shortcut"
-msgid "Increase Screen Brightness by 1%"
-msgstr "Ekran Parlaklığını %​1 Artır"
-
-#: actions/bundled/brightnesscontrol.cpp:49
-#, kde-format
-msgctxt "@action:inmenu Global shortcut"
-msgid "Decrease Screen Brightness"
-msgstr "Ekran Parlaklığını Azalt"
-
-#: actions/bundled/brightnesscontrol.cpp:54
-#, kde-format
-msgctxt "@action:inmenu Global shortcut"
-msgid "Decrease Screen Brightness by 1%"
-msgstr "Ekran Parlaklığını %​1 Azalt"
 
 #: actions/bundled/dpms.cpp:76
 #, kde-format
@@ -66,231 +42,241 @@ msgctxt "@action:inmenu Global shortcut"
 msgid "Turn Off Screen"
 msgstr "Ekranı Kapat"
 
-#: actions/bundled/handlebuttonevents.cpp:47
+#: actions/bundled/handlebuttonevents.cpp:50
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Suspend"
 msgstr "Askıya Al"
 
-#: actions/bundled/handlebuttonevents.cpp:52
+#: actions/bundled/handlebuttonevents.cpp:55
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Hibernate"
-msgstr "Hazırda Beklet"
+msgstr "Derin Uykuya Geç"
 
-#: actions/bundled/handlebuttonevents.cpp:57
+#: actions/bundled/handlebuttonevents.cpp:60
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Power Off"
 msgstr "Kapat"
 
-#: actions/bundled/handlebuttonevents.cpp:71
+#: actions/bundled/handlebuttonevents.cpp:74
 #, kde-format
 msgctxt ""
 "@action:inmenu Global shortcut, used for long presses of the power button"
 msgid "Power Down"
 msgstr "Gücü Kapat"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:46
+#: actions/bundled/keyboardbrightnesscontrol.cpp:51
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Increase Keyboard Brightness"
 msgstr "Klavye Parlaklığını Artır"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:51
+#: actions/bundled/keyboardbrightnesscontrol.cpp:56
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Decrease Keyboard Brightness"
 msgstr "Klavye Parlaklığını Azalt"
 
-#: actions/bundled/keyboardbrightnesscontrol.cpp:56
+#: actions/bundled/keyboardbrightnesscontrol.cpp:61
 #, kde-format
 msgctxt "@action:inmenu Global shortcut"
 msgid "Toggle Keyboard Backlight"
 msgstr "Klavye Arka Işığını Aç/Kapat"
 
-#: powerdevilapp.cpp:53
+#: actions/bundled/powerprofile.cpp:70
+#, kde-format
+msgid "Switch Power Profile"
+msgstr "Güç Profilini Değiştir"
+
+#: controllers/backlightbrightness.cpp:190 controllers/kwinbrightness.cpp:132
+#, kde-format
+msgctxt "Display label"
+msgid "Built-in Screen"
+msgstr "Yerleşik Ekran"
+
+#: controllers/kwinbrightness.cpp:136
+#, kde-format
+msgctxt "Display label: vendor + product name"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: powerdevilapp.cpp:98
 #, kde-format
 msgid "KDE Power Management System"
 msgstr "KDE Güç Yönetim Sistemi"
 
-#: powerdevilapp.cpp:55
+#: powerdevilapp.cpp:100
 #, kde-format
 msgctxt "@title"
 msgid ""
 "PowerDevil, an advanced, modular and lightweight power management daemon"
 msgstr "PowerDevil; gelişmiş, modüler ve hafif bir güç yönetimi ardalan süreci"
 
-#: powerdevilapp.cpp:57
+#: powerdevilapp.cpp:102
 #, kde-format
 msgctxt "@info:credit"
-msgid "(c) 2015-2019 Kai Uwe Broulik"
-msgstr "(c) 2015-2019 Kai Uwe Broulik"
+msgid "© 2015–2019 Kai Uwe Broulik"
+msgstr "© 2015–2019 Kai Uwe Broulik"
 
-#: powerdevilapp.cpp:58
+#: powerdevilapp.cpp:103
 #, kde-format
 msgctxt "@info:credit"
 msgid "Kai Uwe Broulik"
 msgstr "Kai Uwe Broulik"
 
-#: powerdevilapp.cpp:58
+#: powerdevilapp.cpp:103
 #, kde-format
 msgctxt "@info:credit"
 msgid "Maintainer"
 msgstr "Bakımcı"
 
-#: powerdevilapp.cpp:59
+#: powerdevilapp.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Dario Freddi"
 msgstr "Dario Freddi"
 
-#: powerdevilapp.cpp:59
+#: powerdevilapp.cpp:104
 #, kde-format
 msgctxt "@info:credit"
 msgid "Previous maintainer"
 msgstr "Önceki bakımcı"
 
-#: powerdevilapp.cpp:101
-#, kde-format
-msgid "Switch Power Profile"
-msgstr "Güç Profilini Değiştir"
-
-#: powerdevilapp.cpp:116
+#: powerdevilapp.cpp:112
 #, kde-format
 msgid "Replace an existing instance"
 msgstr "Var olan bir örneği değiştir"
 
-#: powerdevilcore.cpp:379 powerdevilcore.cpp:390
+#: powerdevilcore.cpp:400 powerdevilcore.cpp:411
 #, kde-format
 msgid "Activity Manager"
 msgstr "Etkinlik Yöneticisi"
 
-#: powerdevilcore.cpp:380
+#: powerdevilcore.cpp:401
 #, kde-format
 msgid "This activity's policies prevent the system from going to sleep"
 msgstr "Bu etkinliğin politikaları sistemin uykuya geçmesini engeller"
 
-#: powerdevilcore.cpp:391
+#: powerdevilcore.cpp:412
 #, kde-format
 msgid "This activity's policies prevent screen power management"
 msgstr "Bu etkinliğin kuralları ekran güç yönetimini engeller"
 
-#: powerdevilcore.cpp:453
+#: powerdevilcore.cpp:477
 #, kde-format
 msgid "Extra Battery Added"
 msgstr "İlave Pil Eklendi"
 
-#: powerdevilcore.cpp:454 powerdevilcore.cpp:675
+#: powerdevilcore.cpp:478
 #, kde-format
-msgid "The computer will no longer go to sleep."
-msgstr "Bilgisayar artık uyku kipine geçmeyecek."
+msgid "The system will no longer go to sleep."
+msgstr "Sistem artık uykuya geçmeyecek."
 
-#: powerdevilcore.cpp:519
+#: powerdevilcore.cpp:542
 #, kde-format
 msgctxt "%1 is vendor name, %2 is product name"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: powerdevilcore.cpp:522
+#: powerdevilcore.cpp:545
 #, kde-format
 msgctxt "The battery in an external device"
 msgid "Device Battery Low (%1% Remaining)"
 msgstr "Aygıt Pili Düşük (%​%1 Kaldı)"
 
-#: powerdevilcore.cpp:524
+#: powerdevilcore.cpp:547
 #, kde-format
 msgctxt "Placeholder is device name"
 msgid ""
 "The battery in \"%1\" is running low, and the device may turn off at any "
 "time. Please recharge or replace the battery."
 msgstr ""
-"\"%1\" içindeki pil azalıyor ve aygıt kısa süre içinde kapanabilir. Lütfen "
+"“%1” içindeki pil azalıyor ve aygıt kısa süre içinde kapanabilir. Lütfen "
 "pili şarj edin veya değiştirin."
 
-#: powerdevilcore.cpp:531
+#: powerdevilcore.cpp:554
 #, kde-format
 msgid "Mouse Battery Low (%1% Remaining)"
 msgstr "Fare Pili Düşük (%​%1 Kaldı)"
 
-#: powerdevilcore.cpp:535
+#: powerdevilcore.cpp:558
 #, kde-format
 msgid "Keyboard Battery Low (%1% Remaining)"
 msgstr "Klavye Pili Düşük (%​%1 Kaldı)"
 
-#: powerdevilcore.cpp:539
+#: powerdevilcore.cpp:568
 #, kde-format
 msgid "Bluetooth Device Battery Low (%1% Remaining)"
 msgstr "Bluetooth Aygıtı Pili Düşük (%​%1 Kaldı)"
 
-#: powerdevilcore.cpp:541
+#: powerdevilcore.cpp:570
 #, kde-format
 msgctxt "Placeholder is device name"
 msgid ""
 "The battery in Bluetooth device \"%1\" is running low, and the device may "
 "turn off at any time. Please recharge or replace the battery."
 msgstr ""
-"\"%1\" Bluetooth aygıtının pili azalıyor ve aygıt her an kapanabilir. Lütfen "
+"“%1” Bluetooth aygıtının pili azalıyor ve aygıt her an kapanabilir. Lütfen "
 "pili şarj edin veya değiştirin."
 
-#: powerdevilcore.cpp:583
+#: powerdevilcore.cpp:612
 #, kde-format
-msgid "Ensure that the power adapter is plugged in and provides enough power."
+msgid ""
+"Ensure that the power cord is plugged in all the way and provides enough "
+"power."
 msgstr ""
-"Güç bağdaştırıcısının takılı olduğundan ve yeterli güç sağladığından emin "
-"olun."
+"Güç kablosunun takılı olduğundan ve yeterli güç sağladığından emin olun."
 
-#: powerdevilcore.cpp:585
+#: powerdevilcore.cpp:614
 #, kde-format
-msgid "Plug in the computer."
-msgstr "Bilgisayarı fişe takın."
+msgid "Plug in the power cord."
+msgstr "Güç kablosunu takın."
 
-#: powerdevilcore.cpp:604
+#: powerdevilcore.cpp:634
 #, kde-format
-msgid "Battery level critical. Your computer will shut down in 60 seconds."
-msgstr "Pil düzeyi kritik. Bilgisayar 60 saniye içinde kapanacak."
+msgid "The system will shut down in 60 seconds."
+msgstr "Sistem 60 saniye içinde kapanacak."
 
-#: powerdevilcore.cpp:606
+#: powerdevilcore.cpp:636
 #, kde-format
 msgctxt ""
 "@action:button Shut down without waiting for the battery critical timer"
 msgid "Shut Down Now"
 msgstr "Şimdi Kapat"
 
-#: powerdevilcore.cpp:612
+#: powerdevilcore.cpp:642
 #, kde-format
-msgid ""
-"Battery level critical. Your computer will enter hibernation mode in 60 "
-"seconds."
-msgstr ""
-"Pil düzeyi kritik. Bilgisayar 60 saniye içinde hazırda beklet kipine geçecek."
+msgid "The system will hibernate in 60 seconds."
+msgstr "Sistem 60 saniye içinde derin uykuya geçecek."
 
-#: powerdevilcore.cpp:614
+#: powerdevilcore.cpp:644
 #, kde-format
 msgctxt ""
 "@action:button Enter hibernation mode without waiting for the battery "
 "critical timer"
 msgid "Hibernate Now"
-msgstr "Şimdi Hazırda Beklet"
+msgstr "Şimdi Derin Uykuya Geç"
 
-#: powerdevilcore.cpp:620
+#: powerdevilcore.cpp:650
 #, kde-format
-msgid "Battery level critical. Your computer will go to sleep in 60 seconds."
-msgstr "Pil düzeyi kritik. Bilgisayar 60 saniye içinde uyuyacak."
+msgid "The system will go to sleep in 60 seconds."
+msgstr "Sistem 60 saniye içinde uykuya geçecek."
 
-#: powerdevilcore.cpp:622
+#: powerdevilcore.cpp:652
 #, kde-format
 msgctxt ""
 "@action:button Suspend to ram without waiting for the battery critical timer"
 msgid "Sleep Now"
 msgstr "Şimdi Uyut"
 
-#: powerdevilcore.cpp:628
+#: powerdevilcore.cpp:658
 #, kde-format
 msgid "Please save your work."
 msgstr "Lütfen çalışmalarınızı kaydedin."
 
-#: powerdevilcore.cpp:634
+#: powerdevilcore.cpp:664
 #, kde-format
 msgctxt ""
 "Cancel timeout that will automatically put system to sleep because of low "
@@ -298,188 +284,82 @@ msgctxt ""
 msgid "Cancel"
 msgstr "İptal"
 
-#: powerdevilcore.cpp:646
+#: powerdevilcore.cpp:677
 #, kde-format
 msgid "Battery Low (%1% Remaining)"
 msgstr "Pil Düşük (%​%1 Kaldı)"
 
-#: powerdevilcore.cpp:650
+#: powerdevilcore.cpp:681
 #, kde-format
 msgid "Battery Critical (%1% Remaining)"
 msgstr "Pil Kritik (%​%1 Kaldı)"
 
-#: powerdevilcore.cpp:674
+#: powerdevilcore.cpp:715
 #, kde-format
-msgid "AC Adapter Plugged In"
-msgstr "Bağdaştırıcı Takılı"
+msgid "Power Cord Plugged In"
+msgstr "Güç Kablosu Takılı"
 
-#: powerdevilcore.cpp:677
+#: powerdevilcore.cpp:716
 #, kde-format
-msgid "Running on AC power"
-msgstr "Fişe Takılı"
+msgid "The computer will no longer go to sleep."
+msgstr "Bilgisayar artık uyku kipine geçmeyecek."
 
-#: powerdevilcore.cpp:677
+#: powerdevilcore.cpp:718
 #, kde-format
-msgid "The power adapter has been plugged in."
-msgstr "Güç bağdaştırıcısı takılı."
+msgid "Running on AC Power"
+msgstr "Fişe Takılı Olarak Çalışıyor"
 
-#: powerdevilcore.cpp:680
+#: powerdevilcore.cpp:719
+#, kde-format
+msgid "The power cord has been plugged in."
+msgstr "Güç kablosu takıldı."
+
+#: powerdevilcore.cpp:731
 #, kde-format
 msgid "Running on Battery Power"
 msgstr "Pille Çalışıyor"
 
-#: powerdevilcore.cpp:680
+#: powerdevilcore.cpp:732
 #, kde-format
-msgid "The power adapter has been unplugged."
-msgstr "Güç bağdaştırıcısı takılı değil."
+msgid "The power cord has been unplugged."
+msgstr "Güç kablosu çıkarıldı."
 
-#: powerdevilcore.cpp:741
+#: powerdevilcore.cpp:795
 #, kde-format
 msgid "Charging Complete"
 msgstr "Şarj Tamamlandı"
 
-#: powerdevilcore.cpp:741
+#: powerdevilcore.cpp:795
 #, kde-format
 msgid "Battery now fully charged."
 msgstr "Piliniz tümüyle şarj edildi."
 
-#~ msgctxt "Brightness level, label for the slider"
-#~ msgid "Level"
-#~ msgstr "Düzey"
+#: powerdevilscreenbrightnessagent.cpp:141
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness"
+msgstr "Ekran Parlaklığını Artır"
 
-#~ msgid " min"
-#~ msgstr " dak"
+#: powerdevilscreenbrightnessagent.cpp:148
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Increase Screen Brightness by 1%"
+msgstr "Ekran Parlaklığını %​1 Artır"
 
-#~ msgid "After"
-#~ msgstr "Süre"
+#: powerdevilscreenbrightnessagent.cpp:155
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness"
+msgstr "Ekran Parlaklığını Azalt"
 
-#~ msgid "Switch off after"
-#~ msgstr "Şu süre sonunda kapat:"
-
-#~ msgid " sec"
-#~ msgstr " san"
-
-#~ msgid "When screen is locked, switch off after"
-#~ msgstr "Ekran kilitliyken kapatılma süresi"
-
-#~ msgctxt ""
-#~ "Execute action on lid close even when external monitor is connected"
-#~ msgid "Even when an external monitor is connected"
-#~ msgstr "Dış monitör bağlıyken dahi"
-
-#~ msgid "Do nothing"
-#~ msgstr "Hiçbir şey yapma"
-
-#~ msgctxt "Suspend to RAM"
-#~ msgid "Sleep"
-#~ msgstr "Uyut"
-
-#~ msgid "Hibernate"
-#~ msgstr "Hazırda beklet"
-
-#~ msgid "Shut down"
-#~ msgstr "Kapat"
-
-#~ msgid "Lock screen"
-#~ msgstr "Ekranı kilitle"
-
-#~ msgid "Prompt log out dialog"
-#~ msgstr "Oturumu kapat penceresini göster"
-
-#~ msgid "Turn off screen"
-#~ msgstr "Ekranı kapat"
-
-#~ msgid "When laptop lid closed"
-#~ msgstr "Dizüstü kapağı kapatıldığında"
-
-#~ msgid "When power button pressed"
-#~ msgstr "Güç düğmesine basıldığında"
-
-#~ msgctxt "@label:slider Brightness level"
-#~ msgid "Level"
-#~ msgstr "Düzey"
-
-#~ msgid "Leave unchanged"
-#~ msgstr "Aynı bırak"
-
-#~ msgid "Power Save"
-#~ msgstr "Güç Tasarrufu"
-
-#~ msgid "Balanced"
-#~ msgstr "Dengeli"
-
-#~ msgid "Performance"
-#~ msgstr "Başarım"
-
-#~ msgctxt "Switch to power management profile"
-#~ msgid "Switch to:"
-#~ msgstr "Şuna geç:"
-
-#~ msgid "Script"
-#~ msgstr "Betik"
-
-#~ msgid "When entering power state"
-#~ msgstr "Güç durumuna girerken"
-
-#~ msgid "When exiting power state"
-#~ msgstr "Güç durumundan çıkarken"
-
-#~ msgid "After a period of inactivity"
-#~ msgstr "Bir süre hareketsizlikten sonra"
-
-#~ msgid "Run script"
-#~ msgstr "Betik çalıştır"
-
-#~ msgid "after "
-#~ msgstr "sonra: "
-
-#~ msgid "Automatically"
-#~ msgstr "Kendiliğinden"
-
-#~ msgid "Standby (Save session to memory)"
-#~ msgstr "Uyut (Oturumu belleğe kaydet)"
-
-#~ msgid "Hybrid sleep (Save session to both memory and disk)"
-#~ msgstr "Hibrit uyku (Oturumu hem belleğe hem diske kaydet)"
-
-#~ msgid "Standby, then hibernate after a period of inactivity"
-#~ msgstr "Bir süre hareketsizlikten sonra uyut, sonra hazırda beklet"
-
-#~ msgctxt ""
-#~ "@label:combobox Sleep mode selection - suspend to memory, disk or both"
-#~ msgid "When sleeping, enter"
-#~ msgstr "Uyurken kullanılacak kip"
-
-#~ msgid "Hybrid sleep"
-#~ msgstr "Hibrit uyku"
-
-#~ msgid "On Profile Load"
-#~ msgstr "Profil Yüklendiğinde"
-
-#~ msgid "On Profile Unload"
-#~ msgstr "Profil Kaldırıldığında"
-
-#~ msgid "Unsupported suspend method"
-#~ msgstr "Desteklenmeyen askıya alma yöntemi"
+#: powerdevilscreenbrightnessagent.cpp:162
+#, kde-format
+msgctxt "@action:inmenu Global shortcut"
+msgid "Decrease Screen Brightness by 1%"
+msgstr "Ekran Parlaklığını %​1 Azalt"
 
 #~ msgid ""
-#~ "Battery running low - to continue using your computer, plug it in or shut "
-#~ "it down and change the battery."
+#~ "Battery level critical. Your computer will enter hibernation mode in 60 "
+#~ "seconds."
 #~ msgstr ""
-#~ "Pil azalıyor - bilgisayarınızı kullanmayı sürdürmek için prize takın veya "
-#~ "kapatın ve pili değiştirin."
-
-#~ msgid "Turn off"
-#~ msgstr "Kapat"
-
-#~ msgid "Turn on"
-#~ msgstr "Aç"
-
-#~ msgid "Wi-Fi"
-#~ msgstr "Wi-Fi"
-
-#~ msgid "Mobile broadband"
-#~ msgstr "Taşınabilir geniş bant"
-
-#~ msgid "Bluetooth"
-#~ msgstr "Bluetooth"
+#~ "Pil düzeyi kritik. Bilgisayar 60 saniye içinde derin uyku kipine geçecek."

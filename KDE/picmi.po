@@ -3,13 +3,13 @@
 #
 # Translators:
 # Volkan Gezer <volkangezer@gmail.com>, 2014.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-10-09 01:45+0000\n"
-"PO-Revision-Date: 2023-11-26 01:01+0300\n"
+"POT-Creation-Date: 2024-11-22 00:38+0000\n"
+"PO-Revision-Date: 2024-09-23 15:20+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 24.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -94,7 +94,7 @@ msgstr "Kafatası"
 #: levels/default.xml:9 levels/default.xml:31 levels/default.xml:195
 #: levels/default.xml:226 levels/default.xml:275 levels/default.xml:295
 #: levels/default.xml:317 levels/default.xml:334 levels/default.xml:360
-#: levels/default.xml:383 src/main.cpp:32
+#: levels/default.xml:383 src/main.cpp:51
 #, kde-format
 msgid "Jakob Gruber"
 msgstr "Jakob Gruber"
@@ -168,7 +168,7 @@ msgstr "Fil"
 #: levels/default.xml:83
 #, kde-format
 msgid "Claus the cat"
-msgstr "Noel kedi"
+msgstr "Noel Kedi"
 
 #. i18n: tag board attribute name
 #: levels/default.xml:87
@@ -388,7 +388,7 @@ msgid "Shopping Cart"
 msgstr "Alışveriş Sepeti"
 
 #. i18n: tag board attribute name
-#: levels/default.xml:524 src/main.cpp:25
+#: levels/default.xml:524 src/main.cpp:44
 #, kde-format
 msgid "Picmi"
 msgstr "Picmi"
@@ -439,7 +439,7 @@ msgstr "Yazıcı"
 #: levels/default.xml:603
 #, kde-format
 msgid "Smiley"
-msgstr "Gülücük"
+msgstr "Emoji"
 
 #: src/gui/graphicsitems/textbanneritem.cpp:28
 #, kde-format
@@ -448,27 +448,31 @@ msgstr "DURAKLATILDI"
 
 #: src/gui/mainwindow.cpp:62
 #, kde-format
+msgctxt "@action"
 msgid "Save Position"
 msgstr "Konumu Kaydet"
 
 #: src/gui/mainwindow.cpp:68
 #, kde-format
+msgctxt "@action"
 msgid "Load Position"
 msgstr "Konum Yükle"
 
 #: src/gui/mainwindow.cpp:79
 #, kde-format
+msgctxt "@action:button"
 msgid "New Game"
 msgstr "Yeni Oyun"
 
 #: src/gui/mainwindow.cpp:84
 #, kde-format
+msgctxt "@action:button"
 msgid "Load New Game"
 msgstr "Yeni Oyun Yükle"
 
 #: src/gui/mainwindow.cpp:97
 #, kde-format
-msgctxt "custom difficulty"
+msgctxt "@item difficulty"
 msgid "Custom"
 msgstr "Özel"
 
@@ -489,37 +493,42 @@ msgstr "Tebrikler, bu oyunu çözdünüz!"
 
 #: src/gui/mainwindow.cpp:281 src/gui/mainwindow.cpp:288
 #, kde-format
+msgctxt "@title:window"
 msgid "Board Solved!"
 msgstr "Tahta Çözüldü!"
 
 #: src/gui/mainwindow.cpp:286
 #, kde-format
 msgid "Congratulations, you have solved board '%1'!"
-msgstr "Tebrikler, '%1' oyununu çözdünüz!"
+msgstr "Tebrikler, “%1” oyununu çözdünüz!"
 
 #: src/gui/selectboardwindow.cpp:87
 #, kde-format
+msgctxt "@title:column"
 msgid "Level"
 msgstr "Düzey"
 
 #: src/gui/selectboardwindow.cpp:88
 #, kde-format
+msgctxt "@title:column"
 msgid "Level Set"
 msgstr "Düzey Kümesi"
 
 #: src/gui/selectboardwindow.cpp:89
 #, kde-format
+msgctxt "@title:column"
 msgid "Difficulty"
 msgstr "Zorluk"
 
 #: src/gui/selectboardwindow.cpp:90
 #, kde-format
+msgctxt "@title:column"
 msgid "Size"
 msgstr "Boyut"
 
 #: src/gui/selectboardwindow.cpp:91
 #, kde-format
-msgctxt "board solved"
+msgctxt "@title:column board solved"
 msgid "Solved"
 msgstr "Çözüldü"
 
@@ -531,43 +540,51 @@ msgstr "Düzey Seçimi"
 
 #: src/gui/selectboardwindow.cpp:242
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Ridiculously Easy"
 msgstr "Oldukça Kolay"
 
 #: src/gui/selectboardwindow.cpp:243
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Very Easy"
 msgstr "Çok Kolay"
 
 #: src/gui/selectboardwindow.cpp:244
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Easy"
 msgstr "Kolay"
 
 #: src/gui/selectboardwindow.cpp:245
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Medium"
 msgstr "Orta"
 
 #: src/gui/selectboardwindow.cpp:246
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Hard"
 msgstr "Zor"
 
 #: src/gui/selectboardwindow.cpp:247
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Very Hard"
 msgstr "Çok Zor"
 
 #: src/gui/selectboardwindow.cpp:248
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Extremely Hard"
 msgstr "Oldukça Zor"
 
 #: src/gui/selectboardwindow.cpp:249
 #, kde-format
+msgctxt "@item difficulty"
 msgid "Impossible"
-msgstr "İmkansız"
+msgstr "Olanaksız"
 
 #: src/gui/selectboardwindow.cpp:255
 #, kde-format
@@ -599,7 +616,7 @@ msgstr "Çözüldü: %1"
 #, kde-format
 msgctxt "board not solved yet"
 msgid "Solved: -"
-msgstr "Çözüldü: -"
+msgstr "Çözüldü: —"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, LevelSelectUi)
 #: src/gui/selectboardwindow.ui:23
@@ -611,13 +628,13 @@ msgstr "Düzey Seç"
 #: src/gui/selectboardwindow.ui:79
 #, kde-format
 msgid "Author: -"
-msgstr "Yazar: -"
+msgstr "Yazar: —"
 
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #: src/gui/selectboardwindow.ui:86
 #, kde-format
 msgid "Name: -"
-msgstr "Ad: -"
+msgstr "Ad: —"
 
 #. i18n: ectx: property (text), widget (QLabel, labelImage)
 #: src/gui/selectboardwindow.ui:110
@@ -629,22 +646,23 @@ msgstr "?"
 #: src/gui/selectboardwindow.ui:120
 #, kde-format
 msgid "Solved: -"
-msgstr "Çözüldü: -"
+msgstr "Çözüldü: —"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
 #: src/gui/selectboardwindow.ui:127
 #, kde-format
 msgid "Size: -"
-msgstr "Boyut: -"
+msgstr "Boyut: —"
 
 #. i18n: ectx: property (text), widget (QLabel, labelDifficulty)
 #: src/gui/selectboardwindow.ui:134
 #, kde-format
 msgid "Difficulty: -"
-msgstr "Zorluk: -"
+msgstr "Zorluk: —"
 
 #: src/gui/settingswindow.cpp:63
 #, kde-format
+msgctxt "@title:window"
 msgid "Select Background"
 msgstr "Arka Plan Seç"
 
@@ -679,12 +697,6 @@ msgctxt "custom background image"
 msgid "Custom"
 msgstr "Özel"
 
-#. i18n: ectx: property (text), widget (QToolButton, bgToolButton)
-#: src/gui/settingswindow.ui:66
-#, kde-format
-msgid "..."
-msgstr "..."
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: src/gui/settingswindow.ui:80
 #, kde-format
@@ -707,8 +719,8 @@ msgstr "Arka arkaya çözülmeyenler:"
 #. i18n: ectx: property (text), widget (QPushButton, fontColorUnsolvedPushButton)
 #: src/gui/settingswindow.ui:120 src/gui/settingswindow.ui:127
 #, kde-format
-msgid "Edit..."
-msgstr "Düzenle..."
+msgid "Edit…"
+msgstr "Düzenle…"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/gui/settingswindow.ui:145
@@ -740,17 +752,23 @@ msgstr "Yoğunluk:"
 msgid "Prevent mistakes:"
 msgstr "Hataları önle:"
 
-#: src/main.cpp:27
+#: src/main.cpp:46
 #, kde-format
 msgid "Picmi - a nonogram puzzle game"
-msgstr "Picmi - bir nonogram yapboz oyunu"
+msgstr "Picmi — Bir nonogram yapboz oyunu"
 
-#: src/main.cpp:29
+#: src/main.cpp:48
 #, kde-format
 msgid "(c) 2012 - 2015 The Picmi Authors"
-msgstr "(c) 2012 - 2015 Picmi Yazarları"
+msgstr "© 2012–2015 Picmi Yazarları"
 
-#: src/main.cpp:32
+#: src/main.cpp:51
 #, kde-format
 msgid "Picmi Author"
 msgstr "Picmi Yazar"
+
+#~ msgid "..."
+#~ msgstr "…"
+
+#~ msgid "Edit..."
+#~ msgstr "Düzenle…"

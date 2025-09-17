@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: kio4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2014-03-28 02:03+0000\n"
-"PO-Revision-Date: 2024-03-08 19:40+0300\n"
+"PO-Revision-Date: 2024-06-22 13:02+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.02.0\n"
+"X-Generator: Lokalize 24.07.70\n"
 "X-Qt-Contexts: true\n"
 
 #: kbookmark.cpp:316
@@ -39,7 +39,7 @@ msgctxt "KBookmark|Bookmark separator"
 msgid "--- separator ---"
 msgstr "--- ayırıcı ---"
 
-#: kbookmarkmanager.cpp:259
+#: kbookmarkmanager.cpp:267
 #, qt-format
 msgctxt "KBookmarkManager|"
 msgid ""
@@ -64,7 +64,7 @@ msgstr "keditbookmarks yürütülebiliri bulunamadı"
 #: widgets/kbookmarkcontextmenu.cpp:53
 msgctxt "KBookmarkContextMenu|@action:inmenu"
 msgid "Add Bookmark Here"
-msgstr "Buraya Yer İmi Ekle"
+msgstr "Buraya Yer İmi Koy"
 
 #: widgets/kbookmarkcontextmenu.cpp:59
 msgctxt "KBookmarkContextMenu|@action:inmenu"
@@ -99,7 +99,7 @@ msgstr "Klasörü Sekmelerde Aç"
 #: widgets/kbookmarkcontextmenu.cpp:112
 msgctxt "KBookmarkContextMenu|@info"
 msgid "Cannot add bookmark with empty URL."
-msgstr "Boş bir URL yer imlerine eklenemez."
+msgstr "Boş bir URL’ye yer imi koyulamaz."
 
 #: widgets/kbookmarkcontextmenu.cpp:141
 msgctxt "KBookmarkContextMenu|@title:window"
@@ -118,8 +118,8 @@ msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
 "\"%1\"?"
 msgstr ""
-"Bu yer imi klasörünü silmeyi gerçekten istiyor musunuz?\n"
-"“%1”"
+"“%1”\n"
+"yer imi klasörünü kaldırmayı gerçekten istiyor musunuz?"
 
 #: widgets/kbookmarkcontextmenu.cpp:143
 #, qt-format
@@ -128,8 +128,8 @@ msgid ""
 "Are you sure you wish to remove the bookmark\n"
 "\"%1\"?"
 msgstr ""
-"Bu yer imini silmeyi gerçekten istiyor musunuz?\n"
-"“%1”"
+"“%1”\n"
+"yer imini kaldırmayı gerçekten istiyor musunuz?"
 
 #: widgets/kbookmarkdialog.cpp:56
 msgctxt "KBookmarkDialog|@label:textbox"
@@ -159,23 +159,23 @@ msgstr "Yer İmi Özellikleri"
 #: widgets/kbookmarkdialog.cpp:208 widgets/kbookmarkdialog.cpp:246
 #: widgets/kbookmarkdialog.cpp:280
 msgctxt "KBookmarkDialog|@action:button"
-msgid "&New Folder..."
+msgid "&New Folder…"
 msgstr "&Yeni Klasör…"
 
 #: widgets/kbookmarkdialog.cpp:212 widgets/kbookmarkdialog.cpp:250
 msgctxt "KBookmarkDialog|@action:button"
 msgid "Add"
-msgstr "Ekle"
+msgstr "Koy"
 
 #: widgets/kbookmarkdialog.cpp:213
 msgctxt "KBookmarkDialog|@title:window"
 msgid "Add Bookmark"
-msgstr "Yer İmi Ekle"
+msgstr "Yer İmi Koy"
 
 #: widgets/kbookmarkdialog.cpp:251
 msgctxt "KBookmarkDialog|@title:window"
 msgid "Add Bookmarks"
-msgstr "Yer İmleri Ekle"
+msgstr "Yer İmleri Koy"
 
 #: widgets/kbookmarkdialog.cpp:284
 msgctxt "KBookmarkDialog|@title:window"
@@ -208,40 +208,44 @@ msgctxt "KBookmarkDialog|name of the container of all browser bookmarks"
 msgid "Bookmarks"
 msgstr "Yer İmleri"
 
-#: widgets/kbookmarkmenu.cpp:242
+#: widgets/kbookmarkmenu.cpp:291
 msgctxt "KBookmarkMenu|@action:inmenu"
 msgid "Open Folder in Tabs"
 msgstr "Klasörü Sekmelerde Aç"
 
-#: widgets/kbookmarkmenu.cpp:246
+#: widgets/kbookmarkmenu.cpp:295
 msgctxt "KBookmarkMenu|@info:tooltip"
 msgid "Open all bookmarks in this folder as a new tab"
 msgstr "Bu klasördeki tüm yer imlerini yeni bir sekme olarak aç."
 
-#: widgets/kbookmarkmenu.cpp:262
+#: widgets/kbookmarkmenu.cpp:311
 msgctxt "KBookmarkMenu|@action:inmenu"
-msgid "Bookmark Tabs as Folder..."
-msgstr "Sekmeleri Klasör Olarak Yer İmlerine Ekle…"
+msgid "Bookmark Tabs as Folder…"
+msgstr "Sekmelere Klasörde Yer İmi Koy…"
 
-#: widgets/kbookmarkmenu.cpp:270
+#: widgets/kbookmarkmenu.cpp:319
 msgctxt "KBookmarkMenu|@info:tooltip"
 msgid "Add a folder of bookmarks for all open tabs"
-msgstr "Tüm açık sekmeler için yer imleri içine bir klasör ekle."
+msgstr "Tüm açık sekmeler için bir yer imleri klasörü ekle"
 
-#: widgets/kbookmarkmenu.cpp:309
+#: widgets/kbookmarkmenu.cpp:358
 msgctxt "KBookmarkMenu|@info:tooltip"
 msgid "Edit your bookmark collection in a separate window"
 msgstr "Ayrı bir pencerede yer imi koleksiyonunu düzenle"
 
-#: widgets/kbookmarkmenu.cpp:331
+#: widgets/kbookmarkmenu.cpp:380
 msgctxt "KBookmarkMenu|@action:inmenu"
-msgid "New Bookmark Folder..."
+msgid "New Bookmark Folder…"
 msgstr "Yeni Yer İmi Klasörü…"
 
-#: widgets/kbookmarkmenu.cpp:333
+#: widgets/kbookmarkmenu.cpp:382
 msgctxt "KBookmarkMenu|@info:tooltip"
 msgid "Create a new bookmark folder in this menu"
 msgstr "Bu menü içinde yeni bir yer imi klasörü oluştur"
+
+#~ msgctxt "KBookmarkDialog|@action:button"
+#~ msgid "&New Folder..."
+#~ msgstr "&Yeni Klasör…"
 
 #~ msgctxt "KBookmarkManager|"
 #~ msgid ""

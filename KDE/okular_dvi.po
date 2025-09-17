@@ -5,21 +5,21 @@
 # obsoleteman <tulliana@gmail.com>, 2008-2009,2012.
 # Serhat Demirkol <serhat_demirkol@yahoo.com>, 2009.
 # Volkan Gezer <volkangezer@gmail.com>, 2013-2014.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegraphics-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-08 00:37+0000\n"
-"PO-Revision-Date: 2024-02-24 22:26+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-07-11 00:41+0000\n"
+"PO-Revision-Date: 2025-07-17 23:12+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.04.70\n"
+"X-Generator: Lokalize 25.04.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -60,7 +60,7 @@ msgid ""
 "dialog</strong> which you will find in the File-Menu for a precise error "
 "report.</qt>"
 msgstr ""
-"<qt>Dosyayı dışa aktarmak için kullanıla harici ‘dvipdfm’ programı bir hata "
+"<qt>Dosyayı dışa aktarmak için kullanılan dış “dvipdfm” programı bir hata "
 "bildirdi. Dosya menüsünde belirli bir hata raporu bulacağınız <strong>belge "
 "bilgisi iletişim kutusuna</strong> bakmak isteyebilirsiniz.</qt>"
 
@@ -100,9 +100,9 @@ msgid ""
 "dialog</strong> which you will find in the File-Menu for a precise error "
 "report.</qt>"
 msgstr ""
-"<qt>Dosyayı dışa aktaracak ‘dvips’ dış programı bir hata bildirdi. Daha "
-"kesin bilgi için Dosya Menüsünden <strong>belge bilgisi iletişim kutusuna</"
-"strong> bakabilirsiniz.</qt>"
+"<qt>Dosyayı dışa aktarmak için kullanılan dış “dvips” programı bir hata "
+"bildirdi. Dosya menüsünde belirli bir hata raporu bulacağınız <strong>belge "
+"bilgisi iletişim kutusuna</strong> bakmak isteyebilirsiniz.</qt>"
 
 #: dviFile.cpp:91
 #, kde-format
@@ -201,7 +201,7 @@ msgstr "Tüm harici PostScript dosyaları belgenize gömüldü."
 #: dviRenderer.cpp:419
 #, kde-format
 msgid "The specified file '%1' does not exist."
-msgstr "Belirtilen ‘%1’ dosyası yok."
+msgstr "Belirtilen “%1” dosyası yok."
 
 #: dviRenderer.cpp:565
 #, kde-format
@@ -223,37 +223,37 @@ msgstr ""
 "Okular TeX dosyası %2 içindeki %1 satırına ait DVI dosyasındaki konumu "
 "bulamadı."
 
-#: dviRenderer_draw.cpp:243
+#: dviRenderer_draw.cpp:239
 #, kde-format
 msgid "The DVI code set a character of an unknown font."
 msgstr "DVI kodu bilinmeyen bir yazıtipinin bir karakterini atadı."
 
-#: dviRenderer_draw.cpp:270 dviRenderer_prescan.cpp:668
+#: dviRenderer_draw.cpp:266 dviRenderer_prescan.cpp:667
 #, kde-format
 msgid "The DVI code referred to font #%1, which was not previously defined."
 msgstr "#%1 yazıtipine başvuran DVI kodu önceden belirtilmemiş."
 
-#: dviRenderer_draw.cpp:353
+#: dviRenderer_draw.cpp:349
 #, kde-format
 msgid "The stack was not empty when the EOP command was encountered."
 msgstr "EOP komutu çalıştırılırken yığın boş değildi."
 
-#: dviRenderer_draw.cpp:365
+#: dviRenderer_draw.cpp:361
 #, kde-format
 msgid "The stack was empty when a POP command was encountered."
 msgstr "POP komutu çalıştırılırken yığın boş durumdaydı."
 
-#: dviRenderer_draw.cpp:489 dviRenderer_draw.cpp:498
+#: dviRenderer_draw.cpp:485 dviRenderer_draw.cpp:494
 #, kde-format
 msgid "The DVI code referred to a font which was not previously defined."
 msgstr "DVI kodunun başvurduğu bir yazıtipi önceden tanımlanmamış."
 
-#: dviRenderer_draw.cpp:539
+#: dviRenderer_draw.cpp:535
 #, kde-format
 msgid "An illegal command was encountered."
 msgstr "Geçersiz bir komut yürütüldü."
 
-#: dviRenderer_draw.cpp:544
+#: dviRenderer_draw.cpp:540
 #, kde-format
 msgid "The unknown op-code %1 was encountered."
 msgstr "Bilinmeyen işlem kodu %1 ile karşılaşıldı."
@@ -280,7 +280,7 @@ msgstr "Sayfa %1: PostScript dosyası <strong>%2</strong> bulunamadı.<br>"
 #: dviRenderer_prescan.cpp:261
 #, kde-format
 msgid "The papersize data '%1' could not be parsed."
-msgstr "Kağıt büyüklüğü verisi ‘%1’ ayrıştırılamadı."
+msgstr "Kâğıt büyüklüğü verisi “%1” ayrıştırılamadı."
 
 #: fontpool.cpp:209
 #, kde-format
@@ -315,36 +315,51 @@ msgid ""
 "error %2). As a result, some font files could not be located, and your "
 "document might be unreadable.</qt>"
 msgstr ""
-"<qt><em>kpsewhich</em> tarafından yapılan yazıtipi oluşturma işlemi "
+"<qt><em>kpsewhich</em> tarafından yapılan yazıtipi üretimi işlemi "
 "sonlandırıldı (çıkış kodu %1, hata %2). Sonuç; bazı yazıtipleri "
 "konumlandırılamadı ve belgeniz okunamaz durumda olabilir.</qt>"
 
 #: fontpool.cpp:482
 #, kde-format
-msgid "Currently generating %1 at %2 dpi..."
+msgid "Currently generating %1 at %2 dpi…"
 msgstr "Şu anda %1 yazıtipi %2 DPI ile üretiliyor…"
 
-#: generator_dvi.cpp:287
+#: generator_dvi.cpp:288
 #, kde-format
 msgid "Generator/Date"
 msgstr "Oluşturucu/Tarih"
 
-#: generator_dvi.cpp:376
+#: generator_dvi.cpp:377
 #, kde-format
 msgid "Font file not found"
 msgstr "Dosya bulunamadı"
 
-#: pageSize.cpp:319
+#: pageSize.cpp:298
+#, kde-format
+msgid "%1 × %2"
+msgstr "%1 × %2"
+
+#: pageSize.cpp:311
+#, kde-format
+msgid "%1 × %2 mm"
+msgstr "%1 × %2 mm"
+
+#: pageSize.cpp:313
+#, kde-format
+msgid "%1 × %2 in"
+msgstr "%1 × %2 inç"
+
+#: pageSize.cpp:318
 #, kde-format
 msgid "portrait"
 msgstr "dikey"
 
-#: pageSize.cpp:321
+#: pageSize.cpp:320
 #, kde-format
 msgid "landscape"
 msgstr "yatay"
 
-#: psgs.cpp:284
+#: psgs.cpp:283
 #, kde-format
 msgid ""
 "The version of Ghostview that is installed on this computer does not contain "
@@ -366,7 +381,7 @@ msgid ""
 "Error in DVIfile '%1', page %2. Color pop command issued when the color "
 "stack is empty."
 msgstr ""
-"‘%1’ DVI dosyası %2. sayfasında hata. Renk çıkar komutu renk yığını boşken "
+"“%1” DVI dosyası %2. sayfasında hata. Renk çıkar komutu renk yığını boşken "
 "kullanıldı."
 
 #: special.cpp:318
@@ -393,13 +408,13 @@ msgid ""
 "Error in DVIfile '%1', page %2. Could not interpret angle in text rotation "
 "special."
 msgstr ""
-"‘%1’ DVI dosyası %2. sayfasında hata. Metin döndürme özelliğinde açı "
+"“%1” DVI dosyası %2. sayfasında hata. Metin döndürme özelliğinde açı "
 "yorumlanamadı."
 
 #: special.cpp:714
 #, kde-format
 msgid "The special command '%1' is not implemented."
-msgstr "‘%1’ özel komutu henüz gerçeklenmedi."
+msgstr "“%1” özel komutu henüz gerçeklenmedi."
 
 #: TeXFont_PFB.cpp:43
 #, kde-format
@@ -458,42 +473,42 @@ msgstr "%1 yazıtipi dosyası açılamadı."
 msgid "TexFont_PK::operator[]: Character %1 not defined in font %2"
 msgstr "TexFont_PK::operator[]: %1 karakteri %2 yazıtipinde tanımlı değil"
 
-#: TeXFont_PK.cpp:418
+#: TeXFont_PK.cpp:419
 #, kde-format
 msgid "Unexpected %1 in PK file %2"
 msgstr "PK dosyası %2 içinde beklenmeyen %1"
 
-#: TeXFont_PK.cpp:484
+#: TeXFont_PK.cpp:485
 #, kde-format
 msgid "The character %1 is too large in file %2"
 msgstr "%2 dosyası içindeki %1 karakteri çok büyük"
 
-#: TeXFont_PK.cpp:589 TeXFont_PK.cpp:679
+#: TeXFont_PK.cpp:590 TeXFont_PK.cpp:680
 #, kde-format
 msgid "Wrong number of bits stored:  char. %1, font %2"
 msgstr "Yanlış sayıda bit kaydedildi: karakter %1, yazıtipi %2"
 
-#: TeXFont_PK.cpp:592 TeXFont_PK.cpp:682
+#: TeXFont_PK.cpp:593 TeXFont_PK.cpp:683
 #, kde-format
 msgid "Bad pk file (%1), too many bits"
 msgstr "Bozuk pk dosyası (%1), çok fazla bit"
 
-#: TeXFont_PK.cpp:713
+#: TeXFont_PK.cpp:714
 #, kde-format
 msgid "Font has non-square aspect ratio "
 msgstr "Yazıtipi kare bir görünüm oranına sahip değil "
 
-#: TeXFontDefinition.cpp:106
+#: TeXFontDefinition.cpp:107
 #, kde-format
 msgid "Cannot find font %1, file %2."
 msgstr "%1 yazıtipi, %2 dosyası bulunamadı."
 
-#: TeXFontDefinition.cpp:123
+#: TeXFontDefinition.cpp:124
 #, kde-format
 msgid "Checksum mismatch for font file %1"
 msgstr "%1 yazıtipi dosyasında denetleme hatası"
 
-#: TeXFontDefinition.cpp:174
+#: TeXFontDefinition.cpp:175
 #, kde-format
 msgid "Cannot recognize format for font file %1"
 msgstr "Yazıtipi dosyası %1 için biçim tanınamadı"
@@ -528,7 +543,7 @@ msgstr ""
 "Eğer bir hata bulduğunuza veya Okular’ın bu durumda daha iyi davranması\n"
 "gerektiğine inanıyorsanız lütfen sorunu bildirin."
 
-#: vf.cpp:164
+#: vf.cpp:165
 #, kde-format
 msgid "Wrong command byte found in VF macro list: %1"
 msgstr "VF makro listesinde yanlış komut baytı bulundu: %1"

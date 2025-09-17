@@ -6,21 +6,21 @@
 # Necmettin Begiter <necmettin.begiter@gmail.com>, 2008.
 # obsoleteman <tulliana@gmail.com>, 2008-2009,2011.
 # Volkan Gezer <volkangezer@gmail.com>, 2017.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeplasma-addons-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-23 00:38+0000\n"
-"PO-Revision-Date: 2023-06-10 12:09+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-08-11 00:44+0000\n"
+"PO-Revision-Date: 2025-08-11 12:45+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.07.70\n"
+"X-Generator: Lokalize 25.04.3\n"
 
 #: package/contents/config/config.qml:13
 #, kde-format
@@ -28,84 +28,105 @@ msgctxt "@title"
 msgid "Appearance"
 msgstr "Görünüş"
 
-#: package/contents/ui/configAppearance.qml:43
+#: package/contents/ui/configAppearance.qml:50
 #, kde-format
 msgctxt "@label:spinbox"
 msgid "Grid size:"
 msgstr "Izgara boyutu:"
 
-#: package/contents/ui/configAppearance.qml:52
+#: package/contents/ui/configAppearance.qml:61
 #, kde-format
+msgctxt "@label:group radio button group"
 msgid "Background:"
 msgstr "Arka plan:"
 
-#: package/contents/ui/configAppearance.qml:58
+#: package/contents/ui/configAppearance.qml:68
 #, kde-format
+msgctxt "@label:chooser opens background color picker"
 msgid "Color:"
 msgstr "Renk:"
 
-#: package/contents/ui/configAppearance.qml:73
+#: package/contents/ui/configAppearance.qml:84
 #, kde-format
+msgctxt "@label:chooser opens background image file picker"
 msgid "Image:"
 msgstr "Görsel:"
 
-#: package/contents/ui/configAppearance.qml:81
+#: package/contents/ui/configAppearance.qml:92
 #, kde-format
 msgctxt "@info:placeholder"
 msgid "Path to custom image…"
-msgstr "Özel resmin yolu…"
-
-#: package/contents/ui/configAppearance.qml:100
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Choose image…"
-msgstr "Görsel seç…"
+msgstr "Özel görsel yolu…"
 
 #: package/contents/ui/configAppearance.qml:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Choose image…"
+msgstr "Görsel Seç…"
+
+#: package/contents/ui/configAppearance.qml:119
 #, kde-format
 msgctxt "@title:window"
 msgid "Choose an Image"
 msgstr "Bir Görsel Seç"
 
-#: package/contents/ui/configAppearance.qml:113
+#: package/contents/ui/configAppearance.qml:124
 #, kde-format
+msgctxt "@item:inlistbox file type category for file picker"
 msgid "Image Files (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
-msgstr "Görsel Dosyaları (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
+msgstr "Görsel dosyaları (*.png *.jpg *.jpeg *.bmp *.svg *.svgz)"
 
-#: package/contents/ui/configAppearance.qml:127
+#: package/contents/ui/configAppearance.qml:142
 #, kde-format
-msgid "Tiles:"
-msgstr "Karolar:"
+msgctxt "@title:group formdata label"
+msgid "Tile labels:"
+msgstr "Karo etiketleri:"
 
-#: package/contents/ui/configAppearance.qml:131
+#: package/contents/ui/configAppearance.qml:149
 #, kde-format
-msgid "Colored numbers:"
-msgstr "Renkli numaralar:"
+msgctxt "@label:chooser opens label color picker"
+msgid "Color:"
+msgstr "Renk:"
 
-#: package/contents/ui/FifteenPuzzle.qml:259
+#: package/contents/ui/configAppearance.qml:163
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide on image backgrounds"
+msgstr "Görsel arka planlarında gizle"
+
+#: package/contents/ui/FifteenPuzzle.qml:262
 #, kde-format
 msgctxt "The time since the puzzle started, in minutes and seconds"
 msgid "Time: %1"
 msgstr "Süre: %1"
 
-#: package/contents/ui/FifteenPuzzle.qml:302
+#: package/contents/ui/FifteenPuzzle.qml:320
 #, kde-format
 msgctxt "@action:button"
 msgid "Shuffle"
 msgstr "Karıştır"
 
-#: package/contents/ui/FifteenPuzzle.qml:340
+#: package/contents/ui/FifteenPuzzle.qml:346
+#, kde-format
+msgctxt "@info:status The number of moves made by the player so far"
+msgid "Moves: %1"
+msgstr "Hamleler: %1"
+
+#: package/contents/ui/FifteenPuzzle.qml:371
 #, kde-format
 msgctxt "@info"
 msgid "Solved! Try again."
 msgstr "Çözüldü! Yeniden deneyin."
 
-#: package/contents/ui/main.qml:26
+#: package/contents/ui/main.qml:35
 #, kde-format
 msgid "Fifteen Puzzle"
 msgstr "Onbeşli Yapboz"
 
-#: package/contents/ui/main.qml:27
+#: package/contents/ui/main.qml:36
 #, kde-format
 msgid "Solve by arranging in order"
 msgstr "Sırayla düzenleyerek çöz"
+
+#~ msgid "Colored numbers:"
+#~ msgstr "Renkli numaralar:"

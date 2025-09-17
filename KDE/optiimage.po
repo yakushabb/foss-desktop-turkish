@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: optiimage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-03 00:37+0000\n"
-"PO-Revision-Date: 2024-02-03 16:02+0300\n"
+"POT-Creation-Date: 2024-12-16 00:40+0000\n"
+"PO-Revision-Date: 2024-11-23 21:07+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 25.03.70\n"
 
 #: contents/ui/LogOutputPage.qml:15
 #, kde-format
@@ -33,71 +33,89 @@ msgstr "Konsol çıktısı yok"
 msgid "Optimize your images"
 msgstr "Görselleri Eniyile"
 
-#: contents/ui/OptimizePage.qml:32
+#: contents/ui/OptimizePage.qml:33
 #, kde-format
 msgctxt "@action:button"
 msgid "Re-check"
 msgstr "Yeniden Denetle"
 
-#: contents/ui/OptimizePage.qml:40
+#: contents/ui/OptimizePage.qml:41
 #, kde-format
 msgctxt "@info"
 msgid "The following programs are missing for OptiImage to run correctly:"
 msgstr ""
-"OptiImage'in düzgünce çalışması için gereken aşağıdaki programlar eksik:"
+"OptiImage’in düzgünce çalışması için gereken aşağıdaki programlar eksik:"
 
-#: contents/ui/OptimizePage.qml:53
+#: contents/ui/OptimizePage.qml:54
 #, kde-format
 msgctxt "@action:button"
 msgid "Select Images"
 msgstr "Görseller Seç"
 
-#: contents/ui/OptimizePage.qml:58
+#: contents/ui/OptimizePage.qml:60
 #, kde-format
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Select an image to compress"
+msgstr "Sıkıştırılacak Görseli Seç"
+
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "Image files (*.jpg *.jpeg *.png *.svg *.webp)"
 msgstr "Görsel dosyaları (*.jpg *.jpeg *.png *.svg *.webp)"
 
-#: contents/ui/OptimizePage.qml:74
+#: contents/ui/OptimizePage.qml:76
 #, kde-format
 msgid "All files (*)"
 msgstr "Tüm dosyalar (*)"
 
-#: contents/ui/OptimizePage.qml:98
+#: contents/ui/OptimizePage.qml:100
 #, kde-format
 msgctxt "Size information with no change"
 msgid "%1 (No change)"
 msgstr "%1 (Değişiklik yok)"
 
-#: contents/ui/OptimizePage.qml:100
+#: contents/ui/OptimizePage.qml:102
 #, kde-format
 msgctxt "Size information"
 msgid "%1 -> %2 (%3% decrease)"
 msgstr "%1 → %2 (%​%3 azalma)"
 
-#: contents/ui/OptimizePage.qml:148
+#: contents/ui/OptimizePage.qml:138
+#, kde-format
+msgctxt "@action:button"
+msgid "More options"
+msgstr "Daha Fazla Seçenek"
+
+#: contents/ui/OptimizePage.qml:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Kaldır"
+
+#: contents/ui/OptimizePage.qml:177
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open"
 msgstr "Aç"
 
-#: contents/ui/OptimizePage.qml:154
+#: contents/ui/OptimizePage.qml:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Open Containing Folder"
 msgstr "İçeren Klasörü Aç"
 
-#: contents/ui/OptimizePage.qml:160
+#: contents/ui/OptimizePage.qml:189
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "Özellikler"
 
-#: contents/ui/OptimizePage.qml:169
+#: contents/ui/OptimizePage.qml:198
 #, kde-format
 msgid "No images to optimize"
 msgstr "Eniyilenecek görsel yok"
@@ -116,7 +134,7 @@ msgstr "Genel"
 #: contents/ui/SettingsPage.qml:24
 #, kde-format
 msgid "Keep Metadata"
-msgstr "Üst Veriyi Tut"
+msgstr "Üst veriyi tut"
 
 #: contents/ui/SettingsPage.qml:39
 #, kde-format
@@ -141,7 +159,7 @@ msgstr "JPG"
 #: contents/ui/SettingsPage.qml:70
 #, kde-format
 msgid "Progressive Encode"
-msgstr "İlerlemeli Kodlama"
+msgstr "İlerlemeli kodlama"
 
 #: contents/ui/SettingsPage.qml:71
 #, kde-format
@@ -208,38 +226,38 @@ msgstr "OptiImage Hakkında"
 msgid "About KDE"
 msgstr "KDE Hakkında"
 
-#: main.cpp:32
+#: main.cpp:36
 #, kde-format
 msgid "OptiImage"
 msgstr "OptiImage"
 
-#: main.cpp:34
+#: main.cpp:38
 #, kde-format
 msgid "Images Optimiser"
 msgstr "Görsel Eniyileyicisi"
 
-#: main.cpp:36
+#: main.cpp:40
 #, kde-format
 msgid "© 2021 - 2023 Carl Schwan"
-msgstr "© 2021 - 2023 Carl Schwan"
+msgstr "© 2021–2023 Carl Schwan"
 
-#: main.cpp:38
+#: main.cpp:42
 #, kde-format
 msgid "Carl Schwan"
 msgstr "Carl Schwan"
 
-#: main.cpp:38
+#: main.cpp:42
 #, kde-format
 msgid "Maintainer"
 msgstr "Bakımcı"
 
-#: main.cpp:39
+#: main.cpp:43
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Emir SARI"
 
-#: main.cpp:39
+#: main.cpp:43
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"

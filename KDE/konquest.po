@@ -9,13 +9,13 @@
 # obsoleteman <tulliana@gmail.com>, 2008-2009.
 # Volkan Gezer <volkangezer@gmail.com>, 2013-2014.
 # Yıldız Kardeşler <turkishprogram@xposta.com>, 2004.
-# Emir SARI <emir_sari@icloud.com>, 2022.
+# SPDX-FileCopyrightText: 2022, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-01-17 00:36+0000\n"
-"PO-Revision-Date: 2022-04-14 13:53+0300\n"
+"POT-Creation-Date: 2024-05-03 00:37+0000\n"
+"PO-Revision-Date: 2024-09-23 15:20+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 21.12.3\n"
+"X-Generator: Lokalize 24.11.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -41,37 +41,43 @@ msgctxt "@title:window"
 msgid "Fleet Overview"
 msgstr "Filo Genel Görünümü"
 
+#: dialogs/fleetdlg.cc:105
+#, kde-format
+msgctxt "@title:column"
+msgid "Fleet No."
+msgstr "Filo №"
+
 #: dialogs/fleetdlg.cc:106
 #, kde-format
-msgid "Fleet No."
-msgstr "Filo No."
-
-#: dialogs/fleetdlg.cc:107
-#, kde-format
+msgctxt "@title:column"
 msgid "Source"
 msgstr "Kalkış"
 
-#: dialogs/fleetdlg.cc:108
+#: dialogs/fleetdlg.cc:107
 #, kde-format
+msgctxt "@title:column"
 msgid "Destination"
 msgstr "Hedef"
 
-#: dialogs/fleetdlg.cc:109
+#: dialogs/fleetdlg.cc:108
 #, kde-format
+msgctxt "@title:column"
 msgid "Ships"
 msgstr "Gemiler"
 
-#: dialogs/fleetdlg.cc:110
+#: dialogs/fleetdlg.cc:109
 #, kde-format
+msgctxt "@title:column"
 msgid "Kill Percentage"
 msgstr "Öldürme Yüzdesi"
 
-#: dialogs/fleetdlg.cc:111
+#: dialogs/fleetdlg.cc:110
 #, kde-format
+msgctxt "@title:column"
 msgid "Arrival Turn"
 msgstr "Dönüş Sırası"
 
-#: dialogs/fleetdlg.cc:136 gameview.cc:120
+#: dialogs/fleetdlg.cc:136
 #, kde-format
 msgid "Standing order"
 msgstr "Başlama sırası"
@@ -243,18 +249,25 @@ msgstr "%2 gezegeni %1 tarafından ele geçirildi."
 
 #: gameview.cc:107
 #, kde-format
+msgctxt "@action:button"
 msgid "End Turn"
 msgstr "Sırayı Bitir"
 
+#: gameview.cc:120
+#, kde-format
+msgctxt "@option:check"
+msgid "Standing order"
+msgstr "Başlama sırası"
+
 #: gameview.cc:290
 #, kde-format
-msgid "%1: Select source planet..."
-msgstr "%1: Kalkılacak gezegeni seçin..."
+msgid "%1: Select source planet…"
+msgstr "%1: Kalkılacak gezegeni seçin…"
 
 #: gameview.cc:307
 #, kde-format
-msgid "%1: Select destination planet..."
-msgstr "%1: Gidilecek gezegeni seçin..."
+msgid "%1: Select destination planet…"
+msgstr "%1: Gidilecek gezegeni seçin…"
 
 #: gameview.cc:318
 #, kde-format
@@ -293,7 +306,7 @@ msgstr "Cetvel: Bitiş gezegenini seçin."
 #: gameview.cc:426
 #, kde-format
 msgid "Turn %1:"
-msgstr "%1. Sıra:"
+msgstr "%1. sıra:"
 
 #: gameview.cc:523
 #, kde-format
@@ -325,7 +338,7 @@ msgstr "Galaktik Strateji Oyunu"
 #: Konquest.cc:33
 #, kde-format
 msgid "Copyright (c) 1999-2013, Developers"
-msgstr "Telif Hakkı (c) 1999-2013, Geliştiriciler"
+msgstr "Telif Hakkı © 1999–2013, Geliştiriciler"
 
 #: Konquest.cc:37
 #, kde-format
@@ -345,12 +358,12 @@ msgstr "Bilgisayar/YZ Oyuncusu"
 #: Konquest.cc:39
 #, kde-format
 msgid "Dmitry Suzdalev"
-msgstr "Dmitry Suzdalev"
+msgstr "Dmitriy Suzdalev"
 
 #: Konquest.cc:39
 #, kde-format
 msgid "Port to KDE4"
-msgstr "Kde4 aktarımı"
+msgstr "KDE4 geçişi"
 
 #: Konquest.cc:40
 #, kde-format
@@ -375,7 +388,7 @@ msgstr "Temizleme ve hata düzeltmeler, bakım"
 #: Konquest.cc:42
 #, kde-format
 msgid "Sean D'Epagnier"
-msgstr "Sean D'Epagnier"
+msgstr "Sean D’Epagnier"
 
 #: Konquest.cc:42
 #, kde-format
@@ -413,31 +426,37 @@ msgstr "Galaktik Fetih"
 
 #: mainwin.cc:74
 #, kde-format
-msgid "&Measure Distance..."
-msgstr "&Uzaklığı Ölç..."
+msgctxt "@action"
+msgid "&Measure Distance…"
+msgstr "&Uzaklığı Ölç…"
 
 #: mainwin.cc:80
 #, kde-format
-msgid "&Fleet Overview..."
-msgstr "&Filo Genel Görünümü..."
+msgctxt "@action"
+msgid "&Fleet Overview"
+msgstr "&Filo Genel Görünümü"
 
 #: mainwin.cc:89
 #, kde-format
+msgctxt "@title:window"
 msgid "Messages"
 msgstr "İletiler"
 
 #: mainwin.cc:95
 #, kde-format
+msgctxt "@option:check"
 msgid "Show &Messages"
-msgstr "&İletileri Göster"
+msgstr "&İletileri göster"
 
 #: mainwin.cc:114
 #, kde-format
+msgctxt "@title:window"
 msgid "Standings"
 msgstr "Puan Durumu"
 
 #: mainwin.cc:121
 #, kde-format
+msgctxt "@option:check"
 msgid "Show &Standings"
 msgstr "&Puan Durumunu Göster"
 
@@ -515,14 +534,15 @@ msgctxt "A human spectator"
 msgid "Human (Spectator)"
 msgstr "İnsan (İzleyici)"
 
-#: view/standingswidget.cpp:152
+#: view/standingswidget.cpp:151
 #, kde-format
-msgctxt "The player name"
+msgctxt "@title:column the player name"
 msgid "Player"
 msgstr "Oyuncu"
 
-#: view/standingswidget.cpp:153
+#: view/standingswidget.cpp:152
 #, kde-format
+msgctxt "@title:column"
 msgid ""
 "Ships\n"
 "Built"
@@ -530,8 +550,9 @@ msgstr ""
 "Yapılan\n"
 "Gemiler"
 
-#: view/standingswidget.cpp:154
+#: view/standingswidget.cpp:153
 #, kde-format
+msgctxt "@title:column"
 msgid ""
 "Planets\n"
 "Conquered"
@@ -539,8 +560,9 @@ msgstr ""
 "Fethedilen\n"
 "Gezegenler"
 
-#: view/standingswidget.cpp:155
+#: view/standingswidget.cpp:154
 #, kde-format
+msgctxt "@title:column"
 msgid ""
 "Fleets\n"
 "Launched"
@@ -548,8 +570,9 @@ msgstr ""
 "Kaldırılan\n"
 "Filolar"
 
-#: view/standingswidget.cpp:156
+#: view/standingswidget.cpp:155
 #, kde-format
+msgctxt "@title:column"
 msgid ""
 "Fleets\n"
 "Destroyed"
@@ -557,8 +580,9 @@ msgstr ""
 "Yok Edilen\n"
 "Filolar"
 
-#: view/standingswidget.cpp:157
+#: view/standingswidget.cpp:156
 #, kde-format
+msgctxt "@title:column"
 msgid ""
 "Ships\n"
 "Destroyed"
@@ -566,8 +590,9 @@ msgstr ""
 "Yok Edilen\n"
 "Gemiler"
 
-#: view/standingswidget.cpp:158
+#: view/standingswidget.cpp:157
 #, kde-format
+msgctxt "@title:column"
 msgid ""
 "Current\n"
 "Production"
@@ -575,11 +600,15 @@ msgstr ""
 "Geçerli\n"
 "Üretim"
 
-#: view/standingswidget.cpp:159
+#: view/standingswidget.cpp:158
 #, kde-format
+msgctxt "@title:column"
 msgid ""
 "Current\n"
 "Fleet Size"
 msgstr ""
-"Geçerli\n"
-"Filo Sayısı"
+"Şu Anki\n"
+"Filo Büyüklüğü"
+
+#~ msgid "&Fleet Overview..."
+#~ msgstr "&Filo Genel Görünümü..."

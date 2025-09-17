@@ -4,13 +4,13 @@
 # Translators:
 # obsoleteman <tulliana@gmail.com>, 2009,2012.
 # Volkan Gezer <volkangezer@gmail.com>, 2014.
-# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdesdk-kde4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-11-18 02:14+0000\n"
-"PO-Revision-Date: 2024-02-09 17:45+0300\n"
+"PO-Revision-Date: 2025-03-28 14:49+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 24.01.95\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #: libcore/cachegrindloader.cpp:135
 msgctxt "QObject|"
@@ -51,12 +51,12 @@ msgstr "Kaynak Satır"
 #: libcore/context.cpp:64
 msgctxt "ProfileContext|"
 msgid "Part Line Call"
-msgstr "Kısmı Çağrı Hattı"
+msgstr "Kısmı Çizgi Çağrısı"
 
 #: libcore/context.cpp:65
 msgctxt "ProfileContext|"
 msgid "Line Call"
-msgstr "Çağrı hattı"
+msgstr "Satır Çağrısı"
 
 #: libcore/context.cpp:66
 msgctxt "ProfileContext|"
@@ -168,15 +168,20 @@ msgctxt "ProfileContext|"
 msgid "Program Trace"
 msgstr "Uygulama İzi"
 
+#: libcore/context.cpp:88
+msgctxt "ProfileContext|"
+msgid "BasicBlock"
+msgstr "Temel Blok"
+
 #: libcore/costitem.cpp:48
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 from %2"
 msgstr "%2 ögesinden %1"
 
-#: libcore/costitem.cpp:54 libcore/costitem.cpp:59 libcore/tracedata.cpp:1978
-#: libcore/tracedata.cpp:2040 libcore/tracedata.cpp:2860
-#: libcore/tracedata.cpp:2961 libviews/partgraph.cpp:408
+#: libcore/costitem.cpp:54 libcore/costitem.cpp:59 libcore/tracedata.cpp:1984
+#: libcore/tracedata.cpp:2046 libcore/tracedata.cpp:3024
+#: libcore/tracedata.cpp:3125 libviews/partgraph.cpp:409
 msgctxt "QObject|"
 msgid "(unknown)"
 msgstr "(bilinmeyen)"
@@ -306,36 +311,36 @@ msgctxt "QObject|"
 msgid "Cycle Estimation"
 msgstr "Döngü Tahmini"
 
-#: libcore/tracedata.cpp:1240
+#: libcore/tracedata.cpp:1245
 msgctxt "QObject|"
 msgid "(no caller)"
 msgstr "(çağrıcı yok)"
 
-#: libcore/tracedata.cpp:1247 libcore/tracedata.cpp:1266
+#: libcore/tracedata.cpp:1252 libcore/tracedata.cpp:1271
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 via %2"
 msgstr "%1 kullanarak %2"
 
-#: libcore/tracedata.cpp:1256
+#: libcore/tracedata.cpp:1261
 msgctxt "QObject|"
 msgid "(no callee)"
 msgstr "(çağrılan yok)"
 
-#: libcore/tracedata.cpp:2709
+#: libcore/tracedata.cpp:2873
 msgctxt "QObject|"
 msgid "(global)"
 msgstr "(genel)"
 
-#: libcore/tracedata.cpp:3144
+#: libcore/tracedata.cpp:3308
 msgctxt "QObject|"
 msgid "(not found)"
 msgstr "(bulunamadı)"
 
-#: libcore/tracedata.cpp:3692
+#: libcore/tracedata.cpp:3856
 msgctxt "TraceData|"
 msgid "Recalculating Function Cycles..."
-msgstr "İşlevin Döngüleri Yeniden Hesaplanıyor..."
+msgstr "İşlev döngüleri yeniden hesaplanıyor…"
 
 #: libviews/callgraphview.cpp:414
 #, qt-format
@@ -354,12 +359,13 @@ msgctxt "QObject|"
 msgid "(unknown call)"
 msgstr "(bilinmeyen çağrı)"
 
-#: libviews/callgraphview.cpp:908
+#: libviews/callgraphview.cpp:908 libviews/controlflowgraphview.cpp:1414
+#: libviews/controlflowgraphview.cpp:2449
 msgctxt "QObject|"
 msgid "Export Graph"
 msgstr "Grafiği Dışa Aktar"
 
-#: libviews/callgraphview.cpp:1608
+#: libviews/callgraphview.cpp:1591
 msgctxt "CallGraphView|"
 msgid ""
 "<b>Call Graph around active Function</b><p>Depending on configuration, this "
@@ -377,15 +383,15 @@ msgstr ""
 "<b>Etkin işlev çevresindeki çağrı grafiği</b><p>Yapılandırmaya bağlı olarak, "
 "bu görünüm, etkin işlevin çağrı grafiği ortamını gösterir. Not: Gösterilen "
 "maliyet <b>yalnızca</b> etkin işlev çalışırken harcanan maliyettir; örneğin "
-"main() için olan maliyet -eğer görünürse- etkin işlev ile aynı olmalıdır; "
-"çünkü main()'in harcanan maliyeti etkin işlev içerisinde içerilir.</"
-"p><p>Çevrimler için, mavi oklar aslında hiç gerçekleşmeyen düzgün bir çizim "
+"main() için olan maliyet —eğer görünürse— etkin işlev ile aynı olmalıdır; "
+"çünkü main()’in harcanan maliyeti etkin işlev içerisinde içerilir.</"
+"p><p>Çevrimler için mavi oklar aslında hiç gerçekleşmeyen düzgün bir çizim "
 "için yapay bir çağrı olduğunu gösterir.</p><p>Eğer grafik araç takımı "
 "alanından daha büyükse bir genel görünüm kaydırıcısı bir kenarda gösterilir. "
 "Çağrı Ağacı için benzer görselleştirme seçenekleri vardır; çağrılan işlev "
 "vurgulanır.</p>"
 
-#: libviews/callgraphview.cpp:2020
+#: libviews/callgraphview.cpp:2003
 msgctxt "CallGraphView|"
 msgid ""
 "Warning: a long lasting graph layouting is in progress.\n"
@@ -394,23 +400,23 @@ msgstr ""
 "Uyarı: Uzunca sürecek grafik yerleştirimi başladı.\n"
 "Hızlanması için düğüm/kenarlar sınırlarını azaltın.\n"
 
-#: libviews/callgraphview.cpp:2023
+#: libviews/callgraphview.cpp:2006
 msgctxt "CallGraphView|"
 msgid "Layouting stopped.\n"
 msgstr "Yerleştirme durduruldu.\n"
 
-#: libviews/callgraphview.cpp:2025
+#: libviews/callgraphview.cpp:2008
 #, qt-format
 msgctxt "CallGraphView|"
 msgid "The call graph has %1 nodes and %2 edges.\n"
-msgstr "Cağrılan grafik %1 adet düğüme ve %2 adet kenare sahiptir.\n"
+msgstr "Çağrı grafiğinde %1 düğüm ve %2 kenar var.\n"
 
-#: libviews/callgraphview.cpp:2034
+#: libviews/callgraphview.cpp:2017
 msgctxt "CallGraphView|"
 msgid "No graph available because the layouting process failed.\n"
 msgstr "Kullanılabilir grafik yok; çünkü yerleştirme işlemi başarısız oldu.\n"
 
-#: libviews/callgraphview.cpp:2036
+#: libviews/callgraphview.cpp:2019
 #, qt-format
 msgctxt "CallGraphView|"
 msgid ""
@@ -418,31 +424,31 @@ msgid ""
 "'%1'\n"
 msgstr ""
 "Takip eden komut çalıştırılamadı:\n"
-"'%1'\n"
+"“%1”\n"
 
-#: libviews/callgraphview.cpp:2038 libviews/callgraphview.cpp:2555
+#: libviews/callgraphview.cpp:2021 libviews/callgraphview.cpp:2538
 msgctxt "CallGraphView|"
 msgid "Please check that 'dot' is installed (package GraphViz)."
 msgstr ""
-"Lütfen 'dot' uygulamasının kurulu olup olmadığını denetleyin (GraphViz "
+"Lütfen “dot” uygulamasının kurulu olup olmadığını denetleyin (GraphViz "
 "paketi)."
 
-#: libviews/callgraphview.cpp:2080
+#: libviews/callgraphview.cpp:2063
 msgctxt "CallGraphView|"
 msgid "No item activated for which to draw the call graph."
 msgstr "Çağrı grafiğini çizmek için hiçbir öge etkinleştirilmedi."
 
-#: libviews/callgraphview.cpp:2092
+#: libviews/callgraphview.cpp:2075
 msgctxt "CallGraphView|"
 msgid "No call graph can be drawn for the active item."
 msgstr "Etkin öge için hiçbir çağrı grafiği çizilemez."
 
-#: libviews/callgraphview.cpp:2554
+#: libviews/callgraphview.cpp:2537
 msgctxt "CallGraphView|"
 msgid "Error running the graph layouting tool.\n"
 msgstr "Grafik yerleştirme aracı çalıştırılırken hata oluştu.\n"
 
-#: libviews/callgraphview.cpp:2559
+#: libviews/callgraphview.cpp:2542
 #, qt-format
 msgctxt "CallGraphView|"
 msgid ""
@@ -450,248 +456,248 @@ msgid ""
 "\t'%1'\n"
 "because it has no cost of the selected event type."
 msgstr ""
-"'%1' işlevi için kullanılabilecek çağrı\n"
+"“%1” işlevi için kullanılabilecek çağrı\n"
 "\tgrafiği yoktur\n"
 "çünkü seçilmiş olay tipinde herhangi bir maliyet yoktur."
 
-#: libviews/callgraphview.cpp:2800
+#: libviews/callgraphview.cpp:2783
 msgctxt "CallGraphView|"
 msgid "Caller Depth"
 msgstr "Çağrıcı Derinliği"
 
-#: libviews/callgraphview.cpp:2801 libviews/callgraphview.cpp:2841
+#: libviews/callgraphview.cpp:2784 libviews/callgraphview.cpp:2824
 msgctxt "CallGraphView|"
 msgid "Unlimited"
 msgstr "Sınırsız"
 
-#: libviews/callgraphview.cpp:2804 libviews/callgraphview.cpp:2844
+#: libviews/callgraphview.cpp:2787 libviews/callgraphview.cpp:2827
 msgctxt "CallGraphView|None"
 msgid "Depth 0"
 msgstr "Derinlik 0"
 
-#: libviews/callgraphview.cpp:2805 libviews/callgraphview.cpp:2845
+#: libviews/callgraphview.cpp:2788 libviews/callgraphview.cpp:2828
 msgctxt "CallGraphView|"
 msgid "max. 1"
 msgstr "en fazla 10"
 
-#: libviews/callgraphview.cpp:2806 libviews/callgraphview.cpp:2846
+#: libviews/callgraphview.cpp:2789 libviews/callgraphview.cpp:2829
 msgctxt "CallGraphView|"
 msgid "max. 2"
 msgstr "en fazla 2"
 
-#: libviews/callgraphview.cpp:2807 libviews/callgraphview.cpp:2847
+#: libviews/callgraphview.cpp:2790 libviews/callgraphview.cpp:2830
 msgctxt "CallGraphView|"
 msgid "max. 5"
 msgstr "en fazla 5"
 
-#: libviews/callgraphview.cpp:2808 libviews/callgraphview.cpp:2848
+#: libviews/callgraphview.cpp:2791 libviews/callgraphview.cpp:2831
 msgctxt "CallGraphView|"
 msgid "max. 10"
 msgstr "en fazla 10"
 
-#: libviews/callgraphview.cpp:2809 libviews/callgraphview.cpp:2849
+#: libviews/callgraphview.cpp:2792 libviews/callgraphview.cpp:2832
 msgctxt "CallGraphView|"
 msgid "max. 15"
 msgstr "en fazla 15"
 
-#: libviews/callgraphview.cpp:2840
+#: libviews/callgraphview.cpp:2823
 msgctxt "CallGraphView|"
 msgid "Callee Depth"
 msgstr "Çağrılan Derinliği"
 
-#: libviews/callgraphview.cpp:2880
+#: libviews/callgraphview.cpp:2863
 msgctxt "CallGraphView|"
 msgid "Min. Node Cost"
 msgstr "En Az Düğüm Maliyeti"
 
-#: libviews/callgraphview.cpp:2881
+#: libviews/callgraphview.cpp:2864
 msgctxt "CallGraphView|"
 msgid "No Minimum"
 msgstr "En Az Yok"
 
-#: libviews/callgraphview.cpp:2887
+#: libviews/callgraphview.cpp:2870
 msgctxt "CallGraphView|"
 msgid "50 %"
 msgstr "%​50"
 
-#: libviews/callgraphview.cpp:2888
+#: libviews/callgraphview.cpp:2871
 msgctxt "CallGraphView|"
 msgid "20 %"
 msgstr "%​20"
 
-#: libviews/callgraphview.cpp:2889
+#: libviews/callgraphview.cpp:2872
 msgctxt "CallGraphView|"
 msgid "10 %"
 msgstr "%​10"
 
-#: libviews/callgraphview.cpp:2890
+#: libviews/callgraphview.cpp:2873
 msgctxt "CallGraphView|"
 msgid "5 %"
 msgstr "%​5"
 
-#: libviews/callgraphview.cpp:2891
+#: libviews/callgraphview.cpp:2874
 msgctxt "CallGraphView|"
 msgid "2 %"
 msgstr "%​2"
 
-#: libviews/callgraphview.cpp:2892
+#: libviews/callgraphview.cpp:2875
 msgctxt "CallGraphView|"
 msgid "1 %"
 msgstr "%​1"
 
-#: libviews/callgraphview.cpp:2922
+#: libviews/callgraphview.cpp:2905
 msgctxt "CallGraphView|"
 msgid "Min. Call Cost"
 msgstr "En Düşük Çağrı Maliyeti"
 
-#: libviews/callgraphview.cpp:2923
+#: libviews/callgraphview.cpp:2906
 msgctxt "CallGraphView|"
 msgid "Same as Node"
 msgstr "Düğüm ile Aynı"
 
-#: libviews/callgraphview.cpp:2925
+#: libviews/callgraphview.cpp:2908
 msgctxt "CallGraphView|"
 msgid "50 % of Node"
 msgstr "Düğümün %​50’si"
 
-#: libviews/callgraphview.cpp:2927
+#: libviews/callgraphview.cpp:2910
 msgctxt "CallGraphView|"
 msgid "20 % of Node"
 msgstr "Düğümün %​20’si"
 
-#: libviews/callgraphview.cpp:2929
+#: libviews/callgraphview.cpp:2912
 msgctxt "CallGraphView|"
 msgid "10 % of Node"
 msgstr "Düğümün %​10’u"
 
-#: libviews/callgraphview.cpp:2958
+#: libviews/callgraphview.cpp:2941
 msgctxt "CallGraphView|"
 msgid "Birds-eye View"
 msgstr "Kuşbakışı Görünüm"
 
-#: libviews/callgraphview.cpp:2959
+#: libviews/callgraphview.cpp:2942
 msgctxt "CallGraphView|"
 msgid "Top Left"
 msgstr "Sol Üst"
 
-#: libviews/callgraphview.cpp:2960
+#: libviews/callgraphview.cpp:2943
 msgctxt "CallGraphView|"
 msgid "Top Right"
 msgstr "Sağ Üst"
 
-#: libviews/callgraphview.cpp:2961
+#: libviews/callgraphview.cpp:2944
 msgctxt "CallGraphView|"
 msgid "Bottom Left"
 msgstr "Sol Alt"
 
-#: libviews/callgraphview.cpp:2962
+#: libviews/callgraphview.cpp:2945
 msgctxt "CallGraphView|"
 msgid "Bottom Right"
 msgstr "Sağ Alt"
 
-#: libviews/callgraphview.cpp:2963
+#: libviews/callgraphview.cpp:2946
 msgctxt "CallGraphView|"
 msgid "Automatic"
 msgstr "Otomatik"
 
-#: libviews/callgraphview.cpp:2964
+#: libviews/callgraphview.cpp:2947
 msgctxt "CallGraphView|"
 msgid "Hide"
 msgstr "Gizle"
 
-#: libviews/callgraphview.cpp:2994
+#: libviews/callgraphview.cpp:2977
 msgctxt "CallGraphView|"
 msgid "Layout"
 msgstr "Yerleşim"
 
-#: libviews/callgraphview.cpp:2995
+#: libviews/callgraphview.cpp:2978
 msgctxt "CallGraphView|"
 msgid "Top to Down"
 msgstr "Yukarıdan Aşağıya"
 
-#: libviews/callgraphview.cpp:2996
+#: libviews/callgraphview.cpp:2979
 msgctxt "CallGraphView|"
 msgid "Left to Right"
 msgstr "Soldan Sağa"
 
-#: libviews/callgraphview.cpp:2997
+#: libviews/callgraphview.cpp:2980
 msgctxt "CallGraphView|"
 msgid "Circular"
 msgstr "Dairesel"
 
-#: libviews/callgraphview.cpp:3037 libviews/callgraphview.cpp:3042
-#: libviews/callgraphview.cpp:3062
+#: libviews/callgraphview.cpp:3020 libviews/callgraphview.cpp:3025
+#: libviews/callgraphview.cpp:3045
 #, qt-format
 msgctxt "CallGraphView|"
 msgid "Go to '%1'"
-msgstr "'%1' ögesine git"
+msgstr "“%1” ögesine git"
 
-#: libviews/callgraphview.cpp:3073
+#: libviews/callgraphview.cpp:3056
 msgctxt "CallGraphView|"
 msgid "Stop Layouting"
 msgstr "Yerleştirmeyi Durdur"
 
-#: libviews/callgraphview.cpp:3080
+#: libviews/callgraphview.cpp:3063
 msgctxt "CallGraphView|"
 msgid "Export Graph"
 msgstr "Grafiği Dışa Aktar"
 
-#: libviews/callgraphview.cpp:3081
+#: libviews/callgraphview.cpp:3064
 msgctxt "CallGraphView|"
 msgid "As DOT file..."
-msgstr "DOT dosyası olarak..."
+msgstr "DOT Dosyası Olarak…"
 
-#: libviews/callgraphview.cpp:3082
+#: libviews/callgraphview.cpp:3065
 msgctxt "CallGraphView|"
 msgid "As Image..."
-msgstr "Görsel Olarak..."
+msgstr "Görsel Olarak…"
 
-#: libviews/callgraphview.cpp:3085
+#: libviews/callgraphview.cpp:3068
 msgctxt "CallGraphView|"
 msgid "Graph"
 msgstr "Grafik"
 
-#: libviews/callgraphview.cpp:3093
+#: libviews/callgraphview.cpp:3076
 msgctxt "CallGraphView|"
 msgid "Arrows for Skipped Calls"
 msgstr "Atlanan Çağrılar için Oklar"
 
-#: libviews/callgraphview.cpp:3098
+#: libviews/callgraphview.cpp:3081
 msgctxt "CallGraphView|"
 msgid "Inner-cycle Calls"
 msgstr "İç Döngü Çağrıları"
 
-#: libviews/callgraphview.cpp:3103
+#: libviews/callgraphview.cpp:3086
 msgctxt "CallGraphView|"
 msgid "Cluster Groups"
 msgstr "Salkım Grupları"
 
-#: libviews/callgraphview.cpp:3107
+#: libviews/callgraphview.cpp:3090
 msgctxt "CallGraphView|"
 msgid "Visualization"
 msgstr "Görselleştirme"
 
-#: libviews/callgraphview.cpp:3108
+#: libviews/callgraphview.cpp:3091
 msgctxt "CallGraphView|"
 msgid "Compact"
 msgstr "Kompakt"
 
-#: libviews/callgraphview.cpp:3111
+#: libviews/callgraphview.cpp:3094
 msgctxt "CallGraphView|"
 msgid "Normal"
 msgstr "Normal"
 
-#: libviews/callgraphview.cpp:3114
+#: libviews/callgraphview.cpp:3097
 msgctxt "CallGraphView|"
 msgid "Tall"
 msgstr "Uzun"
 
-#: libviews/callgraphview.cpp:3146
+#: libviews/callgraphview.cpp:3129
 msgctxt "CallGraphView|"
 msgid "Export Graph As Image"
 msgstr "Grafiği Dışa Görsel Olarak Aktar"
 
-#: libviews/callgraphview.cpp:3148
+#: libviews/callgraphview.cpp:3131
 msgctxt "CallGraphView|"
 msgid "Images (*.png *.jpg)"
 msgstr "Görseller (*.png *.jpg)"
@@ -765,11 +771,11 @@ msgid ""
 "em> activates the current item.</p>"
 msgstr ""
 "<p>Görünüş seçenekleri bağlam menüsünde bulunabilir. Tam boyut oranlarını "
-"almak için 'Hatalı kenarlıkları gizle' seçeneğini seçin. Bu kip <em>pek</em> "
+"almak için “Yanlış kenarlıkları gizle” seçeneğini seçin. Bu kip <em>pek</em> "
 "bir zaman harcayıcı olabildiğinden, daha öncesinden çizilecek iç içe geçme "
-"düzeyini sınırlamanız yararlı olabilir. 'En İyi', alt işlemlerin üst işleme "
-"oranla bölünme yönünü belirler. 'Her Zaman En İyi', her aynı düzeydeki işlem "
-"için kalan boşluğa karar verir. 'Orantıları Yok Say', alt işlemleri çizmeden "
+"düzeyini sınırlamanız yararlı olabilir. “En iyi”, alt işlemlerin üst işleme "
+"oranla bölünme yönünü belirler. “Her zaman en iyi”, her aynı düzeydeki işlem "
+"için kalan boşluğa karar verir. “Orantıları yok say”, alt işlemleri çizmeden "
 "<em>önce</em> işlev adı için boşluk alır. Boyut orantılarının <em>ağır bir "
 "biçimde</em> hatalı olabileceğini göz önünde bulundurun.</p><p>Bu bir "
 "<em>Çağrı Ağacı</em> araç takımıdır. Klavye ile dolaşım aynı düzeydeki "
@@ -811,7 +817,7 @@ msgstr "20. Derinlik"
 #, qt-format
 msgctxt "CallMapView|"
 msgid "Depth of '%1' (%2)"
-msgstr "'%1' (%2) için Derinlik"
+msgstr "“%1” (%2) için Derinlik"
 
 #: libviews/callmapview.cpp:185
 #, qt-format
@@ -869,7 +875,7 @@ msgstr "1000 Piksel"
 #, qt-format
 msgctxt "CallMapView|"
 msgid "Area of '%1' (%2)"
-msgstr "'%1' (%2) Alanı"
+msgstr "“%1” (%2) Alanı"
 
 #: libviews/callmapview.cpp:275
 #, qt-format
@@ -962,7 +968,7 @@ msgstr "Gölgeleme"
 #, qt-format
 msgctxt "CallMapView|"
 msgid "Call Map: Current is '%1'"
-msgstr "Çağrı Haritası: Mevcut '%1'"
+msgstr "Çağrı haritası: Geçerli “%1”"
 
 #: libviews/callmapview.cpp:621
 msgctxt "QObject|"
@@ -1051,13 +1057,273 @@ msgstr ""
 #, qt-format
 msgctxt "CallView|"
 msgid "Go to '%1'"
-msgstr "'%1' ögesine git"
+msgstr "Git: “%1”"
 
 #: libviews/callview.cpp:257 libviews/callview.cpp:261
 #, qt-format
 msgctxt "CallView|"
 msgid "%1 per call"
 msgstr "Çağrı başına %1"
+
+#: libviews/controlflowgraphview.cpp:623
+msgctxt "QObject|"
+msgid ""
+"Control-flow graph requires running callgrind with option --dump-instr=yes"
+msgstr ""
+"Denetim akışı grafiği, callgrind’ı --dump-instr=yes seçeneğiyle birlikte "
+"çalıştırmayı gerektirir."
+
+#: libviews/controlflowgraphview.cpp:932
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"For annotated machine code, the following object file is needed\n"
+"    '%1'\n"
+"This file cannot be found.\n"
+msgstr ""
+"Açıklamalı makine kodu için aşağıdaki nesne dosyası gereklidir:\n"
+"  “%1”\n"
+"Bu dosya bulunamadı.\n"
+
+#: libviews/controlflowgraphview.cpp:936
+msgctxt "QObject|"
+msgid "If cross-compiled, set SYSROOT variable."
+msgstr "Çapraz derlenmişse SYSROOT değişkenini ayarlayın."
+
+#: libviews/controlflowgraphview.cpp:960
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"There is an error trying to execute the command\n"
+"    '%1'\n"
+"Check that you have installed 'objdump'.\n"
+"This utility can be found in the 'binutils' package"
+msgstr ""
+"Aşağıdaki komut yürütülmeye çalışılırken bir hata oluştu:\n"
+"  “%1”\n"
+"“objdump” programının kurulu olup olmadığını denetleyin.\n"
+"Bu izlence, “binutils” paketinde bulunabilir."
+
+#: libviews/controlflowgraphview.cpp:1041
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"There are %1 cost line(s) without machine code.\n"
+"This happens because the code of %2 does not seem to match the profile data "
+"file.\n"
+"Are you using an old profile data file or is the abovementioned\n"
+"ELF object from an updated installation/another machine?"
+msgstr ""
+"Makine kodu olmadan %1 maliyet satırı var.\n"
+"Bunun gerçekleşme nedeni %2 kodunun yukarıdaki profil verisi dosyasıyla "
+"uyuşmamasıdır.\n"
+"Eski bir profil verisi dosyası mı kullanıyorsunuz veya yukarıda söz edilen "
+"ELF nesnesi başka bir güncellenmiş kurulumdan veya makineden mi?"
+
+#: libviews/controlflowgraphview.cpp:1051
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"There seems to be an error trying to execute the command '%1'.\n"
+"Check that the ELF object used in the command exists.\n"
+"Check that you have installed 'objdump'.\n"
+"This utility can be found in the 'binutils' package."
+msgstr ""
+"“%1” komutu yürütülmeye çalışılırken bir hata oluşmuş gibi görünüyor.\n"
+"Komutta kullanılan ELF nesnesinin var olduğundan emin olun.\n"
+"“objdump” programının kurulu olup olmadığını denetleyin.\n"
+"Bu izlence, “binutils” paketinde bulunabilir."
+
+#: libviews/controlflowgraphview.cpp:1772
+msgctxt "QObject|"
+msgid "This is Control Flow Graph by KetchuppOfficial"
+msgstr "Bu, KetchuppOfficial tarafından yapılmış bir denetim akışı grafiğidir."
+
+#: libviews/controlflowgraphview.cpp:1828
+msgctxt "QObject|"
+msgid ""
+"Warning: a long lasting graph layouting is in progress.\n"
+"Reduce node/edge limits for speedup.\n"
+msgstr ""
+"Uyarı: Uzunca sürecek grafik yerleştirimi başladı.\n"
+"Hızlanması için düğüm/kenarlar sınırlarını azaltın.\n"
+
+#: libviews/controlflowgraphview.cpp:1831
+msgctxt "QObject|"
+msgid "Layouting stopped.\n"
+msgstr "Yerleştirme durduruldu.\n"
+
+#: libviews/controlflowgraphview.cpp:1833
+#, qt-format
+msgctxt "QObject|"
+msgid "The call graph has %1 nodes and %2 edges.\n"
+msgstr "Çağrı grafiğinde %1 düğüm ve %2 kenar var.\n"
+
+#: libviews/controlflowgraphview.cpp:1841
+msgctxt "QObject|"
+msgid "No graph available because the layouting process failed.\n"
+msgstr "Kullanılabilir grafik yok; çünkü yerleştirme işlemi başarısız oldu.\n"
+
+#: libviews/controlflowgraphview.cpp:1843
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"Trying to run the following command did not work:\n"
+"'%1'\n"
+msgstr ""
+"Aşağıdaki komutu çalıştırma işlemi başarısız oldu:\n"
+"“%1”\n"
+
+#: libviews/controlflowgraphview.cpp:1845
+msgctxt "QObject|"
+msgid "Please check that 'dot' is installed (package GraphViz)."
+msgstr ""
+"Lütfen “dot” uygulamasının kurulu olup olmadığını denetleyin (GraphViz "
+"paketi)."
+
+#: libviews/controlflowgraphview.cpp:2209
+msgctxt "QObject|"
+msgid ""
+"Error running the graph layouting tool.\n"
+"Please check that 'dot' is installed (package Graphviz)."
+msgstr ""
+"Grafik yerleştirme aracını çalıştırırken hata.\n"
+"Lütfen “dot” uygulamasının kurulu olup olmadığını denetleyin (GraphViz "
+"paketi)."
+
+#: libviews/controlflowgraphview.cpp:2399
+msgctxt "QObject|"
+msgid "This basic block"
+msgstr "Temel blok"
+
+#: libviews/controlflowgraphview.cpp:2401
+#: libviews/controlflowgraphview.cpp:2432
+msgctxt "QObject|"
+msgid "PC only"
+msgstr "Yalnızca PC"
+
+#: libviews/controlflowgraphview.cpp:2405
+#: libviews/controlflowgraphview.cpp:2436
+msgctxt "QObject|"
+msgid "Show instructions' PC"
+msgstr "Yönergelerin PC’sini göster"
+
+#: libviews/controlflowgraphview.cpp:2409
+#: libviews/controlflowgraphview.cpp:2440
+msgctxt "QObject|"
+msgid "Show instructions' cost"
+msgstr "Yönergelerin maliyetini göster"
+
+#: libviews/controlflowgraphview.cpp:2426
+msgctxt "QObject|"
+msgid "Intel ASM Syntax"
+msgstr "Intel ASM Sözdizimi"
+
+#: libviews/controlflowgraphview.cpp:2450
+msgctxt "QObject|"
+msgid "As DOT file..."
+msgstr "DOT Dosyası Olarak…"
+
+#: libviews/controlflowgraphview.cpp:2451
+msgctxt "QObject|"
+msgid "As Image..."
+msgstr "Görsel Olarak…"
+
+#: libviews/controlflowgraphview.cpp:2562
+msgctxt "QObject|"
+msgid "Export Graph as Image"
+msgstr "Grafiği Görsel Olarak İçe Aktar"
+
+#: libviews/controlflowgraphview.cpp:2564
+msgctxt "QObject|"
+msgid "Images (*.png *.jpg)"
+msgstr "Görseller (*.png *.jpg)"
+
+#: libviews/controlflowgraphview.cpp:2997
+msgctxt "QObject|"
+msgid "No trace data"
+msgstr "İz verisi yok"
+
+#: libviews/controlflowgraphview.cpp:3002
+msgctxt "QObject|"
+msgid "No item activated for which to draw the control-flow graph."
+msgstr "Çağrı grafiğini çizmek için etkinleştirilen öge yok."
+
+#: libviews/controlflowgraphview.cpp:3014
+msgctxt "QObject|"
+msgid "No control-flow graph can be drawn for the active item."
+msgstr "Etkin öge için bir denetim akışı grafiği çizilemiyor."
+
+#: libviews/controlflowgraphview.cpp:3109
+msgctxt "QObject|"
+msgid "Stop Layouting"
+msgstr "Yerleştirmeyi Durdur"
+
+#: libviews/controlflowgraphview.cpp:3172
+msgctxt "QObject|"
+msgid "Birds-eye View"
+msgstr "Kuşbakışı Görünüm"
+
+#: libviews/controlflowgraphview.cpp:3174
+msgctxt "QObject|"
+msgid "Top Left"
+msgstr "Sol Üst"
+
+#: libviews/controlflowgraphview.cpp:3175
+msgctxt "QObject|"
+msgid "Top Right"
+msgstr "Sağ Üst"
+
+#: libviews/controlflowgraphview.cpp:3176
+msgctxt "QObject|"
+msgid "Bottom Left"
+msgstr "Sol Alt"
+
+#: libviews/controlflowgraphview.cpp:3177
+msgctxt "QObject|"
+msgid "Bottom Right"
+msgstr "Sağ Alt"
+
+#: libviews/controlflowgraphview.cpp:3178
+msgctxt "QObject|"
+msgid "Automatic"
+msgstr "Kendiliğinden"
+
+#: libviews/controlflowgraphview.cpp:3179
+msgctxt "QObject|"
+msgid "Hide"
+msgstr "Gizle"
+
+#: libviews/controlflowgraphview.cpp:3189
+msgctxt "QObject|"
+msgid "Layout"
+msgstr "Yerleşim"
+
+#: libviews/controlflowgraphview.cpp:3191
+msgctxt "QObject|"
+msgid "Top to Down"
+msgstr "Yukarıdan Aşağıya"
+
+#: libviews/controlflowgraphview.cpp:3192
+msgctxt "QObject|"
+msgid "Left to Right"
+msgstr "Soldan Sağa"
+
+#: libviews/controlflowgraphview.cpp:3202
+msgctxt "QObject|"
+msgid "Min. basic block cost"
+msgstr "En Düşük Çağrı Maliyeti"
+
+#: libviews/controlflowgraphview.cpp:3204
+msgctxt "QObject|"
+msgid "Undefined"
+msgstr "Tanımsız"
+
+#: libviews/controlflowgraphview.cpp:3207
+#, qt-format
+msgctxt "QObject|"
+msgid "%1%"
+msgstr "%​%1"
 
 #: libviews/costlistitem.cpp:53
 #, qt-format
@@ -1182,7 +1448,7 @@ msgstr ""
 #, qt-format
 msgctxt "CoverageView|"
 msgid "Go to '%1'"
-msgstr "'%1' ögesine git"
+msgstr "“%1” ögesine git"
 
 #: libviews/eventtypeitem.cpp:48
 msgctxt "QObject|"
@@ -1260,7 +1526,7 @@ msgstr "Kaldır"
 #: libviews/eventtypeview.cpp:119
 msgctxt "EventTypeView|"
 msgid "New Event Type..."
-msgstr "Yeni Olay Türü..."
+msgstr "Yeni Olay Türü…"
 
 #: libviews/eventtypeview.cpp:154 libviews/eventtypeview.cpp:159
 #, qt-format
@@ -1356,7 +1622,7 @@ msgstr ""
 #, qt-format
 msgctxt "FunctionSelection|"
 msgid "Go to '%1'"
-msgstr "'%1' ögesine git"
+msgstr "“%1” ögesine git"
 
 #: libviews/functionselection.cpp:297 libviews/functionselection.cpp:317
 msgctxt "FunctionSelection|"
@@ -1372,7 +1638,7 @@ msgstr "Gruplandırma Yok"
 #, qt-format
 msgctxt "QObject|"
 msgid "Active call to '%1'"
-msgstr "'%1' ögesine etkin çağrı"
+msgstr "“%1” ögesine etkin çağrı"
 
 #: libviews/instritem.cpp:116 libviews/sourceitem.cpp:96
 #, qt-format
@@ -1385,8 +1651,8 @@ msgstr "%1 ögesine çağrı"
 msgctxt "QObject|"
 msgid "%n call(s) to '%2'"
 msgid_plural "%n call(s) to '%2'"
-msgstr[0] "'%2' ögesine %n çağrı(lar)"
-msgstr[1] "'%2' ögesine %n çağrı(lar)"
+msgstr[0] "“%2” ögesine %n çağrı"
+msgstr[1] "“%2” ögesine %n çağrı"
 
 #: libviews/instritem.cpp:155
 #, qt-format
@@ -1449,10 +1715,10 @@ msgid ""
 msgstr ""
 "<b>Açıklamalı Makine Kodu</b><p>Açıklamalı makine kodu listesi, bir talimat "
 "yürütülürken harcanan (kendi) maliyetle birlikte geçerli seçili işlevin "
-"montaj talimatlarını gösterir. Bu bir arama talimatıysa, yapılan aramayla "
+"montaj yönergelerini gösterir. Bu bir arama yönergesiyse yapılan aramayla "
 "ilgili ayrıntıları içeren satırlar kaynağa eklenir: Aramanın içinde harcanan "
 "maliyet, gerçekleşen arama sayısı ve arama hedefi.</p><p>Gösterilen makine "
-"kodu. 'binutils' paketindeki 'objdump' izlencesiyle oluşturulur.</p><p>Bu "
+"kodu. “binutils” paketindeki “objdump” izlencesiyle oluşturulur.</p><p>Bu "
 "çağrının hedef işlevini geçerli kılmak için çağrı bilgilerini içeren bir "
 "satır seçin.</p>"
 
@@ -1460,7 +1726,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstrView|"
 msgid "Go to '%1'"
-msgstr "'%1' ögesine git"
+msgstr "“%1” ögesine git"
 
 #: libviews/instrview.cpp:270
 #, qt-format
@@ -1473,67 +1739,72 @@ msgctxt "InstrView|"
 msgid "Hex Code"
 msgstr "Hex Kodu"
 
-#: libviews/instrview.cpp:573
+#: libviews/instrview.cpp:290
+msgctxt "InstrView|"
+msgid "Intel Syntax"
+msgstr "Intel Sözdizimi"
+
+#: libviews/instrview.cpp:585
 msgctxt "InstrView|"
 msgid "There is no instruction info in the profile data file."
 msgstr "Profil veri dosyası içinde yönerge yoktur."
 
-#: libviews/instrview.cpp:575
+#: libviews/instrview.cpp:587
 msgctxt "InstrView|"
 msgid "Tip: For Callgrind, rerun with option"
 msgstr "İpucu: ÇağrıIzgarası için seçenek ile yeniden çalıştırın"
 
-#: libviews/instrview.cpp:576
+#: libviews/instrview.cpp:588
 msgctxt "InstrView|"
 msgid "      --dump-instr=yes"
 msgstr "      --dump-instr=yes"
 
-#: libviews/instrview.cpp:577
+#: libviews/instrview.cpp:589
 msgctxt "InstrView|"
 msgid "To see (conditional) jumps, additionally specify"
-msgstr "(Koşullu) Atlamaları görmek için, ek olarak belirtiriniz"
+msgstr "(Koşullu) Atlamaları görmek için ek olarak belirtiriniz"
 
-#: libviews/instrview.cpp:578
+#: libviews/instrview.cpp:590
 msgctxt "InstrView|"
 msgid "      --collect-jumps=yes"
 msgstr "      --collect-jumps=yes"
 
-#: libviews/instrview.cpp:826
+#: libviews/instrview.cpp:839
 msgctxt "InstrView|"
 msgid "For annotated machine code, the following object file is needed:"
-msgstr "Açıklamalı makine kodu için, takip eden öge dosyası gereklidir:"
+msgstr "Açıklamalı makine kodu için aşağıdaki nesne dosyası gereklidir:"
 
-#: libviews/instrview.cpp:831
+#: libviews/instrview.cpp:844
 msgctxt "InstrView|"
 msgid "This file can not be found."
 msgstr "Bu dosya bulunamadı."
 
-#: libviews/instrview.cpp:834
+#: libviews/instrview.cpp:847
 msgctxt "InstrView|"
 msgid "If cross-compiled, set SYSROOT variable."
 msgstr "Eğer çapraz derlenecekse, SYSROOT değişkenini ayarlayın."
 
-#: libviews/instrview.cpp:858
+#: libviews/instrview.cpp:872
 msgctxt "InstrView|"
 msgid "There is an error trying to execute the command"
 msgstr "Komutu çalıştırmaya çalışırken bir hata oluştu"
 
-#: libviews/instrview.cpp:862 libviews/instrview.cpp:1158
+#: libviews/instrview.cpp:876 libviews/instrview.cpp:1172
 msgctxt "InstrView|"
 msgid "Check that you have installed 'objdump'."
-msgstr "'objdump' kurulmuş olduğunu kontrol et."
+msgstr "“objdump” programının kurulu olup olmadığını denetleyin."
 
-#: libviews/instrview.cpp:864 libviews/instrview.cpp:1160
+#: libviews/instrview.cpp:878 libviews/instrview.cpp:1174
 msgctxt "InstrView|"
 msgid "This utility can be found in the 'binutils' package."
-msgstr "Bu izlence, 'binutils' paketinde bulunabilir."
+msgstr "Bu izlence, “binutils” paketinde bulunabilir."
 
-#: libviews/instrview.cpp:966
+#: libviews/instrview.cpp:980
 msgctxt "InstrView|"
 msgid "(No Instruction)"
 msgstr "(Yönerge Yok)"
 
-#: libviews/instrview.cpp:1134
+#: libviews/instrview.cpp:1148
 #, qt-format
 msgctxt "InstrView|"
 msgid "There are %n cost line(s) without machine code."
@@ -1541,49 +1812,49 @@ msgid_plural "There are %n cost line(s) without machine code."
 msgstr[0] "Makine kodu olmadan %n maliyetli satır(lar) bulunuyor."
 msgstr[1] "Makine kodu olmadan %n maliyetli satır(lar) bulunuyor."
 
-#: libviews/instrview.cpp:1136
+#: libviews/instrview.cpp:1150
 msgctxt "InstrView|"
 msgid "This happens because the code of"
 msgstr "Bu olay oldu çünkü kod"
 
-#: libviews/instrview.cpp:1139
+#: libviews/instrview.cpp:1153
 msgctxt "InstrView|"
 msgid "does not seem to match the profile data file."
 msgstr "profil veri dosyası ile uyuşmuyor gibi görünüyor."
 
-#: libviews/instrview.cpp:1142
+#: libviews/instrview.cpp:1156
 msgctxt "InstrView|"
 msgid "Are you using an old profile data file or is the above mentioned"
 msgstr ""
 "Eski bir profil veri dosyası mı kullanıyorsunuz yoksa yukarıda bahsi geçen mi"
 
-#: libviews/instrview.cpp:1144
+#: libviews/instrview.cpp:1158
 msgctxt "InstrView|"
 msgid "ELF object from an updated installation/another machine?"
 msgstr "ELF nesnesi güncellenmiş kurulumdan mı/başka bir makineden mi?"
 
-#: libviews/instrview.cpp:1152
+#: libviews/instrview.cpp:1166
 msgctxt "InstrView|"
 msgid "There seems to be an error trying to execute the command"
 msgstr "komutu çalıştırmaya çalışırken bir hata oluştu"
 
-#: libviews/instrview.cpp:1156
+#: libviews/instrview.cpp:1170
 msgctxt "InstrView|"
 msgid "Check that the ELF object used in the command exists."
 msgstr "Var olan komut tarafından kullanılan ELF nesnesini kontrol et."
 
-#: libviews/partgraph.cpp:154
+#: libviews/partgraph.cpp:155
 #, qt-format
 msgctxt "QObject|"
 msgid "Profile Part %1"
 msgstr "Profil Bölümü: %1"
 
-#: libviews/partgraph.cpp:211
+#: libviews/partgraph.cpp:212
 msgctxt "QObject|"
 msgid "(no trace)"
 msgstr "(iz yok)"
 
-#: libviews/partgraph.cpp:214
+#: libviews/partgraph.cpp:215
 msgctxt "QObject|"
 msgid "(no part)"
 msgstr "(kısım yok)"
@@ -1640,7 +1911,7 @@ msgstr ""
 "<ul><li>Bölüntüleme: Seçilen grup tipine göre bir izleme parçası için "
 "gruplara ayrıldığını görüyorsunuz. Örneğin. ELF nesne grupları seçilirse, "
 "kullanılan her ELF nesnesi (paylaşılan kitaplık veya yürütülebilir dosya) "
-"için, burada harcanan maliyete göre boyutlandırılmış renkli dikdörtgenler "
+"için burada harcanan maliyete göre boyutlandırılmış renkli dikdörtgenler "
 "görürsünüz.</li><li>Aranan: Geçerli seçili ögenin dahil maliyetini gösteren "
 "bir dikdörtgen izleme kısmındaki işlev gösterilir. Bu, arananların "
 "maliyetlerini göstermek için daha küçük dikdörtgenlere bölünmüştür.</li></"
@@ -1650,19 +1921,19 @@ msgstr ""
 #, qt-format
 msgctxt "PartSelection|"
 msgid "Profile Part Overview: Current is '%1'"
-msgstr "Profil Kısmı Genel Görünümü: Geçerli: '%1'"
+msgstr "Profil Kısmı Genel Görünümü: Geçerli: “%1”"
 
 #: libviews/partselection.cpp:337
 #, qt-format
 msgctxt "PartSelection|"
 msgid "Deselect '%1'"
-msgstr "'%1' ögesini Seçme"
+msgstr "“%1” ögesini Seçme"
 
 #: libviews/partselection.cpp:339
 #, qt-format
 msgctxt "PartSelection|"
 msgid "Select '%1'"
-msgstr "'%1' ögesini Seç"
+msgstr "“%1” ögesini Seç"
 
 #: libviews/partselection.cpp:344
 msgctxt "PartSelection|"
@@ -1688,7 +1959,7 @@ msgstr "Gizli Kısımları Göster"
 #, qt-format
 msgctxt "PartSelection|"
 msgid "Go to '%1'"
-msgstr "'%1' ögesine git"
+msgstr "“%1” ögesine git"
 
 #: libviews/partselection.cpp:370
 msgctxt "PartSelection|"
@@ -1802,20 +2073,20 @@ msgid ""
 "Part Overview Dockable. This one also supports multiple selection.</"
 "p><p>Note that the list is hidden if only one trace part is loaded.</p>"
 msgstr ""
-"<b>İz Parça Listesi</b><p>Bu liste, yüklenen izin tüm iz parçalarını "
-"gösterir. Her parça için, parçada harcanan mevcut seçili fonksiyonun kendi/"
+"<b>İz Parçası Listesi</b><p>Bu liste, yüklenen izin tüm iz parçalarını "
+"gösterir. Her parça için parçada harcanan mevcut seçili fonksiyonun kendi/"
 "dahil maliyeti gösterilir; yüzde maliyetleri her zaman <em>parçanın</em> "
 "toplam maliyetine göredir (İzleme Parçasına Genel Bakış’ta olduğu gibi tüm "
 "iz için değil). Ayrıca, izleme bölümünün içindeki geçerli işleve gelen/gelen "
 "çağrılar da gösterilir.</p><p>Listeden bir veya daha fazla izleme parçası "
 "seçildiğinde, KCachegrind’in tamamında gösterilen maliyetler yalnızca seçili "
 "parça(lar). Liste seçimi gösterilmiyorsa aslında tüm izleme parçaları örtülü "
-"olarak seçilir.</p><p>Bu bir çoklu seçim listesidir. Fareyi sürükleyerek "
-"veya Üst Karakter/Kontrol niteleyicilerini kullanarak aralıkları "
-"seçebilirsiniz. İz parçalarının Seçimi/Seçimi Kaldırılması, Trace Part "
-"Overview Dockable kullanılarak da yapılabilir. Bu aynı zamanda çoklu seçimi "
-"de destekler.</p><p>Yalnızca bir izleme parçası yüklendiğinde listenin "
-"gizlendiğini unutmayın.</p>"
+"olarak seçilir.</p><p>Bu birçoklu seçim listesidir. Fareyi sürükleyerek veya "
+"Üst Karakter/Kontrol niteleyicilerini kullanarak aralıkları seçebilirsiniz. "
+"İz parçalarının Seçimi/Seçimi Kaldırılması, Trace Part Overview Dockable "
+"kullanılarak da yapılabilir. Bu aynı zamanda çoklu seçimi de destekler.</"
+"p><p>Yalnızca bir izleme parçası yüklendiğinde listenin gizlendiğini "
+"unutmayın.</p>"
 
 #: libviews/sourceitem.cpp:141
 #, qt-format
@@ -1871,7 +2142,7 @@ msgstr ""
 #, qt-format
 msgctxt "SourceView|"
 msgid "Go to '%1'"
-msgstr "'%1' ögesine git"
+msgstr "“%1” ögesine git"
 
 #: libviews/sourceview.cpp:115
 #, qt-format
@@ -1898,13 +2169,13 @@ msgstr "Bundan dolayı, ek açıklama eklenmiş bir kaynak gösterilemez."
 #, qt-format
 msgctxt "SourceView|"
 msgid "--- From '%1' ---"
-msgstr "--- '%1' itibaren ---"
+msgstr "--- “%1” itibaren ---"
 
 #: libviews/sourceview.cpp:663
 #, qt-format
 msgctxt "SourceView|"
 msgid "--- Inlined from '%1' ---"
-msgstr "--- '%1' itibaren içinde ---"
+msgstr "--- “%1” itibaren içinde ---"
 
 #: libviews/sourceview.cpp:664
 msgctxt "SourceView|"
@@ -1971,147 +2242,152 @@ msgctxt "StackSelection|"
 msgid "Function"
 msgstr "İşlev"
 
-#: libviews/tabview.cpp:103
+#: libviews/tabview.cpp:104
 msgctxt "TabBar|"
 msgid "Move to Top"
 msgstr "Yukarı Taşı"
 
-#: libviews/tabview.cpp:104
+#: libviews/tabview.cpp:105
 msgctxt "TabBar|Move to Top"
 msgid "Top"
 msgstr "Üst"
 
-#: libviews/tabview.cpp:107
+#: libviews/tabview.cpp:108
 msgctxt "TabBar|"
 msgid "Move to Right"
 msgstr "Sağa Taşı"
 
-#: libviews/tabview.cpp:108
+#: libviews/tabview.cpp:109
 msgctxt "TabBar|Move to Right"
 msgid "Right"
 msgstr "Sağ"
 
-#: libviews/tabview.cpp:111
+#: libviews/tabview.cpp:112
 msgctxt "TabBar|"
 msgid "Move to Bottom"
 msgstr "En Alta Taşı"
 
-#: libviews/tabview.cpp:112
+#: libviews/tabview.cpp:113
 msgctxt "TabBar|Move to Bottom"
 msgid "Bottom"
 msgstr "Alt"
 
-#: libviews/tabview.cpp:115
+#: libviews/tabview.cpp:116
 msgctxt "TabBar|"
 msgid "Move to Bottom Left"
 msgstr "Sol Aşağı Taşı"
 
-#: libviews/tabview.cpp:116
+#: libviews/tabview.cpp:117
 msgctxt "TabBar|Move to Bottom Left"
 msgid "Bottom Left"
 msgstr "Sol Alt"
 
-#: libviews/tabview.cpp:118
+#: libviews/tabview.cpp:119
 msgctxt "TabBar|"
 msgid "Move Area To"
 msgstr "Seçilen Bölgeyi Taşı"
 
-#: libviews/tabview.cpp:121
+#: libviews/tabview.cpp:122
 msgctxt "TabBar|"
 msgid "Hide This Tab"
 msgstr "Bu Sekmeyi Gizle"
 
-#: libviews/tabview.cpp:122
+#: libviews/tabview.cpp:123
 msgctxt "TabBar|"
 msgid "Hide Area"
 msgstr "Alanı Gizle"
 
-#: libviews/tabview.cpp:131
+#: libviews/tabview.cpp:132
 msgctxt "TabBar|Show on Top"
 msgid "Top"
 msgstr "Üst"
 
-#: libviews/tabview.cpp:132
+#: libviews/tabview.cpp:133
 msgctxt "TabBar|Show on Right"
 msgid "Right"
 msgstr "Sağ"
 
-#: libviews/tabview.cpp:133
+#: libviews/tabview.cpp:134
 msgctxt "TabBar|Show on Bottom"
 msgid "Bottom"
 msgstr "Alt"
 
-#: libviews/tabview.cpp:134
+#: libviews/tabview.cpp:135
 msgctxt "TabBar|Show on Bottom Left"
 msgid "Bottom Left"
 msgstr "Alt Sol"
 
-#: libviews/tabview.cpp:135
+#: libviews/tabview.cpp:136
 msgctxt "TabBar|"
 msgid "Show Hidden On"
 msgstr "Gizli Kısımları Göster"
 
-#: libviews/tabview.cpp:308 libviews/tabview.cpp:310 libviews/tabview.cpp:727
+#: libviews/tabview.cpp:309 libviews/tabview.cpp:311 libviews/tabview.cpp:730
 msgctxt "TabView|"
 msgid "(No profile data file loaded)"
 msgstr "(Hiç profil dosyası yüklenmedi)"
 
-#: libviews/tabview.cpp:370
+#: libviews/tabview.cpp:371
 msgctxt "TabView|"
 msgid "Types"
 msgstr "Tipler"
 
-#: libviews/tabview.cpp:373
+#: libviews/tabview.cpp:374
 msgctxt "TabView|"
 msgid "Callers"
 msgstr "Çağrıcılar"
 
-#: libviews/tabview.cpp:374
+#: libviews/tabview.cpp:375
 msgctxt "TabView|"
 msgid "All Callers"
 msgstr "Tüm Çağrıcılar"
 
-#: libviews/tabview.cpp:375
+#: libviews/tabview.cpp:376
 msgctxt "TabView|"
 msgid "Callee Map"
 msgstr "Çağrıcı Haritası"
 
-#: libviews/tabview.cpp:378
+#: libviews/tabview.cpp:379
 msgctxt "TabView|"
 msgid "Source Code"
 msgstr "Kaynak Kod"
 
 #: libviews/tabview.cpp:380
 msgctxt "TabView|"
+msgid "Control Flow Graph"
+msgstr "Denetim Akışı Grafiği"
+
+#: libviews/tabview.cpp:383
+msgctxt "TabView|"
 msgid "Parts"
 msgstr "Bölümler"
 
-#: libviews/tabview.cpp:381
+#: libviews/tabview.cpp:384
 msgctxt "TabView|"
 msgid "Callees"
 msgstr "Çağrılanlar"
 
-#: libviews/tabview.cpp:382
+#: libviews/tabview.cpp:385
 msgctxt "TabView|"
 msgid "Call Graph"
 msgstr "Çağrı Grafiği"
 
-#: libviews/tabview.cpp:385
+#: libviews/tabview.cpp:388
 msgctxt "TabView|"
 msgid "All Callees"
 msgstr "Tüm Çağrıcılar"
 
-#: libviews/tabview.cpp:386
+#: libviews/tabview.cpp:389
 msgctxt "TabView|"
 msgid "Caller Map"
 msgstr "Çağrıcı Haritası"
 
-#: libviews/tabview.cpp:389
+#: libviews/tabview.cpp:392
 msgctxt "TabView|"
 msgid "Machine Code"
 msgstr "Makine Kodu"
 
-#: libviews/tabview.cpp:643
+#: libviews/tabview.cpp:646
 msgctxt "TabView|"
 msgid ""
 "<b>Information Tabs</b><p>This widget shows information for the currently "
@@ -2146,9 +2422,9 @@ msgstr ""
 "hata ayıklama bilgileri ve kaynak dosya mevcutsa açıklamalı kaynak kodu "
 "sunar.</li><li>Makine Kodu sekmesi, talimat düzeyinde profil bilgileri "
 "mevcutsa açıklamalı montaj talimatları sunar.</li> </ul>Daha fazla bilgi "
-"için, ilgili sekme araç takımının<em>Bu Nedir?</em> yardımına bakın.</p>"
+"için ilgili sekme araç takımının<em>Bu Nedir?</em> yardımına bakın.</p>"
 
-#: libviews/tabview.cpp:728
+#: libviews/tabview.cpp:731
 msgctxt "TabView|"
 msgid "(No function selected)"
 msgstr "(Hiçbir işlev seçilmedi)"
@@ -2158,53 +2434,53 @@ msgctxt "QObject|"
 msgid "No description available"
 msgstr "Kullanılabilir açıklama yok"
 
-#: libviews/treemap.cpp:1334
+#: libviews/treemap.cpp:1335
 #, qt-format
 msgctxt "TreeMapWidget|"
 msgid "Text %1"
 msgstr "%1 Metni"
 
-#: libviews/treemap.cpp:2854
+#: libviews/treemap.cpp:2860
 msgctxt "TreeMapWidget|"
 msgid "Recursive Bisection"
 msgstr "Özyinelemeli ikiye bölme"
 
-#: libviews/treemap.cpp:2855
+#: libviews/treemap.cpp:2861
 msgctxt "TreeMapWidget|"
 msgid "Columns"
 msgstr "Sütunlar"
 
-#: libviews/treemap.cpp:2856
+#: libviews/treemap.cpp:2862
 msgctxt "TreeMapWidget|"
 msgid "Rows"
 msgstr "Satırlar"
 
-#: libviews/treemap.cpp:2857
+#: libviews/treemap.cpp:2863
 msgctxt "TreeMapWidget|"
 msgid "Always Best"
 msgstr "Her Zaman En İyi"
 
-#: libviews/treemap.cpp:2858
+#: libviews/treemap.cpp:2864
 msgctxt "TreeMapWidget|"
 msgid "Best"
 msgstr "En İyi"
 
-#: libviews/treemap.cpp:2859
+#: libviews/treemap.cpp:2865
 msgctxt "TreeMapWidget|"
 msgid "Alternate (V)"
 msgstr "Diğer (V)"
 
-#: libviews/treemap.cpp:2860
+#: libviews/treemap.cpp:2866
 msgctxt "TreeMapWidget|"
 msgid "Alternate (H)"
 msgstr "Diğer (H)"
 
-#: libviews/treemap.cpp:2861
+#: libviews/treemap.cpp:2867
 msgctxt "TreeMapWidget|"
 msgid "Horizontal"
 msgstr "Yatay"
 
-#: libviews/treemap.cpp:2862
+#: libviews/treemap.cpp:2868
 msgctxt "TreeMapWidget|"
 msgid "Vertical"
 msgstr "Dikey"

@@ -5,47 +5,47 @@
 # obsoleteman <tulliana@gmail.com>, 2012.
 # Volkan Gezer <volkangezer@gmail.com>, 2013-2014, 2017.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024, 2025 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdepim-runtime-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-02-16 00:38+0000\n"
-"PO-Revision-Date: 2023-11-23 12:44+0300\n"
-"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
+"POT-Creation-Date: 2025-07-17 00:42+0000\n"
+"PO-Revision-Date: 2025-06-27 10:03+0300\n"
+"Last-Translator: Emir SARI <emir_sari@îcloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 25.04.2\n"
 
-#: calendarhandler.cpp:90
+#: calendarhandler.cpp:93
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving calendars"
 msgstr "Takvimler alınıyor"
 
-#: calendarhandler.cpp:141
+#: calendarhandler.cpp:144
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving events for calendar '%1'"
-msgstr "'%1' takvimi için etkinlikler alınıyor"
+msgstr "“%1” takvimi için etkinlikler alınıyor"
 
-#: calendarhandler.cpp:197 taskhandler.cpp:170
+#: calendarhandler.cpp:222 taskhandler.cpp:169
 #, kde-format
 msgctxt "@info:status"
 msgid "Adding event to calendar '%1'"
-msgstr "'%1' takvimine etkinlik ekleniyor"
+msgstr "“%1” takvimine etkinlik ekleniyor"
 
-#: calendarhandler.cpp:221
+#: calendarhandler.cpp:248
 #, kde-format
 msgctxt "@info:status"
 msgid "Changing event in calendar '%1'"
-msgstr "'%1' takvimindeki etkinlikler değiştiriliyor"
+msgstr "“%1” takvimindeki etkinlikler değiştiriliyor"
 
-#: calendarhandler.cpp:232
+#: calendarhandler.cpp:260
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing %1 event"
@@ -53,31 +53,42 @@ msgid_plural "Removing %1 events"
 msgstr[0] "%1 etkinlik kaldırılıyor"
 msgstr[1] "%1 etkinlik kaldırılıyor"
 
-#: calendarhandler.cpp:248
+#: calendarhandler.cpp:276
 #, kde-format
 msgctxt "@info:status"
 msgid "Moving %1 event from calendar '%2' to calendar '%3'"
 msgid_plural "Moving %1 events from calendar '%2' to calendar '%3'"
-msgstr[0] "%1 etkinlik, '%2' takviminden '%3' takvimine taşınıyor"
-msgstr[1] "%1 etkinlik, '%2' takviminden '%3' takvimine taşınıyor"
+msgstr[0] "%1 etkinlik, “%2” takviminden “%3” takvimine taşınıyor"
+msgstr[1] "%1 etkinlik, “%2” takviminden “%3” takvimine taşınıyor"
 
-#: calendarhandler.cpp:266
+#: calendarhandler.cpp:343
+#, kde-format
+msgctxt "@info:status"
+msgid "Changing events tags"
+msgstr "Etkinlik künyeleri değiştiriliyor"
+
+#: calendarhandler.cpp:347
+#, kde-format
+msgid "Failed to change tags on events"
+msgstr "Etkinliklerdeki künyeler değiştirilemedi"
+
+#: calendarhandler.cpp:359
 #, kde-format
 msgctxt "@info:status"
 msgid "Creating calendar '%1'"
-msgstr "'%1' takvimi oluşturuluyor"
+msgstr "“%1” takvimi oluşturuluyor"
 
-#: calendarhandler.cpp:294
+#: calendarhandler.cpp:387
 #, kde-format
 msgctxt "@info:status"
 msgid "Changing calendar '%1'"
-msgstr "'%1' takvimi değiştiriliyor"
+msgstr "“%1” takvimi değiştiriliyor"
 
-#: calendarhandler.cpp:307
+#: calendarhandler.cpp:400
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing calendar '%1'"
-msgstr "'%1' takvimi kaldırılıyor"
+msgstr "“%1” takvimi kaldırılıyor"
 
 #: generichandler.cpp:24
 #, kde-format
@@ -89,50 +100,50 @@ msgstr "Öge bağlama işlenemiyor"
 msgid "Cannot handle item unlinking"
 msgstr "Öge bağı kaldırma işlenemiyor"
 
-#: generichandler.cpp:56
+#: generichandler.cpp:34
+#, kde-format
+msgid "Cannot handle item tag changes"
+msgstr "Öge künyeleri değişiklikleri işlenemiyor"
+
+#: generichandler.cpp:61
 #, kde-format
 msgctxt "@status"
 msgid "Ready"
 msgstr "Hazır"
 
-#: generichandler.h:65 generichandler.h:77
+#: generichandler.h:66 generichandler.h:78
 #, kde-format
 msgid "Invalid item."
 msgstr "Geçersiz öge."
 
-#: googleresource.cpp:82
+#: googleresource.cpp:88
 #, kde-format
-msgid "Fetching password..."
-msgstr "Parola getiriliyor..."
+msgid "Fetching password…"
+msgstr "Parola getiriliyor…"
 
-#: googleresource.cpp:89
-#, kde-format
-msgid "Can't fetch password"
-msgstr "Parola getirilemiyor"
-
-#: googleresource.cpp:130
+#: googleresource.cpp:138
 #, kde-format
 msgctxt "@info:status"
 msgid "Ready"
 msgstr "Hazır"
 
-#: googleresource.cpp:142
+#: googleresource.cpp:150
 #, kde-format
 msgid "Not configured"
 msgstr "Yapılandırılmadı"
 
-#: googleresource.cpp:142
+#: googleresource.cpp:150
 #, kde-format
 msgctxt "%1 is account name (user@gmail.com)"
 msgid "Google Groupware (%1)"
 msgstr "Google Groupware (%1)"
 
-#: googleresource.cpp:193
+#: googleresource.cpp:201
 #, kde-format
 msgid "Account has been logged out."
 msgstr "Hesap oturumu kapattı."
 
-#: googleresource.cpp:196
+#: googleresource.cpp:204
 #, kde-format
 msgid ""
 "Google Groupware has been logged out from your account. Please log in to "
@@ -141,7 +152,7 @@ msgstr ""
 "Google Groupware hesabınızın oturumunu kapattı. Google Kişiler ve Takvim "
 "eşzamanlamasını etkinleştirmek için oturum açın."
 
-#: googleresource.cpp:197
+#: googleresource.cpp:205
 #, kde-format
 msgid ""
 "Google Groupware has been logged out from account %1. Please log in to "
@@ -150,49 +161,62 @@ msgstr ""
 "Google Groupware, %1 hesabınızın oturumunu kapattı. Google Kişiler ve Takvim "
 "eşzamanlamasını etkinleştirmek için oturum açın."
 
-#: googleresource.cpp:201
+#: googleresource.cpp:209
 #, kde-format
 msgctxt "@title"
 msgid "%1 needs your attention."
 msgstr "%1 ögesi size sesleniyor."
 
-#: googleresource.cpp:206
+#: googleresource.cpp:214
 #, kde-format
 msgctxt "@action"
 msgid "Log in"
 msgstr "Oturum Aç"
 
-#: googleresource.cpp:218 googleresource.cpp:219
+#: googleresource.cpp:226 googleresource.cpp:227
 #, kde-format
 msgctxt "@info:status"
 msgid "Resource is not configured"
 msgstr "Özkaynak yapılandırılmamış"
 
-#: googleresource.cpp:234
+#: googleresource.cpp:242
 #, kde-format
 msgid "Failed to refresh tokens"
 msgstr "Jetonlar yenilemedi"
 
-#: googleresource.cpp:423 googleresource.cpp:437 googleresource.cpp:451
-#: googleresource.cpp:466 googleresource.cpp:480 googleresource.cpp:494
+#: googleresource.cpp:431 googleresource.cpp:445 googleresource.cpp:459
+#: googleresource.cpp:474 googleresource.cpp:488 googleresource.cpp:502
+#: googleresource.cpp:516
 #, kde-format
 msgid "Invalid payload type"
 msgstr "Geçersiz yük türü"
 
-#: googleresource.cpp:508 googleresource.cpp:522 googleresource.cpp:536
+#: googleresource.cpp:530 googleresource.cpp:544 googleresource.cpp:558
 #, kde-format
 msgid "Unknown collection mimetype"
 msgstr "Bilinmeyen koleksiyon mime türü"
 
-#: googlesettingswidget.cpp:40
+#: googlesettings.cpp:43
 #, kde-format
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] " dakika"
-msgstr[1] " dakika"
+msgctxt "@info:status"
+msgid "No username set"
+msgstr "Ayarlı bir kullanıcı adı yok"
+
+#: googlesettings.cpp:55
+#, kde-format
+msgctxt "@info:status"
+msgid "Unable to read password: %1"
+msgstr "Parola okunamıyor: %1"
+
+#: googlesettingswidget.cpp:41
+#, kde-format
+msgid "%v minute"
+msgid_plural "%v minutes"
+msgstr[0] "%v dakika"
+msgstr[1] "%v dakika"
 
 #. i18n: ectx: property (text), widget (QLabel, accountLabel)
-#: googlesettingswidget.cpp:102 googlesettingswidget.ui:30
+#: googlesettingswidget.cpp:103 googlesettingswidget.ui:30
 #, kde-format
 msgid "<b>Not configured</b>"
 msgstr "<b>Yapılandırılmadı</b>"
@@ -206,8 +230,8 @@ msgstr "Hesap:"
 #. i18n: ectx: property (text), widget (QPushButton, configureBtn)
 #: googlesettingswidget.ui:42
 #, kde-format
-msgid "Configure..."
-msgstr "Yapılandır..."
+msgid "Configure…"
+msgstr "Yapılandır…"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableRefresh)
 #: googlesettingswidget.ui:49
@@ -285,13 +309,13 @@ msgstr "Diğer Kişiler"
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving contacts for group '%1'"
-msgstr "'%1' grubu için kişiler alınıyor"
+msgstr "“%1” grubu için kişiler alınıyor"
 
 #: personhandler.cpp:370
 #, kde-format
 msgctxt "@info:status"
 msgid "Adding contact to group '%1'"
-msgstr "Kişi, '%1' grubuna ekleniyor"
+msgstr "Kişi, “%1” grubuna ekleniyor"
 
 #: personhandler.cpp:404
 #, kde-format
@@ -317,8 +341,8 @@ msgstr "Geçersiz kaynak veya hedef koleksiyonu"
 msgctxt "@info:status"
 msgid "Moving %1 contact from group '%2' to '%3'"
 msgid_plural "Moving %1 contacts from group '%2' to '%3'"
-msgstr[0] "%1 kişi, '%2' grubundan '%3' grubuna taşınıyor"
-msgstr[1] "%1 kişi, '%2' grubundan '%3' grubuna taşınıyor"
+msgstr[0] "%1 kişi, “%2” grubundan “%3” grubuna taşınıyor"
+msgstr[1] "%1 kişi, “%2” grubundan “%3” grubuna taşınıyor"
 
 #: personhandler.cpp:461
 #, kde-format
@@ -340,19 +364,19 @@ msgstr[1] "%1 kişinin bağlantısı kaldırılıyor"
 #, kde-format
 msgctxt "@info:status"
 msgid "Creating new contact group '%1'"
-msgstr "Yeni kişi grubu '%1' oluşturuluyor"
+msgstr "Yeni kişi grubu “%1” oluşturuluyor"
 
 #: personhandler.cpp:529
 #, kde-format
 msgctxt "@info:status"
 msgid "Changing contact group '%1'"
-msgstr "Kişi grubu '%1' değiştiriliyor"
+msgstr "Kişi grubu “%1” değiştiriliyor"
 
 #: personhandler.cpp:554
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing contact group '%1'"
-msgstr "Kişi grubu '%1' kaldırılıyor"
+msgstr "Kişi grubu “%1” kaldırılıyor"
 
 #. i18n: ectx: label, entry (Calendars), group (General)
 #: settingsbase.kcfg:21
@@ -366,25 +390,25 @@ msgstr "Koleksiyondaki takvim kimlikleri"
 msgid "IDs of task lists in collection"
 msgstr "Koleksiyondaki görev kimlikleri"
 
-#: taskhandler.cpp:70
+#: taskhandler.cpp:69
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving task lists"
 msgstr "Görev listeleri alınıyor"
 
-#: taskhandler.cpp:103
+#: taskhandler.cpp:102
 #, kde-format
 msgctxt "@info:status"
 msgid "Retrieving tasks for list '%1'"
-msgstr "'%1' listesi için görevler alınıyor"
+msgstr "“%1” listesi için görevler alınıyor"
 
-#: taskhandler.cpp:195
+#: taskhandler.cpp:194
 #, kde-format
 msgctxt "@info:status"
 msgid "Changing task in list '%1'"
-msgstr "'%1' listesindeki görev değiştiriliyor"
+msgstr "“%1” listesindeki görev değiştiriliyor"
 
-#: taskhandler.cpp:215
+#: taskhandler.cpp:214
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing %1 task"
@@ -392,92 +416,38 @@ msgid_plural "Removing %1 tasks"
 msgstr[0] "%1 görev kaldırılıyor"
 msgstr[1] "%1 görev kaldırılıyor"
 
-#: taskhandler.cpp:225
+#: taskhandler.cpp:224
 #, kde-format
 msgid "Failed to delete task: %1"
 msgstr "Görev silinemedi: %1"
 
-#: taskhandler.cpp:261
+#: taskhandler.cpp:260
 #, kde-format
 msgid "Failed to reparent subtasks: %1"
 msgstr "Alt görevler bir üst göreve bağlanamadı: %1"
 
-#: taskhandler.cpp:292
+#: taskhandler.cpp:291
 #, kde-format
 msgid "Moving tasks between task lists is not supported"
 msgstr "Görev listeleri arasında görevleri taşımak desteklenmiyor"
 
-#: taskhandler.cpp:297
+#: taskhandler.cpp:296
 #, kde-format
 msgctxt "@info:status"
 msgid "Creating new task list '%1'"
-msgstr "Yeni görev listesi '%1' oluşturuluyor"
+msgstr "Yeni görev listesi “%1” oluşturuluyor"
 
-#: taskhandler.cpp:322
+#: taskhandler.cpp:321
 #, kde-format
 msgctxt "@info:status"
 msgid "Changing task list '%1'"
-msgstr "'%1' görev listesi değiştiriliyor"
+msgstr "Görev listesi “%1” değiştiriliyor"
 
-#: taskhandler.cpp:335
+#: taskhandler.cpp:334
 #, kde-format
 msgctxt "@info:status"
 msgid "Removing task list '%1'"
-msgstr "'%1' görev listesi kaldırılıyor"
+msgstr "Görev listesi “%1” kaldırılıyor"
 
-#~ msgid "Configured account does not exist"
-#~ msgstr "Yapılandırılmış hesap mevcut değil"
-
-#~ msgid "Waiting for KWallet..."
-#~ msgstr "K Cüzdan bekleniyor..."
-
-#~ msgid "Can't access KWallet"
-#~ msgstr "K Cüzdan'a erişilemiyor"
-
-#~ msgctxt "@info:status"
-#~ msgid "Retrieving %1 contact photo for group '%2'"
-#~ msgid_plural "Retrieving %1 contact photos for group '%2'"
-#~ msgstr[0] "'%2' grubu için %1 kişi fotoğraf alınıyor"
-#~ msgstr[1] "'%2' grubu için %1 kişi fotoğraf alınıyor"
-
-#~ msgid "Refresh"
-#~ msgstr "Yenile"
-
-#~ msgid "Aborted"
-#~ msgstr "İptal edildi"
-
-#~ msgid "Invalid payload MIME type. Expected %1, found %2"
-#~ msgstr "Geçersiz yük MIME türü. Beklenen %1, %2 bulundu."
-
-#~ msgid "&Add"
-#~ msgstr "&Ekle"
-
-#~ msgid "&Remove"
-#~ msgstr "&Kaldır"
-
-#~ msgid ""
-#~ "Do you really want to revoke access to account <b>%1</b>?<p>This will "
-#~ "revoke access to all resources using this account!</p>"
-#~ msgstr ""
-#~ "Gerçekten <b>%1</b> hesabından erişimi kaldırmak istiyor musunuz?<p>Bu "
-#~ "işlem, bu hesabı kullanan tüm kaynaklardaki erişimi kaldıracaktır!</p>"
-
-#~ msgid "Revoke Access?"
-#~ msgstr "Erişimi Kaldır?"
-
-#~ msgctxt "%1 is account name (user@gmail.com)"
-#~ msgid "Google Calendars and Tasks (%1)"
-#~ msgstr "Google Takvimleri ve Görevleri (%1)"
-
-#~ msgid "The top-level collection cannot contain any tasks or events"
-#~ msgstr "Üst seviye koleksiyonu herhangi görev veya olay içeremez"
-
-#~ msgid "Invalid payload type. Expected event or todo, got %1"
-#~ msgstr ""
-#~ "Geçersiz yük türü. Olay veya yapılacak listesi beklenirken, %1 alındı"
-
-#~ msgid "Unknown Account"
-#~ msgstr "Bilinmeyen Hesap"
-
-#~ msgid "Invalid reply"
-#~ msgstr "Geçersiz yanıt"
+#~ msgid "Can't fetch password"
+#~ msgstr "Parola getirilemiyor"

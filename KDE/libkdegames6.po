@@ -10,13 +10,13 @@
 # obsoleteman <tulliana@gmail.com>, 2008-2009.
 # Volkan Gezer <volkangezer@gmail.com>, 2013-2014.
 # Yıldız Kardeşler <turkishprogram@xposta.com>, 2004.
-# Emir SARI <emir_sari@icloud.com>, 2022, 2023.
+# SPDX-FileCopyrightText: 2022, 2023, 2024 Emir SARI <emir_sari@icloud.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-11-10 01:46+0000\n"
-"PO-Revision-Date: 2023-08-22 01:07+0300\n"
+"POT-Creation-Date: 2024-05-15 00:37+0000\n"
+"PO-Revision-Date: 2024-05-17 01:38+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -24,10 +24,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 23.11.70\n"
+"X-Generator: Lokalize 24.07.70\n"
 
 #: highscore/kgamehighscore.cpp:154
 #, kde-format
+msgctxt "@action:button"
 msgid "Retry"
 msgstr "Yeniden Dene"
 
@@ -41,38 +42,50 @@ msgstr ""
 "olabilir."
 
 #: highscore/kgamehighscoredialog.cpp:100
-#: highscore/kgamehighscoredialog.cpp:271
 #, kde-format
+msgctxt "@title:window"
 msgid "High Scores"
 msgstr "Yüksek Puanlar"
 
-#: highscore/kgamehighscoredialog.cpp:114 private/kgame/kplayer.cpp:77
+#: highscore/kgamehighscoredialog.cpp:114
 #, kde-format
+msgctxt "@title:column"
 msgid "Name"
 msgstr "Ad"
 
 #: highscore/kgamehighscoredialog.cpp:116
 #, kde-format
+msgctxt "@title:column"
 msgid "Date"
 msgstr "Tarih"
 
 #: highscore/kgamehighscoredialog.cpp:118
 #, kde-format
+msgctxt "@title:column"
 msgid "Level"
 msgstr "Düzey"
 
 #: highscore/kgamehighscoredialog.cpp:120
 #, kde-format
+msgctxt "@title:column"
 msgid "Score"
 msgstr "Puan"
 
 #: highscore/kgamehighscoredialog.cpp:122
 #, kde-format
+msgctxt "@title:column"
 msgid "Time"
 msgstr "Zaman"
 
+#: highscore/kgamehighscoredialog.cpp:271
+#, kde-format
+msgctxt "@title:tab"
+msgid "High Scores"
+msgstr "Yüksek Puanlar"
+
 #: highscore/kgamehighscoredialog.cpp:288
 #, kde-format
+msgctxt "@title:group"
 msgid "Rank"
 msgstr "Sıralama"
 
@@ -84,21 +97,25 @@ msgstr "#%1"
 
 #: highscore/kgamehighscoredialog.cpp:548
 #, kde-format
+msgctxt "@action:button"
 msgid "&Remember"
 msgstr "&Anımsa"
 
 #: highscore/kgamehighscoredialog.cpp:549
 #, kde-format
+msgctxt "@action:button"
 msgid "&Forget"
 msgstr "&Unut"
 
 #: highscore/kgamehighscoredialog.cpp:550
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Remember this high score"
 msgstr "Bu yüksek puanı anımsa"
 
 #: highscore/kgamehighscoredialog.cpp:551
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Forget this high score"
 msgstr "Bu yüksek puanı unut"
 
@@ -175,24 +192,33 @@ msgstr "Zorluk derecesini değiştirmek geçerli oyunu sonlandırır!"
 
 #: kgamedifficulty.cpp:318
 #, kde-format
-msgid "Change the difficulty level"
-msgstr "Zorluk derecesini değiştir"
+msgctxt "@action:button"
+msgid "Change the Difficulty Level"
+msgstr "Zorluk Düzeyini Değiştir"
 
-#: kgamedifficulty.cpp:402 kgamedifficulty.cpp:410
+#: kgamedifficulty.cpp:402
 #, kde-format
-msgctxt "Game difficulty level"
+msgctxt "@info:tooltip Game difficulty level"
 msgid "Difficulty"
-msgstr "Zorluk Derecesi"
+msgstr "Zorluk"
+
+#: kgamedifficulty.cpp:410
+#, kde-format
+msgctxt "@title:menu Game difficulty level"
+msgid "Difficulty"
+msgstr "Zorluk"
 
 #: kgamedifficulty.cpp:411
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Set the difficulty level"
-msgstr "Zorluk derecesini ayarla"
+msgstr "Zorluk düzeyini ayarla"
 
 #: kgamedifficulty.cpp:412
 #, kde-format
-msgid "Set the difficulty level of the game."
-msgstr "Oyunun zorluk derecesini ayarlayın."
+msgctxt "@info:whatsthis"
+msgid "Sets the difficulty level of the game."
+msgstr "Oyunun zorluk düzeyini ayarlayın."
 
 #: kgamestandardaction.cpp:68
 msgctxt "new game"
@@ -208,20 +234,20 @@ msgid "Start a new game"
 msgstr "Yeni bir oyun başlat"
 
 #: kgamestandardaction.cpp:70
-msgid "&Load..."
-msgstr "&Yükle..."
+msgid "&Load…"
+msgstr "&Yükle…"
 
 #: kgamestandardaction.cpp:70
-msgid "Open a saved game..."
-msgstr "Kayıtlı bir oyunu aç..."
+msgid "Open a saved game"
+msgstr "Kayıtlı bir oyunu aç"
 
 #: kgamestandardaction.cpp:72
 msgid "Load &Recent"
 msgstr "&Son Kullanılanlardan Yükle"
 
 #: kgamestandardaction.cpp:72
-msgid "Open a recently saved game..."
-msgstr "Yakınlarda kaydedilen bir oyunu aç..."
+msgid "Open a recently saved game"
+msgstr "Yakınlarda kaydedilen bir oyunu aç"
 
 #: kgamestandardaction.cpp:74
 msgid "Restart &Game"
@@ -240,8 +266,8 @@ msgid "Save the current game"
 msgstr "Mevcut oyunu kaydet"
 
 #: kgamestandardaction.cpp:78
-msgid "Save &As..."
-msgstr "&Farklı Kaydet..."
+msgid "Save &As…"
+msgstr "&Farklı Kaydet…"
 
 #: kgamestandardaction.cpp:78
 msgid "Save the current game to another file"
@@ -296,8 +322,8 @@ msgid "Delete all-time statistics."
 msgstr "Tüm zamanların istatistiklerini sil."
 
 #: kgamestandardaction.cpp:92
-msgid "&Print..."
-msgstr "Y&azdır..."
+msgid "&Print…"
+msgstr "Y&azdır…"
 
 #: kgamestandardaction.cpp:94
 msgid "&Quit"
@@ -368,17 +394,18 @@ msgid "Solve the game"
 msgstr "Oyunu çöz"
 
 #: kgamestandardaction.cpp:116
-msgid "Configure &Carddecks..."
-msgstr "&Kartları Yapılandır..."
+msgid "Configure &Carddecks…"
+msgstr "&Kartları Yapılandır…"
 
 #: kgamestandardaction.cpp:118
-msgid "Configure &High Scores..."
-msgstr "Yü&ksek Puanları Yapılandır..."
+msgid "Configure &High Scores…"
+msgstr "Yü&ksek Puanları Yapılandır…"
 
 #: kgamethemeselector.cpp:108
 #, kde-format
-msgid "Get New Themes..."
-msgstr "Yeni Temalar Al..."
+msgctxt "@action:button"
+msgid "Download New Themes…"
+msgstr "Yeni Temalar İndir…"
 
 #: kgamethemeselector.cpp:210
 #, kde-format
@@ -388,13 +415,14 @@ msgstr "Tema seç"
 
 #: kgamethemeselector.cpp:282
 #, kde-format
+msgctxt "@item name of theme, missing"
 msgid "[No name]"
 msgstr "[Adsız]"
 
 #: kgamethemeselector.cpp:298
 #, kde-format
-msgctxt "Author attribution, e.g. \"by Jack\""
-msgid "by %1"
+msgctxt "@info author attribution"
+msgid "By %1"
 msgstr "%1 tarafından"
 
 #: private/kchatbase.cpp:98
@@ -442,7 +470,7 @@ msgstr "Bilinmeyen"
 #: private/kgame/kgamechat.cpp:231
 #, kde-format
 msgid "Send to My Group (\"%1\")"
-msgstr "Grubuma (\"%1\") Gönder"
+msgstr "Grubuma (“%1”) Gönder"
 
 #: private/kgame/kgameerror.cpp:51
 #, kde-format
@@ -554,7 +582,7 @@ msgstr "Oyuncu Girişi"
 #: private/kgame/kgamemessage.cpp:134
 #, kde-format
 msgid "An IO was added"
-msgstr "Bir girdi-çıktı eklendi"
+msgstr "Bir girdi–çıktı eklendi"
 
 #: private/kgame/kgamemessage.cpp:136
 #, kde-format
@@ -574,7 +602,7 @@ msgstr "%1 (%2)"
 #: private/kgame/kgamepropertyhandler.cpp:162
 #, kde-format
 msgid "Unnamed - ID: %1"
-msgstr "Adsız - Kimlik: %1"
+msgstr "Adsız — Kimlik: %1"
 
 #: private/kgame/kgamepropertyhandler.cpp:166
 #, kde-format
@@ -618,6 +646,11 @@ msgstr "Grup"
 msgid "default"
 msgstr "öntanımlı"
 
+#: private/kgame/kplayer.cpp:77
+#, kde-format
+msgid "Name"
+msgstr "Ad"
+
 #: private/kgame/kplayer.cpp:80
 #, kde-format
 msgid "AsyncInput"
@@ -628,11 +661,12 @@ msgstr "AsyncInput"
 msgid "myTurn"
 msgstr "Benim Sıram"
 
+#~ msgctxt "Game difficulty level"
+#~ msgid "Difficulty"
+#~ msgstr "Zorluk Derecesi"
+
 #~ msgid "Choose Game &Type"
 #~ msgstr "&Oyun Türünü Seç"
-
-#~ msgid "Difficulty"
-#~ msgstr "Zorluk"
 
 #~ msgctxt ""
 #~ "Name of the game difficulty level that is customized by the user by "
