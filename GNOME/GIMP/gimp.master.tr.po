@@ -9,16 +9,16 @@
 # Görkem Çetin <gorkem@kde.org>, 2003, 2004.
 # Ubuntu Türkiye Çeviri Takımı, 2010.
 # Simge Sezgin <simgesezgin88@gmail.com>, 2015.
-# Sabri Ünal <yakushabb@gmail.com>, 2018-2020, 2022-2025.
 # Muhammet Kara <muhammetk@gmail.com>, 2011-2025.
+# Sabri Ünal <yakushabb@gmail.com>, 2018-2020, 2022-2025.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2019-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP UI translations master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2025-09-15 07:53+0000\n"
-"PO-Revision-Date: 2025-07-13 08:00+0300\n"
+"POT-Creation-Date: 2025-09-20 20:39+0000\n"
+"PO-Revision-Date: 2025-09-20 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 "X-POOTLE-MTIME: 1437505389.000000\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -228,7 +228,7 @@ msgstr "Daha çok bilgi ver"
 
 #: app/main.c:179
 msgid "Start a new GIMP instance"
-msgstr "Yeni bir GIMP örneği başlat"
+msgstr "Yeni GIMP örneği başlat"
 
 #: app/main.c:184
 msgid "Open images as new"
@@ -330,11 +330,11 @@ msgid ""
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "GIMP, grafiksel kullanıcı arayüzünü başlatamadı.\n"
-"Görüntüleme ortamınız için uygun bir kurulumun var olduğundan emin olun."
+"Görüntüleme ortamınız için uygun kurulumun varlığından emin olun."
 
 #: app/main.c:851
 msgid "Another GIMP instance is already running."
-msgstr "Başka bir GIMP zaten çalışıyor."
+msgstr "Başka GIMP zaten çalışıyor."
 
 #: app/main.c:940
 msgid "GIMP output. Type any character to close this window."
@@ -373,7 +373,7 @@ msgstr ""
 "GIMP kullanıcı yapılandırmalarını içeren klasör adı UTF-8'e dönüştürülemez: "
 "%s \n"
 "\n"
-"Dosya sisteminiz muhtemelen UTF-8'den başka bir biçimde dosyaları "
+"Dosya sisteminiz büyük olasılıkla UTF-8’den başka bir biçimde dosyaları "
 "barındırıyor ve Glib bundan habersiz. Lütfen G_FILENAME_ENCODING çevresel "
 "değişkenini ayarlayınız."
 
@@ -2369,27 +2369,27 @@ msgstr "Kaydı _Başlat/Durdur..."
 #: app/actions/dashboard-actions.c:48
 msgctxt "dashboard-action"
 msgid "Start/stop recording performance log"
-msgstr "Performans günlüğüne kaydetmeyi başlat veya durdur"
+msgstr "Başarım günlüğüne kaydetmeyi başlat veya durdur"
 
 #: app/actions/dashboard-actions.c:52
 msgctxt "dashboard-action"
 msgid "_Add Marker..."
-msgstr "İşaretçi _Ekle..."
+msgstr "İm _Ekle..."
 
 #: app/actions/dashboard-actions.c:53
 msgctxt "dashboard-action"
 msgid "Add an event marker to the performance log"
-msgstr "Performans günlüğüne bir olay işaretçisi ekle"
+msgstr "Başarım günlüğüne olay imi ekle"
 
 #: app/actions/dashboard-actions.c:58
 msgctxt "dashboard-action"
 msgid "Add _Empty Marker"
-msgstr "Boş İşaretçi _Ekle"
+msgstr "Boş İm _Ekle"
 
 #: app/actions/dashboard-actions.c:59
 msgctxt "dashboard-action"
 msgid "Add an empty event marker to the performance log"
-msgstr "Performans günlüğüne boş bir olay işaretçisi ekle"
+msgstr "Başarım günlüğüne boş olay imi ekle"
 
 #: app/actions/dashboard-actions.c:65
 msgctxt "dashboard-action"
@@ -2554,11 +2554,11 @@ msgstr "Düzgün sonlandırılmasa bile tam günlük üret"
 
 #: app/actions/dashboard-commands.c:308
 msgid "Add Marker"
-msgstr "İşaretçi Ekle"
+msgstr "İm Ekle"
 
 #: app/actions/dashboard-commands.c:310
 msgid "Enter a description for the marker"
-msgstr "İşaretçi için bir açıklama girin"
+msgstr "İm açıklaması gir"
 
 #: app/actions/data-commands.c:90 app/actions/documents-commands.c:393
 #: app/actions/file-commands.c:234 app/dialogs/file-open-dialog.c:253
@@ -2617,7 +2617,7 @@ msgstr "Görüntü _Grafiğini Göster"
 
 #: app/actions/debug-actions.c:59
 msgid "Creates a new image showing the GEGL graph of this image"
-msgstr "Bu görüntünün GEGL grafiğini gösteren yeni bir görüntü oluşturur"
+msgstr "Bu görüntünün GEGL grafiğini gösteren yeni görüntü oluşturur"
 
 #: app/actions/debug-actions.c:64
 msgid "Dump _Keyboard Shortcuts"
@@ -3221,7 +3221,7 @@ msgstr "Ekranı _Aç..."
 #: app/actions/dock-actions.c:52
 msgctxt "dock-action"
 msgid "Connect to another display"
-msgstr "Başka bir ekrana bağlan"
+msgstr "Başka ekrana bağlan"
 
 #: app/actions/dock-actions.c:60
 msgctxt "dock-action"
@@ -3762,7 +3762,7 @@ msgstr "Adlandırı_p Kes..."
 #: app/actions/edit-actions.c:124
 msgctxt "edit-action"
 msgid "Move the selected pixels to a named buffer"
-msgstr "Seçilmiş pikselleri adlandırılan bir arabelleğe taşı"
+msgstr "Seçilmiş pikselleri, adlandırılan bir arabelleğe taşı"
 
 #: app/actions/edit-actions.c:129
 msgctxt "edit-action"
@@ -4133,7 +4133,7 @@ msgstr "_Aç..."
 #: app/actions/file-actions.c:75
 msgctxt "file-action"
 msgid "Open an image file"
-msgstr "Bir görüntü dosyası aç"
+msgstr "Görüntü dosyası aç"
 
 #: app/actions/file-actions.c:80
 msgctxt "file-action"
@@ -4143,23 +4143,17 @@ msgstr "Katman Olarak A_ç..."
 #: app/actions/file-actions.c:81
 msgctxt "file-action"
 msgid "Open an image file as layers"
-msgstr "Bir görüntü dosyasını katman olarak aç"
+msgstr "Görüntü dosyasını katman olarak aç"
 
 #: app/actions/file-actions.c:86
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Op_en as Layers..."
 msgctxt "file-action"
 msgid "Op_en as Link Layer..."
-msgstr "Katman Olarak A_ç..."
+msgstr "Bağlantı Katmanı Olarak A_ç..."
 
 #: app/actions/file-actions.c:87
-#, fuzzy
-#| msgctxt "file-action"
-#| msgid "Open an image file as layers"
 msgctxt "file-action"
 msgid "Open an image file as Link layer"
-msgstr "Bir görüntü dosyasını katman olarak aç"
+msgstr "Görüntü dosyasını Bağlantı katmanı olarak aç"
 
 #: app/actions/file-actions.c:92
 msgctxt "file-action"
@@ -4169,7 +4163,7 @@ msgstr "Konum _Aç..."
 #: app/actions/file-actions.c:93
 msgctxt "file-action"
 msgid "Open an image file from a specified location"
-msgstr "Belirlenmiş bir konumdan bir görüntü dosyası aç"
+msgstr "Belirli konumdan görüntü dosyası aç"
 
 #: app/actions/file-actions.c:98
 msgctxt "file-action"
@@ -4184,7 +4178,7 @@ msgstr "Bu görüntüden yeni şablon oluştur"
 #: app/actions/file-actions.c:104
 msgctxt "file-action"
 msgid "Re_vert"
-msgstr "Geri _Dön"
+msgstr "Geri _Döndür"
 
 #: app/actions/file-actions.c:105
 msgctxt "file-action"
@@ -4230,7 +4224,7 @@ msgstr "Çı_k"
 #: app/actions/file-actions.c:129
 msgctxt "file-action"
 msgid "Quit the GNU Image Manipulation Program"
-msgstr "GNU Görüntü İşleme Programı'ndan Çık"
+msgstr "GNU Görüntü İşleme Programı’ndan Çık"
 
 #: app/actions/file-actions.c:137 app/actions/file-actions.c:308
 msgctxt "file-action"
@@ -4340,10 +4334,8 @@ msgid "Open Image as Layers"
 msgstr "Görüntüyü Katman Olarak Aç"
 
 #: app/actions/file-commands.c:165
-#, fuzzy
-#| msgid "Open Image as Layers"
 msgid "Open Image as Link Layer"
-msgstr "Görüntüyü Katman Olarak Aç"
+msgstr "Görüntüyü Bağlantı Katmanı Olarak Aç"
 
 #: app/actions/file-commands.c:330
 msgid "No changes need to be saved"
@@ -5266,7 +5258,7 @@ msgstr "Ö_n Plan Rengi"
 #: app/actions/gradient-editor-actions.c:296
 msgctxt "gradient-editor-color-type"
 msgid "Fo_reground Color (Transparent)"
-msgstr "Ön_ Plan Rengi (Saydam)"
+msgstr "Ön _Plan Rengi (Saydam)"
 
 #: app/actions/gradient-editor-actions.c:273
 #: app/actions/gradient-editor-actions.c:301
@@ -6199,27 +6191,22 @@ msgstr "Bu katman türü için öntanımlı düzenleme işlemini etkinleştir"
 #: app/actions/layers-actions.c:61
 msgctxt "layers-action"
 msgid "Edit Te_xt on canvas"
-msgstr "_Metni tuval üzerinde düzenle"
+msgstr "_Metni tuvalde düzenle"
 
 #: app/actions/layers-actions.c:62
 msgctxt "layers-action"
 msgid "Edit this text layer content on canvas"
-msgstr "Bu metin katmanını tuval üzerinde düzenle"
+msgstr "Bu metin katmanını tuvalde düzenle"
 
 #: app/actions/layers-actions.c:67
-#, fuzzy
-#| msgid "Path Toolpath"
 msgctxt "layers-action"
 msgid "Path Tool"
-msgstr "Yol Aracı yolu"
+msgstr "Yol Aracı"
 
 #: app/actions/layers-actions.c:68
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Activate the default edit action for this type of layer"
 msgctxt "layers-action"
 msgid "Activate the path tool on this vector layer's path"
-msgstr "Bu katman türü için öntanımlı düzenleme işlemini etkinleştir"
+msgstr "Bu vektör katmanının yolunda yol aracını etkinleştir"
 
 #: app/actions/layers-actions.c:73
 msgctxt "layers-action"
@@ -6392,32 +6379,24 @@ msgid "Merge all layers into one and remove transparency"
 msgstr "Görünen tüm katmanları bir katmana birleştir ve saydamlığı kaldır"
 
 #: app/actions/layers-actions.c:186
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "_Discard Text Information"
 msgctxt "layers-action"
 msgid "_Discard Link Information"
-msgstr "Metin Bilgisini _Gözden Çıkar"
+msgstr "Bağlantı Bilgisini _Gözden Çıkar"
 
 #: app/actions/layers-actions.c:187
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Turn these text layers into normal layers"
 msgctxt "layers-action"
 msgid "Turn this link layer into a normal layer"
-msgstr "Bu metin katmanlarını normal katmanlara çevir"
+msgstr "Bu bağlantı katmanı normal katmana çevir"
 
 #: app/actions/layers-actions.c:192
 msgctxt "layers-action"
 msgid "_Monitor Linked Image"
-msgstr ""
+msgstr "Bağlantılı Görüntüyü İ_zle"
 
 #: app/actions/layers-actions.c:193
-#, fuzzy
-#| msgid "Constrain transformation to a single axis"
 msgctxt "layers-action"
 msgid "Discard any transformation and monitor the linked file again"
-msgstr "Dönüşümü tek eksene kısıtla"
+msgstr "Herhangi bir dönüşümü gözden çıkar ve bağlantılı dosyayı yeniden izle"
 
 #: app/actions/layers-actions.c:198
 msgctxt "layers-action"
@@ -6452,30 +6431,22 @@ msgstr "Bu katmanın yazısını geçerli yol boyunca bük"
 #: app/actions/layers-actions.c:216
 msgctxt "layers-action"
 msgid "Fill / Stroke..."
-msgstr ""
+msgstr "Doldur / Darbe..."
 
 #: app/actions/layers-actions.c:217
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Activate the default edit action for this type of layer"
 msgctxt "layers-action"
 msgid "Edit the fill and stroke of this vector layer"
-msgstr "Bu katman türü için öntanımlı düzenleme işlemini etkinleştir"
+msgstr "Bu vektör katmanının dolgusunu ve darbesini düzenle"
 
 #: app/actions/layers-actions.c:222
-#, fuzzy
-#| msgid "Discard Text Information"
 msgctxt "layers-action"
 msgid "Discard Vector Information"
-msgstr "Metin Bilgisini Gözden Çıkar"
+msgstr "Vektör Bilgisini Gözden Çıkar"
 
 #: app/actions/layers-actions.c:223
-#, fuzzy
-#| msgctxt "layers-action"
-#| msgid "Turn these text layers into normal layers"
 msgctxt "layers-action"
 msgid "Turn this vector layer into a normal layer"
-msgstr "Bu metin katmanlarını normal katmanlara çevir"
+msgstr "Bu vektör katmanlarını normal katmanlara çevir"
 
 #: app/actions/layers-actions.c:228
 msgctxt "layers-action"
@@ -7132,16 +7103,12 @@ msgid "Remove %d Layers"
 msgstr "%d Katmanı Kaldır"
 
 #: app/actions/layers-commands.c:1118
-#, fuzzy
-#| msgid "_Discard Changes"
 msgid "Discard Links"
-msgstr "Değişiklikleri _Gözden Çıkar"
+msgstr "Bağlantıları Gözden Çıkar"
 
 #: app/actions/layers-commands.c:1136
-#, fuzzy
-#| msgid "Monitor Resolution"
 msgid "Monitor Links"
-msgstr "Ekran Çözünürlüğü"
+msgstr "Bağlantıları İzle"
 
 #: app/actions/layers-commands.c:1154 app/text/gimptextlayer.c:600
 msgid "Discard Text Information"
@@ -7282,10 +7249,8 @@ msgid "Unlock alpha channels"
 msgstr "Alfa kanallarının kilidini aç"
 
 #: app/actions/layers-commands.c:2720
-#, fuzzy
-#| msgid "Fill type"
 msgid "Fill / Stroke"
-msgstr "Doldurma türü"
+msgstr "Doldur / Darbe"
 
 #: app/actions/mypaint-brushes-actions.c:43
 msgctxt "mypaint-brushes-action"
@@ -7682,12 +7647,9 @@ msgid "I_mport Path..."
 msgstr "Yolu İ_çe Aktar..."
 
 #: app/actions/paths-actions.c:155
-#, fuzzy
-#| msgctxt "paths-action"
-#| msgid "Path to selection"
 msgctxt "paths-action"
 msgid "Path to Vector Layer"
-msgstr "Yoldan seçime"
+msgstr "Yoldan Vektör Katmanına"
 
 #: app/actions/paths-actions.c:163
 msgctxt "paths-action"
@@ -7955,7 +7917,7 @@ msgstr "Yolları Kaldır"
 
 #: app/actions/paths-commands.c:497
 msgid "Paths attached to vector layers weren't deleted"
-msgstr ""
+msgstr "Vektör katmanlarına ekli yollar silinmedi"
 
 #: app/actions/paths-commands.c:559
 msgid "Paths to selection"
@@ -8554,25 +8516,19 @@ msgid "_Paste"
 msgstr "_Yapıştır"
 
 #: app/actions/text-tool-actions.c:65
-#, fuzzy
-#| msgid "Bold"
 msgctxt "text-tool-action"
 msgid "_Bold"
-msgstr "Kalın"
+msgstr "_Kalın"
 
 #: app/actions/text-tool-actions.c:70
-#, fuzzy
-#| msgid "Italic"
 msgctxt "text-tool-action"
 msgid "_Italic"
-msgstr "Eğik"
+msgstr "_Eğik"
 
 #: app/actions/text-tool-actions.c:75
-#, fuzzy
-#| msgid "Underline"
 msgctxt "text-tool-action"
 msgid "_Underline"
-msgstr "Altı çizili"
+msgstr "_Altı çizili"
 
 #: app/actions/text-tool-actions.c:80
 msgctxt "text-tool-action"
@@ -10878,6 +10834,10 @@ msgid ""
 "date, synchronizing tags, or updating the software and change history "
 "metadata."
 msgstr ""
+"Etkinleştirildiğinde, üst verileri kendiliğinden ekler ve günceller. Devre "
+"dışı bırakıldığında, değişiklik tarihi değiştirilmeden, etiketler "
+"eşzamanlanmadan veya yazılım ve değişiklik geçmişi üst verileri "
+"güncellenmeden yalnızca gerekli asgari üst veri değişiklikleri yapılır."
 
 #: app/config/gimprc-blurbs.h:270
 msgid "Try generating debug data for bug reporting when appropriate."
@@ -11070,7 +11030,7 @@ msgid ""
 "before.  When disabled, windows will appear on the currently used monitor."
 msgstr ""
 "Etkin olduğunda, GIMP ekranda daha önce açılmış pencereleri geri yüklemeyi "
-"deneyecek. Pasifleştirildiğinde, ekranda şu anda kullanılan pencereler "
+"deneyecek. Devre dışı bırakıldığında, ekranda şu anda kullanılan pencereler "
 "belirlecek."
 
 #: app/config/gimprc-blurbs.h:412
@@ -11264,7 +11224,7 @@ msgstr "Boyayarak Seçim aracını etkinleştir."
 
 #: app/config/gimprc-blurbs.h:523
 msgid "Use the new GtkListBox widget for simple lists."
-msgstr ""
+msgstr "Basit listeler için yeni GtkListBox parçacığını kullan."
 
 #: app/config/gimprc-blurbs.h:526
 msgid "What to do when the space bar is pressed in the image window."
@@ -12643,11 +12603,9 @@ msgid "Lock/Unlock alpha channel"
 msgstr "Alfa kanalını Kilitle/Kilidini Aç"
 
 #: app/core/core-enums.c:1376
-#, fuzzy
-#| msgid "Linked Layers"
 msgctxt "undo-type"
 msgid "Link layer"
-msgstr "Bağlı Katmanlar"
+msgstr "Bağlantı katmanı"
 
 #: app/core/core-enums.c:1377
 msgctxt "undo-type"
@@ -12700,20 +12658,14 @@ msgid "Convert text layer"
 msgstr "Metin katmanını dönüştür"
 
 #: app/core/core-enums.c:1387
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Text layer"
 msgctxt "undo-type"
 msgid "Vector layer"
-msgstr "Metin katmanı"
+msgstr "Vektör katmanı"
 
 #: app/core/core-enums.c:1388
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Text layer modification"
 msgctxt "undo-type"
 msgid "Vector layer modification"
-msgstr "Metin katmanı değişikliği"
+msgstr "Vektör katmanı değişikliği"
 
 #: app/core/core-enums.c:1390
 msgctxt "undo-type"
@@ -12987,11 +12939,14 @@ msgid ""
 "Invalid AppStream metadata: failed to find default screenshot for extension "
 "\"%s\""
 msgstr ""
+"Geçersiz AppStream üst verileri: \"%s\" uzantısı için öntanımlı ekran "
+"görüntüsü bulunamadı"
 
 #: app/core/gimpextension.c:310
 #, c-format
 msgid "Invalid AppStream metadata: Error loading image: \"%s\""
 msgstr ""
+"Geçersiz AppStream üst verileri: Görüntü yüklenirken hata oluştu: \"%s\""
 
 # addon burada uygulamadan dönen bir değer gibi olması sebebiyle çevirilmedi
 #: app/core/gimpextension.c:437
@@ -13013,14 +12968,12 @@ msgstr "Uzantı AppData id (\"%s\") ve dizin (\"%s\") aynı olmalıdır."
 #: app/core/gimpextension.c:495
 #, c-format
 msgid "Extension AppData must advertise a version in a <release> tag."
-msgstr ""
-"Uzantı AppData <release> etiketininde bir sürümün reklamını yapmalıdır."
+msgstr "Uzantı AppData <release> etiketinde bir sürüm duyurmalıdır."
 
 #: app/core/gimpextension.c:521
-#, fuzzy, c-format
-#| msgid "Unsupported <requires> \"%s\" (type %s)."
+#, c-format
 msgid "Unsupported <relation> \"%s\" (type %s)."
-msgstr "Desteklenmeyen <requires> \"%s\" (tür %s)."
+msgstr "Desteklenmeyen <relation> \"%s\" (%s türü)."
 
 #: app/core/gimpextension.c:536
 #, c-format
@@ -13144,16 +13097,13 @@ msgstr "'%s': %s kapatılırken hata"
 #. * replacement will be a directory.
 #.
 #: app/core/gimp-user-install.c:232
-#, fuzzy, c-format
-#| msgid ""
-#| "It seems you have used GIMP %s before.  GIMP will now migrate your user "
-#| "settings to '%s'."
+#, c-format
 msgid ""
 "It seems you have used GIMP %d.%d before.  GIMP will now migrate your user "
 "settings to '%s'."
 msgstr ""
-"GIMP %s daha önce kullanmış görünüyorsunuz. GIMP şimdi kullanıcı "
-"ayarlarınızı '%s'a aktaracak."
+"Daha önce GIMP %d.%d kullanmışsınız. GIMP şimdi kullanıcı ayarlarınızı '%s' "
+"dizinine aktaracak."
 
 #: app/core/gimp-user-install.c:239
 #, c-format
@@ -13161,8 +13111,8 @@ msgid ""
 "It appears that you are using GIMP for the first time.  GIMP will now create "
 "a folder named '%s' and copy some files to it."
 msgstr ""
-"GIMP’i ilk kez kullanıyor görünüyorsunuz. GIMP şimdi '%s' adında yeni bir "
-"klasör oluşturacak ve bazı dosyaları içine kopyalayacak."
+"GIMP’i ilk kez kullanıyorsunuz. GIMP şimdi '%s' adında yeni klasör "
+"oluşturacak ve bazı dosyaları içine kopyalayacak."
 
 #: app/core/gimp-user-install.c:537
 #, c-format
@@ -13415,10 +13365,8 @@ msgstr ""
 "'%s' fırça dosyası içinde ölümcül ayrıştırma hatası: Tutarsız parametre."
 
 #: app/core/gimpbuffer.c:104
-#, fuzzy
-#| msgid "Buffers"
 msgid "Buffer"
-msgstr "Tamponlar"
+msgstr "Tampon"
 
 #: app/core/gimpchannel-select.c:70
 msgctxt "undo-type"
@@ -13849,45 +13797,33 @@ msgid "Transformation"
 msgstr "Dönüşüm"
 
 #: app/core/gimpdrawablefilter.c:959
-#, fuzzy, c-format
-#| msgid ""
-#| "Procedure '%s' has been called with an invalid UTF-8 string for argument "
-#| "'%s'."
+#, c-format
 msgid ""
 "GEGL operation '%s' has been called with a non-existent argument name '%s' "
 "(#%d)."
 msgstr ""
-"'%s' yordamı, '%s' bağımsız değişkeni için geçersiz UTF-8 dizgesiyle "
+"'%s' GEGL işlemi var olmayan bir bağımsız değişken adı '%s' (#%d) ile "
 "çağrıldı."
 
 #: app/core/gimpdrawablefilter.c:1023
-#, fuzzy, c-format
-#| msgid ""
-#| "Procedure '%s' has been called with a wrong value type for argument '%s' "
-#| "(#%d). Expected %s, got %s."
+#, c-format
 msgid ""
 "GEGL operation '%s' has been called with a wrong value type for argument "
 "'%s' (#%d). Expected %s, got %s."
 msgstr ""
-"'%s' yordamı, '%s' bağımsız değişkeni için yanlış bir değer türü ile "
-"çağrıldı (#%d). İstenen %s, olan %s."
+"'%s' GEGL işlemi, '%s' (#%d) bağımsız değişkeni için yanlış bir değer türü "
+"ile çağrıldı. İstenen %s, olan %s."
 
 #: app/core/gimpdrawablefilter.c:1098
-#, fuzzy, c-format
-#| msgid ""
-#| "Procedure '%s' has been called with an invalid UTF-8 string for argument "
-#| "'%s'."
+#, c-format
 msgid ""
 "GEGL operation '%s' has been called with an invalid aux input name '%s'."
-msgstr ""
-"'%s' yordamı, '%s' bağımsız değişkeni için geçersiz UTF-8 dizgesiyle "
-"çağrıldı."
+msgstr "'%s' GEGL işlemi geçersiz aux girdi adı '%s' ile çağrıldı."
 
 #: app/core/gimpdrawablefiltermask.c:111
-#, fuzzy, c-format
-#| msgid "Cannot rename layer masks."
+#, c-format
 msgid "Cannot rename effect masks."
-msgstr "Katman maskeleri yeniden adlandırılamıyor."
+msgstr "Etki maskeleri yeniden adlandırılamıyor."
 
 #: app/core/gimpdrawablefiltermask.c:195 app/core/gimplayer.c:735
 #: app/core/gimplayer.c:2038 app/core/gimplayermask.c:294
@@ -14184,17 +14120,15 @@ msgstr "%s ile yeni bir algısal harmanlama alanı eklenmiştir"
 
 # Hata mesajı: S burada Gimp sürümünü belirtmeye yarıyor.
 #: app/core/gimpimage.c:3024
-#, fuzzy, c-format
-#| msgid "Layer groups were added in %s"
+#, c-format
 msgid "Vector layers were added in %s"
-msgstr "Katman kümeleri %s ile eklendi"
+msgstr "Vektör katmanları %s ile eklendi"
 
 # Hata mesajı: S burada Gimp sürümünü belirtmeye yarıyor.
 #: app/core/gimpimage.c:3032
-#, fuzzy, c-format
-#| msgid "Layer groups were added in %s"
+#, c-format
 msgid "Link layers were added in %s"
-msgstr "Katman kümeleri %s ile eklendi"
+msgstr "Bağlantı katmanları %s ile eklendi"
 
 # Hata mesajı: S burada Gimp sürümünü belirtmeye yarıyor.
 #: app/core/gimpimage.c:3055
@@ -14330,11 +14264,11 @@ msgstr "Nesneleri Düzenle"
 
 #: app/core/gimpimage-color-profile.c:121
 msgid "Enable 'Use sRGB Profile'"
-msgstr "'sRGB Profili Kullan'ı etkinleştir"
+msgstr "'sRGB Profili Kullan’ı etkinleştir"
 
 #: app/core/gimpimage-color-profile.c:138
 msgid "Disable 'Use sRGB Profile'"
-msgstr "'sRGB Profili Kullan'ı pasifleştir"
+msgstr "'sRGB Profili Kullan’ı devre dışı bırak"
 
 #: app/core/gimpimage-color-profile.c:202
 #, c-format
@@ -14917,89 +14851,56 @@ msgid "Maximum straight length (in pixels) to close the line art"
 msgstr "Çizgi sanatını kapatmak için en fazla düz uzunluk (piksel olarak)"
 
 #: app/core/gimplink.c:255
-#, fuzzy
-#| msgid "No filter selected"
 msgid "The file got deleted"
-msgstr "Seçilmiş süzgeç yok"
+msgstr "Dosya silindi"
 
 #: app/core/gimplink.c:349
-#, fuzzy
-#| msgid "No filter selected"
 msgid "No file was set"
-msgstr "Seçilmiş süzgeç yok"
+msgstr "Hiçbir dosya ayarlanmadı"
 
 #: app/core/gimplinklayer.c:189 app/core/gimplinklayer.c:1077
-#, fuzzy
-#| msgid "Linked Layers"
 msgid "Link Layer"
-msgstr "Bağlı Katmanlar"
+msgstr "Bağlantı Katmanı"
 
 #: app/core/gimplinklayer.c:197
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Rename Layer"
 msgid "Rename Link Layer"
-msgstr "Katmanı Yeniden Adlandır"
+msgstr "Bağlantı Katmanını Yeniden Adlandır"
 
 #: app/core/gimplinklayer.c:198
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Move Layer"
 msgid "Move Link Layer"
-msgstr "Katmanı Taşı"
+msgstr "Bağlantı Katmanını Taşı"
 
 #: app/core/gimplinklayer.c:199
-#, fuzzy
-#| msgid "Scale Layer"
 msgid "Scale Link Layer"
-msgstr "Katmanı Ölçekle"
+msgstr "Bağlantı Katmanını Ölçekle"
 
 #: app/core/gimplinklayer.c:200
-#, fuzzy
-#| msgid "Resize Layer"
-#| msgid_plural "Resize %d layers"
 msgid "Resize Link Layer"
-msgstr "%d Katmanı Yeniden Boyutlandır"
+msgstr "Bağlantı Katmanını Yeniden Boyutlandır"
 
 #: app/core/gimplinklayer.c:201
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Flip Layer"
 msgid "Flip Link Layer"
-msgstr "Katmanı Çevir"
+msgstr "Bağlantı Katmanını Çevir"
 
 #: app/core/gimplinklayer.c:202
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Rotate Layer"
 msgid "Rotate Link Layer"
-msgstr "Katmanı Döndür"
+msgstr "Bağlantı Katmanını Döndür"
 
 #: app/core/gimplinklayer.c:203 app/core/gimplinklayer.c:553
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Transform Layer"
 msgid "Transform Link Layer"
-msgstr "Katmanı Dönüştür"
+msgstr "Bağlantı Katmanını Dönüştür"
 
 #: app/core/gimplinklayer.c:781
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Set layer mode"
 msgid "Set layer link"
-msgstr "Katman kipini ayarla"
+msgstr "Katman bağlantısı ayarla"
 
 #: app/core/gimplinklayer.c:838
-#, fuzzy
-#| msgid "_Discard"
 msgid "Discard Link"
-msgstr "_Gözden Çıkar"
+msgstr "Bağlantıyı Gözden Çıkar"
 
 #: app/core/gimplinklayer.c:855
-#, fuzzy
-#| msgid "Monitor Resolution"
 msgid "Monitor Link"
-msgstr "Ekran Çözünürlüğü"
+msgstr "Bağlantıyı İzle"
 
 #: app/core/gimpmybrush-load.c:75
 #, c-format
@@ -15012,12 +14913,9 @@ msgid "Failed to deserialize MyPaint brush."
 msgstr "MyPaint fırçası seri hale getirilemedi."
 
 #: app/core/gimppalette.c:499
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Change Colormap entry"
 msgctxt "undo-type"
 msgid "Change Colormap format restriction"
-msgstr "Renk Eşlemi girdisini değiştir"
+msgstr "Renk eşlemi biçim kısıtlamasını değiştir"
 
 #. TRANSLATORS: the "%s" is an item title and "%u" is the number of
 #. occurrences for this item.
@@ -15353,10 +15251,8 @@ msgid "Floated Layer"
 msgstr "Yüzen Katman"
 
 #: app/core/gimpsettings.c:71
-#, fuzzy
-#| msgid "%s Preset"
 msgid "Preset"
-msgstr "%s Önayarı"
+msgstr "Önayar"
 
 #: app/core/gimpsettings.c:153
 #, c-format
@@ -16099,8 +15995,6 @@ msgid "FG/BG Color"
 msgstr "ÖP/AP Rengi"
 
 #: app/dialogs/extensions-dialog.c:76
-#, fuzzy
-#| msgid "Extensions"
 msgctxt "GIMP extensions"
 msgid "Extensions"
 msgstr "Uzantılar"
@@ -16483,23 +16377,17 @@ msgid "Active Filters"
 msgstr "Etkin Süzgeçler"
 
 #: app/dialogs/layer-options-dialog.c:414
-#, fuzzy
-#| msgid "O_pen Selected Images"
 msgid "Select Linked Image"
-msgstr "Seçilen Görüntüleri _Aç"
+msgstr "Bağlantılı Görüntüyü Seç"
 
 #: app/dialogs/layer-options-dialog.c:424
-#, fuzzy
-#| msgid "Linked Layers"
 msgid "_Linked image:"
-msgstr "Bağlı Katmanlar"
+msgstr "_Bağlantılı görüntü:"
 
 #. Absolute path checkbox.
 #: app/dialogs/layer-options-dialog.c:434
-#, fuzzy
-#| msgid "Move the active path"
 msgid "S_tore with absolute path"
-msgstr "Etkin yolu taşı"
+msgstr "_Mutlak yol ile darbele"
 
 #: app/dialogs/layer-options-dialog.c:450 app/dialogs/resize-dialog.c:510
 #: app/widgets/gimptemplateeditor.c:489
@@ -16725,42 +16613,41 @@ msgid "There is no palette to import."
 msgstr "İçe aktarmak için palet yok."
 
 #: app/dialogs/palette-import-dialog.c:905
-#, fuzzy
-#| msgid "All files (*.*)"
 msgid "All palette files (*.*)"
-msgstr "Tüm dosyalar (*.*)"
+msgstr "Tüm palet dosyaları (*.*)"
 
 #: app/dialogs/palette-import-dialog.c:910
 msgid "GIMP Palette (*.gpl)"
-msgstr ""
+msgstr "GIMP Paleti (*.gpl)"
 
 #: app/dialogs/palette-import-dialog.c:916
 msgid "Adobe Color Table (*.act)"
-msgstr ""
+msgstr "Adobe Renk Tablosu (*.act)"
 
 #: app/dialogs/palette-import-dialog.c:922
 msgid "Adobe Color Swatch (*.aco)"
-msgstr ""
+msgstr "Adobe Renk Örneği (*.aco)"
 
 #: app/dialogs/palette-import-dialog.c:928
 msgid "Adobe Color Book (*.acb)"
-msgstr ""
+msgstr "Adobe Renk Kitabı (*.acb)"
 
+# Dosya Biçimi adı.
 #: app/dialogs/palette-import-dialog.c:934
 msgid "Adobe Swatch Exchange (*.ase)"
-msgstr ""
+msgstr "Adobe Swatch Exchange (*.ase)"
 
 #: app/dialogs/palette-import-dialog.c:940
 msgid "Cascading Style Sheet (*.css)"
-msgstr ""
+msgstr "Basamaklı Biçem Sayfası (*.css)"
 
 #: app/dialogs/palette-import-dialog.c:946
 msgid "JASC or RIFF Palette (*.pal)"
-msgstr ""
+msgstr "JASC ya da RIFF Paleti (*.pal)"
 
 #: app/dialogs/palette-import-dialog.c:952
 msgid "SwatchBooker (*.sbz)"
-msgstr ""
+msgstr "SwatchBooker (*.sbz)"
 
 #: app/dialogs/preferences-dialog.c:215
 msgid "Reset All Preferences"
@@ -17183,7 +17070,7 @@ msgstr ""
 
 #: app/dialogs/preferences-dialog.c:1593
 msgid "Update metadata automatically"
-msgstr ""
+msgstr "Üst verileri kendiliğinden güncelle"
 
 #: app/dialogs/preferences-dialog.c:1596
 msgid "Metadata can contain sensitive information."
@@ -17257,7 +17144,7 @@ msgstr "_Boyayarak Seçim aracı"
 
 #: app/dialogs/preferences-dialog.c:1702
 msgid "Use GtkListBox in simple lists"
-msgstr ""
+msgstr "GtkListBoxʼı basit listelerde kullan"
 
 #: app/dialogs/preferences-dialog.c:1712 app/dialogs/preferences-dialog.c:1713
 msgctxt "preferences"
@@ -18769,18 +18656,16 @@ msgid "Lock path _visibility"
 msgstr "Yol _görünürlüğünü kilitle"
 
 #: app/dialogs/vector-layer-options-dialog.c:99
-#, fuzzy
-#| msgid "Edit Layer Attributes"
 msgid "Edit Vector Layer Attributes"
-msgstr "Katman Özniteliklerini Düzenle"
+msgstr "Vektör Katman Özniteliklerini Düzenle"
 
 #: app/dialogs/vector-layer-options-dialog.c:105
 msgid "_Apply"
-msgstr ""
+msgstr "_Uygula"
 
 #: app/dialogs/vector-layer-options-dialog.c:274
 msgid "Fill/Stroke Vector Layer"
-msgstr ""
+msgstr "Doldur/Darbe Vektör Katmanı"
 
 #. Translators: the %s string will be the version, e.g. "3.0".
 #: app/dialogs/welcome-dialog.c:206
@@ -19897,6 +19782,8 @@ msgstr "%s dosyası açılamadı: %s"
 msgid ""
 "Only platform-native file paths are supported: '%s' cannot be opened as link."
 msgstr ""
+"Yalnızca platforma özgü dosya yolları desteklenir: '%s' bağlantı olarak "
+"açılamaz."
 
 #: app/file/file-open.c:978 app/file/file-save.c:132
 msgid "Not a regular file"
@@ -20746,13 +20633,12 @@ msgstr "Renk Parlaklığını Koru"
 
 #: app/operations/gimpcurvesconfig.c:105 app/operations/gimplevelsconfig.c:111
 msgid "Tone Reproduction Curve"
-msgstr ""
+msgstr "Ton Yeniden Üretim Eğrisi"
 
 #: app/operations/gimpcurvesconfig.c:106 app/operations/gimplevelsconfig.c:112
-#, fuzzy
-#| msgid "Work on linear or perceptual RGB"
 msgid "Work on linear or perceptual RGB, or following the image's TRC"
-msgstr "Doğrusal veya algısal RGB üstünde çalış"
+msgstr ""
+"Doğrusal veya algısal RGB üstünde ya da görüntünün TRCʼsini izleyerek çalış"
 
 #: app/operations/gimpcurvesconfig.c:113 app/operations/gimplevelsconfig.c:119
 msgid "Linear"
@@ -21177,11 +21063,11 @@ msgstr "Bu araçla kullanılabilecek MyPaint fırçası yok."
 
 #: app/paint/gimpmybrushoptions.c:93
 msgid "View Zoom"
-msgstr ""
+msgstr "Yakınlaştırmayı Görüntüle"
 
 #: app/paint/gimpmybrushoptions.c:100
 msgid "View Rotation"
-msgstr ""
+msgstr "Döndürmeyi Görüntüle"
 
 #: app/paint/gimpmybrushoptions.c:114
 msgid "Base Opacity"
@@ -21620,76 +21506,52 @@ msgid "Failed to import paths from '%s': %s"
 msgstr "'%s' dosyasından yollar içe aktarılamadı: %s"
 
 #: app/path/gimpvectorlayer.c:160 app/tools/gimppathtool.c:833
-#, fuzzy
-#| msgid "Text Layer"
 msgid "Vector Layer"
-msgstr "Metin Katmanı"
+msgstr "Vektör Katmanı"
 
 #: app/path/gimpvectorlayer.c:170
-#, fuzzy
-#| msgid "Rename Text Layer"
 msgid "Rename Vector Layer"
-msgstr "Metin Katmanını Yeniden Adlandır"
+msgstr "Vektör Katmanını Yeniden Adlandır"
 
 #: app/path/gimpvectorlayer.c:171
-#, fuzzy
-#| msgid "Move Text Layer"
 msgid "Move Vector Layer"
-msgstr "Metin Katmanını Taşı"
+msgstr "Vektör Katmanını Taşı"
 
 #: app/path/gimpvectorlayer.c:172
-#, fuzzy
-#| msgid "Scale Text Layer"
 msgid "Scale Vector Layer"
-msgstr "Metin Katmanını Ölçekle"
+msgstr "Vektör Katmanını Ölçekle"
 
 #: app/path/gimpvectorlayer.c:173
-#, fuzzy
-#| msgid "Resize Text Layer"
 msgid "Resize Vector Layer"
-msgstr "Metin Katmanını Yeniden Boyutlandır"
+msgstr "Vektör Katmanını Yeniden Boyutlandır"
 
 #: app/path/gimpvectorlayer.c:174
-#, fuzzy
-#| msgid "Flip Text Layer"
 msgid "Flip Vector Layer"
-msgstr "Metin Katmanını Çevir"
+msgstr "Vektör Katmanını Çevir"
 
 #: app/path/gimpvectorlayer.c:175
-#, fuzzy
-#| msgid "Rotate Text Layer"
 msgid "Rotate Vector Layer"
-msgstr "Metin Katmanını Döndür"
+msgstr "Vektör Katmanını Döndür"
 
 #: app/path/gimpvectorlayer.c:176
-#, fuzzy
-#| msgid "Transform Text Layer"
 msgid "Transform Vector Layer"
-msgstr "Metin Katmanını Dönüştür"
+msgstr "Vektör Katmanını Dönüştür"
 
 #: app/path/gimpvectorlayer.c:526
-#, fuzzy
-#| msgid "Discard Text Information"
 msgid "Discard Vector Informations"
-msgstr "Metin Bilgisini Gözden Çıkar"
+msgstr "Vektör Bilgilerini Gözden Çıkar"
 
-#: app/path/gimpvectorlayer.c:650
-#, fuzzy
-#| msgid "Discard Text Information"
+#: app/path/gimpvectorlayer.c:669
 msgid "Discard Vector Information"
-msgstr "Metin Bilgisini Gözden Çıkar"
+msgstr "Vektör Bilgisini Gözden Çıkar"
 
 #: app/path/gimpvectorlayeroptions.c:114
-#, fuzzy
-#| msgid "Fill type"
 msgid "Fill Style"
-msgstr "Doldurma türü"
+msgstr "Doldurma Biçemi"
 
 #: app/path/gimpvectorlayeroptions.c:126
-#, fuzzy
-#| msgid "Stroke tool"
 msgid "Stroke Style"
-msgstr "Darbe aracı"
+msgstr "Darbe Biçemi"
 
 #: app/pdb/channel-cmds.c:199
 msgid "Combine Masks"
@@ -22317,11 +22179,10 @@ msgstr "Metin katmanı özniteliğini ayarla"
 msgid "Set text layer markup"
 msgstr "Metin katmanı işaretlemesini ayarla"
 
-#: app/pdb/vector-layer-cmds.c:71 app/pdb/vector-layer-cmds.c:83
-#, fuzzy, c-format
-#| msgid "Failed to create text layer"
+#: app/pdb/vector-layer-cmds.c:77 app/pdb/vector-layer-cmds.c:89
+#, c-format
 msgid "Failed to create vector layer"
-msgstr "Metin katmanı oluşturulamadı"
+msgstr "Vektör katmanı oluşturulamadı"
 
 #: app/plug-in/gimpenvirontable.c:329
 #, c-format
@@ -23263,7 +23124,7 @@ msgid ""
 msgstr ""
 "Temel doldurma matlığı, tıklatılan pikselden (eşiğe bakınız) veya çizgi "
 "sanatı sınırlarından renk farkına göre. Tüm alanı eşit şekilde doldurmak "
-"için kenar yumuşatmayı pasifleştirin."
+"için kenar yumuşatmayı devre dışı bırakın."
 
 #: app/tools/gimpbucketfilloptions.c:207 app/tools/gimpbucketfilloptions.c:229
 #: app/tools/gimpgradientoptions.c:122 app/tools/gimpregionselectoptions.c:113
@@ -23997,16 +23858,15 @@ msgid "Disabled because this filter depends on another image."
 msgstr "Bu süzgeç başka görüntüye bağlı olduğu için devre dışı bırakıldı."
 
 #: app/tools/gimpfiltertool.c:454
-#, fuzzy
-#| msgid "Disabled because this filter depends on another image."
 msgid "Disabled because filters cannot be merged on vector layers."
-msgstr "Bu süzgeç başka görüntüye bağlı olduğu için devre dışı bırakıldı."
+msgstr ""
+"Süzgeçler vektör katmanlarında birleştirilemediği için devre dışı bırakıldı."
 
 #: app/tools/gimpfiltertool.c:456
-#, fuzzy
-#| msgid "Disabled because this filter depends on another image."
 msgid "Disabled because filters cannot be merged on link layers."
-msgstr "Bu süzgeç başka görüntüye bağlı olduğu için devre dışı bırakıldı."
+msgstr ""
+"Süzgeçler bağlantı katmanlarında birleştirilemediği için devre dışı "
+"bırakıldı."
 
 #: app/tools/gimpfiltertool.c:458
 msgid ""
@@ -24014,6 +23874,9 @@ msgid ""
 "For development purpose, set environment variable "
 "GIMP_ALLOW_GEGL_GRAPH_LAYER_EFFECT."
 msgstr ""
+"GEGL Graph güvenli olmadığı için devre dışı bırakıldı.\n"
+"Geliştirme amacıyla, GIMP_ALLOW_GEGL_GRAPH_LAYER_EFFECT ortam değişkenini "
+"ayarlayın."
 
 #: app/tools/gimpfiltertool.c:776
 msgid "Click to switch the original and filtered sides"
@@ -25121,11 +24984,11 @@ msgstr "Katman kümelerine boyama yapılamaz."
 
 #: app/tools/gimppainttool.c:344
 msgid "Link layers must be rasterized before they can be painted on."
-msgstr ""
+msgstr "Bağlantı katmanları boyanmadan önce rasterleştirilmelidir."
 
 #: app/tools/gimppainttool.c:350
 msgid "Vector layers must be rasterized before they can be painted on."
-msgstr ""
+msgstr "Vektör katmanları boyanmadan önce rasterleştirilmelidir."
 
 #: app/tools/gimppainttool.c:747
 #, c-format
@@ -25141,17 +25004,12 @@ msgid "The selected layer's alpha channel is locked."
 msgstr "Seçili katmanın alfa kanalı kilitli."
 
 #: app/tools/gimppathoptions.c:138
-#, fuzzy
-#| msgid "Enabled"
 msgid "Enable Fill"
-msgstr "Etkinleştirildi"
+msgstr "Doldurmayı Etkinleştir"
 
 #: app/tools/gimppathoptions.c:144
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Render Stroke"
 msgid "Enable Stroke"
-msgstr "Darbeyi Görselleştir"
+msgstr "Darbeyi Etkinleştir"
 
 #: app/tools/gimppathoptions.c:556
 #, c-format
@@ -25172,10 +25030,8 @@ msgid "Selection from Path"
 msgstr "Yoldan Seçim"
 
 #: app/tools/gimppathoptions.c:577
-#, fuzzy
-#| msgid "Create _New Layer"
 msgid "Create New Vector Layer"
-msgstr "_Yeni Katman Oluştur"
+msgstr "Yeni Vektör Katmanı Oluştur"
 
 #: app/tools/gimppathtool.c:168
 msgid "Paths Tool: Create and edit paths"
@@ -26117,7 +25973,7 @@ msgstr ""
 
 #: app/tools/gimptransformtool.c:454
 msgid "Transformation creates a very large image."
-msgstr "Dönüşüm çok büyük bir resim oluşturuyor."
+msgstr "Dönüşüm çok büyük görüntü oluşturuyor."
 
 #: app/tools/gimptransformtool.c:459
 #, c-format
@@ -26854,7 +26710,7 @@ msgstr "Hiçbiri"
 #: app/widgets/gimpcompressioncombobox.c:114
 msgctxt "compression"
 msgid "Best performance"
-msgstr "En iyi performans"
+msgstr "En iyi başarım"
 
 #: app/widgets/gimpcompressioncombobox.c:120
 msgctxt "compression"
@@ -26937,10 +26793,8 @@ msgid "Select Controller Event Action"
 msgstr "Denetleyici Olayı İşlemini Seç"
 
 #: app/widgets/gimpcontrollerinfo.c:110
-#, fuzzy
-#| msgid "Input Controllers"
 msgid "Input Controller"
-msgstr "Girdi Denetleyicileri"
+msgstr "Girdi Denetçisi"
 
 #: app/widgets/gimpcontrollerinfo.c:115
 msgid "Enabled"
@@ -27090,7 +26944,7 @@ msgstr ""
 
 #: app/widgets/gimpcontrollerlist.c:628
 msgid "Configure Input Controller"
-msgstr "Girdi Denetleyicisini Yapılandır"
+msgstr "Girdi Denetçisini Yapılandır"
 
 #: app/widgets/gimpcontrollerwheel.c:68 app/widgets/gimpcontrollerwheel.c:71
 #: app/widgets/gimpcontrollerwheel.c:74 app/widgets/gimpcontrollerwheel.c:77
@@ -28009,8 +27863,6 @@ msgid "File Type"
 msgstr "Dosya Türü"
 
 #: app/widgets/gimpfileprocview.c:211
-#, fuzzy
-#| msgid "Extensions"
 msgctxt "File extension"
 msgid "Extensions"
 msgstr "Uzantılar"
@@ -28561,11 +28413,9 @@ msgid "Progress"
 msgstr "İlerleme"
 
 #: app/widgets/gimprow.c:620
-#, fuzzy, c-format
-#| msgctxt "undo-type"
-#| msgid "Rename item"
+#, c-format
 msgid "Rename %s"
-msgstr "Ögeyi yeniden adlandır"
+msgstr "%s’i Yeniden Adlandır"
 
 #: app/widgets/gimpsamplepointeditor.c:163
 msgid ""
@@ -29332,15 +29182,15 @@ msgstr ""
 
 #: app/xcf/xcf-load.c:1099
 msgid "Linked Layers"
-msgstr "Bağlı Katmanlar"
+msgstr "Bağlantılı Katmanlar"
 
 #: app/xcf/xcf-load.c:1109
 msgid "Linked Channels"
-msgstr "Bağlı Kanallar"
+msgstr "Bağlantılı Kanallar"
 
 #: app/xcf/xcf-load.c:1134
 msgid "Linked Paths"
-msgstr "Bağlı Yollar"
+msgstr "Bağlantılı Yollar"
 
 #: app/xcf/xcf-load.c:1181
 msgid ""
@@ -29971,11 +29821,3 @@ msgstr "Araç Önayarları Menüsü"
 msgctxt "edit-action"
 msgid "Undo History Menu"
 msgstr "Geri Alma Geçmişi Menüsü"
-
-#~ msgctxt "vector-mode"
-#~ msgid "Edit"
-#~ msgstr "Düzenle"
-
-#~ msgctxt "vector-mode"
-#~ msgid "Move"
-#~ msgstr "Taşı"
