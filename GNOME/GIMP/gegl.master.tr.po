@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gegl master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gegl/issues/\n"
-"POT-Creation-Date: 2025-09-20 08:39+0000\n"
-"PO-Revision-Date: 2025-09-20 08:00+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"POT-Creation-Date: 2025-09-23 13:07+0000\n"
+"PO-Revision-Date: 2025-09-22 15:32+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -29,6 +29,7 @@ msgid "Unable to read file: %s"
 msgstr "Dosya okunamadı: %s"
 
 #: bin/gegl.c:227
+#, c-format
 msgid "Invalid graph, abort.\n"
 msgstr "Geçersiz grafik, iptal et.\n"
 
@@ -774,8 +775,8 @@ msgstr "Derinlik"
 #: operations/common/bevel.c:106
 msgid "Emboss depth - Brings out depth and detail of the bump bevel."
 msgstr ""
-"Kabartma derinliği - Tümsek eğiminin derinliğini ve ayrıntısını ortaya "
-"çıkarır."
+"Kabartma derinliği - Derinlik etkisi eğiminin derinliğini ve ayrıntısını "
+"ortaya çıkarır."
 
 #: operations/common/bevel.c:110
 msgid "Light Angle"
@@ -797,8 +798,9 @@ msgid ""
 "shapes."
 msgstr ""
 "Tek bir yerde iki eğim etkisi, Kubbe - kubbeli 3B kenarların aydınlatmasını "
-"öykünür ve Tümsek - bulanıklığı kaplayan kabartma ile 3B şişirme etkisi "
-"oluşturur. Her iki eğim de renk dolgulu alfa tanımlı şekillerden yararlanır."
+"öykünür ve Derinlik etkisi - bulanıklığı kaplayan kabartma ile 3B şişirme "
+"etkisi oluşturur. Her iki eğim de renk dolgulu alfa tanımlı şekillerden "
+"yararlanır."
 
 #: operations/common/bevel.c:298
 msgid "Bevel..."
@@ -4807,7 +4809,7 @@ msgstr "Kubbe Eğimi"
 
 #: operations/common/styles.c:220
 msgid "Bump Bevel"
-msgstr "Tümsek Eğimi"
+msgstr "Derinlik Etkisi Eğimi"
 
 #: operations/common/styles.c:223
 msgid "Select Bevel"
@@ -4843,15 +4845,15 @@ msgstr "Eğimin kabartma azimutu"
 
 #: operations/common/styles.c:255
 msgid "Bevel radius (bump only)"
-msgstr "Eğim yarıçapı (sadece tümsek)"
+msgstr "Eğim yarıçapı (yalnızca derinlik etkisi)"
 
 #: operations/common/styles.c:259
 msgid ""
 "Internal gaussian blur to inflate the bump bevel. This option does not work "
 "on chamfer"
 msgstr ""
-"Tümsek eğimini şişirmek için iç gauss bulanıklığı. Bu seçenek kubbe üzerinde "
-"çalışmaz"
+"Derinlik etkisi eğimini şişirmek için iç gauss bulanıklığı. Bu seçenek kubbe "
+"üzerinde çalışmaz"
 
 #: operations/common/styles.c:265
 msgid "Levels low output lighting for Bevel"
@@ -4882,8 +4884,8 @@ msgid ""
 msgstr ""
 "Bu, eğime, altında görüntü dosyası kaplaması varsa görüntü ayrıntılarını yok "
 "saymayı buyurur. Ayrıca kullanıcı daha koyu renkler seçtiğinde eğimin daha "
-"iyi çalışmasını sağlar. Tümsek eğiminde etkisi fark edilir ancak kubbe "
-"eğimini neredeyse hiç etkilemez"
+"iyi çalışmasını sağlar. Derinlik etkisi eğiminde etkisi fark edilir ancak "
+"kubbe eğimini neredeyse hiç etkilemez"
 
 #. This operation is extremely important for bevels with image file overlays
 #. Inner Glow GUI options begin here
