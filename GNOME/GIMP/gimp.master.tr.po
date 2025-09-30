@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP UI translations master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
-"POT-Creation-Date: 2025-09-23 13:14+0000\n"
+"POT-Creation-Date: 2025-09-29 23:55+0000\n"
 "PO-Revision-Date: 2025-09-20 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -183,7 +183,15 @@ msgstr ""
 msgid "If you wanted to quit immediately instead, call GIMP with --quit."
 msgstr "Hemen çıkmak istiyorsanız, GIMPʼi --quit ile çağırın."
 
-#: app/gimp-update.c:444
+#: app/gimp-update.c:424
+msgid "Perhaps you are missing GIO backends and need to install GVFS?"
+msgstr ""
+
+#: app/gimp-update.c:429
+msgid "Perhaps you are missing GIO backends."
+msgstr ""
+
+#: app/gimp-update.c:466
 #, c-format
 msgid ""
 "A new version of GIMP (%s) was released.\n"
@@ -2561,8 +2569,8 @@ msgid "Enter a description for the marker"
 msgstr "İm açıklaması gir"
 
 #: app/actions/data-commands.c:90 app/actions/documents-commands.c:393
-#: app/actions/file-commands.c:234 app/dialogs/file-open-dialog.c:253
-#: app/dialogs/file-open-dialog.c:295
+#: app/actions/file-commands.c:234 app/dialogs/file-open-dialog.c:254
+#: app/dialogs/file-open-dialog.c:300
 #: app/dialogs/file-open-location-dialog.c:217
 #: app/dialogs/file-open-location-dialog.c:233
 #: app/display/gimpdisplayshell-dnd.c:646 app/widgets/gimplayertreeview.c:796
@@ -3077,134 +3085,124 @@ msgctxt "dialogs-action"
 msgid "Open the dashboard"
 msgstr "Gösterge panelini aç"
 
-#: app/actions/dialogs-actions.c:311 app/actions/dialogs-actions.c:312
-msgctxt "dialogs-action"
-msgid "_Settings..."
-msgstr "_Ayarlar..."
-
-#: app/actions/dialogs-actions.c:314 app/actions/dialogs-actions.c:315
+#: app/actions/dialogs-actions.c:310 app/actions/dialogs-actions.c:311
 msgctxt "dialogs-action"
 msgid "_Preferences"
 msgstr "_Tercihler"
 
-#: app/actions/dialogs-actions.c:318
+#: app/actions/dialogs-actions.c:313
 msgctxt "dialogs-action"
 msgid "Open the preferences dialog"
 msgstr "Tercihler iletişim kutusunu aç"
 
-#: app/actions/dialogs-actions.c:323
+#: app/actions/dialogs-actions.c:318
 msgctxt "dialogs-action"
 msgid "_Input Devices Editor"
 msgstr "_Girdi Aygıtları Düzenleyici"
 
-#: app/actions/dialogs-actions.c:324
+#: app/actions/dialogs-actions.c:319
 msgctxt "dialogs-action"
 msgid "_Input Devices"
 msgstr "_Girdi Aygıtları"
 
-#: app/actions/dialogs-actions.c:326
+#: app/actions/dialogs-actions.c:321
 msgctxt "dialogs-action"
 msgid "Open the input devices editor"
 msgstr "Girdi aygıtları düzenleyicisini aç"
 
-#: app/actions/dialogs-actions.c:331
+#: app/actions/dialogs-actions.c:326
 msgctxt "dialogs-action"
 msgid "_Keyboard Shortcuts Editor"
 msgstr "_Klavye Kısayolları Düzenleyici"
 
-#: app/actions/dialogs-actions.c:332
+#: app/actions/dialogs-actions.c:327
 msgctxt "dialogs-action"
 msgid "_Keyboard Shortcuts"
 msgstr "_Klavye Kısayolları"
 
-#: app/actions/dialogs-actions.c:334
+#: app/actions/dialogs-actions.c:329
 msgctxt "dialogs-action"
 msgid "Open the keyboard shortcuts editor"
 msgstr "Klavye kısayolları düzenleyicisini aç"
 
-#: app/actions/dialogs-actions.c:339
+#: app/actions/dialogs-actions.c:334
 msgctxt "dialogs-action"
 msgid "_Modules Dialog"
 msgstr "_Modüller İletişim Kutusu"
 
-#: app/actions/dialogs-actions.c:340
+#: app/actions/dialogs-actions.c:335
 msgctxt "dialogs-action"
 msgid "_Modules"
 msgstr "_Modüller"
 
-#: app/actions/dialogs-actions.c:342
+#: app/actions/dialogs-actions.c:337
 msgctxt "dialogs-action"
 msgid "Open the module manager dialog"
 msgstr "Modül yöneticisi iletişim kutusunu aç"
 
-#: app/actions/dialogs-actions.c:347
+#: app/actions/dialogs-actions.c:342
 msgctxt "dialogs-action"
 msgid "_Tip of the Day"
 msgstr "_Günün İpucu"
 
-#: app/actions/dialogs-actions.c:349
+#: app/actions/dialogs-actions.c:344
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using GIMP"
 msgstr "GIMP kullanımıyla ilgili ipuçları göster"
 
-#: app/actions/dialogs-actions.c:354
+#: app/actions/dialogs-actions.c:349
 msgctxt "dialogs-action"
 msgid "Welcome Dialog"
 msgstr "Hoş Geldiniz İletişim Kutusu"
 
-#: app/actions/dialogs-actions.c:356
+#: app/actions/dialogs-actions.c:351
 msgctxt "dialogs-action"
 msgid "Show information on running GIMP release"
 msgstr "GIMP sürümünü çalıştırmayla ilgili bilgiler göster"
 
-#: app/actions/dialogs-actions.c:362 app/actions/dialogs-actions.c:369
+#: app/actions/dialogs-actions.c:357 app/actions/dialogs-actions.c:362
 msgctxt "dialogs-action"
 msgid "About GIMP"
 msgstr "GIMP Hakkında"
 
-#: app/actions/dialogs-actions.c:364
-msgctxt "dialogs-action"
-msgid "About"
-msgstr "Hakkında"
-
-#: app/actions/dialogs-actions.c:366
+#: app/actions/dialogs-actions.c:359
 msgctxt "dialogs-action"
 msgid "_About"
 msgstr "_Hakkında"
 
-#: app/actions/dialogs-actions.c:374
+#: app/actions/dialogs-actions.c:367
 msgctxt "dialogs-action"
 msgid "_Search and Run a Command"
 msgstr "Komut _Ara ve Çalıştır"
 
-#: app/actions/dialogs-actions.c:376
+#: app/actions/dialogs-actions.c:369
 msgctxt "dialogs-action"
 msgid "Search commands by keyword, and run them"
 msgstr "Anahtar sözcük ile komut ara ve çalıştır"
 
-#: app/actions/dialogs-actions.c:382
+#: app/actions/dialogs-actions.c:375
 msgctxt "dialogs-action"
 msgid "Manage _Extensions"
 msgstr "Uzantıları _Yönet"
 
-#: app/actions/dialogs-actions.c:384
+#: app/actions/dialogs-actions.c:377
 msgctxt "dialogs-action"
 msgid "Manage Extensions: search, install, uninstall, update."
 msgstr "Uzantıları Yönet: ara, yükle, kaldır, güncelle."
 
-#: app/actions/dialogs-actions.c:448
+#: app/actions/dialogs-actions.c:441
 msgid "Tool_box"
 msgstr "Araç K_utusu"
 
-#: app/actions/dialogs-actions.c:449
+#: app/actions/dialogs-actions.c:442
 msgid "Raise the toolbox"
 msgstr "Araç kutusunu yükselt"
 
-#: app/actions/dialogs-actions.c:453
+#: app/actions/dialogs-actions.c:446
 msgid "New Tool_box"
 msgstr "Yeni Araç _Kutusu"
 
-#: app/actions/dialogs-actions.c:454
+#: app/actions/dialogs-actions.c:447
 msgid "Create a new toolbox"
 msgstr "Yeni araç kutusu oluştur"
 
@@ -12891,7 +12889,7 @@ msgstr "Toplu yorumlayıcı '%s' yok. Toplu kip devre dışı bırakıldı."
 
 #: app/core/gimp-contexts.c:153 app/core/gimp-internal-data.c:338
 #: app/core/gimptooloptions.c:361 app/gui/modifiers.c:191 app/gui/session.c:449
-#: app/menus/menus.c:480 app/widgets/gimpdevices.c:226
+#: app/menus/menus.c:488 app/widgets/gimpdevices.c:226
 #, c-format
 msgid "Deleting \"%s\" failed: %s"
 msgstr "\"%s\" silinemedi: %s"
@@ -14859,11 +14857,11 @@ msgstr "En fazla düz kapanma uzunluğu"
 msgid "Maximum straight length (in pixels) to close the line art"
 msgstr "Çizgi sanatını kapatmak için en fazla düz uzunluk (piksel olarak)"
 
-#: app/core/gimplink.c:255
+#: app/core/gimplink.c:256
 msgid "The file got deleted"
 msgstr "Dosya silindi"
 
-#: app/core/gimplink.c:349
+#: app/core/gimplink.c:351
 msgid "No file was set"
 msgstr "Hiçbir dosya ayarlanmadı"
 
@@ -16034,9 +16032,15 @@ msgid "Search extensions matching these keywords"
 msgstr "Bu anahtarla uyuşan uzantıları ara"
 
 #: app/dialogs/file-open-dialog.c:142 app/dialogs/file-open-dialog.c:168
-#: app/dialogs/file-open-dialog.c:286
+#: app/dialogs/file-open-dialog.c:291
 msgid "Open layers"
 msgstr "Katmanları aç"
+
+#: app/dialogs/file-open-dialog.c:258
+#, fuzzy, c-format
+#| msgid "Opening '%s' failed: %s"
+msgid "Opening '%s' failed."
+msgstr "%s dosyası açılamadı: %s"
 
 #: app/dialogs/file-open-location-dialog.c:74
 msgid "Open Location"
@@ -18734,12 +18738,14 @@ msgid "GIMP website"
 msgstr "GIMP web sitesi"
 
 #: app/dialogs/welcome-dialog.c:545
-msgid "Tutorials"
-msgstr "Dersler"
-
-#: app/dialogs/welcome-dialog.c:550
 msgid "Documentation"
 msgstr "Belgelendirme"
+
+#: app/dialogs/welcome-dialog.c:550
+#, fuzzy
+#| msgid "Tutorials"
+msgid "Community Tutorials"
+msgstr "Dersler"
 
 #. XXX: should we add API docs for plug-in developers once it's
 #. * properly set up?
@@ -19779,26 +19785,26 @@ msgstr "Pivot noktasını taşımak için tıklayıp sürükleyin"
 msgid "Click-Drag to shear"
 msgstr "Eğmek için tıklayıp sürükleyin"
 
-#: app/file/file-open.c:264
+#: app/file/file-open.c:272
 #, c-format
 msgid "%s plug-in returned SUCCESS but did not return an image"
 msgstr "%s eklentisi BAŞARI döndürdü. Fakat bir görüntü döndürmedi"
 
-#: app/file/file-open.c:275
+#: app/file/file-open.c:283
 #, c-format
 msgid "%s plug-in could not open image"
 msgstr "%s eklentisi görüntüyü açamadı"
 
-#: app/file/file-open.c:690
+#: app/file/file-open.c:698
 msgid "Image doesn't contain any layers"
 msgstr "Görüntü hiçbir katman içermiyor"
 
-#: app/file/file-open.c:748
+#: app/file/file-open.c:756
 #, c-format
 msgid "Opening '%s' failed: %s"
 msgstr "%s dosyası açılamadı: %s"
 
-#: app/file/file-open.c:836
+#: app/file/file-open.c:846
 #, c-format
 msgid ""
 "Only platform-native file paths are supported: '%s' cannot be opened as link."
@@ -19806,11 +19812,11 @@ msgstr ""
 "Yalnızca platforma özgü dosya yolları desteklenir: '%s' bağlantı olarak "
 "açılamaz."
 
-#: app/file/file-open.c:978 app/file/file-save.c:132
+#: app/file/file-open.c:985 app/file/file-save.c:132
 msgid "Not a regular file"
 msgstr "Normal bir dosya değil"
 
-#: app/file/file-open.c:987 app/file/file-save.c:141
+#: app/file/file-open.c:994 app/file/file-save.c:141
 msgid "Permission denied"
 msgstr "İzin reddedildi"
 
@@ -21558,11 +21564,7 @@ msgstr "Vektör Katmanını Döndür"
 msgid "Transform Vector Layer"
 msgstr "Vektör Katmanını Dönüştür"
 
-#: app/path/gimpvectorlayer.c:526
-msgid "Discard Vector Informations"
-msgstr "Vektör Bilgilerini Gözden Çıkar"
-
-#: app/path/gimpvectorlayer.c:669
+#: app/path/gimpvectorlayer.c:526 app/path/gimpvectorlayer.c:669
 msgid "Discard Vector Information"
 msgstr "Vektör Bilgisini Gözden Çıkar"
 
@@ -22103,7 +22105,7 @@ msgstr "Görüntüyü kendiliğinden kırp"
 msgid "Autocrop layer"
 msgstr "Katmanı kendiliğinden kırp"
 
-#: app/pdb/image-cmds.c:2556
+#: app/pdb/image-cmds.c:2564
 msgid ""
 "Image resolution is out of bounds, using the default resolution instead."
 msgstr ""
@@ -22131,6 +22133,12 @@ msgstr "2B Dönüşüm"
 #: app/pdb/item-transform-cmds.c:898
 msgid "2D Transforming"
 msgstr "2B Dönüştürülüyor"
+
+#: app/pdb/link-layer-cmds.c:67 app/pdb/link-layer-cmds.c:89
+#, fuzzy, c-format
+#| msgid "Failed to create text layer"
+msgid "Failed to create link layer"
+msgstr "Metin katmanı oluşturulamadı"
 
 #: app/pdb/path-cmds.c:325
 msgid "Remove path stroke"
@@ -27471,7 +27479,7 @@ msgstr "Çeşitli bilgiler"
 msgid "Select fields"
 msgstr "Alanları seç"
 
-#. Tranlators: "N/A" is an abbreviation for "not available"
+#. Translators: "N/A" is an abbreviation for "not available"
 #: app/widgets/gimpdashboard.c:3323
 msgctxt "dashboard-value"
 msgid "N/A"
@@ -29843,3 +29851,14 @@ msgstr "Araç Önayarları Menüsü"
 msgctxt "edit-action"
 msgid "Undo History Menu"
 msgstr "Geri Alma Geçmişi Menüsü"
+
+#~ msgctxt "dialogs-action"
+#~ msgid "_Settings..."
+#~ msgstr "_Ayarlar..."
+
+#~ msgctxt "dialogs-action"
+#~ msgid "About"
+#~ msgstr "Hakkında"
+
+#~ msgid "Discard Vector Informations"
+#~ msgstr "Vektör Bilgilerini Gözden Çıkar"
