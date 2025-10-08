@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: network-manager-libreswan main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-"
 "libreswan/issues\n"
-"POT-Creation-Date: 2025-09-16 15:10+0000\n"
+"POT-Creation-Date: 2025-10-03 10:31+0000\n"
 "PO-Revision-Date: 2023-12-29 11:38+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
@@ -121,37 +121,37 @@ msgid ""
 "This service provides integrated IPsec VPN capability to NetworkManager."
 msgstr "Bu hizmet NetworkManager için tümleşik IPsec VPN yeterliliğini sağlar."
 
-#: ../shared/utils.c:364
+#: ../shared/utils.c:380
 #, c-format
 msgid "Invalid character in '%s'"
 msgstr ""
 
-#: ../shared/utils.c:401 ../shared/utils.c:518
+#: ../shared/utils.c:417 ../shared/utils.c:534
 #, c-format
 msgid "'%s' key needs to be present"
 msgstr ""
 
-#: ../shared/utils.c:431 ../shared/utils.c:527
+#: ../shared/utils.c:447 ../shared/utils.c:543
 #, c-format
 msgid "property '%s' invalid or not supported"
 msgstr ""
 
-#: ../shared/utils.c:580
+#: ../shared/utils.c:596
 #, c-format
 msgid "'%s' not understood"
 msgstr ""
 
-#: ../shared/utils.c:606
+#: ../shared/utils.c:622
 #, c-format
 msgid "Expected a conn line before '%s'"
 msgstr ""
 
-#: ../shared/utils.c:612 ../shared/utils.c:627
+#: ../shared/utils.c:628 ../shared/utils.c:643
 #, c-format
 msgid "'%s' specified multiple times"
 msgstr ""
 
-#: ../shared/utils.c:676
+#: ../shared/utils.c:692
 #, c-format
 msgid "'%s' is not supported for '%s'"
 msgstr ""
@@ -639,18 +639,27 @@ msgid ""
 msgstr ""
 
 #: ../properties/nm-libreswan-dialog.ui.h:93
+msgid "Send certificate(rightca)"
+msgstr ""
+
+#: ../properties/nm-libreswan-dialog.ui.h:94
+msgid ""
+"Certificate Authority (CA) that signed the certificate of the remote host."
+msgstr ""
+
+#: ../properties/nm-libreswan-dialog.ui.h:95
 msgid "Other"
 msgstr "Diğer"
 
-#: ../properties/nm-libreswan-dialog.ui.h:94
+#: ../properties/nm-libreswan-dialog.ui.h:96
 msgid "Advanced Properties"
 msgstr "Gelişmiş Özellikler"
 
-#: ../properties/nm-libreswan-dialog.ui.h:95
+#: ../properties/nm-libreswan-dialog.ui.h:97
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: ../properties/nm-libreswan-dialog.ui.h:96
+#: ../properties/nm-libreswan-dialog.ui.h:98
 msgid "_Apply"
 msgstr "_Uygula"
 

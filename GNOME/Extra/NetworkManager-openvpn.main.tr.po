@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: network-manager-openvpn master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/NetworkManager-openvpn/"
 "issues\n"
-"POT-Creation-Date: 2025-09-10 22:15+0000\n"
+"POT-Creation-Date: 2025-10-07 07:56+0000\n"
 "PO-Revision-Date: 2024-05-01 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -49,6 +49,45 @@ msgstr "Gelişmiş seçenekler iletişim kutusu"
 msgid "The NetworkManager Developers"
 msgstr "NetworkManager Geliştiricileri"
 
+#: auth-dialog/main.c:186
+msgid "Authentication required"
+msgstr "Kimlik doğrulama gerekli"
+
+#: auth-dialog/main.c:193 properties/nm-openvpn-dialog.ui:336
+#: properties/nm-openvpn-dialog.ui:435 properties/nm-openvpn-editor.c:2768
+msgid "Password"
+msgstr "Parola"
+
+#: auth-dialog/main.c:200
+msgid "Certificate password"
+msgstr "Sertifika parolası"
+
+#: auth-dialog/main.c:207
+msgid "HTTP proxy password"
+msgstr "HTTP vekil sunucu parolası"
+
+#: auth-dialog/main.c:215
+msgid "Challenge response"
+msgstr "Sorgulama yanıtı"
+
+#: auth-dialog/main.c:255
+msgid "Authenticate VPN"
+msgstr "VPN Kimlik Doğrulaması"
+
+#: auth-dialog/main.c:264
+msgid "Certificate pass_word:"
+msgstr "Sertifika paro_lası:"
+
+#: auth-dialog/main.c:270
+msgid "_HTTP proxy password:"
+msgstr "_HTTP vekil sunucu parolası:"
+
+#: auth-dialog/main.c:559
+#, c-format
+msgid "You need to authenticate to access the Virtual Private Network “%s”."
+msgstr ""
+"“%s” Sanal Özel Ağına erişmek için kimlik doğrulaması yapmanız gerekiyor."
+
 # params[0],
 # nargs_min,
 # nargs_max
@@ -58,11 +97,296 @@ msgid "option %s expects between %u and %u argument"
 msgid_plural "option %s expects between %u and %u arguments"
 msgstr[0] "%s seçeneği %u - %u arası argüman bekliyor"
 
+#: properties/import-export.c:188
+#, c-format
+msgid "option %s expects no arguments"
+msgstr "“%s” seçeneği hiçbir argüman beklemiyor"
+
 #: properties/import-export.c:190
 #, c-format
 msgid "option %s expects exactly one argument"
 msgid_plural "option %s expects exactly %u arguments"
 msgstr[0] "%s seçeneği tam olarak %u argüman bekliyor"
+
+# argument_name,
+# params[0]
+#: properties/import-export.c:219
+#, c-format
+msgid "argument %s of “%s” can not be empty"
+msgstr "“%2$s” argümanı %1$s boş olamaz"
+
+#: properties/import-export.c:221
+#, c-format
+msgid "argument of “%s” can not be empty"
+msgstr "“%s” argümanı boş olamaz"
+
+# argument_name,
+# params[0]
+#: properties/import-export.c:237
+#, c-format
+msgid "argument %s of “%s” must be UTF-8 encoded"
+msgstr "“%2$s” argümanı %1$s UTF-8 olarak kodlanmalı"
+
+#: properties/import-export.c:239
+#, c-format
+msgid "argument of “%s” must be UTF-8 encoded"
+msgstr "“%s” argümanı UTF-8 olarak kodlanmalı"
+
+# n_param,
+# params[0]
+#: properties/import-export.c:263
+#, c-format
+msgid "invalid %uth argument to “%s” where number expected"
+msgstr "“%2$s” için geçersiz %1$u. argüman, sayı bekleniyordu"
+
+# n_param,
+# params[n_param],
+# params[0]
+#. we don't support these special destinations, as they currently cannot be expressed
+#. * in a connection.
+#: properties/import-export.c:304
+#, c-format
+msgid "unsupported %uth argument %s to “%s”"
+msgstr "“%3$s” için desteklenmeyen %1$u. %2$s argümanı"
+
+# n_param,
+# params[0]
+#. we also don't support specifing a FQDN.
+#: properties/import-export.c:322
+#, c-format
+msgid ""
+"unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+"address supported"
+msgstr ""
+"“%2$s” için desteklenmeyen %1$u. argümanı, FQDN'ye benziyor ama yalnızca "
+"IPv4 adresleri destekleniyor"
+
+# n_param,
+# params[0]
+#: properties/import-export.c:329
+#, c-format
+msgid "invalid %uth argument to “%s” where IPv4 address expected"
+msgstr "“%2$s” için geçersiz %1$u. argüman, IPv4 adresi bekleniyordu"
+
+# n_param,
+# params[0]
+#: properties/import-export.c:354
+#, c-format
+msgid "invalid %uth key-direction argument to “%s”"
+msgstr "“%2$s” için geçersiz %1$u. key-direction argümanı"
+
+# n_param,
+# params[0]
+#: properties/import-export.c:368
+#, c-format
+msgid "invalid %uth argument to “%s”"
+msgstr "“%2$s” için geçersiz %1$u. argüman"
+
+#: properties/import-export.c:483
+#, c-format
+msgid "unterminated %s at position %lld"
+msgstr "%2$lld konumunda sonlandırılmamış %1$s"
+
+#: properties/import-export.c:484
+msgid "double quote"
+msgstr "çift tırnak"
+
+#: properties/import-export.c:484
+msgid "single quote"
+msgstr "tek tırnak"
+
+#: properties/import-export.c:500
+#, c-format
+msgid "trailing escaping backslash at position %lld"
+msgstr "%lld konumunda ters bölme işaretinden kaçış yaşandı"
+
+#: properties/import-export.c:630
+msgid "unable to read HTTP proxy auth file"
+msgstr "HTTP vekil sunucu yetkilendirme dosyası okunamadı"
+
+#: properties/import-export.c:648
+msgid "cannot read user/password from HTTP proxy auth file"
+msgstr ""
+"HTTP vekil sunucu yetkilendirme dosyasından kullanıcı/parola bilgileri "
+"okunamadı"
+
+#: properties/import-export.c:656
+msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+msgstr ""
+"HTTP vekil sunucu kimlik doğrulama dosyasındaki kullanıcı/parola bilgisi "
+"UTF-8 olarak kodlanmalı"
+
+#: properties/import-export.c:720
+#, c-format
+msgid "“%s” is not a directory"
+msgstr "“%s” dizin değil"
+
+#: properties/import-export.c:728
+#, c-format
+msgid "cannot create “%s” directory"
+msgstr "“%s” dizini oluşturulamadı"
+
+# data->token,
+# data->token_start_line,
+# err_msg
+#: properties/import-export.c:748
+#, c-format
+msgid "cannot write <%s> blob from line %ld to file (%s)"
+msgstr "%2$ld satırındaki <%1$s> blob dosyaya yazılamadı (%3$s)"
+
+# data->token,
+# data->token_start_line,
+# data->path
+#: properties/import-export.c:765
+#, c-format
+msgid "cannot write <%s> blob from line %ld to file “%s”"
+msgstr "%2$ld satırındaki <%1$s> blob “%3$s” dosyasına yazılamadı"
+
+#: properties/import-export.c:909
+msgid "proto expects protocol type like “udp” or “tcp”"
+msgstr "proto, “udp” veya “tcp” gibi iletişim kuralı türü bekler"
+
+#: properties/import-export.c:934
+msgid "unsupported mtu-disc argument"
+msgstr "desteklenmeyen mtu-disc argümanı"
+
+#: properties/import-export.c:950
+msgid "unsupported crl-verify argument"
+msgstr "desteklenmeyen crl-verify argümanı"
+
+#: properties/import-export.c:968 properties/import-export.c:1457
+msgid "invalid option"
+msgstr "geçersiz seçenek"
+
+#: properties/import-export.c:1009
+msgid "allow-compression: invalid argument"
+msgstr "allow-compression: geçersiz argüman"
+
+#: properties/import-export.c:1031
+msgid "unsupported comp-lzo argument"
+msgstr "desteklenmeyen comp-lzo argümanı"
+
+#: properties/import-export.c:1043
+msgid "unsupported compress argument"
+msgstr "desteklenmeyen sıkıştırma argümanı"
+
+#: properties/import-export.c:1144
+msgid "remote cannot contain space"
+msgstr "uzak boşluk içeremez"
+
+#: properties/import-export.c:1148
+msgid "remote cannot contain comma"
+msgstr "uzak virgül içeremez"
+
+#: properties/import-export.c:1159
+msgid "remote expects protocol type like “udp” or “tcp”"
+msgstr "uzak, “udp” veya “tcp” gibi bir iletişim kuralı türü ister"
+
+#: properties/import-export.c:1271
+#, c-format
+msgid "invalid keyword “%s” in tls-version-min"
+msgstr "tls-version-min içinde geçersiz anahtar sözcük “%s”"
+
+#: properties/import-export.c:1441
+msgid "invalid verify-x509-name type"
+msgstr "geçersiz verify-x509-name türü"
+
+#: properties/import-export.c:1577
+msgid "unsupported blob/xml element"
+msgstr "desteklenmeyen blob/xml ögesi"
+
+#: properties/import-export.c:1606
+#, c-format
+msgid "unterminated blob element <%s>"
+msgstr "sonlandırılmamış blob ögesi <%s>"
+
+# alt satırdaki cümle ilk %s yerine ekleniyor,
+# contents_cur_line %ld
+# açıkçası split sentence
+#: properties/import-export.c:1662
+#, c-format
+msgid "configuration error: %s (line %ld)"
+msgstr "yapılandırma hatası: %s (satır %ld)"
+
+#: properties/import-export.c:1663
+msgid "unknown or unsupported option"
+msgstr "bilinmeyen ya da desteklenmeyen seçenek"
+
+#: properties/import-export.c:1678
+msgid "The file to import wasn’t a valid OpenVPN client configuration"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN istemci yapılandırması değil"
+
+#: properties/import-export.c:1686
+msgid "The file to import wasn’t a valid OpenVPN configuration (no remote)"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (uzak "
+"olmayan)"
+
+#: properties/import-export.c:1697
+msgid ""
+"The file to import wasn’t a valid OpenVPN configuration (--pkcs12 can not be "
+"used with --cert or --key)"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--"
+"pkcs12 seçeneği, --cert ya da --key ile birlikte kullanılamaz)"
+
+#: properties/import-export.c:1707
+msgid ""
+"The file to import wasn’t a valid OpenVPN configuration (--ca can not be "
+"PKCS#12 format)"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--ca "
+"seçeneği, PKCS#12 biçiminde olamaz)"
+
+#: properties/import-export.c:1716
+msgid "The file to import wasn’t a valid OpenVPN configuration (missing --ca)"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--ca "
+"seçeneği eksik)"
+
+#: properties/import-export.c:1726
+msgid ""
+"The file to import wasn’t a valid OpenVPN configuration (if you use one of --"
+"cert or --key, you must use them both)"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (eğer --"
+"cert ya da --key seçeneklerinden birini kullanırsanız, ikisini birden "
+"kullanmalısınız)"
+
+#: properties/import-export.c:1737
+msgid ""
+"The file to import wasn’t a valid OpenVPN configuration (--cert can not be "
+"PKCS#12 format.)"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--cert "
+"seçeneği PKCS#12 biçiminde olamaz.)"
+
+#: properties/import-export.c:1745
+msgid ""
+"The file to import wasn’t a valid OpenVPN configuration (--key can not be "
+"PKCS#12 format.)"
+msgstr ""
+"İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--key "
+"seçeneği PKCS#12 biçiminde olamaz.)"
+
+#: properties/import-export.c:1999
+msgid "missing path argument"
+msgstr "kayıp yol argümanı"
+
+#: properties/import-export.c:2009
+msgid "connection is not a valid OpenVPN connection"
+msgstr "bağlantı, geçerli OpenVPN bağlantısı değil"
+
+#: properties/import-export.c:2018
+msgid "connection was incomplete (missing gateway)"
+msgstr "bağlantı tamamlanamadı (eksik ağ geçidi)"
+
+# local->message
+#: properties/import-export.c:2399
+#, c-format
+msgid "failed to write file: %s"
+msgstr "dosyaya yazılamadı: %s"
 
 #: properties/nm-openvpn-dialog.ui:73
 msgid "Asymmetric"
@@ -96,7 +420,8 @@ msgstr "LZO devre dışı (eski)"
 msgid "LZO adaptive (legacy)"
 msgstr "LZO uyarlanır (eski)"
 
-#: properties/nm-openvpn-dialog.ui:126
+#: properties/nm-openvpn-dialog.ui:126 properties/nm-openvpn-editor.c:379
+#: properties/nm-openvpn-editor.c:1021 properties/nm-openvpn-editor.c:1835
 msgid "None"
 msgstr "Hiçbiri"
 
@@ -158,10 +483,6 @@ msgstr "CA"
 msgid "User"
 msgstr "Kullanıcı"
 
-#: properties/nm-openvpn-dialog.ui:336 properties/nm-openvpn-dialog.ui:435
-msgid "Password"
-msgstr "Parola"
-
 #: properties/nm-openvpn-dialog.ui:348 properties/nm-openvpn-dialog.ui:447
 msgid "User name"
 msgstr "Kullanıcı adı"
@@ -196,7 +517,7 @@ msgstr "Yerel IP Adresi"
 msgid "Key Direction"
 msgstr "Anahtar Yönü"
 
-#: properties/nm-openvpn-dialog.ui:582
+#: properties/nm-openvpn-dialog.ui:582 properties/nm-openvpn-editor.c:2795
 msgid "Static Key"
 msgstr "Sabit Anahtar"
 
@@ -250,7 +571,7 @@ msgstr "Bir kimlik doğrulama kipi seçin."
 msgid "Ad_vanced…"
 msgstr "Ge_lişmiş…"
 
-#: properties/nm-openvpn-dialog.ui:852
+#: properties/nm-openvpn-dialog.ui:852 properties/nm-openvpn-editor.c:1626
 msgid "Not required"
 msgstr "Gerekli değil"
 
@@ -648,7 +969,7 @@ msgstr ""
 "iptal edilmiş seri numaraları olarak adlandırılmış dosyalar içermelidir "
 "(dosyalar boş olabilir, içerikler asla okunmaz)."
 
-#: properties/nm-openvpn-dialog.ui:1830
+#: properties/nm-openvpn-dialog.ui:1830 properties/nm-openvpn-editor.c:103
 msgid "(None)"
 msgstr "(Hiçbiri)"
 
@@ -1043,564 +1364,387 @@ msgstr "Anahtar dosyası seç"
 msgid "Choose extra certificate file"
 msgstr "Ek sertifika dosyası seç"
 
-#~ msgid "Authentication required"
-#~ msgstr "Kimlik doğrulama gerekli"
+#: properties/nm-openvpn-editor.c:785
+msgid "OpenVPN Static Keys (*.key)"
+msgstr "OpenVPN Statik Anahtarları (*.key)"
 
-#~ msgid "Certificate password"
-#~ msgstr "Sertifika parolası"
+#: properties/nm-openvpn-editor.c:944 properties/nm-openvpn-editor.c:1038
+msgid "Default"
+msgstr "Öntanımlı"
 
-#~ msgid "HTTP proxy password"
-#~ msgstr "HTTP vekil sunucu parolası"
+#: properties/nm-openvpn-editor.c:1022
+msgid "RSA MD-4"
+msgstr "RSA MD-4"
 
-#~ msgid "Challenge response"
-#~ msgstr "Sorgulama yanıtı"
+#: properties/nm-openvpn-editor.c:1023
+msgid "MD-5"
+msgstr "MD-5"
 
-#~ msgid "Authenticate VPN"
-#~ msgstr "VPN Kimlik Doğrulaması"
+#: properties/nm-openvpn-editor.c:1024
+msgid "SHA-1"
+msgstr "SHA-1"
 
-#~ msgid "Certificate pass_word:"
-#~ msgstr "Sertifika paro_lası:"
+#: properties/nm-openvpn-editor.c:1025
+msgid "SHA-224"
+msgstr "SHA-224"
 
-#~ msgid "_HTTP proxy password:"
-#~ msgstr "_HTTP vekil sunucu parolası:"
+#: properties/nm-openvpn-editor.c:1026
+msgid "SHA-256"
+msgstr "SHA-256"
 
+#: properties/nm-openvpn-editor.c:1027
+msgid "SHA-384"
+msgstr "SHA-384"
+
+#: properties/nm-openvpn-editor.c:1028
+msgid "SHA-512"
+msgstr "SHA-512"
+
+#: properties/nm-openvpn-editor.c:1029
+msgid "RIPEMD-160"
+msgstr "RIPEMD-160"
+
+#: properties/nm-openvpn-editor.c:1087
+msgid "Don’t verify certificate identification"
+msgstr "Sertifika kimliğini doğrulama"
+
+#: properties/nm-openvpn-editor.c:1093
+msgid "Verify whole subject exactly"
+msgstr "Tüm konuyu tıpatıp doğrula"
+
+#: properties/nm-openvpn-editor.c:1099
+msgid "Verify name exactly"
+msgstr "Adı tıpatıp doğrula"
+
+#: properties/nm-openvpn-editor.c:1105
+msgid "Verify name by prefix"
+msgstr "Adı ön eke göre doğrula"
+
+#: properties/nm-openvpn-editor.c:1111
+msgid "Verify subject partially (legacy mode, strongly discouraged)"
+msgstr "Konuyu kısmen doğrula (eski kip, şiddetle önerilmez)"
+
+#: properties/nm-openvpn-editor.c:1224 properties/nm-openvpn-editor.c:1296
+msgid "Server"
+msgstr "Sunucu"
+
+#: properties/nm-openvpn-editor.c:1229 properties/nm-openvpn-editor.c:1301
+msgid "Client"
+msgstr "İstemci"
+
+#: properties/nm-openvpn-editor.c:1628
+msgid "HTTP"
+msgstr "HTTP"
+
+#: properties/nm-openvpn-editor.c:1630
+msgid "SOCKS"
+msgstr "SOCKS"
+
+#: properties/nm-openvpn-editor.c:1745
+msgid "TUN"
+msgstr "TUN"
+
+#: properties/nm-openvpn-editor.c:1747
+msgid "TAP"
+msgstr "TAP"
+
+#. interface name is max 15 chars
+#: properties/nm-openvpn-editor.c:1754
+msgid "(automatic)"
+msgstr "(kendiliğinden)"
+
+#: properties/nm-openvpn-editor.c:1926
+msgid "ping-exit"
+msgstr "ping-exit"
+
+#: properties/nm-openvpn-editor.c:1928
+msgid "ping-restart"
+msgstr "ping-restart"
+
+#: properties/nm-openvpn-editor.c:2757
+msgid "Certificates (TLS)"
+msgstr "Sertifikalar (TLS)"
+
+#: properties/nm-openvpn-editor.c:2782
+msgid "Password with Certificates (TLS)"
+msgstr "Sertifika ile Parola (TLS)"
+
+#: properties/nm-openvpn-editor.c:2938
+msgid "could not load UI widget"
+msgstr "UI parçacığı yüklenemedi"
+
+#: properties/nm-openvpn-editor-plugin.c:38
+msgid "OpenVPN"
+msgstr "OpenVPN"
+
+#: properties/nm-openvpn-editor-plugin.c:39
+msgid "Compatible with the OpenVPN server."
+msgstr "OpenVPN sunucusu ile uyumludur."
+
+#: shared/nm-utils/nm-shared-utils.c:946
 #, c-format
-#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
-#~ msgstr ""
-#~ "“%s” Sanal Özel Ağına erişmek için kimlik doğrulaması yapmanız gerekiyor."
+msgid "object class '%s' has no property named '%s'"
+msgstr "'%s' nesne sınıfının '%s' adlı özelliği yok"
 
+#: shared/nm-utils/nm-shared-utils.c:953
 #, c-format
-#~ msgid "option %s expects no arguments"
-#~ msgstr "“%s” seçeneği hiçbir argüman beklemiyor"
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "'%2$s' nesne sınıfının '%1$s' özelliği yazılabilir değil"
 
-# argument_name,
-# params[0]
+#: shared/nm-utils/nm-shared-utils.c:960
 #, c-format
-#~ msgid "argument %s of “%s” can not be empty"
-#~ msgstr "“%2$s” argümanı %1$s boş olamaz"
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr "'%2$s' nesnesi için \"%1$s\" kurgu özelliği inşadan sonra ayarlanamaz"
 
+#: shared/nm-utils/nm-shared-utils.c:968
 #, c-format
-#~ msgid "argument of “%s” can not be empty"
-#~ msgstr "“%s” argümanı boş olamaz"
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"'%s::%s' geçerli bir özellik adı değil; '%s' bir GObject alt türü değil"
 
-# argument_name,
-# params[0]
+#: shared/nm-utils/nm-shared-utils.c:977
 #, c-format
-#~ msgid "argument %s of “%s” must be UTF-8 encoded"
-#~ msgstr "“%2$s” argümanı %1$s UTF-8 olarak kodlanmalı"
-
-#, c-format
-#~ msgid "argument of “%s” must be UTF-8 encoded"
-#~ msgstr "“%s” argümanı UTF-8 olarak kodlanmalı"
-
-# n_param,
-# params[0]
-#, c-format
-#~ msgid "invalid %uth argument to “%s” where number expected"
-#~ msgstr "“%2$s” için geçersiz %1$u. argüman, sayı bekleniyordu"
-
-# n_param,
-# params[n_param],
-# params[0]
-#, c-format
-#~ msgid "unsupported %uth argument %s to “%s”"
-#~ msgstr "“%3$s” için desteklenmeyen %1$u. %2$s argümanı"
-
-# n_param,
-# params[0]
-#, c-format
-#~ msgid ""
-#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
-#~ "address supported"
-#~ msgstr ""
-#~ "“%2$s” için desteklenmeyen %1$u. argümanı, FQDN'ye benziyor ama yalnızca "
-#~ "IPv4 adresleri destekleniyor"
-
-# n_param,
-# params[0]
-#, c-format
-#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
-#~ msgstr "“%2$s” için geçersiz %1$u. argüman, IPv4 adresi bekleniyordu"
-
-# n_param,
-# params[0]
-#, c-format
-#~ msgid "invalid %uth key-direction argument to “%s”"
-#~ msgstr "“%2$s” için geçersiz %1$u. key-direction argümanı"
-
-# n_param,
-# params[0]
-#, c-format
-#~ msgid "invalid %uth argument to “%s”"
-#~ msgstr "“%2$s” için geçersiz %1$u. argüman"
-
-#, c-format
-#~ msgid "unterminated %s at position %lld"
-#~ msgstr "%2$lld konumunda sonlandırılmamış %1$s"
-
-#~ msgid "double quote"
-#~ msgstr "çift tırnak"
-
-#~ msgid "single quote"
-#~ msgstr "tek tırnak"
-
-#, c-format
-#~ msgid "trailing escaping backslash at position %lld"
-#~ msgstr "%lld konumunda ters bölme işaretinden kaçış yaşandı"
-
-#~ msgid "unable to read HTTP proxy auth file"
-#~ msgstr "HTTP vekil sunucu yetkilendirme dosyası okunamadı"
-
-#~ msgid "cannot read user/password from HTTP proxy auth file"
-#~ msgstr ""
-#~ "HTTP vekil sunucu yetkilendirme dosyasından kullanıcı/parola bilgileri "
-#~ "okunamadı"
-
-#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
-#~ msgstr ""
-#~ "HTTP vekil sunucu kimlik doğrulama dosyasındaki kullanıcı/parola bilgisi "
-#~ "UTF-8 olarak kodlanmalı"
-
-#, c-format
-#~ msgid "“%s” is not a directory"
-#~ msgstr "“%s” dizin değil"
-
-#, c-format
-#~ msgid "cannot create “%s” directory"
-#~ msgstr "“%s” dizini oluşturulamadı"
-
-# data->token,
-# data->token_start_line,
-# err_msg
-#, c-format
-#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
-#~ msgstr "%2$ld satırındaki <%1$s> blob dosyaya yazılamadı (%3$s)"
-
-# data->token,
-# data->token_start_line,
-# data->path
-#, c-format
-#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
-#~ msgstr "%2$ld satırındaki <%1$s> blob “%3$s” dosyasına yazılamadı"
-
-#~ msgid "proto expects protocol type like “udp” or “tcp”"
-#~ msgstr "proto, “udp” veya “tcp” gibi iletişim kuralı türü bekler"
-
-#~ msgid "unsupported mtu-disc argument"
-#~ msgstr "desteklenmeyen mtu-disc argümanı"
-
-#~ msgid "unsupported crl-verify argument"
-#~ msgstr "desteklenmeyen crl-verify argümanı"
-
-#~ msgid "invalid option"
-#~ msgstr "geçersiz seçenek"
-
-#~ msgid "allow-compression: invalid argument"
-#~ msgstr "allow-compression: geçersiz argüman"
-
-#~ msgid "unsupported comp-lzo argument"
-#~ msgstr "desteklenmeyen comp-lzo argümanı"
-
-#~ msgid "unsupported compress argument"
-#~ msgstr "desteklenmeyen sıkıştırma argümanı"
-
-#~ msgid "remote cannot contain space"
-#~ msgstr "uzak boşluk içeremez"
-
-#~ msgid "remote cannot contain comma"
-#~ msgstr "uzak virgül içeremez"
-
-#~ msgid "remote expects protocol type like “udp” or “tcp”"
-#~ msgstr "uzak, “udp” veya “tcp” gibi bir iletişim kuralı türü ister"
-
-#, c-format
-#~ msgid "invalid keyword “%s” in tls-version-min"
-#~ msgstr "tls-version-min içinde geçersiz anahtar sözcük “%s”"
-
-#~ msgid "invalid verify-x509-name type"
-#~ msgstr "geçersiz verify-x509-name türü"
-
-#~ msgid "unsupported blob/xml element"
-#~ msgstr "desteklenmeyen blob/xml ögesi"
-
-#, c-format
-#~ msgid "unterminated blob element <%s>"
-#~ msgstr "sonlandırılmamış blob ögesi <%s>"
-
-# alt satırdaki cümle ilk %s yerine ekleniyor,
-# contents_cur_line %ld
-# açıkçası split sentence
-#, c-format
-#~ msgid "configuration error: %s (line %ld)"
-#~ msgstr "yapılandırma hatası: %s (satır %ld)"
-
-#~ msgid "unknown or unsupported option"
-#~ msgstr "bilinmeyen ya da desteklenmeyen seçenek"
-
-#~ msgid "The file to import wasn’t a valid OpenVPN client configuration"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN istemci yapılandırması "
-#~ "değil"
-
-#~ msgid "The file to import wasn’t a valid OpenVPN configuration (no remote)"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil "
-#~ "(uzak olmayan)"
-
-#~ msgid ""
-#~ "The file to import wasn’t a valid OpenVPN configuration (--pkcs12 can not "
-#~ "be used with --cert or --key)"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--"
-#~ "pkcs12 seçeneği, --cert ya da --key ile birlikte kullanılamaz)"
-
-#~ msgid ""
-#~ "The file to import wasn’t a valid OpenVPN configuration (--ca can not be "
-#~ "PKCS#12 format)"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--"
-#~ "ca seçeneği, PKCS#12 biçiminde olamaz)"
-
-#~ msgid ""
-#~ "The file to import wasn’t a valid OpenVPN configuration (missing --ca)"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--"
-#~ "ca seçeneği eksik)"
-
-#~ msgid ""
-#~ "The file to import wasn’t a valid OpenVPN configuration (if you use one "
-#~ "of --cert or --key, you must use them both)"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil "
-#~ "(eğer --cert ya da --key seçeneklerinden birini kullanırsanız, ikisini "
-#~ "birden kullanmalısınız)"
-
-#~ msgid ""
-#~ "The file to import wasn’t a valid OpenVPN configuration (--cert can not "
-#~ "be PKCS#12 format.)"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--"
-#~ "cert seçeneği PKCS#12 biçiminde olamaz.)"
-
-#~ msgid ""
-#~ "The file to import wasn’t a valid OpenVPN configuration (--key can not be "
-#~ "PKCS#12 format.)"
-#~ msgstr ""
-#~ "İçe aktarılacak olan dosya, geçerli bir OpenVPN yapılandırması değil (--"
-#~ "key seçeneği PKCS#12 biçiminde olamaz.)"
-
-#~ msgid "missing path argument"
-#~ msgstr "kayıp yol argümanı"
-
-#~ msgid "connection is not a valid OpenVPN connection"
-#~ msgstr "bağlantı, geçerli OpenVPN bağlantısı değil"
-
-#~ msgid "connection was incomplete (missing gateway)"
-#~ msgstr "bağlantı tamamlanamadı (eksik ağ geçidi)"
-
-# local->message
-#, c-format
-#~ msgid "failed to write file: %s"
-#~ msgstr "dosyaya yazılamadı: %s"
-
-#~ msgid "OpenVPN Static Keys (*.key)"
-#~ msgstr "OpenVPN Statik Anahtarları (*.key)"
-
-#~ msgid "Default"
-#~ msgstr "Öntanımlı"
-
-#~ msgid "RSA MD-4"
-#~ msgstr "RSA MD-4"
-
-#~ msgid "MD-5"
-#~ msgstr "MD-5"
-
-#~ msgid "SHA-1"
-#~ msgstr "SHA-1"
-
-#~ msgid "SHA-224"
-#~ msgstr "SHA-224"
-
-#~ msgid "SHA-256"
-#~ msgstr "SHA-256"
-
-#~ msgid "SHA-384"
-#~ msgstr "SHA-384"
-
-#~ msgid "SHA-512"
-#~ msgstr "SHA-512"
-
-#~ msgid "RIPEMD-160"
-#~ msgstr "RIPEMD-160"
-
-#~ msgid "Don’t verify certificate identification"
-#~ msgstr "Sertifika kimliğini doğrulama"
-
-#~ msgid "Verify whole subject exactly"
-#~ msgstr "Tüm konuyu tıpatıp doğrula"
-
-#~ msgid "Verify name exactly"
-#~ msgstr "Adı tıpatıp doğrula"
-
-#~ msgid "Verify name by prefix"
-#~ msgstr "Adı ön eke göre doğrula"
-
-#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
-#~ msgstr "Konuyu kısmen doğrula (eski kip, şiddetle önerilmez)"
-
-#~ msgid "Server"
-#~ msgstr "Sunucu"
-
-#~ msgid "Client"
-#~ msgstr "İstemci"
-
-#~ msgid "HTTP"
-#~ msgstr "HTTP"
-
-#~ msgid "SOCKS"
-#~ msgstr "SOCKS"
-
-#~ msgid "TUN"
-#~ msgstr "TUN"
-
-#~ msgid "TAP"
-#~ msgstr "TAP"
-
-#~ msgid "(automatic)"
-#~ msgstr "(kendiliğinden)"
-
-#~ msgid "ping-exit"
-#~ msgstr "ping-exit"
-
-#~ msgid "ping-restart"
-#~ msgstr "ping-restart"
-
-#~ msgid "Certificates (TLS)"
-#~ msgstr "Sertifikalar (TLS)"
-
-#~ msgid "Password with Certificates (TLS)"
-#~ msgstr "Sertifika ile Parola (TLS)"
-
-#~ msgid "could not load UI widget"
-#~ msgstr "UI parçacığı yüklenemedi"
-
-#~ msgid "OpenVPN"
-#~ msgstr "OpenVPN"
-
-#~ msgid "Compatible with the OpenVPN server."
-#~ msgstr "OpenVPN sunucusu ile uyumludur."
-
-#, c-format
-#~ msgid "object class '%s' has no property named '%s'"
-#~ msgstr "'%s' nesne sınıfının '%s' adlı özelliği yok"
-
-#, c-format
-#~ msgid "property '%s' of object class '%s' is not writable"
-#~ msgstr "'%2$s' nesne sınıfının '%1$s' özelliği yazılabilir değil"
-
-#, c-format
-#~ msgid ""
-#~ "construct property \"%s\" for object '%s' can't be set after construction"
-#~ msgstr ""
-#~ "'%2$s' nesnesi için \"%1$s\" kurgu özelliği inşadan sonra ayarlanamaz"
-
-#, c-format
-#~ msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
-#~ msgstr ""
-#~ "'%s::%s' geçerli bir özellik adı değil; '%s' bir GObject alt türü değil"
-
-#, c-format
-#~ msgid "unable to set property '%s' of type '%s' from value of type '%s'"
-#~ msgstr ""
-#~ "'%2$s' türündeki '%1$s' özelliğinin '%3$s' türünden değeri ayarlanamadı"
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"'%2$s' türündeki '%1$s' özelliğinin '%3$s' türünden değeri ayarlanamadı"
 
 # contents,
 # G_VALUE_TYPE_NAME (value),
 # pspec->name,
 # g_type_name (pspec->value_type)
+#: shared/nm-utils/nm-shared-utils.c:988
 #, c-format
-#~ msgid ""
-#~ "value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
-#~ "type '%s'"
-#~ msgstr ""
-#~ "'%2$s' türünde \"%1$s\" değeri geçersiz veya '%4$s' türünde '%3$s' "
-#~ "özelliği için aralık dışında"
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"'%2$s' türünde \"%1$s\" değeri geçersiz veya '%4$s' türünde '%3$s' özelliği "
+"için aralık dışında"
 
+#: shared/nm-utils/nm-vpn-plugin-utils.c:69
 #, c-format
-#~ msgid "unable to get editor plugin name: %s"
-#~ msgstr "düzenleyici eklenti adı alınamadı: %s"
+msgid "unable to get editor plugin name: %s"
+msgstr "düzenleyici eklenti adı alınamadı: %s"
 
+#: shared/nm-utils/nm-vpn-plugin-utils.c:103
 #, c-format
-#~ msgid "missing plugin file \"%s\""
-#~ msgstr "kayıp eklenti dosyası \"%s\""
+msgid "missing plugin file \"%s\""
+msgstr "kayıp eklenti dosyası \"%s\""
 
+#: shared/nm-utils/nm-vpn-plugin-utils.c:109
 #, c-format
-#~ msgid "cannot load editor plugin: %s"
-#~ msgstr "düzenleyici eklentisi yüklenemedi: %s"
+msgid "cannot load editor plugin: %s"
+msgstr "düzenleyici eklentisi yüklenemedi: %s"
 
+#: shared/nm-utils/nm-vpn-plugin-utils.c:118
 #, c-format
-#~ msgid "cannot load factory %s from plugin: %s"
-#~ msgstr "üretici %s eklentiden yüklenemedi: %s"
+msgid "cannot load factory %s from plugin: %s"
+msgstr "üretici %s eklentiden yüklenemedi: %s"
 
-#~ msgid "unknown error creating editor instance"
-#~ msgstr "düzenleyici örneği oluşturulurken bilinmeyen hata"
+#: shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "düzenleyici örneği oluşturulurken bilinmeyen hata"
 
+#: shared/utils.c:246
 #, c-format
-#~ msgid "invalid delimiter character '%c'"
-#~ msgstr "geçersiz ayırıcı karakter '%c'"
+msgid "invalid delimiter character '%c'"
+msgstr "geçersiz ayırıcı karakter '%c'"
 
-#~ msgid "invalid non-utf-8 character"
-#~ msgstr "geçersiz utf-8 olmayan karakter"
+#: shared/utils.c:253
+msgid "invalid non-utf-8 character"
+msgstr "geçersiz utf-8 olmayan karakter"
 
-#~ msgid "empty host"
-#~ msgstr "boş ana makine"
+#: shared/utils.c:281
+msgid "empty host"
+msgstr "boş ana makine"
 
-#~ msgid "invalid port"
-#~ msgstr "geçersiz bağlantı noktası"
+#: shared/utils.c:291
+msgid "invalid port"
+msgstr "geçersiz bağlantı noktası"
 
-#~ msgid "invalid protocol"
-#~ msgstr "geçersiz iletişim kuralı"
+#: shared/utils.c:302
+msgid "invalid protocol"
+msgstr "geçersiz iletişim kuralı"
 
+#: src/nm-openvpn-service.c:430
 #, c-format
-#~ msgid "invalid address “%s”"
-#~ msgstr "geçersiz adres “%s”."
+msgid "invalid address “%s”"
+msgstr "geçersiz adres “%s”."
 
 # key,
 # int_min,
 # int_max
+#: src/nm-openvpn-service.c:442
 #, c-format
-#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
-#~ msgstr "“%s” geçersiz bir tamsayı veya sınırların dışında [%d -> %d]"
+msgid "invalid integer property “%s” or out of range [%d -> %d]"
+msgstr "“%s” geçersiz bir tamsayı veya sınırların dışında [%d -> %d]"
 
+#. Translators: keep "yes" and "no" untranslated!
+#: src/nm-openvpn-service.c:453
 #, c-format
-#~ msgid "invalid boolean property “%s” (not yes or no)"
-#~ msgstr "“%s” geçersiz bir mantıksal sabit (evet veya hayır değil)"
+msgid "invalid boolean property “%s” (not yes or no)"
+msgstr "“%s” geçersiz bir mantıksal sabit (evet veya hayır değil)"
 
+#: src/nm-openvpn-service.c:460
 #, c-format
-#~ msgid "unhandled property “%s” type %s"
-#~ msgstr "tanınmayan özellik “%s” tür %s"
+msgid "unhandled property “%s” type %s"
+msgstr "tanınmayan özellik “%s” tür %s"
 
+#: src/nm-openvpn-service.c:471
 #, c-format
-#~ msgid "property “%s” invalid or not supported"
-#~ msgstr "“%s” özelliği geçersiz veya desteklenmiyor"
+msgid "property “%s” invalid or not supported"
+msgstr "“%s” özelliği geçersiz veya desteklenmiyor"
 
-#~ msgid "No VPN configuration options."
-#~ msgstr "VPN yapılandırma seçeneği bulunamadı."
+#: src/nm-openvpn-service.c:487
+msgid "No VPN configuration options."
+msgstr "VPN yapılandırma seçeneği bulunamadı."
 
-#~ msgid "A username is required."
-#~ msgstr "Bir kullanıcı adı gerekiyor."
+#: src/nm-openvpn-service.c:931
+msgid "A username is required."
+msgstr "Bir kullanıcı adı gerekiyor."
 
-#~ msgid "A password is required."
-#~ msgstr "Bir parola gerekiyor."
+#: src/nm-openvpn-service.c:944
+msgid "A password is required."
+msgstr "Bir parola gerekiyor."
 
-#~ msgid "A username and password are required."
-#~ msgstr "Bir kullanıcı adı ve parola gerekiyor."
+#: src/nm-openvpn-service.c:946
+msgid "A username and password are required."
+msgstr "Bir kullanıcı adı ve parola gerekiyor."
 
-#~ msgid "A private key password is required."
-#~ msgstr "Bir özel anahtar parolası gerekli."
+#: src/nm-openvpn-service.c:967
+msgid "A private key password is required."
+msgstr "Bir özel anahtar parolası gerekli."
 
-#~ msgid "An HTTP Proxy username is required."
-#~ msgstr "Bir HTTP Vekil Sunucu kullanıcı adı gerekiyor."
+#: src/nm-openvpn-service.c:980
+msgid "An HTTP Proxy username is required."
+msgstr "Bir HTTP Vekil Sunucu kullanıcı adı gerekiyor."
 
-#~ msgid "An HTTP Proxy password is required."
-#~ msgstr "Bir HTTP Vekil Sunucu kullanıcı parolası gerekiyor."
+#: src/nm-openvpn-service.c:984
+msgid "An HTTP Proxy password is required."
+msgstr "Bir HTTP Vekil Sunucu kullanıcı parolası gerekiyor."
 
-#~ msgid "An HTTP Proxy username and password are required."
-#~ msgstr "Bir HTTP Vekil Sunucu kullanıcı adı ve parolası gerekiyor."
+#: src/nm-openvpn-service.c:987
+msgid "An HTTP Proxy username and password are required."
+msgstr "Bir HTTP Vekil Sunucu kullanıcı adı ve parolası gerekiyor."
 
-#~ msgid ""
-#~ "Could not process the request because the VPN connection settings were "
-#~ "invalid."
-#~ msgstr "VPN bağlantı ayarları geçersiz olduğundan istek işlenemedi."
+#: src/nm-openvpn-service.c:1364 src/nm-openvpn-service.c:2200
+#: src/nm-openvpn-service.c:2235
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "VPN bağlantı ayarları geçersiz olduğundan istek işlenemedi."
 
-#~ msgid "Invalid connection type."
-#~ msgstr "Geçersiz bağlantı türü."
+#: src/nm-openvpn-service.c:1373 src/nm-openvpn-service.c:2209
+msgid "Invalid connection type."
+msgstr "Geçersiz bağlantı türü."
 
-#~ msgid "Could not find the openvpn binary."
-#~ msgstr "openvpn uygulaması bulunamadı."
+#: src/nm-openvpn-service.c:1391
+msgid "Could not find the openvpn binary."
+msgstr "openvpn uygulaması bulunamadı."
 
+#: src/nm-openvpn-service.c:1439
 #, c-format
-#~ msgid "Invalid port number “%s”."
-#~ msgstr "Geçersiz bağlantı noktası “%s”."
+msgid "Invalid port number “%s”."
+msgstr "Geçersiz bağlantı noktası “%s”."
 
+#: src/nm-openvpn-service.c:1459
 #, c-format
-#~ msgid "Invalid proto “%s”."
-#~ msgstr "Geçersiz proto “%s”."
+msgid "Invalid proto “%s”."
+msgstr "Geçersiz proto “%s”."
 
+#: src/nm-openvpn-service.c:1508
 #, c-format
-#~ msgid "Invalid proxy type “%s”."
-#~ msgstr "Geçersiz vekil sunucu türü “%s”."
+msgid "Invalid proxy type “%s”."
+msgstr "Geçersiz vekil sunucu türü “%s”."
 
+#: src/nm-openvpn-service.c:1606
 #, c-format
-#~ msgid "Invalid ping duration “%s”."
-#~ msgstr "Geçersiz ping süresi “%s”."
+msgid "Invalid ping duration “%s”."
+msgstr "Geçersiz ping süresi “%s”."
 
+#: src/nm-openvpn-service.c:1619
 #, c-format
-#~ msgid "Invalid ping-exit duration “%s”."
-#~ msgstr "Geçersiz ping-exit süresi “%s”."
+msgid "Invalid ping-exit duration “%s”."
+msgstr "Geçersiz ping-exit süresi “%s”."
 
+#: src/nm-openvpn-service.c:1632
 #, c-format
-#~ msgid "Invalid ping-restart duration “%s”."
-#~ msgstr "Geçersiz ping-restart süresi “%s”."
+msgid "Invalid ping-restart duration “%s”."
+msgstr "Geçersiz ping-restart süresi “%s”."
 
+#: src/nm-openvpn-service.c:1645
 #, c-format
-#~ msgid "Invalid connect timeout “%s”."
-#~ msgstr "Geçersiz bağlantı zaman aşımı “%s”."
+msgid "Invalid connect timeout “%s”."
+msgstr "Geçersiz bağlantı zaman aşımı “%s”."
 
+#: src/nm-openvpn-service.c:1670
 #, c-format
-#~ msgid "Invalid max-routes argument “%s”."
-#~ msgstr "Geçersiz max-routes argümanı “%s”."
+msgid "Invalid max-routes argument “%s”."
+msgstr "Geçersiz max-routes argümanı “%s”."
 
+#: src/nm-openvpn-service.c:1718
 #, c-format
-#~ msgid "Invalid keysize “%s”."
-#~ msgstr "Geçersiz anahtar boyutu “%s”."
+msgid "Invalid keysize “%s”."
+msgstr "Geçersiz anahtar boyutu “%s”."
 
-#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
-#~ msgstr "tls-remote ve verify-x509-name ile geçersiz yapılandırma."
+#: src/nm-openvpn-service.c:1790
+msgid "Invalid configuration with tls-remote and verify-x509-name."
+msgstr "tls-remote ve verify-x509-name ile geçersiz yapılandırma."
 
-#~ msgid "Invalid verify-x509-name."
-#~ msgstr "Geçersiz verify-x509-name."
+#: src/nm-openvpn-service.c:1803
+msgid "Invalid verify-x509-name."
+msgstr "Geçersiz verify-x509-name."
 
+#: src/nm-openvpn-service.c:1826
 #, c-format
-#~ msgid "Invalid reneg seconds “%s”."
-#~ msgstr "Geçersiz reneg süresi “%s”."
+msgid "Invalid reneg seconds “%s”."
+msgstr "Geçersiz reneg süresi “%s”."
 
+#: src/nm-openvpn-service.c:1856
 #, c-format
-#~ msgid "Invalid TUN MTU size “%s”."
-#~ msgstr "Geçersiz TUN MTU boyutu “%s”."
+msgid "Invalid TUN MTU size “%s”."
+msgstr "Geçersiz TUN MTU boyutu “%s”."
 
+#: src/nm-openvpn-service.c:1869
 #, c-format
-#~ msgid "Invalid fragment size “%s”."
-#~ msgstr "Geçersiz parça boyutu “%s”."
+msgid "Invalid fragment size “%s”."
+msgstr "Geçersiz parça boyutu “%s”."
 
+#: src/nm-openvpn-service.c:1979
 #, c-format
-#~ msgid "Unknown connection type “%s”."
-#~ msgstr "Bilinmeyen bağlantı türü “%s”."
+msgid "Unknown connection type “%s”."
+msgstr "Bilinmeyen bağlantı türü “%s”."
 
+#: src/nm-openvpn-service.c:1997
 #, c-format
-#~ msgid "User “%s” not found, check NM_OPENVPN_USER."
-#~ msgstr "“%s” kullanıcısı bulunamadı, NM_OPENVPN_USER değerini denetle."
+msgid "User “%s” not found, check NM_OPENVPN_USER."
+msgstr "“%s” kullanıcısı bulunamadı, NM_OPENVPN_USER değerini denetle."
 
+#: src/nm-openvpn-service.c:2009
 #, c-format
-#~ msgid "Group “%s” not found, check NM_OPENVPN_GROUP."
-#~ msgstr "“%s” kümesi bulunamadı, NM_OPENVPN_GROUP değerini denetle."
+msgid "Group “%s” not found, check NM_OPENVPN_GROUP."
+msgstr "“%s” kümesi bulunamadı, NM_OPENVPN_GROUP değerini denetle."
 
-#~ msgid "Unhandled pending authentication."
-#~ msgstr "İşlenmemiş bekleyen kimlik doğrulaması."
+#: src/nm-openvpn-service.c:2248
+msgid "Unhandled pending authentication."
+msgstr "İşlenmemiş bekleyen kimlik doğrulaması."
 
-#~ msgid "Don’t quit when VPN connection terminates"
-#~ msgstr "VPN bağlantısı sonlandığında çıkma"
+#: src/nm-openvpn-service.c:2366
+msgid "Don’t quit when VPN connection terminates"
+msgstr "VPN bağlantısı sonlandığında çıkma"
 
-#~ msgid "Enable verbose debug logging (may expose passwords)"
-#~ msgstr ""
-#~ "Ayrıntılı hata ayıklama günlüklemesini etkinleştir (parolaları görünür "
-#~ "yapabilir)"
+#: src/nm-openvpn-service.c:2367
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Ayrıntılı hata ayıklama günlüklemesini etkinleştir (parolaları görünür "
+"yapabilir)"
 
-#~ msgid "D-Bus name to use for this instance"
-#~ msgstr "Bu örnek için kullanılacak D-Bus adı"
+#: src/nm-openvpn-service.c:2368
+msgid "D-Bus name to use for this instance"
+msgstr "Bu örnek için kullanılacak D-Bus adı"
 
-#~ msgid ""
-#~ "nm-openvpn-service provides integrated OpenVPN capability to "
-#~ "NetworkManager."
-#~ msgstr ""
-#~ "nm-openvpn-service, NetworkManager’a tümleşik OpenVPN yeteneği sağlar."
+#: src/nm-openvpn-service.c:2394
+msgid ""
+"nm-openvpn-service provides integrated OpenVPN capability to NetworkManager."
+msgstr "nm-openvpn-service, NetworkManager’a tümleşik OpenVPN yeteneği sağlar."

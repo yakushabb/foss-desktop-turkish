@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/ptyxis/issues\n"
-"POT-Creation-Date: 2025-09-13 15:36+0000\n"
+"POT-Creation-Date: 2025-10-07 20:07+0000\n"
 "PO-Revision-Date: 2025-08-28 22:37+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -30,8 +30,8 @@ msgstr "@APP_NAME@"
 msgid "A container-oriented terminal for GNOME"
 msgstr "GNOME için konteyner odaklı uçbirim"
 
-#: data/org.gnome.Ptyxis.desktop.in.in:12 src/ptyxis-preferences-window.ui:655
-#: src/ptyxis-tab.c:1465 src/ptyxis-util.c:318
+#: data/org.gnome.Ptyxis.desktop.in.in:12 src/ptyxis-preferences-window.ui:669
+#: src/ptyxis-tab.c:1581 src/ptyxis-util.c:318
 msgid "Terminal"
 msgstr "Uçbirim"
 
@@ -43,17 +43,17 @@ msgstr ""
 "birim;istem;kabuk;komut;komut satırı;konteyner;"
 
 #: data/org.gnome.Ptyxis.desktop.in.in:23
-#: src/org.gnome.Ptyxis.gschema.xml.in:405 src/ptyxis-preferences-window.ui:720
+#: src/org.gnome.Ptyxis.gschema.xml.in:418 src/ptyxis-preferences-window.ui:734
 msgid "New Window"
 msgstr "Yeni Pencere"
 
 #: data/org.gnome.Ptyxis.desktop.in.in:27
-#: src/org.gnome.Ptyxis.gschema.xml.in:399 src/ptyxis-preferences-window.ui:746
+#: src/org.gnome.Ptyxis.gschema.xml.in:412 src/ptyxis-preferences-window.ui:760
 msgid "New Tab"
 msgstr "Yeni Sekme"
 
 #: data/org.gnome.Ptyxis.desktop.in.in:31
-#: src/org.gnome.Ptyxis.gschema.xml.in:417 src/ptyxis-preferences-window.ui:921
+#: src/org.gnome.Ptyxis.gschema.xml.in:430 src/ptyxis-preferences-window.ui:935
 msgid "Preferences"
 msgstr "Tercihler"
 
@@ -213,7 +213,7 @@ msgstr "Tüm Profillerin UUIDʼleri"
 msgid "A list of UUID for every profile"
 msgstr "Her profil için UUID listesi"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:308
+#: src/org.gnome.Ptyxis.gschema.xml.in:113 src/ptyxis-preferences-window.ui:322
 msgid "New Tab Position"
 msgstr "Yeni Sekme Konumu"
 
@@ -221,7 +221,7 @@ msgstr "Yeni Sekme Konumu"
 msgid "Where to place new tabs"
 msgstr "Yeni sekmelerin nereye konumlandırılacağı"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:119 src/ptyxis-preferences-window.ui:400
+#: src/org.gnome.Ptyxis.gschema.xml.in:119 src/ptyxis-preferences-window.ui:414
 msgid "Audible Bell"
 msgstr "Sesli Zil"
 
@@ -265,7 +265,7 @@ msgstr "Yazı Tipi Adı"
 msgid "The font description to use if use-system-font is set to False"
 msgstr "use-system-font False ayarlandığında kullanılacak yazı tipi açıklaması"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:149 src/ptyxis-preferences-window.ui:235
+#: src/org.gnome.Ptyxis.gschema.xml.in:149 src/ptyxis-preferences-window.ui:249
 msgid "Cursor Shape"
 msgstr "İmleç Biçimi"
 
@@ -320,7 +320,7 @@ msgstr "Arayüz Biçemi"
 msgid "If light or dark interface style should be used"
 msgstr "Açık veya koyu arayüz biçemi kullanılması gerekiyorsa"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:189 src/ptyxis-preferences-window.ui:337
+#: src/org.gnome.Ptyxis.gschema.xml.in:189 src/ptyxis-preferences-window.ui:351
 msgid "Restore Session"
 msgstr "Oturumu Geri Yükle"
 
@@ -328,7 +328,7 @@ msgstr "Oturumu Geri Yükle"
 msgid "Restore tabs from previous session when starting Ptyxis"
 msgstr "Ptyxis başlatırken önceki oturumdaki sekmeleri geri yükle"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:195 src/ptyxis-preferences-window.ui:343
+#: src/org.gnome.Ptyxis.gschema.xml.in:195 src/ptyxis-preferences-window.ui:357
 msgid "Restore Window Size"
 msgstr "Pencere Boyutunu Geri Yükle"
 
@@ -402,138 +402,146 @@ msgstr "OSC Başlığını Yok Say"
 msgid "If OSC title should be ignored in tab titles."
 msgstr "OSC başlığının sekme başlıklarında yok sayılması."
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:254
+#: src/org.gnome.Ptyxis.gschema.xml.in:250
+msgid "Inhibit Logout"
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:251
+msgid "Inhibit desktop logout when a foreground process is running in a tab."
+msgstr ""
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:260
 msgid "Label"
 msgstr "Etiket"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:255
+#: src/org.gnome.Ptyxis.gschema.xml.in:261
 msgid "The label for the profile"
 msgstr "Profil etiketi"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:260
+#: src/org.gnome.Ptyxis.gschema.xml.in:266
 msgid "Login Shell"
 msgstr "Giriş Kabuğu"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:261
+#: src/org.gnome.Ptyxis.gschema.xml.in:267
 msgid "Use a login shell"
 msgstr "Giriş kabuluğu kullan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:266 src/ptyxis-preferences-window.ui:468
-#: src/ptyxis-profile-editor.ui:319
+#: src/org.gnome.Ptyxis.gschema.xml.in:272 src/ptyxis-preferences-window.ui:482
+#: src/ptyxis-profile-editor.ui:333
 msgid "Limit Scrollback"
 msgstr "Geri Kaydırmayı Sınırla"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:267
+#: src/org.gnome.Ptyxis.gschema.xml.in:273
 msgid "Limit the number of lines to keep for scrollback"
 msgstr "Geri kaydırma için tutulacak satır sayısını sınırla"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:273 src/ptyxis-preferences-window.ui:477
-#: src/ptyxis-profile-editor.ui:328
+#: src/org.gnome.Ptyxis.gschema.xml.in:279 src/ptyxis-preferences-window.ui:491
+#: src/ptyxis-profile-editor.ui:342
 msgid "Scrollback Lines"
 msgstr "Geri Kaydırma Satır Sayısı"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:274
+#: src/org.gnome.Ptyxis.gschema.xml.in:280
 msgid "The number of lines to keep in the scrollback, zero for no scrollback"
 msgstr ""
 "Geri kaydırmada tutulacak satır sayısı, geri kaydırma olmaması için sıfır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:279 src/ptyxis-preferences-window.ui:458
-#: src/ptyxis-profile-editor.ui:309
+#: src/org.gnome.Ptyxis.gschema.xml.in:285 src/ptyxis-preferences-window.ui:472
+#: src/ptyxis-profile-editor.ui:323
 msgid "Scroll on Output"
 msgstr "Çıktıda Kaydır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:280
+#: src/org.gnome.Ptyxis.gschema.xml.in:286
 msgid "Scroll to the bottom upon new output"
 msgstr "Yeni çıktı olduğunda en alta kaydır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:285 src/ptyxis-preferences-window.ui:452
-#: src/ptyxis-profile-editor.ui:303
+#: src/org.gnome.Ptyxis.gschema.xml.in:291 src/ptyxis-preferences-window.ui:466
+#: src/ptyxis-profile-editor.ui:317
 msgid "Scroll on Keystroke"
 msgstr "Tuş Darbesi İle Kaydır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:286
+#: src/org.gnome.Ptyxis.gschema.xml.in:292
 msgid "Scroll to the bottom upon user keystroke"
 msgstr "Kullanıcı tuşa bastığında en alta kaydır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:291 src/ptyxis-profile-editor.ui:173
+#: src/org.gnome.Ptyxis.gschema.xml.in:297 src/ptyxis-profile-editor.ui:187
 msgid "Use Custom Command"
 msgstr "Özel Komut Kullan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:292
+#: src/org.gnome.Ptyxis.gschema.xml.in:298
 msgid "If a custom command should be used"
 msgstr "Özel komut kullanılması gerekiyorsa"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:297
+#: src/org.gnome.Ptyxis.gschema.xml.in:303
 msgid "Use Proxy"
 msgstr "Vekil Sunucu Kullan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:298
+#: src/org.gnome.Ptyxis.gschema.xml.in:304
 msgid "Apply proxy settings from the host in the container"
 msgstr "Konteynerdeki ana bilgisayardan vekil sunucu ayarlarını uygula"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:303 src/ptyxis-profile-editor.ui:178
+#: src/org.gnome.Ptyxis.gschema.xml.in:309 src/ptyxis-profile-editor.ui:192
 msgid "Custom Command"
 msgstr "Özel Komut"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:304
+#: src/org.gnome.Ptyxis.gschema.xml.in:310
 msgid "A custom command for the shell"
 msgstr "Kabuk için özel komut"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:309 src/ptyxis-profile-editor.ui:197
+#: src/org.gnome.Ptyxis.gschema.xml.in:315 src/ptyxis-profile-editor.ui:211
 msgid "Default Container"
 msgstr "Öntanımlı Konteyner"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:310
+#: src/org.gnome.Ptyxis.gschema.xml.in:316
 msgid "The default container to run the command in"
 msgstr "Komutun çalıştırılacağı öntanımlı konteyner"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:315 src/ptyxis-profile-editor.ui:206
+#: src/org.gnome.Ptyxis.gschema.xml.in:321 src/ptyxis-profile-editor.ui:220
 msgid "Preserve Container"
 msgstr "Konteyneri Koru"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:316
+#: src/org.gnome.Ptyxis.gschema.xml.in:322
 msgid "Preserve the active container when creating new tabs and windows"
 msgstr "Yeni sekme ve pencere oluştururken etkin konteyneri koru"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:321 src/ptyxis-preferences-window.ui:537
-#: src/ptyxis-profile-editor.ui:267
+#: src/org.gnome.Ptyxis.gschema.xml.in:327 src/ptyxis-preferences-window.ui:551
+#: src/ptyxis-profile-editor.ui:281
 msgid "Exit Action"
 msgstr "Çıkış Eylemi"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:322
+#: src/org.gnome.Ptyxis.gschema.xml.in:328
 msgid "The action to take when the shell exits"
 msgstr "Kabuk çıktığında gerçekleştirilecek eylem"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:327
+#: src/org.gnome.Ptyxis.gschema.xml.in:333
 msgid "Preserve Directory"
 msgstr "Dizini Koru"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:328
+#: src/org.gnome.Ptyxis.gschema.xml.in:334
 msgid "If the directory should be preserved for new terminals"
 msgstr "Dizin yeni uçbirimler için korunacaksa"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:333 src/ptyxis-inspector.ui:102
+#: src/org.gnome.Ptyxis.gschema.xml.in:339 src/ptyxis-inspector.ui:102
 #: src/ptyxis-preferences-window.ui:40 src/ptyxis-profile-editor.ui:65
 msgid "Palette"
 msgstr "Palet"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:334
+#: src/org.gnome.Ptyxis.gschema.xml.in:340
 msgid "The color palette to use for the profile, by name"
 msgstr "Profil için kullanılacak renk paleti, ada göre"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:340
+#: src/org.gnome.Ptyxis.gschema.xml.in:346
 msgid "Opacity"
 msgstr "Matlık"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:341
+#: src/org.gnome.Ptyxis.gschema.xml.in:347
 msgid "The opacity of the palette background"
 msgstr "Palet arka planının matlığı"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:346
+#: src/org.gnome.Ptyxis.gschema.xml.in:352
 msgid "Bold is Bright"
 msgstr "Koyular Parlak"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:347
+#: src/org.gnome.Ptyxis.gschema.xml.in:353
 msgid ""
 "Setting bold on one of the lower 8 colors in the palette will use bright "
 "variant (upper 8 colors)"
@@ -541,39 +549,52 @@ msgstr ""
 "Paletteki alt 8 renkten birine kalın ayarı yapılırsa parlak türevi (üst 8 "
 "renk) kullanılır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:353 src/ptyxis-preferences-window.ui:175
+#: src/org.gnome.Ptyxis.gschema.xml.in:359 src/ptyxis-preferences-window.ui:175
 #: src/ptyxis-profile-editor.ui:143
 msgid "Line Spacing"
 msgstr "Satır Aralığı"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:354
+#: src/org.gnome.Ptyxis.gschema.xml.in:360
 msgid "The terminal’s cell height scale"
 msgstr "Uçbirimin hücre yükseklik ölçeği"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:359
+#: src/org.gnome.Ptyxis.gschema.xml.in:366 src/ptyxis-preferences-window.ui:189
+#: src/ptyxis-profile-editor.ui:157
+#, fuzzy
+#| msgid "Line Spacing"
+msgid "Column Spacing"
+msgstr "Satır Aralığı"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:367
+#, fuzzy
+#| msgid "The terminal’s cell height scale"
+msgid "The terminal’s cell width scale"
+msgstr "Uçbirimin hücre yükseklik ölçeği"
+
+#: src/org.gnome.Ptyxis.gschema.xml.in:372
 msgid "CJK Ambiguous Width"
 msgstr "CJK Belirsiz Genişlik"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:360
+#: src/org.gnome.Ptyxis.gschema.xml.in:373
 msgid "The size to apply to ambiguous width characters"
 msgstr "Belirsiz genişlikteki karakterlere uygulanacak boyut"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:365
-#: src/org.gnome.Ptyxis.gschema.xml.in:371
+#: src/org.gnome.Ptyxis.gschema.xml.in:378
+#: src/org.gnome.Ptyxis.gschema.xml.in:384
 msgid "Backspace Binding"
 msgstr "Geri Silme Bağlama"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:366
-#: src/org.gnome.Ptyxis.gschema.xml.in:372
+#: src/org.gnome.Ptyxis.gschema.xml.in:379
+#: src/org.gnome.Ptyxis.gschema.xml.in:385
 msgid "What to send to the PTY when a backspace is entered"
 msgstr "Geri silme girildiğinde PTYʼye ne gönderilsin"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:377 src/ptyxis-preferences-window.ui:620
-#: src/ptyxis-profile-editor.ui:395
+#: src/org.gnome.Ptyxis.gschema.xml.in:390 src/ptyxis-preferences-window.ui:634
+#: src/ptyxis-profile-editor.ui:409
 msgid "Custom Links"
 msgstr "Özel Bağlantılar"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:378
+#: src/org.gnome.Ptyxis.gschema.xml.in:391
 msgid ""
 "A list of custom hyperlinks, each defined by a regular expression matching "
 "the text, and a replacement pattern"
@@ -581,306 +602,306 @@ msgstr ""
 "Her biri metin ve yerine koyma örüntüsüyle eşleşen bir düzenli deyimle "
 "tanımlanan özel bağlantıların listesi"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:387 src/ptyxis-preferences-window.ui:658
+#: src/org.gnome.Ptyxis.gschema.xml.in:400 src/ptyxis-preferences-window.ui:672
 msgid "Copy to Clipboard"
 msgstr "Panoya Kopyala"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:388
+#: src/org.gnome.Ptyxis.gschema.xml.in:401
 msgid "The shortcut to copy to clipboard"
 msgstr "Panoya kopyalamak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:393 src/ptyxis-preferences-window.ui:663
+#: src/org.gnome.Ptyxis.gschema.xml.in:406 src/ptyxis-preferences-window.ui:677
 msgid "Paste from Clipboard"
 msgstr "Panodan Yapıştır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:394
+#: src/org.gnome.Ptyxis.gschema.xml.in:407
 msgid "The shortcut to paste from the clipboard"
 msgstr "Panodan yapıştırmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:400
+#: src/org.gnome.Ptyxis.gschema.xml.in:413
 msgid "The shortcut to create a new tab in the current window"
 msgstr "Geçerli pencerede yeni sekme oluşturmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:406
+#: src/org.gnome.Ptyxis.gschema.xml.in:419
 msgid "The shortcut to create a new tab in a new window"
 msgstr "Yeni pencerede yeni sekme oluşturmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:411
+#: src/org.gnome.Ptyxis.gschema.xml.in:424
 msgid "Tab Overview"
 msgstr "Sekmeye Genel Görünümü"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:412
+#: src/org.gnome.Ptyxis.gschema.xml.in:425
 msgid "The shortcut to show the tab overview"
 msgstr "Sekme genel görünümünü göstermek için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:418
+#: src/org.gnome.Ptyxis.gschema.xml.in:431
 msgid "The shortcut to show application preferences"
 msgstr "Uygulama tercihlerini göstermek için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:423 src/ptyxis-preferences-window.ui:884
-#: src/ptyxis-window.c:1427 src/ptyxis-window.c:1435
+#: src/org.gnome.Ptyxis.gschema.xml.in:436 src/ptyxis-preferences-window.ui:898
+#: src/ptyxis-window.c:1432 src/ptyxis-window.c:1440
 msgid "Zoom Out"
 msgstr "Uzaklaştır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:424
+#: src/org.gnome.Ptyxis.gschema.xml.in:437
 msgid "The shortcut to zoom out"
 msgstr "Uzaklaştırma için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:429 src/ptyxis-preferences-window.ui:889
-#: src/ptyxis-window.c:1444
+#: src/org.gnome.Ptyxis.gschema.xml.in:442 src/ptyxis-preferences-window.ui:903
+#: src/ptyxis-window.c:1449
 msgid "Reset Zoom"
 msgstr "Yakınlaştırmayı Sıfırla"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:430
+#: src/org.gnome.Ptyxis.gschema.xml.in:443
 msgid "The shortcut to reset zoom"
 msgstr "Yakınlaştırmayı sıfırlamak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:435 src/ptyxis-preferences-window.ui:879
-#: src/ptyxis-window.c:1412 src/ptyxis-window.c:1420
+#: src/org.gnome.Ptyxis.gschema.xml.in:448 src/ptyxis-preferences-window.ui:893
+#: src/ptyxis-window.c:1417 src/ptyxis-window.c:1425
 msgid "Zoom In"
 msgstr "Yakınlaştır"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:436
+#: src/org.gnome.Ptyxis.gschema.xml.in:449
 msgid "The shortcut to zoom in"
 msgstr "Yakınlaştırma için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:441 src/ptyxis-preferences-window.ui:899
+#: src/org.gnome.Ptyxis.gschema.xml.in:454 src/ptyxis-preferences-window.ui:913
 msgid "Toggle Fullscreen"
 msgstr "Tam Ekranı Aç/Kapat"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:442
+#: src/org.gnome.Ptyxis.gschema.xml.in:455
 msgid "The shortcut to toggle fullscreen"
 msgstr "Tam ekranı açıp/kapatmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:447
+#: src/org.gnome.Ptyxis.gschema.xml.in:460
 msgid "Reset Terminal"
 msgstr "Uçbirimi Sıfırla"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:448
+#: src/org.gnome.Ptyxis.gschema.xml.in:461
 msgid "Reset the terminal state for misbehaving clients"
 msgstr "Hatalı davranan istemciler için uçbirim durumunu sıfırla"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:453
+#: src/org.gnome.Ptyxis.gschema.xml.in:466
 msgid "Reset Terminal and Clear History"
 msgstr "Uçbirimi Sıfırla ve Geçmişi Temizle"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:454
+#: src/org.gnome.Ptyxis.gschema.xml.in:467
 msgid "Reset the terminal state and clear history for misbehaving clients"
 msgstr ""
 "Hatalı davranan istemciler için uçbirim durumunu sıfırla ve geçmişi temizle"
 
 #. Translators: Refers to searching the terminal scrollback
-#: src/org.gnome.Ptyxis.gschema.xml.in:460 src/ptyxis-find-bar.ui:39
-#: src/ptyxis-preferences-window.ui:701
+#: src/org.gnome.Ptyxis.gschema.xml.in:473 src/ptyxis-find-bar.ui:39
+#: src/ptyxis-preferences-window.ui:715
 msgid "Search History"
 msgstr "Geçmişi Ara"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:461
+#: src/org.gnome.Ptyxis.gschema.xml.in:474
 msgid "Shortcut to begin searching the terminal history"
 msgstr "Uçbirim geçmişini aramaya başlamak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:466 src/ptyxis-preferences-window.ui:672
+#: src/org.gnome.Ptyxis.gschema.xml.in:479 src/ptyxis-preferences-window.ui:686
 msgid "Select All"
 msgstr "Tümünü Seç"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:467
+#: src/org.gnome.Ptyxis.gschema.xml.in:480
 msgid "Shortcut to select all the entire terminal scrollback"
 msgstr "Uçbirim geri kaydırmasının tamanını seçmek için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:472
+#: src/org.gnome.Ptyxis.gschema.xml.in:485
 msgid "Select None"
 msgstr "Hiçbirini Seçme"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:473
+#: src/org.gnome.Ptyxis.gschema.xml.in:486
 msgid "Shortcut to clear the terminal selection"
 msgstr "Uçbirim seçimini temizlemek için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:478
+#: src/org.gnome.Ptyxis.gschema.xml.in:491
 msgid "Popup Menu"
 msgstr "Açılır Menü"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:479
+#: src/org.gnome.Ptyxis.gschema.xml.in:492
 msgid "Shortcut to show the popup menu for the terminal"
 msgstr "Uçbirim için açılır menüyü gösteren kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:484
+#: src/org.gnome.Ptyxis.gschema.xml.in:497
 msgid "Primary Menu"
 msgstr "Birincil Menü"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:485
+#: src/org.gnome.Ptyxis.gschema.xml.in:498
 msgid "Shortcut to show the primary menu for the window"
 msgstr "Pencere için pirincil menüyü gösteren kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:490
+#: src/org.gnome.Ptyxis.gschema.xml.in:503
 msgid "Tab Menu"
 msgstr "Sekme Menüsü"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:491
+#: src/org.gnome.Ptyxis.gschema.xml.in:504
 msgid "Shortcut to show the new tab menu"
 msgstr "Yeni sekme menüsünü göstermek için kısayol"
 
 #. Translators: in this context, "Move" means to switch tabs
-#: src/org.gnome.Ptyxis.gschema.xml.in:497 src/ptyxis-preferences-window.ui:788
+#: src/org.gnome.Ptyxis.gschema.xml.in:510 src/ptyxis-preferences-window.ui:802
 msgid "Move to Previous Tab"
 msgstr "Önceki Sekmeye Geç"
 
 #. Translators: in this context, "Move" means to switch tabs
-#: src/org.gnome.Ptyxis.gschema.xml.in:499
+#: src/org.gnome.Ptyxis.gschema.xml.in:512
 msgid "Shortcut to move to the previous tab"
 msgstr "Önceki sekmeye geçmek için kısayol"
 
 #. Translators: in this context, "Move" means to switch tabs
-#: src/org.gnome.Ptyxis.gschema.xml.in:505 src/ptyxis-preferences-window.ui:793
+#: src/org.gnome.Ptyxis.gschema.xml.in:518 src/ptyxis-preferences-window.ui:807
 msgid "Move to Next Tab"
 msgstr "Sonraki Sekmeye Geç"
 
 #. Translators: in this context, "Move" means to switch tabs
-#: src/org.gnome.Ptyxis.gschema.xml.in:507
+#: src/org.gnome.Ptyxis.gschema.xml.in:520
 msgid "Shortcut to move to the next tab"
 msgstr "Sonraki sekmeye geçmek için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:512 src/ptyxis-preferences-window.ui:802
+#: src/org.gnome.Ptyxis.gschema.xml.in:525 src/ptyxis-preferences-window.ui:816
 msgid "Move Tab Left"
 msgstr "Sekmeyi Sola Taşı"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:513
+#: src/org.gnome.Ptyxis.gschema.xml.in:526
 msgid "Shortcut to move the current tab to the left one position"
 msgstr "Geçerli sekmeyi bir konum sola taşımak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:518 src/ptyxis-preferences-window.ui:808
+#: src/org.gnome.Ptyxis.gschema.xml.in:531 src/ptyxis-preferences-window.ui:822
 msgid "Move Tab Right"
 msgstr "Sekmeyi Sağa Taşı"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:519
+#: src/org.gnome.Ptyxis.gschema.xml.in:532
 msgid "Shortcut to move the current tab to the right one position"
 msgstr "Geçerli sekmeyi bir konum sağa taşımak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:524 src/ptyxis-preferences-window.ui:814
+#: src/org.gnome.Ptyxis.gschema.xml.in:537 src/ptyxis-preferences-window.ui:828
 msgid "Move Tab to New Window"
 msgstr "Sekmeyi Yeni Pencereye Taşı"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:525
+#: src/org.gnome.Ptyxis.gschema.xml.in:538
 msgid "Shortcut to move the current tab into a new window"
 msgstr "Geçerli sekmeyi yeni pencereye taşımak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:530 src/ptyxis-preferences-window.ui:766
+#: src/org.gnome.Ptyxis.gschema.xml.in:543 src/ptyxis-preferences-window.ui:780
 msgid "Close Tab"
 msgstr "Sekmeyi Kapat"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:531
+#: src/org.gnome.Ptyxis.gschema.xml.in:544
 msgid "Shortcut to close the current tab"
 msgstr "Geçerli sekmeyi kapatmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:536 src/ptyxis-preferences-window.ui:772
+#: src/org.gnome.Ptyxis.gschema.xml.in:549 src/ptyxis-preferences-window.ui:786
 msgid "Close Other Tabs"
 msgstr "Diğer Sekmeleri Kapat"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:537
+#: src/org.gnome.Ptyxis.gschema.xml.in:550
 msgid "Shortcut to close all tabs in the window but the current one"
 msgstr "Geçerli sekme hariç penceredeki tüm sekmeleri kapatmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:542 src/ptyxis-preferences-window.ui:726
+#: src/org.gnome.Ptyxis.gschema.xml.in:555 src/ptyxis-preferences-window.ui:740
 msgid "Close Window"
 msgstr "Pencereyi Kapat"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:543
+#: src/org.gnome.Ptyxis.gschema.xml.in:556
 msgid "Shortcut to close the current window"
 msgstr "Geçerli pencereyi kapatmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:548 src/ptyxis-preferences-window.ui:736
-#: src/ptyxis-terminal.ui:244 src/ptyxis-window.c:1152 src/ptyxis-window.ui:833
+#: src/org.gnome.Ptyxis.gschema.xml.in:561 src/ptyxis-preferences-window.ui:750
+#: src/ptyxis-terminal.ui:244 src/ptyxis-window.c:1157 src/ptyxis-window.ui:833
 msgid "Set Title"
 msgstr "Başlığı Ayarla"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:549
+#: src/org.gnome.Ptyxis.gschema.xml.in:562
 msgid "The shortcut to show set title"
 msgstr "Başlığı ayarlamayı göstermek için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:554
+#: src/org.gnome.Ptyxis.gschema.xml.in:567
 msgid "Focus Tab 1"
 msgstr "1. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:555
+#: src/org.gnome.Ptyxis.gschema.xml.in:568
 msgid "Shortcut to focus tab 1"
 msgstr "1. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:560
+#: src/org.gnome.Ptyxis.gschema.xml.in:573
 msgid "Focus Tab 2"
 msgstr "2. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:561
+#: src/org.gnome.Ptyxis.gschema.xml.in:574
 msgid "Shortcut to focus tab 2"
 msgstr "2. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:566
+#: src/org.gnome.Ptyxis.gschema.xml.in:579
 msgid "Focus Tab 3"
 msgstr "3. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:567
+#: src/org.gnome.Ptyxis.gschema.xml.in:580
 msgid "Shortcut to focus tab 3"
 msgstr "3. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:572
+#: src/org.gnome.Ptyxis.gschema.xml.in:585
 msgid "Focus Tab 4"
 msgstr "4. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:573
+#: src/org.gnome.Ptyxis.gschema.xml.in:586
 msgid "Shortcut to focus tab 4"
 msgstr "4. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:578
+#: src/org.gnome.Ptyxis.gschema.xml.in:591
 msgid "Focus Tab 5"
 msgstr "5. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:579
+#: src/org.gnome.Ptyxis.gschema.xml.in:592
 msgid "Shortcut to focus tab 5"
 msgstr "5. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:584
+#: src/org.gnome.Ptyxis.gschema.xml.in:597
 msgid "Focus Tab 6"
 msgstr "6. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:585
+#: src/org.gnome.Ptyxis.gschema.xml.in:598
 msgid "Shortcut to focus tab 6"
 msgstr "6. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:590
+#: src/org.gnome.Ptyxis.gschema.xml.in:603
 msgid "Focus Tab 7"
 msgstr "7. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:591
+#: src/org.gnome.Ptyxis.gschema.xml.in:604
 msgid "Shortcut to focus tab 7"
 msgstr "7. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:596
+#: src/org.gnome.Ptyxis.gschema.xml.in:609
 msgid "Focus Tab 8"
 msgstr "8. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:597
+#: src/org.gnome.Ptyxis.gschema.xml.in:610
 msgid "Shortcut to focus tab 8"
 msgstr "8. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:602
+#: src/org.gnome.Ptyxis.gschema.xml.in:615
 msgid "Focus Tab 9"
 msgstr "9. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:603
+#: src/org.gnome.Ptyxis.gschema.xml.in:616
 msgid "Shortcut to focus tab 9"
 msgstr "9. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:608
+#: src/org.gnome.Ptyxis.gschema.xml.in:621
 msgid "Focus Tab 10"
 msgstr "10. Sekmeye Odaklan"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:609
+#: src/org.gnome.Ptyxis.gschema.xml.in:622
 msgid "Shortcut to focus tab 10"
 msgstr "10. sekmeye odaklanmak için kısayol"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:614 src/ptyxis-preferences-window.ui:778
+#: src/org.gnome.Ptyxis.gschema.xml.in:627 src/ptyxis-preferences-window.ui:792
 msgid "Undo Close Tab"
 msgstr "Sekme Kapatmayı Geri Al"
 
-#: src/org.gnome.Ptyxis.gschema.xml.in:615
+#: src/org.gnome.Ptyxis.gschema.xml.in:628
 msgid "Undo closing of last tab"
 msgstr "Son sekme kapatmayı geri al"
 
@@ -893,27 +914,27 @@ msgstr "--tab, --tab-with-profile, ya da --new-window birlikte kullanılamaz"
 msgid "Cannot parse command: %s"
 msgstr "Komut ayrıştırılamadı: %s"
 
-#: src/ptyxis-application.c:1145
+#: src/ptyxis-application.c:1147
 msgid "Examples:"
 msgstr "Örnekler:"
 
-#: src/ptyxis-application.c:1147
+#: src/ptyxis-application.c:1149
 msgid "Show the application preferences"
 msgstr "Uygulama tercihlerini göster"
 
 #. Used for new tabs/windows/etc when specified
-#: src/ptyxis-application.c:1150
+#: src/ptyxis-application.c:1152
 msgid "Use DIR for --tab, --tab-with-profile, --new-window, or -x"
 msgstr "--tab, --tab-with-profile, --new-window, ya da -x için DIR kullan"
 
-#: src/ptyxis-application.c:1150
+#: src/ptyxis-application.c:1152
 msgid "DIR"
 msgstr "DİZİN"
 
 #. By default, this implies a new ptyxis instance unless the options
 #. * below are provided to override that.
 #.
-#: src/ptyxis-application.c:1155
+#: src/ptyxis-application.c:1157
 msgid "Command to execute in new window"
 msgstr "Yeni pencerede çalıştırılacak komut"
 
@@ -921,69 +942,69 @@ msgstr "Yeni pencerede çalıştırılacak komut"
 #. * short command options for these to make it easier to sniff them in early args
 #. * checking from `main.c`.
 #.
-#: src/ptyxis-application.c:1161
+#: src/ptyxis-application.c:1163
 msgid "New terminal window"
 msgstr "Yeni uçbirim penceresi"
 
-#: src/ptyxis-application.c:1162
+#: src/ptyxis-application.c:1164
 msgid "New terminal tab in active window"
 msgstr "Etkin pencerede yeni uçbirim sekmesi"
 
-#: src/ptyxis-application.c:1163
+#: src/ptyxis-application.c:1165
 msgid "New terminal tab in active window using the profile UUID"
 msgstr "Profil UUID kullanarak etkin pencerede yeni uçbirim sekmesi"
 
-#: src/ptyxis-application.c:1163
+#: src/ptyxis-application.c:1165
 msgid "PROFILE_UUID"
 msgstr "PROFİL _UUID"
 
 #. Standalone (single instance mode)
-#: src/ptyxis-application.c:1166
+#: src/ptyxis-application.c:1168
 msgid "Start a new instance, ignoring existing instances"
 msgstr "Var olan örnekleri yok sayarak yeni örnek başlat"
 
-#: src/ptyxis-application.c:1168
+#: src/ptyxis-application.c:1170
 msgid "Set title for new tab"
 msgstr "Yeni sekme için başlık ayarla"
 
-#: src/ptyxis-application.c:1169
+#: src/ptyxis-application.c:1171
 msgid "Maximize a newly created window"
 msgstr "Yeni oluşturulan pencereyi büyüt"
 
-#: src/ptyxis-application.c:1170
+#: src/ptyxis-application.c:1172
 msgid "Fullscreen a newly created window"
 msgstr "Yeni oluşturulan pencereyi tam ekran yap"
 
 #. Import a custom .palette file. This works like dragging the file onto preferences
-#: src/ptyxis-application.c:1173
+#: src/ptyxis-application.c:1175
 msgid "Import a Ptyxis palette file"
 msgstr "Ptyxis palet dosyasını içe aktar"
 
-#: src/ptyxis-application.c:1173
+#: src/ptyxis-application.c:1175
 msgid "FILE"
 msgstr "DOSYA"
 
-#: src/ptyxis-application.c:1180
+#: src/ptyxis-application.c:1182
 msgid "Run Separate Instance"
 msgstr "Ayrı Örnek Çalıştır"
 
-#: src/ptyxis-application.c:1184
+#: src/ptyxis-application.c:1186
 msgid "Open Preferences"
 msgstr "Tercihleri Aç"
 
-#: src/ptyxis-application.c:1188
+#: src/ptyxis-application.c:1190
 msgid "Run Custom Command in New Window"
 msgstr "Özel Komutu Yeni Pencerede Çalıştır"
 
-#: src/ptyxis-application.c:1193
+#: src/ptyxis-application.c:1195
 msgid "Import a custom palette"
 msgstr "Özel paleti içe aktar"
 
-#: src/ptyxis-application.c:1196
+#: src/ptyxis-application.c:1198
 msgid "[-- COMMAND ARGUMENTS]"
 msgstr "[-- KOMUT ARGÜMANLARI]"
 
-#: src/ptyxis-application.c:1434
+#: src/ptyxis-application.c:1436
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"
@@ -1045,7 +1066,7 @@ msgstr "Hedef URL"
 msgid "Removed custom link “%s”"
 msgstr "“%s” özel bağlantısı kaldırıldı"
 
-#: src/ptyxis-custom-link-row.c:133 src/ptyxis-profile-editor.c:185
+#: src/ptyxis-custom-link-row.c:133 src/ptyxis-profile-editor.c:186
 #: src/ptyxis-profile-row.c:106
 msgid "Undo"
 msgstr "Geri Al"
@@ -1086,8 +1107,8 @@ msgstr "Tam _Sözcükler"
 msgid "Use _Regular Expressions"
 msgstr "_Düzenli İfade Kullan"
 
-#: src/ptyxis-find-bar.ui:128 src/ptyxis-preferences-window.ui:558
-#: src/ptyxis-profile-editor.ui:288
+#: src/ptyxis-find-bar.ui:128 src/ptyxis-preferences-window.ui:572
+#: src/ptyxis-profile-editor.ui:302
 msgid "Close"
 msgstr "Kapat"
 
@@ -1116,7 +1137,7 @@ msgstr "Sütun"
 #. * show the proper `tcgetpgrp()` foreground.
 #.
 #: src/ptyxis-inspector.c:177 src/ptyxis-inspector.c:197
-#: src/ptyxis-preferences-window.ui:494 src/ptyxis-profile-editor.ui:170
+#: src/ptyxis-preferences-window.ui:508 src/ptyxis-profile-editor.ui:184
 msgid "Shell"
 msgstr "Kabuk"
 
@@ -1185,7 +1206,7 @@ msgstr "Hücre Boyutu"
 msgid "Input"
 msgstr "Girdi"
 
-#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:232
+#: src/ptyxis-inspector.ui:246 src/ptyxis-preferences-window.ui:246
 msgid "Cursor"
 msgstr "İmleç"
 
@@ -1201,8 +1222,8 @@ msgstr "Fare"
 msgid "Hyperlink"
 msgstr "Bağlantı"
 
-#: src/ptyxis-menu-row.c:166 src/ptyxis-profile-editor.c:216
-#: src/ptyxis-window.c:1656
+#: src/ptyxis-menu-row.c:166 src/ptyxis-profile-editor.c:217
+#: src/ptyxis-window.c:1661
 msgid "My Computer"
 msgstr "Bilgisayarım"
 
@@ -1211,23 +1232,23 @@ msgstr "Bilgisayarım"
 msgid "The quick brown fox jumps over the lazy dog"
 msgstr "Pijamalı hasta yağız şoföre çabucak güvendi"
 
-#: src/ptyxis-preferences-window.c:273
+#: src/ptyxis-preferences-window.c:274
 msgid "Select Font"
 msgstr "Yazı Tipi Seç"
 
-#: src/ptyxis-preferences-window.c:348
+#: src/ptyxis-preferences-window.c:349
 msgid "Show Fewer Palettes"
 msgstr "Daha Az Palet Göster"
 
-#: src/ptyxis-preferences-window.c:353 src/ptyxis-preferences-window.ui:46
+#: src/ptyxis-preferences-window.c:354 src/ptyxis-preferences-window.ui:46
 msgid "Show All Palettes"
 msgstr "Tüm Paletleri Göster"
 
-#: src/ptyxis-preferences-window.c:378
+#: src/ptyxis-preferences-window.c:379
 msgid "Add Profile"
 msgstr "Profil Ekle"
 
-#: src/ptyxis-preferences-window.c:480 src/ptyxis-profile-editor.c:269
+#: src/ptyxis-preferences-window.c:481 src/ptyxis-profile-editor.c:270
 msgid "Add Link"
 msgstr "Bağlantı Ekle"
 
@@ -1247,385 +1268,385 @@ msgstr "Sistem _Yazı Tipini Kullan"
 msgid "Custom Font"
 msgstr "Özel Yazı Tipi"
 
-#: src/ptyxis-preferences-window.ui:193
+#: src/ptyxis-preferences-window.ui:207
 msgid "Blinking Text"
 msgstr "Yanıp Sönen Metin"
 
-#: src/ptyxis-preferences-window.ui:202 src/ptyxis-preferences-window.ui:426
-#: src/ptyxis-preferences-window.ui:515 src/ptyxis-profile-editor.ui:216
-#: src/ptyxis-profile-editor.ui:245
+#: src/ptyxis-preferences-window.ui:216 src/ptyxis-preferences-window.ui:440
+#: src/ptyxis-preferences-window.ui:529 src/ptyxis-profile-editor.ui:230
+#: src/ptyxis-profile-editor.ui:259
 msgid "Never"
 msgstr "Asla"
 
-#: src/ptyxis-preferences-window.ui:208
+#: src/ptyxis-preferences-window.ui:222
 msgid "Focused"
 msgstr "Odaklanmış"
 
-#: src/ptyxis-preferences-window.ui:214
+#: src/ptyxis-preferences-window.ui:228
 msgid "Unfocused"
 msgstr "Odaklanmamış"
 
-#: src/ptyxis-preferences-window.ui:220 src/ptyxis-preferences-window.ui:438
-#: src/ptyxis-preferences-window.ui:527 src/ptyxis-profile-editor.ui:222
-#: src/ptyxis-profile-editor.ui:257
+#: src/ptyxis-preferences-window.ui:234 src/ptyxis-preferences-window.ui:452
+#: src/ptyxis-preferences-window.ui:541 src/ptyxis-profile-editor.ui:236
+#: src/ptyxis-profile-editor.ui:271
 msgid "Always"
 msgstr "Daima"
 
-#: src/ptyxis-preferences-window.ui:244
+#: src/ptyxis-preferences-window.ui:258
 msgid "Block"
 msgstr "Blok"
 
-#: src/ptyxis-preferences-window.ui:250
+#: src/ptyxis-preferences-window.ui:264
 msgid "I-Beam"
 msgstr "I-Beam"
 
-#: src/ptyxis-preferences-window.ui:256
+#: src/ptyxis-preferences-window.ui:270
 msgid "Underline"
 msgstr "Altını Çiz"
 
-#: src/ptyxis-preferences-window.ui:266
+#: src/ptyxis-preferences-window.ui:280
 msgid "Cursor Blinking"
 msgstr "İmleç Yanıp Sönmesi"
 
-#: src/ptyxis-preferences-window.ui:275 src/ptyxis-preferences-window.ui:432
+#: src/ptyxis-preferences-window.ui:289 src/ptyxis-preferences-window.ui:446
 msgid "Follow System"
 msgstr "Sistemi İzle"
 
-#: src/ptyxis-preferences-window.ui:281
+#: src/ptyxis-preferences-window.ui:295
 msgid "Enabled"
 msgstr "Etkin"
 
-#: src/ptyxis-preferences-window.ui:287
+#: src/ptyxis-preferences-window.ui:301
 msgid "Disabled"
 msgstr "Devre Dışı"
 
-#: src/ptyxis-preferences-window.ui:301
+#: src/ptyxis-preferences-window.ui:315
 msgid "Behavior"
 msgstr "Davranış"
 
-#: src/ptyxis-preferences-window.ui:305
+#: src/ptyxis-preferences-window.ui:319
 msgid "Interface"
 msgstr "Arayüz"
 
-#: src/ptyxis-preferences-window.ui:317
+#: src/ptyxis-preferences-window.ui:331
 msgid "Next"
 msgstr "Sonraki"
 
-#: src/ptyxis-preferences-window.ui:323
+#: src/ptyxis-preferences-window.ui:337
 msgid "Last"
 msgstr "En Son"
 
-#: src/ptyxis-preferences-window.ui:338
+#: src/ptyxis-preferences-window.ui:352
 msgid "Attempt to restore previous tabs when Ptyxis starts"
 msgstr "Ptyxis başlatıldığında önceki sekmeleri geri yüklemeye çalış"
 
-#: src/ptyxis-preferences-window.ui:344
+#: src/ptyxis-preferences-window.ui:358
 msgid "Restore the previous window size when creating a new window"
 msgstr "Yeni pencere oluştururken önceki pencere boyutunu geri yükle"
 
-#: src/ptyxis-preferences-window.ui:354
+#: src/ptyxis-preferences-window.ui:368
 msgid "Columns"
 msgstr "Sütun"
 
-#: src/ptyxis-preferences-window.ui:368
+#: src/ptyxis-preferences-window.ui:382
 msgid "Rows"
 msgstr "Satır"
 
-#: src/ptyxis-preferences-window.ui:386
+#: src/ptyxis-preferences-window.ui:400
 msgid "Accessibility"
 msgstr "Erişilebilirlik"
 
-#: src/ptyxis-preferences-window.ui:389
+#: src/ptyxis-preferences-window.ui:403
 msgid "Allow Screen Readers"
 msgstr "Ekran Okuyuculara İzin Ver"
 
-#: src/ptyxis-preferences-window.ui:390
+#: src/ptyxis-preferences-window.ui:404
 msgid ""
 "Permit screen readers such as Orca to read terminal content and typed text"
 msgstr ""
 "Orca gibi ekran okuyucuların uçbirim içeriğini ve yazılan metni okumasına "
 "izin ver"
 
-#: src/ptyxis-preferences-window.ui:397
+#: src/ptyxis-preferences-window.ui:411
 msgid "Bell"
 msgstr "Zil"
 
-#: src/ptyxis-preferences-window.ui:401
+#: src/ptyxis-preferences-window.ui:415
 msgid "Emit an audible bell when requested by active tab"
 msgstr "Etkin sekme tarafından talep edildiğinde sesli zil çal"
 
-#: src/ptyxis-preferences-window.ui:406
+#: src/ptyxis-preferences-window.ui:420
 msgid "Visual Bell"
 msgstr "Görsel Zil"
 
-#: src/ptyxis-preferences-window.ui:407
+#: src/ptyxis-preferences-window.ui:421
 msgid "Emit a visual bell when requested by active tab"
 msgstr "Etkin sekme tarafından talep edildiğinde görsel zil çal"
 
-#: src/ptyxis-preferences-window.ui:414 src/ptyxis-profile-editor.ui:300
+#: src/ptyxis-preferences-window.ui:428 src/ptyxis-profile-editor.ui:314
 msgid "Scrolling"
 msgstr "Kaydırma"
 
-#: src/ptyxis-preferences-window.ui:417
+#: src/ptyxis-preferences-window.ui:431
 msgid "Use Scrollbars"
 msgstr "Kaydırma Çubuklarını Kullan"
 
-#: src/ptyxis-preferences-window.ui:453 src/ptyxis-profile-editor.ui:304
+#: src/ptyxis-preferences-window.ui:467 src/ptyxis-profile-editor.ui:318
 msgid "Scroll to the bottom upon input keystroke"
 msgstr "Tuşa basıldığında en alta kaydır"
 
-#: src/ptyxis-preferences-window.ui:459 src/ptyxis-profile-editor.ui:310
+#: src/ptyxis-preferences-window.ui:473 src/ptyxis-profile-editor.ui:324
 msgid "Scroll to the bottom when new content is available"
 msgstr "Yeni içerik olduğunda en alta kaydır"
 
-#: src/ptyxis-preferences-window.ui:469 src/ptyxis-profile-editor.ui:320
+#: src/ptyxis-preferences-window.ui:483 src/ptyxis-profile-editor.ui:334
 msgid "Restrict the number of lines saved for scrollback"
 msgstr "Geri kaydırma için kaydedilen satır sayısını kısıtla"
 
-#: src/ptyxis-preferences-window.ui:478 src/ptyxis-profile-editor.ui:329
+#: src/ptyxis-preferences-window.ui:492 src/ptyxis-profile-editor.ui:343
 msgid "The number of lines to keep for scrollback"
 msgstr "Geri kaydırma için tutulacak satır sayısı"
 
-#: src/ptyxis-preferences-window.ui:497 src/ptyxis-profile-editor.ui:188
+#: src/ptyxis-preferences-window.ui:511 src/ptyxis-profile-editor.ui:202
 msgid "Use Login Shell"
 msgstr "Giriş Kabuğu Kullan"
 
-#: src/ptyxis-preferences-window.ui:506 src/ptyxis-profile-editor.ui:236
+#: src/ptyxis-preferences-window.ui:520 src/ptyxis-profile-editor.ui:250
 msgid "Preserve Working Directory"
 msgstr "Çalışma Dizinini Koru"
 
-#: src/ptyxis-preferences-window.ui:521 src/ptyxis-profile-editor.ui:251
+#: src/ptyxis-preferences-window.ui:535 src/ptyxis-profile-editor.ui:265
 msgid "Safe"
 msgstr "Güvenli"
 
-#: src/ptyxis-preferences-window.ui:546 src/ptyxis-profile-editor.ui:276
+#: src/ptyxis-preferences-window.ui:560 src/ptyxis-profile-editor.ui:290
 msgid "No Action"
 msgstr "Eylem Yok"
 
-#: src/ptyxis-preferences-window.ui:552 src/ptyxis-profile-editor.ui:282
+#: src/ptyxis-preferences-window.ui:566 src/ptyxis-profile-editor.ui:296
 msgid "Restart"
 msgstr "Yeniden Başlat"
 
-#: src/ptyxis-preferences-window.ui:570 src/ptyxis-profile-editor.ui:345
+#: src/ptyxis-preferences-window.ui:584 src/ptyxis-profile-editor.ui:359
 msgid "Compatibility"
 msgstr "Uyumluluk"
 
-#: src/ptyxis-preferences-window.ui:573 src/ptyxis-profile-editor.ui:348
+#: src/ptyxis-preferences-window.ui:587 src/ptyxis-profile-editor.ui:362
 msgid "Backspace Key"
 msgstr "Geri Silme Tuşu"
 
-#: src/ptyxis-preferences-window.ui:574 src/ptyxis-profile-editor.ui:349
+#: src/ptyxis-preferences-window.ui:588 src/ptyxis-profile-editor.ui:363
 msgid "Sequence to send for Backspace key"
 msgstr "Geri Silme tuşu için gönderilecek sıra"
 
-#: src/ptyxis-preferences-window.ui:583 src/ptyxis-profile-editor.ui:358
+#: src/ptyxis-preferences-window.ui:597 src/ptyxis-profile-editor.ui:372
 msgid "Delete Key"
 msgstr "Delete Tuşu"
 
-#: src/ptyxis-preferences-window.ui:584 src/ptyxis-profile-editor.ui:359
+#: src/ptyxis-preferences-window.ui:598 src/ptyxis-profile-editor.ui:373
 msgid "Sequence to send for Delete key"
 msgstr "Delete tuşu için gönderilecek sıra"
 
-#: src/ptyxis-preferences-window.ui:593 src/ptyxis-profile-editor.ui:368
+#: src/ptyxis-preferences-window.ui:607 src/ptyxis-profile-editor.ui:382
 msgid "Ambiguous-width Characters"
 msgstr "Belirsiz Genişlikteki Karakterler"
 
-#: src/ptyxis-preferences-window.ui:602 src/ptyxis-profile-editor.ui:377
+#: src/ptyxis-preferences-window.ui:616 src/ptyxis-profile-editor.ui:391
 msgid "Narrow"
 msgstr "Dar"
 
-#: src/ptyxis-preferences-window.ui:608 src/ptyxis-profile-editor.ui:383
+#: src/ptyxis-preferences-window.ui:622 src/ptyxis-profile-editor.ui:397
 msgid "Wide"
 msgstr "Geniş"
 
-#: src/ptyxis-preferences-window.ui:641
+#: src/ptyxis-preferences-window.ui:655
 msgid "Set as Default Terminal"
 msgstr "Öntanımlı Uçbirim Olarak Ayarla"
 
-#: src/ptyxis-preferences-window.ui:651
+#: src/ptyxis-preferences-window.ui:665
 msgid "Shortcuts"
 msgstr "Kısayollar"
 
-#: src/ptyxis-preferences-window.ui:677
+#: src/ptyxis-preferences-window.ui:691
 msgid "Clear Selection"
 msgstr "Seçimi Temizle"
 
-#: src/ptyxis-preferences-window.ui:686 src/ptyxis-terminal.ui:230
+#: src/ptyxis-preferences-window.ui:700 src/ptyxis-terminal.ui:230
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: src/ptyxis-preferences-window.ui:691 src/ptyxis-terminal.ui:236
+#: src/ptyxis-preferences-window.ui:705 src/ptyxis-terminal.ui:236
 msgid "Reset and Clear"
 msgstr "Sıfırla ve Temizle"
 
-#: src/ptyxis-preferences-window.ui:710
+#: src/ptyxis-preferences-window.ui:724
 msgid "Show Context Menu"
 msgstr "Bağlam Menüsünü Göster"
 
-#: src/ptyxis-preferences-window.ui:717
+#: src/ptyxis-preferences-window.ui:731
 msgid "Windows"
 msgstr "Pencereler"
 
-#: src/ptyxis-preferences-window.ui:721
+#: src/ptyxis-preferences-window.ui:735
 msgid "Open a new tab in a new window"
 msgstr "Yeni pencerede yeni sekme aç"
 
-#: src/ptyxis-preferences-window.ui:727
+#: src/ptyxis-preferences-window.ui:741
 msgid "Close the current window"
 msgstr "Geçerli pencereyi kapat"
 
-#: src/ptyxis-preferences-window.ui:743
+#: src/ptyxis-preferences-window.ui:757
 msgid "Tabs"
 msgstr "Sekmeler"
 
-#: src/ptyxis-preferences-window.ui:747
+#: src/ptyxis-preferences-window.ui:761
 msgid "Open a new tab in the current window"
 msgstr "Geçerli pencerede yeni sekme aç"
 
-#: src/ptyxis-preferences-window.ui:756
+#: src/ptyxis-preferences-window.ui:770
 msgid "View Tab Overview"
 msgstr "Sekme Genel Görünümünü Göster"
 
-#: src/ptyxis-preferences-window.ui:757
+#: src/ptyxis-preferences-window.ui:771
 msgid "Show an overview of all tabs within the window"
 msgstr "Penceredeki tüm sekmelerin genel görünümünü göster"
 
-#: src/ptyxis-preferences-window.ui:767
+#: src/ptyxis-preferences-window.ui:781
 msgid "Close the current tab"
 msgstr "Geçerli sekmeyi kapat"
 
-#: src/ptyxis-preferences-window.ui:773
+#: src/ptyxis-preferences-window.ui:787
 msgid "Close all tabs except the active tab"
 msgstr "Etkin sekme dışındaki tüm sekmeleri kapat"
 
-#: src/ptyxis-preferences-window.ui:779
+#: src/ptyxis-preferences-window.ui:793
 msgid "Undo closing the last tab"
 msgstr "Son sekme kapatmayı geri al"
 
-#: src/ptyxis-preferences-window.ui:803
+#: src/ptyxis-preferences-window.ui:817
 msgid "Move the tab one position to the left"
 msgstr "Sekmeyi bir konum sola taşı"
 
-#: src/ptyxis-preferences-window.ui:809
+#: src/ptyxis-preferences-window.ui:823
 msgid "Move the tab one position to the right"
 msgstr "Sekmeyi bir konum sağa taşı"
 
-#: src/ptyxis-preferences-window.ui:815
+#: src/ptyxis-preferences-window.ui:829
 msgid "Detach the current tab and move it to a new window"
 msgstr "Geçerli sekmeyi ayır ve yeni pencereye taşı"
 
-#: src/ptyxis-preferences-window.ui:824
+#: src/ptyxis-preferences-window.ui:838
 msgid "Switch to Tab 1"
 msgstr "1. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:829
+#: src/ptyxis-preferences-window.ui:843
 msgid "Switch to Tab 2"
 msgstr "2. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:834
+#: src/ptyxis-preferences-window.ui:848
 msgid "Switch to Tab 3"
 msgstr "3. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:839
+#: src/ptyxis-preferences-window.ui:853
 msgid "Switch to Tab 4"
 msgstr "4. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:844
+#: src/ptyxis-preferences-window.ui:858
 msgid "Switch to Tab 5"
 msgstr "5. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:849
+#: src/ptyxis-preferences-window.ui:863
 msgid "Switch to Tab 6"
 msgstr "6. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:854
+#: src/ptyxis-preferences-window.ui:868
 msgid "Switch to Tab 7"
 msgstr "7. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:859
+#: src/ptyxis-preferences-window.ui:873
 msgid "Switch to Tab 8"
 msgstr "8. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:864
+#: src/ptyxis-preferences-window.ui:878
 msgid "Switch to Tab 9"
 msgstr "9. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:869
+#: src/ptyxis-preferences-window.ui:883
 msgid "Switch to Tab 10"
 msgstr "10. Sekmeye Geç"
 
-#: src/ptyxis-preferences-window.ui:876
+#: src/ptyxis-preferences-window.ui:890
 msgid "Zoom"
 msgstr "Yakınlaştır"
 
-#: src/ptyxis-preferences-window.ui:896
+#: src/ptyxis-preferences-window.ui:910
 msgid "Application"
 msgstr "Uygulama"
 
-#: src/ptyxis-preferences-window.ui:900
+#: src/ptyxis-preferences-window.ui:914
 msgid "Toggle in and out of fullscreen"
 msgstr "Tam ekrana geç ya da tam ekrandan çık"
 
-#: src/ptyxis-preferences-window.ui:909
+#: src/ptyxis-preferences-window.ui:923
 msgid "Show Primary Menu"
 msgstr "Birincil Menüyü Göster"
 
-#: src/ptyxis-preferences-window.ui:910
+#: src/ptyxis-preferences-window.ui:924
 msgid "Displays the primary menu for the terminal window"
 msgstr "Uçbirim penceresi için birincil menüyü görüntüler"
 
-#: src/ptyxis-preferences-window.ui:915
+#: src/ptyxis-preferences-window.ui:929
 msgid "Show New Tab Menu"
 msgstr "Yeni Sekme Menüsünü Göster"
 
-#: src/ptyxis-preferences-window.ui:916
+#: src/ptyxis-preferences-window.ui:930
 msgid "Displays the new tab menu for the terminal window"
 msgstr "Uçbirim penceresi için yeni sekme menüsünü görüntüler"
 
-#: src/ptyxis-preferences-window.ui:922
+#: src/ptyxis-preferences-window.ui:936
 msgid "Show this preferences window"
 msgstr "Bu tercihler penceresini göster"
 
-#: src/ptyxis-preferences-window.ui:931 src/ptyxis-preferences-window.ui:935
-#: src/ptyxis-window.c:1630 src/ptyxis-window.c:1792
+#: src/ptyxis-preferences-window.ui:945 src/ptyxis-preferences-window.ui:949
+#: src/ptyxis-window.c:1635 src/ptyxis-window.c:1797
 msgid "Profiles"
 msgstr "Profiller"
 
-#: src/ptyxis-preferences-window.ui:954 src/ptyxis-profile-editor.ui:428
+#: src/ptyxis-preferences-window.ui:968 src/ptyxis-profile-editor.ui:442
 msgid "Automatic"
 msgstr "Kendiliğinden"
 
-#: src/ptyxis-preferences-window.ui:960 src/ptyxis-profile-editor.ui:434
+#: src/ptyxis-preferences-window.ui:974 src/ptyxis-profile-editor.ui:448
 msgid "Control-H"
 msgstr "Control-H"
 
-#: src/ptyxis-preferences-window.ui:966 src/ptyxis-profile-editor.ui:440
+#: src/ptyxis-preferences-window.ui:980 src/ptyxis-profile-editor.ui:454
 msgid "ASCII DEL"
 msgstr "ASCII DEL"
 
-#: src/ptyxis-preferences-window.ui:972 src/ptyxis-profile-editor.ui:446
+#: src/ptyxis-preferences-window.ui:986 src/ptyxis-profile-editor.ui:460
 msgid "Escape Sequence"
 msgstr "Kaçış Dizisi"
 
-#: src/ptyxis-preferences-window.ui:978 src/ptyxis-profile-editor.ui:452
+#: src/ptyxis-preferences-window.ui:992 src/ptyxis-profile-editor.ui:466
 msgid "TTY Erase"
 msgstr "TTY Sil"
 
-#: src/ptyxis-profile.c:711
+#: src/ptyxis-profile.c:729
 msgid "Untitled Profile"
 msgstr "Adsız Profil"
 
-#: src/ptyxis-profile-editor.c:154 src/ptyxis-terminal.c:438
+#: src/ptyxis-profile-editor.c:155 src/ptyxis-terminal.c:438
 #: src/ptyxis-terminal.c:470
 msgid "Copied to clipboard"
 msgstr "Panoya kopyalandı"
 
-#: src/ptyxis-profile-editor.c:183 src/ptyxis-profile-row.c:104
+#: src/ptyxis-profile-editor.c:184 src/ptyxis-profile-row.c:104
 #, c-format
 msgid "Removed profile “%s”"
 msgstr "“%s” profili kaldırıldı"
 
-#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:411 src/ptyxis-tab.c:468
+#: src/ptyxis-profile-editor.ui:22 src/ptyxis-tab.c:487 src/ptyxis-tab.c:544
 msgid "Edit Profile"
 msgstr "Profili Düzenle"
 
@@ -1649,27 +1670,27 @@ msgstr "Renk"
 msgid "Use Bright Colors for Bold"
 msgstr "Koyu İçin Parlak Renkleri Kullan"
 
-#: src/ptyxis-profile-editor.ui:159
+#: src/ptyxis-profile-editor.ui:173
 msgid "Network"
 msgstr "Ağ"
 
-#: src/ptyxis-profile-editor.ui:162
+#: src/ptyxis-profile-editor.ui:176
 msgid "Proxy"
 msgstr "Vekil Sunucu"
 
-#: src/ptyxis-profile-editor.ui:163
+#: src/ptyxis-profile-editor.ui:177
 msgid "Applies the network proxy settings to the container environment"
 msgstr "Ağ vekil sunucu ayarlarını konteyner ortamına uygular"
 
-#: src/ptyxis-profile-editor.ui:198
+#: src/ptyxis-profile-editor.ui:212
 msgid "The default container to use with this profile"
 msgstr "Bu profille kullanılacak öntanımlı konteyner"
 
-#: src/ptyxis-profile-editor.ui:207
+#: src/ptyxis-profile-editor.ui:221
 msgid "Preserve the current container when opening new tabs and windows"
 msgstr "Yeni sekme ve pencere açarken geçerli konteyneri koru"
 
-#: src/ptyxis-profile-editor.ui:413
+#: src/ptyxis-profile-editor.ui:427
 msgid "Remove Profile"
 msgstr "Profili Kaldır"
 
@@ -1711,12 +1732,18 @@ msgstr "Kısayol Ayarla"
 msgid "disabled"
 msgstr "devre dışı"
 
-#: src/ptyxis-tab.c:319
+#: src/ptyxis-tab.c:328
+#, fuzzy
+#| msgid "Foreground Process"
+msgid "A foreground process is running"
+msgstr "Ön Plan Süreci"
+
+#: src/ptyxis-tab.c:395
 #, c-format
 msgid "Process Exited from Signal %d"
 msgstr "Süreç Sinyal %d İle Çıktı"
 
-#: src/ptyxis-tab.c:322 src/ptyxis-tab.c:345
+#: src/ptyxis-tab.c:398 src/ptyxis-tab.c:421
 msgid "_Restart"
 msgstr "_Yeniden Başlat"
 
@@ -1724,32 +1751,32 @@ msgstr "_Yeniden Başlat"
 #. * display it again if the tab is removed from the parking lot and
 #. * restored into the window.
 #.
-#: src/ptyxis-tab.c:344
+#: src/ptyxis-tab.c:420
 msgid "Process Exited"
 msgstr "Süreç Çıktı"
 
-#: src/ptyxis-tab.c:410
+#: src/ptyxis-tab.c:486
 msgid "Failed to launch terminal"
 msgstr "Uçbirim başlatılamadı"
 
-#: src/ptyxis-tab.c:466
+#: src/ptyxis-tab.c:542
 #, c-format
 msgid "Cannot locate container “%s”"
 msgstr "“%s” konteyneri bulunamadı"
 
-#: src/ptyxis-tab.c:490
+#: src/ptyxis-tab.c:566
 msgid "Failed to create pseudo terminal device"
 msgstr "Sözde uçbirim aygıtı oluşturulamadı"
 
-#: src/ptyxis-tab.c:1468
+#: src/ptyxis-tab.c:1584
 msgid "Exited"
 msgstr "Çıktı"
 
-#: src/ptyxis-tab.c:1470
+#: src/ptyxis-tab.c:1586
 msgid "Failed"
 msgstr "Başarısız oldu"
 
-#: src/ptyxis-tab.c:2052
+#: src/ptyxis-tab.c:2171
 msgid "Failed to open link"
 msgstr "Bağlantı açılamadı"
 
@@ -1862,15 +1889,15 @@ msgstr "Builder Uçbirimi"
 msgid "Ptyxis"
 msgstr "Ptyxis"
 
-#: src/ptyxis-window.c:1423
+#: src/ptyxis-window.c:1428
 msgid "Zoom in"
 msgstr "Yakınlaştır"
 
-#: src/ptyxis-window.c:1438
+#: src/ptyxis-window.c:1443
 msgid "Zoom out"
 msgstr "Uzaklaştır"
 
-#: src/ptyxis-window.c:1624 src/ptyxis-window.c:1796
+#: src/ptyxis-window.c:1629 src/ptyxis-window.c:1801
 msgid "Containers"
 msgstr "Konteynerler"
 

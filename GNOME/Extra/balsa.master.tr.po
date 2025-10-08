@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: balsa master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/balsa/-/issues\n"
-"POT-Creation-Date: 2025-09-16 16:17+0000\n"
+"POT-Creation-Date: 2025-09-25 16:53+0000\n"
 "PO-Revision-Date: 2024-03-19 23:42+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -195,7 +195,7 @@ msgstr ""
 
 #: libbalsa/address-book-carddav.c:527 libbalsa/gmime-gpgme-signature.c:239
 #: libbalsa/imap/imap-handle.c:46 libbalsa/libbalsa-carddav.c:543
-#: libbalsa/libbalsa-gpgme.c:186 libbalsa/rfc3156.c:546 libbalsa/rfc6350.c:169
+#: libbalsa/libbalsa-gpgme.c:173 libbalsa/rfc3156.c:545 libbalsa/rfc6350.c:169
 #: libbalsa/server-config.c:566 src/folder-conf.c:412 src/sendmsg-window.c:5387
 msgid "unknown"
 msgstr "bilinmeyen"
@@ -879,7 +879,7 @@ msgid "Failed to decrypt MIME part: parse error"
 msgstr "MIME bölümünün şifresi çözülürken hata: ayrıştırma hatası"
 
 #: libbalsa/gmime-gpgme-signature.c:147 libbalsa/libbalsa-gpgme-widgets.c:371
-#: libbalsa/libbalsa-gpgme-widgets.c:744 libbalsa/rfc3156.c:550
+#: libbalsa/libbalsa-gpgme-widgets.c:744 libbalsa/rfc3156.c:549
 #: src/address-book-config.c:290
 msgid "never"
 msgstr "asla"
@@ -1091,11 +1091,11 @@ msgstr "İmza dosyası “%s” okumak için açılamıyor: "
 msgid "Signature in “%s” is not a UTF-8 text."
 msgstr "“%s” içindeki imza bir UTF-8 metni değil."
 
-#: libbalsa/identity.c:364 libbalsa/libbalsa-gpgme-cb.c:181
-#: libbalsa/libbalsa-gpgme-cb.c:357 libbalsa/smtp-server.c:336
-#: src/ab-main.c:825 src/ab-window.c:141 src/address-book-config.c:341
-#: src/address-book-config.c:452 src/balsa-app.c:91 src/balsa-app.c:164
-#: src/balsa-index.c:2799 src/balsa-mblist.c:1893 src/balsa-message.c:1792
+#: libbalsa/identity.c:364 libbalsa/libbalsa-gpgme-cb.c:122
+#: libbalsa/smtp-server.c:336 src/ab-main.c:825 src/ab-window.c:141
+#: src/address-book-config.c:341 src/address-book-config.c:452
+#: src/balsa-app.c:91 src/balsa-app.c:164 src/balsa-index.c:2799
+#: src/balsa-mblist.c:1893 src/balsa-message.c:1792
 #: src/balsa-mime-widget-callbacks.c:89 src/filter-edit-callbacks.c:1257
 #: src/filter-edit-dialog.c:399 src/filter-edit-dialog.c:575
 #: src/filter-export-dialog.c:81 src/filter-run-dialog.c:302
@@ -1109,9 +1109,8 @@ msgstr "“%s” içindeki imza bir UTF-8 metni değil."
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: libbalsa/identity.c:365 libbalsa/libbalsa-gpgme-cb.c:180
-#: libbalsa/libbalsa-gpgme-cb.c:356 src/ab-window.c:140 src/balsa-app.c:92
-#: src/balsa-app.c:163 src/balsa-message.c:1793
+#: libbalsa/identity.c:365 libbalsa/libbalsa-gpgme-cb.c:121 src/ab-window.c:140
+#: src/balsa-app.c:92 src/balsa-app.c:163 src/balsa-message.c:1793
 #: src/balsa-mime-widget-callbacks.c:90 src/filter-edit-callbacks.c:1256
 #: src/filter-edit-dialog.c:574 src/filter-export-dialog.c:80
 #: src/filter-run-dialog.c:301 src/folder-conf.c:341 src/main-window.c:4058
@@ -1592,84 +1591,97 @@ msgstr ""
 msgid "CardDAV error: %s"
 msgstr "CardDAV hatası: %s"
 
-#: libbalsa/libbalsa-gpgme.c:182
+#: libbalsa/libbalsa-gpgme.c:169
 msgid "OpenPGP"
 msgstr "OpenPGP"
 
-#: libbalsa/libbalsa-gpgme.c:184 src/balsa-message.c:3047
+#: libbalsa/libbalsa-gpgme.c:171 src/balsa-message.c:3045
 msgid "S/MIME"
 msgstr "S/MIME"
 
-#: libbalsa/libbalsa-gpgme.c:252
+#: libbalsa/libbalsa-gpgme.c:236
 msgid "could not create context"
 msgstr "içerik oluşturulamadı"
 
-#: libbalsa/libbalsa-gpgme.c:256
+#: libbalsa/libbalsa-gpgme.c:240
 #, c-format
 msgid "could not set protocol “%s”"
 msgstr "“%s” iletişim kuralı ayarlanamadı"
 
-#: libbalsa/libbalsa-gpgme.c:301
+#: libbalsa/libbalsa-gpgme.c:282
 #, c-format
 msgid "failed to create a temporary folder"
 msgstr "geçiçi klasör oluşturulamadı"
 
-#: libbalsa/libbalsa-gpgme.c:321
+#: libbalsa/libbalsa-gpgme.c:302
 #, c-format
 msgid "could not set folder “%s” for engine “%s”"
 msgstr "“%s” klasörün “%s” motoru için ayarlanamadı"
 
 #. paranoid - should *never* happen
-#: libbalsa/libbalsa-gpgme.c:326
+#: libbalsa/libbalsa-gpgme.c:307
 #, c-format
 msgid "no crypto engine for “%s” available"
 msgstr "“%s” için kullanılabilir kripto motoru yok"
 
-#: libbalsa/libbalsa-gpgme.c:392 libbalsa/libbalsa-gpgme.c:403
-#: libbalsa/libbalsa-gpgme.c:504 libbalsa/libbalsa-gpgme.c:627
-#: libbalsa/libbalsa-gpgme.c:720
+#: libbalsa/libbalsa-gpgme.c:373 libbalsa/libbalsa-gpgme.c:384
+#: libbalsa/libbalsa-gpgme.c:485 libbalsa/libbalsa-gpgme.c:608
+#: libbalsa/libbalsa-gpgme.c:701
 msgid "could not get data from stream"
 msgstr "akıştan veri alınamadı"
 
-#: libbalsa/libbalsa-gpgme.c:416 libbalsa/rfc3156.c:241 libbalsa/rfc3156.c:246
+#: libbalsa/libbalsa-gpgme.c:397 libbalsa/rfc3156.c:241 libbalsa/rfc3156.c:246
 #: libbalsa/rfc3156.c:402 libbalsa/rfc3156.c:408
 msgid "signature verification failed"
 msgstr "imza doğrulaması başarısız oldu"
 
-#: libbalsa/libbalsa-gpgme.c:512 libbalsa/libbalsa-gpgme.c:636
-#: libbalsa/libbalsa-gpgme.c:728
+#: libbalsa/libbalsa-gpgme.c:493 libbalsa/libbalsa-gpgme.c:617
+#: libbalsa/libbalsa-gpgme.c:709
 msgid "could not create new data object"
 msgstr "yeni veri nesnesi oluşturulamadı"
 
-#: libbalsa/libbalsa-gpgme.c:521
+#: libbalsa/libbalsa-gpgme.c:502
 msgid "signing failed"
 msgstr "imzalama başarısız"
 
-#: libbalsa/libbalsa-gpgme.c:595
+#: libbalsa/libbalsa-gpgme.c:576
 #, c-format
 msgid "combined signing and encryption is defined only for RFC 2440"
 msgstr ""
 "imzalama ve şifrelemin birlikte yapılması yalnızca RFC 2440 için tanımlıdır"
 
-#: libbalsa/libbalsa-gpgme.c:663
+#: libbalsa/libbalsa-gpgme.c:644
 msgid "signing and encryption failed"
 msgstr "imzalama ve şifreleme başarısız oldu"
 
-#: libbalsa/libbalsa-gpgme.c:665
+#: libbalsa/libbalsa-gpgme.c:646
 msgid "encryption failed"
 msgstr "şifreleme başarısız oldu"
 
-#: libbalsa/libbalsa-gpgme.c:738 libbalsa/rfc3156.c:310 libbalsa/rfc3156.c:315
+#: libbalsa/libbalsa-gpgme.c:719 libbalsa/rfc3156.c:310 libbalsa/rfc3156.c:315
 msgid "decryption failed"
 msgstr "şifre çözümü başarısız oldu"
 
-#: libbalsa/libbalsa-gpgme.c:845
+#: libbalsa/libbalsa-gpgme.c:826
 #, c-format
 msgid "No private key for protocol %s is available for the signer “%s”"
 msgstr ""
 "“%2$s” imzacısınca %1$s iletişim kuralı için imzalanmış özel anahtar yok."
 
-#: libbalsa/libbalsa-gpgme.c:995
+#: libbalsa/libbalsa-gpgme.c:897
+#, fuzzy
+#| msgid "Saving POP message failed"
+msgid "accessing the GPG agent failed"
+msgstr "POP iletisinin kaydı başarısız oldu"
+
+#: libbalsa/libbalsa-gpgme.c:905
+#, c-format
+msgid ""
+"Signing or decrypting GPG or S/MIME messages may fail, please check the GPG "
+"agent: %s"
+msgstr ""
+
+#: libbalsa/libbalsa-gpgme.c:1015
 #, c-format
 msgid ""
 "A key for “%s” is present, but it is expired, disabled, revoked or invalid"
@@ -1677,37 +1689,37 @@ msgstr ""
 "“%s” için anahtar var ancak süresi dolmuş, devre dışı, feshedilmiş veya "
 "geçersiz"
 
-#: libbalsa/libbalsa-gpgme.c:998
+#: libbalsa/libbalsa-gpgme.c:1018
 #, c-format
 msgid "Could not find a key for “%s”"
 msgstr "“%s” için anahtar bulunamadı"
 
-#: libbalsa/libbalsa-gpgme.c:1013
+#: libbalsa/libbalsa-gpgme.c:1033
 #, c-format
 msgid "Multiple keys for “%s”"
 msgstr "“%s” için birden çok anahtar"
 
-#: libbalsa/libbalsa-gpgme.c:1035
+#: libbalsa/libbalsa-gpgme.c:1055
 #, c-format
 msgid "Insufficient key validity"
 msgstr "Yetersiz anahtar geçerliliği"
 
 #. FIXME: create dialog according to the Gnome HIG
-#: libbalsa/libbalsa-gpgme-cb.c:176
+#: libbalsa/libbalsa-gpgme-cb.c:117
 msgid "Select key"
 msgstr "Anahtar seç"
 
-#: libbalsa/libbalsa-gpgme-cb.c:195
+#: libbalsa/libbalsa-gpgme-cb.c:136
 #, c-format
 msgid "Select the private key for the signer “%s”"
 msgstr "İmzacı “%s” için özel anahtar seç"
 
-#: libbalsa/libbalsa-gpgme-cb.c:200
+#: libbalsa/libbalsa-gpgme-cb.c:141
 #, c-format
 msgid "Select the public key for the recipient “%s”"
 msgstr "Alıcılar “%s” için açık anahtar seç"
 
-#: libbalsa/libbalsa-gpgme-cb.c:205
+#: libbalsa/libbalsa-gpgme-cb.c:146
 #, c-format
 msgid ""
 "There seems to be no public key for recipient “%s” in your key ring.\n"
@@ -1717,25 +1729,25 @@ msgstr ""
 "Anahtarlığınızdaki “%s” alıcısı için ortak anahtar yok gibi görünüyor.\n"
 "Alıcının farklı bir anahtara sahip olduğundan eminseniz listeden seçin."
 
-#: libbalsa/libbalsa-gpgme-cb.c:217
+#: libbalsa/libbalsa-gpgme-cb.c:158
 msgid "Double-click key to show details"
 msgstr "Ayrıntıları görüntülemek için tuşa çift tıklayın"
 
-#: libbalsa/libbalsa-gpgme-cb.c:276
+#: libbalsa/libbalsa-gpgme-cb.c:217
 msgid "User ID"
 msgstr "Kullanıcı Kimliği"
 
-#: libbalsa/libbalsa-gpgme-cb.c:283 src/balsa-index.c:456
+#: libbalsa/libbalsa-gpgme-cb.c:224 src/balsa-index.c:456
 #: src/pref-manager.c:211 src/sendmsg-window.c:2675
 msgid "Size"
 msgstr "Boyut"
 
-#: libbalsa/libbalsa-gpgme-cb.c:290
+#: libbalsa/libbalsa-gpgme-cb.c:231
 msgid "Created"
 msgstr "Oluşturulma"
 
 #. create the dialog
-#: libbalsa/libbalsa-gpgme-cb.c:323
+#: libbalsa/libbalsa-gpgme-cb.c:264
 #, c-format
 msgid ""
 "The owner trust for this key is “%s” only.\n"
@@ -1744,40 +1756,9 @@ msgstr ""
 "Anahtar sahibi güveni yalnızca “%s” için.\n"
 "Anahtar yine de kullanılsın mı?"
 
-#: libbalsa/libbalsa-gpgme-cb.c:325
+#: libbalsa/libbalsa-gpgme-cb.c:266
 msgid "Insufficient key owner trust"
 msgstr "Yetersiz anahtar sahibi güvenirliliği"
-
-#. FIXME: create dialog according to the Gnome HIG
-#: libbalsa/libbalsa-gpgme-cb.c:353
-msgid "Enter Passphrase"
-msgstr "Parola Metnini Gir"
-
-#: libbalsa/libbalsa-gpgme-cb.c:376
-#, c-format
-msgid ""
-"%s\n"
-"The passphrase for this key was bad, please try again!\n"
-"\n"
-"Key: %s"
-msgstr ""
-"%s\n"
-"Bu anahtar için parola yetersiz, lütfen yeniden deneyin!\n"
-"\n"
-"Anahtar: %s"
-
-#: libbalsa/libbalsa-gpgme-cb.c:381
-#, c-format
-msgid ""
-"%s\n"
-"Please enter the passphrase for the secret key!\n"
-"\n"
-"Key: %s"
-msgstr ""
-"%s\n"
-"Gizli anahtar için parola girin!\n"
-"\n"
-"Anahtar: %s"
 
 #: libbalsa/libbalsa-gpgme-keys.c:210 libbalsa/libbalsa-gpgme-keys.c:479
 msgid "error setting key list mode"
@@ -3017,103 +2998,103 @@ msgctxt "ical_role"
 msgid "non-participant, information only"
 msgstr "katılımcı değil, bilgi amaçlı"
 
-#: libbalsa/rfc3156.c:453 libbalsa/rfc3156.c:460
+#: libbalsa/rfc3156.c:452 libbalsa/rfc3156.c:459
 msgid "decryption and signature verification failed"
 msgstr "şifre çözümü ve imza doğrulama başarısız"
 
-#: libbalsa/rfc3156.c:486
+#: libbalsa/rfc3156.c:485
 msgid "The signature is valid."
 msgstr "Bu imza geçerlidir."
 
-#: libbalsa/rfc3156.c:488
+#: libbalsa/rfc3156.c:487
 msgid "The signature is valid but expired."
 msgstr "İmza geçerli ama süresi dolmuş."
 
-#: libbalsa/rfc3156.c:490
+#: libbalsa/rfc3156.c:489
 msgid ""
 "The signature is valid but the key used to verify the signature has expired."
 msgstr ""
 "İmza doğru ama imzayı doğrulamak için kullanılan anahtarın süresi dolmuş."
 
-#: libbalsa/rfc3156.c:492
+#: libbalsa/rfc3156.c:491
 msgid ""
 "The signature is valid but the key used to verify the signature has been "
 "revoked."
 msgstr "İmza doğru ama imzayı doğrulamak için kullanılan anahtar feshedilmiş."
 
-#: libbalsa/rfc3156.c:494
+#: libbalsa/rfc3156.c:493
 msgid "The signature is invalid."
 msgstr "İmza geçersiz."
 
-#: libbalsa/rfc3156.c:496
+#: libbalsa/rfc3156.c:495
 msgid "The signature could not be verified due to a missing key."
 msgstr "İmza eksik bir anahtar yüzünden doğrulanamadı."
 
-#: libbalsa/rfc3156.c:498
+#: libbalsa/rfc3156.c:497
 msgid "This part is not a real signature."
 msgstr "Bu bölüm gerçek bir imza değil."
 
-#: libbalsa/rfc3156.c:500
+#: libbalsa/rfc3156.c:499
 msgid "The signature could not be verified due to an invalid crypto engine."
 msgstr "İmza geçersiz şifreleme motoru nedeniyle doğrulanamadı."
 
-#: libbalsa/rfc3156.c:502
+#: libbalsa/rfc3156.c:501
 msgid "The signature contains multiple signers, this may be a forgery."
 msgstr "İmza, birden çok imzalayan içeriyor ve sahte olabilir."
 
 #. Translators: #1 error source; #2 error message
-#: libbalsa/rfc3156.c:509
+#: libbalsa/rfc3156.c:508
 #, c-format
 msgid "An error prevented the signature verification: %s: %s"
 msgstr "Bir hata imza doğrulamasına engel oldu: %s: %s"
 
 #. Translators: #1 error message
-#: libbalsa/rfc3156.c:512
+#: libbalsa/rfc3156.c:511
 #, c-format
 msgid "An error prevented the signature verification: %s"
 msgstr "Bir hata imza doğrulamasına engel oldu: %s"
 
-#: libbalsa/rfc3156.c:524
+#: libbalsa/rfc3156.c:523
 msgid "The user ID is of unknown validity."
 msgstr "Kullanıcı kimliği bilinmeyen geçerlilikte."
 
-#: libbalsa/rfc3156.c:526
+#: libbalsa/rfc3156.c:525
 msgid "The validity of the user ID is undefined."
 msgstr "Kullanıcı kimliğinin geçerliliği tanımlanmamış."
 
-#: libbalsa/rfc3156.c:528
+#: libbalsa/rfc3156.c:527
 msgid "The user ID is never valid."
 msgstr "Kullanıcı kimliği asla geçerli olmamış."
 
-#: libbalsa/rfc3156.c:530
+#: libbalsa/rfc3156.c:529
 msgid "The user ID is marginally valid."
 msgstr "Kullanıcı kimliği sıradışı bir biçimde geçerli."
 
-#: libbalsa/rfc3156.c:532
+#: libbalsa/rfc3156.c:531
 msgid "The user ID is fully valid."
 msgstr "Kullanıcı kimliği geçerli."
 
-#: libbalsa/rfc3156.c:534
+#: libbalsa/rfc3156.c:533
 msgid "The user ID is ultimately valid."
 msgstr "Kullanıcı kimliği üst düzeyde geçerli."
 
-#: libbalsa/rfc3156.c:536 libbalsa/rfc3156.c:558
+#: libbalsa/rfc3156.c:535 libbalsa/rfc3156.c:557
 msgid "bad validity"
 msgstr "bozuk geçerlilik"
 
-#: libbalsa/rfc3156.c:548
+#: libbalsa/rfc3156.c:547
 msgid "undefined"
 msgstr "tanımsız"
 
-#: libbalsa/rfc3156.c:552
+#: libbalsa/rfc3156.c:551
 msgid "marginal"
 msgstr "sıradışı"
 
-#: libbalsa/rfc3156.c:554
+#: libbalsa/rfc3156.c:553
 msgid "full"
 msgstr "tüm"
 
-#: libbalsa/rfc3156.c:556
+#: libbalsa/rfc3156.c:555
 msgid "ultimate"
 msgstr "üst düzey"
 
@@ -4316,7 +4297,7 @@ msgstr "(Gönderici yok)"
 msgid "Could not access message %u in mailbox “%s”."
 msgstr "%u iletisine “%s” posta kutusundan erişilemedi."
 
-#: src/balsa-message.c:1217 src/main.c:543
+#: src/balsa-message.c:1217 src/main.c:542
 #, c-format
 msgid "Autocrypt error: %s"
 msgstr "Autocrypt hatası: %s"
@@ -4445,12 +4426,12 @@ msgstr ""
 "Bu ileti birçok kez gösterildiğinden şifresi çözülemedi.\n"
 "Lütfen bu iletinin diğer örneklerini kapatın ve yeniden deneyin."
 
-#: src/balsa-message.c:2928 src/balsa-message.c:3013 src/balsa-message.c:3139
+#: src/balsa-message.c:2928 src/balsa-message.c:3011 src/balsa-message.c:3137
 #, c-format
 msgid "Parsing a message part failed: %s"
 msgstr "İletinin bir bölümü ayrıştırılamadı: %s"
 
-#: src/balsa-message.c:2929 src/balsa-message.c:3014 src/balsa-message.c:3140
+#: src/balsa-message.c:2929 src/balsa-message.c:3012 src/balsa-message.c:3138
 msgid "Possible disk space problem."
 msgstr "Olası boş disk alanı sorunu."
 
@@ -4472,7 +4453,7 @@ msgstr ""
 "%s tarafından gönderilen “%s” konulu ileti PGP şifreli bir bölüm içeriyor, "
 "ancak bu şifreleme iletişim kuralı kullanılabilir değil."
 
-#: src/balsa-message.c:2964
+#: src/balsa-message.c:2963
 #, c-format
 msgid ""
 "The message sent by %s with subject “%s” contains a S/MIME encrypted part, "
@@ -4481,7 +4462,7 @@ msgstr ""
 "%s tarafından gönderilen “%s” konulu ileti S/MIME şifreli bir bölüm "
 "içeriyor, ancak bu şifreleme iletişim kuralı kullanılabilir değil."
 
-#: src/balsa-message.c:3031
+#: src/balsa-message.c:3029
 #, c-format
 msgid ""
 "The message sent by %s with subject “%s” contains a signed part, but its "
@@ -4490,7 +4471,7 @@ msgstr ""
 "%s tarafından gönderilen “%s” konulu ileti imzalı bir bölüm içeriyor, ancak "
 "yapısı geçersiz. İmza, eğer varsa, denetlenemiyor."
 
-#: src/balsa-message.c:3044
+#: src/balsa-message.c:3042
 #, c-format
 msgid ""
 "The message sent by %s with subject “%s” contains a %s signed part, but this "
@@ -4499,19 +4480,19 @@ msgstr ""
 "%s tarafından gönderilen “%s” konulu ileti %s imzalı bir bölüm içeriyor, "
 "ancak bu şifreleme iletişim kuralı kullanılabilir değil."
 
-#: src/balsa-message.c:3047
+#: src/balsa-message.c:3045
 msgid "PGP"
 msgstr "PGP"
 
-#: src/balsa-message.c:3076
+#: src/balsa-message.c:3074
 msgid "Detected a good signature with insufficient validity"
 msgstr "Yeterli geçerliliği olmayan iyi bir imza algılandı"
 
-#: src/balsa-message.c:3081 src/balsa-message.c:3206
+#: src/balsa-message.c:3079 src/balsa-message.c:3202
 msgid "Detected a good signature with insufficient validity/trust"
 msgstr "Yeterli geçerliliği/güveni olmayan iyi bir imza algılandı"
 
-#: src/balsa-message.c:3091 src/balsa-message.c:3215
+#: src/balsa-message.c:3089 src/balsa-message.c:3211
 #, c-format
 msgid ""
 "Checking the signature of the message sent by %s with subject “%s” "
@@ -4522,7 +4503,7 @@ msgstr ""
 "sonuçlandı:\n"
 "%s"
 
-#: src/balsa-message.c:3104
+#: src/balsa-message.c:3102
 #, c-format
 msgid ""
 "Checking the signature of the message sent by %s with subject “%s” failed "
@@ -4531,14 +4512,14 @@ msgstr ""
 "%s tarafından gönderilen “%s” konulu iletinin imzasının denetimi bir hata "
 "ile sonuçlandı!"
 
-#: src/balsa-message.c:3166
+#: src/balsa-message.c:3164
 msgid ""
 "The decryption cannot be performed because this message is displayed more "
 "than once."
 msgstr ""
 "İleti birden çok defa görüntülendiğinden şifre çözümü gerçekleştirilemedi."
 
-#: src/balsa-message.c:3168
+#: src/balsa-message.c:3166
 msgid ""
 "The signature check and removal of the OpenPGP armor cannot be performed "
 "because this message is displayed more than once."
@@ -4546,7 +4527,7 @@ msgstr ""
 "İmza denetimi ve OpenPGP zırhının kaldırılması ileti birden çok "
 "görüntülendiğinden gerçekleştirilemedi."
 
-#: src/balsa-message.c:3171
+#: src/balsa-message.c:3169
 msgid "Please close the other instances of this message and try again."
 msgstr "Bu iletinin diğer görüntülenmelerini kapatıp yeniden deneyin."
 
@@ -6021,39 +6002,39 @@ msgstr "Çöp kutusu"
 msgid "Compressing mail folders…"
 msgstr "Posta klasörleri sıkıştırılıyor…"
 
-#: src/main.c:609
+#: src/main.c:608
 msgid "Get new mail on start-up"
 msgstr "Açılışta yeni postaları al"
 
-#: src/main.c:611
+#: src/main.c:610
 msgid "Compose a new email to EMAIL@ADDRESS"
 msgstr "EMAIL@ADRESS adresi için yeni ileti oluşturur"
 
-#: src/main.c:613
+#: src/main.c:612
 msgid "Attach file at URI"
 msgstr "URI’deki dosyayı ekle"
 
-#: src/main.c:615
+#: src/main.c:614
 msgid "Opens MAILBOXNAME"
 msgstr "MAILBOXNAME’i açar"
 
-#: src/main.c:615
+#: src/main.c:614
 msgid "MAILBOXNAME"
 msgstr "MAILBOXNAME"
 
-#: src/main.c:617
+#: src/main.c:616
 msgid "Opens first unread mailbox"
 msgstr "İlk okunmamış posta kutusunu açar"
 
-#: src/main.c:619
+#: src/main.c:618
 msgid "Opens default Inbox on start-up"
 msgstr "Başlangıçta öntanımlı gelen kutusunu açar"
 
-#: src/main.c:621
+#: src/main.c:620
 msgid "Prints number unread and unsent messages"
 msgstr "Okunmamış ve gönderilmemiş ileti sayısını yazdırır"
 
-#: src/main.c:623
+#: src/main.c:622
 msgid "Show version"
 msgstr "Sürümü göster"
 
@@ -8586,6 +8567,33 @@ msgstr "_Özel Karakterleri Ayır"
 
 #~ msgid "Your Balsa configuration is now stored in “~/.balsa/config”."
 #~ msgstr "Balsa yapılandırmanız şimdi “~/.balsa/config” adresinde saklandı."
+
+#~ msgid "Enter Passphrase"
+#~ msgstr "Parola Metnini Gir"
+
+#, c-format
+#~ msgid ""
+#~ "%s\n"
+#~ "The passphrase for this key was bad, please try again!\n"
+#~ "\n"
+#~ "Key: %s"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Bu anahtar için parola yetersiz, lütfen yeniden deneyin!\n"
+#~ "\n"
+#~ "Anahtar: %s"
+
+#, c-format
+#~ msgid ""
+#~ "%s\n"
+#~ "Please enter the passphrase for the secret key!\n"
+#~ "\n"
+#~ "Key: %s"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Gizli anahtar için parola girin!\n"
+#~ "\n"
+#~ "Anahtar: %s"
 
 #, c-format
 #~ msgid ""

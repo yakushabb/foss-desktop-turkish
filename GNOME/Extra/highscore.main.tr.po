@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-games master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/highscore/issues\n"
-"POT-Creation-Date: 2025-09-16 14:43+0000\n"
+"POT-Creation-Date: 2025-10-05 19:51+0000\n"
 "PO-Revision-Date: 2025-09-09 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -51,118 +51,131 @@ msgid "No description"
 msgstr "Açıklama yok"
 
 #: search-provider/platform-list.vala:9
-#: src/platforms/platform-register.vala:103
+#: src/platforms/atari-2600/atari-2600-platform.vala:7
 msgid "Atari 2600"
 msgstr "Atari 2600"
 
 #: search-provider/platform-list.vala:10
-#: src/platforms/platform-register.vala:116
+#: src/platforms/atari-7800/atari-7800-platform.vala:7
 msgid "Atari 7800"
 msgstr "Atari 7800"
 
 #: search-provider/platform-list.vala:11
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:5
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:38
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:73
-#: src/platforms/platform-register.vala:129
+#: src/platforms/atari-lynx/atari-lynx-controls.vala:7
+#: src/platforms/atari-lynx/atari-lynx-platform.vala:7
 msgid "Atari Lynx"
 msgstr "Atari Lynx"
 
 #. translators: only released in eastern Asia
-#: search-provider/platform-list.vala:12
-#: src/platforms/platform-register.vala:429
+#: search-provider/platform-list.vala:12 src/platforms/fds/fds-platform.vala:8
 msgid "Famicom Disk System"
 msgstr "Famicom Disk Sistemi"
 
 #: search-provider/platform-list.vala:13
-#: src/platforms/game-boy/game-boy-controls.vala:5
+#: src/platforms/game-boy/game-boy-controls.vala:7
 #: src/platforms/game-boy/game-boy-model.vala:44
+#: src/platforms/game-boy/game-boy-platform.vala:7
 #: src/platforms/game-boy/game-boy-properties.blp:6
 #: src/platforms/game-boy/game-boy-screen-set.vala:11
-#: src/platforms/platform-register.vala:145
 msgid "Game Boy"
 msgstr "Game Boy"
 
 #: search-provider/platform-list.vala:14
 #: src/platforms/game-boy/game-boy-model.vala:50
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:5
-#: src/platforms/platform-register.vala:174
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:7
+#: src/platforms/game-boy-advance/game-boy-advance-platform.vala:7
 msgid "Game Boy Advance"
 msgstr "Game Boy Advance"
 
 #: search-provider/platform-list.vala:15
-#: src/platforms/game-gear/game-gear-controls.vala:5
-#: src/platforms/platform-register.vala:195
+#: src/platforms/game-gear/game-gear-controls.vala:7
+#: src/platforms/game-gear/game-gear-platform.vala:7
 msgid "Game Gear"
 msgstr "Game Gear"
 
 #. translators: also known as "Sega Mark III" in eastern Asia
 #: search-provider/platform-list.vala:16
+#: src/platforms/master-system/master-system-platform.vala:8
 #: src/platforms/master-system/master-system-properties.blp:6
-#: src/platforms/platform-register.vala:210
 msgid "Master System"
 msgstr "Ana Sistem"
 
 #. translators: known as "Mega Drive" in most of the world
 #: search-provider/platform-list.vala:17
-#: src/platforms/platform-register.vala:227
+#: src/platforms/mega-drive/mega-drive-platform.vala:8
 msgid "Sega Genesis"
 msgstr "Sega Genesis"
 
+#. translators: known as "Mega Drive 32X", "Mega 32X" or "Super 32X" in other places
 #: search-provider/platform-list.vala:18
-#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:5
-#: src/platforms/platform-register.vala:242
+#: src/platforms/mega-drive-32x/mega-drive-32x-platform.vala:8
+msgid "Sega 32X"
+msgstr "Sega 32X"
+
+#. translators: known as "Mega-CD" in most of the world
+#: search-provider/platform-list.vala:19
+#: src/platforms/mega-cd/mega-cd-platform.vala:8
+msgid "Sega CD"
+msgstr "Sega CD"
+
+#. translators: known as "Mega-CD 32X" or "Super 32X CD" in other places
+#: search-provider/platform-list.vala:20
+#: src/platforms/mega-cd-32x/mega-cd-32x-platform.vala:12
+msgid "Sega CD 32X"
+msgstr "Sega CD 32X"
+
+#: search-provider/platform-list.vala:21
+#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:6
+#: src/platforms/neo-geo-pocket/neo-geo-pocket-platform.vala:7
 msgid "Neo Geo Pocket"
 msgstr "Neo Geo Pocket"
 
 #. translators: known as "Famicom" in eastern Asia. "Nintendo (NES)"
 #. is used instead of "Nintendo Entertainment System" because the
 #. full name doesn't fit into the sidebar
-#: search-provider/platform-list.vala:19
-#: src/platforms/platform-register.vala:262
+#: search-provider/platform-list.vala:22 src/platforms/nes/nes-platform.vala:10
 msgid "Nintendo (NES)"
 msgstr "Nintendo (NES)"
 
-#: search-provider/platform-list.vala:20
-#: src/platforms/platform-register.vala:279
+#: search-provider/platform-list.vala:23
+#: src/platforms/nintendo-64/nintendo-64-platform.vala:7
 msgid "Nintendo 64"
 msgstr "Nintendo 64"
 
-#: search-provider/platform-list.vala:21
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:5
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:50
-#: src/platforms/platform-register.vala:295
+#: search-provider/platform-list.vala:24
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:7
+#: src/platforms/nintendo-ds/nintendo-ds-platform.vala:7
 msgid "Nintendo DS"
 msgstr "Nintendo DS"
 
 #. translators: known as "PC Engine" in eastern Asia and France
-#: search-provider/platform-list.vala:22
+#: search-provider/platform-list.vala:25
+#: src/platforms/pc-engine/pc-engine-platform.vala:8
 #: src/platforms/pc-engine/pc-engine-properties.blp:6
-#: src/platforms/platform-register.vala:319
 msgid "TurboGrafx-16"
 msgstr "TurboGrafx-16"
 
 #. translators: known as "CD-ROM²" in eastern Asia and France
-#: search-provider/platform-list.vala:23
-#: src/platforms/platform-register.vala:481
+#: search-provider/platform-list.vala:26
+#: src/platforms/pc-engine-cd/pc-engine-cd-platform.vala:8
 msgid "TurboGrafx-CD"
 msgstr "TurboGrafx-CD"
 
-#: search-provider/platform-list.vala:24
+#: search-provider/platform-list.vala:27
 #: src/input/gamepad/types/gamepad-type-sony.vala:48
+#: src/platforms/playstation/playstation-platform.vala:7
 #: src/platforms/playstation/playstation-properties.blp:9
-#: src/platforms/platform-register.vala:333
 msgid "PlayStation"
 msgstr "PlayStation"
 
-#: search-provider/platform-list.vala:25
+#: search-provider/platform-list.vala:28
+#: src/platforms/sega-saturn/sega-saturn-platform.vala:7
 #: src/platforms/sega-saturn/sega-saturn-properties.blp:9
-#: src/platforms/platform-register.vala:349
 msgid "Sega Saturn"
 msgstr "Sega Saturn"
 
-#: search-provider/platform-list.vala:26
-#: src/platforms/platform-register.vala:365
+#: search-provider/platform-list.vala:29
+#: src/platforms/sg-1000/sg-1000-platform.vala:7
 msgid "SG-1000"
 msgstr "SG-1000"
 
@@ -170,44 +183,49 @@ msgstr "SG-1000"
 #. "Super Nintendo (SNES)" is used instead of
 #. "Super Nintendo Entertainment System" because the full name
 #. doesn't fit into the sidebar
-#: search-provider/platform-list.vala:27
-#: src/platforms/platform-register.vala:381
+#: search-provider/platform-list.vala:30
+#: src/platforms/super-nes/super-nes-platform.vala:11
 msgid "Super Nintendo (SNES)"
 msgstr "Super Nintendo (SNES)"
 
-#: search-provider/platform-list.vala:28
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:5
-#: src/platforms/platform-register.vala:394
+#: search-provider/platform-list.vala:31
+#: src/platforms/game-boy/game-boy-model.vala:52
+#: src/platforms/super-game-boy/super-game-boy-platform.vala:11
+msgid "Super Game Boy"
+msgstr "Super Game Boy"
+
+#: search-provider/platform-list.vala:32
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:7
+#: src/platforms/virtual-boy/virtual-boy-platform.vala:7
 msgid "Virtual Boy"
 msgstr "Virtual Boy"
 
-#: search-provider/platform-list.vala:29
-#: src/platforms/platform-register.vala:408
+#: search-provider/platform-list.vala:33
+#: src/platforms/wonderswan/wonderswan-platform.vala:7
 msgid "WonderSwan"
 msgstr "WonderSwan"
 
-#: src/display/controls-preview.vala:23 src/display/controls-preview.vala:148
-#: src/display/controls-preview.vala:156
-#: src/platforms/nintendo-64/nintendo-64-properties.vala:53
+#: src/display/controls-preview.vala:23 src/display/controls-preview.vala:152
+#: src/display/controls-preview.vala:160
+#: src/platforms/nintendo-64/nintendo-64-properties.vala:57
 #: src/preferences/preferences-controller-row.vala:24
 #, c-format
 msgid "Player %u"
 msgstr "Oyuncu %u"
 
-#: src/display/controls-preview.vala:92 src/input/controller-manager.vala:46
+#: src/display/controls-preview.vala:96 src/input/controller-manager.vala:46
 #: src/preferences/preferences-controller-row.vala:59
 msgid "Keyboard"
 msgstr "Klavye"
 
-#: src/display/controls-preview.vala:101 src/input/controller-manager.vala:48
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:40
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:86
+#: src/display/controls-preview.vala:105 src/input/controller-manager.vala:48
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:42
 #: src/preferences/preferences-controller-row.vala:60
 #: src/preferences/preferences-input-page.blp:44
 msgid "Touchscreen"
 msgstr "Dokunmatik Ekran"
 
-#: src/display/controls-preview.vala:113
+#: src/display/controls-preview.vala:117
 msgid "No Controller"
 msgstr "Denetçi Yok"
 
@@ -261,26 +279,26 @@ msgid "_Properties"
 msgstr "_Özellikler"
 
 #: src/display/display-page.blp:331 src/display/display-page.blp:385
-#: src/library/library-page.blp:280 src/properties/properties-main-page.blp:137
+#: src/library/library-page.blp:285 src/properties/properties-main-page.blp:137
 #: src/standalone-window.blp:79
 msgid "_Preferences"
 msgstr "_Tercihler"
 
-#: src/display/display-page.blp:378 src/library/library-page.blp:266
+#: src/display/display-page.blp:378 src/library/library-page.blp:271
 msgid "_Open Game…"
 msgstr "Oyun _Aç…"
 
-#: src/display/display-page.blp:390 src/library/library-page.blp:285
+#: src/display/display-page.blp:390 src/library/library-page.blp:290
 #: src/standalone-window.blp:84
 msgid "_Keyboard Shortcuts"
 msgstr "Klavye _Kısayolları"
 
-#: src/display/display-page.blp:395 src/library/library-page.blp:290
+#: src/display/display-page.blp:395 src/library/library-page.blp:295
 #: src/standalone-window.blp:89
 msgid "_Help"
 msgstr "_Yardım"
 
-#: src/display/display-page.blp:400 src/library/library-page.blp:295
+#: src/display/display-page.blp:400 src/library/library-page.blp:300
 #: src/standalone-window.blp:94
 msgid "_About Highscore"
 msgstr "Highscore _Hakkında"
@@ -300,75 +318,81 @@ msgstr "Yüklemeden önce kaydedilemedi: %s"
 msgid "Failed to launch URI: %s"
 msgstr "URI başlatılamadı: %s"
 
-#: src/display/display-page.vala:564
+#: src/display/display-page.vala:561
+#, fuzzy
+#| msgid "Install %s to run the game"
+msgid "Install firmware to run the game"
+msgstr "Oyunu çalıştırmak için %s kur"
+
+#: src/display/display-page.vala:563
 #, c-format
 msgid "Install %s to run the game"
 msgstr "Oyunu çalıştırmak için %s kur"
 
-#: src/display/display-page.vala:572
+#: src/display/display-page.vala:571
 #, c-format
 msgid "Install the following firmware to run the game: %s"
 msgstr "Oyunu çalıştırmak için şu donanım yazılımını kur: %s"
 
-#: src/display/display-page.vala:576
+#: src/display/display-page.vala:575
 msgid "Missing Firmware"
 msgstr "Eksik Donanım Yazılımı"
 
-#: src/display/display-page.vala:579
+#: src/display/display-page.vala:578
 msgid "Install _Firmware"
 msgstr "_Donanım Yazılımını Kur"
 
-#: src/display/display-page.vala:585 src/standalone-window.vala:72
+#: src/display/display-page.vala:584 src/standalone-window.vala:72
 #: src/standalone-window.vala:79
 msgid "Unable to run the game"
 msgstr "Oyun çalıştırılamadı"
 
-#: src/display/display-page.vala:586
+#: src/display/display-page.vala:585
 #, c-format
 msgid "Failed to start the game: %s"
 msgstr "Oyun başlatılamadı: %s"
 
-#: src/display/display-page.vala:646
+#: src/display/display-page.vala:645
 msgid "Unable to stop core"
 msgstr "Çekirdek durdurulamadı"
 
-#: src/display/display-page.vala:677 src/display/display-page.vala:691
+#: src/display/display-page.vala:676 src/display/display-page.vala:690
 msgid "Missing Core"
 msgstr "Eksik Çekirdek"
 
-#: src/display/display-page.vala:678
+#: src/display/display-page.vala:677
 #, c-format
 msgid "Install %s extension to run the game"
 msgstr "Oyunu çalıştırmak için %s uzantısını kur"
 
-#: src/display/display-page.vala:680
+#: src/display/display-page.vala:679
 msgid "Install _Extension"
 msgstr "_Uzantı Kur"
 
-#: src/display/display-page.vala:692
+#: src/display/display-page.vala:691
 #, c-format
 msgid "No %s core found"
 msgstr "%s çekirdeği bulunamadı"
 
-#: src/display/display-page.vala:711 src/display/secondary-window.vala:177
+#: src/display/display-page.vala:710 src/display/secondary-window.vala:177
 msgid "Game Crashed"
 msgstr "Oyun Çöktü"
 
-#: src/display/display-page.vala:772
+#: src/display/display-page.vala:771
 #, c-format
 msgid "Failed to load snapshot: %s"
 msgstr "Anlık görüntü yüklenemedi: %s"
 
-#: src/display/display-page.vala:847 src/display/secondary-window.vala:143
+#: src/display/display-page.vala:846 src/display/secondary-window.vala:143
 #, c-format
 msgid "%s – Paused"
 msgstr "%s – Duraklatıldı"
 
-#: src/display/display-page.vala:849 src/display/secondary-window.vala:145
+#: src/display/display-page.vala:848 src/display/secondary-window.vala:145
 msgid "Paused"
 msgstr "Duraklatıldı"
 
-#: src/display/display-page.vala:873 src/display/secondary-window.vala:157
+#: src/display/display-page.vala:872 src/display/secondary-window.vala:157
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
@@ -376,34 +400,34 @@ msgstr "%s (%s)"
 #. Translators: This is displayed if the user tries to log out,
 #. * shutdown, or reboot while a game is running, %s is the game's
 #. * title
-#: src/display/display-page.vala:914
+#: src/display/display-page.vala:913
 #, c-format
 msgid "Playing %s"
 msgstr "%s oynatılıyor"
 
-#: src/display/display-page.vala:1085
+#: src/display/display-page.vala:1080
 #, c-format
 msgid "%s"
 msgstr "%s"
 
-#: src/display/display-page.vala:1089
+#: src/display/display-page.vala:1084
 msgid "Click to View Controls"
 msgstr "Denetimleri Görüntülemek İçin Tıkla"
 
-#: src/display/display-page.vala:1117
+#: src/display/display-page.vala:1112
 #, c-format
 msgid "Failed to open screenshot: %s"
 msgstr "Ekran görüntüsü açılamadı: %s"
 
-#: src/display/display-page.vala:1125
+#: src/display/display-page.vala:1120
 msgid "Screenshot saved"
 msgstr "Ekran görüntüsü kaydedildi"
 
-#: src/display/display-page.vala:1126
+#: src/display/display-page.vala:1121
 msgid "Click to open"
 msgstr "Açmak için tıkla"
 
-#: src/display/display-page.vala:1168
+#: src/display/display-page.vala:1163
 #, c-format
 msgid "Failed to save screenshot: %s"
 msgstr "Ekran görüntüsü kaydedilemedi: %s"
@@ -443,16 +467,14 @@ msgstr "Denetimler her zaman menüden görüntülenebilir"
 #: src/input/gamepad/types/gamepad-type-unknown.vala:15
 #: src/library/library-page.vala:790
 #: src/platforms/atari-7800/atari-7800-switch-menu.blp:61
-#: src/platforms/game-boy/game-boy-controls.vala:24
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:32
-#: src/platforms/nes/nes-controls.vala:28
-#: src/platforms/nes/nes-controls.vala:54
-#: src/platforms/nes/nes-controls.vala:92
-#: src/platforms/nes/nes-controls.vala:129
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:35
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:81
-#: src/platforms/super-nes/super-nes-controls.vala:36
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:40
+#: src/platforms/game-boy/game-boy-controls.vala:26
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:34
+#: src/platforms/nes/nes-controls.vala:29
+#: src/platforms/nes/nes-controls.vala:67
+#: src/platforms/nes/nes-controls.vala:104
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:37
+#: src/platforms/super-nes/super-nes-controls.vala:37
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:42
 #: src/preferences/preferences-backup-restore-page.vala:37
 msgid "Select"
 msgstr "Seç"
@@ -461,7 +483,7 @@ msgstr "Seç"
 msgid "Screenshots"
 msgstr "Ekran Görüntüleri"
 
-#: src/firmware/firmware-manager.vala:125
+#: src/firmware/firmware-manager.vala:123
 msgid "Not a firmware"
 msgstr "Donanım yazılımı değil"
 
@@ -477,7 +499,7 @@ msgid "Auto (%s)"
 msgstr "Kendiliğinden (%s)"
 
 #: src/input/controller-mapping-set.vala:124
-#: src/input/gamepad/gamepad-mapping-preview.vala:549
+#: src/input/gamepad/gamepad-mapping-preview.vala:554
 msgid "C Buttons"
 msgstr "C Düğmeleri"
 
@@ -494,7 +516,7 @@ msgstr "Denetim Pedi ve L"
 #: src/input/gamepad/types/gamepad-type-unknown.vala:25
 #: src/input/gamepad/types/gamepad-type-unknown.vala:30
 #: src/input/gamepad/types/gamepad-type-xbox.vala:73
-#: src/platforms/playstation/playstation-controls.vala:97
+#: src/platforms/playstation/playstation-controls.vala:98
 msgid "Right Stick"
 msgstr "Sağ Çubuk"
 
@@ -502,7 +524,7 @@ msgstr "Sağ Çubuk"
 #: src/input/gamepad/types/gamepad-type-sony.vala:24
 #: src/input/gamepad/types/gamepad-type-steam-deck.vala:8
 #: src/input/gamepad/types/gamepad-type-xbox.vala:34
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:66
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:67
 msgid "Directional Pad"
 msgstr "Yön Pedi"
 
@@ -609,17 +631,15 @@ msgstr "+Başlat"
 #: src/input/gamepad/types/gamepad-type-8bitdo.vala:72
 #: src/input/gamepad/types/gamepad-type-unknown.vala:16
 #: src/input/gamepad/types/gamepad-type-xbox.vala:43
-#: src/platforms/game-boy/game-boy-controls.vala:25
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:33
-#: src/platforms/nes/nes-controls.vala:29
-#: src/platforms/nes/nes-controls.vala:55
-#: src/platforms/nes/nes-controls.vala:93
-#: src/platforms/nes/nes-controls.vala:130
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:51
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:36
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:82
-#: src/platforms/super-nes/super-nes-controls.vala:37
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:41
+#: src/platforms/game-boy/game-boy-controls.vala:27
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:35
+#: src/platforms/nes/nes-controls.vala:30
+#: src/platforms/nes/nes-controls.vala:68
+#: src/platforms/nes/nes-controls.vala:105
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:52
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:38
+#: src/platforms/super-nes/super-nes-controls.vala:38
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:43
 msgid "Start"
 msgstr "Başlat"
 
@@ -692,12 +712,12 @@ msgid "Home"
 msgstr "Ev"
 
 #: src/input/gamepad/types/gamepad-type-8bitdo.vala:114
-#: src/platforms/atari-2600/atari-2600-controls.vala:15
-#: src/platforms/atari-2600/atari-2600-controls.vala:41
-#: src/platforms/atari-2600/atari-2600-controls.vala:67
-#: src/platforms/atari-7800/atari-7800-controls.vala:12
-#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:10
-#: src/platforms/sg-1000/sg-1000-controls.vala:12
+#: src/platforms/atari-2600/atari-2600-controls.vala:17
+#: src/platforms/atari-2600/atari-2600-controls.vala:43
+#: src/platforms/atari-2600/atari-2600-controls.vala:69
+#: src/platforms/atari-7800/atari-7800-controls.vala:13
+#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:11
+#: src/platforms/sg-1000/sg-1000-controls.vala:13
 msgid "Joystick"
 msgstr "Kumanda"
 
@@ -709,7 +729,7 @@ msgstr "Kumanda"
 #: src/input/gamepad/types/gamepad-type-unknown.vala:24
 #: src/input/gamepad/types/gamepad-type-unknown.vala:29
 #: src/input/gamepad/types/gamepad-type-xbox.vala:72
-#: src/platforms/playstation/playstation-controls.vala:94
+#: src/platforms/playstation/playstation-controls.vala:95
 msgid "Left Stick"
 msgstr "Sol Çubuk"
 
@@ -834,18 +854,16 @@ msgid "Switch Pro Controller"
 msgstr "Switch Pro Denetçi"
 
 #: src/input/gamepad/types/gamepad-type-switch-pro.vala:8
-#: src/platforms/game-boy/game-boy-controls.vala:10
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:12
-#: src/platforms/master-system/master-system-controls.vala:7
-#: src/platforms/mega-drive/mega-drive-controls.vala:7
-#: src/platforms/nes/nes-controls.vala:14
-#: src/platforms/nes/nes-controls.vala:40
-#: src/platforms/nes/nes-controls.vala:78
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:21
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:13
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:59
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:7
-#: src/platforms/super-nes/super-nes-controls.vala:14
+#: src/platforms/game-boy/game-boy-controls.vala:12
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:14
+#: src/platforms/master-system/master-system-controls.vala:8
+#: src/platforms/mega-drive/mega-drive-controls.vala:8
+#: src/platforms/nes/nes-controls.vala:15
+#: src/platforms/nes/nes-controls.vala:53
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:22
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:15
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:8
+#: src/platforms/super-nes/super-nes-controls.vala:15
 msgid "Control Pad"
 msgstr "Denetim Pedi"
 
@@ -985,16 +1003,16 @@ msgstr "Çubuğa bas"
 msgid "Press the %s trigger"
 msgstr "%s tetiğine bas"
 
-#: src/input/gamepad/gamepad-mapping-preview.vala:420
+#: src/input/gamepad/gamepad-mapping-preview.vala:425
 msgid "Open Menu"
 msgstr "Menüyü Aç"
 
-#: src/input/gamepad/gamepad-mapping-preview.vala:521
+#: src/input/gamepad/gamepad-mapping-preview.vala:526
 msgid "Face Buttons"
 msgstr "Yüz Düğmeleri"
 
-#: src/input/gamepad/gamepad-mapping-preview.vala:672
-#: src/input/gamepad/gamepad-mapping-preview.vala:681
+#: src/input/gamepad/gamepad-mapping-preview.vala:677
+#: src/input/gamepad/gamepad-mapping-preview.vala:686
 msgid "Pointer"
 msgstr "İmleç"
 
@@ -1026,54 +1044,44 @@ msgstr "Denetimleri yeniden eşleştirmek için üzerlerine tıkla"
 msgid "Connect the gamepad to remap controls"
 msgstr "Denetimleri yeniden eşleştirmek için oyun kumandasını bağla"
 
-#: src/input/keyboard/keyboard-utils.vala:35
+#: src/input/keyboard/keyboard-utils.vala:10
 msgctxt "keyboard label"
 msgid "Shift"
 msgstr "Shift"
 
-#: src/input/keyboard/keyboard-utils.vala:39
+#: src/input/keyboard/keyboard-utils.vala:14
 msgctxt "keyboard label"
 msgid "Ctrl"
 msgstr "Ctrl"
 
-#: src/input/keyboard/keyboard-utils.vala:43
+#: src/input/keyboard/keyboard-utils.vala:18
 msgctxt "keyboard label"
 msgid "Alt"
 msgstr "Alt"
 
-#: src/input/keyboard/keyboard-utils.vala:47
-msgctxt "keyboard label"
-msgid "Meta"
-msgstr "Meta"
-
-#: src/input/keyboard/keyboard-utils.vala:51
+#: src/input/keyboard/keyboard-utils.vala:22
 msgctxt "keyboard label"
 msgid "Super"
 msgstr "Super"
 
-#: src/input/keyboard/keyboard-utils.vala:55
-msgctxt "keyboard label"
-msgid "Hyper"
-msgstr "Hyper"
-
 # Sol anlamında fakat bizde Sol ve Sağ aynı harf ile başlıyor.
-#: src/input/keyboard/keyboard-utils.vala:68
+#: src/input/keyboard/keyboard-utils.vala:33
 msgctxt "keyboard side marker"
 msgid "L"
 msgstr "L"
 
 # Sağ anlamında fakat bizde Sol ve Sağ aynı harf ile başlıyor.
-#: src/input/keyboard/keyboard-utils.vala:76
+#: src/input/keyboard/keyboard-utils.vala:39
 msgctxt "keyboard side marker"
 msgid "R"
 msgstr "R"
 
-#: src/input/keyboard/keyboard-utils.vala:115
+#: src/input/keyboard/keyboard-utils.vala:72
 msgctxt "keyboard label"
 msgid "Page Up"
 msgstr "Page Up"
 
-#: src/input/keyboard/keyboard-utils.vala:117
+#: src/input/keyboard/keyboard-utils.vala:74
 msgctxt "keyboard label"
 msgid "Page Down"
 msgstr "Page Down"
@@ -1127,7 +1135,7 @@ msgid "Scanning…"
 msgstr "Taranıyor…"
 
 #: src/library/library-page.blp:65 src/library/library-page.vala:992
-#: src/properties/properties-main-page.vala:55
+#: src/properties/properties-main-page.vala:54
 #: src/snapshot/snapshot-row.vala:39 src/welcome/welcome-library-page.blp:80
 #: src/widgets/progress-dialog.blp:23
 msgid "_Cancel"
@@ -1141,24 +1149,24 @@ msgstr "Kenar Çubuğunu Göster"
 msgid "Search"
 msgstr "Ara"
 
-#: src/library/library-page.blp:175
+#: src/library/library-page.blp:176
 msgid "Search games"
 msgstr "Oyunları ara"
 
-#: src/library/library-page.blp:200
+#: src/library/library-page.blp:205
 msgid "Open Library Folder"
 msgstr "Kitaplık Klasörünü Aç"
 
-#: src/library/library-page.blp:223 src/library/library-page.vala:626
+#: src/library/library-page.blp:228 src/library/library-page.vala:626
 #: src/library/library-page.vala:656
 msgid "No Games Found"
 msgstr "Oyun Bulunamadı"
 
-#: src/library/library-page.blp:224
+#: src/library/library-page.blp:229
 msgid "Try a different search"
 msgstr "Başka arama dene"
 
-#: src/library/library-page.blp:273
+#: src/library/library-page.blp:278
 msgid "_Rescan Library"
 msgstr "Kitaplığı _Yeniden Tara"
 
@@ -1276,89 +1284,89 @@ msgid "_Delete"
 msgstr "_Sil"
 
 #. There are two paddles for each slot, so there are twice as many players
-#: src/platforms/atari-2600/atari-2600-controls.vala:10
+#: src/platforms/atari-2600/atari-2600-controls.vala:12
 msgid "Joystick Controller"
 msgstr "Kumanda Denetçileri"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:23
-#: src/platforms/atari-2600/atari-2600-controls.vala:96
-#: src/platforms/atari-2600/atari-2600-controls.vala:115
-#: src/platforms/nes/nes-controls.vala:123
+#: src/platforms/atari-2600/atari-2600-controls.vala:25
+#: src/platforms/atari-2600/atari-2600-controls.vala:98
+#: src/platforms/atari-2600/atari-2600-controls.vala:117
+#: src/platforms/nes/nes-controls.vala:98
 msgid "Button"
 msgstr "Düğme"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:34
+#: src/platforms/atari-2600/atari-2600-controls.vala:36
 msgid "Sega Genesis Controller"
 msgstr "Sega Genesis Denetçisi"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:49
-#: src/platforms/atari-2600/atari-2600-controls.vala:75
-#: src/platforms/game-gear/game-gear-controls.vala:18
-#: src/platforms/master-system/master-system-controls.vala:20
+#: src/platforms/atari-2600/atari-2600-controls.vala:51
+#: src/platforms/atari-2600/atari-2600-controls.vala:77
+#: src/platforms/game-gear/game-gear-controls.vala:20
+#: src/platforms/master-system/master-system-controls.vala:21
 msgid "Button 1"
 msgstr "1. Düğme"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:50
-#: src/platforms/atari-2600/atari-2600-controls.vala:76
-#: src/platforms/game-gear/game-gear-controls.vala:19
-#: src/platforms/master-system/master-system-controls.vala:21
+#: src/platforms/atari-2600/atari-2600-controls.vala:52
+#: src/platforms/atari-2600/atari-2600-controls.vala:78
+#: src/platforms/game-gear/game-gear-controls.vala:21
+#: src/platforms/master-system/master-system-controls.vala:22
 msgid "Button 2"
 msgstr "2. Düğme"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:60
+#: src/platforms/atari-2600/atari-2600-controls.vala:62
 msgid "Three-Button Joystick"
 msgstr "Üç Düğmeli Kumanda"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:77
+#: src/platforms/atari-2600/atari-2600-controls.vala:79
 msgid "Button 3"
 msgstr "3. Düğme"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:87
+#: src/platforms/atari-2600/atari-2600-controls.vala:89
 msgid "Paddle Controller"
 msgstr "Pedal Denetçisi"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:92
-#: src/platforms/atari-2600/atari-2600-controls.vala:111
+#: src/platforms/atari-2600/atari-2600-controls.vala:94
+#: src/platforms/atari-2600/atari-2600-controls.vala:113
 msgid "Knob"
 msgstr "Topuz"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:106
+#: src/platforms/atari-2600/atari-2600-controls.vala:108
 msgid "Driving Controller"
 msgstr "Sürüş Denetçisi"
 
 #. global
-#: src/platforms/atari-2600/atari-2600-controls.vala:123
-#: src/platforms/atari-7800/atari-7800-controls.vala:48
-#: src/platforms/master-system/master-system-controls.vala:48
-#: src/platforms/sg-1000/sg-1000-controls.vala:30
+#: src/platforms/atari-2600/atari-2600-controls.vala:125
+#: src/platforms/atari-7800/atari-7800-controls.vala:49
+#: src/platforms/master-system/master-system-controls.vala:49
+#: src/platforms/sg-1000/sg-1000-controls.vala:31
 msgid "Built-in"
 msgstr "Yerleşik"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:126
+#: src/platforms/atari-2600/atari-2600-controls.vala:128
 #: src/platforms/atari-2600/atari-2600-switch-menu.blp:23
 msgid "TV Type"
 msgstr "TV Türü"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:130
+#: src/platforms/atari-2600/atari-2600-controls.vala:132
 #: src/platforms/atari-2600/atari-2600-switch-menu.blp:39
-#: src/platforms/atari-7800/atari-7800-controls.vala:51
+#: src/platforms/atari-7800/atari-7800-controls.vala:52
 #: src/platforms/atari-7800/atari-7800-switch-menu.blp:23
 msgid "Left Difficulty"
 msgstr "Sol Zorluk"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:134
+#: src/platforms/atari-2600/atari-2600-controls.vala:136
 #: src/platforms/atari-2600/atari-2600-switch-menu.blp:55
-#: src/platforms/atari-7800/atari-7800-controls.vala:55
+#: src/platforms/atari-7800/atari-7800-controls.vala:56
 #: src/platforms/atari-7800/atari-7800-switch-menu.blp:39
 msgid "Right Difficulty"
 msgstr "Sağ Zorluk"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:138
+#: src/platforms/atari-2600/atari-2600-controls.vala:140
 #: src/platforms/atari-2600/atari-2600-switch-menu.blp:72
 msgid "Game Select"
 msgstr "Oyun Seç"
 
-#: src/platforms/atari-2600/atari-2600-controls.vala:142
+#: src/platforms/atari-2600/atari-2600-controls.vala:144
 #: src/platforms/atari-2600/atari-2600-switch-menu.blp:77
 msgid "Game Reset"
 msgstr "Oyunu Sıfırla"
@@ -1391,48 +1399,46 @@ msgstr "Gelişmiş"
 msgid "Beginner"
 msgstr "Acemi"
 
-#: src/platforms/atari-7800/atari-7800-controls.vala:7
+#: src/platforms/atari-7800/atari-7800-controls.vala:8
 msgid "Pro-Line Joystick"
 msgstr "Pro-Line Kumanda"
 
-#: src/platforms/atari-7800/atari-7800-controls.vala:20
-#: src/platforms/sg-1000/sg-1000-controls.vala:20
+#: src/platforms/atari-7800/atari-7800-controls.vala:21
+#: src/platforms/sg-1000/sg-1000-controls.vala:21
 msgid "Left Button"
 msgstr "Sol Düğme"
 
-#: src/platforms/atari-7800/atari-7800-controls.vala:21
-#: src/platforms/sg-1000/sg-1000-controls.vala:21
+#: src/platforms/atari-7800/atari-7800-controls.vala:22
+#: src/platforms/sg-1000/sg-1000-controls.vala:22
 msgid "Right Button"
 msgstr "Sağ Düğme"
 
 # Işık Silahı da olabilir.
-#: src/platforms/atari-7800/atari-7800-controls.vala:31
-#: src/platforms/atari-7800/atari-7800-controls.vala:36
+#: src/platforms/atari-7800/atari-7800-controls.vala:32
+#: src/platforms/atari-7800/atari-7800-controls.vala:37
 msgid "Light Gun"
 msgstr "Hafif Silah"
 
-#: src/platforms/atari-7800/atari-7800-controls.vala:59
-#: src/platforms/master-system/master-system-controls.vala:51
-#: src/platforms/sg-1000/sg-1000-controls.vala:33
+#: src/platforms/atari-7800/atari-7800-controls.vala:60
+#: src/platforms/master-system/master-system-controls.vala:52
+#: src/platforms/sg-1000/sg-1000-controls.vala:34
 msgid "Pause Button"
 msgstr "Duraklat Düğmesi"
 
-#: src/platforms/atari-7800/atari-7800-controls.vala:63
-#: src/platforms/pc-engine/pc-engine-controls.vala:27
-#: src/platforms/pc-engine/pc-engine-controls.vala:63
-#: src/platforms/playstation/playstation-controls.vala:42
-#: src/platforms/playstation/playstation-controls.vala:89
+#: src/platforms/atari-7800/atari-7800-controls.vala:64
+#: src/platforms/pc-engine/pc-engine-controls.vala:28
+#: src/platforms/pc-engine/pc-engine-controls.vala:64
+#: src/platforms/playstation/playstation-controls.vala:43
+#: src/platforms/playstation/playstation-controls.vala:90
 msgid "Select Button"
 msgstr "Seç Düğmesi"
 
-#: src/platforms/atari-7800/atari-7800-controls.vala:67
+#: src/platforms/atari-7800/atari-7800-controls.vala:68
 msgid "Reset Button"
 msgstr "Sıfırla Düğmesi"
 
 #: src/platforms/atari-7800/atari-7800-switch-menu.blp:56
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:26
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:61
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:96
+#: src/platforms/atari-lynx/atari-lynx-controls.vala:28
 msgid "Pause"
 msgstr "Duraklat"
 
@@ -1441,77 +1447,63 @@ msgstr "Duraklat"
 msgid "Reset"
 msgstr "Sıfırla"
 
-#: src/platforms/atari-lynx/atari-lynx-firmware-list.vala:6
+#: src/platforms/atari-lynx/atari-lynx-firmware-list.vala:9
 msgid "Lynx boot ROM"
 msgstr "Lynx önyükleme ROMʼu"
 
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:10
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:45
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:80
+#: src/platforms/atari-lynx/atari-lynx-controls.vala:12
 msgid "Joypad"
 msgstr "Joypad"
 
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:18
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:53
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:88
-#: src/platforms/game-boy/game-boy-controls.vala:18
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:20
-#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:18
-#: src/platforms/nes/nes-controls.vala:22
-#: src/platforms/nes/nes-controls.vala:48
-#: src/platforms/nes/nes-controls.vala:86
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:30
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:21
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:67
-#: src/platforms/super-nes/super-nes-controls.vala:22
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:28
-#: src/platforms/wonderswan/wonderswan-controls.vala:28
-#: src/platforms/wonderswan/wonderswan-controls.vala:67
+#: src/platforms/atari-lynx/atari-lynx-controls.vala:20
+#: src/platforms/game-boy/game-boy-controls.vala:20
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:22
+#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:19
+#: src/platforms/nes/nes-controls.vala:23
+#: src/platforms/nes/nes-controls.vala:61
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:31
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:23
+#: src/platforms/super-nes/super-nes-controls.vala:23
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:30
+#: src/platforms/wonderswan/wonderswan-controls.vala:30
+#: src/platforms/wonderswan/wonderswan-controls.vala:69
 msgid "A Button"
 msgstr "A Düğmesi"
 
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:19
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:54
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:89
-#: src/platforms/game-boy/game-boy-controls.vala:19
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:21
-#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:19
-#: src/platforms/nes/nes-controls.vala:23
-#: src/platforms/nes/nes-controls.vala:49
-#: src/platforms/nes/nes-controls.vala:87
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:31
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:22
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:68
-#: src/platforms/super-nes/super-nes-controls.vala:23
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:29
-#: src/platforms/wonderswan/wonderswan-controls.vala:29
-#: src/platforms/wonderswan/wonderswan-controls.vala:68
+#: src/platforms/atari-lynx/atari-lynx-controls.vala:21
+#: src/platforms/game-boy/game-boy-controls.vala:21
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:23
+#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:20
+#: src/platforms/nes/nes-controls.vala:24
+#: src/platforms/nes/nes-controls.vala:62
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:32
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:24
+#: src/platforms/super-nes/super-nes-controls.vala:24
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:31
+#: src/platforms/wonderswan/wonderswan-controls.vala:31
+#: src/platforms/wonderswan/wonderswan-controls.vala:70
 msgid "B Button"
 msgstr "B Düğmesi"
 
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:24
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:59
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:94
+#: src/platforms/atari-lynx/atari-lynx-controls.vala:26
 msgid "Option 1"
 msgstr "Seçenek 1"
 
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:25
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:60
-#: src/platforms/atari-lynx/atari-lynx-controls.vala:95
+#: src/platforms/atari-lynx/atari-lynx-controls.vala:27
 msgid "Option 2"
 msgstr "Seçenek 2"
 
-#: src/platforms/fds/fds-firmware-list.vala:6
+#: src/platforms/fds/fds-firmware-list.vala:9
 msgid "Famicom Disk System BIOS"
 msgstr "Famicom Disk Sistemi BIOS"
 
-#: src/platforms/fds/fds-runner-delegate.vala:43
+#: src/platforms/fds/fds-runner-delegate.vala:47
 #: src/platforms/fds/fds-runner-delegate.vala:64
 #, c-format
 msgid "Side %c"
 msgstr "Yan %c"
 
-#: src/platforms/fds/fds-runner-delegate.vala:45
+#: src/platforms/fds/fds-runner-delegate.vala:49
 #: src/platforms/fds/fds-runner-delegate.vala:66
 msgid "Switch Disk Side"
 msgstr "Disk Tarafını Değiştir"
@@ -1524,11 +1516,6 @@ msgstr "Game Boy Pocket"
 #: src/platforms/game-boy/game-boy-model.vala:48
 msgid "Game Boy Color"
 msgstr "Game Boy Color"
-
-#: src/platforms/game-boy/game-boy-model.vala:52
-#: src/platforms/platform-register.vala:494
-msgid "Super Game Boy"
-msgstr "Super Game Boy"
 
 #: src/platforms/game-boy/game-boy-model.vala:54
 msgid "Super Game Boy 2"
@@ -1546,7 +1533,7 @@ msgstr "Yeniden başlatma gerektirir"
 
 #. Translators: the %s will be either "Super Game Boy ROM"
 #. or "Super Game Boy 2 ROM" from super-game-boy-firmware-list.vala
-#: src/platforms/game-boy/game-boy-properties.vala:114
+#: src/platforms/game-boy/game-boy-properties.vala:124
 #, c-format
 msgid "Requires %s"
 msgstr "%s gerektirir"
@@ -1555,21 +1542,19 @@ msgstr "%s gerektirir"
 msgid "Game Boy Light"
 msgstr "Game Boy Light"
 
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:26
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:44
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:29
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:75
-#: src/platforms/super-nes/super-nes-controls.vala:30
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:34
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:28
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:45
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:31
+#: src/platforms/super-nes/super-nes-controls.vala:31
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:36
 msgid "L Button"
 msgstr "L Düğmesi"
 
-#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:27
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:45
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:30
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:76
-#: src/platforms/super-nes/super-nes-controls.vala:31
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:35
+#: src/platforms/game-boy-advance/game-boy-advance-controls.vala:29
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:46
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:32
+#: src/platforms/super-nes/super-nes-controls.vala:32
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:37
 msgid "R Button"
 msgstr "R Düğmesi"
 
@@ -1586,28 +1571,28 @@ msgstr "Özgün"
 msgid "Dark"
 msgstr "Koyu"
 
-#: src/platforms/game-gear/game-gear-controls.vala:10
-#: src/platforms/master-system/master-system-controls.vala:12
-#: src/platforms/mega-drive/mega-drive-controls.vala:12
-#: src/platforms/mega-drive/mega-drive-controls.vala:46
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:15
+#: src/platforms/game-gear/game-gear-controls.vala:12
+#: src/platforms/master-system/master-system-controls.vala:13
+#: src/platforms/mega-drive/mega-drive-controls.vala:13
+#: src/platforms/mega-drive/mega-drive-controls.vala:47
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:16
 msgid "Directional Button"
 msgstr "Yön Düğmesi"
 
-#: src/platforms/game-gear/game-gear-controls.vala:24
-#: src/platforms/mega-drive/mega-drive-controls.vala:27
-#: src/platforms/mega-drive/mega-drive-controls.vala:69
-#: src/platforms/playstation/playstation-controls.vala:43
-#: src/platforms/playstation/playstation-controls.vala:90
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:43
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:97
-#: src/platforms/wonderswan/wonderswan-controls.vala:34
-#: src/platforms/wonderswan/wonderswan-controls.vala:73
+#: src/platforms/game-gear/game-gear-controls.vala:26
+#: src/platforms/mega-drive/mega-drive-controls.vala:28
+#: src/platforms/mega-drive/mega-drive-controls.vala:70
+#: src/platforms/playstation/playstation-controls.vala:44
+#: src/platforms/playstation/playstation-controls.vala:91
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:44
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:98
+#: src/platforms/wonderswan/wonderswan-controls.vala:36
+#: src/platforms/wonderswan/wonderswan-controls.vala:75
 msgid "Start Button"
 msgstr "Başlat Düğmesi"
 
-#: src/platforms/master-system/master-system-controls.vala:31
-#: src/platforms/master-system/master-system-controls.vala:36
+#: src/platforms/master-system/master-system-controls.vala:32
+#: src/platforms/master-system/master-system-controls.vala:37
 msgid "Light Phaser"
 msgstr "Işık Fazörü"
 
@@ -1615,121 +1600,129 @@ msgstr "Işık Fazörü"
 msgid "FM Audio"
 msgstr "FM Ses"
 
-#: src/platforms/mega-cd/mega-cd-firmware-list.vala:6
+#: src/platforms/mega-cd/mega-cd-firmware-list.vala:9
 msgid "Sega CD BIOS (US)"
 msgstr "Sega CD BIOS (Amerika)"
 
-#: src/platforms/mega-cd/mega-cd-firmware-list.vala:82
+#: src/platforms/mega-cd/mega-cd-firmware-list.vala:87
 msgid "Mega-CD BIOS (Japan)"
 msgstr "Mega-CD BIOS (Japonya)"
 
-#: src/platforms/mega-cd/mega-cd-firmware-list.vala:165
+#: src/platforms/mega-cd/mega-cd-firmware-list.vala:172
 msgid "Mega-CD BIOS (Europe)"
 msgstr "Mega-CD BIOS (Avrupa)"
 
 # A Button çevirisiyle karışmasın diye böyle anlamsız bir yol izlendi.
-#: src/platforms/mega-drive/mega-drive-controls.vala:20
-#: src/platforms/mega-drive/mega-drive-controls.vala:54
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:23
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:74
-msgid "Button A"
-msgstr "Düğme A"
-
 #: src/platforms/mega-drive/mega-drive-controls.vala:21
 #: src/platforms/mega-drive/mega-drive-controls.vala:55
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:24
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:75
-msgid "Button B"
-msgstr "Düğme B"
+msgid "Button A"
+msgstr "Düğme A"
 
 #: src/platforms/mega-drive/mega-drive-controls.vala:22
 #: src/platforms/mega-drive/mega-drive-controls.vala:56
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:25
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:76
+msgid "Button B"
+msgstr "Düğme B"
+
+#: src/platforms/mega-drive/mega-drive-controls.vala:23
+#: src/platforms/mega-drive/mega-drive-controls.vala:57
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:26
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:77
 msgid "Button C"
 msgstr "Düğme C"
 
-#: src/platforms/mega-drive/mega-drive-controls.vala:37
+#: src/platforms/mega-drive/mega-drive-controls.vala:38
 msgid "Control Pad (6-Button)"
 msgstr "Denetim Pedi (6 Düğmeli)"
-
-#: src/platforms/mega-drive/mega-drive-controls.vala:61
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:30
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:81
-msgid "Button X"
-msgstr "Düğme X"
 
 #: src/platforms/mega-drive/mega-drive-controls.vala:62
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:31
 #: src/platforms/sega-saturn/sega-saturn-controls.vala:82
+msgid "Button X"
+msgstr "Düğme X"
+
+#: src/platforms/mega-drive/mega-drive-controls.vala:63
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:32
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:83
 msgid "Button Y"
 msgstr "Düğme Y"
 
 # Z Button çevirisiyle karışmasın diye böyle anlamsız bir yol izlendi.
-#: src/platforms/mega-drive/mega-drive-controls.vala:63
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:32
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:83
+#: src/platforms/mega-drive/mega-drive-controls.vala:64
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:33
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:84
 msgid "Button Z"
 msgstr "Düğme Z"
 
-#: src/platforms/mega-drive/mega-drive-controls.vala:68
+#: src/platforms/mega-drive/mega-drive-controls.vala:69
 msgid "Mode Button"
 msgstr "Kip Düğmesi"
 
-#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:24
+#: src/platforms/neo-geo-pocket/neo-geo-pocket-controls.vala:25
 msgid "Option Button"
 msgstr "Seçenek Düğmesi"
 
-#: src/platforms/nes/nes-controls.vala:9 src/platforms/nes/nes-controls.vala:35
+#: src/platforms/nes/nes-controls.vala:10
 msgid "NES Controller"
 msgstr "NES Denetçisi"
 
-#: src/platforms/nes/nes-controls.vala:59
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:108
+#: src/platforms/nes/nes-controls.vala:34
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:63
 msgid "Toggle Mic"
 msgstr "Mikrofonu Aç/Kapat"
 
-#: src/platforms/nes/nes-controls.vala:71
+#: src/platforms/nes/nes-controls.vala:46
 msgid "NES Zapper"
 msgstr "NES Zapper"
 
-#: src/platforms/nes/nes-controls.vala:97
+#: src/platforms/nes/nes-controls.vala:72
 msgid "Zapper"
 msgstr "Zapper"
 
-#: src/platforms/nes/nes-controls.vala:114
+#: src/platforms/nes/nes-controls.vala:89
 msgid "Arkanoid Controller"
 msgstr "Arkanoid Denetçisi"
 
-#: src/platforms/nes/nes-controls.vala:119
+#: src/platforms/nes/nes-controls.vala:94
 msgid "Paddle"
 msgstr "Kürek"
 
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:8
+#. translators: "NES" is known as "Famicom" in eastern Asia. This string
+#. must be *exactly* "nes" or "famicom" depending on which name you use
+#. elsewhere. This string selects an icon and only those two values are
+#. allowed.
+#: src/platforms/nes/nes-platform.vala:15
+msgid "nes"
+msgstr "nes"
+
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:9
 msgid "Nintendo 64 Controller"
 msgstr "Nintendo 64 Denetçisi"
 
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:15
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:16
 msgid "Control Stick"
 msgstr "Denetim Çubuğu"
 
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:36
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:37
 msgid "Up C Button"
 msgstr "Yukarı C Düğmesi"
 
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:37
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:38
 msgid "Down C Button"
 msgstr "Aşağı C Düğmesi"
 
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:38
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:39
 msgid "Left C Button"
 msgstr "Sol C Düğmesi"
 
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:39
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:40
 msgid "Right C Button"
 msgstr "Sağ C Düğmesi"
 
-#: src/platforms/nintendo-64/nintendo-64-controls.vala:46
+#: src/platforms/nintendo-64/nintendo-64-controls.vala:47
 msgid "Z Button"
 msgstr "Z Düğmesi"
 
@@ -1754,7 +1747,7 @@ msgstr "Rumble Pak"
 msgid "Emulation Mode"
 msgstr "Öykünme Kipi"
 
-#: src/platforms/nintendo-64/nintendo-64-performance-group.vala:24
+#: src/platforms/nintendo-64/nintendo-64-performance-group.vala:28
 msgid "Accurate mode is unavailable on this device"
 msgstr "Doğruluk kipi bu aygıtta kullanılamaz"
 
@@ -1762,36 +1755,34 @@ msgstr "Doğruluk kipi bu aygıtta kullanılamaz"
 msgid "Accessories"
 msgstr "Donatılar"
 
-#: src/platforms/nintendo-64/nintendo-64-runner-delegate.vala:141
+#: src/platforms/nintendo-64/nintendo-64-runner-delegate.vala:145
 msgid "The game is slowing down, consider switching to performance mode"
 msgstr "Oyun yavaşlıyor, başarım kipine geçmeyi düşünün"
 
-#: src/platforms/nintendo-64/nintendo-64-runner-delegate.vala:143
+#: src/platforms/nintendo-64/nintendo-64-runner-delegate.vala:147
 #: src/preferences/preferences-dialog.blp:5
 #: src/preferences/preferences-dialog.blp:23
 #: src/properties/properties-preferences-page.blp:7
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:23
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:69
-#: src/platforms/super-nes/super-nes-controls.vala:24
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:25
+#: src/platforms/super-nes/super-nes-controls.vala:25
 msgid "X Button"
 msgstr "X Düğmesi"
 
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:24
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:70
-#: src/platforms/super-nes/super-nes-controls.vala:25
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:26
+#: src/platforms/super-nes/super-nes-controls.vala:26
 msgid "Y Button"
 msgstr "Y Düğmesi"
 
 #. global
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:101
-#: src/platforms/wonderswan/wonderswan-controls.vala:83
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:56
+#: src/platforms/wonderswan/wonderswan-controls.vala:85
 msgid "Shortcuts"
 msgstr "Kısayollar"
 
-#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:104
+#: src/platforms/nintendo-ds/nintendo-ds-controls.vala:59
 #: src/platforms/nintendo-ds/nintendo-ds-layout-switcher.blp:48
 #: src/platforms/nintendo-ds/nintendo-ds-overlay-menu.blp:48
 msgid "Swap Screens"
@@ -1834,13 +1825,13 @@ msgstr "Çevir"
 msgid "Change Screen"
 msgstr "Ekranı Değiştir"
 
-#: src/platforms/nintendo-ds/nintendo-ds-runner-delegate.vala:56
 #: src/platforms/nintendo-ds/nintendo-ds-runner-delegate.vala:57
+#: src/platforms/nintendo-ds/nintendo-ds-runner-delegate.vala:58
 msgid "Bottom Screen"
 msgstr "Alt Ekran"
 
-#: src/platforms/nintendo-ds/nintendo-ds-runner-delegate.vala:56
 #: src/platforms/nintendo-ds/nintendo-ds-runner-delegate.vala:57
+#: src/platforms/nintendo-ds/nintendo-ds-runner-delegate.vala:58
 msgid "Top Screen"
 msgstr "Üst Ekran"
 
@@ -1849,47 +1840,47 @@ msgid "DS Lite"
 msgstr "DS Lite"
 
 #. 2 button controller
-#: src/platforms/pc-engine/pc-engine-controls.vala:8
+#: src/platforms/pc-engine/pc-engine-controls.vala:9
 msgid "Turbo Pad"
 msgstr "Turbo Pad"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:13
-#: src/platforms/pc-engine/pc-engine-controls.vala:45
+#: src/platforms/pc-engine/pc-engine-controls.vala:14
+#: src/platforms/pc-engine/pc-engine-controls.vala:46
 msgid "Direction Key"
 msgstr "Yön Anahtarı"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:21
-#: src/platforms/pc-engine/pc-engine-controls.vala:53
+#: src/platforms/pc-engine/pc-engine-controls.vala:22
+#: src/platforms/pc-engine/pc-engine-controls.vala:54
 msgid "Button I"
 msgstr "Düğme I"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:22
-#: src/platforms/pc-engine/pc-engine-controls.vala:54
+#: src/platforms/pc-engine/pc-engine-controls.vala:23
+#: src/platforms/pc-engine/pc-engine-controls.vala:55
 msgid "Button II"
 msgstr "Düğme II"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:28
-#: src/platforms/pc-engine/pc-engine-controls.vala:64
+#: src/platforms/pc-engine/pc-engine-controls.vala:29
+#: src/platforms/pc-engine/pc-engine-controls.vala:65
 msgid "Run Button"
 msgstr "Çalıştır Düğmesi"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:38
+#: src/platforms/pc-engine/pc-engine-controls.vala:39
 msgid "Arcade Pad 6"
 msgstr "Arcade Pad 6"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:55
+#: src/platforms/pc-engine/pc-engine-controls.vala:56
 msgid "Button III"
 msgstr "Düğme III"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:56
+#: src/platforms/pc-engine/pc-engine-controls.vala:57
 msgid "Button IV"
 msgstr "Düğme IV"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:57
+#: src/platforms/pc-engine/pc-engine-controls.vala:58
 msgid "Button V"
 msgstr "Düğme V"
 
-#: src/platforms/pc-engine/pc-engine-controls.vala:58
+#: src/platforms/pc-engine/pc-engine-controls.vala:59
 msgid "Button VI"
 msgstr "Düğme VI"
 
@@ -1897,8 +1888,10 @@ msgstr "Düğme VI"
 msgid "Use 6 Button Controller"
 msgstr "6 Düğmeli Denetçi Kullan"
 
-#: src/platforms/pc-engine-cd/pc-engine-cd-firmware-list.vala:6
-msgid "System Card 3 ROM"
+#: src/platforms/pc-engine-cd/pc-engine-cd-firmware-list.vala:9
+#, fuzzy
+#| msgid "System Card 3 ROM"
+msgid "System Card 3.0 ROM"
 msgstr "System Card 3 ROM"
 
 #: src/platforms/playstation/playstation-analog-mode.vala:34
@@ -1916,80 +1909,80 @@ msgstr "Sayısal"
 msgid "Analog"
 msgstr "Analog"
 
-#: src/platforms/playstation/playstation-controls.vala:7
+#: src/platforms/playstation/playstation-controls.vala:8
 msgid "PlayStation Controller"
 msgstr "PlayStation Denetçisi"
 
-#: src/platforms/playstation/playstation-controls.vala:14
-#: src/platforms/playstation/playstation-controls.vala:61
+#: src/platforms/playstation/playstation-controls.vala:15
+#: src/platforms/playstation/playstation-controls.vala:62
 msgid "Directional Buttons"
 msgstr "Yön Düğmeleri"
 
 #. Translators: @PS_TRIANGLE@ will be shown as an icon, don't change it
-#: src/platforms/playstation/playstation-controls.vala:23
-#: src/platforms/playstation/playstation-controls.vala:70
+#: src/platforms/playstation/playstation-controls.vala:24
+#: src/platforms/playstation/playstation-controls.vala:71
 msgid "@PS_TRIANGLE@ Button"
 msgstr "@PS_TRIANGLE@ Düğmesi"
 
 #. Translators: @PS_SQUARE@ will be shown as an icon, don't change it
-#: src/platforms/playstation/playstation-controls.vala:25
-#: src/platforms/playstation/playstation-controls.vala:72
+#: src/platforms/playstation/playstation-controls.vala:26
+#: src/platforms/playstation/playstation-controls.vala:73
 msgid "@PS_SQUARE@ Button"
 msgstr "@PS_SQUARE@ Düğmesi"
 
 #. Translators: @PS_CIRCLE@ will be shown as an icon, don't change it
-#: src/platforms/playstation/playstation-controls.vala:27
-#: src/platforms/playstation/playstation-controls.vala:74
+#: src/platforms/playstation/playstation-controls.vala:28
+#: src/platforms/playstation/playstation-controls.vala:75
 msgid "@PS_CIRCLE@ Button"
 msgstr "@PS_CIRCLE@ Düğmesi"
 
 #. Translators: @PS_X@ will be shown as an icon, don't change it
-#: src/platforms/playstation/playstation-controls.vala:29
-#: src/platforms/playstation/playstation-controls.vala:76
+#: src/platforms/playstation/playstation-controls.vala:30
+#: src/platforms/playstation/playstation-controls.vala:77
 msgid "@PS_X@ Button"
 msgstr "@PS_X@ Düğmesi"
 
-#: src/platforms/playstation/playstation-controls.vala:34
-#: src/platforms/playstation/playstation-controls.vala:81
+#: src/platforms/playstation/playstation-controls.vala:35
+#: src/platforms/playstation/playstation-controls.vala:82
 msgid "L1 Button"
 msgstr "L1 Düğmesi"
 
-#: src/platforms/playstation/playstation-controls.vala:35
-#: src/platforms/playstation/playstation-controls.vala:82
+#: src/platforms/playstation/playstation-controls.vala:36
+#: src/platforms/playstation/playstation-controls.vala:83
 msgid "L2 Button"
 msgstr "L2 Düğmesi"
 
-#: src/platforms/playstation/playstation-controls.vala:36
-#: src/platforms/playstation/playstation-controls.vala:83
+#: src/platforms/playstation/playstation-controls.vala:37
+#: src/platforms/playstation/playstation-controls.vala:84
 msgid "R1 Button"
 msgstr "R1 Düğmesi"
 
-#: src/platforms/playstation/playstation-controls.vala:37
-#: src/platforms/playstation/playstation-controls.vala:84
+#: src/platforms/playstation/playstation-controls.vala:38
+#: src/platforms/playstation/playstation-controls.vala:85
 msgid "R2 Button"
 msgstr "R2 Düğmesi"
 
-#: src/platforms/playstation/playstation-controls.vala:51
+#: src/platforms/playstation/playstation-controls.vala:52
 msgid "DualShock"
 msgstr "DualShock"
 
-#: src/platforms/playstation/playstation-controls.vala:103
+#: src/platforms/playstation/playstation-controls.vala:104
 msgid "L3 Button"
 msgstr "L3 Düğmesi"
 
-#: src/platforms/playstation/playstation-controls.vala:104
+#: src/platforms/playstation/playstation-controls.vala:105
 msgid "R3 Button"
 msgstr "R3 Düğmesi"
 
-#: src/platforms/playstation/playstation-firmware-list.vala:6
+#: src/platforms/playstation/playstation-firmware-list.vala:9
 msgid "PlayStation BIOS (Japan)"
 msgstr "PlayStation BIOS (Japonya)"
 
-#: src/platforms/playstation/playstation-firmware-list.vala:61
+#: src/platforms/playstation/playstation-firmware-list.vala:66
 msgid "PlayStation BIOS (North America)"
 msgstr "PlayStation BIOS (Kuzey Amerika)"
 
-#: src/platforms/playstation/playstation-firmware-list.vala:110
+#: src/platforms/playstation/playstation-firmware-list.vala:117
 msgid "PlayStation BIOS (Europe)"
 msgstr "PlayStation BIOS (Avrupa)"
 
@@ -1998,74 +1991,76 @@ msgstr "PlayStation BIOS (Avrupa)"
 msgid "Analog Mode"
 msgstr "Analog Kip"
 
-#: src/platforms/playstation/playstation-runner-delegate.vala:76
-#: src/platforms/playstation/playstation-runner-delegate.vala:97
-#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:109
-#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:130
+#: src/platforms/playstation/playstation-runner-delegate.vala:80
+#: src/platforms/playstation/playstation-runner-delegate.vala:101
+#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:113
+#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:134
 #, c-format
 msgid "Disc %u"
 msgstr "Disk %u"
 
-#: src/platforms/playstation/playstation-runner-delegate.vala:78
-#: src/platforms/playstation/playstation-runner-delegate.vala:99
-#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:111
-#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:132
+#: src/platforms/playstation/playstation-runner-delegate.vala:82
+#: src/platforms/playstation/playstation-runner-delegate.vala:103
+#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:115
+#: src/platforms/sega-saturn/sega-saturn-runner-delegate.vala:136
 msgid "Switch Disc"
 msgstr "Disk Değiştir"
 
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:37
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:38
 msgid "Button L"
 msgstr "Düğme L"
 
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:38
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:39
 msgid "Button R"
 msgstr "Düğme R"
 
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:51
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:52
 msgid "3D Control Pad"
 msgstr "3B Denetim Pedi"
 
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:60
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:61
 msgid "3D Directional Pad"
 msgstr "3B Yön Pedi"
 
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:87
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:88
 msgid "Left Trigger"
 msgstr "Sol Tetik"
 
-#: src/platforms/sega-saturn/sega-saturn-controls.vala:91
+#: src/platforms/sega-saturn/sega-saturn-controls.vala:92
 msgid "Right Trigger"
 msgstr "Sağ Tetik"
 
-#: src/platforms/sega-saturn/sega-saturn-firmware-list.vala:6
+#: src/platforms/sega-saturn/sega-saturn-firmware-list.vala:9
 msgid "Sega Saturn BIOS (Japan)"
 msgstr "Sega Saturn BIOS (Japonya)"
 
-#: src/platforms/sega-saturn/sega-saturn-firmware-list.vala:31
-msgid "Sega Saturn BIOS (International)"
-msgstr "Sega Saturn BIOS (Uluslararası)"
+#: src/platforms/sega-saturn/sega-saturn-firmware-list.vala:36
+#, fuzzy
+#| msgid "Sega Saturn BIOS (Japan)"
+msgid "Sega Saturn BIOS (US, Europe)"
+msgstr "Sega Saturn BIOS (Japonya)"
 
-#: src/platforms/sg-1000/sg-1000-controls.vala:7
+#: src/platforms/sg-1000/sg-1000-controls.vala:8
 msgid "SG-1000 Joystick"
 msgstr "SG-1000 Kumanda"
 
-#: src/platforms/super-game-boy/super-game-boy-firmware-list.vala:6
+#: src/platforms/super-game-boy/super-game-boy-firmware-list.vala:9
 msgid "Super Game Boy ROM"
 msgstr "Super Game Boy ROM"
 
-#: src/platforms/super-game-boy/super-game-boy-firmware-list.vala:37
+#: src/platforms/super-game-boy/super-game-boy-firmware-list.vala:42
 msgid "Super Game Boy 2 ROM"
 msgstr "Super Game Boy 2 ROM"
 
-#: src/platforms/super-nes/super-nes-controls.vala:7
+#: src/platforms/super-nes/super-nes-controls.vala:8
 msgid "Super NES Controller"
 msgstr "Super NES Denetçisi"
 
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:12
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:14
 msgid "Left Control Pad"
 msgstr "Sol Denetim Pedi"
 
-#: src/platforms/virtual-boy/virtual-boy-controls.vala:20
+#: src/platforms/virtual-boy/virtual-boy-controls.vala:22
 msgid "Right Control Pad"
 msgstr "Sağ Denetim Pedi"
 
@@ -2100,55 +2095,55 @@ msgstr "Kırmızı ve Camgöbeği"
 msgid "Gray Colors"
 msgstr "Gri Renkler"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:6
+#: src/platforms/wonderswan/wonderswan-controls.vala:8
 msgid "WonderSwan (Landscape)"
 msgstr "WonderSwan (Yatay)"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:12
-#: src/platforms/wonderswan/wonderswan-controls.vala:51
+#: src/platforms/wonderswan/wonderswan-controls.vala:14
+#: src/platforms/wonderswan/wonderswan-controls.vala:53
 msgid "X1 Button"
 msgstr "X1 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:13
-#: src/platforms/wonderswan/wonderswan-controls.vala:52
+#: src/platforms/wonderswan/wonderswan-controls.vala:15
+#: src/platforms/wonderswan/wonderswan-controls.vala:54
 msgid "X2 Button"
 msgstr "X2 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:14
-#: src/platforms/wonderswan/wonderswan-controls.vala:53
+#: src/platforms/wonderswan/wonderswan-controls.vala:16
+#: src/platforms/wonderswan/wonderswan-controls.vala:55
 msgid "X3 Button"
 msgstr "X3 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:15
-#: src/platforms/wonderswan/wonderswan-controls.vala:54
+#: src/platforms/wonderswan/wonderswan-controls.vala:17
+#: src/platforms/wonderswan/wonderswan-controls.vala:56
 msgid "X4 Button"
 msgstr "X4 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:20
-#: src/platforms/wonderswan/wonderswan-controls.vala:59
+#: src/platforms/wonderswan/wonderswan-controls.vala:22
+#: src/platforms/wonderswan/wonderswan-controls.vala:61
 msgid "Y1 Button"
 msgstr "Y1 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:21
-#: src/platforms/wonderswan/wonderswan-controls.vala:60
+#: src/platforms/wonderswan/wonderswan-controls.vala:23
+#: src/platforms/wonderswan/wonderswan-controls.vala:62
 msgid "Y2 Button"
 msgstr "Y2 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:22
-#: src/platforms/wonderswan/wonderswan-controls.vala:61
+#: src/platforms/wonderswan/wonderswan-controls.vala:24
+#: src/platforms/wonderswan/wonderswan-controls.vala:63
 msgid "Y3 Button"
 msgstr "Y3 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:23
-#: src/platforms/wonderswan/wonderswan-controls.vala:62
+#: src/platforms/wonderswan/wonderswan-controls.vala:25
+#: src/platforms/wonderswan/wonderswan-controls.vala:64
 msgid "Y4 Button"
 msgstr "Y4 Düğmesi"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:44
+#: src/platforms/wonderswan/wonderswan-controls.vala:46
 msgid "WonderSwan (Portrait)"
 msgstr "WonderSwan (Dikey)"
 
-#: src/platforms/wonderswan/wonderswan-controls.vala:86
+#: src/platforms/wonderswan/wonderswan-controls.vala:88
 msgid "Rotate Screen"
 msgstr "Ekranı Döndür"
 
@@ -2159,29 +2154,6 @@ msgstr "Yataya Döndür"
 #: src/platforms/wonderswan/wonderswan-orientation-button.vala:30
 msgid "Rotate to Portrait"
 msgstr "Dikeye Döndür"
-
-#. translators: "NES" is known as "Famicom" in eastern Asia. This string
-#. must be *exactly* "nes" or "famicom" depending on which name you use
-#. elsewhere. This string selects an icon and only those two values are
-#. allowed.
-#: src/platforms/platform-register.vala:270
-msgid "nes"
-msgstr "nes"
-
-#. translators: known as "Mega Drive 32X", "Mega 32X" or "Super 32X" in other places
-#: src/platforms/platform-register.vala:442
-msgid "Sega 32X"
-msgstr "Sega 32X"
-
-#. translators: known as "Mega-CD" in most of the world
-#: src/platforms/platform-register.vala:453
-msgid "Sega CD"
-msgstr "Sega CD"
-
-#. translators: known as "Mega-CD 32X" or "Super 32X CD" in other places
-#: src/platforms/platform-register.vala:468
-msgid "Sega CD 32X"
-msgstr "Sega CD 32X"
 
 #: src/preferences/preferences-backup-restore-page.blp:11
 #: src/snapshot/snapshot-list.blp:20
@@ -2320,8 +2292,8 @@ msgstr "Genel"
 
 #: src/preferences/preferences-dialog.blp:52
 #: src/preferences/preferences-video-page.blp:11
-#: src/properties/properties-preferences-page.vala:87
-#: src/properties/properties-preferences-page.vala:90
+#: src/properties/properties-preferences-page.vala:77
+#: src/properties/properties-preferences-page.vala:80
 msgid "Video"
 msgstr "Video"
 
@@ -2557,47 +2529,47 @@ msgstr "Başlığı Düzenle…"
 msgid "_Controls"
 msgstr "_Denetimler"
 
-#: src/properties/properties-main-page.vala:51
+#: src/properties/properties-main-page.vala:50
 msgid "Edit Title"
 msgstr "Başlığı Düzenle"
 
-#: src/properties/properties-main-page.vala:52
+#: src/properties/properties-main-page.vala:51
 msgid "Enter a new title for this game"
 msgstr "Oyun için yeni başlık gir"
 
-#: src/properties/properties-main-page.vala:56 src/snapshot/snapshot-row.blp:70
+#: src/properties/properties-main-page.vala:55 src/snapshot/snapshot-row.blp:70
 #: src/snapshot/snapshot-row.vala:40
 msgid "_Rename"
 msgstr "Yeniden _Adlandır"
 
-#: src/properties/properties-main-page.vala:66
+#: src/properties/properties-main-page.vala:65
 #: src/snapshot/snapshot-row.vala:49
 msgid "Enter Name"
 msgstr "Ad Gir"
 
-#: src/properties/properties-main-page.vala:72
+#: src/properties/properties-main-page.vala:71
 msgid "Reset title"
 msgstr "Başlığı sıfırla"
 
-#: src/properties/properties-main-page.vala:111
+#: src/properties/properties-main-page.vala:110
 #, c-format
 msgid "Failed to rename game: %s"
 msgstr "Oyun yeniden adlandırılamadı: %s"
 
-#: src/properties/properties-main-page.vala:122
+#: src/properties/properties-main-page.vala:121
 msgid "Select Cover"
 msgstr "Kapak Seç"
 
-#: src/properties/properties-main-page.vala:127
+#: src/properties/properties-main-page.vala:126
 msgid "Image Files"
 msgstr "Görüntü Dosyaları"
 
-#: src/properties/properties-main-page.vala:151
+#: src/properties/properties-main-page.vala:150
 #, c-format
 msgid "Failed to set custom cover: %s"
 msgstr "Özel kapak ayarlanamadı: %s"
 
-#: src/properties/properties-main-page.vala:163
+#: src/properties/properties-main-page.vala:162
 #, c-format
 msgid "Failed to remove custom cover: %s"
 msgstr "Özel kapak kaldırılamadı: %s"
@@ -2615,13 +2587,13 @@ msgstr "Taşınabilir Video"
 msgid "Override preferences for %s"
 msgstr "%s için tercihleri geçersiz kıl"
 
-#: src/properties/properties-preferences-page.vala:102
+#: src/properties/properties-preferences-page.vala:92
 msgid "Color Correction Mode"
 msgstr "Renk Düzeltme Kipi"
 
-#: src/properties/properties-preferences-page.vala:127
-#: src/properties/properties-preferences-page.vala:175
-#: src/properties/properties-preferences-page.vala:181
+#: src/properties/properties-preferences-page.vala:117
+#: src/properties/properties-preferences-page.vala:165
+#: src/properties/properties-preferences-page.vala:171
 msgid "Use Default"
 msgstr "Öntanımlıyı Kullan"
 
@@ -2985,3 +2957,14 @@ msgstr "Oyun eklenemedi: %s"
 #: src/standalone-window.vala:154
 msgid "Game Added"
 msgstr "Oyun Eklendi"
+
+#~ msgctxt "keyboard label"
+#~ msgid "Meta"
+#~ msgstr "Meta"
+
+#~ msgctxt "keyboard label"
+#~ msgid "Hyper"
+#~ msgstr "Hyper"
+
+#~ msgid "Sega Saturn BIOS (International)"
+#~ msgstr "Sega Saturn BIOS (Uluslararası)"

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-sudoku\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-sudoku/issues/\n"
-"POT-Creation-Date: 2025-09-14 14:38+0000\n"
+"POT-Creation-Date: 2025-10-04 12:17+0000\n"
 "PO-Revision-Date: 2025-05-16 22:43+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -257,7 +257,8 @@ msgstr "_Yeni Oyun…"
 msgid "_Reset Puzzle"
 msgstr "Bulmacayı _Sıfırla"
 
-#: src/blueprints/menu-button.blp:19 src/blueprints/print-dialog.blp:65
+#: src/blueprints/menu-button.blp:19
+#: src/blueprints/print-multiple-dialog.blp:65
 msgid "_Print"
 msgstr "_Yazdır"
 
@@ -378,35 +379,37 @@ msgctxt "Highlighter Preferences"
 msgid "Highlight _Block"
 msgstr "_Bloğu Vurgula"
 
-#: src/blueprints/print-dialog.blp:5
+#: src/blueprints/print-multiple-dialog.blp:5
 msgid "Print Multiple Puzzles"
 msgstr "Çoklu Bulmaca Yazdır"
 
-#: src/blueprints/print-dialog.blp:24
+#: src/blueprints/print-multiple-dialog.blp:24
 msgid "Number of Puzzles"
 msgstr "Bulmaca Sayısı"
 
-#: src/blueprints/print-dialog.blp:35
-msgid "Number of puzzles per page"
+#: src/blueprints/print-multiple-dialog.blp:35
+#, fuzzy
+#| msgid "Number of puzzles per page"
+msgid "Number of Puzzles per Page"
 msgstr "Sayfa başına bulmaca sayısı"
 
-#: src/blueprints/print-dialog.blp:46
+#: src/blueprints/print-multiple-dialog.blp:46
 msgid "Difficulty"
 msgstr "Zorluk"
 
-#: src/blueprints/print-dialog.blp:50
+#: src/blueprints/print-multiple-dialog.blp:50
 msgid "Easy"
 msgstr "Kolay"
 
-#: src/blueprints/print-dialog.blp:51
+#: src/blueprints/print-multiple-dialog.blp:51
 msgid "Medium"
 msgstr "Orta"
 
-#: src/blueprints/print-dialog.blp:52
+#: src/blueprints/print-multiple-dialog.blp:52
 msgid "Hard"
 msgstr "Zor"
 
-#: src/blueprints/print-dialog.blp:53
+#: src/blueprints/print-multiple-dialog.blp:53
 msgid "Very Hard"
 msgstr "Çok Zor"
 
@@ -451,140 +454,140 @@ msgstr "Ç_ok Zor"
 msgid "_Start Game"
 msgstr "Oyunu _Başlat"
 
-#: src/blueprints/shortcuts-window.blp:11
+#: src/blueprints/shortcuts-dialog.blp:7
 msgctxt "Shortcuts Window"
 msgid "Game"
 msgstr "Oyun"
 
-#: src/blueprints/shortcuts-window.blp:15
-#: src/blueprints/shortcuts-window.blp:20
+#: src/blueprints/shortcuts-dialog.blp:11
+#: src/blueprints/shortcuts-dialog.blp:16
 msgctxt "Shortcuts Window"
 msgid "Move"
 msgstr "Taşı"
 
-#: src/blueprints/shortcuts-window.blp:25
+#: src/blueprints/shortcuts-dialog.blp:20
 msgctxt "Shortcuts Window"
 msgid "Earmarks"
 msgstr "Ayraçlar"
 
-#: src/blueprints/shortcuts-window.blp:30
+#: src/blueprints/shortcuts-dialog.blp:25
 msgctxt "Shortcuts Window"
 msgid "Clear Cell"
 msgstr "Hücreyi Temizle"
 
-#: src/blueprints/shortcuts-window.blp:35
-msgctxt "Shortcuts Window"
-msgid "Undo"
-msgstr "Geri Al"
-
-#: src/blueprints/shortcuts-window.blp:40
-msgctxt "Shortcuts Window"
-msgid "Redo"
-msgstr "Yinele"
-
-#: src/blueprints/shortcuts-window.blp:45
-msgctxt "Shortcuts Window"
-msgid "Pause"
-msgstr "Duraklat"
-
-#: src/blueprints/shortcuts-window.blp:50
+#: src/blueprints/shortcuts-dialog.blp:32
 msgctxt "Shortcuts Window"
 msgid "Earmark Mode"
 msgstr "Ayraç Kipi"
 
-#: src/blueprints/shortcuts-window.blp:55
+#: src/blueprints/shortcuts-dialog.blp:37
 msgctxt "Shortcuts Window"
-msgid "Number Picker"
-msgstr "Sayı Seçici"
+msgid "Pause"
+msgstr "Duraklat"
 
-#: src/blueprints/shortcuts-window.blp:60
+#: src/blueprints/shortcuts-dialog.blp:44
 msgctxt "Shortcuts Window"
-msgid "Earmark Picker"
-msgstr "Ayraç Seçici"
+msgid "Undo"
+msgstr "Geri Al"
 
-#: src/blueprints/shortcuts-window.blp:65
+#: src/blueprints/shortcuts-dialog.blp:49
+msgctxt "Shortcuts Window"
+msgid "Redo"
+msgstr "Yinele"
+
+#: src/blueprints/shortcuts-dialog.blp:56
 msgctxt "Shortcuts Window"
 msgid "New Game"
 msgstr "Yeni Oyun"
 
-#: src/blueprints/shortcuts-window.blp:70
+#: src/blueprints/shortcuts-dialog.blp:61
 msgctxt "Shortcuts Window"
 msgid "Reset Puzzle"
 msgstr "Bulmacayı Sıfırla"
 
-#: src/blueprints/shortcuts-window.blp:75
+#: src/blueprints/shortcuts-dialog.blp:68
+msgctxt "Shortcuts Window"
+msgid "Number Picker"
+msgstr "Sayı Seçici"
+
+#: src/blueprints/shortcuts-dialog.blp:73
+msgctxt "Shortcuts Window"
+msgid "Earmark Picker"
+msgstr "Ayraç Seçici"
+
+#: src/blueprints/shortcuts-dialog.blp:78
 msgctxt "Shortcuts Window"
 msgid "Window"
 msgstr "Pencere"
 
-#: src/blueprints/shortcuts-window.blp:79
+#: src/blueprints/shortcuts-dialog.blp:82
 msgctxt "Shortcuts Window"
 msgid "Go Back"
 msgstr "Geri Git"
 
-#: src/blueprints/shortcuts-window.blp:84
-msgctxt "Shortcuts Window"
-msgid "Zoom In"
-msgstr "Yaklaştır"
-
-#: src/blueprints/shortcuts-window.blp:89
-msgctxt "Shortcuts Window"
-msgid "Zoom Out"
-msgstr "Uzaklaştır"
-
-#: src/blueprints/shortcuts-window.blp:94
-msgctxt "Shortcuts Window"
-msgid "Zoom Reset"
-msgstr "Yakınlaştırmayı Sıfırla"
-
-#: src/blueprints/shortcuts-window.blp:99
+#: src/blueprints/shortcuts-dialog.blp:87
 msgctxt "Shortcuts Window"
 msgid "Print Current Puzzle"
 msgstr "Geçerli Bulmacayı Yazdır"
 
-#: src/blueprints/shortcuts-window.blp:104
+#: src/blueprints/shortcuts-dialog.blp:92
 msgctxt "Shortcuts Window"
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: src/blueprints/shortcuts-window.blp:109
+#: src/blueprints/shortcuts-dialog.blp:97
 msgctxt "Shortcuts Window"
 msgid "Keyboard Shortcuts"
 msgstr "Klavye Kısayolları"
 
-#: src/blueprints/shortcuts-window.blp:114
+#: src/blueprints/shortcuts-dialog.blp:102
 msgctxt "Shortcuts Window"
 msgid "Quit"
 msgstr "Çık"
 
-#: src/blueprints/shortcuts-window.blp:119
+#: src/blueprints/shortcuts-dialog.blp:107
 msgctxt "Shortcuts Window"
 msgid "Help"
 msgstr "Yardım"
 
-#: src/blueprints/shortcuts-window.blp:124
+#: src/blueprints/shortcuts-dialog.blp:112
 msgctxt "Shortcuts Window"
 msgid "Menu"
 msgstr "Menü"
 
-#: src/blueprints/shortcuts-window.blp:129
+#: src/blueprints/shortcuts-dialog.blp:117
 msgctxt "Shortcuts Window"
 msgid "Fullscreen"
 msgstr "Tam Ekran"
 
+#: src/blueprints/shortcuts-dialog.blp:124
+msgctxt "Shortcuts Window"
+msgid "Zoom In"
+msgstr "Yaklaştır"
+
+#: src/blueprints/shortcuts-dialog.blp:129
+msgctxt "Shortcuts Window"
+msgid "Zoom Out"
+msgstr "Uzaklaştır"
+
+#: src/blueprints/shortcuts-dialog.blp:134
+msgctxt "Shortcuts Window"
+msgid "Zoom Reset"
+msgstr "Yakınlaştırmayı Sıfırla"
+
 #. Help string for command line --version flag
-#: src/gnome-sudoku.vala:94
+#: src/gnome-sudoku.vala:92
 msgid "Show release version"
 msgstr "Yayım sürümünü göster"
 
-#: src/gnome-sudoku.vala:220
+#: src/gnome-sudoku.vala:216
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d dakika"
 
 #. TRANSLATORS: %s is a localized time string in minute(s)
-#: src/gnome-sudoku.vala:225
+#: src/gnome-sudoku.vala:221
 #, c-format
 msgid "Well done, you completed the puzzle in %s and set a new personal best!"
 msgstr ""
@@ -592,24 +595,24 @@ msgstr ""
 "kırdınız!"
 
 #. TRANSLATORS: %s is a localized time string in minute(s)
-#: src/gnome-sudoku.vala:232
+#: src/gnome-sudoku.vala:228
 #, c-format
 msgid "Well done, you completed the puzzle in %s!"
 msgstr "Aferin! Bulmacayı %s dakika içinde tamamladınız!"
 
-#: src/gnome-sudoku.vala:237
+#: src/gnome-sudoku.vala:233
 msgid "Well done, you completed the puzzle!"
 msgstr "Aferin! Bulmacayı tamamladınız!"
 
-#: src/gnome-sudoku.vala:240
+#: src/gnome-sudoku.vala:236
 msgid "Quit"
 msgstr "Çık"
 
-#: src/gnome-sudoku.vala:241
+#: src/gnome-sudoku.vala:237
 msgid "Play _Again"
 msgstr "_Yeniden Oyna"
 
-#: src/gnome-sudoku.vala:427
+#: src/gnome-sudoku.vala:384
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>\n"

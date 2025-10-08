@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rhythmbox\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/rhythmbox/issues/\n"
-"POT-Creation-Date: 2025-09-13 07:35+0000\n"
+"POT-Creation-Date: 2025-10-07 12:26+0000\n"
 "PO-Revision-Date: 2024-08-12 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
@@ -120,8 +120,8 @@ msgstr "En İyiler"
 
 #: data/org.gnome.Rhythmbox3.appdata.xml.in:8
 #: data/org.gnome.Rhythmbox3.desktop.in:2
-#: data/org.gnome.Rhythmbox3.device.desktop.in:2 shell/main.c:74
-#: shell/rb-shell.c:501 shell/rb-shell.c:2343
+#: data/org.gnome.Rhythmbox3.device.desktop.in:2 shell/main.c:72
+#: shell/rb-shell.c:507 shell/rb-shell.c:2349
 msgid "Rhythmbox"
 msgstr "Rhythmbox"
 
@@ -2668,6 +2668,7 @@ msgstr "Çalarken, Güç Yöneticisinin bilgisayarın askıya alınmasına engel
 
 #: plugins/power-manager/rb-power-manager-plugin.c:93
 #: remote/dbus/rb-client.c:823 remote/dbus/rb-client.c:913
+#, c-format
 msgid "Playing"
 msgstr "Çalıyor"
 
@@ -3081,7 +3082,7 @@ msgstr "Oynatılıyorsa oynatmayı duraklat"
 msgid "Toggle play/pause mode"
 msgstr "Çalma/bekleme durumları arasında geçiş yap"
 
-#: remote/dbus/rb-client.c:110 shell/rb-shell.c:2249
+#: remote/dbus/rb-client.c:110 shell/rb-shell.c:2255
 msgid "Stop playback"
 msgstr "Çalmayı durdur"
 
@@ -3209,6 +3210,7 @@ msgstr "q - Çık"
 
 #: remote/dbus/rb-client.c:549 remote/dbus/rb-client.c:575
 #: remote/dbus/rb-client.c:800 remote/dbus/rb-client.c:884
+#, c-format
 msgid "Not playing"
 msgstr "Çalmıyor"
 
@@ -3233,6 +3235,7 @@ msgid "[%te of %td]"
 msgstr "[%te / %td]"
 
 #: remote/dbus/rb-client.c:823 remote/dbus/rb-client.c:915
+#, c-format
 msgid "Paused"
 msgstr "Duraklatıldı"
 
@@ -3258,6 +3261,7 @@ msgstr "Ses düzeyi şu an %.02f"
 
 #. should print this before dbus setup, really
 #: remote/dbus/rb-client.c:965
+#, c-format
 msgid "Press 'h' for help."
 msgstr "Yardım için 'h' tuşuna basın."
 
@@ -3568,45 +3572,45 @@ msgstr "Bilinmeyen çalma listesi: %s"
 msgid "Playlist %s is an automatic playlist"
 msgstr "%s, otomatik çalma listesidir"
 
-#: shell/rb-shell.c:2042
+#: shell/rb-shell.c:2048
 msgid "Error while saving song information"
 msgstr "Parça bilgisi kaydedilirken hata oluştu"
 
-#: shell/rb-shell.c:2246
+#: shell/rb-shell.c:2252
 msgid "Pause playback"
 msgstr "Çalmayı duraklat"
 
-#: shell/rb-shell.c:2253
+#: shell/rb-shell.c:2259
 msgid "Start playback"
 msgstr "Çalmayı başlat"
 
 #. Translators: %s is the song name
-#: shell/rb-shell.c:2363
+#: shell/rb-shell.c:2369
 #, c-format
 msgid "%s (Paused)"
 msgstr "%s (Duraklatıldı)"
 
-#: shell/rb-shell.c:2705 sources/rb-play-queue-source.c:673
+#: shell/rb-shell.c:2711 sources/rb-play-queue-source.c:673
 #, c-format
 msgid "No registered source can handle URI %s"
 msgstr "Kayıtlı hiçbir kaynak %s URI’sini işleyemez"
 
-#: shell/rb-shell.c:3029
+#: shell/rb-shell.c:3035
 #, c-format
 msgid "No registered source matches URI %s"
 msgstr "Kayıtlı hiçbir kaynak URI %s ile eşleşmiyor"
 
-#: shell/rb-shell.c:3062 shell/rb-shell.c:3105
+#: shell/rb-shell.c:3068 shell/rb-shell.c:3111
 #, c-format
 msgid "Unknown song URI: %s"
 msgstr "Bilinmeyen parça adresi: %s"
 
-#: shell/rb-shell.c:3114
+#: shell/rb-shell.c:3120
 #, c-format
 msgid "Unknown property %s"
 msgstr "Bilinmeyen özellik %s"
 
-#: shell/rb-shell.c:3128
+#: shell/rb-shell.c:3134
 #, c-format
 msgid "Invalid property type %s for property %s"
 msgstr "%s özellik türü %s özelliği için geçersiz"

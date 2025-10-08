@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ghex\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/ghex/issues/\n"
-"POT-Creation-Date: 2025-09-12 16:27+0000\n"
+"POT-Creation-Date: 2025-10-04 17:19+0000\n"
 "PO-Revision-Date: 2025-06-25 14:46+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -354,39 +354,39 @@ msgstr ""
 "Açık belgeler kaydedilmemiş değişiklikler içeriyor.\n"
 "Kaydedilmeyen değişiklikler kalıcı olarak yitirilecek."
 
-#: src/ghex-application-window.c:405 src/ghex-application-window.c:534
-#: src/ghex-application-window.c:1253 src/paste-special.ui:53
+#: src/ghex-application-window.c:405 src/ghex-application-window.c:532
+#: src/ghex-application-window.c:1258 src/paste-special.ui:53
 msgid "_Cancel"
 msgstr "İ_ptal"
 
-#: src/ghex-application-window.c:406 src/ghex-application-window.c:535
+#: src/ghex-application-window.c:406 src/ghex-application-window.c:533
 msgid "_Discard"
 msgstr "_Gözden Çıkar"
 
 #. Translators: %s is the filename that is currently being
 #. * edited.
-#: src/ghex-application-window.c:522
+#: src/ghex-application-window.c:519
 #, c-format
 msgid "%s has been edited since opening."
 msgstr "%s açıldıktan sonra düzenlendi."
 
-#: src/ghex-application-window.c:526
+#: src/ghex-application-window.c:522
 msgid "The buffer has been edited since opening."
 msgstr "Tampon açıldıktan sonra düzenlendi."
 
-#: src/ghex-application-window.c:529
+#: src/ghex-application-window.c:530
 msgid "Would you like to save your changes?"
 msgstr "Değişikliklerinizi kaydetmek ister misiniz?"
 
-#: src/ghex-application-window.c:536
+#: src/ghex-application-window.c:534
 msgid "_Save"
 msgstr "_Kaydet"
 
-#: src/ghex-application-window.c:1111
+#: src/ghex-application-window.c:1113
 msgid "There was an error saving the file to the path specified."
 msgstr "Dosya belirtilen yola kaydedilirken hata oluştu."
 
-#: src/ghex-application-window.c:1130
+#: src/ghex-application-window.c:1132
 msgid ""
 "An unknown error has occurred in attempting to reload the file you have just "
 "saved."
@@ -394,18 +394,18 @@ msgstr ""
 "Yeni kaydettiğiniz dosyayı yeniden yüklemeye çalışırken bilinmeyen hata "
 "oluştu."
 
-#: src/ghex-application-window.c:1183
+#: src/ghex-application-window.c:1185
 msgid "Select a file to save buffer as"
 msgstr "Tampondaki dosyayı saklamak için dosya seç"
 
 #. Translators: %s here is the filename the user is being asked to
 #. * confirm whether they want to revert.
-#: src/ghex-application-window.c:1248
+#: src/ghex-application-window.c:1250
 #, c-format
 msgid "Are you sure you want to revert %s?"
 msgstr "%s geri alınsın ister misiniz?"
 
-#: src/ghex-application-window.c:1250
+#: src/ghex-application-window.c:1255
 msgid ""
 "Your changes will be lost.\n"
 "This action cannot be undone."
@@ -413,15 +413,15 @@ msgstr ""
 "Değişiklikleriniz yitecek.\n"
 "Bu işlem geri alınamaz."
 
-#: src/ghex-application-window.c:1254 src/ghex-application-window.ui.in:39
+#: src/ghex-application-window.c:1259 src/ghex-application-window.ui.in:39
 msgid "_Revert"
 msgstr "_Geri Al"
 
-#: src/ghex-application-window.c:1344
+#: src/ghex-application-window.c:1347
 msgid "Select a file to open"
 msgstr "Açılacak dosyayı seç"
 
-#: src/ghex-application-window.c:1452
+#: src/ghex-application-window.c:1455
 #, c-format
 msgid ""
 "Sorry, but help could not be opened.\n"
@@ -444,7 +444,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: src/ghex-application-window.c:1649
+#: src/ghex-application-window.c:1652
 #, c-format
 msgid ""
 "Offset: <tt>0x%lX</tt>; <tt>0x%lX</tt> bytes from <tt>0x%lX</tt> to "
@@ -453,12 +453,12 @@ msgstr ""
 "Ofset: <tt>0x%lX</tt>; <tt>0x%lX</tt> bayt, <tt>0x%lX</tt> ile <tt>0x%lX</"
 "tt> arasında seçildi"
 
-#: src/ghex-application-window.c:1652
+#: src/ghex-application-window.c:1655
 #, c-format
 msgid "Offset: <tt>0x%lX</tt>"
 msgstr "Ofset: <tt>0x%lX</tt>"
 
-#: src/ghex-application-window.c:1659
+#: src/ghex-application-window.c:1662
 #, c-format
 msgid ""
 "Offset: <tt>%ld</tt>; <tt>%ld</tt> bytes from <tt>%ld</tt> to <tt>%ld</tt> "
@@ -467,13 +467,13 @@ msgstr ""
 "Ofset: <tt>%ld</tt>; <tt>%ld</tt> bayt, <tt>%ld</tt> ile <tt>%ld</tt> "
 "arasında seçildi"
 
-#: src/ghex-application-window.c:1662
+#: src/ghex-application-window.c:1665
 #, c-format
 msgid "Offset: <tt>%ld</tt>"
 msgstr "Ofset: <tt>%ld</tt>"
 
 #. Weird rendering if you don't put the space at the start
-#: src/ghex-application-window.c:1670
+#: src/ghex-application-window.c:1673
 #, c-format
 msgid ""
 " <sub>HEX</sub> Offset: <tt>0x%lX</tt>; <tt>0x%lX</tt> bytes from <tt>0x%lX</"
@@ -484,14 +484,14 @@ msgstr ""
 "ile <tt>0x%lX</tt> arası seçildi <sub>DEC</sub> Ofset: <tt>%ld</tt>; "
 "<tt>%ld</tt> bayt, <tt>%ld</tt> ile <tt>%ld</tt> arasında seçildi"
 
-#: src/ghex-application-window.c:1674
+#: src/ghex-application-window.c:1677
 #, c-format
 msgid ""
 " <sub>HEX</sub> Offset: <tt>0x%lX</tt> <sub>DEC</sub> Offset: <tt>%ld</tt>"
 msgstr ""
 " <sub>HEX</sub> Ofset: <tt>0x%lX</tt> <sub>DEC</sub> Ofset: <tt>%ld</tt>"
 
-#: src/ghex-application-window.c:2521
+#: src/ghex-application-window.c:2524
 msgid ""
 "You are attempting to open a file 1GB or larger.\n"
 "\n"
@@ -517,11 +517,11 @@ msgstr ""
 "Bu iletinin görünmesini önlemek için başka tampon arka ucu kullanmayı "
 "deneyin."
 
-#: src/ghex-application-window.c:2579
+#: src/ghex-application-window.c:2582
 msgid "There was an error reading the file."
 msgstr "Dosya okunurken hata oluştu."
 
-#: src/ghex-application-window.c:2640
+#: src/ghex-application-window.c:2643
 msgid ""
 "There was an error loading the requested file. The file either no longer "
 "exists, is inaccessible, or you may not have permission to access the file."

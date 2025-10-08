@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-notes master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-notes/issues\n"
-"POT-Creation-Date: 2025-09-10 17:49+0000\n"
+"POT-Creation-Date: 2025-10-05 04:35+0000\n"
 "PO-Revision-Date: 2023-10-17 17:56+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: data/appdata/org.gnome.Notes.metainfo.xml.in:6
 #: data/org.gnome.Notes.desktop.in:2 data/org.gnome.Notes.xml.in:4
-#: src/bjb-application.c:339 src/bjb-window.c:45
+#: src/bjb-application.c:342 src/bjb-window.c:45
 msgid "Notes"
 msgstr "Notlar"
 
@@ -156,8 +156,8 @@ msgid ""
 msgstr ""
 "Kullanılabilir üç metin boyutu vardır: küçük, orta (öntanımlı) ve büyük."
 
-#: data/resources/bjb-notebooks-dialog.ui:5 data/resources/bjb-side-view.ui:221
-#: data/resources/bjb-window.ui:104 data/resources/selection-toolbar.ui:34
+#: data/resources/bjb-notebooks-dialog.ui:5 data/resources/bjb-side-view.ui:228
+#: data/resources/bjb-window.ui:90 data/resources/selection-toolbar.ui:34
 msgid "Notebooks"
 msgstr "Not Defterleri"
 
@@ -173,75 +173,75 @@ msgstr "Ekle"
 msgid "No note selected"
 msgstr "Not seçilmedi"
 
-#: data/resources/bjb-side-view.ui:25 data/resources/bjb-side-view.ui:202
+#: data/resources/bjb-side-view.ui:29 data/resources/bjb-side-view.ui:209
 msgid "All Notes"
 msgstr "Tüm Notlar"
 
-#: data/resources/bjb-side-view.ui:40
+#: data/resources/bjb-side-view.ui:44
 msgid "Open menu"
 msgstr "Menüyü aç"
 
-#: data/resources/bjb-side-view.ui:71 data/resources/import-dialog.ui:5
+#: data/resources/bjb-side-view.ui:78 data/resources/import-dialog.ui:5
 msgid "Import Notes"
 msgstr "Notları İçe Aktar"
 
-#: data/resources/bjb-side-view.ui:86
+#: data/resources/bjb-side-view.ui:93
 msgid "Text Sizes"
 msgstr "Metin Boyutları"
 
-#: data/resources/bjb-side-view.ui:94
+#: data/resources/bjb-side-view.ui:101
 msgid "_Large"
 msgstr "_Büyük"
 
-#: data/resources/bjb-side-view.ui:102
+#: data/resources/bjb-side-view.ui:109
 msgid "_Medium"
 msgstr "_Orta"
 
-#: data/resources/bjb-side-view.ui:110
+#: data/resources/bjb-side-view.ui:117
 msgid "_Small"
 msgstr "_Küçük"
 
-#: data/resources/bjb-side-view.ui:125 data/resources/settings-dialog.ui:7
+#: data/resources/bjb-side-view.ui:132 data/resources/settings-dialog.ui:7
 msgid "Preferences"
 msgstr "Tercihler"
 
-#: data/resources/bjb-side-view.ui:132
+#: data/resources/bjb-side-view.ui:139
 msgid "Keyboard Shortcuts"
 msgstr "Klavye Kısayolları"
 
-#: data/resources/bjb-side-view.ui:139
+#: data/resources/bjb-side-view.ui:146
 msgid "Help"
 msgstr "Yardım"
 
-#: data/resources/bjb-side-view.ui:146
+#: data/resources/bjb-side-view.ui:153
 msgid "About Notes"
 msgstr "Notlar Hakkında"
 
-#: data/resources/bjb-side-view.ui:169
+#: data/resources/bjb-side-view.ui:176
 msgid "Select Note Location"
 msgstr "Not Konumu Seç"
 
-#: data/resources/bjb-side-view.ui:247
+#: data/resources/bjb-side-view.ui:254
 msgid "Trash"
 msgstr "Çöp"
 
-#: data/resources/bjb-window.ui:48
+#: data/resources/bjb-window.ui:32
 msgid "More options"
 msgstr "Daha çok seçenek"
 
-#: data/resources/bjb-window.ui:81
+#: data/resources/bjb-window.ui:69
 msgid "Undo"
 msgstr "Geri Al"
 
-#: data/resources/bjb-window.ui:89
+#: data/resources/bjb-window.ui:76
 msgid "Redo"
 msgstr "Yinele"
 
-#: data/resources/bjb-window.ui:112
+#: data/resources/bjb-window.ui:97
 msgid "Email this Note"
 msgstr "Bu Notu E-postala"
 
-#: data/resources/bjb-window.ui:120 data/resources/selection-toolbar.ui:78
+#: data/resources/bjb-window.ui:104 data/resources/selection-toolbar.ui:78
 msgid "Move to Trash"
 msgstr "Çöpe Taşı"
 
@@ -429,7 +429,7 @@ msgstr "Not Görünümü"
 msgid "Use System Font"
 msgstr "Sistem Yazı Tipini Kullan"
 
-#: data/resources/settings-dialog.ui:43
+#: data/resources/settings-dialog.ui:43 data/resources/settings-dialog.ui:79
 msgid "Note Font"
 msgstr "Not Yazı Tipi"
 
@@ -437,7 +437,11 @@ msgstr "Not Yazı Tipi"
 msgid "Default Color"
 msgstr "Öntanımlı Renk"
 
-#: src/bijiben-shell-search-provider.c:225 src/bjb-window.c:100
+#: data/resources/settings-dialog.ui:97
+msgid "Note Color"
+msgstr "Not Rengi"
+
+#: src/bijiben-shell-search-provider.c:225 src/bjb-window.c:98
 msgid "Untitled"
 msgstr "Başlıksız"
 
@@ -465,20 +469,16 @@ msgstr "[DOSYA…]"
 msgid "Take notes and export them everywhere."
 msgstr "Not al ve notları her yerde dışa aktar."
 
-#: src/bjb-application.c:340
+#: src/bjb-application.c:343
 msgid "Simple notebook for GNOME"
 msgstr "GNOME için basit not defteri"
 
-#: src/bjb-application.c:346
+#: src/bjb-application.c:349
 msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Muhammet Kara <muhammetk@gmail.com>\n"
 "Osman Karagöz <osmank3@gmail.com>"
-
-#: src/bjb-color-button.c:140
-msgid "Note Color"
-msgstr "Not Rengi"
 
 #: src/bjb-note-list.c:113
 msgid "Add Notes"
@@ -513,7 +513,7 @@ msgstr "Bu ay"
 #. * right to left languages might move %s
 #. *         '%s Last Updated'
 #.
-#: src/bjb-window.c:340
+#: src/bjb-window.c:322
 #, c-format
 msgid "Last updated: %s"
 msgstr "Son güncelleme: %s"
