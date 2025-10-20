@@ -1,5 +1,5 @@
 # Turkish translation for Identity.
-# Copyright (C) 2023-2024 Identity's COPYRIGHT HOLDER
+# Copyright (C) 2023-2025 Identity's COPYRIGHT HOLDER
 # This file is distributed under the same license as the Identity package.
 #
 # Sabri Ünal <yakushabb@gmail.com>, 2023, 2024.
@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Identity\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/YaLTeR/identity/issues\n"
-"POT-Creation-Date: 2025-09-13 15:33+0000\n"
-"PO-Revision-Date: 2025-08-28 22:00+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-10-13 07:27+0000\n"
+"PO-Revision-Date: 2025-09-23 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgid "Inspect a few properties of a video in a dialog"
 msgstr "Videonun birkaç özelliğini iletişim kutusunda incele"
 
 #. developer_name tag deprecated with Appstream 1.0
-#: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:195
+#: data/org.gnome.gitlab.YaLTeR.Identity.metainfo.xml.in.in:205
 msgid "Ivan Molodetskikh"
 msgstr "Ivan Molodetskikh"
 
@@ -158,96 +158,96 @@ msgstr "Dosyayı panodan aç"
 
 #: data/resources/ui/shortcuts.blp:24
 msgctxt "shortcut window"
+msgid "New window"
+msgstr "Yeni pencere"
+
+#: data/resources/ui/shortcuts.blp:31
+msgctxt "shortcut window"
 msgid "Copy selected file to clipboard"
 msgstr "Seçilen dosyayı panoya kopyala"
 
-#: data/resources/ui/shortcuts.blp:29
+#: data/resources/ui/shortcuts.blp:36
 msgctxt "shortcut window"
 msgid "Close selected file"
 msgstr "Seçilen dosyayı kapat"
 
-#: data/resources/ui/shortcuts.blp:34
+#: data/resources/ui/shortcuts.blp:41
 msgctxt "shortcut window"
 msgid "Show media properties"
 msgstr "Ortam özelliklerini göster"
 
-#: data/resources/ui/shortcuts.blp:39
-msgctxt "shortcut window"
-msgid "New window"
-msgstr "Yeni pencere"
-
-#: data/resources/ui/shortcuts.blp:44
+#: data/resources/ui/shortcuts.blp:46
 msgctxt "shortcut window"
 msgid "Show shortcuts"
 msgstr "Kısayolları göster"
 
-#: data/resources/ui/shortcuts.blp:49
+#: data/resources/ui/shortcuts.blp:51
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Çık"
 
-#: data/resources/ui/shortcuts.blp:55
+#: data/resources/ui/shortcuts.blp:57
 msgctxt "shortcut window"
 msgid "Playback"
 msgstr "Oynatma"
 
-#: data/resources/ui/shortcuts.blp:58
+#: data/resources/ui/shortcuts.blp:60
 msgctxt "shortcut window"
 msgid "Play / Pause"
 msgstr "Oynat / Beklet"
 
-#: data/resources/ui/shortcuts.blp:63
+#: data/resources/ui/shortcuts.blp:65
 msgctxt "shortcut window"
 msgid "Step forward one frame"
 msgstr "Bir kare ileri sar"
 
-#: data/resources/ui/shortcuts.blp:68
+#: data/resources/ui/shortcuts.blp:70
 msgctxt "shortcut window"
 msgid "Step back one frame"
 msgstr "Bir kare geri sar"
 
-#: data/resources/ui/shortcuts.blp:74
+#: data/resources/ui/shortcuts.blp:76
 msgctxt "shortcut window"
 msgid "Zoom"
 msgstr "Yaklaştırma"
 
-#: data/resources/ui/shortcuts.blp:77 data/resources/ui/shortcuts.blp:87
+#: data/resources/ui/shortcuts.blp:79
 msgctxt "shortcut window"
 msgid "Zoom in"
 msgstr "Yankınlaştır"
 
-#: data/resources/ui/shortcuts.blp:82 data/resources/ui/shortcuts.blp:92
+#: data/resources/ui/shortcuts.blp:84
 msgctxt "shortcut window"
 msgid "Zoom out"
 msgstr "Uzaklaştır"
 
-#: data/resources/ui/shortcuts.blp:97
+#: data/resources/ui/shortcuts.blp:89
 msgctxt "shortcut window"
 msgid "Zoom 1:1"
 msgstr "1:1 Yakınlaştır"
 
-#: data/resources/ui/shortcuts.blp:102
+#: data/resources/ui/shortcuts.blp:94
 msgctxt "shortcut window"
 msgid "Best fit"
 msgstr "En uygun"
 
 #. Translators: Shortcuts window section title for the display mode (arrange as tabs, in a row, in a column).
-#: data/resources/ui/shortcuts.blp:109
+#: data/resources/ui/shortcuts.blp:101
 msgctxt "shortcut window"
 msgid "Display"
 msgstr "Görünüm"
 
-#: data/resources/ui/shortcuts.blp:112
+#: data/resources/ui/shortcuts.blp:104
 msgctxt "shortcut window"
 msgid "Arrange as tabs"
 msgstr "Sekmelerde göster"
 
-#: data/resources/ui/shortcuts.blp:117
+#: data/resources/ui/shortcuts.blp:109
 msgctxt "shortcut window"
 msgid "Arrange in a row"
 msgstr "Satırlarda göster"
 
-#: data/resources/ui/shortcuts.blp:122
+#: data/resources/ui/shortcuts.blp:114
 msgctxt "shortcut window"
 msgid "Arrange in a column"
 msgstr "Sütunlarda göster"
@@ -390,16 +390,26 @@ msgid "Trim videos quickly"
 msgstr "Videoları hızlıca kırp"
 
 #: src/window.rs:371
-msgid "This release has a minor visual refresh for GNOME 48."
-msgstr "Bu dağıtım GNOME 48 için küçük görsel yenileme içeriyor."
+msgid ""
+"This release adds a context menu to row and column display modes and updates "
+"the platform to GNOME 49."
+msgstr ""
+"Bu sürüm, satır ve sütun görüntüleme kiplerine bağlam menüsü ekler ve "
+"platformu GNOME 49’a yükseltir."
 
 #: src/window.rs:372
-msgid "Changed the versioning scheme to year.month."
-msgstr "Sürümlendirme şeması yıl.ay olarak değiştirildi."
+msgid ""
+"Added a context menu on the images, mirroring the tab context menu. This "
+"makes the context menu accessible in row and column display modes where "
+"there are no tabs."
+msgstr ""
+"Görüntülerin üstüne sekme bağlam menüsünü yansıtan bağlam menüsü eklendi. Bu "
+"herhangi bir sekmenin olmadığı satır ve sütun görüntüleme kiplerinde bağlam "
+"menüsünü erişilebilir kılar."
 
 #: src/window.rs:373
-msgid "Updated to the GNOME 48 platform."
-msgstr "GNOME 48 platformuna güncellendi."
+msgid "Updated to the GNOME 49 platform."
+msgstr "GNOME 49 platformuna güncellendi."
 
 #: src/window.rs:374
 msgid "Updated translations."
@@ -421,36 +431,8 @@ msgstr "Videolar ve görüntüler"
 msgid "Open videos or images to compare"
 msgstr "Karşılaştırmak için videoları ya da görüntüleri aç"
 
-#~ msgid ""
-#~ "This release improves image format support and fixes a few issues with "
-#~ "zooming."
-#~ msgstr ""
-#~ "Bu sürüm resim biçim desteğini iyileştirir ve yakınlaştırmayla ilgili "
-#~ "kimi sorunları çözer."
+#~ msgid "This release has a minor visual refresh for GNOME 48."
+#~ msgstr "Bu dağıtım GNOME 48 için küçük görsel yenileme içeriyor."
 
-#~ msgid ""
-#~ "Images are now loaded with glycin, adding support for many more formats "
-#~ "like AVIF and JPEG XL, and improving compatibility, like using the "
-#~ "correct color space for JPEG images."
-#~ msgstr ""
-#~ "Resimler artık glycin ile yükleniyor, AVIF ve JPEG XL gibi birçok biçime "
-#~ "destek sunuluyor, JPEG resimlerde doğru renk alanı kullanma gibi "
-#~ "uyumluluklar iyileştiriliyor."
-
-#~ msgid "Zoom level now takes into account fractional display scale."
-#~ msgstr ""
-#~ "Yakınlaştırma düzeyi artık kesirli ekran ölçeklendirmeyi göz önünde "
-#~ "bulunduruyor."
-
-#~ msgid "Fixed unusably fast zoom on mice with high-resolution scroll wheels."
-#~ msgstr ""
-#~ "Yüksek çözünürlüklü kaydırma tekerli farelerde kullanışsız hızlı "
-#~ "yakınlaştırma düzeltildi."
-
-#~ msgid "Fixed slightly blurry image borders on some zoom levels."
-#~ msgstr ""
-#~ "Kimi yakınlaştırma düzeylerindeki bulanık resim kenarları düzeltildi."
-
-#~ msgid "Added an Alt+Enter shortcut to open the media properties dialog."
-#~ msgstr ""
-#~ "Ortam özellikleri iletişim kutusunu gösteren Alt+Enter kısayolu eklendi."
+#~ msgid "Changed the versioning scheme to year.month."
+#~ msgstr "Sürümlendirme şeması yıl.ay olarak değiştirildi."

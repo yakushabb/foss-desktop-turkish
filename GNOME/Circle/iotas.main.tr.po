@@ -9,16 +9,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iotas master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/iotas/issues\n"
-"POT-Creation-Date: 2025-09-16 14:01+0000\n"
-"PO-Revision-Date: 2025-08-28 22:01+0300\n"
-"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"POT-Creation-Date: 2025-10-20 08:58+0000\n"
+"PO-Revision-Date: 2025-09-20 08:00+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.7\n"
 
 #. Translators: Iotas is the app name, do not translate
 #: data/org.gnome.World.Iotas.desktop.in.in:3
@@ -354,37 +354,53 @@ msgid "Render Engine Loading"
 msgstr "İşleme Motoru Yükleniyor"
 
 #. Translators: Button
-#: data/ui/export_dialog.ui:22 iotas/preferences_dialog.py:338
-#: iotas/preferences_dialog.py:359
+#: data/ui/export_dialog.ui:22 iotas/preferences_dialog.py:346
+#: iotas/preferences_dialog.py:371
 msgid "Cancel"
 msgstr "İptal"
 
 #. Translators: Title
 #: data/ui/export_dialog.ui:30
-#, fuzzy
-#| msgid "Export…"
 msgid "Export As…"
-msgstr "Dışa Aktar…"
+msgstr "Dışa Farklı Aktar…"
 
 #. Translators: Title
 #: data/ui/export_dialog.ui:51
-#, fuzzy
-#| msgid "Export…"
+msgid "Downloading…"
+msgstr "İndiriliyor…"
+
+#. Translators: Title
+#: data/ui/export_dialog.ui:72
 msgid "Exporting…"
-msgstr "Dışa Aktar…"
+msgstr "Dışa Aktarılıyor…"
 
 #. Translators: Button
 #. Translators: Title
 #. Translators: Button
-#: data/ui/export_dialog.ui:71 data/ui/export_dialog.ui:99
+#: data/ui/export_dialog.ui:92 data/ui/export_dialog.ui:117
 #: data/ui/outline_dialog.ui:104 iotas/ui_utils.py:92
 msgid "Close"
 msgstr "Kapat"
 
 #. Translators: Button
-#: data/ui/export_dialog.ui:78
+#: data/ui/export_dialog.ui:99
 msgid "Show"
 msgstr "Göster"
+
+#. Translators: Description
+#: data/ui/export_dialog.ui:276
+msgid "One or more attachments failed to transfer."
+msgstr "Bir ya da daha çok ek aktarılamadı."
+
+#. Translators: Button
+#: data/ui/export_dialog.ui:288
+msgid "Retry"
+msgstr "Yeniden Dene"
+
+#. Translators: Button
+#: data/ui/export_dialog.ui:297
+msgid "Export Anyway"
+msgstr "Yine De Dışa Aktar"
 
 #. Translators: Title. Iotas is the application name and shouldn't be translated.
 #: data/ui/first_start_page.ui:10
@@ -713,16 +729,14 @@ msgstr "Kategori Değiştir"
 
 #. Translators: Description, keyboard shortcut
 #. Translators: Button
-#: data/ui/keyboard_shortcuts_dialog.ui:102 iotas/export_dialog.py:133
+#: data/ui/keyboard_shortcuts_dialog.ui:102 iotas/export_dialog.py:159
 msgid "Export"
 msgstr "Dışa Aktar"
 
 #. Translators: Description, keyboard shortcut
 #: data/ui/keyboard_shortcuts_dialog.ui:109
-#, fuzzy
-#| msgid "Start Selection"
 msgid "Jump to Section"
-msgstr "Seçimi Başlat"
+msgstr "Bölüme Atla"
 
 #. Translators: Description, keyboard shortcut
 #: data/ui/keyboard_shortcuts_dialog.ui:116
@@ -1092,26 +1106,26 @@ msgstr "Veri"
 
 #. Translators: Title
 #: data/ui/preferences_dialog.ui:169
-msgid "Reset Database"
-msgstr "Veri Tabanını Sıfırla"
+msgid "Connect Nextcloud"
+msgstr "Nextcloudʼa Bağlan"
 
 #. Translators: Description, preference
 #: data/ui/preferences_dialog.ui:171
-msgid "Delete all notes from the local database. The app will quit."
-msgstr "Yerel veri tabanındaki tüm notları sil. Uygulamadan çıkılır."
+msgid "Establish sync with Nextcloud Notes"
+msgstr "Nextcloud Notes ile eşzamanlama oluştur"
 
 #. Translators: Button
-#: data/ui/preferences_dialog.ui:178 iotas/preferences_dialog.py:340
-msgid "Reset"
-msgstr "Sıfırla"
+#: data/ui/preferences_dialog.ui:178
+msgid "Log In"
+msgstr "Oturum Aç"
 
 #. Translators: Title
-#: data/ui/preferences_dialog.ui:190
+#: data/ui/preferences_dialog.ui:187
 msgid "Disconnect Nextcloud"
 msgstr "Nextcloud Bağlantısını Kes"
 
 #. Translators: Description, preference
-#: data/ui/preferences_dialog.ui:192
+#: data/ui/preferences_dialog.ui:189
 msgid ""
 "Signs out from Nextcloud Notes. All notes will be removed and the app will "
 "quit."
@@ -1119,27 +1133,42 @@ msgstr ""
 "Nextcloud Notes’tan çıkış yap. Tüm notlar kaldırılır ve uygulamadan çıkılır."
 
 #. Translators: Button
-#: data/ui/preferences_dialog.ui:199 iotas/preferences_dialog.py:361
+#: data/ui/preferences_dialog.ui:196 iotas/preferences_dialog.py:373
 msgid "Disconnect"
 msgstr "Bağlantıyı Kes"
 
 #. Translators: Title
-#: data/ui/preferences_dialog.ui:217
+#: data/ui/preferences_dialog.ui:208
+msgid "Reset Database"
+msgstr "Veri Tabanını Sıfırla"
+
+#. Translators: Description, preference
+#: data/ui/preferences_dialog.ui:210
+msgid "Delete all notes from the local database. The app will quit."
+msgstr "Yerel veri tabanındaki tüm notları sil. Uygulamadan çıkılır."
+
+#. Translators: Button
+#: data/ui/preferences_dialog.ui:217 iotas/preferences_dialog.py:348
+msgid "Reset"
+msgstr "Sıfırla"
+
+#. Translators: Title
+#: data/ui/preferences_dialog.ui:235
 msgid "Debug"
 msgstr "Hata Ayıklama"
 
 #. Translators: Title
-#: data/ui/preferences_dialog.ui:223
+#: data/ui/preferences_dialog.ui:241
 msgid "Clear Sync Timestamp"
 msgstr "Eşzamanlama Zaman Damgasını Temizle"
 
 #. Translators: Description, preference
-#: data/ui/preferences_dialog.ui:225
+#: data/ui/preferences_dialog.ui:243
 msgid "Forces a pull of all notes from the sync server"
 msgstr "Eşzamanlama sunucusundan tüm notları almaya zorlar"
 
 #. Translators: Button
-#: data/ui/preferences_dialog.ui:232
+#: data/ui/preferences_dialog.ui:250
 msgid "Clear"
 msgstr "Temizle"
 
@@ -1198,53 +1227,53 @@ msgid "Dark Style"
 msgstr "Koyu Biçem"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:282
+#: iotas/application.py:285
 msgid "Create a note"
 msgstr "Not oluştur"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:291
+#: iotas/application.py:294
 msgid "Create a backup"
 msgstr "Yedek oluştur"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:300
+#: iotas/application.py:303
 msgid "Restore a backup"
 msgstr "Yedeği geri yükle"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:309
+#: iotas/application.py:312
 msgid "Display backup path"
 msgstr "Yedekleme yolunu göster"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:318
+#: iotas/application.py:321
 msgid "Display path for custom server SSL CA chain file"
 msgstr "Özel sunucu SSL CA zincir dosyası yolunu göster"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:327
+#: iotas/application.py:330
 msgid "Toggle display of extended preferences in UI"
 msgstr ""
 "Kullanıcı arayüzünde genişletilmiş tercihlerin görüntülenmesini aç/kapat"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:336
+#: iotas/application.py:339
 msgid "Quit any running instance"
 msgstr "Çalışan herhangi bir örnekten çık"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:345
+#: iotas/application.py:348
 msgid "Enable debug logging and functions"
 msgstr "Hata ayıklama günlüğünü ve işlevlerini etkinleştir"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:354
+#: iotas/application.py:357
 msgid "Open note by id"
 msgstr "Notları kimliğiyle aç"
 
 #. Translators: Description, CLI option
-#: iotas/application.py:363
+#: iotas/application.py:366
 msgid "Search in notes"
 msgstr "Notlarda ara"
 
@@ -1270,13 +1299,13 @@ msgid "Uncategorised"
 msgstr "Kategorisiz"
 
 #. Translators: Description, notification, {0} is a number
-#: iotas/editor.py:958
+#: iotas/editor.py:993
 #, python-brace-format
 msgid "Line length now {0}px"
 msgstr "Satır yüksekliği {0}px"
 
 #. Translators: Description, notification
-#: iotas/editor.py:964
+#: iotas/editor.py:999
 msgid "Line length limit disabled"
 msgstr "Satır uzunluğu sınırı devre dışı"
 
@@ -1291,14 +1320,19 @@ msgid "{0} of {1}"
 msgstr "{0} / {1}"
 
 #. Translators: Description, {} is a format eg. PDF
-#: iotas/export_dialog.py:103
+#: iotas/export_dialog.py:128
 msgid "Exported to {}"
 msgstr "{} olarak dışa aktarıldı"
 
 #. Translators: Description, {} is a format eg. PDF
-#: iotas/export_dialog.py:116
+#: iotas/export_dialog.py:141
 msgid "Failed to export to {}"
 msgstr "{} dışa aktarılamadı"
+
+#. Translators: Title
+#: iotas/export_dialog.py:210
+msgid "Transfer Failed"
+msgstr "Aktarılamadı"
 
 #. Translators: Description, notification, {} is a positive number
 #: iotas/index.py:205
@@ -1370,146 +1404,146 @@ msgid "Edit Link"
 msgstr "Bağlantıyı Düzenle"
 
 #. Translators: Title
-#: iotas/nextcloud_login_dialog.py:108
+#: iotas/nextcloud_login_dialog.py:110
 msgid "Updating Notes"
 msgstr "Notlar Güncelleniyor"
 
 #. Translators: Title
-#: iotas/nextcloud_login_dialog.py:112
+#: iotas/nextcloud_login_dialog.py:114
 msgid "Performing Initial Transfer"
 msgstr "İlk Aktarım Gerçekleştiriliyor"
 
 #. Translators: Title
-#: iotas/nextcloud_login_dialog.py:168
+#: iotas/nextcloud_login_dialog.py:170
 msgid "Connecting"
 msgstr "Bağlanılıyor"
 
 #. Translators: Title
-#: iotas/nextcloud_login_dialog.py:190
+#: iotas/nextcloud_login_dialog.py:192
 msgid "Waiting for Login"
 msgstr "Giriş için Bekleniyor"
 
 #. Translators: Description
-#: iotas/nextcloud_login_dialog.py:192
+#: iotas/nextcloud_login_dialog.py:194
 msgid "Complete the authentication in your browser"
 msgstr "Kimlik doğrulama işlemini tarayıcınızda tamamlayın"
 
 #. Translators: Description, notification
-#: iotas/nextcloud_login_dialog.py:208
+#: iotas/nextcloud_login_dialog.py:210
 msgid "Failed to start login with possible certificate issue"
 msgstr "Sertifika sorunu nedeniyle oturum açma başlatılamadı"
 
 #. Translators: Description, notification
-#: iotas/nextcloud_login_dialog.py:211
+#: iotas/nextcloud_login_dialog.py:213
 msgid "Failed to start login. Wrong address?"
 msgstr "Giriş başlatılamadı. Adres yanlış mı?"
 
 #. Translators: Description, a style name
 #. Translators: Description, a visual style (for category labels in index)
-#: iotas/preferences_dialog.py:65 iotas/preferences_dialog.py:97
+#: iotas/preferences_dialog.py:71 iotas/preferences_dialog.py:103
 msgid "Monochrome"
 msgstr "Tek renkli"
 
 #. Translators: Description, a style name
-#: iotas/preferences_dialog.py:67
+#: iotas/preferences_dialog.py:73
 msgid "Muted Markup"
 msgstr "Sessiz İmleme"
 
 #. Translators: Description, a style name
-#: iotas/preferences_dialog.py:69
+#: iotas/preferences_dialog.py:75
 msgid "Bold Markup"
 msgstr "Kalın Biçimlendirme"
 
 #. Translators: Description, a style name
 #. Translators: Description, for preference option - a description of visibility
-#: iotas/preferences_dialog.py:71 iotas/preferences_dialog.py:124
+#: iotas/preferences_dialog.py:77 iotas/preferences_dialog.py:130
 msgid "Disabled"
 msgstr "Devre Dışı"
 
 #. Translators: Description, a visual style (for category labels in index)
-#: iotas/preferences_dialog.py:99
+#: iotas/preferences_dialog.py:105
 msgid "Muted"
 msgstr "Sessiz"
 
 #. Translators: Description, a visual style (for category labels in index)
-#: iotas/preferences_dialog.py:101
+#: iotas/preferences_dialog.py:107
 msgid "Blue"
 msgstr "Mavi"
 
 #. Translators: Description, a visual style (for category labels in index)
-#: iotas/preferences_dialog.py:103
+#: iotas/preferences_dialog.py:109
 msgid "Orange"
 msgstr "Turuncu"
 
 #. Translators: Description, a visual style (for category labels in index)
-#: iotas/preferences_dialog.py:105
+#: iotas/preferences_dialog.py:111
 msgid "Red"
 msgstr "Kırmızı"
 
 #. Translators: Description, a visual style (for category labels in index)
-#: iotas/preferences_dialog.py:107
+#: iotas/preferences_dialog.py:113
 msgid "None"
 msgstr "Hiçbiri"
 
 #. Translators: Description, for preference option - a description of visibility
-#: iotas/preferences_dialog.py:118 iotas/preferences_dialog.py:138
+#: iotas/preferences_dialog.py:124 iotas/preferences_dialog.py:144
 msgid "Always Visible"
 msgstr "Her Zaman Görünür"
 
 #. Translators: Description, for preference option - a description of visibility
-#: iotas/preferences_dialog.py:120 iotas/preferences_dialog.py:140
+#: iotas/preferences_dialog.py:126 iotas/preferences_dialog.py:146
 msgid "Automatically Hide"
 msgstr "Kendiliğinden Gizle"
 
 #. Translators: Description, for preference option - a description of visibility
-#: iotas/preferences_dialog.py:122 iotas/preferences_dialog.py:142
+#: iotas/preferences_dialog.py:128 iotas/preferences_dialog.py:148
 msgid "Auto Hide When Fullscreen"
 msgstr "Tam Ekranken Kendiliğinden Gizle"
 
 #. Translators: Description, notification, {0} is a number
-#: iotas/preferences_dialog.py:273
+#: iotas/preferences_dialog.py:281
 #, python-brace-format
 msgid "Reducing in {0} presses"
 msgstr "{0} basışta azaltılıyor"
 
 #. Translators: Description, notification, {0} is a number
-#: iotas/preferences_dialog.py:276
+#: iotas/preferences_dialog.py:284
 #, python-brace-format
 msgid "Extending in {0} presses"
 msgstr "{0} basışta genişletiliyor"
 
 #. Translators: Description, notification
-#: iotas/preferences_dialog.py:281
+#: iotas/preferences_dialog.py:289
 msgid "Extended hidden"
 msgstr "Genişletme gizleniyor"
 
 #. Translators: Description, notification
-#: iotas/preferences_dialog.py:284
+#: iotas/preferences_dialog.py:292
 msgid "Extended shown"
 msgstr "Genişletme gösteriliyor"
 
 #. Translators: Description, notification. Needs to be short for toast.
-#: iotas/preferences_dialog.py:313
+#: iotas/preferences_dialog.py:321
 msgid "Hiding discouraged on mobile"
 msgstr "Mobil aygıtlarda gizleme önerilmez"
 
 #. Translators: Title
-#: iotas/preferences_dialog.py:333
+#: iotas/preferences_dialog.py:341
 msgid "Reset Database?"
 msgstr "Veri Tabanı Sıfırlansın Mı?"
 
 #. Translators: Description
-#: iotas/preferences_dialog.py:335
+#: iotas/preferences_dialog.py:343
 msgid "All notes will be deleted. Continue with the reset?"
 msgstr "Tüm notlar silinecek. Sıfırlama sürdürülsün mü?"
 
 #. Translators: Title
-#: iotas/preferences_dialog.py:354
+#: iotas/preferences_dialog.py:366
 msgid "Disconnect Nextcloud?"
 msgstr "Nextcloud Bağlantısını Kesilsin Mi?"
 
 #. Translators: Description
-#: iotas/preferences_dialog.py:356
+#: iotas/preferences_dialog.py:368
 msgid "All notes will be removed. Do you want to sign out?"
 msgstr "Tüm notlar kaldırılacak. Oturumu kapatmak istiyor musunuz?"
 
@@ -1525,7 +1559,7 @@ msgstr "{} seçildi"
 
 #. Translators: Description, used as a prefix to the previous title for notes updated both
 #. locally and remotely. " - " is placed between this prefix and the title.
-#: iotas/sync_manager.py:558
+#: iotas/sync_manager.py:585
 msgid "SYNC CONFLICT"
 msgstr "EŞZAMANLAMA ÇAKIŞMASI"
 
@@ -1533,12 +1567,3 @@ msgstr "EŞZAMANLAMA ÇAKIŞMASI"
 #: iotas/ui_utils.py:90
 msgid "Error"
 msgstr "Hata"
-
-#~ msgid "Export As..."
-#~ msgstr "Dışa Başka Aktar..."
-
-#~ msgid "Exporting..."
-#~ msgstr "Dışa aktarılıyor..."
-
-#~ msgid "OK"
-#~ msgstr "Tamam"
